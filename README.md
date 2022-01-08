@@ -8,7 +8,7 @@
 
 #### - Welcome to "HTML5 and CSS Fundamentals"
 #### - Course outline, grading and due dates
-#### - Course practical information
+#### - Course practical information
 #### - Course tools
 
 # [Module 1: My first Web page in HTML5](https://github.com/bbauska/W3Cx-2of5-HTML5.0x/blob/master/module1/module1.md)
