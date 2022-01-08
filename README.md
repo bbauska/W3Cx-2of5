@@ -1,19 +1,19 @@
-# W3Cx-2of5-HTML5.0x
+# **W3Cx-2of5-HTML5.0x**
 
-# HTML5 and CSS Fundamentals
+# **HTML5 and CSS Fundamentals**
 
-## W3Cx-2of5-CSS.0x - CSS Basics
+## **W3Cx-2of5-CSS.0x - CSS Basics**
 
-### Course outline
+### **Course outline**
 
-### Module 0: Course information
+### **Module 0: Course information**
 
   - Welcome to "CSS Basics"  
   - Course outline, grading and due dates  
   - Course practical information  
   - Course tools
 
-### \[Module 1: Getting started with CSS\](https://github.com/bbauska/CSS.0x-W3Cx/blob/master/module1/module1.md)
+### **\[Module 1: Getting started with CSS\](https://github.com/bbauska/CSS.0x-W3Cx/blob/master/module1/module1.md)**
 
 \### Introduction to Module 1  
 \### What is CSS?  
