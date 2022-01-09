@@ -11,7 +11,7 @@
 #### - Course practical information
 #### - Course tools
 
-# [Module 1: My first Web page in HTML5](https://github.com/bbauska/W3Cx-2of5-HTML5.0x/blob/master/module1/module1.md)
+# [Module 1: My first Web page in HTML5](https://github.com/bbauska/W3Cx-2of5-HTML5.0x/blob/master/modules/module1.md)
 
 #### 1.1 Introduction to Module 1 
 #### 1.2 The big three: HTML5, CSS3 and JavaScript 
@@ -29,21 +29,21 @@
 #### 2.5 Hyperlinks
 #### 2.6 Exercises - Module 2
 
-# [Module 3: Adding style with CSS](https://github.com/bbauska/W3Cx-2of5-HTML5.0x/blob/master/module3/module3.md)
+# [Module 3: Adding style with CSS](https://github.com/bbauska/W3Cx-2of5-HTML5.0x/blob/master/modules/module3.md)
 #### 3.1 Introduction to Module 3 
 #### 3.2 CSS basic syntax 
 #### 3.3 CSS properties 
 #### 3.4 Lists and selectors 
 #### 3.5 Exercises - Module 3 
 
-# [Module 4: Fixing and debugging](https://github.com/bbauska/W3Cx-2of5-HTML5.0x/blob/master/module4/module4.md)
+# [Module 4: Fixing and debugging](https://github.com/bbauska/W3Cx-2of5-HTML5.0x/blob/master/modules/module4.md)
 #### 4.1 Introduction to Module 4 
 #### 4.2 Debugging tools and HTML5 
 #### 4.3 Debugging and the CSS box model 
 #### 4.4 Debugging CSS precedence 
 #### 4.5 Exercises - Module 4 
 
-# [Module 5: More HTML5 and CSS](https://github.com/bbauska/W3Cx-2of5-HTML5.0x/blob/master/module5/module5.md)
+# [Module 5: More HTML5 and CSS](https://github.com/bbauska/W3Cx-2of5-HTML5.0x/blob/master/modules/module5.md)
 #### 5.1 Introduction to Module 5 
 #### 5.2 Tables 
 #### 5.3 Multimedia 
@@ -51,7 +51,7 @@
 #### 5.5 CSS tricks 
 #### 5.6 Exercises - Module 5 
 
-# [Module 6: Basics of page Layout](https://github.com/bbauska/W3Cx-2of5-HTML5.0x/blob/master/module6/module6.md)
+# [Module 6: Basics of page Layout](https://github.com/bbauska/W3Cx-2of5-HTML5.0x/blob/master/modules/module6.md)
 #### 6.1 Introduction to Module 6 
 #### 6.2 Concepts 
 #### 6.3 CSS Flexbox 
