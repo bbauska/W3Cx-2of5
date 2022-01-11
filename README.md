@@ -47,7 +47,7 @@
 > #### 5.1 Introduction to Module 5 
 > #### 5.2 Tables 
 > #### 5.3 Multimedia 
-> #### 5.4 Embedding content (OPTIONAL) 
+> #### 5.4 Embedding content
 > #### 5.5 CSS tricks 
 > #### 5.6 Exercises - Module 5 
 
@@ -55,6 +55,6 @@
 > #### 6.1 Introduction to Module 6 
 > #### 6.2 Concepts 
 > #### 6.3 CSS Flexbox 
-> #### 6.4 More flexbox (OPTIONAL) 
-> #### 6.5 CSS Grid (OPTIONAL) 
+> #### 6.4 More flexbox
+> #### 6.5 CSS Grid
 > #### 6.6 Recipe project 
