@@ -4,17 +4,16 @@
 
 ## Course outline
 
-# Course information
-
-> #### - Welcome to "HTML5 and CSS Fundamentals"
-> #### - Course outline, grading and due dates
-> #### - Course practical information
-> #### - Course tools
-
 # About W3C and the Web
 > #### - About W3C and the Web
 > #### - Why accessibility is important
 > #### - Why internationalization is important
+
+# Course information
+> #### - Welcome to "HTML5 and CSS Fundamentals"
+> #### - Course outline, grading and due dates
+> #### - Course practical information
+> #### - Course tools
 
 # [Module 1: My first Web page in HTML5](https://github.com/bbauska/W3Cx-2of5-HTML5.0x/blob/master/modules/module1.md)
 
