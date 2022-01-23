@@ -25,7 +25,7 @@
 > ##### 1.6 More on tags 
 > ##### 1.7 Exercises - Module 1
 
-## [Module 2: Attributes, images and links](https://github.com/bbauska/W3Cx-2of5-HTML5.0x/blob/master/modules/module 2.md)
+## [Module 2: Attributes, images and links](/modules/module 2.md)
 > ##### 2.1 Introduction to Module 2
 > ##### 2.2 Attributes
 > ##### 2.3 Semantic meaning
