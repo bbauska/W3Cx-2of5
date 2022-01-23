@@ -2303,7 +2303,7 @@ primarily used to invoke certain formatting. 
 5.  would smell as sweet
    
 <p align="center">
-<img src="/images/mod1/image2.png" width="450" height="200" "Example of poetry as it might appear on a Web page" >
+<img src="/images/mod1/image11.png" width="450" height="200" "Example of poetry as it might appear on a Web page" >
 &nbsp;
      
 -   **\<pre\>** - **pre** stands for \"PREformatted text\", meaning that
