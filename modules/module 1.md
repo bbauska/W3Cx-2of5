@@ -133,10 +133,6 @@ indentations and whatever else may apply to what it looks like.
 <img src="/images/mod1/image4.jpeg" width="200" height="175" "JavaScript logo" >
 &nbsp;
 
-![Javascript
-logo](./mod1-images/media/image4.jpeg){width="1.3333333333333333in"
-height="1.3333333333333333in"}
-
 The \'JavaScript\', or \'JS\' for short, part is about the actions a
 page can take such as interaction with the user, and customizing and
 changing the page according to any number of parameters.  This is what
@@ -157,6 +153,10 @@ paragraphs, tables, figures, etc.)
 That\'s why, in 1989, Tim Berners-Lee began to create a definition of
 HTML: Hypertext Markup Language, to provide a simple, uniform way to
 incorporate Hyperlinks in a text document.
+
+<p align="center">
+<img src="/images/mod1/image5.png" width="800" height="700" "Illustration of hypertext documents (here are extract of wikipedia pages): the HTML5 page has links going to the Markup language page, the World Wide Web definition page, etc." >
+&nbsp;
 
 ![Illustration of hypertext documents (here are extract of wikipedia
 pages): the HTML5 page has links going to the Markup language page, the
