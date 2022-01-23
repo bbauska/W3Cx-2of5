@@ -1072,9 +1072,10 @@ can contain other elements, as the body element would contain header
 elements, paragraph elements, in fact pretty much all of the visible
 elements of the DOM.
 
-![](./mod1-images/media/image7.png){width="5.0in"
-height="2.7596128608923887in"}
-
+<p align="center">
+<img src="/images/mod1/image7.png" width="450" height="200" "Elements" >
+&nbsp;
+    
 Consider the figure above.  It contains a single \'html\' element.  It
 turns out this includes within it the entire content of your html file.
  If you click on the \"html\" node, you\'ll find that it contains two
@@ -1097,7 +1098,9 @@ a text file?  Well, that\'s where \"tags\" come in.
 
 ## 1.3.4 Tags
 
-## ![](./mod1-images/media/image8.png){width="1.2604166666666667in" height="1.6979166666666667in"}
+<h2 align="center">
+<img src="/images/mod1/image8.png" width="200" height="240" "Tag" >
+&nbsp;
 
 \'Tags\' are what we use to organize a text file (which is just a long
 string of characters) such that it represents a tree of elements that
@@ -1142,8 +1145,11 @@ needs Emphasis. The \'\<\' and \'\>\' indicate that this is a tag, and
 the little bits of text in between tell us what kind of tag it is. To
 completely describe the element, it needs an open and close tag, with
 everything in between the tags being the content of the
-element](./mod1-images/media/image9.png){width="5.0in"
-height="2.714747375328084in"}
+element]
+    
+    <p align="center">
+<img src="/images/mod1/image9.png" width="450" height="200" "Diagram of an element" >
+&nbsp;
 
 Most tags have open and close versions, but there are a few strange
 ones.  We\'ll learn more about these later, but we generally refer to
@@ -2261,10 +2267,10 @@ wise - Benjamin Franklin
 
 This code might be rendered like this:
 
-![Example of a list as it would appear on a Web
-page](./mod1-images/media/image10.png){width="2.0520833333333335in"
-height="0.8854166666666666in"}
-
+<p align="center">
+<img src="/images/mod1/image10.png" width="450" height="200" "Example of a list as it would appear on a Web page" >
+&nbsp;
+    
 There are a couple more tags we want to bring up at this point, but
 first a disclaimer.  We have been emphasizing the general rule that HTML
 is for the logical structure of your content, not what it looks like.
