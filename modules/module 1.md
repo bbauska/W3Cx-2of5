@@ -56,9 +56,7 @@ Management: A proposal\', pictured below, the proposal was created by
 Sir Tim Berners-Lee and was sent to his boss Mike Sendall, who described
 it as \'vague but exciting\'.
 
-![Tim Berners-Lee original proposal for the
-Web](./images/mod1/image1.gif){width="6.0in"
-height="5.370535870516186in"}
+![Tim Berners-Lee original proposal for the Web](/images/mod1/image1.gif width="6.0in" height="5.37in")
 
 Sir Tim Berners-Lee's vision for universality enabled the development of
 a high-level network of content that allows any document to link to any
