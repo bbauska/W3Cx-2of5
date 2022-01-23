@@ -116,8 +116,9 @@ create dynamic Web pages.
 
 ### CSS
 
-![CSS3 logo](./mod1-images/media/image3.png){width="1.90625in"
-height="1.0729166666666667in"}
+<p align="center">
+<img src="/images/mod1/image3.png" width="400" height="350" "CSS logo" >
+&nbsp;
 
 The \'CSS\' part (version 3 being current) is all about the presentation
 or style of the page; what it looks like without too much regard for the
