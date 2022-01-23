@@ -158,12 +158,6 @@ incorporate Hyperlinks in a text document.
 <img src="/images/mod1/image5.png" width="800" height="700" "Illustration of hypertext documents (here are extract of wikipedia pages): the HTML5 page has links going to the Markup language page, the World Wide Web definition page, etc." >
 &nbsp;
 
-![Illustration of hypertext documents (here are extract of wikipedia
-pages): the HTML5 page has links going to the Markup language page, the
-World Wide Web definition page,
-etc.](./mod1-images/media/image5.png){width="6.0in"
-height="3.9826935695538057in"}
-
 He envisioned a technology that would facilitate thoroughly
 interconnected documents. He wanted authors to be able to connect an
 idea in one document to the source of the idea in another, or connect a
@@ -187,9 +181,9 @@ government organizations.  As things progressed through the 80s, the
 Internet was used for file transfers, newsgroups (a kind of open forum),
 email and other conveniences.
 
-![snapshot of a Mosaic
-Browser](./mod1-images/media/image6.jpeg){width="6.0in"
-height="5.579997812773403in"}
+<p align="center">
+<img src="/images/mod1/image6.jpeg" width="800" height="700" "Snapshot of Mosaic browser" >
+&nbsp;
 
 At the time there were a number of different programs like
 \'[fetch](https://en.wikipedia.org/wiki/Fetch_(FTP_client))\',
