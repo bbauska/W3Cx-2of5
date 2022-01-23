@@ -2301,11 +2301,11 @@ primarily used to invoke certain formatting. 
 4.  That which we call a rose \<br\> By any other name
 
 5.  would smell as sweet
-
-![Example of poetry as it might appear on a Web
-page](./mod1-images/media/image11.png){width="3.8541666666666665in"
-height="1.5in"}
-
+   
+<p align="center">
+<img src="/images/mod1/image2.png" width="450" height="200" "Example of poetry as it might appear on a Web page" >
+&nbsp;
+     
 -   **\<pre\>** - **pre** stands for \"PREformatted text\", meaning that
     the text is to be presented exactly as written in the HTML file. It
     preserves all text formatting characters i.e. spaces, line
