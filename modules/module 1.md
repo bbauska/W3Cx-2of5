@@ -96,7 +96,7 @@ interact with all the information on the World Wide Web.
 ### HTML5
 
 <p align="center">
-<img src="/images/mod1/image2.png" width="400" height="350">
+<img src="/images/mod1/image2.png" width="200" height="175" "HTML5 logo" >
 &nbsp;
 
 When people say \'HTML5\', they usually mean a bit more than just the
@@ -117,7 +117,7 @@ create dynamic Web pages.
 ### CSS
 
 <p align="center">
-<img src="/images/mod1/image3.png" width="400" height="350" "CSS logo" >
+<img src="/images/mod1/image3.png" width="200" height="175" "CSS logo" >
 &nbsp;
 
 The \'CSS\' part (version 3 being current) is all about the presentation
@@ -128,6 +128,10 @@ course, but for now, think of it as the way you might specify a
 indentations and whatever else may apply to what it looks like.
 
 ### JavaScript
+
+<p align="center">
+<img src="/images/mod1/image4.jpeg" width="200" height="175" "JavaScript logo" >
+&nbsp;
 
 ![Javascript
 logo](./mod1-images/media/image4.jpeg){width="1.3333333333333333in"
