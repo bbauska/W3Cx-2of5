@@ -56,11 +56,6 @@ Management: A proposal\', pictured below, the proposal was created by
 Sir Tim Berners-Lee and was sent to his boss Mike Sendall, who described
 it as \'vague but exciting\'.
 
-<p align="center" width="100%">
-  <img width="75%" src="/images/image1.gif?raw=true"
-    alt="Tim Berners-Lee original proposal for the Web"</>
-</p>
-
 <!--- ![Tim Berners-Lee original proposal for the Web]("https://github.com/bbauska/W3Cx-2of5-HTML5.0x/blob/main/images/mod1/image1.gif?raw=true" width="6.0in" height="5.37in")   --->
 
 <p align="center">
@@ -100,9 +95,9 @@ interact with all the information on the World Wide Web.
 
 ### HTML5
 
-![HTML5
-logo](./mod1-images/media/image2.png){width="1.3333333333333333in"
-height="2.0208333333333335in"}
+<p align="center">
+<img src="/images/mod1/image2.png" width="400" height="350">
+&nbsp;
 
 When people say \'HTML5\', they usually mean a bit more than just the
 5th version of the \"HyperText Markup Language\". Modern Web pages and
