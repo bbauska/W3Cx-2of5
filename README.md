@@ -15,7 +15,7 @@
 > ##### * Course practical information
 > ##### * Course tools
 
-## [Module 1: My first Web page in HTML5](/modules/module 1.md)
+[Module 1: My first Web page in HTML5](/modules/module 1.md)
 
 > ##### 1.1 Introduction to Module 1 
 > ##### 1.2 The big three: HTML5, CSS3 and JavaScript 
