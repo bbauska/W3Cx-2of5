@@ -107,7 +107,7 @@ The text \"baseline\" is a key concept to understanding how the browser
 makes its layout decisions.  
 
 <p align="center">
-<img src="/images/image1.png?raw=true" "Baseline" width="200" >
+<img src="/images/mod6/image1.png?raw=true" "Baseline" width="200" >
 &nbsp;
 
 In the image above, we see two text characters placed next to each
@@ -132,7 +132,7 @@ is a quick table of the default values for some of the tags we\'ve
 already learned.
 
 <p align="center">
-<img src="/images/mod66/image2.png?raw=true" "" width="650" >
+<img src="/images/mod6/image2.png?raw=true" "" width="650" >
 &nbsp;
 
 Here are some differences between the block - level and inline elements.
@@ -193,15 +193,17 @@ Below we see a span that has padding, margin-top, and background-color
 applied, but no extra room is being made for it above or below, so its
 background is overlapping the lines above and below.
 
-![](./mod6-images/media/image3.png){width="6.5in"
-height="1.5270833333333333in"}
+<p align="center">
+<img src="/images/mod6/image3.png?raw=true" "" width="650" >
+&nbsp;
 
 So here we prevent the overlap by setting the line-height of the span.
 However, this solution should not be considered optimal.  Better is to
 change the span to be display:inline-block, which is discussed below.
 
-![](./mod6-images/media/image4.png){width="6.5in"
-height="1.6027777777777779in"}
+<p align="center">
+<img src="/images/mod6/image4.png?raw=true" "" width="650" >
+&nbsp;
 
 ### inline-block
 
@@ -236,8 +238,9 @@ instead of using line-height to solve the problem, we simply make the
 span element display:inline-block.  Note that the margin-top is also
 respected. 
 
-![](./mod6-images/media/image5.png){width="6.5in"
-height="1.8090277777777777in"}
+<p align="center">
+<img src="/images/mod6/image5.png?raw=true" "Baseline" width="650" >
+&nbsp;
 
 ### display property
 
@@ -505,8 +508,9 @@ positioning property (top).   When we use top, the \"Third\" item
 appears overlapping the Fourth and Fifth items, as they did not move at
 all. 
 
-![](./mod6-images/media/image6.png){width="6.5in"
-height="1.8368055555555556in"}
+<p align="center">
+<img src="/images/mod6/image6.png?raw=true" "Baseline" width="200" >
+&nbsp;
 
 This is why, in our introduction to CSS, we said that margin should be
 your \"go to\" property when you want to adjust position. 
@@ -537,8 +541,9 @@ paragraph is made smaller and no part goes outside its parent.  But when
 it is position:relative and moved with the left property, it can leave
 the bounds of its parent, or go offscreen.
 
-![](./mod6-images/media/image7.png){width="6.5in"
-height="1.4513888888888888in"}
+<p align="center">
+<img src="/images/mod6/image7.png?raw=true" "Baseline" width="650" >
+&nbsp;
 
 Admittedly, this is not necessarily a \"limitation\", for many layout
 situations preserving the size is exactly what is wanted. 
@@ -566,8 +571,9 @@ some text and an inner \<q\>.  For a better illustration, the paragraph
 has its height set and a border applied.  The \<q\> is positioned
 absolutely.
 
-![](./mod6-images/media/image8.png){width="6.5in"
-height="2.338888888888889in"}
+<p align="center">
+<img src="/images/mod6/image8.png?raw=true" "Baseline" width="650" >
+&nbsp;
 
 So that seems fairly straightforward and useful. But there are some
 subtle caveats and trade-offs of which you must be wary:
@@ -619,8 +625,9 @@ other. (The red 1 is hidden behind the red 2). Borders have been added
 in the result below, so you can easily see the rectangle
 for  \<li\> versus \<ul\>.
 
-![](./mod6-images/media/image9.png){width="6.5in"
-height="1.8368055555555556in"}
+<p align="center">
+<img src="/images/mod6/image9.png?raw=true" "Baseline" width="650" >
+&nbsp;
 
 Best practice: use both horizontal and vertical positioning property on
 every absolute element
@@ -666,8 +673,9 @@ contribute to the height of the parent. As a result, it ends up with a
 height of 0, as if it were empty. The fat border just becomes a fat flat
 line, and the list items themselves are not enclosed. 
 
-![](./mod6-images/media/image10.png){width="6.5in"
-height="1.2930555555555556in"}
+<p align="center">
+<img src="/images/mod6/image10.png?raw=true" "Baseline" width="200" >
+&nbsp;
 
 ### Absolute positioned block level elements do not get the width of their parent
 
@@ -734,8 +742,9 @@ them position relative and using negative margins
 set, so the later elements overlap the earlier ones.  But on the right,
 we govern the overlapping with the z-index property. 
 
-![](./mod6-images/media/image11.png){width="6.5in"
-height="1.2243055555555555in"}
+<p align="center">
+<img src="/images/mod6/image11.png?raw=true" "Baseline" width="200" >
+&nbsp;
 
 -   z-index has no effect on position:static (the default) elements.
 
@@ -763,7 +772,9 @@ of any of them, but because Alan\'s parent Albert is lower than Betty,
 Alan remains behind. Alan\'s high z-index is only relevant to his
 siblings, not to cousins further out in the document.
 
-![](./mod6-images/media/image12.png){width="6.5in" height="1.85in"}
+<p align="center">
+<img src="/images/mod6/image12.png?raw=true" "" width="650" >
+&nbsp;
 
 ## 6.3.1 Sizing and dimensions
 
@@ -873,8 +884,9 @@ background color to the paragraph.  
 This default behavior, that content that doesn\'t fit is shown anyway,
 can be surprising if you weren\'t expecting it. 
 
-![](./mod6-images/media/image13.png){width="6.5in"
-height="2.214583333333333in"}
+<p align="center">
+<img src="/images/mod6/image13.png?raw=true" " " width="650" >
+&nbsp;
 
 ### overflow
 
@@ -907,8 +919,9 @@ of 100 pixels. 
 3.  When the value is scroll, then the scroll bars are *always* shown,
     whether they are needed or not.
 
-![](./mod6-images/media/image14.png){width="6.5in"
-height="1.8368055555555556in"}
+<p align="center">
+<img src="/images/mod6/image14.png?raw=true" "" width="650" >
+&nbsp;
 
 ### The box model and box-sizing
 
@@ -927,8 +940,9 @@ padding, border, and margins.  In CSS parlance, this question is about
 the \"Box Model\" of the element.  Here is an illustration of how the
 different boxes are organized (innermost to outermost).
 
-![](./mod6-images/media/image15.png){width="4.0in"
-height="3.0816240157480315in"}
+<p align="center">
+<img src="/images/mod6/image15.png?raw=true" "" width="400" >
+&nbsp;
 
 box-sizing
 
@@ -1001,8 +1015,9 @@ browser sizes, with no other properties applied except some small margin
 and padding on the paragraph, and a background color and a border radius
 to help visualize.
 
-![](./mod6-images/media/image16.png){width="6.5in"
-height="1.5381944444444444in"}
+<p align="center">
+<img src="/images/mod6/image16.png?raw=true" "" width="650" >
+&nbsp;
 
 ### flex container
 
@@ -1173,7 +1188,6 @@ flex items (e.g. flex:1), but again, this isn\'t required.
 
 ### Use variable dimensions on flex items instead of explicit ones
 
-This advice may not apply to images and may not be appropriate for every
 flex item. However, for most flex items, try to avoid using
 explicit width and height properties. Instead, use the flex-basis to set
 a desired dimension (e.g. flex: 1 1 **200px**; ).  Or consider
@@ -1274,8 +1288,9 @@ wrap-reverse; it is vertical running bottom to top.
 
 #### Start and end
 
-![flexbox axes](./mod6-images/media/image17.jpeg){width="5.0in"
-height="4.2857906824146985in"}
+<p align="center">
+<img src="/images/mod6/image17.png?raw=true" "Flex axes" width="500" >
+&nbsp;
 
 In the illustration above, we see the main and cross axes as they would
 be for flex-flow:row wrap;.  And in the same illustration, we also see
@@ -1390,7 +1405,9 @@ the direction of the cross axis.
 The table below should help illustrate this. It shows the justification
 options for a flexbox container with flex-flow:row;
 
-![](./mod6-images/media/image18.png){width="6.5in" height="2.11875in"}
+<p align="center">
+<img src="/images/mod6/image18.png?raw=true" "" width="650" >
+&nbsp;
 
 If the flex-direction were row-reverse, then the only thing to change in
 the table above would be that the appearances
@@ -1430,11 +1447,13 @@ height of any of the items.  
 In the example below, each item has a different line-height value, so
 you can see how they align to each other.
 
-![](./mod6-images/media/image19.png){width="6.5in"
-height="3.8819444444444446in"}
+<p align="center">
+<img src="/images/mod6/image19.png?raw=true" "" width="650" >
+&nbsp;
 
-![](./mod6-images/media/image20.png){width="6.5in"
-height="2.426388888888889in"}
+<p align="center">
+<img src="/images/mod6/image20.png?raw=true" "" width="650" >
+&nbsp;
 
 ### align-content
 
@@ -1451,10 +1470,13 @@ This is easier to understand from an example. Below we have a flex
 container with  flex-flow:row wrap; and a height value that is greater
 than the height of any of the items.
 
-![](./mod6-images/media/image21.png){width="6.0in"
-height="3.615384951881015in"}
+<p align="center">
+<img src="/images/mod6/image21.png?raw=true" "" width="600" >
+&nbsp;
 
-![](./mod6-images/media/image22.png){width="6.0in" height="3.325in"}
+<p align="center">
+<img src="/images/mod6/image22.png?raw=true" "" width="600" >
+&nbsp;
 
 ### align-self
 
@@ -1477,8 +1499,9 @@ In the example below, we have a flex container
 with flex-flow:row; and align-items:center;.  The individual items have
 their align-self property set.
 
-![](./mod6-images/media/image23.png){width="6.0in"
-height="1.3692311898512686in"}
+<p align="center">
+<img src="/images/mod6/image23.png?raw=true" "" width="600" >
+&nbsp;
 
 ## 6.4.3 Order
 
@@ -1506,8 +1529,9 @@ The order property, when applied to an individual flexbox item, lets you
 set its order. By default, the first item in a flexbox container has
 the order value of 1, the second is 2, etc.  And you can override it.
 
-![](./mod6-images/media/image24.png){width="6.0in"
-height="1.4826924759405073in"}
+<p align="center">
+<img src="/images/mod6/image24.png?raw=true" "" width="600" >
+&nbsp;
 
 ## 6.4.4 Flexbox resources
 
@@ -1573,8 +1597,9 @@ you have full control over which slot they go into, you can change their
 order, they can span more than one row or column, and you can leave some
 slots empty.
 
-![](./mod6-images/media/image25.png){width="4.854166666666667in"
-height="2.3541666666666665in"}
+<p align="center">
+<img src="/images/mod6/image25.png?raw=true" "Baseline" width="485" >
+&nbsp;
 
 The Grid module provides several different ways to define such a grid
 and to place the child elements. Too many, in fact, to present here.
