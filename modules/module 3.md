@@ -1,7 +1,8 @@
 ## 3.1.1 Welcome to Module 3
 
-![](./mod3-images/media/image1.png){width="4.0in"
-height="2.2718449256342956in"}
+<p align="center">
+<img src="/images/mod3/image1.png?raw=true" "W3Cx-HTML & CSS logo" width="300" >
+&nbsp;
 
 Hi, my name\'s Adrian.
 
@@ -12,8 +13,9 @@ In this module, we will introduce a new language, CSS.
 
 CSS, or Cascading Style Sheets, is used to style each HTML.
 
-![](./mod3-images/media/image2.png){width="2.125in"
-height="2.2708333333333335in"}
+<p align="center">
+<img src="/images/mod3/image2.png?raw=true" "Social Networking" width="300" >
+&nbsp;
 
 It\'s how we determine the color, text size, and spacing, as well as
 other visual aspects of your Web page.
