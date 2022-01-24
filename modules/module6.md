@@ -106,8 +106,9 @@ block and inline display. And that begins with the baseline.
 The text \"baseline\" is a key concept to understanding how the browser
 makes its layout decisions.  
 
-![baseline](./mod6-images/media/image1.png){width="2.1979166666666665in"
-height="1.0833333333333333in"}
+<p align="center">
+<img src="/images/image1.png?raw=true" "Baseline" width="200" >
+&nbsp;
 
 In the image above, we see two text characters placed next to each
 other, the blue line indicating the baseline. The baseline determines
@@ -130,8 +131,9 @@ the \<p\> tag) and the \"inline\" elements (like the \<a\> tag).   Here
 is a quick table of the default values for some of the tags we\'ve
 already learned.
 
-![](./mod6-images/media/image2.png){width="6.5in"
-height="1.9673611111111111in"}
+<p align="center">
+<img src="/images/mod66/image2.png?raw=true" "" width="650" >
+&nbsp;
 
 Here are some differences between the block - level and inline elements.
 
