@@ -1,7 +1,7 @@
 ## 3.1.1 Welcome to Module 3
 
 <p align="center">
-<img src="/images/mod3/image1.png?raw=true" "W3Cx-HTML & CSS logo" width="300" >
+<img src="/images/mod3/image1.png?raw=true" "W3Cx-HTML & CSS logo" width="600" >
 &nbsp;
 
 Hi, my name\'s Adrian.
@@ -17,7 +17,7 @@ CSS, or Cascading Style Sheets, is used to style each HTML.
 <img src="/images/mod3/image2.png?raw=true" "Social Networking" width="300" >
 &nbsp;
 
-It\'s how we determine the color, text size, and spacing, as well as
+It\'s how we determine the **color**, **text size**, and **spacing**, as well as
 other visual aspects of your Web page.
 
 CSS can also be used to change the layout of your Web page.
@@ -93,6 +93,10 @@ The **CSS Working Group** (Cascading Style Sheets Working Group) is
 a [working group](https://en.wikipedia.org/wiki/Working_group) created
 by the W3C in 1997 to tackle issues that had not been addressed
 with [CSS](https://en.wikipedia.org/wiki/CSS) level 1.
+
+<p align="center">
+<img src="/images/mod3/image4.png?raw=true" "CSS working group" width="300" >
+&nbsp;
 
 ![CSS groupe TPAC](./mod3-images/media/image4.jpeg){width="5.0in"
 height="2.5502132545931757in"}
