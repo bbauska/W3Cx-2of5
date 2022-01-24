@@ -95,11 +95,8 @@ by the W3C in 1997 to tackle issues that had not been addressed
 with [CSS](https://en.wikipedia.org/wiki/CSS) level 1.
 
 <p align="center">
-<img src="/images/mod3/image4.png?raw=true" "CSS working group" width="300" >
+<img src="/images/mod3/image4.jpeg?raw=true" "CSS working group" width="650" >
 &nbsp;
-
-![CSS groupe TPAC](./mod3-images/media/image4.jpeg){width="5.0in"
-height="2.5502132545931757in"}
 
 The CSS WG meeting in Lisbon, November 2016. The working group is
 co-chaired by Rossen Atanassov and Alan Stearns. (*Photo credit:
@@ -139,9 +136,9 @@ different. So let\'s get started.
 
 ### The \<style\> tag
 
-![Snapshot os a style tag in the XDK code
-editor](./mod3-images/media/image5.jpeg){width="1.5625in"
-height="1.5625in"}
+<p align="center">
+<img src="/images/mod3/image5.jpeg?raw=true" " " width="600" >
+&nbsp;
 
 The best practice when working with CSS is to keep it in an external
 file using the \<link\> tag, however, when starting, it is simpler to
@@ -231,9 +228,9 @@ Here is an example HTML document.
 At its simplest, CSS is just a list of *rules*.  Each *rule* consists of
 a *selector* and a *declaration.  *Here is an example:
 
-![Figure showing a selector \'p\' before a declaration \'font-size:12px;
-color: #223344\'](./mod3-images/media/image6.jpeg){width="4.0in"
-height="3.3006364829396326in"}
+<p align="center">
+<img src="/images/mod3/image6.jpeg?raw=true" "Declaration & selector " width="300" >
+&nbsp;
 
 ### Selector
 
@@ -325,8 +322,9 @@ with the same source.
 You are welcome to edit the
 following [CodePen.](https://codepen.io/w3devcampus/pen/QvQgbr)
 
-![](./mod3-images/media/image7.png){width="5.0in"
-height="2.7430555555555554in"}
+<p align="center">
+<img src="/images/mod3/image7.png?raw=true" "On the inventor of gunpower: codepen example" width="600" >
+&nbsp;
 
 \... or work from the lines of code below (to paste in your favorite Web
 editor):
@@ -1193,8 +1191,9 @@ section dedicated to the background-image property.  
 
 ## 3.4.2 Selectors
 
-![](./mod3-images/media/image8.png){width="4.0in"
-height="3.2638068678915135in"}
+<p align="center">
+<img src="/images/mod3/image8.png?raw=true" "Declaration & selector" width="400" >
+&nbsp;
 
 Earlier, we learned that a CSS rule is made up of two parts: the
 selector and the declaration. We\'ve seen quite a few different
@@ -1354,7 +1353,9 @@ It isn\'t unusual to see multiple classes joined this way as well:
 
 .insect.flying { text-decoration: underline; font-weight:bold; }
 
-### ![](./mod3-images/media/image9.png){width="6.5in" height="1.81875in"}
+<h3 align="center">
+<img src="/images/mod3/image9.png?raw=true" "HTML, CSS, result" width="650" >
+&nbsp;
 
 ### Descendant selectors
 
