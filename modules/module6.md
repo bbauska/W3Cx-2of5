@@ -107,7 +107,7 @@ The text \"baseline\" is a key concept to understanding how the browser
 makes its layout decisions.  
 
 <p align="center">
-<img src="/images/mod6/image1.png?raw=true" "Baseline" width="200" >
+<img src="/images/mod6/image1.png?raw=true" "Baseline" width="400" >
 &nbsp;
 
 In the image above, we see two text characters placed next to each
@@ -509,7 +509,7 @@ appears overlapping the Fourth and Fifth items, as they did not move at
 all. 
 
 <p align="center">
-<img src="/images/mod6/image6.png?raw=true" "Baseline" width="200" >
+<img src="/images/mod6/image6.png?raw=true" "" width="200" >
 &nbsp;
 
 This is why, in our introduction to CSS, we said that margin should be
