@@ -1,7 +1,6 @@
 ## 2.1.1 Welcome to Module 2
 
-![](./mod2-images/media/image1.png){width="3.0in"
-height="2.588059930008749in"}
+https://github.com/bbauska/W3Cx-2of5-HTML5.0x/blob/main/images/mod2/image1.png?raw=true
 
 Hi, everyone, and welcome.
 
@@ -312,6 +311,7 @@ several tags such as \<img\>, \<input\> and \<video\>.
 
 ![](./mod2-images/media/image2.png){width="3.0in"
 height="2.924209317585302in"}
+https://github.com/bbauska/W3Cx-2of5-HTML5.0x/blob/main/images/mod2/image2.png?raw=true
 
 Ordered lists have their own specific attributes and all global
 attributes can also be applied to them.
@@ -535,6 +535,8 @@ Don\'t click on it, just rest your cursor there. 
 ![Example image of a girl with a beautiful smile to illustrate title
 attribute](./mod2-images/media/image3.jpeg){width="2.0in"
 height="2.0in"}
+https://github.com/bbauska/W3Cx-2of5-HTML5.0x/blob/main/images/mod2/image3.jpeg?raw=true
+
 
 Did you see the two \"secret\" messages? A message that appears when you
 rest your pointer over an element, is called a tooltip. Be it a
@@ -755,6 +757,7 @@ This is how the above HTML code will look in a browser: 
 
 ![](./mod2-images/media/image4.png){width="4.0in"
 height="2.736844925634296in"}
+https://github.com/bbauska/W3Cx-2of5-HTML5.0x/blob/main/images/mod2/image4.png?raw=true
 
 It seems redundant for two tags to do the same thing in HTML.
 While \<b\> and \<strong\>, \<i\> and \<em\> seem no different in a
@@ -1495,6 +1498,7 @@ rescue!\</p\>
 
 ![](./mod2-images/media/image12.png){width="4.0in"
 height="3.7305249343832023in"}
+https://github.com/bbauska/W3Cx-2of5-HTML5.0x/blob/main/images/mod2/image12.png?raw=true
 
 Assistive technology uses heading markup, \<h1\> to \<h6\> to identify
 headings in a document. By using them to define your document\'s
@@ -3368,8 +3372,7 @@ We are now going to continue building on the recipe project we started
 in Module 1.  You can find our version in the CodePen below (and the
 live coding video at the end of this page).
 
-![](./mod2-images/media/image28.png){width="5.0in"
-height="2.5213670166229223in"}
+https://github.com/bbauska/W3Cx-2of5-HTML5.0x/blob/main/images/mod2/image28.png?raw=true
 
 ##### HTML
 
