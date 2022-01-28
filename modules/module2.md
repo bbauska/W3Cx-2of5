@@ -1,6 +1,9 @@
 ## 2.1.1 Welcome to Module 2
 
-https://github.com/bbauska/W3Cx-2of5-HTML5.0x/blob/main/images/mod2/image1.png?raw=true
+
+<p align="center">
+<img src="/images/mod2/image1.png?raw=true" "Attributes, images and links" width="200" >
+&nbsp;
 
 Hi, everyone, and welcome.
 
@@ -532,10 +535,10 @@ Don\'t click on it, just rest your cursor there. 
 
 ##### **NASA**
 
-![Example image of a girl with a beautiful smile to illustrate title
-attribute](./mod2-images/media/image3.jpeg){width="2.0in"
-height="2.0in"}
-https://github.com/bbauska/W3Cx-2of5-HTML5.0x/blob/main/images/mod2/image3.jpeg?raw=true
+<p align="center">
+<img src="/images/mod2/image3.jpeg?raw=true" "Example image of a girl with a beautiful smile to illustrate title
+attribute" width="200" >
+&nbsp;
 
 
 Did you see the two \"secret\" messages? A message that appears when you
@@ -753,11 +756,11 @@ tag!\</p\>
 \<p\>This text is also in \<strong\>Bold\</strong\>. But it uses the
 strong tag!\</p\>
 
-This is how the above HTML code will look in a browser: 
+This is how the above HTML code will look in a browser:
 
-![](./mod2-images/media/image4.png){width="4.0in"
-height="2.736844925634296in"}
-https://github.com/bbauska/W3Cx-2of5-HTML5.0x/blob/main/images/mod2/image4.png?raw=true
+<p align="center">
+<img src="/images/mod2/image4.png?raw=true" "CODEPEN example image4.png" width="400" >
+&nbsp;
 
 It seems redundant for two tags to do the same thing in HTML.
 While \<b\> and \<strong\>, \<i\> and \<em\> seem no different in a
@@ -939,9 +942,9 @@ semantic elements.
 Let\'s look at a typical Web page structure that consists of blocks
 named after: header, nav, article, section, aside and footer.
 
-![Picture showing the structure of a Web site: header, nav, article,
-section, aside and
-footer](./mod2-images/media/image5.jpeg){width="4.0in" height="4.0in"}
+<p align="center">
+<img src="/images/mod2/image5.jpeg?raw=true" "Picture showing the structure of a Web site: header, nav, article, section, aside and footer" width="400" >
+&nbsp;
 
 Tags such as** \<article\>**, **\<section\>**, **\<header\>**, **\<nav\>
 and \<footer\> **were specifically introduced in HTML5 to define the Web
@@ -1361,9 +1364,10 @@ showcased in the paragraph \--\>
 
 \</body\>
 
-![](./mod2-images/media/image10.png){width="3.0in"
-height="2.5705216535433073in"}
-
+<p align="center">
+<img src="/images/mod2/image10.png?raw=true" "Lesser known semantic elements" width="300" >
+&nbsp;
+    
 ### Lesser known semantic elements (OPTIONAL)
 
 **Note:** This section is optional material included for the curious. It
@@ -1452,9 +1456,10 @@ logo\" height=\"48\" src=\"https://www.w3.org/Icons/w3c_home\" width=\"72\"\>
 
 \</header\>
 
-![](./mod2-images/media/image11.png){width="4.0in"
-height="4.025262467191601in"}
-
+<p align="center">
+<img src="/images/mod2/image11.png?raw=true" "Examle image11.png" width="400" >
+&nbsp;
+    
 Like in the example above, the header can and frequently does contain
 headings \<h1\> to \<h6\>. In the case of headings, they do not have be
 to be used within a header. 
@@ -1496,9 +1501,9 @@ rescue!\</p\>
 
 \</body\>
 
-![](./mod2-images/media/image12.png){width="4.0in"
-height="3.7305249343832023in"}
-https://github.com/bbauska/W3Cx-2of5-HTML5.0x/blob/main/images/mod2/image12.png?raw=true
+<p align="center">
+<img src="/images/mod2/image12.png?raw=true" "Attributes, images and links" width="400" >
+&nbsp;
 
 Assistive technology uses heading markup, \<h1\> to \<h6\> to identify
 headings in a document. By using them to define your document\'s
@@ -1542,15 +1547,14 @@ Let\'s look at site-wide/global header and footer used in [Microsoft
 Virtual Academy home page](https://mva.microsoft.com/). At the time of
 course creation, here are screenshots of its header  
 
-![Screenshot of the Microsoft Virtual Academy home
-page](./mod2-images/media/image13.png){width="6.5in"
-height="0.37083333333333335in"}
-
+<p align="center">
+<img src="/images/mod2/image13.png?raw=true" "Screenshot of the Microsoft Virtual Academy home page" width="650" >
+&nbsp;
+    
 and footer.
-
-![Screenshot of Microsoft Virtual Academy home page showing the
-footer](./mod2-images/media/image14.png){width="6.5in"
-height="0.12291666666666666in"}
+<p align="center">
+<img src="/images/mod2/image14.png?raw=true" "Screenshot of the Microsoft Virtual Academy home page showing the footer" width="650" >
+&nbsp;
 
 If you visit the page and navigate to other parts of the site, you will
 see that the header and footer remain unchanged. 
@@ -1572,8 +1576,9 @@ reading its contents or to make it immediately available.
 Now, let\'s look at a more complete example using a global header and
 multiple \<header\>, \<footer\> and \<nav\> tags.
 
-![](./mod2-images/media/image15.png){width="4.895833333333333in"
-height="2.8333333333333335in"}
+<p align="center">
+<img src="/images/mod2/image15.png?raw=true" "image15.png" width="450" >
+&nbsp;
 
 \<!DOCTYPE html\>
 
@@ -2452,7 +2457,8 @@ tulips\"\>
 
 ![](./mod2-images/media/image19.png){width="4.0in"
 height="2.5446850393700786in"}
-
+https://github.com/bbauska/W3Cx-2of5-HTML5.0x/blob/main/images/mod2/image19.png?raw=true
+    
 ## 2.4.3 Attributes: title, height & width
 
 ### The \'title\' attribute
