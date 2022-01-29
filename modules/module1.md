@@ -53,7 +53,7 @@ you learn, experimentation.
 ##### **CSS** stands for \'Cascading Style Sheets\'
 
 <h4 align="center">
-<img src="/images/mod3/image3.png?raw=true" "Cascade Style Sheet" width="200" </h4>
+<img src="/images/mod3/image3.png?raw=true" "Cascade Style Sheet" width="200"></h4>
 &nbsp;
 
 For now, do not worry about what the \'Cascading\' part means and just
