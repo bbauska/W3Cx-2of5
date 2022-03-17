@@ -2,13 +2,12 @@
 
 
 <p align="center">
-<img src="/images/mod2/image1.png?raw=true" "Attributes, images and links" width="200" >
+<img src="/images/mod2/image1.png?raw=true" 
+     alt="Attributes, images and links" 
+     width="40%" >
 &nbsp;
 
 Hi, everyone, and welcome.
-
-I\'m Andrew, your instructor for week 2 of the Introduction to HTML and
-CSS course.
 
 In this module, we\'re going to cover global and non global attributes
 and how to use them, paying close attention to the commonly used ones
