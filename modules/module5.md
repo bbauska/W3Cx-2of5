@@ -1,7 +1,13 @@
 ## 5.1.1 Welcome to Module 5
 
-![](./mod5-images/media/image1.png){width="3.0in"
-height="3.2710279965004374in"}
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------------- W3Cx-2of5-CSS logo -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image001.png?raw=true"
+   width="50%"
+   alt="W3Cx CSS3 2 of 5 logo" />
+</p>
 
 ## 5.1.2 Module 5 - Content
 
@@ -2639,8 +2645,14 @@ explore them more in next module when covering Layout.  
 
 Here is a simple example of a common error:
 
-![](./mod5-images/media/image44.png){width="6.5in"
-height="1.6166666666666667in"}
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image044.png?raw=true"
+   width="100%"
+   alt=" " />
+</p>
 
 ### Padding - The right way
 
@@ -2679,8 +2691,14 @@ paragraph we apply the same padding to all four sides. However, in the
 second paragraph we use different padding for different sides, thus
 placing the rectangle of the element relative to the text itself.
 
-![](./mod5-images/media/image45.png){width="6.5in"
-height="3.1847222222222222in"}
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image045.png?raw=true"
+   width="100%"
+   alt=" " />
+</p>
 
 I\'m confused - are you saying that I shouldn\'t use the width property
 to change the width?
@@ -2772,8 +2790,14 @@ grandparent.  Therefore, if you have two different style rules, such
 as li:hover and ul:hover, then they will *both* be activated,  when the
 mouse is over one of the list items.  
 
-![](./mod5-images/media/image46.png){width="6.5in"
-height="2.3520833333333333in"}
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image046.png?raw=true"
+   width="100%"
+   alt=" " />
+</p>
 
 :nth-child
 
@@ -2789,8 +2813,14 @@ possibilities with mathematical equations containing the term  n.
 This selector is most commonly used to apply \"transaction ledger\"
 styles to tables or lists.
 
-![](./mod5-images/media/image47.png){width="6.5in"
-height="2.3520833333333333in"}
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------------  -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image047.png?raw=true"
+   width="100%"
+   alt=" " />
+</p>
 
 ### Cursor property
 
@@ -2846,9 +2876,14 @@ W3C.
     Dead code may come alive as CSS changes. Delete it before it does,
     and ruins your layout.
 
-> ![Keep the Web
-> open!](./mod5-images/media/image48.jpeg){width="1.5625in"
-> height="1.5625in"}
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------------- keep the web open -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image048.png?raw=true"
+   width="25%"
+   alt="Keep the Web Open" />
+</p>
 
 **Test in multiple browsers:**\
 Your favorite browser is not always right.
@@ -2905,9 +2940,14 @@ Your favorite browser is not always right.
 
 ### Testing
 
-![Testing
-image](./mod5-images/media/image49.jpeg){width="2.0833333333333335in"
-height="1.71875in"}
+<!------------------------------------------------------------------------------------------------>
+<!===-------------------------------------- testing image ---------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image049.png?raw=true"
+   width="25%"
+   alt="Testing Image" />
+</p>
 
 -   **Test without CSS**: turn off CSS, and if the page makes no sense,
     fix your markup.
