@@ -889,7 +889,7 @@ That looks better:
 height="2.7395833333333335in"}
 
 ### CSS
-
+``` [css]
 > img {
 >
 > width: 25rem;
@@ -901,9 +901,9 @@ height="2.7395833333333335in"}
 > width: 10rem;
 >
 > }
-
+```
 ### HTML
-
+``` [html]
 > \<!DOCTYPE html\>
 >
 > \<html lang=\"en\"\>
@@ -955,7 +955,7 @@ height="2.7395833333333335in"}
 > \</body\>
 >
 > \</html\>
-
+```
 There is still the issue of things not being laid out nicely, you\'ll
 learn more about that in the module 6.
 
@@ -970,7 +970,7 @@ this:
 height="3.320754593175853in"}
 
 ### CSS
-
+``` [CSS]
 > section {
 >
 > font-size: 24px;
@@ -982,9 +982,9 @@ height="3.320754593175853in"}
 > font-size: .5em;
 >
 > }
-
+```
 ### HTML
-
+``` [html]
 > \<!DOCTYPE html\>
 >
 > \<html lang=\"en\"\>
@@ -1028,7 +1028,7 @@ height="3.320754593175853in"}
 > \</ol\>
 >
 > \</li\>
-
+```
 As with the cloud pictures, we want the listed items a bit smaller than
 the regular text, so we add this styling:
 
