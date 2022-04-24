@@ -1,7 +1,10 @@
-## 3.1.1 Welcome to Module 3
+<h2>3.1.1 Welcome to Module 3</h2>
 
 <p align="center">
-<img src="/images/mod3/image1.png?raw=true" "W3Cx-HTML & CSS logo" width="600" >
+<img src="/images/mod3/image1.png?raw=true"
+   alt="W3Cx-HTML & CSS logo"
+   width="60%" />
+</p>
 &nbsp;
 
 I\'d like to welcome you to module 3 of the introduction to HTML5
@@ -30,23 +33,23 @@ visual impact is very rewarding.
 So, prepare to have fun, and let yourself experiment because that\'s how
 you learn, experimentation.
 
-## 3.1.2 Module 3 Content
+<h2>3.1.2 Module 3 Content</h2>
 
-1.  **Introduction to Module 3: **Get an overview of what CSS (Cascading
+1.  **Introduction to Module 3:** Get an overview of what CSS (Cascading
     Style Sheets) can do for your Web pages.
 
-2.  **CSS basic syntax: **Understanding the language of CSS: style tags,
+2.  **CSS basic syntax:** Understanding the language of CSS: style tags,
     links tags, rules, and comments.
 
-3.  **CSS properties: **Here, you will be introduced to just a few of
+3.  **CSS properties:** Here, you will be introduced to just a few of
     the many properties that make CSS such a powerful tool.
 
-4.  **Lists and selectors: **List markup tags
+4.  **Lists and selectors:** List markup tags
     (\<ul\>, \<ol\> and \<li\>) are some of the most frequently used
     specific purpose tags in HTML, and selectors are what allows you to
     target specific HTML elements and apply style to them
 
-## 3.1.3 The CSS Language
+<h2>3.1.3 The CSS Language</h2>
 
 ##### **CSS** stands for \'Cascading Style Sheets\'
 
@@ -286,11 +289,11 @@ several lines. But they **cannot** be nested.
 >
 > }
 
-## 3.2.4 Knowledge Check
+<h2>3.2.4 Knowledge Check</h2>
 
 n/a
 
-## 3.2.5 Activity - Use CSS
+<h2>3.2.5 Activity - Use CSS</h2>
 
 Use CSS on the following HTML code. Try various styles, experiment, and
 have fun. We have a live coding demonstration in the next page working
