@@ -52,8 +52,11 @@ you learn, experimentation.
 
 ##### **CSS** stands for \'Cascading Style Sheets\'
 
-<h4 align="center">
-<img src="/images/mod3/image3.png?raw=true" "Cascade Style Sheet" width="200"></h4>
+<p align="center">
+<p img src="/images/mod3/image3.png?raw=true"
+   alt="Cascade Style Sheet"
+   width="20%" />
+</p>
 &nbsp;
 
 For now, do not worry about what the \'Cascading\' part means and just
@@ -97,7 +100,9 @@ by the W3C in 1997 to tackle issues that had not been addressed
 with [CSS](https://en.wikipedia.org/wiki/CSS) level 1.
 
 <p align="center">
-<img src="/images/mod3/image4.jpeg?raw=true" "CSS working group" width="650" >
+<img src="/images/mod3/image4.jpeg?raw=true"
+   alt="CSS working group" 
+   width="65%" />
 &nbsp;
 
 The CSS WG meeting in Lisbon, November 2016. The working group is
