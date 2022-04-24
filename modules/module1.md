@@ -4,9 +4,7 @@
 <img src="/images/mod3/image1.png?raw=true" "W3Cx-HTML & CSS logo" width="600" >
 &nbsp;
 
-Hi, my name\'s Adrian.
-
-And I\'d like to welcome you to module 3 of the introduction to HTML5
+I\'d like to welcome you to module 3 of the introduction to HTML5
 and CSS course.
 
 In this module, we will introduce a new language, CSS.
