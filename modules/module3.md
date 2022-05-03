@@ -1,8 +1,8 @@
 <h2>3.1.1 Welcome to Module 3</h2>
-
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image1.png?raw=true"
-   alt=" logo"
+<img src="/images/mod3/image1.png?raw=true"
+   alt="W3CX-2of5-HTML5.0x logo"
    width="65%" />
 &nbsp;
 
@@ -16,8 +16,8 @@ In this module, we will introduce a new language, CSS.
 CSS, or Cascading Style Sheets, is used to style each HTML.
 
 <p align="center" width="100%">
-<img src="/images/image2.png?raw=true"
-   alt=" logo"
+<img src="/images/mod3/image2.png?raw=true"
+   alt="Adding Style with CSS"
    width="25%" />
 &nbsp;
 
@@ -48,7 +48,7 @@ you learn, experimentation.
     the many properties that make CSS such a powerful tool.
 
 4.  **Lists and selectors: **List markup tags
-    (\<ul\>, \<ol\> and \<li\>) are some of the most frequently used
+    (\<ul\>, <ol\> and \<li\>) are some of the most frequently used
     specific purpose tags in HTML, and selectors are what allows you to
     target specific HTML elements and apply style to them
 
@@ -56,9 +56,10 @@ you learn, experimentation.
 
 ##### **CSS** stands for \'Cascading Style Sheets\'
 
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image3.png?raw=true"
-   alt=" logo"
+<img src="/images/mod3/image3.png?raw=true"
+   alt="CSS logo"
    width="35%" />
 &nbsp;
 
@@ -102,6 +103,7 @@ a [working group](https://en.wikipedia.org/wiki/Working_group) created
 by the W3C in 1997 to tackle issues that had not been addressed
 with [CSS](https://en.wikipedia.org/wiki/CSS) level 1.
 
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image4.png?raw=true"
    alt=" logo"
@@ -1815,4 +1817,4 @@ Pizza, the king of comfort foods. Try this simple, taste sensation.
 
 \</body\>
 
-\</html\>
+</html\>
