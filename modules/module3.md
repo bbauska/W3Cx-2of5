@@ -1,7 +1,10 @@
-## 3.1.1 Welcome to Module 3
+<h2>3.1.1 Welcome to Module 3</h2>
 
-![](./mod3-images/media/image1.png){width="4.0in"
-height="2.2718449256342956in"}
+<p align="center" width="100%">
+<img src="/images/image1.png?raw=true"
+   alt=" logo"
+   width="65%" />
+&nbsp;
 
 Hi, my name\'s Adrian.
 
@@ -12,8 +15,11 @@ In this module, we will introduce a new language, CSS.
 
 CSS, or Cascading Style Sheets, is used to style each HTML.
 
-![](./mod3-images/media/image2.png){width="2.125in"
-height="2.2708333333333335in"}
+<p align="center" width="100%">
+<img src="/images/image2.png?raw=true"
+   alt=" logo"
+   width="25%" />
+&nbsp;
 
 It\'s how we determine the color, text size, and spacing, as well as
 other visual aspects of your Web page.
@@ -50,7 +56,11 @@ you learn, experimentation.
 
 ##### **CSS** stands for \'Cascading Style Sheets\'
 
-##### ![](./mod3-images/media/image3.png){width="2.0in" height="1.0938779527559055in"}
+<p align="center" width="100%">
+<img src="/images/image3.png?raw=true"
+   alt=" logo"
+   width="35%" />
+&nbsp;
 
 For now, do not worry about what the \'Cascading\' part means and just
 focus on the \'Style Sheets\'.
@@ -92,8 +102,11 @@ a [working group](https://en.wikipedia.org/wiki/Working_group) created
 by the W3C in 1997 to tackle issues that had not been addressed
 with [CSS](https://en.wikipedia.org/wiki/CSS) level 1.
 
-![CSS groupe TPAC](./mod3-images/media/image4.jpeg){width="5.0in"
-height="2.5502132545931757in"}
+<p align="center" width="100%">
+<img src="/images/image4.png?raw=true"
+   alt=" logo"
+   width="65%" />
+&nbsp;
 
 The CSS WG meeting in Lisbon, November 2016. The working group is
 co-chaired by Rossen Atanassov and Alan Stearns. (*Photo credit:
