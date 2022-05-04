@@ -2,7 +2,7 @@
 
 
 <p align="center">
-<img src="/images/mod2/image1.png?raw=true" 
+<img src="/images/mod2/image001.png?raw=true" 
      alt="Attributes, images and links" 
      width="40%" >
 &nbsp;
