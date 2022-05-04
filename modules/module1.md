@@ -1,29 +1,26 @@
 W3Cx-2of5-HTML5 and CSS3 Fundamentals
 (https://github.com/bbauska/W3Cx-2of5-HTML5-and-CSS-Fundamentals.git)
- 
-Course Outline:
-Quickly learn the basics of Web design and style to give your Web sites a professional look and feel, by just following these 6 modules!
-•	The first set of lessons are available under "Module 1: My first Web page in HTML5".
- 
-•         In Module 2, you will learn about HTML5 attributes, and become fluent in adding images and links in your Web pages.
-•         Now that you have made your first Web page, it is time to introduce you to CSS in Module 3.
-CSS is used to style the HTML. 
- 
-It is how we determine the color, text size, spacing and other visual aspects of your Web page. We'll introduce the syntax of CSS, how to include it with your pages, and get you started with some basic properties and concepts. Note that we'll explore how to use CSS to layout your page during the last week of this course.       
 
- 
-•	Whilst practicing and improving your recipe project (or else) with CSS features, you may have noticed that errors (subtle or not - we've all been there) can get in the way! This week you will learn how to fix your Web page when it's not doing what you hoped it would do.
-Module 4 is a 'short' week so please use that time to practice, practice and practice coding again!
- 
-•	In Module 5, you will be combining HTML and CSS to create more complex pages, and "beautify" even more your recipe projects. You will learn about tables, the audio and video elements, etc. This is a good preparatory work for the HTML5 Coding Essentials and Best Practices course (intermediate level). You will also learn how to embed other elements in a page other than a simple image. Note that some parts of the material are optional: iframes, usemap, and ismap.
- 
-•         Module 6 is about page layout and more specifically about CSS flexbox. Using flexible widths and heights, elements can be aligned to fill a space or distribute space between elements, which makes it a great tool to use for responsive design systems. Once you've got the basics, practice more with this fun Flexbox Froggy game. Note that some parts of this week are clearly indicated OPTIONAL, meaning that there will be no questions related to that content material.
+<h3>Course Outline:</h3>
+Quickly learn the basics of Web design and style to give your Web sites a professional look and feel, by just following these 6 modules!
+<ol>
+ <li>The first set of lessons are available under "Module 1: My first Web page in HTML5".</li>
+<li>In Module 2, you will learn about HTML5 attributes, and become fluent in adding images and links in your Web pages.</li>
+<li>Now that you have made your first Web page, it is time to introduce you to CSS in Module 3.
+CSS is used to style the HTML. 
+It is how we determine the color, text size, spacing and other visual aspects of your Web page. We'll introduce the syntax of CSS, how to include it with your pages, and get you started with some basic properties and concepts. Note that we'll explore how to use CSS to layout your page during the last week of this course.</li>
+<li>Whilst practicing and improving your recipe project (or else) with CSS features, you may have noticed that errors (subtle or not - we've all been there) can get in the way! This week you will learn how to fix your Web page when it's not doing what you hoped it would do.
+Module 4 is a 'short' week so please use that time to practice, practice and practice coding again!</li>
+<li>In Module 5, you will be combining HTML and CSS to create more complex pages, and "beautify" even more your recipe projects. You will learn about tables, the audio and video elements, etc. This is a good preparatory work for the HTML5 Coding Essentials and Best Practices course (intermediate level). You will also learn how to embed other elements in a page other than a simple image. Note that some parts of the material are optional: iframes, usemap, and ismap.</li>
+<li>Module 6 is about page layout and more specifically about CSS flexbox. Using flexible widths and heights, elements can be aligned to fill a space or distribute space between elements, which makes it a great tool to use for responsive design systems. Once you've got the basics, practice more with this fun Flexbox Froggy game. Note that some parts of this week are clearly indicated OPTIONAL, meaning that there will be no questions related to that content material.</li>
+
 W3C has designed a "Front-End Web Developer" (FEWD) Professional Certificate where you will learn all of the necessary skills needed to build interactive and responsive user experiences on the Web. This program will deepen your knowledge of the 3 foundational languages that power the Web: HTML5, CSS and JavaScript. The W3C FEWD program is composed of 5 courses:
 1.	CSS Basics - introductory level
 2.	This course: HTML5 and CSS Fundamentals - introductory level
 3.	JavaScript Introduction - introductory level
 4.	HTML5 Coding Essentials and Best Practices - intermediate level
 5.	HTML5 Apps and Games - advanced level
+ 
 Course information
 a.	Welcome to the "HTML5 & CSS Fundamentals" course
 b.	Course outline, grading and certificates
