@@ -4,9 +4,9 @@
 <!----------------------------------- W3Cx-2of5-HTML5.0x logo ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/w3cx-2of5.png?raw=true"
-	width="50%" 
-    alt="W3Cx HTML 5.0x logo"</>
+<img src="/images/mod1/w3cx-2of5.png?raw=true"
+   width="50%"
+   alt="W3Cx HTML 5.0x logo" />
 </p>
 
 #### W3Cx: HTML5 and CSS Fundamentals
