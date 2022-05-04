@@ -4,7 +4,7 @@
 <!----------------------------------- W3Cx-2of5-HTML5.0x logo ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/mod1/w3cx-2of5.png?raw=true"
+<img src="/images/mod1/image001.png?raw=true"
    width="50%"
    alt="W3Cx HTML 5.0x logo" />
 </p>
