@@ -1,23 +1,23 @@
-## 6.1.1 Welcome to Module 6
+<h2>6.1.1 Welcome to Module 6</h2>
 
-## 6.1.2 Module 6 - Content
+<h2>6.1.2 Module 6 - Content</h2>
 
-**6.1 Introduction: **Understanding what \"layout\" means to your Web
+<b>6.1 Introduction:</b> Understanding what \"layout\" means to your Web
 programming.
 
-**6.2 Concepts: **Get an understanding of \"display\" versus
+<b>6.2 Concepts:</b> Get an understanding of \"display\" versus
 \"position\" & \"block\" versus \"inline\".\
 *Note*: Positioning and z-index are OPTIONAL material.
 
-**6.3 Flexbox: **There is more to understand about positioning and
+>b>6.3 Flexbox:</b> There is more to understand about positioning and
 sizing.\
 *Note*: Calc is OPTIONAL.
 
-**6.4 More flexbox: **Main axis & cross axis, justification, alignment
+<b>6.4 More flexbox:</b> Main axis & cross axis, justification, alignment
 and order --- more flexbox concepts.\
 *Note*: This ENTIRE section is OPTIONAL.
 
-**6.5 CSS Grid:** CSS Grid Layout is another new layout system available
+<b>6.5 CSS Grid:</b> CSS Grid Layout is another new layout system available
 in CSS.\
 *Note*: This ENTIRE section is OPTIONAL.
 
