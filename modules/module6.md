@@ -9,7 +9,7 @@ programming.
 \"position\" & \"block\" versus \"inline\".\
 *Note*: Positioning and z-index are OPTIONAL material.
 
->b>6.3 Flexbox:</b> There is more to understand about positioning and
+<b>6.3 Flexbox:</b> There is more to understand about positioning and
 sizing.\
 *Note*: Calc is OPTIONAL.
 
@@ -21,10 +21,10 @@ and order --- more flexbox concepts.\
 in CSS.\
 *Note*: This ENTIRE section is OPTIONAL.
 
-**6.6 Recipe project: **Let\'s get \"responsive\" --- how to make your
+<b>6.6 Recipe project:</b> Let\'s get \"responsive\" --- how to make your
 Web page look good on differently sized devices.
 
-## 6.1.3 History of layout
+<h2>6.1.3 History of layout</h2>
 
 Before we get started working on the topic of layout directly, it is
 useful to understand a bit of HTML and CSS history.  
@@ -76,7 +76,7 @@ Except for some basic required concepts, we are going to skip all of
 this and go straight to flexbox. After many stumbles, flexbox finally
 brings sanity to the much needed world of layout in CSS.
 
-## 6.2.1 Text baseline and the display property
+<h2>6.2.1 Text baseline and the display property</h2>
 
 When newbie developers are groping around CSS blindly, they often
 stumble upon a variety of CSS properties that could be used to alter the
@@ -101,7 +101,7 @@ seem random to a developer struggling to get stuff to work. 
 So, let\'s start with understanding a very important difference between
 block and inline display. And that begins with the baseline.
 
-### Baseline
+<h3>Baseline</h3>
 
 The text \"baseline\" is a key concept to understanding how the browser
 makes its layout decisions.  
@@ -120,7 +120,7 @@ to you as a developer, and CSS only may have some properties related
 to it. However, the baseline governs the placement of all inline
 elements. 
 
-### display: block versus inline
+<h3>display: block versus inline</h3>
 
 As the browser is rendering your page, every time it encounters the next
 tag it has a simple question: \"Do I give this element its own line?\"  
@@ -132,12 +132,14 @@ is a quick table of the default values for some of the tags we\'ve
 already learned.
 
 <p align="center">
-<img src="/images/mod6/image2.png?raw=true" "" width="650" >
+<img src="/images/mod6/image2.png?raw=true"
+   alt=""
+   width="65%" />
 &nbsp;
 
 Here are some differences between the block - level and inline elements.
 
-### Block level
+<h3>Block level</h3>
 
 The block level:
 
@@ -157,19 +159,19 @@ The block level:
 
 -   ignores the vertical-align property
 
-### Inline elements
+<h3>Inline elements</h3>
 
 Inline elements:
 
 -   simply appear to the right of their preceding inline neighbor. They
     do not drop to the next line unless they must \"wrap\".
 
--   **by default, the width is simply the width of the content of the
-    element, plus any padding**
+-   <b>by default, the width is simply the width of the content of the
+    element, plus any padding</b>
 
--   **ignore top and bottom margin settings**
+-   <b>ignore top and bottom margin settings</b>
 
--   **ignore width and height properties**
+-   <b>ignore width and height properties</b>
 
 -   are subject to vertical-align property as well as
     CSS white-space settings
@@ -194,7 +196,9 @@ applied, but no extra room is being made for it above or below, so its
 background is overlapping the lines above and below.
 
 <p align="center">
-<img src="/images/mod6/image3.png?raw=true" "" width="650" >
+<img src="/images/mod6/image3.png?raw=true" 
+   alt=""
+   width="65%" />
 &nbsp;
 
 So here we prevent the overlap by setting the line-height of the span.
@@ -202,10 +206,12 @@ However, this solution should not be considered optimal.  Better is to
 change the span to be display:inline-block, which is discussed below.
 
 <p align="center">
-<img src="/images/mod6/image4.png?raw=true" "" width="650" >
+<img src="/images/mod6/image4.png?raw=true" 
+   alt=""
+   width="65%" />
 &nbsp;
 
-### inline-block
+<h3>inline-block</h3>
 
 The astute reader may have spotted an obvious omission from the table of
 block and inline elements above: \<img\> . Is \<img\> a block level
@@ -239,10 +245,12 @@ span element display:inline-block.  Note that the margin-top is also
 respected. 
 
 <p align="center">
-<img src="/images/mod6/image5.png?raw=true" "Baseline" width="650" >
+<img src="/images/mod6/image5.png?raw=true"
+   alt="Baseline"
+   width="65%" />
 &nbsp;
 
-### display property
+<h3>display property</h3>
 
 At long last we arrive at the display property. We have now seen three
 of its possible values: block, inline, and inline-block.  There are
@@ -254,14 +262,14 @@ A key to not getting confounded by the display property is to have a
 grasp on which elements default to which display value and appreciating
 the differences between block, inline, and inline-block display.
 
-## 6.2.2 Horizontal and vertical centering
+<h2>6.2.2 Horizontal and vertical centering</h2>
 
-### Horizontal centering
+<h3>Horizontal centering</h3>
 
 Now that we\'ve covered inline versus block display, we can
 intelligently discuss centering. Let\'s start with inline elements.
 
-### inline
+<h3>inline</h3>
 
 How do you center an inline element?  As we recall, inline elements are
 positioned along the baseline, in the natural flow of the text or
@@ -280,7 +288,7 @@ parent.   
 If this isn\'t satisfactory, consider changing the element to be
 inline-block or block.
 
-### block
+<h3>block</h3>
 
 How do you center a block level element? First, you may recall that
 block level elements take the width of their parent by default. If the
@@ -293,7 +301,7 @@ div { width: 200px; } 
 
 Now that we\'ve sized the element, how to center it?
 
-### margin magic
+<h3>margin magic</h3>
 
 If set to auto, then the left and right margins will center the element.
  This is the simplest and best way of centering a block level element.
@@ -302,26 +310,26 @@ right margins (or to all margins). 
 
 div { width: 200px; margin: auto; }
 
-### Horizontal centering - a better way
+<h3>margin magic<h3>Horizontal centering - a better way</h3>
 
 Do auto margins seem spooky to you?  There is a better way to achieve
 centering and its name is *flexbox*.  We\'ll read more about it later. 
 
 Vertical centering
 
-### inline
+<h3>inline</h3>
 
 Inline elements respect the vertical-align property. This determines how
 the inline element is aligned relative to the baseline it is being laid
 upon. This may or may not solve your vertical centering conundrum.
 
-### block
+<h3>block</h3>
 
 There is no margin:auto approach to vertical centering. There are some
 complicated systems that folk have developed, but the shortest and best
 answer to vertical centering: use flexbox. 
 
-## 6.2.3 Key concept: position property
+<h2>6.2.3 Key concept: position property</h2>
 
 The \'left\', \'top\', \'right\', and \'bottom\' properties
 
@@ -339,7 +347,7 @@ work when applied to *positioned* elements. And positioned elements
 are those that have had their position property changed from the
 default. 
 
-### The \'position\' property
+<h3>The \'position\' property</h3>
 
 The CSS position property governs how an element is positioned on the
 page and how it responds to the position adjusting properties
@@ -354,7 +362,7 @@ complex, they\'ll be discussed in an optional advanced section for
 completeness, but we aren\'t going to worry much about them because
 flexbox reduces their use cases.
 
-#### static
+<h4>static</h4>
 
 position: static; /\* the default \*/
 
@@ -365,7 +373,7 @@ and the display property that selects block level layout, inline or
 inline-block. Static elements *ignore* the positioning properties we
 read about earlier (left, top, right, and bottom).
 
-#### fixed
+<h4>fixed</h4>
 
 position: fixed;
 
@@ -442,12 +450,12 @@ matching dimensional property (width) unspecified.  The element will
 grow or shrink based on the size of the browser window.  Note that this
 feature is only available to fixed (and absolute) elements.
 
-## 6.2.5 Positioning (OPTIONAL)
+<h2>6.2.5 Positioning (OPTIONAL)</h2>
 
 **Note:** This section is optional material included for the curious. It
 will not appear on any graded question.
 
-### Positioned elements
+<h3>Positioned elements</h3>
 
 We read about the positioned elements in an earlier section. There are
 five positioning properties (left, top, right, bottom, and z-index) that
@@ -490,7 +498,7 @@ should be aware:
 
 -   There are no automatic size adjustments.
 
-### Independence - margin-top vs top
+<h3>Independence - margin-top vs top</h3>
 
 *IMPORTANT*: The positioning properties (left, top, right, and bottom)
 adjust the placement of the element*** independently of its siblings***.
@@ -509,7 +517,9 @@ appears overlapping the Fourth and Fifth items, as they did not move at
 all. 
 
 <p align="center">
-<img src="/images/mod6/image6.png?raw=true" "" width="200" >
+<img src="/images/mod6/image6.png?raw=true"
+   alt=""
+   width="20%" />
 &nbsp;
 
 This is why, in our introduction to CSS, we said that margin should be
@@ -542,7 +552,9 @@ it is position:relative and moved with the left property, it can leave
 the bounds of its parent, or go offscreen.
 
 <p align="center">
-<img src="/images/mod6/image7.png?raw=true" "Baseline" width="650" >
+<img src="/images/mod6/image7.png?raw=true"
+   alt="Baseline" 
+   width="65%" />
 &nbsp;
 
 Admittedly, this is not necessarily a \"limitation\", for many layout
@@ -572,7 +584,9 @@ has its height set and a border applied.  The \<q\> is positioned
 absolutely.
 
 <p align="center">
-<img src="/images/mod6/image8.png?raw=true" "Baseline" width="650" >
+<img src="/images/mod6/image8.png?raw=true"
+   alt="Baseline"
+   width="65%" />
 &nbsp;
 
 So that seems fairly straightforward and useful. But there are some
@@ -626,7 +640,9 @@ in the result below, so you can easily see the rectangle
 for  \<li\> versus \<ul\>.
 
 <p align="center">
-<img src="/images/mod6/image9.png?raw=true" "Baseline" width="650" >
+<img src="/images/mod6/image9.png?raw=true"
+   alt="Baseline"
+   width="65%" />
 &nbsp;
 
 Best practice: use both horizontal and vertical positioning property on
@@ -674,7 +690,9 @@ height of 0, as if it were empty. The fat border just becomes a fat flat
 line, and the list items themselves are not enclosed. 
 
 <p align="center">
-<img src="/images/mod6/image10.png?raw=true" "Baseline" width="200" >
+<img src="/images/mod6/image10.png?raw=true"
+   alt="Baseline"
+   width="20%" />
 &nbsp;
 
 ### Absolute positioned block level elements do not get the width of their parent
@@ -690,7 +708,7 @@ their rectangle rightward to fill the entire line. But the right column
 of absolutely positioned items does not. Their initial size is simply
 the size of their content. 
 
-### Margins do not work the same
+<h3>Margins do not work the same</h3>
 
 For static and relative positioned items, margins can be used to adjust
 an element position and keep neighboring siblings \"away\". We make this
@@ -743,7 +761,9 @@ set, so the later elements overlap the earlier ones.  But on the right,
 we govern the overlapping with the z-index property. 
 
 <p align="center">
-<img src="/images/mod6/image11.png?raw=true" "Baseline" width="200" >
+<img src="/images/mod6/image11.png?raw=true"
+   alt="Baseline"
+   width="20%" />
 &nbsp;
 
 -   z-index has no effect on position:static (the default) elements.
@@ -753,7 +773,7 @@ we govern the overlapping with the z-index property. 
 
 -   z-index is relative between siblings, not any arbitrary elements.
 
-### Siblings and nesting
+<h3>Siblings and nesting</h3>
 
 It is entirely possible that one element with z-index:100 could
 appear ***below* **another element with z-index:1;  
@@ -773,10 +793,12 @@ Alan remains behind. Alan\'s high z-index is only relevant to his
 siblings, not to cousins further out in the document.
 
 <p align="center">
-<img src="/images/mod6/image12.png?raw=true" "" width="650" >
+<img src="/images/mod6/image12.png?raw=true"
+   alt="" 
+   width="65%" />
 &nbsp;
 
-## 6.3.1 Sizing and dimensions
+<h2>6.3.1 Sizing and dimensions</h2>
 
 We have already touched on the size properties in the various
 discussions about display and positioning. But here we\'ll cover them
@@ -1828,6 +1850,5 @@ We fixed those issues at the top.
 
 These are the final changes to our recipe project for this unit.
 
-## Last one \-\-- #.#.# More Description
-
-## 
+<h2>Last one \-\-- #.#.# More Description</h2>
+ 
