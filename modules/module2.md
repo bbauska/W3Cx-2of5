@@ -1,10 +1,9 @@
-## 2.1.1 Welcome to Module 2
-
+<h2>2.1.1 Welcome to Module 2</h2>
 
 <p align="center">
-<img src="/images/mod2/image001.png?raw=true" 
-     alt="Attributes, images and links" 
-     width="40%" >
+<img src="/images/mod2/image001.png?raw=true"
+   alt="Attributes, images and links"
+   width="40%" />
 &nbsp;
 
 Hi, everyone, and welcome.
@@ -35,7 +34,7 @@ what you\'ve learned and test your knowledge by doing a quiz.
 
 We hope you enjoy the course, and happy learning!
 
-## 2.1.2 Meaningful Web Pages
+<h2>2.1.2 Meaningful Web Pages</h2>
 
 Tags and elements are building blocks of HTML5. However, they can be
 made so much more exciting with attributes. Let\'s take a simple element
@@ -68,7 +67,7 @@ visually impaired people who access your Web page using assistive
 technology like screen readers. Semantic markup enables all of this and
 more.
 
-## 2.1.3 Module 2 - Content
+<h2>2.1.3 Module 2 - Content</h2>
 
 **2.1 Introduction: **Check out this video explaining what you\'ll be
 learning about in Module 2 - and wrap your mind around the concept of
@@ -87,7 +86,7 @@ your Web pages.
 jump from place to place on the Web. Explore the secrets of this
 powerful mechanism!
 
-## 2.2.1 Introduction
+<h2>2.2.1 Introduction</h2>
 
 We learned a little bit about what attributes are in the previous
 module. Let\'s look into it in more depth, by using examples.
@@ -168,7 +167,7 @@ Attributes are used in tags to further define the tag:
        \<ol id=\"cinema\" class=\"attribute-list\" start=\"5\"\>\</ol\>\
        \<ol start=\"5\" class=\"attribute-list\"\>\</ol\>
 
-### Example #1: the \'id\' attribute
+<h3>Example #1: the \'id\' attribute</h3>
 
 Imagine you have two paragraphs in your HTML page:
 
@@ -200,7 +199,7 @@ Here, we can style para1 and para2 separately using CSS.
 The id attribute helps us do this by letting us give each paragraph an
 ID.
 
-### Example #2: the \'class\' attribute
+<h3>Example #2: the \'class\' attribute</h3>
 
 A similar attribute is class. class like id is a very useful attribute
 and one you will be using very frequently. Let\'s assume you are an
@@ -244,7 +243,7 @@ So now, all you have to do in your style sheet, is to instruct it to
 make all elements belonging to the \'poetry\' class grey, italic and
 bold. 
 
-## 2.2.2 Global and Non-Global Attributes
+<h2>2.2.2 Global and Non-Global Attributes</h2>
 
 You have seen a few examples of attributes now: start, id and class. All
 HTML elements have attributes.
@@ -276,7 +275,7 @@ So attributes like id and class can be applied to any HTML tag.
 >
 > \<pre class=\"html-code\"\>\</pre\>
 
-### Non-global attributes
+<h3>Non-global attributes</h3>
 
 Non-global attributes** **are attributes applied to a specific instance
 of a tag. It can be applied to one or more tags. For example, start is
@@ -318,7 +317,7 @@ https://github.com/bbauska/W3Cx-2of5-HTML5.0x/blob/main/images/mod2/image2.png?r
 Ordered lists have their own specific attributes and all global
 attributes can also be applied to them.
 
-### More examples:
+<h3>More examples:</h3>
 
 The image \<img\> and hyperlink \<a\> elements, which we will be
 learning about shortly, have many non-global attributes of their own.
