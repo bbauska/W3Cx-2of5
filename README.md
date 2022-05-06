@@ -8469,7 +8469,7 @@ font-family to be monospace, and the padding is set to 40 pixels.  Note
 that in the result, the font-family is applied to all the
 children, while the padding is only applied to the paragraph itself,
 none of its children inherit the padding.
-
+```HTML5
 <table>
 <colgroup>
 <col style="width: 32%" />
@@ -8486,7 +8486,7 @@ none of its children inherit the padding.
 <tbody>
 <tr class="odd">
 <td><p>&lt;p&gt;This paragraph has children
-&lt;span&gt;spans&lt;/span&gt; and &lt;span&gt;q&lt;/span&gt;, which, in
+<span> spans</span> and <span>q&lt;/span&gt;, which, in
 turn, have their own child &lt;span&gt;spans&lt;/span&gt;.</p>
 <p>&lt;q&gt;With this structure, we can see how some CSS
 &lt;span&gt;rules&lt;/span&gt; are</p>
@@ -8494,6 +8494,7 @@ turn, have their own child &lt;span&gt;spans&lt;/span&gt;.</p>
 of scopes.&lt;/q&gt;</p>
 <p>&lt;/p&gt;</p></td>
 <td><p>p {</p>
+```
 <p>/* inherited by children of p */</p>
 <p>font-family: monospace;</p>
 <p>/* not inherited */</p>
