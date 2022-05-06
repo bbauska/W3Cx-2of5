@@ -4,7 +4,7 @@
 <!----------------------------------- W3Cx-2of5-HTML5.0x logo ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/mod1/image001.png?raw=true"
+<img src="/images/image001.png?raw=true"
    width="50%"
    alt="W3Cx HTML 5.0x logo" />
 </p>
@@ -84,8 +84,10 @@ a professional look and feel, by just following these 6 modules!
 -   The first set of lessons are available under **"Module 1: My first
     Web page in HTML5"**.
 
-<img src="./All-Images/media/image2.jpeg"
-style="width:1.3in;height:1.04167in" />
+<img src="./images/image002.jpeg"
+     alt=""
+     width="15%" />
+</p>
 
 > •         In **Module 2**, you will learn about HTML5 attributes, and
 > become fluent in adding images and links in your Web pages.
