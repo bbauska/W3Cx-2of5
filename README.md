@@ -95,9 +95,9 @@ a professional look and feel, by just following these 6 modules!
 > •         Now that you have made your first Web page, it is time to
 > introduce you to CSS in **Module 3**.
 
-# CSS is used to style the HTML. 
+<h3>CSS is used to style the HTML</h3>
 
-<img src="./All-Images/media/image3.png"
+<img src="./images/image003.png"
 style="width:1.875in;height:0.75833in" />
 
 It is how we determine the color, text size, spacing and other visual
@@ -106,7 +106,7 @@ include it with your pages, and get you started with some basic
 properties and concepts. Note that we'll explore how to use CSS to
 layout your page during the last week of this course.      
 
-<img src="./All-Images/media/image4.png"
+<img src="./images/image004.png"
 style="width:1in;height:0.825in" />
 
 -   Whilst practicing and improving your recipe project (or else) with
@@ -117,7 +117,7 @@ style="width:1in;height:0.825in" />
     **Module 4** is a 'short' week so please use that time to practice,
     practice and practice coding again!
 
-<img src="./All-Images/media/image5.png"
+<img src="./images/image005.png"
 style="width:5in;height:3.48611in" />
 
 -   **In Module 5**, you will be combining HTML and CSS to create more
@@ -130,7 +130,7 @@ style="width:5in;height:3.48611in" />
     other than a simple image. Note that some parts of the material are
     optional: iframes, usemap, and ismap.
 
-> <img src="./All-Images/media/image6.png"
+> <img src="./images/image006.png"
 > style="width:6.5in;height:2.79375in" />
 
 •         **Module 6** is about page layout and more specifically about
@@ -365,10 +365,10 @@ Miller, February 6, 2019\].
 
 ### W3C Validators
 
-<img src="./All-Images/media/image3.png"
+<img src="./images/image003.png"
 style="width:3in;height:1.21667in" />
 
-<img src="./All-Images/media/image7.png"
+<img src="./images/image007.png"
 style="width:3in;height:0.94521in" />
 
 For over 15 years, the W3C has been developing and
@@ -394,7 +394,7 @@ The [CSS validator](https://jigsaw.w3.org/css-validator/) checks
 Cascading Style Sheets (CSS) and (X)HTML documents that use CSS
 stylesheets.
 
-<img src="./All-Images/media/image4.png"
+<img src="./images/image004.png"
 style="width:1in;height:0.82159in"
 alt="Laptop showing unicorn validator" />
 
@@ -433,7 +433,7 @@ completed by summaries of guidelines developed at W3C, in particular Web
 accessibility guidelines, the Mobile Web Best Practices, and a number of
 internationalization tips.
 
-<img src="./All-Images/media/image5.png"
+<img src="./images/image005.png"
 style="width:3in;height:2.09497in"
 alt="W3C Cheatsheet snapshot image" />
 
@@ -696,7 +696,7 @@ interact with all the information on the World Wide Web.
 
 ### HTML5
 
-<img src="./All-Images/media/image10.png"
+<img src="./images/image010.png"
 style="width:1.33333in;height:2.02083in" alt="HTML5 logo" />
 
 When people say 'HTML5', they usually mean a bit more than just the 5th
