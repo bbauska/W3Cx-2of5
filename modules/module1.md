@@ -16,47 +16,53 @@ Module 4 is a 'short' week so please use that time to practice, practice and pra
 
 W3C has designed a "Front-End Web Developer" (FEWD) Professional Certificate where you will learn all of the necessary skills needed to build interactive and responsive user experiences on the Web. This program will deepen your knowledge of the 3 foundational languages that power the Web: HTML5, CSS and JavaScript. The W3C FEWD program is composed of 5 courses:
 1.	CSS Basics - introductory level
-2.	This course: HTML5 and CSS Fundamentals - introductory level
+2.	This course: <b>HTML5 and CSS Fundamentals - introductory level</b>
 3.	JavaScript Introduction - introductory level
 4.	HTML5 Coding Essentials and Best Practices - intermediate level
 5.	HTML5 Apps and Games - advanced level
- 
+
 Course information
 a.	Welcome to the "HTML5 & CSS Fundamentals" course
 b.	Course outline, grading and certificates
 c.	Course tools
 d.	Course forums
 e.	About W3C and the Web
-Module 1: My first Web page
+
+<h3>Module 1: My first Web page</h3>
 1.1.	Introduction to Module 1
 1.2.	The big three: HTML5, CSS and JavaScript
 1.3.	Elements, tags and attributes
 1.4.	Character encoding
 1.5.	Best practices
 1.6.	More on tags
-Module 2: Attributes, images and links
+
+<h3>Module 2: Attributes, images and links</h3>
 2.1.	Introduction to Module 2
 2.2.	Attributes
 2.3.	Semantic meaning
 2.4.	Images
 2.5.	Hyperlinks
-Module 3: Adding style with CSS
+
+<h3>Module 3: Adding style with CSS</h3>
 3.1.	Introduction to Module 3
 3.2.	CSS basic syntax
 3.3.	CSS properties
 3.4.	Lists and selectors
-Module 4: Fixing and debugging
+
+<h3>Module 4: Fixing and debugging</h3>
 4.1.	Introduction to Module 4
 4.2.	Debugging tools and HTML5
 4.3.	Debugging and the CSS box model
 4.4.	Debugging CSS precedence
-Module 5: More HTML and CSS
+
+<h3>Module 5: More HTML and CSS</h3>
 5.1.	Introduction to Module 5
 5.2.	Tables
 5.3.	Multimedia
 5.4.	Embedding content (OPTIONAL)
 5.5.	CSS tricks
-Module 6: Basics of Page Layout
+
+<h3>Module 6: Basics of Page Layout</h3>
 6.1.	Introduction to Module 6
 6.2.	Concepts
 6.3.	CSS Flexbox
@@ -67,11 +73,12 @@ Module 6: Basics of Page Layout
 Welcome!
 This "HTML5 & CSS Fundamentals" course is designed for anyone, no prerequisites required.
 During this course, you will learn:
-•	Basic concepts of a markup language.
-•	Basic building blocks of Web design and style.
-•	Basics of HTML5 and CSS.
-•	How to write a Web page.
+   •	Basic concepts of a markup language.
+   •	Basic building blocks of Web design and style.
+   •	Basics of HTML5 and CSS.
+   •	How to write a Web page.
 Have fun!
+
 Web Browsers and Editors
 Web browsers
 Not surprisingly, it would be helpful to have a browser (short for "Web Browser") so that you can see the end result of your source code.
@@ -80,15 +87,16 @@ Look at the history of Web browsers (on Wikipedia). An interesting resource is t
 Web editors
 An HTML editor is invaluable for both beginners and more advanced developers. While any text editor, like NotePad or TextEdit, can be used to create Web pages, they don't necessarily offer options for error checking, syntax coloring and saving some typing by filling things out for you.
 There are two types of editors available, WYSIWYG ("What You See Is What You Get") and textual HTML editors. Here is a non exhaustive list:
-•         Sublime Text - it is quite popular with developers, though there can be a bit of a learning curve to use its many features
-•         BlueGriffon - a WYSIWYG content editor for the World Wide Web. Powered by Gecko, the rendering engine of Firefox, it's a modern and robust solution to edit Web pages in conformance to the latest Web Standards
-•         Visual Studio Code - a free open source editor that can run on any operating system. Many coding videos in this course are demonstrated using Visual Studio Code
-•         GitHub itself - check this resource that explains how to create a Web site using GitHub.
-•         XCode - Mac developers may be familiar with XCode
-•         TextEdit - this is available on Macs, but be sure you're saving as plain text, not as a ".rtf" or ".doc" file.
-•         Notepad - on Windows PC's
-•         Atom - another cross platform editor, created by GitHub.
-•         Vim or Emacs - great editors, but if you're not already familiar with these, this isn't the time to try
+   •         Sublime Text - it is quite popular with developers, though there can be a bit of a learning curve to use its many features
+   •         BlueGriffon - a WYSIWYG content editor for the World Wide Web. Powered by Gecko, the rendering engine of Firefox, it's a modern and robust solution to edit Web pages in conformance to the latest Web Standards
+   •         Visual Studio Code - a free open source editor that can run on any operating system. Many coding videos in this course are demonstrated using Visual Studio Code
+   •         GitHub itself - check this resource that explains how to create a Web site using GitHub.
+   •         XCode - Mac developers may be familiar with XCode
+   •         TextEdit - this is available on Macs, but be sure you're saving as plain text, not as a ".rtf" or ".doc" file.
+   •         Notepad - on Windows PC's
+   •         Atom - another cross platform editor, created by GitHub.
+   •         Vim or Emacs - great editors, but if you're not already familiar with these, this isn't the time to try
+
 Online Code Editors
 To help you practice during the whole duration of the course, we propose to use the CodePen online code editor. An online code editor is a tool that resides on a remote server and is accessible via browsers.
 CodePen is an HTML/CSS/JavaScript code editor that previews/showcases your code in your browser. We are providing a short live coding video on how to use CodePen at the beginning of Module 1. CodePen gives you the tools for collaboration, experimentation, and sharing, but you also get live results and the ability to search through their database and repository of snippets that other authors put up so you can experiment and learn from their work, too.
@@ -96,42 +104,49 @@ Note that there are many other online code editors available out there, such as 
 Here's an interesting article on what beginners can do with CodePen: Things you can do with CodePen [Brent Miller, February 6, 2019].
 W3C Validators
  
- 	
 For over 15 years, the W3C has been developing and hosting free and open source tools used every day by millions of Web developers and Web designers. All the tools listed below are Web-based, and are available as downloadable sources or as free services on the W3C Developers tools site.
+
 W3C Validator
 The W3C validator checks the markup validity of various Web document formats, such as HTML. Note that you are automatically directed to the Nu Html Checker when validating an HTML5 document.
+
 CSS Validator
 The CSS validator checks Cascading Style Sheets (CSS) and (X)HTML documents that use CSS stylesheets.
  
 Unicorn
 Unicorn is W3C's unified validator, which helps people improve the quality of their Web pages by performing a variety of checks. Unicorn gathers the results of the popular HTML and CSS validators, as well as other useful services, such as Internationalization, RSS/Atom feeds and http headers.
+
 Internationalization Checker
 The W3C Internationalization Checker provides information about various internationalization-related aspects of your page, including the HTTP headers that affect it. It will also report a number of issues and offer advice about how to resolve them.
+
 Link Checker
 The W3C Link Checker looks for issues in links, anchors and referenced objects in a Web page, CSS style sheet, or recursively on a whole Web site. For best results, it is recommended to first ensure that the documents checked use valid (X)HTML Markup and CSS.
+
 W3C CheatSheet
 The W3C cheatsheet provides quick access to useful information from a variety of specifications published by W3C. It aims at giving in a very compact and mobile-friendly format a compilation of useful knowledge extracted from W3C specifications, completed by summaries of guidelines developed at W3C, in particular Web accessibility guidelines, the Mobile Web Best Practices, and a number of internationalization tips.
  
 Its main feature is a lookup search box, where one can start typing a keyword and get a list of matching properties/elements/attributes/functions in the above-mentioned specifications, and further details on those when selecting the one of interest.
 The W3C cheatsheet is only available as a pure Web application.
+
 Browser Compatibility
 The term browser compatibility refers to the ability of a given Web site to appear fully functional on the browsers available in the market.
 The most powerful aspect of the Web is what makes it so challenging to build for: its universality. When you create a Web site, you’re writing code that needs to be understood by many different browsers on different devices and operating systems!
 To make the Web evolve in a sane and sustainable way for both users and developers, browser vendors work together to standardize new features, whether it’s a new HTML element, CSS property, or JavaScript API. But different vendors have different priorities, resources, and release cycles — so it’s very unlikely that a new feature will land on all the major browsers at once. As a Web developer, this is something you must consider if you’re relying on a feature to build your site.
 We are then providing references to the browser support of HTML5 features presented in this course using 2 resources: Can I Use and Mozilla Developer Network (MDN) Web Docs.
+
 Can I use
 Can I Use provides up-to-date tables for support of front-end Web technologies on desktop and mobile Web browsers. Below is a snapshot of what information is given by CanIUse when searching for "CSS3 colors".
  
 MDN Web Docs
- 
 To help developers make these decisions consciously rather than accidentally, MDN Web Docs provides browser compatibility tables in its documentation pages, so that when looking up a feature you’re considering for your project, you know exactly which browsers will support it.
+
 External resources
-•	MDN browser compatibility data: Taking the guesswork out of web compatibility
-•	Caniuse and MDN compatibility data collaboration
- 
+   •	MDN browser compatibility data: Taking the guesswork out of web compatibility
+   •	Caniuse and MDN compatibility data collaboration
+
 What is W3C?
- As steward of global Web standards, W3C's mission is to safeguard the openness, accessibility, and freedom of the World Wide Web from a technical perspective.
+As steward of global Web standards, W3C's mission is to safeguard the openness, accessibility, and freedom of the World Wide Web from a technical perspective.
 W3C's primary activity is to develop protocols and guidelines that ensure long-term growth for the Web. The widely adopted Web standards define key parts of what actually makes the World Wide Web work.
+
 A few history bits
  
 Tim Berners-Lee at his desk in CERN, 1994
@@ -140,22 +155,26 @@ In October 1994, Tim Berners-Lee founded the World Wide Web Consortium (W3C) at 
 In April 1995, Inria became the first European W3C host, followed by Keio University of Japan (Shonan Fujisawa Campus) in Asia in 1996. In 2003, ERCIM took over the role of European W3C Host from Inria. In 2013, W3C announced Beihang University as the fourth Host.
 A few figures
 As of April 2021, W3C:
-•	Is a member-driven organization composed of nearly 430 companies, universities, start-ups, etc. from all over the world.
-•	Holds 48 technical groups, including Working and Interest Groups where technical specifications are discussed and developed.
-•	Published over 7,652 published technical reports, including 442 Web standards (or W3C Recommendations) - since January 1st,1995.
-•	Runs a translation program to foster the translation of its specifications: see  the translation matrix currently listing 307 available translations of W3C recommendations.
-•	Hosts 350 Community and Business Groups, where developers, designers, and anyone passionate about the Web have a place to hold discussions and publish ideas.
-•	Gathers over 13,960active participants constituting the W3C community.
-•	Has a technical staff composed of 68 people, spread on all five continents.
+   •	Is a member-driven organization composed of nearly 430 companies, universities, start-ups, etc. from all over the world.
+   •	Holds 48 technical groups, including Working and Interest Groups where technical specifications are discussed and developed.
+   •	Published over 7,652 published technical reports, including 442 Web standards (or W3C Recommendations) - since January 1st,1995.
+   •	Runs a translation program to foster the translation of its specifications: see  the translation matrix currently listing 307 available translations of W3C recommendations.
+   •	Hosts 350 Community and Business Groups, where developers, designers, and anyone passionate about the Web have a place to hold discussions and publish ideas.
+   •	Gathers over 13,960active participants constituting the W3C community.
+   •	Has a technical staff composed of 68 people, spread on all five continents.
+
 W3C's core values
 Committed to core values of an open Web that promotes innovation, neutrality, and interoperability, W3C and its community are setting the vision and standards for the Web, ensuring the building blocks of the Web are open, accessible, secure, international and have been developed via the collaboration of global technical experts.
 In the next video below, listen to what Sir Tim Berners-Lee said when asked what part of the W3C’s work he’s the most proud of.
+
 The Web is Amazing!
+
 People often use the words "Internet" and "Web" interchangeably, but this usage is technically incorrect.
 The Web is an application of the Internet. The Web is the most popular way of accessing the Internet, but other applications of the Internet are e-mail and ftp for example. One analogy equates the Internet to a road network where the Web is a car, the email is a bicycle, etc.  Read this article for more details about the difference between Internet and the Web.
+ 
 What is Web Accessibility?
 
-1.1.1 Welcome to Module 1
+<h3>1.1.1 Welcome to Module 1</h3>
 Hello everyone! Welcome to Module 1 of the introduction to HTML5 and CSS course.
 I'm Andrew and I'll be your instructor for this module.
 We have lots of exciting stuff to cover in this module, and we're going to also create and edit our very first Web page.
@@ -174,18 +193,22 @@ With that, let's jump right in.
 1.5 Best practices, the wisdom: Studying other people's mistakes is a great way to avoid the same pitfalls.
 1.6 More on tags: Review of the tags we have just learned about and get started on your course project.
 1.7 Test your knowledge: Try out these quizzes on all the things that you have learned in Module 1.
-1.2.1 Vague But Exciting!
+
+<h3>1.2.1 Vague But Exciting!</h3>
 Twenty-eight years ago today, a proposal was sent internally at CERN outlying a universal linked information system. Dubbed 'Information Management: A proposal', pictured below, the proposal was created by Sir Tim Berners-Lee and was sent to his boss Mike Sendall, who described it as 'vague but exciting'.
  
 Sir Tim Berners-Lee’s vision for universality enabled the development of a high-level network of content that allows any document to link to any other documents.
 The World Wide Web was initially created to make it easier to share research papers. It is a system of interlinked ‘hypertext’ documents that are accessed via the Internet; in essence, an information space. While he did not invent hypertext systems, Berners-Lee proposed using them 'to link and access information of various kinds as a web of nodes in which the user can browse at will.'
 His breakthrough was to link hypertext to the Internet and he used three technologies to do this:
-•	HyperText Transfer Protocol (HTTP) is the foundation of data communication for the Web.
-•	HyperText Markup Language (HTML) is the main mark-up language for creating Web pages and information that can be displayed on a Web browser.
-•	Web addresses or a Uniform Resource Locator (URL) are used to reference a Web page.
+   •	HyperText Transfer Protocol (HTTP) is the foundation of data communication for the Web.
+   •	HyperText Markup Language (HTML) is the main mark-up language for creating Web pages and information that can be displayed on a Web browser.
+   •	Web addresses or a Uniform Resource Locator (URL) are used to reference a Web page.
+
 In the following pages, we present HTML through what are usually called the big 3 (HTML5, CSS and JavaScript), the hypertext concept and the browser, an application program that provides a way to look at and interact with all the information on the World Wide Web.
-1.2.2 HTML5, CSS and JS
-HTML5
+
+<h3>1.2.2 HTML5, CSS and JS</h3>
+
+<h4>HTML5</h4>
  
 When people say 'HTML5', they usually mean a bit more than just the 5th version of the "HyperText Markup Language". Modern Web pages and Web applications are generally composed of at least three components, so what people often mean when they say 'HTML5' is the trio of languages: HTML5, CSS3 and JavaScript.
 The 'HTML' part contains all the content, organized into a logical structure.  This is the part that an author might be most concerned with: the words, chapter headings, figures, diagrams, etc.
@@ -196,52 +219,63 @@ The 'CSS' part (version 3 being current) is all about the presentation or style 
 JavaScript
  
 The 'JavaScript', or 'JS' for short, part is about the actions a page can take such as interaction with the user, and customizing and changing the page according to any number of parameters.  This is what allows a Web page to be more than just a document, but potentially a Web application, with nearly unlimited possibilities.  We will not be doing much with JavaScript in this course, but you should know that it is an important leg of the stool for modern Web pages.
-1.2.3 Hypertext
+
+<h3>1.2.3 Hypertext</h3>
 A fundamental key to the World Wide Web is the concept of "Hypertext".  Hypertext is built on the idea of linking information together, not unlike using footnotes, except much easier and more flexible. The idea was to "Mark Up" your document with links and define how to break it down into different segments (chapters, sections, paragraphs, tables, figures, etc.)
 That's why, in 1989, Tim Berners-Lee began to create a definition of HTML: Hypertext Markup Language, to provide a simple, uniform way to incorporate Hyperlinks in a text document.
  
 He envisioned a technology that would facilitate thoroughly interconnected documents. He wanted authors to be able to connect an idea in one document to the source of the idea in another, or connect a statement with the data that backs up that statement. Traditionally, this kind of thing was done with footnotes and bibliographies, which can be cumbersome. This information should be easily transferable from one place to another, so that in reading one document, it is easy to access everything related (linked) to it. Tim Berners-Lee imagined a "Web" of interconnected documents.
 He used the metaphor of a Web to emphasize the importance of connections between documents. It was not just a long list of details, but rather a sea of information stretching out in all directions. This sea of information was navigated by a new tool called a "Browser".
-1.2.4 The Browser
+
+<h3>1.2.4 The Browser</h3>
 The Internet existed long before the Web came to fruition, and lots of organizations were connected to it, including schools, companies and government organizations.  As things progressed through the 80s, the Internet was used for file transfers, newsgroups (a kind of open forum), email and other conveniences.
  
 At the time there were a number of different programs like 'fetch', 'gopher' and 'archie' that were used to download, browse and search for files.  Typically, you might use one tool to search for the location of files of interest, then another to copy that file to a local machine.  Then, you still needed more tools to read that file.  If it was text, you could use a text editor, if it was a formatted document you might need a word processor, if a picture you would need an image viewer and so on.
 Marc Andreessen conceived of a solution that would put all the pieces together in one app, making it easy for users to browse all the different sorts of information and data on the World Wide Web.  Together with others, he started the "Mosaic" project.
 Though not technically the first browser, Mosaic was the first one that many people experienced and played a big part in popularizing the concepts of the World Wide Web and the Web browser. It provided a simple graphical way to access and browse the various resources on the Internet. Instead of using different tools to download and view information on the Internet, a simple click on a link would present the information in a graphical window. In many ways, it is the ancestor of most modern browsers.
-1.2.5 Activity – Explore the Web
+
+<h3>1.2.5 Activity – Explore the Web</h3>
 Exploring the Web, "Then and Now":
 •	Go to archive.org and find the earliest available instance of the Web site: www.google.com.
 •	Note the differences between that and its current Web site.
 •	Find an old news story, see how far back you can go (hint: start by looking at yahoo.com).
 •	In general, what differences do you notice between Web sites from the 90's and Web sites today?
 •	Post your observations and findings in the discussion forum below.
-1.3.1 Putting the “M” in HTML
-So the "M" in HTML stands for "Markup", but what does Markup really mean? Essentially, it means to annotate a document with extra information. Things like where different sections and paragraphs begin and end, which part is the title, which things should be emphasized and so on.  
+
+<h3>1.3.1 Putting the “M” in HTML</h3>
+The "M" in HTML stands for "Markup", but what does Markup really mean? Essentially, it means to annotate a document with extra information. Things like where different sections and paragraphs begin and end, which part is the title, which things should be emphasized and so on.  
 There are many ways to markup a document, but HTML borrows a technique from an ancestor language, SGML (Standard Generalized Markup Language), which uses angle brackets ("<" and ">") to separate the annotations from the regular text.  In HTML these annotations are called "tags".
 For example, consider the following chunk of HTML code:
-1.	   <body>
-2.	      <h1>A Tale of Two Cities</h1>
-3.	      <p>
-4.	         It was the best of times, it was the worst of times, . . . .
-5.	      </p>
-6.	      . . .
-7.	      <p>
-8.	         . . . it is a far, far better rest
-9.	         that I go to than I have ever known.
-10.	      </p>
-11.	   </body>
+```HTML5
+   1.	   <body>
+   2.	      <h1>A Tale of Two Cities</h1>
+   3.	      <p>
+   4.	         It was the best of times, it was the worst of times, . . . .
+   5.	      </p>
+   6.	      . . .
+   7.	      <p>
+   8.	         . . . it is a far, far better rest
+   9.	         that I go to than I have ever known.
+   10.	      </p>
+   11.	   </body>
+```
 If you eliminated everything in between the angle brackets from the text, for most purposes it would still read the same:
 A Tale of Two Cities
 It was the best of times, it was the worst of times . . . .
-  . . .
+. . .
 . . . it is a far, far better rest
     that I go to than I have ever known.
+
 Once you know that everything in angle brackets is "meta-information", it leaves a lot of flexibility. You can put a lot of different things in between those brackets without any of it showing up (directly) in your finished document. And, though you don't usually see directly what's in those angle brackets, they can often have a big effect on what your Web page looks like as well as how it responds and interacts with you.
+
 Try It Out!
+
 I expect at this point you may be longing to write some HTML code.  As is the tradition in programming tutorials, we'll pause here to create a simple "Hello HTML" program. Please choose any Web editor of your liking (see in the subsection "Course tools").
-1.3.2 Programming “Hello HTML”
+
+<h3>1.3.2 Programming “Hello HTML”</h3>
 You can build and edit your HTML pages by either using online editors or editors that you can install on your machine, like Visual Studio Code.
 Using online editors:
+
 Both JSBin and CodePen are two online editors that you can use to create HTML Web pages. 
 The following two videos show you how to create your first HTML page using JSBin and CodePen
 And this time, what I'd like to show you a very simple HTML file that I've created.
@@ -368,9 +402,10 @@ front-end code playground called CodePen.
 Until next time, happy coding.
 Using Visual Studio Code
 Watch these 3 demos/videos below to learn how to use Visual Studio Code (VS):
-•	to write HTML pages and explore the support you get when using Visual Studio Code to create Web pages.
-•	to preview your HTML page using the "open in browser" extension.
-•	to build your first "Hello HTML!" page using VS Code.
+   •	to write HTML pages and explore the support you get when using Visual Studio Code to create Web pages.
+   •	to preview your HTML page using the "open in browser" extension.
+   •	to build your first "Hello HTML!" page using VS Code.
+
 Live coding video: using Visual Studio Code
 To get Visual Studio on your machine, simply visit code.visualstudio.com
 Just as I've done here in my browser.
@@ -549,7 +584,8 @@ We defined a "title" here which showed up here.
 And we also defined content in the "body" of our page which shows up like this, based on the various tags that we've used.
 Now we have only used a tiny fraction of the HTML elements and tags that are available to you.
 But hopefully this shows you, just how easy it is to get started.
-1.3.3 Elements
+
+<h3>1.3.3 Elements</h3>
 If you are sitting at a coffee shop next to a table of Web developers, you will probably hear three words quite a bit:  'Tags', 'Attributes' and 'Elements' (or sometimes 'DOM elements', same thing just more precise and wordy).
 'Elements' are the pieces themselves, i.e. a paragraph is an element, or a header is an element, even the body is an element.  Most elements can contain other elements, as the body element would contain header elements, paragraph elements, in fact pretty much all of the visible elements of the DOM.
  
@@ -557,21 +593,25 @@ Consider the figure above.  It contains a single 'html' element.  It turns out t
 Thus, in the example above, the top element is the html element, which contains just two elements, the head and body.  The head element contains a title element and the body contains an 'h1' element and a 'p' element.  In a more typical example, the body would contain many more children, but for our purpose this is enough.
 That may be a great picture, but how do we represent such a structure in a text file?  Well, that's where "tags" come in.
 
-1.3.4 Tags
+<h3>1.3.4 Tags</h3>
  
 'Tags' are what we use to organize a text file (which is just a long string of characters) such that it represents a tree of elements that make up the html document.  Tags are not the elements themselves, rather they're the bits of text you use to tell the computer where an element begins and ends.  When you 'mark up' a document, you generally don't want those extra notes that are not really part of the text to be presented to the reader. HTML borrows a technique from another language, SGML, to provide an easy way for a computer to determine which parts are "MarkUp" and which parts are the content. By using '<' and '>' as a kind of parentheses, HTML can indicate the beginning and end of a tag, i.e. the presence of '<' tells the browser 'this next bit is markup, pay attention'.
 Whatever that tag (or 'open tag') does, it applies to the content following the tag. Unless you want that to be the entire rest of the document, you need to indicate when to stop using that tag and do something else, so '<' and '>' are again used. Since elements are typically nested within other elements, the browser needs to be able to distinguish between the end of the current tag or the beginning of a new tag (representing a nested element). This is done by adding a '/' right after the '<' to indicated that it's a 'close tag'. To indicate the beginning and end of a paragraph (indicated by the single letter 'p') you end up with something like this:
+
 <p>This is my first paragraph!</p>
 The browser sees the letters '<p>' and decides 'A new paragraph is starting, I'd better start a new line and maybe indent it'. Then when it sees '</p>' it knows that the paragraph it was working on is finished, so it should break the line there before going on to whatever is next.
 For example, the '<em>' tag is used for element that needs Emphasis.  The  '<' and '>' indicate that this is a tag, and the "little bits of text" in between tell us what kind of tag it is.  To completely describe the element, it needs an open and close tag, with everything in between the tags being the content of the element:
  
 Most tags have open and close versions, but there are a few strange ones.  We'll learn more about these later, but we generally refer to the strange ones as "self closing" tags. Usually these tags represent an element that is completely described by its attributes, and thus there is no need for other content.  So if you see something like this:
+
 <img src="https://goo.gl/pVxY0e" alt="Floating Flower"/>
+
 ... then you should know that the slash at the end of the open tag is sort of a shorthand for a close tag, so you won't see any other indication that this element is now complete.  There are also a few tags that don't even use the '/' at the end, they just don't have any close tag at all.  This works because all of the information this tag needs is declared in an "attribute".
 
-1.3.5 Comments
+<h3>1.3.5 Comments</h3>
 Computers are great at reading computer languages, but it's not always easy for humans.  Comments are a way of adding some text that is primarily targeted towards human readers.
 Every programming language I've used has some way of representing comments.  HTML5 is no exception.  If you want to add something in your file that you want the browser to completely ignore, there's a special tag for that (unsurprisingly called a "comment tag"):
+```HTML4
 12.	<!-- This is a comment -->
 An HTML comment tag starts with <!-- and ends with -->, meaning that as the computer is reading through your HTML file, if it sees <!-- it will ignore everything it sees until it comes across -->.  There is no open or close tag, just a comment tag.  Unlike most other things in HTML5, comments cannot be nested.  If you try that, like:
 13.	<!--
@@ -591,9 +631,10 @@ Comments are also commonly used in development to block out bits of code, whethe
 24.	<!-- Not sure if I want this wording or not:
 25.	<p>Eighty seven years ago, a bunch of guys started a new country</p>
 26.	-->
+```
 It's important to remember that just as HTML, CSS and JavaScript are three different languages, they each have their own notation for handling comments. This might seem confusing, but it's actually kind of important that the HTML comment notation, at least, differs from the others.  As for the exact form of those comments, we'll cover that in good time.
 
-1.3.6 Attributes
+<h3>1.3.6 Attributes</h3>
 Most of what we'll cover about attributes will come later, but I wanted to introduce the idea briefly. Basically, a given element on your Web page can be distinguished by any number of unique or common attributes. You can identify it uniquely with an 'id' attribute, or group it with a class of other elements by setting the 'class' attribute.
 Attributes in HTML are written inside the opening tag like this:
 <p id="paragraph-1" class="regular-paragraphs">
