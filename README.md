@@ -29,9 +29,8 @@
 
 ## [**Course information**](#chb)
 >### * [**Welcome to "HTML5 and CSS Fundamentals"**](#chb-1)
->### * [**Course outline, grading and due dates**](#chb-2)
->### * [**Course practical information**](#chb-3)
->### * [**Course tools**](#chb-4)
+>### * [**Course practical information**](#chb-2)
+>### * [**Course tools**](#chb-3)
 
 ## [Module 1: My first Web page in HTML5](/modules/module1.md)
 
@@ -87,8 +86,9 @@
 
 Quickly learn the basics of Web design and style to give your Web sites
 a professional look and feel, by just following these 6 modules!
-
-   - The first set of lessons are available under <b>"Module 1: My first Web page in HTML5"</b>.
+<ul>
+<li>The first set of lessons are available under <b>"Module 1: My first Web page in HTML5"</b>.</li>
+<ul>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- 02. my first web page (01) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -97,10 +97,9 @@ a professional look and feel, by just following these 6 modules!
    width="15%"
    alt="My First Web Page" />
 </p>
-
-   - In <b>Module 2</b>, you will learn about HTML5 attributes, and become fluent in adding images and links in your Web pages.
-
-   - Now that you have made your first Web page, it is time to introduce you to CSS in <b>Module 3</b>.
+<ul>
+<li>In <b>Module 2</b>, you will learn about HTML5 attributes, and become fluent in adding images and links in your Web pages.&nbsp;<br/></li>
+<li>Now that you have made your first Web page, it is time to introduce you to CSS in <b>Module 3</b>.
 
 <h3>CSS is used to style the HTML</h3>
 
@@ -117,7 +116,7 @@ It is how we determine the color, text size, spacing and other visual
 aspects of your Web page. We'll introduce the syntax of CSS, how to
 include it with your pages, and get you started with some basic
 properties and concepts. Note that we'll explore how to use CSS to
-layout your page during the last week of this course.      
+layout your page during the last week of this course.</li>
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------------- 04. laptop (02) ---------------------------------------->
@@ -128,13 +127,13 @@ layout your page during the last week of this course.      
    alt="" />
 </p>
 
-   - Whilst practicing and improving your recipe project (or else) with
+<li>Whilst practicing and improving your recipe project (or else) with
     CSS features, you may have noticed that errors (subtle or not -
     we've all been there) can get in the way! This week you will learn
     how to fix your Web page when it's not doing what you hoped it would
     do.  
     <b>Module 4</b> is a 'short' week so please use that time to practice,
-    practice and practice coding again!
+    practice and practice coding again!</li>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- 05. w3c cheat sheet (03) ------------------------------------>
@@ -145,7 +144,7 @@ layout your page during the last week of this course.      
    alt="W3C Cheat Sheet" />
 </p>
 
-   - In <b>Module 5</b>, you will be combining HTML and CSS to create more
+<li>In <b>Module 5</b>, you will be combining HTML and CSS to create more
     complex pages, and "beautify" even more your recipe projects. You
     will learn about tables, the audio and video elements, etc. This is
     a good preparatory work for the [HTML5 Coding Essentials and Best
@@ -153,7 +152,7 @@ layout your page during the last week of this course.      
     course](https://www.edx.org/course/html5-coding-essentials-and-best-practices) (intermediate
     level). You will also learn how to embed other elements in a page
     other than a simple image. Note that some parts of the material are
-    optional: iframes, usemap, and ismap.
+    optional: iframes, usemap, and ismap.</li>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- 06. can i use: css colors (04) --------------------------------->
@@ -164,15 +163,15 @@ layout your page during the last week of this course.      
    alt="Can I Use: CSS Colors" />
 </p>
 
-   - <b>Module 6</b> is about page layout and more specifically about
+<li><b>Module 6</b> is about page layout and more specifically about
 CSS flexbox. Using flexible widths and heights, elements can be aligned
 to fill a space or distribute space between elements, which makes it a
 great tool to use for responsive design systems. Once you've got the
 basics, practice more with this fun [Flexbox
 Froggy](https://flexboxfroggy.com/) game. Note that some parts of this
 week are clearly indicated OPTIONAL, meaning that there will be no
-questions related to that content material.
-
+questions related to that content material.</li>
+</ul>
 W3C has designed a ["Front-End Web Developer" (FEWD) Professional
 Certificate](https://www.edx.org/professional-certificate/w3cx-front-end-web-developer) where
 you will learn all of the necessary skills needed to build interactive
@@ -180,25 +179,22 @@ and responsive user experiences on the Web. This program will deepen
 your knowledge of the 3 foundational languages that power the Web:
 HTML5, CSS and JavaScript. The W3C FEWD program is composed of 5
 courses:
-
-1.  [CSS Basics](https://www.edx.org/course/css-basics) - introductory
-    level
-
-2.  <b>This course: [HTML5 and CSS
+<ol>
+<li> [CSS Basics](https://www.edx.org/course/css-basics) - introductory
+    level,&nbsp;<br/></li>
+<li><b>This course: [HTML5 and CSS
     Fundamentals](https://www.edx.org/course/html5-and-css-fundamentals) -
-    introductory level</b>
-
-3.  [HTML5 Coding Essentials and Best
+    introductory level</b>,&nbsp;<br/></li>
+<li>[HTML5 Coding Essentials and Best
     Practices](https://www.edx.org/course/html5-coding-essentials-and-best-practices) -
-    intermediate level
-
-4.  [HTML5 Apps and
+    intermediate level,&nbsp;<br/></li>
+<li>[HTML5 Apps and
     Games](https://www.edx.org/course/html5-apps-and-games) - advanced
-    level
-
-5.  [JavaScript
+    level,&nbsp;<br/></li>
+<li>[JavaScript
     Introduction](https://www.edx.org/course/javascript-introduction) -
-    introductory level
+    introductory level.</li>
+</ol>
 
 <h4>Welcome!</h4>
 
