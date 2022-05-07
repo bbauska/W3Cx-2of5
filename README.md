@@ -69,17 +69,16 @@
 > ##### 6.3 CSS Flexbox 
 > ##### 6.4 More flexbox
 > ##### 6.5 CSS Grid
-> ##### 6.6 Recipe project 
+> ##### 6.6 Recipe project
 
-(https://github.com/bbauska/W3Cx-2of5-HTML5-and-CSS-Fundamentals.git)
+[HTML5 and CSS Fundamentals - git](https://github.com/bbauska/W3Cx-2of5-HTML5-and-CSS-Fundamentals.git)
 
 <h3>Course Outline:</h3>
 
 Quickly learn the basics of Web design and style to give your Web sites
 a professional look and feel, by just following these 6 modules!
 
--   The first set of lessons are available under <b>"Module 1: My first
-    Web page in HTML5"</b>.
+   - The first set of lessons are available under <b>"Module 1: My first Web page in HTML5"</b>.
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- 02. my first web page (01) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -89,11 +88,9 @@ a professional look and feel, by just following these 6 modules!
    alt="My First Web Page" />
 </p>
 
-> •         In <b>Module 2</b>, you will learn about HTML5 attributes, and
-> become fluent in adding images and links in your Web pages.
->
-> •         Now that you have made your first Web page, it is time to
-> introduce you to CSS in <b>Module 3</b>.
+   - In <b>Module 2</b>, you will learn about HTML5 attributes, and become fluent in adding images and links in your Web pages.
+
+   - Now that you have made your first Web page, it is time to introduce you to CSS in <b>Module 3</b>.
 
 <h3>CSS is used to style the HTML</h3>
 
@@ -121,12 +118,12 @@ layout your page during the last week of this course.      
    alt="" />
 </p>
 
--   Whilst practicing and improving your recipe project (or else) with
+   - Whilst practicing and improving your recipe project (or else) with
     CSS features, you may have noticed that errors (subtle or not -
     we've all been there) can get in the way! This week you will learn
     how to fix your Web page when it's not doing what you hoped it would
     do.  
-    **Module 4** is a 'short' week so please use that time to practice,
+    <b>Module 4<.b> is a 'short' week so please use that time to practice,
     practice and practice coding again!
 
 <!------------------------------------------------------------------------------------------------>
@@ -138,7 +135,7 @@ layout your page during the last week of this course.      
    alt="W3C Cheat Sheet" />
 </p>
 
--   **In Module 5**, you will be combining HTML and CSS to create more
+   - <b>In Module 5</b>, you will be combining HTML and CSS to create more
     complex pages, and "beautify" even more your recipe projects. You
     will learn about tables, the audio and video elements, etc. This is
     a good preparatory work for the [HTML5 Coding Essentials and Best
@@ -157,7 +154,7 @@ layout your page during the last week of this course.      
    alt="Can I Use: CSS Colors" />
 </p>
 
-•         **Module 6** is about page layout and more specifically about
+   - <b>Module 6</b> is about page layout and more specifically about
 CSS flexbox. Using flexible widths and heights, elements can be aligned
 to fill a space or distribute space between elements, which makes it a
 great tool to use for responsive design systems. Once you've got the
@@ -193,90 +190,90 @@ courses:
     Games](https://www.edx.org/course/html5-apps-and-games) - advanced
     level
 
-# Course information
+<h3>Course information</h3>
 
-1.  **Welcome to the "HTML5 & CSS Fundamentals" course**
+   1. **Welcome to the "HTML5 & CSS Fundamentals" course**
 
-2.  **Course outline, grading and certificates**
+   2. **Course outline, grading and certificates**
 
-3.  **Course tools**
+   3. **Course tools**
 
-4.  **Course forums**
+   4. **Course forums**
 
-5.  **About W3C and the Web**
+   5. **About W3C and the Web**
 
-## Module 1: My first Web page
+<h3>Module 1: My first Web page</h3>
 
-1.  **Introduction to Module 1**
+   1. **Introduction to Module 1**
 
-2.  **The big three: HTML5, CSS and JavaScript**
+   2. **The big three: HTML5, CSS and JavaScript**
 
-3.  **Elements, tags and attributes**
+   3. **Elements, tags and attributes**
 
-4.  **Character encoding**
+   4. **Character encoding**
 
-5.  **Best practices**
+   5. **Best practices**
 
-6.  **More on tags**
+   6. **More on tags**
 
-## Module 2: Attributes, images and links
+<h3>Module 2: Attributes, images and links</h3>
 
-1.  **Introduction to Module 2**
+   1. **Introduction to Module 2**
 
-2.  **Attributes**
+   2. **Attributes**
 
-3.  **Semantic meaning**
+   3. **Semantic meaning**
 
-4.  **Images**
+   4. **Images**
 
-5.  **Hyperlinks**
+   5. **Hyperlinks**
 
-## Module 3: Adding style with CSS
+<h3>Module 3: Adding style with CSS</h3>
 
-1.  **Introduction to Module 3**
+   1.  **Introduction to Module 3**
 
-2.  **CSS basic syntax**
+   2.  **CSS basic syntax**
 
-3.  **CSS properties**
+   3.  **CSS properties**
 
-4.  **Lists and selectors**
+   4.  **Lists and selectors**
 
-## Module 4: Fixing and debugging
+<h3>Module 4: Fixing and debugging</h3>
 
-1.  **Introduction to Module 4**
+   1.  **Introduction to Module 4**
 
-2.  **Debugging tools and HTML5**
+   2.  **Debugging tools and HTML5**
 
-3.  **Debugging and the CSS box model**
+   3.  **Debugging and the CSS box model**
 
-4.  [**Debugging CSS
+   4.  [**Debugging CSS
     precedence**](https://learning.edx.org/course/course-v1:W3Cx+HTML5.0x+3T2020/block-v1:W3Cx+HTML5.0x+3T2020+type@sequential+block@4bc228e91d0f414eb80c9bdcf3fdf356)
 
-## Module 5: More HTML and CSS
+<h3>Module 5: More HTML and CSS</h3>
 
-1.  **Introduction to Module 5**
+   1.  **Introduction to Module 5**
 
-2.  **Tables**
+   2.  **Tables**
 
-3.  **Multimedia**
+   3.  **Multimedia**
 
-4.  **Embedding content (OPTIONAL)**
+   4.  **Embedding content (OPTIONAL)**
 
-5.  **CSS tricks**
+   5.  **CSS tricks**
 
-## Module 6: Basics of Page Layout
+<h3>Module 6: Basics of Page Layout</h3>
 
-1.  **Introduction to Module 6**
+   1.  **Introduction to Module 6**
 
-2.  **Concepts**
+   2.  **Concepts**
 
-3.  **CSS Flexbox**
+   3.  **CSS Flexbox**
 
-4.  **More flexbox (OPTIONAL)**
+   4.  **More flexbox (OPTIONAL)**
 
-5.  **CSS Grid (OPTIONAL)**
+   5.  **CSS Grid (OPTIONAL)**
 
-6.  **Recipe project**
+   6.  **Recipe project**
 
 <h4>Welcome!</h4>
 
@@ -327,38 +324,37 @@ for you.
 There are two types of editors available, WYSIWYG ("What You See Is What
 You Get") and textual HTML editors. Here is a non exhaustive list:
 
-•         [Sublime Text](https://www.sublimetext.com/) - it is quite
+   • [Sublime Text](https://www.sublimetext.com/) - it is quite
 popular with developers, though there can be a bit of a learning curve
 to use its many features
 
-•         [BlueGriffon](http://bluegriffon.org/) - a WYSIWYG content
+   • [BlueGriffon](http://bluegriffon.org/) - a WYSIWYG content
 editor for the World Wide Web. Powered by Gecko, the rendering engine of
 Firefox, it's a modern and robust solution to edit Web pages in
 conformance to the latest Web Standards
 
-•         [Visual Studio Code](https://code.visualstudio.com/) - a free
+   • [Visual Studio Code](https://code.visualstudio.com/) - a free
 open source editor that can run on any operating system. Many coding
 videos in this course are demonstrated using Visual Studio Code
 
-•         [GitHub](https://github.com/) itself - check [this resource
+   • [GitHub](https://github.com/) itself - check [this resource
 that explains how to create a Web site using
 GitHub](https://towardsdatascience.com/how-to-create-a-free-github-pages-website-53743d7524e1).
 
-•         [XCode](https://developer.apple.com/xcode/) - Mac developers
+   • [XCode](https://developer.apple.com/xcode/) - Mac developers
 may be familiar with XCode
 
-•         TextEdit - this is available on Macs, but be sure
+   • TextEdit - this is available on Macs, but be sure
 you're [saving as plain
 text](https://discussions.apple.com/message/5014514#5014514), not as a
 ".rtf" or ".doc" file.
 
-•         [Notepad](https://notepad-plus-plus.org/) - on Windows PC's
+   • [Notepad](https://notepad-plus-plus.org/) - on Windows PC's
 
-•         [Atom](https://www.sublimetext.com/) - another cross platform
+   • [Atom](https://www.sublimetext.com/) - another cross platform
 editor, created by [GitHub](https://github.com/).
 
-•        
-[Vim](https://www.vim.org/) or [Emacs](https://www.gnu.org/software/emacs/) -
+   • [Vim](https://www.vim.org/) or [Emacs](https://www.gnu.org/software/emacs/) -
 great editors, but if you're not already familiar with these, this isn't
 the time to try
 
@@ -392,7 +388,7 @@ Miller, February 6, 2019\].
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image003.png?raw=true"
-   width="15%"
+   width="30%"
    alt="W3C Devleopers logo" />
 </p>
 <!------------------------------------------------------------------------------------------------>
@@ -400,7 +396,7 @@ Miller, February 6, 2019\].
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image007.png?raw=true"
-   width="15%"
+   width="30%"
    alt="MDN Web Docs Mozilla logo" />
 </p>
 
@@ -476,7 +472,7 @@ internationalization tips.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image005.png?raw=true"
-   width="35%"
+   width="50%"
    alt="W3C Cheat Sheet" />
 </p>
 
@@ -515,7 +511,7 @@ features presented in this course using 2 resources: [Can I
 Use](https://caniuse.com/) and [Mozilla Developer Network (MDN) Web
 Docs](https://developer.mozilla.org/en-US/).
 
-<h3>Can I use</h3>
+<h4>Can I use</h4>
 
 [Can I Use](https://caniuse.com/) provides up-to-date tables for support
 of front-end Web technologies on desktop and mobile Web browsers. Below
@@ -548,12 +544,12 @@ browser compatibility tables in its documentation pages, so that when
 looking up a feature you’re considering for your project, you know
 exactly which browsers will support it.
 
-### External resources
+<h4>External resources</h4>
 
--   [MDN browser compatibility data: Taking the guesswork out of web
+   - [MDN browser compatibility data: Taking the guesswork out of web
     compatibility](https://hacks.mozilla.org/2018/02/mdn-browser-compatibility-data/)
 
--   [Caniuse and MDN compatibility data
+   - [Caniuse and MDN compatibility data
     collaboration](https://hacks.mozilla.org/2019/09/caniuse-and-mdn-compat-data-collaboration/)
 
 <h3>What is W3C?</h3>
@@ -564,12 +560,17 @@ W3C's primary activity is to develop protocols and guidelines that
 ensure long-term growth for the Web. The widely adopted Web standards
 define key parts of what actually makes the World Wide Web work.
 
-### A few history bits
+<h3>A few history bits</h3>
 
-<img src="./All-Images/media/image8.jpeg" style="width:3in;height:3in"
-alt="Tim Berners-Lee at his desk in CERN, 1994" />
-
-Tim Berners-Lee at his desk in CERN, 1994
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 08. tim berners-lee in 1994 (11) -------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image008.jpeg?raw=true"
+   width="35%"
+   alt="Tim Berners-Lee at his desk in CERN, 1994" />
+</p>
+<p align="center">Tim Berners-Lee at his desk in CERN, 1994</p>
 
 [Tim Berners-Lee](https://www.w3.org/People/Berners-Lee/) wrote a
 [proposal](https://www.w3.org/History/1989/proposal.html) in 1989 for a
@@ -592,7 +593,7 @@ Japan](https://www.keio.ac.jp/) (Shonan Fujisawa Campus) in Asia in
 European W3C Host from Inria. In 2013, W3C announced [Beihang
 University](https://ev.buaa.edu.cn/) as the fourth Host.
 
-### A few figures
+<h3>A few figures</h3>
 
 As of April 2021, W3C:
 
@@ -626,7 +627,7 @@ As of April 2021, W3C:
 -   Has a [technical staff](https://www.w3.org/People/) composed of 68
     people, spread on all five continents.
 
-### W3C's core values
+<h3>W3C's core values</h3>
 
 Committed to core values of an open Web that promotes innovation,
 neutrality, and interoperability, W3C and its community are setting the
@@ -637,7 +638,7 @@ via the collaboration of global technical experts.
 In the next video below, listen to what Sir Tim Berners-Lee said when
 asked what part of the W3C’s work he’s the most proud of.
 
-## The Web is Amazing!
+<h4>The Web is Amazing!</h4>
 
 People often use the words "Internet" and "Web" interchangeably, but
 this usage is technically incorrect.
@@ -651,9 +652,9 @@ car, the email is a bicycle, etc.  Read [this
 article](https://www.lifewire.com/difference-between-the-internet-and-the-web-2483335)
 for more details about the difference between Internet and the Web.
 
-## What is Web Accessibility?
+<h3>What is Web Accessibility?</h3>
 
-## 1.1.1 Welcome to Module 1
+<h2 id="ch1">1.1.1 Welcome to Module 1</h2>
 
 Hello everyone! Welcome to Module 1 of the introduction to HTML5 and CSS
 course.
@@ -681,7 +682,7 @@ quiz section.
 
 With that, let's jump right in.
 
-## 1.1.2 Module 1 – Content
+<h2 id="ch1-1">1.1.2 Module 1 – Content</h2>
 
 **1.1 Introduction:** A video that introduces the content of Module 1.
 
@@ -15779,3 +15780,4 @@ These are the final changes to our recipe project for this unit.
 ## Last one --- \#.#.# More Description
 
 ## 
+<b>Last Updated 5-6-2022 9:48pm</b>
