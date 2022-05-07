@@ -1,7 +1,7 @@
 <h1>W3Cx-2of5-HTML5.0x - HTML5 and CSS Fundamentals</h1>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- W3Cx-2of5-HTML5.0x logo ------------------------------------>
+<!-------------------------------- W3Cx-2of5-HTML5.0x logo (01) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image001.png?raw=true"
@@ -73,38 +73,38 @@
 
 (https://github.com/bbauska/W3Cx-2of5-HTML5-and-CSS-Fundamentals.git)
 
-<!------------------------------------------------------------------------------------------------>
-<!-------------------------------- W3Cx-2of5 HTML5 and CSS3 logo --------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image001.png?raw=true"
-   width="50%"
-   alt="logo" />
-</p>
-
 <h3>Course Outline:</h3>
 
 Quickly learn the basics of Web design and style to give your Web sites
 a professional look and feel, by just following these 6 modules!
 
--   The first set of lessons are available under **"Module 1: My first
-    Web page in HTML5"**.
-
-<img src="./images/image002.jpeg"
-     alt=""
-     width="15%" />
+-   The first set of lessons are available under <b>"Module 1: My first
+    Web page in HTML5"</b>.
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------- 02. my first web page (01) ----------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image002.jpeg?raw=true"
+   width="15%"
+   alt="My First Web Page" />
 </p>
 
-> •         In **Module 2**, you will learn about HTML5 attributes, and
+> •         In <b>Module 2</b>, you will learn about HTML5 attributes, and
 > become fluent in adding images and links in your Web pages.
 >
 > •         Now that you have made your first Web page, it is time to
-> introduce you to CSS in **Module 3**.
+> introduce you to CSS in <b>Module 3</b>.
 
 <h3>CSS is used to style the HTML</h3>
 
-<img src="./images/image003.png"
-style="width:1.875in;height:0.75833in" />
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 03. w3c developers logo (02) ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image003.png?raw=true"
+   width="15%"
+   alt="W3C Developers logo" />
+</p>
 
 It is how we determine the color, text size, spacing and other visual
 aspects of your Web page. We'll introduce the syntax of CSS, how to
@@ -112,8 +112,14 @@ include it with your pages, and get you started with some basic
 properties and concepts. Note that we'll explore how to use CSS to
 layout your page during the last week of this course.      
 
-<img src="./images/image004.png"
-style="width:1in;height:0.825in" />
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------------- 04. laptop (02) ---------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image004.png?raw=true"
+   width="15%"
+   alt="" />
+</p>
 
 -   Whilst practicing and improving your recipe project (or else) with
     CSS features, you may have noticed that errors (subtle or not -
@@ -123,8 +129,14 @@ style="width:1in;height:0.825in" />
     **Module 4** is a 'short' week so please use that time to practice,
     practice and practice coding again!
 
-<img src="./images/image005.png"
-style="width:5in;height:3.48611in" />
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------- 05. w3c cheat sheet (03) ------------------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image005.png?raw=true"
+   width="50%"
+   alt="W3C Cheat Sheet" />
+</p>
 
 -   **In Module 5**, you will be combining HTML and CSS to create more
     complex pages, and "beautify" even more your recipe projects. You
@@ -136,8 +148,14 @@ style="width:5in;height:3.48611in" />
     other than a simple image. Note that some parts of the material are
     optional: iframes, usemap, and ismap.
 
-> <img src="./images/image006.png"
-> style="width:6.5in;height:2.79375in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------- 06. can i use: css colors (04) --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image006.png?raw=true"
+   width="65%"
+   alt="Can I Use: CSS Colors" />
+</p>
 
 •         **Module 6** is about page layout and more specifically about
 CSS flexbox. Using flexible widths and heights, elements can be aligned
@@ -260,9 +278,7 @@ courses:
 
 6.  **Recipe project**
 
-### 
-
-### Welcome!
+<h4>Welcome!</h4>
 
 This "HTML5 & CSS Fundamentals" course is designed for anyone, no
 prerequisites required.
@@ -279,9 +295,9 @@ During this course, you will learn:
 
 Have fun!
 
-##### Web Browsers and Editors
+<h4>Web Browsers and Editors</h4>
 
-### Web browsers
+<h3>Web browsers</h3>
 
 Not surprisingly, it would be helpful to have a browser (short for "Web
 Browser") so that you can see the end result of your source code.
@@ -300,7 +316,7 @@ browsers](https://en.wikipedia.org/wiki/Web_browser#History) (on
 Wikipedia). An interesting resource is the [Browser and Platform Market
 Share](https://www.w3counter.com/globalstats.php) (updated regularly).
 
-### Web editors
+<h3>Web editors</h3>
 
 An HTML editor is invaluable for both beginners and more advanced
 developers. While any text editor, like NotePad or TextEdit, can be used
@@ -346,7 +362,7 @@ editor, created by [GitHub](https://github.com/).
 great editors, but if you're not already familiar with these, this isn't
 the time to try
 
-### Online Code Editors
+<h3>Online Code Editors</h3>
 
 To help you practice during the whole duration of the course, we propose
 to use the [CodePen](https://codepen.io/) online code editor. An online
@@ -369,13 +385,24 @@ CodePen: [Things you can do with
 CodePen](https://codepen.io/brentmiller/post/things-you-can-do-with-codepen) \[Brent
 Miller, February 6, 2019\].
 
-### W3C Validators
+<h3>W3C Validators</h3>
 
-<img src="./images/image003.png"
-style="width:3in;height:1.21667in" />
-
-<img src="./images/image007.png"
-style="width:3in;height:0.94521in" />
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 03. w3c developers logo (08) ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image003.png?raw=true"
+   width="15%"
+   alt="W3C Devleopers logo" />
+</p>
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------- 07. mdn web docs mozilla logo (08) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image007.png?raw=true"
+   width="15%"
+   alt="MDN Web Docs Mozilla logo" />
+</p>
 
 For over 15 years, the W3C has been developing and
 hosting [**<u>free</u>** and **<u>open
@@ -385,7 +412,7 @@ listed below are Web-based, and are available as downloadable sources or
 as free services on the [W3C Developers
 tools ](https://w3c.github.io/developers/tools/)site.
 
-### W3C Validator
+<h3>W3C Validator</h3>
 
 The [W3C validator](https://validator.w3.org/) checks the [markup
 validity](https://validator.w3.org/docs/help.html#validation_basics) of
@@ -394,17 +421,22 @@ automatically directed to the [Nu Html
 Checker](https://validator.w3.org/nu/) when validating an HTML5
 document.
 
-### CSS Validator
+<h3>CSS Validator</h3>
 
 The [CSS validator](https://jigsaw.w3.org/css-validator/) checks
 Cascading Style Sheets (CSS) and (X)HTML documents that use CSS
 stylesheets.
 
-<img src="./images/image004.png"
-style="width:1in;height:0.82159in"
-alt="Laptop showing unicorn validator" />
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------- 04. laptop (08) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image004.png?raw=true"
+   width="15%"
+   alt="Laptop" />
+</p>
 
-### Unicorn
+<h3>Unicorn</h3>
 
 [Unicorn](https://validator.w3.org/unicorn/) is W3C's unified validator,
 which helps people improve the quality of their Web pages by performing
@@ -412,7 +444,7 @@ a variety of checks. Unicorn gathers the results of the popular HTML and
 CSS validators, as well as other useful services, such as
 Internationalization, RSS/Atom feeds and http headers.
 
-### Internationalization Checker
+<h3>Internationalization Checker</h3>
 
 The [W3C Internationalization
 Checker](https://validator.w3.org/i18n-checker/) provides information
@@ -420,7 +452,7 @@ about various internationalization-related aspects of your page,
 including the HTTP headers that affect it. It will also report a number
 of issues and offer advice about how to resolve them.
 
-### Link Checker
+<h3>Link Checker</h3>
 
 The [W3C Link Checker](https://validator.w3.org/checklink) looks for
 issues in links, anchors and referenced objects in a Web page, CSS style
@@ -429,7 +461,7 @@ recommended to first ensure that the documents checked use
 valid [(X)HTML
 Markup](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/).
 
-W3C CheatSheet
+<h4>W3C CheatSheet</h4>
 
 The [W3C cheatsheet](https://www.w3.org/2009/cheatsheet/) provides quick
 access to useful information from a variety of specifications published
@@ -439,9 +471,14 @@ completed by summaries of guidelines developed at W3C, in particular Web
 accessibility guidelines, the Mobile Web Best Practices, and a number of
 internationalization tips.
 
-<img src="./images/image005.png"
-style="width:3in;height:2.09497in"
-alt="W3C Cheatsheet snapshot image" />
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------- 05. w3c cheat sheet (09) ------------------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image005.png?raw=true"
+   width="35%"
+   alt="W3C Cheat Sheet" />
+</p>
 
 Its main feature is a lookup search box, where one can start typing a
 keyword and get a list of matching
@@ -452,7 +489,7 @@ interest.
 The W3C cheatsheet is only available as a [pure Web
 application](https://dev.w3.org/2009/cheatsheet/doc/).
 
-Browser Compatibility
+<h4>Browser Compatibility</h4>
 
 The term browser compatibility refers to the ability of a given Web site
 to appear fully functional on the browsers available in the market.
@@ -478,21 +515,32 @@ features presented in this course using 2 resources: [Can I
 Use](https://caniuse.com/) and [Mozilla Developer Network (MDN) Web
 Docs](https://developer.mozilla.org/en-US/).
 
-### Can I use
+<h3>Can I use</h3>
 
 [Can I Use](https://caniuse.com/) provides up-to-date tables for support
 of front-end Web technologies on desktop and mobile Web browsers. Below
 is a snapshot of what information is given by CanIUse when searching for
 "CSS3 colors".
 
-<img src="./All-Images/media/image6.png"
-style="width:5.04167in;height:2.16667in"
-alt="Example of a CanIUse browser support table (using CSS3 colors)" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------- 06. cheat sheet (10) ------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image006.png?raw=true"
+   width="65%"
+   alt="Example of a CanIUse browser support table (using CSS3 colors)" />
+</p>
 
-### MDN Web Docs
+<h3>MDN Web Docs</h3>
 
-<img src="./All-Images/media/image7.png"
-style="width:3in;height:0.94534in" alt="Logo of MDN Web Docs" />
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------- 07. mdn web docs logo (10) ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image007.png?raw=true"
+   width="35%"
+   alt="MDN Web Docs logo" />
+</p>
 
 To help developers make these decisions consciously rather than
 accidentally, [MDN Web Docs](https://developer.mozilla.org/) provides
@@ -508,11 +556,9 @@ exactly which browsers will support it.
 -   [Caniuse and MDN compatibility data
     collaboration](https://hacks.mozilla.org/2019/09/caniuse-and-mdn-compat-data-collaboration/)
 
- 
+<h3>What is W3C?</h3>
 
-### What is W3C?
-
-###  As steward of global Web standards, W3C's mission is to safeguard the openness, accessibility, and freedom of the World Wide Web from a technical perspective.
+<h4>As steward of global Web standards, W3C's mission is to safeguard the openness, accessibility, and freedom of the World Wide Web from a technical perspective.</h4>
 
 W3C's primary activity is to develop protocols and guidelines that
 ensure long-term growth for the Web. The widely adopted Web standards
