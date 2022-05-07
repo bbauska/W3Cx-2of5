@@ -380,7 +380,7 @@ recommended to first ensure that the documents checked use
 valid [(X)HTML
 Markup](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/).
 
-<h4>W3C CheatSheet</h4>
+<h3>W3C CheatSheet</h3>
 
 The [W3C cheatsheet](https://www.w3.org/2009/cheatsheet/) provides quick
 access to useful information from a variety of specifications published
@@ -408,7 +408,7 @@ interest.
 The W3C cheatsheet is only available as a [pure Web
 application](https://dev.w3.org/2009/cheatsheet/doc/).
 
-<h4>Browser Compatibility</h4>
+<h3>Browser Compatibility</h3>
 
 The term browser compatibility refers to the ability of a given Web site
 to appear fully functional on the browsers available in the market.
@@ -434,7 +434,7 @@ features presented in this course using 2 resources: [Can I
 Use](https://caniuse.com/) and [Mozilla Developer Network (MDN) Web
 Docs](https://developer.mozilla.org/en-US/).
 
-<h4>Can I use</h4>
+<h3>Can I use</h3>
 
 [Can I Use](https://caniuse.com/) provides up-to-date tables for support
 of front-end Web technologies on desktop and mobile Web browsers. Below
@@ -467,7 +467,7 @@ browser compatibility tables in its documentation pages, so that when
 looking up a feature you’re considering for your project, you know
 exactly which browsers will support it.
 
-<h4>External resources</h4>
+<h3>External resources</h3>
 
    - [MDN browser compatibility data: Taking the guesswork out of web
     compatibility](https://hacks.mozilla.org/2018/02/mdn-browser-compatibility-data/)
@@ -519,36 +519,31 @@ University](https://ev.buaa.edu.cn/) as the fourth Host.
 <h3>A few figures</h3>
 
 As of April 2021, W3C:
-
--   Is a [member](https://www.w3.org/Consortium/Member/List)-driven
+<ul>
+<li>Is a [member](https://www.w3.org/Consortium/Member/List)-driven
     organization composed of nearly 430 companies, universities,
-    start-ups, etc. from all over the world.
-
--   Holds 48 [technical
+    start-ups, etc. from all over the world.&nbsp;<br/></li>
+<li>Holds 48 [technical
     groups](https://www.w3.org/Consortium/activities), including Working
     and Interest Groups where technical specifications are discussed and
-    developed.
-
--   Published over 7,652 [published technical
+    developed.&nbsp;<br/></li>
+<li>Published over 7,652 [published technical
     reports](https://www.w3.org/TR/), including 442 Web standards (or
-    W3C Recommendations) - since January 1st,1995.
-
--   Runs a [translation
+    W3C Recommendations) - since January 1st,1995.&nbsp;<br/></li>
+<li>Runs a [translation
     program](https://www.w3.org/Consortium/Translation/) to foster the
     translation of its specifications: see  the [translation
     matrix](https://www.w3.org/Consortium/Translation/matrix.html)
-    currently listing 307 available translations of W3C recommendations.
-
--   Hosts 350 [Community and Business
+    currently listing 307 available translations of W3C recommendations.&nbsp;<br/></li>
+<li>Hosts 350 [Community and Business
     Groups](https://www.w3.org/community/groups/), where developers,
     designers, and anyone passionate about the Web have a place to hold
-    discussions and publish ideas.
-
--   Gathers over 13,960active participants constituting the W3C
-    community.
-
--   Has a [technical staff](https://www.w3.org/People/) composed of 68
-    people, spread on all five continents.
+    discussions and publish ideas.&nbsp;<br/></li>
+<li>Gathers over 13,960active participants constituting the W3C
+    community.&nbsp;<br/></li>
+<li>Has a [technical staff](https://www.w3.org/People/) composed of 68
+    people, spread on all five continents.</li>
+</ul>
 
 <h3>W3C's core values</h3>
 
@@ -624,18 +619,15 @@ a great way to avoid the same pitfalls.
 **1.6 More on tags:** Review of the tags we have just learned about and
 get started on your course project.
 
-**1.7 Test your knowledge:** Try out these quizzes on all the things
-that you have learned in Module 1.
+<h2>1.2.1 Vague But Exciting!</h2>
 
-## 1.2.1 Vague But Exciting!
-
-Twenty-eight years ago today, a proposal was sent internally at CERN
+Twenty-nine years ago a proposal was sent internally at CERN
 outlying a universal linked information system. Dubbed 'Information
 Management: A proposal', pictured below, the proposal was created by Sir
 Tim Berners-Lee and was sent to his boss Mike Sendall, who described it
 as 'vague but exciting'.
 
-<img src="./All-Images/media/image9.gif"
+<img src="./images/image009.gif"
 style="width:6in;height:5.37054in"
 alt="Tim Berners-Lee original proposal for the Web" />
 
