@@ -10,7 +10,7 @@
    width="65%"
    alt="W3Cx HTML 5.0x logo" />
 </p>
-```html5
+```HTML5
 li { cursor: pointer; }
 ```
 
