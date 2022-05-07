@@ -1,7 +1,7 @@
 <h2>2.1.1 Welcome to Module 2</h2>
 
 <p align="center">
-<img src="/images/mod2/image001.png?raw=true"
+<img src="./images/image001.png?raw=true"
    alt="Attributes, images and links"
    width="40%" />
 &nbsp;
@@ -92,42 +92,32 @@ We learned a little bit about what attributes are in the previous
 module. Let\'s look into it in more depth, by using examples.
 
 Here is an ordered list:
-
-> \<ol\>
->
->   \<li\>Lights\</li\>
->
->   \<li\>Camera\</li\>
->
->   \<li\>Action\</li\>
->
-> \</ol\>
-
+```html5
+<ol>
+<li>Lights</li>
+<li>Camera</li>
+<li>Action</li>
+</ol>
+```
 Output:
 
-1\. Lights
-
-2\. Camera
-
-3\. Action
+1. Lights
+2. Camera
+3. Action
 
 If i want an ordered list to start with the number 5 instead of 1 (as it
 does by default), let\'s code like this:
-
-> \<ol start=\"5\"\>
->
->   \<li\>Lights\</li\>
->
->   \<li\>Camera\</li\>
->
->   \<li\>Action\</li\>
->
-> \</ol\>
-
+```HTML5
+<ol start="5">
+<li>Lights</li>
+<li>Camera</li>
+<li>Action</li>
+</ol>
+```
 Output:
 
-5\. Lights\
-6. Camera\
+5. Lights
+6. Camera
 7. Action
 
 Here, using the start attribute, we made our list start with 5 instead
@@ -287,29 +277,29 @@ boolean attribute. The non-global attribute width can be applied to
 several tags such as \<img\>, \<input\> and \<video\>.
 
 **Without** the boolean attribute reversed:
+```HTML5
+<ol>
 
-\<ol\>
+   <li>HTML5</li>
 
-   \<li\>HTML5\</li\>
+   <li>CSS</li>
 
-   \<li\>CSS\</li\>
+   <li>JavaScript</li>
 
-   \<li\>JavaScript\</li\>
-
-\</ol\>
-
+</ol>
+```
 **With** the boolean attribute reversed:
+```HTML5
+<ol reversed>
 
-\<ol reversed\>
+   <li>HTML5</li>
 
-   \<li\>HTML5\</li\>
+   <li>CSS</li>
 
-   \<li\>CSS\</li\>
+   <li>JavaScript</li>
 
-   \<li\>JavaScript\</li\>
-
-\</ol\>
-
+</ol>
+```
 ![](./mod2-images/media/image2.png){width="3.0in"
 height="2.924209317585302in"}
 https://github.com/bbauska/W3Cx-2of5-HTML5.0x/blob/main/images/mod2/image2.png?raw=true
