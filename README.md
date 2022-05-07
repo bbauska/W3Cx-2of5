@@ -13,6 +13,8 @@
 
 <h3>W3Cx: HTML5 and CSS Fundamentals</h3>
 
+## [Table of Contents](#table-of-contents)
+
 ## [**About W3C and the Web**](#cha)
 >### - [**About W3C and the Web**](#cha-1)
 >### - [**Why accessibility is important**](#cha-2)
@@ -26,50 +28,51 @@
 
 ## [Module 1: My first Web page in HTML5](/modules/module1.md)
 
->### 1.1 Introduction to Module 1 
->### 1.2 The big three: HTML5, CSS3 and JavaScript 
->### 1.3 Elements, tags and attributes 
->### 1.4 Character encoding 
->### 1.5 Best practices 
->### 1.6 More on tags 
->### 1.7 Exercises - Module 1
+>### 1.1 [**Introduction to Module 1**](#ch1-1) 
+>### 1.2 [**The big three: HTML5, CSS3 and JavaScript**](#ch1-2)
+>### 1.3 [**Elements, tags and attributes**](#ch1-3)
+>### 1.4 [**Character encoding**](#ch1-4)
+>### 1.5 [**Best practices**](#ch1-5)
+>### 1.6 [**More on tags**](#ch1-6)
+>### 1.7 [**Exercises - Module 1**](#ch1-7)
 
 ## [Module 2: Attributes, images and links](/modules/module2.md)
->### 2.1 Introduction to Module 2
->### 2.2 Attributes
->### 2.3 Semantic meaning
->### 2.4 Images
->### 2.5 Hyperlinks
->### 2.6 Exercises - Module 2
+>### 2.1 [**Introduction to Module 2**](#ch2-1)
+>### 2.2 [**Attributes**](#ch2-2)
+>### 2.3 [**Semantic meaning**](#ch2-3)
+>### 2.4 [**Images**](#ch2-4)
+>### 2.5 [**Hyperlinks**](#ch2-5)
+>### 2.6 [**Exercises - Module 2**](#ch2-6)
 
 ## [Module 3: Adding style with CSS](/modules/module3.md)
->### 3.1 Introduction to Module 3 
->### 3.2 CSS basic syntax 
->### 3.3 CSS properties 
->### 3.4 Lists and selectors 
->### 3.5 Exercises - Module 3 
+>### 3.1 [**Introduction to Module 3**](#ch3-1)
+>### 3.2 [**CSS basic syntax**](#ch3-2)
+>### 3.3 [**CSS properties**](#ch3-3)
+>### 3.4 [**Lists and selectors**](#ch3-4)
+>### 3.5 [**Exercises - Module 3**](#ch3-5)
 
 ## [Module 4: Fixing and debugging](/modules/module4.md)
->### 4.1 Introduction to Module 4 
->### 4.2 Debugging tools and HTML5 
->### 4.4 Debugging CSS precedence 
->### 4.5 Exercises - Module 4 
+>### 4.1 [**Introduction to Module 4**](#ch4-1)
+>### 4.2 [**Debugging tools and HTML5**](#ch4-2)
+>### 4.3 [**Debugging and the CSS box model**](#ch4-3)
+>### 4.4 [**Debugging CSS precedence**](#ch4-4)
+>### 4.5 [**Exercises - Module 4**](#ch4-5)
 
 ## [Module 5: More HTML5 and CSS](/modules/module5.md)
->### 5.1 Introduction to Module 5 
->### 5.2 Tables 
->### 5.3 Multimedia 
->### 5.4 Embedding content
->### 5.5 CSS tricks 
->### 5.6 Exercises - Module 5 
+>### 5.1 [**Introduction to Module 5**](#ch5-1)
+>### 5.2 [**Tables**](#ch5-2)
+>### 5.3 [**Multimedia**](#ch5-3)
+>### 5.4 [**Embedding content**](#ch5-4)
+>### 5.5 [**CSS tricks**](#ch5-5)
+>### 5.6 [**Exercises - Module 5**](#ch5-6)
 
 ## [Module 6: Basics of page Layout](/modules/module6.md)
->### 6.1 Introduction to Module 6 
->### 6.2 Concepts 
->### 6.3 CSS Flexbox 
->### 6.4 More flexbox
->### 6.5 CSS Grid
->### 6.6 Recipe project
+>### 6.1 [**Introduction to Module 6**](#ch6-1)
+>### 6.2 [**Concepts**](#ch6-2)
+>### 6.3 [**CSS Flexbox**](#ch6-3)
+>### 6.4 [**More flexbox**](#ch6-4)
+>### 6.5 [**CSS Grid**](#ch6-5)
+>### 6.6 [**Recipe project**](#ch6-6)
 
 [HTML5 and CSS Fundamentals - git](https://github.com/bbauska/W3Cx-2of5-HTML5-and-CSS-Fundamentals.git)
 
