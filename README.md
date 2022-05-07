@@ -133,7 +133,7 @@ layout your page during the last week of this course.      
     we've all been there) can get in the way! This week you will learn
     how to fix your Web page when it's not doing what you hoped it would
     do.  
-    <b>Module 4<.b> is a 'short' week so please use that time to practice,
+    <b>Module 4</b> is a 'short' week so please use that time to practice,
     practice and practice coding again!
 
 <!------------------------------------------------------------------------------------------------>
@@ -145,7 +145,7 @@ layout your page during the last week of this course.      
    alt="W3C Cheat Sheet" />
 </p>
 
-   - <b>In Module 5</b>, you will be combining HTML and CSS to create more
+   - In <b>Module 5</b>, you will be combining HTML and CSS to create more
     complex pages, and "beautify" even more your recipe projects. You
     will learn about tables, the audio and video elements, etc. This is
     a good preparatory work for the [HTML5 Coding Essentials and Best
@@ -184,40 +184,38 @@ courses:
 1.  [CSS Basics](https://www.edx.org/course/css-basics) - introductory
     level
 
-2.  **This course: [HTML5 and CSS
+2.  <b>This course: [HTML5 and CSS
     Fundamentals](https://www.edx.org/course/html5-and-css-fundamentals) -
-    introductory level**
+    introductory level</b>
 
-3.  [JavaScript
-    Introduction](https://www.edx.org/course/javascript-introduction) -
-    introductory level
-
-4.  [HTML5 Coding Essentials and Best
+3.  [HTML5 Coding Essentials and Best
     Practices](https://www.edx.org/course/html5-coding-essentials-and-best-practices) -
     intermediate level
 
-5.  [HTML5 Apps and
+4.  [HTML5 Apps and
     Games](https://www.edx.org/course/html5-apps-and-games) - advanced
     level
 
+5.  [JavaScript
+    Introduction](https://www.edx.org/course/javascript-introduction) -
+    introductory level
+
 <h4>Welcome!</h4>
 
-This "HTML5 & CSS Fundamentals" course is designed for anyone, no
-prerequisites required.
+This "HTML5 & CSS Fundamentals" introductory course is designed for anyone, no prerequisites required.
 
 During this course, you will learn:
-
--   Basic concepts of a markup language.
-
--   Basic building blocks of Web design and style.
-
--   Basics of HTML5 and CSS.
-
--   How to write a Web page.
+<ul>
+<li>Basic concepts of a markup language,<br/>nbsp;</li>
+<li>Basic building blocks of Web design and style,<br/>nbsp;</li>
+<li>Basics of HTML5 and CSS,<br/>nbsp;</li>
+<li>How to write a Web page.</li>
+</ul>
 
 Have fun!
 
-<h4>Web Browsers and Editors</h4>
+<h3>Web Browsers and Editors</h3>
+<hr/>
 
 <h3>Web browsers</h3>
 
