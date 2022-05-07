@@ -11,10 +11,6 @@
    alt="W3Cx HTML 5.0x logo" />
 </p>
 
-```
-   li { cursor: pointer; }
-```
-
 <h3>W3Cx: HTML5 and CSS Fundamentals</h3>
 
 ## [Table of Contents](#table-of-contents)
@@ -9712,7 +9708,7 @@ style="width:4.96875in;height:2.73958in" />
 There is still the issue of things not being laid out nicely, you'll
 learn more about that in the module 6.
 
-## 4.4.4 Shrinking Text
+<h2>4.4.4 Shrinking Text</h2>
 
 For this section you can play with
 the [CodePen](http://codepen.io/w3devcampus/pen/wdxegK) below. The main
@@ -9722,87 +9718,87 @@ this:
 <img src="./All-Images/media/image79.png"
 style="width:4in;height:3.32075in" />
 
-### CSS
+<h4>CSS</h4>
+```
+   section {
+   
+   font-size: 24px;
 
-> section {
->
-> font-size: 24px;
->
-> }
->
-> li {
->
-> font-size: .5em;
->
-> }
+   }
 
-### HTML
+   li {
 
-> \<!DOCTYPE html\>
->
-> \<html lang="en"\>
->
-> \<head\>
->
-> \<meta charset="UTF-8"\>
->
-> \<title\>Shrinking text\</title\>
->
-> \</head\>
->
-> \<body\>
->
-> \<section\>
->
-> \<h1\>Essay Outline\</h1\>
->
-> \<ol\>
->
-> \<li\>Introduction
->
-> \<ol\>
->
-> \<li\>Introduce Subject
->
-> \<ul\>
->
-> \<li\>What is it?\</li\>
->
-> \<li\>Why is it important\</li\>
->
-> \</ul\>
->
-> \</li\>
->
-> \<li\>Propose Thesis\</li\>
->
-> \<li\>Outline\</li\>
->
-> \</ol\>
->
-> \</li\>
+   font-size: .5em;
 
+  }
+```
+<h4>HTML</h4>
+```
+   <!DOCTYPE html>
+
+   <html lang="en">
+
+   <head>
+
+   <meta charset="UTF-8">
+
+   <title>Shrinking text</title>
+
+   </head>
+   
+    <body>
+   
+    <section>
+   
+    <h1>Essay Outline</h1>
+   
+    <ol>
+   
+    <li>Introduction
+   
+    <ol>
+   
+    <li>Introduce Subject
+   
+    <ul>
+   
+    <li>What is it?</li>
+   
+    <li>Why is it important</li>
+   
+    </ul>
+   
+    </li>
+   
+    <li>Propose Thesis</li>
+   
+    <li>Outline</li>
+   
+    </ol>
+   
+    </li>
+```
 As with the cloud pictures, we want the listed items a bit smaller than
 the regular text, so we add this styling:
+```
+   1.  section {
 
-1.  section {
+   2.    font-size: 24px;
 
-2.    font-size: 24px;
+   3.  }
 
-3.  }
+   4.  section h1 {
 
-4.  section h1 {
+   5.    font-size: 28px;
 
-5.    font-size: 28px;
+   6.  }
 
-6.  }
+   7.  li {
 
-7.  li {
+   8.    font-size: 0.5em;
 
-8.    font-size: 0.5em;
-
-9.  }
-
+   9.  }
+```
 The outermost level is fine, the next level is almost readable but the
 innermost level is ridiculously small.  Let's check what's wrong in the
 debugger.
