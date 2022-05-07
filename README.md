@@ -206,9 +206,9 @@ This "HTML5 & CSS Fundamentals" introductory course is designed for anyone, no p
 
 During this course, you will learn:
 <ul>
-<li>Basic concepts of a markup language,<br/>nbsp;</li>
-<li>Basic building blocks of Web design and style,<br/>nbsp;</li>
-<li>Basics of HTML5 and CSS,<br/>nbsp;</li>
+<li>Basic concepts of a markup language,<br/>&nbsp;</li>
+<li>Basic building blocks of Web design and style,<br/>&nbsp;</li>
+<li>Basics of HTML5 and CSS,<br/>&nbsp;</li>
 <li>How to write a Web page.</li>
 </ul>
 
