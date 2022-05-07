@@ -1,4 +1,4 @@
-# W3Cx-2of5-HTML5.0x - HTML5 and CSS Fundamentals
+<h1>W3Cx-2of5-HTML5.0x - HTML5 and CSS Fundamentals</h1>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- W3Cx-2of5-HTML5.0x logo ------------------------------------>
@@ -9,9 +9,9 @@
    alt="W3Cx HTML 5.0x logo" />
 </p>
 
-#### W3Cx: HTML5 and CSS Fundamentals
+<h3>W3Cx: HTML5 and CSS Fundamentals</h3>
 
-## Course outline
+<h3>Course outline</h3>
 
 ## About W3C and the Web
 > ##### - About W3C and the Web
@@ -73,10 +73,16 @@
 
 (https://github.com/bbauska/W3Cx-2of5-HTML5-and-CSS-Fundamentals.git)
 
-<img src="./All-Images/media/image1.png"
-style="width:5in;height:2.77027in" />
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- W3Cx-2of5 HTML5 and CSS3 logo --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image001.png?raw=true"
+   width="50%"
+   alt="logo" />
+</p>
 
-# Course Outline:
+<h3>Course Outline:</h3>
 
 Quickly learn the basics of Web design and style to give your Web sites
 a professional look and feel, by just following these 6 modules!
