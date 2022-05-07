@@ -193,91 +193,6 @@ courses:
     Games](https://www.edx.org/course/html5-apps-and-games) - advanced
     level
 
-<h3>Course information</h3>
-
-   1. **Welcome to the "HTML5 & CSS Fundamentals" course**
-
-   2. **Course outline, grading and certificates**
-
-   3. **Course tools**
-
-   4. **Course forums**
-
-   5. **About W3C and the Web**
-
-<h3>Module 1: My first Web page</h3>
-
-   1. **Introduction to Module 1**
-
-   2. **The big three: HTML5, CSS and JavaScript**
-
-   3. **Elements, tags and attributes**
-
-   4. **Character encoding**
-
-   5. **Best practices**
-
-   6. **More on tags**
-
-<h3>Module 2: Attributes, images and links</h3>
-
-   1. **Introduction to Module 2**
-
-   2. **Attributes**
-
-   3. **Semantic meaning**
-
-   4. **Images**
-
-   5. **Hyperlinks**
-
-<h3>Module 3: Adding style with CSS</h3>
-
-   1.  **Introduction to Module 3**
-
-   2.  **CSS basic syntax**
-
-   3.  **CSS properties**
-
-   4.  **Lists and selectors**
-
-<h3>Module 4: Fixing and debugging</h3>
-
-   1.  **Introduction to Module 4**
-
-   2.  **Debugging tools and HTML5**
-
-   3.  **Debugging and the CSS box model**
-
-   4.  [**Debugging CSS
-    precedence**](https://learning.edx.org/course/course-v1:W3Cx+HTML5.0x+3T2020/block-v1:W3Cx+HTML5.0x+3T2020+type@sequential+block@4bc228e91d0f414eb80c9bdcf3fdf356)
-
-<h3>Module 5: More HTML and CSS</h3>
-
-   1.  **Introduction to Module 5**
-
-   2.  **Tables**
-
-   3.  **Multimedia**
-
-   4.  **Embedding content (OPTIONAL)**
-
-   5.  **CSS tricks**
-
-<h3>Module 6: Basics of Page Layout</h3>
-
-   1.  **Introduction to Module 6**
-
-   2.  **Concepts**
-
-   3.  **CSS Flexbox**
-
-   4.  **More flexbox (OPTIONAL)**
-
-   5.  **CSS Grid (OPTIONAL)**
-
-   6.  **Recipe project**
-
 <h4>Welcome!</h4>
 
 This "HTML5 & CSS Fundamentals" course is designed for anyone, no
@@ -12479,7 +12394,7 @@ documents.
 And then using CSS, how to apply some styling to make your tables look a
 little more visually appealing inside your document.
 
-## 5.2.7 Activities - Tables
+<h2>5.2.7 Activities - Tables</h2>
 
 1.  Create a simple 3x3 table with the first row containing header
     cells. You may choose not to add any styling including border. 
@@ -12511,13 +12426,13 @@ little more visually appealing inside your document.
 6.  Create a simple hover to highlight table that makes the background
     color of a row 'yellow' when you hover over a table row.
 
-## 5.3.1 The \<audio\> element
+<h2>5.3.1 The \<audio\> element</h2>
 
 audio and video are new HTML 5 elements that were highly anticipated.
 With HTML5 support for multimedia, this has become much easier, than
 previous methods. 
 
-### The \<audio\> tag
+<h3>The \<audio\> tag</h3>
 
 You can use the \<audio\> tag to embed audio in your page.
 
@@ -12536,17 +12451,20 @@ The audio element has several attributes that can be used to configure
 audio playback. The following table lists the audio element's
 attributes:
 
-<img src="./All-Images/media/image105.png"
-style="width:5in;height:3.26122in" />
-
-<img src="./All-Images/media/image106.png"
-style="width:5in;height:2.40491in" />
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 105. table src and type (252) --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image105.png?raw=true"
+   width="65%"
+   alt="Attributes: src and type" />
+</p>
 
 If you hit play and didn't hear anything, remember that we have added
 the muted attribute. So the audio will be muted when playback begins.
 Increase the volume to hear the music. 
 
-### Audio file formats
+<h3>Audio file formats</h3>
 
 Just like image file formats, not all audio file formats are supported
 by all browsers. You will want to use common audio file formats for
@@ -12654,7 +12572,15 @@ Similar to the audio element, the video element has several attributes
 that can be used to configure playback. The following table lists
 the video element's attributes:
 
-<img src="./All-Images/media/image108.png"
+<!------------------------------------------------------------------------------------------------>
+<!---------------------- 106. table of attributes (description & usage) (253) -------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image106.png?raw=true"
+   width="65%"
+   alt="Attributes: src and type" />
+</p>
+<img src="./All-Images/media/image106.png" (253)
 style="width:6.5in;height:4.73403in" />
 
 <img src="./All-Images/media/image109.png"
@@ -12663,7 +12589,7 @@ style="width:6.5in;height:2.075in" />
 <img src="./All-Images/media/image110.png"
 style="width:2.00009in;height:2.31677in" />
 
-### Poster attribute
+<h3>Poster attribute</h3>
 
 The \<video\> tag has an important attribute that you don't find on
 the audio element.  The poster attribute is used to specify what picture
@@ -12673,7 +12599,7 @@ used to specify a different image.  It can specify a particular frame of
 the video or, like a real movie poster, it can be an image that doesn't
 actually appear in the video. 
 
-### Video file formats
+<h3>Video file formats</h3>
 
 Just like audio file formats, not all video file formats are supported
 by all browsers. You should use common video file formats for browser
@@ -12739,25 +12665,20 @@ to choose apart from video element and browser compatibility:
     another, there are a lot of software applications available to help
     you do that. 
 
-## 5.3.3 Video – Source and Track Elements
+<h2>5.3.3 Video – Source and Track Elements</h2>
 
 The source element that we saw in the previous unit is also used to
 specify multiple source files for the video element. The \<source\> tag
 is self-closing and so does not require a closing tag.
 
 1.  \<video controls height="320" width="240"\>
-
 2.   
     \<source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4"\>
-
 3.   
     \<source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm"\>
-
 4.   
     \<source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg"\>
-
 5.    Your browser does not support the HTML5 video element.
-
 6.  \</video\>
 
 The advantage of providing multiple source files in different formats is
@@ -12768,11 +12689,16 @@ by all browsers. So you will have to use the source element to list
 a combination of formats. 
 
 The following table lists the source element's attributes:
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 109. table src and type (256) --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image109.png?raw=true"
+   width="85%"
+   alt="Attributes: src and type" />
+</p>
 
-<img src="./All-Images/media/image111.png"
-style="width:6.5in;height:2.76597in" />
-
-### Track element for captions and subtitles 
+<h3>Track element for captions and subtitles</h3>
 
 The \<video\> element is very similar to the HTML5 \<audio\> element
 except for one addition - the \<track\> element. The \<track\> element
@@ -15783,4 +15709,4 @@ These are the final changes to our recipe project for this unit.
 ## Last one --- \#.#.# More Description
 
 ## 
-<b>Last Updated 5-7-2022 11:04am</b>
+<b>Last Updated 5-7-2022 1:32Pm</b>
