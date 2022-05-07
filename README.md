@@ -10,6 +10,9 @@
    width="65%"
    alt="W3Cx HTML 5.0x logo" />
 </p>
+```html5
+li { cursor: pointer; }
+```
 
 <h3>W3Cx: HTML5 and CSS Fundamentals</h3>
 
@@ -13501,10 +13504,10 @@ to tables or lists.
 <img src="./All-Images/media/image133.png"
 style="width:6.5in;height:2.35208in" />
 
-### Cursor property
-
+<h3>Cursor property</h3>
+```html5
 li { cursor: pointer; }
-
+```
 Since we've broached the topic of mouse-responding pseudo classes, it
 makes sense to also cover the cursor CSS property.
 
@@ -15538,9 +15541,9 @@ cases.
     collection of *examples*, video and other information to help you
     learn CSS *Grid* Layout - *by Rachel Andrew*.
 
-## 6.6.1 Recipe project - Module 6
+<h2>6.6.1 Recipe project - Module 6</h2>
 
-## 6.6.2 Recipe project
+<h2>6.6.2 Recipe project</h2>
 
 In this next iteration of our recipe project, we're going to make a few
 changes again to our Web page using cascading style sheets.
@@ -15706,7 +15709,4 @@ We fixed those issues at the top.
 
 These are the final changes to our recipe project for this unit.
 
-## Last one --- \#.#.# More Description
-
-## 
-<b>Last Updated 5-7-2022 1:32Pm</b>
+<b>Last Updated 5-7-2022 2:36Pm</b>
