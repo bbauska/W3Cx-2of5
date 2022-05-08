@@ -133,7 +133,7 @@ layout your page during the last week of this course.</li>
     how to fix your Web page when it's not doing what you hoped it would
     do.  
     <b>Module 4</b> is a 'short' week so please use that time to practice,
-    practice and practice coding again!</li>
+    practice and practice coding again!<br/>&nbsp;</li>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- 05. w3c cheat sheet (03) ------------------------------------>
@@ -147,12 +147,7 @@ layout your page during the last week of this course.</li>
 <li>In <b>Module 5</b>, you will be combining HTML and CSS to create more
     complex pages, and "beautify" even more your recipe projects. You
     will learn about tables, the audio and video elements, etc. This is
-    a good preparatory work for the [HTML5 Coding Essentials and Best
-    Practices
-    course](https://www.edx.org/course/html5-coding-essentials-and-best-practices) (intermediate
-    level). You will also learn how to embed other elements in a page
-    other than a simple image. Note that some parts of the material are
-    optional: iframes, usemap, and ismap.</li>
+    a good preparatory work for the <a href="https://www.edx.org/course/html5-coding-essentials-and-best-practices">HTML5 Coding Essentials and Best Practices course</a> (intermediate level). You will also learn how to embed other elements in a page other than a simple image. Note that some parts of the material are optional: iframes, usemap, and ismap.<br/>&nbsp;</li>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- 06. can i use: css colors (04) --------------------------------->
