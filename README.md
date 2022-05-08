@@ -88,7 +88,7 @@ Quickly learn the basics of Web design and style to give your Web sites
 a professional look and feel, by just following these 6 modules!
 <ul>
 <li>The first set of lessons are available under <b>"Module 1: My first Web page in HTML5"</b>.</li>
-<ul>
+</ul>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- 02. my first web page (01) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -172,6 +172,7 @@ Froggy](https://flexboxfroggy.com/) game. Note that some parts of this
 week are clearly indicated OPTIONAL, meaning that there will be no
 questions related to that content material.</li>
 </ul>
+
 W3C has designed a ["Front-End Web Developer" (FEWD) Professional
 Certificate](https://www.edx.org/professional-certificate/w3cx-front-end-web-developer) where
 you will learn all of the necessary skills needed to build interactive
@@ -179,19 +180,19 @@ and responsive user experiences on the Web. This program will deepen
 your knowledge of the 3 foundational languages that power the Web:
 HTML5, CSS and JavaScript. The W3C FEWD program is composed of 5
 courses:
-<ol>
-<li> [CSS Basics](https://www.edx.org/course/css-basics) - introductory
-    level,&nbsp;<br/></li>
-<li><b>This course: [HTML5 and CSS
+<ol type="1">
+   <li>[CSS Basics](https://www.edx.org/course/css-basics) - introductory
+    level,<br/>&nbsp;</li>
+   <li><b>This course: [HTML5 and CSS
     Fundamentals](https://www.edx.org/course/html5-and-css-fundamentals) -
-    introductory level</b>,&nbsp;<br/></li>
-<li>[HTML5 Coding Essentials and Best
+    introductory level</b>,<br/>&nbsp;</li>
+   <li>[HTML5 Coding Essentials and Best
     Practices](https://www.edx.org/course/html5-coding-essentials-and-best-practices) -
-    intermediate level,&nbsp;<br/></li>
-<li>[HTML5 Apps and
+    intermediate level,<br/>&nbsp;</li>
+   <li>[HTML5 Apps and
     Games](https://www.edx.org/course/html5-apps-and-games) - advanced
-    level,&nbsp;<br/></li>
-<li>[JavaScript
+    level,<br/>&nbsp;</li>
+   <li>[JavaScript
     Introduction](https://www.edx.org/course/javascript-introduction) -
     introductory level.</li>
 </ol>
