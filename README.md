@@ -181,19 +181,12 @@ your knowledge of the 3 foundational languages that power the Web:
 HTML5, CSS and JavaScript. The W3C FEWD program is composed of 5
 courses:
 <ol type="1">
-   <li>[CSS Basics](https://www.edx.org/course/css-basics) - introductory
+   <li><a href="https://www.edx.org/course/css-basics">CSS Basics</a> - introductory level,<br/>&nbsp;</li>
+   <li>This course: <a href="https://www.edx.org/course/html5-and-css-fundamentals">HTML5 and CSS Fundamentals</a> - introductory level,<br/>&nbsp;</li>
+   <li><a href="https://www.edx.org/course/html5-coding-essentials-and-best-practices">HTML5 Coding Essentials and Best Practices</a> - intermediate level,<br/>&nbsp;</li>
+   <li><a href="https://www.edx.org/course/html5-apps-and-games">HTML5 Apps and Games</a> - advanced
     level,<br/>&nbsp;</li>
-   <li><b>This course: [HTML5 and CSS
-    Fundamentals](https://www.edx.org/course/html5-and-css-fundamentals) -
-    introductory level</b>,<br/>&nbsp;</li>
-   <li>[HTML5 Coding Essentials and Best
-    Practices](https://www.edx.org/course/html5-coding-essentials-and-best-practices) -
-    intermediate level,<br/>&nbsp;</li>
-   <li>[HTML5 Apps and
-    Games](https://www.edx.org/course/html5-apps-and-games) - advanced
-    level,<br/>&nbsp;</li>
-   <li>[JavaScript
-    Introduction](https://www.edx.org/course/javascript-introduction) -
+   <li><a href="https://www.edx.org/course/javascript-introduction">JavaScript Introduction</a> -
     introductory level.</li>
 </ol>
 
