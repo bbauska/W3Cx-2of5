@@ -230,37 +230,37 @@ for you.
 There are two types of editors available, WYSIWYG ("What You See Is What
 You Get") and textual HTML editors. Here is a non exhaustive list:
 
-   • [Sublime Text](https://www.sublimetext.com/) - it is quite
+   - [Sublime Text](https://www.sublimetext.com/) - it is quite
 popular with developers, though there can be a bit of a learning curve
 to use its many features
 
-   • [BlueGriffon](http://bluegriffon.org/) - a WYSIWYG content
+   - [BlueGriffon](http://bluegriffon.org/) - a WYSIWYG content
 editor for the World Wide Web. Powered by Gecko, the rendering engine of
 Firefox, it's a modern and robust solution to edit Web pages in
 conformance to the latest Web Standards
 
-   • [Visual Studio Code](https://code.visualstudio.com/) - a free
+   - [Visual Studio Code](https://code.visualstudio.com/) - a free
 open source editor that can run on any operating system. Many coding
 videos in this course are demonstrated using Visual Studio Code
 
-   • [GitHub](https://github.com/) itself - check [this resource
+   - [GitHub](https://github.com/) itself - check [this resource
 that explains how to create a Web site using
 GitHub](https://towardsdatascience.com/how-to-create-a-free-github-pages-website-53743d7524e1).
 
-   • [XCode](https://developer.apple.com/xcode/) - Mac developers
+   - [XCode](https://developer.apple.com/xcode/) - Mac developers
 may be familiar with XCode
 
-   • TextEdit - this is available on Macs, but be sure
+   - TextEdit - this is available on Macs, but be sure
 you're [saving as plain
 text](https://discussions.apple.com/message/5014514#5014514), not as a
 ".rtf" or ".doc" file.
 
-   • [Notepad](https://notepad-plus-plus.org/) - on Windows PC's
+   - [Notepad++](https://notepad-plus-plus.org/) - on Windows PC's
 
-   • [Atom](https://www.sublimetext.com/) - another cross platform
+   - [Atom](https://www.sublimetext.com/) - another cross platform
 editor, created by [GitHub](https://github.com/).
 
-   • [Vim](https://www.vim.org/) or [Emacs](https://www.gnu.org/software/emacs/) -
+   - [Vim](https://www.vim.org/) or [Emacs](https://www.gnu.org/software/emacs/) -
 great editors, but if you're not already familiar with these, this isn't
 the time to try
 
@@ -382,14 +382,9 @@ internationalization tips.
    alt="W3C Cheat Sheet" />
 </p>
 
-Its main feature is a lookup search box, where one can start typing a
-keyword and get a list of matching
-properties/elements/attributes/functions in the above-mentioned
-specifications, and further details on those when selecting the one of
-interest.
+Its main feature is a lookup search box, where one can start typing a keyword and get a list of matching properties/elements/ attributes/functions in the above-mentioned specifications, and further details on those when selecting the one of interest.
 
-The W3C cheatsheet is only available as a [pure Web
-application](https://dev.w3.org/2009/cheatsheet/doc/).
+The W3C cheatsheet is only available as a [pure Web application](https://dev.w3.org/2009/cheatsheet/doc/).
 
 <h3>Browser Compatibility</h3>
 
@@ -503,28 +498,23 @@ University](https://ev.buaa.edu.cn/) as the fourth Host.
 
 As of April 2021, W3C:
 <ul>
-<li>Is a [member](https://www.w3.org/Consortium/Member/List)-driven
+<li>Is a <a href="https://www.w3.org/Consortium/Member/List">member-</a>driven
     organization composed of nearly 430 companies, universities,
     start-ups, etc. from all over the world.&nbsp;<br/></li>
-<li>Holds 48 [technical
-    groups](https://www.w3.org/Consortium/activities), including Working
+<li>Holds 48 <a href="https://www.w3.org/Consortium/activities">technical groups</a>, including Working
     and Interest Groups where technical specifications are discussed and
     developed.&nbsp;<br/></li>
-<li>Published over 7,652 [published technical
-    reports](https://www.w3.org/TR/), including 442 Web standards (or
+<li>Published over 7,652 <a href-"https://www.w3.org/TR/">published technical
+    reports</a>, including 442 Web standards (or
     W3C Recommendations) - since January 1st,1995.&nbsp;<br/></li>
-<li>Runs a [translation
-    program](https://www.w3.org/Consortium/Translation/) to foster the
-    translation of its specifications: see  the [translation
-    matrix](https://www.w3.org/Consortium/Translation/matrix.html)
-    currently listing 307 available translations of W3C recommendations.&nbsp;<br/></li>
-<li>Hosts 350 [Community and Business
-    Groups](https://www.w3.org/community/groups/), where developers,
-    designers, and anyone passionate about the Web have a place to hold
+<li>Runs a <a href="https://www.w3.org/Consortium/Translation/">translation
+    program</a> to foster the translation of its specifications: see the <a href="https://www.w3.org/Consortium/Translation/matrix.html">translation
+    matrix</a> currently listing 307 available translations of W3C recommendations.&nbsp;<br/></li>
+<li>Hosts 350 <a href="https://www.w3.org/community/groups/">Community and Business Groups</a>, where developers, designers, and anyone passionate about the Web have a place to hold
     discussions and publish ideas.&nbsp;<br/></li>
 <li>Gathers over 13,960active participants constituting the W3C
     community.&nbsp;<br/></li>
-<li>Has a [technical staff](https://www.w3.org/People/) composed of 68
+<li>Has a <a href="https://www.w3.org/People/"> technical staff</a> composed of 68
     people, spread on all five continents.</li>
 </ul>
 
@@ -15713,4 +15703,4 @@ We fixed those issues at the top.
 
 These are the final changes to our recipe project for this unit.
 
-<b>Last Updated 5-7-2022 3:34Pm</b>
+<b>Last Updated 5-7-2022 6:08Pm</b>
