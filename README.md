@@ -194,7 +194,6 @@ Have fun!
 
 <h3>Web Browsers and Editors</h3>
 <hr/>
-
 <h3>Web browsers</h3>
 
 Not surprisingly, it would be helpful to have a browser (short for "Web
@@ -540,7 +539,7 @@ for more details about the difference between Internet and the Web.
 
 <h4>What is Web Accessibility?</h4>
 
-<h3 id="ch1">1.1.1 Welcome to Module 1</h3>
+<h3 id="ch1-1">1.1.1 Welcome to Module 1</h3>
 
 Hello everyone! Welcome to Module 1 of the introduction to HTML5 and CSS
 course.
@@ -568,7 +567,7 @@ quiz section.
 
 With that, let's jump right in.
 
-<h2 id="ch1-1">1.1.2 Module 1 – Content</h2>
+<h3>1.1.2 Module 1 – Content</h3>
 
 **1.1 Introduction:** A video that introduces the content of Module 1.
 
@@ -587,7 +586,7 @@ a great way to avoid the same pitfalls.
 **1.6 More on tags:** Review of the tags we have just learned about and
 get started on your course project.
 
-<h2>1.2.1 Vague But Exciting!</h2>
+<h3 id="ch1-2">1.2.1 Vague But Exciting!</h3>
 
 Twenty-nine years ago a proposal was sent internally at CERN
 outlying a universal linked information system. Dubbed 'Information
@@ -628,12 +627,17 @@ the big 3 (HTML5, CSS and JavaScript), the hypertext concept and the
 browser, an application program that provides a way to look at and
 interact with all the information on the World Wide Web.
 
-## 1.2.2 HTML5, CSS and JS
+<h3>1.2.2 HTML5, CSS and JS</h3>
 
-### HTML5
-
-<img src="./images/image010.png"
-style="width:1.33333in;height:2.02083in" alt="HTML5 logo" />
+<h4>HTML5</h4>
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------- 10. html5 logo (14) -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image010.png?raw=true"
+   width="35%"
+   alt="HTML5 logo" />
+</p>
 
 When people say 'HTML5', they usually mean a bit more than just the 5th
 version of the "HyperText Markup Language". Modern Web pages and Web
@@ -650,10 +654,15 @@ focus in this course is the most recent version, HTML5. HTML5 was
 developed to provide more powerful and flexible ways for developers to
 create dynamic Web pages.
 
-### CSS
-
-<img src="./All-Images/media/image11.png"
-style="width:1.90625in;height:1.07292in" alt="CSS3 logo" />
+<h4>CSS</h4>
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------- 11. css3 logo (14) --------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image011.png?raw=true"
+   width="35%"
+   alt="CSS3 logo" />
+</p>
 
 The 'CSS' part (version 3 being current) is all about the presentation
 or style of the page; what it looks like without too much regard for the
@@ -662,10 +671,16 @@ course, but for now, think of it as the way you might specify a "theme"
 in a word processing document, setting fonts, sizes, indentations and
 whatever else may apply to what it looks like.
 
-### JavaScript
+<h4>JavaScript</h4>
 
-<img src="./All-Images/media/image12.jpeg"
-style="width:1.33333in;height:1.33333in" alt="Javascript logo" />
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------- 12. javascript logo (15) ------------------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image012.jpeg?raw=true"
+   width="35%"
+   alt="HTML5 logo" />
+</p>
 
 The 'JavaScript', or 'JS' for short, part is about the actions a page
 can take such as interaction with the user, and customizing and changing
@@ -762,7 +777,7 @@ most modern browsers.
 
 -   Post your observations and findings in the discussion forum below.
 
-## 1.3.1 Putting the “M” in HTML
+<h3 id="ch1-3">1.3.1 Putting the “M” in HTML</h3>
 
 So the "M" in HTML stands for "Markup", but what does Markup really
 mean? Essentially, it means to annotate a document with extra
@@ -1938,7 +1953,7 @@ above. Try inserting a paragraph into the body of your new document.
 
 9.  \</html\>
 
-## 1.4.1 Character Encoding
+<h3 id="ch1-4">1.4.1 Character Encoding</h3>
 
 A character can be any letter, digit or symbol that makes up words and
 languages. English alphabets and digits 'a-z', 'A-Z', '0-9' are all
@@ -2326,7 +2341,7 @@ markup and CSS](https://www.w3.org/International/questions/qa-escapes).
 
 ## 
 
-## 1.5.1 Learning from the Mistakes of Others
+<h3 id="ch1-5">1.5.1 Learning from the Mistakes of Others</h3>
 
 Children can be great at asking questions about things that most adults
 take for granted, and like to challenge assumptions.
@@ -2473,12 +2488,12 @@ the rules are (how many spaces to indent, single or double-quotes, etc.)
 but unless there is a good reason to change away from typical practices,
 it is usually best to adopt them.
 
-## 1.5.3 White Space and Capitalization
+<h3>1.5.3 White Space and Capitalization</h3>
 
 Before we go any further, it's good to understand a few technical
 details.  
 
-### Tags are case insensitive
+<h4>Tags are case insensitive</h4>
 
 You might notice that code is not always consistent in how a given tag
 is written.  We might say '\<h1\>' in one spot and '\<H1\>' in another.
@@ -2649,7 +2664,7 @@ disagree with some of the suggestions in one of these guides?
 -   Using "Validate by URI", try some popular Web sites and see if you
     can find any errors.
 
-## 1.6.1 Tags We Have Already Used
+<h3 id="ch1-6">1.6.1 Tags We Have Already Used</h3>
 
 Now you can create a simple, empty, HTML page, and you know what tags
 are, though we have not said a lot about specific tags, what they mean,
@@ -6751,7 +6766,7 @@ tags.
 
 And that concludes this live coding session. Bon appétit !
 
-<h3 id="ch3">3.1.1 Welcome to Module 3</h3>
+<h3 id="ch3-1">3.1.1 Welcome to Module 3</h3>
 
 <img src="./All-Images/media/image48.png"
 style="width:4in;height:2.27184in" />
@@ -8718,7 +8733,7 @@ Pizza, the king of comfort foods. Try this simple, taste sensation.
 
 \</html\>
 
-<h3 id="ch4">4.1.1 Welcome to Module 4</h3>
+<h3 id="ch4-1">4.1.1 Welcome to Module 4</h3>
 
 <img src="./All-Images/media/image58.png"
 style="width:3in;height:3.3038in" />
@@ -13847,7 +13862,7 @@ them out into a separate CSS file, linked that to the HTML document, and
 then applied some styling using class names to our table giving a little
 more visual appeal to that.
 
-<h3 id="ch6">6.1.1 Welcome to Module 6</h3>
+<h3 id="ch6-1">6.1.1 Welcome to Module 6</h3>
 
 Hi, and welcome to Module 6.
 
