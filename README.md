@@ -40,7 +40,6 @@
 >### 1.4 [**Character encoding**](#ch1-4)
 >### 1.5 [**Best practices**](#ch1-5)
 >### 1.6 [**More on tags**](#ch1-6)
->### 1.7 [**Exercises - Module 1**](#ch1-7)
 
 ## [Module 2: Attributes, images and links](/modules/module2.md)
 >### 2.1 [**Introduction to Module 2**](#ch2-1)
@@ -48,21 +47,18 @@
 >### 2.3 [**Semantic meaning**](#ch2-3)
 >### 2.4 [**Images**](#ch2-4)
 >### 2.5 [**Hyperlinks**](#ch2-5)
->### 2.6 [**Exercises - Module 2**](#ch2-6)
 
 ## [Module 3: Adding style with CSS](/modules/module3.md)
 >### 3.1 [**Introduction to Module 3**](#ch3-1)
 >### 3.2 [**CSS basic syntax**](#ch3-2)
 >### 3.3 [**CSS properties**](#ch3-3)
 >### 3.4 [**Lists and selectors**](#ch3-4)
->### 3.5 [**Exercises - Module 3**](#ch3-5)
 
 ## [Module 4: Fixing and debugging](/modules/module4.md)
 >### 4.1 [**Introduction to Module 4**](#ch4-1)
 >### 4.2 [**Debugging tools and HTML5**](#ch4-2)
 >### 4.3 [**Debugging and the CSS box model**](#ch4-3)
 >### 4.4 [**Debugging CSS precedence**](#ch4-4)
->### 4.5 [**Exercises - Module 4**](#ch4-5)
 
 ## [Module 5: More HTML5 and CSS](/modules/module5.md)
 >### 5.1 [**Introduction to Module 5**](#ch5-1)
@@ -70,7 +66,6 @@
 >### 5.3 [**Multimedia**](#ch5-3)
 >### 5.4 [**Embedding content**](#ch5-4)
 >### 5.5 [**CSS tricks**](#ch5-5)
->### 5.6 [**Exercises - Module 5**](#ch5-6)
 
 ## [Module 6: Basics of page Layout](/modules/module6.md)
 >### 6.1 [**Introduction to Module 6**](#ch6-1)
@@ -543,9 +538,9 @@ car, the email is a bicycle, etc.  Read [this
 article](https://www.lifewire.com/difference-between-the-internet-and-the-web-2483335)
 for more details about the difference between Internet and the Web.
 
-<h3>What is Web Accessibility?</h3>
+<h4>What is Web Accessibility?</h4>
 
-<h2 id="ch1">1.1.1 Welcome to Module 1</h2>
+<h3 id="ch1">1.1.1 Welcome to Module 1</h3>
 
 Hello everyone! Welcome to Module 1 of the introduction to HTML5 and CSS
 course.
@@ -3005,7 +3000,7 @@ This is going to be my favorite recipe.
 
 \</html\>
 
-## 2.1.1 Welcome to Module 2
+<h3 id="ch2">2.1.1 Welcome to Module 2</h3>
 
 <img src="./All-Images/media/image20.png"
 style="width:3.48958in;height:3.01042in" />
@@ -3093,7 +3088,7 @@ your Web pages.
 jump from place to place on the Web. Explore the secrets of this
 powerful mechanism!
 
-## 2.2.1 Introduction
+<h3 id="ch2-2">2.2.1 Introduction</h3>
 
 We learned a little bit about what attributes are in the previous
 module. Let's look into it in more depth, by using examples.
@@ -3737,7 +3732,7 @@ Please find below suggested activities to help you practice:
     the list. Give it the following title (when you hover your mouse, it
     should display the title as a tooltip): 'Activity List'.
 
-## 2.3.1 Separating Content and Style
+<h3 id="ch2-3">2.3.1 Separating Content and Style</h3>
 
 When writing in hypertext language, it is important to separate content
 and style. Style should be kept tucked away in Cascading Style Sheets
@@ -5332,7 +5327,7 @@ Please find below suggested activities to help you practice:
 3.  Write a short HTML page that uses the \<div\> and \<span\> tags. You
     need not style them.
 
-## 2.4.1 Introduction
+<h3 id="ch2-4">2.4.1 Introduction</h3>
 
 The \<img\> tag
 
@@ -5875,7 +5870,7 @@ Refer to the [WAI Images
 Tutorial](https://www.w3.org/WAI/tutorials/images/) for a guide to
 writing alternate text. 
 
-## 2.5.1 Introduction
+<h3 id="ch2">2.5.1 Introduction</h3>
 
 ### What are hyperlinks?
 
@@ -5913,7 +5908,7 @@ can be:
 
 -   an email: e.g. mailto:helloauthor@w3c.com
 
-### Why you should prefer text links over images
+#### Why you should prefer text links over images
 
 When it comes to hyperlinks, try to use text instead of images when
 possible.
@@ -5928,7 +5923,7 @@ possible.
     purpose of the image, e.g, "buy now"), rather than a description of
     the image ("button").
 
-### Best practices
+#### Best practices
 
 -   Apply hyperlinks to short phrases. It is unusual to see the link tag
     used around a whole paragraph.
@@ -5958,7 +5953,7 @@ possible.
 
 3.  \</a\>
 
-### Anchor element
+#### Anchor element
 
 The hyperlink tag in html is simply **\<a\>, **and it is called
 the** anchor element**. Here is how it is used:
@@ -6756,7 +6751,7 @@ tags.
 
 And that concludes this live coding session. Bon appétit !
 
-## 3.1.1 Welcome to Module 3
+<h3 id="ch3">3.1.1 Welcome to Module 3</h3>
 
 <img src="./All-Images/media/image48.png"
 style="width:4in;height:2.27184in" />
@@ -6788,7 +6783,7 @@ visual impact is very rewarding.
 So, prepare to have fun, and let yourself experiment because that's how
 you learn, experimentation.
 
-## 3.1.2 Module 3 Content
+<h3 id="ch3-1">3.1.2 Module 3 Content</h3>
 
 1.  **Introduction to Module 3: **Get an overview of what CSS (Cascading
     Style Sheets) can do for your Web pages.
@@ -6880,9 +6875,9 @@ stopped.
 Both of these use the exact same HTML. It is the CSS that makes them so
 different. So let's get started.
 
-## 3.2.1 The \<style\> and \<link\> tags
+<h3 id="ch3-2">3.2.1 The \<style\> and \<link\> tags</h3>
 
-### The \<style\> tag
+<h3>The \<style\> tag</h3>
 
 <img src="./All-Images/media/image52.jpeg"
 style="width:1.5625in;height:1.5625in"
@@ -6926,7 +6921,7 @@ common practice is to place it in the \<head\> section.  Such as:
 
 15. \</html\>
 
-### The \<link\> tag
+<h3>The \<link\> tag</h3>
 
 While \<style\> is convenient, the better practice is to put the
 CSS into a separate file. One of the key advantages of using a separate
@@ -7399,7 +7394,7 @@ and I encourage you to mess around with them,
 
 and just sort of see what each one does.
 
-## 3.3.1 Common CSS Properties
+<h3 id="ch3-3">3.3.1 Common CSS Properties</h3>
 
 There are hundreds of CSS properties for you to use. The [complete
 list](https://www.w3.org/Style/CSS/all-properties.en.html) is available
@@ -7880,7 +7875,7 @@ and awareness are good companions and will serve you well.
 If you are interested in accessibility, there is much more to learn.
 These simple guidelines merely scratch the surface.
 
-## 3.4.1 Styling Lists
+<h3 id="ch3-4">3.4.1 Styling Lists</h3>
 
 The list markup tags (\<ul\>, \<ol\> and \<li\>) are some of the most
 frequently used specific purpose tags in HTML. There are a few CSS style
@@ -8723,12 +8718,12 @@ Pizza, the king of comfort foods. Try this simple, taste sensation.
 
 \</html\>
 
-## 4.1.1 Welcome to Module 4
+<h3 id="ch4">4.1.1 Welcome to Module 4</h3>
 
 <img src="./All-Images/media/image58.png"
 style="width:3in;height:3.3038in" />
 
-## 4.1.2 Content
+<h3 id="ch4-1">4.1.2 Content</h3>
 
 **4.1 Introduction: **You will now begin learning how to fix your Web
 page when it's not doing what you hoped it would do.
@@ -8745,7 +8740,7 @@ the browser to understand conflicting rules.
 **4.5 Give Your Mind a Workout: **Let’s see what you have learned about
 debugging your code.
 
-## 4.2.1 Tools
+<h3 id="ch4-2">4.2.1 Tools</h3>
 
 It's hard to overestimate the value of tools for programming languages.
 There are tools for creation, testing, debugging and even measuring the
@@ -8753,7 +8748,7 @@ performance of a program. HTML pages are really programs, in specific
 programming languages, so you need tools for those as well.
 
 One tool that you should, by now, be very familiar with, is the editor.
- While traditional text editors allowed you to enter and edit text,
+While traditional text editors allowed you to enter and edit text,
 modern editors can actually help you detect and avoid errors, visualize
 your program more clearly, and even stick in bits of text for you if it
 thinks it knows what you might need, e.g. close tags.
@@ -8829,7 +8824,7 @@ including Microsoft Edge and Firefox.  Note that if all browsers are
 likely to have similar capabilities, the user interface may be a bit
 different.  Feel free to use whichever "Developers Tools" you prefer.
 
-## 4.2.2 Identifying HTML5 elements
+### 4.2.2 Identifying HTML5 elements
 
 Remember that elements are the intangible parts of your Web page, which
 are described by the text in tags and are rendered on the screen of
@@ -8860,7 +8855,7 @@ you want to inspect and select "Inspect element" which will bring up the
 developer tools and highlights the HTML element or code for that section
 on the page.
 
-## 4.2.3 Modifying HTML5 elements
+### 4.2.3 Modifying HTML5 elements
 
 Another handy feature of the developer tools is the ability to make
 temporary modifications to your code to try out different things and see
@@ -8904,7 +8899,7 @@ navigate to another page and come back, you'll need to make the same
 changes again if you want to get back to where you were. It's not that
 easy to break the Web!
 
-## 4.3.1 CSS box model
+<h3 id="ch4-3">4.3.1 CSS box model</h3>
 
 Before we get too far into debugging, it's helpful to understand a
 couple of things about CSS more deeply.
@@ -9090,11 +9085,11 @@ So, in the example above:
 
 -   margin-top and margin-bottom are equal to 16 pixels
 
-## 4.3.3 Box model
+### 4.3.3 Box model
 
 Fuck MS Edge….
 
-## 4.4.1 CSS Precedence
+<h3 id="ch4-4">4.4.1 CSS Precedence</h3>
 
 As we learned in the last module, in order for the computer to decide
 which of several rules may apply to a given element in a particular
@@ -9267,7 +9262,7 @@ HTML
 What happened? To answer that question, we'll turn to the browser's
 debugger.
 
-## 4.4.2 Debugging CSS Precedence
+### 4.4.2 Debugging CSS Precedence
 
 This lesson is using developer tools provided by the Chrome browser.
 
@@ -9408,7 +9403,7 @@ HTML
 
 \</html\>
 
-## 4.4.3 Cloud Images
+### 4.4.3 Cloud Images
 
 We're working on a Web page about clouds in
 the [CodePen](https://codepen.io/w3devcampus/pen/ybqbwJ) below, and we
@@ -9596,12 +9591,12 @@ code like this:
 
 6.  }
 
-### That looks better:
+####That looks better:
 
 <img src="./All-Images/media/image78.png"
 style="width:4.96875in;height:2.73958in" />
 
-### CSS
+####CSS
 
 1.  img {
 
@@ -9615,7 +9610,7 @@ style="width:4.96875in;height:2.73958in" />
 
 6.  }
 
-### HTML
+#### HTML
 
 1.  \<!DOCTYPE html\>
 
@@ -9678,7 +9673,7 @@ style="width:4.96875in;height:2.73958in" />
 There is still the issue of things not being laid out nicely, you'll
 learn more about that in the module 6.
 
-<h2>4.4.4 Shrinking Text</h2>
+<h3>4.4.4 Shrinking Text</h3>
 
 For this section you can play with
 the [CodePen](http://codepen.io/w3devcampus/pen/wdxegK) below. The main
@@ -9773,7 +9768,7 @@ The outermost level is fine, the next level is almost readable but the
 innermost level is ridiculously small.  Let's check what's wrong in the
 debugger.
 
-### Computed tab
+#### Computed tab
 
 Looking into the style settings in the chrome browser debugger, at first
 glance we don't see anything unusual.  The font-size is .5em as
@@ -9822,7 +9817,7 @@ solution would be rem.  This would make the size relative to the
 html font-size (the default font-size for the page), not to it's
 surroundings.
 
-## 4.4.5 Recipe Project
+### 4.4.5 Recipe Project
 
 We are now going to do some more "beautifying" of our Web page using
 what we've learned in the debugger and the CSS box model to figure out
@@ -9834,7 +9829,7 @@ Try to make changes to get something like this:
 <img src="./All-Images/media/image83.png"
 style="width:4.96875in;height:2.73958in" />
 
-### CSS
+#### CSS
 
 > nav {
 >
@@ -9866,7 +9861,7 @@ style="width:4.96875in;height:2.73958in" />
 >
 > }
 
-### HTML
+#### HTML
 
 > \<!DOCTYPE html\>
 >
@@ -10091,7 +10086,7 @@ style="width:4.96875in;height:2.73958in" />
 
 }
 
-HTML
+#### HTML
 
 > \<!DOCTYPE html\>
 >
@@ -10256,14 +10251,14 @@ HTML
 >
 > \</html\>
 
-## 5.1.1 Welcome to Module 5
+<h3 id="ch5-1">5.1.1 Welcome to Module 5</h3>
 
 <img src="./All-Images/media/image85.png"
 style="width:3in;height:3.27103in" />
 
 ## 
 
-## 5.1.2 Module 5 - Content
+### 5.1.2 Module 5 - Content
 
 **5.1 Introduction: **You will be combining HTML and CSS to create more
 complex pages.
@@ -10300,7 +10295,7 @@ Putting this all together to form a coherent Web page with the addition
 of CSS presents a world of possibilities. In this module, we'll delve
 into some of those interesting possibilities. 
 
-## 5.2.1 Introduction to Tables
+<h3 id="ch5-2">5.2.1 Introduction to Tables</h3>
 
 Using tables to organize information goes back a way.  A long way. Three
 or four thousand years ago, Sumerians were using [tables to calculate
@@ -12396,7 +12391,7 @@ little more visually appealing inside your document.
 6.  Create a simple hover to highlight table that makes the background
     color of a row 'yellow' when you hover over a table row.
 
-<h2>5.3.1 The \<audio\> element</h2>
+<h3 id="ch5-3">5.3.1 The \<audio\> element</h3>
 
 audio and video are new HTML 5 elements that were highly anticipated.
 With HTML5 support for multimedia, this has become much easier, than
@@ -12713,7 +12708,7 @@ style="width:6.5in;height:4.29444in" />
 
 ## 5.3.4 Audio and Video Elements
 
-## 5.4.1 The iframes tag (OPTIONAL)
+<h3 id="ch5-4">5.4.1 The iframes tag (OPTIONAL)</h3>
 
 ***Note:** This section is optional material included for the curious.
 It will not appear on any graded question.*
@@ -13046,7 +13041,7 @@ will not work.
 
 What happens? Why does it behave the way it does?
 
-## 5.5.1 Decorative images and backgrounds
+<h3 id="ch5-5">5.5.1 Decorative images and backgrounds</h3>
 
 As we saw earlier, the \<img\> tag is meant to be used for semantically
 important imagery.  For example, the pictures that accompany a news
@@ -13852,7 +13847,7 @@ them out into a separate CSS file, linked that to the HTML document, and
 then applied some styling using class names to our table giving a little
 more visual appeal to that.
 
-## 6.1.1 Welcome to Module 6
+<h3 id="ch6">6.1.1 Welcome to Module 6</h3>
 
 Hi, and welcome to Module 6.
 
@@ -13875,31 +13870,31 @@ This is the last module of this course.
 We hope you have enjoyed the course and have gained new skills and up
 and ready to build great Web pages.
 
-## 6.1.2 Module 6 - Content
+<h3 id="ch6-1">6.1.2 Module 6 - Content</h3>
 
-**6.1 Introduction: **Understanding what "layout" means to your Web
+<b>6.1 Introduction:</b> Understanding what "layout" means to your Web
 programming.
 
-**6.2 Concepts: **Get an understanding of "display" versus "position" &
+<b>6.2 Concepts:</b> Get an understanding of "display" versus "position" &
 "block" versus "inline".  
-*Note*: Positioning and z-index are OPTIONAL material.
+<i>Note</i>: Positioning and z-index are OPTIONAL material.
 
-**6.3 Flexbox: **There is more to understand about positioning and
-sizing.  
-*Note*: Calc is OPTIONAL.
+<b>6.3 Flexbox:</b> There is more to understand about positioning and
+sizing.
+<i>Note</i>: Calc is OPTIONAL.
 
-**6.4 More flexbox: **Main axis & cross axis, justification, alignment
+<b>6.4 More flexbox:</b> Main axis & cross axis, justification, alignment
 and order — more flexbox concepts.  
-*Note*: This ENTIRE section is OPTIONAL.
+<i>Note</i>: This ENTIRE section is OPTIONAL.
 
-**6.5 CSS Grid:** CSS Grid Layout is another new layout system available
+<b><i>6.5 CSS Grid:** CSS Grid Layout is another new layout system available
 in CSS.  
 *Note*: This ENTIRE section is OPTIONAL.
 
-**6.6 Recipe project: **Let's get "responsive" — how to make your Web
+<b><i>6.6 Recipe project:</i><b> Let's get "responsive" — how to make your Web
 page look good on differently sized devices.
 
-## 6.1.3 History of layout
+<h3 id="ch6-1">6.1.3 History of layout</h3>
 
 Before we get started working on the topic of layout directly, it is
 useful to understand a bit of HTML and CSS history.  
@@ -13950,7 +13945,7 @@ Except for some basic required concepts, we are going to skip all of
 this and go straight to flexbox. After many stumbles, flexbox finally
 brings sanity to the much needed world of layout in CSS.
 
-## 6.2.1 Text baseline and the display property
+<h3 id="ch6-2">6.2.1 Text baseline and the display property</h3>
 
 When newbie developers are groping around CSS blindly, they often
 stumble upon a variety of CSS properties that could be used to alter the
@@ -14636,7 +14631,7 @@ further out in the document.
 <img src="./All-Images/media/image147.png"
 style="width:6.5in;height:1.85in" />
 
-## 6.3.1 Sizing and dimensions
+<h3 id="ch6-3">6.3.1 Sizing and dimensions</h3>
 
 We have already touched on the size properties in the various
 discussions about display and positioning. But here we'll cover them
@@ -15117,7 +15112,7 @@ as many browsers as possible.
     Container?](https://www.smashingmagazine.com/2018/08/flexbox-display-flex-container/) (by
     Rachel Andrew - 2 August 2018)
 
-## 6.4.1 Main and cross axes
+<h3 id="ch6-4">6.4.1 Main and cross axes</h3>
 
 **Note**: This material is included for completeness. However, many are
 able to use flexbox satisfactorily without it. None of the material here
@@ -15213,7 +15208,7 @@ using stretch, we get the normal sizing behavior (block level elements
 take vertical size of content, etc.) or use the regular sizing
 properties  (min-height, max-height, height, etc.)
 
-#### flex-start and flex-end are contextual
+<h4>flex-start and flex-end are contextual</h4>
 
 We will begin to see the values flex-start and flex-end in the next
 section as we look at alignment and justification.  Just as the terms
@@ -15224,13 +15219,13 @@ start" and "main end" sides (as in the illustration above).   When used
 with any of the flexbox align properties, flex-start and flex-end refer
 to the "cross start" and "cross end"  sides.
 
-## 6.4.2 Justification and alignment
+<h3>6.4.2 Justification and alignment</h3>
 
 **Note**: This material is included for completeness. However, many are
 able to use flexbox satisfactorily without it. None of the material here
 will appear in any graded question.
 
-### justify-content
+<h4>justify-content</h4>
 
 .fc { justify-content: space-around; }
 
@@ -15273,7 +15268,7 @@ distribute. So all the five options above would be identical (a tight
 stack of items) *unless* the height of the flexbox container were
 explicitly made larger. 
 
-### align-content and align-items
+<h3>align-content and align-items</h3>
 
 The align-content and align-items are often confused for one another.
 But they are very different.  Both properties only apply if there is
@@ -15282,7 +15277,7 @@ because in many situations there isn't any cross axis space. In the
 example above (used for justify-content), none of the flexbox containers
 has any extra cross axis space (vertical space).  
 
-### align-items
+<h3>align-items</h3>
 
 .fc { align-items: stretch; }
 
@@ -15306,7 +15301,7 @@ style="width:5in;height:2.98611in" />
 <img src="./All-Images/media/image155.png"
 style="width:5in;height:1.86645in" />
 
-### align-content
+<h3>align-content</h3>
 
 .fc { align-content: space-between; }
 
@@ -15327,7 +15322,7 @@ style="width:5in;height:3.01282in" />
 <img src="./All-Images/media/image157.png"
 style="width:5in;height:2.77083in" />
 
-### align-self
+<h3>align-self</h3>
 
 .item { align-self: center; }
 
@@ -15380,9 +15375,9 @@ the order value of 1, the second is 2, etc.  And you can override it.
 <img src="./All-Images/media/image159.png"
 style="width:6.5in;height:1.60625in" />
 
-## 6.4.4 Flexbox resources
+<h3>6.4.4 Flexbox resources</h3>
 
-#### CSS flexbox resources
+<h4>CSS flexbox resources</h4>
 
 -   [A complete guide to
     Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) (CSS
@@ -15398,7 +15393,7 @@ style="width:6.5in;height:1.60625in" />
 -   [Flexbox froggy](https://flexboxfroggy.com/) (game to practice CSS
     flexbox code)
 
-## 6.5.1 CSS Grid Layout
+<h3 id="ch6-5">6.5.1 CSS Grid Layout</h3>
 
 Have a look at how CSS Grid Layout went from an idea to a reality. The short video below has been shot in August 2017 by the Microsoft team. It features some of the CSS Working Group participants:
 The web has always been traditionally very document-centric.
@@ -15523,7 +15518,7 @@ around longer and works in older browsers). On the other hand, even for
 a single row or column, the Grid properties may turn out easier in some
 cases.
 
-#### CSS grid resources
+<h4>CSS grid resources</h4>
 
 -   [A complete guide to
     Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) (CSS
@@ -15535,9 +15530,9 @@ cases.
     collection of *examples*, video and other information to help you
     learn CSS *Grid* Layout - *by Rachel Andrew*.
 
-<h2>6.6.1 Recipe project - Module 6</h2>
+<h3 id="ch6-6">6.6.1 Recipe project - Module 6</h3>
 
-<h2>6.6.2 Recipe project</h2>
+<h3>6.6.2 Recipe project</h3>
 
 In this next iteration of our recipe project, we're going to make a few
 changes again to our Web page using cascading style sheets.
@@ -15703,4 +15698,4 @@ We fixed those issues at the top.
 
 These are the final changes to our recipe project for this unit.
 
-<b>Last Updated 5-7-2022 6:08Pm</b>
+<h2><b>Last Updated 5-8-2022 6:29pm</b></h2>
