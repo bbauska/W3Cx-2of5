@@ -594,7 +594,7 @@ Management: A proposal', pictured below, the proposal was created by Sir
 Tim Berners-Lee and was sent to his boss Mike Sendall, who described it
 as 'vague but exciting'.
 
-<img src="./images/image009.gif"
+<img src="/images/image009.gif"
 style="width:6in;height:5.37054in"
 alt="Tim Berners-Lee original proposal for the Web" />
 
@@ -703,7 +703,7 @@ That's why, in 1989, Tim Berners-Lee began to create a definition of
 HTML: Hypertext Markup Language, to provide a simple, uniform way to
 incorporate Hyperlinks in a text document.
 
-<img src="./All-Images/media/image13.png"
+<img src="/Images/image013.png"
 style="width:6in;height:3.98269in"
 alt="Illustration of hypertext documents (here are extract of wikipedia pages): the HTML5 page has links going to the Markup language page, the World Wide Web definition page, etc." />
 
@@ -730,8 +730,14 @@ government organizations.  As things progressed through the 80s, the
 Internet was used for file transfers, newsgroups (a kind of open forum),
 email and other conveniences.
 
-<img src="./All-Images/media/image14.jpeg"
-style="width:6in;height:5.58in" alt="snapshot of a Mosaic Browser" />
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- 14. snapshot of mosaic browser (17) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image014.jpeg?raw=true"
+   width="65%"
+   alt="Snapshot of a Mosaic Browser" />
+</p>
 
 At the time there were a number of different programs like
 '[fetch](https://en.wikipedia.org/wiki/Fetch_(FTP_client))',
@@ -1637,7 +1643,7 @@ contain other elements, as the body element would contain header
 elements, paragraph elements, in fact pretty much all of the visible
 elements of the DOM.
 
-<img src="./All-Images/media/image15.png"
+<img src="/Images/image015.png"
 style="width:5in;height:2.75961in" />
 
 Consider the figure above.  It contains a single 'html' element.  It
@@ -1662,7 +1668,7 @@ a text file?  Well, that's where "tags" come in.
 
 ## 1.3.4 Tags
 
-## <img src="./All-Images/media/image16.png"
+## <img src="/Images/image016.png"
 style="width:1.26042in;height:1.69792in" />
 
 'Tags' are what we use to organize a text file (which is just a long
@@ -1702,7 +1708,7 @@ text" in between tell us what kind of tag it is.  To completely describe
 the element, it needs an open and close tag, with everything in between
 the tags being the content of the element:
 
-<img src="./All-Images/media/image17.png"
+<img src="/Images/image017.png"
 style="width:2in;height:1.0859in"
 alt="Diagram of an element: the &#39;&lt;em&gt;&#39; tag is used for element that needs Emphasis. The &#39;&lt;&#39; and &#39;&gt;&#39; indicate that this is a tag, and the little bits of text in between tell us what kind of tag it is. To completely describe the element, it needs an open and close tag, with everything in between the tags being the content of the element" />
 
@@ -2847,7 +2853,7 @@ effect in your Web page when you use them:
 
 This code might be rendered like this:
 
-<img src="./All-Images/media/image18.png"
+<img src="./Images/image018.png"
 style="width:2.05208in;height:0.88542in"
 alt="Example of a list as it would appear on a Web page" />
 
@@ -2888,7 +2894,7 @@ primarily used to invoke certain formatting. 
 
 5.  would smell as sweet
 
-<img src="./All-Images/media/image19.png"
+<img src="./Images/image019.png"
 style="width:3.85417in;height:1.5in"
 alt="Example of poetry as it might appear on a Web page" />
 
@@ -3017,7 +3023,7 @@ This is going to be my favorite recipe.
 
 <h3 id="ch2">2.1.1 Welcome to Module 2</h3>
 
-<img src="./All-Images/media/image20.png"
+<img src="./Images/image020.png"
 style="width:3.48958in;height:3.01042in" />
 
 Hi, everyone, and welcome.
@@ -3325,7 +3331,7 @@ several tags such as \<img\>, \<input\> and \<video\>.
 
 5.  \</ol\>
 
-<img src="./All-Images/media/image21.png"
+<img src="./Images/image021.png"
 style="width:3in;height:2.92421in" />
 
 Ordered lists have their own specific attributes and all global
@@ -3548,7 +3554,7 @@ Don't click on it, just rest your cursor there. 
 
 ### **NASA**
 
-<img src="./All-Images/media/image22.jpeg" style="width:2in;height:2in"
+<img src="./Images/image022.jpeg" style="width:2in;height:2in"
 alt="Example image of a girl with a beautiful smile to illustrate title attribute" />
 
 Did you see the two "secret" messages? A message that appears when you
@@ -3768,7 +3774,7 @@ rule and were eventually corrected in HTML5.
 
 This is how the above HTML code will look in a browser: 
 
-<img src="./All-Images/media/image23.png"
+<img src="./Images/image023.png"
 style="width:4in;height:2.73684in" />
 
 It seems redundant for two tags to do the same thing in HTML.
@@ -3960,7 +3966,7 @@ semantic elements.
 Let's look at a typical Web page structure that consists of blocks named
 after: header, nav, article, section, aside and footer.
 
-<img src="./All-Images/media/image24.jpeg" style="width:4in;height:4in"
+<img src="./Images/image024.jpeg" style="width:4in;height:4in"
 alt="Picture showing the structure of a Web site: header, nav, article, section, aside and footer" />
 
 Tags such as** \<article\>**, **\<section\>**, **\<header\>**, **\<nav\>
@@ -4132,7 +4138,7 @@ this:
 
 52. \</html\>
 
-<img src="./All-Images/media/image25.png"
+<img src="./Images/image025.png"
 style="width:4in;height:4.37894in" />
 
 ## 2.3.3 New HTML5 Semantic Elements
@@ -4315,7 +4321,7 @@ Moncrieff&lt;/p&gt;</p></li>
 
 Element
 
-<img src="./All-Images/media/image26.png"
+<img src="./Images/image026.png"
 style="width:4in;height:2.31579in" />
 
 See also the current [browser
@@ -4340,7 +4346,7 @@ for all users.
 
 Result:
 
-<img src="./All-Images/media/image27.jpeg" style="width:2in;height:2in"
+<img src="./Images/image027.jpeg" style="width:2in;height:2in"
 alt="dress rehearsal" />  
 Fig. 1: The cast hard at work at dress rehearsal before opening night
 
@@ -4351,7 +4357,7 @@ This element is used to specify content that you want to highlight. 
 1.  \<h3\>Lane: \</h3\>\<p\>Yes sir. \[\<mark\>Handing his master the
     sandwiches on a salver\</mark\>\]\</p\>
 
-<img src="./All-Images/media/image28.png"
+<img src="./Images/image028.png"
 style="width:4in;height:2.31579in" />
 
 Most browsers will display mark element with a yellow background to
@@ -4414,7 +4420,7 @@ visual change:
 >
 > \</body\>
 
-<img src="./All-Images/media/image29.png"
+<img src="./Images/image029.png"
 style="width:3in;height:2.57052in" />
 
 ### Lesser known semantic elements (OPTIONAL)
@@ -4528,7 +4534,7 @@ element. **Here's a simplified version**:
 
 9.  \</header\>
 
-<img src="./All-Images/media/image30.png"
+<img src="./Images/image030.png"
 style="width:4in;height:4.02526in" />
 
 Like in the example above, the header can and frequently does contain
@@ -4572,7 +4578,7 @@ identify headings](https://www.w3.org/TR/WCAG20-TECHS/H42.html).
 
 14. \</body\>
 
-<img src="./All-Images/media/image31.png"
+<img src="./Images/image031.png"
 style="width:4in;height:3.73052in" />
 
 Assistive technology uses heading markup, \<h1\> to \<h6\> to identify
@@ -4617,13 +4623,13 @@ Let's look at site-wide/global header and footer used in [Microsoft
 Virtual Academy home page](https://mva.microsoft.com/). At the time of
 course creation, here are screenshots of its header  
 
-<img src="./All-Images/media/image32.png"
+<img src="./Images/image032.png"
 style="width:6.5in;height:0.37083in"
 alt="Screenshot of the Microsoft Virtual Academy home page" />
 
 and footer.
 
-<img src="./All-Images/media/image33.png"
+<img src="./Images/image033.png"
 style="width:6.5in;height:0.12292in"
 alt="Screenshot of Microsoft Virtual Academy home page showing the footer" />
 
@@ -4647,7 +4653,7 @@ reading its contents or to make it immediately available.
 Now, let's look at a more complete example using a global header and
 multiple \<header\>, \<footer\> and \<nav\> tags.
 
-<img src="./All-Images/media/image34.png"
+<img src="./Images/image034.png"
 style="width:4.89583in;height:2.83333in" />
 
 > \<!DOCTYPE html\>
@@ -4861,7 +4867,7 @@ in another). Sections can also be part of an article, aside or nav
 elements. While the code above makes no sense by itself, if you add it
 to our CES 2018 \<article\> example, it will fit right in:
 
-<img src="./All-Images/media/image35.png"
+<img src="./Images/image035.png"
 style="width:4in;height:4.44255in" />
 
 \<!DOCTYPE html\>
@@ -4929,7 +4935,7 @@ To get a better understanding on the usage of semantic elements in your
 Web page, try on
 this [CodePen](https://codepen.io/w3devcampus/pen/Wjzjpx):
 
-<img src="./All-Images/media/image36.png"
+<img src="./Images/image036.png"
 style="width:4in;height:2.54468in" />
 
 \<!DOCTYPE html\>
@@ -5446,7 +5452,7 @@ information to be aware of.
 
 -   **SVG** (Scalable Vector Graphics) are defined mathematically and
     support animation. Also, since they are defined mathematically  they
-    scale to <img src="./All-Images/media/image37.png"
+    scale to <img src="./Images/image037.png"
     style="width:0.73958in;height:0.73958in"
     alt="Logo Scalable Vector Graphics (SVG)" />any size without
     worrying about pixels, resolution or image data. This makes SVG
@@ -5525,7 +5531,7 @@ browser:
 1.  \<img src="image/tulips.png" alt="This is supposed to be an image of
     tulips"\>
 
-<img src="./All-Images/media/image38.png"
+<img src="./Images/image038.png"
 style="width:3in;height:1.90851in" />
 
 ## 2.4.3 Attributes: title, height & width
@@ -5535,7 +5541,7 @@ style="width:3in;height:1.90851in" />
 Try this: place your mouse on the image below. Don't click, just rest
 your cursor on it. 
 
-<img src="./All-Images/media/image39.jpeg"
+<img src="./Images/image039.jpeg"
 style="width:3.125in;height:2.34375in" alt="Tulips in a basket" />
 
 Did you see the hidden message 'Tulips from woodburn tulip
@@ -5564,7 +5570,7 @@ pixels without using an external editor.
 
 Here is my original image:
 
-<img src="./All-Images/media/image40.png"
+<img src="./Images/image040.png"
 style="width:2in;height:3.03188in" alt="HTML5 logo not resized" />
 
 Clearly too big for the page. The original image dimensions is 345x523
@@ -5579,7 +5585,7 @@ Now, if I want to resize the HTML logo above by half:
 1.  \<img src="images/html5.png" alt="HTML resized image" title="Resized
     image seems to fit the page better" height="173" width="262"\>
 
-<img src="./All-Images/media/image41.png"
+<img src="./Images/image041.png"
 style="width:1in;height:1.51445in" alt="HTML5 logo resized" />
 
 Actually, you don't need to define both width and height. You can just
@@ -5639,9 +5645,9 @@ Can you identify these types of decorative images?
 
 Find out from their tooltips!
 
-<img src="./All-Images/media/image42.jpeg" style="width:2in;height:2in"
-alt="Beautiful landscape background image" /><img src="./All-Images/media/image43.jpeg" style="width:2in;height:2in"
-alt="Brick texture for use behind main content" /><img src="./All-Images/media/image44.jpeg" style="width:2in;height:2in"
+<img src="./Images/image042.jpeg" style="width:2in;height:2in"
+alt="Beautiful landscape background image" /><img src="./Images/image043.jpeg" style="width:2in;height:2in"
+alt="Brick texture for use behind main content" /><img src="./Images/image044.jpeg" style="width:2in;height:2in"
 alt="Decorative banner graphic" />
 
 ## 2.4.5 Using \<img\> Tags
@@ -5896,7 +5902,7 @@ offers! *
 
 Or something like this:
 
-<img src="./All-Images/media/image45.png"
+<img src="./Images/image045.png"
 style="width:2.40625in;height:0.45833in"
 alt="Buy now button for illustrating hyperlinks" />
 
@@ -6199,7 +6205,7 @@ different browsers to see how it behaves.
 
 ## 2.5.4 Use of Hyperlink Attributes
 
-<img src="./All-Images/media/image46.png"
+<img src="./Images/image046.png"
 style="width:6.5in;height:3.55208in" />
 
 In this live coding demo, we're going to dive deep into hyperlinks.
@@ -6441,7 +6447,7 @@ We are now going to continue building on the recipe project we started
 in Module 1.  You can find our version in the CodePen below (and the
 live coding video at the end of this page).
 
-<img src="./All-Images/media/image47.png"
+<img src="./Images/image047.png"
 style="width:6.5in;height:3.27778in" />
 
 HTML
@@ -6768,7 +6774,7 @@ And that concludes this live coding session. Bon appétit !
 
 <h3 id="ch3-1">3.1.1 Welcome to Module 3</h3>
 
-<img src="./All-Images/media/image48.png"
+<img src="./Images/image048.png"
 style="width:4in;height:2.27184in" />
 
 Hi, my name's Adrian.
@@ -6780,7 +6786,7 @@ In this module, we will introduce a new language, CSS.
 
 CSS, or Cascading Style Sheets, is used to style each HTML.
 
-<img src="./All-Images/media/image49.png"
+<img src="./Images/image049.png"
 style="width:2.125in;height:2.27083in" />
 
 It's how we determine the color, text size, and spacing, as well as
@@ -6818,7 +6824,7 @@ you learn, experimentation.
 
 ##### CSS stands for 'Cascading Style Sheets'
 
-##### <img src="./All-Images/media/image50.png"
+##### <img src="./Images/image050.png"
 style="width:2in;height:1.09388in" />
 
 For now, do not worry about what the 'Cascading' part means and just
@@ -6855,7 +6861,7 @@ a [working group](https://en.wikipedia.org/wiki/Working_group) created
 by the W3C in 1997 to tackle issues that had not been addressed
 with [CSS](https://en.wikipedia.org/wiki/CSS) level 1.
 
-<img src="./All-Images/media/image51.jpeg"
+<img src="./Images/image051.jpeg"
 style="width:6.5in;height:3.31528in" alt="CSS groupe TPAC" />The CSS WG
 meeting in Lisbon, November 2016. The working group is co-chaired by
 Rossen Atanassov and Alan Stearns. (*Photo credit: Marie-Claire Forgue*)
@@ -6894,7 +6900,7 @@ different. So let's get started.
 
 <h3>The \<style\> tag</h3>
 
-<img src="./All-Images/media/image52.jpeg"
+<img src="./Images/image052.jpeg"
 style="width:1.5625in;height:1.5625in"
 alt="Snapshot os a style tag in the XDK code editor" />
 
@@ -6983,7 +6989,7 @@ Here is an example HTML document.
 At its simplest, CSS is just a list of *rules*.  Each *rule* consists of
 a *selector* and a *declaration.  *Here is an example:
 
-<img src="./All-Images/media/image53.jpeg"
+<img src="./Images/image053.jpeg"
 style="width:4in;height:3.30064in"
 alt="Figure showing a selector &#39;p&#39; before a declaration &#39;font-size:12px; color: #223344&#39;" />
 
@@ -7077,7 +7083,7 @@ with the same source.
 You are welcome to edit the
 following [CodePen.](https://codepen.io/w3devcampus/pen/QvQgbr)
 
-<img src="./All-Images/media/image54.png"
+<img src="./Images/image054.png"
 style="width:6.5in;height:3.56597in" />
 
 ... or work from the lines of code below (to paste in your favorite Web
@@ -15600,4 +15606,4 @@ We fixed those issues at the top.
 
 These are the final changes to our recipe project for this unit.
 
-<h2><b>Last Updated 5-8-2022 6:29pm</b></h2>
+<h3><b>Last Updated 5-12-2022 11:34pm</b></h3>
