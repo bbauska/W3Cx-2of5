@@ -9349,7 +9349,7 @@ we want:
 
 <img src="./All-Images/media/image74.png"
 style="width:4in;height:2.24101in" />
-
+```
 CSS
 
 h1{
@@ -9375,50 +9375,31 @@ color:grey;
 font-size:1.2rem;
 
 }
-
+```
 HTML
-
-\<!DOCTYPE html\>
-
-\<html lang="en"\>
-
-\<head\>
-
-\<meta charset="utf-8"\>
-
-\<title\>precedence 1\</title\>
-
-\</head\>
-
-\<body\>
-
-\<h1\>My Book\</h1\>
-
-\<article\>
-
-\<h1\>Chapter 1 \</h1\>
-
-\<section\>
-
-\<h1\>Section 1.1\</h1\>
-
-\<p\>...\</p\>
-
-\</section\>
-
-\<section\>
-
-\<h1\>Section 1.2\</h1\>
-
-\</section\>
-
-\</article\>
-
-\</body\>
-
-\</html\>
-
-### 4.4.3 Cloud Images
+```
+<!DOCTYPE html\>
+<html lang="en"\>
+<head>
+<meta charset="utf-8"\>
+<title>precedence 1\</title>
+</head>
+<body>
+<h1>My Book</h1>
+<article>
+  <h1>Chapter 1 </h1>
+  <section>
+    <h1>Section 1.1</h1>
+    <p>...</p>
+  </section>
+  <section>
+    <h1>Section 1.2</h1>
+    </section>
+    </article>
+  </body>
+</html>
+```
+<h3>4.4.3 Cloud Images</h3>
 
 We're working on a Web page about clouds in
 the [CodePen](https://codepen.io/w3devcampus/pen/ybqbwJ) below, and we
@@ -9430,59 +9411,46 @@ the pictures but the result is unwieldy:
 style="width:4.96875in;height:3.09375in" />
 
 HTML
-
-\<!DOCTYPE html\>
-
-\<html lang="en"\>
-
-\<head\>
-
-\<meta charset="UTF-8"\>
-
-\<title\>Cloud images\</title\>
-
-\</head\>
-
-\<body\>
-
-\<img alt="Clouds (Undulatus asperatus) above Tallinn - Author: Ave
+```
+<!DOCTYPE html\>
+<html lang="en"\>
+<head\>
+<meta charset="UTF-8"\>
+<title\>Cloud images\</title\>
+</head\>
+<body\>
+<img alt="Clouds (Undulatus asperatus) above Tallinn - Author: Ave
 Maria Mõistlik" width="500"
 src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Beautiful_clouds.JPG/1600px-Beautiful_clouds.JPG"\>
 
-\<h1\>Clouds\</h1\>
-
-\<blockquote\>
-
-\<hr\>
-
+<h1\>Clouds\</h1\>
+<blockquote\>
+<hr\>
 “Clouds come floating into my life, no longer to carry rain or usher
 storm, but to add color to my sunset sky.”
 
 ― Rabindranath Tagore, Stray Birds
 
-\<hr\>
+<hr\>
 
-\</blockquote\>
+</blockquote\>
 
-\<p\>Among the many types of clouds are:\</p\>
+<p>Among the many types of clouds are:</p>
 
-\<ol\>
+<ol>
 
-\<li id="cumulus"\>Cumulus clouds: \<img alt="Cumulus Clouds"
-src="https://www.weather.gov/images/jetstream/clouds/cu.jpg"\>\</li\>
+<li id="cumulus">Cumulus clouds: <img alt="Cumulus Clouds"
+src="https://www.weather.gov/images/jetstream/clouds/cu.jpg"\></li>
 
-\<li id="cirrus"\>Cirrus clouds: \<img alt="Cirrus clouds"
-src="https://www.weather.gov/images/jetstream/clouds/ci.jpg"\>\</li\>
+<li id="cirrus">Cirrus clouds: <img alt="Cirrus clouds"
+src="https://www.weather.gov/images/jetstream/clouds/ci.jpg"></li>
 
-\<li id="stratus"\>Stratus clouds: \<img alt="Stratus clouds"
-src="https://www.weather.gov/images/jetstream/clouds/st.jpg"\>\</li\>
-
-\</ol\>
-
-\</body\>
-
-\</html\>
-
+<li id="stratus">Stratus clouds: <img alt="Stratus clouds"
+src="https://www.weather.gov/images/jetstreamclouds/st.jpg"></li>
+</ol>
+</body>
+</html>
+```
 When you see the pictures, the text is so small it's unreadable. 
 Clearly we have a solution for this.  We can just specify the width of
 \<img\> elements.  We can use the debugger to try different sizes,
@@ -9500,67 +9468,50 @@ Giving a much more reasonable page:
 style="width:4.96875in;height:2.73958in" />
 
 CSS
-
+```
 img {
 
 width: 10rem;
 
 }
-
+```
 HTML
-
-\<!DOCTYPE html\>
-
-\<html lang="en"\>
-
-\<head\>
-
-\<meta charset="UTF-8"\>
-
-\<title\>Cloud images\</title\>
-
-\</head\>
-
-\<body\>
-
-\<h1\>Clouds\</h1\>
-
-\<img alt="Clouds (Undulatus asperatus) above Tallinn - Author: Ave
+```
+<!DOCTYPE html\>
+<html lang="en"\>
+<head\>
+<meta charset="UTF-8"\>
+<title\>Cloud images\</title\>
+</head\>
+<body\>
+<h1\>Clouds\</h1\>
+<img alt="Clouds (Undulatus asperatus) above Tallinn - Author: Ave
 Maria Mõistlik" width="500"
 src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Beautiful_clouds.JPG/1600px-Beautiful_clouds.JPG"\>
-
-\<blockquote\>
-
-\<hr\>
-
+<blockquote\>
+<hr\>
 “Clouds come floating into my life, no longer to carry rain or usher
 storm, but to add color to my sunset sky.”
 
 ― Rabindranath Tagore, Stray Birds
 
-\<hr\>
+<hr>
 
-\</blockquote\>
+</blockquote>
+<p>Among the many types of clouds are:</p>
+<ol>
+<li id="cumulus">Cumulus clouds: <img alt="Cumulus Clouds"
+src="https://www.weather.gov/images/jetstream/clouds/cu.jpg"></li>
 
-\<p\>Among the many types of clouds are:\</p\>
+<li id="cirrus">Cirrus clouds: <img alt="Cirrus clouds"
+src="https://www.weather.gov/imagesjetstream/clouds/ci.jpg"></li>
+<li id="stratus">Stratus clouds: <img alt="Stratus clouds"
+src="https://www.weather.gov/images/jetstream/clouds/st.jpg"></li>
+</ol>
+</body>
 
-\<ol\>
-
-\<li id="cumulus"\>Cumulus clouds: \<img alt="Cumulus Clouds"
-src="https://www.weather.gov/images/jetstream/clouds/cu.jpg"\>\</li\>
-
-\<li id="cirrus"\>Cirrus clouds: \<img alt="Cirrus clouds"
-src="https://www.weather.gov/images/jetstream/clouds/ci.jpg"\>\</li\>
-
-\<li id="stratus"\>Stratus clouds: \<img alt="Stratus clouds"
-src="https://www.weather.gov/images/jetstream/clouds/st.jpg"\>\</li\>
-
-\</ol\>
-
-\</body\>
-
-\</html\>
-
+</html>
+```
 So far so good, but we want our top image to be a bit bigger without
 changing the other images.  Recall  that an \<img\> tag
 includes a width attribute, so we can special case this image
@@ -9593,98 +9544,63 @@ special case the smaller pictures, and use a larger width by default.
  This would recognize that we really want small images when they are
 list elements, otherwise they should be bigger.  So we can change our
 code like this:
-
+```
 1.  img {
-
 2.     width: 25rem;
-
 3.  }
-
 4.  li img {
-
 5.     width: 10rem;
-
 6.  }
-
+```
 ####That looks better:
 
 <img src="./All-Images/media/image78.png"
 style="width:4.96875in;height:2.73958in" />
 
 ####CSS
-
+```
 1.  img {
-
 2.  width: 25rem;
-
 3.  }
-
 4.  li img {
-
 5.  width: 10rem;
-
 6.  }
-
+```
 #### HTML
-
-1.  \<!DOCTYPE html\>
-
-2.  \<html lang="en"\>
-
-3.  \<head\>
-
-4.  \<meta charset="UTF-8"\>
-
-5.  \<title\>Cloud images\</title\>
-
-6.  \</head\>
-
-7.  \<body\>
-
-8.  \<h1\>Clouds\</h1\>
-
-9.  \<img alt="Clouds (Undulatus asperatus) above Tallinn - Author: Ave
+```
+1.  <!DOCTYPE html>
+2.  <html lang="en">
+3.  <head>
+4.  <meta charset="UTF-8">
+5.  <title>Cloud images</title>
+6.  </head>
+7.  <body>
+8.  <h1>Clouds\</h1>
+9.  <img alt="Clouds (Undulatus asperatus) above Tallinn - Author: Ave
     Maria Mõistlik" width="500"
-    src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Beautiful_clouds.JPG/1600px-Beautiful_clouds.JPG"\>
-
+    src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Beautiful_clouds.JPG/1600px-Beautiful_clouds.JPG">
 10. 
-
-11. \<blockquote\>
-
-12. \<hr\>
-
+11. <blockquote>
+12. <hr>
 13. “Clouds come floating into my life, no longer to carry rain or usher
     storm, but to add color to my sunset sky.”
-
 14. ― Rabindranath Tagore, Stray Birds
-
-15. \<hr\>
-
-16. \</blockquote\>
-
+15. <hr>
+16. </blockquote>
 17. 
-
-18. \<p\>Among the many types of clouds are:\</p\>
-
+18. <p>Among the many types of clouds are:</p>
 19. 
-
-20. \<ol\>
-
-21. \<li id="cumulus"\>Cumulus clouds: \<img alt="Cumulus Clouds"
-    src="https://www.weather.gov/images/jetstream/clouds/cu.jpg"\>\</li\>
-
-22. \<li id="cirrus"\>Cirrus clouds: \<img alt="Cirrus clouds"
-    src="https://www.weather.gov/images/jetstream/clouds/ci.jpg"\>\</li\>
-
-23. \<li id="stratus"\>Stratus clouds: \<img alt="Stratus clouds"
-    src="https://www.weather.gov/images/jetstream/clouds/st.jpg"\>\</li\>
-
-24. \</ol\>
-
-25. \</body\>
-
-26. \</html\>
-
+20. <ol>
+21. <li id="cumulus">Cumulus clouds: <img alt="Cumulus Clouds"
+    src="https://www.weather.gov/images/jetstream/clouds/cu.jpg"></li>
+22. <li id="cirrus">Cirrus clouds: <img alt="Cirrus clouds"
+    src="https://www.weather.gov/images/jetstream/clouds/ci.jpg"></li>
+23. <li id="stratus">Stratus clouds: <img alt="Stratus clouds"
+    src="https://www.weather.gov/images/jetstream/clouds/st.jpg"></li>
+24. </ol>
+25. </body>
+26. </html>
+```
 There is still the issue of things not being laid out nicely, you'll
 learn more about that in the module 6.
 
@@ -9715,68 +9631,39 @@ style="width:4in;height:3.32075in" />
 <h4>HTML</h4>
 ```
    <!DOCTYPE html>
-
    <html lang="en">
-
    <head>
-
    <meta charset="UTF-8">
-
    <title>Shrinking text</title>
-
    </head>
-   
     <body>
-   
     <section>
-   
     <h1>Essay Outline</h1>
-   
     <ol>
-   
     <li>Introduction
-   
     <ol>
-   
     <li>Introduce Subject
-   
     <ul>
-   
     <li>What is it?</li>
-   
     <li>Why is it important</li>
-   
     </ul>
-   
     </li>
-   
     <li>Propose Thesis</li>
-   
     <li>Outline</li>
-   
     </ol>
-   
     </li>
 ```
 As with the cloud pictures, we want the listed items a bit smaller than
 the regular text, so we add this styling:
 ```
    1.  section {
-
    2.    font-size: 24px;
-
    3.  }
-
    4.  section h1 {
-
    5.    font-size: 28px;
-
    6.  }
-
    7.  li {
-
    8.    font-size: 0.5em;
-
    9.  }
 ```
 The outermost level is fine, the next level is almost readable but the
