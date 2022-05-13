@@ -6,7 +6,7 @@
 <!------------------------------------------ w3c logo -------------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/w3c-logo.png?raw=true"
+<img src="./images/w3c-logo.png?raw=true"
    width="35%"
    alt="W3C logo" />
 </p>
@@ -15,7 +15,7 @@
 <!-------------------------------- W3Cx-2of5-HTML5.0x logo (01) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image001.png?raw=true"
+<img src="./images/image001.png?raw=true"
    width="65%"
    alt="W3Cx HTML 5.0x logo" />
 </p>
@@ -45,7 +45,7 @@
 >### 2.1 [**Introduction to Module 2**](#ch2-1)
 >### 2.2 [**Attributes**](#ch2-2)
 >### 2.3 [**Semantic meaning**](#ch2-3)
->### 2.4 [**Images**](#ch2-4)
+>### 2.4 [**images**](#ch2-4)
 >### 2.5 [**Hyperlinks**](#ch2-5)
 
 ## [Module 3: Adding style with CSS](/modules/module3.md)
@@ -88,7 +88,7 @@ a professional look and feel, by just following these 6 modules!
 <!--------------------------------- 02. my first web page (01) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image002.jpeg?raw=true"
+<img src="./images/image002.jpeg?raw=true"
    width="15%"
    alt="My First Web Page" />
 </p>
@@ -102,7 +102,7 @@ a professional look and feel, by just following these 6 modules!
 <!-------------------------------- 03. w3c developers logo (02) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image003.png?raw=true"
+<img src="./images/image003.png?raw=true"
    width="15%"
    alt="W3C Developers logo" />
 </p>
@@ -117,7 +117,7 @@ layout your page during the last week of this course.</li>
 <!--------------------------------------- 04. laptop (02) ---------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image004.png?raw=true"
+<img src="./images/image004.png?raw=true"
    width="15%"
    alt="" />
 </p>
@@ -134,7 +134,7 @@ layout your page during the last week of this course.</li>
 <!---------------------------------- 05. w3c cheat sheet (03) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image005.png?raw=true"
+<img src="./images/image005.png?raw=true"
    width="50%"
    alt="W3C Cheat Sheet" />
 </p>
@@ -148,7 +148,7 @@ layout your page during the last week of this course.</li>
 <!------------------------------- 06. can i use: css colors (04) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image006.png?raw=true"
+<img src="./images/image006.png?raw=true"
    width="65%"
    alt="Can I Use: CSS Colors" />
 </p>
@@ -287,7 +287,7 @@ Miller, February 6, 2019\].
 <!-------------------------------- 03. w3c developers logo (08) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image003.png?raw=true"
+<img src="./images/image003.png?raw=true"
    width="30%"
    alt="W3C Devleopers logo" />
 </p>
@@ -295,7 +295,7 @@ Miller, February 6, 2019\].
 <!----------------------------- 07. mdn web docs mozilla logo (08) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image007.png?raw=true"
+<img src="./images/image007.png?raw=true"
    width="30%"
    alt="MDN Web Docs Mozilla logo" />
 </p>
@@ -327,7 +327,7 @@ stylesheets.
 <!----------------------------- 04. laptop (08) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image004.png?raw=true"
+<img src="./images/image004.png?raw=true"
    width="15%"
    alt="Laptop" />
 </p>
@@ -371,7 +371,7 @@ internationalization tips.
 <!---------------------------------- 05. w3c cheat sheet (09) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image005.png?raw=true"
+<img src="./images/image005.png?raw=true"
    width="50%"
    alt="W3C Cheat Sheet" />
 </p>
@@ -417,7 +417,7 @@ is a snapshot of what information is given by CanIUse when searching for
 <!------------------------------------- 06. cheat sheet (10) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image006.png?raw=true"
+<img src="./images/image006.png?raw=true"
    width="65%"
    alt="Example of a CanIUse browser support table (using CSS3 colors)" />
 </p>
@@ -428,7 +428,7 @@ is a snapshot of what information is given by CanIUse when searching for
 <!---------------------------------- 07. mdn web docs logo (10) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image007.png?raw=true"
+<img src="./images/image007.png?raw=true"
    width="35%"
    alt="MDN Web Docs logo" />
 </p>
@@ -461,7 +461,7 @@ define key parts of what actually makes the World Wide Web work.
 <!------------------------------ 08. tim berners-lee in 1994 (11) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image008.jpeg?raw=true"
+<img src="./images/image008.jpeg?raw=true"
    width="35%"
    alt="Tim Berners-Lee at his desk in CERN, 1994" />
 </p>
@@ -594,7 +594,7 @@ Management: A proposal', pictured below, the proposal was created by Sir
 Tim Berners-Lee and was sent to his boss Mike Sendall, who described it
 as 'vague but exciting'.
 
-<img src="/images/image009.gif"
+<img src="./images/image009.gif"
 style="width:6in;height:5.37054in"
 alt="Tim Berners-Lee original proposal for the Web" />
 
@@ -634,7 +634,7 @@ interact with all the information on the World Wide Web.
 <!------------------------------------- 10. html5 logo (14) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image010.png?raw=true"
+<img src="./images/image010.png?raw=true"
    width="35%"
    alt="HTML5 logo" />
 </p>
@@ -659,7 +659,7 @@ create dynamic Web pages.
 <!------------------------------------- 11. css3 logo (14) --------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image011.png?raw=true"
+<img src="./images/image011.png?raw=true"
    width="35%"
    alt="CSS3 logo" />
 </p>
@@ -677,7 +677,7 @@ whatever else may apply to what it looks like.
 <!---------------------------------- 12. javascript logo (15) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image012.jpeg?raw=true"
+<img src="./images/image012.jpeg?raw=true"
    width="35%"
    alt="HTML5 logo" />
 </p>
@@ -703,7 +703,7 @@ That's why, in 1989, Tim Berners-Lee began to create a definition of
 HTML: Hypertext Markup Language, to provide a simple, uniform way to
 incorporate Hyperlinks in a text document.
 
-<img src="/Images/image013.png"
+<img src="./images/image013.png"
 style="width:6in;height:3.98269in"
 alt="Illustration of hypertext documents (here are extract of wikipedia pages): the HTML5 page has links going to the Markup language page, the World Wide Web definition page, etc." />
 
@@ -722,7 +722,7 @@ between documents. It was not just a long list of details, but rather a
 sea of information stretching out in all directions. This sea of
 information was navigated by a new tool called a "Browser".
 
-## 1.2.4 The Browser
+<h3>1.2.4 The Browser</h3>
 
 The Internet existed long before the Web came to fruition, and lots of
 organizations were connected to it, including schools, companies and
@@ -734,7 +734,7 @@ email and other conveniences.
 <!---------------------------- 14. snapshot of mosaic browser (17) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image014.jpeg?raw=true"
+<img src="./images/image014.jpeg?raw=true"
    width="65%"
    alt="Snapshot of a Mosaic Browser" />
 </p>
@@ -1643,7 +1643,7 @@ contain other elements, as the body element would contain header
 elements, paragraph elements, in fact pretty much all of the visible
 elements of the DOM.
 
-<img src="/Images/image015.png"
+<img src="./images/image015.png"
 style="width:5in;height:2.75961in" />
 
 Consider the figure above.  It contains a single 'html' element.  It
@@ -1666,9 +1666,9 @@ children, but for our purpose this is enough.
 That may be a great picture, but how do we represent such a structure in
 a text file?  Well, that's where "tags" come in.
 
-## 1.3.4 Tags
+<h3>1.3.4 Tags</h3>
 
-## <img src="/Images/image016.png"
+<img src="./images/image016.png"
 style="width:1.26042in;height:1.69792in" />
 
 'Tags' are what we use to organize a text file (which is just a long
@@ -1708,7 +1708,7 @@ text" in between tell us what kind of tag it is.  To completely describe
 the element, it needs an open and close tag, with everything in between
 the tags being the content of the element:
 
-<img src="/Images/image017.png"
+<img src="./images/image017.png"
 style="width:2in;height:1.0859in"
 alt="Diagram of an element: the &#39;&lt;em&gt;&#39; tag is used for element that needs Emphasis. The &#39;&lt;&#39; and &#39;&gt;&#39; indicate that this is a tag, and the little bits of text in between tell us what kind of tag it is. To completely describe the element, it needs an open and close tag, with everything in between the tags being the content of the element" />
 
@@ -2853,7 +2853,7 @@ effect in your Web page when you use them:
 
 This code might be rendered like this:
 
-<img src="./Images/image018.png"
+<img src="./images/image018.png"
 style="width:2.05208in;height:0.88542in"
 alt="Example of a list as it would appear on a Web page" />
 
@@ -2894,7 +2894,7 @@ primarily used to invoke certain formatting. 
 
 5.  would smell as sweet
 
-<img src="./Images/image019.png"
+<img src="./images/image019.png"
 style="width:3.85417in;height:1.5in"
 alt="Example of poetry as it might appear on a Web page" />
 
@@ -3023,7 +3023,7 @@ This is going to be my favorite recipe.
 
 <h3 id="ch2">2.1.1 Welcome to Module 2</h3>
 
-<img src="./Images/image020.png"
+<img src="./images/image020.png"
 style="width:3.48958in;height:3.01042in" />
 
 Hi, everyone, and welcome.
@@ -3102,7 +3102,7 @@ learned about attributes.
 **2.3 Semantic meaning: **Explaining the difference between 'semantic'
 and 'style'.
 
-**2.4 Images: **Learn how, when, and where to best utilize images in
+**2.4 images: **Learn how, when, and where to best utilize images in
 your Web pages.
 
 **2.5 Hyperlinks: **They are the connections that allow the world to
@@ -3331,7 +3331,7 @@ several tags such as \<img\>, \<input\> and \<video\>.
 
 5.  \</ol\>
 
-<img src="./Images/image021.png"
+<img src="./images/image021.png"
 style="width:3in;height:2.92421in" />
 
 Ordered lists have their own specific attributes and all global
@@ -3554,7 +3554,7 @@ Don't click on it, just rest your cursor there. 
 
 ### **NASA**
 
-<img src="./Images/image022.jpeg" style="width:2in;height:2in"
+<img src="./images/image022.jpeg" style="width:2in;height:2in"
 alt="Example image of a girl with a beautiful smile to illustrate title attribute" />
 
 Did you see the two "secret" messages? A message that appears when you
@@ -3774,7 +3774,7 @@ rule and were eventually corrected in HTML5.
 
 This is how the above HTML code will look in a browser: 
 
-<img src="./Images/image023.png"
+<img src="./images/image023.png"
 style="width:4in;height:2.73684in" />
 
 It seems redundant for two tags to do the same thing in HTML.
@@ -3966,7 +3966,7 @@ semantic elements.
 Let's look at a typical Web page structure that consists of blocks named
 after: header, nav, article, section, aside and footer.
 
-<img src="./Images/image024.jpeg" style="width:4in;height:4in"
+<img src="./images/image024.jpeg" style="width:4in;height:4in"
 alt="Picture showing the structure of a Web site: header, nav, article, section, aside and footer" />
 
 Tags such as** \<article\>**, **\<section\>**, **\<header\>**, **\<nav\>
@@ -4138,7 +4138,7 @@ this:
 
 52. \</html\>
 
-<img src="./Images/image025.png"
+<img src="./images/image025.png"
 style="width:4in;height:4.37894in" />
 
 ## 2.3.3 New HTML5 Semantic Elements
@@ -4321,7 +4321,7 @@ Moncrieff&lt;/p&gt;</p></li>
 
 Element
 
-<img src="./Images/image026.png"
+<img src="./images/image026.png"
 style="width:4in;height:2.31579in" />
 
 See also the current [browser
@@ -4346,7 +4346,7 @@ for all users.
 
 Result:
 
-<img src="./Images/image027.jpeg" style="width:2in;height:2in"
+<img src="./images/image027.jpeg" style="width:2in;height:2in"
 alt="dress rehearsal" />  
 Fig. 1: The cast hard at work at dress rehearsal before opening night
 
@@ -4357,7 +4357,7 @@ This element is used to specify content that you want to highlight. 
 1.  \<h3\>Lane: \</h3\>\<p\>Yes sir. \[\<mark\>Handing his master the
     sandwiches on a salver\</mark\>\]\</p\>
 
-<img src="./Images/image028.png"
+<img src="./images/image028.png"
 style="width:4in;height:2.31579in" />
 
 Most browsers will display mark element with a yellow background to
@@ -4420,7 +4420,7 @@ visual change:
 >
 > \</body\>
 
-<img src="./Images/image029.png"
+<img src="./images/image029.png"
 style="width:3in;height:2.57052in" />
 
 ### Lesser known semantic elements (OPTIONAL)
@@ -4534,7 +4534,7 @@ element. **Here's a simplified version**:
 
 9.  \</header\>
 
-<img src="./Images/image030.png"
+<img src="./images/image030.png"
 style="width:4in;height:4.02526in" />
 
 Like in the example above, the header can and frequently does contain
@@ -4578,7 +4578,7 @@ identify headings](https://www.w3.org/TR/WCAG20-TECHS/H42.html).
 
 14. \</body\>
 
-<img src="./Images/image031.png"
+<img src="./images/image031.png"
 style="width:4in;height:3.73052in" />
 
 Assistive technology uses heading markup, \<h1\> to \<h6\> to identify
@@ -4623,13 +4623,13 @@ Let's look at site-wide/global header and footer used in [Microsoft
 Virtual Academy home page](https://mva.microsoft.com/). At the time of
 course creation, here are screenshots of its header  
 
-<img src="./Images/image032.png"
+<img src="./images/image032.png"
 style="width:6.5in;height:0.37083in"
 alt="Screenshot of the Microsoft Virtual Academy home page" />
 
 and footer.
 
-<img src="./Images/image033.png"
+<img src="./images/image033.png"
 style="width:6.5in;height:0.12292in"
 alt="Screenshot of Microsoft Virtual Academy home page showing the footer" />
 
@@ -4653,7 +4653,7 @@ reading its contents or to make it immediately available.
 Now, let's look at a more complete example using a global header and
 multiple \<header\>, \<footer\> and \<nav\> tags.
 
-<img src="./Images/image034.png"
+<img src="./images/image034.png"
 style="width:4.89583in;height:2.83333in" />
 
 > \<!DOCTYPE html\>
@@ -4867,7 +4867,7 @@ in another). Sections can also be part of an article, aside or nav
 elements. While the code above makes no sense by itself, if you add it
 to our CES 2018 \<article\> example, it will fit right in:
 
-<img src="./Images/image035.png"
+<img src="./images/image035.png"
 style="width:4in;height:4.44255in" />
 
 \<!DOCTYPE html\>
@@ -4935,7 +4935,7 @@ To get a better understanding on the usage of semantic elements in your
 Web page, try on
 this [CodePen](https://codepen.io/w3devcampus/pen/Wjzjpx):
 
-<img src="./Images/image036.png"
+<img src="./images/image036.png"
 style="width:4in;height:2.54468in" />
 
 \<!DOCTYPE html\>
@@ -5390,7 +5390,7 @@ Here is a list of things to keep in mind when using the src attribute:
 -   Do not include spaces in your image path.
 
 -   Make sure your image path matches the capitalization of the actual
-    path. Your images directory in your Web project might be 'Images/'
+    path. Your images directory in your Web project might be 'images/'
     but your path might say 'images/' missing the capitalization in 'I'.
     Mismatched capitalization might work in some places but not
     all. *Recommended practice*: use lower case for all directories,
@@ -5452,7 +5452,7 @@ information to be aware of.
 
 -   **SVG** (Scalable Vector Graphics) are defined mathematically and
     support animation. Also, since they are defined mathematically  they
-    scale to <img src="./Images/image037.png"
+    scale to <img src="./images/image037.png"
     style="width:0.73958in;height:0.73958in"
     alt="Logo Scalable Vector Graphics (SVG)" />any size without
     worrying about pixels, resolution or image data. This makes SVG
@@ -5519,7 +5519,7 @@ display a quote or message in the form of text in an image
 decorative images
 
 Depending on the category the image fits into, the alt text differs.
-This W3C [WAI Images
+This W3C [WAI images
 Tutorial](https://www.w3.org/WAI/tutorials/images/) is an excellent
 resource for deciding the category of your image and for learning how to
 write proper alt text for that category.
@@ -5531,7 +5531,7 @@ browser:
 1.  \<img src="image/tulips.png" alt="This is supposed to be an image of
     tulips"\>
 
-<img src="./Images/image038.png"
+<img src="./images/image038.png"
 style="width:3in;height:1.90851in" />
 
 ## 2.4.3 Attributes: title, height & width
@@ -5541,7 +5541,7 @@ style="width:3in;height:1.90851in" />
 Try this: place your mouse on the image below. Don't click, just rest
 your cursor on it. 
 
-<img src="./Images/image039.jpeg"
+<img src="./images/image039.jpeg"
 style="width:3.125in;height:2.34375in" alt="Tulips in a basket" />
 
 Did you see the hidden message 'Tulips from woodburn tulip
@@ -5570,7 +5570,7 @@ pixels without using an external editor.
 
 Here is my original image:
 
-<img src="./Images/image040.png"
+<img src="./images/image040.png"
 style="width:2in;height:3.03188in" alt="HTML5 logo not resized" />
 
 Clearly too big for the page. The original image dimensions is 345x523
@@ -5585,7 +5585,7 @@ Now, if I want to resize the HTML logo above by half:
 1.  \<img src="images/html5.png" alt="HTML resized image" title="Resized
     image seems to fit the page better" height="173" width="262"\>
 
-<img src="./Images/image041.png"
+<img src="./images/image041.png"
 style="width:1in;height:1.51445in" alt="HTML5 logo resized" />
 
 Actually, you don't need to define both width and height. You can just
@@ -5611,7 +5611,7 @@ also useful if you are changing or removing the image: you can just
 remove it from your HTML and not deal with remembering to remove it
 from your CSS too.
 
-## 2.4.4 Decorative Images
+## 2.4.4 Decorative images
 
 Should all images be part of HTML content?
 
@@ -5645,9 +5645,9 @@ Can you identify these types of decorative images?
 
 Find out from their tooltips!
 
-<img src="./Images/image042.jpeg" style="width:2in;height:2in"
-alt="Beautiful landscape background image" /><img src="./Images/image043.jpeg" style="width:2in;height:2in"
-alt="Brick texture for use behind main content" /><img src="./Images/image044.jpeg" style="width:2in;height:2in"
+<img src="./images/image042.jpeg" style="width:2in;height:2in"
+alt="Beautiful landscape background image" /><img src="./images/image043.jpeg" style="width:2in;height:2in"
+alt="Brick texture for use behind main content" /><img src="./images/image044.jpeg" style="width:2in;height:2in"
 alt="Decorative banner graphic" />
 
 ## 2.4.5 Using \<img\> Tags
@@ -5870,7 +5870,7 @@ In this video, we'd fun with images, the image tag and its attributes.
 
 You're all set to spice up your pages with some images. Take care!
 
-## 2.4.6 Activities - Images
+## 2.4.6 Activities - images
 
 Please find below a list of possible activities:
 
@@ -5884,10 +5884,10 @@ Please find below a list of possible activities:
 3.  Create a HTML page and add the following types of images:  
     - Informative image that represents concepts and information  
     - Decorative image  
-    - Images of text
+    - images of text
 
 Use the alt attribute to provide alternate text for the images above.   
-Refer to the [WAI Images
+Refer to the [WAI images
 Tutorial](https://www.w3.org/WAI/tutorials/images/) for a guide to
 writing alternate text. 
 
@@ -5902,7 +5902,7 @@ offers! *
 
 Or something like this:
 
-<img src="./Images/image045.png"
+<img src="./images/image045.png"
 style="width:2.40625in;height:0.45833in"
 alt="Buy now button for illustrating hyperlinks" />
 
@@ -5934,7 +5934,7 @@ can be:
 When it comes to hyperlinks, try to use text instead of images when
 possible.
 
--   Images are not as well understood or recognized as text.
+-   images are not as well understood or recognized as text.
 
 -   Text is better for accessibility.
 
@@ -6203,9 +6203,9 @@ browsers](https://caniuse.com/#search=download). Try
 the download attribute in a html file of your own and run it in
 different browsers to see how it behaves.
 
-## 2.5.4 Use of Hyperlink Attributes
+<h3>2.5.4 Use of Hyperlink Attributes</h3>
 
-<img src="./Images/image046.png"
+<img src="./images/image046.png"
 style="width:6.5in;height:3.55208in" />
 
 In this live coding demo, we're going to dive deep into hyperlinks.
@@ -6441,13 +6441,13 @@ You've seen how to use the attributes on the anchor tag to jump to pages
 on our site, visit other sites, download files and even skip around on
 the same page.
 
-## 2.5.6 Recipe Project – Module 2
+<h3>2.5.6 Recipe Project – Module 2</h3>
 
 We are now going to continue building on the recipe project we started
 in Module 1.  You can find our version in the CodePen below (and the
 live coding video at the end of this page).
 
-<img src="./Images/image047.png"
+<img src="./images/image047.png"
 style="width:6.5in;height:3.27778in" />
 
 HTML
@@ -6774,7 +6774,7 @@ And that concludes this live coding session. Bon appétit !
 
 <h3 id="ch3-1">3.1.1 Welcome to Module 3</h3>
 
-<img src="./Images/image048.png"
+<img src="./images/image048.png"
 style="width:4in;height:2.27184in" />
 
 Hi, my name's Adrian.
@@ -6786,7 +6786,7 @@ In this module, we will introduce a new language, CSS.
 
 CSS, or Cascading Style Sheets, is used to style each HTML.
 
-<img src="./Images/image049.png"
+<img src="./images/image049.png"
 style="width:2.125in;height:2.27083in" />
 
 It's how we determine the color, text size, and spacing, as well as
@@ -6824,7 +6824,7 @@ you learn, experimentation.
 
 ##### CSS stands for 'Cascading Style Sheets'
 
-##### <img src="./Images/image050.png"
+##### <img src="./images/image050.png"
 style="width:2in;height:1.09388in" />
 
 For now, do not worry about what the 'Cascading' part means and just
@@ -6861,7 +6861,7 @@ a [working group](https://en.wikipedia.org/wiki/Working_group) created
 by the W3C in 1997 to tackle issues that had not been addressed
 with [CSS](https://en.wikipedia.org/wiki/CSS) level 1.
 
-<img src="./Images/image051.jpeg"
+<img src="./images/image051.jpeg"
 style="width:6.5in;height:3.31528in" alt="CSS groupe TPAC" />The CSS WG
 meeting in Lisbon, November 2016. The working group is co-chaired by
 Rossen Atanassov and Alan Stearns. (*Photo credit: Marie-Claire Forgue*)
@@ -6900,7 +6900,7 @@ different. So let's get started.
 
 <h3>The \<style\> tag</h3>
 
-<img src="./Images/image052.jpeg"
+<img src="./images/image052.jpeg"
 style="width:1.5625in;height:1.5625in"
 alt="Snapshot os a style tag in the XDK code editor" />
 
@@ -6989,7 +6989,7 @@ Here is an example HTML document.
 At its simplest, CSS is just a list of *rules*.  Each *rule* consists of
 a *selector* and a *declaration.  *Here is an example:
 
-<img src="./Images/image053.jpeg"
+<img src="./images/image053.jpeg"
 style="width:4in;height:3.30064in"
 alt="Figure showing a selector &#39;p&#39; before a declaration &#39;font-size:12px; color: #223344&#39;" />
 
@@ -7083,66 +7083,42 @@ with the same source.
 You are welcome to edit the
 following [CodePen.](https://codepen.io/w3devcampus/pen/QvQgbr)
 
-<img src="./Images/image054.png"
+<img src="./images/image054.png"
 style="width:6.5in;height:3.56597in" />
 
 ... or work from the lines of code below (to paste in your favorite Web
 editor):
-
+```
 1.  \<!DOCTYPE html\>
-
 2.     \<html lang="en"\>
-
 3.       \<head\>
-
 4.           \<meta charset="UTF-8"\>
-
 5.           \<title\>On the Inventor of Gunpowder\</title\>
-
 6.  
-
 7.           \<style\>
-
 8.              /\* CSS \*/
-
 9.        \</style\>
-
 10. 
-
 11.     \</head\>
-
 12.  
-
 13.    \<body\>
-
 14. 
-
 15.       \<h1\>On the Inventor of Gunpowder.\</h1\>
-
 16.  
-
 17.       \<address rel="author"\>By John Milton\</address\>
-
 18.  
-
 19.       \<p\>Praise in old time the sage Prometheus won,\<br\>
-
 20. Who stole ethereal radiance from the sun;\<br\>
-
 21. But greater he, whose bold invention strove\<br\>
-
 22. To emulate the fiery bolts of Jove.\</p\>
-
 23.  
-
 24.    \</body\>
-
 25. \</html\>
-
+```
 You could also take another short text (such as a poem) and apply the
 styles you like on it.
 
-## 3.2.6 CSS Rules
+<h3>3.2.6 CSS Rules</h3>
 
 Hi, this is Adrian from Microsoft learning, and we're going to be
 learning today about CSS and HTML, and the ways in which they play
@@ -7235,107 +7211,58 @@ Text becomes a little bit smaller.
 
 That's all well and good.
 
-The next thing I want to do is I
-
-think this font is a little bit boring.
+The next thing I want to do is I think this font is a little bit boring.
 
 What I'm going to do is make it, something maybe a little bit more
 modern looking.
 
 I'm going to go into our Body rule here, and what I'm going to do is
-change
+change the font family to sans-serif.
 
-the font family to sans-serif.
+You can see that looks a little bit different.
 
-So you can see that looks a little bit different.
+I kind of want this by John Milton part to be the same though, so I'm going to leave that as the default.
 
-I kind of want this by John Milton part to
+Just say font family serif.
 
-be the same though,
+And you could see that now it's back to it's serif default and it looks great.
 
-so I'm going to leave that as the default.
+I think the next thing that we're going to do is maybe add a splash of color.
 
-So just say font family serif.
+I think black and white is timeless and it's very readable but it's a little bit boring.
 
-And you could see that now it's back to it's
+And what I'm going to do is make a new rule for the header.
 
-serif default and it looks great.
+I'm going to make the title a very engaging and interesting color, Chartreuse or Cyan.
 
-So, I think the next thing that we're going to do
+Let's pick something a little bit more tasteful than that.
 
-is maybe add a splash of color.
-
-I think black and white is timeless and
-
-it's very readable but it's a little bit boring.
-
-And what I'm going
-
-to do is make a new rule for the header.
-
-I'm going to make the title a very engaging and
-
-interesting color, Chartreuse or Cyan.
-
-Let's pick something a little bit
-
-more tasteful than that.
-
-We'll call it Crimson, and you can see
-
-that it's a little bit bright,
-
+We'll call it Crimson, and you can see that it's a little bit bright, 
 but looks better, kind of pops out at you.
 
-And I'm going to do the same thing but
+And I'm going to do the same thing but the opposite with this By John Milton text.
 
-the opposite with this By John Milton text.
+I think that needs to stand out a little bit less.
 
-So I think that needs to stand out a little bit less.
+We'll call that... there's so many different colors to choose from.
 
-So we'll call that... there's
-
-so many different colors to choose from.
-
-One of my favorites for kind
-
-of more background elements is
-
-Dim Gray, and you could
-
+One of my favorites for kind of more background elements is Dim Gray, and you could
 see that looks a little bit more subtle, subdued.
 
-So I like how that's looking.
+I like how that's looking.
 
-And the next change we're going to make is,
+And the next change we're going to make is, if you recall previously in the lesson we learned
+about an attribute called 'line-height', which essentially encapsulates the distance between lines of text.
 
-if you recall previously in the lesson we learned
+We've got all this vertical real estate on the page.
 
-about an attribute called 'line-height',
+I think we could stand to increase our 'line-height' a little bit,
+spread out those lines of text just to make it more readable.
 
-which essentially encapsulates the distance
+We're going to make a new rule for our paragraph tag that contains the poem, 
+and we're going to say 'line-height', I don't know, we'll call it 1.2.
 
-between lines of text.
-
-So, we've got all this vertical real estate on the page.
-
-I think we could stand to increase
-
-our 'line-height' a little bit,
-
-spread out those lines of
-
-text just to make it more readable.
-
-So we're going to make a new rule for
-
-our paragraph tag that contains the poem,
-
-and we're going to say 'line-height',
-
-I don't know, we'll call it 1.2.
-
-So just a tiny bit bigger than default.
+Just a tiny bit bigger than default.
 
 We'll just see how much that changes it.
 
@@ -7426,7 +7353,7 @@ Below we've gathered a more manageable list of the most useful
 and common CSS
 properties: font-size, line-height, text-align, text-decoration, font-weight, font-style and font-family.
 
-font-size
+<h4>font-size</h4>
 
 font-size can be used to size the text of a tag.  The value for
 the font-size has two parts: a number and a unit.  Some of the most
@@ -7471,7 +7398,7 @@ set line-height with no unexpected results in case of inheritance.
 Read [more](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height) on
 the MDN Web site.
 
-text-align
+<h4>text-align</h4>
 
 Anyone familiar with a text editor will be familiar with this property.
 It can be used to align the text left, center or right.  There are
@@ -7516,7 +7443,7 @@ article](https://www.w3.org/International/articles/typography/justification).
 Once you finish this course, look out for these and other international
 features of CSS as you explore its features further.
 
-### text-decoration (underline)
+<h4>text-decoration</h4>
 
 How do I underline text? This is a common question. In CSS, this is done
 via the text-decoration property.  The values for this
@@ -7540,7 +7467,7 @@ decoration, such as text-decoration-color and text-decoration-style, but
 they are not well supported across browsers (see [related caniuse
 table](https://caniuse.com/#search=text-decoration))
 
-### font-weight (bold)
+<h4>font-weight (bold)</h4>
 
 Earlier we saw that the \<b\> and \<strong\> tags would make text
 bold-faced. However, semantically speaking, that is a mere side-effect
@@ -7562,7 +7489,7 @@ blockquote { font-weight: 900; }
 |----------------------|--------------------------|----------------------|----------------------|--------------------------|--------------------------|
 | A Tale of Two Cities | **A Tale of Two Cities** | A Tale of Two Cities | A Tale of Two Cities | **A Tale of Two Cities** | **A Tale of Two Cities** |
 
-### font-style (italic)
+<h4>font-style (italic)</h4>
 
 Earlier we saw that the \<i\> and \<em\> tags could make text
 italicized. But, just as we saw when discussing font-weight, this can be
@@ -7618,9 +7545,9 @@ Web fonts are outside the scope of this course. Google provides a nice
 selection of licensed free Web fonts. Type "*google Web font tutorial*"
 into any search engine to learn more. 
 
-## 3.3.2 Margin and Color
+<h3>3.3.2 Margin and Color</h3>
 
-##### Margin
+<h4>Margin</h4>
 
 We will examine layout in a later unit. But the margin property is the
 lynch-pin for positioning elements. Whenever you want to move something
@@ -7646,7 +7573,7 @@ Color
 The color property can be used to set the text color of an element.
 There are several possible formats for the value.
 
-##### Named colors
+<h4>Named colors</h4>
 
 p { color: blue; }  
 b { color: transparent; } /\* transparent \*/  
@@ -7660,7 +7587,7 @@ invisible. However, if you want to make an HTML element invisible, then
 the display:none; or visibility:hidden; rules are preferred. They are
 discussed in a future section.
 
-##### rgb/rgba
+<h4>rgb/rgba</h4>
 
 p { color: rgb(10, 200, 255); }  
 p { color: rgb(0, 0, 0); } /\* 0,0,0 is black \*/  
@@ -7680,7 +7607,7 @@ Similarly, the rgba() function can be used for semi-transparent colors.
 The fourth value is for the "alpha channel" (thus the "a" in "rgba") and
 means the opacity. It is a number between 0 and 1 (for example, 0.5 ).
 
-##### Hex code
+<h4>Hex code</h4>
 
 p { color: #3A2BFF; }
 
@@ -7692,14 +7619,14 @@ enough, and deciphering and generating hex codes is even harder.
 However, almost every editor and color picker will at least show you
 red, green and blue values and many have hex code displayed as well.
 
-## 3.3.3 Units
+<h3>3.3.3 Units</h3>
 
 font-size, line-height, margins and many other CSS properties expect
 some sort of dimension value. Dimension values support a wide variety of
 units. But the most common and useful ones are: px, em, rem, %,
 vh and vw.
 
-### px
+<h4>px</h4>
 
 'px' is short for 'pixel', which is a single dot on the screen.   So
 text with  font-size:20px   is 20 pixels tall on-screen. In actuality,
@@ -7708,7 +7635,7 @@ may not match to 20 physical on-screen pixels.
 
 px are useful for both horizontal and vertical dimensions. 
 
-### em
+<h4>em</h4>
 
 'em' is a typographic term that has come to the Web. On the Web, em
 units are usually used for vertical dimensions.  One 'em' maps to the
@@ -7729,7 +7656,7 @@ remain sized correctly.
 | html, body { font-size: 50px; } /\* 50 px base text size \*/ | html, body { font-size: 20px; } /\* 20 px base text size \*/ |
 |--------------------------------------------------------------|--------------------------------------------------------------|
 
-### rem
+<h4>rem</h4>
 
 'rem' is much like 'em', except that 'em' sizes an element relative to
 its *parent*, and 'rem' always derives its size relative to
@@ -7768,7 +7695,7 @@ limitation is particularly noticeable in the vertical dimension. If the
 parent element doesn't have an explicit height set then child
 percentages may be percentages of 0. 
 
-### vh / vw
+<h4>vh / vw</h4>
 
 'vh' stands for viewport height, and 'vw' for viewport width.  The vh
 and vw units work much like the percentage ( % ) unit. But instead of
@@ -7801,7 +7728,7 @@ few that you might find helpful.
 -   From the W3C specification: [Viewport-percentage
     lengths](https://www.w3.org/TR/css3-values/#viewport-relative-lengths)
 
-## 3.3.4 Accessible Typography
+<h3>## 3.3.4 Accessible Typography</h3>
 
 The CSS rules with which we've started are fun and easily
 understandable. They are mostly concerned with typography. Later, we
@@ -7825,7 +7752,7 @@ for the light-sensitive, etc. But as we start to customize the look of
 the page with CSS, we may unintentionally thwart those tools or make the
 reading experience less comfortable for those with vision problems.
 
-### Guidelines
+<h4>Guidelines</h4>
 
 For accessible typography, there are really just a few things to avoid:
 
@@ -7842,9 +7769,9 @@ Look at those four guidelines. Can you match each guideline to one or
 more CSS property from earlier? Take a moment and think about it. We'll
 touch on specific rules below.
 
-### Properties
+<h4>Properties</h4>
 
-#### font-size
+<h4>font-size</h4>
 
 Misuse of font-size might make text too small. So be wary of that.
 Furthermore, in the past the gold standard practice was to use em units
@@ -7852,7 +7779,7 @@ instead of px. This is no longer as true as it was, but the practice of
 using em or rem units is definitely to be encouraged and it should be
 your default unit when working with text.
 
-#### line-height
+<h4>line-height</h4>
 
 An overly small line-height will cause lines to become cramped and
 difficult to read. Even the largest text can be rendered unreadable by a
@@ -7860,7 +7787,7 @@ too small line-height. Generally, your line-height should always be at
 least one and a half times the font-size (ie, line-height should be
 greater than 1.5em ).
 
-#### color
+<h4>color</h4>
 
 Color contrast can be easily undone by misuse of the color property.
  The exact rules for contrast are rather advanced. For example, "wide
@@ -7902,7 +7829,7 @@ The list markup tags (\<ul\>, \<ol\> and \<li\>) are some of the most
 frequently used specific purpose tags in HTML. There are a few CSS style
 properties that are available for lists.
 
-### list-style-type
+<h4>list-style-type</h4>
 
 list-style-type governs the little list marker that is usually
 positioned to the left of any list item.  For un-ordered lists (\<ul\>),
@@ -8087,7 +8014,7 @@ section dedicated to the background-image property.  
 
 ## 3.4.2 Selectors
 
-<img src="./All-Images/media/image55.png"
+<img src="./All-images/media/image55.png"
 style="width:4in;height:3.26381in" />
 
 Earlier, we learned that a CSS rule is made up of two parts: the
@@ -8278,7 +8205,7 @@ It isn't unusual to see multiple classes joined this way as well:
 
 .insect.flying { text-decoration: underline; font-weight:bold; }
 
-### <img src="./All-Images/media/image56.png"
+### <img src="./All-images/media/image56.png"
 style="width:6.5in;height:1.81875in" />
 
 ### Descendant selectors
@@ -8605,7 +8532,7 @@ the best advice is to fix them directly, rather than using !important.
 
 ## 3.4.x Recipe
 
-<img src="./All-Images/media/image57.png"
+<img src="./All-images/media/image57.png"
 style="width:4in;height:2.78846in" />
 
 \<!DOCTYPE html\>
@@ -8741,7 +8668,7 @@ Pizza, the king of comfort foods. Try this simple, taste sensation.
 
 <h3 id="ch4-1">4.1.1 Welcome to Module 4</h3>
 
-<img src="./All-Images/media/image58.png"
+<img src="./All-images/media/image58.png"
 style="width:3in;height:3.3038in" />
 
 <h3 id="ch4-1">4.1.2 Content</h3>
@@ -8900,7 +8827,7 @@ tab activated.  Once you do that, you can modify CSS properties of the
 current element by adding them to the "element.style" box at the top of
 the "Styles" panel.
 
-<img src="./All-Images/media/image59.png"
+<img src="./All-images/media/image59.png"
 style="width:5in;height:1.73333in"
 alt="Screenshot of MS Edge showing modifying in the developers tools" />
 
@@ -8909,7 +8836,7 @@ the top of the Styles panel.  After clicking you should see a little
 text entry box with which you can type property value pairs that will
 then effect the currently active element.
 
-<img src="./All-Images/media/image60.png"
+<img src="./All-images/media/image60.png"
 style="width:5in;height:3.01603in"
 alt="Screenshot of MSEdge developer tools showing changing text color in developers tools" />
 
@@ -8983,7 +8910,7 @@ There are many other shortcuts to learn, but this one is fairly common.
 are defaults for these values, so you technically don't need to specify
 all of them, but it is the minimal info needed and is quite common.
 
-<img src="./All-Images/media/image61.jpeg"
+<img src="./All-images/media/image61.jpeg"
 style="width:5in;height:3.89in" alt="Illustration of CSS Box Model" />
 
 The margin, as we learned earlier, specifies the position of the
@@ -8995,9 +8922,9 @@ it overlaps with another element on the page.  This can be useful when
 you want to control where an element is placed on a page.  In the
 following pictures, the black rectangles encompass the content:
 
-<img src="./All-Images/media/image62.png"
+<img src="./All-images/media/image62.png"
 style="width:3in;height:1.02479in"
-alt="Image showing three blocks (Block 1, Block 2, Block 3) with no margins between them" /><img src="./All-Images/media/image63.png"
+alt="Image showing three blocks (Block 1, Block 2, Block 3) with no margins between them" /><img src="./All-images/media/image63.png"
 style="width:3in;height:1.10482in"
 alt="Image showing (Block 1, Block 2, Block 3). Block 2 has a positive margin-left, creating space between Blocks 1 and 2. Block 3 has a negative margin-left, causing its left side to overlap with Block 2." />
 
@@ -9018,7 +8945,7 @@ it's size (thickness), so it only makes sense to accept numbers greater
 than or equal to 0.  What the browser does if the border-width is less
 than 0 is undefined and shouldn't be relied on.
 
-<img src="./All-Images/media/image64.png"
+<img src="./All-images/media/image64.png"
 style="width:3in;height:1.074in"
 alt="Image showing 3 blocks (Block 1, Block 2, Block 3). These blocks all have borders with different widths, but the margins are zero, implying that the borders are up against each other regardless of their width." />
 
@@ -9040,7 +8967,7 @@ set.  The background of the padded area matches the background of
 element, so the effective visible size of the element includes the
 padding.
 
-<img src="./All-Images/media/image65.png"
+<img src="./All-images/media/image65.png"
 style="width:3in;height:1.488in"
 alt="Image showing 3 blocks and they all have a thin border directly around their respective texts: &#39;Block 1&#39;, &#39;Block 2&#39;, &#39;Block 3&#39;." />
 
@@ -9052,7 +8979,7 @@ look more like the contents have been expanded.  If we add a thin border
 to these, we see that the padding is reflected by empty space between
 the contents and the border:
 
-<img src="./All-Images/media/image66.png"
+<img src="./All-images/media/image66.png"
 style="width:3in;height:1.404in"
 alt="Image showing 3 blocks that have padding with borders, in addition to the thin border aroung their texts &#39;Block 1&#39;, &#39;Block 2&#39;, &#39;Block 3&#39;." />
 
@@ -9069,7 +8996,7 @@ to the contents.  By setting the margin you can control how close the
 border comes to surrounding elements.  You can even give your border
 rounded corners using the border-radius setting:
 
-<img src="./All-Images/media/image67.png"
+<img src="./All-images/media/image67.png"
 style="width:3in;height:1.21859in"
 alt="Image showing the 3 blocks with rounded borders, different thickness for their borders and keeping a thin border around their texts Block 1&#39;, &#39;Block 2&#39;, &#39;Block 3&#39;." />
 
@@ -9078,7 +9005,7 @@ alt="Image showing the 3 blocks with rounded borders, different thickness for th
 In any browser's debugger, you will see a box model diagram. It looks
 like this:
 
-<img src="./All-Images/media/image68.png"
+<img src="./All-images/media/image68.png"
 style="width:3in;height:2.61845in"
 alt="image of a CSS Box Model which content is described in the following text of this page." />
 
@@ -9123,7 +9050,7 @@ different .css files.
 Nevertheless, that can cause problems when you have different rules that
 could apply to the same element. Consider the following example:
 
-<img src="./All-Images/media/image69.png"
+<img src="./All-images/media/image69.png"
 style="width:4in;height:2.24101in" />
 
 CSS
@@ -9209,7 +9136,7 @@ specific than "article h1" or "h1", and therefore it takes precedence
 resulting in smaller gray text.  However, when you re-arrange the rules
 you get a different result:
 
-<img src="./All-Images/media/image70.png"
+<img src="./All-images/media/image70.png"
 style="width:4in;height:2.24101in" />
 
 CSS
@@ -9295,7 +9222,7 @@ from.  We saw in a previous section that we can add or change CSS
 settings in the "Styles" panel, however, there is much more information
 there.
 
-<img src="./All-Images/media/image71.png"
+<img src="./All-images/media/image71.png"
 style="width:5in;height:4.5656in" alt="Styles in the debugger" />
 
 There is a sequence of the panels under "Style" that helps understand
@@ -9304,7 +9231,7 @@ have rules that apply specifically to the currently active element.  In
 fact, changes in this top panel are mirrored as settings in the style
 attribute of the element:
 
-<img src="./All-Images/media/image72.jpeg"
+<img src="./All-images/media/image72.jpeg"
 style="width:5in;height:4.86644in"
 alt="Modifying style in the debugger" />
 
@@ -9326,7 +9253,7 @@ Back to our quandary, why does "article h1" take precedence over
 "section h1"?  Let's take a look at the first version we tried, before
 rearranging, which did what we wanted:
 
-<img src="./All-Images/media/image73.png"
+<img src="./All-images/media/image73.png"
 style="width:5in;height:4.63in" alt="Working version in debugger" />
 
 Here we see just the opposite of what we saw before, now "section h1"
@@ -9353,7 +9280,7 @@ than \<article\>.  We can make this explicit by changing the selector to
 used only on a section that is inside an article, which is really what
 we want:
 
-<img src="./All-Images/media/image74.png"
+<img src="./All-images/media/image74.png"
 style="width:4in;height:2.24101in" />
 ```
 CSS
@@ -9405,7 +9332,7 @@ HTML
   </body>
 </html>
 ```
-<h3>4.4.3 Cloud Images</h3>
+<h3>4.4.3 Cloud images</h3>
 
 We're working on a Web page about clouds in
 the [CodePen](https://codepen.io/w3devcampus/pen/ybqbwJ) below, and we
@@ -9413,7 +9340,7 @@ have some beautiful pictures we'd like to use: one for the top of the
 page, and others as examples of different types of clouds.  We include
 the pictures but the result is unwieldy:
 
-<img src="./All-Images/media/image75.png"
+<img src="./All-images/media/image75.png"
 style="width:4.96875in;height:3.09375in" />
 
 HTML
@@ -9470,7 +9397,7 @@ modifying it in the "Styles" panel and we decide on this:
 
 Giving a much more reasonable page:
 
-<img src="./All-Images/media/image76.png"
+<img src="./All-images/media/image76.png"
 style="width:4.96875in;height:2.73958in" />
 
 CSS
@@ -9533,7 +9460,7 @@ debugger again.
 We open up the debugger and choose the \<img\> tag corresponding to our
 first picture, then we see this in the Styles section:
 
-<img src="./All-Images/media/image77.png"
+<img src="./All-images/media/image77.png"
 style="width:2.59375in;height:1.61458in"
 alt="Img width precedence in debugger" />
 
@@ -9560,7 +9487,7 @@ code like this:
 ```
 ####That looks better:
 
-<img src="./All-Images/media/image78.png"
+<img src="./All-images/media/image78.png"
 style="width:4.96875in;height:2.73958in" />
 
 ####CSS
@@ -9617,7 +9544,7 @@ the [CodePen](http://codepen.io/w3devcampus/pen/wdxegK) below. The main
 content is an outline for an essay and it should look something like
 this:
 
-<img src="./All-Images/media/image79.png"
+<img src="./All-images/media/image79.png"
 style="width:4in;height:3.32075in" />
 
 <h4>CSS</h4>
@@ -9684,7 +9611,7 @@ expected.  One odd thing is that below the user agent stylesheet panels
 is the over-ridden font-size setting identical to the current one, i.e.
 .5em on \<li\> elements.
 
-<img src="./All-Images/media/image80.png"
+<img src="./All-images/media/image80.png"
 style="width:5.20833in;height:5.44792in" alt="Debugging font-size" />
 
 The styles panel doesn't tell us a lot about the actually font-size in
@@ -9697,7 +9624,7 @@ character '-' as coming before 'a' in the alphabet, the first thing
 you'll see is a long list of properties starting with '-webkit'.  We're
 going to scroll down past those to "font-size" which reveals this:
 
-<img src="./All-Images/media/image81.png"
+<img src="./All-images/media/image81.png"
 style="width:4.32292in;height:1.89583in"
 alt="Debugging font-size after opening the &#39;Computed&#39; tab" />
 
@@ -9709,7 +9636,7 @@ expand the details on font-size, which makes a little more clear what's
 going on.  We see that the font-size on the body is 24px, but there are
 several repetitions of the li .5em.
 
-<img src="./All-Images/media/image82.png"
+<img src="./All-images/media/image82.png"
 style="width:4.32292in;height:2.33333in"
 alt="Computed tab for font-size" />
 
@@ -9734,7 +9661,7 @@ little more flair.
 
 Try to make changes to get something like this:
 
-<img src="./All-Images/media/image83.png"
+<img src="./All-images/media/image83.png"
 style="width:4.96875in;height:2.73958in" />
 
 #### CSS
@@ -9959,7 +9886,7 @@ gaps between elements and the side of the window and frame the images.
 If you'd like to see what we did for the module 3, you can find it in
 the CodePen below:
 
-<img src="./All-Images/media/image84.png"
+<img src="./All-images/media/image84.png"
 style="width:4.96875in;height:2.73958in" />
 
 ### CSS
@@ -10161,7 +10088,7 @@ style="width:4.96875in;height:2.73958in" />
 
 <h3 id="ch5-1">5.1.1 Welcome to Module 5</h3>
 
-<img src="./All-Images/media/image85.png"
+<img src="./All-images/media/image85.png"
 style="width:3in;height:3.27103in" />
 
 ## 
@@ -10314,7 +10241,7 @@ understanding the content or use assistive technology.
 
 6.  \</table\>
 
-<img src="./All-Images/media/image86.png"
+<img src="./All-images/media/image86.png"
 style="width:4in;height:2.54315in" />
 
 ### \<!DOCTYPE html\>
@@ -10373,7 +10300,7 @@ cells is bold and centered by default.
 
 6.  \</table\>
 
-<img src="./All-Images/media/image87.png"
+<img src="./All-images/media/image87.png"
 style="width:4in;height:2.54315in" />
 
 > \<!DOCTYPE html\>
@@ -10406,7 +10333,7 @@ style="width:4in;height:2.54315in" />
 >
 > \</html\>
 
-<img src="./All-Images/media/image88.png"
+<img src="./All-images/media/image88.png"
 style="width:6.5in;height:3.03681in" />
 
 ### \<td\>
@@ -10444,7 +10371,7 @@ With these tags we can create a simple table.
 
 14. \</table\>
 
-<img src="./All-Images/media/image89.png"
+<img src="./All-images/media/image89.png"
 style="width:6.5in;height:3.23611in" />
 
 Now, let's have a look at the \<colgroup\> and \<col\> tags
@@ -10520,7 +10447,7 @@ achieve styling effects specific to a column. 
 
 20. \</body\>
 
-<img src="./All-Images/media/image90.png"
+<img src="./All-images/media/image90.png"
 style="width:4in;height:2.53782in" />
 
 ## 5.2.3 The \<thead\>, \<tbody\> and \<tfoot\> tags
@@ -10675,7 +10602,7 @@ considered footer rows at the end of a table:
 
 32. \</table\>
 
-<img src="./All-Images/media/image91.png"
+<img src="./All-images/media/image91.png"
 style="width:4in;height:2.53781in" />
 
 ## 5.2.4 Styling your table
@@ -10702,14 +10629,14 @@ sets border-width, border-style and border-color in order: 
 
 **table { border: 1px solid black; }**
 
-<img src="./All-Images/media/image92.png"
+<img src="./All-images/media/image92.png"
 style="width:6.5in;height:1.67986in" />
 
 To give a border to \<table\>, \<th\> and \<td\>:
 
 1.  table, th, td { border: 1px solid black; }
 
-<img src="./All-Images/media/image93.png"
+<img src="./All-images/media/image93.png"
 style="width:4in;height:2.4958in" />
 
 ### CSS
@@ -10791,7 +10718,7 @@ Possible values of this property are: 
 
 -   initial - sets to default value (separate)
 
-<img src="./All-Images/media/image94.png"
+<img src="./All-images/media/image94.png"
 style="width:4in;height:2.4958in" />
 
 table.no-collapse, th.no-collapse, td.no-collapse
@@ -10875,7 +10802,7 @@ width/height of \<td\> of one cell will not only affect that cell but
 the whole column/row. If two cells in one column/row have different
 widths/heights specified, the larger value is set.
 
-<img src="./All-Images/media/image95.png"
+<img src="./All-images/media/image95.png"
 style="width:4in;height:4.33613in" />
 
 ### CSS
@@ -11041,7 +10968,7 @@ where you can specify all four sides in one go:
 
 It is specified in the order: top, right, bottom and left padding.
 
-<img src="./All-Images/media/image96.png"
+<img src="./All-images/media/image96.png"
 style="width:4in;height:2.52101in" />
 
 ### CSS
@@ -11105,7 +11032,7 @@ Some things to keep in mind:
 -   You have to set - table { border-collapse: separate; } for it to
     take effect.
 
-<img src="./All-Images/media/image97.png"
+<img src="./All-images/media/image97.png"
 style="width:4in;height:2.52101in" />
 
 ### CSS
@@ -11181,7 +11108,7 @@ also set borders to individual sides - top, right, bottom, left:
 
 1.  th, td { border-right: 1px solid black; }
 
-<img src="./All-Images/media/image98.png"
+<img src="./All-images/media/image98.png"
 style="width:4in;height:2.52101in" />
 
 ### CSS
@@ -11262,7 +11189,7 @@ of the table or any parent element. Therefore,
 
 will make the every third list item grey.
 
-<img src="./All-Images/media/image99.png"
+<img src="./All-images/media/image99.png"
 style="width:4in;height:4.52101in" />
 
 ### CSS
@@ -11376,7 +11303,7 @@ users differentiate data between rows. 
 
 ### Hover over these tables:
 
-<img src="./All-Images/media/image100.png"
+<img src="./All-images/media/image100.png"
 style="width:4in;height:3.80672in" />
 
 ### CSS
@@ -11472,7 +11399,7 @@ inherit (from parent element). 
 To address left and right edges of content, you can use overflow-x and
 to address top and bottom edges of content, you can use overflow-y.
 
-<img src="./All-Images/media/image101.png"
+<img src="./All-images/media/image101.png"
 style="width:4in;height:2.5126in" />
 
 ### CSS
@@ -11712,7 +11639,7 @@ style="width:4in;height:2.5126in" />
 
 As a conclusion to this tables section, here is a complete table design:
 
-<img src="./All-Images/media/image102.png"
+<img src="./All-images/media/image102.png"
 style="width:4in;height:4.52941in" />
 
 ### CSS
@@ -12282,7 +12209,7 @@ little more visually appealing inside your document.
 3.  Create the following table structure using HTML and CSS following
     the style as closely as possible noting table border, colors, etc.  
     Insert dummy text values for table.  
-    <img src="./All-Images/media/image103.png"
+    <img src="./All-images/media/image103.png"
     style="width:6.025in;height:1.56667in"
     alt="Tables activity #2: it&#39;s a 3x3 table - the header row has a dark grey background; the last column is composed of the header cell and the other cells are grouped; the last row has the 2 first cells merged" />
 
@@ -12290,7 +12217,7 @@ little more visually appealing inside your document.
     the style as closely as possible noting table border, colors, etc.  
     Make the table cover the entire width of the screen.   
     Insert dummy text values for the table.  
-    <img src="./All-Images/media/image104.png"
+    <img src="./All-images/media/image104.png"
     style="width:6.5in;height:2.38333in" alt="Tables activity example" />
 
 5.  Find a table used in a real Web page whose table body can be
@@ -12421,7 +12348,7 @@ to play .wav, failed and played the .mp3 version instead. 
 
 The following table lists the \<source\> element's attributes:
 
-<img src="./All-Images/media/image107.png"
+<img src="./All-images/media/image107.png"
 style="width:6.5in;height:2.79653in" />
 
 ## 5.3.2 The \<video\> Element
@@ -12453,13 +12380,13 @@ the video element's attributes:
    width="65%"
    alt="Attributes: src and type" />
 </p>
-<img src="./All-Images/media/image106.png" (253)
+<img src="./All-images/media/image106.png" (253)
 style="width:6.5in;height:4.73403in" />
 
-<img src="./All-Images/media/image109.png"
+<img src="./All-images/media/image109.png"
 style="width:6.5in;height:2.075in" />
 
-<img src="./All-Images/media/image110.png"
+<img src="./All-images/media/image110.png"
 style="width:2.00009in;height:2.31677in" />
 
 <h3>Poster attribute</h3>
@@ -12611,7 +12538,7 @@ your \<video\> tag like this:
 
 The following table lists the \<track\> element's attributes:
 
-<img src="./All-Images/media/image112.png"
+<img src="./All-images/media/image112.png"
 style="width:6.5in;height:4.29444in" />
 
 ## 5.3.4 Audio and Video Elements
@@ -12645,7 +12572,7 @@ An \<iframe\> tag can be as simple as this:
 
 4.  \</iframe\>
 
-<img src="./All-Images/media/image113.png"
+<img src="./All-images/media/image113.png"
 style="width:4in;height:2.51477in" />
 
 ### \<!DOCTYPE html\>
@@ -12675,7 +12602,7 @@ style="width:4in;height:2.51477in" />
 Because iframes are HTML elements, they can be styled just like other
 elements, with borders, margins, sizes specified with CSS rules:
 
-<img src="./All-Images/media/image114.png"
+<img src="./All-images/media/image114.png"
 style="width:3in;height:1.64371in" />
 
 Here, we've embedded a YouTube video with an iframe like this:
@@ -12712,7 +12639,7 @@ isn't a bug, it's a feature.
 There are a number of important attributes for an \<iframe\> tag, but
 for now we'll just look at a few of them:
 
-<img src="./All-Images/media/image115.png"
+<img src="./All-images/media/image115.png"
 style="width:6.5in;height:4.87014in" />
 
 **Notes:**
@@ -12813,7 +12740,7 @@ your ismap specification.
 
 Let's look at how the code above works.
 
-<img src="./All-Images/media/image116.jpeg"
+<img src="./All-images/media/image116.jpeg"
 style="width:3in;height:1.96474in"
 alt="Image illustrating how an image map works, how it processes mouse click coordinates using a map file that define target areas" />
 
@@ -12927,7 +12854,7 @@ Result:
 Try this: Click on the left and right side of the images to check out
 how usemap works :) Remember to navigate back to the course!
 
-<img src="./All-Images/media/image117.png"
+<img src="./All-images/media/image117.png"
 style="width:2in;height:2.23018in" />
 
 Note: If the \<img\> is inside an \<a\> or \<button\> element, clicking
@@ -12985,7 +12912,7 @@ In the example below we apply a variety of background colors to a
 hyperlink (\<a\>), paragraph (\<p\>), unordered list (\<ul\>) and list
 items (\<li\>):
 
-<img src="./All-Images/media/image118.png"
+<img src="./All-images/media/image118.png"
 style="width:5in;height:1.59615in" />
 
 ### background-image
@@ -13008,7 +12935,7 @@ scenarios can be constructed with other CSS properties,
 like background-repeat, background-size, and background-attach (as well
 as several others). 
 
-<img src="./All-Images/media/image119.png"
+<img src="./All-images/media/image119.png"
 style="width:5in;height:1.85524in" />
 
 background-repeat
@@ -13017,7 +12944,7 @@ By default, if the rectangular area of an element is bigger than the
 image itself, then the image will repeat and fill the space, like tiles.
  For example:
 
-<img src="./All-Images/media/image120.png"
+<img src="./All-images/media/image120.png"
 style="width:5in;height:1.96635in" />
 
 The background-repeat property can be used to control this.  It's more
@@ -13035,7 +12962,7 @@ repeats. The space value will result in cropped images; it means
  Note that this property does not let you directly manipulate the amount
 of spacing. That is calculated for you.
 
-<img src="./All-Images/media/image121.png"
+<img src="./All-images/media/image121.png"
 style="width:5in;height:2.11378in" />
 
 ### background-size
@@ -13053,7 +12980,7 @@ image.  Its aspect ratio is maintained.
 Here we demonstrate the difference. A border has been applied to the
 paragraph to clearly show the bounds of the parent \<p\> element.
 
-<img src="./All-Images/media/image122.png"
+<img src="./All-images/media/image122.png"
 style="width:5in;height:1.60897in" />
 
 The background-size property can also be used to more exactly size the
@@ -13074,7 +13001,7 @@ allows you to worry only about one dimension, and then the other will
 handle it for you. Otherwise there is a risk of stretching/distorting
 images. 
 
-<img src="./All-Images/media/image123.png"
+<img src="./All-images/media/image123.png"
 style="width:5in;height:1.71421in" />
 
 ### background-position
@@ -13087,7 +13014,7 @@ The most useful is the center value.  It is position the center of the
 image in the center of the element. This is useful even with repeating
 tiles. 
 
-<img src="./All-Images/media/image124.png"
+<img src="./All-images/media/image124.png"
 style="width:5in;height:1.82425in" />
 
 ## 5.5.2 Decorative borders and shadows
@@ -13112,7 +13039,7 @@ This property sets the style of a border.  Possible values
 include none, hidden, solid, dotted, dashed, double, groove, ridge, inset, and outset.
 Here the visible border styles displayed on a gray border:
 
-<img src="./All-Images/media/image125.png"
+<img src="./All-images/media/image125.png"
 style="width:6.5in;height:0.42361in" />
 
 Note that the groove, ridge, inset and outset borders all use black in
@@ -13164,13 +13091,13 @@ Sometimes it seems that the whole of the World Wide Web consists of
 round cornered rectangles.  Join the fun by using
 the border-radius property:  
 
-<img src="./All-Images/media/image126.png"
+<img src="./All-images/media/image126.png"
 style="width:6.5in;height:1.67847in" />
 
 Note this is fun to use with a background color or background image and
 no border at all:
 
-<img src="./All-Images/media/image127.png"
+<img src="./All-images/media/image127.png"
 style="width:6.5in;height:1.67153in" />
 
 ### box-shadow
@@ -13189,7 +13116,7 @@ up.
 
 The blur value is also a dimension unit, but can only be 0 or positive.
 
-<img src="./All-Images/media/image128.png"
+<img src="./All-images/media/image128.png"
 style="width:6.5in;height:1.93264in" />
 
 ### text-shadow
@@ -13199,7 +13126,7 @@ shadow is applied directly to the text shapes:
 
 text-shadow:  \<x-offset\> \<y-offset\> \<blur\> \<color\>;
 
-<img src="./All-Images/media/image129.png"
+<img src="./All-images/media/image129.png"
 style="width:6.5in;height:0.91458in" />
 
 ## 5.5.3 Managing element size
@@ -13221,7 +13148,7 @@ explore them more in next module when covering Layout.  
 
 Here is a simple example of a common error:
 
-<img src="./All-Images/media/image130.png"
+<img src="./All-images/media/image130.png"
 style="width:6.5in;height:1.61667in" />
 
 ### Padding - The right way
@@ -13261,7 +13188,7 @@ paragraph we apply the same padding to all four sides. However, in the
 second paragraph we use different padding for different sides, thus
 placing the rectangle of the element relative to the text itself.
 
-<img src="./All-Images/media/image131.png"
+<img src="./All-images/media/image131.png"
 style="width:6.5in;height:3.18472in" />
 
 I'm confused - are you saying that I shouldn't use the width property to
@@ -13354,7 +13281,7 @@ grandparent.  Therefore, if you have two different style rules, such
 as li:hover and ul:hover, then they will *both* be activated,  when the
 mouse is over one of the list items.  
 
-<img src="./All-Images/media/image132.png"
+<img src="./All-images/media/image132.png"
 style="width:6.5in;height:2.35208in" />
 
 :nth-child
@@ -13371,7 +13298,7 @@ possibilities with mathematical equations containing the term  n.
 This selector is most commonly used to apply "transaction ledger" styles
 to tables or lists.
 
-<img src="./All-Images/media/image133.png"
+<img src="./All-images/media/image133.png"
 style="width:6.5in;height:2.35208in" />
 
 <h3>Cursor property</h3>
@@ -13428,7 +13355,7 @@ W3C.
     Dead code may come alive as CSS changes. Delete it before it does,
     and ruins your layout.
 
-> <img src="./All-Images/media/image134.jpeg"
+> <img src="./All-images/media/image134.jpeg"
 > style="width:1.5625in;height:1.5625in" alt="Keep the Web open!" />
 >
 > **Test in multiple browsers:**  
@@ -13483,7 +13410,7 @@ W3C.
 
 ### Testing
 
-> <img src="./All-Images/media/image135.jpeg"
+> <img src="./All-images/media/image135.jpeg"
 > style="width:2.08333in;height:1.71875in" alt="Testing image" />
 
 -   **Test without CSS**: turn off CSS, and if the page makes no sense,
@@ -13883,7 +13810,7 @@ block and inline display. And that begins with the baseline.
 The text "baseline" is a key concept to understanding how the browser
 makes its layout decisions.  
 
-<img src="./All-Images/media/image136.png"
+<img src="./All-images/media/image136.png"
 style="width:2.19792in;height:1.08333in" alt="baseline" />
 
 In the image above, we see two text characters placed next to each
@@ -13907,7 +13834,7 @@ the \<p\> tag) and the "inline" elements (like the \<a\> tag).   Here is
 a quick table of the default values for some of the tags we've already
 learned.
 
-<img src="./All-Images/media/image137.png"
+<img src="./All-images/media/image137.png"
 style="width:6.5in;height:1.96736in" />
 
 Here are some differences between the block - level and inline elements.
@@ -13968,14 +13895,14 @@ Below we see a span that has padding, margin-top, and background-color
 applied, but no extra room is being made for it above or below, so its
 background is overlapping the lines above and below.
 
-<img src="./All-Images/media/image138.png"
+<img src="./All-images/media/image138.png"
 style="width:6.5in;height:1.52708in" />
 
 So here we prevent the overlap by setting the line-height of the span.
 However, this solution should not be considered optimal.  Better is to
 change the span to be display:inline-block, which is discussed below.
 
-<img src="./All-Images/media/image139.png"
+<img src="./All-images/media/image139.png"
 style="width:6.5in;height:1.60278in" />
 
 ### inline-block
@@ -14011,7 +13938,7 @@ instead of using line-height to solve the problem, we simply make the
 span element display:inline-block.  Note that the margin-top is also
 respected. 
 
-<img src="./All-Images/media/image140.png"
+<img src="./All-images/media/image140.png"
 style="width:6.5in;height:1.80903in" />
 
 ### display property
@@ -14278,7 +14205,7 @@ Compare what happens when we use  margin-top to move it, versus a
 positioning property (top).   When we use top, the "Third" item appears
 overlapping the Fourth and Fifth items, as they did not move at all. 
 
-<img src="./All-Images/media/image141.png"
+<img src="./All-images/media/image141.png"
 style="width:6.5in;height:1.83681in" />
 
 This is why, in our introduction to CSS, we said that margin should be
@@ -14310,7 +14237,7 @@ paragraph is made smaller and no part goes outside its parent.  But when
 it is position:relative and moved with the left property, it can leave
 the bounds of its parent, or go offscreen.
 
-<img src="./All-Images/media/image142.png"
+<img src="./All-images/media/image142.png"
 style="width:6.5in;height:1.45139in" />
 
 Admittedly, this is not necessarily a "limitation", for many layout
@@ -14339,7 +14266,7 @@ some text and an inner \<q\>.  For a better illustration, the paragraph
 has its height set and a border applied.  The \<q\> is positioned
 absolutely.
 
-<img src="./All-Images/media/image143.png"
+<img src="./All-images/media/image143.png"
 style="width:6.5in;height:2.33889in" />
 
 So that seems fairly straightforward and useful. But there are some
@@ -14392,7 +14319,7 @@ other. (The red 1 is hidden behind the red 2). Borders have been added
 in the result below, so you can easily see the rectangle
 for  \<li\> versus \<ul\>.
 
-<img src="./All-Images/media/image144.png"
+<img src="./All-images/media/image144.png"
 style="width:6.5in;height:1.83681in" />
 
 Best practice: use both horizontal and vertical positioning property on
@@ -14439,7 +14366,7 @@ contribute to the height of the parent. As a result, it ends up with a
 height of 0, as if it were empty. The fat border just becomes a fat flat
 line, and the list items themselves are not enclosed. 
 
-<img src="./All-Images/media/image145.png"
+<img src="./All-images/media/image145.png"
 style="width:6.5in;height:1.29306in" />
 
 ### Absolute positioned block level elements do not get the width of their parent
@@ -14507,7 +14434,7 @@ them position relative and using negative margins
 set, so the later elements overlap the earlier ones.  But on the right,
 we govern the overlapping with the z-index property. 
 
-<img src="./All-Images/media/image146.png"
+<img src="./All-images/media/image146.png"
 style="width:6.5in;height:1.22431in" />
 
 -   z-index has no effect on position:static (the default) elements.
@@ -14536,7 +14463,7 @@ because Alan's parent Albert is lower than Betty, Alan remains behind.
 Alan's high z-index is only relevant to his siblings, not to cousins
 further out in the document.
 
-<img src="./All-Images/media/image147.png"
+<img src="./All-images/media/image147.png"
 style="width:6.5in;height:1.85in" />
 
 <h3 id="ch6-3">6.3.1 Sizing and dimensions</h3>
@@ -14577,9 +14504,9 @@ list of pets extends all the way to the right edge of the browser.
 
 These display states are covered in the display section. 
 
-### Images - aspect ratio preserving
+### images - aspect ratio preserving
 
-Images have an interesting behavior in that if only one dimension is
+images have an interesting behavior in that if only one dimension is
 set, the other is automatically calculated so that the original aspect
 ratio of the image is preserved.  This is true for both decorative CSS
 images and \<img\> tags.
@@ -14647,7 +14574,7 @@ easier to see by adding a border and background color to the paragraph.
 This default behavior, that content that doesn't fit is shown anyway,
 can be surprising if you weren't expecting it. 
 
-<img src="./All-Images/media/image148.png"
+<img src="./All-images/media/image148.png"
 style="width:6.5in;height:2.21458in" />
 
 ### overflow
@@ -14681,7 +14608,7 @@ of 100 pixels. 
 3.  When the value is scroll, then the scroll bars are *always* shown,
     whether they are needed or not.
 
-<img src="./All-Images/media/image149.png"
+<img src="./All-images/media/image149.png"
 style="width:6.5in;height:1.83681in" />
 
 ### The box model and box-sizing
@@ -14701,7 +14628,7 @@ border, and margins.  In CSS parlance, this question is about the "Box
 Model" of the element.  Here is an illustration of how the different
 boxes are organized (innermost to outermost).
 
-<img src="./All-Images/media/image150.png"
+<img src="./All-images/media/image150.png"
 style="width:4in;height:3.08162in" />
 
 box-sizing
@@ -14774,7 +14701,7 @@ browser sizes, with no other properties applied except some small margin
 and padding on the paragraph, and a background color and a border radius
 to help visualize.
 
-<img src="./All-Images/media/image151.png"
+<img src="./All-images/media/image151.png"
 style="width:6.5in;height:1.53819in" />
 
 ### flex container
@@ -15047,7 +14974,7 @@ wrap-reverse; it is vertical running bottom to top.
 
 #### Start and end
 
-<img src="./All-Images/media/image152.jpeg"
+<img src="./All-images/media/image152.jpeg"
 style="width:5in;height:4.28579in" alt="flexbox axes" />
 
 In the illustration above, we see the main and cross axes as they would
@@ -15072,7 +14999,7 @@ would change for each of these combinations for flex-flow :
 
 -   column-reverse wrap-reverse
 
-#### Main axis for sizing, cross axis for alignment
+<h4>Main axis for sizing, cross axis for alignment</h4>
 
 The terms *"main"* and *"cross"* appear in the descriptions of flexbox
 and in multiple online tutorials you might find. However, they
@@ -15162,7 +15089,7 @@ the direction of the cross axis.
 The table below should help illustrate this. It shows the justification
 options for a flexbox container with flex-flow:row;
 
-<img src="./All-Images/media/image153.png"
+<img src="./All-images/media/image153.png"
 style="width:6.5in;height:2.11875in" />
 
 If the flex-direction were row-reverse, then the only thing to change in
@@ -15203,10 +15130,10 @@ height of any of the items.  
 In the example below, each item has a different line-height value, so
 you can see how they align to each other.
 
-<img src="./All-Images/media/image154.png"
+<img src="./All-images/media/image154.png"
 style="width:5in;height:2.98611in" />
 
-<img src="./All-Images/media/image155.png"
+<img src="./All-images/media/image155.png"
 style="width:5in;height:1.86645in" />
 
 <h3>align-content</h3>
@@ -15224,10 +15151,10 @@ This is easier to understand from an example. Below we have a flex
 container with  flex-flow:row wrap; and a height value that is greater
 than the height of any of the items.
 
-<img src="./All-Images/media/image156.png"
+<img src="./All-images/media/image156.png"
 style="width:5in;height:3.01282in" />
 
-<img src="./All-Images/media/image157.png"
+<img src="./All-images/media/image157.png"
 style="width:5in;height:2.77083in" />
 
 <h3>align-self</h3>
@@ -15251,10 +15178,10 @@ In the example below, we have a flex container
 with flex-flow:row; and align-items:center;.  The individual items have
 their align-self property set.
 
-<img src="./All-Images/media/image158.png"
+<img src="./All-images/media/image158.png"
 style="width:5in;height:1.14103in" />
 
-## 6.4.3 Order
+<h3>6.4.3 Order</h3>
 
 **Note**: This material is included for completeness. However, many are
 able to use flexbox satisfactorily without it. None of the material here
@@ -15280,7 +15207,7 @@ The order property, when applied to an individual flexbox item, lets you
 set its order. By default, the first item in a flexbox container has
 the order value of 1, the second is 2, etc.  And you can override it.
 
-<img src="./All-Images/media/image159.png"
+<img src="./All-images/media/image159.png"
 style="width:6.5in;height:1.60625in" />
 
 <h3>6.4.4 Flexbox resources</h3>
@@ -15334,7 +15261,7 @@ It's not just something we're talking about, they can go use it.
 We should've maybe pushed more, I think.
 The grid is something we should have had, probably from very early on, maybe from the start of CSS already.
 
-## 6.5.2 CSS Grid
+<h3>6.5.2 CSS Grid</h3>
 
 Have a look at how CSS Grid Layout went from an idea to a reality. The
 video below has been shot in August 2017 by the Microsoft team. It
@@ -15376,7 +15303,7 @@ you have full control over which slot they go into, you can change their
 order, they can span more than one row or column, and you can leave some
 slots empty.
 
-<img src="./All-Images/media/image160.png"
+<img src="./images/image160.png"
 style="width:5in;height:2.42489in" />
 
 The Grid module provides several different ways to define such a grid
@@ -15410,7 +15337,7 @@ CSS](https://constraints.cs.washington.edu/web/ccss-uwtr.pdf). But only
 recently has technology become good enough to support some (not all!) of
 those ideas.
 
-## 6.5.3 CSS Grid resources
+<h3>6.5.3 CSS Grid resources</h3>
 
 If you look at the CSS Grid module, you may notice that it has rather a
 large number of properties. That is because it tries to allow different
@@ -15606,4 +15533,4 @@ We fixed those issues at the top.
 
 These are the final changes to our recipe project for this unit.
 
-<h3><b>Last Updated 5-12-2022 11:34pm</b></h3>
+<h3><b>Last Updated 5-13-2022 10:22am</b></h3>
