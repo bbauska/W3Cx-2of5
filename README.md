@@ -703,9 +703,14 @@ That's why, in 1989, Tim Berners-Lee began to create a definition of
 HTML: Hypertext Markup Language, to provide a simple, uniform way to
 incorporate Hyperlinks in a text document.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 13. illustration of hypertext documents (xx) ------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
 <img src="./images/image013.png"
-style="width:6in;height:3.98269in"
+width="85%"
 alt="Illustration of hypertext documents (here are extract of wikipedia pages): the HTML5 page has links going to the Markup language page, the World Wide Web definition page, etc." />
+</p>
 
 He envisioned a technology that would facilitate thoroughly
 interconnected documents. He wanted authors to be able to connect an
