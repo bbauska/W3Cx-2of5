@@ -6094,15 +6094,15 @@ The download attribute is also new in HTML5 and it makes a link download
 a file instead of navigate to another location. It takes in the filename
 as value but the value is optional. So the download attribute can be
 specified in the following ways:
+```xlm
+1.  <a href="/assets/hello.txt" download>
 
-1.  \<a href="/assets/hello.txt" download\>
-
-2.  \<a href="/assets/hello.txt" download="new-name-for-text-file"\>
-
+2.  <a href="/assets/hello.txt" download="new-name-for-text-file">
+```
 If you do not specify a value for download, it will download the file
 with name unchanged. Else it will download the file with file name
 modified according to value specified. 
-
+```html
 1.  \<a href="/assets/hello.txt" download\>
 
 ... will download the file with the same name - 'hello.txt'.
@@ -6111,7 +6111,7 @@ modified according to value specified. 
 
 ... will download the file after altering its name to -
 'new-name-for-text-file.txt'.
-
+```
 Example (try the hyperlink below in Google Chrome): 
 
 [Click to
@@ -6370,137 +6370,80 @@ live coding video at the end of this page).
 style="width:6.5in;height:3.27778in" />
 
 HTML
-
+```
 \<!DOCTYPE html\>
-
 \<html lang="en"\>
-
 \<head\>
-
 \<meta charset="UTF-8"\>
-
 \<title\>My Favorite Recipes - Module 2\</title\>
-
 \</head\>
-
 \<body\>
-
 \<h1\>My Favorite Recipes\</h1\>
-
 \<nav\>
-
 \<ul\>
-
 \<li\>\<a href="#soup"\>Soup\</a\>\</li\>
-
 \<li\>\<a href="#salad"\>Salad\</a\>\</li\>
-
 \<li\>\<a href="#pizza"\>Pizza\</a\>\</li\>
-
 \</ul\>
-
 \</nav\>
-
 \<article id="soup"\>
-
 \<h2\>Soup\</h2\>
-
 \<img
 src="https://upload.wikimedia.org/wikipedia/commons/2/22/Bol_soupe_bicolore.jpg"
 alt="soup image" width=320\>
-
 \<p\>
-
 Beethoven once said \<q\>Only the pure of heart can make a good
 soup\</q\>. Well, here's my attempt at doing just that!
 
 \</p\>
-
 \<ol\>
-
 \<li\>Step 1\</li\>
-
 \<li\>Step 2\</li\>
-
 \<li\>Step 3\</li\>
-
 \<li\>Enjoy!\</li\>
-
 \</ol\>
-
 \</article\>
-
 \<article id="salad"\>
-
 \<h2\>Salad\</h2\>
-
 \<img
 src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Caesar_salad\_%281%29.jpg/320px-Caesar_salad\_%281%29.jpg"
 alt="salad image" width=320\>
 
 \<h3\>List of ingredients\</h3\>
-
 \<ul\>
-
 \<li\>Ingredient 1\</li\>
-
 \<li\>Ingredient 2\</li\>
-
 \<li\>Ingredient 3\</li\>
-
 \</ul\>
-
 \<p\>
-
 Who can resist a fresh salad ! Here's one of my favorites.
-
 \</p\>
-
 \<ol\>
-
 \<li\>Step 1\</li\>
-
 \<li\>Step 2\</li\>
-
 \<li\>Step 3\</li\>
-
 \<li\>Enjoy!\</li\>
-
 \</ol\>
-
 \</article\>
-
 \<article id="pizza"\>
-
 \<h2\>Pizza\</h2\>
-
 \<img
 src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Margherita_Originale.JPG/320px-Margherita_Originale.JPG"
 alt="pizza image" width=320\>
 
 \<p\>
-
 Pizza, the king of comfort foods. Try this simple, taste sensation.
-
 \</p\>
-
 \<ol\>
-
 \<li\>Step 1\</li\>
-
 \<li\>Step 2\</li\>
-
 \<li\>Step 3\</li\>
-
 \<li\>Enjoy!\</li\>
-
 \</ol\>
-
 \</article\>
-
 \</body\>
-
 \</html\>
+```
 
 Hello, everyone. In this live coding demo, we're going to enhance this
 recipe page that was introduced earlier.
