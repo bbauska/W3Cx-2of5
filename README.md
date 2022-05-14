@@ -871,9 +871,7 @@ open with Microsoft Edge.
 The file is loaded from my disk and then it displays its contents.
 
 And here you can see that this simple file, it is just showing me the
-text hello html
-
-and it's also changed the title of the page to be my first HTML page.
+text hello html and it's also changed the title of the page to be my first HTML page.
 
 So, there you have it, a very simple HTML page.
 
@@ -917,9 +915,7 @@ we navigated here and it contained some HTML.
 There's no content or output yet and we'll get to that shortly.
 
 But this would be the most basic HTML code file that you would need to
-create in
-
-order to produce your first HTML page.
+create in order to produce your first HTML page.
 
 You could probably do a little bit simpler but this is a very good
 template for us to start with.
@@ -937,15 +933,13 @@ of HTML the page is written in.
 And in this case here, it signifies that the page is written in HTML5.
 
 The next tag we see is the html tag,
-
 and as you can see we have the beginning tag here and the ending tag at
 the end,
 
 which means everything on a HTML page is contained within these two
 tags.
 
-All other tags must be contained or nested within this tag,
-
+All other tags must be contained or nested within this tag, 
 and it tells the browser of course that this is a HTML document.
 
 In this example, we then have a head tag, again the beginning and end,
@@ -1024,9 +1018,7 @@ has been returned.
 And I'll do it, I'll click on this one.
 
 And you can see an "Editor" opens up, and it has a HTML Pane, A CSS
-Pane,
-
-a JavaScript Pane, and an Output Pane. This is just an example.
+Pane, a JavaScript Pane, and an Output Pane. This is just an example.
 
 **\<example picture goes here\>**
 
@@ -1055,9 +1047,7 @@ Nice big output panel here down in the bottom.
 Don't like this view?
 
 Go ahead and "Change view", and you can reconfigure it to have editors
-on the left,
-
-the editors on the right, et cetera.
+on the left, the editors on the right, et cetera.
 
 Now, I'll just stick to the "Default view".
 
@@ -1084,9 +1074,7 @@ great.
 The other nifty little features that you can use here:
 
 if you get HTML into a state you're not happy with how it looks on the
-screen,
-
-you can say "Tidy HTML".
+screen, you can say "Tidy HTML".
 
 And we'll try to indent a little bit better and spread it out so that
 it's more readable.
@@ -1132,9 +1120,7 @@ I'll just ignore that DOCTYPE warning for the moment.
 That's not really important right now.
 
 This is a live editing experience embedded into our course, but you can
-go over to CodePen which is where we've been,
-
-and you can navigate to the actual Pen that was created.
+go over to CodePen which is where we've been, and you can navigate to the actual Pen that was created.
 
 And here, you can see that in the CodePen site.
 
@@ -1148,12 +1134,9 @@ That's the round tripping. I just wanted to make sure you see.
 
 When you come across these integers inside our course, you'll know that
 that's really a CodePen editor inside the content, that you can then go
-and use the CodePen site,
-
-or use it directly inside the content itself.
+and use the CodePen site, or use it directly inside the content itself.
 
 So that's it. A very quick look at the popular online editor and
-
 front-end code playground called CodePen.
 
 Until next time, happy coding.
@@ -15308,4 +15291,4 @@ We fixed those issues at the top.
 
 These are the final changes to our recipe project for this unit.
 
-<h3><b>Last Updated 5-13-2022 10:22am</b></h3>
+<h3><b>Last Updated 5-14-2022 12:52pm</b></h3>
