@@ -690,7 +690,7 @@ application, with nearly unlimited possibilities.  We will not be
 doing much with JavaScript in this course, but you should know that it
 is an important leg of the stool for modern Web pages.
 
-## 1.2.3 Hypertext
+<h3>1.2.3 Hypertext</h3>
 
 A fundamental key to the World Wide Web is the concept of "*Hypertext*".
  Hypertext is built on the idea of linking information together, not
@@ -766,9 +766,9 @@ information on the Internet, a simple click on a link would present the
 information in a graphical window. In many ways, it is the ancestor of
 most modern browsers.
 
-## 1.2.5 Activity – Explore the Web
+<h3>1.2.5 Activity – Explore the Web</h3>
 
-### Exploring the Web, "Then and Now":
+<h4>Exploring the Web, "Then and Now":</h4>
 
 -   Go to [archive.org](https://archive.org/) and find the earliest
     available instance of the Web site: www.google.com.
@@ -798,30 +798,20 @@ which uses angle brackets ("\<" and "\>") to separate the annotations
 from the regular text.  In HTML these annotations are called "tags".
 
 For example, consider the following chunk of HTML code:
-
+```xlm
 1.     \<body\>
-
 2.        \<h1\>A Tale of Two Cities\</h1\>
-
 3.        \<p\>
-
 4.           It was the best of times, it was the worst of times, . . .
     .
-
 5.        \</p\>
-
 6.        . . .
-
 7.        \<p\>
-
 8.           . . . it is a far, far better rest
-
 9.           that I go to than I have ever known.
-
 10.       \</p\>
-
 11.    \</body\>
-
+```
 If you eliminated everything in between the angle brackets from the
 text, for most purposes it would still read the same:
 
@@ -845,12 +835,12 @@ is the tradition in programming tutorials, we'll pause here to create a
 simple "Hello HTML" program. Please choose any Web editor of your liking
 (see in the subsection "Course tools").
 
-## 1.3.2 Programming “Hello HTML”
+<h3>1.3.2 Programming “Hello HTML”</h3>
 
 You can build and edit your HTML pages by either using online editors or
 editors that you can install on your machine, like Visual Studio Code.
 
-### Using online editors:
+<h4>Using online editors:</h4>
 
 Both [JSBin](https://jsbin.com) and [CodePen](https://codepen.io/) are
 two online editors that you can use to create HTML Web pages.  
@@ -1163,7 +1153,7 @@ front-end code playground called CodePen.
 
 Until next time, happy coding.
 
-### Using Visual Studio Code
+<h4>Using Visual Studio Code</h4>
 
 Watch these 3 demos/videos below to learn how to use [Visual Studio
 Code](https://code.visualstudio.com/) (VS):
@@ -1175,7 +1165,7 @@ Code](https://code.visualstudio.com/) (VS):
 
 -   to build your first "Hello HTML!" page using VS Code.
 
-### Live coding video: using Visual Studio Code
+<h4>Live coding video: using Visual Studio Code</h4>
 
 To get Visual Studio on your machine, simply visit code.visualstudio.com
 
@@ -1630,7 +1620,7 @@ are available to you.
 
 But hopefully this shows you, just how easy it is to get started.
 
-## 1.3.3 Elements
+<h3>1.3.3 Elements</h3>
 
 If you are sitting at a coffee shop next to a table of Web developers,
 you will probably hear three words quite a bit:  'Tags', 'Attributes'
@@ -1727,7 +1717,7 @@ that don't even use the '/' at the end, they just don't have any close
 tag at all.  This works because all of the information this tag needs is
 declared in an "attribute".
 
-## 1.3.5 Comments
+<h3>1.3.5 Comments</h3>
 
 Computers are great at reading computer languages, but it's not always
 easy for humans.  Comments are a way of adding some text that is
@@ -1794,7 +1784,7 @@ important that the HTML comment notation, at least, differs from the
 others.  As for the exact form of those comments, we'll cover that in
 good time.
 
-## 1.3.6 Attributes
+<h3>1.3.6 Attributes</h3>
 
 Most of what we'll cover about attributes will come later, but I wanted
 to introduce the idea briefly. Basically, a given element on your Web
@@ -1827,7 +1817,7 @@ increase clarity, consistency and brevity.
 
 But more about attributes in the next module.
 
-## 1.3.7 All Together Now
+<h3>1.3.7 All Together Now</h3>
 
 One key to understanding HTML, or any computer language, is to be sure
 that you avoid ambiguity, because computers generally are not good at
@@ -2021,7 +2011,7 @@ days, but you should check.
 Read an [Introduction to character sets and encodings
 here](https://www.w3.org/International/getting-started/characters).
 
-## 1.4.2 The \<meta\> tag
+<h3>1.4.2 The \<meta\> tag</h3>
 
 Use the \<meta\> tag with the charset attribute in your HTML page to
 indicate to the browser the character encoding you will be using in the
@@ -2059,7 +2049,7 @@ W3C recommends placing it immediately after the opening \<head\> tag:
 
 7.  \</html\>
 
-## 1.4.3 HTML Character References
+<h3>1.4.3 HTML Character References</h3>
 
 ### Why we need character references
 
@@ -2276,7 +2266,7 @@ replaced with its character entity name)\</p\>
 
 \<abbr title="Hypertext Markup Language &quot;5&quot;"\>HTML5\</abbr\>
 
-## 1.4.5 Character References for Other Characters
+<h3>1.4.5 Character References for Other Characters</h3>
 
 It is also possible to use character references to represent other
 characters in your page. This is useful when you are unable to type the
@@ -2345,8 +2335,6 @@ If you'd like to read more information about when to use character
 references and when not to use them, see [Using character escapes in
 markup and CSS](https://www.w3.org/International/questions/qa-escapes).
 
-## 
-
 <h3 id="ch1-5">1.5.1 Learning from the Mistakes of Others</h3>
 
 Children can be great at asking questions about things that most adults
@@ -2383,7 +2371,7 @@ the term "best practice" you can trust that it is, even though we may
 not be able to explain it at that point in the course, so you'll want to
 make it a habit.
 
-## 1.5.2 Do’s and Don’ts
+<h3>1.5.2 Do’s and Don’ts</h3>
 
 The history of Web pages is such that browsers tend to be very forgiving
 of certain types of mistakes. If you miss a closing tag, it will often
@@ -6806,7 +6794,7 @@ together form the current state of Cascading Style Sheets (CSS) as of
 definition includes modules by specification stability, not Web browser
 adoption rate.
 
-## 3.1.5 An Example
+<h3>3.1.5 An Example</h3>
 
 Let's see CSS in action. Below, we see two identical copies of HTML,
 however, styled differently.
@@ -6915,7 +6903,7 @@ Here is an example HTML document.
 
 11. \</html\>
 
-## 3.2.2 Rules: selectors and declarations
+<h3>3.2.2 Rules: selectors and declarations</h3>
 
 At its simplest, CSS is just a list of *rules*.  Each *rule* consists of
 a *selector* and a *declaration.  *Here is an example:
@@ -6966,7 +6954,7 @@ written to use one line per property value pair. For example:
 
 5.  }
 
-## 3.2.3 Comments
+<h3>3.2.3 Comments</h3>
 
 CSS can include "comments" as well, by which you, the developer today,
 can leave notes and reminders to you, a different developer tomorrow. Or
@@ -7001,11 +6989,11 @@ several lines. But they **cannot** be nested.
 
 12. }
 
-## 3.2.4 Knowledge Check
+<h3>3.2.4 Knowledge Check</h3>
 
 n/a
 
-## 3.2.5 Activity - Use CSS
+<h3>3.2.5 Activity - Use CSS</h3>
 
 Use CSS on the following HTML code. Try various styles, experiment, and
 have fun. We have a live coding demonstration in the next page working
@@ -7943,7 +7931,7 @@ no guarantee to scale the image or assist with spacing or alignment.
 the background-image CSS property which has more options. There is a
 section dedicated to the background-image property.  
 
-## 3.4.2 Selectors
+<h3>3.4.2 Selectors</h3>
 
 <img src="./All-images/media/image55.png"
 style="width:4in;height:3.26381in" />
@@ -8032,7 +8020,7 @@ CSS:
 **.flying** { text-decoration: underline; }
 
 Result:
-
+```xlm
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -8050,8 +8038,8 @@ Result:
 <tbody>
 </tbody>
 </table>
-
-## 3.4.3 Combining Selectors
+```
+<h3>3.4.3 Combining Selectors</h3>
 
 Being able to define a CSS selector in terms of a tag, class or id is
 very powerful. But it's not practical to place classes on every tag in
@@ -8247,7 +8235,7 @@ body receive the margin \*/
 p \* { text-decoration: underline; } /\* the text of the paragraph will
 be normal, but any children anywhere inside it will be underlined \*/
 
-## 3.4.4 Cascading: inheritance and precedence
+<h3>3.4.4 Cascading: inheritance and precedence</h3>
 
 Now that we've covered several ways of defining CSS selectors, we need
 to understand what happens when multiple selectors resolve to the same
@@ -8461,142 +8449,83 @@ conflict with the various rules that are using !important, and from that
 conflict there is no escape.  If you are having problems with precedence
 the best advice is to fix them directly, rather than using !important.
 
-## 3.4.x Recipe
+<h3>3.4.x Recipe</h3>
 
 <img src="./All-images/media/image57.png"
 style="width:4in;height:2.78846in" />
 
+```xlm
 \<!DOCTYPE html\>
-
 \<html lang="en"\>
-
 \<head\>
-
 \<meta charset="UTF-8"\>
-
 \<title\>My Favorite Recipes - Module 2\</title\>
-
 \</head\>
-
 \<body\>
-
 \<h1\>My Favorite Recipes\</h1\>
-
 \<nav\>
-
 \<ul\>
-
 \<li\>\<a href="#soup"\>Soup\</a\>\</li\>
-
 \<li\>\<a href="#salad"\>Salad\</a\>\</li\>
-
 \<li\>\<a href="#pizza"\>Pizza\</a\>\</li\>
-
 \</ul\>
-
 \</nav\>
-
 \<article id="soup"\>
-
 \<h2\>Soup\</h2\>
-
 \<img
 src="https://upload.wikimedia.org/wikipedia/commons/2/22/Bol_soupe_bicolore.jpg"
 alt="soup image" width=320\>
-
 \<p\>
-
 Beethoven once said \<q\>Only the pure of heart can make a good
 soup\</q\>. Well, here's my attempt at doing just that!
-
 \</p\>
-
 \<ol\>
-
 \<li\>Step 1\</li\>
-
 \<li\>Step 2\</li\>
 
 \<li\>Step 3\</li\>
-
 \<li\>Enjoy!\</li\>
-
 \</ol\>
-
 \</article\>
-
 \<article id="salad"\>
-
 \<h2\>Salad\</h2\>
-
 \<img
 src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Caesar_salad\_%281%29.jpg/320px-Caesar_salad\_%281%29.jpg"
 alt="salad image" width=320\>
-
 \<h3\>List of ingredients\</h3\>
-
 \<ul\>
-
 \<li\>Ingredient 1\</li\>
-
 \<li\>Ingredient 2\</li\>
-
 \<li\>Ingredient 3\</li\>
-
 \</ul\>
-
 \<p\>
-
 Who can resist a fresh salad ! Here's one of my favorites.
-
 \</p\>
-
 \<ol\>
-
 \<li\>Step 1\</li\>
-
 \<li\>Step 2\</li\>
-
 \<li\>Step 3\</li\>
-
 \<li\>Enjoy!\</li\>
-
 \</ol\>
-
 \</article\>
-
 \<article id="pizza"\>
-
 \<h2\>Pizza\</h2\>
-
 \<img
 src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Margherita_Originale.JPG/320px-Margherita_Originale.JPG"
 alt="pizza image" width=320\>
-
 \<p\>
-
 Pizza, the king of comfort foods. Try this simple, taste sensation.
-
 \</p\>
-
 \<ol\>
-
 \<li\>Step 1\</li\>
-
 \<li\>Step 2\</li\>
-
 \<li\>Step 3\</li\>
-
 \<li\>Enjoy!\</li\>
-
 \</ol\>
-
 \</article\>
-
 \</body\>
-
 \</html\>
-
+```
 <h3 id="ch4-1">4.1.1 Welcome to Module 4</h3>
 
 <img src="./All-images/media/image58.png"
@@ -8931,7 +8860,7 @@ rounded corners using the border-radius setting:
 style="width:3in;height:1.21859in"
 alt="Image showing the 3 blocks with rounded borders, different thickness for their borders and keeping a thin border around their texts Block 1&#39;, &#39;Block 2&#39;, &#39;Block 3&#39;." />
 
-## 4.3.2 Debugging with the box model
+<h3>4.3.2 Debugging with the box model</h3>
 
 In any browser's debugger, you will see a box model diagram. It looks
 like this:
@@ -10019,10 +9948,8 @@ style="width:4.96875in;height:2.73958in" />
 
 <h3 id="ch5-1">5.1.1 Welcome to Module 5</h3>
 
-<img src="./All-images/media/image85.png"
+<img src="./images/image85.png"
 style="width:3in;height:3.27103in" />
-
-## 
 
 ### 5.1.2 Module 5 - Content
 
@@ -10046,7 +9973,7 @@ making awesome Web pages.
 **5.5 Recipe project: **Separate your CSS and HTML into their own files
 for cleaner, easier coding.
 
-## 5.1.3 A World of Possibilities
+<h3>5.1.3 A World of Possibilities</h3>
 
 In Module 1, we learned the basics of HTML5. It's a fairly simple
 format, just a tree full of elements, which are described by tags,
@@ -10205,7 +10132,7 @@ style="width:4in;height:2.54315in" />
 >
 > \</html\>
 
-## 5.2.2 The \<tr\>, \<th\>, \<td\>, \<colgroup\>, \<col\> tags
+<h3>5.2.2 The \<tr\>, \<th\>, \<td\>, \<colgroup\>, \<col\> tags</h3>
 
 Let's now create the most basic table with a few cells.
 
@@ -10381,7 +10308,7 @@ achieve styling effects specific to a column. 
 <img src="./All-images/media/image90.png"
 style="width:4in;height:2.53782in" />
 
-## 5.2.3 The \<thead\>, \<tbody\> and \<tfoot\> tags
+<h3>5.2.3 The \<thead\>, \<tbody\> and \<tfoot\> tags</h3>
 
 Similar to an HTML document, a table in HTML can be split into header,
 body and footer. We use these three tags
@@ -10468,75 +10395,44 @@ considered footer rows at the end of a table:
 6.  \</tfoot\>
 
 ### Putting it all together:
-
+```xlm
 1.  \<table border=1\>
-
 2.    \<colgroup\>
-
 3.      \<col span="1" style="background-color:green"\>
-
 4.      \<col span="1" style="background-color:orange"\>
-
 5.    \</colgroup\>
-
 6.    \<thead style="color:white"\>
-
 7.      \<tr\>
-
 8.        \<th scope="col"\>Name\</th\>
-
 9.        \<th scope="col"\>Age\</th\>
-
 10.     \</tr\>
-
 11.   \</thead\>
-
 12.   \<tbody\>
-
 13.     \<tr\>
-
 14.       \<td\>Alexa\</td\>
-
 15.       \<td\>23\</td\>
-
 16.     \</tr\>
-
 17.     \<tr\>
-
 18.       \<td\>James\</td\>
-
 19.       \<td\>35\</td\>
-
 20.     \</tr\>
-
 21.     \<tr\>
-
 22.       \<td\>Trisha\</td\>
-
 23.       \<td\>23\</td\>
-
 24.     \</tr\>
-
 25.   \</tbody\>
-
 26.   \<tfoot style="font-style: italic;"\>
-
 27.     \<tr\>
-
 28.       \<td\>3 Unique Names\</td\>
-
 29.       \<td\>2 Unique Ages\</td\>
-
 30.     \</tr\>
-
 31.   \</tfoot\>
-
 32. \</table\>
-
+```
 <img src="./All-images/media/image91.png"
 style="width:4in;height:2.53781in" />
 
-## 5.2.4 Styling your table
+<h3>5.2.4 Styling your table</h3>
 
 We now know how to put a basic table together. However, the tables we
 have looked at so far could really use some work in terms of how they
@@ -11766,7 +11662,7 @@ information on the right way to design tables of different header types
 on this W3C [Tables
 Concepts](https://www.w3.org/WAI/tutorials/tables/) page.
 
-## 5.2.6 Creating a Table
+<h3>5.2.6 Creating a Table</h3>
 
 Let's take a look at how to work with tables and manipulate the table
 styling within an HTML document.
@@ -12282,7 +12178,7 @@ The following table lists the \<source\> element's attributes:
 <img src="./All-images/media/image107.png"
 style="width:6.5in;height:2.79653in" />
 
-## 5.3.2 The \<video\> Element
+<h3>5.3.2 The \<video\> Element</h3>
 
 You can use the video element to embed video in your page. You can
 specify the location of your video file using the src attribute
@@ -12472,7 +12368,7 @@ The following table lists the \<track\> element's attributes:
 <img src="./All-images/media/image112.png"
 style="width:6.5in;height:4.29444in" />
 
-## 5.3.4 Audio and Video Elements
+<h3>5.3.4 Audio and Video Elements</h3>
 
 <h3 id="ch5-4">5.4.1 The iframes tag (OPTIONAL)</h3>
 
@@ -12570,7 +12466,7 @@ isn't a bug, it's a feature.
 There are a number of important attributes for an \<iframe\> tag, but
 for now we'll just look at a few of them:
 
-<img src="./All-images/media/image115.png"
+<img src="./images/image115.png"
 style="width:6.5in;height:4.87014in" />
 
 **Notes:**
@@ -12619,7 +12515,7 @@ However, there can be some disadvantages:
 -   Search engines have trouble accessing and in turn indexing the
     content in your iframes. This doesn't help your search ranking. 
 
-## 5.4.2 The ismap and usemap attributes (OPTIONAL)
+<h3>5.4.2 The ismap and usemap attributes (OPTIONAL)</h3>
 
 ***Note:** This section is optional material included for the curious.
 It will not appear on any graded question.*
@@ -12671,7 +12567,7 @@ your ismap specification.
 
 Let's look at how the code above works.
 
-<img src="./All-images/media/image116.jpeg"
+<img src="./images/image116.jpeg"
 style="width:3in;height:1.96474in"
 alt="Image illustrating how an image map works, how it processes mouse click coordinates using a map file that define target areas" />
 
@@ -12785,14 +12681,14 @@ Result:
 Try this: Click on the left and right side of the images to check out
 how usemap works :) Remember to navigate back to the course!
 
-<img src="./All-images/media/image117.png"
+<img src="./images/image117.png"
 style="width:2in;height:2.23018in" />
 
 Note: If the \<img\> is inside an \<a\> or \<button\> element, clicking
 on it will be interpreted as clicking on the link or button and usemap
 will not work.
 
-## 5.4.3 Activities - Embedding content (OPTIONAL)
+<h3>5.4.3 Activities - Embedding content (OPTIONAL)</h3>
 
 1.  How can you inform screen readers that you are using an iframe in
     your Web page since iframes have poor accessibility?
@@ -12843,7 +12739,7 @@ In the example below we apply a variety of background colors to a
 hyperlink (\<a\>), paragraph (\<p\>), unordered list (\<ul\>) and list
 items (\<li\>):
 
-<img src="./All-images/media/image118.png"
+<img src="./images/image118.png"
 style="width:5in;height:1.59615in" />
 
 ### background-image
@@ -12866,7 +12762,7 @@ scenarios can be constructed with other CSS properties,
 like background-repeat, background-size, and background-attach (as well
 as several others). 
 
-<img src="./All-images/media/image119.png"
+<img src="./images/image119.png"
 style="width:5in;height:1.85524in" />
 
 background-repeat
@@ -12875,7 +12771,7 @@ By default, if the rectangular area of an element is bigger than the
 image itself, then the image will repeat and fill the space, like tiles.
  For example:
 
-<img src="./All-images/media/image120.png"
+<img src="./images/image120.png"
 style="width:5in;height:1.96635in" />
 
 The background-repeat property can be used to control this.  It's more
@@ -12948,7 +12844,7 @@ tiles. 
 <img src="./All-images/media/image124.png"
 style="width:5in;height:1.82425in" />
 
-## 5.5.2 Decorative borders and shadows
+<h3>5.5.2 Decorative borders and shadows</h3>
 
 In the previous sub-section, we looked at decorative backgrounds and
 images. We will continue this theme by examining decorative borders and
@@ -13060,7 +12956,7 @@ text-shadow:  \<x-offset\> \<y-offset\> \<blur\> \<color\>;
 <img src="./All-images/media/image129.png"
 style="width:6.5in;height:0.91458in" />
 
-## 5.5.3 Managing element size
+<h3>5.5.3 Managing element size</h3>
 
 As you start to leverage borders, background colors, and the other
 decorative CSS properties we have seen in the previous sections you will
@@ -13153,7 +13049,7 @@ next module. Here is a quick rundown:
     powerful, but by over-determining explicit heights and widths you
     reduce its usefulness to you and your viewer.
 
-## 5.5.5 Pseudo classes and cursor (OPTIONAL)
+<h3>5.5.5 Pseudo classes and cursor (OPTIONAL)</h3>
 
 ### Refined CSS selectors - pseudo classes
 
@@ -13254,7 +13150,7 @@ well  ( cursor: url("images/my_pointer.png"); ).
 For more information, please visit the [MDN page on
 cursor](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor).
 
-## 5.5.6 CSS best practices (OPTIONAL)
+<h3>5.5.6 CSS best practices (OPTIONAL)</h3>
 
 You will find below an excerpt of CSS best practices (see the [full
 slide
@@ -13410,7 +13306,7 @@ Absolute units are usually the wrong answer.
 
 -   Provide fallbacks / use @supports.
 
-## 5.5.7 Recipe project - Module 5
+<h3>5.5.7 Recipe project - Module 5</h3>
 
 Let's up some of our code, as well as improve the look and feel of our
 Web page! Try moving all of your CSS code to a separate file (don't
@@ -13425,7 +13321,7 @@ and amounts.
 Give it a try, and when you're done (or if you get stuck), watch the
 next video to see what we did.
 
-## 5.5.8 Recipe project - Module 5
+<h3>5.5.8 Recipe project - Module 5</h3>
 
 In this next session, we're going to take a look at continuing the work
 on a recipe project.
@@ -13884,7 +13780,7 @@ A key to not getting confounded by the display property is to have a
 grasp on which elements default to which display value and appreciating
 the differences between block, inline, and inline-block display.
 
-## 6.2.2 Horizontal and vertical centering
+<h3>6.2.2 Horizontal and vertical centering</h3>
 
 **Horizontal centering**
 
@@ -13951,7 +13847,7 @@ There is no margin:auto approach to vertical centering. There are some
 complicated systems that folk have developed, but the shortest and best
 answer to vertical centering: use flexbox. 
 
-## 6.2.3 Key concept: position property
+<h3>6.2.3 Key concept: position property</h3>
 
 The 'left', 'top', 'right', and 'bottom' properties
 
@@ -14071,7 +13967,7 @@ matching dimensional property (width) unspecified.  The element will
 grow or shrink based on the size of the browser window.  Note that this
 feature is only available to fixed (and absolute) elements.
 
-## 6.2.5 Positioning (OPTIONAL)
+<h3>6.2.5 Positioning (OPTIONAL)</h3>
 
 **Note:** This section is optional material included for the curious. It
 will not appear on any graded question.
@@ -14338,7 +14234,7 @@ grow or shrink based on the size of the ancestor it is positioning
 against.  Note that this feature is only available to absolute and fixed
 positioned elements.
 
-## 6.2.6 'z-index' (OPTIONAL)
+<h3>6.2.6 'z-index' (OPTIONAL)</h3>
 
 **Note**: this section is optional material included for the curious. It
 will not appear on any graded question.
@@ -14589,7 +14485,7 @@ that the more you are directly managing the size of items, the more
 likely you will need to change the box-sizing property to
 be border-box.  
 
-## 6.3.2 Flexbox
+<h3>6.3.2 Flexbox</h3>
 
 Up to this point, we have covered quite a few different CSS layout
 concepts. Inline vs. block level display, different position values,
@@ -14785,7 +14681,7 @@ change at all, then set the flex-grow and flex-shrink to 0, and
 the box-sizing to border-box.  However, this is not advisable. Read
 the flex-shrink discussion above.  
 
-## 6.3.3 Flexbox advice and best practices
+<h3>6.3.3 Flexbox advice and best practices</h3>
 
 Here are some quick tips to help you get the most out of flexbox.
 
