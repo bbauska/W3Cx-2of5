@@ -109,7 +109,7 @@ a professional look and feel, by just following these 6 modules!
 <li>In <b>Module 2</b>, you will learn about HTML5 attributes, and become fluent in adding images and links in your Web pages.&nbsp;<br/></li>
 <li>Now that you have made your first Web page, it is time to introduce you to CSS in <b>Module 3</b>.
 
-<h3>CSS is used to style the HTML</h3>
+<h5>CSS is used to style the HTML</h5>
 
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- 03. w3c developers logo (02) ---------------------------------->
@@ -607,9 +607,14 @@ Management: A proposal', pictured below, the proposal was created by Sir
 Tim Berners-Lee and was sent to his boss Mike Sendall, who described it
 as 'vague but exciting'.
 
-<img src="./images/image009.gif"
-style="width:6in;height:5.37054in"
-alt="Tim Berners-Lee original proposal for the Web" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------- 09. network of components (13) --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image009.gif?raw=true"
+   width="65%"
+   alt="Network of Components" />
+</p>
 
 Sir Tim Berners-Lee’s vision for universality enabled the development of
 a high-level network of content that allows any document to link to any
@@ -648,7 +653,7 @@ interact with all the information on the World Wide Web.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image010.png?raw=true"
-   width="35%"
+   width="25%"
    alt="HTML5 logo" />
 </p>
 
@@ -673,7 +678,7 @@ create dynamic Web pages.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image011.png?raw=true"
-   width="35%"
+   width="25%"
    alt="CSS3 logo" />
 </p>
 
@@ -691,8 +696,8 @@ whatever else may apply to what it looks like.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image012.jpeg?raw=true"
-   width="35%"
-   alt="HTML5 logo" />
+   width="25%"
+   alt="JavaScript logo" />
 </p>
 
 The 'JavaScript', or 'JS' for short, part is about the actions a page
@@ -717,12 +722,12 @@ HTML: Hypertext Markup Language, to provide a simple, uniform way to
 incorporate Hyperlinks in a text document.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 13. illustration of hypertext documents (xx) ------------------------->
+<!------------------------- 13. illustration of hypertext documents (16) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image013.png"
-width="85%"
-alt="Illustration of hypertext documents (here are extract of wikipedia pages): the HTML5 page has links going to the Markup language page, the World Wide Web definition page, etc." />
+   width="85%"
+   alt="Illustration of hypertext documents (here are extract of wikipedia pages): the HTML5 page has links going to the Markup language page, the World Wide Web definition page, etc." />
 </p>
 
 He envisioned a technology that would facilitate thoroughly
@@ -816,19 +821,19 @@ which uses angle brackets ("\<" and "\>") to separate the annotations
 from the regular text.  In HTML these annotations are called "tags".
 
 For example, consider the following chunk of HTML code:
-```xlm
-1.     \<body\>
-2.        \<h1\>A Tale of Two Cities\</h1\>
-3.        \<p\>
+```xml
+1.     <body>
+2.        <h1>A Tale of Two Cities</h1>
+3.        <p>
 4.           It was the best of times, it was the worst of times, . . .
     .
-5.        \</p\>
+5.        </p>
 6.        . . .
-7.        \<p\>
+7.        <p>
 8.           . . . it is a far, far better rest
 9.           that I go to than I have ever known.
-10.       \</p\>
-11.    \</body\>
+10.       </p>
+11.    </body>
 ```
 If you eliminated everything in between the angle brackets from the
 text, for most purposes it would still read the same:
@@ -913,8 +918,7 @@ Here you can see there's a panel on the left which is a HTML panel to
 edit HTML code, and on the right, you have an open panel that will
 eventually display whatever code you write on the left-hand side.
 
-And the site can cater for other languages such as JavaScript, CSS,
-
+And the site can cater for other languages such as JavaScript, CSS, 
 and so on, and you can also share code snippets and do lots lots more.
 
 I'd encourage you to browse around.
@@ -978,9 +982,7 @@ And as its name suggests, this element contains the body of the page,
 meaning all of its contents.
 
 As you learn more and more about HTML you'll see there's lots of
-different tags
-
-you can put in here to do various different things within your HTML
+different tags you can put in here to do various different things within your HTML
 page, but for now as in our example, we'll just type some text.
 
 Hello HTML!.
@@ -1635,12 +1637,12 @@ elements, paragraph elements, in fact pretty much all of the visible
 elements of the DOM.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------- 15.  (xx) --------------------------------->
+<!----------------------------------- 15. html element (32) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image015.png?raw=true"
    width="65%"
-   alt="" />
+   alt="HTML element" />
 </p>
 
 Consider the figure above.  It contains a single 'html' element.  It
@@ -1666,7 +1668,7 @@ a text file?  Well, that's where "tags" come in.
 <h3>1.3.4 Tags</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------- 16.  () --------------------------------->
+<!---------------------------------------- 16. tags (33) ----------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image016.png?raw=true"
@@ -1712,12 +1714,12 @@ the element, it needs an open and close tag, with everything in between
 the tags being the content of the element:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------- 17. diagram of an element  () --------------------------------->
+<!------------------------------ 17. diagram of an element  (34) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image017.png?raw=true"
-   width="25%"
-alt="Diagram of an element: the &#39;&lt;em&gt;&#39; tag is used for element that needs Emphasis. The &#39;&lt;&#39; and &#39;&gt;&#39; indicate that this is a tag, and the little bits of text in between tell us what kind of tag it is. To completely describe the element, it needs an open and close tag, with everything in between the tags being the content of the element"  />
+   width="65%"
+   alt="Diagram of an element: the &#39;&lt;em&gt;&#39; tag is used for element that needs Emphasis. The &#39;&lt;&#39; and &#39;&gt;&#39; indicate that this is a tag, and the little bits of text in between tell us what kind of tag it is. To completely describe the element, it needs an open and close tag, with everything in between the tags being the content of the element" />
 </p>
 
 Most tags have open and close versions, but there are a few strange
@@ -1726,7 +1728,7 @@ strange ones as "self closing" tags. Usually these tags represent an
 element that is completely described by its attributes, and thus
 there is no need for other content.  So if you see something like this:
 
-\<img src="https://goo.gl/pVxY0e" alt="Floating Flower"/\>
+<img src="https://goo.gl/pVxY0e" alt="Floating Flower"/\>
 
 ... then you should know that the slash at the end of the open tag is
 sort of a shorthand for a close tag, so you won't see any other
@@ -1800,13 +1802,11 @@ You can identify it uniquely with an 'id' attribute, or group it with a
 class of other elements by setting the 'class' attribute.
 
 Attributes in HTML are written inside the opening tag like this:
-
-<h5>\<p id="paragraph-1" class="regular-paragraphs"\></h5>
-
-<h5>    Call me Ishmael . . .</h5>
-
-<h5>  \</p\></h5>
-
+```
+<p id="paragraph-1" class="regular-paragraphs">
+   Call me Ishmael . . .
+</p>
+```
 The paragraph above has a unique identifier, "paragraph-1" and is part
 of a class of "regular-paragraphs". The letters inside the quotes have
 no meaning to the browser, they just need to be consistent. They are
@@ -1840,17 +1840,17 @@ suited in that case. A browser, on the other hand, has difficulty with a
 task like that, so it is helpful to use a close tag that matches the
 open tag to make things absolutely clear.
 ```
-01. <p>
-02. The old lady pulled her spectacles
-03. down and looked over them about the
-04. room; then she put them up and looked
-05. out under them.
-06. 
-07. There was a slight noise behind her
-08. and she turned just in time to seize a
-09. small boy by the slack of his roundabout
-10. and arrest his flight.
-11. </p>
+<p>
+The old lady pulled her spectacles
+down and looked over them about the
+room; then she put them up and looked
+out under them.
+
+There was a slight noise behind her
+and she turned just in time to seize a
+small boy by the slack of his roundabout
+and arrest his flight.
+</p>
 ```
 The old lady pulled her spectacles down and looked over them about the
 room; then she put them up and looked out under them. There was a slight
@@ -1879,7 +1879,7 @@ won't know which version of HTML is used (it matters).  
 That's why **the first thing you need in any HTML file** is a tag to
 tell you what type of HTML file it is:
 ```
-01. <!DOCTYPE html>
+<!DOCTYPE html>
 ```
 In other words, the first thing the browser sees is the declaration
 "This is an HTML5 file, in case you were wondering". It may seem tedious
@@ -1891,8 +1891,8 @@ HTML5 can do this because all the previous versions were much more long
 winded.  For example, at the top of an HTML 4.01 page, you might have
 something like this:
 ```
-01. <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
-    "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
 ```
 We do not need to go into the details of why and what that means, just
 be grateful that HTML5 did away with it.
@@ -1902,7 +1902,7 @@ be grateful that HTML5 did away with it.
 It may seem redundant, but the next bit tells the browser where the
 actual HTML code begins, using an \<html\> tag:
 ```
-01. <html>
+<html>
 ```
 Nearly every HTML document has two parts. The body is the main content
 of the page, containing text, images, tables and so on. The head comes
@@ -1915,25 +1915,25 @@ might be different from the title the user reads) all go in the
 create a very basic html file, in the right form, without any content.
 Hint, for the head of the document you would write:
 ```
-01. <head>
-02.  
-03. </head>
+<head>
+ 
+</head>
 ```
 You may recall the paragraph tag \<p\> that we used in the example
 above. Try inserting a paragraph into the body of your new document.
  You should end up with something that looks like this:
 ```
-01.  <!DOCTYPE html>
-02.  <html>
-03.  <head>
-04.  </head>
-05.  <body>
-06.  <p>
-    1.  As my English teacher used to say, 'One sentence does not a
-        paragraph make'!
-07.  </p>
-08.  </body>
-09.  </html>
+ <!DOCTYPE html>
+ <html>
+ <head>
+ </head>
+ <body>
+ <p>
+    As my English teacher used to say, 'One sentence does not a
+    paragraph make'!
+ </p>
+ </body>
+ </html>
 ```
 <h3 id="ch1-4">1.4.1 Character Encoding</h3>
 
@@ -1997,7 +1997,7 @@ days, but you should check.
 Read an [Introduction to character sets and encodings
 here](https://www.w3.org/International/getting-started/characters).
 
-<h3>1.4.2 The \<meta\> tag</h3>
+<h3>1.4.2 The <meta> tag</h3>
 
 Use the \<meta\> tag with the charset attribute in your HTML page to
 indicate to the browser the character encoding you will be using in the
@@ -2038,34 +2038,23 @@ the need for them came about. 
 
 Try the following code in your HTML:
 ```
-1.  \<p\>Welcome to "HTML5 & CSS Fundamentals". The first tag we will be
-    learning about is  the \<html\> tag.\</p\>
+1.  <p>Welcome to "HTML5 & CSS Fundamentals". The first tag we will be
+    learning about is  the <html> tag.</p>
 ```
 <h4>HTML</h4>
 ```
->
-> \<!DOCTYPE html\>
->
-> \<html lang="en"\>
->
-> \<head\>
->
-> \<meta charset="UTF-8"\>
->
-> \<title\>Welcome\</title\>
->
-> \</head\>
->
-> \<body\>
->
-> \<p\>Welcome to "HTML5 & CSS Fundamentals". The first tag we will be
-> learning about is the
->
-> \<html\> tag.\</p\>
->
-> \</body\>
->
-> \</html\>
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+ <meta charset="UTF-8">
+ <title>Welcome\</title>
+ </head>
+ <body>
+ <p>Welcome to "HTML5 & CSS Fundamentals". The first tag we will be
+ learning about is the
+ <html> tag.</p>
+ </body>
+ </html>
 ```
 Did you notice the \<html\> tag is missing in your output? In this case,
 your browser mixed it up with an actual tag, although it was meant to be
@@ -2075,7 +2064,7 @@ Because of this kind of confusion, HTML reserves certain characters. If
 you want to use these characters in your HTML, you need to use character
 references to display them.
 
-### How to use character references
+<h4>How to use character references</h4>
 
 All HTML character references can be written using either a name or
 number. 
@@ -2084,25 +2073,25 @@ If you want to use a named character reference in your source code, use
 an ampersand symbol '&', followed by the name and a semi-colon. Names
 are case sensitive. For example, the following represents a no-break
 space:
-
-***&nbsp;***
-
+```
+&nbsp;
+```
 There are two types of numeric character reference: ones that use
 decimal numbers and ones that use hexadecimal numbers.  In each case,
 the number represents the code point number of the character in Unicode.
 
 If you are using a decimal number, use an ampersand symbol '&' ,
 followed by the symbol '#', then a decimal number and a semi-colon.
-
-***&#160;***
-
+```
+&#160;
+```
 If you are using a hexadecimal number, use an ampersand symbol '&' ,
 followed by the symbols '#x', then a hexadecimal number and a
 semi-colon.
-
-***&#x00A0;***
-
-### Protecting characters used for HTML syntax
+```
+&#x00A0;
+```
+<h4>Protecting characters used for HTML syntax</h4>
 
 The five special characters listed in the table below should always be
 written as character references if you want them to appear on your page
@@ -2167,45 +2156,31 @@ href=&amp;quot;&amp;num;timetable&amp;quot;&amp;gt;</p>
 We do not want these special characters to be processed by the browser
 as HTML code. Instead, you want it to be displayed to the user. So if
 you wish to display this in your browser:
-
-\<img src="images/test.png" alt="test image"\>
-
+```
+<img src="images/test.png" alt="test image">
+```
 You have to write it like this in your HTML code:
-
+```
 &lt;img src=&quot;images/test.png&quot; alt=&quot;test image&quot;&gt;
-
-HTML
-
-\<!DOCTYPE html\>
-
-\<html lang="en"\>
-
-\<head\>
-
-\<meta charset="UTF-8"\>
-
-\<title\>Welcome\</title\>
-
-\</head\>
-
-\<body\>
-
-\<p\>
-
-\<img src="images/test.png" alt="test image"\>
-
-\</P\>
-
-\<p\>
-
+```
+<h4>HTML</h4>
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Welcome</title>
+</head>
+<body>
+<p>
+<img src="images/test.png" alt="test image">
+</p>
+<p>
 &lt;img src=&quot;images/test.png&quot; alt=&quot;test image&quot;&gt;
-
-\</p\>
-
-\</body\>
-
-\</html\>
-
+</p>
+</body>
+</html>
+```
 Some tolerant browsers will allow using the &amp; character directly
 but **not** all. So you should use its character reference &amp;. [Check
 out these examples](https://jsfiddle.net/vh2h7usk/1/) illustrating the
@@ -2225,28 +2200,28 @@ abbreviation. If you try the code below in a browser and hover your
 mouse pointer on the text 'HTML5', it will show you the title text (it
 works like a tooltip). The title text in the source code includes quotes
 (around the number 5) like this:
-
-1.  \<abbr title="Hypertext Markup Language "5""\>HTML5\</abbr\>
-
+```
+1.  <abbr title="Hypertext Markup Language "5"">HTML5</abbr>
+```
 The above will not display the number 5.
 
 Replacing the quotes with its character entity will work:
-
-1.  \<abbr title="Hypertext Markup Language "5""\>HTML5\</abbr\>
-
+```
+1.  <abbr title="Hypertext Markup Language "5"">HTML5</abbr>
+```
 Check out this jsfiddle link.
 
-HTML
+<h4>HTML</h4>
+```
+<p>Rest your mouse on the text below: (The number 5 is missing)</p>
 
-\<p\>Rest your mouse on the text below: (The number 5 is missing)\</p\>
+<abbr title="Hypertext Markup Language "5"">HTML5</abbr>
 
-\<abbr title="Hypertext Markup Language "5""\>HTML5\</abbr\>
+<p>Rest your mouse on the text below: (5 is displayed when quotes is
+replaced with its character entity name)</p>
 
-\<p\>Rest your mouse on the text below: (5 is displayed when quotes is
-replaced with its character entity name)\</p\>
-
-\<abbr title="Hypertext Markup Language &quot;5&quot;"\>HTML5\</abbr\>
-
+<abbr title="Hypertext Markup Language &quot;5&quot;">HTML5</abbr>
+```
 <h3>1.4.5 Character References for Other Characters</h3>
 
 It is also possible to use character references to represent other
@@ -2288,27 +2263,18 @@ You can do this directly in the code:   \<p\>This is © 2015. Breach will
 entail a fine of € 400\</p\>
 
 HTML
-
-\<!DOCTYPE html\>
-
-\<html lang="en"\>
-
-\<head\>
-
-\<meta charset="UTF-8"\>
-
-\<title\>Welcome\</title\>
-
-\</head\>
-
-\<body\>
-
-\<p\>This is © 2015. Breach will entail a fine of € 400\</p\>
-
-\</body\>
-
-\</html\>
-
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Welcome</title>
+</head>
+<body>
+<p>This is © 2015. Breach will entail a fine of € 400</p>
+</body>
+</html>
+```
 There is no need for the &copy; or &euro; HTML character reference if
 you are able to type the character itself.
 
@@ -2369,21 +2335,18 @@ overlap with other elements. That is, you can have an element that is
 enclosed in another element, or you can have two elements side-by-side,
 but you can never have a situation in which part of an element is in
 another, but the other part is not.
-
-1.  \<p\>This is a \<em\>paragraph\</em\>\</p\>
-
+```xml
+1.  <p>This is a <em>paragraph</em></p>
 2.   
-
-3.  \<h1\>Paragraph ahead\</h1\>
-
-4.  \<p\>And here it is.\</p\>
-
+3.  <h1>Paragraph ahead\</h1>
+4.  <p\>And here it is.\</p>
+```
 The two examples above are fine because in each case either an element
 is wholly contained in another (\<em\> in \<p\>) or they are completely
 separate (\<h1\> and \<p\>). This, on the other hand, is not valid:
-
-1.  \<h1\>Part of this header is\<p\>in the\</h2\> paragraph below\</p\>
-
+```xml
+1.  <h1>Part of this header is<p>in the</h2> paragraph below</p>
+```
 What happens in this case is what we call "undefined". That just means
 that there is no telling how the browser will decide to handle it. It
 might decide to automatically close the \<p\> when it sees another close
@@ -2419,39 +2382,27 @@ need the \<!doctype\> section and the \<html\> section with
 
 Proper indentation is one way to make your code clearer and easier to
 understand:
-
-1.  \<body\>
-
-2.  \<h1\>Here is a heading\</h1\>
-
-3.  \<p\>
-
-4.  \<ol\>\<li\>List Item 1\</li\>\</ol\>
-
-5.  \</p\>
-
-6.  \</body\>
-
+```xml
+1.  <body>
+2.  <h1>Here is a heading</h1>
+3.  <p>
+4.  <ol><li>List Item 1</li></ol>
+5.  </p>
+6.  </body>
+```
 The code above doesn't give any sense of the structure of the document.
 By using indentation effectively, you can make it more clear, showing
 the nesting of elements:
-
-1.  \<body\>
-
-2.    \<h1\>Here is a heading\</h1\>
-
-3.    \<p\>
-
-4.      \<ol\>
-
-5.        \<li\>List Item 1\</li\>
-
-6.      \</ol\>
-
-7.    \</p\>
-
-8.  \</body\>
-
+```xml
+1.  <body>
+2.    <h1>Here is a heading</h1>
+3.    <p>
+4.      <ol>
+5.        <li>List Item 1</li>
+6.      </ol>
+7.    </p>
+8.  </body>
+```
 Consistent quoting of strings is also helpful, in part to avoid
 potential problems that can arise when you think something does not need
 quotes but it actually does.
@@ -2490,7 +2441,7 @@ browser turned all your letters into lower case.  And people might think
 you're quite tightly wound if the browser converted everything to
 upper-case.
 
-### Don't worry about too many white spaces
+<h4>Don't worry about too many white spaces</h4>
 
 On the other hand, we usually do not want to worry about the amount of
 white space (spaces, tabs and returns) in between words and lines and
@@ -2503,25 +2454,17 @@ will look the same.
 
 Thus, all three of the following elements should look exactly the same
 when you read them in the browser:
+```xml
+  <H1> This is the Beginning </H1>
 
-44.  \<H1\> This is the Beginning \</H1\>
+  <H1>
 
-45.  
+     This is the Beginning
 
-46.  \<H1\>
+  </H1>
 
-47.  
-
-48.     This is the Beginning
-
-49.  
-
-50.  \</H1\>
-
-51.  
-
-52.  \<h1\>This is the Beginning\</h1\>
-
+  <h1>This is the Beginning</h1>
+```
 It might seem confusing at first, but this rule about white space is
 actually very convenient.  The third option might be a bit too cramped
 for your taste, while the second might seem to take up too much room in
@@ -2537,13 +2480,11 @@ insensitive, but it is not that easy.  
 **Attributes are case sensitive**! We have not learned much about
 attributes yet, but when we do we will discover that they are case
 sensitive, thus these two elements will have different 'id's:
-
-1.   \<p id=ThisOne\>
-
-2.   
-
-3.   \<p id=thisone\>
-
+```xml
+   <p id=ThisOne>
+   
+   <p id=thisone>
+```
 Even though they're spelled the same, the differing cases indicate
 different names.  Note that distinguishing different id's solely by case
 (i.e. spelled the same but with different capitalization) is a really
@@ -2564,19 +2505,14 @@ marks, either single (') or double ("). HTML tries to be helpful here.  
 You will find that in places where HTML is expecting certain types of
 strings (say a string without spaces), even if you do not use the
 quotation marks it will essentially insert them for you. Thus:
-
-1.   \<p id=MyName\>
-
-2.   
-
-3.   \<p id="MyName"\>
-
-4.   
-
-5.   \<p id='MyName'\>
-
+```xml
+   <p id=MyName>
+   
+   <p id="MyName">
+   
+   <p id='MyName'>
 .... are all equivalent.  
-
+```
 It is also important to know that, in HTML, **double and single quotes
 are almost interchangeable, but they have to match**.  If you start a
 string with a double quote, the computer will not end it until it sees
@@ -2591,7 +2527,7 @@ have the letters q-u-o-t-e (no quotation marks or spaces in the string).
 best to quote them all the same way, even if the browser would
 understand it anyway.
 
-### In summary:
+<h4>In summary:</h4>
 
 The idea is to take advantage of these flexibilities to create clean
 organized code that is easy for a human to comprehend.  I guess you
@@ -2683,34 +2619,22 @@ seen:
     page, not the same as the aforementioned \<title\> element), or to
     indicate the outermost level in a group of nested sections.
 
-HTML
-
-\<!DOCTYPE html\>
-
-\<html lang="en"\>
-
-\<head\>
-
-\<meta charset="UTF-8"\>
-
-\<title\>Welcome\</title\>
-
-\</head\>
-
-\<body\>
-
-\<h1\>A TALE OF TWO CITIES\</h1\>
-
-\<h2\>A STORY OF THE FRENCH REVOLUTION\</h2\>
-
-\<h2\>Book the First—Recalled to Life\</h2\>
-
-\<h3\>I. The Period\</h3\>
-
-\</body\>
-
-\</html\>
-
+<h4>HTML</h4>
+```xml
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Welcome</title>
+</head>
+<body>
+<h1>A TALE OF TWO CITIES\</h1>
+<h2>A STORY OF THE FRENCH REVOLUTION\</h2>
+<h2>Book the First—Recalled to Life\</h2>
+<h3>I. The Period\</h3>
+</body>
+</html>
+```
 Though you theoretically should not think about what it looks like, it
 will typically appear as large, possibly bold text in your document, to
 mark a separation or beginning of some new section.  \<h2\> is usually a
@@ -2727,7 +2651,7 @@ can be confusing**.
     Web page, a *p* element creates a new line.
 
 <h4>HTML</h4>
-```xlm
+```xml
 <!DOCTYPE html>
    <html lang="en">
    <head>
@@ -2799,7 +2723,7 @@ effect in your Web page when you use them:
     rendering, each li element would typically be preceded by a number
     or bullet, or something similar (but not necessarily).  Thus a list
     in HTML would look like this:
-```xlm
+```xml
 1.  \<ul\>
 2.     \<li\> First item in list \</li\>
 3.     \<li\> Second item in list \</li\>
@@ -2906,7 +2830,7 @@ following components:
 Please start with this "empty page" in CopePen:
 
 <h4>HTML</h34>
-```xlm
+```xml
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -2917,7 +2841,7 @@ Please start with this "empty page" in CopePen:
 </body>
 </html>
 ```
-```xlm
+```xml
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -3043,7 +2967,7 @@ We learned a little bit about what attributes are in the previous
 module. Let's look into it in more depth, by using examples.
 
 Here is an ordered list:
-```xlm
+```xml
 1.  <ol>
 2.    <li>Lights</li>
 3.    <li>Camera</li>
@@ -3060,7 +2984,7 @@ Output:
 
 If i want an ordered list to start with the number 5 instead of 1 (as it
 does by default), let's code like this:
-```xlm
+```xml
 1.  <ol start="5">
 2.    <li>Lights</li>
 3.    <li>Camera</li>
@@ -4074,7 +3998,7 @@ style="width:4in;height:4.37894in" />
 
 We will elaborate on selected semantic elements in detail in the next
 unit.
-```xlm
+```xml
 <table>
 <colgroup>
 <col style="width: 17%" />
@@ -4477,7 +4401,7 @@ assistive technology users. While it is valid to skip header levels
 technology often relies on the semantics of headings to understand your
 document's structure. More information is provided in [Using h1-h6 to
 identify headings](https://www.w3.org/TR/WCAG20-TECHS/H42.html).
-```xlm
+```xml
 1.  \<body\>
 2.     \<h1\>Brad's Cookbook\</h1\>
 3.       \<h2\>Slowcook Recipes\</h2\>
@@ -4573,7 +4497,7 @@ multiple \<header\>, \<footer\> and \<nav\> tags.
 
 <img src="./images/image034.png"
 style="width:4.89583in;height:2.83333in" />
-```xlm
+```xml
 > \<!DOCTYPE html\>
 >
 > \<html lang="en"\>
@@ -6093,7 +6017,7 @@ The download attribute is also new in HTML5 and it makes a link download
 a file instead of navigate to another location. It takes in the filename
 as value but the value is optional. So the download attribute can be
 specified in the following ways:
-```xlm
+```xml
 1.  <a href="/assets/hello.txt" download>
 
 2.  <a href="/assets/hello.txt" download="new-name-for-text-file">
@@ -7962,7 +7886,7 @@ CSS:
 **.flying** { text-decoration: underline; }
 
 Result:
-```xlm
+```xml
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -8396,7 +8320,7 @@ the best advice is to fix them directly, rather than using !important.
 <img src="./images/image057.png"
 style="width:4in;height:2.78846in" />
 
-```xlm
+```xml
 <!DOCTYPE html\>
 <html lang="en"\>
 <head\>
@@ -10335,8 +10259,8 @@ considered footer rows at the end of a table:
 
 6.  \</tfoot\>
 
-### Putting it all together:
-```xlm
+<h4>Putting it all together:</h4>
+```xml
 1.  \<table border=1\>
 2.    \<colgroup\>
 3.      \<col span="1" style="background-color:green"\>
@@ -15301,4 +15225,4 @@ We fixed those issues at the top.
 
 These are the final changes to our recipe project for this unit.
 
-<h3><b>Last Updated 5-14-2022 1:58pm</b></h3>
+<h3><b>Last Updated 5-14-2022 3:29pm</b></h3>
