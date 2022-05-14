@@ -1745,25 +1745,21 @@ Every programming language I've used has some way of representing
 comments.  HTML5 is no exception.  If you want to add something in your
 file that you want the browser to completely ignore, there's a special
 tag for that (unsurprisingly called a "comment tag"):
-
-12. \<!-- This is a comment --\>
-
+```
+01.   <!-- This is a comment -->
+```
 An HTML comment tag starts with \<!-- and ends with --\>, meaning that
 as the computer is reading through your HTML file, if it sees \<!-- it
 will ignore everything it sees until it comes across --\>.  There is no
 open or close tag, just a comment tag.  Unlike most other things in
 HTML5, comments cannot be nested.  If you try that, like:
-
-13. \<!--
-
-14. Beginning of comment
-
-15.   \<!-- comment nested inside --\>
-
-16. This is after the nested comment
-
-17. --\>
-
+```
+01. <!--
+02. Beginning of comment
+03.   <!-- comment nested inside -->
+04. This is after the nested comment
+05. -->
+```
 The computer will then see the beginning of the comment tag and start
 ignoring everything until it sees --\>, including the second \<!--.
  Once it sees --\>, it assumes the comment is done and goes back to
@@ -1772,29 +1768,22 @@ writer may have meant it to be a comment.
 
 Like most other tags, it can span multiple lines of your source file.
  This can be really convenient when you have a lot to say:
-
-18. \<!--
-
-19. If you want some good advice,
-
-20. Neither a borrower nor a lender be,
-
-21. For loan oft loses both itself and friend,
-
-22. And borrowing dulls the edge of husbandry.
-
-23. --\>
-
+```
+01. <!--
+02. If you want some good advice,
+03. Neither a borrower nor a lender be,
+04. For loan oft loses both itself and friend,
+05. And borrowing dulls the edge of husbandry.
+06. -->
+```
 Comments are also commonly used in development to block out bits of
 code, whether for testing or leaving unfinished business in the file:
-
-24. \<!-- Not sure if I want this wording or not:
-
-25. \<p\>Eighty seven years ago, a bunch of guys started a new
-    country\</p\>
-
-26. --\>
-
+```
+01. <!-- Not sure if I want this wording or not:
+02. <p>Eighty seven years ago, a bunch of guys started a new
+    country</p>
+03. -->
+```
 It's important to remember that just as HTML, CSS and JavaScript are
 three different languages, they each have their own notation for
 handling comments. This might seem confusing, but it's actually kind of
@@ -1812,11 +1801,11 @@ class of other elements by setting the 'class' attribute.
 
 Attributes in HTML are written inside the opening tag like this:
 
-##### \<p id="paragraph-1" class="regular-paragraphs"\>
+<h5>\<p id="paragraph-1" class="regular-paragraphs"\></h5>
 
-#####    Call me Ishmael . . .
+<h5>    Call me Ishmael . . .</h5>
 
-#####  \</p\>
+<h5>  \</p\></h5>
 
 The paragraph above has a unique identifier, "paragraph-1" and is part
 of a class of "regular-paragraphs". The letters inside the quotes have
@@ -1850,29 +1839,19 @@ and knowing that mistakes happen choose the one she thinks is best
 suited in that case. A browser, on the other hand, has difficulty with a
 task like that, so it is helpful to use a close tag that matches the
 open tag to make things absolutely clear.
-
-27. \<p\>
-
-28. The old lady pulled her spectacles
-
-29. down and looked over them about the
-
-30. room; then she put them up and looked
-
-31. out under them.
-
-32. 
-
-33. There was a slight noise behind her
-
-34. and she turned just in time to seize a
-
-35. small boy by the slack of his roundabout
-
-36. and arrest his flight.
-
-37. \</p\>
-
+```
+01. <p>
+02. The old lady pulled her spectacles
+03. down and looked over them about the
+04. room; then she put them up and looked
+05. out under them.
+06. 
+07. There was a slight noise behind her
+08. and she turned just in time to seize a
+09. small boy by the slack of his roundabout
+10. and arrest his flight.
+11. </p>
+```
 The old lady pulled her spectacles down and looked over them about the
 room; then she put them up and looked out under them. There was a slight
 noise behind her and she turned just in time to seize a small boy by the
@@ -1899,9 +1878,9 @@ won't know which version of HTML is used (it matters).  
 
 That's why **the first thing you need in any HTML file** is a tag to
 tell you what type of HTML file it is:
-
-38. \<!DOCTYPE html\>
-
+```
+01. <!DOCTYPE html>
+```
 In other words, the first thing the browser sees is the declaration
 "This is an HTML5 file, in case you were wondering". It may seem tedious
 to put this at the top of every file, but believe me, it used to be
@@ -1911,20 +1890,20 @@ just "html".
 HTML5 can do this because all the previous versions were much more long
 winded.  For example, at the top of an HTML 4.01 page, you might have
 something like this:
-
-39. \<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
-    "http://www.w3.org/TR/html4/strict.dtd"\>
-
+```
+01. <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+    "http://www.w3.org/TR/html4/strict.dtd">
+```
 We do not need to go into the details of why and what that means, just
 be grateful that HTML5 did away with it.
 
-### Everything in HTML
+<h4>Everything in HTML</h4>
 
 It may seem redundant, but the next bit tells the browser where the
 actual HTML code begins, using an \<html\> tag:
-
-40. \<html\>
-
+```
+01. <html>
+```
 Nearly every HTML document has two parts. The body is the main content
 of the page, containing text, images, tables and so on. The head comes
 before the body (on top?). It is where you put information about the
@@ -1935,38 +1914,27 @@ might be different from the title the user reads) all go in the
 \<head\>. If you have been paying attention, you should be able to
 create a very basic html file, in the right form, without any content.
 Hint, for the head of the document you would write:
-
-41. \<head\>
-
-42.  
-
-43. \</head\>
-
+```
+01. <head>
+02.  
+03. </head>
+```
 You may recall the paragraph tag \<p\> that we used in the example
 above. Try inserting a paragraph into the body of your new document.
  You should end up with something that looks like this:
-
-1.  \<!DOCTYPE html\>
-
-2.  \<html\>
-
-3.  \<head\>
-
-4.  \</head\>
-
-5.  \<body\>
-
-6.  \<p\>
-
+```
+01.  <!DOCTYPE html>
+02.  <html>
+03.  <head>
+04.  </head>
+05.  <body>
+06.  <p>
     1.  As my English teacher used to say, 'One sentence does not a
         paragraph make'!
-
-7.  \</p\>
-
-8.  \</body\>
-
-9.  \</html\>
-
+07.  </p>
+08.  </body>
+09.  </html>
+```
 <h3 id="ch1-4">1.4.1 Character Encoding</h3>
 
 A character can be any letter, digit or symbol that makes up words and
@@ -2034,52 +2002,47 @@ here](https://www.w3.org/International/getting-started/characters).
 Use the \<meta\> tag with the charset attribute in your HTML page to
 indicate to the browser the character encoding you will be using in the
 page.
-
-1.  \<meta charset="utf-8"\>
-
+```
+1.  <meta charset="utf-8">
+```
 Alternatively, you can also use http-equiv and content attributes. 
-
-1.  \<meta http-equiv="Content-Type" content="text/html;
-    charset=utf-8"\>
-
+```
+1.  <meta http-equiv="Content-Type" content="text/html;
+    charset=utf-8">
+```
 We recommend using the first one because it is much less complicated.
 You should also always use 'utf-8'.
 
-### Where to place it?
+<h4>Where to place it?</h4>
 
 The meta declaration belongs inside the \<head\> element, and should be
 specified within the first 1024 bytes of your page. So the earlier it is
 mentioned in your code, the better. 
 
 W3C recommends placing it immediately after the opening \<head\> tag:
-
-1.  \<!DOCTYPE html\>
-
-2.  \<html lang="en"\>
-
-3.    \<head\>
-
-4.      \<meta charset="utf-8"\>
-
+```
+1.  <!DOCTYPE html>
+2.  <html lang="en">
+3.    <head>
+4.      <meta charset="utf-8">
 5.      ...
-
-6.    \</head\>
-
-7.  \</html\>
-
+6.    </head>
+7.  </html>
+```
 <h3>1.4.3 HTML Character References</h3>
 
-### Why we need character references
+<h4>Why we need character references</h4>
 
 Before we learn what HTML character references are, let's look at how
 the need for them came about. 
 
 Try the following code in your HTML:
-
+```
 1.  \<p\>Welcome to "HTML5 & CSS Fundamentals". The first tag we will be
     learning about is  the \<html\> tag.\</p\>
-
-> HTML
+```
+<h4>HTML</h4>
+```
 >
 > \<!DOCTYPE html\>
 >
@@ -2103,7 +2066,7 @@ Try the following code in your HTML:
 > \</body\>
 >
 > \</html\>
-
+```
 Did you notice the \<html\> tag is missing in your output? In this case,
 your browser mixed it up with an actual tag, although it was meant to be
 a part of the sentence as text. 
