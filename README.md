@@ -14732,7 +14732,7 @@ wrap-reverse; it is vertical running bottom to top.
 
 #### Start and end
 
-<img src="./All-images/media/image152.jpeg"
+<img src="./images/image152.jpeg"
 style="width:5in;height:4.28579in" alt="flexbox axes" />
 
 In the illustration above, we see the main and cross axes as they would
@@ -14847,7 +14847,7 @@ the direction of the cross axis.
 The table below should help illustrate this. It shows the justification
 options for a flexbox container with flex-flow:row;
 
-<img src="./All-images/media/image153.png"
+<img src="./images/image153.png"
 style="width:6.5in;height:2.11875in" />
 
 If the flex-direction were row-reverse, then the only thing to change in
@@ -14888,10 +14888,10 @@ height of any of the items.  
 In the example below, each item has a different line-height value, so
 you can see how they align to each other.
 
-<img src="./All-images/media/image154.png"
+<img src="./images/image154.png"
 style="width:5in;height:2.98611in" />
 
-<img src="./All-images/media/image155.png"
+<img src="./images/image155.png"
 style="width:5in;height:1.86645in" />
 
 <h3>align-content</h3>
@@ -14909,10 +14909,10 @@ This is easier to understand from an example. Below we have a flex
 container with  flex-flow:row wrap; and a height value that is greater
 than the height of any of the items.
 
-<img src="./All-images/media/image156.png"
+<img src="./images/image156.png"
 style="width:5in;height:3.01282in" />
 
-<img src="./All-images/media/image157.png"
+<img src="./images/image157.png"
 style="width:5in;height:2.77083in" />
 
 <h3>align-self</h3>
@@ -14936,7 +14936,7 @@ In the example below, we have a flex container
 with flex-flow:row; and align-items:center;.  The individual items have
 their align-self property set.
 
-<img src="./All-images/media/image158.png"
+<img src="./images/image158.png"
 style="width:5in;height:1.14103in" />
 
 <h3>6.4.3 Order</h3>
