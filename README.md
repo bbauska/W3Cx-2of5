@@ -2646,7 +2646,7 @@ could sum it all up with these simple dictum:
     of flexibility in capitalization and white space to make your code
     more readable and organized.
 
-## 1.5.4 Activity – Best Practices
+<h3>1.5.4 Activity – Best Practices</h3>
 
 1\. Compare and contrast these two different HTML Style Guides:
 
@@ -2757,23 +2757,16 @@ can be confusing**.
     extra vertical white space before starting.  When rendered on the
     Web page, a *p* element creates a new line.
 
-HTML
-
-\<!DOCTYPE html\>
-
-\<html lang="en"\>
-
-\<head\>
-
-\<meta charset="UTF-8"\>
-
-\<title\>Welcome\</title\>
-
-\</head\>
-
-\<body\>
-
-\<p\>
+<h4>HTML</h4>
+```xlm
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+   <meta charset="UTF-8">
+   <title>Welcome</title>
+   </head>
+   <body>
+   <p>
 
 This is a paragraph.
 
@@ -2785,18 +2778,15 @@ Typically the last line will not stretch as far
 
 to the right as the rest of the lines.
 
-\</p\>
-
-\<p\>
+</p>
+<p>
 
 Often there is extra space between one paragraph and the next.
 
-\</p\>
-
-\</body\>
-
-\</html\>
-
+</p>
+</body>
+</html>
+```
 You might notice that when discussing how these different elements are
 rendered (i.e. what they look like to the end user), you will find
 words like "typically", "possibly", and "generally".  It is a little
@@ -2805,7 +2795,7 @@ styling of one element to look like just about any other element.  You
 could style a \<p\> element so that it looks like an \<h1\>, though best
 practice would be not to do that.
 
-## 1.6.2 A Few New Tags to Learn
+<h3>1.6.2 A Few New Tags to Learn</h3>
 
 There are a lot more tags, but we will just cover a few more for now,
 mostly because they are straightforward to use and you can see the
@@ -2840,17 +2830,13 @@ effect in your Web page when you use them:
     rendering, each li element would typically be preceded by a number
     or bullet, or something similar (but not necessarily).  Thus a list
     in HTML would look like this:
-
+```xlm
 1.  \<ul\>
-
 2.     \<li\> First item in list \</li\>
-
 3.     \<li\> Second item in list \</li\>
-
 4.     . . .
-
 5.  \</ul\>
-
+```
 This code might be rendered like this:
 
 <img src="./images/image018.png"
@@ -2915,13 +2901,13 @@ alt="Example of poetry as it might appear on a Web page" />
 >
 > line breaks
 
-## 1.6.3 More HTML5
+<h3>1.6.3 More HTML5</h3>
 
 Video
 
-## 1.6.4 Activity - Your First Web Page
+<h3>1.6.4 Activity - Your First Web Page</h3>
 
-## 1.6.5 Recipe Project – Module 1
+<h3>1.6.5 Recipe Project – Module 1</h3>
 
 Throughout the course, we'll be building a simple project, adding to it
 with what we've learned in each module. This project will be a simple
@@ -2941,86 +2927,50 @@ following components:
 
 Please start with this "empty page" in CopePen:
 
-HTML
-
-\<!DOCTYPE html\>
-
-\<html lang="en"\>
-
-\<head\>
-
-\<meta charset="UTF-8"\>
-
-\<title\>My favorite Recipes\</title\>
-
-\</head\>
-
-\<body\>
-
-\</body\>
-
-\</html\>
-
-\<!DOCTYPE html\>
-
-\<html lang="en"\>
-
-\<head\>
-
-\<meta charset="UTF-8"\>
-
-\<title\>My Favorite Recipes - Module 1\</title\>
-
-\</head\>
-
-\<body\>
-
-\<h1\>My Favorite Recipes\</h1\>
-
-\<ul\>
-
-\<li\>Recipe 1\</li\>
-
-\</ul\>
-
-\<h2\>Recipe 1\</h2\>
-
-\<p\>
-
+<h4>HTML</h34>
+```xlm
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My favorite Recipes</title>
+</head>
+<body>
+</body>
+</html>
+```
+```xlm
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My Favorite Recipes - Module 1</title>
+</head>
+<body>
+<h1>My Favorite Recipes</h1>
+<ul>
+<li>Recipe 1</li>
+</ul>
+<h2>Recipe 1</h2>
+<p>
 This is going to be my favorite recipe.
-
-\</p\>
-
-\<h3\>List of Ingredients:\</h3\>
-
-\<ul\>
-
-\<li\>Ingredient 1\</li\>
-
-\<li\>Ingredient 2\</li\>
-
-\<li\>Ingredient 3\</li\>
-
-\</ul\>
-
-\<h3\>Steps:\</h3\>
-
-\<ol\>
-
-\<li\>Step 1\</li\>
-
-\<li\>Step 2\</li\>
-
-\<li\>Step 3\</li\>
-
-\<li\>Enjoy!\</li\>
-
-\</ol\>
-
-\</body\>
-
-\</html\>
-
+</p>
+<h3>List of Ingredients:</h3>
+<ul>
+<li>Ingredient 1</li>
+<li>Ingredient 2</li>
+<li>Ingredient 3</li>
+</ul>
+<h3>Steps:</h3>
+<ol>
+<li>Step 1</li>
+<li>Step 2</li>
+<li>Step 3</li>
+<li>Enjoy!</li>
+</ol>
+</body>
+</html>
+```
 <h3 id="ch2">2.1.1 Welcome to Module 2</h3>
 
 <img src="./images/image020.png"
@@ -3057,7 +3007,7 @@ what you've learned and test your knowledge by doing a quiz.
 
 We hope you enjoy the course, and happy learning!
 
-## 2.1.2 Meaningful Web Pages
+<h3>2.1.2 Meaningful Web Pages</h3>
 
 Tags and elements are building blocks of HTML5. However, they can be
 made so much more exciting with attributes. Let's take a simple element
@@ -3090,7 +3040,7 @@ visually impaired people who access your Web page using assistive
 technology like screen readers. Semantic markup enables all of this and
 more.
 
-## 2.1.3 Module 2 - Content
+<h3>2.1.3 Module 2 - Content</h3>
 
 **2.1 Introduction: **Check out this video explaining what you'll be
 learning about in Module 2 - and wrap your mind around the concept of
@@ -3115,38 +3065,30 @@ We learned a little bit about what attributes are in the previous
 module. Let's look into it in more depth, by using examples.
 
 Here is an ordered list:
-
-1.  \<ol\>
-
-2.    \<li\>Lights\</li\>
-
-3.    \<li\>Camera\</li\>
-
-4.    \<li\>Action\</li\>
-
-5.  \</ol\>
-
+```xlm
+1.  <ol>
+2.    <li>Lights</li>
+3.    <li>Camera</li>
+4.    <li>Action</li>
+5.  </ol>
+```
 Output:
 
-> 1\. Lights
+> 1. Lights
 >
-> 2\. Camera
+> 2. Camera
 >
-> 3\. Action
+> 3. Action
 
 If i want an ordered list to start with the number 5 instead of 1 (as it
 does by default), let's code like this:
-
-1.  \<ol start="5"\>
-
-2.    \<li\>Lights\</li\>
-
-3.    \<li\>Camera\</li\>
-
-4.    \<li\>Action\</li\>
-
-5.  \</ol\>
-
+```xlm
+1.  <ol start="5">
+2.    <li>Lights</li>
+3.    <li>Camera</li>
+4.    <li>Action</li>
+5.  </ol>
+```
 Output:
 
 > 5\. Lights  
@@ -3265,7 +3207,7 @@ So now, all you have to do in your style sheet, is to instruct it to
 make all elements belonging to the 'poetry' class grey, italic and
 bold. 
 
-## 2.2.2 Global and Non-Global Attributes
+<h3>2.2.2 Global and Non-Global Attributes</h3>
 
 You have seen a few examples of attributes now: start, id and class. All
 HTML elements have attributes.
@@ -3276,7 +3218,7 @@ There are two kinds of attributes:
 
 -   Non-global
 
-### Global attributes
+<h4>Global attributes</h4>
 
 Global attributes can be applied to **all tags**. They are common
 attributes. Examples of global attributes are id and class. There are
@@ -3370,9 +3312,9 @@ applied to the \<li\> tag. Search for the \<li\> element and then click
 on it: it will take you to the list tag's page that specifies applicable
 attributes.
 
-## 2.2.3 Global Attributes: Examples
+<h3>2.2.3 Global Attributes: Examples</h3>
 
-### Global attribute: 'id'
+<h4>Global attribute: 'id'</h4>
 
 Like we saw in the previous unit, [here is a list of all the global
 attributes](https://www.w3.org/TR/html5/dom.html#global-attributes) and
@@ -3569,7 +3511,7 @@ value. 
 1.  \<abbr title="National Aeronautics and Space
     Administration"\>NASA\</abbr\>
 
-## 2.2.4 Global Attributes
+<h3>2.2.4 Global Attributes</h3>
 
 References for the video text below:
 
@@ -3727,7 +3669,7 @@ different element pages.
 That's it for now and, go ahead and explore attributes and all of the
 elements you can think of.
 
-## 2.2.5 Activities - Attributes
+<h3>2.2.5 Activities - Attributes</h3>
 
 Please find below suggested activities to help you practice:
 
@@ -3912,12 +3854,12 @@ categories across different cultures. For more information, read the
 article [Using \<b\> and \<i\>
 elements](https://www.w3.org/International/questions/qa-b-and-i-tags).
 
-## 2.3.2 Introduction to Semantic Elements
+<h3>2.3.2 Introduction to Semantic Elements</h3>
 
 Semantic HTML is HTML that concentrates on the meaning of information in
 Web pages instead of its presentation or look.
 
-### What are semantic elements?
+<h4>What are semantic elements?</h4>
 
 If you want to add a paragraph, you would use the paragraph tag. If you
 want to add a heading, you would use the header tags \<h1\>-\<h6\>, and
@@ -3928,7 +3870,7 @@ within the tags. \<i\> and \<b\> suggest nothing about the content and
 this is why they were not considered semantic enough and initially
 deprecated.
 
-### Using the right tags
+<h4>Using the right tags</h4>
 
 From a semantic HTML perspective, using the right tags is important. You
 should use \<blockquote\> to wrap a quote and not use a paragraph tag
@@ -3938,7 +3880,7 @@ presentation purposes, you can achieve the same using CSS. How something
 looks has very little to do with what it means. This is why in HTML, we
 separate content and style.
 
-### Why is it important?
+<h4>Why is it important?</h4>
 
 Semantic elements are beneficial to both the developer and browser. They
 convey much more information about your HTML document's content and
@@ -3961,7 +3903,7 @@ Since its establishment, it is an ongoing effort on part of W3C to make
 HTML as semantic as possible. HTML5 brought with it a slew of new
 semantic elements.
 
-### Web page structure
+<h4>Web page structure</h4>
 
 Let's look at a typical Web page structure that consists of blocks named
 after: header, nav, article, section, aside and footer.
@@ -4141,11 +4083,11 @@ this:
 <img src="./images/image025.png"
 style="width:4in;height:4.37894in" />
 
-## 2.3.3 New HTML5 Semantic Elements
+<h3>2.3.3 New HTML5 Semantic Elements</h3>
 
 We will elaborate on selected semantic elements in detail in the next
 unit.
-
+```xlm
 <table>
 <colgroup>
 <col style="width: 17%" />
@@ -4280,8 +4222,9 @@ The rest of the content in details is shown/hidden by user.</td>
 </tr>
 </tbody>
 </table>
+```
 
-### \<details\> element
+<h4><details> element</h4>
 
 The \<details\> tag is very cool. It is used in conjunction with a
 nested \<summary\> tag and some other content. The result is that the
@@ -4484,7 +4427,7 @@ Apart from
 these, \<cite\>, \<em\>, \<strong\>, \<p\> and \<blockquote\> are also
 semantic elements.
 
-## 2.3.4 Differentiating Semantic Elements
+<h3>2.3.4 Differentiating Semantic Elements</h3>
 
 Now, you have learned the semantic elements available and their syntax.
 When you try to apply it practically, there are some common problems you
@@ -4497,7 +4440,7 @@ use \<article\>, \<section\> or \<div\>?
 Fear not. We will discuss these scenarios in detail so you can be better
 equipped to apply semantic elements in your Web page. 
 
-### \<header\> vs \<h1\> - \<h6\>
+<h4><header> vs <h1> - <h6></h4>
 
 \<header\> is simply an area to add any introductory content about your
 page. It can contains headings, paragraphs, tables, images, logos and
@@ -4547,36 +4490,24 @@ assistive technology users. While it is valid to skip header levels
 technology often relies on the semantics of headings to understand your
 document's structure. More information is provided in [Using h1-h6 to
 identify headings](https://www.w3.org/TR/WCAG20-TECHS/H42.html).
-
+```xlm
 1.  \<body\>
-
 2.     \<h1\>Brad's Cookbook\</h1\>
-
 3.       \<h2\>Slowcook Recipes\</h2\>
-
 4.         \<h3\>Minestrone Soup\</h3\>
-
 5.           \<h4\>Description:\</h4\>
-
 6.             \<p\>Minestrone Soup is a simple and nutritious
     dish...\</p\>
-
 7.         \<h3\>Refried Beans\</h3\>
-
 8.           \<h4\>Description:\</h4\>
-
 9.             \<p\>Cumin is the secret to this recipe.\</p\>
-
 10.      \<h2\>Dessert Recipes\</h2\>
-
 11.        \<h3\>Peach Cobbler\</h3\>
-
 12.          \<h4\>Description:\</h4\>
-
 13.            \<p\>If you can't get fresh peaches, frozen to the
     rescue!\</p\>
-
 14. \</body\>
+```
 
 <img src="./images/image031.png"
 style="width:4in;height:3.73052in" />
@@ -4593,19 +4524,19 @@ You can learn more about the source of this technique in that [other W3C
 resource page about
 headings](https://www.w3.org/WAI/tutorials/page-structure/headings/).
 
-### Can you have more than one \<header\>, \<footer\> and \<nav\>?
+<h4>Can you have more than one \<header\>, \<footer\> and \<nav\>?</h4>
 
 There is a common misconception that a Web page can only have one header
 at the start, one footer at the end and one main navigation section to
 maneuver the site. 
 
-#### Multiple headers & footers
+<h4>Multiple headers & footers</h4>
 
 Header and footer elements are for the parent element (section, article,
 division or body) that they are used in. If you have multiple sections
 or articles, then you can have one header and footer for each.
 
-#### Global header & footer
+<h4>Global header & footer</h4>
 
 Header and footer elements can also be used site-wide at the top and
 bottom of the body of the Web page. This type of header will typically
@@ -4636,7 +4567,7 @@ alt="Screenshot of Microsoft Virtual Academy home page showing the footer" />
 If you visit the page and navigate to other parts of the site, you will
 see that the header and footer remain unchanged. 
 
-### Multiple navigation menus
+<h4>Multiple navigation menus</h4>
 
 So we know we can have the nav element in header. In the example above,
 we have one in the global header with menu items 'Courses'. Did you
@@ -4648,14 +4579,14 @@ assistive technology. Screen readers now knows exactly where page
 navigation lies so it can provide options for the users to either skip
 reading its contents or to make it immediately available.
 
-### Complete example
+<h4>Complete example</h4>
 
 Now, let's look at a more complete example using a global header and
 multiple \<header\>, \<footer\> and \<nav\> tags.
 
 <img src="./images/image034.png"
 style="width:4.89583in;height:2.83333in" />
-
+```xlm
 > \<!DOCTYPE html\>
 >
 > \<html lang="en"\>
@@ -4799,8 +4730,8 @@ style="width:4.89583in;height:2.83333in" />
 > \</body\>
 >
 > \</html\>
-
-## 2.3.5 \<article\> and \<section\> Elements
+```
+<h3>2.3.5 \<article\> and \<section\> Elements</h3>
 
 ### \<article\> element
 
@@ -5184,7 +5115,7 @@ mark, figure, figcaption, details and summary.
 Experiment with the sample and try inserting other semantic elements
 that you want to try.
 
-## 2.3.6 \<div\> and \<span\> Elements
+<h3>2.3.6 \<div\> and \<span\> Elements</h3>
 
 \<div\> element
 
@@ -5256,7 +5187,7 @@ more important element that comes in handy is \<span\>. Span and Div are
 so similar yet so different that there is an entire [wikipedia
 page](https://en.wikipedia.org/wiki/Span_and_div) dedicated to it.
 
-### Usage
+<h4>Usage</h4>
 
 What happens when you do not find an appropriate tag to use? Let's look
 at this example:
@@ -5274,7 +5205,7 @@ text blue, the output will look like this:
 
 Hi everyone! My name is Alexa and I work for
 
-### ABC Company
+<h4>ABC Company</h4>
 
 That does not work because \<p\> creates a new line. The HTML above is
 also invalid. We will see why shortly. Now, let's try using \<span\>:
@@ -5320,7 +5251,7 @@ other in-line elements. Other examples: \<em\>, \<strong\>.
 as \<abbr\>, \<cite\> and \<code\> that should be used in preference
 to \<span\> where possible.
 
-### Why two paragraph tags don't work
+<h4>Why two paragraph tags don't work</h4>
 
 In the first \<span\> example, we said that nesting two paragraph
 elements was invalid HTML.
@@ -5335,7 +5266,7 @@ is not valid because the browser will consider them as two
 paragraphs one after the other. Even though you close the paragraphs
 with two closing tags \</p\>\</p\> at the end, they are ignored.
 
-## 2.3.7 Activities – Semantic Meaning
+<h3>2.3.7 Activities – Semantic Meaning</h3>
 
 Please find below suggested activities to help you practice:
 
@@ -5363,7 +5294,7 @@ Here is the most basic \<img\> tag:
 The image tag has several attributes out of which only src and alt are
 required. The rest are useful but optional attributes. 
 
-### *Image*: 'src' attribute
+<h4>*Image*: 'src' attribute</h4>
 
 The source attribute from the \<img\> tag tells us where to fetch the
 image from. There are two different types of URLs you can give for
@@ -5465,7 +5396,7 @@ information to be aware of.
     but some people write the markup by hand. Note that SVG 1.1 is
     a [W3C Web standard](https://www.w3.org/TR/SVG/).
 
-## 2.4.2 Attribute alt
+<h3>2.4.2 Attribute alt</h3>
 
 alt stands for *alternate text* for an image.
 
@@ -5505,7 +5436,7 @@ If the image is purely for presentation or decoration purposes, you
 should leave alt empty - \<img alt=""\>. Assistive technology will then
 ignore this content.
 
-### Purpose of the image
+<h4>Purpose of the image</h4>
 
 You can use images for various reasons in your Web page like:
 
@@ -5534,9 +5465,9 @@ browser:
 <img src="./images/image038.png"
 style="width:3in;height:1.90851in" />
 
-## 2.4.3 Attributes: title, height & width
+<h3>2.4.3 Attributes: title, height & width</h3>
 
-### The 'title' attribute
+<h4>The 'title' attribute</h4>
 
 Try this: place your mouse on the image below. Don't click, just rest
 your cursor on it. 
@@ -5611,7 +5542,7 @@ also useful if you are changing or removing the image: you can just
 remove it from your HTML and not deal with remembering to remove it
 from your CSS too.
 
-## 2.4.4 Decorative images
+<h3>2.4.4 Decorative images</h3>
 
 Should all images be part of HTML content?
 
@@ -5650,7 +5581,7 @@ alt="Beautiful landscape background image" /><img src="./images/image043.jpeg" s
 alt="Brick texture for use behind main content" /><img src="./images/image044.jpeg" style="width:2in;height:2in"
 alt="Decorative banner graphic" />
 
-## 2.4.5 Using \<img\> Tags
+<h3>2.4.5 Using \<img\> Tags</h3>
 
 Hi there! In this video, we're going to take a closer look at how we add
 images to our HTML pages.
@@ -5870,7 +5801,7 @@ In this video, we'd fun with images, the image tag and its attributes.
 
 You're all set to spice up your pages with some images. Take care!
 
-## 2.4.6 Activities - images
+<h3>2.4.6 Activities - images</h3>
 
 Please find below a list of possible activities:
 
@@ -5893,7 +5824,7 @@ writing alternate text. 
 
 <h3 id="ch2">2.5.1 Introduction</h3>
 
-### What are hyperlinks?
+<h4>What are hyperlinks?</h4>
 
 In a typical Web page, you may well have seen a sentence like this one:
 
@@ -6056,7 +5987,7 @@ addresses:
     be used to search the Web to pick up email addresses for spam. You
     should avoid this if possible and use contact forms instead.
 
-## 2.5.2 Attributes: href and target
+<h3>2.5.2 Attributes: href and target</h3>
 
 ### The 'href' attribute
 
@@ -6139,7 +6070,7 @@ of the new tab having opened.</p></td>
 </tbody>
 </table>
 
-## 2.5.3 Attributes: Media and Download
+<h3>2.5.3 Attributes: Media and Download</h3>
 
 ### The 'media' attribute
 
@@ -6820,7 +6751,7 @@ you learn, experimentation.
     specific purpose tags in HTML, and selectors are what allows you to
     target specific HTML elements and apply style to them
 
-## 3.1.3 The CSS Language
+<h3>3.1.3 The CSS Language</h3>
 
 ##### CSS stands for 'Cascading Style Sheets'
 
@@ -6854,7 +6785,7 @@ central way to set such rules, i.e. one place that said "I want all my
 paragraphs to be indented this much", much like master sheets in a word
 processor. CSS helps to solve this problem.
 
-## 3.1.4 The W3C CSS Working Group
+<h3>3.1.4 The W3C CSS Working Group</h3>
 
 The **CSS Working Group** (Cascading Style Sheets Working Group) is
 a [working group](https://en.wikipedia.org/wiki/Working_group) created
