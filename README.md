@@ -10,9 +10,22 @@
    width="35%"
    alt="W3C logo" />
 </p>
+
+## COLOR!
+
+- ![#ff0000](https://placehold.it/12/ff0000?text=+) red!
+- ![#9900c5](https://placehold.it/15/9900c5?text=+) purple!
+- ![#157500](https://placehold.it/20/157500?text=+) green!
+
+![](https://placehold.it/400x90/ff0000/000000?text=IMPORTANT!)
+
+![](https://placehold.it/400x90/ff6600/000?text=WARNING!)
+
+![](https://placehold.it/350x90/009955/fff?text=SUCCESS!)
+
 <h3 align="center">W3Cx-2of5-HTML5.0x - HTML5 and CSS3 Fundamentals</h3>
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- W3Cx-2of5-HTML5.0x logo (01) ---------------------------------->
+<!------------------------------ 01. W3Cx-2of5-HTML5.0x logo (01) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image001.png?raw=true"
@@ -2832,9 +2845,14 @@ effect in your Web page when you use them:
 ```
 This code might be rendered like this:
 
-<img src="./images/image018.png"
-style="width:2.05208in;height:0.88542in"
-alt="Example of a list as it would appear on a Web page" />
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 18. w3c developers logo (??) ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image018.png?raw=true"
+   width="15%"
+   alt="Example of a list as it would appear on a web page" />
+</p>
 
 There are a couple more tags we want to bring up at this point, but
 first a disclaimer.  We have been emphasizing the general rule that HTML
@@ -2872,10 +2890,14 @@ primarily used to invoke certain formatting. 
 4.  That which we call a rose \<br\> By any other name
 
 5.  would smell as sweet
-
-<img src="./images/image019.png"
-style="width:3.85417in;height:1.5in"
-alt="Example of poetry as it might appear on a Web page" />
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 19. w3c developers logo (??) ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image019.png?raw=true"
+   width="25%"
+   alt="Example of Poetry as it might appear on a Web Page" />
+</p>
 
 -   **\<pre\>** - **pre** stands for "PREformatted text", meaning that
     the text is to be presented exactly as written in the HTML file. It
@@ -3220,20 +3242,20 @@ attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes#
 the values they accept.
 
 Attributes like id and class can be applied to any HTML tag.
-
-> \<p id="para1" class="poetry" lang="en"\>The global attribute lang
-> takes language codes for values. The code for English is 'en'.\</p\>  
+```
+> <p id="para1" class="poetry" lang="en">The global attribute lang
+> takes language codes for values. The code for English is 'en'.</p>  
 >   
-> \<html lang="fr"\>\</html\> - The language attribute tells the browser
+> <html lang="fr"></html> - The language attribute tells the browser
 > that the contents of this document will be in french.
 
-\<ul id="intro-list"\>\</ul\>
+<ul id="intro-list"></ul>
 
-\<pre class="html-code"\>\</pre\>
+<pre class="html-code"></pre>
+```
+<h4>Non-global attributes</h4>
 
-### Non-global attributes
-
-Non-global attributes** **are attributes applied to a specific instance
+<b>Non-global attributes</b> are attributes applied to a specific instance
 of a tag. It can be applied to one or more tags. For example, start is
 an attribute for the \<ol\> tag and it cannot be applied on
 the \<p\> or \<h1\> tags, it is specific to only ordered
@@ -3243,28 +3265,37 @@ boolean attribute. The non-global attribute width can be applied to
 several tags such as \<img\>, \<input\> and \<video\>.
 
 **Without** the boolean attribute reversed:
+```xml
+1.  <ol>
 
-1.  \<ol\>
+2.     <li>HTML5</li>
 
-2.     \<li\>HTML5\</li\>
+3.     <li>CSS</li>
 
-3.     \<li\>CSS\</li\>
+4.     <li>JavaScript</li>
 
-4.     \<li\>JavaScript\</li\>
-
-5.  \</ol\>
-
+5.  </ol\>
+```
 **With** the boolean attribute reversed:
+```xml
+1.  <ol reversed>
 
-1.  \<ol reversed\>
+2.     <li>HTML5</li>
 
-2.     \<li\>HTML5\</li\>
+3.     <li>CSS</li>
 
-3.     \<li\>CSS\</li\>
+4.     <li>JavaScript</li>
 
-4.     \<li\>JavaScript\</li\>
-
-5.  \</ol\>
+5.  </ol>
+```
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 21. w3c developers logo (xx) ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image021.png?raw=true"
+   width="35%"
+   alt="" />
+</p>
 
 <img src="./images/image021.png"
 style="width:3in;height:2.92421in" />
@@ -8222,7 +8253,7 @@ font-family to be monospace, and the padding is set to 40 pixels.  Note
 that in the result, the font-family is applied to all the
 children, while the padding is only applied to the paragraph itself,
 none of its children inherit the padding.
-```HTML5
+```html5
 <table>
 <colgroup>
 <col style="width: 32%" />
@@ -8403,76 +8434,75 @@ the best advice is to fix them directly, rather than using !important.
 style="width:4in;height:2.78846in" />
 
 ```xlm
-\<!DOCTYPE html\>
-\<html lang="en"\>
-\<head\>
-\<meta charset="UTF-8"\>
-\<title\>My Favorite Recipes - Module 2\</title\>
-\</head\>
-\<body\>
-\<h1\>My Favorite Recipes\</h1\>
-\<nav\>
-\<ul\>
-\<li\>\<a href="#soup"\>Soup\</a\>\</li\>
-\<li\>\<a href="#salad"\>Salad\</a\>\</li\>
-\<li\>\<a href="#pizza"\>Pizza\</a\>\</li\>
-\</ul\>
-\</nav\>
-\<article id="soup"\>
-\<h2\>Soup\</h2\>
-\<img
+<!DOCTYPE html\>
+<html lang="en"\>
+<head\>
+<meta charset="UTF-8"\>
+<title\>My Favorite Recipes - Module 2\</title\>
+</head\>
+<body\>
+<h1\>My Favorite Recipes\</h1\>
+<nav\>
+<ul\>
+<li\>\<a href="#soup"\>Soup\</a\>\</li\>
+<li\>\<a href="#salad"\>Salad\</a\>\</li\>
+<li\>\<a href="#pizza"\>Pizza\</a\>\</li\>
+</ul\>
+</nav\>
+<article id="soup"\>
+<h2\>Soup\</h2\>
+<img
 src="https://upload.wikimedia.org/wikipedia/commons/2/22/Bol_soupe_bicolore.jpg"
 alt="soup image" width=320\>
-\<p\>
+<p\>
 Beethoven once said \<q\>Only the pure of heart can make a good
 soup\</q\>. Well, here's my attempt at doing just that!
-\</p\>
-\<ol\>
-\<li\>Step 1\</li\>
-\<li\>Step 2\</li\>
-
-\<li\>Step 3\</li\>
-\<li\>Enjoy!\</li\>
-\</ol\>
-\</article\>
-\<article id="salad"\>
-\<h2\>Salad\</h2\>
-\<img
+</p\>
+<ol\>
+<li>Step 1\</li\>
+<li>Step 2\</li\>
+<li>Step 3\</li\>
+<li>Enjoy!\</li\>
+</ol>
+</article>
+<article id="salad">
+<h2>Salad</h2>
+<img
 src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Caesar_salad\_%281%29.jpg/320px-Caesar_salad\_%281%29.jpg"
 alt="salad image" width=320\>
-\<h3\>List of ingredients\</h3\>
-\<ul\>
-\<li\>Ingredient 1\</li\>
-\<li\>Ingredient 2\</li\>
-\<li\>Ingredient 3\</li\>
-\</ul\>
-\<p\>
+<h3\>List of ingredients\</h3\>
+<ul\>
+<li\>Ingredient 1\</li\>
+<li\>Ingredient 2\</li\>
+<li\>Ingredient 3\</li\>
+</ul\>
+<p\>
 Who can resist a fresh salad ! Here's one of my favorites.
-\</p\>
-\<ol\>
-\<li\>Step 1\</li\>
-\<li\>Step 2\</li\>
-\<li\>Step 3\</li\>
-\<li\>Enjoy!\</li\>
-\</ol\>
-\</article\>
-\<article id="pizza"\>
-\<h2\>Pizza\</h2\>
-\<img
+</p\>
+<ol\>
+<li\>Step 1\</li\>
+<li\>Step 2\</li\>
+<li\>Step 3\</li\>
+<li\>Enjoy!\</li\>
+</ol\>
+</article\>
+<article id="pizza"\>
+<h2\>Pizza\</h2\>
+<img
 src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Margherita_Originale.JPG/320px-Margherita_Originale.JPG"
 alt="pizza image" width=320\>
-\<p\>
+<p>
 Pizza, the king of comfort foods. Try this simple, taste sensation.
-\</p\>
-\<ol\>
-\<li\>Step 1\</li\>
-\<li\>Step 2\</li\>
-\<li\>Step 3\</li\>
-\<li\>Enjoy!\</li\>
-\</ol\>
-\</article\>
-\</body\>
-\</html\>
+</p>
+<ol>
+<li>Step 1</li>
+<li>Step 2</li>
+<li>Step 3</li>
+<li>Enjoy!</li>
+</ol>
+</article>
+</body>
+</html>
 ```
 <h3 id="ch4-1">4.1.1 Welcome to Module 4</h3>
 
@@ -15308,4 +15338,4 @@ We fixed those issues at the top.
 
 These are the final changes to our recipe project for this unit.
 
-<h3><b>Last Updated 5-14-2022 12:52pm</b></h3>
+<h3><b>Last Updated 5-14-2022 1:58pm</b></h3>
