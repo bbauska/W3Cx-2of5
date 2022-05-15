@@ -3406,9 +3406,14 @@ Try this: Place your cursor on the word and then on the picture below.
 Don't click on it, just rest your cursor there. 
 
 ### **NASA**
-
-<img src="./images/image022.jpeg" style="width:2in;height:2in"
-alt="Example image of a girl with a beautiful smile to illustrate title attribute" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 22. beautiful girl (##) --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image022.png?raw=true"
+   width="25%"
+   alt="Example image of a girl with a beautiful smile to illustrate title attribute" />
+</p>
 
 Did you see the two "secret" messages? A message that appears when you
 rest your pointer over an element, is called a tooltip. Be it a
@@ -3626,9 +3631,14 @@ rule and were eventually corrected in HTML5.
     strong tag!\</p\>
 
 This is how the above HTML code will look in a browser: 
-
-<img src="./images/image023.png"
-style="width:4in;height:2.73684in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 23.  (##) --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image023.png?raw=true"
+   width="45%"
+   alt="" />
+</p>
 
 It seems redundant for two tags to do the same thing in HTML.
 While \<b\> and \<strong\>, \<i\> and \<em\> seem no different in a
@@ -3730,7 +3740,7 @@ sentences below out loud, stressing on the emphasized words: 'you' and
 
                     To the store. Not the arcade.
 
-### Changes in HTML5
+<h4>Changes in HTML5</h4>
 
 So far, we have looked at how these tags were in HTML4. In the beginning
 of this unit, we learned that content and style should be kept separate
@@ -3868,131 +3878,87 @@ repeating content. 
 
 We can apply the elements in the image above to a simple Web page like
 this:
-
+```html5
 1.  \<!DOCTYPE html\>
-
 2.  \<html lang="en"\>
-
 3.   
-
 4.  \<head\>
-
 5.    \<meta charset="UTF-8"\>
-
 6.    \<title\>Introduction to semantic elements\</title\>
-
 7.  \</head\>
-
 8.   
-
 9.  \<body\>
-
 10. \<header\>
-
 11.   \<h2\>Using the Markup Validator.\</h2\>
-
 12. \</header\>
-
 13. \<nav\>
-
 14. \<!--You will learn about \<a\> tag later in this chapter--\>
-
 15.   \<a href=""\>What is the Markup Validator and what does it
     do?\</a\>\<br /\>
-
 16.   \<a href=""\>Why validate?\</a\>\<br /\>
-
 17.   \<a href=""\>How do I use the Markup validator?\</a\>\<br /\>
-
 18.   \<a href=""\>Many error messages? Don't panic.\</a\>\<br /\>
-
 19. \</nav\>
-
 20. \<section\>
-
 21.   \<h3\>What is the Markup Validator and what does it do?\</h3\>
-
 22.   \<p\> The Markup Validator is a free tool and service that
-
 23.     \<a href="https://validator.w3.org/docs/help.html#validation_basics"\>validates
     markup\</a\>: in other words, it checks the syntax of Web documents,
     written in formats such as HTML. \</p\>
-
 24. \</section\>
 
 25. \<section\>
-
 26.   \<h3\>Why validate?\</h3\>
-
 27.   \<p\> One of the important maxims of computer programming is: "Be
     conservative in what you produce; be liberal in what you accept."
-
 28.  
-
 29. Browsers follow the second half of this maxim by accepting Web pages
     and trying to display them even if they're not legal HTML. The
     problem is that different browsers (or even different versions of
     the same browser) will make different guesses about the same illegal
     construct...
-
 30.   \</p\>
-
 31. \</section\>
-
 32. \<article\>
-
 33.   \<h3\>How do I use the Markup validator?\</h3\>
-
 34.   \<p\>Most probably, you will want to use the online Markup
     Validation service. The simple way to use this service to validate a
     Web page is to paste its address into the
-
 35.   \<a href="https://validator.w3.org/#uri"\>text area\</a\>
-
 36.   on the
-
 37.   \<a href="https://validator.w3.org/"\>validator's home page\</a\>
-
 38.   ,and press the "Check" button.\</p\>
-
 39. \</article\>
-
 40. \<aside\>
-
 41.   \<h3\>Many error messages? Don't panic.\</h3\>
-
 42.   \<p\> Don't panic. Did The Validator complain about your DOCTYPE
     declaration (or lack thereof)? Make sure your document has a
     syntactically correct DOCTYPE declaration, as described in the
     section on DOCTYPE, and make sure it correctly identifies the type
     of HTML you're using. Then run it through The Validator again; if
     you're lucky, you should get a lot fewer errors.
-
 43.  
-
 44. If this doesn't help, then you may be experiencing a cascade failure
     ... \</p\>
-
 45. \</aside\>
-
 46. \<footer\>
-
 47.   \<p\>Written by: W3C\</p\>
-
 48.   \<p\>For more information, please
     visit \<a href="https://validator.w3.org/docs/help.html"\>this
     page\</a\>.\</p\>
-
 49. \</footer\>
-
 50. \</body\>
-
 51.  
-
 52. \</html\>
-
-<img src="./images/image025.png"
-style="width:4in;height:4.37894in" />
+```
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 25.  (##) --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image025.png?raw=true"
+   width="45%"
+   alt="" />
+</p>
 
 <h3>2.3.3 New HTML5 Semantic Elements</h3>
 
@@ -13028,7 +12994,7 @@ editing many of the CSS3 specifications, she’s worked on layout engine
 testing and development for Gecko and managing the CSS test suites at
 W3C.
 
-### Executive summary
+<h4>Executive summary</h4>
 
 -   **Logical source order:**  
     The order of the HTML content should make sense even without the
@@ -13047,29 +13013,27 @@ W3C.
     Dead code may come alive as CSS changes. Delete it before it does,
     and ruins your layout.
 
-> <img src="./images/image134.jpeg"
-> style="width:1.5625in;height:1.5625in" alt="Keep the Web open!" />
->
-> **Test in multiple browsers:**  
-> Your favorite browser is not always right.
-
--   **Don't use proprietary features!**  
+<img src="./images/image134.jpeg"
+style="width:1.5625in;height:1.5625in" alt="Keep the Web open!" />
+```
+<b>Test in multiple browsers:</b>
+Your favorite browser is not always right.
+<ul>
+<li><b>Don't use proprietary features!</b><br/>
     Keep the Web open to everyone! Don't rely on the latest -WebKit-
-    invention.
+    invention.</li><br/>
+<li><b>Turn off CSS:</b><br/>&nbsp;
+    A well-coded page will be understandable without it.</li>
+</ul>
 
--   **Turn off CSS:**  
-    A well-coded page will be understandable without it.
-
-### Foundations
+<h4>Foundations</h4>
 
 -   Indent your code for readability ease
 
 -   Learn how to code CSS before relying on frameworks (such as
     Bootstrap, etc.)
 
-<!-- -->
-
--   **Separate content and style**
+-   <b>Separate content and style</b>
 
     -   Use semantic markup, ie., "classes for meaning, not for show".  
         The following article is helpful to understand this
@@ -13094,16 +13058,14 @@ W3C.
 
     -   as a foundation for device adaptation (media queries)
 
-<!-- -->
-
 -   **Linguistic variations**: set the language correctly for better
     typography (see the section entitled "Why Internationalization is
     important").
 
-### Testing
+<h4>Testing</h4>
 
-> <img src="./images/image135.jpeg"
-> style="width:2.08333in;height:1.71875in" alt="Testing image" />
+<img src="./images/image135.jpeg"
+style="width:2.08333in;height:1.71875in" alt="Testing image" />
 
 -   **Test without CSS**: turn off CSS, and if the page makes no sense,
     fix your markup.
@@ -14842,12 +14804,22 @@ as justify-content (flex-start, center, flex-end, space-between, space-aro
 This is easier to understand from an example. Below we have a flex
 container with  flex-flow:row wrap; and a height value that is greater
 than the height of any of the items.
-
-<img src="./images/image156.png"
-style="width:5in;height:3.01282in" />
-
-<img src="./images/image157.png"
-style="width:5in;height:2.77083in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 156.  (##) --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image156.png?raw=true"
+   width="65%"
+   alt="" />
+</p>
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 157.  (##) --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image157.png?raw=true"
+   width="65%"
+   alt="" />
+</p>
 
 <h3>align-self</h3>
 
@@ -14869,9 +14841,14 @@ to auto.
 In the example below, we have a flex container
 with flex-flow:row; and align-items:center;.  The individual items have
 their align-self property set.
-
-<img src="./images/image158.png"
-style="width:5in;height:1.14103in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 158.  (##) --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image158.png?raw=true"
+   width="65%"
+   alt="" />
+</p>
 
 <h3>6.4.3 Order</h3>
 
@@ -14898,9 +14875,14 @@ of column-reverse, this could be a problem.  
 The order property, when applied to an individual flexbox item, lets you
 set its order. By default, the first item in a flexbox container has
 the order value of 1, the second is 2, etc.  And you can override it.
-
-<img src="./images/image159.png"
-style="width:6.5in;height:1.60625in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 159.  (##) --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image159.png?raw=true"
+   width="85%"
+   alt="" />
+</p>
 
 <h3>6.4.4 Flexbox resources</h3>
 
@@ -14994,9 +14976,14 @@ element goes into a slot, so that they end up aligned as in a table. But
 you have full control over which slot they go into, you can change their
 order, they can span more than one row or column, and you can leave some
 slots empty.
-
-<img src="./images/image160.png"
-style="width:5in;height:2.42489in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 160.  (##) --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image160.png?raw=true"
+   width="65%"
+   alt="" />
+</p>
 
 The Grid module provides several different ways to define such a grid
 and to place the child elements. Too many, in fact, to present here.
@@ -15225,4 +15212,4 @@ We fixed those issues at the top.
 
 These are the final changes to our recipe project for this unit.
 
-<h3><b>Last Updated 5-14-2022 5:09pm</b></h3>
+<h3><b>Last Updated 5-15-2022 11:19am</b></h3>
