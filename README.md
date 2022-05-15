@@ -1727,9 +1727,9 @@ ones.  We'll learn more about these later, but we generally refer to the
 strange ones as "self closing" tags. Usually these tags represent an
 element that is completely described by its attributes, and thus
 there is no need for other content.  So if you see something like this:
-
+```
 <img src="https://goo.gl/pVxY0e" alt="Floating Flower"/\>
-
+```
 ... then you should know that the slash at the end of the open tag is
 sort of a shorthand for a close tag, so you won't see any other
 indication that this element is now complete.  There are also a few tags
@@ -1748,35 +1748,35 @@ comments.  HTML5 is no exception.  If you want to add something in your
 file that you want the browser to completely ignore, there's a special
 tag for that (unsurprisingly called a "comment tag"):
 ```
-01.   <!-- This is a comment -->
+  <!-- This is a comment -->
 ```
 An HTML comment tag starts with \<!-- and ends with --\>, meaning that
 as the computer is reading through your HTML file, if it sees \<!-- it
 will ignore everything it sees until it comes across --\>.  There is no
 open or close tag, just a comment tag.  Unlike most other things in
 HTML5, comments cannot be nested.  If you try that, like:
-```
-01. <!--
-02. Beginning of comment
-03.   <!-- comment nested inside -->
-04. This is after the nested comment
-05. -->
+```html5
+<!--
+Beginning of comment
+  <!-- comment nested inside -->
+This is after the nested comment
+-->
 ```
 The computer will then see the beginning of the comment tag and start
 ignoring everything until it sees --\>, including the second \<!--.
- Once it sees --\>, it assumes the comment is done and goes back to
+Once it sees --\>, it assumes the comment is done and goes back to
 processing everything it sees as HTML code and content, even though the
 writer may have meant it to be a comment.
 
 Like most other tags, it can span multiple lines of your source file.
  This can be really convenient when you have a lot to say:
-```
-01. <!--
-02. If you want some good advice,
-03. Neither a borrower nor a lender be,
-04. For loan oft loses both itself and friend,
-05. And borrowing dulls the edge of husbandry.
-06. -->
+```xml
+<!--
+If you want some good advice,
+Neither a borrower nor a lender be,
+For loan oft loses both itself and friend,
+And borrowing dulls the edge of husbandry.
+-->
 ```
 Comments are also commonly used in development to block out bits of
 code, whether for testing or leaving unfinished business in the file:
@@ -15225,4 +15225,4 @@ We fixed those issues at the top.
 
 These are the final changes to our recipe project for this unit.
 
-<h3><b>Last Updated 5-14-2022 3:29pm</b></h3>
+<h3><b>Last Updated 5-14-2022 5:09pm</b></h3>
