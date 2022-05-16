@@ -1781,10 +1781,10 @@ And borrowing dulls the edge of husbandry.
 Comments are also commonly used in development to block out bits of
 code, whether for testing or leaving unfinished business in the file:
 ```
-01. <!-- Not sure if I want this wording or not:
-02. <p>Eighty seven years ago, a bunch of guys started a new
+ <!-- Not sure if I want this wording or not:
+ <p>Eighty seven years ago, a bunch of guys started a new
     country</p>
-03. -->
+ -->
 ```
 It's important to remember that just as HTML, CSS and JavaScript are
 three different languages, they each have their own notation for
@@ -2003,11 +2003,11 @@ Use the \<meta\> tag with the charset attribute in your HTML page to
 indicate to the browser the character encoding you will be using in the
 page.
 ```
-1.  <meta charset="utf-8">
+  <meta charset="utf-8">
 ```
 Alternatively, you can also use http-equiv and content attributes. 
 ```
-1.  <meta http-equiv="Content-Type" content="text/html;
+  <meta http-equiv="Content-Type" content="text/html;
     charset=utf-8">
 ```
 We recommend using the first one because it is much less complicated.
@@ -2021,13 +2021,13 @@ mentioned in your code, the better. 
 
 W3C recommends placing it immediately after the opening \<head\> tag:
 ```
-1.  <!DOCTYPE html>
-2.  <html lang="en">
-3.    <head>
-4.      <meta charset="utf-8">
-5.      ...
-6.    </head>
-7.  </html>
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      ...
+    </head>
+  </html>
 ```
 <h3>1.4.3 HTML Character References</h3>
 
@@ -2038,7 +2038,7 @@ the need for them came about. 
 
 Try the following code in your HTML:
 ```
-1.  <p>Welcome to "HTML5 & CSS Fundamentals". The first tag we will be
+  <p>Welcome to "HTML5 & CSS Fundamentals". The first tag we will be
     learning about is  the <html> tag.</p>
 ```
 <h4>HTML</h4>
@@ -2336,16 +2336,16 @@ enclosed in another element, or you can have two elements side-by-side,
 but you can never have a situation in which part of an element is in
 another, but the other part is not.
 ```xml
-1.  <p>This is a <em>paragraph</em></p>
-2.   
-3.  <h1>Paragraph ahead\</h1>
-4.  <p\>And here it is.\</p>
+  <p>This is a <em>paragraph</em></p>
+   
+  <h1>Paragraph ahead\</h1>
+  <p\>And here it is.\</p>
 ```
 The two examples above are fine because in each case either an element
 is wholly contained in another (\<em\> in \<p\>) or they are completely
 separate (\<h1\> and \<p\>). This, on the other hand, is not valid:
 ```xml
-1.  <h1>Part of this header is<p>in the</h2> paragraph below</p>
+  <h1>Part of this header is<p>in the</h2> paragraph below</p>
 ```
 What happens in this case is what we call "undefined". That just means
 that there is no telling how the browser will decide to handle it. It
@@ -2383,25 +2383,25 @@ need the \<!doctype\> section and the \<html\> section with
 Proper indentation is one way to make your code clearer and easier to
 understand:
 ```xml
-1.  <body>
-2.  <h1>Here is a heading</h1>
-3.  <p>
-4.  <ol><li>List Item 1</li></ol>
-5.  </p>
-6.  </body>
+  <body>
+  <h1>Here is a heading</h1>
+  <p>
+  <ol><li>List Item 1</li></ol>
+  </p>
+  </body>
 ```
 The code above doesn't give any sense of the structure of the document.
 By using indentation effectively, you can make it more clear, showing
 the nesting of elements:
 ```xml
-1.  <body>
-2.    <h1>Here is a heading</h1>
-3.    <p>
-4.      <ol>
-5.        <li>List Item 1</li>
-6.      </ol>
-7.    </p>
-8.  </body>
+  <body>
+    <h1>Here is a heading</h1>
+    <p>
+      <ol>
+        <li>List Item 1</li>
+      </ol>
+    </p>
+  </body>
 ```
 Consistent quoting of strings is also helpful, in part to avoid
 potential problems that can arise when you think something does not need
@@ -2507,9 +2507,7 @@ strings (say a string without spaces), even if you do not use the
 quotation marks it will essentially insert them for you. Thus:
 ```xml
    <p id=MyName>
-   
    <p id="MyName">
-   
    <p id='MyName'>
 .... are all equivalent.  
 ```
@@ -2724,11 +2722,11 @@ effect in your Web page when you use them:
     or bullet, or something similar (but not necessarily).  Thus a list
     in HTML would look like this:
 ```xml
-1.  \<ul\>
-2.     \<li\> First item in list \</li\>
-3.     \<li\> Second item in list \</li\>
-4.     . . .
-5.  \</ul\>
+  <ul>
+     <li> First item in list </li>
+     <li> Second item in list </li>
+     . . .
+  </ul>
 ```
 This code might be rendered like this:
 
@@ -2975,27 +2973,27 @@ Here is an ordered list:
 5.  </ol>
 ```
 Output:
+```
+ 1. Lights
 
-> 1. Lights
->
-> 2. Camera
->
-> 3. Action
+ 2. Camera
 
+ 3. Action
+```
 If i want an ordered list to start with the number 5 instead of 1 (as it
 does by default), let's code like this:
 ```xml
-1.  <ol start="5">
-2.    <li>Lights</li>
-3.    <li>Camera</li>
-4.    <li>Action</li>
-5.  </ol>
+  <ol start="5">
+    <li>Lights</li>
+    <li>Camera</li>
+    <li>Action</li>
+  </ol>
 ```
 Output:
 
-> 5\. Lights  
-> 6. Camera  
-> 7. Action
+5. Lights
+6. Camera
+7. Action
 
 Here, using the start attribute, we made our list start with 5 instead
 of 1.
@@ -3037,11 +3035,10 @@ Attributes are used in tags to further define the tag:
 ### Example \#1: the 'id' attribute
 
 Imagine you have two paragraphs in your HTML page:
-
-1.  \<p\>I am paragraph 1 and I want to be in red\</p\>
-
-2.  \<p\>I am paragraph 2 and I want to be in blue\</p\>
-
+```xml
+  <p>I am paragraph 1 and I want to be in red</p>
+  <p>I am paragraph 2 and I want to be in blue</p>
+```
 Your task is to make the text color of the first paragraph red and the
 other blue. How do we do that? You add styling to your HTML document
 through CSS. CSS is a style sheet language where you add any
@@ -3057,11 +3054,10 @@ your school or corporate ID that is unique to you. No one else in your
 company will have the same ID as you. id is an attribute. It should be
 unique to the element; we know how more than one people having the same
 ID can just cause a lot of confusion. 
-
-1.  \<p id="para1"\>I am paragraph 1 and I want to be in red\</p\>
-
-2.  \<p id="para2"\>I am paragraph 2 and I want to be in blue\</p\>
-
+```xml
+  <p id="para1">I am paragraph 1 and I want to be in red</p>
+  <p id="para2">I am paragraph 2 and I want to be in blue</p>
+```
 Here, we can style para1 and para2 separately using CSS.
 The id attribute helps us do this by letting us give each paragraph an
 ID.
@@ -3098,13 +3094,12 @@ Can you imagine how repetitive your style sheet will look if you have to
 instruct it to do the same thing 20 times for different poem IDs? HTML
 makes it easier. We use the class attribute. Let's name this class of
 poems 'poetry'. 
-
-1.  \<p id="poem1" class="poetry"\>To move, to breathe, to fly, to
-    float...\</p\>
-
-2.  \<p id="poem2" class="poetry"\>Roses are red, violets are
-    blue...\</p\>
-
+```xml
+  <p id="poem1" class="poetry">To move, to breathe, to fly, to
+    float...</p>
+  <p id="poem2" class="poetry">Roses are red, violets are
+    blue...</p>
+```
 So now, all you have to do in your style sheet, is to instruct it to
 make all elements belonging to the 'poetry' class grey, italic and
 bold. 
@@ -3129,15 +3124,12 @@ attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes#
 the values they accept.
 
 Attributes like id and class can be applied to any HTML tag.
-```
-> <p id="para1" class="poetry" lang="en">The global attribute lang
-> takes language codes for values. The code for English is 'en'.</p>  
->   
-> <html lang="fr"></html> - The language attribute tells the browser
-> that the contents of this document will be in french.
-
+```xml
+<p id="para1" class="poetry" lang="en">The global attribute lang
+takes language codes for values. The code for English is 'en'.</p>  
+<html lang="fr"></html> - The language attribute tells the browser
+that the contents of this document will be in french.
 <ul id="intro-list"></ul>
-
 <pre class="html-code"></pre>
 ```
 <h4>Non-global attributes</h4>
@@ -3153,27 +3145,19 @@ several tags such as \<img\>, \<input\> and \<video\>.
 
 **Without** the boolean attribute reversed:
 ```xml
-1.  <ol>
-
-2.     <li>HTML5</li>
-
-3.     <li>CSS</li>
-
-4.     <li>JavaScript</li>
-
-5.  </ol\>
+  <ol>
+     <li>HTML5</li>
+     <li>CSS</li>
+     <li>JavaScript</li>
+  </ol>
 ```
 **With** the boolean attribute reversed:
 ```xml
-1.  <ol reversed>
-
-2.     <li>HTML5</li>
-
-3.     <li>CSS</li>
-
-4.     <li>JavaScript</li>
-
-5.  </ol>
+  <ol reversed>
+     <li>HTML5</li>
+     <li>CSS</li>
+     <li>JavaScript</li>
+  </ol>
 ```
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- 21. w3c developers logo (xx) ---------------------------------->
@@ -3272,13 +3256,11 @@ id is primarily used for:
     2.  \<p id="introduction"\>This paragraph is the Introduction to the
         > Web page\</p\>
 
-<!-- -->
-
 1.  In JavaScript, 'id' can be used to manipulate an html element. Using
     the 'id' of the element, you can write JavaScript code to make it
     perform an action, i.e. change the text within paragraph tags. 
 
-### Global attribute: 'class'
+<h4>Global attribute: 'class'</h4>
 
 The class attribute, while similar to id, groups a set of elements in
 the same class. Its name-value pair is class="classname".
@@ -3286,19 +3268,18 @@ Unlike id, which is unique to an element, the same class name can be
 assigned to more than one element.
 
 For example:
-
-1.  \<p class="question"\>What is your name?\</p\>
-
-2.  \<p class="question"\>Do you like HTML5?\</p\>
-
+```
+  <p class="question">What is your name?</p>
+  <p class="question">Do you like HTML5?</p>
+```
 Both paragraphs above are grouped under the class named 'question'. An
 element can have one or more class names. If we also want the second
 question to be under the 'html' class because it is an HTML related
 question, you can add two class names by separating them with white
 space:
-
-1.  \<p class="question html"\>Do you like HTML5?\</p\>
-
+```
+<p class="question html">Do you like HTML5?</p>
+```
 Naming rules for the class attribute:
 
 -   Must begin with a letter (a-z or A-Z)
@@ -3312,15 +3293,12 @@ class is primarily used for:
 
 1\. Styling your elements. You can specify the style you want for all
 the elements that belong to the class in your stylesheet. 
-
-1.  \<p class="question"\>Who are you?\</p\>
-
-2.  \<p class="answer"\>I am the author\</p\>
-
-3.  \<p class="question html"\>Do you like HTML5?\</p\>
-
-4.  \<p class="answer"\>Yes\</p\>
-
+```xml
+<p class="question">Who are you?</p>
+<p class="answer">I am the author</p>
+<p class="question html">Do you like HTML5?</p>
+<p class="answer">Yes</p>
+```
 In your CSS, you can include code to style your classes, for example by
 telling it:
 
@@ -3346,7 +3324,7 @@ The 'Do you like HTML5?' question has styles for both the 'question' and
 2\. In JavaScript, class can also be used to manipulate html elements of
 the same class. 
 
-### Global attribute: 'lang'
+<h4>Global attribute: 'lang'</h4>
 
 The lang attribute indicates the language of the text in the element to
 which it is attached.  Identifying the language of content is
@@ -3379,12 +3357,12 @@ You should **always declare the language of your page in the
 page by attaching a lang attribute to an element that contains it.
 
 For example:
+```xml
+<html lang="en-GB">...</html>
 
-1.  \<html lang="en-GB"\>...\</html\>
-
-2.  \<p\>In French you'd say \<span lang="fr"\>On voit souvent des chats
-    sur le Web.\</span\>\</p\>
-
+<p>In French you'd say <span lang="fr">On voit souvent des chats
+    sur le Web.</span></p>
+```
 The first example above shows how you can qualify the language (English)
 with a region subtag (GB) to specify British English.  This distinction
 can be useful for spellchecking your source. You can also add other
@@ -10162,103 +10140,80 @@ group the header content in a HTML table. 
 As we learned in the previous unit, header cells are specified
 using \<th\> as a child of \<tr\>. Rows specified
 within \<thead\> indicate that they are header rows. See the code below:
-
-1.  \<thead style="color:white"\>
-
-2.    \<tr\>
-
-3.      \<th scope="col"\>Name\</th\>
-
-4.      \<th scope="col"\>Age\</th\>
-
-5.    \</tr\>
-
-6.  \</thead\>
-
+```xml
+  <thead style="color:white">
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Age</th>
+    </tr>
+  </thead>
+```
 ### \<tbody\>
 
 Following \<thead\>, subsequent rows are considered body rows in a
 table. Regular cells are specified using \<td\> as a child of \<tr\>:
-
-1.  \<tbody\>
-
-2.    \<tr\>
-
-3.      \<td\>Alexa\</td\>
-
-4.      \<td\>23\</td\>
-
-5.    \</tr\>
-
-6.    \<tr\>
-
-7.      \<td\>James\</td\>
-
-8.      \<td\>35\</td\>
-
-9.    \</tr\>
-
-10.   \<tr\>
-
-11.     \<td\>Trisha\</td\>
-
-12.     \<td\>23\</td\>
-
-13.   \</tr\>
-
-14. \</tbody\>
-
+```xml
+  <tbody>
+    <tr>
+      <td>Alexa\</td>
+      <td>23\</td>
+    </tr>
+    <tr>
+      <td>James</td>
+      <td>35</td>
+    </tr>
+   <tr>
+     <td>Trisha</td>
+     <td>23\</td>
+   </tr>
+ </tbody>
+```
 ### \<tfoot\>
 
 The footer is the last to be specified and rows within \<tfoot\> are
 considered footer rows at the end of a table:
-
-1.  \<tfoot\>
-
-2.    \<tr\>
-
-3.      \<td\>3 Unique Name\</td\>
-
-4.      \<td\>2 Unique Ages\</td\>
-
-5.    \</tr\>
-
-6.  \</tfoot\>
-
+```xml
+  <tfoot>
+    <tr>
+      <td>3 Unique Name</td>
+      <td>2 Unique Ages</td>
+    </tr>
+  </tfoot>
+```
 <h4>Putting it all together:</h4>
 ```xml
-1.  \<table border=1\>
-2.    \<colgroup\>
-3.      \<col span="1" style="background-color:green"\>
-4.      \<col span="1" style="background-color:orange"\>
-5.    \</colgroup\>
-6.    \<thead style="color:white"\>
-7.      \<tr\>
-8.        \<th scope="col"\>Name\</th\>
-9.        \<th scope="col"\>Age\</th\>
-10.     \</tr\>
-11.   \</thead\>
-12.   \<tbody\>
-13.     \<tr\>
-14.       \<td\>Alexa\</td\>
-15.       \<td\>23\</td\>
-16.     \</tr\>
-17.     \<tr\>
-18.       \<td\>James\</td\>
-19.       \<td\>35\</td\>
-20.     \</tr\>
-21.     \<tr\>
-22.       \<td\>Trisha\</td\>
-23.       \<td\>23\</td\>
-24.     \</tr\>
-25.   \</tbody\>
-26.   \<tfoot style="font-style: italic;"\>
-27.     \<tr\>
-28.       \<td\>3 Unique Names\</td\>
-29.       \<td\>2 Unique Ages\</td\>
-30.     \</tr\>
-31.   \</tfoot\>
-32. \</table\>
+  <table border=1>
+    <colgroup>
+      <col span="1" style="background-color:green">
+      <col span="1" style="background-color:orange">
+    </colgroup>
+    <thead style="color:white">
+      <tr>
+        <th scope="col">Name</th>
+       <th scope="col">Age</th>
+     </tr>
+   </thead>
+   <tbody>
+     <tr>
+       <td>Alexa</td>
+       <td>23</td>
+     </tr>
+     <tr>
+       <td>James</td>
+       <td>35</td>
+     </tr>
+     <tr>
+       <td>Trisha</td>
+       <td>23</td>
+     </tr>
+   </tbody>
+   <tfoot style="font-style: italic;">
+     <tr>
+       <td>3 Unique Names</td>
+       <td>2 Unique Ages</td>
+     </tr>
+   </tfoot>
+ </table>
 ```
 <img src="./images/image091.png"
 style="width:4in;height:2.53781in" />
