@@ -2873,8 +2873,14 @@ This is going to be my favorite recipe.
 ```
 <h3 id="ch2">2.1.1 Welcome to Module 2</h3>
 
-<img src="./images/image020.png"
-style="width:3.48958in;height:3.01042in" />
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------- 20.  (##) ---------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image020.png?raw=true"
+   width="35%"
+   alt="" />
+</p>
 
 Hi, everyone, and welcome.
 
@@ -3168,9 +3174,6 @@ several tags such as \<img\>, \<input\> and \<video\>.
    alt="" />
 </p>
 
-<img src="./images/image021.png"
-style="width:3in;height:2.92421in" />
-
 Ordered lists have their own specific attributes and all global
 attributes can also be applied to them.
 
@@ -3388,7 +3391,7 @@ Don't click on it, just rest your cursor there. 
 <!------------------------------ 22. beautiful girl (##) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image022.png?raw=true"
+<img src="./images/image022.jpeg?raw=true"
    width="25%"
    alt="Example image of a girl with a beautiful smile to illustrate title attribute" />
 </p>
@@ -3807,8 +3810,14 @@ semantic elements.
 Let's look at a typical Web page structure that consists of blocks named
 after: header, nav, article, section, aside and footer.
 
-<img src="./images/image024.jpeg" style="width:4in;height:4in"
-alt="Picture showing the structure of a Web site: header, nav, article, section, aside and footer" />
+<!------------------------------------------------------------------------------------------------>
+<!----------------------- 24. picture showing structure of a web site (78) ----------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image024.jpeg?raw=true"
+   width="45%"
+   alt="Picture showing the structure of a Web site: header, nav, article, section, aside and footer" />
+</p>
 
 Tags such as** \<article\>**, **\<section\>**, **\<header\>**, **\<nav\>
 and \<footer\> **were specifically introduced in HTML5 to define the Web
@@ -3930,19 +3939,19 @@ this:
 52. \</html\>
 ```
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 25.  (##) --------------------------------->
+<!------------------------------ 25. using the markup validator (81) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image025.png?raw=true"
    width="45%"
-   alt="" />
+   alt="Using the Markup Validator" />
 </p>
 
 <h3>2.3.3 New HTML5 Semantic Elements</h3>
 
 We will elaborate on selected semantic elements in detail in the next
 unit.
-```xml
+
 <table>
 <colgroup>
 <col style="width: 17%" />
@@ -4077,7 +4086,7 @@ The rest of the content in details is shown/hidden by user.</td>
 </tr>
 </tbody>
 </table>
-```
+
 
 <h4><details> element</h4>
 
@@ -4125,7 +4134,7 @@ style="width:4in;height:2.31579in" />
 See also the current [browser
 support](https://caniuse.com/#search=%3Cdetails%3E) (on caniuse.com).
 
-### \<figcaption\> element
+<h4><figcaption> element</hr>
 
 This element is used to provide a caption or explanation of the image
 (figure). While the alt attribute explains the image for assistive
@@ -4148,7 +4157,7 @@ Result:
 alt="dress rehearsal" />  
 Fig. 1: The cast hard at work at dress rehearsal before opening night
 
-### \<mark\> element
+<h4>\<mark\> element</h4>
 
 This element is used to specify content that you want to highlight. 
 
@@ -4163,7 +4172,7 @@ black text by default, however, if it doesn't, you can specify the
 styling in CSS. See also the current [browser
 support](https://caniuse.com/#feat=html5semantic) (on caniuse.com).
 
-### Effect of semantic elements
+<h4>Effect of semantic elements</h4>
 
 If you have had a chance to try the examples of the semantic elements
 discussed above, you will notice that semantic elements are not visually
@@ -5317,8 +5326,14 @@ browser:
 1.  \<img src="image/tulips.png" alt="This is supposed to be an image of
     tulips"\>
 
-<img src="./images/image038.png"
-style="width:3in;height:1.90851in" />
+<!------------------------------------------------------------------------------------------------>
+<!----------------------- 38.  (##) ----------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image038.png?raw=true"
+   width="35%"
+   alt="" />
+</p>
 
 <h3>2.4.3 Attributes: title, height & width</h3>
 
@@ -5327,8 +5342,14 @@ style="width:3in;height:1.90851in" />
 Try this: place your mouse on the image below. Don't click, just rest
 your cursor on it. 
 
-<img src="./images/image039.jpeg"
-style="width:3.125in;height:2.34375in" alt="Tulips in a basket" />
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 39. tulips in a basket (108) ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image039.jpeg?raw=true"
+   width="35%"
+   alt="Tulips in a Basket" />
+</p>
 
 Did you see the hidden message 'Tulips from woodburn tulip
 festival'? title is a global attribute we have seen before but worth
@@ -5356,8 +5377,14 @@ pixels without using an external editor.
 
 Here is my original image:
 
-<img src="./images/image040.png"
-style="width:2in;height:3.03188in" alt="HTML5 logo not resized" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------ 40. html5 logo (109) -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image040.png?raw=true"
+   width="35%"
+   alt="HTML5 logo" />
+</p>
 
 Clearly too big for the page. The original image dimensions is 345x523
 in pixels. Pixel is short for picture element. These are the little dots
@@ -5371,8 +5398,14 @@ Now, if I want to resize the HTML logo above by half:
 1.  \<img src="images/html5.png" alt="HTML resized image" title="Resized
     image seems to fit the page better" height="173" width="262"\>
 
-<img src="./images/image041.png"
-style="width:1in;height:1.51445in" alt="HTML5 logo resized" />
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 41. html5 logo resized (109) ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image041.png?raw=true"
+   width="15%"
+   alt="HTML5 logo Resized" />
+</p>
 
 Actually, you don't need to define both width and height. You can just
 specify either height or width and the aspect ratio will be adjusted.
@@ -14237,8 +14270,14 @@ border, and margins.  In CSS parlance, this question is about the "Box
 Model" of the element.  Here is an illustration of how the different
 boxes are organized (innermost to outermost).
 
-<img src="./images/image150.png"
-style="width:4in;height:3.08162in" />
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------- 150. flex container result (321) ---------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image150.png?raw=true"
+   width="45%"
+   alt="Flex Container result" />
+</p>
 
 box-sizing
 
@@ -14310,8 +14349,14 @@ browser sizes, with no other properties applied except some small margin
 and padding on the paragraph, and a background color and a border radius
 to help visualize.
 
-<img src="./images/image151.png"
-style="width:6.5in;height:1.53819in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 151. flex container and flex columns (322) --------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image151.png?raw=true"
+   width="100%"
+   alt="Flex Container and Flex Columns" />
+</p>
 
 ### flex container
 
@@ -14583,8 +14628,14 @@ wrap-reverse; it is vertical running bottom to top.
 
 #### Start and end
 
-<img src="./images/image152.jpeg"
-style="width:5in;height:4.28579in" alt="flexbox axes" />
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------- 152. flex container and flex-flow (324) ---------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image152.png?raw=true"
+   width="65%"
+   alt="Flex Container and Flex-flow" />
+</p>
 
 In the illustration above, we see the main and cross axes as they would
 be for flex-flow:row wrap;.  And in the same illustration, we also see
@@ -14698,8 +14749,14 @@ the direction of the cross axis.
 The table below should help illustrate this. It shows the justification
 options for a flexbox container with flex-flow:row;
 
-<img src="./images/image153.png"
-style="width:6.5in;height:2.11875in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------ 153. justification options for a flexbox container with flex-flow (327) ----------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image153.png?raw=true"
+   width="100%"
+   alt="Justification Options for a Flexbox container with Flex-Flow" />
+</p>
 
 If the flex-direction were row-reverse, then the only thing to change in
 the table above would be that the appearances
@@ -14739,11 +14796,23 @@ height of any of the items.  
 In the example below, each item has a different line-height value, so
 you can see how they align to each other.
 
-<img src="./images/image154.png"
-style="width:5in;height:2.98611in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 154. line height and align items #1 (328) ---------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image154.png?raw=true"
+   width="65%"
+   alt="Line Height and Align Items #1" />
+</p>
 
-<img src="./images/image155.png"
-style="width:5in;height:1.86645in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 155. line height and align items #2 (328)  --------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image155.png?raw=true"
+   width="65%"
+   alt="Line Height and Align Items #2" />
+</p>
 
 <h3>align-content</h3>
 
@@ -14760,20 +14829,20 @@ This is easier to understand from an example. Below we have a flex
 container with  flex-flow:row wrap; and a height value that is greater
 than the height of any of the items.
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 156.  (##) --------------------------------->
+<!------------------------- 156. flexbox and flex items align #1 (329) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image156.png?raw=true"
    width="65%"
-   alt="" />
+   alt="Flexbox and Flex Item Align #1" />
 </p>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 157.  (##) --------------------------------->
+<!------------------------- 157. flexbox and flex items align #2 (329) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image157.png?raw=true"
    width="65%"
-   alt="" />
+   alt="Flexbox and Flex Item Align #2" />
 </p>
 
 <h3>align-self</h3>
@@ -14797,12 +14866,12 @@ In the example below, we have a flex container
 with flex-flow:row; and align-items:center;.  The individual items have
 their align-self property set.
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 158.  (##) --------------------------------->
+<!--------------------------------- 158. flex container  (330) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image158.png?raw=true"
    width="65%"
-   alt="" />
+   alt="Flex Container with flex-flow and align" />
 </p>
 
 <h3>6.4.3 Order</h3>
@@ -14831,12 +14900,12 @@ The order property, when applied to an individual flexbox item, lets you
 set its order. By default, the first item in a flexbox container has
 the order value of 1, the second is 2, etc.  And you can override it.
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 159.  (##) --------------------------------->
+<!---------------------------- 159. order property in flex box (330) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image159.png?raw=true"
    width="85%"
-   alt="" />
+   alt="Order Property in Flex Box" />
 </p>
 
 <h3>6.4.4 Flexbox resources</h3>
@@ -14932,12 +15001,12 @@ you have full control over which slot they go into, you can change their
 order, they can span more than one row or column, and you can leave some
 slots empty.
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 160.  (##) --------------------------------->
+<!----------------------------------- 160. grid module (333) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image160.png?raw=true"
    width="65%"
-   alt="" />
+   alt="Grid Module" />
 </p>
 
 The Grid module provides several different ways to define such a grid
@@ -15167,4 +15236,4 @@ We fixed those issues at the top.
 
 These are the final changes to our recipe project for this unit.
 
-<h3><b>Last Updated 5-15-2022 11:19am</b></h3>
+<h3><b>Last Updated 5-16-2022 2:23pm</b></h3>
