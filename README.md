@@ -2164,6 +2164,7 @@ You have to write it like this in your HTML code:
 &lt;img src=&quot;images/test.png&quot; alt=&quot;test image&quot;&gt;
 ```
 <h4>HTML</h4>
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -2181,6 +2182,7 @@ You have to write it like this in your HTML code:
 </body>
 </html>
 ```
+
 Some tolerant browsers will allow using the &amp; character directly
 but **not** all. So you should use its character reference &amp;. [Check
 out these examples](https://jsfiddle.net/vh2h7usk/1/) illustrating the
@@ -2874,12 +2876,12 @@ This is going to be my favorite recipe.
 <h3 id="ch2">2.1.1 Welcome to Module 2</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------- 20.  (##) ---------------------------->
+<!---------------------------- 20. attributes, images and links (57) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image020.png?raw=true"
    width="35%"
-   alt="" />
+   alt="Attributes, Images and Links" />
 </p>
 
 Hi, everyone, and welcome.
@@ -3166,25 +3168,25 @@ several tags such as \<img\>, \<input\> and \<video\>.
   </ol>
 ```
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 21. w3c developers logo (xx) ---------------------------------->
+<!------------------------------------- 21. html result (63) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image021.png?raw=true"
    width="35%"
-   alt="" />
+   alt="HTML Result" />
 </p>
 
 Ordered lists have their own specific attributes and all global
 attributes can also be applied to them.
 
-### More examples:
+<h4>More examples:</h4>
 
 The image \<img\> and hyperlink \<a\> elements, which we will be
 learning about shortly, have many non-global attributes of their own.
 
-**\<img\>  : ** src, alt, etc.
+<b>\<img\>  :</b> src, alt, etc.
 
-**\<a\>**  : href, target, download, etc.
+<b>\<a\></b>  : href, target, download, etc.
 
 Other than the common global attributes, if you wish to learn about the
 supported non-global attributes for any element, you can visit the [HTML
@@ -5327,12 +5329,12 @@ browser:
     tulips"\>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------- 38.  (##) ----------------------->
+<!------------------------ 38. Supposed to be an image of tulips (108) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image038.png?raw=true"
    width="35%"
-   alt="" />
+   alt="Supposed to be an image of tulips" />
 </p>
 
 <h3>2.4.3 Attributes: title, height & width</h3>
@@ -5356,10 +5358,10 @@ festival'? title is a global attribute we have seen before but worth
 mentioning again because it is very useful in an \<img\> tag. If you
 have a complicated image that could use a tooltip or description, you
 will want to use the title attribute.
-
+```
 1.  \<img src="images/tulips.png" alt="This is supposed to be an image
     of tulips" title="Tulips from woodburn tulip festival"\>
-
+```
 The alt attribute is meant to be an alternate source of information
 while the title attribute should provide additional information about
 the image. 
@@ -5464,6 +5466,9 @@ Can you identify these types of decorative images?
 
 Find out from their tooltips!
 
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 42,43,44.  (110) ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <img src="./images/image042.jpeg" style="width:2in;height:2in"
 alt="Beautiful landscape background image" /><img src="./images/image043.jpeg" style="width:2in;height:2in"
 alt="Brick texture for use behind main content" /><img src="./images/image044.jpeg" style="width:2in;height:2in"
@@ -15236,4 +15241,4 @@ We fixed those issues at the top.
 
 These are the final changes to our recipe project for this unit.
 
-<h3><b>Last Updated 5-16-2022 2:23pm</b></h3>
+<h3><b>Last Updated 5-16-2022 3:35pm</b></h3>
