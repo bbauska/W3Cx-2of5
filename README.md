@@ -337,7 +337,7 @@ Cascading Style Sheets (CSS) and (X)HTML documents that use CSS
 stylesheets.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- 04. laptop (08) ------------------------------->
+<!--------------------------------------- 04. laptop (08) ---------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image004.png?raw=true"
@@ -653,7 +653,7 @@ interact with all the information on the World Wide Web.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image010.png?raw=true"
-   width="25%"
+   width="15%"
    alt="HTML5 logo" />
 </p>
 
@@ -678,7 +678,7 @@ create dynamic Web pages.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image011.png?raw=true"
-   width="25%"
+   width="15%"
    alt="CSS3 logo" />
 </p>
 
@@ -696,7 +696,7 @@ whatever else may apply to what it looks like.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image012.jpeg?raw=true"
-   width="25%"
+   width="15%"
    alt="JavaScript logo" />
 </p>
 
@@ -822,18 +822,18 @@ from the regular text.  In HTML these annotations are called "tags".
 
 For example, consider the following chunk of HTML code:
 ```xml
-1.     <body>
-2.        <h1>A Tale of Two Cities</h1>
-3.        <p>
-4.           It was the best of times, it was the worst of times, . . .
+     <body>
+        <h1>A Tale of Two Cities</h1>
+        <p>
+           It was the best of times, it was the worst of times, . . .
     .
-5.        </p>
-6.        . . .
-7.        <p>
-8.           . . . it is a far, far better rest
-9.           that I go to than I have ever known.
-10.       </p>
-11.    </body>
+        </p>
+        . . .
+        <p>
+           . . . it is a far, far better rest
+           that I go to than I have ever known.
+       </p>
+    </body>
 ```
 If you eliminated everything in between the angle brackets from the
 text, for most purposes it would still read the same:
@@ -951,9 +951,7 @@ And in this case here, it signifies that the page is written in HTML5.
 
 The next tag we see is the html tag,
 and as you can see we have the beginning tag here and the ending tag at
-the end,
-
-which means everything on a HTML page is contained within these two
+the end, which means everything on a HTML page is contained within these two
 tags.
 
 All other tags must be contained or nested within this tag, 
@@ -2606,8 +2604,6 @@ seen:
     your page, essentially what the user sees.  This could be text,
     pictures, links, videos, tables and so on. There can be only
     one \<body\> element in a document.
-
-<!-- -->
 
 -   **\<h1\>** - There is a whole collection of '*h*' tags, \<h1\>,
     \<h2\>, \<h3\> . . . all the way up to \<h6\>.  Why there are 6
@@ -6678,7 +6674,7 @@ merely place it directly into the document under edit.  
 To place CSS directly into an HTML document, we use the \<style\> tag.
  This tag can appear anywhere in an HTML document, however, the most
 common practice is to place it in the \<head\> section.  Such as:
-
+```
 1.  \<!DOCTYPE html\>
 
 2.  \<html lang="en"\>
@@ -6708,7 +6704,7 @@ common practice is to place it in the \<head\> section.  Such as:
 14.   \</body\>
 
 15. \</html\>
-
+```
 <h3>The \<link\> tag</h3>
 
 While \<style\> is convenient, the better practice is to put the
@@ -6724,11 +6720,11 @@ appear in the \<head\> section.  By convention, css files are kept in a
 directory named *css*.
 
 Use this \<link\> as a template:
-
+```
 1.  \<link rel="stylesheet" href="css/my_styles.css"\>
-
+```
 Here is an example HTML document.
-
+```
 1.  \<!DOCTYPE html\>
 
 2.  \<html lang="en"\>
@@ -6750,7 +6746,7 @@ Here is an example HTML document.
 10.   \</body\>
 
 11. \</html\>
-
+```
 <h3>3.2.2 Rules: selectors and declarations</h3>
 
 At its simplest, CSS is just a list of *rules*.  Each *rule* consists of
@@ -7040,73 +7036,49 @@ So we'll go back here and we'll call this 2.0.
 See how that looks. That's better.
 
 A lot of Web development is trial and error,
-
 just sort of trying things and see how it
-
-looks and going back to
-
-the drawing board and experimenting.
+looks and going back to the drawing board and experimenting.
 
 So I encourage you to play around with it.
 
 And the last little change that we're going to make is,
 
 I think that this looks interesting,
-
 but if you open it up to full size,
-
 you'll see that this header
-
 is kind of over here on the left,
-
 and I don't really like the way that looks.
 
 So I'm going to go into our 'h1' tag here,
-
 and I am going to say that
-
 the text-align should be in the center.
 
 And what that's going to do is take
-
 this and move it to the center.
 
 One thing you should be aware of is that text-align is
-
 relative to the container
-
 that something is being stored in.
 
 So, you can see that this header is relative to the page.
 
 So if we resize the page,
-
 it actually sort of changes the way that it looks.
 
 So, be mindful of that.
 
 We're in a day and age where
-
 so many different screen sizes are possible to be
-
 used and you kind of have to consider how
-
 something looks for every orientation of a page,
-
 in order to make sure that it looks good for everybody.
 
 So play around with that,
-
 and play around with some of
-
 the other attributes that I didn't
-
 get to in this little demo
-
 because there are so many that we learn in the lesson
-
 and I encourage you to mess around with them,
-
 and just sort of see what each one does.
 
 <h3 id="ch3-3">3.3.1 Common CSS Properties</h3>
@@ -7495,7 +7467,7 @@ few that you might find helpful.
 -   From the W3C specification: [Viewport-percentage
     lengths](https://www.w3.org/TR/css3-values/#viewport-relative-lengths)
 
-<h3>## 3.3.4 Accessible Typography</h3>
+<h3>3.3.4 Accessible Typography</h3>
 
 The CSS rules with which we've started are fun and easily
 understandable. They are mostly concerned with typography. Later, we
@@ -7781,6 +7753,9 @@ section dedicated to the background-image property.  
 
 <h3>3.4.2 Selectors</h3>
 
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- 55.  (###) -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <img src="./images/image055.png"
 style="width:4in;height:3.26381in" />
 
@@ -7812,18 +7787,18 @@ individually, we can apply unique id attributes to the paragraphs
 (id="p18" and id="p19"). In the CSS, we will use the id selector.  The
 id selector is simply a hash sign (#) followed directly by the id.  
 
-CSS:
+<h4>CSS:</h4>
 
 **\#p18** { color: blue; }  
 **\#p19** { color: green; }
 
-HTML:
-
-\<p id="p18"\>He is Ulysses, a man of great craft, son of Laertes. He
+<h4>HTML:</h4>
+```
+<p id="p18">He is Ulysses, a man of great craft, son of Laertes. He
 was born in rugged Ithaca, and excels in all manner of stratagems and
-subtle cunning.\</p\>  
-\<p id="p19"\>Madam, you have spoken truly.\</p\>
-
+subtle cunning.</p>
+<p id="p19">Madam, you have spoken truly.</p>
+```
 ### Result:
 
 <table>
@@ -7849,24 +7824,24 @@ be unique and singular, the values of the class attribute can be shared
 by multiple tags. And, multiple classes can be assigned to a tag by
 simply separating them with spaces.  
 
-HTML:
-
-\<ul\>  
-\<li class="bird flying"\>eagle\</li\>  
-\<li class="bird"\>ostrich\</li\>  
-\<li class="insect"\>ant\</li\>  
-\<li class="insect flying"\>moth\</li\>  
-\</ul\> 
-
+<h4>HTML:</h4>
+```
+<ul>  
+<li class="bird flying">eagle</li>
+<li class="bird">ostrich</li>
+<li class="insect">ant</li>
+<li class="insect flying">moth</li>
+</ul>
+```
 The class selector is simply a period (.) followed by the class name
 itself.
 
-CSS:
-
+<h4>CSS:</h4>
+```
 **.bird**   { color: blue; }  
 **.insect** { color: green; }  
 **.flying** { text-decoration: underline; }
-
+```
 Result:
 ```xml
 <table>
@@ -7972,7 +7947,10 @@ It isn't unusual to see multiple classes joined this way as well:
 
 .insect.flying { text-decoration: underline; font-weight:bold; }
 
-### <img src="./images/image056.png"
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- 56.  (###) -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<img src="./images/image056.png"
 style="width:6.5in;height:1.81875in" />
 
 ### Descendant selectors
@@ -8299,6 +8277,9 @@ the best advice is to fix them directly, rather than using !important.
 
 <h3>3.4.x Recipe</h3>
 
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- 57.  (###) -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <img src="./images/image057.png"
 style="width:4in;height:2.78846in" />
 
@@ -8375,6 +8356,9 @@ Pizza, the king of comfort foods. Try this simple, taste sensation.
 ```
 <h3 id="ch4-1">4.1.1 Welcome to Module 4</h3>
 
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- 58.  (###) -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <img src="./images/image058.png"
 style="width:3in;height:3.3038in" />
 
@@ -8434,7 +8418,7 @@ well your background a foreground colors interact.  For a good list of
 such tools, check out  [Web Accessibility Evaluations Tools
 List](https://www.w3.org/WAI/ER/tools/).
 
-### Debugging
+<h4>Debugging</h4>
 
 When you're using a traditional programming language, like JavaScript,
 debugging is primarily concerned with values of variables, what path is
@@ -8479,7 +8463,7 @@ including Microsoft Edge and Firefox.  Note that if all browsers are
 likely to have similar capabilities, the user interface may be a bit
 different.  Feel free to use whichever "Developers Tools" you prefer.
 
-### 4.2.2 Identifying HTML5 elements
+<h3>4.2.2 Identifying HTML5 elements</h3>
 
 Remember that elements are the intangible parts of your Web page, which
 are described by the text in tags and are rendered on the screen of
@@ -8510,7 +8494,7 @@ you want to inspect and select "Inspect element" which will bring up the
 developer tools and highlights the HTML element or code for that section
 on the page.
 
-### 4.2.3 Modifying HTML5 elements
+<h3>4.2.3 Modifying HTML5 elements</h3>
 
 Another handy feature of the developer tools is the ability to make
 temporary modifications to your code to try out different things and see
@@ -8534,6 +8518,9 @@ tab activated.  Once you do that, you can modify CSS properties of the
 current element by adding them to the "element.style" box at the top of
 the "Styles" panel.
 
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- 59.  (###) -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <img src="./images/image059.png"
 style="width:5in;height:1.73333in"
 alt="Screenshot of MS Edge showing modifying in the developers tools" />
@@ -8543,6 +8530,9 @@ the top of the Styles panel.  After clicking you should see a little
 text entry box with which you can type property value pairs that will
 then effect the currently active element.
 
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- 60.  (###) -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <img src="./images/image060.png"
 style="width:5in;height:3.01603in"
 alt="Screenshot of MSEdge developer tools showing changing text color in developers tools" />
@@ -8617,6 +8607,9 @@ There are many other shortcuts to learn, but this one is fairly common.
 are defaults for these values, so you technically don't need to specify
 all of them, but it is the minimal info needed and is quite common.
 
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- 61.  (###) -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <img src="./images/image061.jpeg"
 style="width:5in;height:3.89in" alt="Illustration of CSS Box Model" />
 
@@ -8629,6 +8622,9 @@ it overlaps with another element on the page.  This can be useful when
 you want to control where an element is placed on a page.  In the
 following pictures, the black rectangles encompass the content:
 
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- 62.  (###) -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <img src="./images/image062.png"
 style="width:3in;height:1.02479in"
 alt="Image showing three blocks (Block 1, Block 2, Block 3) with no margins between them" /><img src="./images/image063.png"
@@ -8652,6 +8648,9 @@ it's size (thickness), so it only makes sense to accept numbers greater
 than or equal to 0.  What the browser does if the border-width is less
 than 0 is undefined and shouldn't be relied on.
 
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- 64.  (###) -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <img src="./images/image064.png"
 style="width:3in;height:1.074in"
 alt="Image showing 3 blocks (Block 1, Block 2, Block 3). These blocks all have borders with different widths, but the margins are zero, implying that the borders are up against each other regardless of their width." />
@@ -8674,6 +8673,9 @@ set.  The background of the padded area matches the background of
 element, so the effective visible size of the element includes the
 padding.
 
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- 65.  (###) -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <img src="./images/image065.png"
 style="width:3in;height:1.488in"
 alt="Image showing 3 blocks and they all have a thin border directly around their respective texts: &#39;Block 1&#39;, &#39;Block 2&#39;, &#39;Block 3&#39;." />
@@ -8686,6 +8688,9 @@ look more like the contents have been expanded.  If we add a thin border
 to these, we see that the padding is reflected by empty space between
 the contents and the border:
 
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- 66.  (###) -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <img src="./images/image066.png"
 style="width:3in;height:1.404in"
 alt="Image showing 3 blocks that have padding with borders, in addition to the thin border aroung their texts &#39;Block 1&#39;, &#39;Block 2&#39;, &#39;Block 3&#39;." />
@@ -8703,18 +8708,28 @@ to the contents.  By setting the margin you can control how close the
 border comes to surrounding elements.  You can even give your border
 rounded corners using the border-radius setting:
 
-<img src="./images/image067.png"
-style="width:3in;height:1.21859in"
-alt="Image showing the 3 blocks with rounded borders, different thickness for their borders and keeping a thin border around their texts Block 1&#39;, &#39;Block 2&#39;, &#39;Block 3&#39;." />
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- 67.  (###) -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image067.png?raw=true"
+   width="30%"
+   alt="Image showing the 3 blocks with rounded borders, different thickness for their borders and keeping a thin border around their texts Block 1&#39;, &#39;Block 2&#39;, &#39;Block 3&#39;." />
+</p>
 
 <h3>4.3.2 Debugging with the box model</h3>
 
 In any browser's debugger, you will see a box model diagram. It looks
 like this:
 
-<img src="./images/image068.png"
-style="width:3in;height:2.61845in"
-alt="image of a CSS Box Model which content is described in the following text of this page." />
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- 68.  (###) -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image068.png?raw=true"
+   width="30%"
+   alt="image of a CSS Box Model which content is described in the following text of this page." />
+</p>
 
 This is an example of a diagram of the box model information for a
 selected element.    
@@ -8756,12 +8771,17 @@ different .css files.
 
 Nevertheless, that can cause problems when you have different rules that
 could apply to the same element. Consider the following example:
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- 69.  (###) -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image069.png?raw=true"
+   width="40%"
+   alt="" />
+</p>
 
-<img src="./images/image069.png"
-style="width:4in;height:2.24101in" />
-
-CSS
-
+<h4>CSS</h4>
+```
 h1{
 
 color:blue;
@@ -8785,49 +8805,30 @@ color:grey;
 font-size:1.2rem;
 
 }
-
-HTML
-
-\<!DOCTYPE html\>
-
-\<html lang="en"\>
-
-\<head\>
-
-\<meta charset="utf-8"\>
-
-\<title\>precedence 1\</title\>
-
-\</head\>
-
-\<body\>
-
-\<h1\>My Book\</h1\>
-
-\<article\>
-
-\<h1\>Chapter 1 \</h1\>
-
-\<section\>
-
-\<h1\>Section 1.1\</h1\>
-
-\<p\>...\</p\>
-
-\</section\>
-
-\<section\>
-
-\<h1\>Section 1.2\</h1\>
-
-\</section\>
-
-\</article\>
-
-\</body\>
-
-\</html\>
-
+```
+<h4>HTML</h4>
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>precedence 1</title>
+</head>
+<body>
+<h1>My Book</h1>
+<article>
+<h1>Chapter 1 </h1>
+<section>
+<h1>Section 1.1</h1>
+<p>...</p>
+</section>
+<section>
+<h1>Section 1.2</h1>
+<section>
+<article>
+</body>
+</html>
+```
 Looking at the style rules we see there are three different
 possibilities for the size and color of an \<h1\> element. In this case
 the application of the rules seems pretty intuitive. The outermost
@@ -8842,82 +8843,57 @@ Your intuition may be thinking along these lines - "section h1" is more
 specific than "article h1" or "h1", and therefore it takes precedence
 resulting in smaller gray text.  However, when you re-arrange the rules
 you get a different result:
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- 70.  (###) -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image070.png?raw=true"
+   width="40%"
+   alt="" />
+</p>
 
-<img src="./images/image070.png"
-style="width:4in;height:2.24101in" />
-
-CSS
-
+<h4>CSS</h4>
+```
 section h1{
-
 color:grey;
-
 font-size:1.2rem;
-
 }
-
 article h1{
-
 color: black;
-
 font-size: 1.4rem;
-
 }
-
 h1{
-
 color:blue;
-
 font-size: 2rem;
-
 }
-
-HTML
-
-\<!DOCTYPE html\>
-
-\<html lang="en"\>
-
-\<head\>
-
-\<meta charset="utf-8"\>
-
-\<title\>precedence 2\</title\>
-
-\</head\>
-
-\<body\>
-
-\<h1\>My Book\</h1\>
-
-\<article\>
-
-\<h1\>Chapter 1 \</h1\>
-
-\<section\>
-
-\<h1\>Section 1.1\</h1\>
-
-\<p\>...\</p\>
-
-\</section\>
-
-\<section\>
-
-\<h1\>Section 1.2\</h1\>
-
-\</section\>
-
-\</article\>
-
-\</body\>
-
-\</html\>
-
+```
+<h4>HTML</h4>
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>precedence 2</title>
+</head>
+<body>
+<h1>My Book</h1>
+<article>
+<h1>Chapter 1 </h1>
+<section>
+<h1>Section 1.1</h1>
+<p>...</p>
+</section>
+<section>
+<h1>Section 1.2</h1>
+</section>
+</article>
+</body>
+</html>
+```
 What happened? To answer that question, we'll turn to the browser's
 debugger.
 
-### 4.4.2 Debugging CSS Precedence
+<h3>4.4.2 Debugging CSS Precedence</h3>
 
 This lesson is using developer tools provided by the Chrome browser.
 
@@ -8929,18 +8905,28 @@ from.  We saw in a previous section that we can add or change CSS
 settings in the "Styles" panel, however, there is much more information
 there.
 
-<img src="./images/image071.png"
-style="width:5in;height:4.5656in" alt="Styles in the debugger" />
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- 71.  (###) -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image071.png?raw=true"
+   width="65%"
+   alt="Styles in the Debugger" />
+</p>
 
 There is a sequence of the panels under "Style" that helps understand
 just where a particular CSS rule is coming from. Starting at the top, we
 have rules that apply specifically to the currently active element.  In
 fact, changes in this top panel are mirrored as settings in the style
 attribute of the element:
-
-<img src="./images/image072.jpeg"
-style="width:5in;height:4.86644in"
-alt="Modifying style in the debugger" />
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- 72.  (###) -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image072.jpeg?raw=true"
+   width="65%"
+   alt="Modifying style in the debugger" />
+</p>
 
 Under that there are more panels which show where CSS properties for
 other elements come from.  Under the top panel, which corresponds to
@@ -8959,9 +8945,14 @@ stylesheet.
 Back to our quandary, why does "article h1" take precedence over
 "section h1"?  Let's take a look at the first version we tried, before
 rearranging, which did what we wanted:
-
-<img src="./images/image073.png"
-style="width:5in;height:4.63in" alt="Working version in debugger" />
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- 73.  (###) -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image073.png?raw=true"
+   width="65%"
+   alt="Working Version in Debugger" />
+</p>
 
 Here we see just the opposite of what we saw before, now "section h1"
 takes precedence over "article h1".  What's going on?
@@ -8986,9 +8977,14 @@ than \<article\>.  We can make this explicit by changing the selector to
 "article section h1", so that now the smaller, lighter color will be
 used only on a section that is inside an article, which is really what
 we want:
-
-<img src="./images/image074.png"
-style="width:4in;height:2.24101in" />
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- 74.  (###) -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image074.png?raw=true"
+   width="45%"
+   alt="" />
+</p>
 ```
 CSS
 
@@ -9047,10 +9043,16 @@ have some beautiful pictures we'd like to use: one for the top of the
 page, and others as examples of different types of clouds.  We include
 the pictures but the result is unwieldy:
 
-<img src="./images/image075.png"
-style="width:4.96875in;height:3.09375in" />
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- 75.  (###) -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image075.png?raw=true"
+   width="65%"
+   alt="" />
+</p>
 
-HTML
+<h4>HTML</h4>
 ```
 <!DOCTYPE html\>
 <html lang="en"\>
@@ -9095,19 +9097,23 @@ When you see the pictures, the text is so small it's unreadable. 
 Clearly we have a solution for this.  We can just specify the width of
 \<img\> elements.  We can use the debugger to try different sizes,
 modifying it in the "Styles" panel and we decide on this:
-
+```
 1.  img {
-
 2.     width: 10rem;
-
 3.  }
-
+```
 Giving a much more reasonable page:
 
-<img src="./images/image076.png"
-style="width:4.96875in;height:2.73958in" />
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- 76.  (###) -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image076.png?raw=true"
+   width="65%"
+   alt="Modifying style in the debugger" />
+</p>
 
-CSS
+<h4>CSS</h4>
 ```
 img {
 
@@ -9167,9 +9173,14 @@ debugger again.
 We open up the debugger and choose the \<img\> tag corresponding to our
 first picture, then we see this in the Styles section:
 
-<img src="./images/image077.png"
-style="width:2.59375in;height:1.61458in"
-alt="Img width precedence in debugger" />
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- 77.  (###) -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image077.png?raw=true"
+   width="35%"
+   alt="img width precedence in debugger" />
+</p>
 
 The specialized width setting that we added as an img attribute isn't
 quite the same as setting the style.  Any style setting for the img
@@ -9194,10 +9205,16 @@ code like this:
 ```
 ####That looks better:
 
-<img src="./images/image078.png"
-style="width:4.96875in;height:2.73958in" />
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- 78.  (###) -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image078.jpeg?raw=true"
+   width="65%"
+   alt="" />
+</p>
 
-####CSS
+<h4>CSS</h4>
 ```
 1.  img {
 2.  width: 25rem;
@@ -9206,7 +9223,7 @@ style="width:4.96875in;height:2.73958in" />
 5.  width: 10rem;
 6.  }
 ```
-#### HTML
+<h4>HTML</h4>
 ```
 1.  <!DOCTYPE html>
 2.  <html lang="en">
@@ -9251,8 +9268,14 @@ the [CodePen](http://codepen.io/w3devcampus/pen/wdxegK) below. The main
 content is an outline for an essay and it should look something like
 this:
 
-<img src="./images/image079.png"
-style="width:4in;height:3.32075in" />
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- 79.  (###) -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image079.jpeg?raw=true"
+   width="40%"
+   alt="" />
+</p>
 
 <h4>CSS</h4>
 ```
@@ -9317,9 +9340,14 @@ glance we don't see anything unusual.  The font-size is .5em as
 expected.  One odd thing is that below the user agent stylesheet panels
 is the over-ridden font-size setting identical to the current one, i.e.
 .5em on \<li\> elements.
-
-<img src="./images/image080.png"
-style="width:5.20833in;height:5.44792in" alt="Debugging font-size" />
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- 80. debugging font-size (###) ------------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image080.png?raw=true"
+   width="65%"
+   alt="Debugging font-size" />
+</p>
 
 The styles panel doesn't tell us a lot about the actually font-size in
 absolute terms.  To determine that we can use the "Computed" tab. 
@@ -9331,9 +9359,14 @@ character '-' as coming before 'a' in the alphabet, the first thing
 you'll see is a long list of properties starting with '-webkit'.  We're
 going to scroll down past those to "font-size" which reveals this:
 
-<img src="./images/image081.png"
-style="width:4.32292in;height:1.89583in"
-alt="Debugging font-size after opening the &#39;Computed&#39; tab" />
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- 81.  (###) -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image081.jpeg?raw=true"
+   width="45%"
+   alt="Debugging font-size after opening the &#39;Computed&#39; tab" />
+</p>
 
 This tells us that the font-size on the innermost list item is only 3px.
  No wonder it's unreadable!
@@ -9343,9 +9376,14 @@ expand the details on font-size, which makes a little more clear what's
 going on.  We see that the font-size on the body is 24px, but there are
 several repetitions of the li .5em.
 
-<img src="./images/image082.png"
-style="width:4.32292in;height:2.33333in"
-alt="Computed tab for font-size" />
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- 82.  (###) -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image082.png?raw=true"
+   width="45%"
+   alt="Computed tab for font-size" />
+</p>
 
 If we look at the next outer list item, we see that the font-size is
 6px, and the one outside of that is 12px.  This doubling makes it clear
