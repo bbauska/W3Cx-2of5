@@ -1,5 +1,9 @@
 <h2>2.1.1 Welcome to Module 2</h2>
-
+<!------------------------------------------------------------>
+<!------------ module2.md of w3cx-2of5-html5.0x -------------->
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 01 attributes, images and links --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="./images/image001.png?raw=true"
    alt="Attributes, images and links"
@@ -523,9 +527,13 @@ Don\'t click on it, just rest your cursor there. 
 
 ##### **NASA**
 
+<!------------------------------------------------------------------------------------------------>
+<!------------ 03  --------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/mod2/image3.jpeg?raw=true" "Example image of a girl with a beautiful smile to illustrate title
-attribute" width="200" >
+<img src="./images/image003.jpeg?raw=true"
+   alt= "Example image of a girl with a beautiful smile to illustrate title attribute"
+   width="20%" />
 &nbsp;
 
 
@@ -2377,7 +2385,7 @@ information to be aware of.
     but some people write the markup by hand. Note that SVG 1.1 is
     a [W3C Web standard](https://www.w3.org/TR/SVG/).
 
-## 2.4.2 Attribute alt
+<h3>2.4.2 Attribute alt</h3>
 
 alt stands for *alternate text* for an image.
 
@@ -2447,9 +2455,9 @@ tulips\"\>
 height="2.5446850393700786in"}
 https://github.com/bbauska/W3Cx-2of5-HTML5.0x/blob/main/images/mod2/image19.png?raw=true
     
-## 2.4.3 Attributes: title, height & width
+<h3>2.4.3 Attributes: title, height & width</h3>
 
-### The \'title\' attribute
+<h3>The \'title\' attribute</h4>
 
 Try this: place your mouse on the image below. Don\'t click, just rest
 your cursor on it. 
@@ -2483,8 +2491,14 @@ pixels without using an external editor.
 
 Here is my original image:
 
-![HTML5 logo not resized](./mod2-images/media/image21.png){width="2.0in"
-height="3.0318799212598426in"}
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 21. html5 logo not resized ------------------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="./images/image021.png?raw=true"
+   alt="Attributes, images and links"
+   width="30%" />
+&nbsp;
 
 Clearly too big for the page. The original image dimensions is 345x523
 in pixels. Pixel is short for picture element. These are the little dots
@@ -2499,8 +2513,14 @@ Now, if I want to resize the HTML logo above by half:
 image\" title=\"Resized image seems to fit the page
 better\" height=\"173\" width=\"262\"\>
 
-![HTML5 logo resized](./mod2-images/media/image22.png){width="1.0in"
-height="1.5144520997375328in"}
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- 22. html5 logo resized ------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="./images/image001.png?raw=true"
+   alt="HTML5 logo resized"
+   width="10%" />
+&nbsp;
 
 Actually, you don\'t need to define both width and height. You can just
 specify either height or width and the aspect ratio will be adjusted.
@@ -2526,7 +2546,7 @@ also useful if you are changing or removing the image: you can just
 remove it from your HTML and not deal with remembering to remove it
 from your CSS too.
 
-## 2.4.4 Decorative Images
+<h4>2.4.4 Decorative Images</h4>
 
 Should all images be part of HTML content?
 
@@ -2567,7 +2587,7 @@ content](./mod2-images/media/image24.jpeg){width="2.0in"
 height="2.0in"}![Decorative banner
 graphic](./mod2-images/media/image25.jpeg){width="2.0in" height="2.0in"}
 
-## 2.4.5 Using \<img\> Tags
+<h3>2.4.5 Using \<img\> Tags</h3>
 
 Hi there! In this video, we\'re going to take a closer look at how we
 add images to our HTML pages.
@@ -2790,7 +2810,7 @@ In this video, we had fun with images, the image tag and its attributes.
 
 You\'re all set to spice up your pages with some images. Take care!
 
-## 2.4.6 Activities - Images
+<h3>2.4.6 Activities - Images</h3>
 
 Please find below a list of possible activities:
 
@@ -2811,7 +2831,7 @@ Refer to the [WAI Images
 Tutorial](https://www.w3.org/WAI/tutorials/images/) for a guide to
 writing alternate text. 
 
-## 2.5.1 Introduction
+<h3>2.5.1 Introduction</h3>
 
 ### What are hyperlinks?
 
@@ -2822,9 +2842,14 @@ offers! *
 
 Or something like this:
 
-![Buy now button for illustrating
-hyperlinks](./mod2-images/media/image26.png){width="2.40625in"
-height="0.4583333333333333in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 26. boy now button for illustrating hyperlinks ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="./images/image026.png?raw=true"
+   alt="Buy now button for illustrating hyperlinks"
+   width="25%" />
+&nbsp;
 
 Try clicking the blue text or the \'Buy Now!\' button, if you haven\'t
 already (make sure to navigate back to the course).
@@ -2976,7 +3001,7 @@ addresses:
     be used to search the Web to pick up email addresses for spam. You
     should avoid this if possible and use contact forms instead.
 
-## 2.5.2 Attributes: href and target
+<h3>2.5.2 Attributes: href and target</h3>
 
 ### The \'href\' attribute
 
@@ -3057,7 +3082,7 @@ we\'ll focus on the two below.
 | tab having opened.        |       |                   |             |
 +---------------------------+-------+-------------------+-------------+
 
-## 2.5.3 Attributes: Media and Download
+<h3>2.5.3 Attributes: Media and Download</h3>
 
 ### The \'media\' attribute
 
@@ -3121,10 +3146,16 @@ browsers](https://caniuse.com/#search=download). Try
 the download attribute in a html file of your own and run it in
 different browsers to see how it behaves.
 
-## 2.5.4 Use of Hyperlink Attributes
+<h3>2.5.4 Use of Hyperlink Attributes</h3>
 
-![](./mod2-images/media/image27.png){width="5.0in"
-height="2.7323720472440947in"}
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 27. marchers and/or dancers ----------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="./images/image027.jpeg?raw=true"
+   alt="Marchers and/or dancers"
+   width="65%" />
+&nbsp;
 
 In this live coding demo, we\'re going to dive deep into hyperlinks.
 
@@ -3360,147 +3391,94 @@ You\'ve seen how to use the attributes on the anchor tag to jump to
 pages on our site, visit other sites, download files and even skip
 around on the same page.
 
-## 2.5.6 Recipe Project -- Module 2
+<h3>2.5.6 Recipe Project -- Module 2</h3>
 
 We are now going to continue building on the recipe project we started
 in Module 1.  You can find our version in the CodePen below (and the
 live coding video at the end of this page).
 
-https://github.com/bbauska/W3Cx-2of5-HTML5.0x/blob/main/images/mod2/image28.png?raw=true
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 28. codepen: result --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="./images/image028.png?raw=true"
+   alt=""
+   width="65%" />
+&nbsp;
 
-##### HTML
+<h4>HTML</h4>
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset=\"UTF-8\"\>
+<title>My Favorite Recipes - Module 2</title>
+</head>
+<body>
+<h1>My Favorite Recipes</h1>
+<nav>
+<ul>
+<li><a href="#soup">Soup</a></li>
+<li><a href="#salad">Salad</a></li>
+<li><a href="#pizza">Pizza</a></li>
+</ul>
+</nav>
+<article id="soup">
+<h2>Soup</h2>
+<img
+src="https://upload.wikimedia.org/wikipedia/commons/2/22/Bol_soupe_bicolore.jpg"
+alt="soup image" width=320>
+<p>
+Beethoven once said <q>Only the pure of heart can make a good
+soup</q>. Well, here's my attempt at doing just that!
+</p>
+<ol>
+<li>Step 1</li>
+<li>Step 2</li>
+<li>Step 3</li>
+<li>Enjoy!</li>
+</ol>
+</article>
+<article id="salad">
+<h2>Salad</h2>
+<img
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Caesar_salad_%281%29.jpg/320px-Caesar_salad_%281%29.jpg\"
+alt="salad image" width=320>
 
-\<!DOCTYPE html\>
-
-\<html lang=\"en\"\>
-
-\<head\>
-
-\<meta charset=\"UTF-8\"\>
-
-\<title\>My Favorite Recipes - Module 2\</title\>
-
-\</head\>
-
-\<body\>
-
-\<h1\>My Favorite Recipes\</h1\>
-
-\<nav\>
-
-\<ul\>
-
-\<li\>\<a href=\"#soup\"\>Soup\</a\>\</li\>
-
-\<li\>\<a href=\"#salad\"\>Salad\</a\>\</li\>
-
-\<li\>\<a href=\"#pizza\"\>Pizza\</a\>\</li\>
-
-\</ul\>
-
-\</nav\>
-
-\<article id=\"soup\"\>
-
-\<h2\>Soup\</h2\>
-
-\<img
-src=\"https://upload.wikimedia.org/wikipedia/commons/2/22/Bol_soupe_bicolore.jpg\"
-alt=\"soup image\" width=320\>
-
-\<p\>
-
-Beethoven once said \<q\>Only the pure of heart can make a good
-soup\</q\>. Well, here\'s my attempt at doing just that!
-
-\</p\>
-
-\<ol\>
-
-\<li\>Step 1\</li\>
-
-\<li\>Step 2\</li\>
-
-\<li\>Step 3\</li\>
-
-\<li\>Enjoy!\</li\>
-
-\</ol\>
-
-\</article\>
-
-\<article id=\"salad\"\>
-
-\<h2\>Salad\</h2\>
-
-\<img
-src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Caesar_salad\_%281%29.jpg/320px-Caesar_salad\_%281%29.jpg\"
-alt=\"salad image\" width=320\>
-
-\<h3\>List of ingredients\</h3\>
-
-\<ul\>
-
-\<li\>Ingredient 1\</li\>
-
-\<li\>Ingredient 2\</li\>
-
-\<li\>Ingredient 3\</li\>
-
-\</ul\>
-
-\<p\>
-
-Who can resist a fresh salad ! Here\'s one of my favorites.
-
-\</p\>
-
-\<ol\>
-
-\<li\>Step 1\</li\>
-
-\<li\>Step 2\</li\>
-
-\<li\>Step 3\</li\>
-
-\<li\>Enjoy!\</li\>
-
-\</ol\>
-
-\</article\>
-
-\<article id=\"pizza\"\>
-
-\<h2\>Pizza\</h2\>
-
-\<img
-src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Margherita_Originale.JPG/320px-Margherita_Originale.JPG\"
-alt=\"pizza image\" width=320\>
-
-\<p\>
-
+<h3>List of ingredients</h3>
+<ul>
+<li>Ingredient 1</li>
+<li>Ingredient 2</li>
+<li>Ingredient 3</li>
+</ul>
+<p>
+Who can resist a fresh salad ! Here's one of my favorites.
+</p>
+<ol>
+<li>Step 1</li>
+<li>Step 2</li>
+<li>Step 3</li>
+<li>Enjoy!</li>
+</ol>
+</article>
+<article id="pizza">
+<h2>Pizza</h2>
+<img
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Margherita_Originale.JPG/320px-Margherita_Originale.JPG"
+alt="pizza image" width=320>
+<p>
 Pizza, the king of comfort foods. Try this simple, taste sensation.
-
-\</p\>
-
-\<ol\>
-
-\<li\>Step 1\</li\>
-
-\<li\>Step 2\</li\>
-
-\<li\>Step 3\</li\>
-
-\<li\>Enjoy!\</li\>
-
-\</ol\>
-
-\</article\>
-
-\</body\>
-
-\</html\>
-
+</p>
+<ol>
+<li>Step 1</li>
+<li>Step 2</li>
+<li>Step 3</li>
+<li>Enjoy!</li>
+</ol>
+</article>
+</body>
+</html>
+```
 Hello, everyone. In this live coding demo, we\'re going to enhance this
 recipe page that was introduced earlier.
 
@@ -3509,7 +3487,6 @@ this module.
 
 As you probably guessed, this page is going to describe some of my
 favorite recipes.
-
 At the moment, as recipe pages go, this is a very bland page.
 
 We\'re going to spruce it up visually and use some semantic tags to
