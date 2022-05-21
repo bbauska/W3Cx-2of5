@@ -1,7 +1,7 @@
 <h2>3.1.1 Welcome to Module 3</h2>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/mod3/image1.png?raw=true"
+<img src="./images/image001.png?raw=true"
    alt="W3CX-2of5-HTML5.0x logo"
    width="65%" />
 &nbsp;
@@ -16,7 +16,7 @@ In this module, we will introduce a new language, CSS.
 CSS, or Cascading Style Sheets, is used to style each HTML.
 
 <p align="center" width="100%">
-<img src="/images/mod3/image2.png?raw=true"
+<img src="./images/image002.png?raw=true"
    alt="Adding Style with CSS"
    width="25%" />
 &nbsp;
@@ -36,7 +36,7 @@ visual impact is very rewarding.
 So, prepare to have fun, and let yourself experiment because that\'s how
 you learn, experimentation.
 
-## 3.1.2 Module 3 Content
+<h3>3.1.2 Module 3 Content</h3>
 
 1.  **Introduction to Module 3: **Get an overview of what CSS (Cascading
     Style Sheets) can do for your Web pages.
@@ -52,13 +52,13 @@ you learn, experimentation.
     specific purpose tags in HTML, and selectors are what allows you to
     target specific HTML elements and apply style to them
 
-## 3.1.3 The CSS Language
+<h3>3.1.3 The CSS Language</h3>
 
-##### **CSS** stands for \'Cascading Style Sheets\'
+<h4>**CSS** stands for \'Cascading Style Sheets\'</h4>
 
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/mod3/image3.png?raw=true"
+<img src="./images/image003.png?raw=true"
    alt="CSS logo"
    width="35%" />
 &nbsp;
@@ -96,7 +96,7 @@ place that said \"I want all my paragraphs to be indented this much\",
 much like master sheets in a word processor. CSS helps to solve this
 problem.
 
-## 3.1.4 The W3C CSS Working Group
+<h3>3.1.4 The W3C CSS Working Group</h3>
 
 The **CSS Working Group** (Cascading Style Sheets Working Group) is
 a [working group](https://en.wikipedia.org/wiki/Working_group) created
@@ -123,7 +123,7 @@ together form the current state of Cascading Style Sheets (CSS) as of
 definition includes modules by specification stability, not Web browser
 adoption rate.
 
-## 3.1.5 An Example
+<h3>3.1.5 An Example</h3>
 
 Let\'s see CSS in action. Below, we see two identical copies of HTML,
 however, styled differently.
@@ -144,12 +144,12 @@ stopped.
 Both of these use the exact same HTML. It is the CSS that makes them so
 different. So let\'s get started.
 
-## 3.2.1 The \<style\> and \<link\> tags
+<h3>3.2.1 The \<style\> and \<link\> tags</h3>
 
-### The \<style\> tag
+<h4>The \<style\> tag</h4>
 
 ![Snapshot os a style tag in the XDK code
-editor](./mod3-images/media/image5.jpeg){width="1.5625in"
+editor](./images/image005.jpeg){width="1.5625in"
 height="1.5625in"}
 
 The best practice when working with CSS is to keep it in an external
@@ -159,36 +159,21 @@ merely place it directly into the document under edit.  
 To place CSS directly into an HTML document, we use the \<style\> tag.
  This tag can appear anywhere in an HTML document, however, the most
 common practice is to place it in the \<head\> section.  Such as:
-
-> \<!DOCTYPE html\>
->
-> \<html lang=\"en\"\>
->
->  
->
->   \<head\>
->
->     \<meta charset=\"UTF-8\"\>
->
->     \<title\>Style and link tags\</title\>
->
->     \<style\>
->
->       /\* CSS will go in this area \*/
->
->     \</style\>
->
->   \</head\>
->
->  
->
->   \<body\>
->
->   \</body\>
->
-> \</html\>
-
-### The \<link\> tag
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+     <title>Style and link tags</title>
+     <style>
+       /* CSS will go in this area */
+     </style>
+   </head>
+  <body>
+   </body>
+ </html>
+```
+<h4>The \<link\> tag</h4>
 
 While \<style\> is convenient, the better practice is to put the
 CSS into a separate file.
@@ -212,39 +197,28 @@ Use this \<link\> as a template:
 > \<link rel=\"stylesheet\" href=\"css/my_styles.css\"\>
 
 Here is an example HTML document.
-
-> \<!DOCTYPE html\>
->
-> \<html lang=\"en\"\>
->
->  
->
->   \<head\>
->
->     \<meta charset=\"UTF-8\"\>
->
->     \<title\>Style and link tags\</title\>
->
->     \<link rel=\"stylesheet\" href=\"css/my_styles.css\"\>
->
->   \</head\>
->
->   \<body\>
->
->   \</body\>
->
-> \</html\>
-
-## 3.2.2 Rules: selectors and declarations
+```
+<!DOCTYPE html>
+ <html lang="en">
+   <head>
+     <meta charset="UTF-8">
+     <title>Style and link tags</title>
+     <link rel="stylesheet" href="css/my_styles.css">
+   </head>
+   <body>
+   </body>
+ </html>
+```
+<h3>3.2.2 Rules: selectors and declarations</h3>
 
 At its simplest, CSS is just a list of *rules*.  Each *rule* consists of
 a *selector* and a *declaration.  *Here is an example:
 
 ![Figure showing a selector \'p\' before a declaration \'font-size:12px;
-color: #223344\'](./mod3-images/media/image6.jpeg){width="4.0in"
+color: #223344\'](./images/image006.jpeg){width="4.0in"
 height="3.3006364829396326in"}
 
-### Selector
+<h4>Selector</h4>
 
 In the above, the *selector* is **p.  **When a selector appears
 unprefixed by any punctuation, then it is assumed to match to an HTML
@@ -253,40 +227,40 @@ in the document. 
 
 We will cover more selector possibilities in the future.
 
-### Declaration
+<h4>Declaration</h4>
 
 The *declaration* part of a CSS rule opens and closes with curly
 braces: **{  }**  \
 And between them, you can put any number of *property* *value* pairs.
 
-### Properties and values
+<h4>Properties and values</h4>
 
 There are hundreds of different visual properties that may be set via
 CSS.  And each property has a range of possible values that it can be
 set to.  Syntactically, property value pairs are simple. Each pair
 consists of a *property*, followed by a colon **:** followed by
 a *value* and terminated by a semi-colon **;**
-
+```
 font-size: 12px;
-
-### Best practice
+```
+<h4>Best practice</h4>
 
 In the example above, the entire CSS rule is written on one line.  This
 is not uncommon when the declaration of the CSS rule only has one
 property.  If a CSS rule has several properties, then it should be
 written to use one line per property value pair. For example:
+```
+ p {
 
-> p {
->
->   font-size: 12px;
->
->   line-height: 15px;
->
->   color: #223344;
->
-> }
+   font-size: 12px;
 
-## 3.2.3 Comments
+   line-height: 15px;
+
+   color: #223344;
+
+ }
+```
+<h3>3.2.3 Comments</h3>
 
 CSS can include \"comments\" as well, by which you, the developer today,
 can leave notes and reminders to you, a different developer tomorrow. Or
@@ -294,38 +268,25 @@ to others who might read your CSS.  
 
 Comments begin with /\* and **must** end with \*/ and they can span
 several lines. But they **cannot** be nested.
+```
+ p {
 
-> p {
->
->    font-size: 8px; /\* client insists small text makes them more
-> \'professional\'. \*/
->
->    /\* I hope his idea of \'professional\' includes paying on time.
-> \*/
->
->  
->
->    line-height: 24px; /\* see above \*/
->
->  
->
->    /\* none of the stuff below is working. I don\'t know why.
->
->  
->
->    margin-top: 5%;
->
->    margin-bottom:6%;
->
->    \*/
->
-> }
+    font-size: 8px; /* client insists small text makes them more
+ 'professional'. */
 
-## 3.2.4 Knowledge Check
+    \* I hope his idea of \'professional\' includes paying on time.
+ \*
 
-n/a
+    line-height: 24px; /\* see above \*/
 
-## 3.2.5 Activity - Use CSS
+    /* none of the stuff below is working. I don\'t know why.
+    margin-top: 5%;
+    margin-bottom:6%;
+    */
+ }
+```
+
+<h3>3.2.5 Activity - Use CSS</h3>
 
 Use CSS on the following HTML code. Try various styles, experiment, and
 have fun. We have a live coding demonstration in the next page working
@@ -334,60 +295,36 @@ with the same source.
 You are welcome to edit the
 following [CodePen.](https://codepen.io/w3devcampus/pen/QvQgbr)
 
-![](./mod3-images/media/image7.png){width="5.0in"
+![](./images/image007.png){width="5.0in"
 height="2.7430555555555554in"}
 
 \... or work from the lines of code below (to paste in your favorite Web
 editor):
+```
+ <!DOCTYPE html>
+    <html lang="en">
+      <head>
 
-> \<!DOCTYPE html\>
->
->    \<html lang=\"en\"\>
->
->      \<head\>
->
->          \<meta charset=\"UTF-8\"\>
->
->          \<title\>On the Inventor of Gunpowder\</title\>
->
->          \<style\>
->
->             /\* CSS \*/
->
->       \</style\>
->
->     \</head\>
->
->  
->
->    \<body\>
->
->       \<h1\>On the Inventor of Gunpowder.\</h1\>
->
->  
->
->       \<address rel=\"author\"\>By John Milton\</address\>
->
->  
->
->       \<p\>Praise in old time the sage Prometheus won,\<br\>
->
-> Who stole ethereal radiance from the sun;\<br\>
->
-> But greater he, whose bold invention strove\<br\>
->
-> To emulate the fiery bolts of Jove.\</p\>
->
->  
->
->    \</body\>
->
-> \</html\>
-
+          <meta charset="UTF-8">
+          <title>On the Inventor of Gunpowder</title>
+          <style>
+             /* CSS */
+       </style>
+     </head>
+    <body>
+       <h1>On the Inventor of Gunpowder.</h1>
+       <address rel="author">By John Milton</address>
+       <p>Praise in old time the sage Prometheus won,<br>
+ Who stole ethereal radiance from the sun;<br>
+ But greater he, whose bold invention strove<br>
+ To emulate the fiery bolts of Jove.</p>
+    </body>
+ </html>
+```
 You could also take another short text (such as a poem) and apply the
 styles you like on it.
 
-## 3.2.6 CSS Rules
+<h3>3.2.6 CSS Rules</h3>
 
 Hi, this is Adrian from Microsoft learning, and we\'re going to be
 learning today about CSS and HTML, and the ways in which they play
@@ -486,7 +423,6 @@ So what I\'m going to do is make it, something maybe a little bit more
 modern looking.
 
 So I\'m going to go into our Body rule here,
-
 and what I\'m going to do is change the font family to sans-serif.
 
 So you can see that looks a little bit different.
@@ -586,7 +522,7 @@ that I didn\'t get to in this little demo because there are so many that
 we learn in the lesson and I encourage you to mess around with them, and
 just sort of see what each one does.
 
-## 3.3.1 Common CSS Properties
+<h3>3.3.1 Common CSS Properties</h3>
 
 There are hundreds of CSS properties for you to use. The [complete
 list](https://www.w3.org/Style/CSS/all-properties.en.html) is available
@@ -602,11 +538,11 @@ font-size
 font-size can be used to size the text of a tag.  The value for
 the font-size has two parts: a number and a unit.  Some of the most
 common units are: px, em, %, vh.  For example:
-
+```
 p { font-size: 18px; }\
 q { font-size: .8em; }\
 blockquote { font-size: 10vh; }
-
+```
 These units are discussed below.
 
 Additionally, font-size supports a more readable set of values that many
@@ -614,11 +550,11 @@ authors
 prefer: xx-small, x-small, small, medium, large, x-large, xx-large  \
 and relative sizing (relative to the text of the
 parent): larger, smaller. For example:
-
+```
 p { font-size: medium; }\
 q { font-size: small; }\
 blockquote { font-size: larger; }
-
+```
 line-height
 
 Whereas font-size may drive the size of the text itself,
@@ -665,10 +601,10 @@ And text-align is often not useful on these tags.
 But it is useful on block level text tags, such
 as **\<p\>**, **\<li\>**, **\<ul\>**, **\<ol\>**, **\<div\>**,
 and **\<blockquote\>**
-
+```
 p { text-align: left; }\
 blockquote { text-align: right; }
-
+```
 Bear in mind, also, that you should only use text-align when the
 alignment really needs to be changed, since it can cause additional work
 to reverse all the values when translating into languages that use
@@ -712,21 +648,21 @@ article](https://www.w3.org/International/articles/typography/justification).
 Once you finish this course, look out for these and other international
 features of CSS as you explore its features further.
 
-### text-decoration (underline)
+<h4>text-decoration (underline)</h4>
 
 How do I underline text? This is a common question. In CSS, this is done
 via the text-decoration property.  The values for this
 are: underline, overline, line-through, and none;  They can combined.
-
-p { text-decoration: underline; }\
-a { text-decoration: none; } /\* hyperlinks are underlined by default,
-but that can be removed \*/ \
-span { text-decoration: overline; }\
-span { text-decoration: underline overline; } /\* apply two with just a
-space between the values \*/\
-span { text-decoration: underline overline line-through; } /\*
-everything \*/
-
+```
+p { text-decoration: underline; }
+a { text-decoration: none; } /* hyperlinks are underlined by default,
+but that can be removed */ 
+span { text-decoration: overline; }
+span { text-decoration: underline overline; } /* apply two with just a
+space between the values */
+span { text-decoration: underline overline line-through; } *
+everything */
+```
   ------------------------------------------------------------------------
   underline     overline      line-through   underline overline
                                              line-through
@@ -740,7 +676,7 @@ decoration, such as text-decoration-color and text-decoration-style, but
 they are not well supported across browsers (see [related caniuse
 table](https://caniuse.com/#search=text-decoration))
 
-### font-weight (bold)
+<h4>font-weight (bold)</h4>
 
 Earlier we saw that the \<b\> and \<strong\> tags would make text
 bold-faced. However, semantically speaking, that is a mere side-effect
@@ -754,10 +690,10 @@ normal maps to 400 and bold to 700. However, the different numeric
 choices will only work for fonts that support a full range of
 font-weights. Many times the numeric weights will simply be mapped back
 to bold or normal. 
-
-> p { font-weight: bold; }\
-> blockquote { font-weight: 900; }
-
+```
+ p { font-weight: bold; }
+ blockquote { font-weight: 900; }
+```
   ------------------------------------------------------------------------
   normal       bold        200         500         700         900
   ------------ ----------- ----------- ----------- ----------- -----------
@@ -766,7 +702,7 @@ to bold or normal. 
 
   ------------------------------------------------------------------------
 
-### font-style (italic)
+<h4>font-style (italic)</h4>
 
 Earlier we saw that the \<i\> and \<em\> tags could make text
 italicized. But, just as we saw when discussing font-weight, this can be
@@ -785,7 +721,7 @@ are normal and italic.  
 
   -----------------------------------------------------------------------
 
-##### font-family
+<h4>font-family</h4>
 
 Want to set the font for an item on the page?   The font-family is the
 correct property for the task, but there are caveats:
@@ -809,9 +745,9 @@ a *list* of possible font choices.  The browser will start with trying
 the first font listed, and if not available (or not having a needed
 glyph) it will then proceed to the next font in the list, and so on.
  Here is a typical font-family declaration:
-
+```
 p { font-family: \"Helvetica\", \"Verdana\", \"Arial\", sans-serif; }
-
+```
 The rule above says to first try the font named \"Helvetica\". If it
 isn\'t available, try \"Verdana\", failing that \"Arial\", and lastly
 fall back to the built in sans-serif browser font.
@@ -829,9 +765,9 @@ Web fonts are outside the scope of this course. Google provides a nice
 selection of licensed free Web fonts. Type \"*google Web font
 tutorial*\" into any search engine to learn more. 
 
-## 3.3.2 Margin and Color
+<h3>3.3.2 Margin and Color</h3>
 
-##### Margin
+<h4>Margin</h4>
 
 We will examine layout in a later unit. But the margin property is the
 lynch-pin for positioning elements. Whenever you want to move something
@@ -842,27 +778,27 @@ The margin can be a bit confusing.  Depending upon context, it will
 space an item away from its immediate neighbors (in the HTML) or from
 the edges of its parent. Also, there is not only one margin property,
 but five:
+```
+ p { margin: 10px; }  /* a 10 pixel margin will be applied around all
+ four sides of the item */
 
-> p { margin: 10px; }  /\* a 10 pixel margin will be applied around all
-> four sides of the item \*/
->
-> p {\
->  margin-left: 10px; \
->  margin-right: 10px;\
->  margin-top: 10px;   \
->  margin-bottom: 10px; }
-
-##### Color
+ p {
+  margin-left: 10px; 
+  margin-right: 10px;
+  margin-top: 10px;   
+  margin-bottom: 10px; }
+```
+<h4>Color</h4>
 
 The color property can be used to set the text color of an element.
 There are several possible formats for the value.
 
-##### Named colors
-
+<h4>Named colors</h4>
+```
 p { color: blue; }\
 b { color: transparent; } /\* transparent \*/\
 i { color: lightgrey; }
-
+```
 There are scores of different names. The most common English names for
 colors are all supported, plus many others.
 
@@ -871,20 +807,20 @@ invisible. However, if you want to make an HTML element invisible, then
 the display:none; or visibility:hidden; rules are preferred. They are
 discussed in a future section.
 
-##### rgb/rgba
-
-p { color: rgb(10, 200, 255); }\
-p { color: rgb(0, 0, 0); } /\* 0,0,0 is black \*/\
-p { color: rgb(255, 255, 255); } /\* 255,255,255 is white \*/\
-b { color: rgba(10, 200, 255, 0.5); }  /\* semi-transparent \*/
-
+<h4>rgb/rgba</h4>
+```
+p { color: rgb(10, 200, 255); }
+p { color: rgb(0, 0, 0); } /* 0,0,0 is black */
+p { color: rgb(255, 255, 255); } /* 255,255,255 is white */
+b { color: rgba(10, 200, 255, 0.5); }  /* semi-transparent */
+```
 Generally, any color on a computer is exactly specified by mixing three
 components together: red, green, and blue. The amount of each component
 falls within a range between 0 and 255.   So the rgb() function can be
 used to specify a color.  
-
+```
 rgb( red, green, blue);  
-
+```
 parenthesis required, commas between each component.
 
 Similarly, the rgba() function can be used for semi-transparent colors.
@@ -892,10 +828,10 @@ The fourth value is for the \"alpha channel\" (thus the \"a\" in
 \"rgba\") and means the opacity. It is a number between 0 and 1 (for
 example, 0.5 ).
 
-##### Hex code
-
+<h4>Hex code</h4>
+```
 p { color: #3A2BFF; }
-
+```
 Quicker than the lengthy rgb() function is simply providing
 an [hexadecimal (hex) code](https://en.wikipedia.org/wiki/Hexadecimal).
 This always starts with the pound sign (#) and is followed by three
@@ -904,14 +840,14 @@ enough, and deciphering and generating hex codes is even harder.
 However, almost every editor and color picker will at least show you
 red, green and blue values and many have hex code displayed as well.
 
-## 3.3.3 Units
+<h3>3.3.3 Units</h3>
 
 font-size, line-height, margins and many other CSS properties expect
 some sort of dimension value. Dimension values support a wide variety of
 units. But the most common and useful ones are: px, em, rem, %,
 vh and vw.
 
-##### px
+<h4>px</h4>
 
 \'px\' is short for \'pixel\', which is a single dot on the screen.   So
 text with  font-size:20px   is 20 pixels tall on-screen. In actuality,
@@ -920,19 +856,19 @@ may not match to 20 physical on-screen pixels.
 
 px are useful for both horizontal and vertical dimensions. 
 
-##### em
+<h4>em</h4>
 
 \'em\' is a typographic term that has come to the Web. On the Web, em
 units are usually used for vertical dimensions.  One \'em\' maps to the
 height of one capital letter in the* parent context*.   
-
-li { font-size: 0.9em; }  /\* text in a list item is smaller than its
-parents \*/\
-h1 { font-size: 1.2em; }  /\* but an h1 will be bigger than the
-parent \*/\
-i  { font-size: 0.5em; }  /\* and any italicized text will be half as
-big. \*/
-
+```
+li { font-size: 0.9em; }  /* text in a list item is smaller than its
+parents */
+h1 { font-size: 1.2em; }  /* but an h1 will be bigger than the
+parent */
+i  { font-size: 0.5em; }  /* and any italicized text will be half as
+big. */
+```
 All the text sizes above are relative to the pages base sizes.  You\'ll
 see radically different results on the rest of the page from either of
 these rules applied to the body, but relative to one another they\'ll
@@ -945,7 +881,7 @@ remain sized correctly.
 
   -----------------------------------------------------------------------
 
-##### rem
+<h4>rem</h4>
 
 \'rem\' is much like \'em\', except that \'em\' sizes an element
 relative to its *parent*, and \'rem\' always derives its size relative
@@ -961,22 +897,22 @@ same size.
 
 Note: to ensure you are setting the root size,
 use ***both*** the html and body selectors.
-
+```
 html, body { font-size: 20px; } 
-
-##### %
+```
+<h4>%</h4>
 
 Whereas em is a measure relative to the parents text size, the
 percentage unit (%) is relative to the parent dimension.  This is a
 useful unit for both horizontal and vertical dimensions, though often
 more useful in the horizontal.  
-
-> p { \
->   margin-left:  10%;\
->   margin-right: 10%;  /\* 10% of parent width will be spent on the two
-> side margins \*/\
->  } 
-
+```
+ p { 
+   margin-left:  10%;
+   margin-right: 10%;  /* 10% of parent width will be spent on the two
+ side margins */
+  } 
+```
 Initially, the percentage unit may seem very handy (and it is), and many
 developers fall in love with it. But the love affair is usually short
 lived. One of the limitations of this rule is that for it to work
@@ -985,7 +921,7 @@ limitation is particularly noticeable in the vertical dimension. If the
 parent element doesn\'t have an explicit height set then child
 percentages may be percentages of 0. 
 
-##### vh / vw
+<h4>vh / vw</h4>
 
 \'vh\' stands for viewport height, and \'vw\' for viewport width.  The
 vh and vw units work much like the percentage ( % ) unit. But instead of
@@ -996,14 +932,14 @@ dimensions.
 vh and vw do not suffer the parent limitation that the % unit does.
  Most modern browsers support these units, but there are some exceptions
 on older mobile browsers. 
-
-p { \
-  margin-left:  10vw;\
-  margin-right: 10vw;  /\* 10% of screen width will be spent on the two
-side margins \*/\
+```
+p { 
+  margin-left:  10vw;
+  margin-right: 10vw;  /* 10% of screen width will be spent on the two
+side margins */
  }
-
-### External resources
+```
+<h4>External resources</h4>
 
 The list of CSS units above is not exhaustive. There are various
 tutorials and explanations about CSS units on the internet. Here are a
@@ -1019,7 +955,7 @@ few that you might find helpful.
 -   From the W3C specification: [Viewport-percentage
     lengths](https://www.w3.org/TR/css3-values/#viewport-relative-lengths)
 
-## 3.3.4 Accessible Typography
+<h3>3.3.4 Accessible Typography</h3>
 
 The CSS rules with which we\'ve started are fun and easily
 understandable. They are mostly concerned with typography. Later, we
@@ -1043,7 +979,7 @@ for the light-sensitive, etc. But as we start to customize the look of
 the page with CSS, we may unintentionally thwart those tools or make the
 reading experience less comfortable for those with vision problems.
 
-### Guidelines
+<h4>Guidelines</h4>
 
 For accessible typography, there are really just a few things to avoid:
 
@@ -1060,9 +996,9 @@ Look at those four guidelines. Can you match each guideline to one or
 more CSS property from earlier? Take a moment and think about it. We\'ll
 touch on specific rules below.
 
-### Properties
+<h4>Properties</h4>
 
-#### font-size
+<h4>font-size</h4>
 
 Misuse of font-size might make text too small. So be wary of that.
 Furthermore, in the past the gold standard practice was to use em units
@@ -1070,7 +1006,7 @@ instead of px. This is no longer as true as it was, but the practice of
 using em or rem units is definitely to be encouraged and it should be
 your default unit when working with text.
 
-#### line-height
+<h4>line-height</h4>
 
 An overly small line-height will cause lines to become cramped and
 difficult to read. Even the largest text can be rendered unreadable by a
@@ -1094,7 +1030,7 @@ Contrast-Finder](http://contrast-finder.tanaguru.com/) or [Juicy Studio
 Luminosity Colour Contrast Ratio
 Analyser](http://juicystudio.com/services/luminositycontrastratio.php).
 
-#### text-align
+<h4>text-align</h4>
 
 Any long passage of text should have its alignment match its reading
 order. Which means, if the language is English, which is read left to
@@ -1105,7 +1041,7 @@ Obviously, a header or perhaps a menu might be exempt, because they are
 not typically long passages of text. So this guideline doesn\'t mean an
 end to good page layout and typography.
 
-##### Summary
+<h4>Summary</h4>
 
 So now, we\'ve seen how typography can affect the accessibility and
 applicability of your page. It is not so very difficult. Common sense
@@ -1114,20 +1050,20 @@ and awareness are good companions and will serve you well.
 If you are interested in accessibility, there is much more to learn.
 These simple guidelines merely scratch the surface.
 
-## 3.4.1 Styling Lists
+<h3>3.4.1 Styling Lists</h3>
 
 The list markup tags (\<ul\>, \<ol\> and \<li\>) are some of the most
 frequently used specific purpose tags in HTML. There are a few CSS style
 properties that are available for lists.
 
-##### list-style-type
+<h4>list-style-type</h4>
 
 list-style-type governs the little list marker that is usually
 positioned to the left of any list item.  For un-ordered lists (\<ul\>),
 there are several popular values: disc, circle, square, and none.
-
+```
 li { list-style-type: disc; }
-
+```
 +------------+----------+----------+----------+----------+----------+
 | html       | default  | disc     | circle   | square   | none     |
 +============+==========+==========+==========+==========+==========+
@@ -1163,7 +1099,7 @@ languages: armenian, georgian, simp-chinese-formal, and many others. 
 | 3.  bread | 3.  bread | iii. bread     | C.  bread      | 3.  bread |
 +-----------+-----------+----------------+----------------+-----------+
 
-### list-style-position
+<h4>list-style-position</h4>
 
 Besides choosing the type of marker applied to each list item, you may
 also want to govern how closely it is positioned to the list itself.
@@ -1183,7 +1119,7 @@ blue border on the list. 
 | 3.  bread                         | 3.  bread                         |
 +-----------------------------------+-----------------------------------+
 
-### list-style-image
+<h4>list-style-image</h4>
 
 The little markers on a list can also be customized to be an image of
 your choosing. This will require you to have a small image in a Web
@@ -1191,18 +1127,18 @@ compatible format (PNG or JPEG recommended) and to know the path from
 the place where the CSS is being defined to the image.  Image pathnames
 were covered in Module 2, and we\'ll be discussing them again in the
 background-image section. 
-
-li { list-style-image: url(\"my_triangle.png\"); }
-
+```
+li { list-style-image: url("my_triangle.png"); }
+```
 Note that the browser will do little more than draw the image.  There is
 no guarantee to scale the image or assist with spacing or alignment.
  Many users find list-style-image to be frustrating and instead use
 the background-image CSS property which has more options. There is a
 section dedicated to the background-image property.  
 
-## 3.4.2 Selectors
+<h3>3.4.2 Selectors</h3>
 
-![](./mod3-images/media/image8.png){width="4.0in"
+![](./images/image008.png){width="4.0in"
 height="3.2638068678915135in"}
 
 Earlier, we learned that a CSS rule is made up of two parts: the
@@ -1211,7 +1147,7 @@ declarations, but the only selector we\'ve learned is the tag selector.
 There are other choices, and they can be composed together in
 interesting and useful ways. So let\'s learn some more CSS selectors.
 
-##### tag selector
+<h4>tag selector</h4>
 
 We\'ve already seen this one. A CSS selector that consists solely of a
 single tag (without punctuation or spacing) will be applied to any
@@ -1219,7 +1155,7 @@ matching tag on the page.
 
 **li **{ list-style-type: circle; }
 
-##### id selector
+<h4>id selector</h4>
 
 You may remember the id attribute (short for \"identifier\"). This
 attribute can be applied to an HTML tag to uniquely identify the
@@ -1234,19 +1170,19 @@ individually, we can apply unique id attributes to the paragraphs
  The id selector is simply a hash sign (#) followed directly by the
 id.  
 
-##### CSS:
-
-> **#p18** { color: blue; }\
-> **#p19** { color: green; }
-
-##### HTML:
-
-> \<p id=\"p18\"\>He is Ulysses, a man of great craft, son of Laertes.
-> He was born in rugged Ithaca, and excels in all manner of stratagems
-> and subtle cunning.\</p\>\
-> \<p id=\"p19\"\>Madam, you have spoken truly.\</p\>
-
-### Result:
+<h4>CSS:</h4>
+```
+ **#p18** { color: blue; }
+ **#p19** { color: green; }
+```
+<h4>HTML:</h4>
+```
+ <p id="p18">He is Ulysses, a man of great craft, son of Laertes.
+ He was born in rugged Ithaca, and excels in all manner of stratagems
+ and subtle cunning.</p>
+ <p id="p19">Madam, you have spoken truly.</p>
+```
+<h4>Result:</h4>
 
 +-----------------------------------------------------------------------+
 | He is Ulysses, a man of great craft, son of Laertes. He was born in   |
@@ -1264,25 +1200,25 @@ be unique and singular, the values of the class attribute can be shared
 by multiple tags. And, multiple classes can be assigned to a tag by
 simply separating them with spaces.  
 
-##### HTML:
-
-\<ul\>\
-\<li class=\"bird flying\"\>eagle\</li\>\
-\<li class=\"bird\"\>ostrich\</li\>\
-\<li class=\"insect\"\>ant\</li\>\
-\<li class=\"insect flying\"\>moth\</li\>\
-\</ul\> 
-
+<h4>HTML:</h4>
+```
+<ul>
+<li class="bird flying">eagle</li>
+<li class="bird">ostrich</li>
+<li class="insect">ant</li>
+<li class="insect flying">moth</li>
+</ul> 
+```
 The class selector is simply a period (.) followed by the class name
 itself.
 
-##### CSS:
-
+<h4>CSS:</h4>
+```
 **.bird**   { color: blue; }\
 **.insect** { color: green; }\
 **.flying** { text-decoration: underline; }
-
-##### Result:
+```
+<h4>Result:</h4>
 
 +-----------------------------------------------------------------------+
 | -   eagle                                                             |
@@ -1295,7 +1231,7 @@ itself.
 +=======================================================================+
 +-----------------------------------------------------------------------+
 
-## 3.4.3 Combining Selectors
+<h3>3.4.3 Combining Selectors</h3>
 
 Being able to define a CSS selector in terms of a tag, class or id is
 very powerful. But it\'s not practical to place classes on every tag in
@@ -1303,7 +1239,7 @@ your document, much less to put unique ids throughout.  It\'s also
 inconvenient to constantly repeat CSS rules. But by combining composing
 selectors, all that can be avoided.  
 
-### Comma separated selectors
+<h4>Comma separated selectors</h4>
 
 Let\'s say we want to make all our \<blockquote\> tags, \<q\> tags, and
 anything with \"speech\" in it\'s class string, to be red italic text. 
@@ -1333,7 +1269,7 @@ The joined version on the right is much easier to read and maintain.  
 
 If the \"speech\" items need to also be bold, that can simply be added
 by an additional rule:
-
+```
 blockquote,\
 q,\
 .speech {\
@@ -1341,8 +1277,8 @@ q,\
    font-style: italic;   \
 }\
 .speech { font-weight: bold; }
-
-### Specialized selectors
+```
+<h4>Specialized selectors</h4>
 
 If two selectors of different types (like tag and class) appear next to
 each other with no spacing separating them, then they form a
@@ -1360,45 +1296,45 @@ class. Instead, it will only apply to those blockquotes that also have
 the speech class.
 
 It isn\'t unusual to see multiple classes joined this way as well:
-
+```
 .insect.flying { text-decoration: underline; font-weight:bold; }
+```
+![](./images/image009.png){width="6.5in" height="1.81875in"}
 
-### ![](./mod3-images/media/image9.png){width="6.5in" height="1.81875in"}
-
-### Descendant selectors
+<h4>Descendant selectors</h4>
 
 In the following HTML, we see some paragraphs that have some links
 (\<a\>) inside. The link tags are inside the paragraphs, but not
 necessarily direct children.  
-
-\<section id=\"intro\"\>Welcome
-to \<a href=\"#palaceland\"\>PalaceLand\</a\>, world renown \<q\>Land of
-endless palaces and \<a href=\"#delight\"\>delights\</a\>\</q\>. As you
+```
+<section id="intro">Welcome
+to <a href="#palaceland">PalaceLand</a>, world renown <q>Land of
+endless palaces and <a href="#delight">delights</a></q>. As you
 make your way about, remember the words of our
-founder \<blockquote\>Shouldn\'t we
-have \<a href=\"#chairs\"\>chairs\</a\>? Never made much sense wandering
-room a room looking for a place to sit a spell. Folk that don\'t sit are
+founder <blockquote>Shouldn't we
+have <a href="#chairs">chairs</a>? Never made much sense wandering
+room a room looking for a place to sit a spell. Folk that don't sit are
 not likely all right in
-the \<a href=\"#head\"\>head\</a\>\</blockquote\>\</section\>
+the <a href="#head">head</a></blockquote></section>
 
-\<section id=\"guideline\"\>There are guidelines to follow while
-in \<a href=\"#palaceland\"\>PalaceLand\</a\>. They are outlined on the
-back of your \<q\>Daring
-Footman \<a href=\"#trademark\"\>(tm)\</a\>\</q\> card. But the spirit
-of the guidelines are best summed up by our founder \<blockquote\>Don\'t
-just \<a href=\"#standthere\"\>stand there\</a\> with your mouth hanging
-open waiting for a pair of nesting birds.\</blockquote\> (and
-no \<a href=\"#camera_policy\"\>flash
-photography\</a\> please.)\</section\>
-
+<section id="guideline">There are guidelines to follow while
+in <a href="#palaceland">PalaceLand</a>. They are outlined on the
+back of your <q>Daring
+Footman <a href="#trademark">(tm)</a></q> card. But the spirit
+of the guidelines are best summed up by our founder <blockquote>Don't
+just <a href="#standthere">stand there</a> with your mouth hanging
+open waiting for a pair of nesting birds.</blockquote> (and
+no <a href="#camera_policy">flash
+photography</a> please.)</section>
+```
 What if we wanted all the links in the introductory section to be red,
 but all the link in the guideline section to be green?  That is what
 descendant selectors are for. Here is an example for the problem we are
 facing:
-
+```
 #intro a { color: red; }\
 #guideline a { color: #00FF00; }
-
+```
 We merely separate the tag, identifier, or class selectors by a space.
 
 So, in the first rule, we see that the selector will match to any
@@ -1465,7 +1401,7 @@ this:
 Any \<a\> tags anywhere inside a \<blockquote\> anywhere inside
 the #intro section will now be bold.
 
-### Direct descendant selectors ( \> )
+<h4>Direct descendant selectors ( \> )</h4>
 
 Sometimes you don\'t want to apply a style to any \_possible\_ child,
 but to only to the direct children.  This can be done with
@@ -1477,7 +1413,7 @@ blockquotes. :
 
 #intro \> a { font-size: large; }
 
-### Everything selector (\*)
+<h4>Everything selector (\*)</h4>
 
 The asterisk (\*) can be used to match **any** tag. By itself, this is
 only marginally useful. But combined with other selectors into a
@@ -1488,7 +1424,7 @@ body receive the margin \*/\
 p \* { text-decoration: underline; } /\* the text of the paragraph will
 be normal, but any children anywhere inside it will be underlined \*/
 
-## 3.4.4 Cascading: inheritance and precedence
+<h3>3.4.4 Cascading: inheritance and precedence</h3>
 
 Now that we\'ve covered several ways of defining CSS selectors, we need
 to understand what happens when multiple selectors resolve to the same
@@ -1574,7 +1510,7 @@ none of its children inherit the padding.
 | evident.             |                     |                        |
 +----------------------+---------------------+------------------------+
 
-### Which rules are inheritable?
+<h4>Which rules are inheritable?</h4>
 
 There is no reliable rule for which CSS properties are inheritable by
 default and which are not. However, generally, the properties associated
@@ -1582,7 +1518,7 @@ with positioning and layout are *not* inherited.  Likewise, the
 decorative properties (borders, background images, etc.) do not inherit.
  Most properties that begin with text- or font- inherit.
 
-### Precedence
+<h4>Precedence</h4>
 
 It is possible, and easy, to have several different CSS rules all
 applying to the same element.  This is often advantageous because most
@@ -1600,45 +1536,45 @@ CSS *precedence* comes into play. When rendering CSS, the browser has
 some guidelines it follows for resolving conflicting rules. Here is
 rough summary, in order:
 
-### 1 - Most specific rule
+<h4>1 - Most specific rule</h4>
 
 A more *specific* rule takes precedence over a less specific rule.  A
 rule that more tightly matches a particular element than a general rule
 will be applied. 
-
+```
 span { color: blue; }
 
 ul li span { color: red; }
-
+```
 In the example above, both rules are attempting to set a span color for
 a span inside a list item. However, the second rule will \"win\" when
 there is a conflict (like color in this case). 
 
-### 2 - #id selector is the most specific
+<h4>2 - #id selector is the most specific</h4>
 
 Rules with an id selector (e.g.  #someid ) are considered more specific
 than rules without.
 
-### 3- .class selector is more specific than a tag selector
+<h4>3- .class selector is more specific than a tag selector</h4>
 
 Rules employing a class selector (e.g. .someclass ) are considered more
 specific than rules without (but not as specific as an #id selector,
 which trumps everything).
 
-### 4- Rules that come later override those that come earlier
+<h4>4- Rules that come later override those that come earlier</h4>
 
 This guideline is for two CSS rulesets with the same selector.  Where
 there are conflicts, the rules from the later one apply.  
-
+```
 .hortense { color: red; text-decoration: underline; }
 
 .hortense { color: blue; }
-
+```
 In the example above, an element with the .hortense class will be
 underlined and its color will be **blue**, because that rule came later
 than when it was set red.
 
-### No fear
+<h4>No fear</h4>
 
 These guidelines seem fairly straightforward, but situations can quickly
 get rather knotty.  For example, what color should we expect in this
@@ -1663,10 +1599,10 @@ see how you can use the tools in the browser itself to inspect your
 elements and see exactly what CSS rules and properties are being
 inherited, applied and what is their precedence.  
 
-### !important
-
+<h4>!important</h4>
+```
 p { color: orange !important; }
-
+```
 Because multiple CSS selectors can resolve to the same element, and
 because the rules that govern precedence are complex, you may from time
 to time encounter a situation where you need to apply a particular CSS
@@ -1683,138 +1619,78 @@ that conflict there is no escape.  If you are having problems with
 precedence the best advice is to fix them directly, rather than
 using !important.
 
-## 3.4.x Recipe
+<h3>3.4.x Recipe</h3>
 
-![](./mod3-images/media/image10.png){width="4.0in"
+![](./images/image010.png){width="4.0in"
 height="2.788461286089239in"}
-
-\<!DOCTYPE html\>
-
-\<html lang=\"en\"\>
-
-\<head\>
-
-\<meta charset=\"UTF-8\"\>
-
-\<title\>My Favorite Recipes - Module 2\</title\>
-
-\</head\>
-
-\<body\>
-
-\<h1\>My Favorite Recipes\</h1\>
-
-\<nav\>
-
-\<ul\>
-
-\<li\>\<a href=\"#soup\"\>Soup\</a\>\</li\>
-
-\<li\>\<a href=\"#salad\"\>Salad\</a\>\</li\>
-
-\<li\>\<a href=\"#pizza\"\>Pizza\</a\>\</li\>
-
-\</ul\>
-
-\</nav\>
-
-\<article id=\"soup\"\>
-
-\<h2\>Soup\</h2\>
-
-\<img
-src=\"https://upload.wikimedia.org/wikipedia/commons/2/22/Bol_soupe_bicolore.jpg\"
-alt=\"soup image\" width=320\>
-
-\<p\>
-
-Beethoven once said \<q\>Only the pure of heart can make a good
-soup\</q\>. Well, here\'s my attempt at doing just that!
-
-\</p\>
-
-\<ol\>
-
-\<li\>Step 1\</li\>
-
-\<li\>Step 2\</li\>
-
-\<li\>Step 3\</li\>
-
-\<li\>Enjoy!\</li\>
-
-\</ol\>
-
-\</article\>
-
-\<article id=\"salad\"\>
-
-\<h2\>Salad\</h2\>
-
-\<img
-src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Caesar_salad\_%281%29.jpg/320px-Caesar_salad\_%281%29.jpg\"
-alt=\"salad image\" width=320\>
-
-\<h3\>List of ingredients\</h3\>
-
-\<ul\>
-
-\<li\>Ingredient 1\</li\>
-
-\<li\>Ingredient 2\</li\>
-
-\<li\>Ingredient 3\</li\>
-
-\</ul\>
-
-\<p\>
-
-Who can resist a fresh salad ! Here\'s one of my favorites.
-
-\</p\>
-
-\<ol\>
-
-\<li\>Step 1\</li\>
-
-\<li\>Step 2\</li\>
-
-\<li\>Step 3\</li\>
-
-\<li\>Enjoy!\</li\>
-
-\</ol\>
-
-\</article\>
-
-\<article id=\"pizza\"\>
-
-\<h2\>Pizza\</h2\>
-
-\<img
-src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Margherita_Originale.JPG/320px-Margherita_Originale.JPG\"
-alt=\"pizza image\" width=320\>
-
-\<p\>
-
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My Favorite Recipes - Module 2</title>
+</head>
+<body>
+<h1>My Favorite Recipes</h1>
+<nav>
+<ul>
+<li><a href="#soup">Soup</a></li>
+<li><a href="#salad">Salad</a></li>
+<li><a href="#pizza">Pizza</a></li>
+</ul>
+</nav>
+<article id="soup">
+<h2>Soup</h2>
+<img
+src="https://upload.wikimedia.org/wikipedia/commons/2/22/Bol_soupe_bicolore.jpg"
+alt="soup image" width=320>
+<p>
+Beethoven once said <q>Only the pure of heart can make a good
+soup</q>. Well, here's my attempt at doing just that!
+</p>
+<ol>
+<li>Step 1</li>
+<li>Step 2</li>
+<li>Step 3</li>
+<li>Enjoy!</li>
+</ol>
+</article>
+<article id="salad">
+<h2>Salad</h2>
+<img
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Caesar_salad\_%281%29.jpg/320px-Caesar_salad_%281%29.jpg"
+alt="salad image" width=320>
+<h3>List of ingredients</h3>
+<ul>
+<li>Ingredient 1/li>
+<li>Ingredient 2</li>
+<li>Ingredient 3</li>
+</ul>
+<p>
+Who can resist a fresh salad ! Here's one of my favorites.
+</p>
+<ol>
+<li>Step 1</li>
+<li>Step 2</li>
+<li>Step 3</li>
+<li>Enjoy!</li>
+</ol>
+</article>
+<article id="pizza">
+<h2>Pizza</h2>
+<img
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Margherita_Originale.JPG/320px-Margherita_Originale.JPG"
+alt="pizza image" width=320>
+<p>
 Pizza, the king of comfort foods. Try this simple, taste sensation.
-
-\</p\>
-
-\<ol\>
-
-\<li\>Step 1\</li\>
-
-\<li\>Step 2\</li\>
-
-\<li\>Step 3\</li\>
-
-\<li\>Enjoy!\</li\>
-
-\</ol\>
-
-\</article\>
-
-\</body\>
-
-</html\>
+</p>
+<ol>
+<li>Step 1</li>
+<li>Step 2</li>
+<li>Step 3</li>
+<li>Enjoy!</li>
+</ol>
+</article>
+</body>
+</html>
+```
