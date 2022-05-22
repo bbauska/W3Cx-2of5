@@ -1551,13 +1551,18 @@ The order property, when applied to an individual flexbox item, lets you
 set its order. By default, the first item in a flexbox container has
 the order value of 1, the second is 2, etc.  And you can override it.
 
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------- 24. flex box sample (330) ----------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/mod6/image24.png?raw=true" "" width="600" >
+<img src="./images/image024.png?raw=true" 
+   alt="Flex box example; html, css and result"
+   width="100%" />
 &nbsp;
 
-## 6.4.4 Flexbox resources
+<h3>6.4.4 Flexbox resources</h3>
 
-#### CSS flexbox resources
+<h4>CSS flexbox resources</h4>
 
 -   [A complete guide to
     Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) (CSS
@@ -1573,11 +1578,68 @@ the order value of 1, the second is 2, etc.  And you can override it.
 -   [Flexbox froggy](https://flexboxfroggy.com/) (game to practice CSS
     flexbox code)
 
-## 6.5.1 CSS Grid Layout
+<h3>6.5.1 CSS Grid Layout</h3>
 
-\[insert video text\]
+Have a look at how CSS Grid Layout went from an idea to a reality. The short video below has been shot in August 2017 by the Microsoft team. It features some of the CSS Working Group participants:
 
-## 6.5.2 CSS Grid
+The web has always been traditionally very document-centric.
+
+People have always been asking for better layouts. 
+
+Most of the conversations ended up the same way, complaining about all the dirty hacks they had to do.
+
+That hacks that we were employing weren't as powerful as the old methods of just, put it all in a big, old table element.
+
+That was popular for a reason, it let you do powerful, complex layouts.
+
+It was just the worst thing to maintain, and the worst thing for semantics.
+
+I wanted to see some of the technologies that I had worked with previously from the Windows Presentation Foundation, StackPanel, WrapPanel, grid layout.
+
+The flexbox spec filled that StackPanel and WrapPanel gap, so we were left with, how do we fill the gap for grid?
+
+And we're gonna need to make a new spec, and we're gonna need to build it, and so that's what we did.
+
+We wanted grid to be more than what the developer world thought they needed.
+
+What they thought they needed was the things that they could do already.
+
+And we've been working on it since then, for five years or so, actively now.
+
+To make CSS what it was meant to be, which was to be a flexible, robust, powerful, and understandable system for doing layout.
+
+It actually provides web authors with the capability of doing web application layout in a sane, practical manner, without extra markup like tables.
+
+Without hacks like floats, without all the necessary JavaScript overhead that you need with absolute position.
+
+It allows you to do style development in a sort of different way.
+
+You create a template, you create your grid first, you put content into that.
+
+It lets us do amazing page layouts that were previously only really possible to do with table-based stuff.
+
+After reading the spec for the first time, I thought wow, this really has the potential to change everything.
+
+Since I saw that, I was like, this is something that we really need, is this ability to properly lay things out.
+
+I started digging into it and building some kind of examples to show other people.
+
+And I was absolutely determined that grid layout wasn't gonna disappear.
+It was gonna be something that other people found out about, and got excited about.
+
+The thing that changed it from a dream to reality here, was getting an implementer deeply interested in it, which in this case was Microsoft first leading with its version of the grid spec.
+
+It takes both the users who are demanding the feature, as well as the browser developers who are dedicating their resources to go and build this.
+
+The developer feedback has been remarkable, with all the major browser vendors implementing it, and shipping it in 2017.
+
+It's not just something we're talking about, they can go use it.
+
+We should've maybe pushed more, I think.
+
+The grid is something we should have had, probably from very early on, maybe from the start of CSS already.
+
+<h3>6.5.2 CSS Grid</h3>
 
 Have a look at how CSS Grid Layout went from an idea to a reality. The
 video below has been shot in August 2017 by the Microsoft team. It
@@ -1618,9 +1680,13 @@ element goes into a slot, so that they end up aligned as in a table. But
 you have full control over which slot they go into, you can change their
 order, they can span more than one row or column, and you can leave some
 slots empty.
-
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------ 25. grid module (333) ------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/mod6/image25.png?raw=true" "Baseline" width="485" >
+<img src="./images/image025.png?raw=true"
+   alt="Baseline Grid Module"
+   width="65%" />
 &nbsp;
 
 The Grid module provides several different ways to define such a grid
@@ -1654,7 +1720,7 @@ CSS](https://constraints.cs.washington.edu/web/ccss-uwtr.pdf). But only
 recently has technology become good enough to support some (not all!) of
 those ideas.
 
-## 6.5.3 CSS Grid resources
+<h3>6.5.3 CSS Grid resources</h3>
 
 If you look at the CSS Grid module, you may notice that it has rather a
 large number of properties. That is because it tries to allow different
@@ -1670,7 +1736,7 @@ around longer and works in older browsers). On the other hand, even for
 a single row or column, the Grid properties may turn out easier in some
 cases.
 
-#### CSS grid resources
+<h4>CSS grid resources</h4>
 
 -   [A complete guide to
     Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) (CSS
@@ -1682,9 +1748,14 @@ cases.
     collection of *examples*, video and other information to help you
     learn CSS *Grid* Layout - *by Rachel Andrew*.
 
-## 6.6.1 Recipe project - Module 6
+<h3>6.6.1 Recipe project - Module 6</h3>
+We'll put to use some of the layout techniques that we've learned.
 
-## 6.6.2 Recipe project
+Let's improve our Web page by making it more responsive, so it's easily readable whether wide or narrow. And we'll fix the banner and nav element in place, so it's always where we need it.
+
+Give it a try. Good luck!
+
+<h3>6.6.2 Recipe project</h3>
 
 In this next iteration of our recipe project, we\'re going to make a few
 changes again to our Web page using cascading style sheets.
