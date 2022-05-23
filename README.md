@@ -612,7 +612,7 @@ as 'vague but exciting'.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image009.gif?raw=true"
-   width="65%"
+   width="85%"
    alt="Network of Components" />
 </p>
 
