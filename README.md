@@ -302,7 +302,7 @@ Miller, February 6, 2019\].
 <p align="center" width="100%">
 <img src="./images/image003.png?raw=true"
    width="30%"
-   alt="W3C Devleopers logo" />
+   alt="W3C Developers logo" />
 </p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 07. mdn web docs mozilla logo (08) ------------------------------->
