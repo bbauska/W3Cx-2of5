@@ -98,7 +98,7 @@ are display:inline. They behave very differently.  These two properties
 other layout properties.  And when this is not understood, then it may
 seem random to a developer struggling to get stuff to work. 
 
-So, let\'s start with understanding a very important difference between
+Let\'s start with understanding a very important difference between
 block and inline display. And that begins with the baseline.
 
 <h3>Baseline</h3>
@@ -132,8 +132,8 @@ is a quick table of the default values for some of the tags we\'ve
 already learned.
 
 <p align="center">
-<img src="/images/mod6/image2.png?raw=true"
-   alt=""
+<img src="/images/image002.png?raw=true"
+   alt="Difference between Block and Inline Elements"
    width="65%" />
 &nbsp;
 
@@ -196,7 +196,7 @@ applied, but no extra room is being made for it above or below, so its
 background is overlapping the lines above and below.
 
 <p align="center">
-<img src="/images/mod6/image3.png?raw=true" 
+<img src="/images/image003.png?raw=true" 
    alt=""
    width="65%" />
 &nbsp;
@@ -206,7 +206,7 @@ However, this solution should not be considered optimal.  Better is to
 change the span to be display:inline-block, which is discussed below.
 
 <p align="center">
-<img src="/images/mod6/image4.png?raw=true" 
+<img src="/images/image004.png?raw=true" 
    alt=""
    width="65%" />
 &nbsp;
@@ -245,7 +245,7 @@ span element display:inline-block.  Note that the margin-top is also
 respected. 
 
 <p align="center">
-<img src="/images/mod6/image5.png?raw=true"
+<img src="/images/image005.png?raw=true"
    alt="Baseline"
    width="65%" />
 &nbsp;
@@ -552,7 +552,7 @@ it is position:relative and moved with the left property, it can leave
 the bounds of its parent, or go offscreen.
 
 <p align="center">
-<img src="/images/mod6/image7.png?raw=true"
+<img src="/images/image007.png?raw=true"
    alt="Baseline" 
    width="65%" />
 &nbsp;
@@ -584,7 +584,7 @@ has its height set and a border applied.  The \<q\> is positioned
 absolutely.
 
 <p align="center">
-<img src="/images/mod6/image8.png?raw=true"
+<img src="/images/image008.png?raw=true"
    alt="Baseline"
    width="65%" />
 &nbsp;
@@ -640,7 +640,7 @@ in the result below, so you can easily see the rectangle
 for  \<li\> versus \<ul\>.
 
 <p align="center">
-<img src="/images/mod6/image9.png?raw=true"
+<img src="/images/image009.png?raw=true"
    alt="Baseline"
    width="65%" />
 &nbsp;
@@ -690,12 +690,12 @@ height of 0, as if it were empty. The fat border just becomes a fat flat
 line, and the list items themselves are not enclosed. 
 
 <p align="center">
-<img src="/images/mod6/image10.png?raw=true"
-   alt="Baseline"
+<img src="/images/image010.png?raw=true"
+   alt=""
    width="20%" />
 &nbsp;
 
-### Absolute positioned block level elements do not get the width of their parent
+<h4>Absolute positioned block level elements do not get the width of their parent</h4>
 
 Earlier we learned that block level elements automatically get the width
 of their parent, that is, they extend to become full width. But this is
@@ -733,7 +733,7 @@ grow or shrink based on the size of the ancestor it is positioning
 against.  Note that this feature is only available to absolute and fixed
 positioned elements.
 
-## 6.2.6 \'z-index\' (OPTIONAL)
+<h3>6.2.6 \'z-index\' (OPTIONAL)</h3>
 
 **Note**: this section is optional material included for the curious. It
 will not appear on any graded question.
@@ -761,8 +761,8 @@ set, so the later elements overlap the earlier ones.  But on the right,
 we govern the overlapping with the z-index property. 
 
 <p align="center">
-<img src="/images/mod6/image11.png?raw=true"
-   alt="Baseline"
+<img src="/images/image011.png?raw=true"
+   alt=""
    width="20%" />
 &nbsp;
 
@@ -793,7 +793,7 @@ Alan remains behind. Alan\'s high z-index is only relevant to his
 siblings, not to cousins further out in the document.
 
 <p align="center">
-<img src="/images/mod6/image12.png?raw=true"
+<img src="/images/imagexxx.png?raw=true"
    alt="" 
    width="65%" />
 &nbsp;
@@ -907,7 +907,9 @@ This default behavior, that content that doesn\'t fit is shown anyway,
 can be surprising if you weren\'t expecting it. 
 
 <p align="center">
-<img src="/images/mod6/image13.png?raw=true" " " width="650" >
+<img src="/images/imagex.png?raw=true"
+   alt=" "
+   width="650" />
 &nbsp;
 
 ### overflow
@@ -942,10 +944,12 @@ of 100 pixels. 
     whether they are needed or not.
 
 <p align="center">
-<img src="/images/mod6/image14.png?raw=true" "" width="650" >
+<img src="/images/image014.png?raw=true"
+   alt=""
+   width="650" />
 &nbsp;
 
-### The box model and box-sizing
+<h4>The box model and box-sizing</h4>
 
 So, if we say that some block level element is supposed to have a height
 and width of 100 pixels, does that include the border or the padding?
@@ -1038,10 +1042,12 @@ and padding on the paragraph, and a background color and a border radius
 to help visualize.
 
 <p align="center">
-<img src="/images/mod6/image16.png?raw=true" "" width="650" >
+<img src="/images/image016.png?raw=true"
+   alt=""
+   width="650" />
 &nbsp;
 
-### flex container
+<h4>flex container</h4>
 
 div { display: flex; }
 
