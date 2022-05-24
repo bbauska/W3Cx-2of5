@@ -10,18 +10,6 @@
    width="35%"
    alt="W3C logo" />
 </p>
-<!---
-## COLOR!
-
-- ![#ff0000](https://placehold.it/12/ff0000?text=+) red!
-- ![#9900c5](https://placehold.it/15/9900c5?text=+) purple!
-- ![#157500](https://placehold.it/20/157500?text=+) green!
---->
-![](https://placehold.it/400x90/ff0000/000000?text=IMPORTANT!)
-
-![](https://placehold.it/400x90/ff6600/000?text=WARNING!)
-
-![](https://placehold.it/350x90/009955/fff?text=SUCCESS!)
 
 <h3 align="center">W3Cx-2of5-HTML5.0x - HTML5 and CSS3 Fundamentals</h3>
 <!------------------------------------------------------------------------------------------------>
@@ -1697,16 +1685,16 @@ new tag (representing a nested element). This is done by adding a '/'
 right after the '\<' to indicated that it's a 'close tag'. To indicate
 the beginning and end of a paragraph (indicated by the single letter
 'p') you end up with something like this:
-
-\<p\>This is my first paragraph!\</p\>
-
-The browser sees the letters '\<p\>' and decides 'A new paragraph is
+```
+<p>This is my first paragraph!</p>
+```
+The browser sees the letters '<p>' and decides 'A new paragraph is
 starting, I'd better start a new line and maybe indent it'. Then when it
-sees '\</p\>' it knows that the paragraph it was working on is finished,
+sees '</p>' it knows that the paragraph it was working on is finished,
 so it should break the line there before going on to whatever is next.
 
-For example, the '\<em\>' tag is used for element that needs *Em*phasis.
- The  '\<' and '\>' indicate that this is a tag, and the "little bits of
+For example, the '<em>' tag is used for element that needs *Em*phasis.
+ The  '<' and '>' indicate that this is a tag, and the "little bits of
 text" in between tell us what kind of tag it is.  To completely describe
 the element, it needs an open and close tag, with everything in between
 the tags being the content of the element:
@@ -5465,10 +5453,19 @@ Find out from their tooltips!
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- 42,43,44.  (110) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="./images/image042.jpeg" style="width:2in;height:2in"
-alt="Beautiful landscape background image" /><img src="./images/image043.jpeg" style="width:2in;height:2in"
-alt="Brick texture for use behind main content" /><img src="./images/image044.jpeg" style="width:2in;height:2in"
-alt="Decorative banner graphic" />
+<p align="center" width="100%">
+<img src="./images/image042.jpeg"
+   style="width:2in;height:2in"
+   alt="Beautiful landscape background image" />
+
+<img src="./images/image043.jpeg"
+   style="width:2in;height:2in"
+   alt="Brick texture for use behind main content" />
+
+<img src="./images/image044.jpeg"
+   style="width:2in;height:2in"
+   alt="Decorative banner graphic" />
+</p>
 
 <h3>2.4.5 Using \<img\> Tags</h3>
 
@@ -5717,14 +5714,18 @@ writing alternate text. 
 
 In a typical Web page, you may well have seen a sentence like this one:
 
-*[Find out more](https://en.wikipedia.org/wiki/Hyperlink) about our
-offers! *
+<b>[Find out more](https://en.wikipedia.org/wiki/Hyperlink) about our
+   offers!</b>
 
 Or something like this:
-
-<img src="./images/image045.png"
-style="width:2.40625in;height:0.45833in"
-alt="Buy now button for illustrating hyperlinks" />
+<!------------------------------------------------------------------------------------------------>
+<!---------------------- 45. buy now button to illustrate hyperlink (xxx) ------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image045.png?raw=true"
+   style="width:2.40625in;height:0.45833in"
+   alt="Buy Now Button to illustrate hyperlink" />
+</p>
 
 Try clicking the blue text or the 'Buy Now!' button, if you haven't
 already (make sure to navigate back to the course).
@@ -5749,7 +5750,7 @@ can be:
 
 -   an email: e.g. mailto:helloauthor@w3c.com
 
-#### Why you should prefer text links over images
+<h4>Why you should prefer text links over images</h4>
 
 When it comes to hyperlinks, try to use text instead of images when
 possible.
@@ -5764,7 +5765,7 @@ possible.
     purpose of the image, e.g, "buy now"), rather than a description of
     the image ("button").
 
-#### Best practices
+<h4>Best practices</h4>
 
 -   Apply hyperlinks to short phrases. It is unusual to see the link tag
     used around a whole paragraph.
@@ -5794,7 +5795,7 @@ possible.
 
 3.  \</a\>
 
-#### Anchor element
+<h4>Anchor element</h4>
 
 The hyperlink tag in html is simply **\<a\>, **and it is called
 the** anchor element**. Here is how it is used:
@@ -5810,7 +5811,7 @@ The \<link\> tag is used to define a link between a document and an
 external resource like an external style sheet. You will learn more
 about the \<link\> tag in the next chapter.
 
-### States of a hyperlink
+<h4>States of a hyperlink</h4>
 
 If the link has not been clicked, it will be blue and underlined. Now,
 click on the link and you will see that a visited link looks purple and
@@ -5878,7 +5879,7 @@ addresses:
 
 <h3>2.5.2 Attributes: href and target</h3>
 
-### The 'href' attribute
+<h4>The 'href' attribute</h4>
 
 The only attribute we have seen thus far in this chapter of hyperlinks
 is href.   
@@ -5911,9 +5912,7 @@ The href attribute takes a URL. This URL can be in the form of:
 
 1.  \<a href="mailto:abc@alphabets.com"\>\</a\>
 
-### 
-
-### The 'target' attribute
+<h4>The 'target' attribute</h4>
 
 target specifies the destination where the linked URL in href should be
 opened. It can take a variety of different values, but for our purposes
@@ -6025,8 +6024,14 @@ different browsers to see how it behaves.
 
 <h3>2.5.4 Use of Hyperlink Attributes</h3>
 
-<img src="./images/image046.png"
-style="width:6.5in;height:3.55208in" />
+<!------------------------------------------------------------------------------------------------>
+<!---------------------- 46.  hyperlink (xxx) ------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image046.png?raw=true"
+   style="width:6.5in;height:3.55208in"
+   alt="hyperlink" />
+</p>
 
 In this live coding demo, we're going to dive deep into hyperlinks.
 
