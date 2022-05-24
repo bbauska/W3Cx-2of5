@@ -1251,9 +1251,7 @@ the page is rendered in a browser.
 
 One way to do that is to open the file from the local folder.
 
-If I go to my Windows Explorer, and I have my file test.html,
-
-I can right click on it and say "Open with" and choose a browser.
+If I go to my Windows Explorer, and I have my file test.html, I can right click on it and say "Open with" and choose a browser.
 
 And as I've done before, I'll choose Microsoft Edge.
 
@@ -1308,22 +1306,17 @@ I can see in the extensions panel
 
 here that it says it's installed which is great.
 
-And I believe the command to
-
-preview using this extension is "control-K" and then "D'.
+And I believe the command to preview using this extension is "control-K" and then "D'.
 
 And as you can see, it launches my default browser.
 
 And it shows me the preview of that page.
 
-If I go back to my Visual Studio Code and I changed this
-
-to be VS code and I save it and I say "control-K-D".
+If I go back to my Visual Studio Code and I changed this to be VS code and I save it and I say "control-K-D".
 
 There you go. It previews.
 
-That's just an example of extension we can use in order to preview our
-HTML code
+That's just an example of extension we can use in order to preview our HTML code
 
 in a browser from Visual Studio Code.
 
@@ -1393,8 +1386,7 @@ and reviews, to determine which extensions are best for you to install.
 I'm just showing you examples here and I'm not endorsing any particular
 extension that I'm showing in this demo.
 
-That said, in order to show the demo, I'll choose one of these first
-three open in browser type extensions.
+That said, in order to show the demo, I'll choose one of these first three open in browser type extensions.
 
 I've worked with this one before, open-in-browser, so I click "Install".
 
@@ -1435,29 +1427,17 @@ I also don't have to remember addresses for files.
 
 An extension like this is definitely a step forward.
 
-However, to view my changes, I still have to save my file and reload it
-in the browser manually.
+However, to view my changes, I still have to save my file and reload it in the browser manually.
 
-If I type in "Hello Demo2!" and I save my file, you can see, there is
-still no change.
+If I type in "Hello Demo2!" and I save my file, you can see, there is still no change.
 
 I have to refresh my page here.
 
-The next level of HTML preview extension you can
+The next level of HTML preview extension you can install is one that offers a live preview.
 
-install is one that offers a live preview.
+A live preview of a HTML page is when your page is actually loaded into a local Web server running on your machine.
 
-A live preview of a HTML page is when your page is
-
-actually loaded into a local Web server
-
-running on your machine.
-
-And so the pages live,
-
-meaning any changes that you make to the page, also
-
-show up immediately on the page and in a browser.
+And so the pages live, meaning any changes that you make to the page, also show up immediately on the page and in a browser.
 
 I'll show you how you can do that right now.
 
@@ -2411,7 +2391,7 @@ details.  
 
 You might notice that code is not always consistent in how a given tag
 is written.  We might say '\<h1\>' in one spot and '\<H1\>' in another.
- In this case, they are exactly the same kind of tag.  Tag names are
+In this case, they are exactly the same kind of tag.  Tag names are
 "case insensitive" meaning that it does not matter whether you use
 capital or lower case letters in writing them.  In fact, you could write
 your body tag as '\<bOdY\>', but that's not generally considered a good
