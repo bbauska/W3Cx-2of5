@@ -1021,7 +1021,14 @@ And I'll do it, I'll click on this one.
 And you can see an "Editor" opens up, and it has a HTML Pane, A CSS
 Pane, a JavaScript Pane, and an Output Pane. This is just an example.
 
-**\<example picture goes here\>**
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------- 13 1/2. example (23) ------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image-example.png"
+   width="85%"
+   alt="Example" />
+</p>
 
 We won't go into the code in this example.
 
@@ -1603,7 +1610,7 @@ elements, paragraph elements, in fact pretty much all of the visible
 elements of the DOM.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 15. html element (32) -------------------------------------->
+<!----------------------------------- 15. html element (34) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image015.png?raw=true"
@@ -1634,7 +1641,7 @@ a text file?  Well, that's where "tags" come in.
 <h3>1.3.4 Tags</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------------------- 16. tags (33) ----------------------------------------->
+<!---------------------------------------- 16. tags (36) ----------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image016.png?raw=true"
@@ -1668,12 +1675,12 @@ the beginning and end of a paragraph (indicated by the single letter
 ```
 <p>This is my first paragraph!</p>
 ```
-The browser sees the letters '<p>' and decides 'A new paragraph is
+The browser sees the letters '\<p>' and decides 'A new paragraph is
 starting, I'd better start a new line and maybe indent it'. Then when it
-sees '</p>' it knows that the paragraph it was working on is finished,
+sees '\</p>' it knows that the paragraph it was working on is finished,
 so it should break the line there before going on to whatever is next.
 
-For example, the '<em>' tag is used for element that needs *Em*phasis.
+For example, the '\<em>' tag is used for element that needs *Em*phasis.
  The  '<' and '>' indicate that this is a tag, and the "little bits of
 text" in between tell us what kind of tag it is.  To completely describe
 the element, it needs an open and close tag, with everything in between
@@ -1687,7 +1694,7 @@ the tags being the content of the element:
    width="65%"
    alt="Diagram of an element: the &#39;&lt;em&gt;&#39; tag is used for element that needs Emphasis. The &#39;&lt;&#39; and &#39;&gt;&#39; indicate that this is a tag, and the little bits of text in between tell us what kind of tag it is. To completely describe the element, it needs an open and close tag, with everything in between the tags being the content of the element" />
 </p>
-
+<p>
 Most tags have open and close versions, but there are a few strange
 ones.  We'll learn more about these later, but we generally refer to the
 strange ones as "self closing" tags. Usually these tags represent an
@@ -15350,4 +15357,4 @@ We fixed those issues at the top.
 
 These are the final changes to our recipe project for this unit.
 
-<h3><b>Last Updated 5-16-2022 3:35pm</b></h3>
+<h3><b>Last Updated 5-24-2022 10:19pm</b></h3>
