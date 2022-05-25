@@ -8756,9 +8756,9 @@ So, in the example above:
 
 -   margin-top and margin-bottom are equal to 16 pixels
 
-### 4.3.3 Box model
+<h3>4.3.3 Box model</h3>
 
-Fuck MS Edge….
+MS Edge….
 
 <h3 id="ch4-4">4.4.1 CSS Precedence</h3>
 
@@ -8784,27 +8784,16 @@ could apply to the same element. Consider the following example:
 <h4>CSS</h4>
 ```
 h1{
-
 color:blue;
-
 font-size: 2rem;
-
 }
-
 article h1{
-
 color: black;
-
 font-size: 1.4rem;
-
 }
-
 section h1{
-
 color:grey;
-
 font-size:1.2rem;
-
 }
 ```
 <h4>HTML</h4>
@@ -8986,34 +8975,23 @@ we want:
    width="45%"
    alt="" />
 </p>
-```
-CSS
 
+<h4>CSS</h4>
+```
 h1{
-
 color:blue;
-
 font-size: 2rem;
-
 }
-
 article h1{
-
 color: black;
-
 font-size: 1.4rem;
-
 }
-
 section h1{
-
 color:grey;
-
 font-size:1.2rem;
-
 }
 ```
-HTML
+<h4>HTML</h4>
 ```
 <!DOCTYPE html\>
 <html lang="en"\>
@@ -9045,12 +9023,12 @@ page, and others as examples of different types of clouds.  We include
 the pictures but the result is unwieldy:
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 75.  (###) -------------------------------------->
+<!----------------------------------- 75. image of cloud (186) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image075.png?raw=true"
    width="65%"
-   alt="" />
+   alt="Image of Cloud" />
 </p>
 
 <h4>HTML</h4>
@@ -9106,12 +9084,12 @@ modifying it in the "Styles" panel and we decide on this:
 Giving a much more reasonable page:
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 76.  (###) -------------------------------------->
+<!----------------------------------- 76. cloud image (187) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image076.png?raw=true"
    width="65%"
-   alt="Modifying style in the debugger" />
+   alt="Cloud image in debugger" />
 </p>
 
 <h4>CSS</h4>
@@ -9122,7 +9100,7 @@ width: 10rem;
 
 }
 ```
-HTML
+<h4>HTML</h4>
 ```
 <!DOCTYPE html\>
 <html lang="en"\>
@@ -9135,6 +9113,7 @@ HTML
 <img alt="Clouds (Undulatus asperatus) above Tallinn - Author: Ave
 Maria Mõistlik" width="500"
 src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Beautiful_clouds.JPG/1600px-Beautiful_clouds.JPG"\>
+```
 <blockquote\>
 <hr\>
 “Clouds come floating into my life, no longer to carry rain or usher
@@ -9163,19 +9142,19 @@ So far so good, but we want our top image to be a bit bigger without
 changing the other images.  Recall  that an \<img\> tag
 includes a width attribute, so we can special case this image
 accordingly in the HTML code:
-
-1.  \<img alt="Clouds" width=500 src="images/clouds.jpg"\>
-
+```
+1.  <img alt="Clouds" width=500 src="images/clouds.jpg">
+```
 We look at our page again, and it hasn't changed!  Time to try the
 debugger again.
 
-### Debugging image size
+<h4>Debugging image size</h4>
 
 We open up the debugger and choose the \<img\> tag corresponding to our
 first picture, then we see this in the Styles section:
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 77.  (###) -------------------------------------->
+<!-------------------------------------- 77. debugger (188) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image077.png?raw=true"
@@ -9204,7 +9183,7 @@ code like this:
 5.     width: 10rem;
 6.  }
 ```
-####That looks better:
+<h4>That looks better:</h4>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 78.  (###) -------------------------------------->
@@ -9334,7 +9313,7 @@ The outermost level is fine, the next level is almost readable but the
 innermost level is ridiculously small.  Let's check what's wrong in the
 debugger.
 
-#### Computed tab
+<h4>Computed tab</h4>
 
 Looking into the style settings in the chrome browser debugger, at first
 glance we don't see anything unusual.  The font-size is .5em as
@@ -9398,7 +9377,7 @@ solution would be rem.  This would make the size relative to the
 html font-size (the default font-size for the page), not to it's
 surroundings.
 
-### 4.4.5 Recipe Project
+<h3>4.4.5 Recipe Project</h3>
 
 We are now going to do some more "beautifying" of our Web page using
 what we've learned in the debugger and the CSS box model to figure out
@@ -9413,221 +9392,121 @@ Try to make changes to get something like this:
 <img src="./images/image083.png"
 style="width:4.96875in;height:2.73958in" />
 
-#### CSS
-
+<h4>CSS</h4>
+```
 > nav {
->
 > background: aliceblue;
->
 > width: 12rem;
->
 > }
->
 > img {
->
 > width: 300px;
->
 > }
->
 > article {
->
 > margin-left: 3rem;
->
 > }
->
 > h1 {
->
 > text-align: center;
->
 > background: blue;
->
 > color: white;
->
 > }
-
-#### HTML
-
-> \<!DOCTYPE html\>
->
-> \<html lang="en"\>
->
-> \<head\>
->
-> \<meta charset="UTF-8"\>
->
-> \<title\>My Favorite Recipes - Module 4\</title\>
->
-> \<style\>
->
+```
+<h4>HTML</h4>
+```
+> <!DOCTYPE html>
+> <html lang="en">
+> <head>
+> <meta charset="UTF-8">
+> <title>My Favorite Recipes - Module 4</title>
+> <style>
 > nav{
->
 > background: lightgreen;
->
 > width: 20em;
->
 > }
->
 > img{
->
 > width: 400px;
->
 > border: 5px solid black;
->
 > padding: 10px;
->
 > }
->
 > article{
->
 > margin-left: 40px;
->
 > }
->
 > h1{
->
 > background: \#4c6d48;
->
 > text-align:center;
->
 > margin:0px;
->
 > }
->
 > nav ul{
->
 > padding-left: 25px;
->
 > }
->
 > body {
->
 > margin: 0px;
->
 > }
->
-> \</style\>
->
-> \</head\>
->
-> \<body\>
->
-> \<h1\>My Favorite Recipes\</h1\>
->
-> \<nav\>
->
-> \<ul\>
->
-> \<li\>\<a href="#soup"\>Soup\</a\>\</li\>
->
-> \<li\>\<a href="#salad"\>Salad\</a\>\</li\>
->
-> \<li\>\<a href="#pizza"\>Pizza\</a\>\</li\>
->
-> \</ul\>
->
-> \</nav\>
->
-> \<article id="soup"\>
->
-> \<h2\>Soup\</h2\>
->
-> \<img
+> </style>
+> </head>
+> <body>
+> <h1>My Favorite Recipes</h1>
+> <nav>
+> <ul>
+> <li><a href="#soup">Soup</a></li>
+> <li><a href="#salad">Salad</a></li>
+> <li><a href="#pizza">Pizza</a></li>
+> </ul>
+> </nav>
+> <article id="soup">
+> <h2>Soup</h2>
+> <img
 > src="https://upload.wikimedia.org/wikipedia/commons/2/22/Bol_soupe_bicolore.jpg"
 > alt="soup image" width="320"\>
->
-> \<p\>
->
-> Beethoven once said \<q\>Only the pure of heart can make a good
-> soup\</q\>. Well, here's my attempt at doing just that!
->
-> \</p\>
->
-> \<ol\>
->
-> \<li\>Step 1\</li\>
->
-> \<li\>Step 2\</li\>
->
-> \<li\>Step 3\</li\>
->
-> \<li\>Enjoy!\</li\>
->
-> \</ol\>
->
-> \</article\>
->
-> \<article id="salad"\>
->
-> \<h2\>Salad\</h2\>
->
-> \<img
+> <p>
+> Beethoven once said <q>Only the pure of heart can make a good
+> soup</q>. Well, here's my attempt at doing just that!
+> </p>
+> <ol>
+> <li>Step 1</li>
+> <li>Step 2</li>
+> <li>Step 3</li>
+> <li>Enjoy!</li>
+> </ol>
+> </article>
+> <article id="salad">
+> <h2>Salad</h2>
+> <img
 > src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Caesar_salad\_%281%29.jpg/320px-Caesar_salad\_%281%29.jpg"
-> alt="salad image" width=320\>
->
-> \<h3\>List of ingredients\</h3\>
->
-> \<ul\>
->
-> \<li\>Ingredient 1\</li\>
->
-> \<li\>Ingredient 2\</li\>
->
-> \<li\>Ingredient 3\</li\>
->
-> \</ul\>
->
-> \<p\>
->
+> alt="salad image" width=320>
+> <h3>List of ingredients</h3>
+> <ul>
+> <li>Ingredient 1</li>
+> <li>Ingredient 2</li>
+> <li>Ingredient 3</li>
+> </ul>
+> <p>
 > Who can resist a fresh salad ! Here's one of my favorites.
->
-> \</p\>
->
-> \<ol\>
->
-> \<li\>Step 1\</li\>
->
-> \<li\>Step 2\</li\>
->
-> \<li\>Step 3\</li\>
->
-> \<li\>Enjoy!\</li\>
->
-> \</ol\>
->
-> \</article\>
->
-> \<article id="pizza"\>
->
-> \<h2\>Pizza\</h2\>
->
-> \<img
+> </p>
+> <ol>
+> <li>Step 1</li>
+> <li>Step 2</li>
+> <li>Step 3</li>
+> <li>Enjoy!</li>
+> </ol>
+> </article>
+> <article id="pizza">
+> <h2>Pizza</h2>
+> <img
 > src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Margherita_Originale.JPG/320px-Margherita_Originale.JPG"
-> alt="pizza image" width=320\>
->
-> \<p\>
->
+> alt="pizza image" width=320>
+> <p>
 > Pizza, the king of comfort foods. Try this simple, taste sensation.
->
-> \</p\>
->
-> \<ol\>
->
-> \<li\>Step 1\</li\>
->
-> \<li\>Step 2\</li\>
->
-> \<li\>Step 3\</li\>
->
-> \<li\>Enjoy!\</li\>
->
-> \</ol\>
->
-> \</article\>
->
-> \</body\>
->
-> \</html\>
-
+> </p>
+> <ol>
+> <li>Step 1</li>
+> <li>Step 2</li>
+> <li>Step 3</li>
+> <li>Enjoy!</li>
+> </ol>
+> </article>
+> </body>
+> </html>
+```
 Use the debugger to experiment with settings of margins, padding and
 borders, to figure out what needs to change to eliminate some of the
 gaps between elements and the side of the window and frame the images.
@@ -9641,203 +9520,112 @@ the CodePen below:
 <img src="./images/image084.png"
 style="width:4.96875in;height:2.73958in" />
 
-### CSS
-
+<h4>CSS</h4>
+```
 > nav {
->
 > background: aliceblue;
->
 > width: 12rem;
->
 > }
->
 > img {
->
 > width: 300px;
->
 > }
->
 > article {
->
 > margin-left: 3rem;
->
 > }
->
 > h1 {
->
 > text-align: center;
->
 > background: blue;
->
 > color: white;
-
 }
-
-#### HTML
-
-> \<!DOCTYPE html\>
->
-> \<html lang="en"\>
->
-> \<head\>
->
-> \<meta charset="UTF-8"\>
->
-> \<title\>My Favorite Recipes - Module 3\</title\>
->
-> \<style\>
->
+```
+<h4>HTML</h4>
+```
+> <!DOCTYPE html>
+> <html lang="en">
+> <head>
+> <meta charset="UTF-8">
+> <title>My Favorite Recipes - Module 3</title>
+> <style>
 > nav{
->
 > background: lightgreen;
->
 > width: 20em;
->
 > }
->
 > img{
->
 > width: 400px;
->
 > }
->
 > article{
->
 > margin-left: 40px;
->
 > }
->
 > h1{
->
-> background: \#4c6d48;
->
+> background: #4c6d48;
 > text-align:center;
->
 > }
->
-> \</style\>
->
-> \</head\>
->
-> \<body\>
->
-> \<h1\>My Favorite Recipes\</h1\>
->
-> \<nav\>
->
-> \<ul\>
->
-> \<li\>\<a href="#soup"\>Soup\</a\>\</li\>
->
-> \<li\>\<a href="#salad"\>Salad\</a\>\</li\>
->
-> \<li\>\<a href="#pizza"\>Pizza\</a\>\</li\>
->
-> \</ul\>
->
-> \</nav\>
->
-> \<article id="soup"\>
->
-> \<h2\>Soup\</h2\>
->
-> \<img
+> </style>
+> </head>
+> <body>
+> <h1>My Favorite Recipes</h1>
+> <nav>
+> <ul>
+> <li><a href="#soup">Soup</a></li>
+> <li><a href="#salad">Salad</a></li>
+> <li><a href="#pizza">Pizza</a></li>
+> </ul>
+> </nav>
+> <article id="soup">
+> <h2>Soup</h2>
+> <img
 > src="https://upload.wikimedia.org/wikipedia/commons/2/22/Bol_soupe_bicolore.jpg"
-> alt="soup image" width=320\>
->
-> \<p\>
->
-> Beethoven once said \<q\>Only the pure of heart can make a good
-> soup\</q\>. Well, here's my attempt at doing just that!
->
-> \</p\>
->
-> \<ol\>
->
-> \<li\>Step 1\</li\>
->
-> \<li\>Step 2\</li\>
->
-> \<li\>Step 3\</li\>
->
-> \<li\>Enjoy!\</li\>
->
-> \</ol\>
->
-> \</article\>
->
-> \<article id="salad"\>
->
-> \<h2\>Salad\</h2\>
->
-> \<img
-> src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Caesar_salad\_%281%29.jpg/320px-Caesar_salad\_%281%29.jpg"
-> alt="salad image" width=320\>
->
-> \<h3\>List of ingredients\</h3\>
->
-> \<ul\>
->
-> \<li\>Ingredient 1\</li\>
->
-> \<li\>Ingredient 2\</li\>
->
-> \<li\>Ingredient 3\</li\>
->
-> \</ul\>
->
-> \<p\>
->
+> alt="soup image" width=320>
+> <p>
+> Beethoven once said <q>Only the pure of heart can make a good
+> soup</q>. Well, here's my attempt at doing just that!
+> </p>
+> <ol>
+> <li>Step 1</li>
+> <li>Step 2</li>
+> <li>Step 3</li>
+> <li>Enjoy!</li>
+> </ol>
+> </article>
+> <article id="salad">
+> <h2>Salad</h2>
+> <img
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Caesar_salad\_%281%29.jpg/320px-Caesar_salad\_%281%29.jpg"
+> alt="salad image" width=320>
+> <h3>List of ingredients</h3>
+> <ul>
+> <li>Ingredient 1</li>
+> <li>Ingredient 2</li>
+> <li>Ingredient 3</li>
+> <ul>
+> <p>
 > Who can resist a fresh salad ! Here's one of my favorites.
->
-> \</p\>
->
-> \<ol\>
->
-> \<li\>Step 1\</li\>
->
-> \<li\>Step 2\</li\>
->
-> \<li\>Step 3\</li\>
->
-> \<li\>Enjoy!\</li\>
->
-> \</ol\>
->
-> \</article\>
->
-> \<article id="pizza"\>
->
-> \<h2\>Pizza\</h2\>
->
-> \<img
-> src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Margherita_Originale.JPG/320px-Margherita_Originale.JPG"
+> </p>
+> <ol>
+> <li>Step 1</li>
+> <li>Step 2</li>
+> <li>Step 3</li>
+> <li>Enjoy!</li>
+> </ol>
+> </article>
+> <article id="pizza">
+> <h2>Pizza</h2>
+> <img
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Margherita_Originale.JPG/320px-Margherita_Originale.JPG"
 > alt="pizza image" width=320\>
->
-> \<p\>
->
+> <p>
 > Pizza, the king of comfort foods. Try this simple, taste sensation.
->
-> \</p\>
->
-> \<ol\>
->
-> \<li\>Step 1\</li\>
->
-> \<li\>Step 2\</li\>
->
-> \<li\>Step 3\</li\>
->
-> \<li\>Enjoy!\</li\>
->
-> \</ol\>
->
-> \</article\>
->
-> \</body\>
->
-> \</html\>
-
+> </p>
+> <ol>
+> <li>Step 1</li>
+> <li>Step 2</li>
+> <li>Step 3</li>
+> <li>Enjoy!</li>
+> </ol>
+> </article>
+> </body>
+> </html>
+```
 <h3 id="ch5-1">5.1.1 Welcome to Module 5</h3>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 85.  (###) -------------------------------------->
@@ -9845,7 +9633,7 @@ style="width:4.96875in;height:2.73958in" />
 <img src="./images/image085.png"
 style="width:3in;height:3.27103in" />
 
-### 5.1.2 Module 5 - Content
+<h3>5.1.2 Module 5 - Content</h3>
 
 **5.1 Introduction: **You will be combining HTML and CSS to create more
 complex pages.
@@ -9904,7 +9692,7 @@ layout capabilities in CSS3.  You really don't want to use tables that
 way, but there absolutely nothing wrong with using them for their
 intended purpose - making tables.
 
-### Separating content and style
+<h4>Separating content and style</h4>
 
 Look at [**this site**](http://create.adobe.com/) that is laid out with
 CSS. You might be tempted to do this via tables instead. Or you might
@@ -9935,7 +9723,7 @@ Bad idea! Here's why:
 Tables were not intended as a layout tool, so it is best to stick to
 them only for tabular data.
 
-### Table elements
+<h4>Table elements</h4>
 
 Here is a list of all the table elements we will be learning in this
 section:
@@ -9951,11 +9739,11 @@ section:
 
 We will use these elements to build our table as we go.
 
-### The \<table\> tag
+<h4>The \<table\> tag</h4>
 
 This tag defines a table in HTML5.
 
-### Attribute:
+<h4>Attribute:</h4>
 
 -   border - has two values, 0 and 1. It is used to specify a border
     around table cells. 0 - no border, 1 - add border. 0 also suggests
@@ -9973,62 +9761,44 @@ yet because we don't have any cells defined.
 should be styled using CSS. You can use the CSS border property to do
 that instead. 
 
-### \<caption\>
+<h4>\<caption\></h4>
 
 It is used to give a title to the table and should be used as the first
 child element of \<table\>. It can be used to provide more context to
 the table if its content is ambiguous. As a summary of the table
 content, a caption can also be helpful for people who have difficulty
 understanding the content or use assistive technology.
-
-1.  \<table border=1\>
-
-2.    \<caption\>
-
-3.      \<p\>Table 1.0\</p\>
-
-4.      \<p\>Student's final exam results 2016\</p\>
-
-5.    \</caption\>
-
-6.  \</table\>
-
+```
+1.  <table border=1>
+2.    <caption>
+3.      <p>Table 1.0</p>
+4.      <p>Student's final exam results 2016</p>
+5.    </caption>
+6.  </table>
+```
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 86.  (###) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <img src="./images/image086.png"
 style="width:4in;height:2.54315in" />
 
-### \<!DOCTYPE html\>
-
-> \<html lang="en"\>
->
-> \<head\>
->
-> \<meta charset="UTF-8"\>
->
-> \<title\>Table elements\</title\>
->
-> \</head\>
->
-> \<body\>
->
-> \<table border=1\>
->
-> \<caption\>
->
-> \<p\>Table 1.0\</p\>
->
-> \<p\>Student's final exam results 2016\</p\>
->
-> \</caption\>
->
-> \</table\>
->
-> \</body\>
->
-> \</html\>
-
+```
+> <!DOCTYPE html>
+> <html lang="en">
+> <head>
+> <meta charset="UTF-8">
+> <title>Table elements</title>
+> </head>
+> <body>
+> <table border=1>
+> <caption>
+> <p>Table 1.0</p>
+> <p>Student's final exam results 2016</p>
+> </caption>
+> </table>
+> </body>
+> </html>
+```
 <h3>5.2.2 The \<tr\>, \<th\>, \<td\>, \<colgroup\>, \<col\> tags</h3>
 
 Let's now create the most basic table with a few cells.
@@ -10042,19 +9812,14 @@ Creates a table row.
 There are two types of cells in a table - header and
 standard. \<th\> creates table header cells. The content of table header
 cells is bold and centered by default.
-
-1.  \<table border=1\>
-
-2.  \<tr\>
-
-3.  \<th\>Name\</th\>
-
-4.  \<th\>Age\</th\>
-
-5.  \</tr\>
-
-6.  \</table\>
-
+```
+1.  <table border=1>
+2.  <tr>
+3.  <th>Name</th>
+4.  <th>Age</th>
+5.  <tr>
+6.  <table>
+```
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 87.  (###) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -15357,4 +15122,4 @@ We fixed those issues at the top.
 
 These are the final changes to our recipe project for this unit.
 
-<h3><b>Last Updated 5-24-2022 10:19pm</b></h3>
+<h3><b>Last Updated 5-24-2022 10:49pm</b></h3>
