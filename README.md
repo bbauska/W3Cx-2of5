@@ -35,46 +35,46 @@
 
 ## [Module 1: My first Web page in HTML5](/modules/module1.md)
 
->### 1.1 [**Introduction to Module 1**](#ch1-1) 
->### 1.2 [**The big three: HTML5, CSS3 and JavaScript**](#ch1-2)
->### 1.3 [**Elements, tags and attributes**](#ch1-3)
->### 1.4 [**Character encoding**](#ch1-4)
->### 1.5 [**Best practices**](#ch1-5)
->### 1.6 [**More on tags**](#ch1-6)
+>### 1.1 [**Introduction to Module 1**](#ch1-1-1)
+>### 1.2 [**The big three: HTML5, CSS3 and JavaScript**](#ch1-2-1)
+>### 1.3 [**Elements, tags and attributes**](#ch1-3-1)
+>### 1.4 [**Character encoding**](#ch1-4-1)
+>### 1.5 [**Best practices**](#ch1-5-1)
+>### 1.6 [**More on tags**](#ch1-6-1)
 
 ## [Module 2: Attributes, images and links](/modules/module2.md)
->### 2.1 [**Introduction to Module 2**](#ch2-1)
->### 2.2 [**Attributes**](#ch2-2)
->### 2.3 [**Semantic meaning**](#ch2-3)
->### 2.4 [**images**](#ch2-4)
->### 2.5 [**Hyperlinks**](#ch2-5)
+>### 2.1 [**Introduction to Module 2**](#ch2-1-1)
+>### 2.2 [**Attributes**](#ch2-2-1)
+>### 2.3 [**Semantic meaning**](#ch2-3-1)
+>### 2.4 [**images**](#ch2-4-1)
+>### 2.5 [**Hyperlinks**](#ch2-5-1)
 
 ## [Module 3: Adding style with CSS](/modules/module3.md)
->### 3.1 [**Introduction to Module 3**](#ch3-1)
->### 3.2 [**CSS basic syntax**](#ch3-2)
->### 3.3 [**CSS properties**](#ch3-3)
->### 3.4 [**Lists and selectors**](#ch3-4)
+>### 3.1 [**Introduction to Module 3**](#ch3-1-1)
+>### 3.2 [**CSS basic syntax**](#ch3-2-1)
+>### 3.3 [**CSS properties**](#ch3-3-1)
+>### 3.4 [**Lists and selectors**](#ch3-4-1)
 
 ## [Module 4: Fixing and debugging](/modules/module4.md)
->### 4.1 [**Introduction to Module 4**](#ch4-1)
->### 4.2 [**Debugging tools and HTML5**](#ch4-2)
->### 4.3 [**Debugging and the CSS box model**](#ch4-3)
->### 4.4 [**Debugging CSS precedence**](#ch4-4)
+>### 4.1 [**Introduction to Module 4**](#ch4-1-1)
+>### 4.2 [**Debugging tools and HTML5**](#ch4-2-1)
+>### 4.3 [**Debugging and the CSS box model**](#ch4-3-1)
+>### 4.4 [**Debugging CSS precedence**](#ch4-4-1)
 
 ## [Module 5: More HTML5 and CSS](/modules/module5.md)
->### 5.1 [**Introduction to Module 5**](#ch5-1)
->### 5.2 [**Tables**](#ch5-2)
->### 5.3 [**Multimedia**](#ch5-3)
->### 5.4 [**Embedding content**](#ch5-4)
->### 5.5 [**CSS tricks**](#ch5-5)
+>### 5.1 [**Introduction to Module 5**](#ch5-1-1)
+>### 5.2 [**Tables**](#ch5-2-1)
+>### 5.3 [**Multimedia**](#ch5-3-1)
+>### 5.4 [**Embedding content**](#ch5-4-1)
+>### 5.5 [**CSS tricks**](#ch5-5-1)
 
 ## [Module 6: Basics of page Layout](/modules/module6.md)
->### 6.1 [**Introduction to Module 6**](#ch6-1)
->### 6.2 [**Concepts**](#ch6-2)
->### 6.3 [**CSS Flexbox**](#ch6-3)
->### 6.4 [**More flexbox**](#ch6-4)
->### 6.5 [**CSS Grid**](#ch6-5)
->### 6.6 [**Recipe project**](#ch6-6)
+>### 6.1 [**Introduction to Module 6**](#ch6-1-1)
+>### 6.2 [**Concepts**](#ch6-2-1)
+>### 6.3 [**CSS Flexbox**](#ch6-3-1)
+>### 6.4 [**More flexbox**](#ch6-4-1)
+>### 6.5 [**CSS Grid**](#ch6-5-1)
+>### 6.6 [**Recipe project**](#ch6-6-1)
 
 [HTML5 and CSS Fundamentals - git](https://github.com/bbauska/W3Cx-2of5-HTML5-and-CSS-Fundamentals.git)
 
@@ -540,7 +540,7 @@ for more details about the difference between Internet and the Web.
 
 <h4>What is Web Accessibility?</h4>
 
-<h3 id="ch1-1">1.1.1 Welcome to Module 1</h3>
+<h3 id="ch1-1-1">1.1.1 Welcome to Module 1</h3>
 
 Hello everyone! Welcome to Module 1 of the introduction to HTML5 and CSS
 course.
@@ -587,7 +587,7 @@ a great way to avoid the same pitfalls.
 **1.6 More on tags:** Review of the tags we have just learned about and
 get started on your course project.
 
-<h3 id="ch1-2">1.2.1 Vague But Exciting!</h3>
+<h3 id="ch1-2-1">1.2.1 Vague But Exciting!</h3>
 
 Twenty-nine years ago a proposal was sent internally at CERN
 outlying a universal linked information system. Dubbed 'Information
@@ -794,7 +794,7 @@ most modern browsers.
 
 -   Post your observations and findings in the discussion forum below.
 
-<h3 id="ch1-3">1.3.1 Putting the “M” in HTML</h3>
+<h3 id="ch1-3-1">1.3.1 Putting the “M” in HTML</h3>
 
 So the "M" in HTML stands for "Markup", but what does Markup really
 mean? Essentially, it means to annotate a document with extra
@@ -1908,7 +1908,7 @@ above. Try inserting a paragraph into the body of your new document.
  </body>
  </html>
 ```
-<h3 id="ch1-4">1.4.1 Character Encoding</h3>
+<h3 id="ch1-4-1">1.4.1 Character Encoding</h3>
 
 A character can be any letter, digit or symbol that makes up words and
 languages. English alphabets and digits 'a-z', 'A-Z', '0-9' are all
@@ -2257,7 +2257,7 @@ If you'd like to read more information about when to use character
 references and when not to use them, see [Using character escapes in
 markup and CSS](https://www.w3.org/International/questions/qa-escapes).
 
-<h3 id="ch1-5">1.5.1 Learning from the Mistakes of Others</h3>
+<h3 id="ch1-5-1">1.5.1 Learning from the Mistakes of Others</h3>
 
 Children can be great at asking questions about things that most adults
 take for granted, and like to challenge assumptions.
@@ -2548,7 +2548,7 @@ disagree with some of the suggestions in one of these guides?
 -   Using "Validate by URI", try some popular Web sites and see if you
     can find any errors.
 
-<h3 id="ch1-6">1.6.1 Tags We Have Already Used</h3>
+<h3 id="ch1-6-1">1.6.1 Tags We Have Already Used</h3>
 
 Now you can create a simple, empty, HTML page, and you know what tags
 are, though we have not said a lot about specific tags, what they mean,
@@ -2844,7 +2844,7 @@ This is going to be my favorite recipe.
 </body>
 </html>
 ```
-<h3 id="ch2">2.1.1 Welcome to Module 2</h3>
+<h3 id="ch2-1-1">2.1.1 Welcome to Module 2</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 20. attributes, images and links (57) ----------------------------->
@@ -2938,7 +2938,7 @@ your Web pages.
 jump from place to place on the Web. Explore the secrets of this
 powerful mechanism!
 
-<h3 id="ch2-2">2.2.1 Introduction</h3>
+<h3 id="ch2-2-1">2.2.1 Introduction</h3>
 
 We learned a little bit about what attributes are in the previous
 module. Let's look into it in more depth, by using examples.
@@ -3565,7 +3565,7 @@ Please find below suggested activities to help you practice:
     the list. Give it the following title (when you hover your mouse, it
     should display the title as a tooltip): 'Activity List'.
 
-<h3 id="ch2-3">2.3.1 Separating Content and Style</h3>
+<h3 id="ch2-3-1">2.3.1 Separating Content and Style</h3>
 
 When writing in hypertext language, it is important to separate content
 and style. Style should be kept tucked away in Cascading Style Sheets
@@ -5116,7 +5116,7 @@ Please find below suggested activities to help you practice:
 3.  Write a short HTML page that uses the \<div\> and \<span\> tags. You
     need not style them.
 
-<h3 id="ch2-4">2.4.1 Introduction</h3>
+<h3 id="ch2-4-1">2.4.1 Introduction</h3>
 
 The \<img\> tag
 
@@ -5695,7 +5695,7 @@ Refer to the [WAI images
 Tutorial](https://www.w3.org/WAI/tutorials/images/) for a guide to
 writing alternate text. 
 
-<h3 id="ch2">2.5.1 Introduction</h3>
+<h3 id="ch2-5-1">2.5.1 Introduction</h3>
 
 <h4>What are hyperlinks?</h4>
 
@@ -13210,7 +13210,7 @@ them out into a separate CSS file, linked that to the HTML document, and
 then applied some styling using class names to our table giving a little
 more visual appeal to that.
 
-<h3 id="ch6-1">6.1.1 Welcome to Module 6</h3>
+<h3 id="ch6-1-1">6.1.1 Welcome to Module 6</h3>
 
 Hi, and welcome to Module 6.
 
@@ -13233,7 +13233,7 @@ This is the last module of this course.
 We hope you have enjoyed the course and have gained new skills and up
 and ready to build great Web pages.
 
-<h3 id="ch6-1">6.1.2 Module 6 - Content</h3>
+<h3 id="ch6-1-2">6.1.2 Module 6 - Content</h3>
 
 <b>6.1 Introduction:</b> Understanding what "layout" means to your Web
 programming.
@@ -13257,7 +13257,7 @@ in CSS.
 <b><i>6.6 Recipe project:</i><b> Let's get "responsive" — how to make your Web
 page look good on differently sized devices.
 
-<h3 id="ch6-1">6.1.3 History of layout</h3>
+<h3 id="ch6-1-3">6.1.3 History of layout</h3>
 
 Before we get started working on the topic of layout directly, it is
 useful to understand a bit of HTML and CSS history.  
@@ -13308,7 +13308,7 @@ Except for some basic required concepts, we are going to skip all of
 this and go straight to flexbox. After many stumbles, flexbox finally
 brings sanity to the much needed world of layout in CSS.
 
-<h3 id="ch6-2">6.2.1 Text baseline and the display property</h3>
+<h3 id="ch6-2-1">6.2.1 Text baseline and the display property</h3>
 
 When newbie developers are groping around CSS blindly, they often
 stumble upon a variety of CSS properties that could be used to alter the
@@ -13994,7 +13994,7 @@ further out in the document.
 <img src="./images/image147.png"
 style="width:6.5in;height:1.85in" />
 
-<h3 id="ch6-3">6.3.1 Sizing and dimensions</h3>
+<h3 id="ch6-3-1">6.3.1 Sizing and dimensions</h3>
 
 We have already touched on the size properties in the various
 discussions about display and positioning. But here we'll cover them
@@ -14487,7 +14487,7 @@ as many browsers as possible.
     Container?](https://www.smashingmagazine.com/2018/08/flexbox-display-flex-container/) (by
     Rachel Andrew - 2 August 2018)
 
-<h3 id="ch6-4">6.4.1 Main and cross axes</h3>
+<h3 id="ch6-4-1">6.4.1 Main and cross axes</h3>
 
 **Note**: This material is included for completeness. However, many are
 able to use flexbox satisfactorily without it. None of the material here
@@ -14812,7 +14812,7 @@ the order value of 1, the second is 2, etc.  And you can override it.
 -   [Flexbox froggy](https://flexboxfroggy.com/) (game to practice CSS
     flexbox code)
 
-<h3 id="ch6-5">6.5.1 CSS Grid Layout</h3>
+<h3 id="ch6-5-1">6.5.1 CSS Grid Layout</h3>
 
 Have a look at how CSS Grid Layout went from an idea to a reality. The short video below has been shot in August 2017 by the Microsoft team. It features some of the CSS Working Group participants:
 The web has always been traditionally very document-centric.
@@ -14954,7 +14954,7 @@ cases.
     collection of *examples*, video and other information to help you
     learn CSS *Grid* Layout - *by Rachel Andrew*.
 
-<h3 id="ch6-6">6.6.1 Recipe project - Module 6</h3>
+<h3 id="ch6-6-1">6.6.1 Recipe project - Module 6</h3>
 
 <h3>6.6.2 Recipe project</h3>
 
