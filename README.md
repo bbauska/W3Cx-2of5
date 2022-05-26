@@ -568,7 +568,7 @@ quiz section.
 
 With that, let's jump right in.
 
-<h3>1.1.2 Module 1 – Content</h3>
+<h3 id="ch1-1-2">1.1.2 Module 1 – Content</h3>
 
 **1.1 Introduction:** A video that introduces the content of Module 1.
 
@@ -633,7 +633,7 @@ the big 3 (HTML5, CSS and JavaScript), the hypertext concept and the
 browser, an application program that provides a way to look at and
 interact with all the information on the World Wide Web.
 
-<h3>1.2.2 HTML5, CSS and JS</h3>
+<h3 id="ch1-2-2">1.2.2 HTML5, CSS and JS</h3>
 
 <h4>HTML5</h4>
 <!------------------------------------------------------------------------------------------------>
@@ -696,7 +696,7 @@ application, with nearly unlimited possibilities.  We will not be
 doing much with JavaScript in this course, but you should know that it
 is an important leg of the stool for modern Web pages.
 
-<h3>1.2.3 Hypertext</h3>
+<h3 id="ch1-2-3">1.2.3 Hypertext</h3>
 
 A fundamental key to the World Wide Web is the concept of "*Hypertext*".
  Hypertext is built on the idea of linking information together, not
@@ -733,7 +733,7 @@ between documents. It was not just a long list of details, but rather a
 sea of information stretching out in all directions. This sea of
 information was navigated by a new tool called a "Browser".
 
-<h3>1.2.4 The Browser</h3>
+<h3 id="ch1-2-4">1.2.4 The Browser</h3>
 
 The Internet existed long before the Web came to fruition, and lots of
 organizations were connected to it, including schools, companies and
@@ -777,7 +777,7 @@ information on the Internet, a simple click on a link would present the
 information in a graphical window. In many ways, it is the ancestor of
 most modern browsers.
 
-<h3>1.2.5 Activity – Explore the Web</h3>
+<h3 id="ch1-2-5">1.2.5 Activity – Explore the Web</h3>
 
 <h4>Exploring the Web, "Then and Now":</h4>
 
@@ -846,7 +846,7 @@ is the tradition in programming tutorials, we'll pause here to create a
 simple "Hello HTML" program. Please choose any Web editor of your liking
 (see in the subsection "Course tools").
 
-<h3>1.3.2 Programming “Hello HTML”</h3>
+<h3 id="ch1-3-2">1.3.2 Programming “Hello HTML”</h3>
 
 You can build and edit your HTML pages by either using online editors or
 editors that you can install on your machine, like Visual Studio Code.
@@ -1596,7 +1596,7 @@ are available to you.
 
 But hopefully this shows you, just how easy it is to get started.
 
-<h3>1.3.3 Elements</h3>
+<h3 id="ch1-3-3">1.3.3 Elements</h3>
 
 If you are sitting at a coffee shop next to a table of Web developers,
 you will probably hear three words quite a bit:  'Tags', 'Attributes'
@@ -1638,7 +1638,7 @@ children, but for our purpose this is enough.
 That may be a great picture, but how do we represent such a structure in
 a text file?  Well, that's where "tags" come in.
 
-<h3>1.3.4 Tags</h3>
+<h3 id="ch1-3-4">1.3.4 Tags</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------------- 16. tags (36) ----------------------------------------->
@@ -1710,7 +1710,7 @@ that don't even use the '/' at the end, they just don't have any close
 tag at all.  This works because all of the information this tag needs is
 declared in an "attribute".
 
-<h3>1.3.5 Comments</h3>
+<h3 id="ch1-3-5">1.3.5 Comments</h3>
 
 Computers are great at reading computer languages, but it's not always
 easy for humans.  Comments are a way of adding some text that is
@@ -1766,7 +1766,7 @@ important that the HTML comment notation, at least, differs from the
 others.  As for the exact form of those comments, we'll cover that in
 good time.
 
-<h3>1.3.6 Attributes</h3>
+<h3 id="ch1-3-6">1.3.6 Attributes</h3>
 
 Most of what we'll cover about attributes will come later, but I wanted
 to introduce the idea briefly. Basically, a given element on your Web
@@ -1797,7 +1797,7 @@ increase clarity, consistency and brevity.
 
 But more about attributes in the next module.
 
-<h3>1.3.7 All Together Now</h3>
+<h3 id="ch1-3-7">1.3.7 All Together Now</h3>
 
 One key to understanding HTML, or any computer language, is to be sure
 that you avoid ambiguity, because computers generally are not good at
@@ -1970,7 +1970,7 @@ days, but you should check.
 Read an [Introduction to character sets and encodings
 here](https://www.w3.org/International/getting-started/characters).
 
-<h3>1.4.2 The <meta> tag</h3>
+<h3 id="ch1-4-2">1.4.2 The <meta> tag</h3>
 
 Use the \<meta\> tag with the charset attribute in your HTML page to
 indicate to the browser the character encoding you will be using in the
@@ -2002,7 +2002,7 @@ W3C recommends placing it immediately after the opening \<head\> tag:
     </head>
   </html>
 ```
-<h3>1.4.3 HTML Character References</h3>
+<h3 id="ch1-4-3">1.4.3 HTML Character References</h3>
 
 <h4>Why we need character references</h4>
 
@@ -2197,7 +2197,7 @@ replaced with its character entity name)</p>
 
 <abbr title="Hypertext Markup Language &quot;5&quot;">HTML5</abbr>
 ```
-<h3>1.4.5 Character References for Other Characters</h3>
+<h3 id="ch1-4-5">1.4.5 Character References for Other Characters</h3>
 
 It is also possible to use character references to represent other
 characters in your page. This is useful when you are unable to type the
@@ -2293,7 +2293,7 @@ the term "best practice" you can trust that it is, even though we may
 not be able to explain it at that point in the course, so you'll want to
 make it a habit.
 
-<h3>1.5.2 Do’s and Don’ts</h3>
+<h3 id="ch1-5-2">1.5.2 Do’s and Don’ts</h3>
 
 The history of Web pages is such that browsers tend to be very forgiving
 of certain types of mistakes. If you miss a closing tag, it will often
@@ -2389,7 +2389,7 @@ the rules are (how many spaces to indent, single or double-quotes, etc.)
 but unless there is a good reason to change away from typical practices,
 it is usually best to adopt them.
 
-<h3>1.5.3 White Space and Capitalization</h3>
+<h3 id="ch1-5-3">1.5.3 White Space and Capitalization</h3>
 
 Before we go any further, it's good to understand a few technical
 details.  
@@ -2524,7 +2524,7 @@ could sum it all up with these simple dictum:
     of flexibility in capitalization and white space to make your code
     more readable and organized.
 
-<h3>1.5.4 Activity – Best Practices</h3>
+<h3 id="ch1-5-4">1.5.4 Activity – Best Practices</h3>
 
 1\. Compare and contrast these two different HTML Style Guides:
 
@@ -2659,7 +2659,7 @@ styling of one element to look like just about any other element.  You
 could style a \<p\> element so that it looks like an \<h1\>, though best
 practice would be not to do that.
 
-<h3>1.6.2 A Few New Tags to Learn</h3>
+<h3 id="ch1-6-2">1.6.2 A Few New Tags to Learn</h3>
 
 There are a lot more tags, but we will just cover a few more for now,
 mostly because they are straightforward to use and you can see the
@@ -2774,13 +2774,13 @@ primarily used to invoke certain formatting. 
 >
 > line breaks
 
-<h3>1.6.3 More HTML5</h3>
+<h3 id="ch1-6-3">1.6.3 More HTML5</h3>
 
 Video
 
-<h3>1.6.4 Activity - Your First Web Page</h3>
+<h3 id="ch1-6-4">1.6.4 Activity - Your First Web Page</h3>
 
-<h3>1.6.5 Recipe Project – Module 1</h3>
+<h3 id="ch1-6-5">1.6.5 Recipe Project – Module 1</h3>
 
 Throughout the course, we'll be building a simple project, adding to it
 with what we've learned in each module. This project will be a simple
@@ -2886,7 +2886,7 @@ what you've learned and test your knowledge by doing a quiz.
 
 We hope you enjoy the course, and happy learning!
 
-<h3>2.1.2 Meaningful Web Pages</h3>
+<h3 id="ch2-1-2">2.1.2 Meaningful Web Pages</h3>
 
 Tags and elements are building blocks of HTML5. However, they can be
 made so much more exciting with attributes. Let's take a simple element
@@ -2919,7 +2919,7 @@ visually impaired people who access your Web page using assistive
 technology like screen readers. Semantic markup enables all of this and
 more.
 
-<h3>2.1.3 Module 2 - Content</h3>
+<h3 id="ch2-1-3">2.1.3 Module 2 - Content</h3>
 
 **2.1 Introduction: **Check out this video explaining what you'll be
 learning about in Module 2 - and wrap your mind around the concept of
@@ -3083,7 +3083,7 @@ So now, all you have to do in your style sheet, is to instruct it to
 make all elements belonging to the 'poetry' class grey, italic and
 bold. 
 
-<h3>2.2.2 Global and Non-Global Attributes</h3>
+<h3 id="ch2-2-2">2.2.2 Global and Non-Global Attributes</h3>
 
 You have seen a few examples of attributes now: start, id and class. All
 HTML elements have attributes.
@@ -3183,7 +3183,7 @@ applied to the \<li\> tag. Search for the \<li\> element and then click
 on it: it will take you to the list tag's page that specifies applicable
 attributes.
 
-<h3>2.2.3 Global Attributes: Examples</h3>
+<h3 id="ch2-2-3">2.2.3 Global Attributes: Examples</h3>
 
 <h4>Global attribute: 'id'</h4>
 
@@ -3381,7 +3381,7 @@ value. 
 1.  \<abbr title="National Aeronautics and Space
     Administration"\>NASA\</abbr\>
 
-<h3>2.2.4 Global Attributes</h3>
+<h3 id="ch2-2-4">2.2.4 Global Attributes</h3>
 
 References for the video text below:
 
@@ -3539,7 +3539,7 @@ different element pages.
 That's it for now and, go ahead and explore attributes and all of the
 elements you can think of.
 
-<h3>2.2.5 Activities - Attributes</h3>
+<h3 id="ch2-2-5">2.2.5 Activities - Attributes</h3>
 
 Please find below suggested activities to help you practice:
 
@@ -3729,7 +3729,7 @@ categories across different cultures. For more information, read the
 article [Using \<b\> and \<i\>
 elements](https://www.w3.org/International/questions/qa-b-and-i-tags).
 
-<h3>2.3.2 Introduction to Semantic Elements</h3>
+<h3 id="ch2-3-2">2.3.2 Introduction to Semantic Elements</h3>
 
 Semantic HTML is HTML that concentrates on the meaning of information in
 Web pages instead of its presentation or look.
@@ -3920,7 +3920,7 @@ this:
    alt="Using the Markup Validator" />
 </p>
 
-<h3>2.3.3 New HTML5 Semantic Elements</h3>
+<h3 id="ch2-3-3">2.3.3 New HTML5 Semantic Elements</h3>
 
 We will elaborate on selected semantic elements in detail in the next
 unit.
@@ -4264,7 +4264,7 @@ Apart from
 these, \<cite\>, \<em\>, \<strong\>, \<p\> and \<blockquote\> are also
 semantic elements.
 
-<h3>2.3.4 Differentiating Semantic Elements</h3>
+<h3 id="ch2-3-4">2.3.4 Differentiating Semantic Elements</h3>
 
 Now, you have learned the semantic elements available and their syntax.
 When you try to apply it practically, there are some common problems you
@@ -4568,7 +4568,7 @@ style="width:4.89583in;height:2.83333in" />
 >
 > \</html\>
 ```
-<h3>2.3.5 \<article\> and \<section\> Elements</h3>
+<h3 id="ch2-3-5">2.3.5 \<article\> and \<section\> Elements</h3>
 
 ### \<article\> element
 
@@ -4952,7 +4952,7 @@ mark, figure, figcaption, details and summary.
 Experiment with the sample and try inserting other semantic elements
 that you want to try.
 
-<h3>2.3.6 \<div\> and \<span\> Elements</h3>
+<h3 id="ch2-3-6">2.3.6 \<div\> and \<span\> Elements</h3>
 
 \<div\> element
 
@@ -5103,7 +5103,7 @@ is not valid because the browser will consider them as two
 paragraphs one after the other. Even though you close the paragraphs
 with two closing tags \</p\>\</p\> at the end, they are ignored.
 
-<h3>2.3.7 Activities – Semantic Meaning</h3>
+<h3 id="ch2-3-7">2.3.7 Activities – Semantic Meaning</h3>
 
 Please find below suggested activities to help you practice:
 
@@ -5233,7 +5233,7 @@ information to be aware of.
     but some people write the markup by hand. Note that SVG 1.1 is
     a [W3C Web standard](https://www.w3.org/TR/SVG/).
 
-<h3>2.4.2 Attribute alt</h3>
+<h3 id="ch2-4-2">2.4.2 Attribute alt</h3>
 
 alt stands for *alternate text* for an image.
 
@@ -5308,7 +5308,7 @@ browser:
    alt="Supposed to be an image of tulips" />
 </p>
 
-<h3>2.4.3 Attributes: title, height & width</h3>
+<h3 id="ch2-4-3">2.4.3 Attributes: title, height & width</h3>
 
 <h4>The 'title' attribute</h4>
 
@@ -5403,7 +5403,7 @@ also useful if you are changing or removing the image: you can just
 remove it from your HTML and not deal with remembering to remove it
 from your CSS too.
 
-<h3>2.4.4 Decorative images</h3>
+<h3 id="ch2-4-4">2.4.4 Decorative images</h3>
 
 Should all images be part of HTML content?
 
@@ -5454,7 +5454,7 @@ Find out from their tooltips!
    alt="Decorative banner graphic" />
 </p>
 
-<h3>2.4.5 Using \<img\> Tags</h3>
+<h3 id="ch2-4-5">2.4.5 Using \<img\> Tags</h3>
 
 Hi there! In this video, we're going to take a closer look at how we add
 images to our HTML pages.
@@ -5674,7 +5674,7 @@ In this video, we'd fun with images, the image tag and its attributes.
 
 You're all set to spice up your pages with some images. Take care!
 
-<h3>2.4.6 Activities - images</h3>
+<h3 id="ch2-4-6">2.4.6 Activities - images</h3>
 
 Please find below a list of possible activities:
 
@@ -5864,7 +5864,7 @@ addresses:
     be used to search the Web to pick up email addresses for spam. You
     should avoid this if possible and use contact forms instead.
 
-<h3>2.5.2 Attributes: href and target</h3>
+<h3 id="ch2-5-2">2.5.2 Attributes: href and target</h3>
 
 <h4>The 'href' attribute</h4>
 
@@ -5945,9 +5945,9 @@ of the new tab having opened.</p></td>
 </tbody>
 </table>
 
-<h3>2.5.3 Attributes: Media and Download</h3>
+<h3 id="ch2-5-3">2.5.3 Attributes: Media and Download</h3>
 
-### The 'media' attribute
+<h4>The 'media' attribute</h4>
 
 The media attribute was introduced in HTML5. We will look at it briefly
 here. It is used to specify what kind of media or device the URL you
@@ -6009,7 +6009,7 @@ browsers](https://caniuse.com/#search=download). Try
 the download attribute in a html file of your own and run it in
 different browsers to see how it behaves.
 
-<h3>2.5.4 Use of Hyperlink Attributes</h3>
+<h3 id="ch2-5-4">2.5.4 Use of Hyperlink Attributes</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------- 46.  hyperlink (xxx) ------------------------>
@@ -6253,7 +6253,7 @@ You've seen how to use the attributes on the anchor tag to jump to pages
 on our site, visit other sites, download files and even skip around on
 the same page.
 
-<h3>2.5.6 Recipe Project – Module 2</h3>
+<h3 id="ch2-5-6">2.5.6 Recipe Project – Module 2</h3>
 
 We are now going to continue building on the recipe project we started
 in Module 1.  You can find our version in the CodePen below (and the
@@ -6581,9 +6581,9 @@ you learn, experimentation.
     specific purpose tags in HTML, and selectors are what allows you to
     target specific HTML elements and apply style to them
 
-<h3>3.1.3 The CSS Language</h3>
+<h3 id="ch3-1-3">3.1.3 The CSS Language</h3>
 
-##### CSS stands for 'Cascading Style Sheets'
+<h4>CSS stands for 'Cascading Style Sheets'</h4>
 
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- 50.  (###) ---------------------------------->
@@ -6618,7 +6618,7 @@ central way to set such rules, i.e. one place that said "I want all my
 paragraphs to be indented this much", much like master sheets in a word
 processor. CSS helps to solve this problem.
 
-<h3>3.1.4 The W3C CSS Working Group</h3>
+<h3 id="ch3-1-4">3.1.4 The W3C CSS Working Group</h3>
 
 The **CSS Working Group** (Cascading Style Sheets Working Group) is
 a [working group](https://en.wikipedia.org/wiki/Working_group) created
@@ -6639,7 +6639,7 @@ together form the current state of Cascading Style Sheets (CSS) as of
 definition includes modules by specification stability, not Web browser
 adoption rate.
 
-<h3>3.1.5 An Example</h3>
+<h3 id="ch3-1-5">3.1.5 An Example</h3>
 
 Let's see CSS in action. Below, we see two identical copies of HTML,
 however, styled differently.
@@ -6660,9 +6660,9 @@ stopped.
 Both of these use the exact same HTML. It is the CSS that makes them so
 different. So let's get started.
 
-<h3 id="ch3-2">3.2.1 The \<style\> and \<link\> tags</h3>
+<h3 id="ch3-2-1">3.2.1 The \<style\> and \<link\> tags</h3>
 
-<h3>The \<style\> tag</h3>
+<h4>The \<style\> tag</h4>
 
 <img src="./images/image052.jpeg"
 style="width:1.5625in;height:1.5625in"
@@ -6706,7 +6706,7 @@ common practice is to place it in the \<head\> section.  Such as:
 
 15. \</html\>
 ```
-<h3>The \<link\> tag</h3>
+<h4>The \<link\> tag</h4>
 
 While \<style\> is convenient, the better practice is to put the
 CSS into a separate file. One of the key advantages of using a separate
@@ -6748,7 +6748,7 @@ Here is an example HTML document.
 
 11. \</html\>
 ```
-<h3>3.2.2 Rules: selectors and declarations</h3>
+<h3 id="ch3-2-2">3.2.2 Rules: selectors and declarations</h3>
 
 At its simplest, CSS is just a list of *rules*.  Each *rule* consists of
 a *selector* and a *declaration.  *Here is an example:
@@ -6788,18 +6788,14 @@ In the example above, the entire CSS rule is written on one line.  This
 is not uncommon when the declaration of the CSS rule only has one
 property.  If a CSS rule has several properties, then it should be
 written to use one line per property value pair. For example:
-
+```
 1.  p {
-
 2.    font-size: 12px;
-
 3.    line-height: 15px;
-
 4.    color: #223344;
-
 5.  }
-
-<h3>3.2.3 Comments</h3>
+```
+<h3 id="ch2-2-3">3.2.3 Comments</h3>
 
 CSS can include "comments" as well, by which you, the developer today,
 can leave notes and reminders to you, a different developer tomorrow. Or
@@ -6807,33 +6803,22 @@ to others who might read your CSS.  
 
 Comments begin with /\* and **must** end with \*/ and they can span
 several lines. But they **cannot** be nested.
-
+```
 1.  p {
-
 2.     font-size: 8px; /\* client insists small text makes them more
     'professional'. \*/
-
 3.     /\* I hope his idea of 'professional' includes paying on time.
     \*/
-
 4.   
-
 5.     line-height: 24px; /\* see above \*/
-
 6.   
-
 7.     /\* none of the stuff below is working. I don't know why.
-
 8.   
-
 9.     margin-top: 5%;
-
 10.    margin-bottom:6%;
-
 11.    \*/
-
 12. }
-
+```
 <h3>3.2.4 Knowledge Check</h3>
 
 n/a
@@ -7285,7 +7270,7 @@ Web fonts are outside the scope of this course. Google provides a nice
 selection of licensed free Web fonts. Type "*google Web font tutorial*"
 into any search engine to learn more. 
 
-<h3>3.3.2 Margin and Color</h3>
+<h3 id="ch3-3-2">3.3.2 Margin and Color</h3>
 
 <h4>Margin</h4>
 
@@ -7359,7 +7344,7 @@ enough, and deciphering and generating hex codes is even harder.
 However, almost every editor and color picker will at least show you
 red, green and blue values and many have hex code displayed as well.
 
-<h3>3.3.3 Units</h3>
+<h3 id="ch3-3-3">3.3.3 Units</h3>
 
 font-size, line-height, margins and many other CSS properties expect
 some sort of dimension value. Dimension values support a wide variety of
@@ -7453,7 +7438,7 @@ p { 
 side margins \*/  
  }
 
-### External resources
+<h4>External resources</h4>
 
 The list of CSS units above is not exhaustive. There are various
 tutorials and explanations about CSS units on the internet. Here are a
@@ -7468,7 +7453,7 @@ few that you might find helpful.
 -   From the W3C specification: [Viewport-percentage
     lengths](https://www.w3.org/TR/css3-values/#viewport-relative-lengths)
 
-<h3>3.3.4 Accessible Typography</h3>
+<h3 id="ch3-3-4">3.3.4 Accessible Typography</h3>
 
 The CSS rules with which we've started are fun and easily
 understandable. They are mostly concerned with typography. Later, we
@@ -7752,7 +7737,7 @@ no guarantee to scale the image or assist with spacing or alignment.
 the background-image CSS property which has more options. There is a
 section dedicated to the background-image property.  
 
-<h3>3.4.2 Selectors</h3>
+<h3 id="ch3-4-2">3.4.2 Selectors</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 55.  (###) -------------------------------------->
@@ -7766,7 +7751,7 @@ declarations, but the only selector we've learned is the tag selector.
 There are other choices, and they can be composed together in
 interesting and useful ways. So let's learn some more CSS selectors.
 
-### tag selector
+<h4>tag selector</h4>
 
 We've already seen this one. A CSS selector that consists solely of a
 single tag (without punctuation or spacing) will be applied to any
@@ -7863,7 +7848,7 @@ Result:
 </tbody>
 </table>
 ```
-<h3>3.4.3 Combining Selectors</h3>
+<h3 id="ch3-4-3">3.4.3 Combining Selectors</h3>
 
 Being able to define a CSS selector in terms of a tag, class or id is
 very powerful. But it's not practical to place classes on every tag in
@@ -7871,7 +7856,7 @@ your document, much less to put unique ids throughout.  It's also
 inconvenient to constantly repeat CSS rules. But by combining composing
 selectors, all that can be avoided.  
 
-### Comma separated selectors
+<h4>Comma separated selectors</h4>
 
 Let's say we want to make all our \<blockquote\> tags, \<q\> tags, and
 anything with "speech" in it's class string, to be red italic text.  How
@@ -8051,7 +8036,7 @@ blockquotes. :
 
 \#intro \> a { font-size: large; }
 
-### Everything selector (\*)
+<h4>Everything selector (\*)</h4>
 
 The asterisk (\*) can be used to match **any** tag. By itself, this is
 only marginally useful. But combined with other selectors into a
@@ -8062,7 +8047,7 @@ body receive the margin \*/
 p \* { text-decoration: underline; } /\* the text of the paragraph will
 be normal, but any children anywhere inside it will be underlined \*/
 
-<h3>3.4.4 Cascading: inheritance and precedence</h3>
+<h3 id="ch3-4-4">3.4.4 Cascading: inheritance and precedence</h3>
 
 Now that we've covered several ways of defining CSS selectors, we need
 to understand what happens when multiple selectors resolve to the same
@@ -8276,7 +8261,7 @@ conflict with the various rules that are using !important, and from that
 conflict there is no escape.  If you are having problems with precedence
 the best advice is to fix them directly, rather than using !important.
 
-<h3>3.4.x Recipe</h3>
+<h3 id="ch3-4-6">3.4.6 Recipe</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 57.  (###) -------------------------------------->
@@ -8464,7 +8449,7 @@ including Microsoft Edge and Firefox.  Note that if all browsers are
 likely to have similar capabilities, the user interface may be a bit
 different.  Feel free to use whichever "Developers Tools" you prefer.
 
-<h3>4.2.2 Identifying HTML5 elements</h3>
+<h3 id="ch4-2-2">4.2.2 Identifying HTML5 elements</h3>
 
 Remember that elements are the intangible parts of your Web page, which
 are described by the text in tags and are rendered on the screen of
@@ -12661,7 +12646,7 @@ text-shadow:  \<x-offset\> \<y-offset\> \<blur\> \<color\>;
 <img src="./images/image129.png"
 style="width:6.5in;height:0.91458in" />
 
-<h3>5.5.3 Managing element size</h3>
+<h3 id="ch5-5-3">5.5.3 Managing element size</h3>
 
 As you start to leverage borders, background colors, and the other
 decorative CSS properties we have seen in the previous sections you will
@@ -12754,9 +12739,9 @@ next module. Here is a quick rundown:
     powerful, but by over-determining explicit heights and widths you
     reduce its usefulness to you and your viewer.
 
-<h3>5.5.5 Pseudo classes and cursor (OPTIONAL)</h3>
+<h3 id="ch5-5-5">5.5.5 Pseudo classes and cursor (OPTIONAL)</h3>
 
-### Refined CSS selectors - pseudo classes
+<h4>Refined CSS selectors - pseudo classes</h4>
 
 If you have a page with some links on it, and you look at them
 carefully, you may notice that some of the links that you've visited
@@ -12813,7 +12798,7 @@ grandparent.  Therefore, if you have two different style rules, such
 as li:hover and ul:hover, then they will *both* be activated,  when the
 mouse is over one of the list items.  
 
-<img src="./images/image132.png"
+<img src="./images/image132.jpeg"
 style="width:6.5in;height:2.35208in" />
 
 :nth-child
@@ -12833,7 +12818,7 @@ to tables or lists.
 <img src="./images/image133.png"
 style="width:6.5in;height:2.35208in" />
 
-<h3>Cursor property</h3>
+<h4>Cursor property</h4>
 ```html5
 li { cursor: pointer; }
 ```
@@ -12855,7 +12840,7 @@ well  ( cursor: url("images/my_pointer.png"); ).
 For more information, please visit the [MDN page on
 cursor](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor).
 
-<h3>5.5.6 CSS best practices (OPTIONAL)</h3>
+<h3 id="ch5-5-6">5.5.6 CSS best practices (OPTIONAL)</h3>
 
 You will find below an excerpt of CSS best practices (see the [full
 slide
@@ -13007,7 +12992,7 @@ Absolute units are usually the wrong answer.
 
 -   Provide fallbacks / use @supports.
 
-<h3>5.5.7 Recipe project - Module 5</h3>
+<h3 id="ch5-5-7">5.5.7 Recipe project - Module 5</h3>
 
 Let's up some of our code, as well as improve the look and feel of our
 Web page! Try moving all of your CSS code to a separate file (don't
@@ -13022,7 +13007,7 @@ and amounts.
 Give it a try, and when you're done (or if you get stuck), watch the
 next video to see what we did.
 
-<h3>5.5.8 Recipe project - Module 5</h3>
+<h3 id="ch5-5-8">5.5.8 Recipe project - Module 5</h3>
 
 In this next session, we're going to take a look at continuing the work
 on a recipe project.
@@ -13481,7 +13466,7 @@ A key to not getting confounded by the display property is to have a
 grasp on which elements default to which display value and appreciating
 the differences between block, inline, and inline-block display.
 
-<h3>6.2.2 Horizontal and vertical centering</h3>
+<h3 id="ch6-2-2">6.2.2 Horizontal and vertical centering</h3>
 
 **Horizontal centering**
 
@@ -13548,7 +13533,7 @@ There is no margin:auto approach to vertical centering. There are some
 complicated systems that folk have developed, but the shortest and best
 answer to vertical centering: use flexbox. 
 
-<h3>6.2.3 Key concept: position property</h3>
+<h3 id="ch6-2-3">6.2.3 Key concept: position property</h3>
 
 The 'left', 'top', 'right', and 'bottom' properties
 
@@ -13668,12 +13653,12 @@ matching dimensional property (width) unspecified.  The element will
 grow or shrink based on the size of the browser window.  Note that this
 feature is only available to fixed (and absolute) elements.
 
-<h3>6.2.5 Positioning (OPTIONAL)</h3>
+<h3 id="ch6-2-5">6.2.5 Positioning (OPTIONAL)</h3>
 
 **Note:** This section is optional material included for the curious. It
 will not appear on any graded question.
 
-### Positioned elements
+<h4>Positioned elements</h4>
 
 We read about the positioned elements in an earlier section. There are
 five positioning properties (left, top, right, bottom, and z-index) that
@@ -13935,7 +13920,7 @@ grow or shrink based on the size of the ancestor it is positioning
 against.  Note that this feature is only available to absolute and fixed
 positioned elements.
 
-<h3>6.2.6 'z-index' (OPTIONAL)</h3>
+<h3 id="ch6-2-6">6.2.6 'z-index' (OPTIONAL)</h3>
 
 **Note**: this section is optional material included for the curious. It
 will not appear on any graded question.
@@ -14192,7 +14177,7 @@ that the more you are directly managing the size of items, the more
 likely you will need to change the box-sizing property to
 be border-box.  
 
-<h3>6.3.2 Flexbox</h3>
+<h3 id="ch6-3-2">6.3.2 Flexbox</h3>
 
 Up to this point, we have covered quite a few different CSS layout
 concepts. Inline vs. block level display, different position values,
@@ -14394,7 +14379,7 @@ change at all, then set the flex-grow and flex-shrink to 0, and
 the box-sizing to border-box.  However, this is not advisable. Read
 the flex-shrink discussion above.  
 
-<h3>6.3.3 Flexbox advice and best practices</h3>
+<h3 id="ch6-3-3">6.3.3 Flexbox advice and best practices</h3>
 
 Here are some quick tips to help you get the most out of flexbox.
 
@@ -14600,7 +14585,7 @@ start" and "main end" sides (as in the illustration above).   When used
 with any of the flexbox align properties, flex-start and flex-end refer
 to the "cross start" and "cross end"  sides.
 
-<h3>6.4.2 Justification and alignment</h3>
+<h3 id="ch6-4-2">6.4.2 Justification and alignment</h3>
 
 **Note**: This material is included for completeness. However, many are
 able to use flexbox satisfactorily without it. None of the material here
@@ -14655,7 +14640,7 @@ distribute. So all the five options above would be identical (a tight
 stack of items) *unless* the height of the flexbox container were
 explicitly made larger. 
 
-<h3>align-content and align-items</h3>
+<h4>align-content and align-items</h4>
 
 The align-content and align-items are often confused for one another.
 But they are very different.  Both properties only apply if there is
@@ -14664,7 +14649,7 @@ because in many situations there isn't any cross axis space. In the
 example above (used for justify-content), none of the flexbox containers
 has any extra cross axis space (vertical space).  
 
-<h3>align-items</h3>
+<h4>align-items</h4>
 
 .fc { align-items: stretch; }
 
@@ -14700,7 +14685,7 @@ you can see how they align to each other.
    alt="Line Height and Align Items #2" />
 </p>
 
-<h3>align-content</h3>
+<h4>align-content</h4>
 
 .fc { align-content: space-between; }
 
@@ -14731,7 +14716,7 @@ than the height of any of the items.
    alt="Flexbox and Flex Item Align #2" />
 </p>
 
-<h3>align-self</h3>
+<h4>align-self</h4>
 
 .item { align-self: center; }
 
@@ -14760,7 +14745,7 @@ their align-self property set.
    alt="Flex Container with flex-flow and align" />
 </p>
 
-<h3>6.4.3 Order</h3>
+<h3 id="ch6-4-3">6.4.3 Order</h3>
 
 **Note**: This material is included for completeness. However, many are
 able to use flexbox satisfactorily without it. None of the material here
@@ -14794,7 +14779,7 @@ the order value of 1, the second is 2, etc.  And you can override it.
    alt="Order Property in Flex Box" />
 </p>
 
-<h3>6.4.4 Flexbox resources</h3>
+<h3 id="ch6-4-4">6.4.4 Flexbox resources</h3>
 
 <h4>CSS flexbox resources</h4>
 
@@ -14845,7 +14830,7 @@ It's not just something we're talking about, they can go use it.
 We should've maybe pushed more, I think.
 The grid is something we should have had, probably from very early on, maybe from the start of CSS already.
 
-<h3>6.5.2 CSS Grid</h3>
+<h3 id="ch6-5-2">6.5.2 CSS Grid</h3>
 
 Have a look at how CSS Grid Layout went from an idea to a reality. The
 video below has been shot in August 2017 by the Microsoft team. It
@@ -14926,7 +14911,7 @@ CSS](https://constraints.cs.washington.edu/web/ccss-uwtr.pdf). But only
 recently has technology become good enough to support some (not all!) of
 those ideas.
 
-<h3>6.5.3 CSS Grid resources</h3>
+<h3 id="ch6-5-3">6.5.3 CSS Grid resources</h3>
 
 If you look at the CSS Grid module, you may notice that it has rather a
 large number of properties. That is because it tries to allow different
@@ -14956,7 +14941,7 @@ cases.
 
 <h3 id="ch6-6-1">6.6.1 Recipe project - Module 6</h3>
 
-<h3>6.6.2 Recipe project</h3>
+<h3 id="ch6-6-2">6.6.2 Recipe project</h3>
 
 In this next iteration of our recipe project, we're going to make a few
 changes again to our Web page using cascading style sheets.
