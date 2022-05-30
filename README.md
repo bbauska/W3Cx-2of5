@@ -8819,7 +8819,7 @@ specific than "article h1" or "h1", and therefore it takes precedence
 resulting in smaller gray text.  However, when you re-arrange the rules
 you get a different result:
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 70.  (###) -------------------------------------->
+<!-------------------------- 70. my boook chapter 1, section1.1 (###) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image070.png?raw=true"
@@ -8881,7 +8881,7 @@ settings in the "Styles" panel, however, there is much more information
 there.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 71.  (###) -------------------------------------->
+<!------------------------------ 71. styles in the debugger (###) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image071.png?raw=true"
@@ -8978,11 +8978,11 @@ font-size:1.2rem;
 ```
 <h4>HTML</h4>
 ```
-<!DOCTYPE html\>
-<html lang="en"\>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8"\>
-<title>precedence 1\</title>
+<meta charset="utf-8">
+<title>precedence 1</title>
 </head>
 <body>
 <h1>My Book</h1>
@@ -9018,39 +9018,34 @@ the pictures but the result is unwieldy:
 
 <h4>HTML</h4>
 ```
-<!DOCTYPE html\>
-<html lang="en"\>
-<head\>
-<meta charset="UTF-8"\>
-<title\>Cloud images\</title\>
-</head\>
-<body\>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Cloud images</title>
+</head>
+<body>
 <img alt="Clouds (Undulatus asperatus) above Tallinn - Author: Ave
 Maria Mõistlik" width="500"
-src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Beautiful_clouds.JPG/1600px-Beautiful_clouds.JPG"\>
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Beautiful_clouds.JPG/1600px-Beautiful_clouds.JPG">
 
-<h1\>Clouds\</h1\>
-<blockquote\>
-<hr\>
+<h1>Clouds</h1>
+<blockquote>
+<hr>
 “Clouds come floating into my life, no longer to carry rain or usher
 storm, but to add color to my sunset sky.”
 
 ― Rabindranath Tagore, Stray Birds
 
-<hr\>
+<hr>
 
-</blockquote\>
-
+</blockquote>
 <p>Among the many types of clouds are:</p>
-
 <ol>
-
 <li id="cumulus">Cumulus clouds: <img alt="Cumulus Clouds"
 src="https://www.weather.gov/images/jetstream/clouds/cu.jpg"\></li>
-
 <li id="cirrus">Cirrus clouds: <img alt="Cirrus clouds"
 src="https://www.weather.gov/images/jetstream/clouds/ci.jpg"></li>
-
 <li id="stratus">Stratus clouds: <img alt="Stratus clouds"
 src="https://www.weather.gov/images/jetstreamclouds/st.jpg"></li>
 </ol>
@@ -9062,9 +9057,9 @@ Clearly we have a solution for this.  We can just specify the width of
 \<img\> elements.  We can use the debugger to try different sizes,
 modifying it in the "Styles" panel and we decide on this:
 ```
-1.  img {
-2.     width: 10rem;
-3.  }
+img {
+   width: 10rem;
+}
 ```
 Giving a much more reasonable page:
 
@@ -9080,47 +9075,39 @@ Giving a much more reasonable page:
 <h4>CSS</h4>
 ```
 img {
-
 width: 10rem;
-
 }
 ```
 <h4>HTML</h4>
 ```
-<!DOCTYPE html\>
-<html lang="en"\>
-<head\>
-<meta charset="UTF-8"\>
-<title\>Cloud images\</title\>
-</head\>
-<body\>
-<h1\>Clouds\</h1\>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Cloud images</title>
+</head>
+<body>
+<h1>Clouds</h1>
 <img alt="Clouds (Undulatus asperatus) above Tallinn - Author: Ave
 Maria Mõistlik" width="500"
-src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Beautiful_clouds.JPG/1600px-Beautiful_clouds.JPG"\>
-```
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Beautiful_clouds.JPG/1600px-Beautiful_clouds.JPG">
 <blockquote\>
-<hr\>
+<hr>
 “Clouds come floating into my life, no longer to carry rain or usher
 storm, but to add color to my sunset sky.”
-
 ― Rabindranath Tagore, Stray Birds
-
 <hr>
-
 </blockquote>
 <p>Among the many types of clouds are:</p>
 <ol>
 <li id="cumulus">Cumulus clouds: <img alt="Cumulus Clouds"
 src="https://www.weather.gov/images/jetstream/clouds/cu.jpg"></li>
-
 <li id="cirrus">Cirrus clouds: <img alt="Cirrus clouds"
 src="https://www.weather.gov/imagesjetstream/clouds/ci.jpg"></li>
 <li id="stratus">Stratus clouds: <img alt="Stratus clouds"
 src="https://www.weather.gov/images/jetstream/clouds/st.jpg"></li>
 </ol>
 </body>
-
 </html>
 ```
 So far so good, but we want our top image to be a bit bigger without
@@ -9128,7 +9115,7 @@ changing the other images.  Recall  that an \<img\> tag
 includes a width attribute, so we can special case this image
 accordingly in the HTML code:
 ```
-1.  <img alt="Clouds" width=500 src="images/clouds.jpg">
+<img alt="Clouds" width=500 src="images/clouds.jpg">
 ```
 We look at our page again, and it hasn't changed!  Time to try the
 debugger again.
@@ -9161,67 +9148,63 @@ special case the smaller pictures, and use a larger width by default.
 list elements, otherwise they should be bigger.  So we can change our
 code like this:
 ```
-1.  img {
-2.     width: 25rem;
-3.  }
-4.  li img {
-5.     width: 10rem;
-6.  }
+img {
+   width: 25rem;
+}
+li img {
+   width: 10rem;
+}
 ```
 <h4>That looks better:</h4>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 78.  (###) -------------------------------------->
+<!------------------------------- 78. cloud image-codepen (198) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image078.jpeg?raw=true"
    width="65%"
-   alt="" />
+   alt="Cloud image-codepen" />
 </p>
 
 <h4>CSS</h4>
 ```
-1.  img {
-2.  width: 25rem;
-3.  }
-4.  li img {
-5.  width: 10rem;
-6.  }
+img {
+width: 25rem;
+}
+li img {
+width: 10rem;
+}
 ```
 <h4>HTML</h4>
 ```
-1.  <!DOCTYPE html>
-2.  <html lang="en">
-3.  <head>
-4.  <meta charset="UTF-8">
-5.  <title>Cloud images</title>
-6.  </head>
-7.  <body>
-8.  <h1>Clouds\</h1>
-9.  <img alt="Clouds (Undulatus asperatus) above Tallinn - Author: Ave
-    Maria Mõistlik" width="500"
-    src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Beautiful_clouds.JPG/1600px-Beautiful_clouds.JPG">
-10. 
-11. <blockquote>
-12. <hr>
-13. “Clouds come floating into my life, no longer to carry rain or usher
-    storm, but to add color to my sunset sky.”
-14. ― Rabindranath Tagore, Stray Birds
-15. <hr>
-16. </blockquote>
-17. 
-18. <p>Among the many types of clouds are:</p>
-19. 
-20. <ol>
-21. <li id="cumulus">Cumulus clouds: <img alt="Cumulus Clouds"
-    src="https://www.weather.gov/images/jetstream/clouds/cu.jpg"></li>
-22. <li id="cirrus">Cirrus clouds: <img alt="Cirrus clouds"
-    src="https://www.weather.gov/images/jetstream/clouds/ci.jpg"></li>
-23. <li id="stratus">Stratus clouds: <img alt="Stratus clouds"
-    src="https://www.weather.gov/images/jetstream/clouds/st.jpg"></li>
-24. </ol>
-25. </body>
-26. </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Cloud images</title>
+</head>
+<body>
+<h1>Clouds\</h1>
+<img alt="Clouds (Undulatus asperatus) above Tallinn - Author: Ave
+  Maria Mõistlik" width="500" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Beautiful_clouds.JPG/1600px-Beautiful_clouds.JPG" />
+<blockquote>
+<hr>
+“Clouds come floating into my life, no longer to carry rain or usher
+storm, but to add color to my sunset sky.”
+― Rabindranath Tagore, Stray Birds
+<hr>
+</blockquote>
+<p>Among the many types of clouds are:</p>
+<ol>
+<li id="cumulus">Cumulus clouds: <img alt="Cumulus Clouds"
+src="https://www.weather.gov/images/jetstream/clouds/cu.jpg"></li>
+<li id="cirrus">Cirrus clouds: <img alt="Cirrus clouds"
+src="https://www.weather.gov/images/jetstream/clouds/ci.jpg"></li>
+<li id="stratus">Stratus clouds: <img alt="Stratus clouds"
+src="https://www.weather.gov/images/jetstream/clouds/st.jpg"></li>
+</ol>
+</body>
+</html>
 ```
 There is still the issue of things not being laid out nicely, you'll
 learn more about that in the module 6.
@@ -9234,26 +9217,21 @@ content is an outline for an essay and it should look something like
 this:
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 79.  (###) -------------------------------------->
+<!---------------------------- 79. Easy outline-code results (199) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image079.jpeg?raw=true"
+<img src="./images/image079.png?raw=true"
    width="40%"
-   alt="" />
+   alt="Easy outline-codepen results" />
 </p>
 
 <h4>CSS</h4>
 ```
    section {
-   
    font-size: 24px;
-
    }
-
    li {
-
    font-size: .5em;
-
   }
 ```
 <h4>HTML</h4>
@@ -9328,7 +9306,7 @@ going to scroll down past those to "font-size" which reveals this:
 <!----------------------------------- 81.  (###) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image081.jpeg?raw=true"
+<img src="./images/image081.png?raw=true"
    width="45%"
    alt="Debugging font-size after opening the &#39;Computed&#39; tab" />
 </p>
@@ -15107,5 +15085,5 @@ We fixed those issues at the top.
 
 These are the final changes to our recipe project for this unit.
 
-<h3><b>Last Updated 5-25-2022 6:47pm</b></h3>
+<h3><b>Last Updated 5-30-2022 3:30pm</b></h3>
 
