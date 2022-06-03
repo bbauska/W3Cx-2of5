@@ -351,7 +351,7 @@ of issues and offer advice about how to resolve them.
 
 <h3>Link Checker</h3>
 
-The [W3C Link Checker](https://validator.w3.org/checklink) looks for
+The <a href="https://validator.w3.org/checklink">W3C Link Checker</a> looks for
 issues in links, anchors and referenced objects in a Web page, CSS style
 sheet, or recursively on a whole Web site. For best results, it is
 recommended to first ensure that the documents checked use
