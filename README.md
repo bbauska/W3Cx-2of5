@@ -10009,6 +10009,7 @@ considered footer rows at the end of a table:
   </tfoot>
 ```
 <h4>Putting it all together:</h4>
+
 ```xml
   <table border=1>
     <colgroup>
@@ -10043,6 +10044,7 @@ considered footer rows at the end of a table:
    </tfoot>
  </table>
 ```
+
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 91.  (###) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -10062,7 +10064,7 @@ for examples. You are also welcome to modify the code for each example
 by clicking on 'Edit on CodePen' on the top right corner of the CodePen
 (click on "RUN" when you completed your changes).
 
-### border
+<h4>border</h4>
 
 Though border is a valid attribute of the table element, it is best
 specified in CSS. It is a shorthand property meaning you can set several
@@ -10173,66 +10175,39 @@ Possible values of this property are: 
 <!------------------------------------------------------------------------------------------------>
 <img src="./images/image094.png"
 style="width:4in;height:2.4958in" />
-
+```
 table.no-collapse, th.no-collapse, td.no-collapse
-
 {
-
 border: 1px solid black;
-
 }
-
 table.collapse
-
 {
-
 border-collapse: collapse;
-
 }
+```
 
-HTML
-
-\<!DOCTYPE html\>
-
-\<html lang="en"\>
-
-\<head\>
-
-\<meta charset="UTF-8"\>
-
-\<title\>Styling your table\</title\>
-
-\</head\>
-
-\<body\>
-
-\<table class="no-collapse"\>
-
-\<tr\>\<th class="no-collapse"\>Names\</th\>\<th
-class="no-collapse"\>Age\</th\>\</tr\>
-
-\<tr\>\<td class="no-collapse"\>Michael\</td\>\<td
-class="no-collapse"\>21\</td\>\</tr\>
-
-\</table\>
-
-\<br\>
-
-\<table class="collapse"\>
-
-\<tr\>\<th class="no-collapse"\>Names\</th\>\<th
-class="no-collapse"\>Age\</th\>\</tr\>
-
-\<tr\>\<td class="no-collapse"\>Michael\</td\>\<td
-class="no-collapse"\>21\</td\>\</tr\>
-
-\</table\>
-
-\</body\>
-
-\</html\>
-
-### Table width and height
+<h4>HTML</h4>
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Styling your table</title>
+</head>
+<body>
+<table class="no-collapse">
+<tr><th class="no-collapse">Names</th><th class="no-collapse">Age</th></tr>
+<tr><td class="no-collapse">Michael</td><td class="no-collapse">21</td></tr>
+</table>
+<br>
+<table class="collapse">
+<tr><th class="no-collapse">Names</th><th class="no-collapse">Age</th></tr>
+<tr><td class="no-collapse">Michael</td><td class="no-collapse">21</td></tr>
+</table>
+</body>
+</html>
+```
+<h4>Table width and height</h4>
 
 Browsers automatically set the width and height for the rows and columns
 for your table based on the content in your cells. Cells with most
@@ -12043,15 +12018,12 @@ will display the file inline while some older browsers will try to
 download it instead). 
 
 An \<iframe\> tag can be as simple as this:
-
+```
 1.  \<p\>This is a parent page that will host the iframe.\</p\>
-
 2.  \<iframe src="https://www.w3.org/"\>
-
 3.    \<p\>Your browser does not support iframes.\</p\>
-
 4.  \</iframe\>
-
+```
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 113.  (###) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -12092,27 +12064,20 @@ elements, with borders, margins, sizes specified with CSS rules:
 style="width:3in;height:1.64371in" />
 
 Here, we've embedded a YouTube video with an iframe like this:
-
+```
 1.  \<iframe src="https://www.youtube.com/embed/YE7VzlLtp-4"\>\</iframe\>
-
+```
 And we've added styling like this to get the border and drop-shadow:
-
+```
 1.  iframe {
-
 2.    border: 10px solid red;
-
 3.    padding: .5rem;
-
 4.    margin: 1rem;
-
 5.    box-shadow: 20px 20px 10px \#888888;
-
 6.    width: 355;
-
 7.    height: 200;
-
 8.  }
-
+```
 There is one significant problem with iframes. Suppose you create your
 Web page, containing only an iframe with src="http://foo.com", with no
 borders, padding or margin. By all appearances, you would seem to be on
@@ -12196,9 +12161,9 @@ example](http://html.cita.illinois.edu/text/map/map-example.php) of an
 image-map.
 
 ### The 'ismap' attribute
-
-1.  \<img src="images/logo.png" alt="ismap tutorial" **ismap**\>
-
+```
+1.  <img src="images/logo.png" alt="ismap tutorial" **ismap**>
+```
 ismap is a **boolean attribute** i.e. its value is either true or false.
 Thus, just the presence of the attribute indicates that it is a mapped
 image. To be more precise, we say it is a server-side image-map.
@@ -12210,13 +12175,11 @@ will your code know that if you click on a part of your image, i.e.
 Wikipedia page? We need to create a map file with these details and then
 add the location of this map file using the anchor element. Here is a
 code sample:
-
-1.  \<a href="/ismap-image/ismap.cgi" target="\_self"\>
-
-2.     \<img src="images/logo.png" alt="ismap tutorial" ismap\>
-
-3.  \</a\>
-
+```
+1.  <a href="/ismap-image/ismap.cgi" target="_self">
+2.     <img src="images/logo.png" alt="ismap tutorial" ismap>
+3.  </a>
+```
 Here, the href attribute points to the location of the map file.
 The target attribute indicates where the page it navigates to should
 open. '\_self' will open in the same page whereas '\_blank' will open it
@@ -12232,7 +12195,7 @@ Let's look at how the code above works.
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 116.  (###) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="./images/image116.jpeg"
+<img src="./images/image116.png"
 style="width:3in;height:1.96474in"
 alt="Image illustrating how an image map works, how it processes mouse click coordinates using a map file that define target areas" />
 
@@ -12277,26 +12240,22 @@ image-maps. 
 Client-side maps are becoming increasingly popular. usemap is NOT of
 type boolean. It takes in the name of the map with a '#' character
 preceding it.
-
-1.  \<img src="navigator.jpg" alt="Pages in this Web
-    site" usemap="#navigatormap"\>
-
+```
+1.  <img src="navigator.jpg" alt="Pages in this Web
+    site" usemap="#navigatormap">
+```
 Like ismap, usemap cannot be used by itself. In ismap, we used the
 anchor tag to specify the map file. In usemap, we use
 the **\<area\>** element as a child of **\<map\>** element to specify
 the coordinates and the page it should navigate to. The usemap value
 should match the map element's name or id attribute. 
-
-1.  \<img src="images/crossroads.jpg" alt="Crossroads" usemap="#**navigatormap**"\>
-
-2.  \<map name="**navigatormap**"\>
-
-3.    \<area shape="rect" coords="0,0,195,439" href="https://en.wikipedia.org/wiki/Millery" alt="Millery"\>
-
-4.    \<area shape="rect" coords="196,0,390,439" href="https://en.wikipedia.org/wiki/Nomeny" alt="Nomeny"\>
-
-5.  \</map\>
-
+```
+1.  <img src="images/crossroads.jpg" alt="Crossroads" usemap="#**navigatormap**">
+2.  <map name="**navigatormap**">
+3.    <area shape="rect" coords="0,0,195,439" href="https://en.wikipedia.org/wiki/Millery" alt="Millery">
+4.    <area shape="rect" coords="196,0,390,439" href="https://en.wikipedia.org/wiki/Nomeny" alt="Nomeny">
+5.  </map>
+```
 **\<map\>** - defines a client-side image map and is used to create a
 relationship between the image and the map by matching the map name and
 usemap's value. It contains a set of area elements.
@@ -12330,17 +12289,13 @@ Read more about the [area tag
 here](https://www.w3.org/wiki/HTML/Elements/area).
 
 Here is a working example of usemap. 
-
-1.  \<img src="images/crossroads.jpg" alt="Crossroads" usemap="#**navigatormap**"\>
-
-2.  \<map name="**navigatormap**"\>
-
-3.    \<area shape="rect" coords="0,0,195,439" href="https://en.wikipedia.org/wiki/Millery" alt="Millery"\>
-
-4.    \<area shape="rect" coords="196,0,390,439" href="https://en.wikipedia.org/wiki/Nomeny" alt="Nomeny"\>
-
-5.  \</map\>
-
+```
+1.  <img src="images/crossroads.jpg" alt="Crossroads" usemap="#**navigatormap**">
+2.  <map name="**navigatormap**">
+3.    <area shape="rect" coords="0,0,195,439" href="https://en.wikipedia.org/wiki/Millery" alt="Millery">
+4.    <area shape="rect" coords="196,0,390,439" href="https://en.wikipedia.org/wiki/Nomeny" alt="Nomeny">
+5.  </map>
+```
 Result:
 
 Try this: Click on the left and right side of the images to check out
@@ -12350,7 +12305,8 @@ how usemap works :) Remember to navigate back to the course!
 <!----------------------------------- 117.  (###) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <img src="./images/image117.png"
-style="width:2in;height:2.23018in" />
+   style="width:2in;height:2.23018in" 
+   alt="" />
 
 Note: If the \<img\> is inside an \<a\> or \<button\> element, clicking
 on it will be interpreted as clicking on the link or button and usemap
@@ -15085,5 +15041,5 @@ We fixed those issues at the top.
 
 These are the final changes to our recipe project for this unit.
 
-<h3><b>Last Updated 5-30-2022 3:30pm</b></h3>
+<h3><b>Last Updated 06-06-2022 12:28pm</b></h3>
 
