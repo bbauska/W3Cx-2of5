@@ -844,12 +844,16 @@ If you played around with the minimal HTML file from the previous section, you m
 What's actually happening is that the browser knows roughly what to expect in an HTML page, so if it sees a file ending in '.html' it will automatically stick some stuff in if it is not there already. It will typically make basic assumptions like: It is an HTML5 file, everything in there is content, so it goes in the <body> section, the <head> section is empty.  If you right-click on an element and choose "Inspect", you will see that the browser has included the <html> section containing the <head> and <body> sections, even though it wasn't there in your file.
 Note that we said "typically". The current behavior of most browsers will handle this, but it is "undefined" so there is no guarantee that next module's update won't break it. To be correct and complete, you need the <!doctype> section and the <html> section with  <head> and <body>. In any case, it is a good idea (best practice).
 Proper indentation is one way to make your code clearer and easier to understand:
+
+```
 1.	<body>
 2.	<h1>Here is a heading</h1>
 3.	<p>
 4.	<ol><li>List Item 1</li></ol>
 5.	</p>
 6.	</body>
+```
+
 The code above doesn't give any sense of the structure of the document. By using indentation effectively, you can make it more clear, showing the nesting of elements:
 1.	<body>
 2.	  <h1>Here is a heading</h1>
@@ -889,11 +893,14 @@ Even though they're spelled the same, the differing cases indicate different nam
 Any kind of quotes for strings
 Finally, it will eventually be important to know about "strings".  Strings are just a series of characters.  They could be any characters like "Dingbats" or "ABC123^&*@aeiou".  They can even contain spaces as in "This is a string.".  Because they are so wildly variable (they can essentially be anything you can type), the computer needs us to indicate where a string begins and ends, which is typically done with quotation marks, either single (') or double ("). HTML tries to be helpful here.  
 You will find that in places where HTML is expecting certain types of strings (say a string without spaces), even if you do not use the quotation marks it will essentially insert them for you. Thus:
+```
 1.	 <p id=MyName>
 2.	 
 3.	 <p id="MyName">
 4.	 
 5.	 <p id='MyName'>
+```
+
 .... are all equivalent.  
 It is also important to know that, in HTML, double and single quotes are almost interchangeable, but they have to match.  If you start a string with a double quote, the computer will not end it until it sees another double quote.  Any single quotes will be happily considered part of the string, which is handy if you need quotation marks in your string.  Because of this, if you create a string as ' "quote" ' (single quotes containing a double quoted string),  your string will have the letters <space>-"-q-u-o-t-e-"-<space> (with double quotes in the string and spaces outside those) as opposed to "quote" which will just have the letters q-u-o-t-e (no quotation marks or spaces in the string).  Nevertheless, best practice is to be consistent in your quotes, so it's best to quote them all the same way, even if the browser would understand it anyway.
 In summary:
@@ -903,18 +910,19 @@ The idea is to take advantage of these flexibilities to create clean organized c
 •	Quotation marks are not part of a string, except when they are - Quotation marks enclose a string, but thanks to the flexibility of choice between single or double quotes, it is easy to include one or the other in your string.
 •	The important thing is to look good - You can take advantage of flexibility in capitalization and white space to make your code more readable and organized.
 
+<h3>1.5.4 Activity – Best Practices</h3>
 
-1.5.4 Activity – Best Practices
 1. Compare and contrast these two different HTML Style Guides:
 •	JQuery HTML Style Guide
 •	Google HTML/CSS Style Guide
 Are they consistent with each other? Are there some rules that don't seem to make sense?
 Can you find other style guides or coding standards that agree or disagree with some of the suggestions in one of these guides?
+
 2. Check out the W3C HTML Checker:
 •	Try "Direct Input" and type some HTML5 code with errors to see what it detects.
 •	Using "Validate by URI", try some popular Web sites and see if you can find any errors.
 
-1.6.1 Tags We Have Already Used
+<h3>1.6.1 Tags We Have Already Used</h3>
 Now you can create a simple, empty, HTML page, and you know what tags are, though we have not said a lot about specific tags, what they mean, how many there are, etc.  We will start with the ones we have already seen:
 •	<!doctype> - This tag is special.  In fact, many folks don't even consider it a tag, as it is officially the DTD - Document Type Declaration.  Unlike most tags, it has no closing tag, not even a "/" at the end.  It is there to declare exactly what type of HTML the computer will find in this file. It is used as that: <!DOCTYPE html>
 •	<html> - The html open and close tags wrap around nearly everything in your html file (except the doctype tag).  This essentially contains all of the HTML code in the file, which is generally everything (one big html element). In the next module, we will learn about attributes, and you will learn that you should always add a lang attribute to the html opening tag, to identify the default language of your page.
@@ -943,7 +951,9 @@ HTML
 </html>
 Though you theoretically should not think about what it looks like, it will typically appear as large, possibly bold text in your document, to mark a separation or beginning of some new section.  <h2> is usually a bit smaller, and <h3> smaller yet and so on down to <h6>.  This allows logical nesting of sections, though they should not be nested too deeply. Try not to skip levels of headers when nesting them. Headings are really useful for some assistive technology users and missing levels can be confusing.
 •	<p> - P is for 'paragraph', which is the tag you may use to arrange much of your text information.  Depending on the style you are using, text wrapped in a <p> tag may be indented or have extra vertical white space before starting.  When rendered on the Web page, a p element creates a new line.
-HTML
+ <h4>HTML</h4>
+
+```html5
 <!DOCTYPE html>
 <html lang="en">
 
@@ -963,14 +973,14 @@ to the right as the rest of the lines.
 <p>
 Often there is extra space between one paragraph and the next.
 </p>
- 
-  
 </body>
-
 </html>
+```
+
 You might notice that when discussing how these different elements are rendered (i.e. what they look like to the end user), you will find words like "typically", "possibly", and "generally".  It is a little picky. As you will learn in Module 3, it is possible to change the styling of one element to look like just about any other element.  You could style a <p> element so that it looks like an <h1>, though best practice would be not to do that.
 
-1.6.2 A Few New Tags to Learn
+<h3>1.6.2 A Few New Tags to Learn</h3>
+ 
 There are a lot more tags, but we will just cover a few more for now, mostly because they are straightforward to use and you can see the effect in your Web page when you use them:
 •	<q> - The q tag is for quotes.  This tag has no relationship to the somewhat confusing single and double quote characters, rather it's used when you want to quote a person or written work in your Web page. Quotes are customarily displayed using quotation marks. Thus <q>Brevity is beautiful</q> would be rendered as Brevity is beautiful.
 •	<blockquote> - If you want to quote a larger passage, you may want to use blockquote, which will typically set the quoted text apart from the surrounding text and indent it, to make clear that it is quoted text:
@@ -1009,10 +1019,11 @@ For now, we'll start off with a simple first draft using just what we've learned
 •	A description of a recipe, just some plain text explaining what the recipe is and any other pertinent information.
 •	A set of steps to follow, numbered in order.
 Please start with this "empty page" in CopePen:
-HTML
+
+<h4>HTML</h4>
+```html5
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
  <meta charset="UTF-8">
 <title>My favorite Recipes</title>
@@ -1052,4 +1063,4 @@ HTML
      </ol>
    </body>
 </html>
-
+```
