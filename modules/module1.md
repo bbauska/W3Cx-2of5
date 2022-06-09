@@ -987,11 +987,13 @@ There are a lot more tags, but we will just cover a few more for now, mostly bec
 Early to bed and early to rise, makes someone healthy, wealthy and wise - Benjamin Franklin
 •	<ul>, <ol> - These two tags are used to indicate a list of things.  The only difference is that <ol> is an "ordered" list, meaning the elements are in a particular order, and it might be a good idea to number them.  The "u" in <ul> stands for "unordered" and is used for a list of things where the order doesn't really matter, so it is usually rendered as a bulleted list, or some other structure without numbers.
 •	<li> - The li element is a "List Item", i.e. one item in the list.  As you might expect, this element only really makes sense nested inside a list (<ul> or <ol>).  In the final rendering, each li element would typically be preceded by a number or bullet, or something similar (but not necessarily).  Thus a list in HTML would look like this:
+ ```
 1.	<ul>
 2.	   <li> First item in list </li>
 3.	   <li> Second item in list </li>
 4.	   . . .
 5.	</ul>
+```
 This code might be rendered like this:
  
 There are a couple more tags we want to bring up at this point, but first a disclaimer.  We have been emphasizing the general rule that HTML is for the logical structure of your content, not what it looks like.  Well, this is not entirely true.  There are some HTML elements that are primarily used to invoke certain formatting. 
