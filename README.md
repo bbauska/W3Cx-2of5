@@ -12032,6 +12032,7 @@ style="width:4in;height:2.51477in" />
 
 ### \<!DOCTYPE html\>
 
+```
 > \<html lang="en"\>
 >
 > \<head\>
@@ -12053,6 +12054,7 @@ style="width:4in;height:2.51477in" />
 > \</body\>
 >
 > \</html\>
+```
 
 Because iframes are HTML elements, they can be styled just like other
 elements, with borders, margins, sizes specified with CSS rules:
@@ -12061,14 +12063,15 @@ elements, with borders, margins, sizes specified with CSS rules:
 <!----------------------------------- 114.  (###) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <img src="./images/image114.png"
-style="width:3in;height:1.64371in" />
+   style="width:3in;height:1.64371in" />
 
 Here, we've embedded a YouTube video with an iframe like this:
 ```
-1.  \<iframe src="https://www.youtube.com/embed/YE7VzlLtp-4"\>\</iframe\>
+1.  <iframe src="https://www.youtube.com/embed/YE7VzlLtp-4"></iframe>
 ```
 And we've added styling like this to get the border and drop-shadow:
 ```
+
 1.  iframe {
 2.    border: 10px solid red;
 3.    padding: .5rem;
@@ -12094,7 +12097,7 @@ for now we'll just look at a few of them:
 <!----------------------------------- 115.  (###) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <img src="./images/image115.png"
-style="width:6.5in;height:4.87014in" />
+   style="width:6.5in;height:4.87014in" />
 
 **Notes:**
 
@@ -12196,8 +12199,8 @@ Let's look at how the code above works.
 <!----------------------------------- 116.  (###) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <img src="./images/image116.png"
-style="width:3in;height:1.96474in"
-alt="Image illustrating how an image map works, how it processes mouse click coordinates using a map file that define target areas" />
+   style="width:3in;height:1.96474in"
+   alt="Image illustrating how an image map works, how it processes mouse click coordinates using a map file that define target areas" />
 
 Let's go back to our world map example where clicking on different parts
 of the image will take you to a page about the country you clicked on.
