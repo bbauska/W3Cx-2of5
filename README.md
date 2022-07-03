@@ -304,7 +304,7 @@ Miller, February 6, 2019\].
 For over 15 years, the W3C has been developing and
 hosting [**<u>free</u>** and **<u>open
 source</u>** tools](https://w3c.github.io/developers/) used every day
-by **millions of Web developers and Web designers**. All the tools
+by <b>millions of Web developers and Web designers</b>. All the tools
 listed below are Web-based, and are available as downloadable sources or
 as free services on the [W3C Developers
 tools ](https://w3c.github.io/developers/tools/)site.
@@ -570,21 +570,21 @@ With that, let's jump right in.
 
 <h3 id="ch1-1-2">1.1.2 Module 1 – Content</h3>
 
-**1.1 Introduction:** A video that introduces the content of Module 1.
+<b>.1 Introduction:</b> A video that introduces the content of Module 1.
 
-**1.2 The big three:** Learn about the basic tools you will use to code
+<b>1.2 The big three:</b> Learn about the basic tools you will use to code
 for the Web including hypertext and Web browsers.
 
-**1.3 Elements, tags and attributes:** Here you will begin learning
+<b>1.3 Elements, tags and attributes:</b> Here you will begin learning
 about the functions of the different types of code.
 
-**1.4 Character encoding:** To make you familiarized with international
+<b>1.4 Character encoding:</b> To make you familiarized with international
 features.
 
-**1.5 Best practices, the wisdom:** Studying other people's mistakes is
+<b>1.5 Best practices, the wisdom:</b> Studying other people's mistakes is
 a great way to avoid the same pitfalls.
 
-**1.6 More on tags:** Review of the tags we have just learned about and
+<b>1.6 More on tags:</b> Review of the tags we have just learned about and
 get started on your course project.
 
 <h3 id="ch1-2-1">1.2.1 Vague But Exciting!</h3>
@@ -618,15 +618,15 @@ in which the user can browse at will.'
 His breakthrough was to link hypertext to the Internet and he used three
 technologies to do this:
 
--   HyperText Transfer Protocol (HTTP) is the foundation of data
-    communication for the Web.
-
--   HyperText Markup Language (HTML) is the main mark-up language for
+<ul>
+<li>HyperText Transfer Protocol (HTTP) is the foundation of data
+    communication for the Web.</li><br/>
+<li>HyperText Markup Language (HTML) is the main mark-up language for
     creating Web pages and information that can be displayed on a Web
-    browser.
-
--   Web addresses or a Uniform Resource Locator (URL) are used to
-    reference a Web page.
+    browser.</li><br/>
+<li>Web addresses or a Uniform Resource Locator (URL) are used to
+    reference a Web page.</li><br/>
+</ul>
 
 In the following pages, we present HTML through what are usually called
 the big 3 (HTML5, CSS and JavaScript), the hypertext concept and the
@@ -781,18 +781,15 @@ most modern browsers.
 
 <h4>Exploring the Web, "Then and Now":</h4>
 
--   Go to [archive.org](https://archive.org/) and find the earliest
-    available instance of the Web site: www.google.com.
-
--   Note the differences between that and its current Web site.
-
--   Find an old news story, see how far back you can go (hint: start by
-    looking at yahoo.com).
-
--   In general, what differences do you notice between Web sites from
-    the 90's and Web sites today?
-
--   Post your observations and findings in the discussion forum below.
+<li>Go to <a href="https://archive.org/">archive.org</a> and find the earliest
+    available instance of the Web site: www.google.com.</li><br/>
+<li>Note the differences between that and its current Web site.</li><br/>
+<li>Find an old news story, see how far back you can go (hint: start by
+    looking at yahoo.com).</li><br/>
+<li>In general, what differences do you notice between Web sites from
+    the 90's and Web sites today?</li><br/>
+<li>Post your observations and findings in the discussion forum below.</li><br/>
+</ul>
 
 <h3 id="ch1-3-1">1.3.1 Putting the “M” in HTML</h3>
 
@@ -1105,9 +1102,7 @@ Explore with their cool creations and try that stuff out as well.
 Another reason I wanted to introduce CodePen is,
 
 because if you look at our course, you may come across this editor here
-in line,
-
-inside the content that we've created.
+in line, inside the content that we've created.
 
 It's an embedded CodePen editor.
 
@@ -3333,12 +3328,13 @@ You should **always declare the language of your page in the
 page by attaching a lang attribute to an element that contains it.
 
 For example:
+
 ```xml
 <html lang="en-GB">...</html>
-
 <p>In French you'd say <span lang="fr">On voit souvent des chats
     sur le Web.</span></p>
 ```
+
 The first example above shows how you can qualify the language (English)
 with a region subtag (GB) to specify British English.  This distinction
 can be useful for spellchecking your source. You can also add other
@@ -3346,20 +3342,20 @@ subtags, such as scripts and variant labels to further refine the
 language. However, the golden rule is to always keep the lang value as
 short as possible, and only use additional subtags when you have a good
 reason (e.g. use just ja for Japanese, not ja-JP). For more information,
-see the article [Declaring language in
-HTML](https://www.w3.org/International/questions/qa-html-language-declarations).
+see the article <a href="(https://www.w3.org/International/questions/qa-html-language-declarations">Declaring language in
+HTML</a>.
 
 The second example shows how you could specify a change of language
 within the document.  This would help a voice browser pronounce the
 French word 'chats' correctly, meaning 'cats' and not 'chats' in
 English.
 
-### Global attribute: 'title'
+<h4>Global attribute: 'title'</h4>
 
 Try this: Place your cursor on the word and then on the picture below.
 Don't click on it, just rest your cursor there. 
 
-### **NASA**
+<h4>NASA</h4>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 22. beautiful girl (##) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -3380,7 +3376,7 @@ value. 
 
 1.  \<abbr title="National Aeronautics and Space
     Administration"\>NASA\</abbr\>
-
+	
 <h3 id="ch2-2-4">2.2.4 Global Attributes</h3>
 
 References for the video text below:
@@ -6838,31 +6834,31 @@ style="width:6.5in;height:3.56597in" />
 ... or work from the lines of code below (to paste in your favorite Web
 editor):
 ```
-1.  \<!DOCTYPE html\>
-2.     \<html lang="en"\>
-3.       \<head\>
-4.           \<meta charset="UTF-8"\>
-5.           \<title\>On the Inventor of Gunpowder\</title\>
+1.  <!DOCTYPE html>
+2.     <html lang="en">
+3.       <head>
+4.           <meta charset="UTF-8">
+5.           <title>On the Inventor of Gunpowder</title>
 6.  
-7.           \<style\>
-8.              /\* CSS \*/
-9.        \</style\>
+7.           <style>
+8.              /* CSS */
+9.        </style>
 10. 
-11.     \</head\>
+11.     </head>
 12.  
-13.    \<body\>
+13.    <body>
 14. 
-15.       \<h1\>On the Inventor of Gunpowder.\</h1\>
+15.       <h1>On the Inventor of Gunpowder.</h1>
 16.  
-17.       \<address rel="author"\>By John Milton\</address\>
+17.       <address rel="author">By John Milton</address>
 18.  
-19.       \<p\>Praise in old time the sage Prometheus won,\<br\>
-20. Who stole ethereal radiance from the sun;\<br\>
-21. But greater he, whose bold invention strove\<br\>
-22. To emulate the fiery bolts of Jove.\</p\>
+19.       <p>Praise in old time the sage Prometheus won,<br>
+20. Who stole ethereal radiance from the sun;<br>
+21. But greater he, whose bold invention strove<br>
+22. To emulate the fiery bolts of Jove.</p>
 23.  
-24.    \</body\>
-25. \</html\>
+24.    </body>
+25. </html>
 ```
 You could also take another short text (such as a poem) and apply the
 styles you like on it.
@@ -7084,9 +7080,11 @@ font-size can be used to size the text of a tag.  The value for
 the font-size has two parts: a number and a unit.  Some of the most
 common units are: px, em, %, vh.  For example:
 
+```
 p { font-size: 18px; }  
 q { font-size: .8em; }  
 blockquote { font-size: 10vh; }
+```
 
 These units are discussed below.
 
@@ -7096,9 +7094,11 @@ prefer: xx-small, x-small, small, medium, large, x-large, xx-large  
 and relative sizing (relative to the text of the
 parent): larger, smaller. For example:
 
+```
 p { font-size: medium; }  
 q { font-size: small; }  
 blockquote { font-size: larger; }
+```
 
 line-height
 
@@ -7142,8 +7142,10 @@ But it is useful on block level text tags, such
 as **\<p\>**, **\<li\>**, **\<ul\>**, **\<ol\>**, **\<div\>**,
 and **\<blockquote\>**
 
+```
 p { text-align: left; }  
 blockquote { text-align: right; }
+```
 
 Bear in mind, also, that you should only use text-align when the
 alignment really needs to be changed, since it can cause additional work
@@ -7174,14 +7176,20 @@ How do I underline text? This is a common question. In CSS, this is done
 via the text-decoration property.  The values for this
 are: underline, overline, line-through, and none;  They can combined.
 
+```
 p { text-decoration: underline; }  
 a { text-decoration: none; } /\* hyperlinks are underlined by default,
+```
+
 but that can be removed \*/   
+
+```
 span { text-decoration: overline; }  
 span { text-decoration: underline overline; } /\* apply two with just a
 space between the values \*/  
 span { text-decoration: underline overline line-through; } /\*
 everything \*/
+```
 
 | **underline**      | **overline** | **line-through** | **underline overline line-through** |
 |--------------------|--------------|------------------|-------------------------------------|
@@ -7206,10 +7214,10 @@ normal maps to 400 and bold to 700. However, the different numeric
 choices will only work for fonts that support a full range of
 font-weights. Many times the numeric weights will simply be mapped back
 to bold or normal. 
-
+```
 p { font-weight: bold; }  
 blockquote { font-weight: 900; }
-
+```
 | **normal**           | **bold**                 | **200**              | **500**              | **700**                  | **900**                  |
 |----------------------|--------------------------|----------------------|----------------------|--------------------------|--------------------------|
 | A Tale of Two Cities | **A Tale of Two Cities** | A Tale of Two Cities | A Tale of Two Cities | **A Tale of Two Cities** | **A Tale of Two Cities** |
@@ -7225,9 +7233,9 @@ are normal and italic.  
 | **font-style: normal;**                                                                                                                                    | **font-style: italic;**                                                                                                                                      |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Many years later, as he faced the firing squad, Colonel Aureliano Buendía was to remember that distant afternoon when his father took him to discover ice. | *Many years later, as he faced the firing squad, Colonel Aureliano Buendía was to remember that distant afternoon when his father took him to discover ice.* |
-
+```
 font-family
-
+```
 Want to set the font for an item on the page?   The font-family is the
 correct property for the task, but there are caveats:
 
@@ -7250,9 +7258,9 @@ a *list* of possible font choices.  The browser will start with trying
 the first font listed, and if not available (or not having a needed
 glyph) it will then proceed to the next font in the list, and so on.
  Here is a typical font-family declaration:
-
+```
 p { font-family: "Helvetica", "Verdana", "Arial", sans-serif; }
-
+```
 The rule above says to first try the font named "Helvetica". If it isn't
 available, try "Verdana", failing that "Arial", and lastly fall back to
 the built in sans-serif browser font.
@@ -7283,7 +7291,7 @@ The margin can be a bit confusing.  Depending upon context, it will
 space an item away from its immediate neighbors (in the HTML) or from
 the edges of its parent. Also, there is not only one margin property,
 but five:
-
+```
 p { margin: 10px; }  /\* a 10 pixel margin will be applied around all
 four sides of the item \*/
 
@@ -7292,18 +7300,18 @@ p {
  margin-right: 10px;  
  margin-top: 10px;     
  margin-bottom: 10px; }
-
+```
 Color
 
 The color property can be used to set the text color of an element.
 There are several possible formats for the value.
 
 <h4>Named colors</h4>
-
+```
 p { color: blue; }  
 b { color: transparent; } /\* transparent \*/  
 i { color: lightgrey; }
-
+```
 There are scores of different names. The most common English names for
 colors are all supported, plus many others.
 
@@ -7313,19 +7321,19 @@ the display:none; or visibility:hidden; rules are preferred. They are
 discussed in a future section.
 
 <h4>rgb/rgba</h4>
-
+```
 p { color: rgb(10, 200, 255); }  
 p { color: rgb(0, 0, 0); } /\* 0,0,0 is black \*/  
 p { color: rgb(255, 255, 255); } /\* 255,255,255 is white \*/  
 b { color: rgba(10, 200, 255, 0.5); }  /\* semi-transparent \*/
-
+```
 Generally, any color on a computer is exactly specified by mixing three
 components together: red, green, and blue. The amount of each component
 falls within a range between 0 and 255.   So the rgb() function can be
 used to specify a color.  
-
+```
 rgb( red, green, blue);  
-
+```
 parenthesis required, commas between each component.
 
 Similarly, the rgba() function can be used for semi-transparent colors.
@@ -7333,9 +7341,9 @@ The fourth value is for the "alpha channel" (thus the "a" in "rgba") and
 means the opacity. It is a number between 0 and 1 (for example, 0.5 ).
 
 <h4>Hex code</h4>
-
+```
 p { color: #3A2BFF; }
-
+```
 Quicker than the lengthy rgb() function is simply providing
 an [hexadecimal (hex) code](https://en.wikipedia.org/wiki/Hexadecimal).
 This always starts with the pound sign (#) and is followed by three
@@ -7399,19 +7407,19 @@ use ***both*** the html and body selectors.
 
 html, body { font-size: 20px; } 
 
-### %
+<h4>%</h4>
 
 Whereas em is a measure relative to the parents text size, the
 percentage unit (%) is relative to the parent dimension.  This is a
 useful unit for both horizontal and vertical dimensions, though often
 more useful in the horizontal.  
-
+```
 p {   
   margin-left:  10%;  
   margin-right: 10%;  /\* 10% of parent width will be spent on the two
 side margins \*/  
  } 
-
+```
 Initially, the percentage unit may seem very handy (and it is), and many
 developers fall in love with it. But the love affair is usually short
 lived. One of the limitations of this rule is that for it to work
@@ -7431,13 +7439,13 @@ dimensions.
 vh and vw do not suffer the parent limitation that the % unit does.
  Most modern browsers support these units, but there are some exceptions
 on older mobile browsers. 
-
+```
 p {   
   margin-left:  10vw;  
   margin-right: 10vw;  /\* 10% of screen width will be spent on the two
 side margins \*/  
  }
-
+```
 <h4>External resources</h4>
 
 The list of CSS units above is not exhaustive. There are various
@@ -7559,9 +7567,9 @@ properties that are available for lists.
 list-style-type governs the little list marker that is usually
 positioned to the left of any list item.  For un-ordered lists (\<ul\>),
 there are several popular values: disc, circle, square, and none.
-
+```
 li { list-style-type: disc; }
-
+```
 <table>
 <colgroup>
 <col style="width: 21%" />
@@ -7683,7 +7691,7 @@ languages: armenian, georgian, simp-chinese-formal, and many others. 
 </tbody>
 </table>
 
-### list-style-position
+<h4>list-style-position</h4>
 
 Besides choosing the type of marker applied to each list item, you may
 also want to govern how closely it is positioned to the list itself.
@@ -7720,7 +7728,7 @@ blue border on the list. 
 </tbody>
 </table>
 
-### list-style-image
+<h4>list-style-image</h4>
 
 The little markers on a list can also be customized to be an image of
 your choosing. This will require you to have a small image in a Web
@@ -7728,9 +7736,9 @@ compatible format (PNG or JPEG recommended) and to know the path from
 the place where the CSS is being defined to the image.  Image pathnames
 were covered in Module 2, and we'll be discussing them again in the
 background-image section. 
-
+```
 li { list-style-image: url("my_triangle.png"); }
-
+```
 Note that the browser will do little more than draw the image.  There is
 no guarantee to scale the image or assist with spacing or alignment.
  Many users find list-style-image to be frustrating and instead use
@@ -14023,9 +14031,14 @@ easier to see by adding a border and background color to the paragraph.
 
 This default behavior, that content that doesn't fit is shown anyway,
 can be surprising if you weren't expecting it. 
-
-<img src="./images/image148.png"
-style="width:6.5in;height:2.21458in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 148.  (xxx) -------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image148.png?raw=true"
+   width="65%"
+   alt="W3Cx HTML 5.0x logo" />
+</p>
 
 ### overflow
 
@@ -14057,9 +14070,14 @@ of 100 pixels. 
 
 3.  When the value is scroll, then the scroll bars are *always* shown,
     whether they are needed or not.
-
-<img src="./images/image149.png"
-style="width:6.5in;height:1.83681in" />
+<!------------------------------------------------------------------------------------------------>
+<!---------------------- 149. (xxx) -------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image149.png?raw=true"
+   width="65%"
+   alt="W3Cx HTML 5.0x logo" />
+</p>
 
 ### The box model and box-sizing
 
@@ -14382,14 +14400,14 @@ element or the content of a table cell, the best answer is almost
 certainly flexbox. See the align-content and justify-content properties
 in the advanced optional flexbox material.
 
-### AVOID margin: auto on flex items
+<h4>AVOID margin: auto on flex items</h4>
 
 margin:auto prevents align-self from working (a very handy flexbox
 property covered in the Optional section). There are effective ways of
 using auto margins though, just do so with
 care: <https://medium.com/@samserif/flexbox-s-best-kept-secret-bd3d892826b6#.wzrvpxpqv> 
 
-### Try to keep your flexbox usage simple
+<h4>Try to keep your flexbox usage simple</h4>
 
 You can see here: <http://caniuse.com/#search=flexbox> that flexbox is
 widely supported across all the modern browsers. However, Internet
@@ -14399,7 +14417,7 @@ this reason, try to keep your usage of flexbox close to what is covered
 in this course material, and, as with all CSS, be sure to always test in
 as many browsers as possible.
 
-### External resources
+<h4>External resources</h4>
 
 -   [Flexbox
     documentation](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) on
@@ -14415,12 +14433,12 @@ as many browsers as possible.
 able to use flexbox satisfactorily without it. None of the material here
 will appear in any graded question.
 
-### Concepts
+<h4>Concepts</h4>
 
 Before we step deeper into flexbox, there are a few concepts we should
 make sure to understand.
 
-#### Main axis and cross axis
+<h4>Main axis and cross axis</h4>
 
 Every flexbox has two axes. The "main" axis is the major axis along
 which all the flex items are being laid. So, when
@@ -14434,7 +14452,7 @@ direction that items might wrap.  So with flex-flow: row wrap; the cross
 axis is vertical and runs top to bottom. And with flex-flow:row
 wrap-reverse; it is vertical running bottom to top.
 
-#### Start and end
+<h4>Start and end</h4>
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 152. flex container and flex-flow (324) ---------------------------->
@@ -14451,21 +14469,16 @@ the start and end points for both the main and cross axes.  Take a
 moment and visualize how both the axes *and* the start and end points
 would change for each of these combinations for flex-flow :
 
--   row wrap
-
--   row wrap-reverse
-
--   row-reverse wrap
-
--   row-reverse wrap-reverse
-
--   column wrap
-
--   column wrap-reverse
-
--   column-reverse wrap
-
--   column-reverse wrap-reverse
+<ul>
+<li>row wrap</li><br/>
+<li>row wrap-reverse</li><br/>
+<li>row-reverse wrap</li><br/>
+<li>row-reverse wrap-reverse</li><br/>
+<li>column wrap</li><br/>
+<li>column wrap-reverse</li><br/>
+<li>column-reverse wrap</li><br/>
+<li>column-reverse wrap-reverse</li><br/>
+</ul>
 
 <h4>Main axis for sizing, cross axis for alignment</h4>
 
@@ -14475,15 +14488,13 @@ are **not** used in the names of any CSS properties or values.  The
 following properties control behavior along the main axis. We are
 already familiar with all of them, except justify-content.
 
--   flex
-
--   flex-grow
-
--   flex-shrink
-
--   flex-basis
-
--   justify-content
+<ul>
+<li>flex</li><br/>
+<li>flex-grow</li><br/>
+<li>flex-shrink</li><br/>
+<li>flex-basis</li><br/>
+<li>justify-content</li><br/>
+</ul>
 
 All the properties above control how a flex item might be *sized*,
 except justify-content, which controls how a flexbox container spaces
@@ -14492,17 +14503,17 @@ out and positions flex items. 
 And, obversely, the following list of properties controls behavior along
 the cross axis:
 
--   align-content
-
--   align-items
-
--   align-self
+<ul>
+<li>align-content</li><br/>
+<li>align-items</li><br/>
+<li>align-self</li><br/>
+</ul>
 
 These properties all govern how a flex item might be *aligned* or
 positioned along the cross axis. They also support a
 simple stretch value, which we will see when we cover them. 
 
-**Important**: Flexbox items can have their size and position influenced
+<b>Important</b>: Flexbox items can have their size and position influenced
 on the main axis, with flex-grow, and others. But on the cross axis,
 with the exception of a coarse stretch option, we can only influence
 their position. This distinction is very important.  In the cross axis
@@ -14524,7 +14535,7 @@ to the "cross start" and "cross end"  sides.
 
 <h3 id="ch6-4-2">6.4.2 Justification and alignment</h3>
 
-**Note**: This material is included for completeness. However, many are
+<b>Note</b>: This material is included for completeness. However, many are
 able to use flexbox satisfactorily without it. None of the material here
 will appear in any graded question.
 
@@ -14720,19 +14731,12 @@ the order value of 1, the second is 2, etc.  And you can override it.
 
 <h4>CSS flexbox resources</h4>
 
--   [A complete guide to
-    Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) (CSS
-    Tricks) - *updated 7 April 2021*
-
--   [Use cases for
-    Flexbox](https://www.smashingmagazine.com/2018/10/flexbox-use-cases/) (Smashing
-    Magazine) - *October 2018*
-
--   [CSS Flexible Box Layout](https://www.w3.org/TR/css-flexbox/), the
-    W3C specification
-
--   [Flexbox froggy](https://flexboxfroggy.com/) (game to practice CSS
-    flexbox code)
+<ul>
+<li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">A complete guide to Flexbox (CSS Tricks) - <b>updated 7 April 2021</b></li><br/>
+<li><a href="https://www.smashingmagazine.com/2018/10/flexbox-use-cases/">Use cases for Flexbox (Smashing Magazine) - <b>October 2018</b></li><br/>
+<li><a href="https://www.w3.org/TR/css-flexbox/">CSS Flexible Box Layout, the W3C specification</li><br/>
+<li><a href="https://flexboxfroggy.com/">Flexbox froggy (game to practice CSS flexbox code)</li><br/>
+</ul>
 
 <h3 id="ch6-5-1">6.5.1 CSS Grid Layout</h3>
 
@@ -14771,8 +14775,8 @@ The grid is something we should have had, probably from very early on, maybe fro
 
 Have a look at how CSS Grid Layout went from an idea to a reality. The
 video below has been shot in August 2017 by the Microsoft team. It
-features some of the [CSS Working Group
-participants](https://courses.edx.org/courses/course-v1:W3Cx+CSS.0x+3T2017/courseware/12e8f1585d88470e95f54cf0ff6a1a00/6c9058a29dc5493fbb43332c6bc3b550/4?activate_block_id=block-v1%3AW3Cx%2BCSS.0x%2B3T2017%2Btype%40vertical%2Bblock%40beac75cf51c34b51a0ac0f6e5fad70cc):
+features some of the <a href="https://courses.edx.org/courses/course-v1:W3Cx+CSS.0x+3T2017/courseware/12e8f1585d88470e95f54cf0ff6a1a00/6c9058a29dc5493fbb43332c6bc3b550/4?activate_block_id=block-v1%3AW3Cx%2BCSS.0x%2B3T2017%2Btype%40vertical%2Bblock%40beac75cf51c34b51a0ac0f6e5fad70cc">CSS Working Group
+participants</a>:
 
 Rossen Atanassov (Microsoft) ; Tab Atkins Jr. (Google) ; Sergio Villar
 Senin (Igalia) ; Bo Cupp (Microsoft) ; Elika Etemad, aka fantasai (W3C
@@ -14783,9 +14787,6 @@ CSS WG).
 Web layout is always constrained by the limitations of CSS, but future
 trends will be able to make use of new tools, such as CSS Flexbox
 (officially: CSS Flexible Box Layout) and CSS Grid.
-
-(Note: *this lecture is optional and there will be no questions related
-to it in the final exam.)*
 
 Despite the similarities in concept and syntax, Flexbox and Grid are not
 competing layout techniques. Grid arranges in two dimensions, while
