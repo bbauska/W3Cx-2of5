@@ -20,6 +20,14 @@
    width="65%"
    alt="W3Cx HTML 5.0x logo" />
 </p>
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ ##. template (##) -------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image###.png?raw=true"
+   width="65%"
+   alt="." />
+</p>
 
 ## [Table of Contents](#table-of-contents)
 
@@ -570,7 +578,7 @@ With that, let's jump right in.
 
 <h3 id="ch1-1-2">1.1.2 Module 1 – Content</h3>
 
-<b>.1 Introduction:</b> A video that introduces the content of Module 1.
+<b>1.1 Introduction:</b> A video that introduces the content of Module 1.
 
 <b>1.2 The big three:</b> Learn about the basic tools you will use to code
 for the Web including hypertext and Web browsers.
@@ -747,13 +755,13 @@ email and other conveniences.
 <p align="center" width="100%">
 <img src="./images/image014.jpeg?raw=true"
    width="65%"
-   alt="Snapshot of a Mosaic Browser" />
+   alt="Snapshot of a Mosaic Browser." />
 </p>
 
 At the time there were a number of different programs like
-'[fetch](https://en.wikipedia.org/wiki/Fetch_(FTP_client))',
-'[gopher](http://www.yourdictionary.com/gopher#Noun-3)' and
-'[archie](https://en.wikipedia.org/wiki/Archie_search_engine)' that were
+'<a href="https://en.wikipedia.org/wiki/Fetch_(FTP_client">fetch</a>',
+'<a href="http://www.yourdictionary.com/gopher#Noun-3">gopher</a>' and
+'<a href="https://en.wikipedia.org/wiki/Archie_search_engine">archie</a>' that were
 used to download, browse and search for files.  Typically, you might use
 one tool to search for the location of files of interest, then another
 to copy that file to a local machine.  Then, you still needed more tools
@@ -761,8 +769,7 @@ to read that file.  If it was text, you could use a text editor, if it
 was a formatted document you might need a word processor, if a picture
 you would need an image viewer and so on.
 
-[Marc
-Andreessen](https://en.wikipedia.org/wiki/Marc_Andreessen) conceived of
+<a href="https://en.wikipedia.org/wiki/Marc_Andreessen">Marc Andreessen</a> conceived of
 a solution that would put all the pieces together in one app, making it
 easy for users to browse all the different sorts of information and data
 on the World Wide Web.  Together with others, he started the "Mosaic"
@@ -800,9 +807,9 @@ and end, which part is the title, which things should be emphasized and
 so on.  
 
 There are many ways to markup a document, but HTML borrows a technique
-from an ancestor language, SGML ([Standard Generalized Markup
-Language](https://en.wikipedia.org/wiki/Standard_Generalized_Markup_Language)),
-which uses angle brackets ("\<" and "\>") to separate the annotations
+from an ancestor language, SGML (<a href="https://en.wikipedia.org/wiki/Standard_Generalized_Markup_Language">Standard Generalized Markup
+Language</a>),
+which uses angle brackets ("&lt;" and "&gt;") to separate the annotations
 from the regular text.  In HTML these annotations are called "tags".
 
 For example, consider the following chunk of HTML code:
@@ -850,10 +857,10 @@ editors that you can install on your machine, like Visual Studio Code.
 
 <h4>Using online editors:</h4>
 
-Both [JSBin](https://jsbin.com) and [CodePen](https://codepen.io/) are
-two online editors that you can use to create HTML Web pages.  
+Both <a href="https://jsbin.com">JSBin</a> and <a href="https://codepen.io/">CodePen</a> are
+two online editors that you can use to create HTML Web pages.
 The following two videos show you how to create your first HTML page
-using [JSBin](https://jsbin.com) and [CodePen](https://codepen.io/)
+using <a href="https://jsbin.com">JSBin</a> and <a href="https://codepen.io/">CodePen</a>
 
 And this time, what I'd like to show you a very simple HTML file that
 I've created.
@@ -1019,7 +1026,7 @@ And you can see an "Editor" opens up, and it has a HTML Pane, A CSS
 Pane, a JavaScript Pane, and an Output Pane. This is just an example.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------- 13 1/2. example (23) ------------------------------------->
+<!------------------------------ image-example 13 1/2. example (23) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image-example.png"
@@ -1146,15 +1153,14 @@ Until next time, happy coding.
 
 <h4>Using Visual Studio Code</h4>
 
-Watch these 3 demos/videos below to learn how to use [Visual Studio
-Code](https://code.visualstudio.com/) (VS):
-
--   to write HTML pages and explore the support you get when using
-    Visual Studio Code to create Web pages.
-
--   to preview your HTML page using the "open in browser" extension.
-
--   to build your first "Hello HTML!" page using VS Code.
+Watch these 3 demos/videos below to learn how to use <a href="https://code.visualstudio.com/">Visual Studio
+Code</a> (VS):
+<ul>
+<li>to write HTML pages and explore the support you get when using
+    Visual Studio Code to create Web pages.</li>
+<li>to preview your HTML page using the "open in browser" extension.</li>
+<li>to build your first "Hello HTML!" page using VS Code.</li>
+</ul>
 
 <h4>Live coding video: using Visual Studio Code</h4>
 
@@ -1667,9 +1673,11 @@ new tag (representing a nested element). This is done by adding a '/'
 right after the '\<' to indicated that it's a 'close tag'. To indicate
 the beginning and end of a paragraph (indicated by the single letter
 'p') you end up with something like this:
+
 ```
 <p>This is my first paragraph!</p>
 ```
+
 The browser sees the letters '\<p>' and decides 'A new paragraph is
 starting, I'd better start a new line and maybe indent it'. Then when it
 sees '\</p>' it knows that the paragraph it was working on is finished,
@@ -1695,9 +1703,11 @@ ones.  We'll learn more about these later, but we generally refer to the
 strange ones as "self closing" tags. Usually these tags represent an
 element that is completely described by its attributes, and thus
 there is no need for other content.  So if you see something like this:
+
 ```
 <img src="https://goo.gl/pVxY0e" alt="Floating Flower"/\>
 ```
+
 ... then you should know that the slash at the end of the open tag is
 sort of a shorthand for a close tag, so you won't see any other
 indication that this element is now complete.  There are also a few tags
@@ -1715,14 +1725,17 @@ Every programming language I've used has some way of representing
 comments.  HTML5 is no exception.  If you want to add something in your
 file that you want the browser to completely ignore, there's a special
 tag for that (unsurprisingly called a "comment tag"):
+
 ```
   <!-- This is a comment -->
 ```
+
 An HTML comment tag starts with \<!-- and ends with --\>, meaning that
 as the computer is reading through your HTML file, if it sees \<!-- it
 will ignore everything it sees until it comes across --\>.  There is no
 open or close tag, just a comment tag.  Unlike most other things in
 HTML5, comments cannot be nested.  If you try that, like:
+
 ```html5
 <!--
 Beginning of comment
@@ -1730,6 +1743,7 @@ Beginning of comment
 This is after the nested comment
 -->
 ```
+
 The computer will then see the beginning of the comment tag and start
 ignoring everything until it sees --\>, including the second \<!--.
 Once it sees --\>, it assumes the comment is done and goes back to
@@ -1831,8 +1845,8 @@ slack of his roundabout and arrest his flight.
 > and layout accordingly.*
 
 On the other hand, you might think that since a browser always knows
-exactly what tag it is working with ([eidetic
-memory](https://en.wikipedia.org/wiki/Eidetic_memory)), you could
+exactly what tag it is working with (<a href="https://en.wikipedia.org/wiki/Eidetic_memory">eidetic
+memory</a>), you could
 provide a sort of "universal close tag" that doesn't specify the type
 that it's closing. It would know to close the current tag. While that's
 technically true, it's handy to have the close tag there for people
@@ -1903,6 +1917,7 @@ above. Try inserting a paragraph into the body of your new document.
  </body>
  </html>
 ```
+
 <h3 id="ch1-4-1">1.4.1 Character Encoding</h3>
 
 A character can be any letter, digit or symbol that makes up words and
@@ -2847,7 +2862,7 @@ This is going to be my favorite recipe.
 <p align="center" width="100%">
 <img src="./images/image020.png?raw=true"
    width="35%"
-   alt="Attributes, Images and Links" />
+   alt="Attributes, images and links." />
 </p>
 
 Hi, everyone, and welcome.
@@ -3139,7 +3154,7 @@ several tags such as \<img\>, \<input\> and \<video\>.
 <p align="center" width="100%">
 <img src="./images/image021.png?raw=true"
    width="35%"
-   alt="HTML Result" />
+   alt="HTML Result." />
 </p>
 
 Ordered lists have their own specific attributes and all global
@@ -3150,14 +3165,15 @@ attributes can also be applied to them.
 The image \<img\> and hyperlink \<a\> elements, which we will be
 learning about shortly, have many non-global attributes of their own.
 
+```
 <b>\<img\>  :</b> src, alt, etc.
-
 <b>\<a\></b>  : href, target, download, etc.
+```
 
 Other than the common global attributes, if you wish to learn about the
-supported non-global attributes for any element, you can visit the [HTML
+supported non-global attributes for any element, you can visit the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes">HTML
 attribute
-reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes) available
+reference</a> available
 at the Mozilla Developer Network (MDN).
 
 **Important: **Throughout the course, using the MDN attribute reference,
@@ -3166,15 +3182,15 @@ learn about or would like to use in your Web pages. In the MDN attribute
 reference list, you can click on the element's hyperlinked name to be
 navigated to its page that lists supported attributes for that element.
 
-**Try this:** Navigate to the [HTML attribute
-reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes) at
+**Try this:** Navigate to the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes">HTML attribute
+reference</a> at
 Mozilla Developer Network and find out which element(s) the
 attributes muted and readonly can be applied to. 
 
-**Try this:** Navigate to the[ HTML attribute
-reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes) at Mozilla
+**Try this:** Navigate to the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes">HTML attribute
+reference</a> at Mozilla
 Developer Network and find out the non-global attributes that can be
-applied to the \<li\> tag. Search for the \<li\> element and then click
+applied to the &lt;li&gt; tag. Search for the &lt;li&gt; element and then click
 on it: it will take you to the list tag's page that specifies applicable
 attributes.
 
@@ -3192,15 +3208,14 @@ The id attribute gives your element a unique identifier. In your HTML
 document, that ID value can only be used in one element. 
 
 Naming rules for id attribute:
-
--   Must be of at least one character
-
--   Should not contain any spaces
-
--   Values are case-sensitive. This means 'QuestioN' and 'question' are
+<ul>
+<li>Must be of at least one character,</li>
+<li>Should not contain any spaces,</li>
+<li>Values are case-sensitive. This means 'QuestioN' and 'question' are
     NOT the same. That does not mean you can define two different IDs
     that only differ by case, e.g. "myid" and "MyId". They are different
-    and so legal but it would be extremely confusing to do this!
+    and so legal but it would be extremely confusing to do this!,</li>
+</ul>
 
 1.  \<p id="question-about-html"\>How many times can a particular 'id'
     value be used in an HTML document?\</p\>
@@ -3252,13 +3267,12 @@ space:
 <p class="question html">Do you like HTML5?</p>
 ```
 Naming rules for the class attribute:
-
--   Must begin with a letter (a-z or A-Z)
-
--   First letter can be followed by a letter, digit, hyphen or an
-    underscore
-
--   Values are case-sensitive
+<ul>
+<li>Must begin with a letter (a-z or A-Z).</li>
+<li>First letter can be followed by a letter, digit, hyphen or an
+    underscore.</li>
+<li>Values are case-sensitive.</li>
+</ul>
 
 class is primarily used for:
 
@@ -3909,12 +3923,12 @@ this:
 ```
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 25. using the markup validator (81) --------------------------------->
+<!---------------------------- 25. using the markup validator (83) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image025.png?raw=true"
    width="45%"
-   alt="Using the Markup Validator" />
+   alt="Using the markup validator." />
 </p>
 
 <h3 id="ch2-3-3">2.3.3 New HTML5 Semantic Elements</h3>
@@ -4057,8 +4071,7 @@ The rest of the content in details is shown/hidden by user.</td>
 </tbody>
 </table>
 
-
-<h4><details> element</h4>
+<h4>&lt;details&gt; element</h4>
 
 The \<details\> tag is very cool. It is used in conjunction with a
 nested \<summary\> tag and some other content. The result is that the
@@ -4097,45 +4110,63 @@ Moncrieff&lt;/p&gt;</p></li>
 </table>
 
 Element
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- 26. example details command (86) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image026.png?raw=true"
+   width="40%"
+   alt="Example details command." />
+</p>
 
-<img src="./images/image026.png"
-style="width:4in;height:2.31579in" />
+See also the current <a href="https://caniuse.com/#search=%3Cdetails%3E">browser
+support</a> (on caniuse.com).
 
-See also the current [browser
-support](https://caniuse.com/#search=%3Cdetails%3E) (on caniuse.com).
-
-<h4><figcaption> element</hr>
+<h4>&lt;figcaption&gt; element</hr>
 
 This element is used to provide a caption or explanation of the image
 (figure). While the alt attribute explains the image for assistive
 technology, \<figcaption\> can be used to provide additional information
 for all users.
 
-1.  \<figure\>
-
-2.     \<img src="img_cast.jpg" alt="The Importance of Being Earnest
-    Cast"\>
-
-3.     \<figcaption\>Fig1. - The cast hard at work at dress rehearsal
-    before opening night\</figcaption\>
-
-4.  \</figure\>
+```html5
+1.  <figure>
+2.     <img src="img_cast.jpg" alt="The Importance of Being Earnest
+    Cast">
+3.     <figcaption>Fig1. - The cast hard at work at dress rehearsal
+    before opening night</figcaption>
+4.  </figure>
+```
 
 Result:
 
-<img src="./images/image027.jpeg" style="width:2in;height:2in"
-alt="dress rehearsal" />  
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- 27. example details command (86) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image027.jpeg?raw=true"
+   width="20%"
+   alt="Dress rehearsal." />
+</p>
+
 Fig. 1: The cast hard at work at dress rehearsal before opening night
 
-<h4>\<mark\> element</h4>
+<h4>&lt;mark&gt; element</h4>
 
 This element is used to specify content that you want to highlight. 
-
+```
 1.  \<h3\>Lane: \</h3\>\<p\>Yes sir. \[\<mark\>Handing his master the
     sandwiches on a salver\</mark\>\]\</p\>
+```
 
-<img src="./images/image028.png"
-style="width:4in;height:2.31579in" />
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- 28.  (##) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image028.png?raw=true"
+   width="40%"
+   alt="." />
+</p>
 
 Most browsers will display mark element with a yellow background to
 black text by default, however, if it doesn't, you can specify the
@@ -4157,57 +4188,45 @@ actually create a sidebar in your page. Sidebar is a user interface (UI)
 element and must be styled to achieve the look of a sidebar. The
 following code will only create structure to your document, not any
 visual change:
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Effect of semantic elements</title>
+</head>
+<body>
+<article>
+<header id="intro">
+<h2>Introduction</h2>
+</header>
+<p>HTML5 stands for ...</p>
+<!--This is an example of aside. The mark element has also been
+showcased in the paragraph -->
+<aside>
+<h4> API </h4>
+<p> API stands ... </p>
+</aside>
+</article>
+</body>
+```
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- 29.  (##) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image029.png?raw=true"
+   width="30%"
+   alt="." />
+</p>
 
-> \<!DOCTYPE html\>
->
-> \<html lang="en"\>
->
-> \<head\>
->
-> \<meta charset="UTF-8"\>
->
-> \<title\>Effect of semantic elements\</title\>
->
-> \</head\>
->
-> \<body\>
->
-> \<article\>
->
-> \<header id="intro"\>
->
-> \<h2\>Introduction\</h2\>
->
-> \</header\>
->
-> \<p\>HTML5 stands for ...\</p\>
->
-> \<!--This is an example of aside. The mark element has also been
-> showcased in the paragraph --\>
->
-> \<aside\>
->
-> \<h4\> API \</h4\>
->
-> \<p\> API stands ... \</p\>
->
-> \</aside\>
->
-> \</article\>
->
-> \</body\>
-
-<img src="./images/image029.png"
-style="width:3in;height:2.57052in" />
-
-### Lesser known semantic elements (OPTIONAL)
+<h4>Lesser known semantic elements (OPTIONAL)</h4>
 
 **Note:** This section is optional material included for the curious. It
 will not appear on any graded question.
 
 We will look at a few more semantic elements that are commonly in use
 but lesser known. 
-
+```
 <table>
 <colgroup>
 <col style="width: 13%" />
@@ -4256,6 +4275,7 @@ Los Angeles, USA<br />
 </tr>
 </tbody>
 </table>
+```
 
 Apart from
 these, \<cite\>, \<em\>, \<strong\>, \<p\> and \<blockquote\> are also
@@ -4274,7 +4294,7 @@ use \<article\>, \<section\> or \<div\>?
 Fear not. We will discuss these scenarios in detail so you can be better
 equipped to apply semantic elements in your Web page. 
 
-<h4><header> vs <h1> - <h6></h4>
+<h4>&lt;header&gt; vs &lt;h1&gt; - &lt;h6&gt;</h4>
 
 \<header\> is simply an area to add any introductory content about your
 page. It can contains headings, paragraphs, tables, images, logos and
@@ -4291,28 +4311,28 @@ If you view page source on the W3C specification and do a search for
 '\<header\>', you will be able to view the contents of the header
 element. **Here's a simplified version**:
 
+```html5
 1.  \<header\>
-
 2.     \<!-- You will learn about the \<a\> and \<img\> tags later in
-    this chapter--\>
-
+   this chapter--\>
 3.    \<p\>
-
 4.      \<a href="https://www.w3.org/"\>\<img alt="W3C
     logo" height="48" src="https://www.w3.org/Icons/w3c_home" width="72"\>\</a\>
-
 5.    \</p\>
-
 6.   
-
 7.    \<h1\>HTML 5.2\</h1\>
-
 8.    \<h2\>W3C Recommendation, 14 December 2017\</h2\>
-
 9.  \</header\>
+```
 
-<img src="./images/image030.png"
-style="width:4in;height:4.02526in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ ##. template (##) -------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image030.png?raw=true"
+   width="40%"
+   alt="." />
+</p>
 
 Like in the example above, the header can and frequently does contain
 headings \<h1\> to \<h6\>. In the case of headings, they do not have be
@@ -6246,7 +6266,7 @@ soup\</q\>. Well, here's my attempt at doing just that!
 \<article id="salad"\>
 \<h2\>Salad\</h2\>
 \<img
-src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Caesar_salad\_%281%29.jpg/320px-Caesar_salad\_%281%29.jpg"
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Caesar_salad_%281%29.jpg/320px-Caesar_salad_%281%29.jpg"
 alt="salad image" width=320\>
 
 \<h3\>List of ingredients\</h3\>
@@ -7903,7 +7923,7 @@ style="width:6.5in;height:1.81875in" />
 In the following HTML, we see some paragraphs that have some links
 (\<a\>) inside. The link tags are inside the paragraphs, but not
 necessarily direct children.  
-
+```
 1.  \<section id="intro"\>Welcome
     to \<a href="#palaceland"\>PalaceLand\</a\>, world renown \<q\>Land
     of endless palaces and \<a href="#delight"\>delights\</a\>\</q\>. As
@@ -7924,14 +7944,16 @@ necessarily direct children.  
     nesting birds.\</blockquote\> (and
     no \<a href="#camera_policy"\>flash
     photography\</a\> please.)\</section\>
+```
 
 What if we wanted all the links in the introductory section to be red,
 but all the link in the guideline section to be green?  That is what
 descendant selectors are for. Here is an example for the problem we are
 facing:
-
-\#intro a { color: red; }  
-\#guideline a { color: #00FF00; }
+```css
+#intro a { color: red; }  
+#guideline a { color: #00FF00; }
+```
 
 We merely separate the tag, identifier, or class selectors by a space.
 
@@ -9309,126 +9331,130 @@ little more flair.
 Try to make changes to get something like this:
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 83.  (###) -------------------------------------->
+<!--------------------------- 83. example: my favorite recipes (205) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <img src="./images/image083.png"
 style="width:4.96875in;height:2.73958in" />
 
 <h4>CSS</h4>
+
+```css
+nav {
+background: aliceblue;
+width: 12rem;
+}
+img {
+width: 300px;
+}
+article {
+margin-left: 3rem;
+}
+h1 {
+text-align: center;
+background: blue;
+color: white;
+}
 ```
-> nav {
-> background: aliceblue;
-> width: 12rem;
-> }
-> img {
-> width: 300px;
-> }
-> article {
-> margin-left: 3rem;
-> }
-> h1 {
-> text-align: center;
-> background: blue;
-> color: white;
-> }
-```
+
 <h4>HTML</h4>
+
+```html5
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My Favorite Recipes - Module 4</title>
+<style>
+nav{
+background: lightgreen;
+width: 20em;
+}
+img{
+width: 400px;
+border: 5px solid black;
+padding: 10px;
+}
+article{
+margin-left: 40px;
+}
+h1{
+background: \#4c6d48;
+text-align:center;
+margin:0px;
+}
+nav ul{
+padding-left: 25px;
+}
+body {
+margin: 0px;
+}
+</style>
+</head>
+<body>
+<h1>My Favorite Recipes</h1>
+<nav>
+<ul>
+<li><a href="#soup">Soup</a></li>
+<li><a href="#salad">Salad</a></li>
+<li><a href="#pizza">Pizza</a></li>
+</ul>
+</nav>
+<article id="soup">
+<h2>Soup</h2>
+<img
+src="https://upload.wikimedia.org/wikipedia/commons/2/22/Bol_soupe_bicolore.jpg"
+alt="soup image" width="320"\>
+<p>
+Beethoven once said <q>Only the pure of heart can make a good
+soup</q>. Well, here's my attempt at doing just that!
+</p>
+<ol>
+<li>Step 1</li>
+<li>Step 2</li>
+<li>Step 3</li>
+<li>Enjoy!</li>
+</ol>
+</article>
+<article id="salad">
+<h2>Salad</h2>
+<img
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Caesar_salad\_%281%29.jpg/320px-Caesar_salad\_%281%29.jpg"
+alt="salad image" width=320>
+<h3>List of ingredients</h3>
+<ul>
+<li>Ingredient 1</li>
+<li>Ingredient 2</li>
+<li>Ingredient 3</li>
+</ul>
+<p>
+Who can resist a fresh salad ! Here's one of my favorites.
+</p>
+> <ol>
+<li>Step 1</li>
+<li>Step 2</li>
+<li>Step 3</li>
+<li>Enjoy!</li>
+</ol>
+</article>
+<article id="pizza">
+<h2>Pizza</h2>
+<img
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Margherita_Originale.JPG/320px-Margherita_Originale.JPG"
+alt="pizza image" width=320>
+<p>
+Pizza, the king of comfort foods. Try this simple, taste sensation.
+</p>
+<ol>
+<li>Step 1</li>
+<li>Step 2</li>
+<li>Step 3</li>
+<li>Enjoy!</li>
+</ol>
+</article>
+</body>
+</html>
 ```
-> <!DOCTYPE html>
-> <html lang="en">
-> <head>
-> <meta charset="UTF-8">
-> <title>My Favorite Recipes - Module 4</title>
-> <style>
-> nav{
-> background: lightgreen;
-> width: 20em;
-> }
-> img{
-> width: 400px;
-> border: 5px solid black;
-> padding: 10px;
-> }
-> article{
-> margin-left: 40px;
-> }
-> h1{
-> background: \#4c6d48;
-> text-align:center;
-> margin:0px;
-> }
-> nav ul{
-> padding-left: 25px;
-> }
-> body {
-> margin: 0px;
-> }
-> </style>
-> </head>
-> <body>
-> <h1>My Favorite Recipes</h1>
-> <nav>
-> <ul>
-> <li><a href="#soup">Soup</a></li>
-> <li><a href="#salad">Salad</a></li>
-> <li><a href="#pizza">Pizza</a></li>
-> </ul>
-> </nav>
-> <article id="soup">
-> <h2>Soup</h2>
-> <img
-> src="https://upload.wikimedia.org/wikipedia/commons/2/22/Bol_soupe_bicolore.jpg"
-> alt="soup image" width="320"\>
-> <p>
-> Beethoven once said <q>Only the pure of heart can make a good
-> soup</q>. Well, here's my attempt at doing just that!
-> </p>
-> <ol>
-> <li>Step 1</li>
-> <li>Step 2</li>
-> <li>Step 3</li>
-> <li>Enjoy!</li>
-> </ol>
-> </article>
-> <article id="salad">
-> <h2>Salad</h2>
-> <img
-> src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Caesar_salad\_%281%29.jpg/320px-Caesar_salad\_%281%29.jpg"
-> alt="salad image" width=320>
-> <h3>List of ingredients</h3>
-> <ul>
-> <li>Ingredient 1</li>
-> <li>Ingredient 2</li>
-> <li>Ingredient 3</li>
-> </ul>
-> <p>
-> Who can resist a fresh salad ! Here's one of my favorites.
-> </p>
-> <ol>
-> <li>Step 1</li>
-> <li>Step 2</li>
-> <li>Step 3</li>
-> <li>Enjoy!</li>
-> </ol>
-> </article>
-> <article id="pizza">
-> <h2>Pizza</h2>
-> <img
-> src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Margherita_Originale.JPG/320px-Margherita_Originale.JPG"
-> alt="pizza image" width=320>
-> <p>
-> Pizza, the king of comfort foods. Try this simple, taste sensation.
-> </p>
-> <ol>
-> <li>Step 1</li>
-> <li>Step 2</li>
-> <li>Step 3</li>
-> <li>Enjoy!</li>
-> </ol>
-> </article>
-> </body>
-> </html>
-```
+
 Use the debugger to experiment with settings of margins, padding and
 borders, to figure out what needs to change to eliminate some of the
 gaps between elements and the side of the window and frame the images.
@@ -10828,117 +10854,63 @@ style="width:4in;height:2.5126in" />
 
 8.  div.overflow-x-auto { overflow-x: auto; overflow-y:hidden; }
 
-### HTML
-
+<h4>HTML</h4>
+```
 1.  \<!DOCTYPE html\>
-
 2.  \<html lang="en"\>
-
 3.  
-
 4.  \<head\>
-
 5.  \<meta charset="UTF-8"\>
-
 6.  \<title\>Styling your table\</title\>
-
 7.  \</head\>
-
 8.  \<body\>
-
 9.  \<p\>To better illustrate this property, we are going to place our
-    tables inside div elements with width and height set to 200px\</p\>
-
+   tables inside div elements with width and height set to 200px\</p\>
 10. \<h4\>Overflow-hidden\</h4\>
-
 11. \<div class="overflow-hidden"\>
-
 12. \<table\>
-
 13. \<tr\>
-
 14. \<th\>Name\</th\>
-
 15. \<th\>Age\</th\>
-
 16. \<th\>Gender\</th\>
-
 17. \<th\>Occupation\</th\>
-
 18. \</tr\>
-
 19. \<tr\>
-
 20. \<td\>Amy\</td\>
-
 21. \<td\>33\</td\>
-
 22. \<td\>Female\</td\>
-
 23. \<td\>Fitness Trainer\</td\>
-
 24. \</tr\>
-
 25. \<tr\>
-
 26. \<td\>Mike\</td\>
-
 27. \<td\>52\</td\>
-
 28. \<td\>Male\</td\>
-
 29. \<td\>Engineer\</td\>
-
 30. \</tr\>
-
 31. \</table\>
-
 32. \</div\>
-
 33. \<br\>\<br\>
-
 34. \<h4\>Overflow-scroll\</h4\>
-
 35. \<div class="overflow-scroll"\>
-
 36. \<table\>
-
 37. \<tr\>
-
 38. \<th\>Name\</th\>
-
 39. \<th\>Age\</th\>
-
 40. \<th\>Gender\</th\>
-
 41. \<th\>Occupation\</th\>
-
 42. \</tr\>
-
 43. \<tr\>
-
 44. \<td\>Amy\</td\>
-
 45. \<td\>33\</td\>
-
 46. \<td\>Female\</td\>
-
 47. \<td\>Fitness Trainer\</td\>
-
 48. \</tr\>
-
 49. \<tr\>
-
 50. \<td\>Mike\</td\>
-
 51. \<td\>52\</td\>
-
 52. \<td\>Male\</td\>
-
 53. \<td\>Engineer\</td\>
-
 54. \</tr\>
-
 55. \</table\>
 
 56. \</div\>
@@ -11042,201 +11014,115 @@ style="width:4in;height:2.5126in" />
 105. \</body\>
 
 106. \</html\>
+```
 
-### In summary: a fancy table
+<h4>In summary: a fancy table</h4>
 
 As a conclusion to this tables section, here is a complete table design:
 
 <img src="./images/image102.png"
 style="width:4in;height:4.52941in" />
 
-### CSS
-
+<h4>CSS</h4>
+```
 1.  table, th, td {
-
 2.  padding: 30px;
-
 3.  border: 1px solid \#DCDCDC;
-
 4.  text-align: center;
-
 5.  }
-
 6.  
-
 7.  table {
-
 8.  border-collapse: collapse;
-
 9.  overflow: auto;
-
 10. font-family: "Ubuntu", "Verdana", "Arial", sans-serif;
-
 11. }
-
 12. 
-
 13. tr:hover {
-
 14. background-color: \#e6e6e6;
-
 15. }
-
 16. 
-
 17. tr.main-heading {
-
 18. line-height: 10%;
-
 19. background-color: \#32B2B2;
-
 20. color: white;
-
 21. }
-
 22. 
-
 23. tr.sub-heading {
-
 24. line-height: 150%;
-
 25. background-color: \#149494;
-
 26. color: white;
-
 27. }
-
 28. 
-
 29. tr.buy-now-footer {
-
 30. line-height: 150%;
-
 31. background-color: \#149494;
-
 32. font-weight: bold;
-
 33. font-size: 20px;
-
 34. }
+```
 
-### HTML
-
+<h4>HTML</h4>
+```
 1.  \<!DOCTYPE html\>
-
 2.  \<html lang="en"\>
-
 3.  
-
 4.  \<head\>
-
 5.  \<meta charset="UTF-8"\>
-
 6.  \<title\>a fancy table\</title\>
-
 7.  \</head\>
-
 8.  \<body\>
-
 9.  \<table\>
-
 10. \<thead\>
-
 11. \<tr class="main-heading"\>
-
 12. \<th id="mh-co1" scope="col"\>Trial\</th\>
-
 13. \<th id="mh-co2" scope="col"\>Starter\</th\>
-
 14. \<th id="mh-co3" scope="col"\>Premium\</th\>
-
 15. \<th id="mh-co4" scope="col"\>VIP\</th\>
-
 16. \</tr\>
-
 17. \<tr class="sub-heading"\>
-
 18. \<th id="sh-co1" scope="col"\>Free\</th\>
-
 19. \<th id="sh-co2" scope="col"\>$5.99\<br\>per month\</th\>
-
 20. \<th id="sh-co3" scope="col"\>$15.99\<br\>per month\</th\>
-
 21. \<th id="sh-co4" scope="col"\>$29.99\<br\>per month\</th\>
-
 22. \</tr\>
-
 23. \</thead\>
-
 24. \<tbody\>
-
 25. \<tr\>
-
 26. \<td headers="mh-co1 sh-co1"\>2hrs/day\</td\>
-
 27. \<td headers="mh-co2 sh-co2"\>7hrs/day\</td\>
-
 28. \<td headers="mh-co3 sh-co3"\>Unlimited\</td\>
-
 29. \<td headers="mh-co4 sh-co4"\>Unlimited\</td\>
-
 30. \</tr\>
-
 31. \<tr\>
-
 32. \<td headers="mh-co1 sh-co1"\>5 channels\</td\>
-
 33. \<td headers="mh-co2 sh-co2"\>32 channels\</td\>
-
 34. \<td headers="mh-co3 sh-co3"\>Booster Pack - 152 channels\</td\>
-
 35. \<td headers="mh-co4 sh-co4"\>Unlimited\</td\>
-
 36. \</tr\>
-
 37. \<tr\>
-
 38. \<td headers="mh-co1 sh-co1"\>-\</td\>
-
 39. \<td headers="mh-co2 sh-co2"\>-\</td\>
-
 40. \<td headers="mh-co3 sh-co3"\>Free Ello Subscription\</td\>
-
 41. \<td headers="mh-co4 sh-co4"\>Free Ello Subscription\</td\>
-
 42. \</tr\>
-
 43. \<tr\>
-
 44. \<td headers="mh-co1 sh-co1"\>Email Support\</td\>
-
 45. \<td headers="mh-co2 sh-co2"\>Email Support\</td\>
-
 46. \<td headers="mh-co3 sh-co3"\>Email &amp; Call Support\</td\>
-
 47. \<td headers="mh-co4 sh-co4"\>Unlimited Email &amp; Call
     Support\</td\>
-
 48. \</tr\>
-
 49. \</tbody\>
-
 50. \<tfoot\>
-
 51. \<tr class="buy-now-footer"\>
-
 52. \<td colspan="4"\>\<a href="http://www.example.com"
     target="blank"\>Buy now!\</a\>\</td\>
-
 53. \</tr\>
-
 54. \</tfoot\>
-
 55. \</table\>
-
 56. \</body\>
-
 57. \</html\>
+```
 
 **Note**: This table contains multi-line headers. You can find more
 information on the right way to design tables of different header types
@@ -11602,7 +11488,7 @@ documents.
 And then using CSS, how to apply some styling to make your tables look a
 little more visually appealing inside your document.
 
-<h2>5.2.7 Activities - Tables</h2>
+<h3 id="ch5-2-7">5.2.7 Activities - Tables</h3>
 
 1.  Create a simple 3x3 table with the first row containing header
     cells. You may choose not to add any styling including border. 
@@ -11634,21 +11520,21 @@ little more visually appealing inside your document.
 6.  Create a simple hover to highlight table that makes the background
     color of a row 'yellow' when you hover over a table row.
 
-<h3 id="ch5-3">5.3.1 The \<audio\> element</h3>
+<h3 id="ch5-3">5.3.1 The &lt;audio&gt; element</h3>
 
 audio and video are new HTML 5 elements that were highly anticipated.
 With HTML5 support for multimedia, this has become much easier, than
 previous methods. 
 
-<h3>The \<audio\> tag</h3>
+<h3>The &lt;audio&gt; tag</h3>
 
 You can use the \<audio\> tag to embed audio in your page.
 
-1.  \<audio src="sounds/flute.mp3"\>
-
+```
+1.  <audio src="sounds/flute.mp3">
 2.    Your browser does not support the audio file.
-
-3.  \</audio\>
+3.  </audio>
+```
 
 Any text within the \<audio\> tags will be displayed if the browser does
 not support the audio element. You should add such a message to provide
@@ -11665,7 +11551,7 @@ attributes:
 <p align="center" width="100%">
 <img src="/images/image105.png?raw=true"
    width="65%"
-   alt="Attributes: src and type" />
+   alt="Attributes: src and type." />
 </p>
 
 If you hit play and didn't hear anything, remember that we have added
