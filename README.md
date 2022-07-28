@@ -3605,7 +3605,7 @@ only talked about how the text should look like on the screen. 
 Semantic refers to the meaning of words in a language. **Semantic
 tags** said something about the semantic of the tag. It offered
 meaning. 
-
+a
 <table>
 <colgroup>
 <col style="width: 18%" />
@@ -3835,37 +3835,37 @@ repeating content. 
 We can apply the elements in the image above to a simple Web page like
 this:
 ```html5
-1.  \<!DOCTYPE html\>
-2.  \<html lang="en"\>
+1.  <!DOCTYPE html>
+2.  <html lang="en">
 3.   
-4.  \<head\>
-5.    \<meta charset="UTF-8"\>
-6.    \<title\>Introduction to semantic elements\</title\>
-7.  \</head\>
+4.  <head>
+5.    <meta charset="UTF-8">
+6.    <title>Introduction to semantic elements</title>
+7.  </head>
 8.   
-9.  \<body\>
-10. \<header\>
-11.   \<h2\>Using the Markup Validator.\</h2\>
-12. \</header\>
-13. \<nav\>
-14. \<!--You will learn about \<a\> tag later in this chapter--\>
-15.   \<a href=""\>What is the Markup Validator and what does it
-    do?\</a\>\<br /\>
-16.   \<a href=""\>Why validate?\</a\>\<br /\>
-17.   \<a href=""\>How do I use the Markup validator?\</a\>\<br /\>
-18.   \<a href=""\>Many error messages? Don't panic.\</a\>\<br /\>
-19. \</nav\>
-20. \<section\>
-21.   \<h3\>What is the Markup Validator and what does it do?\</h3\>
-22.   \<p\> The Markup Validator is a free tool and service that
-23.     \<a href="https://validator.w3.org/docs/help.html#validation_basics"\>validates
-    markup\</a\>: in other words, it checks the syntax of Web documents,
-    written in formats such as HTML. \</p\>
-24. \</section\>
+9.  <body>
+10. <header>
+11.   <h2>Using the Markup Validator.</h2>
+12. </header>
+13. <nav>
+14. <!--You will learn about <a> tag later in this chapter-->
+15.   <a href="">What is the Markup Validator and what does it
+    do?</a><br />
+16.   <a href="">Why validate?</a><br />
+17.   <a href="">How do I use the Markup validator?</a><br />
+18.   <a href="">Many error messages? Don't panic.</a><br />
+19. </nav>
+20. <section>
+21.   <h3>What is the Markup Validator and what does it do?</h3>
+22.   <p> The Markup Validator is a free tool and service that
+23.     <a href="https://validator.w3.org/docs/help.html#validation_basics">validates
+    markup</a>: in other words, it checks the syntax of Web documents,
+    written in formats such as HTML. </p>
+24. </section>
 
-25. \<section\>
-26.   \<h3\>Why validate?\</h3\>
-27.   \<p\> One of the important maxims of computer programming is: "Be
+25. <section>
+26.   <h3>Why validate?</h3>
+27.   <p> One of the important maxims of computer programming is: "Be
     conservative in what you produce; be liberal in what you accept."
 28.  
 29. Browsers follow the second half of this maxim by accepting Web pages
@@ -3895,18 +3895,19 @@ this:
     you're lucky, you should get a lot fewer errors.
 43.  
 44. If this doesn't help, then you may be experiencing a cascade failure
-    ... \</p\>
-45. \</aside\>
-46. \<footer\>
-47.   \<p\>Written by: W3C\</p\>
-48.   \<p\>For more information, please
-    visit \<a href="https://validator.w3.org/docs/help.html"\>this
-    page\</a\>.\</p\>
-49. \</footer\>
-50. \</body\>
+    ... </p>
+45. </aside>
+46. <footer>
+47.   <p>Written by: W3C</p>
+48.   <p>For more information, please
+    visit <a href="https://validator.w3.org/docs/help.html">this
+    page</a>.</p>
+49. </footer>
+50. </body>
 51.  
-52. \</html\>
+52. </html>
 ```
+
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 25. using the markup validator (81) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4805,141 +4806,91 @@ markup and styling for it.\</p\>
 \<p\>HTML5 is based on a position paper presented by Mozilla Foundation
 and Opera Software at the W3C workshop in 2004. The Web Hypertext
 Application Technology Working Group (WHATWG) was formed to start work
-on this...\</p\>
-
-\</section\>
-
-\<!-- Our features section with smaller headings--\>
-
-\<section\>
-
-\<header id="features"\>
-
-\<h2\>Features\</h2\>
-
-\<h4\>Keeping up with times\</h4\>
-
-\</header\>
-
-\<p\>HTML5 introduced elements and attributes that fits the typical
+on this...</p>
+```
+</section>
+<!-- Our features section with smaller headings-->
+<section>
+<header id="features">
+<h2>Features</h2>
+<h4>Keeping up with times</h4>
+</header>
+<p>HTML5 introduced elements and attributes that fits the typical
 usage in modern websites. It introduced new semantic elements to replace
 generic blocks like div and span. Purely presentation elements such as
-font and center have also been completely dropped...\</p\>
+font and center have also been completely dropped...</p>
 
-\<h4\>New APIs\</h4\>
+<h4>New APIs</h4>
 
-\<p\>New APIs were introduced to allow cross-document communication,
+<p>New APIs were introduced to allow cross-document communication,
 drag and drop functionality, immediate mode 2D drawing using the canvas
-element, webstorage etc...\</p\>
+element, webstorage etc...</p>
 
-\<h4\>Error Handling\</h4\>
+<h4>Error Handling</h4>
 
-\<p\>HTML5 provides detailed rules for parsing allowing HTML5 compliant
+<p>HTML5 provides detailed rules for parsing allowing HTML5 compliant
 browsers to produce the same type of behavior when parsing incorrect
 syntax. It has been designed for compatibility with older browsers.
-Older browsers ignore new HTML5 constructs... \</p\>
-
-\</section\>
-
-\<!-- Our logo section show hows to use the semantic elements figure and
-figcaption--\>
-
-\<section\>
-
-\<header id="logo"\>
-
-\<h2\>Logo\</h2\>
-
-\</header\>
-
-\<figure\>
-
-\<img
+Older browsers ignore new HTML5 constructs... </p>
+```
+</section>
+<!-- Our logo section show hows to use the semantic elements figure and
+figcaption-->
+<section>
+<header id="logo">
+<h2>Logo</h2>
+</header>
+<figure>
+<img
 src="http://courses.edx.org/asset-v1:W3Cx+HTML5.0x+1T2017+type@asset+block@html5_logo.png"
-alt="HTML5 Logo"\>
-
-\<figcaption\>Fig1. - The HTML5 logo made official in April
-2011\</figcaption\>
-
-\</figure\>
-
-\</section\>
-
-\<!--Our references section concludes the main content of this page--\>
-
-\<section\>
-
-\<header id="ref"\>
-
-\<h2\>References\</h2\>
-
-\</header\>
-
-\<p\>Contents of this sample have been adapted from the \<a
-href="https://en.wikipedia.org/wiki/HTML5" target="\_blank"\>HTML5 page
-on Wikipedia\</a\>
-
-\</p\>
-
-\</section\>
-
-\</main\>
-
-\<!--Our global footer where you would typically specify copyright,
-author, contact info and a footer navigation bar--\>
-
-\<footer\>
-
-\<p\>Copyrights information...\</p\>
-
-\<!-- We show our authors and contact details using the details and
-summary elements. Expand to show content. --\>
-
-\<details\>
-
-\<summary\>Authors\</summary\>
-
-\<p\>Author1\</p\>
-
-\<p\>Author2\</p\>
-
-\</details\>
-
-\<details\>
-
-\<summary\>Contact\</summary\>
-
-\<!-- Using nav within summary element--\>
-
-\<nav\>
-
-\<!-- Styling has been added to make nav menu in a horizontal row--\>
-
-\<ul style="margin: 0; padding: 0; list-style-type: none;"\>
-
-\<li style="display: inline;"\>\<a href="#" style="text-decoration:
-none; padding: .2em 1em;"\>email\</a\>\</li\>
-
-\<li style="display: inline;"\>\<a href="#" style="text-decoration:
-none; padding: .2em 1em;"\>twitter\</a\>\</li\>
-
-\<li style="display: inline;"\>\<a href="#" style="text-decoration:
-none; padding: .2em 1em;"\>facebook\</a\>\</li\>
-
-\<li style="display: inline;"\>\<a href="#" style="text-decoration:
-none; padding: .2em 1em;"\>GitHub\</a\>\</li\>
-
-\</ul\>
-
-\</nav\>
-
-\</details\>
-
-\</footer\>
-
-\</body\>
-
-\</html\>
+alt="HTML5 Logo">
+<figcaption>Fig1. - The HTML5 logo made official in April
+2011</figcaption>
+</figure>
+</section>
+<!--Our references section concludes the main content of this page-->
+<section>
+<header id="ref">
+<h2>References</h2>
+</header>
+<p>Contents of this sample have been adapted from the <a
+href="https://en.wikipedia.org/wiki/HTML5" target="_blank">HTML5 page
+on Wikipedia</a>
+</p>
+</section>
+</main>
+<!--Our global footer where you would typically specify copyright,
+author, contact info and a footer navigation bar-->
+<footer>
+<p>Copyrights information...</p>
+<!-- We show our authors and contact details using the details and
+summary elements. Expand to show content. -->
+<details>
+<summary>Authors</summary>
+<p>Author1</p>
+<p>Author2</p>
+</details>
+<details>
+<summary>Contact</summary>
+<!-- Using nav within summary element-->
+<nav>
+<!-- Styling has been added to make nav menu in a horizontal row-->
+<ul style="margin: 0; padding: 0; list-style-type: none;">
+<li style="display: inline;"><a href="#" style="text-decoration:
+none; padding: .2em 1em;">email</a></li>
+<li style="display: inline;"><a href="#" style="text-decoration:
+none; padding: .2em 1em;">twitter</a></li>
+<li style="display: inline;"><a href="#" style="text-decoration:
+none; padding: .2em 1em;">facebook</a></li>
+<li style="display: inline;"><a href="#" style="text-decoration:
+none; padding: .2em 1em;">GitHub</a></li>
+</ul>
+</nav>
+</details>
+</footer>
+</body>
+</html>
+```
 
 It is an example of an informational page about HTML5 using the
 following semantic elements: header, nav, main, article, section, aside,
@@ -13892,15 +13843,21 @@ them position relative and using negative margins
 set, so the later elements overlap the earlier ones.  But on the right,
 we govern the overlapping with the z-index property. 
 
-<img src="./images/image146.png"
-style="width:6.5in;height:1.22431in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 146.  (xxx) -------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image146.png?raw=true"
+   width="65%"
+   alt="" />
+</p>
 
--   z-index has no effect on position:static (the default) elements.
-
--   If z-index is not set, siblings that appear later in the HTML
-    document overlap (are "higher than") earlier siblings.
-
--   z-index is relative between siblings, not any arbitrary elements.
+<ul>
+<li>z-index has no effect on position:static (the default) elements.</li>
+<li>If z-index is not set, siblings that appear later in the HTML
+    document overlap (are "higher than") earlier siblings.</li>
+<li>z-index is relative between siblings, not any arbitrary elements.</li>
+</ul>
 
 Siblings and nesting
 
@@ -13921,8 +13878,14 @@ because Alan's parent Albert is lower than Betty, Alan remains behind.
 Alan's high z-index is only relevant to his siblings, not to cousins
 further out in the document.
 
-<img src="./images/image147.png"
-style="width:6.5in;height:1.85in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 147.  (xxx) -------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image147.png?raw=true"
+   width="65%"
+   alt="" />
+</p>
 
 <h3 id="ch6-3-1">6.3.1 Sizing and dimensions</h3>
 
@@ -13930,12 +13893,12 @@ We have already touched on the size properties in the various
 discussions about display and positioning. But here we'll cover them
 properly and add a few more.
 
-### Default behavior
+<h4>Default behavior</h4>
 
 The default sizing behavior depends upon the display property for an
 element.  
 
-#### inline
+<h4>inline</h4>
 
 Inline elements take the size of their content plus any padding.
 Additionally, inline elements ***ignore*** any explicit sizing
@@ -13945,12 +13908,12 @@ confusion when newbies are working with inline elements. If you have an
 inline element whose size you want to indicate explicitly, you should
 probably change it to inline-block.
 
-#### inline-block
+<h4>inline-block</h4>
 
 Inline-block elements also take the size of their content, plus padding.
 However, they respect any explicit sizing properties.  This is handy.
 
-#### block
+<h4>block</h4>
 
 By default when no sizing properties are used, block level elements take
 the width of their parent and the height of their content. Block level
@@ -13962,14 +13925,14 @@ list of pets extends all the way to the right edge of the browser.
 
 These display states are covered in the display section. 
 
-### images - aspect ratio preserving
+<h4>images - aspect ratio preserving</h4>
 
 images have an interesting behavior in that if only one dimension is
 set, the other is automatically calculated so that the original aspect
 ratio of the image is preserved.  This is true for both decorative CSS
 images and \<img\> tags.
 
-#### sizing properties
+<h4>sizing properties</h4>
 
 There are six sizing properties. They are 
 
@@ -14030,7 +13993,7 @@ easier to see by adding a border and background color to the paragraph.
  
 
 This default behavior, that content that doesn't fit is shown anyway,
-can be surprising if you weren't expecting it. 
+can be surprising if you weren't expecting it.
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 148.  (xxx) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -14040,7 +14003,7 @@ can be surprising if you weren't expecting it. 
    alt="W3Cx HTML 5.0x logo" />
 </p>
 
-### overflow
+<h4>overflow</h4>
 
 The overflow properties govern this situation.  There are three related
 properties: overflow, overflow-x, and overflow-y.
@@ -14079,7 +14042,7 @@ of 100 pixels. 
    alt="W3Cx HTML 5.0x logo" />
 </p>
 
-### The box model and box-sizing
+<h4>The box model and box-sizing</h4>
 
 So, if we say that some block level element is supposed to have a height
 and width of 100 pixels, does that include the border or the padding?
@@ -14106,8 +14069,9 @@ boxes are organized (innermost to outermost).
 </p>
 
 box-sizing
-
+```
 p { box-sizing: border-box; }
+```
 
 The box-sizing property determines how the sizing properties are
 applied.  It has two values: content-box and border-box.  
@@ -14158,16 +14122,16 @@ general guidelines you laid down for it.   As a general rule, layout
 with flexbox is pretty easy and the results are great.  So let's get
 started.
 
-### The minimum
+<h4>The minimum</h4>
 
 The minimum scenario for using flexbox is to make use of two CSS rules,
 and better results are achieved with a third.
 
+```
 1.  display:flex; on the flex container
-
 2.  flex:1; on the flex items (the children of the flex container)
-
 3.  (better)   flex-flow: row wrap; on the flex container.
+```
 
 Here is a series of screen captures showing these minimum options
 applied to a parent \<div\> and four identical paragraphs at various
@@ -14184,11 +14148,11 @@ to help visualize.
    alt="Flex Container and Flex Columns" />
 </p>
 
-### flex container
-
+<h4>flex container</h4>
+```
 div { display: flex; }
-
 span { display: inline-flex; }
+```
 
 To designate an element as a flex container, we simply set
 the display property to be flex or inline-flex. A flex element will
@@ -14196,15 +14160,13 @@ itself be a block level element, and an inline-flex element will itself
 be an inline element. However, in both cases the element is now a flex
 container and will be handling the layout of its children.
 
-### flex-flow
-
+<h4>flex-flow</h4>
+```
 .fc {
-
-display: flex;  /\* this is now a flex container \*/
-
+display: flex;  /* this is now a flex container */
 flex-flow: row wrap;
-
 }
+```
 
 Flexbox containers can lay out their children both horizontally, as in a
 row, and vertically, as in a column, and *both at the same time*.  This
@@ -14222,7 +14184,7 @@ that replaces two other flexbox container
 properties: flex-direction and flex-wrap.  But the row wrap value is so
 useful that it will likely be the standard.   
 
-flex-flow: \<flex-direction\> \<flex-wrap\>;
+<h4>flex-flow: &lt;flex-direction&gt; &lt;flex-wrap&gt;;</h4>
 
 The possible values for the flex-direction
 are: row, row-reverse, column, and column-reverse.
@@ -14233,7 +14195,7 @@ There are more properties that we can apply to a flex container and
 we'll look at them in the upcoming sections. But these two will take
 care of most of what you might want.
 
-### flex items
+<h4>flex items</h4>
 
 The direct children of a flex container are automatically converted into
 flex items, with the exception of children that are position-fixed or
@@ -14253,7 +14215,7 @@ and flex-basis.These three properties interrelate, so rather than using
 them in isolation the CSS3 specification encourages us to use
 the flex property, which can act as an abbreviation for all the three. 
 
-### flex property
+<h4>flex property</h4>
 
 Earlier, we saw that display:flex; can be used to designate a parent
 element as a flex container. In that case, the symbol "flex" is used as
@@ -14261,8 +14223,9 @@ a value of the display property.
 
 But flex is also the name of  a property. It is a property that is
 applied to flex items, the children of a flex container.  
-
+```
 span { flex: \<flex-grow\> \<flex-shrink\> \<flex-basis\>; }
+```
 
 The flex property provides a convenient way to abbreviate the three
 interrelated properties of flex-grow, flex-shrink, and flex-basis.
@@ -14270,10 +14233,11 @@ interrelated properties of flex-grow, flex-shrink, and flex-basis.
 optional properties.
 Therefore, flex:1; is **better** than flex-grow:1; . 
 
-### flex-grow
-
-p { flex: **1**; /\* rather than use flex-grow, use
-flex: **\<flex-grow\>**; \*/ }
+<h4>flex-grow</h4>
+```
+p { flex: **1**; /* rather than use flex-grow, use
+flex: **<flex-grow>**; */ }
+```
 
 The flex-grow property is set simply to a positive number. In isolation
 that number means nothing. However, when the flex container is laying
@@ -14294,10 +14258,12 @@ Setting the flex-grow to 0 will prevent the flex item from growing. But
 remember, that will cause the item to shed its "flexible size"
 super-power. 
 
-### flex-shrink
+<h4>flex-shrink</h4>
 
-p { flex: 1 **1**; /\* rather than use flex-shrink directly, use flex:
-\<flex-grow\> **\<flex-shrink\>** \*/ }
+```
+p { flex: 1 **1**; /* rather than use flex-shrink directly, use flex:
+<flex-grow> **<flex-shrink>** */ }
+```
 
 The flex-shrink is the opposite of flex-grow. When laying out any row or
 column, if the flex container needs to take away some space from the
@@ -14317,10 +14283,12 @@ shrunk an item might fit but not "fit nicely". If you must
 set flex-shrink to 0, then it is recommended that you also set
 the box-sizing to border-box.   
 
-### flex-basis
+<h4>flex-basis</h4>
 
-p { flex: 1 1 **87px**;  /\* use flex: \<flex-grow\>
-\<flex-shrink\> **\<flex-basis\>** \*/}
+```
+p { flex: 1 1 **87px**;  /* use flex: <flex-grow>
+<flex-shrink> **<flex-basis\>** */}
+```
 
 The flex-basis can be used instead of the sizing properties on a flex
 item. If the flex-direction of the parent flex container
@@ -14338,7 +14306,7 @@ the flex-shrink discussion above.  
 
 Here are some quick tips to help you get the most out of flexbox.
 
-### Remember the minimum
+<h4>Remember the minimum</h4>
 
 If you have a parent element that contains some child elements, then
 putting display:flex; on the parent is all that is needed to get
@@ -14351,7 +14319,7 @@ It's not a bad idea to specify the flex-flow for the flex container
 It's generally a good idea to also initialize the flex property on the
 flex items (e.g. flex:1), but again, this isn't required.
 
-### Use variable dimensions on flex items instead of explicit ones
+<h4>Use variable dimensions on flex items instead of explicit ones</h4>
 
 This advice may not apply to images and may not be appropriate for every
 flex item. However, for most flex items, try to avoid using
@@ -14362,7 +14330,7 @@ using min-width (or max-width) and min-height (or max-height). 
 Doing so will make your flex items a bit more malleable. In CSS
 professional parlance, this is called being "responsive". 
 
-### Do not over constrain your flex items. Let the browser work for you.
+<h4>Do not over constrain your flex items. Let the browser work for you.</h4>
 
 This is a follow-on to the previous piece of advice. With flexbox you
 give the browser some general guidelines and allow it to figure it out.
@@ -14378,14 +14346,14 @@ then you may also have to start managing its overflow setting and
 its box model. Who needs more worry?  Underconstraining is the path to
 happiness.
 
-### Thinking of using inline-block? Consider flexbox instead.
+<h4>Thinking of using inline-block? Consider flexbox instead.</h4>
 
 If you are considering changing the display of several elements to
 be inline-block, that may indicate that you should be using flexbox
 instead. Perhaps their parent should be set to be a flex container and
 they should be flex items.  
 
-### Centering? Maybe flexbox
+<h4>Centering? Maybe flexbox</h4>
 
 If you need to center some content horizontally, then the previous
 section on centering may help. It discusses the various options for
@@ -14405,11 +14373,12 @@ in the advanced optional flexbox material.
 margin:auto prevents align-self from working (a very handy flexbox
 property covered in the Optional section). There are effective ways of
 using auto margins though, just do so with
-care: <https://medium.com/@samserif/flexbox-s-best-kept-secret-bd3d892826b6#.wzrvpxpqv> 
+care: <a href="https://medium.com/@samserif/flexbox-s-best-kept-secret-bd3d892826b6#.wzrvpxpqv">
+<https://medium.com/@samserif/flexbox-s-best-kept-secret-bd3d892826b6#.wzrvpxpqv></a>
 
 <h4>Try to keep your flexbox usage simple</h4>
 
-You can see here: <http://caniuse.com/#search=flexbox> that flexbox is
+You can see here: <a href="http://caniuse.com/#search=flexbox">http://caniuse.com/#search=flexbox</a> that flexbox is
 widely supported across all the modern browsers. However, Internet
 Explorer had bugs in its support (but they are fixed in Edge). And the
 flexbox standard has had some changes since it was first proposed. For
@@ -14418,18 +14387,13 @@ in this course material, and, as with all CSS, be sure to always test in
 as many browsers as possible.
 
 <h4>External resources</h4>
-
--   [Flexbox
-    documentation](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) on
-    MDN (available in many languages!)
-
--   [What Happens When You Create A Flexbox Flex
-    Container?](https://www.smashingmagazine.com/2018/08/flexbox-display-flex-container/) (by
-    Rachel Andrew - 2 August 2018)
+<li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox">Flexbox documentation</a> on MDN (available in many languages!)
+<li><a href="https://www.smashingmagazine.com/2018/08/flexbox-display-flex-container/">What Happens When You Create A Flexbox Flex Container?</a> (by Rachel Andrew - 2 August 2018)
+</ul>
 
 <h3 id="ch6-4-1">6.4.1 Main and cross axes</h3>
 
-**Note**: This material is included for completeness. However, many are
+<b>Note</b>: This material is included for completeness. However, many are
 able to use flexbox satisfactorily without it. None of the material here
 will appear in any graded question.
 
@@ -14866,16 +14830,10 @@ a single row or column, the Grid properties may turn out easier in some
 cases.
 
 <h4>CSS grid resources</h4>
-
--   [A complete guide to
-    Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) (CSS
-    Tricks) - *updated 10 March 2021*
-
--   [CSS Grid](https://www.w3.org/TR/css-grid-1/), the W3C specification
-
--   [Grid by example](https://gridbyexample.com/): this site is a
-    collection of *examples*, video and other information to help you
-    learn CSS *Grid* Layout - *by Rachel Andrew*.
+<ul>
+<li><a href="https://css-tricks.com/snippets/css/complete-guide-grid/">A complete guide to Grid</a> (CSS Tricks) - <i>updated 10 March 2021</i></li>
+<li><a href="https://www.w3.org/TR/css-grid-1/">CSS Grid</a>, the W3C specification -   <a href="https://gridbyexample.com/">Grid by example</a>: this site is a collection of <i>examples</i>, video and other information to help you learn CSS <i>Grid Layout - by Rachel Andrew</i>.</li>
+</ul>
 
 <h3 id="ch6-6-1">6.6.1 Recipe project - Module 6</h3>
 
@@ -15045,5 +15003,5 @@ We fixed those issues at the top.
 
 These are the final changes to our recipe project for this unit.
 
-<h3><b>Last Updated 06-06-2022 12:28pm</b></h3>
+<h3><b>Last Updated 07-28-2022 1:03am</b></h3>
 
