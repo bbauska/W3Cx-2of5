@@ -84,7 +84,7 @@
 >### 6.5 [**CSS Grid**](#ch6-5-1)
 >### 6.6 [**Recipe project**](#ch6-6-1)
 
-[HTML5 and CSS Fundamentals - git](https://github.com/bbauska/W3Cx-2of5-HTML5-and-CSS-Fundamentals.git)
+<a href="https://github.com/bbauska/W3Cx-2of5-HTML5-and-CSS-Fundamentals.git">HTML5 and CSS Fundamentals - git</a>
 
 <h3>Course Outline:</h3>
 
@@ -140,7 +140,7 @@ layout your page during the last week of this course.</li>
     practice and practice coding again!<br/>&nbsp;</li>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------------- 05. w3c cheat sheet (03) ------------------------------------>
+<!---------------------------------- 05. w3c cheat sheet (02) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image005.png?raw=true"
@@ -154,7 +154,7 @@ layout your page during the last week of this course.</li>
     a good preparatory work for the <a href="https://www.edx.org/course/html5-coding-essentials-and-best-practices">HTML5 Coding Essentials and Best Practices course</a> (intermediate level). You will also learn how to embed other elements in a page other than a simple image. Note that some parts of the material are optional: iframes, usemap, and ismap.<br/>&nbsp;</li>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------- 06. can i use: css colors (04) --------------------------------->
+<!------------------------------- 06. can i use: css colors (03) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image006.png?raw=true"
@@ -170,9 +170,8 @@ basics, practice more with this fun <a href="https://flexboxfroggy.com/">Flexbo
 questions related to that content material.</li>
 </ul>
 
-W3C has designed a ["Front-End Web Developer" (FEWD) Professional
-Certificate](https://www.edx.org/professional-certificate/w3cx-front-end-web-developer) where
-you will learn all of the necessary skills needed to build interactive
+W3C has designed a <a href="https://www.edx.org/professional-certificate/w3cx-front-end-web-developer">"Front-End Web Developer" (FEWD) Professional
+Certificate</a> where you will learn all of the necessary skills needed to build interactive
 and responsive user experiences on the Web. This program will deepen
 your knowledge of the 3 foundational languages that power the Web:
 HTML5, CSS and JavaScript. The W3C FEWD program is composed of 5
@@ -209,18 +208,16 @@ Not surprisingly, it would be helpful to have a browser (short for "Web
 Browser") so that you can see the end result of your source code.
 
 Common modern browsers for the desktop
-are [Firefox](https://firefox.com/), [Chrome](https://www.google.com/chrome/), [Microsoft
-Edge ](https://www.microsoft.com/en-us/windows/microsoft-edge)(and
-IE), [Safari](http://www.apple.com/safari/), [Brave](https://brave.com/),
+are <a href="https://firefox.com/), [Chrome](https://www.google.com/chrome/">Firefox</a>, <a href="https://www.microsoft.com/en-us/windows/microsoft-edge">Microsoft
+Edge</a>(and IE), <a href="http://www.apple.com/safari/">Safari</a>, <a href="https://brave.com/">Brave</a>,
 etc. The most common features of a Web browser include the browser
 window itself (also referred to as the user interface), the navigation
 and address bar, and options to view your history, settings, and other
 tools.
 
-Look at the [history of Web
-browsers](https://en.wikipedia.org/wiki/Web_browser#History) (on
-Wikipedia). An interesting resource is the [Browser and Platform Market
-Share](https://www.w3counter.com/globalstats.php) (updated regularly).
+Look at the <a href="https://en.wikipedia.org/wiki/Web_browser#History">history of Web
+browsers</a> (on Wikipedia). An interesting resource is the <a href="https://www.w3counter.com/globalstats.php">Browser and Platform Market
+Share</a> (updated regularly).
 
 <h3>Web editors</h3>
 
@@ -232,45 +229,36 @@ for you.
 
 There are two types of editors available, WYSIWYG ("What You See Is What
 You Get") and textual HTML editors. Here is a non exhaustive list:
-
-   - [Sublime Text](https://www.sublimetext.com/) - it is quite
+<ul>
+<li><a href="https://www.sublimetext.com/">Sublime Text</a> - it is quite
 popular with developers, though there can be a bit of a learning curve
-to use its many features
-
-   - [BlueGriffon](http://bluegriffon.org/) - a WYSIWYG content
+to use its many features,</li>
+<li><a href="http://bluegriffon.org/">BlueGriffon</a> - a WYSIWYG content
 editor for the World Wide Web. Powered by Gecko, the rendering engine of
 Firefox, it's a modern and robust solution to edit Web pages in
-conformance to the latest Web Standards
-
-   - [Visual Studio Code](https://code.visualstudio.com/) - a free
+conformance to the latest Web Standards,</li>
+<li><a href="https://code.visualstudio.com/">Visual Studio Code</a> - a free
 open source editor that can run on any operating system. Many coding
-videos in this course are demonstrated using Visual Studio Code
-
-   - [GitHub](https://github.com/) itself - check [this resource
-that explains how to create a Web site using
-GitHub](https://towardsdatascience.com/how-to-create-a-free-github-pages-website-53743d7524e1).
-
-   - [XCode](https://developer.apple.com/xcode/) - Mac developers
-may be familiar with XCode
-
-   - TextEdit - this is available on Macs, but be sure
-you're [saving as plain
-text](https://discussions.apple.com/message/5014514#5014514), not as a
-".rtf" or ".doc" file.
-
-   - [Notepad++](https://notepad-plus-plus.org/) - on Windows PC's
-
-   - [Atom](https://www.sublimetext.com/) - another cross platform
-editor, created by [GitHub](https://github.com/).
-
-   - [Vim](https://www.vim.org/) or [Emacs](https://www.gnu.org/software/emacs/) -
-great editors, but if you're not already familiar with these, this isn't
-the time to try
+videos in this course are demonstrated using Visual Studio Code,</li>
+<li><a href="https://github.com/">GitHub</a> itself - check <a href="https://towardsdatascience.com/how-to-create-a-free-github-pages-website-53743d7524e1">this resource
+that explains how to create a Web site using 
+GitHub</a>,</li>
+<li><a href="https://developer.apple.com/xcode/">XCode</a> - Mac developers
+may be familiar with XCode,</li>
+<li>TextEdit - this is available on Macs, but be sure
+you're <a href="https://discussions.apple.com/message/5014514#5014514">saving as plain
+text</a>, not as a ".rtf" or ".doc" file,</li>
+<li><a href="https://notepad-plus-plus.org/">Notepad++</a> - on Windows PC's,</li>
+<li><a href="https://www.sublimetext.com/">Atom</a> - another cross platform
+editor, created by <a href="https://github.com/">GitHub</a>,</li>
+<li><a href="https://www.vim.org/) or [Emacs](https://www.gnu.org/software/emacs/">Vim</a> -
+great editors, but if you're not already familiar with these, this isn't the time to try.</li>
+</ul>
 
 <h3>Online Code Editors</h3>
 
 To help you practice during the whole duration of the course, we propose
-to use the [CodePen](https://codepen.io/) online code editor. An online
+to use the <a href="https://codepen.io/">CodePen</a> online code editor. An online
 code editor is a tool that resides on a remote server and is accessible
 via browsers.
 
@@ -286,9 +274,8 @@ Note that there are many other online code editors available out there,
 such as JSBin,  JSFiddle, and Dabblet (Lea Verou's tool).
 
 Here's an interesting article on what beginners can do with
-CodePen: [Things you can do with
-CodePen](https://codepen.io/brentmiller/post/things-you-can-do-with-codepen) \[Brent
-Miller, February 6, 2019\].
+CodePen: <a href="https://codepen.io/brentmiller/post/things-you-can-do-with-codepen">Things you can do with
+CodePen</a> [Brent Miller, February 6, 2019].
 
 <h3>W3C Validators</h3>
 
@@ -310,12 +297,11 @@ Miller, February 6, 2019\].
 </p>
 
 For over 15 years, the W3C has been developing and
-hosting [**<u>free</u>** and **<u>open
-source</u>** tools](https://w3c.github.io/developers/) used every day
-by <b>millions of Web developers and Web designers</b>. All the tools
+hosting <a href="https://w3c.github.io/developers/">free and open source tools</a> used every day
+by millions of Web developers and Web designers. All the tools
 listed below are Web-based, and are available as downloadable sources or
-as free services on the [W3C Developers
-tools ](https://w3c.github.io/developers/tools/)site.
+as free services on the <a href="https://w3c.github.io/developers/tools/">W3C Developers
+tools</a>.
 
 <h3>W3C Validator</h3>
 
@@ -6544,7 +6530,7 @@ you learn, experimentation.
     the many properties that make CSS such a powerful tool.
 
 4.  **Lists and selectors: **List markup tags
-    (\<ul\>, \<ol\> and \<li\>) are some of the most frequently used
+    (\<ul\>, &lt;ol\> and &lt;li\>) are some of the most frequently used
     specific purpose tags in HTML, and selectors are what allows you to
     target specific HTML elements and apply style to them
 
@@ -6613,7 +6599,7 @@ however, styled differently.
 
 Here is the HTML:
 
-1.  \<p\>She looked over the top of her book and whispered \<q\>I'm
+1.  \<p\>She looked over the top of her book and whispered &lt;q\>I'm
     hungry.\</q\> My heart stopped.\</p\>
 
 And now two very different looks:
@@ -6627,7 +6613,7 @@ stopped.
 Both of these use the exact same HTML. It is the CSS that makes them so
 different. So let's get started.
 
-<h3 id="ch3-2-1">3.2.1 The \<style\> and \<link\> tags</h3>
+<h3 id="ch3-2-1">3.2.1 The &lt;style&gt; and &lt;link&gt; tags</h3>
 
 <h4>The \<style\> tag</h4>
 
@@ -9536,8 +9522,8 @@ style="width:4.96875in;height:2.73958in" />
 > </ol>
 > </article>
 > <article id="salad">
-> <h2>Salad</h2>
-> <img
+ <h2>Salad</h2>
+ <img
 src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Caesar_salad\_%281%29.jpg/320px-Caesar_salad\_%281%29.jpg"
 > alt="salad image" width=320>
 > <h3>List of ingredients</h3>
@@ -14574,7 +14560,7 @@ the order value of 1, the second is 2, etc.  And you can override it.
 <p align="center" width="100%">
 <img src="./images/image159.png?raw=true"
    width="85%"
-   alt="Order Property in Flex Box" />
+   alt="Order property in flex box." />
 </p>
 
 <h3 id="ch6-4-4">6.4.4 Flexbox resources</h3>
@@ -14660,12 +14646,12 @@ you have full control over which slot they go into, you can change their
 order, they can span more than one row or column, and you can leave some
 slots empty.
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 160. grid module (333) ------------------------------------->
+<!----------------------------------- 160. grid module (346) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image160.png?raw=true"
    width="65%"
-   alt="Grid Module" />
+   alt="Grid module." />
 </p>
 
 The Grid module provides several different ways to define such a grid
@@ -14889,5 +14875,5 @@ We fixed those issues at the top.
 
 These are the final changes to our recipe project for this unit.
 
-<h3><b>Last Updated 07-28-2022 1:03am</b></h3>
+<h3><b>Last Updated 07-28-2022 11:55pm</b></h3>
 
