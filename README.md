@@ -3834,6 +3834,7 @@ repeating content. 
 
 We can apply the elements in the image above to a simple Web page like
 this:
+
 ```html5
 1.  <!DOCTYPE html>
 2.  <html lang="en">
@@ -4298,21 +4299,21 @@ If you view page source on the W3C specification and do a search for
 element. **Here's a simplified version**:
 
 ```html5
-1.  \<header\>
-2.     \<!-- You will learn about the \<a\> and \<img\> tags later in
-   this chapter--\>
-3.    \<p\>
-4.      \<a href="https://www.w3.org/"\>\<img alt="W3C
-    logo" height="48" src="https://www.w3.org/Icons/w3c_home" width="72"\>\</a\>
-5.    \</p\>
+1.  <header>
+2.     <!-- You will learn about the <a> and <img> tags later in
+   this chapter-->
+3.    <p>
+4.      <a href="https://www.w3.org/"><img alt="W3C
+    logo" height="48" src="https://www.w3.org/Icons/w3c_home" width="72"></a>
+5.    </p>
 6.   
-7.    \<h1\>HTML 5.2\</h1\>
-8.    \<h2\>W3C Recommendation, 14 December 2017\</h2\>
-9.  \</header\>
+7.    <h1>HTML 5.2</h1>
+8.    <h2>W3C Recommendation, 14 December 2017</h2>
+9.  </header\>
 ```
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ ##. template (##) -------------------------------->
+<!------------------------------ 30. template (##) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image030.png?raw=true"
@@ -4331,26 +4332,32 @@ technology often relies on the semantics of headings to understand your
 document's structure. More information is provided in [Using h1-h6 to
 identify headings](https://www.w3.org/TR/WCAG20-TECHS/H42.html).
 ```xml
-1.  \<body\>
-2.     \<h1\>Brad's Cookbook\</h1\>
-3.       \<h2\>Slowcook Recipes\</h2\>
-4.         \<h3\>Minestrone Soup\</h3\>
-5.           \<h4\>Description:\</h4\>
-6.             \<p\>Minestrone Soup is a simple and nutritious
-    dish...\</p\>
-7.         \<h3\>Refried Beans\</h3\>
-8.           \<h4\>Description:\</h4\>
-9.             \<p\>Cumin is the secret to this recipe.\</p\>
-10.      \<h2\>Dessert Recipes\</h2\>
-11.        \<h3\>Peach Cobbler\</h3\>
-12.          \<h4\>Description:\</h4\>
-13.            \<p\>If you can't get fresh peaches, frozen to the
-    rescue!\</p\>
-14. \</body\>
+1.  <body>
+2.     <h1>Brad's Cookbook</h1>
+3.       <h2>Slowcook Recipes</h2>
+4.         <h3>Minestrone Soup</h3>
+5.           <h4>Description:</h4>
+6.             <p>Minestrone Soup is a simple and nutritious
+    dish...</p>
+7.         <h3>Refried Beans</h3>
+8.           <h4>Description:</h4>
+9.             <p>Cumin is the secret to this recipe.</p>
+10.      <h2>Dessert Recipes</h2>
+11.        <h3>Peach Cobbler</h3>
+12.          <h4>Description:</h4>
+13.            <p>If you can't get fresh peaches, frozen to the
+    rescue!</p>
+14. </body>
 ```
 
-<img src="./images/image031.png"
-style="width:4in;height:3.73052in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 31. template (##) -------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image031.png?raw=true"
+   width="40%"
+   alt="." />
+</p>
 
 Assistive technology uses heading markup, \<h1\> to \<h6\> to identify
 headings in a document. By using them to define your document's
@@ -4393,16 +4400,26 @@ tutorialzine.com for examples of header templates. 
 Let's look at site-wide/global header and footer used in [Microsoft
 Virtual Academy home page](https://mva.microsoft.com/). At the time of
 course creation, here are screenshots of its header  
+<!------------------------------------------------------------------------------------------------>
+<!------------------ 32. screenshot of the ms virtual academy home page (##) --------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image032.png?raw=true"
+   width="40%"
+   alt="Screenshot of the microsoft virtual academy home page." />
+</p>
 
-<img src="./images/image032.png"
-style="width:6.5in;height:0.37083in"
-alt="Screenshot of the Microsoft Virtual Academy home page" />
 
 and footer.
 
-<img src="./images/image033.png"
-style="width:6.5in;height:0.12292in"
-alt="Screenshot of Microsoft Virtual Academy home page showing the footer" />
+<!------------------------------------------------------------------------------------------------>
+<!--------- 33. screenshot of the ms virtual academy home page showing the  footer (##) ---------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image033.png?raw=true"
+   width="65%"
+   alt="Screenshot of Microsoft Virtual Academy home page showing the footer." />
+</p>
 
 If you visit the page and navigate to other parts of the site, you will
 see that the header and footer remain unchanged. 
@@ -4424,42 +4441,33 @@ reading its contents or to make it immediately available.
 Now, let's look at a more complete example using a global header and
 multiple \<header\>, \<footer\> and \<nav\> tags.
 
-<img src="./images/image034.png"
-style="width:4.89583in;height:2.83333in" />
+<!------------------------------------------------------------------------------------------------>
+<!--------- 34. screenshot of the ms virtual academy home page showing the  footer (##) ---------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image034.png?raw=true"
+   width="50%"
+   alt="Screenshot of Microsoft Virtual Academy home page showing the footer." />
+</p>
+
 ```xml
-> \<!DOCTYPE html\>
->
-> \<html lang="en"\>
->
-> \<head\>
->
-> \<meta charset="UTF-8"\>
->
-> \<title\>Header Hierarchy\</title\>
->
-> \</head\>
->
-> \<body\>
->
-> \<!--Our global header used across all pages in our website--\>
->
-> \<header\>
->
-> \<h1\>Brad Abc's Blog\</h1\>
->
-> \<nav\>
->
-> \<ul\>
->
-> \<li\>\<a href="#ces"\>CES 2018\</a\>\</li\>
->
-> \<li\>\<a href="#vegan"\>Being Vegan\</a\>\</li\>
->
-> \<li\>\<a href="#html5"\>HTML5\</a\>\</li\>
->
-> \</ul\>
->
-> \</nav\>
+<!DOCTYPE html\>
+<html lang="en"\>
+<head\>
+<meta charset="UTF-8"\>
+<title\>Header Hierarchy\</title\>
+</head\>
+<body\>
+<!--Our global header used across all pages in our website--\>
+<header\>
+<h1\>Brad Abc's Blog\</h1\>
+<nav\>
+<ul\>
+<li\>\<a href="#ces"\>CES 2018\</a\>\</li\>
+<li\>\<a href="#vegan"\>Being Vegan\</a\>\</li\>
+<li\>\<a href="#html5"\>HTML5\</a\>\</li\>
+</ul\>
+</nav\>
 >
 > \</header\>
 >
@@ -4471,107 +4479,64 @@ style="width:4.89583in;height:2.83333in" />
 >
 > \<article id="ces"\>
 >
-> \<header\>
->
-> \<h2\>CES 2018\</h2\>
->
-> \<h3\>Consumer electronics and consumer technology tradeshow\</h3\>
->
-> \</header\>
->
-> \<p\>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-> neque risus, consequat eget vestibulum eu, consequat at eros. Nam eu
-> nisl vel neque malesuada sollicitudin quis eget libero.\</p\>
->
-> \<footer\>
->
-> \<p\>Written by guest author Nicholas Abc. Read Nicholas's blog
-> here.\</p\>
->
-> \</footer\>
->
-> \</article\>
->
-> \<!-- Article 2 --\>
->
-> \<article id="vegan"\>
->
-> \<header\>
->
-> \<h2\>Being Vegan\</h2\>
->
-> \<h3\>My cooking tips for new vegans\</h3\>
->
-> \</header\>
->
-> \<p\>Donec ut librero sed accu vehicula ultricies a non tortor. Lorem
-> ipsum dolor sit amet, consectetur adipisicing elit. Aenean ut gravida
-> lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id
-> dolor.\</p\>
->
-> \<footer\>
->
-> \<p\>Written by Brad Abc. Read my other health articles here.\</p\>
->
-> \</footer\>
->
-> \</article\>
->
-> \<!-- Article 3 --\>
->
-> \<article id="html5"\>
->
-> \<header\>
->
-> \<h2\>HTML5\</h2\>
->
-> \<h3\>A summary of HTML5 differences from HTML4\</h3\>
->
-> \</header\>
->
-> \<p\>Pelientesque auctor nisi id magna consequat sagittis. Curabitur
-> dapibus, enim sit amet elit pharetra tincidunt feugiat nist imperdiet.
-> Ut convallis libero in urna ultrices accumsan. Donec sed odio
-> eros.\</p\>
->
-> \<footer\>
->
-> \<p\>Written by Brad Abc, HTML5 developer. Read my other technical
-> articles here.\</p\>
->
-> \</footer\>
->
-> \</article\>
->
-> \</main\>
->
-> \<!--Our global footer used across all pages in our website--\>
->
-> \<footer\>
->
-> ©Copyright 2025. All rights reserved.
->
-> \<nav\>
->
-> \<ul\>
->
-> \<li\>\<a href=""\>Email\</a\>\</li\>
->
-> \<li\>\<a href=""\>Twitter\</a\>\</li\>
->
-> \<li\>\<a href=""\>License\</a\>\</li\>
->
-> \</ul\>
->
-> \</nav\>
->
-> \</footer\>
->
-> \</body\>
->
-> \</html\>
+<header>
+<h2>CES 2018</h2>
+<h3>Consumer electronics and consumer technology tradeshow</h3>
+</header>
+<p\>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+neque risus, consequat eget vestibulum eu, consequat at eros. Nam eu
+nisl vel neque malesuada sollicitudin quis eget libero.</p>
+<footer>
+<p>Written by guest author Nicholas Abc. Read Nicholas's blog
+here.</p>
+</footer>
+</article>
+<!-- Article 2 -->
+<article id="vegan">
+<header>
+<h2>Being Vegan</h2\>
+<h3>My cooking tips for new vegans</h3>
+</header>
+<p>Donec ut librero sed accu vehicula ultricies a non tortor. Lorem
+ipsum dolor sit amet, consectetur adipisicing elit. Aenean ut gravida
+lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id
+dolor.</p>
+<footer>
+<p>Written by Brad Abc. Read my other health articles here.</p>
+</footer>
+</article>
+<!-- Article 3 -->
+<article id="html5">
+<header>
+<h2>HTML5</h2\>
+<h3>A summary of HTML5 differences from HTML4</h3>
+</header>
+<p>Pelientesque auctor nisi id magna consequat sagittis. Curabitur
+dapibus, enim sit amet elit pharetra tincidunt feugiat nist imperdiet.
+Ut convallis libero in urna ultrices accumsan. Donec sed odio
+eros.</p>
+<footer>
+<p>Written by Brad Abc, HTML5 developer. Read my other technical
+articles here.</p>
+</footer>
+</article>
+</main>
+<!--Our global footer used across all pages in our website-->
+<footer>
+©Copyright 2025. All rights reserved.
+<nav>
+<ul>
+
+<li><a href="">Email</a></li>
+<li><a href="">Twitter</a></li>
+<li><a href="">License</a></li>
+</ul>
+</nav>
+</footer>
+</body>
+</html>
 ```
-<h3 id="ch2-3-5">2.3.5 \<article\> and \<section\> Elements</h3>
+<h3 id="ch2-3-5">2.3.5 &lt;article&gt; and &lt;section&gt; Elements</h3>
 
 ### \<article\> element
 
@@ -4581,31 +4546,23 @@ In [Brad's Blog example](https://codepen.io/w3devcampus/pen/oWqbad) in
 the previous unit, if you extract only the first article, you can see
 that it will make sense all by itself without any context. It can be
 reused anywhere else.
-
+```
 1.  \<article id="ces"\>
-
 2.    \<header\>
-
 3.      \<h2\>CES 2018\</h2\>
-
 4.      \<h3\>Consumer electronics and consumer technology
     tradeshow\</h3\>
-
 5.    \</header\>
-
 6.    \<p\>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     Aliquam neque risus, consequat eget vestibulum eu, consequat at
     eros. Nam eu nisl vel neque malesuada sollicitudin quis eget
     libero.\</p\>
-
 7.    \<footer\>
-
 8.      \<p\>Written by guest author Nicholas Abc. Read Nicholas's blog
     here.\</p\>
-
 9.    \</footer\>
-
 10. \</article\>
+```
 
 One article element can be nested inside another. For example, if you
 have a blog post and you want to include a forum post or newspaper
@@ -8835,7 +8792,7 @@ font-size: 2rem;
 What happened? To answer that question, we'll turn to the browser's
 debugger.
 
-<h3>4.4.2 Debugging CSS Precedence</h3>
+<h3 id="ch4-4-2">4.4.2 Debugging CSS Precedence</h3>
 
 This lesson is using developer tools provided by the Chrome browser.
 
@@ -9473,93 +9430,95 @@ style="width:4.96875in;height:2.73958in" />
 }
 ```
 <h4>HTML</h4>
+
 ```
-> <!DOCTYPE html>
-> <html lang="en">
-> <head>
-> <meta charset="UTF-8">
-> <title>My Favorite Recipes - Module 3</title>
-> <style>
-> nav{
-> background: lightgreen;
-> width: 20em;
-> }
-> img{
-> width: 400px;
-> }
-> article{
-> margin-left: 40px;
-> }
-> h1{
-> background: #4c6d48;
-> text-align:center;
-> }
-> </style>
-> </head>
-> <body>
-> <h1>My Favorite Recipes</h1>
-> <nav>
-> <ul>
-> <li><a href="#soup">Soup</a></li>
-> <li><a href="#salad">Salad</a></li>
-> <li><a href="#pizza">Pizza</a></li>
-> </ul>
-> </nav>
-> <article id="soup">
-> <h2>Soup</h2>
-> <img
-> src="https://upload.wikimedia.org/wikipedia/commons/2/22/Bol_soupe_bicolore.jpg"
-> alt="soup image" width=320>
-> <p>
-> Beethoven once said <q>Only the pure of heart can make a good
-> soup</q>. Well, here's my attempt at doing just that!
-> </p>
-> <ol>
-> <li>Step 1</li>
-> <li>Step 2</li>
-> <li>Step 3</li>
-> <li>Enjoy!</li>
-> </ol>
-> </article>
-> <article id="salad">
- <h2>Salad</h2>
- <img
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My Favorite Recipes - Module 3</title>
+<style>
+nav{
+background: lightgreen;
+width: 20em;
+}
+img{
+width: 400px;
+}
+article{
+margin-left: 40px;
+}
+h1{
+background: #4c6d48;
+text-align:center;
+}
+</style>
+</head>
+<body>
+<h1>My Favorite Recipes</h1>
+<nav>
+<ul>
+<li><a href="#soup">Soup</a></li>
+<li><a href="#salad">Salad</a></li>
+<li><a href="#pizza">Pizza</a></li>
+</ul>
+</nav>
+<article id="soup">
+<h2>Soup</h2>
+<img
+src="https://upload.wikimedia.org/wikipedia/commons/2/22/Bol_soupe_bicolore.jpg"
+alt="soup image" width=320>
+<p>
+Beethoven once said <q>Only the pure of heart can make a good
+soup</q>. Well, here's my attempt at doing just that!
+</p>
+<ol>
+<li>Step 1</li>
+<li>Step 2</li>
+<li>Step 3</li>
+<li>Enjoy!</li>
+</ol>
+</article>
+<article id="salad">
+<h2>Salad</h2>
+<img
 src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Caesar_salad\_%281%29.jpg/320px-Caesar_salad\_%281%29.jpg"
-> alt="salad image" width=320>
-> <h3>List of ingredients</h3>
-> <ul>
-> <li>Ingredient 1</li>
-> <li>Ingredient 2</li>
-> <li>Ingredient 3</li>
-> <ul>
-> <p>
-> Who can resist a fresh salad ! Here's one of my favorites.
-> </p>
-> <ol>
-> <li>Step 1</li>
-> <li>Step 2</li>
-> <li>Step 3</li>
-> <li>Enjoy!</li>
-> </ol>
-> </article>
-> <article id="pizza">
-> <h2>Pizza</h2>
-> <img
+alt="salad image" width=320>
+<h3>List of ingredients</h3>
+<ul>
+<li>Ingredient 1</li>
+<li>Ingredient 2</li>
+<li>Ingredient 3</li>
+<ul>
+<p>
+Who can resist a fresh salad ! Here's one of my favorites.
+</p>
+<ol>
+<li>Step 1</li>
+<li>Step 2</li>
+<li>Step 3</li>
+<li>Enjoy!</li>
+</ol>
+</article>
+<article id="pizza">
+<h2>Pizza</h2>
+<img
 src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Margherita_Originale.JPG/320px-Margherita_Originale.JPG"
-> alt="pizza image" width=320\>
-> <p>
-> Pizza, the king of comfort foods. Try this simple, taste sensation.
-> </p>
-> <ol>
-> <li>Step 1</li>
-> <li>Step 2</li>
-> <li>Step 3</li>
-> <li>Enjoy!</li>
-> </ol>
-> </article>
-> </body>
-> </html>
+alt="pizza image" width=320\>
+<p>
+Pizza, the king of comfort foods. Try this simple, taste sensation.
+</p>
+<ol>
+<li>Step 1</li>
+<li>Step 2</li>
+<li>Step 3</li>
+<li>Enjoy!</li>
+</ol>
+</article>
+</body>
+</html>
 ```
+
 <h3 id="ch5-1">5.1.1 Welcome to Module 5</h3>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 85.  (###) -------------------------------------->
@@ -9567,7 +9526,7 @@ src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Margherita_Origin
 <img src="./images/image085.png"
 style="width:3in;height:3.27103in" />
 
-<h3>5.1.2 Module 5 - Content</h3>
+<h3 id="ch5-1-2">5.1.2 Module 5 - Content</h3>
 
 **5.1 Introduction: **You will be combining HTML and CSS to create more
 complex pages.
@@ -9589,7 +9548,7 @@ making awesome Web pages.
 **5.5 Recipe project: **Separate your CSS and HTML into their own files
 for cleaner, easier coding.
 
-<h3>5.1.3 A World of Possibilities</h3>
+<h3 id="ch5-1-3">5.1.3 A World of Possibilities</h3>
 
 In Module 1, we learned the basics of HTML5. It's a fairly simple
 format, just a tree full of elements, which are described by tags,
@@ -9604,7 +9563,7 @@ Putting this all together to form a coherent Web page with the addition
 of CSS presents a world of possibilities. In this module, we'll delve
 into some of those interesting possibilities. 
 
-<h3 id="ch5-2">5.2.1 Introduction to Tables</h3>
+<h3 id="ch5-2-1">5.2.1 Introduction to Tables</h3>
 
 Using tables to organize information goes back a way.  A long way. Three
 or four thousand years ago, Sumerians were using [tables to calculate
@@ -9717,23 +9676,23 @@ understanding the content or use assistive technology.
 style="width:4in;height:2.54315in" />
 
 ```
-> <!DOCTYPE html>
-> <html lang="en">
-> <head>
-> <meta charset="UTF-8">
-> <title>Table elements</title>
-> </head>
-> <body>
-> <table border=1>
-> <caption>
-> <p>Table 1.0</p>
-> <p>Student's final exam results 2016</p>
-> </caption>
-> </table>
-> </body>
-> </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Table elements</title>
+</head>
+<body>
+<table border=1>
+<caption>
+<p>Table 1.0</p>
+<p>Student's final exam results 2016</p>
+</caption>
+</table>
+</body>
+</html>
 ```
-<h3>5.2.2 The \<tr\>, \<th\>, \<td\>, \<colgroup\>, \<col\> tags</h3>
+<h3 id="ch5-2-2">5.2.2 The &lt;tr&gt;, &lt;th&gt;, &lt;td&gt;, &lt;colgroup&gt;, &lt;col&gt; tags</h3>
 
 Let's now create the most basic table with a few cells.
 
