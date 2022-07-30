@@ -20,14 +20,6 @@
    width="65%"
    alt="W3Cx HTML 5.0x logo" />
 </p>
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------ ##. template (##) -------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="./images/image###.png?raw=true"
-   width="65%"
-   alt="." />
-</p>
 
 ## [Table of Contents](#table-of-contents)
 
@@ -373,7 +365,7 @@ internationalization tips.
 
 Its main feature is a lookup search box, where one can start typing a keyword and get a list of matching properties/elements/ attributes/functions in the above-mentioned specifications, and further details on those when selecting the one of interest.
 
-The W3C cheatsheet is only available as a [pure Web application](https://dev.w3.org/2009/cheatsheet/doc/).
+The W3C cheatsheet is only available as a <a href="https://dev.w3.org/2009/cheatsheet/doc/">pure Web application</a>.
 
 <h3>Browser Compatibility</h3>
 
@@ -387,23 +379,23 @@ devices and operating systems!
 
 To make the Web evolve in a sane and sustainable way for both users and
 developers, browser vendors work together to standardize new features,
-whether it’s a new [HTML
-element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element), [CSS
-property](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#Keyword_index),
-or [JavaScript API](https://developer.mozilla.org/en-US/docs/Web/API).
+whether it’s a new <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">HTML
+element</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#Keyword_index">CSS
+property</a>,
+or <a href="https://developer.mozilla.org/en-US/docs/Web/API">JavaScript API</a>.
 But different vendors have different priorities, resources, and release
 cycles — so it’s very unlikely that a new feature will land on all the
 major browsers at once. As a Web developer, this is something you must
 consider if you’re relying on a feature to build your site.
 
 We are then providing references to the browser support of HTML5
-features presented in this course using 2 resources: [Can I
-Use](https://caniuse.com/) and [Mozilla Developer Network (MDN) Web
-Docs](https://developer.mozilla.org/en-US/).
+features presented in this course using 2 resources: <a href="https://caniuse.com/">Can I
+Use</a> and [Mozilla Developer Network <a href="https://developer.mozilla.org/en-US/">MDN Web
+Docs</a>.
 
 <h3>Can I use</h3>
 
-[Can I Use](https://caniuse.com/) provides up-to-date tables for support
+<a href="https://caniuse.com/">Can I Use</a> provides up-to-date tables for support
 of front-end Web technologies on desktop and mobile Web browsers. Below
 is a snapshot of what information is given by CanIUse when searching for
 "CSS3 colors".
@@ -429,18 +421,18 @@ is a snapshot of what information is given by CanIUse when searching for
 </p>
 
 To help developers make these decisions consciously rather than
-accidentally, [MDN Web Docs](https://developer.mozilla.org/) provides
+accidentally, <a href="https://developer.mozilla.org/">MDN Web Docs</a> provides
 browser compatibility tables in its documentation pages, so that when
 looking up a feature you’re considering for your project, you know
 exactly which browsers will support it.
 
 <h3>External resources</h3>
-
-   - [MDN browser compatibility data: Taking the guesswork out of web
-    compatibility](https://hacks.mozilla.org/2018/02/mdn-browser-compatibility-data/)
-
-   - [Caniuse and MDN compatibility data
-    collaboration](https://hacks.mozilla.org/2019/09/caniuse-and-mdn-compat-data-collaboration/)
+<ul>
+<li><a href="https://hacks.mozilla.org/2018/02/mdn-browser-compatibility-data/">MDN browser compatibility data: Taking the guesswork out of web
+    compatibility</a),</li>
+<li><a href="https://hacks.mozilla.org/2019/09/caniuse-and-mdn-compat-data-collaboration/">Caniuse and MDN compatibility data
+    collaboration</a>.</li>
+</ul>
 
 <h3>What is W3C?</h3>
 
@@ -4096,9 +4088,9 @@ Moncrieff&lt;/p&gt;</p></li>
 </tbody>
 </table>
 
-Element
+<h4>Element</h4>
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 26. example details command (86) ------------------------------->
+<!------------------------------ 26. example details command (86) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image026.png?raw=true"
@@ -4109,7 +4101,7 @@ Element
 See also the current <a href="https://caniuse.com/#search=%3Cdetails%3E">browser
 support</a> (on caniuse.com).
 
-<h4>&lt;figcaption&gt; element</hr>
+<h4>&lt;figcaption&gt; element</h4>
 
 This element is used to provide a caption or explanation of the image
 (figure). While the alt attribute explains the image for assistive
@@ -4125,10 +4117,10 @@ for all users.
 4.  </figure>
 ```
 
-Result:
+<h4>Result:</h4>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 27. example details command (86) ------------------------------->
+<!------------------------------ 27. example details command (86) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image027.jpeg?raw=true"
@@ -4140,25 +4132,25 @@ Fig. 1: The cast hard at work at dress rehearsal before opening night
 
 <h4>&lt;mark&gt; element</h4>
 
-This element is used to specify content that you want to highlight. 
+<h5>This element is used to specify content that you want to highlight.</h5>
 ```
-1.  \<h3\>Lane: \</h3\>\<p\>Yes sir. \[\<mark\>Handing his master the
-    sandwiches on a salver\</mark\>\]\</p\>
+1.  <h3>Lane: </h3><p>Yes sir. [<mark>Handing his master the
+    sandwiches on a salver</mark>]</p>
 ```
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 28.  (##) ------------------------------->
+<!----------------------- 28. specify content you want to highlight (87) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image028.png?raw=true"
    width="40%"
-   alt="." />
+   alt="Specify content you want to highlight." />
 </p>
 
 Most browsers will display mark element with a yellow background to
 black text by default, however, if it doesn't, you can specify the
-styling in CSS. See also the current [browser
-support](https://caniuse.com/#feat=html5semantic) (on caniuse.com).
+styling in CSS. See also the current <a href="https://caniuse.com/#feat=html5semantic">browser
+support</a> (on caniuse.com).
 
 <h4>Effect of semantic elements</h4>
 
@@ -4598,61 +4590,39 @@ to our CES 2018 \<article\> example, it will fit right in:
 <img src="./images/image035.png"
 style="width:4in;height:4.44255in" />
 
-\<!DOCTYPE html\>
-
-\<html lang="en"\>
-
-\<head\>
-
-\<meta charset="UTF-8"\>
-
-\<title\>article and section elements\</title\>
-
-\</head\>
-
-\<body\>
-
-\<article id="ces"\>
-
-\<header\>
-
-\<h2\>CES 2018\</h2\>
-
-\<h3\>Consumer electronics and consumer technology tradeshow\</h3\>
-
-\</header\>
-
-\<section\>
-
-\<h4\>Getting There\</h4\>
-
-\<p\>Arriving at the show location proved much harder for me. I couldn't
+<h5>HTML</h5>
+```
+<!DOCTYPE html\>
+<html lang="en"\>
+<head\>
+<meta charset="UTF-8"\>
+<title\>article and section elements\</title\>
+</head\>
+<body\>
+<article id="ces"\>
+<header\>
+<h2\>CES 2018\</h2\>
+<h3\>Consumer electronics and consumer technology tradeshow\</h3\>
+</header\>
+<section\>
+<h4\>Getting There\</h4\>
+<p\>Arriving at the show location proved much harder for me. I couldn't
 get a hotel closer to where the show was taking place and so had to rent
 a car....\</p\>
-
-\</section\>
-
-\<section\>
-
-\<h4\>Conference Sessions\</h4\>
-
-\<p\>I managed to squeeze in 3 conference sessions on the first
+</section\>
+<section\>
+<h4\>Conference Sessions\</h4\>
+<p\>I managed to squeeze in 3 conference sessions on the first
 day...\</p\>
-
-\</section\>
-
-\<footer\>
-
-\<p\>Written by guest author Nicholas Abc. Read Nicholas's blog
+</section\>
+<footer\>
+<p\>Written by guest author Nicholas Abc. Read Nicholas's blog
 here.\</p\>
-
-\</footer\>
-
-\</article\>
-
-\</body\>
-
-\</html\>
+</footer\>
+</article\>
+</body\>
+</html\>
+```
 
 An article element can use section elements to split its contents into
 groups.
@@ -4666,83 +4636,49 @@ this [CodePen](https://codepen.io/w3devcampus/pen/Wjzjpx):
 <img src="./images/image036.png"
 style="width:4in;height:2.54468in" />
 
+```
 \<!DOCTYPE html\>
-
 \<!--HTML5 doctype--\>
-
 \<html lang="en"\>
-
 \<head\>
-
 \<meta charset="UTF-8"\>
-
 \<title\>Semantic Elements complete example\</title\>
-
 \</head\>
-
 \<body\>
-
 \<!--Our global header--\>
-
 \<header\>
-
 \<h1\>HTML5\</h1\>
-
 \<h2\>Table of Contents\</h2\>
-
 \<!-- Navigation can be on its own or within the header element--\>
-
 \<nav\>
-
 \<ol\>
-
 \<li\>\<a href="#intro"\>Introduction\</a\>\</li\>
-
 \<li\>\<a href="#history"\>History\</a\>\</li\>
-
 \<li\>\<a href="#features"\>Features\</a\>\</li\>
-
 \<li\>\<a href="#logo"\>Logo\</a\>\</li\>
-
 \<li\>\<a href="#ref"\>References\</a\>\</li\>
-
 \</ol\>
-
 \</nav\>
-
 \</header\>
-
 \<!--The main content of our page starts here--\>
-
 \<main\>
-
 \<!-- Our introduction is within an article element because this content
 can make sense on its own--\>
-
 \<article\>
-
 \<header id="intro"\>
-
 \<h2\>Introduction\</h2\>
-
 \</header\>
-
 \<p\>HTML5 stands for HyperText Markup Language. It is used to create
 content on the world wide web like webpages. HTML5 is the fifth revision
 of the language's standard. It was published in October 2014, 17 years
 after HTML4 was standardized.\</p\>
-
 \<p\>HTML5 aims to provide improved support for latest multimedia. It
 also reduced dependency on plugins and APIs providing a common interface
 making loading elements easier...\</p\>
-
 \<!-- This is an example of aside. The mark element has also been
 showcased in the paragraph. --\>
-
 \<aside\>
-
 \<h4\>API\</h4\>
-
 \<p\>API stands for Application Programming Interface. It is a set of
 routines, protocols, and tools for building software and applications.
 
@@ -4751,26 +4687,17 @@ semantic meaning and so doesn't carry any instructions for presentation.
 It will appear like a normal paragraph in your document. If you wish to
 include this in a sidebar, you will have to provide the appropriate
 markup and styling for it.\</p\>
-
 \</aside\>
-
 \</article\>
-
 \<!-- Our history section--\>
-
 \<section\>
-
 \<header id="history"\>
-
 \<h2\>History\</h2\>
-
 \</header\>
-
 \<p\>HTML5 is based on a position paper presented by Mozilla Foundation
 and Opera Software at the W3C workshop in 2004. The Web Hypertext
 Application Technology Working Group (WHATWG) was formed to start work
 on this...</p>
-```
 </section>
 <!-- Our features section with smaller headings-->
 <section>
@@ -6475,7 +6402,7 @@ visual impact is very rewarding.
 So, prepare to have fun, and let yourself experiment because that's how
 you learn, experimentation.
 
-<h3 id="ch3-1">3.1.2 Module 3 Content</h3>
+<h3 id="ch3-1-2">3.1.2 Module 3 Content</h3>
 
 1.  **Introduction to Module 3: **Get an overview of what CSS (Cascading
     Style Sheets) can do for your Web pages.
@@ -6572,8 +6499,9 @@ different. So let's get started.
 
 <h3 id="ch3-2-1">3.2.1 The &lt;style&gt; and &lt;link&gt; tags</h3>
 
-<h4>The \<style\> tag</h4>
+<h4>The &lt;style&gt; tag</h4>
 
+<!----- *********************** image ***************** ------->
 <img src="./images/image052.jpeg"
 style="width:1.5625in;height:1.5625in"
 alt="Snapshot os a style tag in the XDK code editor" />
@@ -6586,37 +6514,24 @@ To place CSS directly into an HTML document, we use the \<style\> tag.
  This tag can appear anywhere in an HTML document, however, the most
 common practice is to place it in the \<head\> section.  Such as:
 ```
-1.  \<!DOCTYPE html\>
-
-2.  \<html lang="en"\>
-
+1.  <!DOCTYPE html>
+2.  <html lang="en">
 3.   
-
-4.    \<head\>
-
-5.      \<meta charset="UTF-8"\>
-
-6.      \<title\>Style and link tags\</title\>
-
-7.      \<style\>
-
-8.        /\* CSS will go in this area \*/
-
-9.      \</style\>
-
-10.   \</head\>
-
+4.    <head>
+5.      <meta charset="UTF-8">
+6.      <title>Style and link tags</title>
+7.      <style>
+8.        /* CSS will go in this area */
+9.      </style>
+10.   </head>
 11.  
-
-12.   \<body\>
-
+12.   <body>
 13. 
-
-14.   \</body\>
-
-15. \</html\>
+14.   </body>
+15. </html>
 ```
-<h4>The \<link\> tag</h4>
+
+<h4>The &lt;link&gt; tag</h4>
 
 While \<style\> is convenient, the better practice is to put the
 CSS into a separate file. One of the key advantages of using a separate
@@ -6630,34 +6545,26 @@ extension and use a \<link\> tag to bind it in. The \<link\> tag must
 appear in the \<head\> section.  By convention, css files are kept in a
 directory named *css*.
 
-Use this \<link\> as a template:
+<h5>Use this &lt;link&gt; as a template:</h5>
 ```
-1.  \<link rel="stylesheet" href="css/my_styles.css"\>
+1.  <link rel="stylesheet" href="css/my_styles.css">
 ```
-Here is an example HTML document.
-```
-1.  \<!DOCTYPE html\>
 
-2.  \<html lang="en"\>
-
+<h5>Here is an example HTML document.</h5>
+```
+1.  <!DOCTYPE html>
+2.  <html lang="en">
 3.   
-
-4.    \<head\>
-
-5.      \<meta charset="UTF-8"\>
-
-6.      \<title\>Style and link tags\</title\>
-
-7.      \<link rel="stylesheet" href="css/my_styles.css"\>
-
-8.    \</head\>
-
-9.    \<body\>
-
-10.   \</body\>
-
-11. \</html\>
+4.    <head>
+5.      <meta charset="UTF-8">
+6.      <title>Style and link tags</title>
+7.      <link rel="stylesheet" href="css/my_styles.css">
+8.    </head>
+9.    <body>
+10.   </body>
+11. </html>
 ```
+
 <h3 id="ch3-2-2">3.2.2 Rules: selectors and declarations</h3>
 
 At its simplest, CSS is just a list of *rules*.  Each *rule* consists of
@@ -6667,7 +6574,7 @@ a *selector* and a *declaration.  *Here is an example:
 style="width:4in;height:3.30064in"
 alt="Figure showing a selector &#39;p&#39; before a declaration &#39;font-size:12px; color: #223344&#39;" />
 
-### Selector
+<h4>Selector</h4>
 
 In the above, the *selector* is **p.  **When a selector appears
 unprefixed by any punctuation, then it is assumed to match to an HTML
@@ -6676,23 +6583,24 @@ in the document. 
 
 We will cover more selector possibilities in the future.
 
-### Declaration
+<h4>Declaration</h4>
 
 The *declaration* part of a CSS rule opens and closes with curly
 braces: **{  }**    
 And between them, you can put any number of *property* *value* pairs.
 
-### Properties and values
+<h4>Properties and values</h4>
 
 There are hundreds of different visual properties that may be set via
 CSS.  And each property has a range of possible values that it can be
 set to.  Syntactically, property value pairs are simple. Each pair
 consists of a *property*, followed by a colon **:** followed by
 a *value* and terminated by a semi-colon **;**
-
+```
 font-size: 12px;
+```
 
-### Best practice
+<h4>Best practice</h4>
 
 In the example above, the entire CSS rule is written on one line.  This
 is not uncommon when the declaration of the CSS rule only has one
@@ -7700,14 +7608,14 @@ id selector is simply a hash sign (#) followed directly by the id.  
 **\#p18** { color: blue; }  
 **\#p19** { color: green; }
 
-<h4>HTML:</h4>
+<h5>HTML:</h5>
 ```
 <p id="p18">He is Ulysses, a man of great craft, son of Laertes. He
 was born in rugged Ithaca, and excels in all manner of stratagems and
 subtle cunning.</p>
 <p id="p19">Madam, you have spoken truly.</p>
 ```
-### Result:
+<h4>Result:</h4>
 
 <table>
 <colgroup>
@@ -7725,14 +7633,14 @@ cunning.</p>
 </tbody>
 </table>
 
-### class selector
+<h4>class selector</h4>
 
 The class attribute is similar to the id. However, whereas the id must
 be unique and singular, the values of the class attribute can be shared
 by multiple tags. And, multiple classes can be assigned to a tag by
 simply separating them with spaces.  
 
-<h4>HTML:</h4>
+<h5>HTML:</h5>
 ```
 <ul>  
 <li class="bird flying">eagle</li>
@@ -7746,11 +7654,12 @@ itself.
 
 <h4>CSS:</h4>
 ```
-**.bird**   { color: blue; }  
-**.insect** { color: green; }  
-**.flying** { text-decoration: underline; }
+<b>.bird</b>   { color: blue; }  
+<b>.insect</b> { color: green; }  
+<b>.flying</b> { text-decoration: underline; }
 ```
-Result:
+
+<h4>Result:</h4>
 ```xml
 <table>
 <colgroup>
@@ -7825,7 +7734,7 @@ The joined version on the right is much easier to read and maintain.  
 
 If the "speech" items need to also be bold, that can simply be added by
 an additional rule:
-
+```
 blockquote,  
 q,  
 .speech {  
@@ -7833,8 +7742,9 @@ q,
    font-style: italic;     
 }  
 .speech { font-weight: bold; }
+```
 
-### Specialized selectors
+<h4>Specialized selectors</h4>
 
 If two selectors of different types (like tag and class) appear next to
 each other with no spacing separating them, then they form a
@@ -7842,8 +7752,9 @@ specialized selector. To match, a candidate must match **both** rules.
  If a tag selector is used, it must appear first.  
 
 This is most useful with class and tag selectors, like so:
-
+```
 blockquote.speech { font-color: green; }
+```
 
 In the example above, the blockquote.speech selector is a blockquote tag
 selector combined with a .speech class selector.  So this rule will not
@@ -7852,16 +7763,20 @@ class. Instead, it will only apply to those blockquotes that also have
 the speech class.
 
 It isn't unusual to see multiple classes joined this way as well:
-
+```
 .insect.flying { text-decoration: underline; font-weight:bold; }
+```
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 56.  (###) -------------------------------------->
+<!------------------------------ 56. template (##) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="./images/image056.png"
-style="width:6.5in;height:1.81875in" />
+<p align="center" width="100%">
+<img src="./images/image056.png?raw=true"
+   width="65%"
+   alt="." />
+</p>
 
-### Descendant selectors
+<h4>Descendant selectors</h4>
 
 In the following HTML, we see some paragraphs that have some links
 (\<a\>) inside. The link tags are inside the paragraphs, but not
@@ -7893,6 +7808,7 @@ What if we wanted all the links in the introductory section to be red,
 but all the link in the guideline section to be green?  That is what
 descendant selectors are for. Here is an example for the problem we are
 facing:
+
 ```css
 #intro a { color: red; }  
 #guideline a { color: #00FF00; }
@@ -7942,13 +7858,14 @@ photography</a> please.)</p></th>
 But what if we want the links in the founder blockquote in the intro
 section to be bold?  Again, a descendant selector will work.  We add
 this:
-
-\#intro blockquote a { font-weight: bold; } 
+```
+#intro blockquote a { font-weight: bold; } 
+```
 
 Any \<a\> tags anywhere inside a \<blockquote\> anywhere inside
 the #intro section will now be bold.
 
-### Direct descendant selectors ( \> )
+<h4>Direct descendant selectors ( &gt; )</h4>
 
 Sometimes you don't want to apply a style to any \_possible\_ child, but
 to only to the direct children.  This can be done with
@@ -7958,18 +7875,21 @@ the HTML of the previous selector, would cause the links in the intro
 section to be larger, but not the links in any nested quotes or
 blockquotes. :
 
-\#intro \> a { font-size: large; }
+```
+#intro > a { font-size: large; }
+```
 
 <h4>Everything selector (\*)</h4>
 
 The asterisk (\*) can be used to match **any** tag. By itself, this is
 only marginally useful. But combined with other selectors into a
 descendant selector, it can be pretty useful.
-
-body \> \* { margin-left: 10px; } /\* all the \_direct\_ children of the
-body receive the margin \*/  
-p \* { text-decoration: underline; } /\* the text of the paragraph will
-be normal, but any children anywhere inside it will be underlined \*/
+```
+body > * { margin-left: 10px; } /* all the _direct_ children of the
+body receive the margin */
+p * { text-decoration: underline; } /* the text of the paragraph will
+be normal, but any children anywhere inside it will be underlined */
+```
 
 <h3 id="ch3-4-4">3.4.4 Cascading: inheritance and precedence</h3>
 
@@ -8228,7 +8148,7 @@ soup\</q\>. Well, here's my attempt at doing just that!
 <article id="salad">
 <h2>Salad</h2>
 <img
-src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Caesar_salad\_%281%29.jpg/320px-Caesar_salad\_%281%29.jpg"
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Caesar_salad_%281%29.jpg/320px-Caesar_salad_%281%29.jpg"
 alt="salad image" width=320\>
 <h3\>List of ingredients\</h3\>
 <ul\>
@@ -9099,7 +9019,7 @@ li img {
 width: 10rem;
 }
 ```
-<h4>HTML</h4>
+<h5>HTML</h5>
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -9130,13 +9050,14 @@ src="https://www.weather.gov/images/jetstream/clouds/st.jpg"></li>
 </body>
 </html>
 ```
+
 There is still the issue of things not being laid out nicely, you'll
 learn more about that in the module 6.
 
-<h3>4.4.4 Shrinking Text</h3>
+<h3 id="ch4-4-4">4.4.4 Shrinking Text</h3>
 
 For this section you can play with
-the [CodePen](http://codepen.io/w3devcampus/pen/wdxegK) below. The main
+the <a href="http://codepen.io/w3devcampus/pen/wdxegK">CodePen</a> below. The main
 content is an outline for an essay and it should look something like
 this:
 
@@ -9149,7 +9070,7 @@ this:
    alt="Easy outline-codepen results" />
 </p>
 
-<h4>CSS</h4>
+<h5>CSS</h5>
 ```
    section {
    font-size: 24px;
@@ -9158,7 +9079,7 @@ this:
    font-size: .5em;
   }
 ```
-<h4>HTML</h4>
+<h5>HTML</h5>
 ```
    <!DOCTYPE html>
    <html lang="en">
@@ -9264,7 +9185,7 @@ solution would be rem.  This would make the size relative to the
 html font-size (the default font-size for the page), not to it's
 surroundings.
 
-<h3>4.4.5 Recipe Project</h3>
+<h3 id="ch4-4-5">4.4.5 Recipe Project</h3>
 
 We are now going to do some more "beautifying" of our Web page using
 what we've learned in the debugger and the CSS box model to figure out
@@ -9279,7 +9200,7 @@ Try to make changes to get something like this:
 <img src="./images/image083.png"
 style="width:4.96875in;height:2.73958in" />
 
-<h4>CSS</h4>
+<h5>CSS</h5>
 
 ```css
 nav {
@@ -9299,7 +9220,7 @@ color: white;
 }
 ```
 
-<h4>HTML</h4>
+<h5>HTML</h5>
 
 ```html5
 <!DOCTYPE html>
@@ -9361,7 +9282,7 @@ soup</q>. Well, here's my attempt at doing just that!
 <article id="salad">
 <h2>Salad</h2>
 <img
-src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Caesar_salad\_%281%29.jpg/320px-Caesar_salad\_%281%29.jpg"
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Caesar_salad_%281%29.jpg/320px-Caesar_salad_%281%29.jpg"
 alt="salad image" width=320>
 <h3>List of ingredients</h3>
 <ul>
@@ -9411,7 +9332,7 @@ the CodePen below:
 <img src="./images/image084.png"
 style="width:4.96875in;height:2.73958in" />
 
-<h4>CSS</h4>
+<h5>CSS</h5>
 ```
 > nav {
 > background: aliceblue;
@@ -9429,7 +9350,7 @@ style="width:4.96875in;height:2.73958in" />
 > color: white;
 }
 ```
-<h4>HTML</h4>
+<h5>HTML</h5>
 
 ```
 <!DOCTYPE html>
@@ -9482,7 +9403,7 @@ soup</q>. Well, here's my attempt at doing just that!
 <article id="salad">
 <h2>Salad</h2>
 <img
-src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Caesar_salad\_%281%29.jpg/320px-Caesar_salad\_%281%29.jpg"
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Caesar_salad_%281%29.jpg/320px-Caesar_salad_%281%29.jpg"
 alt="salad image" width=320>
 <h3>List of ingredients</h3>
 <ul>
@@ -9519,7 +9440,7 @@ Pizza, the king of comfort foods. Try this simple, taste sensation.
 </html>
 ```
 
-<h3 id="ch5-1">5.1.1 Welcome to Module 5</h3>
+<h3 id="ch5-1-1">5.1.1 Welcome to Module 5</h3>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 85.  (###) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -9592,7 +9513,7 @@ CSS. You might be tempted to do this via tables instead. Or you might
 want to just make your whole Web page into one big table: site header in
 a table row, left navigation bar on the second row, left column, etc.
 
-Bad idea! Here's why:
+<h4>Bad idea! Here's why:</h4>
 
 -   They are semantically incorrect for layout because they represent
     presentation and not content.
@@ -9632,7 +9553,7 @@ section:
 
 We will use these elements to build our table as we go.
 
-<h4>The \<table\> tag</h4>
+<h4>The &lt;table&gt; tag</h4>
 
 This tag defines a table in HTML5.
 
@@ -9644,8 +9565,9 @@ This tag defines a table in HTML5.
 
 Other attributes have been deprecated as the same can be achieved
 through CSS.
-
-1.  \<table border=1\>\</table\>
+```
+1.  <table border=1></table>
+```
 
 The code above will not provide any major visual change to your website
 yet because we don't have any cells defined.
@@ -9654,7 +9576,7 @@ yet because we don't have any cells defined.
 should be styled using CSS. You can use the CSS border property to do
 that instead. 
 
-<h4>\<caption\></h4>
+<h4>&lt;caption&gt;</h4>
 
 It is used to give a title to the table and should be used as the first
 child element of \<table\>. It can be used to provide more context to
@@ -9695,12 +9617,13 @@ style="width:4in;height:2.54315in" />
 <h3 id="ch5-2-2">5.2.2 The &lt;tr&gt;, &lt;th&gt;, &lt;td&gt;, &lt;colgroup&gt;, &lt;col&gt; tags</h3>
 
 Let's now create the most basic table with a few cells.
-
-**\<tr\>**
-
+```
+<tr>
+```
 Creates a table row.
-
-**\<th\>**
+```
+<th>
+```
 
 There are two types of cells in a table - header and
 standard. \<th\> creates table header cells. The content of table header
@@ -9718,36 +9641,23 @@ cells is bold and centered by default.
 <!------------------------------------------------------------------------------------------------>
 <img src="./images/image087.png"
 style="width:4in;height:2.54315in" />
-
-> \<!DOCTYPE html\>
->
-> \<html lang="en"\>
->
-> \<head\>
->
-> \<meta charset="UTF-8"\>
->
-> \<title\>th\</title\>
->
-> \</head\>
->
-> \<body\>
->
-> \<table border=1\>
->
-> \<tr\>
->
-> \<th\>Name\</th\>
->
-> \<th\>Age\</th\>
->
-> \</tr\>
->
-> \</table\>
->
-> \</body\>
->
-> \</html\>
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>th</title>
+</head>
+<body>
+<table border=1>
+<tr>
+<th>Name</th>
+<th>Age</th>
+</tr>
+</table>
+</body>
+</html>
+```
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 88.  (###) -------------------------------------->
@@ -9755,40 +9665,28 @@ style="width:4in;height:2.54315in" />
 <img src="./images/image088.png"
 style="width:6.5in;height:3.03681in" />
 
-### \<td\>
+<h4>&lt;td&gt;</h4>
 
 Creates table data (standard) cells. Content of table data cells is
 regular and left-aligned by default.
 
 With these tags we can create a simple table.
-
-1.  \<table border=1\>
-
-2.    \<tr\>
-
-3.      \<th scope="col"\>Name\</th\>
-
-4.      \<th scope="col"\>Age\</th\>
-
-5.    \</tr\>
-
-6.    \<tr\>
-
-7.      \<td\>Alexa\</td\>
-
-8.      \<td\>23\</td\>
-
-9.    \</tr\>
-
-10.   \<tr\>
-
-11.     \<td\>James\</td\>
-
-12.     \<td\>35\</td\>
-
-13.   \</tr\>
-
-14. \</table\>
+```
+1.  <table border=1>
+2.    <tr>
+3.      <th scope="col">Name</th>
+4.      <th scope="col">Age</th>
+5.    </tr>
+6.    <tr>
+7.      <td>Alexa</td>
+8.      <td>23</td>
+9.    </tr>
+10.   <tr>
+11.     <td>James</td>
+12.     <td>35</td>
+13.   </tr>
+14. </table>
+```
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 89.  (###) -------------------------------------->
@@ -9798,7 +9696,7 @@ style="width:6.5in;height:3.23611in" />
 
 Now, let's have a look at the \<colgroup\> and \<col\> tags
 
-### \<colgroup\>
+<h4>&lt;colgroup&gt;</h4>
 
 This tag allows you to group columns in a table. Grouping columns is
 useful if you want to specify properties for a group of columns like
@@ -10683,76 +10581,51 @@ users differentiate data between rows. 
 style="width:4in;height:3.80672in" />
 
 <h4>CSS</h4>
-
+```
 1.  table { border-collapse: collapse; }
-
 2.  table, th, td { padding: 15px; border-bottom: 1px solid black; }
-
 3.  
-
 4.  table.eg1 tr:hover { background-color: \#ccff99; }
-
 5.  
-
 6.  table.eg2 tr:hover { background-color: grey; }
+```
 
-### HTML
-
+<h4>HTML</h4>
+```
 1.  \<!DOCTYPE html\>
-
 2.  \<html lang="en"\>
-
 3.  
-
 4.  \<head\>
-
 5.  \<meta charset="UTF-8"\>
-
 6.  \<title\>Styling your table\</title\>
-
 7.  \</head\>
-
 8.  \<body\>
-
 9.  \<table class="eg1"\>
-
 10. \<tr\>\<th class="eg1"\>Name\</th\>\<th class="eg1"\>Age\</th\>\<th
     class="eg1"\>Gender\</th\>\</tr\>
-
 11. \<tr\>\<td class="eg1"\>Michael\</td\>\<td
     class="eg1"\>21\</td\>\<td class="eg1"\>Male\</td\>\</tr\>
-
 12. \<tr\>\<td class="eg1"\>Amy\</td\>\<td class="eg1"\>37\</td\>\<td
     class="eg1"\>Female\</td\>\</tr\>
-
 13. \<tr\>\<td class="eg1"\>Mark\</td\>\<td class="eg1"\>32\</td\>\<td
     class="eg1"\>Male\</td\>\</tr\>
-
 14. \</table\>
-
 15. \<br\>\<br\>
-
 16. \<table class="eg2"\>
-
 17. \<tr\>\<th class="eg2"\>Name\</th\>\<th class="eg2"\>Age\</th\>\<th
     class="eg2"\>Gender\</th\>\</tr\>
-
 18. \<tr\>\<td class="eg2"\>Michael\</td\>\<td
     class="eg2"\>21\</td\>\<td class="eg2"\>Male\</td\>\</tr\>
-
 19. \<tr\>\<td class="eg2"\>Amy\</td\>\<td class="eg2"\>37\</td\>\<td
     class="eg2"\>Female\</td\>\</tr\>
-
 20. \<tr\>\<td class="eg2"\>Mark\</td\>\<td class="eg2"\>32\</td\>\<td
     class="eg2"\>Male\</td\>\</tr\>
-
 21. \</table\>
-
 22. \</body\>
-
 23. \</html\>
+```
 
-### overflow
+<h4>overflow</h4>
 
 With padding, additional columns and rows, your table can easily grow
 rather big overflowing out of the \<div\> you had planned for your table
@@ -14834,5 +14707,14 @@ We fixed those issues at the top.
 
 These are the final changes to our recipe project for this unit.
 
-<h3><b>Last Updated 07-28-2022 11:55pm</b></h3>
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ ##. template (##) -------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image###.png?raw=true"
+   width="65%"
+   alt="." />
+</p>
+
+<h3><b>Last Updated 07-29-2022 8:01pm</b></h3>
 
