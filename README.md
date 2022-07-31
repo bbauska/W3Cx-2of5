@@ -2301,8 +2301,8 @@ another, but the other part is not.
 ```xml
   <p>This is a <em>paragraph</em></p>
    
-  <h1>Paragraph ahead\</h1>
-  <p\>And here it is.\</p>
+  <h1>Paragraph ahead</h1>
+  <p>And here it is.</p>
 ```
 The two examples above are fine because in each case either an element
 is wholly contained in another (\<em\> in \<p\>) or they are completely
@@ -2455,7 +2455,7 @@ bad practice (opposite of best practice).  Instead you can use
 capitalization in other ways,
 like [CamelCase](https://en.wikipedia.org/wiki/CamelCase).
 
-Any kind of quotes for strings
+<h4>Any kind of quotes for strings</h4>
 
 Finally, it will eventually be important to know about "strings".
  Strings are just a series of characters.  They could be any characters
@@ -2579,6 +2579,7 @@ seen:
     indicate the outermost level in a group of nested sections.
 
 <h4>HTML</h4>
+
 ```xml
 <!DOCTYPE html>
 <html lang="en">
@@ -2587,13 +2588,14 @@ seen:
 <title>Welcome</title>
 </head>
 <body>
-<h1>A TALE OF TWO CITIES\</h1>
-<h2>A STORY OF THE FRENCH REVOLUTION\</h2>
-<h2>Book the First—Recalled to Life\</h2>
-<h3>I. The Period\</h3>
+<h1>A TALE OF TWO CITIES</h1>
+<h2>A STORY OF THE FRENCH REVOLUTION</h2>
+<h2>Book the First—Recalled to Life</h2>
+<h3>I. The Period</h3>
 </body>
 </html>
 ```
+
 Though you theoretically should not think about what it looks like, it
 will typically appear as large, possibly bold text in your document, to
 mark a separation or beginning of some new section.  \<h2\> is usually a
@@ -2610,6 +2612,7 @@ can be confusing**.
     Web page, a *p* element creates a new line.
 
 <h4>HTML</h4>
+
 ```xml
 <!DOCTYPE html>
    <html lang="en">
@@ -2639,6 +2642,7 @@ Often there is extra space between one paragraph and the next.
 </body>
 </html>
 ```
+
 You might notice that when discussing how these different elements are
 rendered (i.e. what they look like to the end user), you will find
 words like "typically", "possibly", and "generally".  It is a little
@@ -3214,9 +3218,9 @@ Naming rules for id attribute:
 </ul>
 
 ```
-1.  \<p id="question-about-html"\>How many times can a particular 'id'
-    value be used in an HTML document?\</p\>
-2.  \<p id="html-answer"\>Once\</p\>
+1.  <p id="question-about-html">How many times can a particular 'id'
+    value be used in an HTML document?</p>
+2.  <p id="html-answer">Once</p>
 ```
 
 <h4>id is primarily used for:</h4>
