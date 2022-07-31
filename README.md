@@ -2786,7 +2786,7 @@ following components:
 
 -   A set of steps to follow, numbered in order.
 
-Please start with this "empty page" in CopePen:
+Please start with this "empty page" in CodePen:
 
 <h4>HTML</h4>
 
@@ -9641,6 +9641,7 @@ This tag defines a table in HTML5.
 
 Other attributes have been deprecated as the same can be achieved
 through CSS.
+
 ```
 1.  <table border=1></table>
 ```
@@ -9690,13 +9691,17 @@ style="width:4in;height:2.54315in" />
 </body>
 </html>
 ```
+
 <h3 id="ch5-2-2">5.2.2 The &lt;tr&gt;, &lt;th&gt;, &lt;td&gt;, &lt;colgroup&gt;, &lt;col&gt; tags</h3>
 
 Let's now create the most basic table with a few cells.
+
 ```
 <tr>
 ```
+
 Creates a table row.
+
 ```
 <th>
 ```
@@ -11700,11 +11705,12 @@ will display the file inline while some older browsers will try to
 download it instead). 
 
 An \<iframe\> tag can be as simple as this:
+
 ```
-1.  \<p\>This is a parent page that will host the iframe.\</p\>
-2.  \<iframe src="https://www.w3.org/"\>
-3.    \<p\>Your browser does not support iframes.\</p\>
-4.  \</iframe\>
+1.  <p>This is a parent page that will host the iframe.</p>
+2.  <iframe src="https://www.w3.org/">
+3.    <p>Your browser does not support iframes.</p>
+4.  </iframe>
 ```
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 113.  (###) -------------------------------------->
@@ -11712,30 +11718,19 @@ An \<iframe\> tag can be as simple as this:
 <img src="./images/image113.png"
 style="width:4in;height:2.51477in" />
 
-### \<!DOCTYPE html\>
-
 ```
-> \<html lang="en"\>
->
-> \<head\>
->
-> \<meta charset="UTF-8"\>
->
-> \<title\>The iframes tag\</title\>
->
-> \</head\>
->
-> \<body\>
->
-> \<p\>This is a parent page that will host the iframe.\</p\>
->
-> \<iframe src="https://www.w3.org/"\>
->
-> \</iframe\>
->
-> \</body\>
->
-> \</html\>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>The iframes tag</title>
+</head>
+<body>
+<p>This is a parent page that will host the iframe.</p>
+<iframe src="https://www.w3.org/">
+</iframe>
+</body>
+</html>
 ```
 
 Because iframes are HTML elements, they can be styled just like other
@@ -11748,12 +11743,14 @@ elements, with borders, margins, sizes specified with CSS rules:
    style="width:3in;height:1.64371in" />
 
 Here, we've embedded a YouTube video with an iframe like this:
+
 ```
 1.  <iframe src="https://www.youtube.com/embed/YE7VzlLtp-4"></iframe>
 ```
-And we've added styling like this to get the border and drop-shadow:
-```
 
+And we've added styling like this to get the border and drop-shadow:
+
+```
 1.  iframe {
 2.    border: 10px solid red;
 3.    padding: .5rem;
@@ -11781,7 +11778,7 @@ for now we'll just look at a few of them:
 <img src="./images/image115.png"
    style="width:6.5in;height:4.87014in" />
 
-<b>Notes:**
+<b>Notes:</b>
 
 1.  Certain Web sites like Google and Yahoo disallow embedding their Web
     pages in iframes. So you will not be able to use these pages in an
@@ -11827,12 +11824,12 @@ However, there can be some disadvantages:
 -   Search engines have trouble accessing and in turn indexing the
     content in your iframes. This doesn't help your search ranking. 
 
-<h3>5.4.2 The ismap and usemap attributes (OPTIONAL)</h3>
+<h3 id="ch5-4-2">5.4.2 The ismap and usemap attributes (OPTIONAL)</h3>
 
-***Note:** This section is optional material included for the curious.
+<b>Note:</b> This section is optional material included for the curious.
 It will not appear on any graded question.*
 
-<b>Important:** The attributes we will see in this unit
+<b>Important:</b> The attributes we will see in this unit
 - ismap and usemap are <b>image attributes**. Since they use
 the \<link\> tag, having learned hyperlinks, now would be a good time to
 explore them. Be sure to watch the video at the end of this unit. 
@@ -11845,10 +11842,12 @@ such an image is mapped. [Here is an
 example](http://html.cita.illinois.edu/text/map/map-example.php) of an
 image-map.
 
-### The 'ismap' attribute
+<h4>The 'ismap' attribute</h4>
+
 ```
 1.  <img src="images/logo.png" alt="ismap tutorial" <b>ismap**>
 ```
+
 ismap is a <b>boolean attribute<b> i.e. its value is either true or false.
 Thus, just the presence of the attribute indicates that it is a mapped
 image. To be more precise, we say it is a server-side image-map.
@@ -11860,11 +11859,13 @@ will your code know that if you click on a part of your image, i.e.
 Wikipedia page? We need to create a map file with these details and then
 add the location of this map file using the anchor element. Here is a
 code sample:
+
 ```
 1.  <a href="/ismap-image/ismap.cgi" target="_self">
 2.     <img src="images/logo.png" alt="ismap tutorial" ismap>
 3.  </a>
 ```
+
 Here, the href attribute points to the location of the map file.
 The target attribute indicates where the page it navigates to should
 open. '\_self' will open in the same page whereas '\_blank' will open it
@@ -11908,7 +11909,7 @@ site navigator. Clicking on different parts of the image will bring you
 to different parts of the Web page. You can use image maps in many
 creative ways. 
 
-### The 'usemap' attribute
+<h4>The 'usemap' attribute</h4>
 
 usemap is a lot like ismap and is more widely used. ismap deals with
 server-side image-maps whereas usemap deals with client-side
@@ -11925,15 +11926,18 @@ image-maps. 
 Client-side maps are becoming increasingly popular. usemap is NOT of
 type boolean. It takes in the name of the map with a '#' character
 preceding it.
+
 ```
 1.  <img src="navigator.jpg" alt="Pages in this Web
     site" usemap="#navigatormap">
 ```
+
 Like ismap, usemap cannot be used by itself. In ismap, we used the
 anchor tag to specify the map file. In usemap, we use
 the **\<area\>** element as a child of **\<map\>** element to specify
 the coordinates and the page it should navigate to. The usemap value
 should match the map element's name or id attribute. 
+
 ```
 1.  <img src="images/crossroads.jpg" alt="Crossroads" usemap="#**navigatormap**">
 2.  <map name="**navigatormap**">
@@ -11941,6 +11945,7 @@ should match the map element's name or id attribute. 
 4.    <area shape="rect" coords="196,0,390,439" href="https://en.wikipedia.org/wiki/Nomeny" alt="Nomeny">
 5.  </map>
 ```
+
 **\<map\>** - defines a client-side image map and is used to create a
 relationship between the image and the map by matching the map name and
 usemap's value. It contains a set of area elements.
@@ -11973,7 +11978,8 @@ The shape attribute in the \<area\> tag has four values:
 Read more about the [area tag
 here](https://www.w3.org/wiki/HTML/Elements/area).
 
-Here is a working example of usemap. 
+Here is a working example of usemap.
+
 ```
 1.  <img src="images/crossroads.jpg" alt="Crossroads" usemap="#**navigatormap**">
 2.  <map name="**navigatormap**">
@@ -11981,7 +11987,8 @@ Here is a working example of usemap. 
 4.    <area shape="rect" coords="196,0,390,439" href="https://en.wikipedia.org/wiki/Nomeny" alt="Nomeny">
 5.  </map>
 ```
-Result:
+
+<h4>Result:</h4>
 
 Try this: Click on the left and right side of the images to check out
 how usemap works :) Remember to navigate back to the course!
@@ -11997,7 +12004,7 @@ Note: If the \<img\> is inside an \<a\> or \<button\> element, clicking
 on it will be interpreted as clicking on the link or button and usemap
 will not work.
 
-<h3>5.4.3 Activities - Embedding content (OPTIONAL)</h3>
+<h3 id="ch5-4-3">5.4.3 Activities - Embedding content (OPTIONAL)</h3>
 
 1.  How can you inform screen readers that you are using an iframe in
     your Web page since iframes have poor accessibility?
@@ -12005,14 +12012,12 @@ will not work.
 2.  Try the following code in your HTML editor:
 
     1.  \<iframe src="http://facebook.com"\>
-
     2.  \<p\>Your browser does not support iframes.\</p\>
-
     3.  \</iframe\>
 
 What happens? Why does it behave the way it does?
 
-<h3 id="ch5-5">5.5.1 Decorative images and backgrounds</h3>
+<h3 id="ch5-5-1">5.5.1 Decorative images and backgrounds</h3>
 
 As we saw earlier, the \<img\> tag is meant to be used for semantically
 important imagery.  For example, the pictures that accompany a news
@@ -12022,7 +12027,7 @@ teletypes and coffee was meant to evoke competence and urgency, however,
 that image is <b>not<b> essential to understanding the news story. That
 image is decorative.
 
-Decorative images are incorporated via CSS.
+<h4>Decorative images are incorporated via CSS.</h4>
 
 There are quite a few CSS properties for controlling borders, background
 images and colors. Let's look at the most common. Take notice that as
@@ -12037,7 +12042,7 @@ Let's look at the most common CSS
 properties: background-color, background-image, background-repeat, background-size,
 and background-position.
 
-background-color
+<h4>background-color</h4>
 
 The background-color CSS property will fill the rectangle of the given
 element with a solid background color. In addition to the values
@@ -12051,7 +12056,7 @@ items (\<li\>):
 <img src="./images/image118.png"
 style="width:5in;height:1.59615in" />
 
-### background-image
+<h4>background-image</h4>
 
 The background-image property is used to set an external image file as
 the background to a particular HTML element.  To bind in an external
@@ -12059,9 +12064,11 @@ file, the value is url, followed by an open parenthesis (, followed by a
 quote ", then the path, a closing quote " and a closing parentheses ).
  The path can be a URL, or a path relative from the file the CSS is in. 
 
+```
 div { background-image: url("https://www.w3.org/2008/site/images/logo-w3c-mobile-lg");
 }  
 div { background-image: url("images/kitten.png"); }
+```
 
 As these are decorative images, there are quite a few different usage
 scenarios that can leverage background images. For instance, an image
@@ -12071,14 +12078,17 @@ scenarios can be constructed with other CSS properties,
 like background-repeat, background-size, and background-attach (as well
 as several others). 
 
+```
 <img src="./images/image119.png"
 style="width:5in;height:1.85524in" />
+```
 
-background-repeat
+<h4>background-repeat</h4>
 
 By default, if the rectangular area of an element is bigger than the
 image itself, then the image will repeat and fill the space, like tiles.
- For example:
+
+<h4>For example:</h4>
 
 <img src="./images/image120.png"
 style="width:5in;height:1.96635in" />
@@ -12101,7 +12111,7 @@ of spacing. That is calculated for you.
 <img src="./images/image121.png"
 style="width:5in;height:2.11378in" />
 
-### background-size
+<h4>background-size</h4>
 
 When *not* repeating, it is very useful to size a background image to
 fit its element.  The background-size can be used for this.  There are
@@ -12416,9 +12426,14 @@ over a child element, it will be over the parent, grandparent, and great
 grandparent.  Therefore, if you have two different style rules, such
 as li:hover and ul:hover, then they will *both* be activated,  when the
 mouse is over one of the list items.  
-
-<img src="./images/image132.jpeg"
-style="width:6.5in;height:2.35208in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 132.  (##) -------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image132.jpeg?raw=true"
+   width="65%"
+   alt="." />
+</p>
 
 :nth-child
 
@@ -12434,13 +12449,21 @@ possibilities with mathematical equations containing the term  n.
 This selector is most commonly used to apply "transaction ledger" styles
 to tables or lists.
 
-<img src="./images/image133.png"
-style="width:6.5in;height:2.35208in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 133. template (##) -------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image133.png?raw=true"
+   width="65%"
+   alt="." />
+</p>
 
 <h4>Cursor property</h4>
+
 ```html5
 li { cursor: pointer; }
 ```
+
 Since we've broached the topic of mouse-responding pseudo classes, it
 makes sense to also cover the cursor CSS property.
 
@@ -12491,8 +12514,15 @@ W3C.
     Dead code may come alive as CSS changes. Delete it before it does,
     and ruins your layout.
 
-<img src="./images/image134.jpeg"
-style="width:1.5625in;height:1.5625in" alt="Keep the Web open!" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 134. template (##) -------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image134.jpeg?raw=true"
+   width="15%"
+   alt="Keep the web open!" />
+</p>
+
 ```
 <b>Test in multiple browsers:</b>
 Your favorite browser is not always right.
@@ -12541,9 +12571,14 @@ Your favorite browser is not always right.
     important").
 
 <h4>Testing</h4>
-
-<img src="./images/image135.jpeg"
-style="width:2.08333in;height:1.71875in" alt="Testing image" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 135.  (##) -------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image135.jpeg?raw=true"
+   width="20%"
+   alt="Testing image." />
+</p>
 
 -   <b>Test without CSS**: turn off CSS, and if the page makes no sense,
     fix your markup.
@@ -12561,7 +12596,7 @@ style="width:2.08333in;height:1.71875in" alt="Testing image" />
 -   <b>Test in multiple browsers**: remember that just testing in Chrome
     does not work for everyone!  ;)
 
-### Adaptability
+<h4>Adaptability</h4>
 
 -   <b>Media queries**: set media query breakpoints in em or ch, not
     always in px.
@@ -12583,7 +12618,7 @@ style="width:2.08333in;height:1.71875in" alt="Testing image" />
 
 Absolute units are usually the wrong answer.
 
-### Defensive coding
+<h4>Defensive coding</h4>
 
 -   !important means never override- to use with caution
 
@@ -12937,13 +12972,18 @@ seem random to a developer struggling to get stuff to work. 
 So, let's start with understanding a very important difference between
 block and inline display. And that begins with the baseline.
 
-### Baseline
+<h4>Baseline</h4>
 
 The text "baseline" is a key concept to understanding how the browser
 makes its layout decisions.  
-
-<img src="./images/image136.png"
-style="width:2.19792in;height:1.08333in" alt="baseline" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 136.  (##) -------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image136.png?raw=true"
+   width="20%"
+   alt="Baseline." />
+</p>
 
 In the image above, we see two text characters placed next to each
 other, the blue line indicating the baseline. The baseline determines
@@ -12955,7 +12995,7 @@ to you as a developer, and CSS only may have some properties related
 to it. However, the baseline governs the placement of all inline
 elements. 
 
-### display: block versus inline
+<h4>display: block versus inline</h4>
 
 As the browser is rendering your page, every time it encounters the next
 tag it has a simple question: "Do I give this element its own line?"  
@@ -12966,12 +13006,18 @@ the \<p\> tag) and the "inline" elements (like the \<a\> tag).   Here is
 a quick table of the default values for some of the tags we've already
 learned.
 
-<img src="./images/image137.png"
-style="width:6.5in;height:1.96736in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 137. template (##) -------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image137.png?raw=true"
+   width="65%"
+   alt="." />
+</p>
 
 Here are some differences between the block - level and inline elements.
 
-### Block level
+<h4>Block level</h4>
 
 The block level:
 
@@ -12991,7 +13037,7 @@ The block level:
 
 -   ignores the vertical-align property
 
-### Inline elements
+<h4>Inline elements</h4>
 
 Inline elements:
 
@@ -13034,10 +13080,16 @@ So here we prevent the overlap by setting the line-height of the span.
 However, this solution should not be considered optimal.  Better is to
 change the span to be display:inline-block, which is discussed below.
 
-<img src="./images/image139.png"
-style="width:6.5in;height:1.60278in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 139. template (##) -------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image139.png?raw=true"
+   width="65%"
+   alt="." />
+</p>
 
-### inline-block
+<h4>inline-block</h4>
 
 The astute reader may have spotted an obvious omission from the table of
 block and inline elements above: \<img\> . Is \<img\> a block level
@@ -13070,10 +13122,16 @@ instead of using line-height to solve the problem, we simply make the
 span element display:inline-block.  Note that the margin-top is also
 respected. 
 
-<img src="./images/image140.png"
-style="width:6.5in;height:1.80903in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 140.  (##) -------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image140.png?raw=true"
+   width="65%"
+   alt="." />
+</p>
 
-### display property
+<h4>display property</h4>
 
 At long last we arrive at the display property. We have now seen three
 of its possible values: block, inline, and inline-block.  There are
@@ -13169,7 +13227,7 @@ The reason these properties don't work by default is that they only work
 when applied to *positioned* elements. And positioned elements are those
 that have had their position property changed from the default. 
 
-### The 'position' property
+<h4>The 'position' property</h4>
 
 The CSS position property governs how an element is positioned on the
 page and how it responds to the position adjusting properties
@@ -13184,7 +13242,7 @@ complex, they'll be discussed in an optional advanced section for
 completeness, but we aren't going to worry much about them because
 flexbox reduces their use cases.
 
-#### static
+<h4>static</h4>
 
 position: static; /\* the default \*/
 
@@ -14735,5 +14793,5 @@ These are the final changes to our recipe project for this unit.
    alt="." />
 </p>
 
-<h3><b>Last Updated 07-30-2022 10:34pm</b></h3>
+<h3><b>Last Updated 07-31-2022 12:43am</b></h3>
 
