@@ -112,7 +112,7 @@ It is how we determine the color, text size, spacing and other visual
 aspects of your Web page. We'll introduce the syntax of CSS, how to
 include it with your pages, and get you started with some basic
 properties and concepts. Note that we'll explore how to use CSS to
-layout your page during the last week of this course.</li>
+layout your page during the last week of this course.
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------------- 04. laptop (02) ---------------------------------------->
@@ -434,7 +434,7 @@ exactly which browsers will support it.
     collaboration</a>.</li>
 </ul>
 
-<h3>What is W3C?</h3>
+<h3 id="cha-1">What is W3C?</h3>
 
 <h4>As steward of global Web standards, W3C's mission is to safeguard the openness, accessibility, and freedom of the World Wide Web from a technical perspective.</h4>
 
@@ -452,10 +452,10 @@ define key parts of what actually makes the World Wide Web work.
    width="35%"
    alt="Tim Berners-Lee at his desk in CERN, 1994" />
 </p>
-<p align="center">Tim Berners-Lee at his desk in CERN, 1994</p>
+<h6 align="center">Tim Berners-Lee at his desk in CERN, 1994</h6>
 
-[Tim Berners-Lee](https://www.w3.org/People/Berners-Lee/) wrote a
-[proposal](https://www.w3.org/History/1989/proposal.html) in 1989 for a
+<a href="https://www.w3.org/People/Berners-Lee/">Tim Berners-Lee</a> wrote a
+<a href="https://www.w3.org/History/1989/proposal.html">proposal</a> in 1989 for a
 system called the World Wide Web. He then created the first Web browser,
 server, and Web page. He wrote the first specifications for URLs, HTTP,
 and HTML.
@@ -463,17 +463,17 @@ and HTML.
 In October 1994, Tim Berners-Lee founded the World Wide Web Consortium
 (W3C) at the Massachusetts Institute of Technology, Laboratory for
 Computer Science \[MIT/LCS\] in collaboration with
-[CERN](https://home.cern/), where the Web originated (see information on
-the [original CERN Server](https://www.w3.org/Daemon/)), with support
-from DARPA and the [European
-Commission](https://ec.europa.eu/index_en.htm).
+<a href="https://home.cern/">CERN</a>, where the Web originated (see information on
+the <a href="https://www.w3.org/Daemon/">original CERN Server</a>), with support
+from DARPA and the <a href="https://ec.europa.eu/index_en.htm">European
+Commission</a>.
 
-In April 1995, [Inria](https://www.inria.fr/) became the first European
-W3C host, followed by [Keio University of
-Japan](https://www.keio.ac.jp/) (Shonan Fujisawa Campus) in Asia in
-1996. In 2003, [ERCIM](https://www.ercim.eu/) took over the role of
-European W3C Host from Inria. In 2013, W3C announced [Beihang
-University](https://ev.buaa.edu.cn/) as the fourth Host.
+In April 1995, <a href="https://www.inria.fr/">Inria</a> became the first European
+W3C host, followed by <a href="https://www.keio.ac.jp/">Keio University of
+Japan</a> (Shonan Fujisawa Campus) in Asia in
+1996. In 2003, <a href="https://www.ercim.eu/">ERCIM</a> took over the role of
+European W3C Host from Inria. In 2013, W3C announced <a href="https://ev.buaa.edu.cn/">Beihang
+University</a> as the fourth Host.
 
 <h3>A few figures</h3>
 
@@ -517,14 +517,14 @@ this usage is technically incorrect.
 
 The Web is an application of the Internet. The Web is the most popular
 way of accessing the Internet, but other applications of the Internet
-are [e-mail](https://en.wikipedia.org/wiki/Email) and
-[ftp](https://en.wikipedia.org/wiki/File_Transfer_Protocol) for example.
+are <a href="https://en.wikipedia.org/wiki/Email">e-mail</a> and
+<a href="https://en.wikipedia.org/wiki/File_Transfer_Protocol">ftp</a> for example.
 One analogy equates the Internet to a road network where the Web is a
-car, the email is a bicycle, etc.  Read [this
-article](https://www.lifewire.com/difference-between-the-internet-and-the-web-2483335)
+car, the email is a bicycle, etc.  Read <a href="https://www.lifewire.com/difference-between-the-internet-and-the-web-2483335">this
+article</a>
 for more details about the difference between Internet and the Web.
 
-<h4>What is Web Accessibility?</h4>
+<h4 id="cha-2">What is Web Accessibility?</h4>
 
 <h3 id="ch1-1-1">1.1.1 Welcome to Module 1</h3>
 
@@ -2689,15 +2689,16 @@ effect in your Web page when you use them:
      . . .
   </ul>
 ```
+
 This code might be rendered like this:
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 18. w3c developers logo (??) ---------------------------------->
+<!-------------------------------- 18.  (??) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image018.png?raw=true"
    width="15%"
-   alt="Example of a list as it would appear on a web page" />
+   alt="Example of a list as it would appear on a web page," />
 </p>
 
 There are a couple more tags we want to bring up at this point, but
@@ -2727,15 +2728,13 @@ primarily used to invoke certain formatting. 
     in the text containing it, so for example, these two sentences would
     be formatted exactly the same:
 
+```
 1.  That which we call a rose \<br\>
-
 2.  By any other name would smell as sweet
-
 3.   
-
 4.  That which we call a rose \<br\> By any other name
-
 5.  would smell as sweet
+```
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- 19. w3c developers logo (??) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -2752,19 +2751,16 @@ primarily used to invoke certain formatting. 
     implies a monospace font. It is very handy for illustrating bits of
     program code, or other "typewritten" material:
 
-> Text in a pre element
->
-> is displayed in a fixed-width
->
-> font, and it preserves
->
-> both spaces and
->
-> line breaks
-
+```
+Text in a pre element
+is displayed in a fixed-width
+font, and it preserves
+both spaces and
+line breaks
+```
 <h3 id="ch1-6-3">1.6.3 More HTML5</h3>
 
-Video
+<h4>Video</h4>
 
 <h3 id="ch1-6-4">1.6.4 Activity - Your First Web Page</h3>
 
@@ -2788,7 +2784,8 @@ following components:
 
 Please start with this "empty page" in CopePen:
 
-<h4>HTML</h34>
+<h4>HTML</h4>
+
 ```xml
 <!DOCTYPE html>
 <html lang="en">
@@ -2800,6 +2797,7 @@ Please start with this "empty page" in CopePen:
 </body>
 </html>
 ```
+
 ```xml
 <!DOCTYPE html>
 <html lang="en">
@@ -2832,6 +2830,7 @@ This is going to be my favorite recipe.
 </body>
 </html>
 ```
+
 <h3 id="ch2-1-1">2.1.1 Welcome to Module 2</h3>
 
 <!------------------------------------------------------------------------------------------------>
@@ -2909,20 +2908,20 @@ more.
 
 <h3 id="ch2-1-3">2.1.3 Module 2 - Content</h3>
 
-**2.1 Introduction: **Check out this video explaining what you'll be
+<b>2.1 Introduction:</b> Check out this video explaining what you'll be
 learning about in Module 2 - and wrap your mind around the concept of
 "semantic markup".
 
-**2.2 Attributes: **Here you will build on to what you have already
+<b>2.2 Attributes:</b> Here you will build on to what you have already
 learned about attributes.
 
-**2.3 Semantic meaning: **Explaining the difference between 'semantic'
+<b>2.3 Semantic meaning:</b> Explaining the difference between 'semantic'
 and 'style'.
 
-**2.4 images: **Learn how, when, and where to best utilize images in
+<b>2.4 images:</b> Learn how, when, and where to best utilize images in
 your Web pages.
 
-**2.5 Hyperlinks: **They are the connections that allow the world to
+<b>2.5 Hyperlinks:</b> They are the connections that allow the world to
 jump from place to place on the Web. Explore the secrets of this
 powerful mechanism!
 
@@ -2931,7 +2930,8 @@ powerful mechanism!
 We learned a little bit about what attributes are in the previous
 module. Let's look into it in more depth, by using examples.
 
-Here is an ordered list:
+<h4>Here is an ordered list:</h4>
+
 ```xml
 1.  <ol>
 2.    <li>Lights</li>
@@ -2939,16 +2939,18 @@ Here is an ordered list:
 4.    <li>Action</li>
 5.  </ol>
 ```
-Output:
+
+<h4>Output:</h4>
+
 ```
  1. Lights
-
  2. Camera
-
  3. Action
 ```
+
 If i want an ordered list to start with the number 5 instead of 1 (as it
 does by default), let's code like this:
+
 ```xml
   <ol start="5">
     <li>Lights</li>
@@ -2956,11 +2958,14 @@ does by default), let's code like this:
     <li>Action</li>
   </ol>
 ```
-Output:
 
+<h4>Output:</h4>
+
+```
 5. Lights
 6. Camera
 7. Action
+```
 
 Here, using the start attribute, we made our list start with 5 instead
 of 1.
@@ -2969,9 +2974,9 @@ Like start, we have many useful attributes we will see in this section
 that can affect your element. Attributes are a significant part of HTML.
 Tags and attributes make up the language. 
 
-Syntax:
+<h4>Syntax:</h4>
 
-Attributes are used in tags to further define the tag:
+<h4>Attributes are used in tags to further define the tag:</h4>
 
 -   It is used inside the opening tag it is applied to and should be
     added after a space from the tag name: \<ol start="5"\>.
@@ -2999,13 +3004,15 @@ Attributes are used in tags to further define the tag:
        \<ol id="cinema" class="attribute-list" start="5"\>\</ol\>  
        \<ol start="5" class="attribute-list"\>\</ol\>
 
-### Example \#1: the 'id' attribute
+<h4>Example #1: the 'id' attribute</h4>
 
-Imagine you have two paragraphs in your HTML page:
+<h4>Imagine you have two paragraphs in your HTML page:</h4>
+
 ```xml
   <p>I am paragraph 1 and I want to be in red</p>
   <p>I am paragraph 2 and I want to be in blue</p>
 ```
+
 Your task is to make the text color of the first paragraph red and the
 other blue. How do we do that? You add styling to your HTML document
 through CSS. CSS is a style sheet language where you add any
@@ -3020,16 +3027,18 @@ name we give each element is called an 'ID'. This is very similar to
 your school or corporate ID that is unique to you. No one else in your
 company will have the same ID as you. id is an attribute. It should be
 unique to the element; we know how more than one people having the same
-ID can just cause a lot of confusion. 
+ID can just cause a lot of confusion.
+
 ```xml
   <p id="para1">I am paragraph 1 and I want to be in red</p>
   <p id="para2">I am paragraph 2 and I want to be in blue</p>
 ```
+
 Here, we can style para1 and para2 separately using CSS.
 The id attribute helps us do this by letting us give each paragraph an
 ID.
 
-### Example \#2: the 'class' attribute
+<h4>Example #2: the 'class' attribute</h4>
 
 A similar attribute is class. class like id is a very useful attribute
 and one you will be using very frequently. Let's assume you are an
@@ -3039,12 +3048,14 @@ them in your new book. You add IDs for them: 'poem1', 'poem2', 'poem3'.
 You want your poems to look different from your other text. Grey text
 color, italic and bold. Like this:
 
+```
 ***To move, to breathe, to fly, to float,***  
 ***To gain all while you give,***  
 ***To roam the roads of lands remote,***  
 ***To travel is to live.***
 
 ***- Hans Christian Andersen***
+```
 
 All poems have the same requirements.
 
@@ -3060,13 +3071,15 @@ just phrase it in English) -
 Can you imagine how repetitive your style sheet will look if you have to
 instruct it to do the same thing 20 times for different poem IDs? HTML
 makes it easier. We use the class attribute. Let's name this class of
-poems 'poetry'. 
+poems 'poetry'.
+
 ```xml
   <p id="poem1" class="poetry">To move, to breathe, to fly, to
     float...</p>
   <p id="poem2" class="poetry">Roses are red, violets are
     blue...</p>
 ```
+
 So now, all you have to do in your style sheet, is to instruct it to
 make all elements belonging to the 'poetry' class grey, italic and
 bold. 
@@ -3077,10 +3090,10 @@ You have seen a few examples of attributes now: start, id and class. All
 HTML elements have attributes.
 
 There are two kinds of attributes:
-
--   Global
-
--   Non-global
+<ul>
+<li>Global</li>
+<li>Non-global</li>
+</ul>
 
 <h4>Global attributes</h4>
 
@@ -3091,6 +3104,7 @@ attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes#
 the values they accept.
 
 Attributes like id and class can be applied to any HTML tag.
+
 ```xml
 <p id="para1" class="poetry" lang="en">The global attribute lang
 takes language codes for values. The code for English is 'en'.</p>  
@@ -3099,6 +3113,7 @@ that the contents of this document will be in french.
 <ul id="intro-list"></ul>
 <pre class="html-code"></pre>
 ```
+
 <h4>Non-global attributes</h4>
 
 <b>Non-global attributes</b> are attributes applied to a specific instance
@@ -3110,7 +3125,8 @@ is reversed, which we learned in the last unit as an example of a
 boolean attribute. The non-global attribute width can be applied to
 several tags such as \<img\>, \<input\> and \<video\>.
 
-**Without** the boolean attribute reversed:
+<h4><b>Without</b> the boolean attribute reversed:</h4>
+
 ```xml
   <ol>
      <li>HTML5</li>
@@ -3118,7 +3134,9 @@ several tags such as \<img\>, \<input\> and \<video\>.
      <li>JavaScript</li>
   </ol>
 ```
-**With** the boolean attribute reversed:
+
+<h4><b>With</b> the boolean attribute reversed:</h4>
+
 ```xml
   <ol reversed>
      <li>HTML5</li>
@@ -3144,8 +3162,8 @@ The image \<img\> and hyperlink \<a\> elements, which we will be
 learning about shortly, have many non-global attributes of their own.
 
 ```
-<b>\<img\>  :</b> src, alt, etc.
-<b>\<a\></b>  : href, target, download, etc.
+<b><img>  :</b> src, alt, etc.
+<b><a></b>  : href, target, download, etc.
 ```
 
 Other than the common global attributes, if you wish to learn about the
@@ -3154,18 +3172,18 @@ attribute
 reference</a> available
 at the Mozilla Developer Network (MDN).
 
-**Important: **Throughout the course, using the MDN attribute reference,
+<b>Important:</b> Throughout the course, using the MDN attribute reference,
 you are encouraged to explore non-global attributes for the elements you
 learn about or would like to use in your Web pages. In the MDN attribute
 reference list, you can click on the element's hyperlinked name to be
 navigated to its page that lists supported attributes for that element.
 
-**Try this:** Navigate to the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes">HTML attribute
+<b>Try this:</b> Navigate to the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes">HTML attribute
 reference</a> at
 Mozilla Developer Network and find out which element(s) the
 attributes muted and readonly can be applied to. 
 
-**Try this:** Navigate to the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes">HTML attribute
+<b>Try this:</b> Navigate to the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes">HTML attribute
 reference</a> at Mozilla
 Developer Network and find out the non-global attributes that can be
 applied to the &lt;li&gt; tag. Search for the &lt;li&gt; element and then click
@@ -3195,28 +3213,26 @@ Naming rules for id attribute:
     and so legal but it would be extremely confusing to do this!,</li>
 </ul>
 
+```
 1.  \<p id="question-about-html"\>How many times can a particular 'id'
     value be used in an HTML document?\</p\>
-
 2.  \<p id="html-answer"\>Once\</p\>
+```
 
-id is primarily used for:
+<h4>id is primarily used for:</h4>
 
 1.  Styling your element. You can specify the style you want for the
     element in your style sheet by referencing the 'id'.   
     Using CSS, you can specify code that will give different styles to
     "question-about-html" (e.g.: purple text, center-aligned) and
     "html-answer"  (e.g.: green text)
-
 2.  Specifying a link target. We will be learning about hyperlinks later
     in this section. You can link to a section of your HTML page using
     the 'id' of the section. You should reference the 'id' value with a
     number sign preceding it - '#id-value'
-
     1.  \<a href="#introduction"\>1.1 Introduction\</a\> \<!-- This is a
         > hyperlink element which we will learn about later in this week
         > --\>
-
     2.  \<p id="introduction"\>This paragraph is the Introduction to the
         > Web page\</p\>
 
@@ -3231,19 +3247,23 @@ the same class. Its name-value pair is class="classname".
 Unlike id, which is unique to an element, the same class name can be
 assigned to more than one element.
 
-For example:
+<h4>For example:</h4>
+
 ```
   <p class="question">What is your name?</p>
   <p class="question">Do you like HTML5?</p>
 ```
+
 Both paragraphs above are grouped under the class named 'question'. An
 element can have one or more class names. If we also want the second
 question to be under the 'html' class because it is an HTML related
 question, you can add two class names by separating them with white
 space:
+
 ```
 <p class="question html">Do you like HTML5?</p>
 ```
+
 Naming rules for the class attribute:
 <ul>
 <li>Must begin with a letter (a-z or A-Z).</li>
@@ -3252,16 +3272,18 @@ Naming rules for the class attribute:
 <li>Values are case-sensitive.</li>
 </ul>
 
-class is primarily used for:
+<h4>class is primarily used for:</h4>
 
 1\. Styling your elements. You can specify the style you want for all
 the elements that belong to the class in your stylesheet. 
+
 ```xml
 <p class="question">Who are you?</p>
 <p class="answer">I am the author</p>
 <p class="question html">Do you like HTML5?</p>
 <p class="answer">Yes</p>
 ```
+
 In your CSS, you can include code to style your classes, for example by
 telling it:
 
@@ -3319,7 +3341,7 @@ You should **always declare the language of your page in the
 \<html\> tag**.  You can also declare the language of content within the
 page by attaching a lang attribute to an element that contains it.
 
-For example:
+<h4>For example:</h4>
 
 ```xml
 <html lang="en-GB">...</html>
@@ -3354,7 +3376,7 @@ Don't click on it, just rest your cursor there. 
 <p align="center" width="100%">
 <img src="./images/image022.jpeg?raw=true"
    width="25%"
-   alt="Example image of a girl with a beautiful smile to illustrate title attribute" />
+   alt="Example image of a girl with a beautiful smile to illustrate title attribute." />
 </p>
 
 Did you see the two "secret" messages? A message that appears when you
@@ -3365,9 +3387,10 @@ on abbreviations or add some context. For images, you should use
 an alt attribute as there is no guarantee that the title attribute will
 be presented to assistive technology users. The title can be any text
 value. 
-
-1.  \<abbr title="National Aeronautics and Space
-    Administration"\>NASA\</abbr\>
+```
+1.  <abbr title="National Aeronautics and Space
+    Administration">NASA</abbr>
+```
 	
 <h3 id="ch2-2-4">2.2.4 Global Attributes</h3>
 
@@ -3586,17 +3609,19 @@ It seems redundant for two tags to do the same thing in HTML.
 While \<b\> and \<strong\>, \<i\> and \<em\> seem no different in a
 regular Web browser there is an important difference between them.
 
-### Semantic vs Style tags
+<h4>Semantic vs Style tags</h4>
 
 The four tags we saw above can be categorized into style and semantic
 tags.
 
-**Style tags**, in HTML4, focused purely on presentation and design. It
+<b>Style tags</b>, in HTML4, focused purely on presentation and design. It
 only talked about how the text should look like on the screen. 
 
-Semantic refers to the meaning of words in a language. **Semantic
-tags** said something about the semantic of the tag. It offered
-meaning. 
+Semantic refers to the meaning of words in a language. <b>Semantic
+tags</b> said something about the semantic of the tag. It offered
+meaning.
+
+```
 a
 <table>
 <colgroup>
@@ -3638,17 +3663,18 @@ Text is bold by default in a browser</td>
 </tr>
 </tbody>
 </table>
+```
 
-### \<b\> vs \<strong\>
+<h4>&lt;b&gt; vs &lt;strong&gt;</h4>
 
-**Bold** is a style that makes letters thicker so it stands out among
+<b>Bold</b> is a style that makes letters thicker so it stands out among
 other text but it has no semantic meaning, for example for voice
 browsers, screen readers, and other types of ways to access the Web. A
 device like [Kindle
 Paperwhite](https://en.wikipedia.org/wiki/Amazon_Kindle#Kindle_Paperwhite_.281st_generation.29) that
 renders text differently, might not pick up the bold.
 
-**Strong** is an indication of how something should be. It looks like
+<b>Strong</b> is an indication of how something should be. It looks like
 bold in a browser, but it could mean ‘speak with urgency or seriousness’
 when reading text aloud. It is semantic in the sense, that we instruct
 it to be stronger than the text it surrounds which is different from
@@ -3662,7 +3688,7 @@ The 'must' may be bolded in a browser. But when reading the HTML
 document out loud by a text-to-speech program, it can be spoken with
 importance or seriousness.
 
-### \<i\> vs \<em\>
+<h4>&lt;i&gt; vs &lt;em&gt;</h4>
 
 ***Italics** *slants text. We usually italicize names of magazine,
 books, TV shows etc. Just like the bold tag, since it is meant purely
@@ -3818,7 +3844,7 @@ includes content related to page navigation or a header indicates
 introductory content. It provides the structure and consistent behavior
 across many webpages providing simpler and more direct information to
 browsers making life easier for them. It also improves
-the **accessibility** of webpages. Assistive technologies depend on the
+the <b>accessibility</b> of webpages. Assistive technologies depend on the
 structure of the document to present information to the users. If a
 screen reader can correctly determine the structure of a document, it
 reads the document more seamlessly and avoids irrelevant information or
@@ -4167,6 +4193,7 @@ actually create a sidebar in your page. Sidebar is a user interface (UI)
 element and must be styled to achieve the look of a sidebar. The
 following code will only create structure to your document, not any
 visual change:
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -4189,6 +4216,7 @@ showcased in the paragraph -->
 </article>
 </body>
 ```
+
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 29.  (##) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4200,12 +4228,12 @@ showcased in the paragraph -->
 
 <h4>Lesser known semantic elements (OPTIONAL)</h4>
 
-**Note:** This section is optional material included for the curious. It
+<b>Note:</b> This section is optional material included for the curious. It
 will not appear on any graded question.
 
 We will look at a few more semantic elements that are commonly in use
-but lesser known. 
-```
+but lesser known.
+
 <table>
 <colgroup>
 <col style="width: 13%" />
@@ -4254,7 +4282,6 @@ Los Angeles, USA<br />
 </tr>
 </tbody>
 </table>
-```
 
 Apart from
 these, \<cite\>, \<em\>, \<strong\>, \<p\> and \<blockquote\> are also
@@ -4301,7 +4328,7 @@ element. **Here's a simplified version**:
 6.   
 7.    <h1>HTML 5.2</h1>
 8.    <h2>W3C Recommendation, 14 December 2017</h2>
-9.  </header\>
+9.  </header>
 ```
 
 <!------------------------------------------------------------------------------------------------>
@@ -6602,8 +6629,9 @@ CSS can include "comments" as well, by which you, the developer today,
 can leave notes and reminders to you, a different developer tomorrow. Or
 to others who might read your CSS.  
 
-Comments begin with /\* and **must** end with \*/ and they can span
-several lines. But they **cannot** be nested.
+Comments begin with /\ and <b>must</b> end with \/ and they can span
+several lines. But they <b>cannot</b> be nested.
+
 ```
 1.  p {
 2.     font-size: 8px; /\* client insists small text makes them more
@@ -6620,6 +6648,7 @@ several lines. But they **cannot** be nested.
 11.    \*/
 12. }
 ```
+
 <h3>3.2.4 Knowledge Check</h3>
 
 n/a
@@ -6631,13 +6660,20 @@ have fun. We have a live coding demonstration in the next page working
 with the same source.
 
 You are welcome to edit the
-following [CodePen.](https://codepen.io/w3devcampus/pen/QvQgbr)
+following <a href="https://codepen.io/w3devcampus/pen/QvQgbr">CodePen.</a>
 
-<img src="./images/image054.png"
-style="width:6.5in;height:3.56597in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 54.  (##) -------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image054.png?raw=true"
+   width="65%"
+   alt="." />
+</p>
 
 ... or work from the lines of code below (to paste in your favorite Web
 editor):
+
 ```
 1.  <!DOCTYPE html>
 2.     <html lang="en">
@@ -6665,10 +6701,11 @@ editor):
 24.    </body>
 25. </html>
 ```
+
 You could also take another short text (such as a poem) and apply the
 styles you like on it.
 
-<h3>3.2.6 CSS Rules</h3>
+<h3 id="ch3-2-6">3.2.6 CSS Rules</h3>
 
 Hi, this is Adrian from Microsoft learning, and we're going to be
 learning today about CSS and HTML, and the ways in which they play
@@ -6868,12 +6905,12 @@ because there are so many that we learn in the lesson
 and I encourage you to mess around with them,
 and just sort of see what each one does.
 
-<h3 id="ch3-3">3.3.1 Common CSS Properties</h3>
+<h3 id="ch3-3-1">3.3.1 Common CSS Properties</h3>
 
-There are hundreds of CSS properties for you to use. The [complete
-list](https://www.w3.org/Style/CSS/all-properties.en.html) is available
-on the W3C Web site (or also, see the [CSS reference page on the MDN Web
-site](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)).
+There are hundreds of CSS properties for you to use. The <a href="https://www.w3.org/Style/CSS/all-properties.en.html">complete
+list</a> is available
+on the W3C Web site (or also, see the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">CSS reference page on the MDN Web
+site</a>).
 
 Below we've gathered a more manageable list of the most useful
 and common CSS
@@ -6936,16 +6973,16 @@ additional possible values like justify and justify-all . It usually
 defaults to left. However, remember that you shouldn't 
 use text-align unnecessarily.
 
-Note that text-align may ***not** *work as expected if applied to
+Note that text-align may <b>not</b> work as expected if applied to
 elements that are the same width as their text, or whose width is
 determined by the text within them (i.e., inline elements).  The
-tags** \<span\>, \<a\>, \<i\>, \<b\>, \<q\> **and others are considered
+tags \<span\>, \<a\>, \<i\>, \<b\>, \<q\> and others are considered
 "inline" because they do not receive their own new line when used.
 And text-align is often not useful on these tags.
 
 But it is useful on block level text tags, such
-as **\<p\>**, **\<li\>**, **\<ul\>**, **\<ol\>**, **\<div\>**,
-and **\<blockquote\>**
+as \<p\>, \<li\>, \<ul\>, \<ol\>, \<div\>,
+and \<blockquote\>
 
 ```
 p { text-align: left; }  
@@ -7035,12 +7072,12 @@ changed with CSS, and any tag can make its text italic or oblique with
 the font-style property.  The choices of values for this property
 are normal and italic.  
 
-| **font-style: normal;**                                                                                                                                    | **font-style: italic;**                                                                                                                                      |
+| <b>font-style: normal;</b>                                                                                                                                    | <b>font-style: italic;</b>                                                                                                                                      |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Many years later, as he faced the firing squad, Colonel Aureliano Buendía was to remember that distant afternoon when his father took him to discover ice. | *Many years later, as he faced the firing squad, Colonel Aureliano Buendía was to remember that distant afternoon when his father took him to discover ice.* |
+| Many years later, as he faced the firing squad, Colonel Aureliano Buendía was to remember that distant afternoon when his father took him to discover ice. | <i>Many years later, as he faced the firing squad, Colonel Aureliano Buendía was to remember that distant afternoon when his father took him to discover ice.</i> |
 ```
-font-family
-```
+<h4>font-family</h4>
+
 Want to set the font for an item on the page?   The font-family is the
 correct property for the task, but there are caveats:
 
@@ -7062,10 +7099,12 @@ To help ameliorate these limitations, the font-family property accepts
 a *list* of possible font choices.  The browser will start with trying
 the first font listed, and if not available (or not having a needed
 glyph) it will then proceed to the next font in the list, and so on.
- Here is a typical font-family declaration:
+Here is a typical font-family declaration:
+
 ```
 p { font-family: "Helvetica", "Verdana", "Arial", sans-serif; }
 ```
+
 The rule above says to first try the font named "Helvetica". If it isn't
 available, try "Verdana", failing that "Arial", and lastly fall back to
 the built in sans-serif browser font.
@@ -7073,10 +7112,10 @@ the built in sans-serif browser font.
 -   each of the named font families is separated by a comma ( , )
 
 -   if the font family name contains any spaces (or certain other
-    characters) it **must** be surrounded by quotes. Font names tend to
+    characters) it <b>must</b> be surrounded by quotes. Font names tend to
     be complex, and the exact rules for when quotes are required are
-    arcane, so the simplest and best practice is to **always surround
-    the font family name in quotes**, excepting the five built-ins
+    arcane, so the simplest and best practice is to <b>always surround
+    the font family name in quotes</b>, excepting the five built-ins
     (serif, sans-serif, etc.)
 
 Web fonts are outside the scope of this course. Google provides a nice
@@ -7096,27 +7135,30 @@ The margin can be a bit confusing.  Depending upon context, it will
 space an item away from its immediate neighbors (in the HTML) or from
 the edges of its parent. Also, there is not only one margin property,
 but five:
-```
-p { margin: 10px; }  /\* a 10 pixel margin will be applied around all
-four sides of the item \*/
 
+```
+p { margin: 10px; }  /* a 10 pixel margin will be applied around all
+four sides of the item */
 p {  
  margin-left: 10px;   
  margin-right: 10px;  
  margin-top: 10px;     
  margin-bottom: 10px; }
 ```
-Color
+
+<h4>Color</h4>
 
 The color property can be used to set the text color of an element.
 There are several possible formats for the value.
 
 <h4>Named colors</h4>
+
 ```
-p { color: blue; }  
-b { color: transparent; } /\* transparent \*/  
+p { color: blue; }
+b { color: transparent; } /* transparent */
 i { color: lightgrey; }
 ```
+
 There are scores of different names. The most common English names for
 colors are all supported, plus many others.
 
@@ -7126,19 +7168,23 @@ the display:none; or visibility:hidden; rules are preferred. They are
 discussed in a future section.
 
 <h4>rgb/rgba</h4>
+
 ```
 p { color: rgb(10, 200, 255); }  
 p { color: rgb(0, 0, 0); } /\* 0,0,0 is black \*/  
 p { color: rgb(255, 255, 255); } /\* 255,255,255 is white \*/  
 b { color: rgba(10, 200, 255, 0.5); }  /\* semi-transparent \*/
 ```
+
 Generally, any color on a computer is exactly specified by mixing three
 components together: red, green, and blue. The amount of each component
 falls within a range between 0 and 255.   So the rgb() function can be
-used to specify a color.  
+used to specify a color.
+
 ```
 rgb( red, green, blue);  
 ```
+
 parenthesis required, commas between each component.
 
 Similarly, the rgba() function can be used for semi-transparent colors.
@@ -7146,9 +7192,11 @@ The fourth value is for the "alpha channel" (thus the "a" in "rgba") and
 means the opacity. It is a number between 0 and 1 (for example, 0.5 ).
 
 <h4>Hex code</h4>
+
 ```
 p { color: #3A2BFF; }
 ```
+
 Quicker than the lengthy rgb() function is simply providing
 an [hexadecimal (hex) code](https://en.wikipedia.org/wiki/Hexadecimal).
 This always starts with the pound sign (#) and is followed by three
@@ -7179,12 +7227,14 @@ px are useful for both horizontal and vertical dimensions. 
 units are usually used for vertical dimensions.  One 'em' maps to the
 height of one capital letter in the* parent context*.   
 
-li { font-size: 0.9em; }  /\* text in a list item is smaller than its
-parents \*/  
-h1 { font-size: 1.2em; }  /\* but an h1 will be bigger than the
-parent \*/  
-i  { font-size: 0.5em; }  /\* and any italicized text will be half as
-big. \*/
+```
+li { font-size: 0.9em; }  /* text in a list item is smaller than its
+parents */  
+h1 { font-size: 1.2em; }  /* but an h1 will be bigger than the
+parent */  
+i  { font-size: 0.5em; }  /* and any italicized text will be half as
+big. */
+```
 
 All the text sizes above are relative to the pages base sizes.  You'll
 see radically different results on the rest of the page from either of
@@ -7210,21 +7260,23 @@ same size.
 Note: to ensure you are setting the root size,
 use ***both*** the html and body selectors.
 
-html, body { font-size: 20px; } 
+<h4>html, body { font-size: 20px; }</h4>
 
 <h4>%</h4>
 
 Whereas em is a measure relative to the parents text size, the
 percentage unit (%) is relative to the parent dimension.  This is a
 useful unit for both horizontal and vertical dimensions, though often
-more useful in the horizontal.  
+more useful in the horizontal.
+
 ```
-p {   
-  margin-left:  10%;  
-  margin-right: 10%;  /\* 10% of parent width will be spent on the two
-side margins \*/  
- } 
+p {
+  margin-left:  10%;
+  margin-right: 10%;  /* 10% of parent width will be spent on the two
+side margins */
+ }
 ```
+
 Initially, the percentage unit may seem very handy (and it is), and many
 developers fall in love with it. But the love affair is usually short
 lived. One of the limitations of this rule is that for it to work
@@ -7243,14 +7295,16 @@ dimensions.
 
 vh and vw do not suffer the parent limitation that the % unit does.
  Most modern browsers support these units, but there are some exceptions
-on older mobile browsers. 
+on older mobile browsers.
+
 ```
-p {   
-  margin-left:  10vw;  
-  margin-right: 10vw;  /\* 10% of screen width will be spent on the two
-side margins \*/  
+p {
+  margin-left:  10vw;
+  margin-right: 10vw;  /* 10% of screen width will be spent on the two
+side margins */
  }
 ```
+
 <h4>External resources</h4>
 
 The list of CSS units above is not exhaustive. There are various
@@ -7341,7 +7395,7 @@ Contrast-Finder](http://contrast-finder.tanaguru.com/) or [Juicy Studio
 Luminosity Colour Contrast Ratio
 Analyser](http://juicystudio.com/services/luminositycontrastratio.php).
 
-text-align
+<h4>text-align</h4>
 
 Any long passage of text should have its alignment match its reading
 order. Which means, if the language is English, which is read left to
@@ -7352,7 +7406,7 @@ Obviously, a header or perhaps a menu might be exempt, because they are
 not typically long passages of text. So this guideline doesn't mean an
 end to good page layout and typography.
 
-Summary
+<h4>Summary</h4>
 
 So now, we've seen how typography can affect the accessibility and
 applicability of your page. It is not so very difficult. Common sense
@@ -7372,9 +7426,11 @@ properties that are available for lists.
 list-style-type governs the little list marker that is usually
 positioned to the left of any list item.  For un-ordered lists (\<ul\>),
 there are several popular values: disc, circle, square, and none.
+
 ```
 li { list-style-type: disc; }
 ```
+
 <table>
 <colgroup>
 <col style="width: 21%" />
@@ -7506,7 +7562,6 @@ inside the box of the list, or outside. This is most evident if a border
 or background or similar is applied to the list. Below, we have put a
 blue border on the list. 
 
-```
 <table>
 <colgroup>
 <col style="width: 50%" />
@@ -7533,7 +7588,6 @@ blue border on the list. 
 </tr>
 </tbody>
 </table>
-```
 
 <h4>list-style-image</h4>
 
@@ -7543,9 +7597,11 @@ compatible format (PNG or JPEG recommended) and to know the path from
 the place where the CSS is being defined to the image.  Image pathnames
 were covered in Module 2, and we'll be discussing them again in the
 background-image section. 
+
 ```
 li { list-style-image: url("my_triangle.png"); }
 ```
+
 Note that the browser will do little more than draw the image.  There is
 no guarantee to scale the image or assist with spacing or alignment.
  Many users find list-style-image to be frustrating and instead use
@@ -7555,10 +7611,13 @@ section dedicated to the background-image property.  
 <h3 id="ch3-4-2">3.4.2 Selectors</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 55.  (###) -------------------------------------->
+<!---------------------------- 55. selector and declaration (161) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="./images/image055.png"
-style="width:4in;height:3.26381in" />
+<p align="center" width="100%">
+<img src="./images/image055.png?raw=true"
+   width="40%"
+   alt="Selector and declaration." />
+</p>
 
 Earlier, we learned that a CSS rule is made up of two parts: the
 selector and the declaration. We've seen quite a few different
@@ -7571,10 +7630,11 @@ interesting and useful ways. So let's learn some more CSS selectors.
 We've already seen this one. A CSS selector that consists solely of a
 single tag (without punctuation or spacing) will be applied to any
 matching tag on the page.
+```
+<b>li</b> { list-style-type: circle; }
+```
 
-**li **{ list-style-type: circle; }
-
-### id selector
+<h4>id selector</h4>
 
 You may remember the id attribute (short for "identifier"). This
 attribute can be applied to an HTML tag to uniquely identify the
@@ -7588,18 +7648,22 @@ individually, we can apply unique id attributes to the paragraphs
 (id="p18" and id="p19"). In the CSS, we will use the id selector.  The
 id selector is simply a hash sign (#) followed directly by the id.  
 
-<h4>CSS:</h4>
+<h5>CSS:</h5>
 
-**\#p18** { color: blue; }  
-**\#p19** { color: green; }
+```
+#p18 { color: blue; }  
+#p19 { color: green; }
+```
 
 <h5>HTML:</h5>
+
 ```
 <p id="p18">He is Ulysses, a man of great craft, son of Laertes. He
 was born in rugged Ithaca, and excels in all manner of stratagems and
 subtle cunning.</p>
 <p id="p19">Madam, you have spoken truly.</p>
 ```
+
 <h4>Result:</h4>
 
 <table>
@@ -7626,6 +7690,7 @@ by multiple tags. And, multiple classes can be assigned to a tag by
 simply separating them with spaces.  
 
 <h5>HTML:</h5>
+
 ```
 <ul>  
 <li class="bird flying">eagle</li>
@@ -7634,10 +7699,12 @@ simply separating them with spaces.  
 <li class="insect flying">moth</li>
 </ul>
 ```
+
 The class selector is simply a period (.) followed by the class name
 itself.
 
-<h4>CSS:</h4>
+<h5>CSS:</h5>
+
 ```
 <b>.bird</b>   { color: blue; }  
 <b>.insect</b> { color: green; }  
@@ -7645,6 +7712,7 @@ itself.
 ```
 
 <h4>Result:</h4>
+
 ```xml
 <table>
 <colgroup>
@@ -7664,6 +7732,7 @@ itself.
 </tbody>
 </table>
 ```
+
 <h3 id="ch3-4-3">3.4.3 Combining Selectors</h3>
 
 Being able to define a CSS selector in terms of a tag, class or id is
@@ -7719,6 +7788,7 @@ The joined version on the right is much easier to read and maintain.  
 
 If the "speech" items need to also be bold, that can simply be added by
 an additional rule:
+
 ```
 blockquote,  
 q,  
@@ -7733,10 +7803,11 @@ q,
 
 If two selectors of different types (like tag and class) appear next to
 each other with no spacing separating them, then they form a
-specialized selector. To match, a candidate must match **both** rules.
- If a tag selector is used, it must appear first.  
+specialized selector. To match, a candidate must match <b>both</b> rules.
+If a tag selector is used, it must appear first.
 
 This is most useful with class and tag selectors, like so:
+
 ```
 blockquote.speech { font-color: green; }
 ```
@@ -7748,6 +7819,7 @@ class. Instead, it will only apply to those blockquotes that also have
 the speech class.
 
 It isn't unusual to see multiple classes joined this way as well:
+
 ```
 .insect.flying { text-decoration: underline; font-weight:bold; }
 ```
@@ -7765,28 +7837,29 @@ It isn't unusual to see multiple classes joined this way as well:
 
 In the following HTML, we see some paragraphs that have some links
 (\<a\>) inside. The link tags are inside the paragraphs, but not
-necessarily direct children.  
+necessarily direct children.
+
 ```
-1.  \<section id="intro"\>Welcome
-    to \<a href="#palaceland"\>PalaceLand\</a\>, world renown \<q\>Land
-    of endless palaces and \<a href="#delight"\>delights\</a\>\</q\>. As
+1.  <section id="intro">Welcome
+    to <a href="#palaceland">PalaceLand</a>, world renown <q>Land
+    of endless palaces and <a href="#delight">delights</a></q>. As
     you make your way about, remember the words of our
-    founder \<blockquote\>Shouldn't we
-    have \<a href="#chairs"\>chairs\</a\>? Never made much sense
+    founder <blockquote>Shouldn't we
+    have <a href="#chairs">chairs</a>? Never made much sense
     wandering room a room looking for a place to sit a spell. Folk that
     don't sit are not likely all right in
-    the \<a href="#head"\>head\</a\>\</blockquote\>\</section\>
+    the <a href="#head">head</a></blockquote></section>
 
-2.  \<section id="guideline"\>There are guidelines to follow while
-    in \<a href="#palaceland"\>PalaceLand\</a\>. They are outlined on
-    the back of your \<q\>Daring
-    Footman \<a href="#trademark"\>(tm)\</a\>\</q\> card. But the spirit
+2.  <section id="guideline">There are guidelines to follow while
+    in <a href="#palaceland">PalaceLand</a>. They are outlined on
+    the back of your <q>Daring
+    Footman <a href="#trademark">(tm)</a></q> card. But the spirit
     of the guidelines are best summed up by our
-    founder \<blockquote\>Don't just \<a href="#standthere"\>stand
-    there\</a\> with your mouth hanging open waiting for a pair of
-    nesting birds.\</blockquote\> (and
-    no \<a href="#camera_policy"\>flash
-    photography\</a\> please.)\</section\>
+    founder <blockquote>Don't just <a href="#standthere">stand
+    there</a> with your mouth hanging open waiting for a pair of
+    nesting birds.</blockquote> (and
+    no <a href="#camera_policy">flash
+    photography</a> please.)</section>
 ```
 
 What if we wanted all the links in the introductory section to be red,
@@ -7843,6 +7916,7 @@ photography</a> please.)</p></th>
 But what if we want the links in the founder blockquote in the intro
 section to be bold?  Again, a descendant selector will work.  We add
 this:
+
 ```
 #intro blockquote a { font-weight: bold; } 
 ```
@@ -7854,7 +7928,7 @@ the #intro section will now be bold.
 
 Sometimes you don't want to apply a style to any \_possible\_ child, but
 to only to the direct children.  This can be done with
-the **\>** symbol.  Use it between selectors to limit the application to
+the <b>\></b> symbol.  Use it between selectors to limit the application to
 the direct children of the parent. For example, this rule, if applied to
 the HTML of the previous selector, would cause the links in the intro
 section to be larger, but not the links in any nested quotes or
@@ -7864,11 +7938,12 @@ blockquotes. :
 #intro > a { font-size: large; }
 ```
 
-<h4>Everything selector (\*)</h4>
+<h4>Everything selector (*)</h4>
 
-The asterisk (\*) can be used to match **any** tag. By itself, this is
+The asterisk (\*) can be used to match <b>any</b> tag. By itself, this is
 only marginally useful. But combined with other selectors into a
 descendant selector, it can be pretty useful.
+
 ```
 body > * { margin-left: 10px; } /* all the _direct_ children of the
 body receive the margin */
@@ -7890,7 +7965,7 @@ Most CSS rules once applied to an element are *also* applied to all the
 children of that element, and to their children, and theirs *ad
 infinitum*. There are exceptions, notably the layout properties (margin,
 padding, position, width, etc.) and the decorative properties (border,
-background, etc.) **do not** cascade. This cascading of a CSS property
+background, etc.) <b>do not</b> cascade. This cascading of a CSS property
 from parent to child is also called "inheritance". 
 
 Generally, inheritance is a *good* thing. Do you want the whole page to
@@ -7915,6 +7990,7 @@ font-family to be monospace, and the padding is set to 40 pixels.  Note
 that in the result, the font-family is applied to all the
 children, while the padding is only applied to the paragraph itself,
 none of its children inherit the padding.
+
 ```html5
 <table>
 <colgroup>
@@ -7940,7 +8016,6 @@ turn, have their own child &lt;span&gt;spans&lt;/span&gt;.</p>
 of scopes.&lt;/q&gt;</p>
 <p>&lt;/p&gt;</p></td>
 <td><p>p {</p>
-```
 <p>/* inherited by children of p */</p>
 <p>font-family: monospace;</p>
 <p>/* not inherited */</p>
@@ -7970,8 +8045,9 @@ CSS rules are applied across a variety of scopes.</td>
 </tr>
 </tbody>
 </table>
+```
 
-### Which rules are inheritable?
+<h4>Which rules are inheritable?</h4>
 
 There is no reliable rule for which CSS properties are inheritable by
 default and which are not. However, generally, the properties associated
@@ -7979,7 +8055,7 @@ with positioning and layout are *not* inherited.  Likewise, the
 decorative properties (borders, background images, etc.) do not inherit.
  Most properties that begin with text- or font- inherit.
 
-### Precedence
+<h4>Precedence</h4>
 
 It is possible, and easy, to have several different CSS rules all
 applying to the same element.  This is often advantageous because most
@@ -7997,45 +8073,47 @@ CSS *precedence* comes into play. When rendering CSS, the browser has
 some guidelines it follows for resolving conflicting rules. Here is
 rough summary, in order:
 
-### 1 - Most specific rule
+<h4>1 - Most specific rule</h4>
 
 A more *specific* rule takes precedence over a less specific rule.  A
 rule that more tightly matches a particular element than a general rule
 will be applied. 
 
+```
 span { color: blue; }
-
 ul li span { color: red; }
+```
 
 In the example above, both rules are attempting to set a span color for
 a span inside a list item. However, the second rule will "win" when
 there is a conflict (like color in this case). 
 
-### 2 - #id selector is the most specific
+<h4>2 - #id selector is the most specific</h4>
 
 Rules with an id selector (e.g.  #someid ) are considered more specific
 than rules without.
 
-### 3- .class selector is more specific than a tag selector
+<h4>3- .class selector is more specific than a tag selector</h4>
 
 Rules employing a class selector (e.g. .someclass ) are considered more
 specific than rules without (but not as specific as an \#id selector,
 which trumps everything).
 
-### 4- Rules that come later override those that come earlier
+<h4>4- Rules that come later override those that come earlier</h4>
 
 This guideline is for two CSS rulesets with the same selector.  Where
 there are conflicts, the rules from the later one apply.  
 
+```
 .hortense { color: red; text-decoration: underline; }
-
 .hortense { color: blue; }
+```
 
 In the example above, an element with the .hortense class will be
-underlined and its color will be **blue**, because that rule came later
+underlined and its color will be <b>blue, because that rule came later
 than when it was set red.
 
-### No fear
+<h4>No fear</h4>
 
 These guidelines seem fairly straightforward, but situations can quickly
 get rather knotty.  For example, what color should we expect in this
@@ -8071,9 +8149,11 @@ see how you can use the tools in the browser itself to inspect your
 elements and see exactly what CSS rules and properties are being
 inherited, applied and what is their precedence.  
 
-### !important
+<h4>!important</h4>
 
+```
 p { color: orange !important; }
+```
 
 Because multiple CSS selectors can resolve to the same element, and
 because the rules that govern precedence are complex, you may from time
@@ -8091,71 +8171,73 @@ conflict there is no escape.  If you are having problems with precedence
 the best advice is to fix them directly, rather than using !important.
 
 <h3 id="ch3-4-6">3.4.6 Recipe</h3>
-
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 57.  (###) -------------------------------------->
+<!------------------------------ 57.  (170) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="./images/image057.png"
-style="width:4in;height:2.78846in" />
+<p align="center" width="100%">
+<img src="./images/image057.png?raw=true"
+   width="40%"
+   alt="." />
+</p>
 
 ```xml
-<!DOCTYPE html\>
-<html lang="en"\>
-<head\>
-<meta charset="UTF-8"\>
-<title\>My Favorite Recipes - Module 2\</title\>
-</head\>
-<body\>
-<h1\>My Favorite Recipes\</h1\>
-<nav\>
-<ul\>
-<li\>\<a href="#soup"\>Soup\</a\>\</li\>
-<li\>\<a href="#salad"\>Salad\</a\>\</li\>
-<li\>\<a href="#pizza"\>Pizza\</a\>\</li\>
-</ul\>
-</nav\>
-<article id="soup"\>
-<h2\>Soup\</h2\>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My Favorite Recipes - Module 2\</title\>
+</head>
+<body>
+<h1>My Favorite Recipes</h1>
+<nav>
+<ul>
+<li><a href="#soup">Soup</a></li>
+<li><a href="#salad">Salad</a></li>
+<li><a href="#pizza">Pizza</a></li>
+</ul>
+</nav>
+<article id="soup">
+<h2>Soup</h2>
 <img
 src="https://upload.wikimedia.org/wikipedia/commons/2/22/Bol_soupe_bicolore.jpg"
-alt="soup image" width=320\>
-<p\>
-Beethoven once said \<q\>Only the pure of heart can make a good
-soup\</q\>. Well, here's my attempt at doing just that!
-</p\>
-<ol\>
-<li>Step 1\</li\>
-<li>Step 2\</li\>
-<li>Step 3\</li\>
-<li>Enjoy!\</li\>
+alt="soup image" width=320>
+<p>
+Beethoven once said <q>Only the pure of heart can make a good
+soup\</q>. Well, here's my attempt at doing just that!
+</p>
+<ol>
+<li>Step 1</li>
+<li>Step 2</li>
+<li>Step 3</li>
+<li>Enjoy!</li>
 </ol>
 </article>
 <article id="salad">
 <h2>Salad</h2>
 <img
 src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Caesar_salad_%281%29.jpg/320px-Caesar_salad_%281%29.jpg"
-alt="salad image" width=320\>
-<h3\>List of ingredients\</h3\>
-<ul\>
-<li\>Ingredient 1\</li\>
-<li\>Ingredient 2\</li\>
-<li\>Ingredient 3\</li\>
-</ul\>
-<p\>
+alt="salad image" width=320>
+<h3>List of ingredients</h3>
+<ul>
+<li>Ingredient 1</li>
+<li>Ingredient 2</li>
+<li>Ingredient 3</li>
+</ul>
+<p>
 Who can resist a fresh salad ! Here's one of my favorites.
-</p\>
-<ol\>
-<li\>Step 1\</li\>
-<li\>Step 2\</li\>
-<li\>Step 3\</li\>
-<li\>Enjoy!\</li\>
-</ol\>
-</article\>
-<article id="pizza"\>
-<h2\>Pizza\</h2\>
+</p>
+<ol>
+<li>Step 1</li>
+<li>Step 2</li>
+<li>Step 3</li>
+<li>Enjoy!</li>
+</ol>
+</article>
+<article id="pizza">
+<h2>Pizza</h2>
 <img
 src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Margherita_Originale.JPG/320px-Margherita_Originale.JPG"
-alt="pizza image" width=320\>
+alt="pizza image" width=320>
 <p>
 Pizza, the king of comfort foods. Try this simple, taste sensation.
 </p>
@@ -8169,29 +8251,32 @@ Pizza, the king of comfort foods. Try this simple, taste sensation.
 </body>
 </html>
 ```
-<h3 id="ch4-1">4.1.1 Welcome to Module 4</h3>
 
+<h3 id="ch4-1-1">4.1.1 Welcome to Module 4</h3>
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 58.  (###) -------------------------------------->
+<!-------------------------- 58. module 4: fixing and debugging (176) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="./images/image058.png"
-style="width:3in;height:3.3038in" />
+<p align="center" width="100%">
+<img src="./images/image058.png?raw=true"
+   width="30%"
+   alt="Module 4: Fixing and debugging." />
+</p>
 
 <h3 id="ch4-1">4.1.2 Content</h3>
 
-**4.1 Introduction: **You will now begin learning how to fix your Web
+<b>4.1 Introduction:</b> You will now begin learning how to fix your Web
 page when it's not doing what you hoped it would do.
 
-**4.2 Tools: **Learn about tools and accessibility and how they relate
+<b>4.2 Tools:</b> Learn about tools and accessibility and how they relate
 to debugging.
 
-**4.3 The Box Model: **Understanding the CSS Box Model and how to
+<b>4.3 The Box Model:</b> Understanding the CSS Box Model and how to
 control the spacing of elements on the page.
 
-**4.4 Precedence: **Which style controls what? — using the debugger in
+<b>4.4 Precedence:</b> Which style controls what? — using the debugger in
 the browser to understand conflicting rules.
 
-**4.5 Give Your Mind a Workout: **Let’s see what you have learned about
+<b>4.5 Give Your Mind a Workout:</b> Let’s see what you have learned about
 debugging your code.
 
 <h3 id="ch4-2">4.2.1 Tools</h3>
@@ -8213,7 +8298,7 @@ yourself if you've ever tried the "Show Source" button, but perhaps the
 most important tool that we have yet to explore is the debugger
 activated when you "Inspect Element".
 
-### Accessibility
+<h4>Accessibility</h4>
 
 While it's important that your page looks and acts the way you intend,
 there are other considerations as well. One important aspect is
@@ -8491,9 +8576,11 @@ padding.
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 65.  (###) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="./images/image065.png"
-style="width:3in;height:1.488in"
-alt="Image showing 3 blocks and they all have a thin border directly around their respective texts: &#39;Block 1&#39;, &#39;Block 2&#39;, &#39;Block 3&#39;." />
+<p align="center" width="100%">
+<img src="./images/image065.png?raw=true"
+   width="30%"
+   alt="Image showing 3 blocks and they all have a thin border directly around their respective texts: &#39;Block 1&#39;, &#39;Block 2&#39;, &#39;Block 3&#39;." />
+</p>
 
 Here we've got a thin border directly around the content to delineate
 where the content ends and the padding begins.  Again, the contents are
@@ -8507,8 +8594,8 @@ the contents and the border:
 <!----------------------------------- 66.  (###) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <img src="./images/image066.png"
-style="width:3in;height:1.404in"
-alt="Image showing 3 blocks that have padding with borders, in addition to the thin border aroung their texts &#39;Block 1&#39;, &#39;Block 2&#39;, &#39;Block 3&#39;." />
+   width="30%"
+   alt="Image showing 3 blocks that have padding with borders, in addition to the thin border aroung their texts &#39;Block 1&#39;, &#39;Block 2&#39;, &#39;Block 3&#39;." />
 
 All of these can have a width of 0, which is equivalent to not having
 them, thus 'margin: 0;'  is the same as 'margin: none;'.  Each can be
@@ -8543,7 +8630,7 @@ like this:
 <p align="center" width="100%">
 <img src="./images/image068.png?raw=true"
    width="30%"
-   alt="image of a CSS Box Model which content is described in the following text of this page." />
+   alt="Image of a CSS Box Model which content is described in the following text of this page." />
 </p>
 
 This is an example of a diagram of the box model information for a
@@ -8557,18 +8644,15 @@ on the rendered page, so you can see exactly where the margin, the
 border, the padding and the element are.
 
 So, in the example above:
-
--   the centered blue box corresponds to the size of the inspected
-    element: width is 536 pixels and height is 118 pixels
-
--   padding is only defined by padding-left which value is 40 pixels
-
--   there is a border of 5 pixels on each side
-
--   margin-left and margin-right are undefined (default value is 0
-    pixel)
-
--   margin-top and margin-bottom are equal to 16 pixels
+<ul>
+<li>the centered blue box corresponds to the size of the inspected
+    element: width is 536 pixels and height is 118 pixels,</li>
+<li>padding is only defined by padding-left which value is 40 pixels,
+<li>there is a border of 5 pixels on each side,</li>
+<li>margin-left and margin-right are undefined (default value is 0
+    pixel),</li>
+<li>margin-top and margin-bottom are equal to 16 pixels.</li>
+</ul>
 
 <h3>4.3.3 Box model</h3>
 
@@ -8596,6 +8680,7 @@ could apply to the same element. Consider the following example:
 </p>
 
 <h4>CSS</h4>
+
 ```
 h1{
 color:blue;
@@ -8610,7 +8695,9 @@ color:grey;
 font-size:1.2rem;
 }
 ```
+
 <h4>HTML</h4>
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -9434,24 +9521,24 @@ style="width:3in;height:3.27103in" />
 
 <h3 id="ch5-1-2">5.1.2 Module 5 - Content</h3>
 
-**5.1 Introduction: **You will be combining HTML and CSS to create more
+<b>5.1 Introduction: </b>You will be combining HTML and CSS to create more
 complex pages.
 
-**5.2 Tables: **Tables can be a great way of organizing your content —
+<b>5.2 Tables: </b>Tables can be a great way of organizing your content —
 learn when to use tables, and when to avoid them.
 
-**5.3 Multimedia: **Learn the best methods for including audio and video
+<b>5.3 Multimedia: <b>Learn the best methods for including audio and video
 in your page.
 
-**5.4 Embedding content: **Learn about iframes and some advanced image
+<b>5.4 Embedding content: <b>Learn about iframes and some advanced image
 tag attributes, ismap and usemap. ***Note:** This section is optional
 material included for the curious. It will not appear on any graded
 question.*
 
-**5.5 CSS tricks: **Here, we will introduce some next level methods for
+<b>5.5 CSS tricks: <b>Here, we will introduce some next level methods for
 making awesome Web pages.
 
-**5.5 Recipe project: **Separate your CSS and HTML into their own files
+<b>5.5 Recipe project: <b>Separate your CSS and HTML into their own files
 for cleaner, easier coding.
 
 <h3 id="ch5-1-3">5.1.3 A World of Possibilities</h3>
@@ -9557,7 +9644,7 @@ through CSS.
 The code above will not provide any major visual change to your website
 yet because we don't have any cells defined.
 
-**Note**: Though there is an attribute for border, the table elements
+<b>Note**: Though there is an attribute for border, the table elements
 should be styled using CSS. You can use the CSS border property to do
 that instead. 
 
@@ -9886,7 +9973,7 @@ CSS properties simultaneously. 
 The CSS border property
 sets border-width, border-style and border-color in order: 
 
-**table { border: 1px solid black; }**
+<b>table { border: 1px solid black; }**
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 92.  (###) -------------------------------------->
@@ -10870,7 +10957,7 @@ style="width:4in;height:4.52941in" />
 57. </html>
 ```
 
-**Note**: This table contains multi-line headers. You can find more
+<b>Note**: This table contains multi-line headers. You can find more
 information on the right way to design tables of different header types
 on this W3C [Tables
 Concepts](https://www.w3.org/WAI/tutorials/tables/) page.
@@ -11241,7 +11328,7 @@ little more visually appealing inside your document.
 
 2.  Create the following table with same cell content:
 
-| **Attribute** | **Description**                                | **Usage**                         |
+| <b>Attribute<b> | <b>Description<b>                                | <b>Usage<b>                         |
 |---------------|------------------------------------------------|-----------------------------------|
 | src           | Used to specify the URL of the image           | src=“images/test.png"             |
 | alt           | Used to specify replacement text for the image | alt=“Test image for HTML5 course” |
@@ -11690,7 +11777,7 @@ for now we'll just look at a few of them:
 <img src="./images/image115.png"
    style="width:6.5in;height:4.87014in" />
 
-**Notes:**
+<b>Notes:**
 
 1.  Certain Web sites like Google and Yahoo disallow embedding their Web
     pages in iframes. So you will not be able to use these pages in an
@@ -11741,8 +11828,8 @@ However, there can be some disadvantages:
 ***Note:** This section is optional material included for the curious.
 It will not appear on any graded question.*
 
-**Important:** The attributes we will see in this unit
-- ismap and usemap are **image attributes**. Since they use
+<b>Important:** The attributes we will see in this unit
+- ismap and usemap are <b>image attributes**. Since they use
 the \<link\> tag, having learned hyperlinks, now would be a good time to
 explore them. Be sure to watch the video at the end of this unit. 
 
@@ -11756,9 +11843,9 @@ image-map.
 
 ### The 'ismap' attribute
 ```
-1.  <img src="images/logo.png" alt="ismap tutorial" **ismap**>
+1.  <img src="images/logo.png" alt="ismap tutorial" <b>ismap**>
 ```
-ismap is a **boolean attribute** i.e. its value is either true or false.
+ismap is a <b>boolean attribute<b> i.e. its value is either true or false.
 Thus, just the presence of the attribute indicates that it is a mapped
 image. To be more precise, we say it is a server-side image-map.
 
@@ -11928,7 +12015,7 @@ important imagery.  For example, the pictures that accompany a news
 story are important to understanding the news story and therefore should
 be displayed with the \<img\> tag.  The example of the cool banner with
 teletypes and coffee was meant to evoke competence and urgency, however,
-that image is **not** essential to understanding the news story. That
+that image is <b>not<b> essential to understanding the news story. That
 image is decorative.
 
 Decorative images are incorporated via CSS.
@@ -11993,7 +12080,7 @@ image itself, then the image will repeat and fill the space, like tiles.
 style="width:5in;height:1.96635in" />
 
 The background-repeat property can be used to control this.  It's more
-commonly used values are: repeat, repeat-x, repeat-y, and **no-repeat**.
+commonly used values are: repeat, repeat-x, repeat-y, and <b>no-repeat**.
 The no-repeat value is very useful, and bears repeating.
 
 There are advanced uses of this property.  Notice in the above example,
@@ -12186,7 +12273,7 @@ A common trap that newbies fall into is to discover
 the width, height, left and top CSS properties and to start blindly
 using them.
 
-These are useful properties, however, they should **not** be your first
+These are useful properties, however, they should <b>not<b> be your first
 choice.  These CSS properties depend upon *other* properties before they
 can even be used, and they can have unintended consequences. We'll
 explore them more in next module when covering Layout.  
@@ -12255,8 +12342,8 @@ next module. Here is a quick rundown:
 -   height and width properties do not work on inline elements.
 
 -   Many elements have natural behaviors that occur when height and
-    width are **not** set. These are generally advantageous. However, by
-    setting the width and height you **lose** those advantages. We'll
+    width are <b>not<b> set. These are generally advantageous. However, by
+    setting the width and height you <b>lose<b> those advantages. We'll
     understand this in next module.
 
 -   Most Web pages are viewed in a variety of browser sizes, especially
@@ -12383,20 +12470,20 @@ W3C.
 
 <h4>Executive summary</h4>
 
--   **Logical source order:**  
+-   <b>Logical source order:**  
     The order of the HTML content should make sense even without the
     CSS: for accessibility, mobile optimization, device adaptability,
     and long-term maintainability.
 
--   **Liquid layouts and relativity:**  
+-   <b>Liquid layouts and relativity:**  
     Use smart relative sizing: to optimize layouts while minimizing
     media query code forks.
 
--   **Media queries:**  
+-   <b>Media queries:**  
     Adapt to screen size changes; get font size adaptation free by
     using ems.
 
--   **Prevent zombie code:**  
+-   <b>Prevent zombie code:**  
     Dead code may come alive as CSS changes. Delete it before it does,
     and ruins your layout.
 
@@ -12432,8 +12519,8 @@ Your favorite browser is not always right.
         if your content is tabular like a catalog, a calendar, or a
         price list, then the table element is the correct markup.
 
--   **Linearized logical source order  
-    **The order of the HTML content should make sense even without the
+-   <b>Linearized logical source order  
+    <b>The order of the HTML content should make sense even without the
     CSS.  
     Benefits are numerous as it *works best*:
 
@@ -12445,7 +12532,7 @@ Your favorite browser is not always right.
 
     -   as a foundation for device adaptation (media queries)
 
--   **Linguistic variations**: set the language correctly for better
+-   <b>Linguistic variations**: set the language correctly for better
     typography (see the section entitled "Why Internationalization is
     important").
 
@@ -12454,10 +12541,10 @@ Your favorite browser is not always right.
 <img src="./images/image135.jpeg"
 style="width:2.08333in;height:1.71875in" alt="Testing image" />
 
--   **Test without CSS**: turn off CSS, and if the page makes no sense,
+-   <b>Test without CSS**: turn off CSS, and if the page makes no sense,
     fix your markup.
 
--   **Test in multiple environments**:
+-   <b>Test in multiple environments**:
 
     -   Resize the window
 
@@ -12467,15 +12554,15 @@ style="width:2.08333in;height:1.71875in" alt="Testing image" />
 
     -   Navigate by keyboard
 
--   **Test in multiple browsers**: remember that just testing in Chrome
+-   <b>Test in multiple browsers**: remember that just testing in Chrome
     does not work for everyone!  ;)
 
 ### Adaptability
 
--   **Media queries**: set media query breakpoints in em or ch, not
+-   <b>Media queries**: set media query breakpoints in em or ch, not
     always in px.
 
--   **Liquid layouts and relativity**: what is your sizing based on?
+-   <b>Liquid layouts and relativity**: what is your sizing based on?
 
 -   Containing block size? → Use percents.
 
@@ -12502,13 +12589,13 @@ Absolute units are usually the wrong answer.
 
 -   Simplify selectors if you need to decrease specificity
 
--   **Don't over-escalate**: understand your code, and don't overkill.
+-   <b>Don't over-escalate**: understand your code, and don't overkill.
 
 -   *For example, avoid:  
     *        . z-index: 9999999999999999999999999999999999999;  
             . position: absolute; left: -10000000000px
 
--   **Drop dead code**: you tried something and it didn't work? Delete
+-   <b>Drop dead code**: you tried something and it didn't work? Delete
     it right away!
 
 -   Code to Standard
@@ -12887,7 +12974,7 @@ The block level:
 -   appears below and to the left of their block level neighbors (like a
     carriage return on a typewriter going to the next new line)
 
--   **will expand to fill the width of the parent container by default**
+-   <b>will expand to fill the width of the parent container by default<b>
 
 -   respects all margin properties
 
@@ -12907,18 +12994,18 @@ Inline elements:
 -   simply appear to the right of their preceding inline neighbor. They
     do not drop to the next line unless they must "wrap".
 
--   **by default, the width is simply the width of the content of the
-    element, plus any padding**
+-   <b>by default, the width is simply the width of the content of the
+    element, plus any padding<b>
 
--   **ignore top and bottom margin settings**
+-   <b>ignore top and bottom margin settings<b>
 
--   **ignore width and height properties**
+-   <b>ignore width and height properties<b>
 
 -   are subject to vertical-align property as well as
     CSS white-space settings
 
 -   support padding, but
-    any padding-top or padding-bottom does **not** contribute to the
+    any padding-top or padding-bottom does <b>not<b> contribute to the
     calculation of the height of the text line it sits upon
 
 -   cleave to the baseline where they are being placed
@@ -12996,12 +13083,12 @@ the differences between block, inline, and inline-block display.
 
 <h3 id="ch6-2-2">6.2.2 Horizontal and vertical centering</h3>
 
-**Horizontal centering**
+<b>Horizontal centering<b>
 
 Now that we've covered inline versus block display, we can intelligently
 discuss centering. Let's start with inline elements.
 
-**inline**
+<b>inline<b>
 
 How do you center an inline element?  As we recall, inline elements are
 positioned along the baseline, in the natural flow of the text or
@@ -13020,7 +13107,7 @@ element will be centered \*/
 If this isn't satisfactory, consider changing the element to be
 inline-block or block.
 
-**block**
+<b>block<b>
 
 How do you center a block level element? First, you may recall that
 block level elements take the width of their parent by default. If the
@@ -13033,7 +13120,7 @@ div { width: 200px; } 
 
 Now that we've sized the element, how to center it?
 
-**margin magic**
+<b>margin magic<b>
 
 If set to auto, then the left and right margins will center the element.
  This is the simplest and best way of centering a block level element.
@@ -13047,15 +13134,15 @@ Horizontal centering - a better way
 Do auto margins seem spooky to you?  There is a better way to achieve
 centering and its name is *flexbox*.  We'll read more about it later. 
 
-**Vertical centering**
+<b>Vertical centering<b>
 
-**inline**
+<b>inline<b>
 
 Inline elements respect the vertical-align property. This determines how
 the inline element is aligned relative to the baseline it is being laid
 upon. This may or may not solve your vertical centering conundrum.
 
-**block**
+<b>block<b>
 
 There is no margin:auto approach to vertical centering. There are some
 complicated systems that folk have developed, but the shortest and best
@@ -13183,7 +13270,7 @@ feature is only available to fixed (and absolute) elements.
 
 <h3 id="ch6-2-5">6.2.5 Positioning (OPTIONAL)</h3>
 
-**Note:** This section is optional material included for the curious. It
+<b>Note:** This section is optional material included for the curious. It
 will not appear on any graded question.
 
 <h4>Positioned elements</h4>
@@ -13213,7 +13300,7 @@ model of layout is setting the initial position for the element
 (including margins and display). However, unlike static, elements with
 relative position respect the positioning 
 properties (left, top, right, and bottom).  These properties will move
-the named edge of the element **from** its initial position. So a value
+the named edge of the element <b>from<b> its initial position. So a value
 of top: 20px;  will move the top edge of the element 20 pixels further
 down the page.  And similarly, a value of left: 20px; will move an
 element 20 pixels from its original left edge, which means move it 20
@@ -13333,7 +13420,7 @@ Interpretation of positioning properties (top, left, etc.) depends ON
 parent/grandparent being positioned elements (or not).
 
 *IMPORTANT*: For an absolutely positioned element, ***where*** the left,
-top, etc. are calculated ***from* **depends upon the position property
+top, etc. are calculated ***from* <b>depends upon the position property
 of the parent and grandparents of the element in question. If the parent
 of the element is a positioned element (meaning its position is set to
 anything except position:static), then an absolutely positioned
@@ -13387,7 +13474,7 @@ Whether you realize it or not, one of the most useful default behaviors
 is that the height of a parent element is automatically extended to
 include all its children, its content. Designers working in CSS
 unconsciously lean on this fact as they plan layouts and adjust element
-positions. But this is **not** true for children that are positioned
+positions. But this is <b>not<b> true for children that are positioned
 absolutely.  Absolutely positioned children do not contribute to the
 size of the parent element. A parent element that contains only
 absolutely positioned children will have a height of 0, has no
@@ -13450,7 +13537,7 @@ positioned elements.
 
 <h3 id="ch6-2-6">6.2.6 'z-index' (OPTIONAL)</h3>
 
-**Note**: this section is optional material included for the curious. It
+<b>Note**: this section is optional material included for the curious. It
 will not appear on any graded question.
 
 In the previous sections, we named four positioning
@@ -13494,7 +13581,7 @@ we govern the overlapping with the z-index property. 
 Siblings and nesting
 
 It is entirely possible that one element with z-index:100 could
-appear ***below* **another element with z-index:1;  
+appear ***below* <b>another element with z-index:1;  
 
 This can happen because the z-index is used to figure out which sibling
 is higher than another. But if two elements are not siblings, then the
@@ -13590,7 +13677,7 @@ However, if you look again at the descriptions for inline-block and
 block level elements above, you will notice that inline-block elements
 are *sized (height and width) to their content*.  And block level
 elements take the *width of their parent* and the *height of their
-content*. So these elements are fundamentally **variably **sized, and
+content*. So these elements are fundamentally <b>variably <b>sized, and
 this variability is one of the most powerful and useful aspects of these
 elements.
 
@@ -13863,11 +13950,11 @@ The flex property provides a convenient way to abbreviate the three
 interrelated properties of flex-grow, flex-shrink, and flex-basis.
  The flex property *also* gives a flex item nice defaults for the
 optional properties.
-Therefore, flex:1; is **better** than flex-grow:1; . 
+Therefore, flex:1; is <b>better<b> than flex-grow:1; . 
 
 <h4>flex-grow</h4>
 ```
-p { flex: **1**; /* rather than use flex-grow, use
+p { flex: <b>1**; /* rather than use flex-grow, use
 flex: **<flex-grow>**; */ }
 ```
 
@@ -13893,7 +13980,7 @@ super-power. 
 <h4>flex-shrink</h4>
 
 ```
-p { flex: 1 **1**; /* rather than use flex-shrink directly, use flex:
+p { flex: 1 <b>1**; /* rather than use flex-shrink directly, use flex:
 <flex-grow> **<flex-shrink>** */ }
 ```
 
@@ -13918,7 +14005,7 @@ the box-sizing to border-box.   
 <h4>flex-basis</h4>
 
 ```
-p { flex: 1 1 **87px**;  /* use flex: <flex-grow>
+p { flex: 1 1 <b>87px**;  /* use flex: <flex-grow>
 <flex-shrink> **<flex-basis\>** */}
 ```
 
@@ -13956,7 +14043,7 @@ flex items (e.g. flex:1), but again, this isn't required.
 This advice may not apply to images and may not be appropriate for every
 flex item. However, for most flex items, try to avoid using
 explicit width and height properties. Instead, use the flex-basis to set
-a desired dimension (e.g. flex: 1 1 **200px**; ).  Or consider
+a desired dimension (e.g. flex: 1 1 <b>200px**; ).  Or consider
 using min-width (or max-width) and min-height (or max-height). 
 
 Doing so will make your flex items a bit more malleable. In CSS
@@ -14080,7 +14167,7 @@ would change for each of these combinations for flex-flow :
 
 The terms *"main"* and *"cross"* appear in the descriptions of flexbox
 and in multiple online tutorials you might find. However, they
-are **not** used in the names of any CSS properties or values.  The
+are <b>not<b> used in the names of any CSS properties or values.  The
 following properties control behavior along the main axis. We are
 already familiar with all of them, except justify-content.
 
@@ -14291,7 +14378,7 @@ their align-self property set.
 
 <h3 id="ch6-4-3">6.4.3 Order</h3>
 
-**Note**: This material is included for completeness. However, many are
+<b>Note**: This material is included for completeness. However, many are
 able to use flexbox satisfactorily without it. None of the material here
 will appear in any graded question.
 
@@ -14644,5 +14731,5 @@ These are the final changes to our recipe project for this unit.
    alt="." />
 </p>
 
-<h3><b>Last Updated 07-29-2022 8:01pm</b></h3>
+<h3><b>Last Updated 07-30-2022 10:34pm</b></h3>
 
