@@ -3234,11 +3234,11 @@ Naming rules for id attribute:
     in this section. You can link to a section of your HTML page using
     the 'id' of the section. You should reference the 'id' value with a
     number sign preceding it - '#id-value'
-    1.  \<a href="#introduction"\>1.1 Introduction\</a\> \<!-- This is a
+    1.  <a href="#introduction">1.1 Introduction</a> <!-- This is a
         > hyperlink element which we will learn about later in this week
-        > --\>
-    2.  \<p id="introduction"\>This paragraph is the Introduction to the
-        > Web page\</p\>
+        > -->
+    2.  <p id="introduction">This paragraph is the Introduction to the
+        > Web page</p>
 
 1.  In JavaScript, 'id' can be used to manipulate an html element. Using
     the 'id' of the element, you can write JavaScript code to make it
@@ -3807,7 +3807,7 @@ after: header, nav, article, section, aside and footer.
 <p align="center" width="100%">
 <img src="./images/image024.jpeg?raw=true"
    width="45%"
-   alt="Picture showing the structure of a Web site: header, nav, article, section, aside and footer" />
+   alt="Picture showing the structure of a Web site: header, nav, article, section, aside and footer." />
 </p>
 
 Tags such as** \<article\>**, **\<section\>**, **\<header\>**, **\<nav\>
@@ -3885,7 +3885,6 @@ this:
     markup</a>: in other words, it checks the syntax of Web documents,
     written in formats such as HTML. </p>
 24. </section>
-
 25. <section>
 26.   <h3>Why validate?</h3>
 27.   <p> One of the important maxims of computer programming is: "Be
@@ -3896,21 +3895,21 @@ this:
     problem is that different browsers (or even different versions of
     the same browser) will make different guesses about the same illegal
     construct...
-30.   \</p\>
-31. \</section\>
-32. \<article\>
-33.   \<h3\>How do I use the Markup validator?\</h3\>
-34.   \<p\>Most probably, you will want to use the online Markup
+30.   </p>
+31. </section>
+32. <article>
+33.   <h3>How do I use the Markup validator?</h3>
+34.   <p>Most probably, you will want to use the online Markup
     Validation service. The simple way to use this service to validate a
     Web page is to paste its address into the
-35.   \<a href="https://validator.w3.org/#uri"\>text area\</a\>
+35.   <a href="https://validator.w3.org/#uri">text area</a>
 36.   on the
-37.   \<a href="https://validator.w3.org/"\>validator's home page\</a\>
-38.   ,and press the "Check" button.\</p\>
-39. \</article\>
-40. \<aside\>
-41.   \<h3\>Many error messages? Don't panic.\</h3\>
-42.   \<p\> Don't panic. Did The Validator complain about your DOCTYPE
+37.   <a href="https://validator.w3.org/">validator's home page</a>
+38.   ,and press the "Check" button.</p>
+39. </article>
+40. <aside>
+41.   <h3>Many error messages? Don't panic.</h3>
+42.   <p> Don't panic. Did The Validator complain about your DOCTYPE
     declaration (or lack thereof)? Make sure your document has a
     syntactically correct DOCTYPE declaration, as described in the
     section on DOCTYPE, and make sure it correctly identifies the type
@@ -5206,8 +5205,8 @@ Here is my original image:
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image040.png?raw=true"
-   width="35%"
-   alt="HTML5 logo" />
+   width="15%"
+   alt="HTML5 logo." />
 </p>
 
 Clearly too big for the page. The original image dimensions is 345x523
@@ -5305,7 +5304,7 @@ Find out from their tooltips!
    alt="Decorative banner graphic" />
 </p>
 
-<h3 id="ch2-4-5">2.4.5 Using \<img\> Tags</h3>
+<h3 id="ch2-4-5">2.4.5 Using &lt;img&gt; Tags</h3>
 
 Hi there! In this video, we're going to take a closer look at how we add
 images to our HTML pages.
@@ -5668,26 +5667,25 @@ Usage
 
 The \<a\> tag can surround text or an image. 
 
-1.  \<!-- Text in a hyperlink--\>
-
-2.  \<a href="https://www.qwant.com/"\>If you click on me, I will take
-    you to qwant.com\</a\>
-
-3.  \<!-- Paragraph in a hyperlink--\>
-
-4.  \<a href="https://www.qwant.com/"\>\<p\>If you click on me, I will
-    take you to qwant.com\</p\>\</a\>
-
-5.  \<!-- Image in a hyperlink--\>
-
-6.  \<a href="https://www.qwant.com/"\>\<img src="images/qwant-image.png" alt="Image
-    navigating to Qwant"\>\</a\>
+```
+1.  <!-- Text in a hyperlink-->
+2.  <a href="https://www.qwant.com/">If you click on me, I will take
+    you to qwant.com</a>
+3.  <!-- Paragraph in a hyperlink-->
+4.  <a href="https://www.qwant.com/"><p>If you click on me, I will
+    take you to qwant.com</p></a>
+5.  <!-- Image in a hyperlink-->
+6.  <a href="https://www.qwant.com/"><img src="images/qwant-image.png" alt="Image
+    navigating to Qwant"></a>
+```
 
 You can even use the anchor element to add your email address under the
 contacts section of your Web page. 
 
-1.  \<p\>Feedback: \<a href="mailto:authors@example.com"\>Send Mail to
-    Authors\</a\>\</p\>
+```
+1.  <p>Feedback: <a href="mailto:authors@example.com">Send Mail to
+    Authors</a></p>
+```
 
 Result (try the hyperlink below):
 
@@ -5695,8 +5693,10 @@ Feedback: [Send Mail to Authors](mailto:authors@example.com)
 
 You can add a subject to the email. 
 
-1.  \<p\>Feedback: \<a href="mailto:authors@example.com?Subject=Hello"\>Send
-    Mail to Authors with Subject\</a\>\</p\>
+```
+1.  <p>Feedback: <a href="mailto:authors@example.com?Subject=Hello">Send
+    Mail to Authors with Subject</a></p>
+```
 
 Result (try the hyperlink below)
 
@@ -5826,30 +5826,32 @@ will look like:
 1.  \<a href="https://en.wikipedia.org/wiki/Media_queries?output=print" media="print
     and (resolution:250dpi)"\>Print wiki page about media queries\</a\>
 
-### The 'download' attribute
+<h4>The 'download' attribute</h4>
 
 The download attribute is also new in HTML5 and it makes a link download
 a file instead of navigate to another location. It takes in the filename
 as value but the value is optional. So the download attribute can be
 specified in the following ways:
-```xml
-1.  <a href="/assets/hello.txt" download>
 
-2.  <a href="/assets/hello.txt" download="new-name-for-text-file">
+```xml
+1.  <a href="assets/hello.txt" download>
+2.  <a href="assets/hello.txt" download="new-name-for-text-file">
 ```
+
 If you do not specify a value for download, it will download the file
 with name unchanged. Else it will download the file with file name
 modified according to value specified. 
+
 ```html
-1.  \<a href="/assets/hello.txt" download\>
-
+1.  <a href="/assets/hello.txt" download>
 ... will download the file with the same name - 'hello.txt'.
-
-1.  \<a href="/assets/hello.txt" download="new-name-for-text-file"\>
-
+```
+```
+1.  <a href="/assets/hello.txt" download="new-name-for-text-file"\>
 ... will download the file after altering its name to -
 'new-name-for-text-file.txt'.
 ```
+
 Example (try the hyperlink below in Google Chrome): 
 
 [Click to
@@ -6113,80 +6115,78 @@ live coding video at the end of this page).
 <img src="./images/image047.png"
 style="width:6.5in;height:3.27778in" />
 
-HTML
+<h4>HTML</h4>
+
 ```
-\<!DOCTYPE html\>
-\<html lang="en"\>
-\<head\>
-\<meta charset="UTF-8"\>
-\<title\>My Favorite Recipes - Module 2\</title\>
-\</head\>
-\<body\>
-\<h1\>My Favorite Recipes\</h1\>
-\<nav\>
-\<ul\>
-\<li\>\<a href="#soup"\>Soup\</a\>\</li\>
-\<li\>\<a href="#salad"\>Salad\</a\>\</li\>
-\<li\>\<a href="#pizza"\>Pizza\</a\>\</li\>
-\</ul\>
-\</nav\>
-\<article id="soup"\>
-\<h2\>Soup\</h2\>
-\<img
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My Favorite Recipes - Module 2</title>
+</head>
+<body>
+<h1>My Favorite Recipes</h1>
+<nav>
+<ul>
+<li><a href="#soup">Soup</a></li>
+<li><a href="#salad">Salad</a></li>
+<li><a href="#pizza">Pizza</a></li>
+</ul>
+</nav>
+<article id="soup">
+<h2>Soup</h2>
+<img
 src="https://upload.wikimedia.org/wikipedia/commons/2/22/Bol_soupe_bicolore.jpg"
-alt="soup image" width=320\>
-\<p\>
-Beethoven once said \<q\>Only the pure of heart can make a good
-soup\</q\>. Well, here's my attempt at doing just that!
-
-\</p\>
-\<ol\>
-\<li\>Step 1\</li\>
-\<li\>Step 2\</li\>
-\<li\>Step 3\</li\>
-\<li\>Enjoy!\</li\>
-\</ol\>
-\</article\>
-\<article id="salad"\>
-\<h2\>Salad\</h2\>
-\<img
+alt="soup image" width=320>
+<p>
+Beethoven once said <q>Only the pure of heart can make a good
+soup</q>. Well, here's my attempt at doing just that!
+</p>
+<ol>
+<li>Step 1</li>
+<li>Step 2</li>
+<li>Step 3</li>
+<li>Enjoy!</li>
+</ol>
+</article>
+<article id="salad">
+<h2\>Salad</h2>
+<img
 src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Caesar_salad_%281%29.jpg/320px-Caesar_salad_%281%29.jpg"
-alt="salad image" width=320\>
-
-\<h3\>List of ingredients\</h3\>
-\<ul\>
-\<li\>Ingredient 1\</li\>
-\<li\>Ingredient 2\</li\>
-\<li\>Ingredient 3\</li\>
-\</ul\>
-\<p\>
+alt="salad image" width=320>
+<h3>List of ingredients</h3>
+<ul>
+<li>Ingredient 1</li>
+<li>Ingredient 2</li>
+<li>Ingredient 3</li>
+</ul>
+<p>
 Who can resist a fresh salad ! Here's one of my favorites.
-\</p\>
-\<ol\>
-\<li\>Step 1\</li\>
-\<li\>Step 2\</li\>
-\<li\>Step 3\</li\>
-\<li\>Enjoy!\</li\>
-\</ol\>
-\</article\>
-\<article id="pizza"\>
-\<h2\>Pizza\</h2\>
-\<img
+</p>
+<ol>
+<li>Step 1</li>
+<li>Step 2</li>
+<li>Step 3</li>
+<li>Enjoy!</li>
+</ol>
+</article>
+<article id="pizza">
+<h2>Pizza</h2>
+<img
 src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Margherita_Originale.JPG/320px-Margherita_Originale.JPG"
-alt="pizza image" width=320\>
-
-\<p\>
+alt="pizza image" width=320>
+<p>
 Pizza, the king of comfort foods. Try this simple, taste sensation.
-\</p\>
-\<ol\>
-\<li\>Step 1\</li\>
-\<li\>Step 2\</li\>
-\<li\>Step 3\</li\>
-\<li\>Enjoy!\</li\>
-\</ol\>
-\</article\>
-\</body\>
-\</html\>
+</p>
+<ol
+<li>Step 1</li>
+<li>Step 2</li>
+<li>Step 3</li>
+<li>Enjoy!</li>
+</ol>
+</article>
+</body>
+</html>
 ```
 
 Hello, everyone. In this live coding demo, we're going to enhance this
