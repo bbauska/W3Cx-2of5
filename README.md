@@ -791,6 +791,7 @@ which uses angle brackets ("&lt;" and "&gt;") to separate the annotations
 from the regular text.  In HTML these annotations are called "tags".
 
 For example, consider the following chunk of HTML code:
+
 ```xml
      <body>
         <h1>A Tale of Two Cities</h1>
@@ -805,6 +806,7 @@ For example, consider the following chunk of HTML code:
        </p>
     </body>
 ```
+
 If you eliminated everything in between the angle brackets from the
 text, for most purposes it would still read the same:
 
@@ -1850,10 +1852,12 @@ just "html".
 HTML5 can do this because all the previous versions were much more long
 winded.  For example, at the top of an HTML 4.01 page, you might have
 something like this:
+
 ```
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
 "http://www.w3.org/TR/html4/strict.dtd">
 ```
+
 We do not need to go into the details of why and what that means, just
 be grateful that HTML5 did away with it.
 
@@ -1861,9 +1865,11 @@ be grateful that HTML5 did away with it.
 
 It may seem redundant, but the next bit tells the browser where the
 actual HTML code begins, using an \<html\> tag:
+
 ```
 <html>
 ```
+
 Nearly every HTML document has two parts. The body is the main content
 of the page, containing text, images, tables and so on. The head comes
 before the body (on top?). It is where you put information about the
@@ -1874,14 +1880,17 @@ might be different from the title the user reads) all go in the
 \<head\>. If you have been paying attention, you should be able to
 create a very basic html file, in the right form, without any content.
 Hint, for the head of the document you would write:
+
 ```
 <head>
  
 </head>
 ```
+
 You may recall the paragraph tag \<p\> that we used in the example
 above. Try inserting a paragraph into the body of your new document.
  You should end up with something that looks like this:
+
 ```
  <!DOCTYPE html>
  <html>
@@ -1963,14 +1972,18 @@ here](https://www.w3.org/International/getting-started/characters).
 Use the \<meta\> tag with the charset attribute in your HTML page to
 indicate to the browser the character encoding you will be using in the
 page.
+
 ```
   <meta charset="utf-8">
 ```
+
 Alternatively, you can also use http-equiv and content attributes. 
+
 ```
   <meta http-equiv="Content-Type" content="text/html;
     charset=utf-8">
 ```
+
 We recommend using the first one because it is much less complicated.
 You should also always use 'utf-8'.
 
@@ -1981,6 +1994,7 @@ specified within the first 1024 bytes of your page. So the earlier it is
 mentioned in your code, the better. 
 
 W3C recommends placing it immediately after the opening \<head\> tag:
+
 ```
   <!DOCTYPE html>
   <html lang="en">
@@ -1990,6 +2004,7 @@ W3C recommends placing it immediately after the opening \<head\> tag:
     </head>
   </html>
 ```
+
 <h3 id="ch1-4-3">1.4.3 HTML Character References</h3>
 
 <h4>Why we need character references</h4>
@@ -1998,11 +2013,14 @@ Before we learn what HTML character references are, let's look at how
 the need for them came about. 
 
 Try the following code in your HTML:
+
 ```
   <p>Welcome to "HTML5 & CSS Fundamentals". The first tag we will be
     learning about is  the <html> tag.</p>
 ```
+
 <h4>HTML</h4>
+
 ```
  <!DOCTYPE html>
  <html lang="en">
@@ -2017,6 +2035,7 @@ Try the following code in your HTML:
  </body>
  </html>
 ```
+
 Did you notice the \<html\> tag is missing in your output? In this case,
 your browser mixed it up with an actual tag, although it was meant to be
 a part of the sentence as text. 
@@ -2034,24 +2053,30 @@ If you want to use a named character reference in your source code, use
 an ampersand symbol '&', followed by the name and a semi-colon. Names
 are case sensitive. For example, the following represents a no-break
 space:
+
 ```
 &nbsp;
 ```
+
 There are two types of numeric character reference: ones that use
 decimal numbers and ones that use hexadecimal numbers.  In each case,
 the number represents the code point number of the character in Unicode.
 
 If you are using a decimal number, use an ampersand symbol '&' ,
 followed by the symbol '#', then a decimal number and a semi-colon.
+
 ```
 &#160;
 ```
+
 If you are using a hexadecimal number, use an ampersand symbol '&' ,
 followed by the symbols '#x', then a hexadecimal number and a
 semi-colon.
+
 ```
 &#x00A0;
 ```
+
 <h4>Protecting characters used for HTML syntax</h4>
 
 The five special characters listed in the table below should always be
@@ -5541,8 +5566,8 @@ Please find below a list of possible activities:
     - images of text
 
 Use the alt attribute to provide alternate text for the images above.   
-Refer to the [WAI images
-Tutorial](https://www.w3.org/WAI/tutorials/images/) for a guide to
+Refer to the <a href="https://www.w3.org/WAI/tutorials/images/">WAI images
+Tutorial</a> for a guide to
 writing alternate text. 
 
 <h3 id="ch2-5-1">2.5.1 Introduction</h3>
@@ -5599,27 +5624,24 @@ possible.
 </ul>
 
 <h4>Best practices</h4>
-
--   Apply hyperlinks to short phrases. It is unusual to see the link tag
-    used around a whole paragraph.
-
--   Make link phrase meaningful. Avoid phrases like 'Click Here' or
+<ul>
+<li>Apply hyperlinks to short phrases. It is unusual to see the link tag
+    used around a whole paragraph.</li>
+<li>Make link phrase meaningful. Avoid phrases like 'Click Here' or
     'Read More'. 'Click here to get help' is redundant when you can
     create a link around the phrase 'Get Help'. The link is an
-    indication that it should be clicked.
-
--   Don't use short link text. It is easy to miss the 'blue' hyperlink
+    indication that it should be clicked.</li>
+<li>Don't use short link text. It is easy to miss the 'blue' hyperlink
     if it is used on one word or character and is hard for users to
-    click using touch screen.
-
--   Appearance - links have a default appearance in most browsers, blue
+    click using touch screen.</li>
+<li>Appearance - links have a default appearance in most browsers, blue
     and underlined. Ensure no other text in your page is underlined so
     as to avoid confusing the user. They might get frustrated trying to
-    click text that they think is a link.
-
--   If you choose to have image links, it should have **alternate
+    click text that they think is a link.</li>
+<li>If you choose to have image links, it should have **alternate
     text** that describes the purpose of the link instead of the image
-    used - describe the target link.
+    used - describe the target link.</li>
+</ul>
 
 1.  \<a href="https://www.table-header-cells.com"\>
 
@@ -14391,8 +14413,9 @@ able to use flexbox satisfactorily without it. None of the material here
 will appear in any graded question.
 
 One of the most exciting flexbox properties is also its simplest: order.
-
+```
 .item { order: 2; }
+```
 
 The order property allows you to determine the order in which the item
 appears in the flexbox.  This allows you to present the information in
@@ -14423,10 +14446,10 @@ the order value of 1, the second is 2, etc.  And you can override it.
 <h4>CSS flexbox resources</h4>
 
 <ul>
-<li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">A complete guide to Flexbox (CSS Tricks) - <b>updated 7 April 2021</b></li><br/>
-<li><a href="https://www.smashingmagazine.com/2018/10/flexbox-use-cases/">Use cases for Flexbox (Smashing Magazine) - <b>October 2018</b></li><br/>
-<li><a href="https://www.w3.org/TR/css-flexbox/">CSS Flexible Box Layout, the W3C specification</li><br/>
-<li><a href="https://flexboxfroggy.com/">Flexbox froggy (game to practice CSS flexbox code)</li><br/>
+<li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">A complete guide to Flexbox</a> (CSS Tricks) - <b>updated 7 April 2021</b></li><br/>
+<li><a href="https://www.smashingmagazine.com/2018/10/flexbox-use-cases/">Use cases for Flexbox</a> (Smashing Magazine) - <b>October 2018</b></li><br/>
+<li><a href="https://www.w3.org/TR/css-flexbox/">CSS Flexible Box Layout</a>, the W3C specification</li><br/>
+<li><a href="https://flexboxfroggy.com/">Flexbox froggy</a> (game to practice CSS flexbox code)</li><br/>
 </ul>
 
 <h3 id="ch6-5-1">6.5.1 CSS Grid Layout</h3>
@@ -14739,5 +14762,5 @@ These are the final changes to our recipe project for this unit.
    alt="." />
 </p>
 
-<h3><b>Last Updated 07-31-2022 12:43am</b></h3>
+<h3><b>Last Updated 07-31-2022 10:12pm</b></h3>
 
