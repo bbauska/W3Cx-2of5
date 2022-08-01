@@ -5551,7 +5551,7 @@ writing alternate text. 
 
 In a typical Web page, you may well have seen a sentence like this one:
 
-<b>[Find out more](https://en.wikipedia.org/wiki/Hyperlink) about our
+<b><a href="https://en.wikipedia.org/wiki/Hyperlink">Find out more</a> about our
    offers!</b>
 
 Or something like this:
@@ -5559,48 +5559,44 @@ Or something like this:
 <!---------------------- 45. buy now button to illustrate hyperlink (xxx) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image045.png?raw=true"
-   style="width:2.40625in;height:0.45833in"
-   alt="Buy Now Button to illustrate hyperlink" />
-</p>
-
+<a href="https://en.wikipedia.org/wiki/Hyperlink">
+   <img alt="Buy now button to illustrate hyperlink." 
+   src="./images/image045.png?raw=true"
+   width=150" height="70">
+</a>
 Try clicking the blue text or the 'Buy Now!' button, if you haven't
 already (make sure to navigate back to the course).
 
 A hyperlink is any text or image that takes you to another place. This
 can be:
-
--   another Web page: e.g. the hyperlinks wiki page
-    at https://en.wikipedia.org/wiki/Hyperlink
-
--   a bookmark (a specific part of a Web page): e.g. the History section
+<ul>
+<li>another Web page: e.g. the hyperlinks wiki page
+    at https://en.wikipedia.org/wiki/Hyperlink</li>
+<li>a bookmark (a specific part of a Web page): e.g. the History section
     of the Hyperlinks wiki page
-    at https://en.wikipedia.org/wiki/Hyperlink#History**  
-    **  
-    We learned about using the id attribute as a link target in the unit
+    at https://en.wikipedia.org/wiki/Hyperlink#History.
+We learned about using the id attribute as a link target in the unit
     about attributes earlier. If you have a section in your page, you
     can link to that section using the value of its id attribute (e.g.
-    History) preceded by the number sign as per *\#History*
-
--   a local link (link to another part of the same Web page):
-    e.g. a_tag.asp is a page that belongs to this Web site
-
--   an email: e.g. mailto:helloauthor@w3c.com
+    History) preceded by the number sign as per *#History*</li>
+<li>a local link (link to another part of the same Web page):
+    e.g. a_tag.asp is a page that belongs to this Web site.</li>
+<li>an email: e.g. mailto:helloauthor@w3c.com</li>
+</ul>
 
 <h4>Why you should prefer text links over images</h4>
 
 When it comes to hyperlinks, try to use text instead of images when
 possible.
-
--   images are not as well understood or recognized as text.
-
--   Text is better for accessibility.
-
--   If you have text in an image like the 'Buy now' button, search
+<ul>
+<li>images are not as well understood or recognized as text.</li>
+<li>Text is better for accessibility.</li>
+<li>If you have text in an image like the 'Buy now' button, search
     engines do not recognize text in images. The text alternative for
     the image should convey the action that will be initiated (the
     purpose of the image, e.g, "buy now"), rather than a description of
-    the image ("button").
+    the image ("button").</li>
+</ul>
 
 <h4>Best practices</h4>
 
@@ -5634,14 +5630,14 @@ possible.
 
 <h4>Anchor element</h4>
 
-The hyperlink tag in html is simply **\<a\>, **and it is called
-the** anchor element**. Here is how it is used:
+The hyperlink tag in html is simply <b>\<a\>, </b>and it is called
+the<b> anchor element</b>. Here is how it is used:
 
 1.  \<a href="https://en.wikipedia.org/wiki/Hyperlink"\>Click
     here\</a\> to go to the Wikipedia Hyperlink page.
 
-Result: **[Click here](https://en.wikipedia.org/wiki/Hyperlink) to go to
-the Wikipedia Hyperlink page.**
+Result: <a href="https://en.wikipedia.org/wiki/Hyperlink">Click here</a> to go to
+the Wikipedia Hyperlink page.
 
 Note: The anchor element should not be confused with the \<link\> tag.
 The \<link\> tag is used to define a link between a document and an
@@ -5663,7 +5659,7 @@ underlined.
 
 -   **Active**: red + underlined
 
-Usage
+<h4>Usage</h4>
 
 The \<a\> tag can surround text or an image. 
 
@@ -5846,18 +5842,18 @@ modified according to value specified. 
 1.  <a href="/assets/hello.txt" download>
 ... will download the file with the same name - 'hello.txt'.
 ```
+
 ```
 1.  <a href="/assets/hello.txt" download="new-name-for-text-file"\>
 ... will download the file after altering its name to -
 'new-name-for-text-file.txt'.
 ```
 
-Example (try the hyperlink below in Google Chrome): 
+<h4>Example (try the hyperlink below in Google Chrome):</h4>
 
-[Click to
-Download](https://courses.edx.org/assets/courseware/v1/6e709b3765de6510e212932331a0bf52/asset-v1:W3Cx+HTML5.0x+3T2020+type@asset+block/hello.txt)
+<a href="https://courses.edx.org/assets/courseware/v1/6e709b3765de6510e212932331a0bf52/asset-v1:W3Cx+HTML5.0x+3T2020+type@asset+block/hello.txt">Click to Download</a>
 
-**Note: **the download attribute is [not supported in all
+<b>Note: </b>the download attribute is [not supported in all
 browsers](https://caniuse.com/#search=download). Try
 the download attribute in a html file of your own and run it in
 different browsers to see how it behaves.
@@ -6112,6 +6108,7 @@ We are now going to continue building on the recipe project we started
 in Module 1.  You can find our version in the CodePen below (and the
 live coding video at the end of this page).
 
+<!----------------------------------------- *************************** ------------------------------>
 <img src="./images/image047.png"
 style="width:6.5in;height:3.27778in" />
 
