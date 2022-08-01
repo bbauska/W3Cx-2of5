@@ -4844,9 +4844,9 @@ mark, figure, figcaption, details and summary.
 Experiment with the sample and try inserting other semantic elements
 that you want to try.
 
-<h3 id="ch2-3-6">2.3.6 \<div\> and \<span\> Elements</h3>
+<h3 id="ch2-3-6">2.3.6 &lt;div&gt; and &lt;span&gt; Elements</h3>
 
-\<div\> element
+<h4>&lt;div&gt; element</h4>
 
 The \<div\> tag is one you will likely see sprinkled all over an HTML
 document.  \<div\>, as the Content Division element, is used to define a
@@ -4892,7 +4892,7 @@ If you want to style all code snippets in your HTML document a certain
 way, you can place your code in a div container and apply styles
 collectively to it using the class attribute.
 
-\<span\> element
+<h4>&lt;span&gt; element</h4>
 
 While we are on the topic of the \<div\> tag and semantic elements, one
 more important element that comes in handy is \<span\>. Span and Div are
