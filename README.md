@@ -9410,20 +9410,20 @@ style="width:4.96875in;height:2.73958in" />
 
 <h5>CSS</h5>
 ```
-> nav {
-> background: aliceblue;
-> width: 12rem;
-> }
-> img {
-> width: 300px;
-> }
-> article {
-> margin-left: 3rem;
-> }
-> h1 {
-> text-align: center;
-> background: blue;
-> color: white;
+nav {
+background: aliceblue;
+width: 12rem;
+}
+img {
+width: 300px;
+}
+article {
+margin-left: 3rem;
+}
+h1 {
+text-align: center;
+background: blue;
+color: white;
 }
 ```
 <h5>HTML</h5>
@@ -9590,25 +9590,22 @@ want to just make your whole Web page into one big table: site header in
 a table row, left navigation bar on the second row, left column, etc.
 
 <h4>Bad idea! Here's why:</h4>
-
--   They are semantically incorrect for layout because they represent
-    presentation and not content.
-
--   It puts presentation data in your content making your HTML larger.
+<ul>
+<li>They are semantically incorrect for layout because they represent
+    presentation and not content.</li>
+<li>It puts presentation data in your content making your HTML larger.
     The user must download this unnecessary presentation data for every
-    page they visit.
-
--   Accessibility: tables are not very screen reader friendly. Using
+    page they visit.</li>
+<li>Accessibility: tables are not very screen reader friendly. Using
     tables for layout will clutter your HTML making it harder for
-    assistive technology to parse your Web page.
-
--   Redesigns are harder when your HTML is cluttered with presentational
+    assistive technology to parse your Web page.</li>
+<li>Redesigns are harder when your HTML is cluttered with presentational
     code that should go into CSS. To change the layout of the page, you
     shouldn't be editing your content. Instead, you should just have to
-    make CSS related changes.
-
--   Using CSS (one or two external stylesheets for your whole Web site)
-    is easier to maintain consistency among pages.
+    make CSS related changes.</li>
+<li>Using CSS (one or two external stylesheets for your whole Web site)
+    is easier to maintain consistency among pages.</li>
+</ul>
 
 Tables were not intended as a layout tool, so it is best to stick to
 them only for tabular data.
@@ -9635,9 +9632,11 @@ This tag defines a table in HTML5.
 
 <h4>Attribute:</h4>
 
--   border - has two values, 0 and 1. It is used to specify a border
+<ul>
+<li>border - has two values, 0 and 1. It is used to specify a border
     around table cells. 0 - no border, 1 - add border. 0 also suggests
-    that it is a layout table.
+    that it is a layout table.</li>
+</ul>
 
 Other attributes have been deprecated as the same can be achieved
 through CSS.
@@ -9709,6 +9708,7 @@ Creates a table row.
 There are two types of cells in a table - header and
 standard. \<th\> creates table header cells. The content of table header
 cells is bold and centered by default.
+
 ```
 1.  <table border=1>
 2.  <tr>
@@ -9717,11 +9717,13 @@ cells is bold and centered by default.
 5.  <tr>
 6.  <table>
 ```
+
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 87.  (###) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <img src="./images/image087.png"
 style="width:4in;height:2.54315in" />
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -9751,7 +9753,8 @@ style="width:6.5in;height:3.03681in" />
 Creates table data (standard) cells. Content of table data cells is
 regular and left-aligned by default.
 
-With these tags we can create a simple table.
+<h4>With these tags we can create a simple table.</h4>
+
 ```
 1.  <table border=1>
 2.    <tr>
@@ -9784,7 +9787,7 @@ useful if you want to specify properties for a group of columns like
 applying styles to the whole column instead of repeating it for each
 cell.
 
-### Attribute:
+<h4>Attribute:</h4>
 
 -   span - takes a positive integer value. It specifies the number of
     columns you want your colgroup to span (cover). The colgroup element
@@ -9792,61 +9795,45 @@ cell.
     spans.  Essentially it allows a single cell to stretch to cover
     multiple columns on a particular row.
 
-### \<col\>
+<h4>&lt;col&gt;</h4>
 
 Used within \<colgroup\>, the \<col\> tag specifies the column property
 for each column within a colgroup. The only element a \<colgroup\> can
 contain is \<col\>. 
 
-### Attribute:
-
--   span - takes a positive integer value. It specifies the number of
-    columns you want the col element to span (cover). 
+<h4>Attribute:</h4>
+<ul>
+<li>span - takes a positive integer value. It specifies the number of
+    columns you want the col element to span (cover).</li>
+</ul>
 
 Consider the table above we created using \<tr\>, \<th\> and \<td\>.
 Let's say I want the 'name' column to be in green and the 'age' column
 to be orange. You need to use the \<colgroup\> and \<col\> tags to
 achieve styling effects specific to a column. 
 
-1.  \<body\>
-
-2.    \<table border=1\>
-
-3.      \<colgroup\>
-
-4.        \<col span="1" style="background-color:green"\>
-
-5.        \<col span="1" style="background-color:orange"\>
-
-6.      \</colgroup\>
-
-7.      \<tr\>
-
-8.        \<th\>Name\</th\>
-
-9.        \<th\>Age\</th\>
-
-10.     \</tr\>
-
-11.     \<tr\>
-
-12.       \<td\>Alexa\</td\>
-
-13.       \<td\>23\</td\>
-
-14.     \</tr\>
-
-15.     \<tr\>
-
-16.       \<td\>James\</td\>
-
-17.       \<td\>35\</td\>
-
-18.     \</tr\>
-
-19.   \</table\>
-
-20. \</body\>
+```
+1.  <body>
+2.    <table border=1>
+3.      <colgroup>
+4.        <col span="1" style="background-color:green">
+5.        <col span="1" style="background-color:orange">
+6.      </colgroup>
+7.      <tr>
+8.        <th>Name</th>
+9.        <th>Age</th>
+10.     </tr>
+11.     <tr>
+12.       <td>Alexa</td>
+13.       <td>23</td>
+14.     </tr>
+15.     <tr>
+16.       <td>James</td>
+17.       <td>35</td>
+18.     </tr>
+19.   </table>
+20. </body>
+```
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 90.  (###) -------------------------------------->
@@ -9854,7 +9841,7 @@ achieve styling effects specific to a column. 
 <img src="./images/image090.png"
 style="width:4in;height:2.53782in" />
 
-<h3>5.2.3 The \<thead\>, \<tbody\> and \<tfoot\> tags</h3>
+<h3>5.2.3 The &lt;thead&gt;, &lt;tbody&gt; and &lt;tfoot&gt; tags</h3>
 
 Similar to an HTML document, a table in HTML can be split into header,
 body and footer. We use these three tags
@@ -9869,7 +9856,7 @@ example](https://www.tjvantoll.com/demos/2012-11-10/). Apart from this,
 these elements can also be used to style header, body and footer rows
 individually using CSS. 
 
-### \<thead\>
+<h4>&lt;thead&gt;</h4>
 
 Just like how we use \<colgroup\> to group columns, \<thead\> is used to
 group the header content in a HTML table. 
@@ -9877,6 +9864,7 @@ group the header content in a HTML table. 
 As we learned in the previous unit, header cells are specified
 using \<th\> as a child of \<tr\>. Rows specified
 within \<thead\> indicate that they are header rows. See the code below:
+
 ```xml
   <thead style="color:white">
     <tr>
@@ -9885,10 +9873,12 @@ within \<thead\> indicate that they are header rows. See the code below:
     </tr>
   </thead>
 ```
-### \<tbody\>
+
+<h4>&lt;tbody&gt;</h4>
 
 Following \<thead\>, subsequent rows are considered body rows in a
 table. Regular cells are specified using \<td\> as a child of \<tr\>:
+
 ```xml
   <tbody>
     <tr>
@@ -9905,10 +9895,12 @@ table. Regular cells are specified using \<td\> as a child of \<tr\>:
    </tr>
  </tbody>
 ```
-### \<tfoot\>
+
+<h4>&lt;tfoot&gt;</h4>
 
 The footer is the last to be specified and rows within \<tfoot\> are
 considered footer rows at the end of a table:
+
 ```xml
   <tfoot>
     <tr>
@@ -9917,6 +9909,7 @@ considered footer rows at the end of a table:
     </tr>
   </tfoot>
 ```
+
 <h4>Putting it all together:</h4>
 
 ```xml
@@ -9982,7 +9975,7 @@ CSS properties simultaneously. 
 The CSS border property
 sets border-width, border-style and border-color in order: 
 
-<b>table { border: 1px solid black; }**
+<b>table { border: 1px solid black; }</b>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 92.  (###) -------------------------------------->
@@ -10001,66 +9994,44 @@ To give a border to \<table\>, \<th\> and \<td\>:
 style="width:4in;height:2.4958in" />
 
 <h4>CSS</h4>
+```
+table.eg1, th.eg1, td.eg1 { border: 1px solid black; }
+table.eg2, th.eg2, td.eg2 { border: thin dashed black; }
+table.eg3, th.eg3, td.eg3 { border: initial; }
+```
 
-> table.eg1, th.eg1, td.eg1 { border: 1px solid black; }
->
-> table.eg2, th.eg2, td.eg2 { border: thin dashed black; }
->
-> table.eg3, th.eg3, td.eg3 { border: initial; }
->
-> HTML
->
-> \<!DOCTYPE html\>
->
-> \<html lang="en"\>
->
-> \<head\>
->
-> \<meta charset="UTF-8"\>
->
-> \<title\>Styling your table\</title\>
->
-> \</head\>
->
-> \<body\>
->
-> \<table class="eg1"\>
->
-> \<tr\>\<th class="eg1"\>Names\</th\>\<th
-> class="eg1"\>Age\</th\>\</tr\>
->
-> \<tr\>\<td class="eg1"\>Michael\</td\>\<td
-> class="eg1"\>21\</td\>\</tr\>
->
-> \</table\>
->
-> \<br\>
->
-> \<table class="eg2"\>
->
-> \<tr\>\<th class="eg2"\>Names\</th\>\<th
-> class="eg2"\>Age\</th\>\</tr\>
->
-> \<tr\>\<td class="eg2"\>Michael\</td\>\<td
-> class="eg2"\>21\</td\>\</tr\>
->
-> \</table\>
->
-> \<br\>
->
-> \<table class="eg3"\>
->
-> \<tr\>\<th class="eg3"\>Names\</th\>\<th
-> class="eg3"\>Age\</th\>\</tr\>
->
-> \<tr\>\<td class="eg3"\>Michael\</td\>\<td
-> class="eg3"\>21\</td\>\</tr\>
->
-> \</table\>
->
-> \</body\>
->
-> \</html\>
+<h4>HTML</h4>
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Styling your table</title>
+</head>
+<body>
+<table class="eg1">
+<tr><th class="eg1">Names</th><th
+ class="eg1">Age</th></tr>
+
+<tr><td class="eg1">Michael</td><td
+class="eg1">21</td></tr>
+</table>
+<br>
+<table class="eg2">
+<tr><th class="eg2">Names</th><th class="eg2">Age</th></tr>
+<tr><td class="eg2">Michael</td\><td
+class="eg2">21</td></tr>
+</table>
+<br>
+<table class="eg3">
+<tr><th class="eg3">Names</th><th
+class="eg3">Age</th></tr>
+<tr><td class="eg3">Michael</td><td
+class="eg3">21</td></tr>
+</table>
+</body>
+</html>
+```
 
 ### border-collapse
 
@@ -10084,6 +10055,7 @@ Possible values of this property are: 
 <!------------------------------------------------------------------------------------------------>
 <img src="./images/image094.png"
 style="width:4in;height:2.4958in" />
+
 ```
 table.no-collapse, th.no-collapse, td.no-collapse
 {
@@ -10096,6 +10068,7 @@ border-collapse: collapse;
 ```
 
 <h4>HTML</h4>
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -10116,6 +10089,7 @@ border-collapse: collapse;
 </body>
 </html>
 ```
+
 <h4>Table width and height</h4>
 
 Browsers automatically set the width and height for the rows and columns
@@ -10148,45 +10122,29 @@ style="width:4in;height:4.33613in" />
 ### CSS
 
 table, th, td
-
 {
-
 border: 1px solid black;
-
 border-collapse: collapse;
-
 }
-
 th.eg1
-
 {
-
 width: 25%;
-
 }
-
 th.eg2
-
 {
-
 height: 70px;
-
 }
-
 table.eg3
-
 {
-
 width: 100%;
-
 }
+```
 
-HTML
+<h4>HTML</h4>
 
+```
 \<!DOCTYPE html\>
-
 \<html lang="en"\>
-
 \<head\>
 
 \<meta charset="UTF-8"\>
@@ -10252,6 +10210,7 @@ parent element:\</p\>
 \</body\>
 
 \</html\>
+```
 
 ### text-align
 
@@ -10316,39 +10275,29 @@ style="width:4in;height:2.52101in" />
 
 ### CSS
 
-> table, th, td { border: 1px solid black; }
->
-> table { border-collapse: collapse;}
->
-> th, td { padding: 20px; }
+```
+table, th, td { border: 1px solid black; }
+table { border-collapse: collapse;}
+th, td { padding: 20px; }
+```
 
 ### HTML
 
-\<!DOCTYPE html\>
-
+```
+<!DOCTYPE html>
 > \<html lang="en"\>
->
 > \<head\>
->
 > \<meta charset="UTF-8"\>
->
 > \<title\>Styling your table\</title\>
->
 > \</head\>
->
 > \<body\>
->
 > \<table\>
->
 > \<tr\>\<th\>Names\</th\>\<th\>Age\</th\>\</tr\>
->
-> \<tr\>\<td\>Michael\</td\>\<td\>21\</td\>\</tr\>
->
-> \</table\>
->
-> \</body\>
->
-> \</html\>
+<tr><td>Michael</td><td>21\</td\>\</tr\>
+</table\>
+</body\>
+</html\>
+```
 
 ### border-spacing
 
