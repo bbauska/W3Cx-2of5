@@ -1685,7 +1685,7 @@ element that is completely described by its attributes, and thus
 there is no need for other content.  So if you see something like this:
 
 ```
-<img src="https://goo.gl/pVxY0e" alt="Floating Flower"/\>
+<img src="https://goo.gl/pVxY0e" alt="Floating Flower"/>
 ```
 
 ... then you should know that the slash at the end of the open tag is
@@ -8539,7 +8539,8 @@ all of them, but it is the minimal info needed and is quite common.
 <!----------------------------------- 61.  (###) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <img src="./images/image061.jpeg"
-style="width:5in;height:3.89in" alt="Illustration of CSS Box Model" />
+style="width:5in;height:3.89in" 
+alt="Illustration of CSS Box Model" />
 
 The margin, as we learned earlier, specifies the position of the
 element relative to whatever is adjacent to it, either to the right or
@@ -8647,7 +8648,7 @@ rounded corners using the border-radius setting:
    alt="Image showing the 3 blocks with rounded borders, different thickness for their borders and keeping a thin border around their texts Block 1&#39;, &#39;Block 2&#39;, &#39;Block 3&#39;." />
 </p>
 
-<h3>4.3.2 Debugging with the box model</h3>
+<h3 id="ch4-3-2">4.3.2 Debugging with the box model</h3>
 
 In any browser's debugger, you will see a box model diagram. It looks
 like this:
@@ -8682,11 +8683,11 @@ So, in the example above:
 <li>margin-top and margin-bottom are equal to 16 pixels.</li>
 </ul>
 
-<h3>4.3.3 Box model</h3>
+<h3 id="ch4-3-3">4.3.3 Box model</h3>
 
 MS Edge….
 
-<h3 id="ch4-4">4.4.1 CSS Precedence</h3>
+<h3 id="ch4-4-1">4.4.1 CSS Precedence</h3>
 
 As we learned in the last module, in order for the computer to decide
 which of several rules may apply to a given element in a particular
@@ -8748,8 +8749,10 @@ font-size:1.2rem;
 </body>
 </html>
 ```
+
+<p>
 Looking at the style rules we see there are three different
-possibilities for the size and color of an \<h1\> element. In this case
+possibilities for the size and color of an &lt;h1&gt; element. In this case
 the application of the rules seems pretty intuitive. The outermost
 heading is neither in a Article or a Section, so it is blue and largest
 of the three. The one that's in the Article, but not in the section is
@@ -8762,6 +8765,7 @@ Your intuition may be thinking along these lines - "section h1" is more
 specific than "article h1" or "h1", and therefore it takes precedence
 resulting in smaller gray text.  However, when you re-arrange the rules
 you get a different result:
+</p>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 70. my boook chapter 1, section1.1 (###) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -8772,6 +8776,7 @@ you get a different result:
 </p>
 
 <h4>CSS</h4>
+
 ```
 section h1{
 color:grey;
@@ -8786,7 +8791,9 @@ color:blue;
 font-size: 2rem;
 }
 ```
+
 <h4>HTML</h4>
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -8809,11 +8816,14 @@ font-size: 2rem;
 </body>
 </html>
 ```
+
+<p>
 What happened? To answer that question, we'll turn to the browser's
 debugger.
+</p>
 
 <h3 id="ch4-4-2">4.4.2 Debugging CSS Precedence</h3>
-
+<p>
 This lesson is using developer tools provided by the Chrome browser.
 
 In the left panel of the debugger, there is the html markup of a page
@@ -8823,7 +8833,7 @@ are helpful in sorting out where a particular style setting is coming
 from.  We saw in a previous section that we can add or change CSS
 settings in the "Styles" panel, however, there is much more information
 there.
-
+</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 71. styles in the debugger (###) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -8832,12 +8842,13 @@ there.
    width="65%"
    alt="Styles in the Debugger" />
 </p>
-
+<p>
 There is a sequence of the panels under "Style" that helps understand
 just where a particular CSS rule is coming from. Starting at the top, we
 have rules that apply specifically to the currently active element.  In
 fact, changes in this top panel are mirrored as settings in the style
 attribute of the element:
+</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 72.  (###) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -8846,7 +8857,7 @@ attribute of the element:
    width="65%"
    alt="Modifying style in the debugger" />
 </p>
-
+<p>
 Under that there are more panels which show where CSS properties for
 other elements come from.  Under the top panel, which corresponds to
 inline style settings, we find properties for this element that came
@@ -8864,6 +8875,7 @@ stylesheet.
 Back to our quandary, why does "article h1" take precedence over
 "section h1"?  Let's take a look at the first version we tried, before
 rearranging, which did what we wanted:
+</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 73.  (###) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -8872,7 +8884,7 @@ rearranging, which did what we wanted:
    width="65%"
    alt="Working Version in Debugger" />
 </p>
-
+<p>
 Here we see just the opposite of what we saw before, now "section h1"
 takes precedence over "article h1".  What's going on?
 
@@ -8896,6 +8908,7 @@ than \<article\>.  We can make this explicit by changing the selector to
 "article section h1", so that now the smaller, lighter color will be
 used only on a section that is inside an article, which is really what
 we want:
+</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 74.  (###) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -8906,6 +8919,7 @@ we want:
 </p>
 
 <h4>CSS</h4>
+
 ```
 h1{
 color:blue;
@@ -8920,7 +8934,9 @@ color:grey;
 font-size:1.2rem;
 }
 ```
+
 <h4>HTML</h4>
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -8943,14 +8959,15 @@ font-size:1.2rem;
   </body>
 </html>
 ```
-<h3>4.4.3 Cloud images</h3>
 
+<h3>4.4.3 Cloud images</h3>
+<p>
 We're working on a Web page about clouds in
-the [CodePen](https://codepen.io/w3devcampus/pen/ybqbwJ) below, and we
+the <a href="https://codepen.io/w3devcampus/pen/ybqbwJ">CodePen</a> below, and we
 have some beautiful pictures we'd like to use: one for the top of the
 page, and others as examples of different types of clouds.  We include
 the pictures but the result is unwieldy:
-
+</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 75. image of cloud (186) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
