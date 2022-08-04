@@ -4246,7 +4246,7 @@ showcased in the paragraph -->
 ```
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 29.  (##) ------------------------------->
+<!---------------------------- 29. introduction html5 and api (##) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image029.png?raw=true"
@@ -4360,7 +4360,7 @@ element. **Here's a simplified version**:
 ```
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 30. template (##) -------------------------------->
+<!------------------------------ 30. w3c template (##) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image030.png?raw=true"
@@ -4398,15 +4398,15 @@ identify headings](https://www.w3.org/TR/WCAG20-TECHS/H42.html).
 ```
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 31. template (##) -------------------------------->
+<!------------------------------ 31. brad's cookbook (##) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image031.png?raw=true"
    width="40%"
-   alt="." />
+   alt="Brad's cookbook - slowcook recipes." />
 </p>
-
-Assistive technology uses heading markup, \<h1\> to \<h6\> to identify
+<p>
+Assistive technology uses heading markup, &lt;h1&gt; to &lt;h6&gt; to identify
 headings in a document. By using them to define your document's
 structure, a screen reader that parses your Web page will in some manner
 indicate the heading level. For example, raise its voice to indicate
@@ -4414,11 +4414,10 @@ higher level headings or announce the heading level with the text it
 reads. They can also navigate through the headings quicker making it
 easier for the user to navigate contents of the Web page. 
 
-You can learn more about the source of this technique in that [other W3C
-resource page about
-headings](https://www.w3.org/WAI/tutorials/page-structure/headings/).
+You can learn more about the source of this technique in that <a href="https://www.w3.org/WAI/tutorials/page-structure/headings/">other W3C
+resource page about headings</a>.
 
-<h4>Can you have more than one \<header\>, \<footer\> and \<nav\>?</h4>
+<h4>Can you have more than one &lt;header&gt;, &lt;footer&gt; and &lt;nav&gt;?</h4>
 
 There is a common misconception that a Web page can only have one header
 at the start, one footer at the end and one main navigation section to
@@ -4440,9 +4439,8 @@ other links, copyright information etc.
 
 Sometimes, the header of a Web page comes from a template file. This
 template file is used throughout the site as a global header. Check
-out [this
-demo](https://demo.tutorialzine.com/2015/02/freebie-7-responsive-header-templates/) by
-tutorialzine.com for examples of header templates. 
+out <a href="https://demo.tutorialzine.com/2015/02/freebie-7-responsive-header-templates/">this
+demo</a> by tutorialzine.com for examples of header templates. 
 
 Let's look at site-wide/global header and footer used in [Microsoft
 Virtual Academy home page](https://mva.microsoft.com/). At the time of
@@ -4460,7 +4458,7 @@ course creation, here are screenshots of its header  
 and footer.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------- 33. screenshot of the ms virtual academy home page showing the  footer (##) ---------->
+<!---------- 33. screenshot of the ms virtual academy home page showing the footer (##) ---------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image033.png?raw=true"
@@ -4484,10 +4482,10 @@ navigation lies so it can provide options for the users to either skip
 reading its contents or to make it immediately available.
 
 <h4>Complete example</h4>
-
+<p>
 Now, let's look at a more complete example using a global header and
-multiple \<header\>, \<footer\> and \<nav\> tags.
-
+multiple &lt;header&gt;, &lt;footer&gt; and &lt;nav&gt; tags.
+</p>
 <!------------------------------------------------------------------------------------------------>
 <!--------- 34. screenshot of the ms virtual academy home page showing the  footer (##) ---------->
 <!------------------------------------------------------------------------------------------------>
@@ -4498,39 +4496,33 @@ multiple \<header\>, \<footer\> and \<nav\> tags.
 </p>
 
 ```xml
-<!DOCTYPE html\>
-<html lang="en"\>
-<head\>
-<meta charset="UTF-8"\>
-<title\>Header Hierarchy\</title\>
-</head\>
-<body\>
-<!--Our global header used across all pages in our website--\>
-<header\>
-<h1\>Brad Abc's Blog\</h1\>
-<nav\>
-<ul\>
-<li\>\<a href="#ces"\>CES 2018\</a\>\</li\>
-<li\>\<a href="#vegan"\>Being Vegan\</a\>\</li\>
-<li\>\<a href="#html5"\>HTML5\</a\>\</li\>
-</ul\>
-</nav\>
->
-> \</header\>
->
-> \<!-- The main contents of the blog starts here --\>
->
-> \<main\>
->
-> \<!-- Each blogpost is split into individual articles --\>
->
-> \<article id="ces"\>
->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Header Hierarchy</title>
+</head>
+<body>
+<!--Our global header used across all pages in our website-->
+<header>
+<h1>Brad Abc's Blog</h1>
+<nav>
+<ul>
+<li><a href="#ces">CES 2018</a></li>
+<li><a href="#vegan">Being Vegan</a></li>
+<li><a href="#html5">HTML5</a></li>
+</ul>
+</nav>
+</header>
+<!-- The main contents of the blog starts here -->
+<main>
+<!-- Each blogpost is split into individual articles -->
+<article id="ces">
 <header>
 <h2>CES 2018</h2>
 <h3>Consumer electronics and consumer technology tradeshow</h3>
 </header>
-<p\>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
 neque risus, consequat eget vestibulum eu, consequat at eros. Nam eu
 nisl vel neque malesuada sollicitudin quis eget libero.</p>
 <footer>
@@ -4555,7 +4547,7 @@ dolor.</p>
 <!-- Article 3 -->
 <article id="html5">
 <header>
-<h2>HTML5</h2\>
+<h2>HTML5</h2>
 <h3>A summary of HTML5 differences from HTML4</h3>
 </header>
 <p>Pelientesque auctor nisi id magna consequat sagittis. Curabitur
@@ -4573,7 +4565,6 @@ articles here.</p>
 ©Copyright 2025. All rights reserved.
 <nav>
 <ul>
-
 <li><a href="">Email</a></li>
 <li><a href="">Twitter</a></li>
 <li><a href="">License</a></li>
@@ -4583,9 +4574,10 @@ articles here.</p>
 </body>
 </html>
 ```
+
 <h3 id="ch2-3-5">2.3.5 &lt;article&gt; and &lt;section&gt; Elements</h3>
 
-### \<article\> element
+<h4>&lt;article&gt; element</h4>
 
 An **article element** as we know is stand-alone content. If you pick an
 article out of a Web page, it should make sense all by itself.
@@ -4593,47 +4585,47 @@ In [Brad's Blog example](https://codepen.io/w3devcampus/pen/oWqbad) in
 the previous unit, if you extract only the first article, you can see
 that it will make sense all by itself without any context. It can be
 reused anywhere else.
+
 ```
-1.  \<article id="ces"\>
-2.    \<header\>
-3.      \<h2\>CES 2018\</h2\>
-4.      \<h3\>Consumer electronics and consumer technology
-    tradeshow\</h3\>
-5.    \</header\>
-6.    \<p\>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+1.  <article id="ces">
+2.    <header>
+3.      <h2>CES 2018</h2>
+4.      <h3>Consumer electronics and consumer technology
+    tradeshow</h3>
+5.    </header>
+6.    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     Aliquam neque risus, consequat eget vestibulum eu, consequat at
     eros. Nam eu nisl vel neque malesuada sollicitudin quis eget
-    libero.\</p\>
-7.    \<footer\>
-8.      \<p\>Written by guest author Nicholas Abc. Read Nicholas's blog
-    here.\</p\>
-9.    \</footer\>
-10. \</article\>
+    libero.</p>
+7.    <footer>
+8.      <p>Written by guest author Nicholas Abc. Read Nicholas's blog
+    here.</p>
+9.    </footer>
+10. </article>
 ```
 
 One article element can be nested inside another. For example, if you
 have a blog post and you want to include a forum post or newspaper
 article in it, you can nest it in another \<article\> tag. 
 
-Let's look at another example:
+<h4>Let's look at another example:</h4>
 
-1.  \<h4\>Getting There\</h4\>
-
-2.  \<p\>Arriving at the show location proved much harder for me. I
+```
+1.  <h4>Getting There</h4>
+2.  <p>Arriving at the show location proved much harder for me. I
     couldn't get a hotel closer to where the show was taking place and
-    so had to rent a car....\</p\>
-
-3.  \<h4\>Conference Sessions\</h4\>
-
-4.  \<p\>I managed to squeeze in 3 conference sessions on the first
-    day...\</p\>
+    so had to rent a car....</p>
+3.  <h4>Conference Sessions</h4>
+4.  <p>I managed to squeeze in 3 conference sessions on the first
+    day...</p>
+```
 
 This doesn't look like it makes sense all on its own. So we can't put it
 into an article element. Maybe a section element?
 
-### \<section\> element
+<h4>&lt;section&gt; element</h4>
 
-The **section element** is used to section a page. For example, chapters
+The <b>section element</b> is used to section a page. For example, chapters
 in a book, sections in a thesis or splitting an 'about me' page into
 introduction, interests and skills. Sections can be used in a page or
 within an article. In fact, all content within the body element is
@@ -4642,54 +4634,66 @@ in another). Sections can also be part of an article, aside or nav
 elements. While the code above makes no sense by itself, if you add it
 to our CES 2018 \<article\> example, it will fit right in:
 
-<img src="./images/image035.png"
-style="width:4in;height:4.44255in" />
+<!------------------------------------------------------------------------------------------------>
+<!--------- 35.  (##) ---------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image035.png?raw=true"
+   width="40%"
+   alt="." />
+</p>
 
 <h5>HTML</h5>
+
 ```
-<!DOCTYPE html\>
-<html lang="en"\>
-<head\>
-<meta charset="UTF-8"\>
-<title\>article and section elements\</title\>
-</head\>
-<body\>
-<article id="ces"\>
-<header\>
-<h2\>CES 2018\</h2\>
-<h3\>Consumer electronics and consumer technology tradeshow\</h3\>
-</header\>
-<section\>
-<h4\>Getting There\</h4\>
-<p\>Arriving at the show location proved much harder for me. I couldn't
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>article and section elements</title>
+</head>
+<body>
+<article id="ces">
+<header>
+<h2>CES 2018</h2>
+<h3>Consumer electronics and consumer technology tradeshow</h3>
+</header>
+<section>
+<h4>Getting There</h4>
+<p>Arriving at the show location proved much harder for me. I couldn't
 get a hotel closer to where the show was taking place and so had to rent
-a car....\</p\>
-</section\>
+a car....</p>
+</section>
 <section\>
-<h4\>Conference Sessions\</h4\>
-<p\>I managed to squeeze in 3 conference sessions on the first
-day...\</p\>
-</section\>
-<footer\>
-<p\>Written by guest author Nicholas Abc. Read Nicholas's blog
-here.\</p\>
-</footer\>
-</article\>
-</body\>
-</html\>
+<h4>Conference Sessions</h4>
+<p>I managed to squeeze in 3 conference sessions on the first
+day...</p>
+</section>
+<footer>
+<p>Written by guest author Nicholas Abc. Read Nicholas's blog
+here.</p>
+</footer>
+</article>
+</body>
+</html>
 ```
 
 An article element can use section elements to split its contents into
 groups.
 
-### Semantic elements sample
+<h4>Semantic elements sample</h4>
 
 To get a better understanding on the usage of semantic elements in your
-Web page, try on
-this [CodePen](https://codepen.io/w3devcampus/pen/Wjzjpx):
+Web page, try on this <a href="https://codepen.io/w3devcampus/pen/Wjzjpx">CodePen</a>:
 
-<img src="./images/image036.png"
-style="width:4in;height:2.54468in" />
+<!------------------------------------------------------------------------------------------------>
+<!--------- 36.  (##) ---------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image036.png?raw=true"
+   width="40%"
+   alt="." />
+</p>
 
 ```
 <!DOCTYPE html>
@@ -4777,6 +4781,7 @@ element, webstorage etc...</p>
 browsers to produce the same type of behavior when parsing incorrect
 syntax. It has been designed for compatibility with older browsers.
 Older browsers ignore new HTML5 constructs... </p>
+
 ```
 </section>
 <!-- Our logo section show hows to use the semantic elements figure and
@@ -6537,7 +6542,7 @@ different. So let's get started.
 <!----- *********************** image ***************** ------->
 <img src="./images/image052.jpeg"
 style="width:1.5625in;height:1.5625in"
-alt="Snapshot os a style tag in the XDK code editor" />
+alt="Snapshot of a style tag in the XDK code editor" />
 
 The best practice when working with CSS is to keep it in an external
 file using the \<link\> tag, however, when starting, it is simpler to
@@ -8133,7 +8138,7 @@ there are conflicts, the rules from the later one apply.  
 ```
 
 In the example above, an element with the .hortense class will be
-underlined and its color will be <b>blue, because that rule came later
+underlined and its color will be blue, because that rule came later
 than when it was set red.
 
 <h4>No fear</h4>
@@ -8302,7 +8307,7 @@ the browser to understand conflicting rules.
 <b>4.5 Give Your Mind a Workout:</b> Let’s see what you have learned about
 debugging your code.
 
-<h3 id="ch4-2">4.2.1 Tools</h3>
+<h3 id="ch4-2-1">4.2.1 Tools</h3>
 
 It's hard to overestimate the value of tools for programming languages.
 There are tools for creation, testing, debugging and even measuring the
@@ -9106,6 +9111,7 @@ li img {
 </p>
 
 <h4>CSS</h4>
+
 ```
 img {
 width: 25rem;
@@ -9114,7 +9120,9 @@ li img {
 width: 10rem;
 }
 ```
+
 <h5>HTML</h5>
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -9174,7 +9182,9 @@ this:
    font-size: .5em;
   }
 ```
+
 <h5>HTML</h5>
+
 ```
    <!DOCTYPE html>
    <html lang="en">
@@ -9199,8 +9209,10 @@ this:
     </ol>
     </li>
 ```
+
 As with the cloud pictures, we want the listed items a bit smaller than
 the regular text, so we add this styling:
+
 ```
    1.  section {
    2.    font-size: 24px;
@@ -9212,6 +9224,7 @@ the regular text, so we add this styling:
    8.    font-size: 0.5em;
    9.  }
 ```
+
 The outermost level is fine, the next level is almost readable but the
 innermost level is ridiculously small.  Let's check what's wrong in the
 debugger.
@@ -10829,11 +10842,17 @@ style="width:4in;height:2.5126in" />
 <h4>In summary: a fancy table</h4>
 
 As a conclusion to this tables section, here is a complete table design:
-
-<img src="./images/image102.png"
-style="width:4in;height:4.52941in" />
+<!------------------------------------------------------------------------------------------------>
+<!--------- 102.  (##) ---------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image102.png?raw=true"
+   width="40%"
+   alt="." />
+</p>
 
 <h5>CSS</h5>
+
 ```
 1.  table, th, td {
 2.  padding: 30px;
@@ -11312,7 +11331,7 @@ little more visually appealing inside your document.
 
 3.  Create the following table structure using HTML and CSS following
     the style as closely as possible noting table border, colors, etc.  
-    Insert dummy text values for table.  
+    Insert dummy text values for table.
     <img src="./images/image103.png"
     style="width:6.025in;height:1.56667in"
     alt="Tables activity #2: it&#39;s a 3x3 table - the header row has a dark grey background; the last column is composed of the header cell and the other cells are grouped; the last row has the 2 first cells merged" />
@@ -11330,7 +11349,7 @@ little more visually appealing inside your document.
 6.  Create a simple hover to highlight table that makes the background
     color of a row 'yellow' when you hover over a table row.
 
-<h3 id="ch5-3">5.3.1 The &lt;audio&gt; element</h3>
+<h3 id="ch5-3-1">5.3.1 The &lt;audio&gt; element</h3>
 
 audio and video are new HTML 5 elements that were highly anticipated.
 With HTML5 support for multimedia, this has become much easier, than
@@ -11705,10 +11724,13 @@ Because iframes are HTML elements, they can be styled just like other
 elements, with borders, margins, sizes specified with CSS rules:
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 114.  (###) -------------------------------------->
+<!--------- 114. iframes (##) ---------->
 <!------------------------------------------------------------------------------------------------>
-<img src="./images/image114.png"
-   style="width:3in;height:1.64371in" />
+<p align="center" width="100%">
+<img src="./images/image114.jpeg?raw=true"
+   width="30%"
+   alt="Styling iframes." />
+</p>
 
 Here, we've embedded a YouTube video with an iframe like this:
 
@@ -13894,10 +13916,11 @@ to help visualize.
 <p align="center" width="100%">
 <img src="./images/image151.png?raw=true"
    width="100%"
-   alt="Flex Container and Flex Columns" />
+   alt="Flex container and flex columns." />
 </p>
 
 <h4>flex container</h4>
+
 ```
 div { display: flex; }
 span { display: inline-flex; }
@@ -13910,6 +13933,7 @@ be an inline element. However, in both cases the element is now a flex
 container and will be handling the layout of its children.
 
 <h4>flex-flow</h4>
+
 ```
 .fc {
 display: flex;  /* this is now a flex container */
@@ -13971,9 +13995,10 @@ element as a flex container. In that case, the symbol "flex" is used as
 a value of the display property.
 
 But flex is also the name of  a property. It is a property that is
-applied to flex items, the children of a flex container.  
+applied to flex items, the children of a flex container.
+
 ```
-span { flex: \<flex-grow\> \<flex-shrink\> \<flex-basis\>; }
+span { flex: &lt;flex-grow&gt; &lt;flex-shrink&gt; &lt;flex-basis&gt;; }
 ```
 
 The flex property provides a convenient way to abbreviate the three
@@ -13983,9 +14008,10 @@ optional properties.
 Therefore, flex:1; is <b>better<b> than flex-grow:1; . 
 
 <h4>flex-grow</h4>
+
 ```
-p { flex: <b>1**; /* rather than use flex-grow, use
-flex: **<flex-grow>**; */ }
+p { flex: <b>1</b>; /* rather than use flex-grow, use
+flex: <flex-grow>; */ }
 ```
 
 The flex-grow property is set simply to a positive number. In isolation
@@ -14010,8 +14036,8 @@ super-power. 
 <h4>flex-shrink</h4>
 
 ```
-p { flex: 1 <b>1**; /* rather than use flex-shrink directly, use flex:
-<flex-grow> **<flex-shrink>** */ }
+p { flex: 1 <b>1; /* rather than use flex-shrink directly, use flex:
+<flex-grow> <flex-shrink> */ }
 ```
 
 The flex-shrink is the opposite of flex-grow. When laying out any row or
@@ -14035,8 +14061,8 @@ the box-sizing to border-box.   
 <h4>flex-basis</h4>
 
 ```
-p { flex: 1 1 <b>87px**;  /* use flex: <flex-grow>
-<flex-shrink> **<flex-basis\>** */}
+p { flex: 1 1 <b>87px;  /* use flex: <flex-grow>
+<flex-shrink> <flex-basis\> */}
 ```
 
 The flex-basis can be used instead of the sizing properties on a flex
@@ -14588,7 +14614,7 @@ cases.
 <h3 id="ch6-6-1">6.6.1 Recipe project - Module 6</h3>
 
 <h3 id="ch6-6-2">6.6.2 Recipe project</h3>
-
+<p>
 In this next iteration of our recipe project, we're going to make a few
 changes again to our Web page using cascading style sheets.
 
@@ -14752,7 +14778,7 @@ They've actually scrolled down a little bit more.
 We fixed those issues at the top.
 
 These are the final changes to our recipe project for this unit.
-
+</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ ##. template (##) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -14762,5 +14788,5 @@ These are the final changes to our recipe project for this unit.
    alt="." />
 </p>
 
-<h3><b>Last Updated 08-04-2022 12:55am</b></h3>
+<h3><b>Last Updated 08-04-2022 2:43am</b></h3>
 
