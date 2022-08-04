@@ -5836,9 +5836,9 @@ have small screens and limited bandwidth. We want to align the page
 better for a small screen and reduce the size of images. So the media
 attribute allows us to tell the anchor element that this page is
 targeted for handheld devices. You do this by providing a value for the
-attribute. This value could be any valid [media
-query ](https://www.w3.org/TR/css3-mediaqueries/)and is a combination
-of **device type** and **media rendering values**.
+attribute. This value could be any valid <a href="https://www.w3.org/TR/css3-mediaqueries/">media
+query</a> and is a combination
+of <b>device type</b> and <b>media rendering values</b>.
 
 Let's look at another example - you could create a print link to a long
 content heavy page that will redirect you to a print version of the
@@ -5846,8 +5846,10 @@ same. You want this print version to be formatted into one page ideal
 for printing and with resolution of 250 dpi. Here is how the HTML5 code
 will look like:
 
-1.  \<a href="https://en.wikipedia.org/wiki/Media_queries?output=print" media="print
-    and (resolution:250dpi)"\>Print wiki page about media queries\</a\>
+```
+1.  <a href="https://en.wikipedia.org/wiki/Media_queries?output=print" media="print
+    and (resolution:250dpi)">Print wiki page about media queries</a>
+```
 
 <h4>The 'download' attribute</h4>
 
@@ -5880,8 +5882,8 @@ modified according to value specified. 
 
 <a href="https://courses.edx.org/assets/courseware/v1/6e709b3765de6510e212932331a0bf52/asset-v1:W3Cx+HTML5.0x+3T2020+type@asset+block/hello.txt">Click to Download</a>
 
-<b>Note: </b>the download attribute is [not supported in all
-browsers](https://caniuse.com/#search=download). Try
+<b>Note: </b>the download attribute is <a href="https://caniuse.com/#search=download">not supported in all
+browsers</a>. Try
 the download attribute in a html file of your own and run it in
 different browsers to see how it behaves.
 
@@ -6084,9 +6086,7 @@ Consider this example, where I have something, a lot of text or content
 and I want to get down here.
 
 I want to give the user the ability to jump past some information maybe
-or
-
-referring them to something else on the page.
+or referring them to something else on the page.
 
 That's a local jump on the page.
 
@@ -6402,7 +6402,7 @@ tags.
 
 And that concludes this live coding session. Bon appétit !
 
-<h3 id="ch3-1">3.1.1 Welcome to Module 3</h3>
+<h3 id="ch3-1-1">3.1.1 Welcome to Module 3</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- 48.  (xxx) ---------------------------------->
@@ -6542,7 +6542,7 @@ different. So let's get started.
 <!----- *********************** image ***************** ------->
 <img src="./images/image052.jpeg"
 style="width:1.5625in;height:1.5625in"
-alt="Snapshot of a style tag in the XDK code editor" />
+alt="Snapshot of a style tag in the XDK code editor." />
 
 The best practice when working with CSS is to keep it in an external
 file using the \<link\> tag, however, when starting, it is simpler to
@@ -6584,11 +6584,13 @@ appear in the \<head\> section.  By convention, css files are kept in a
 directory named *css*.
 
 <h5>Use this &lt;link&gt; as a template:</h5>
+
 ```
 1.  <link rel="stylesheet" href="css/my_styles.css">
 ```
 
 <h5>Here is an example HTML document.</h5>
+
 ```
 1.  <!DOCTYPE html>
 2.  <html lang="en">
