@@ -6970,7 +6970,7 @@ q { font-size: small; }
 blockquote { font-size: larger; }
 ```
 
-line-height
+<h4>line-height</h4>
 
 Whereas font-size may drive the size of the text itself,
 the line-height property drives the height of the space it is drawn
@@ -7048,17 +7048,13 @@ are: underline, overline, line-through, and none;  They can combined.
 
 ```
 p { text-decoration: underline; }  
-a { text-decoration: none; } /\* hyperlinks are underlined by default,
-```
-
-but that can be removed \*/   
-
-```
+a { text-decoration: none; } /* hyperlinks are underlined by default,
+but that can be removed */   
 span { text-decoration: overline; }  
-span { text-decoration: underline overline; } /\* apply two with just a
+span { text-decoration: underline overline; } /* apply two with just a
 space between the values \*/  
-span { text-decoration: underline overline line-through; } /\*
-everything \*/
+span { text-decoration: underline overline line-through; } /*
+everything */
 ```
 
 | **underline**      | **overline** | **line-through** | **underline overline line-through** |
@@ -7083,11 +7079,13 @@ are: 100, 200, 300, 400, 500, 600, 700, 800 and 900.
 normal maps to 400 and bold to 700. However, the different numeric
 choices will only work for fonts that support a full range of
 font-weights. Many times the numeric weights will simply be mapped back
-to bold or normal. 
+to bold or normal.
+
 ```
 p { font-weight: bold; }  
 blockquote { font-weight: 900; }
 ```
+
 | **normal**           | **bold**                 | **200**              | **500**              | **700**                  | **900**                  |
 |----------------------|--------------------------|----------------------|----------------------|--------------------------|--------------------------|
 | A Tale of Two Cities | **A Tale of Two Cities** | A Tale of Two Cities | A Tale of Two Cities | **A Tale of Two Cities** | **A Tale of Two Cities** |
@@ -7103,57 +7101,60 @@ are normal and italic.  
 | <b>font-style: normal;</b>                                                                                                                                    | <b>font-style: italic;</b>                                                                                                                                      |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Many years later, as he faced the firing squad, Colonel Aureliano Buendía was to remember that distant afternoon when his father took him to discover ice. | <i>Many years later, as he faced the firing squad, Colonel Aureliano Buendía was to remember that distant afternoon when his father took him to discover ice.</i> |
-```
+
 <h4>font-family</h4>
-
+<p>
 Want to set the font for an item on the page?   The font-family is the
-correct property for the task, but there are caveats:
-
--   the various browsers only guarantee a few standard
-    choices: serif, sans-serif, monospace, cursive, and fantasy.
-
--   any other choice must be already installed on the users machine.
-
--   or you may use a "Web font", but your choices, while plentiful, may
-    not match the choices you are used to.  
-
--   your favorite font on your machine is probably encumbered by
+correct property for the task, but there are caveats:</p>
+<ul>
+<li>the various browsers only guarantee a few standard
+    choices: serif, sans-serif, monospace, cursive, and fantasy.</li>
+<li>any other choice must be already installed on the users machine.</li>
+<li>or you may use a "Web font", but your choices, while plentiful, may
+    not match the choices you are used to.</li>
+<li>your favorite font on your machine is probably encumbered by
     licensing limitations and is not available. You can certainly
     specify it to be used, but if the end user doesn't have it
-    themselves, they won't see it. And you can't "give" it to them.
-    Again, "Web fonts" are the alternative here. 
+    themselves, they won't see it. And you can't "give" it to them.</li>
+</ul>
+<p>
+Again, "Web fonts" are the alternative here. 
 
 To help ameliorate these limitations, the font-family property accepts
 a *list* of possible font choices.  The browser will start with trying
 the first font listed, and if not available (or not having a needed
 glyph) it will then proceed to the next font in the list, and so on.
+
 Here is a typical font-family declaration:
+</p>
 
 ```
 p { font-family: "Helvetica", "Verdana", "Arial", sans-serif; }
 ```
 
+<p>
 The rule above says to first try the font named "Helvetica". If it isn't
 available, try "Verdana", failing that "Arial", and lastly fall back to
 the built in sans-serif browser font.
-
--   each of the named font families is separated by a comma ( , )
-
--   if the font family name contains any spaces (or certain other
+</p>
+<ul>
+<li>each of the named font families is separated by a comma ( , )</li>
+<li>if the font family name contains any spaces (or certain other
     characters) it <b>must</b> be surrounded by quotes. Font names tend to
     be complex, and the exact rules for when quotes are required are
     arcane, so the simplest and best practice is to <b>always surround
     the font family name in quotes</b>, excepting the five built-ins
-    (serif, sans-serif, etc.)
-
+    (serif, sans-serif, etc.)</li>
+</ul>
+<p>
 Web fonts are outside the scope of this course. Google provides a nice
 selection of licensed free Web fonts. Type "*google Web font tutorial*"
-into any search engine to learn more. 
-
+into any search engine to learn more.
+</p>
 <h3 id="ch3-3-2">3.3.2 Margin and Color</h3>
 
 <h4>Margin</h4>
-
+<p>
 We will examine layout in a later unit. But the margin property is the
 lynch-pin for positioning elements. Whenever you want to move something
 a little the margin property should be your first thought, when having
@@ -7163,6 +7164,7 @@ The margin can be a bit confusing.  Depending upon context, it will
 space an item away from its immediate neighbors (in the HTML) or from
 the edges of its parent. Also, there is not only one margin property,
 but five:
+</p>
 
 ```
 p { margin: 10px; }  /* a 10 pixel margin will be applied around all
@@ -7198,10 +7200,10 @@ discussed in a future section.
 <h4>rgb/rgba</h4>
 
 ```
-p { color: rgb(10, 200, 255); }  
-p { color: rgb(0, 0, 0); } /\* 0,0,0 is black \*/  
-p { color: rgb(255, 255, 255); } /\* 255,255,255 is white \*/  
-b { color: rgba(10, 200, 255, 0.5); }  /\* semi-transparent \*/
+p { color: rgb(10, 200, 255); }
+p { color: rgb(0, 0, 0); } /* 0,0,0 is black */
+p { color: rgb(255, 255, 255); } /* 255,255,255 is white */
+b { color: rgba(10, 200, 255, 0.5); }  /* semi-transparent */
 ```
 
 Generally, any color on a computer is exactly specified by mixing three
@@ -7443,7 +7445,7 @@ and awareness are good companions and will serve you well.
 If you are interested in accessibility, there is much more to learn.
 These simple guidelines merely scratch the surface.
 
-<h3 id="ch3-4">3.4.1 Styling Lists</h3>
+<h3 id="ch3-4-1">3.4.1 Styling Lists</h3>
 
 The list markup tags (\<ul\>, \<ol\> and \<li\>) are some of the most
 frequently used specific purpose tags in HTML. There are a few CSS style
@@ -7658,6 +7660,7 @@ interesting and useful ways. So let's learn some more CSS selectors.
 We've already seen this one. A CSS selector that consists solely of a
 single tag (without punctuation or spacing) will be applied to any
 matching tag on the page.
+
 ```
 <b>li</b> { list-style-type: circle; }
 ```
