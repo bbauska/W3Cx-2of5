@@ -2765,20 +2765,22 @@ primarily used to invoke certain formatting. 
 5.  would smell as sweet
 ```
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 19. w3c developers logo (??) ---------------------------------->
+<!----------------- 19. Example of poetry as it might appear on a web page (??) ------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image019.png?raw=true"
    width="25%"
-   alt="Example of Poetry as it might appear on a Web Page" />
+   alt="Example of poetry as it might appear on a web page." />
 </p>
 
--   <b>\<pre\><b> - <b>pre<b> stands for "PREformatted text", meaning that
+<ul>
+<li><b><pre><b> - <b>pre<b> stands for "PREformatted text", meaning that
     the text is to be presented exactly as written in the HTML file. It
     preserves all text formatting characters i.e. spaces, line
     breaks and (thus bypassing the white space rule) and most typically
     implies a monospace font. It is very handy for illustrating bits of
-    program code, or other "typewritten" material:
+    program code, or other "typewritten" material:</li>
+</ul>
 
 ```
 Text in a pre element
@@ -2787,6 +2789,7 @@ font, and it preserves
 both spaces and
 line breaks
 ```
+
 <h3 id="ch1-6-3">1.6.3 More HTML5</h3>
 
 <h4>Video</h4>
@@ -2794,24 +2797,24 @@ line breaks
 <h3 id="ch1-6-4">1.6.4 Activity - Your First Web Page</h3>
 
 <h3 id="ch1-6-5">1.6.5 Recipe Project – Module 1</h3>
-
+<p>
 Throughout the course, we'll be building a simple project, adding to it
 with what we've learned in each module. This project will be a simple
 Web application that will allow you to browse different recipes.
 
 For now, we'll start off with a simple first draft using just what we've
 learned about HTML5 using tags we've covered.  We want to have the
-following components:
+following components:</p>
 
--   A large title for the app, something like "My Favorite Recipes", or
-    whatever you'd like to call it.
+<ul>
+<li>A large title for the app, something like "My Favorite Recipes", or
+    whatever you'd like to call it.</li>
+<li>A description of a recipe, just some plain text explaining what the
+    recipe is and any other pertinent information.</li>
+<li>A set of steps to follow, numbered in order.</li>
+</ul>
 
--   A description of a recipe, just some plain text explaining what the
-    recipe is and any other pertinent information.
-
--   A set of steps to follow, numbered in order.
-
-Please start with this "empty page" in CodePen:
+<p>Please start with this "empty page" in CodePen:</p>
 
 <h4>HTML</h4>
 
@@ -2870,7 +2873,7 @@ This is going to be my favorite recipe.
    width="35%"
    alt="Attributes, images and links." />
 </p>
-
+<p>
 Hi, everyone, and welcome.
 
 I'm Andrew, your instructor for week 2 of the Introduction to HTML and
@@ -2933,7 +2936,7 @@ It is very important to style your Web pages for search engine
 optimization (SEO) to improve your search engine rankings, and for
 visually impaired people who access your Web page using assistive
 technology like screen readers. Semantic markup enables all of this and
-more.
+more.</p>
 
 <h3 id="ch2-1-3">2.1.3 Module 2 - Content</h3>
 
@@ -2955,9 +2958,9 @@ jump from place to place on the Web. Explore the secrets of this
 powerful mechanism!
 
 <h3 id="ch2-2-1">2.2.1 Introduction</h3>
-
+<p>
 We learned a little bit about what attributes are in the previous
-module. Let's look into it in more depth, by using examples.
+module. Let's look into it in more depth, by using examples.</p>
 
 <h4>Here is an ordered list:</h4>
 
@@ -2976,9 +2979,9 @@ module. Let's look into it in more depth, by using examples.
  2. Camera
  3. Action
 ```
-
+<p>
 If i want an ordered list to start with the number 5 instead of 1 (as it
-does by default), let's code like this:
+does by default), let's code like this:</p>
 
 ```xml
   <ol start="5">
@@ -2996,42 +2999,41 @@ does by default), let's code like this:
 7. Action
 ```
 
+<p>
 Here, using the start attribute, we made our list start with 5 instead
 of 1.
 
 Like start, we have many useful attributes we will see in this section
 that can affect your element. Attributes are a significant part of HTML.
-Tags and attributes make up the language. 
+Tags and attributes make up the language.</p>
 
 <h4>Syntax:</h4>
 
 <h4>Attributes are used in tags to further define the tag:</h4>
 
--   It is used inside the opening tag it is applied to and should be
-    added after a space from the tag name: \<ol start="5"\>.
-    The start attribute is used inside the \<ol\> tag. 
-
--   start="5"  
+<ul>
+<li>It is used inside the opening tag it is applied to and should be
+    added after a space from the tag name: &lt;ol start="5"&gt;.
+    The start attribute is used inside the &lt;ol&gt; tag. </li>
+<li>start="5"
     Attribute name, equal sign, opening quote, attribute value, closing
-    quote
-
--   Attributes are a name-value pair: start="5"  
+    quote.</li>
+<li>Attributes are a name-value pair: start="5"  
     name: start  
-    value: any positive integer
-
--   The only exception to the name-value pair is if the attribute is a
+    value: any positive integer</li>
+<li>The only exception to the name-value pair is if the attribute is a
     'boolean attribute'. These attributes have only two types of
     values - true or false. But instead of writing "true" or "false" for
     its value, you add the attribute name to indicate true and omit it
     to indicate false. An example is the 'reversed' attribute in an
-    ordered list \<ol\>. Adding this attribute is an indication that the
+    ordered list &lt;ol&gt;. Adding this attribute is an indication that the
     list order should be reversed (in descending order).   
-         \<ol reversed\>\</ol\>
-
--   A tag can have multiple attributes:  
-       \<ol start="5"\>\</ol\>  
-       \<ol id="cinema" class="attribute-list" start="5"\>\</ol\>  
-       \<ol start="5" class="attribute-list"\>\</ol\>
+         &lt;ol reversed&gt;&lt;ol&gt;
+<li>A tag can have multiple attributes:  
+       &lt;ol start="5"&gt;&lt;ol&gt;
+       &lt;ol id="cinema" class="attribute-list" start="5"\>\</ol\>  
+       &lt;ol start="5" class="attribute-list"\>\</ol&gt;</li>
+</ul>
 
 <h4>Example #1: the 'id' attribute</h4>
 
@@ -3173,6 +3175,7 @@ several tags such as \<img\>, \<input\> and \<video\>.
      <li>JavaScript</li>
   </ol>
 ```
+
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------- 21. html result (63) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -3316,11 +3319,11 @@ the elements that belong to the class in your stylesheet. 
 In your CSS, you can include code to style your classes, for example by
 telling it:
 
--   'question' class: text color is black and text is bold
-
--   'answer' class: text color is green
-
--   'html' class: text color is red
+<ul>
+<li>'question' class: text color is black and text is bold.</li>
+<li>'answer' class: text color is green.</li>
+<li>'html' class: text color is red.</li>
+</ul>
 
 The code above will then look like this:
 
