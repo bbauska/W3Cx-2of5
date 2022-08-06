@@ -8390,7 +8390,7 @@ activated when you "Inspect Element".
 
 While it's important that your page looks and acts the way you intend,
 there are other considerations as well. One important aspect is
-"[accessibility](https://www.w3.org/WAI/intro/accessibility.php)". When
+"<a href="https://www.w3.org/WAI/intro/accessibility.php">accessibility</a>". When
 talking about Web pages, accessibility means designing your page with
 various disabilities in mind. For example, for someone with impaired
 vision, you'd want to make sure that your page is zoomable, or make sure
@@ -8403,8 +8403,8 @@ Fortunately, there are a number of tools available to help evaluate the
 accessibility of your site.  You can evaluate the overall accessibility
 of your page, see how it looks to a screenreader and even figure out how
 well your background a foreground colors interact.  For a good list of
-such tools, check out  [Web Accessibility Evaluations Tools
-List](https://www.w3.org/WAI/ER/tools/).
+such tools, check out <a href="https://www.w3.org/WAI/ER/tools/">Web Accessibility Evaluations Tools
+List</a>.
 
 <h4>Debugging</h4>
 
@@ -8616,7 +8616,9 @@ following pictures, the black rectangles encompass the content:
 <!------------------------------------------------------------------------------------------------>
 <img src="./images/image062.png"
 style="width:3in;height:1.02479in"
-alt="Image showing three blocks (Block 1, Block 2, Block 3) with no margins between them" /><img src="./images/image063.png"
+alt="Image showing three blocks (Block 1, Block 2, Block 3) with no margins between them" />
+
+<img src="./images/image063.png"
 style="width:3in;height:1.10482in"
 alt="Image showing (Block 1, Block 2, Block 3). Block 2 has a positive margin-left, creating space between Blocks 1 and 2. Block 3 has a negative margin-left, causing its left side to overlap with Block 2." />
 
@@ -13480,7 +13482,7 @@ should be aware:
 
 -   There are no automatic size adjustments.
 
-### Independence - margin-top vs top
+<h4>Independence - margin-top vs top</h4>
 
 *IMPORTANT*: The positioning properties (left, top, right, and bottom)
 adjust the placement of the element*** independently of its siblings***.
