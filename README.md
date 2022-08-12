@@ -1732,6 +1732,7 @@ writer may have meant it to be a comment.
 
 Like most other tags, it can span multiple lines of your source file.
  This can be really convenient when you have a lot to say:
+
 ```xml
 <!--
 If you want some good advice,
@@ -1740,14 +1741,17 @@ For loan oft loses both itself and friend,
 And borrowing dulls the edge of husbandry.
 -->
 ```
+
 Comments are also commonly used in development to block out bits of
 code, whether for testing or leaving unfinished business in the file:
+
 ```
  <!-- Not sure if I want this wording or not:
  <p>Eighty seven years ago, a bunch of guys started a new
     country</p>
  -->
 ```
+
 It's important to remember that just as HTML, CSS and JavaScript are
 three different languages, they each have their own notation for
 handling comments. This might seem confusing, but it's actually kind of
@@ -1764,11 +1768,13 @@ You can identify it uniquely with an 'id' attribute, or group it with a
 class of other elements by setting the 'class' attribute.
 
 Attributes in HTML are written inside the opening tag like this:
+
 ```
 <p id="paragraph-1" class="regular-paragraphs">
    Call me Ishmael . . .
 </p>
 ```
+
 The paragraph above has a unique identifier, "paragraph-1" and is part
 of a class of "regular-paragraphs". The letters inside the quotes have
 no meaning to the browser, they just need to be consistent. They are
@@ -1801,6 +1807,7 @@ and knowing that mistakes happen choose the one she thinks is best
 suited in that case. A browser, on the other hand, has difficulty with a
 task like that, so it is helpful to use a close tag that matches the
 open tag to make things absolutely clear.
+
 ```
 <p>
 The old lady pulled her spectacles
@@ -1814,6 +1821,7 @@ small boy by the slack of his roundabout
 and arrest his flight.
 </p>
 ```
+
 The old lady pulled her spectacles down and looked over them about the
 room; then she put them up and looked out under them. There was a slight
 noise behind her and she turned just in time to seize a small boy by the
@@ -1840,9 +1848,11 @@ won't know which version of HTML is used (it matters).  
 
 That's why **the first thing you need in any HTML file** is a tag to
 tell you what type of HTML file it is:
+
 ```
 <!DOCTYPE html>
 ```
+
 In other words, the first thing the browser sees is the declaration
 "This is an HTML5 file, in case you were wondering". It may seem tedious
 to put this at the top of every file, but believe me, it used to be
@@ -2142,13 +2152,17 @@ href=&amp;quot;&amp;num;timetable&amp;quot;&amp;gt;</p>
 We do not want these special characters to be processed by the browser
 as HTML code. Instead, you want it to be displayed to the user. So if
 you wish to display this in your browser:
+
 ```
 <img src="images/test.png" alt="test image">
 ```
+
 You have to write it like this in your HTML code:
+
 ```
 &lt;img src=&quot;images/test.png&quot; alt=&quot;test image&quot;&gt;
 ```
+
 <h4>HTML</h4>
 
 ```
@@ -2188,28 +2202,31 @@ abbreviation. If you try the code below in a browser and hover your
 mouse pointer on the text 'HTML5', it will show you the title text (it
 works like a tooltip). The title text in the source code includes quotes
 (around the number 5) like this:
+
 ```
 1.  <abbr title="Hypertext Markup Language "5"">HTML5</abbr>
 ```
+
 The above will not display the number 5.
 
 Replacing the quotes with its character entity will work:
+
 ```
 1.  <abbr title="Hypertext Markup Language "5"">HTML5</abbr>
 ```
+
 Check out this jsfiddle link.
 
 <h4>HTML</h4>
+
 ```
 <p>Rest your mouse on the text below: (The number 5 is missing)</p>
-
 <abbr title="Hypertext Markup Language "5"">HTML5</abbr>
-
 <p>Rest your mouse on the text below: (5 is displayed when quotes is
 replaced with its character entity name)</p>
-
 <abbr title="Hypertext Markup Language &quot;5&quot;">HTML5</abbr>
 ```
+
 <h3 id="ch1-4-5">1.4.5 Character References for Other Characters</h3>
 
 It is also possible to use character references to represent other
@@ -2250,7 +2267,8 @@ the source code.
 You can do this directly in the code:   <p>This is © 2015. Breach will
 entail a fine of € 400</p>
 
-HTML
+<h4>HTML</h4>
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -2263,6 +2281,7 @@ HTML
 </body>
 </html>
 ```
+
 There is no need for the &copy; or &euro; HTML character reference if
 you are able to type the character itself.
 
@@ -2323,18 +2342,22 @@ overlap with other elements. That is, you can have an element that is
 enclosed in another element, or you can have two elements side-by-side,
 but you can never have a situation in which part of an element is in
 another, but the other part is not.
+
 ```xml
   <p>This is a <em>paragraph</em></p>
    
   <h1>Paragraph ahead</h1>
   <p>And here it is.</p>
 ```
+
 The two examples above are fine because in each case either an element
 is wholly contained in another (<em> in <p>) or they are completely
 separate (<h1> and <p>). This, on the other hand, is not valid:
+
 ```xml
   <h1>Part of this header is<p>in the</h2> paragraph below</p>
 ```
+
 What happens in this case is what we call "undefined". That just means
 that there is no telling how the browser will decide to handle it. It
 might decide to automatically close the <p> when it sees another close
@@ -2370,6 +2393,7 @@ need the <!doctype> section and the <html> section with
 
 Proper indentation is one way to make your code clearer and easier to
 understand:
+
 ```xml
   <body>
   <h1>Here is a heading</h1>
@@ -2378,9 +2402,11 @@ understand:
   </p>
   </body>
 ```
+
 The code above doesn't give any sense of the structure of the document.
 By using indentation effectively, you can make it more clear, showing
 the nesting of elements:
+
 ```xml
   <body>
     <h1>Here is a heading</h1>
@@ -2391,6 +2417,7 @@ the nesting of elements:
     </p>
   </body>
 ```
+
 Consistent quoting of strings is also helpful, in part to avoid
 potential problems that can arise when you think something does not need
 quotes but it actually does.
@@ -2442,6 +2469,7 @@ will look the same.
 
 Thus, all three of the following elements should look exactly the same
 when you read them in the browser:
+
 ```xml
   <H1> This is the Beginning </H1>
 
@@ -2453,6 +2481,7 @@ when you read them in the browser:
 
   <h1>This is the Beginning</h1>
 ```
+
 It might seem confusing at first, but this rule about white space is
 actually very convenient.  The third option might be a bit too cramped
 for your taste, while the second might seem to take up too much room in
@@ -2468,11 +2497,13 @@ insensitive, but it is not that easy.  
 **Attributes are case sensitive**! We have not learned much about
 attributes yet, but when we do we will discover that they are case
 sensitive, thus these two elements will have different 'id's:
+
 ```xml
    <p id=ThisOne>
    
    <p id=thisone>
 ```
+
 Even though they're spelled the same, the differing cases indicate
 different names.  Note that distinguishing different id's solely by case
 (i.e. spelled the same but with different capitalization) is a really
@@ -2493,12 +2524,14 @@ marks, either single (') or double ("). HTML tries to be helpful here.  
 You will find that in places where HTML is expecting certain types of
 strings (say a string without spaces), even if you do not use the
 quotation marks it will essentially insert them for you. Thus:
+
 ```xml
    <p id=MyName>
    <p id="MyName">
    <p id='MyName'>
 .... are all equivalent.  
 ```
+
 It is also important to know that, in HTML, **double and single quotes
 are almost interchangeable, but they have to match**.  If you start a
 string with a double quote, the computer will not end it until it sees
@@ -2711,6 +2744,7 @@ effect in your Web page when you use them:
     rendering, each li element would typically be preceded by a number
     or bullet, or something similar (but not necessarily).  Thus a list
     in HTML would look like this:
+
 ```xml
   <ul>
      <li> First item in list </li>
@@ -2764,6 +2798,7 @@ primarily used to invoke certain formatting. 
 4.  That which we call a rose <br> By any other name
 5.  would smell as sweet
 ```
+
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- 19. w3c developers logo (??) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -2787,6 +2822,7 @@ font, and it preserves
 both spaces and
 line breaks
 ```
+
 <h3 id="ch1-6-3">1.6.3 More HTML5</h3>
 
 <h4>Video</h4>
@@ -3173,6 +3209,7 @@ several tags such as <img>, <input> and <video>.
      <li>JavaScript</li>
   </ol>
 ```
+
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------- 21. html result (63) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -3416,6 +3453,7 @@ on abbreviations or add some context. For images, you should use
 an alt attribute as there is no guarantee that the title attribute will
 be presented to assistive technology users. The title can be any text
 value. 
+
 ```
 1.  <abbr title="National Aeronautics and Space
     Administration">NASA</abbr>
@@ -4187,6 +4225,7 @@ Fig. 1: The cast hard at work at dress rehearsal before opening night
 <h4>&lt;mark&gt; element</h4>
 
 <h5>This element is used to specify content that you want to highlight.</h5>
+
 ```
 1.  <h3>Lane: </h3><p>Yes sir. [<mark>Handing his master the
     sandwiches on a salver</mark>]</p>
@@ -4378,6 +4417,7 @@ assistive technology users. While it is valid to skip header levels
 technology often relies on the semantics of headings to understand your
 document's structure. More information is provided in [Using h1-h6 to
 identify headings](https://www.w3.org/TR/WCAG20-TECHS/H42.html).
+
 ```xml
 1.  <body>
 2.     <h1>Brad's Cookbook</h1>
@@ -4583,9 +4623,10 @@ articles here.</p>
 </body>
 </html>
 ```
+
 <h3 id="ch2-3-5">2.3.5 &lt;article&gt; and &lt;section&gt; Elements</h3>
 
-### <article> element
+<h4>&lt;article&gt; element</h4>
 
 An **article element** as we know is stand-alone content. If you pick an
 article out of a Web page, it should make sense all by itself.
@@ -4593,6 +4634,7 @@ In [Brad's Blog example](https://codepen.io/w3devcampus/pen/oWqbad) in
 the previous unit, if you extract only the first article, you can see
 that it will make sense all by itself without any context. It can be
 reused anywhere else.
+
 ```
 1.  <article id="ces">
 2.    <header>
@@ -4646,6 +4688,7 @@ to our CES 2018 <article> example, it will fit right in:
 style="width:4in;height:4.44255in" />
 
 <h5>HTML</h5>
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -4777,6 +4820,7 @@ element, webstorage etc...</p>
 browsers to produce the same type of behavior when parsing incorrect
 syntax. It has been designed for compatibility with older browsers.
 Older browsers ignore new HTML5 constructs... </p>
+
 ```
 </section>
 <!-- Our logo section show hows to use the semantic elements figure and
@@ -4863,7 +4907,7 @@ which will affect all elements in the div container.
 It should only be used if you cannot use any other semantic element in
 its place.
 
-We will see an example of <div> here:
+We will see an example of &lt;div&gt; here:
 
 ```
 1.  <section>
@@ -5204,10 +5248,12 @@ festival'? title is a global attribute we have seen before but worth
 mentioning again because it is very useful in an <img> tag. If you
 have a complicated image that could use a tooltip or description, you
 will want to use the title attribute.
+
 ```
 1.  <img src="images/tulips.png" alt="This is supposed to be an image
     of tulips" title="Tulips from woodburn tulip festival">
 ```
+
 The alt attribute is meant to be an alternate source of information
 while the title attribute should provide additional information about
 the image. 
@@ -6546,6 +6592,7 @@ merely place it directly into the document under edit.  
 To place CSS directly into an HTML document, we use the <style> tag.
  This tag can appear anywhere in an HTML document, however, the most
 common practice is to place it in the <head> section.  Such as:
+
 ```
 1.  <!DOCTYPE html>
 2.  <html lang="en">
@@ -6579,11 +6626,13 @@ appear in the <head> section.  By convention, css files are kept in a
 directory named *css*.
 
 <h5>Use this &lt;link&gt; as a template:</h5>
+
 ```
 1.  <link rel="stylesheet" href="css/my_styles.css">
 ```
 
 <h5>Here is an example HTML document.</h5>
+
 ```
 1.  <!DOCTYPE html>
 2.  <html lang="en">
@@ -6629,6 +6678,7 @@ CSS.  And each property has a range of possible values that it can be
 set to.  Syntactically, property value pairs are simple. Each pair
 consists of a *property*, followed by a colon **:** followed by
 a *value* and terminated by a semi-colon **;**
+
 ```
 font-size: 12px;
 ```
@@ -6639,6 +6689,7 @@ In the example above, the entire CSS rule is written on one line.  This
 is not uncommon when the declaration of the CSS rule only has one
 property.  If a CSS rule has several properties, then it should be
 written to use one line per property value pair. For example:
+
 ```
 1.  p {
 2.    font-size: 12px;
@@ -6646,6 +6697,7 @@ written to use one line per property value pair. For example:
 4.    color: #223344;
 5.  }
 ```
+
 <h3 id="ch2-2-3">3.2.3 Comments</h3>
 
 CSS can include "comments" as well, by which you, the developer today,
@@ -7078,11 +7130,13 @@ are: 100, 200, 300, 400, 500, 600, 700, 800 and 900.
 normal maps to 400 and bold to 700. However, the different numeric
 choices will only work for fonts that support a full range of
 font-weights. Many times the numeric weights will simply be mapped back
-to bold or normal. 
+to bold or normal.
+
 ```
 p { font-weight: bold; }  
 blockquote { font-weight: 900; }
 ```
+
 | **normal**           | **bold**                 | **200**              | **500**              | **700**                  | **900**                  |
 |----------------------|--------------------------|----------------------|----------------------|--------------------------|--------------------------|
 | A Tale of Two Cities | **A Tale of Two Cities** | A Tale of Two Cities | A Tale of Two Cities | **A Tale of Two Cities** | **A Tale of Two Cities** |
@@ -7098,8 +7152,10 @@ are normal and italic.  
 | <b>font-style: normal;</b>                                                                                                                                    | <b>font-style: italic;</b>                                                                                                                                      |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Many years later, as he faced the firing squad, Colonel Aureliano Buendía was to remember that distant afternoon when his father took him to discover ice. | <i>Many years later, as he faced the firing squad, Colonel Aureliano Buendía was to remember that distant afternoon when his father took him to discover ice.</i> |
+
 ```
 <h4>font-family</h4>
+```
 
 Want to set the font for an item on the page?   The font-family is the
 correct property for the task, but there are caveats:
@@ -14774,5 +14830,5 @@ These are the final changes to our recipe project for this unit.
    alt="." />
 </p>
 
-<h3><b>Last Updated 08-32-2022 12:43am</b></h3>
+<h3><b>Last Updated 08-12-2022 07:51am</b></h3>
 
