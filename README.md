@@ -462,7 +462,7 @@ and HTML.
 
 In October 1994, Tim Berners-Lee founded the World Wide Web Consortium
 (W3C) at the Massachusetts Institute of Technology, Laboratory for
-Computer Science \[MIT/LCS\] in collaboration with
+Computer Science [MIT/LCS] in collaboration with
 <a href="https://home.cern/">CERN</a>, where the Web originated (see information on
 the <a href="https://www.w3.org/Daemon/">original CERN Server</a>), with support
 from DARPA and the <a href="https://ec.europa.eu/index_en.htm">European
@@ -944,9 +944,9 @@ toolbar and the title is also used in the browser history.
 For example, in our page we had typed: "my first HTML page", and that's
 where that would be created.
 
-That's the head tag. \<head\>
+That's the head tag. <head>
 
-Next up is the body element. \<body\>
+Next up is the body element. <body>
 
 And as its name suggests, this element contains the body of the page,
 meaning all of its contents.
@@ -1638,19 +1638,19 @@ begins and ends.  When you 'mark up' a document, you generally don't
 want those extra notes that are not really part of the text to be
 presented to the reader. HTML borrows a technique from another language,
 SGML, to provide an easy way for a computer to determine which parts are
-"MarkUp" and which parts are the content. By using '\<' and '\>' as a
+"MarkUp" and which parts are the content. By using '<' and '>' as a
 kind of parentheses, HTML can indicate the beginning and end of a tag,
-i.e. the presence of '\<' tells the browser 'this next bit is markup,
+i.e. the presence of '<' tells the browser 'this next bit is markup,
 pay attention'.
 
 Whatever that tag (or 'open tag') does, it applies to the content
 following the tag. Unless you want that to be the entire rest of the
 document, you need to indicate when to stop using that tag and do
-something else, so '\<' and '\>' are again used. Since elements are
+something else, so '<' and '>' are again used. Since elements are
 typically nested within other elements, the browser needs to be able to
 distinguish between the end of the current tag or the beginning of a
 new tag (representing a nested element). This is done by adding a '/'
-right after the '\<' to indicated that it's a 'close tag'. To indicate
+right after the '<' to indicated that it's a 'close tag'. To indicate
 the beginning and end of a paragraph (indicated by the single letter
 'p') you end up with something like this:
 
@@ -1658,12 +1658,12 @@ the beginning and end of a paragraph (indicated by the single letter
 <p>This is my first paragraph!</p>
 ```
 
-The browser sees the letters '\<p>' and decides 'A new paragraph is
+The browser sees the letters '<p>' and decides 'A new paragraph is
 starting, I'd better start a new line and maybe indent it'. Then when it
-sees '\</p>' it knows that the paragraph it was working on is finished,
+sees '</p>' it knows that the paragraph it was working on is finished,
 so it should break the line there before going on to whatever is next.
 
-For example, the '\<em>' tag is used for element that needs *Em*phasis.
+For example, the '<em>' tag is used for element that needs *Em*phasis.
  The  '<' and '>' indicate that this is a tag, and the "little bits of
 text" in between tell us what kind of tag it is.  To completely describe
 the element, it needs an open and close tag, with everything in between
@@ -1685,7 +1685,7 @@ element that is completely described by its attributes, and thus
 there is no need for other content.  So if you see something like this:
 
 ```
-<img src="https://goo.gl/pVxY0e" alt="Floating Flower"/\>
+<img src="https://goo.gl/pVxY0e" alt="Floating Flower"/>
 ```
 
 ... then you should know that the slash at the end of the open tag is
@@ -1710,9 +1710,9 @@ tag for that (unsurprisingly called a "comment tag"):
   <!-- This is a comment -->
 ```
 
-An HTML comment tag starts with \<!-- and ends with --\>, meaning that
-as the computer is reading through your HTML file, if it sees \<!-- it
-will ignore everything it sees until it comes across --\>.  There is no
+An HTML comment tag starts with <!-- and ends with -->, meaning that
+as the computer is reading through your HTML file, if it sees <!-- it
+will ignore everything it sees until it comes across -->.  There is no
 open or close tag, just a comment tag.  Unlike most other things in
 HTML5, comments cannot be nested.  If you try that, like:
 
@@ -1725,8 +1725,8 @@ This is after the nested comment
 ```
 
 The computer will then see the beginning of the comment tag and start
-ignoring everything until it sees --\>, including the second \<!--.
-Once it sees --\>, it assumes the comment is done and goes back to
+ignoring everything until it sees -->, including the second <!--.
+Once it sees -->, it assumes the comment is done and goes back to
 processing everything it sees as HTML code and content, even though the
 writer may have meant it to be a comment.
 
@@ -1791,7 +1791,7 @@ But more about attributes in the next module.
 One key to understanding HTML, or any computer language, is to be sure
 that you avoid ambiguity, because computers generally are not good at
 judgement calls. For example, you could streamline HTML so that whenever
-you see a \<p\> tag, you start a new paragraph, no close tag needed.
+you see a <p> tag, you start a new paragraph, no close tag needed.
 That might work most of the time, but that would prevent you from
 nesting one element inside another, as the browser could not know if you
 meant the new element to be nested or a successor.
@@ -1864,7 +1864,7 @@ be grateful that HTML5 did away with it.
 <h4>Everything in HTML</h4>
 
 It may seem redundant, but the next bit tells the browser where the
-actual HTML code begins, using an \<html\> tag:
+actual HTML code begins, using an <html> tag:
 
 ```
 <html>
@@ -1877,7 +1877,7 @@ document that does not really go in the body, AKA 'meta-' information.
 Things like what kind of character set the page is using, where the
 browser can find style tips, and what the title of the page is (which
 might be different from the title the user reads) all go in the
-\<head\>. If you have been paying attention, you should be able to
+<head>. If you have been paying attention, you should be able to
 create a very basic html file, in the right form, without any content.
 Hint, for the head of the document you would write:
 
@@ -1887,7 +1887,7 @@ Hint, for the head of the document you would write:
 </head>
 ```
 
-You may recall the paragraph tag \<p\> that we used in the example
+You may recall the paragraph tag <p> that we used in the example
 above. Try inserting a paragraph into the body of your new document.
  You should end up with something that looks like this:
 
@@ -1969,7 +1969,7 @@ here](https://www.w3.org/International/getting-started/characters).
 
 <h3 id="ch1-4-2">1.4.2 The <meta> tag</h3>
 
-Use the \<meta\> tag with the charset attribute in your HTML page to
+Use the <meta> tag with the charset attribute in your HTML page to
 indicate to the browser the character encoding you will be using in the
 page.
 
@@ -1989,11 +1989,11 @@ You should also always use 'utf-8'.
 
 <h4>Where to place it?</h4>
 
-The meta declaration belongs inside the \<head\> element, and should be
+The meta declaration belongs inside the <head> element, and should be
 specified within the first 1024 bytes of your page. So the earlier it is
 mentioned in your code, the better. 
 
-W3C recommends placing it immediately after the opening \<head\> tag:
+W3C recommends placing it immediately after the opening <head> tag:
 
 ```
   <!DOCTYPE html>
@@ -2026,7 +2026,7 @@ Try the following code in your HTML:
  <html lang="en">
  <head>
  <meta charset="UTF-8">
- <title>Welcome\</title>
+ <title>Welcome</title>
  </head>
  <body>
  <p>Welcome to "HTML5 & CSS Fundamentals". The first tag we will be
@@ -2036,7 +2036,7 @@ Try the following code in your HTML:
  </html>
 ```
 
-Did you notice the \<html\> tag is missing in your output? In this case,
+Did you notice the <html> tag is missing in your output? In this case,
 your browser mixed it up with an actual tag, although it was meant to be
 a part of the sentence as text. 
 
@@ -2247,8 +2247,8 @@ defined by Unicode. So, the best practice for symbols like copyright,
 currency symbols, math and arrows is to simply type them directly into
 the source code.
 
-You can do this directly in the code:   \<p\>This is © 2015. Breach will
-entail a fine of € 400\</p\>
+You can do this directly in the code:   <p>This is © 2015. Breach will
+entail a fine of € 400</p>
 
 HTML
 ```
@@ -2330,17 +2330,17 @@ another, but the other part is not.
   <p>And here it is.</p>
 ```
 The two examples above are fine because in each case either an element
-is wholly contained in another (\<em\> in \<p\>) or they are completely
-separate (\<h1\> and \<p\>). This, on the other hand, is not valid:
+is wholly contained in another (<em> in <p>) or they are completely
+separate (<h1> and <p>). This, on the other hand, is not valid:
 ```xml
   <h1>Part of this header is<p>in the</h2> paragraph below</p>
 ```
 What happens in this case is what we call "undefined". That just means
 that there is no telling how the browser will decide to handle it. It
-might decide to automatically close the \<p\> when it sees another close
+might decide to automatically close the <p> when it sees another close
 tag, or it could complain about an unexpected close tag at the header.
 Then it might complain again when there is a now
-unexpected close \</p\> tag.
+unexpected close </p> tag.
 
 If you played around with the minimal HTML file from the previous
 section, you might have noticed that you can get more minimal than that.
@@ -2349,24 +2349,24 @@ will still render the page without complaint (at least Chrome will;
 Firefox does complain in the debugging console, but we will save that
 for week 4). In fact, you can even take out the "body" open and close
 tags (not the content, of course) and it will still work as expected.
-Not only that, if you take out the \<!doctype\> statement, it still
+Not only that, if you take out the <!doctype> statement, it still
 works (and Chrome still doesn't complain!).
 
 What's actually happening is that the browser knows roughly what to
 expect in an HTML page, so if it sees a file ending in '.html' it will
 automatically stick some stuff in if it is not there already. It will
 typically make basic assumptions like: It is an HTML5 file, everything
-in there is content, so it goes in the \<body\> section,
-the \<head\> section is empty.  If you right-click on an element and
+in there is content, so it goes in the <body> section,
+the <head> section is empty.  If you right-click on an element and
 choose "Inspect", you will see that the browser has included
-the \<html\> section containing the \<head\> and \<body\> sections, even
+the <html> section containing the <head> and <body> sections, even
 though it wasn't there in your file.
 
 Note that we said "typically". The current behavior of most browsers
 will handle this, but it is "undefined" so there is no guarantee that
 next module's update won't break it. To be correct and complete, you
-need the \<!doctype\> section and the \<html\> section with
- \<head\> and \<body\>. In any case, it is a good idea (best practice).
+need the <!doctype> section and the <html> section with
+ <head> and <body>. In any case, it is a good idea (best practice).
 
 Proper indentation is one way to make your code clearer and easier to
 understand:
@@ -2410,11 +2410,11 @@ details.  
 <h4>Tags are case insensitive</h4>
 
 You might notice that code is not always consistent in how a given tag
-is written.  We might say '\<h1\>' in one spot and '\<H1\>' in another.
+is written.  We might say '<h1>' in one spot and '<H1>' in another.
 In this case, they are exactly the same kind of tag.  Tag names are
 "case insensitive" meaning that it does not matter whether you use
 capital or lower case letters in writing them.  In fact, you could write
-your body tag as '\<bOdY\>', but that's not generally considered a good
+your body tag as '<bOdY>', but that's not generally considered a good
 practice (Camel case/Snake case makes it harder to read).  On the other
 hand, there are places where you want the computer to be "case
 sensitive", meaning the computer will distinguish between upper-case and
@@ -2459,10 +2459,10 @@ for your taste, while the second might seem to take up too much room in
 your source code.  **Because it doesn't matter to the browser how much
 white space there is, you can use white space to make your code more
 visibly organized and easier to read (note the use of indentation in the
-second \<H1\> element above).**
+second <H1> element above).**
 
 Given that tag names are case insensitive (you can write them either
-way), you might think that everything in between \< and \> is case
+way), you might think that everything in between < and > is case
 insensitive, but it is not that easy.  
 
 **Attributes are case sensitive**! We have not learned much about
@@ -2484,7 +2484,7 @@ like [CamelCase](https://en.wikipedia.org/wiki/CamelCase).
 
 Finally, it will eventually be important to know about "strings".
  Strings are just a series of characters.  They could be any characters
-like "Dingbats" or "ABC123^&\*@aeiou".  They can even contain spaces as
+like "Dingbats" or "ABC123^&*@aeiou".  They can even contain spaces as
 in "This is a string.".  Because they are so wildly variable (they can
 essentially be anything you can type), the computer needs us to indicate
 where a string begins and ends, which is typically done with quotation
@@ -2506,7 +2506,7 @@ another double quote.  Any single quotes will be happily considered part
 of the string, which is handy if you need quotation marks in your
 string.  Because of this, if you create a string as ' "quote" ' (single
 quotes containing a double quoted string),  your string will have the
-letters \<space\>-"-q-u-o-t-e-"-\<space\> (with double quotes in the
+letters <space>-"-q-u-o-t-e-"-<space> (with double quotes in the
 string and spaces outside those) as opposed to "quote" which will just
 have the letters q-u-o-t-e (no quotation marks or spaces in the string).
  Nevertheless, best practice is to be consistent in your quotes, so it's
@@ -2539,7 +2539,7 @@ could sum it all up with these simple dictum:
 
 <h3 id="ch1-5-4">1.5.4 Activity – Best Practices</h3>
 
-1\. Compare and contrast these two different HTML Style Guides:
+1. Compare and contrast these two different HTML Style Guides:
 
 -   [JQuery HTML Style
     Guide](https://contribute.jquery.org/style-guide/html/)
@@ -2553,7 +2553,7 @@ seem to make sense?
 Can you find other style guides or coding standards that agree or
 disagree with some of the suggestions in one of these guides?
 
-2\. Check out the [W3C HTML Checker](https://validator.w3.org/):
+2. Check out the [W3C HTML Checker](https://validator.w3.org/):
 
 -   Try "Direct Input" and type some HTML5 code with errors to see what
     it detects.
@@ -2568,14 +2568,14 @@ are, though we have not said a lot about specific tags, what they mean,
 how many there are, etc.  We will start with the ones we have already
 seen:
 
--   **\<!doctype\>** - This tag is special.  In fact, many folks don't
+-   **<!doctype>** - This tag is special.  In fact, many folks don't
     even consider it a tag, as it is officially the DTD - Document Type
     Declaration.  Unlike most tags, it has no closing tag, not even a
     "/" at the end.  It is there to declare exactly what type of HTML
-    the computer will find in this file. It is used as that: \<!DOCTYPE
-    html\>
+    the computer will find in this file. It is used as that: <!DOCTYPE
+    html>
 
--   **\<html\>** - The ***html*** open and close tags wrap around nearly
+-   **<html>** - The ***html*** open and close tags wrap around nearly
     everything in your html file (except the doctype tag).  This
     essentially contains all of the HTML code in the file, which is
     generally everything (one big html element). In the next module, we
@@ -2583,24 +2583,24 @@ seen:
     always add a lang attribute to the html opening tag, to identify the
     default language of your page.
 
--   **\<head\>** - The ***head*** element is where you put information
+-   **<head>** - The ***head*** element is where you put information
     that does not really appear in the body of the work.  For example,
-    the \<title\> of the page, which typically appears on the window
+    the <title> of the page, which typically appears on the window
     containing the page, is defined in the head section.
 
--   **\<body\>** - The ***body*** section contains all of the content of
+-   **<body>** - The ***body*** section contains all of the content of
     your page, essentially what the user sees.  This could be text,
     pictures, links, videos, tables and so on. There can be only
-    one \<body\> element in a document.
+    one <body> element in a document.
 
--   **\<h1\>** - There is a whole collection of '*h*' tags, \<h1\>,
-    \<h2\>, \<h3\> . . . all the way up to \<h6\>.  Why there are 6
+-   **<h1>** - There is a whole collection of '*h*' tags, <h1>,
+    <h2>, <h3> . . . all the way up to <h6>.  Why there are 6
     rather than 5 or 7 may be a bit of a mystery, but there it is.
      They're generally used the same way you would use chapter or
     section headings in a book (don't confuse the ***h*** here with
-    the \<head\> section, that is completely different).  An \<h1\> tag
+    the <head> section, that is completely different).  An <h1> tag
     might be used as the title of the document (as it appears on the
-    page, not the same as the aforementioned \<title\> element), or to
+    page, not the same as the aforementioned <title> element), or to
     indicate the outermost level in a group of nested sections.
 
 <h4>HTML</h4>
@@ -2623,16 +2623,16 @@ seen:
 
 Though you theoretically should not think about what it looks like, it
 will typically appear as large, possibly bold text in your document, to
-mark a separation or beginning of some new section.  \<h2\> is usually a
-bit smaller, and \<h3\> smaller yet and so on down to \<h6\>.  This
+mark a separation or beginning of some new section.  <h2> is usually a
+bit smaller, and <h3> smaller yet and so on down to <h6>.  This
 allows logical nesting of sections, though they should not be nested too
 deeply. Try not to skip levels of headers when nesting them. **Headings
 are really useful for some assistive technology users and missing levels
 can be confusing**.
 
--   **\<p\>** - ***P*** is for 'paragraph', which is the tag you may use
+-   **<p>** - ***P*** is for 'paragraph', which is the tag you may use
     to arrange much of your text information.  Depending on the style
-    you are using, text wrapped in a \<p\> tag may be indented or have
+    you are using, text wrapped in a <p> tag may be indented or have
     extra vertical white space before starting.  When rendered on the
     Web page, a *p* element creates a new line.
 
@@ -2673,7 +2673,7 @@ rendered (i.e. what they look like to the end user), you will find
 words like "typically", "possibly", and "generally".  It is a little
 picky. As you will learn in Module 3, it is possible to change the
 styling of one element to look like just about any other element.  You
-could style a \<p\> element so that it looks like an \<h1\>, though best
+could style a <p> element so that it looks like an <h1>, though best
 practice would be not to do that.
 
 <h3 id="ch1-6-2">1.6.2 A Few New Tags to Learn</h3>
@@ -2682,14 +2682,14 @@ There are a lot more tags, but we will just cover a few more for now,
 mostly because they are straightforward to use and you can see the
 effect in your Web page when you use them:
 
--   **\<q\>** - The **q** tag is for quotes.  This tag has no
+-   **<q>** - The **q** tag is for quotes.  This tag has no
     relationship to the somewhat confusing single and double quote
     characters, rather it's used when you want to quote a person or
     written work in your Web page. Quotes are customarily displayed
-    using quotation marks. Thus \<q\>Brevity is beautiful\</q\> would be
+    using quotation marks. Thus <q>Brevity is beautiful</q> would be
     rendered as Brevity is beautiful.
 
--   **\<blockquote\>** - If you want to quote a larger passage, you may
+-   **<blockquote>** - If you want to quote a larger passage, you may
     want to use **blockquote**, which will typically set the quoted text
     apart from the surrounding text and indent it, to make clear that it
     is quoted text:
@@ -2697,17 +2697,17 @@ effect in your Web page when you use them:
 > Early to bed and early to rise, makes someone healthy, wealthy and
 > wise - Benjamin Franklin
 
--   **\<ul\>**,** \<ol\>** - These two tags are used to indicate a list
-    of things.  The only difference is that \<ol\> is an "ordered" list,
+-   **<ul>**,** <ol>** - These two tags are used to indicate a list
+    of things.  The only difference is that <ol> is an "ordered" list,
     meaning the elements are in a particular order, and it might be a
-    good idea to number them.  The "**u**" in \<ul\> stands for
+    good idea to number them.  The "**u**" in <ul> stands for
     "unordered" and is used for a list of things where the order doesn't
     really matter, so it is usually rendered as a bulleted list, or some
     other structure without numbers.
 
--   **\<li\>** - The **li** element is a "List Item", i.e. one item in
+-   **<li>** - The **li** element is a "List Item", i.e. one item in
     the list.  As you might expect, this element only really makes sense
-    nested inside a list (\<ul\> or \<ol\>).  In the final
+    nested inside a list (<ul> or <ol>).  In the final
     rendering, each li element would typically be preceded by a number
     or bullet, or something similar (but not necessarily).  Thus a list
     in HTML would look like this:
@@ -2736,32 +2736,32 @@ is for the logical structure of your content, not what it looks like.
  Well, this is not entirely true.  There are some HTML elements that are
 primarily used to invoke certain formatting. 
 
--   **\<hr\>** - The **hr** tag stands for horizontal rule and is used
+-   **<hr>** - The **hr** tag stands for horizontal rule and is used
     to insert a horizontal line across the width of the text, or a
     thematic break in an HTML page to divide or separate document
-    sections. The \<hr\> tag is an empty tag and does not require an end
+    sections. The <hr> tag is an empty tag and does not require an end
     tag. It would typically look like this:
 
--   **\<br\>** - This tag signifies a line break, and is used for any
+-   **<br>** - This tag signifies a line break, and is used for any
     number of situations.  For example, it can be an easy way to make
     sure that lines of poetry break where they're supposed to (less
     verbose than requiring each line to be a separate element).
      Essentially it helps break the "white space" rule: where spaces and
-    carriage returns are generally treated the same, the \<br\> tag is
+    carriage returns are generally treated the same, the <br> tag is
     treated as a required carriage return.   
     Because it's an empty tag, there's no need for a close tag. Indeed,
-    if you do try adding \</br\> after your \<br\> tag, it will likely
+    if you do try adding </br> after your <br> tag, it will likely
     be interpreted as an additional break. If you feel a strong need to
-    indicate tag closure, \<br /\> is also valid syntax.  
-    Note that the \<br\> tag implies a break even if there is no break
+    indicate tag closure, <br /> is also valid syntax.  
+    Note that the <br> tag implies a break even if there is no break
     in the text containing it, so for example, these two sentences would
     be formatted exactly the same:
 
 ```
-1.  That which we call a rose \<br\>
+1.  That which we call a rose <br>
 2.  By any other name would smell as sweet
 3.   
-4.  That which we call a rose \<br\> By any other name
+4.  That which we call a rose <br> By any other name
 5.  would smell as sweet
 ```
 <!------------------------------------------------------------------------------------------------>
@@ -2773,7 +2773,7 @@ primarily used to invoke certain formatting. 
    alt="Example of Poetry as it might appear on a Web Page" />
 </p>
 
--   **\<pre\>** - **pre** stands for "PREformatted text", meaning that
+-   **<pre>** - **pre** stands for "PREformatted text", meaning that
     the text is to be presented exactly as written in the HTML file. It
     preserves all text formatting characters i.e. spaces, line
     breaks and (thus bypassing the white space rule) and most typically
@@ -2922,7 +2922,7 @@ your article, addresses and citations. You also want to provide more
 detailed information such as, 'This sentence is really important and you
 need to convey that to the reader'.
 
-If we just use \<p\> tags and header tags, \<h1\> to \<h6\>, visually it
+If we just use <p> tags and header tags, <h1> to <h6>, visually it
 might look like what you want, but only a human will be able to read and
 understand the page. To a browser, there is very little information
 except that there is text and headings in your page. How can a search
@@ -3008,8 +3008,8 @@ Tags and attributes make up the language. 
 <h4>Attributes are used in tags to further define the tag:</h4>
 
 -   It is used inside the opening tag it is applied to and should be
-    added after a space from the tag name: \<ol start="5"\>.
-    The start attribute is used inside the \<ol\> tag. 
+    added after a space from the tag name: <ol start="5">.
+    The start attribute is used inside the <ol> tag. 
 
 -   start="5"  
     Attribute name, equal sign, opening quote, attribute value, closing
@@ -3024,14 +3024,14 @@ Tags and attributes make up the language. 
     values - true or false. But instead of writing "true" or "false" for
     its value, you add the attribute name to indicate true and omit it
     to indicate false. An example is the 'reversed' attribute in an
-    ordered list \<ol\>. Adding this attribute is an indication that the
+    ordered list <ol>. Adding this attribute is an indication that the
     list order should be reversed (in descending order).   
-         \<ol reversed\>\</ol\>
+         <ol reversed></ol>
 
 -   A tag can have multiple attributes:  
-       \<ol start="5"\>\</ol\>  
-       \<ol id="cinema" class="attribute-list" start="5"\>\</ol\>  
-       \<ol start="5" class="attribute-list"\>\</ol\>
+       <ol start="5"></ol>  
+       <ol id="cinema" class="attribute-list" start="5"></ol>  
+       <ol start="5" class="attribute-list"></ol>
 
 <h4>Example #1: the 'id' attribute</h4>
 
@@ -3147,12 +3147,12 @@ that the contents of this document will be in french.
 
 <b>Non-global attributes</b> are attributes applied to a specific instance
 of a tag. It can be applied to one or more tags. For example, start is
-an attribute for the \<ol\> tag and it cannot be applied on
-the \<p\> or \<h1\> tags, it is specific to only ordered
-lists \<ol\>. Another attribute specific to the \<ol\> tag
+an attribute for the <ol> tag and it cannot be applied on
+the <p> or <h1> tags, it is specific to only ordered
+lists <ol>. Another attribute specific to the <ol> tag
 is reversed, which we learned in the last unit as an example of a
 boolean attribute. The non-global attribute width can be applied to
-several tags such as \<img\>, \<input\> and \<video\>.
+several tags such as <img>, <input> and <video>.
 
 <h4><b>Without</b> the boolean attribute reversed:</h4>
 
@@ -3187,7 +3187,7 @@ attributes can also be applied to them.
 
 <h4>More examples:</h4>
 
-The image \<img\> and hyperlink \<a\> elements, which we will be
+The image <img> and hyperlink <a> elements, which we will be
 learning about shortly, have many non-global attributes of their own.
 
 ```
@@ -3303,7 +3303,7 @@ Naming rules for the class attribute:
 
 <h4>class is primarily used for:</h4>
 
-1\. Styling your elements. You can specify the style you want for all
+1. Styling your elements. You can specify the style you want for all
 the elements that belong to the class in your stylesheet. 
 
 ```xml
@@ -3335,7 +3335,7 @@ Yes
 The 'Do you like HTML5?' question has styles for both the 'question' and
 'html' classes applied to it.
 
-2\. In JavaScript, class can also be used to manipulate html elements of
+2. In JavaScript, class can also be used to manipulate html elements of
 the same class. 
 
 <h4>Global attribute: 'lang'</h4>
@@ -3367,7 +3367,7 @@ unofficial [Language Subtag
 Lookup](https://r12a.github.io/app-subtags/) tool.
 
 You should **always declare the language of your page in the
-\<html\> tag**.  You can also declare the language of content within the
+<html> tag**.  You can also declare the language of content within the
 page by attaching a lang attribute to an element that contains it.
 
 <h4>For example:</h4>
@@ -3583,7 +3583,7 @@ elements you can think of.
 
 Please find below suggested activities to help you practice:
 
-1.  Find the list of supported attributes for the \<area\> tag.
+1.  Find the list of supported attributes for the <area> tag.
     (*Hint:* use the [W3C
     cheatsheet](https://www.w3.org/2009/cheatsheet/) or [MDN attribute
     reference
@@ -3614,15 +3614,15 @@ and style. Style should be kept tucked away in Cascading Style Sheets
 Let's look at a few interesting tags that lived as exception to this
 rule and were eventually corrected in HTML5.
 
-1.  \<p\>This text is in \<i\>Italics\</i\>. It uses the i tag\</p\>
+1.  <p>This text is in <i>Italics</i>. It uses the i tag</p>
 
-2.  \<p\>This text is also in \<em\>Italics\</em\>. But it uses the em
-    tag!\</p\>
+2.  <p>This text is also in <em>Italics</em>. But it uses the em
+    tag!</p>
 
-3.  \<p\>This text is in \<b\>Bold\</b\>. It uses the b tag\</p\>
+3.  <p>This text is in <b>Bold</b>. It uses the b tag</p>
 
-4.  \<p\>This text is also in \<strong\>Bold\</strong\>. But it uses the
-    strong tag!\</p\>
+4.  <p>This text is also in <strong>Bold</strong>. But it uses the
+    strong tag!</p>
 
 This is how the above HTML code will look in a browser: 
 <!------------------------------------------------------------------------------------------------>
@@ -3635,7 +3635,7 @@ This is how the above HTML code will look in a browser: 
 </p>
 
 It seems redundant for two tags to do the same thing in HTML.
-While \<b\> and \<strong\>, \<i\> and \<em\> seem no different in a
+While <b> and <strong>, <i> and <em> seem no different in a
 regular Web browser there is an important difference between them.
 
 <h4>Semantic vs Style tags</h4>
@@ -3707,11 +3707,11 @@ renders text differently, might not pick up the bold.
 bold in a browser, but it could mean ‘speak with urgency or seriousness’
 when reading text aloud. It is semantic in the sense, that we instruct
 it to be stronger than the text it surrounds which is different from
-giving instructions on how the text should look in the case of \<b\>. It
+giving instructions on how the text should look in the case of <b>. It
 represents importance, seriousness, or urgency for its contents.
 
-1.  \<p\>As a junior developer, you \<strong\>must\</strong\> submit
-    your work for code review!\</p\>
+1.  <p>As a junior developer, you <strong>must</strong> submit
+    your work for code review!</p>
 
 The 'must' may be bolded in a browser. But when reading the HTML
 document out loud by a text-to-speech program, it can be spoken with
@@ -3742,34 +3742,34 @@ sentences below out loud, stressing on the emphasized words: 'you' and
 So far, we have looked at how these tags were in HTML4. In the beginning
 of this unit, we learned that content and style should be kept separate
 and that styling should be kept tucked away in Cascading Style Sheets.
-So how did \<i\> and \<b\>, purely style elements make the cut? 
+So how did <i> and <b>, purely style elements make the cut? 
 
 They were initially deprecated, however, in HTML5, they were brought
 back. This time, with semantic meaning. 
 
-| \<i\> | Apart from italic text, it is now also used for text in a different mood or voice, such as foreign words, a thought or technical terms.                                                                          | \<p\>This restaurant has a breakfast buffet and a four course **\<i lang="fr"\>**À la carte**\</i\>** dinner.\</p\> |
+| <i> | Apart from italic text, it is now also used for text in a different mood or voice, such as foreign words, a thought or technical terms.                                                                          | <p>This restaurant has a breakfast buffet and a four course **<i lang="fr">**À la carte**</i>** dinner.</p> |
 |-------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| \<b\> | Apart from bolded text, it is now also used as a stylistic offset such as keywords in a document, product names or action words without making them as important. It can also be used as headings in list items. | \<p\>The owner of this **\<b\>**rabbit**\</b\>**and **\<b\>**hamster**\</b\>** needs to step forward.\</p\>         |
+| <b> | Apart from bolded text, it is now also used as a stylistic offset such as keywords in a document, product names or action words without making them as important. It can also be used as headings in list items. | <p>The owner of this **<b>**rabbit**</b>**and **<b>**hamster**</b>** needs to step forward.</p>         |
 
-As of HTML5, \<em\> is now also used for words and sentences you would
+As of HTML5, <em> is now also used for words and sentences you would
 pronounce differently. It is not used to convey importance. For that you
-should use \<strong\>. 
+should use <strong>. 
 
-You can nest both \<em\> and \<strong\>. Two \<em\> means higher level
-of stress/emphasis on the content than one \<em\>.
+You can nest both <em> and <strong>. Two <em> means higher level
+of stress/emphasis on the content than one <em>.
 
-You should also bear in mind that \<b\> and \<i\> may not produce
+You should also bear in mind that <b> and <i> may not produce
 appropriate styling for some parts of the world. For example, Chinese
 characters are so complicated that they often prefer something such as
 underlining to bold, because bold makes it too difficult to read the
 text.
 
-If you do use \<b\> or \<i\> tags, the HTML5 specification recommends
+If you do use <b> or <i> tags, the HTML5 specification recommends
 that you also use class attributes to identify the semantic intention of
 the markup. This can be particularly important for pages that get
 translated, since styling doesn't necessarily map to the same semantic
 categories across different cultures. For more information, read the
-article [Using \<b\> and \<i\>
+article [Using <b> and <i>
 elements](https://www.w3.org/International/questions/qa-b-and-i-tags).
 
 <h3 id="ch2-3-2">2.3.2 Introduction to Semantic Elements</h3>
@@ -3780,19 +3780,19 @@ Web pages instead of its presentation or look.
 <h4>What are semantic elements?</h4>
 
 If you want to add a paragraph, you would use the paragraph tag. If you
-want to add a heading, you would use the header tags \<h1\>-\<h6\>, and
+want to add a heading, you would use the header tags <h1>-<h6>, and
 to add an image, you would use the image tag (we will learn about this
 later in this module). All these tags along with their id and class
 attributes are semantic because they suggest the purpose of the content
-within the tags. \<i\> and \<b\> suggest nothing about the content and
+within the tags. <i> and <b> suggest nothing about the content and
 this is why they were not considered semantic enough and initially
 deprecated.
 
 <h4>Using the right tags</h4>
 
 From a semantic HTML perspective, using the right tags is important. You
-should use \<blockquote\> to wrap a quote and not use a paragraph tag
-and then style it to look like a quote. You should use \<em\> to
+should use <blockquote> to wrap a quote and not use a paragraph tag
+and then style it to look like a quote. You should use <em> to
 emphasize a part of your content, not just to italicize text. For
 presentation purposes, you can achieve the same using CSS. How something
 looks has very little to do with what it means. This is why in HTML, we
@@ -3803,7 +3803,7 @@ separate content and style.
 Semantic elements are beneficial to both the developer and browser. They
 convey much more information about your HTML document's content and
 structure. There is a tag called header in semantic HTML. When you see a
-heading like \<h1\> or \<h2\>, you know this is likely the start of a
+heading like <h1> or <h2>, you know this is likely the start of a
 new sub-section or topic. Communication is always welcome in any
 programming language.
 
@@ -3835,8 +3835,8 @@ after: header, nav, article, section, aside and footer.
    alt="Picture showing the structure of a Web site: header, nav, article, section, aside and footer." />
 </p>
 
-Tags such as** \<article\>**, **\<section\>**, **\<header\>**, **\<nav\>
-and \<footer\> **were specifically introduced in HTML5 to define the Web
+Tags such as** <article>**, **<section>**, **<header>**, **<nav>
+and <footer> **were specifically introduced in HTML5 to define the Web
 page structure. These new semantic elements give meaning to different
 parts of a webpage. When you do a Google search, the search engine
 automatically processes millions of HTML pages to scan and offer you the
@@ -3868,7 +3868,7 @@ Each section refers to a part of the document:
     authoring, copyrights and contact information.
 
 The use of these semantic elements improves the **automated processing
-of documents**. When it scans a \<nav\> tag, it automatically knows it
+of documents**. When it scans a <nav> tag, it automatically knows it
 includes content related to page navigation or a header indicates
 introductory content. It provides the structure and consistent behavior
 across many webpages providing simpler and more direct information to
@@ -4106,15 +4106,15 @@ The rest of the content in details is shown/hidden by user.</td>
 
 <h4>&lt;details&gt; element</h4>
 
-The \<details\> tag is very cool. It is used in conjunction with a
-nested \<summary\> tag and some other content. The result is that the
+The <details> tag is very cool. It is used in conjunction with a
+nested <summary> tag and some other content. The result is that the
 summary is shown with a disclosure triangle alongside it, and the other
 content is initially hidden.  By clicking the triangle, the other
 content is displayed to the user. This requires no JavaScript and is a
 simple way to get a powerful and desirable feature.
 
 Below we see the HTML, and you can try it out for yourself! Note that
-the \<details\> tag works in most Web browsers.
+the <details> tag works in most Web browsers.
 
 <table>
 <colgroup>
@@ -4159,7 +4159,7 @@ support</a> (on caniuse.com).
 
 This element is used to provide a caption or explanation of the image
 (figure). While the alt attribute explains the image for assistive
-technology, \<figcaption\> can be used to provide additional information
+technology, <figcaption> can be used to provide additional information
 for all users.
 
 ```html5
@@ -4211,11 +4211,11 @@ support</a> (on caniuse.com).
 If you have had a chance to try the examples of the semantic elements
 discussed above, you will notice that semantic elements are not visually
 promising in general. Only a few semantic elements such
-as \<mark\>, \<em\>, \<strong\> and \<code\> provide some kind of visual
+as <mark>, <em>, <strong> and <code> provide some kind of visual
 change to the document. The rest don't do anything except providing the
 structure for your document. 
 
-A good example is \<aside\>. The \<aside\> element is used for side
+A good example is <aside>. The <aside> element is used for side
 content other than the main content, such as a sidebar, but it does not
 actually create a sidebar in your page. Sidebar is a user interface (UI)
 element and must be styled to achieve the look of a sidebar. The
@@ -4312,37 +4312,37 @@ Los Angeles, USA<br />
 </table>
 
 Apart from
-these, \<cite\>, \<em\>, \<strong\>, \<p\> and \<blockquote\> are also
+these, <cite>, <em>, <strong>, <p> and <blockquote> are also
 semantic elements.
 
 <h3 id="ch2-3-4">2.3.4 Differentiating Semantic Elements</h3>
 
 Now, you have learned the semantic elements available and their syntax.
 When you try to apply it practically, there are some common problems you
-might run into. For example, when do we use \<header\> and when do we
-use \<h1\> to \<h6\> tags? Can I use semantic elements
-like \<header\>, \<footer\> and \<nav\> multiple times in my Web page?
+might run into. For example, when do we use <header> and when do we
+use <h1> to <h6> tags? Can I use semantic elements
+like <header>, <footer> and <nav> multiple times in my Web page?
 Or a more frequent question, do I
-use \<article\>, \<section\> or \<div\>?
+use <article>, <section> or <div>?
 
 Fear not. We will discuss these scenarios in detail so you can be better
 equipped to apply semantic elements in your Web page. 
 
 <h4>&lt;header&gt; vs &lt;h1&gt; - &lt;h6&gt;</h4>
 
-\<header\> is simply an area to add any introductory content about your
+<header> is simply an area to add any introductory content about your
 page. It can contains headings, paragraphs, tables, images, logos and
-even navigation. \<h1\> to \<h6\> are headings we learned early on in
-the course. \<h1\> is for the most important heading and \<h6\> is for
+even navigation. <h1> to <h6> are headings we learned early on in
+the course. <h1> is for the most important heading and <h6> is for
 the least important. Let's see an example of how to use
-the \<header\> and \<h1\> to \<h6\> tags in your Web page.
+the <header> and <h1> to <h6> tags in your Web page.
 
 For a simple HTML page, we will use the [W3C HTML5
 specification](https://www.w3.org/TR/html5/). You can view the page's
 source code on any browser by right-click and select 'view page source'.
 
 If you view page source on the W3C specification and do a search for
-'\<header\>', you will be able to view the contents of the header
+'<header>', you will be able to view the contents of the header
 element. **Here's a simplified version**:
 
 ```html5
@@ -4369,7 +4369,7 @@ element. **Here's a simplified version**:
 </p>
 
 Like in the example above, the header can and frequently does contain
-headings \<h1\> to \<h6\>. In the case of headings, they do not have be
+headings <h1> to <h6>. In the case of headings, they do not have be
 to be used within a header. 
 
 **Important:** Headings are extremely helpful as a navigation tool for
@@ -4406,7 +4406,7 @@ identify headings](https://www.w3.org/TR/WCAG20-TECHS/H42.html).
    alt="." />
 </p>
 
-Assistive technology uses heading markup, \<h1\> to \<h6\> to identify
+Assistive technology uses heading markup, <h1> to <h6> to identify
 headings in a document. By using them to define your document's
 structure, a screen reader that parses your Web page will in some manner
 indicate the heading level. For example, raise its voice to indicate
@@ -4418,7 +4418,7 @@ You can learn more about the source of this technique in that [other W3C
 resource page about
 headings](https://www.w3.org/WAI/tutorials/page-structure/headings/).
 
-<h4>Can you have more than one \<header\>, \<footer\> and \<nav\>?</h4>
+<h4>Can you have more than one <header>, <footer> and <nav>?</h4>
 
 There is a common misconception that a Web page can only have one header
 at the start, one footer at the end and one main navigation section to
@@ -4478,7 +4478,7 @@ we have one in the global header with menu items 'Courses'. Did you
 notice that we also have one in the footer? With menu items 'Support',
 'Terms of Use', etc. You can definitely have more than one navigation
 menu in your Web page because there are so many different types of menus
-calling the need for multiple \<nav\> tags. Using \<nav\> also helps
+calling the need for multiple <nav> tags. Using <nav> also helps
 assistive technology. Screen readers now knows exactly where page
 navigation lies so it can provide options for the users to either skip
 reading its contents or to make it immediately available.
@@ -4486,7 +4486,7 @@ reading its contents or to make it immediately available.
 <h4>Complete example</h4>
 
 Now, let's look at a more complete example using a global header and
-multiple \<header\>, \<footer\> and \<nav\> tags.
+multiple <header>, <footer> and <nav> tags.
 
 <!------------------------------------------------------------------------------------------------>
 <!--------- 34. screenshot of the ms virtual academy home page showing the  footer (##) ---------->
@@ -4498,39 +4498,39 @@ multiple \<header\>, \<footer\> and \<nav\> tags.
 </p>
 
 ```xml
-<!DOCTYPE html\>
-<html lang="en"\>
-<head\>
-<meta charset="UTF-8"\>
-<title\>Header Hierarchy\</title\>
-</head\>
-<body\>
-<!--Our global header used across all pages in our website--\>
-<header\>
-<h1\>Brad Abc's Blog\</h1\>
-<nav\>
-<ul\>
-<li\>\<a href="#ces"\>CES 2018\</a\>\</li\>
-<li\>\<a href="#vegan"\>Being Vegan\</a\>\</li\>
-<li\>\<a href="#html5"\>HTML5\</a\>\</li\>
-</ul\>
-</nav\>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Header Hierarchy</title>
+</head>
+<body>
+<!--Our global header used across all pages in our website-->
+<header>
+<h1>Brad Abc's Blog</h1>
+<nav>
+<ul>
+<li><a href="#ces">CES 2018</a></li>
+<li><a href="#vegan">Being Vegan</a></li>
+<li><a href="#html5">HTML5</a></li>
+</ul>
+</nav>
 >
-> \</header\>
+> </header>
 >
-> \<!-- The main contents of the blog starts here --\>
+> <!-- The main contents of the blog starts here -->
 >
-> \<main\>
+> <main>
 >
-> \<!-- Each blogpost is split into individual articles --\>
+> <!-- Each blogpost is split into individual articles -->
 >
-> \<article id="ces"\>
+> <article id="ces">
 >
 <header>
 <h2>CES 2018</h2>
 <h3>Consumer electronics and consumer technology tradeshow</h3>
 </header>
-<p\>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
 neque risus, consequat eget vestibulum eu, consequat at eros. Nam eu
 nisl vel neque malesuada sollicitudin quis eget libero.</p>
 <footer>
@@ -4541,7 +4541,7 @@ here.</p>
 <!-- Article 2 -->
 <article id="vegan">
 <header>
-<h2>Being Vegan</h2\>
+<h2>Being Vegan</h2>
 <h3>My cooking tips for new vegans</h3>
 </header>
 <p>Donec ut librero sed accu vehicula ultricies a non tortor. Lorem
@@ -4555,7 +4555,7 @@ dolor.</p>
 <!-- Article 3 -->
 <article id="html5">
 <header>
-<h2>HTML5</h2\>
+<h2>HTML5</h2>
 <h3>A summary of HTML5 differences from HTML4</h3>
 </header>
 <p>Pelientesque auctor nisi id magna consequat sagittis. Curabitur
@@ -4585,7 +4585,7 @@ articles here.</p>
 ```
 <h3 id="ch2-3-5">2.3.5 &lt;article&gt; and &lt;section&gt; Elements</h3>
 
-### \<article\> element
+### <article> element
 
 An **article element** as we know is stand-alone content. If you pick an
 article out of a Web page, it should make sense all by itself.
@@ -4594,44 +4594,44 @@ the previous unit, if you extract only the first article, you can see
 that it will make sense all by itself without any context. It can be
 reused anywhere else.
 ```
-1.  \<article id="ces"\>
-2.    \<header\>
-3.      \<h2\>CES 2018\</h2\>
-4.      \<h3\>Consumer electronics and consumer technology
-    tradeshow\</h3\>
-5.    \</header\>
-6.    \<p\>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+1.  <article id="ces">
+2.    <header>
+3.      <h2>CES 2018</h2>
+4.      <h3>Consumer electronics and consumer technology
+    tradeshow</h3>
+5.    </header>
+6.    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     Aliquam neque risus, consequat eget vestibulum eu, consequat at
     eros. Nam eu nisl vel neque malesuada sollicitudin quis eget
-    libero.\</p\>
-7.    \<footer\>
-8.      \<p\>Written by guest author Nicholas Abc. Read Nicholas's blog
-    here.\</p\>
-9.    \</footer\>
-10. \</article\>
+    libero.</p>
+7.    <footer>
+8.      <p>Written by guest author Nicholas Abc. Read Nicholas's blog
+    here.</p>
+9.    </footer>
+10. </article>
 ```
 
 One article element can be nested inside another. For example, if you
 have a blog post and you want to include a forum post or newspaper
-article in it, you can nest it in another \<article\> tag. 
+article in it, you can nest it in another <article> tag. 
 
 Let's look at another example:
 
-1.  \<h4\>Getting There\</h4\>
+1.  <h4>Getting There</h4>
 
-2.  \<p\>Arriving at the show location proved much harder for me. I
+2.  <p>Arriving at the show location proved much harder for me. I
     couldn't get a hotel closer to where the show was taking place and
-    so had to rent a car....\</p\>
+    so had to rent a car....</p>
 
-3.  \<h4\>Conference Sessions\</h4\>
+3.  <h4>Conference Sessions</h4>
 
-4.  \<p\>I managed to squeeze in 3 conference sessions on the first
-    day...\</p\>
+4.  <p>I managed to squeeze in 3 conference sessions on the first
+    day...</p>
 
 This doesn't look like it makes sense all on its own. So we can't put it
 into an article element. Maybe a section element?
 
-### \<section\> element
+### <section> element
 
 The **section element** is used to section a page. For example, chapters
 in a book, sections in a thesis or splitting an 'about me' page into
@@ -4640,43 +4640,43 @@ within an article. In fact, all content within the body element is
 considered to be within one section. Sections can be nested (one section
 in another). Sections can also be part of an article, aside or nav
 elements. While the code above makes no sense by itself, if you add it
-to our CES 2018 \<article\> example, it will fit right in:
+to our CES 2018 <article> example, it will fit right in:
 
 <img src="./images/image035.png"
 style="width:4in;height:4.44255in" />
 
 <h5>HTML</h5>
 ```
-<!DOCTYPE html\>
-<html lang="en"\>
-<head\>
-<meta charset="UTF-8"\>
-<title\>article and section elements\</title\>
-</head\>
-<body\>
-<article id="ces"\>
-<header\>
-<h2\>CES 2018\</h2\>
-<h3\>Consumer electronics and consumer technology tradeshow\</h3\>
-</header\>
-<section\>
-<h4\>Getting There\</h4\>
-<p\>Arriving at the show location proved much harder for me. I couldn't
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>article and section elements</title>
+</head>
+<body>
+<article id="ces">
+<header>
+<h2>CES 2018</h2>
+<h3>Consumer electronics and consumer technology tradeshow</h3>
+</header>
+<section>
+<h4>Getting There</h4>
+<p>Arriving at the show location proved much harder for me. I couldn't
 get a hotel closer to where the show was taking place and so had to rent
-a car....\</p\>
-</section\>
-<section\>
-<h4\>Conference Sessions\</h4\>
-<p\>I managed to squeeze in 3 conference sessions on the first
-day...\</p\>
-</section\>
-<footer\>
-<p\>Written by guest author Nicholas Abc. Read Nicholas's blog
-here.\</p\>
-</footer\>
-</article\>
-</body\>
-</html\>
+a car....</p>
+</section>
+<section>
+<h4>Conference Sessions</h4>
+<p>I managed to squeeze in 3 conference sessions on the first
+day...</p>
+</section>
+<footer>
+<p>Written by guest author Nicholas Abc. Read Nicholas's blog
+here.</p>
+</footer>
+</article>
+</body>
+</html>
 ```
 
 An article element can use section elements to split its contents into
@@ -4721,7 +4721,7 @@ style="width:4in;height:2.54468in" />
 can make sense on its own-->
 <article>
 <header id="intro">
-<h2\>Introduction</h2>
+<h2>Introduction</h2>
 </header>
 <p>HTML5 stands for HyperText Markup Language. It is used to create
 content on the world wide web like webpages. HTML5 is the fifth revision
@@ -4844,12 +4844,12 @@ mark, figure, figcaption, details and summary.
 Experiment with the sample and try inserting other semantic elements
 that you want to try.
 
-<h3 id="ch2-3-6">2.3.6 \<div\> and \<span\> Elements</h3>
+<h3 id="ch2-3-6">2.3.6 <div> and <span> Elements</h3>
 
-\<div\> element
+<div> element
 
-The \<div\> tag is one you will likely see sprinkled all over an HTML
-document.  \<div\>, as the Content Division element, is used to define a
+The <div> tag is one you will likely see sprinkled all over an HTML
+document.  <div>, as the Content Division element, is used to define a
 division or a section of the document. Div is not a semantic element,
 however, it is commonly used when there isn't a better semantic
 sectioning element to use.
@@ -4863,7 +4863,7 @@ which will affect all elements in the div container.
 It should only be used if you cannot use any other semantic element in
 its place.
 
-We will see an example of \<div\> here:
+We will see an example of <div> here:
 
 ```
 1.  <section>
@@ -4892,10 +4892,10 @@ If you want to style all code snippets in your HTML document a certain
 way, you can place your code in a div container and apply styles
 collectively to it using the class attribute.
 
-\<span\> element
+<span> element
 
-While we are on the topic of the \<div\> tag and semantic elements, one
-more important element that comes in handy is \<span\>. Span and Div are
+While we are on the topic of the <div> tag and semantic elements, one
+more important element that comes in handy is <span>. Span and Div are
 so similar yet so different that there is an entire [wikipedia
 page](https://en.wikipedia.org/wiki/Span_and_div) dedicated to it.
 
@@ -4904,13 +4904,13 @@ page](https://en.wikipedia.org/wiki/Span_and_div) dedicated to it.
 What happens when you do not find an appropriate tag to use? Let's look
 at this example:
 
-1.  \<p\>Hi everyone! My name is Alexa and I work for ABC Company\</p\>
+1.  <p>Hi everyone! My name is Alexa and I work for ABC Company</p>
 
 I want to change the color of only 'ABC Company'? Should I use a
 paragraph tag? Let's try that..
 
-1.  \<p\>Hi everyone! My name is Alexa and I work
-    for \<p class="company"\>ABC Company\</p\>\</p\>
+1.  <p>Hi everyone! My name is Alexa and I work
+    for <p class="company">ABC Company</p></p>
 
 If you then design your style such that the 'company' class will make
 text blue, the output will look like this:
@@ -4919,106 +4919,106 @@ Hi everyone! My name is Alexa and I work for
 
 <h4>ABC Company</h4>
 
-That does not work because \<p\> creates a new line. The HTML above is
-also invalid. We will see why shortly. Now, let's try using \<span\>:
+That does not work because <p> creates a new line. The HTML above is
+also invalid. We will see why shortly. Now, let's try using <span>:
 
-1.  \<p\>Hi everyone! My name is Alexa and I work
-    for \<span class="company"\>ABC Company\</span\>\</p\>
+1.  <p>Hi everyone! My name is Alexa and I work
+    for <span class="company">ABC Company</span></p>
 
 Hi everyone! My name is Alexa and I work for ABC Company
 
-When can \<span\> be used?
+When can <span> be used?
 
 -   when adding styling to part of a sentence (inline),
 
 -   when manipulating part of a sentence using JavaScript,
 
 -   When there isn't a more appropriate HTML element that applies, you
-    can use \<span\> (and \<div\>) to add attributes such
+    can use <span> (and <div>) to add attributes such
     as class and id
 
-Like \<div\>, \<span\> is not a semantic element. You should only
-use \<span\> if no other semantic element is
-appropriate. \<div\> and \<span\> serve the same purpose but should be
-applied at different levels. \<div\> is a block level element (for a
-block of space) while \<span\> is an inline element (for within a line
+Like <div>, <span> is not a semantic element. You should only
+use <span> if no other semantic element is
+appropriate. <div> and <span> serve the same purpose but should be
+applied at different levels. <div> is a block level element (for a
+block of space) while <span> is an inline element (for within a line
 or phrase).
 
-Difference between \<div\> and \<span\>
+Difference between <div> and <span>
 
 They are both considered generic elements that don't have any meaning.
-But \<div\> is a block level element while \<span\> is an inline
+But <div> is a block level element while <span> is an inline
 element. 
 
 **Block level elements** - used within body of the page. These occupy a
 block of space and start in a new line. They usually have empty lines
 above and below the block. They can contain inline elements and other
-block level elements. Other examples: \<p\>, \<h1\> - \<h6\>.
+block level elements. Other examples: <p>, <h1> - <h6>.
 
 **Inline elements **- as the name suggests are 'in-the-line'. They can
 start anywhere in a line. They can only contain data (like text) or
-other in-line elements. Other examples: \<em\>, \<strong\>.
+other in-line elements. Other examples: <em>, <strong>.
 
 **Note: **There are several other semantic inline elements such
-as \<abbr\>, \<cite\> and \<code\> that should be used in preference
-to \<span\> where possible.
+as <abbr>, <cite> and <code> that should be used in preference
+to <span> where possible.
 
 <h4>Why two paragraph tags don't work</h4>
 
-In the first \<span\> example, we said that nesting two paragraph
+In the first <span> example, we said that nesting two paragraph
 elements was invalid HTML.
 
-\<p\>Hi everyone! My name is Alexa and I work
-for \<p class="company"\>ABC Company\</p\>\</p\>
+<p>Hi everyone! My name is Alexa and I work
+for <p class="company">ABC Company</p></p>
 
-After reading an opening tag \<p\>, if the browser sees another \<p\> or
-any other block level element including \<div\>, it will automatically
-close the first open \<p\> for you. Nesting one paragraph tag in another
+After reading an opening tag <p>, if the browser sees another <p> or
+any other block level element including <div>, it will automatically
+close the first open <p> for you. Nesting one paragraph tag in another
 is not valid because the browser will consider them as two
 paragraphs one after the other. Even though you close the paragraphs
-with two closing tags \</p\>\</p\> at the end, they are ignored.
+with two closing tags </p></p> at the end, they are ignored.
 
 <h3 id="ch2-3-7">2.3.7 Activities – Semantic Meaning</h3>
 
 Please find below suggested activities to help you practice:
 
-1.  How are \<header\> and \<h1\> related? What is the difference
+1.  How are <header> and <h1> related? What is the difference
     between them?
 
 2.  Create a well structured HTML page using as many semantic elements
     as you can.
 
-3.  Write a short HTML page that uses the \<div\> and \<span\> tags. You
+3.  Write a short HTML page that uses the <div> and <span> tags. You
     need not style them.
 
 <h3 id="ch2-4-1">2.4.1 Introduction</h3>
 
-The \<img\> tag
+The <img> tag
 
 In this age of visual culture, what is a Web page without images?
 Boring! Pictures and images make everything more interesting and
 engaging. 
 
-Here is the most basic \<img\> tag:
+Here is the most basic <img> tag:
 
-1.  \<img src="example.png" alt="Example Tutorial Image"\>
+1.  <img src="example.png" alt="Example Tutorial Image">
 
 The image tag has several attributes out of which only src and alt are
 required. The rest are useful but optional attributes. 
 
 <h4>*Image*: 'src' attribute</h4>
 
-The source attribute from the \<img\> tag tells us where to fetch the
+The source attribute from the <img> tag tells us where to fetch the
 image from. There are two different types of URLs you can give for
 source. 
 
 1.  Path to an image file within your Web site:  
-    \<img src="images/image-with-relative-url.png" alt="Example Tutorial
-    Image"\>
+    <img src="images/image-with-relative-url.png" alt="Example Tutorial
+    Image">
 
 2.  Path to an image file that resides elsewhere on the Web:  
-    \<img src="https://www.example.com/image-with-absolute-url.png" alt="Example
-    Tutorial Image"\>
+    <img src="https://www.example.com/image-with-absolute-url.png" alt="Example
+    Tutorial Image">
 
 The type of image file format (i.e. png, jpeg, etc.) you should use does
 not depend on the img element in HTML5 but on the browser that renders
@@ -5039,9 +5039,9 @@ Here is a list of things to keep in mind when using the src attribute:
     all. *Recommended practice*: use lower case for all directories,
     file names and file extensions.
 
--   Use Unix (/) path name separator instead of Windows (\\) style. This
+-   Use Unix (/) path name separator instead of Windows () style. This
     might work on Windows but will fail elsewhere. The path should be
-    'images/example.png' and not 'images\\example.png'.
+    'images/example.png' and not 'imagesexample.png'.
 
 -   When your Web page loads, it is always going to look at the location
     you specified in src for the image. Ensure the image resides in the
@@ -5112,8 +5112,8 @@ information to be aware of.
 
 alt stands for *alternate text* for an image.
 
-1.  \<img src="image/example.png" alt="Add a short text description of
-    the image here"\>
+1.  <img src="image/example.png" alt="Add a short text description of
+    the image here">
 
 Using this attribute, you can provide a short description of what the
 image is about. This description should convey information about the
@@ -5145,7 +5145,7 @@ alt also contributes to semantic meaning - it offers meaning to the
 image and suggests the purpose of the image content.
 
 If the image is purely for presentation or decoration purposes, you
-should leave alt empty - \<img alt=""\>. Assistive technology will then
+should leave alt empty - <img alt="">. Assistive technology will then
 ignore this content.
 
 <h4>Purpose of the image</h4>
@@ -5171,8 +5171,8 @@ Here is an example of a tulip image using invalid source (that image is
 missing from the 'images' directory) and how it will look in a Web
 browser:
 
-1.  \<img src="image/tulips.png" alt="This is supposed to be an image of
-    tulips"\>
+1.  <img src="image/tulips.png" alt="This is supposed to be an image of
+    tulips">
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------ 38. Supposed to be an image of tulips (108) --------------------------->
@@ -5201,12 +5201,12 @@ your cursor on it. 
 
 Did you see the hidden message 'Tulips from woodburn tulip
 festival'? title is a global attribute we have seen before but worth
-mentioning again because it is very useful in an \<img\> tag. If you
+mentioning again because it is very useful in an <img> tag. If you
 have a complicated image that could use a tooltip or description, you
 will want to use the title attribute.
 ```
-1.  \<img src="images/tulips.png" alt="This is supposed to be an image
-    of tulips" title="Tulips from woodburn tulip festival"\>
+1.  <img src="images/tulips.png" alt="This is supposed to be an image
+    of tulips" title="Tulips from woodburn tulip festival">
 ```
 The alt attribute is meant to be an alternate source of information
 while the title attribute should provide additional information about
@@ -5243,8 +5243,8 @@ pixels.
 
 Now, if I want to resize the HTML logo above by half:
 
-1.  \<img src="images/html5.png" alt="HTML resized image" title="Resized
-    image seems to fit the page better" height="173" width="262"\>
+1.  <img src="images/html5.png" alt="HTML resized image" title="Resized
+    image seems to fit the page better" height="173" width="262">
 
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- 41. html5 logo resized (109) ---------------------------------->
@@ -5259,8 +5259,8 @@ Actually, you don't need to define both width and height. You can just
 specify either height or width and the aspect ratio will be adjusted.
 For example, the image above can be achieved using the following too:
 
-1.  \<img src="images/html5.png" alt="HTML resized image" title="Resized
-    image seems to fit the page better" height="173"\>
+1.  <img src="images/html5.png" alt="HTML resized image" title="Resized
+    image seems to fit the page better" height="173">
 
 The use of these attributes really depends on how you are using the
 image. If it is part of an [image
@@ -5291,7 +5291,7 @@ HTML.
 
 We know we should keep content and style separate in HTML. Then how do
 we move these images out of content? Well, don't add them using
-the \<img\> tag in HTML. Use CSS instead. 
+the <img> tag in HTML. Use CSS instead. 
 
 Examples of such images:
 
@@ -5643,28 +5643,28 @@ possible.
     used - describe the target link.</li>
 </ul>
 
-1.  \<a href="https://www.table-header-cells.com"\>
+1.  <a href="https://www.table-header-cells.com">
 
-2.    \<img src="table-th.png" alt="Introduction to table header cells
-    and their usage"\>
+2.    <img src="table-th.png" alt="Introduction to table header cells
+    and their usage">
 
-3.  \</a\>
+3.  </a>
 
 <h4>Anchor element</h4>
 
-The hyperlink tag in html is simply <b>\<a\>, </b>and it is called
+The hyperlink tag in html is simply <b><a>, </b>and it is called
 the<b> anchor element</b>. Here is how it is used:
 
-1.  \<a href="https://en.wikipedia.org/wiki/Hyperlink"\>Click
-    here\</a\> to go to the Wikipedia Hyperlink page.
+1.  <a href="https://en.wikipedia.org/wiki/Hyperlink">Click
+    here</a> to go to the Wikipedia Hyperlink page.
 
 Result: <a href="https://en.wikipedia.org/wiki/Hyperlink">Click here</a> to go to
 the Wikipedia Hyperlink page.
 
-Note: The anchor element should not be confused with the \<link\> tag.
-The \<link\> tag is used to define a link between a document and an
+Note: The anchor element should not be confused with the <link> tag.
+The <link> tag is used to define a link between a document and an
 external resource like an external style sheet. You will learn more
-about the \<link\> tag in the next chapter.
+about the <link> tag in the next chapter.
 
 <h4>States of a hyperlink</h4>
 
@@ -5683,7 +5683,7 @@ underlined.
 
 <h4>Usage</h4>
 
-The \<a\> tag can surround text or an image. 
+The <a> tag can surround text or an image. 
 
 ```
 1.  <!-- Text in a hyperlink-->
@@ -5740,7 +5740,7 @@ addresses:
 The only attribute we have seen thus far in this chapter of hyperlinks
 is href.   
 href points to the URL that the link should jump to. Though it is an
-optional attribute, without it, the \<a\> tag will not be a hyperlink
+optional attribute, without it, the <a> tag will not be a hyperlink
 because it obviously has no idea where to jump to.
 
 The href attribute takes a URL. This URL can be in the form of:
@@ -5748,25 +5748,25 @@ The href attribute takes a URL. This URL can be in the form of:
 -   a link to an external Web site also known as [absolute
     URL](https://www.differencebetween.com/difference-between-an-absolute-and-vs-a-relative-url/).
 
-1.  \<a href="https://qwant.com"\>\</a\>
+1.  <a href="https://qwant.com"></a>
 
 -   a link to a file or page within the same Web site also known
     as [relative
     URL](https://www.differencebetween.com/difference-between-an-absolute-and-vs-a-relative-url/). 
 
-1.  \<a href="contacts.html"\>\</a\>
+1.  <a href="contacts.html"></a>
 
 -   a link to an element on the same page. The element, is referenced
     using its ID. E.g. If you want to link to a div with id='details',
     the corresponding anchor tag will be:
 
-1.  \<a href="#details"\>\</a\>
+1.  <a href="#details"></a>
 
 -   protocols such as:
 
-\- mailto: \| for email addresses. 
+- mailto: | for email addresses. 
 
-1.  \<a href="mailto:abc@alphabets.com"\>\</a\>
+1.  <a href="mailto:abc@alphabets.com"></a>
 
 <h4>The 'target' attribute</h4>
 
@@ -5841,8 +5841,8 @@ same. You want this print version to be formatted into one page ideal
 for printing and with resolution of 250 dpi. Here is how the HTML5 code
 will look like:
 
-1.  \<a href="https://en.wikipedia.org/wiki/Media_queries?output=print" media="print
-    and (resolution:250dpi)"\>Print wiki page about media queries\</a\>
+1.  <a href="https://en.wikipedia.org/wiki/Media_queries?output=print" media="print
+    and (resolution:250dpi)">Print wiki page about media queries</a>
 
 <h4>The 'download' attribute</h4>
 
@@ -5866,7 +5866,7 @@ modified according to value specified. 
 ```
 
 ```
-1.  <a href="/assets/hello.txt" download="new-name-for-text-file"\>
+1.  <a href="/assets/hello.txt" download="new-name-for-text-file">
 ... will download the file after altering its name to -
 'new-name-for-text-file.txt'.
 ```
@@ -5971,7 +5971,7 @@ To do that, I have to again, define another hyperlink.
 It has the same 'href' attribute as the last demo, but this time,
 
 I'm going to use the 'target' property or 'target' attribute", and I'm
-going to say the target attribute is "\_blank".
+going to say the target attribute is "_blank".
 
 There are multiple target attributes you can define, there's "blank" and
 "self".
@@ -6169,7 +6169,7 @@ soup</q>. Well, here's my attempt at doing just that!
 </ol>
 </article>
 <article id="salad">
-<h2\>Salad</h2>
+<h2>Salad</h2>
 <img
 src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Caesar_salad_%281%29.jpg/320px-Caesar_salad_%281%29.jpg"
 alt="salad image" width=320>
@@ -6447,7 +6447,7 @@ you learn, experimentation.
     the many properties that make CSS such a powerful tool.
 
 4.  **Lists and selectors: **List markup tags
-    (\<ul\>, &lt;ol\> and &lt;li\>) are some of the most frequently used
+    (<ul>, &lt;ol> and &lt;li>) are some of the most frequently used
     specific purpose tags in HTML, and selectors are what allows you to
     target specific HTML elements and apply style to them
 
@@ -6473,7 +6473,7 @@ the work the designer does: deciding how things look.
 
 In the early days, there was no CSS, so any control over what the page
 looked like was done with tags that controlled the form of the Web page.
-Tags like \<font\> to choose a font, \<b\> for bold, \<i\> for italic
+Tags like <font> to choose a font, <b> for bold, <i> for italic
 were added to have some control, and that let your page be at the mercy
 of whatever browser the reader was using. There are several problems
 with this approach. First, it violates our paradigm of HTML containing
@@ -6516,8 +6516,8 @@ however, styled differently.
 
 Here is the HTML:
 
-1.  \<p\>She looked over the top of her book and whispered &lt;q\>I'm
-    hungry.\</q\> My heart stopped.\</p\>
+1.  <p>She looked over the top of her book and whispered &lt;q>I'm
+    hungry.</q> My heart stopped.</p>
 
 And now two very different looks:
 
@@ -6540,12 +6540,12 @@ style="width:1.5625in;height:1.5625in"
 alt="Snapshot os a style tag in the XDK code editor" />
 
 The best practice when working with CSS is to keep it in an external
-file using the \<link\> tag, however, when starting, it is simpler to
+file using the <link> tag, however, when starting, it is simpler to
 merely place it directly into the document under edit.  
 
-To place CSS directly into an HTML document, we use the \<style\> tag.
+To place CSS directly into an HTML document, we use the <style> tag.
  This tag can appear anywhere in an HTML document, however, the most
-common practice is to place it in the \<head\> section.  Such as:
+common practice is to place it in the <head> section.  Such as:
 ```
 1.  <!DOCTYPE html>
 2.  <html lang="en">
@@ -6566,16 +6566,16 @@ common practice is to place it in the \<head\> section.  Such as:
 
 <h4>The &lt;link&gt; tag</h4>
 
-While \<style\> is convenient, the better practice is to put the
+While <style> is convenient, the better practice is to put the
 CSS into a separate file. One of the key advantages of using a separate
 file is that the CSS styles can easily be re-used between your different
 .html pages.  Many authors further divide their CSS up into different
 files (for example: one for text styles and another one for layout).  
 
 Simply put your CSS into a separate file. This file does not need any
-HTML markup (i.e., no \<style\> tag required).  Use the .css file
-extension and use a \<link\> tag to bind it in. The \<link\> tag must
-appear in the \<head\> section.  By convention, css files are kept in a
+HTML markup (i.e., no <style> tag required).  Use the .css file
+extension and use a <link> tag to bind it in. The <link> tag must
+appear in the <head> section.  By convention, css files are kept in a
 directory named *css*.
 
 <h5>Use this &lt;link&gt; as a template:</h5>
@@ -6611,7 +6611,7 @@ alt="Figure showing a selector &#39;p&#39; before a declaration &#39;font-size:1
 
 In the above, the *selector* is **p.  **When a selector appears
 unprefixed by any punctuation, then it is assumed to match to an HTML
-tag.  Thus, the **p** selector will apply the CSS rule to all \<p\> tags
+tag.  Thus, the **p** selector will apply the CSS rule to all <p> tags
 in the document. 
 
 We will cover more selector possibilities in the future.
@@ -6652,23 +6652,23 @@ CSS can include "comments" as well, by which you, the developer today,
 can leave notes and reminders to you, a different developer tomorrow. Or
 to others who might read your CSS.  
 
-Comments begin with /\ and <b>must</b> end with \/ and they can span
+Comments begin with / and <b>must</b> end with / and they can span
 several lines. But they <b>cannot</b> be nested.
 
 ```
 1.  p {
-2.     font-size: 8px; /\* client insists small text makes them more
-    'professional'. \*/
-3.     /\* I hope his idea of 'professional' includes paying on time.
-    \*/
+2.     font-size: 8px; /* client insists small text makes them more
+    'professional'. */
+3.     /* I hope his idea of 'professional' includes paying on time.
+    */
 4.   
-5.     line-height: 24px; /\* see above \*/
+5.     line-height: 24px; /* see above */
 6.   
-7.     /\* none of the stuff below is working. I don't know why.
+7.     /* none of the stuff below is working. I don't know why.
 8.   
 9.     margin-top: 5%;
 10.    margin-bottom:6%;
-11.    \*/
+11.    */
 12. }
 ```
 
@@ -6981,9 +6981,9 @@ right, line-height:3; 
 | Miss Brooke had that kind of beauty which seems to be thrown into relief by poor dress. | Miss Brooke had that kind of beauty which seems to be thrown into relief by poor dress. |
 
 The used value is this
-unitless [\<number\>](https://developer.mozilla.org/en-US/docs/Web/CSS/number) multiplied
+unitless [<number>](https://developer.mozilla.org/en-US/docs/Web/CSS/number) multiplied
 by the element's font size. The computed value is the same as the
-specified \<number\>. In most cases this is the preferred way to
+specified <number>. In most cases this is the preferred way to
 set line-height with no unexpected results in case of inheritance.
 Read [more](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height) on
 the MDN Web site.
@@ -6999,13 +6999,13 @@ use text-align unnecessarily.
 Note that text-align may <b>not</b> work as expected if applied to
 elements that are the same width as their text, or whose width is
 determined by the text within them (i.e., inline elements).  The
-tags \<span\>, \<a\>, \<i\>, \<b\>, \<q\> and others are considered
+tags <span>, <a>, <i>, <b>, <q> and others are considered
 "inline" because they do not receive their own new line when used.
 And text-align is often not useful on these tags.
 
 But it is useful on block level text tags, such
-as \<p\>, \<li\>, \<ul\>, \<ol\>, \<div\>,
-and \<blockquote\>
+as <p>, <li>, <ul>, <ol>, <div>,
+and <blockquote>
 
 ```
 p { text-align: left; }  
@@ -7043,17 +7043,17 @@ are: underline, overline, line-through, and none;  They can combined.
 
 ```
 p { text-decoration: underline; }  
-a { text-decoration: none; } /\* hyperlinks are underlined by default,
+a { text-decoration: none; } /* hyperlinks are underlined by default,
 ```
 
-but that can be removed \*/   
+but that can be removed */   
 
 ```
 span { text-decoration: overline; }  
-span { text-decoration: underline overline; } /\* apply two with just a
-space between the values \*/  
-span { text-decoration: underline overline line-through; } /\*
-everything \*/
+span { text-decoration: underline overline; } /* apply two with just a
+space between the values */  
+span { text-decoration: underline overline line-through; } /*
+everything */
 ```
 
 | **underline**      | **overline** | **line-through** | **underline overline line-through** |
@@ -7067,7 +7067,7 @@ table](https://caniuse.com/#search=text-decoration))
 
 <h4>font-weight (bold)</h4>
 
-Earlier we saw that the \<b\> and \<strong\> tags would make text
+Earlier we saw that the <b> and <strong> tags would make text
 bold-faced. However, semantically speaking, that is a mere side-effect
 of the tag. Any tag can make the text bolder (or less bold) via
 the font-weight CSS property.  While common values
@@ -7089,7 +7089,7 @@ blockquote { font-weight: 900; }
 
 <h4>font-style (italic)</h4>
 
-Earlier we saw that the \<i\> and \<em\> tags could make text
+Earlier we saw that the <i> and <em> tags could make text
 italicized. But, just as we saw when discussing font-weight, this can be
 changed with CSS, and any tag can make its text italic or oblique with
 the font-style property.  The choices of values for this property
@@ -7194,9 +7194,9 @@ discussed in a future section.
 
 ```
 p { color: rgb(10, 200, 255); }  
-p { color: rgb(0, 0, 0); } /\* 0,0,0 is black \*/  
-p { color: rgb(255, 255, 255); } /\* 255,255,255 is white \*/  
-b { color: rgba(10, 200, 255, 0.5); }  /\* semi-transparent \*/
+p { color: rgb(0, 0, 0); } /* 0,0,0 is black */  
+p { color: rgb(255, 255, 255); } /* 255,255,255 is white */  
+b { color: rgba(10, 200, 255, 0.5); }  /* semi-transparent */
 ```
 
 Generally, any color on a computer is exactly specified by mixing three
@@ -7264,7 +7264,7 @@ see radically different results on the rest of the page from either of
 these rules applied to the body, but relative to one another they'll
 remain sized correctly.
 
-| html, body { font-size: 50px; } /\* 50 px base text size \*/ | html, body { font-size: 20px; } /\* 20 px base text size \*/ |
+| html, body { font-size: 50px; } /* 50 px base text size */ | html, body { font-size: 20px; } /* 20 px base text size */ |
 |--------------------------------------------------------------|--------------------------------------------------------------|
 
 <h4>rem</h4>
@@ -7276,7 +7276,7 @@ will generally prove to be more reliable than 'em'.  'rem' is supported
 in all modern day browsers, including mobile, but not older ones. 
 
 Using the CSS rules from the em section immediately above, nested list
-items (\<li\>birds\<ul\>\<li\>hawk\</li\>\</ul\>\</li\>)would get
+items (<li>birds<ul><li>hawk</li></ul></li>)would get
 increasingly smaller. And if 'rem' units were used, they would be the
 same size.
 
@@ -7354,8 +7354,8 @@ But even with our modest start we must, once again, take up the topic of
 accessibility.  In Module 2, we learned that using the correct tag with
 the best semantic meaning is very important for a variety of reasons,
 one of which included visitors who may have a disability. If you clearly
-put your page navigation in a \<nav\> block, and use the header tags and
-others (like \<article\> or \<main\>), then this can greatly enhance the
+put your page navigation in a <nav> block, and use the header tags and
+others (like <article> or <main>), then this can greatly enhance the
 page experience for certain disabled visitors, like the blind who might
 be having the page read aloud to them with a screen reader.
 
@@ -7440,14 +7440,14 @@ These simple guidelines merely scratch the surface.
 
 <h3 id="ch3-4">3.4.1 Styling Lists</h3>
 
-The list markup tags (\<ul\>, \<ol\> and \<li\>) are some of the most
+The list markup tags (<ul>, <ol> and <li>) are some of the most
 frequently used specific purpose tags in HTML. There are a few CSS style
 properties that are available for lists.
 
 <h4>list-style-type</h4>
 
 list-style-type governs the little list marker that is usually
-positioned to the left of any list item.  For un-ordered lists (\<ul\>),
+positioned to the left of any list item.  For un-ordered lists (<ul>),
 there are several popular values: disc, circle, square, and none.
 
 ```
@@ -7509,7 +7509,7 @@ li { list-style-type: disc; }
 </tbody>
 </table>
 
-For ordered lists (\<ol\>) you can choose different ways of having the
+For ordered lists (<ol>) you can choose different ways of having the
 numbers
 shown: decimal, decimal-leading-zero, lower-roman, upper-roman, lower-alpha, upper-alpha,
 as well as several of the worlds
@@ -7766,7 +7766,7 @@ selectors, all that can be avoided.  
 
 <h4>Comma separated selectors</h4>
 
-Let's say we want to make all our \<blockquote\> tags, \<q\> tags, and
+Let's say we want to make all our <blockquote> tags, <q> tags, and
 anything with "speech" in it's class string, to be red italic text.  How
 might we do that?  We could make three separate rule sets.  Or, better,
 we can separate our selectors with commas (,) before one rule set.  Like
@@ -7859,7 +7859,7 @@ It isn't unusual to see multiple classes joined this way as well:
 <h4>Descendant selectors</h4>
 
 In the following HTML, we see some paragraphs that have some links
-(\<a\>) inside. The link tags are inside the paragraphs, but not
+(<a>) inside. The link tags are inside the paragraphs, but not
 necessarily direct children.
 
 ```
@@ -7898,7 +7898,7 @@ facing:
 We merely separate the tag, identifier, or class selectors by a space.
 
 So, in the first rule, we see that the selector will match to any
-\<a\> tag that is a descendant of #intro.  The \<a\> tag can appear
+<a> tag that is a descendant of #intro.  The <a> tag can appear
 directly within #intro, or be buried within its children.  Here is the
 result:
 
@@ -7944,14 +7944,14 @@ this:
 #intro blockquote a { font-weight: bold; } 
 ```
 
-Any \<a\> tags anywhere inside a \<blockquote\> anywhere inside
+Any <a> tags anywhere inside a <blockquote> anywhere inside
 the #intro section will now be bold.
 
 <h4>Direct descendant selectors ( &gt; )</h4>
 
-Sometimes you don't want to apply a style to any \_possible\_ child, but
+Sometimes you don't want to apply a style to any _possible_ child, but
 to only to the direct children.  This can be done with
-the <b>\></b> symbol.  Use it between selectors to limit the application to
+the <b>></b> symbol.  Use it between selectors to limit the application to
 the direct children of the parent. For example, this rule, if applied to
 the HTML of the previous selector, would cause the links in the intro
 section to be larger, but not the links in any nested quotes or
@@ -7963,7 +7963,7 @@ blockquotes. :
 
 <h4>Everything selector (*)</h4>
 
-The asterisk (\*) can be used to match <b>any</b> tag. By itself, this is
+The asterisk (*) can be used to match <b>any</b> tag. By itself, this is
 only marginally useful. But combined with other selectors into a
 descendant selector, it can be pretty useful.
 
@@ -8119,7 +8119,7 @@ than rules without.
 <h4>3- .class selector is more specific than a tag selector</h4>
 
 Rules employing a class selector (e.g. .someclass ) are considered more
-specific than rules without (but not as specific as an \#id selector,
+specific than rules without (but not as specific as an #id selector,
 which trumps everything).
 
 <h4>4- Rules that come later override those that come earlier</h4>
@@ -8208,7 +8208,7 @@ the best advice is to fix them directly, rather than using !important.
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>My Favorite Recipes - Module 2\</title\>
+<title>My Favorite Recipes - Module 2</title>
 </head>
 <body>
 <h1>My Favorite Recipes</h1>
@@ -8226,7 +8226,7 @@ src="https://upload.wikimedia.org/wikipedia/commons/2/22/Bol_soupe_bicolore.jpg"
 alt="soup image" width=320>
 <p>
 Beethoven once said <q>Only the pure of heart can make a good
-soup\</q>. Well, here's my attempt at doing just that!
+soup</q>. Well, here's my attempt at doing just that!
 </p>
 <ol>
 <li>Step 1</li>
@@ -8744,7 +8744,7 @@ font-size:1.2rem;
 </html>
 ```
 Looking at the style rules we see there are three different
-possibilities for the size and color of an \<h1\> element. In this case
+possibilities for the size and color of an <h1> element. In this case
 the application of the rules seems pretty intuitive. The outermost
 heading is neither in a Article or a Section, so it is blue and largest
 of the three. The one that's in the Article, but not in the section is
@@ -8804,6 +8804,7 @@ font-size: 2rem;
 </body>
 </html>
 ```
+
 What happened? To answer that question, we'll turn to the browser's
 debugger.
 
@@ -8886,8 +8887,8 @@ the change in the section headers.
 
 We could fix it by just making sure things are in the right order (which
 is important) but a more robust solution might be to make use of the
-fact that the way we're using \<section\> in fact is more specific
-than \<article\>.  We can make this explicit by changing the selector to
+fact that the way we're using <section> in fact is more specific
+than <article>.  We can make this explicit by changing the selector to
 "article section h1", so that now the smaller, lighter color will be
 used only on a section that is inside an article, which is really what
 we want:
@@ -8901,6 +8902,7 @@ we want:
 </p>
 
 <h4>CSS</h4>
+
 ```
 h1{
 color:blue;
@@ -8915,7 +8917,9 @@ color:grey;
 font-size:1.2rem;
 }
 ```
+
 <h4>HTML</h4>
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -8938,6 +8942,7 @@ font-size:1.2rem;
   </body>
 </html>
 ```
+
 <h3>4.4.3 Cloud images</h3>
 
 We're working on a Web page about clouds in
@@ -8956,6 +8961,7 @@ the pictures but the result is unwieldy:
 </p>
 
 <h4>HTML</h4>
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -8982,7 +8988,7 @@ storm, but to add color to my sunset sky.”
 <p>Among the many types of clouds are:</p>
 <ol>
 <li id="cumulus">Cumulus clouds: <img alt="Cumulus Clouds"
-src="https://www.weather.gov/images/jetstream/clouds/cu.jpg"\></li>
+src="https://www.weather.gov/images/jetstream/clouds/cu.jpg"></li>
 <li id="cirrus">Cirrus clouds: <img alt="Cirrus clouds"
 src="https://www.weather.gov/images/jetstream/clouds/ci.jpg"></li>
 <li id="stratus">Stratus clouds: <img alt="Stratus clouds"
@@ -8991,15 +8997,18 @@ src="https://www.weather.gov/images/jetstreamclouds/st.jpg"></li>
 </body>
 </html>
 ```
+
 When you see the pictures, the text is so small it's unreadable. 
 Clearly we have a solution for this.  We can just specify the width of
-\<img\> elements.  We can use the debugger to try different sizes,
+<img> elements.  We can use the debugger to try different sizes,
 modifying it in the "Styles" panel and we decide on this:
+
 ```
 img {
    width: 10rem;
 }
 ```
+
 Giving a much more reasonable page:
 
 <!------------------------------------------------------------------------------------------------>
@@ -9012,12 +9021,15 @@ Giving a much more reasonable page:
 </p>
 
 <h4>CSS</h4>
+
 ```
 img {
 width: 10rem;
 }
 ```
+
 <h4>HTML</h4>
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -9030,7 +9042,7 @@ width: 10rem;
 <img alt="Clouds (Undulatus asperatus) above Tallinn - Author: Ave
 Maria Mõistlik" width="500"
 src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Beautiful_clouds.JPG/1600px-Beautiful_clouds.JPG">
-<blockquote\>
+<blockquote>
 <hr>
 “Clouds come floating into my life, no longer to carry rain or usher
 storm, but to add color to my sunset sky.”
@@ -9049,19 +9061,21 @@ src="https://www.weather.gov/images/jetstream/clouds/st.jpg"></li>
 </body>
 </html>
 ```
+
 So far so good, but we want our top image to be a bit bigger without
-changing the other images.  Recall  that an \<img\> tag
+changing the other images.  Recall  that an <img> tag
 includes a width attribute, so we can special case this image
 accordingly in the HTML code:
 ```
 <img alt="Clouds" width=500 src="images/clouds.jpg">
+
 ```
 We look at our page again, and it hasn't changed!  Time to try the
 debugger again.
 
 <h4>Debugging image size</h4>
 
-We open up the debugger and choose the \<img\> tag corresponding to our
+We open up the debugger and choose the <img> tag corresponding to our
 first picture, then we see this in the Styles section:
 
 <!------------------------------------------------------------------------------------------------>
@@ -9087,6 +9101,7 @@ special case the smaller pictures, and use a larger width by default.
 list elements, otherwise they should be bigger.  So we can change our
 code like this:
 ```
+
 img {
    width: 25rem;
 }
@@ -9094,6 +9109,7 @@ li img {
    width: 10rem;
 }
 ```
+
 <h4>That looks better:</h4>
 
 <!------------------------------------------------------------------------------------------------>
@@ -9106,6 +9122,7 @@ li img {
 </p>
 
 <h4>CSS</h4>
+
 ```
 img {
 width: 25rem;
@@ -9114,7 +9131,9 @@ li img {
 width: 10rem;
 }
 ```
+
 <h5>HTML</h5>
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -9123,7 +9142,7 @@ width: 10rem;
 <title>Cloud images</title>
 </head>
 <body>
-<h1>Clouds\</h1>
+<h1>Clouds</h1>
 <img alt="Clouds (Undulatus asperatus) above Tallinn - Author: Ave
   Maria Mõistlik" width="500" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Beautiful_clouds.JPG/1600px-Beautiful_clouds.JPG" />
 <blockquote>
@@ -9166,6 +9185,7 @@ this:
 </p>
 
 <h5>CSS</h5>
+
 ```
    section {
    font-size: 24px;
@@ -9174,7 +9194,9 @@ this:
    font-size: .5em;
   }
 ```
+
 <h5>HTML</h5>
+
 ```
    <!DOCTYPE html>
    <html lang="en">
@@ -9199,8 +9221,10 @@ this:
     </ol>
     </li>
 ```
+
 As with the cloud pictures, we want the listed items a bit smaller than
 the regular text, so we add this styling:
+
 ```
    1.  section {
    2.    font-size: 24px;
@@ -9212,6 +9236,7 @@ the regular text, so we add this styling:
    8.    font-size: 0.5em;
    9.  }
 ```
+
 The outermost level is fine, the next level is almost readable but the
 innermost level is ridiculously small.  Let's check what's wrong in the
 debugger.
@@ -9222,7 +9247,7 @@ Looking into the style settings in the chrome browser debugger, at first
 glance we don't see anything unusual.  The font-size is .5em as
 expected.  One odd thing is that below the user agent stylesheet panels
 is the over-ridden font-size setting identical to the current one, i.e.
-.5em on \<li\> elements.
+.5em on <li> elements.
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 80. debugging font-size (###) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
@@ -9270,7 +9295,7 @@ several repetitions of the li .5em.
 
 If we look at the next outer list item, we see that the font-size is
 6px, and the one outside of that is 12px.  This doubling makes it clear
-what's happening.  Each nested \<li\> element has a font-size 1/2 the
+what's happening.  Each nested <li> element has a font-size 1/2 the
 size of its parent, because the em unit is relative measurement,
 depending on the current font-size.
 
@@ -9337,7 +9362,7 @@ article{
 margin-left: 40px;
 }
 h1{
-background: \#4c6d48;
+background: #4c6d48;
 text-align:center;
 margin:0px;
 }
@@ -9362,7 +9387,7 @@ margin: 0px;
 <h2>Soup</h2>
 <img
 src="https://upload.wikimedia.org/wikipedia/commons/2/22/Bol_soupe_bicolore.jpg"
-alt="soup image" width="320"\>
+alt="soup image" width="320">
 <p>
 Beethoven once said <q>Only the pure of heart can make a good
 soup</q>. Well, here's my attempt at doing just that!
@@ -9428,6 +9453,7 @@ the CodePen below:
 style="width:4.96875in;height:2.73958in" />
 
 <h5>CSS</h5>
+
 ```
 nav {
 background: aliceblue;
@@ -9445,6 +9471,7 @@ background: blue;
 color: white;
 }
 ```
+
 <h5>HTML</h5>
 
 ```
@@ -9520,7 +9547,7 @@ Who can resist a fresh salad ! Here's one of my favorites.
 <h2>Pizza</h2>
 <img
 src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Margherita_Originale.JPG/320px-Margherita_Originale.JPG"
-alt="pizza image" width=320\>
+alt="pizza image" width=320>
 <p>
 Pizza, the king of comfort foods. Try this simple, taste sensation.
 </p>
@@ -9636,12 +9663,12 @@ section:
 
 | Type          | Element                         |
 |---------------|---------------------------------|
-|               | \<table\>                       |
-|               | \<caption\>                     |
-| Row groups    | \<thead\>, \<tfoot\>, \<tbody\> |
-| Column groups | \<colgroup\>, \<col\>           |
-| Table row     | \<tr\>                          |
-| Table cells   | \<th\>, \<td\>                  |
+|               | <table>                       |
+|               | <caption>                     |
+| Row groups    | <thead>, <tfoot>, <tbody> |
+| Column groups | <colgroup>, <col>           |
+| Table row     | <tr>                          |
+| Table cells   | <th>, <td>                  |
 
 We will use these elements to build our table as we go.
 
@@ -9674,10 +9701,11 @@ that instead. 
 <h4>&lt;caption&gt;</h4>
 
 It is used to give a title to the table and should be used as the first
-child element of \<table\>. It can be used to provide more context to
+child element of <table>. It can be used to provide more context to
 the table if its content is ambiguous. As a summary of the table
 content, a caption can also be helpful for people who have difficulty
 understanding the content or use assistive technology.
+
 ```
 1.  <table border=1>
 2.    <caption>
@@ -9686,6 +9714,7 @@ understanding the content or use assistive technology.
 5.    </caption>
 6.  </table>
 ```
+
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 86.  (###) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -9725,7 +9754,7 @@ Creates a table row.
 ```
 
 There are two types of cells in a table - header and
-standard. \<th\> creates table header cells. The content of table header
+standard. <th> creates table header cells. The content of table header
 cells is bold and centered by default.
 
 ```
@@ -9797,7 +9826,7 @@ regular and left-aligned by default.
 <img src="./images/image089.png"
 style="width:6.5in;height:3.23611in" />
 
-Now, let's have a look at the \<colgroup\> and \<col\> tags
+Now, let's have a look at the <colgroup> and <col> tags
 
 <h4>&lt;colgroup&gt;</h4>
 
@@ -9816,9 +9845,9 @@ cell.
 
 <h4>&lt;col&gt;</h4>
 
-Used within \<colgroup\>, the \<col\> tag specifies the column property
-for each column within a colgroup. The only element a \<colgroup\> can
-contain is \<col\>. 
+Used within <colgroup>, the <col> tag specifies the column property
+for each column within a colgroup. The only element a <colgroup> can
+contain is <col>. 
 
 <h4>Attribute:</h4>
 <ul>
@@ -9826,9 +9855,9 @@ contain is \<col\>. 
     columns you want the col element to span (cover).</li>
 </ul>
 
-Consider the table above we created using \<tr\>, \<th\> and \<td\>.
+Consider the table above we created using <tr>, <th> and <td>.
 Let's say I want the 'name' column to be in green and the 'age' column
-to be orange. You need to use the \<colgroup\> and \<col\> tags to
+to be orange. You need to use the <colgroup> and <col> tags to
 achieve styling effects specific to a column. 
 
 ```
@@ -9864,7 +9893,7 @@ style="width:4in;height:2.53782in" />
 
 Similar to an HTML document, a table in HTML can be split into header,
 body and footer. We use these three tags
-- \<thead\>, \<tbody\> and \<tfoot\> - to specify parts of a table.
+- <thead>, <tbody> and <tfoot> - to specify parts of a table.
 
 It is very useful to define parts of a table as header, body and footer
 because once browsers are able to identify which cells are header and
@@ -9877,12 +9906,12 @@ individually using CSS. 
 
 <h4>&lt;thead&gt;</h4>
 
-Just like how we use \<colgroup\> to group columns, \<thead\> is used to
+Just like how we use <colgroup> to group columns, <thead> is used to
 group the header content in a HTML table. 
 
 As we learned in the previous unit, header cells are specified
-using \<th\> as a child of \<tr\>. Rows specified
-within \<thead\> indicate that they are header rows. See the code below:
+using <th> as a child of <tr>. Rows specified
+within <thead> indicate that they are header rows. See the code below:
 
 ```xml
   <thead style="color:white">
@@ -9895,14 +9924,14 @@ within \<thead\> indicate that they are header rows. See the code below:
 
 <h4>&lt;tbody&gt;</h4>
 
-Following \<thead\>, subsequent rows are considered body rows in a
-table. Regular cells are specified using \<td\> as a child of \<tr\>:
+Following <thead>, subsequent rows are considered body rows in a
+table. Regular cells are specified using <td> as a child of <tr>:
 
 ```xml
   <tbody>
     <tr>
-      <td>Alexa\</td>
-      <td>23\</td>
+      <td>Alexa</td>
+      <td>23</td>
     </tr>
     <tr>
       <td>James</td>
@@ -9910,14 +9939,14 @@ table. Regular cells are specified using \<td\> as a child of \<tr\>:
     </tr>
    <tr>
      <td>Trisha</td>
-     <td>23\</td>
+     <td>23</td>
    </tr>
  </tbody>
 ```
 
 <h4>&lt;tfoot&gt;</h4>
 
-The footer is the last to be specified and rows within \<tfoot\> are
+The footer is the last to be specified and rows within <tfoot> are
 considered footer rows at the end of a table:
 
 ```xml
@@ -10002,7 +10031,7 @@ sets border-width, border-style and border-color in order: 
 <img src="./images/image092.png"
 style="width:6.5in;height:1.67986in" />
 
-To give a border to \<table\>, \<th\> and \<td\>:
+To give a border to <table>, <th> and <td>:
 
 1.  table, th, td { border: 1px solid black; }
 
@@ -10013,6 +10042,7 @@ To give a border to \<table\>, \<th\> and \<td\>:
 style="width:4in;height:2.4958in" />
 
 <h4>CSS</h4>
+
 ```
 table.eg1, th.eg1, td.eg1 { border: 1px solid black; }
 table.eg2, th.eg2, td.eg2 { border: thin dashed black; }
@@ -10020,6 +10050,7 @@ table.eg3, th.eg3, td.eg3 { border: initial; }
 ```
 
 <h4>HTML</h4>
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -10038,7 +10069,7 @@ class="eg1">21</td></tr>
 <br>
 <table class="eg2">
 <tr><th class="eg2">Names</th><th class="eg2">Age</th></tr>
-<tr><td class="eg2">Michael</td\><td
+<tr><td class="eg2">Michael</td><td
 class="eg2">21</td></tr>
 </table>
 <br>
@@ -10128,7 +10159,7 @@ Width and height can be specified in:
 It also supports initial (sets property to default value) and inherit
 (from parent element). 
 
-width/height of \<td\> of one cell will not only affect that cell but
+width/height of <td> of one cell will not only affect that cell but
 the whole column/row. If two cells in one column/row have different
 widths/heights specified, the larger value is set.
 
@@ -10138,8 +10169,9 @@ widths/heights specified, the larger value is set.
 <img src="./images/image095.png"
 style="width:4in;height:4.33613in" />
 
-### CSS
+<h4>CSS</h4>
 
+```
 table, th, td
 {
 border: 1px solid black;
@@ -10162,105 +10194,75 @@ width: 100%;
 <h4>HTML</h4>
 
 ```
-\<!DOCTYPE html\>
-\<html lang="en"\>
-\<head\>
-
-\<meta charset="UTF-8"\>
-
-\<title\>Styling your table\</title\>
-
-\</head\>
-
-\<body\>
-
-\<p\>The width of the first whole column is decided by the width of the
-cell with most content:\</p\>
-
-\<table\>
-
-\<tr\>\<th\>Names\</th\>\<th\>Profession\</th\>\</tr\>
-
-\<tr\>\<td\>Michael Fernandez\</td\>\<td\>Doctor\</td\>\</tr\>
-
-\<tr\>\<td\>Amy Frank\</td\>\<td \>Computer Engineer\</td\>\</tr\>
-
-\</table\>
-
-\<p\>Specifying the width for one cell will affect the whole column.
-Width is set in percentage relative to the whole table:\</p\>
-
-\<table\>
-
-\<tr\>\<th class="eg1"\>Names\</th\>\<th\>Profession\</th\>\</tr\>
-
-\<tr\>\<td\>Michael Fernandez\</td\>\<td\>Doctor\</td\>\</tr\>
-
-\<tr\>\<td\>Amy Frank\</td\>\<td \>Computer Engineer\</td\>\</tr\>
-
-\</table\>
-
-\<p\>Specifying the height for one cell will affect the whole row.
-Height is set in fixed pixels:\</p\>
-
-\<table\>
-
-\<tr\>\<th class="eg2"\>Names\</th\>\<th\>Profession\</th\>\</tr\>
-
-\<tr\>\<td\>Michael Fernandez\</td\>\<td\>Doctor\</td\>\</tr\>
-
-\<tr\>\<td\>Amy Frank\</td\>\<td \>Computer Engineer\</td\>\</tr\>
-
-\</table\>
-
-\<p\>Specifying 100% for table width will occupy the whole width of the
-parent element:\</p\>
-
-\<table class="eg3"\>
-
-\<tr\>\<th\>Names\</th\>\<th\>Profession\</th\>\</tr\>
-
-\<tr\>\<td\>Michael Fernandez\</td\>\<td\>Doctor\</td\>\</tr\>
-
-\<tr\>\<td\>Amy Frank\</td\>\<td \>Computer Engineer\</td\>\</tr\>
-
-\</table\>
-
-\</body\>
-
-\</html\>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Styling your table</title>
+</head>
+<body>
+<p>The width of the first whole column is decided by the width of the
+cell with most content:</p>
+<table>
+<tr><th>Names</th><th>Profession</th></tr>
+<tr><td>Michael Fernandez</td><td>Doctor</td></tr>
+<tr><td>Amy Frank</td><td >Computer Engineer</td></tr>
+</table>
+<p>Specifying the width for one cell will affect the whole column.
+Width is set in percentage relative to the whole table:</p>
+<table>
+<tr><th class="eg1">Names</th><th>Profession</th></tr>
+<tr><td>Michael Fernandez</td><td>Doctor</td></tr>
+<tr><td>Amy Frank</td><td >Computer Engineer</td></tr>
+</table>
+<p>Specifying the height for one cell will affect the whole row.
+Height is set in fixed pixels:</p>
+<table>
+<tr><th class="eg2">Names</th><th>Profession</th></tr>
+<tr><td>Michael Fernandez</td><td>Doctor</td></tr>
+<tr><td>Amy Frank</td><td >Computer Engineer</td></tr>
+</table>
+<p>Specifying 100% for table width will occupy the whole width of the
+parent element:</p>
+<table class="eg3">
+<tr><th>Names</th><th>Profession</th></tr>
+<tr><td>Michael Fernandez</td><td>Doctor</td></tr>
+<tr><td>Amy Frank</td><td >Computer Engineer</td></tr>
+</table>
+</body>
+</html>
 ```
 
 ### text-align
 
-This property is used to align the text of \<th\> and \<td\> cells left,
+This property is used to align the text of <th> and <td> cells left,
 right or center (week 3 recap). 
 
 Default:
 
--   \<th\> - center
+-   <th> - center
 
--   \<td\> - left
+-   <td> - left
 
 1.  td { text-align: right;}
 
 ### vertical-align
 
-This property is used to align the text of \<th\> and \<td\> cells top,
+This property is used to align the text of <th> and <td> cells top,
 bottom or middle.
 
 Default:
 
--   \<th\> - middle
+-   <th> - middle
 
--   \<td\> - middle
+-   <td> - middle
 
 1.  th { vertical-align: top; }
 
 ### padding
 
 Right now our table looks quite cramped. We use the padding property
-on \<th\> and \<td\> to provide some space between border and content in
+on <th> and <td> to provide some space between border and content in
 cell. It takes its value in units of length like px, cm, % - relative to
 parent container's width, etc. 
 
@@ -10271,13 +10273,13 @@ This will add 15px space around the content on all sides. 
 You can also apply different padding styles for four individual sides by
 using:
 
--   padding-top \| th, td { padding-top: 15px; }
+-   padding-top | th, td { padding-top: 15px; }
 
--   padding-right \| th, td { padding-right: 25px; }
+-   padding-right | th, td { padding-right: 25px; }
 
--   padding-bottom \| th, td { padding-bottom: 35px; }
+-   padding-bottom | th, td { padding-bottom: 35px; }
 
--   padding-left \| th, td { padding-left: 45px; }
+-   padding-left | th, td { padding-left: 45px; }
 
 Alternatively, padding can also be provided as a shorthand property
 where you can specify all four sides in one go:
@@ -10304,18 +10306,18 @@ th, td { padding: 20px; }
 
 ```
 <!DOCTYPE html>
-> \<html lang="en"\>
-> \<head\>
-> \<meta charset="UTF-8"\>
-> \<title\>Styling your table\</title\>
-> \</head\>
-> \<body\>
-> \<table\>
-> \<tr\>\<th\>Names\</th\>\<th\>Age\</th\>\</tr\>
-<tr><td>Michael</td><td>21\</td\>\</tr\>
-</table\>
-</body\>
-</html\>
+> <html lang="en">
+> <head>
+> <meta charset="UTF-8">
+> <title>Styling your table</title>
+> </head>
+> <body>
+> <table>
+> <tr><th>Names</th><th>Age</th></tr>
+<tr><td>Michael</td><td>21</td></tr>
+</table>
+</body>
+</html>
 ```
 
 ### border-spacing
@@ -10336,7 +10338,7 @@ value is provided, it is used for both horizontal and vertical spacing: 
 
 Some things to keep in mind:
 
--   If you try to provide spacing for only \<th\> and \<td\>, make sure
+-   If you try to provide spacing for only <th> and <td>, make sure
     there is space from the table border or you will not see a
     difference. 
 
@@ -10350,6 +10352,7 @@ Some things to keep in mind:
 style="width:4in;height:2.52101in" />
 
 <h4>CSS</h4>
+
 ```
 > table, th, td { border: 1px solid black; }
 >
@@ -10363,58 +10366,59 @@ style="width:4in;height:2.52101in" />
 ```
 <h4>HTML</h4>
 ```
-> \<!DOCTYPE html\>
+> <!DOCTYPE html>
 >
-> \<html lang="en"\>
+> <html lang="en">
 >
-> \<head\>
+> <head>
 >
-> \<meta charset="UTF-8"\>
+> <meta charset="UTF-8">
 >
-> \<title\>Styling your table\</title\>
+> <title>Styling your table</title>
 >
-> \</head\>
+> </head>
 >
-> \<body\>
+> <body>
 >
-> \<table class="eg1"\>
+> <table class="eg1">
 >
-> \<tr\>\<th class="eg1"\>Names\</th\>\<th
-> class="eg1"\>Age\</th\>\</tr\>
+> <tr><th class="eg1">Names</th><th
+> class="eg1">Age</th></tr>
 >
-> \<tr\>\<td class="eg1"\>Michael\</td\>\<td
-> class="eg1"\>21\</td\>\</tr\>
+> <tr><td class="eg1">Michael</td><td
+> class="eg1">21</td></tr>
 >
-> \</table\>
+> </table>
 >
-> \<br\>
+> <br>
 >
-> \<table class="eg2"\>
+> <table class="eg2">
 >
-> \<tr\>\<th class="eg2"\>Names\</th\>\<th
-> class="eg2"\>Age\</th\>\</tr\>
+> <tr><th class="eg2">Names</th><th
+> class="eg2">Age</th></tr>
 >
-> \<tr\>\<td class="eg2"\>Michael\</td\>\<td
-> class="eg2"\>21\</td\>\</tr\>
+> <tr><td class="eg2">Michael</td><td
+> class="eg2">21</td></tr>
 >
-> \</table\>
+> </table>
 >
-> \<br\>
+> <br>
 >
-> \<table class="eg3"\>
+> <table class="eg3">
 >
-> \<tr\>\<th class="eg3"\>Names\</th\>\<th
-> class="eg3"\>Age\</th\>\</tr\>
+> <tr><th class="eg3">Names</th><th
+> class="eg3">Age</th></tr>
 >
-> \<tr\>\<td class="eg3"\>Michael\</td\>\<td
-> class="eg3"\>21\</td\>\</tr\>
+> <tr><td class="eg3">Michael</td><td
+> class="eg3">21</td></tr>
 >
-> \</table\>
+> </table>
 >
-> \</body\>
+> </body>
 >
-> \</html\>
+> </html>
 ```
+
 <h4>Side-borders</h4>
 
 The first property border will set a border to all four sides. You can
@@ -10440,51 +10444,51 @@ style="width:4in;height:2.52101in" />
 
 <h4>HTML</h4>
 
-> \<!DOCTYPE html\>
+> <!DOCTYPE html>
 >
-> \<html lang="en"\>
+> <html lang="en">
 >
-> \<head\>
+> <head>
 >
-> \<meta charset="UTF-8"\>
+> <meta charset="UTF-8">
 >
-> \<title\>Styling your table\</title\>
+> <title>Styling your table</title>
 >
-> \</head\>
+> </head>
 >
-> \<body\>
+> <body>
 >
-> \<table class="eg1"\>
+> <table class="eg1">
 >
-> \<tr\>\<th class="eg1"\>Names\</th\>\<th class="eg1"\>Age\</th\>\<th
-> class="eg1"\>Gender\</th\>\</tr\>
+> <tr><th class="eg1">Names</th><th class="eg1">Age</th><th
+> class="eg1">Gender</th></tr>
 >
-> \<tr\>\<td class="eg1"\>Michael\</td\>\<td class="eg1"\>21\</td\>\<td
-> class="eg1"\>Male\</td\>\</tr\>
+> <tr><td class="eg1">Michael</td><td class="eg1">21</td><td
+> class="eg1">Male</td></tr>
 >
-> \<tr\>\<td class="eg1"\>Amy\</td\>\<td class="eg1"\>37\</td\>\<td
-> class="eg1"\>Female\</td\>\</tr\>
+> <tr><td class="eg1">Amy</td><td class="eg1">37</td><td
+> class="eg1">Female</td></tr>
 >
-> \</table\>
+> </table>
 >
-> \<br\>
+> <br>
 >
-> \<table class="eg2"\>
+> <table class="eg2">
 >
-> \<tr\>\<th class="eg2"\>Names\</th\>\<th class="eg2"\>Age\</th\>\<th
-> class="eg2"\>Gender\</th\>\</tr\>
+> <tr><th class="eg2">Names</th><th class="eg2">Age</th><th
+> class="eg2">Gender</th></tr>
 >
-> \<tr\>\<td class="eg2"\>Michael\</td\>\<td class="eg2"\>21\</td\>\<td
-> class="eg2"\>Male\</td\>\</tr\>
+> <tr><td class="eg2">Michael</td><td class="eg2">21</td><td
+> class="eg2">Male</td></tr>
 >
-> \<tr\>\<td class="eg2"\>Amy\</td\>\<td class="eg2"\>37\</td\>\<td
-> class="eg2"\>Female\</td\>\</tr\>
+> <tr><td class="eg2">Amy</td><td class="eg2">37</td><td
+> class="eg2">Female</td></tr>
 >
-> \</table\>
+> </table>
 >
-> \</body\>
+> </body>
 >
-> \</html\>
+> </html>
 
 ### zebra table
 
@@ -10520,102 +10524,102 @@ style="width:4in;height:4.52101in" />
 
 3.  
 
-4.  table.eg1 tr:nth-child(even) { background-color: \#ccff99; }
+4.  table.eg1 tr:nth-child(even) { background-color: #ccff99; }
 
 5.  
 
-6.  table.eg2 tr:nth-child(odd) { background-color: \#ccff99; }
+6.  table.eg2 tr:nth-child(odd) { background-color: #ccff99; }
 
 7.  
 
-8.  table.eg3 tr:nth-child(3n) { background-color: \#ccff99; }
+8.  table.eg3 tr:nth-child(3n) { background-color: #ccff99; }
 
 ### HTML
 
-1.  \<!DOCTYPE html\>
+1.  <!DOCTYPE html>
 
-2.  \<html lang="en"\>
+2.  <html lang="en">
 
 3.  
 
-4.  \<head\>
+4.  <head>
 
-5.  \<meta charset="UTF-8"\>
+5.  <meta charset="UTF-8">
 
-6.  \<title\>Styling your table\</title\>
+6.  <title>Styling your table</title>
 
-7.  \</head\>
+7.  </head>
 
-8.  \<body\>
+8.  <body>
 
-9.  \<table class="eg1"\>
+9.  <table class="eg1">
 
-10. \<tr\>\<th class="eg1"\>Name\</th\>\<th class="eg1"\>Age\</th\>\<th
-    class="eg1"\>Gender\</th\>\</tr\>
+10. <tr><th class="eg1">Name</th><th class="eg1">Age</th><th
+    class="eg1">Gender</th></tr>
 
-11. \<tr\>\<td class="eg1"\>Michael\</td\>\<td
-    class="eg1"\>21\</td\>\<td class="eg1"\>Male\</td\>\</tr\>
+11. <tr><td class="eg1">Michael</td><td
+    class="eg1">21</td><td class="eg1">Male</td></tr>
 
-12. \<tr\>\<td class="eg1"\>Amy\</td\>\<td class="eg1"\>37\</td\>\<td
-    class="eg1"\>Female\</td\>\</tr\>
+12. <tr><td class="eg1">Amy</td><td class="eg1">37</td><td
+    class="eg1">Female</td></tr>
 
-13. \<tr\>\<td class="eg1"\>Mark\</td\>\<td class="eg1"\>32\</td\>\<td
-    class="eg1"\>Male\</td\>\</tr\>
+13. <tr><td class="eg1">Mark</td><td class="eg1">32</td><td
+    class="eg1">Male</td></tr>
 
-14. \</table\>
+14. </table>
 
-15. \<br\>\<br\>
+15. <br><br>
 
-16. \<table class="eg2"\>
+16. <table class="eg2">
 
-17. \<tr\>\<th class="eg2"\>Name\</th\>\<th class="eg2"\>Age\</th\>\<th
-    class="eg2"\>Gender\</th\>\</tr\>
+17. <tr><th class="eg2">Name</th><th class="eg2">Age</th><th
+    class="eg2">Gender</th></tr>
 
-18. \<tr\>\<td class="eg2"\>Michael\</td\>\<td
-    class="eg2"\>21\</td\>\<td class="eg2"\>Male\</td\>\</tr\>
+18. <tr><td class="eg2">Michael</td><td
+    class="eg2">21</td><td class="eg2">Male</td></tr>
 
-19. \<tr\>\<td class="eg2"\>Amy\</td\>\<td class="eg2"\>37\</td\>\<td
-    class="eg2"\>Female\</td\>\</tr\>
+19. <tr><td class="eg2">Amy</td><td class="eg2">37</td><td
+    class="eg2">Female</td></tr>
 
-20. \<tr\>\<td class="eg2"\>Mark\</td\>\<td class="eg2"\>32\</td\>\<td
-    class="eg2"\>Male\</td\>\</tr\>
+20. <tr><td class="eg2">Mark</td><td class="eg2">32</td><td
+    class="eg2">Male</td></tr>
 
-21. \</table\>
+21. </table>
 
-22. \<br\>\<br\>
+22. <br><br>
 
-23. \<table class="eg3"\>
+23. <table class="eg3">
 
-24. \<tr\>\<th class="eg3"\>Name\</th\>\<th class="eg3"\>Age\</th\>\<th
-    class="eg3"\>Gender\</th\>\</tr\>
+24. <tr><th class="eg3">Name</th><th class="eg3">Age</th><th
+    class="eg3">Gender</th></tr>
 
-25. \<tr\>\<td class="eg3"\>Michael\</td\>\<td
-    class="eg3"\>21\</td\>\<td class="eg3"\>Male\</td\>\</tr\>
+25. <tr><td class="eg3">Michael</td><td
+    class="eg3">21</td><td class="eg3">Male</td></tr>
 
-26. \<tr\>\<td class="eg3"\>Sarah\</td\>\<td class="eg3"\>37\</td\>\<td
-    class="eg3"\>Female\</td\>\</tr\>
+26. <tr><td class="eg3">Sarah</td><td class="eg3">37</td><td
+    class="eg3">Female</td></tr>
 
-27. \<tr\>\<td class="eg3"\>Mark\</td\>\<td class="eg3"\>32\</td\>\<td
-    class="eg3"\>Male\</td\>\</tr\>
+27. <tr><td class="eg3">Mark</td><td class="eg3">32</td><td
+    class="eg3">Male</td></tr>
 
-28. \<tr\>\<td class="eg3"\>Paul\</td\>\<td class="eg3"\>25\</td\>\<td
-    class="eg3"\>Male\</td\>\</tr\>
+28. <tr><td class="eg3">Paul</td><td class="eg3">25</td><td
+    class="eg3">Male</td></tr>
 
-29. \<tr\>\<td class="eg3"\>Jack\</td\>\<td class="eg3"\>26\</td\>\<td
-    class="eg3"\>Male\</td\>\</tr\>
+29. <tr><td class="eg3">Jack</td><td class="eg3">26</td><td
+    class="eg3">Male</td></tr>
 
-30. \<tr\>\<td class="eg3"\>Juliet\</td\>\<td class="eg3"\>55\</td\>\<td
-    class="eg3"\>Female\</td\>\</tr\>
+30. <tr><td class="eg3">Juliet</td><td class="eg3">55</td><td
+    class="eg3">Female</td></tr>
 
-31. \</table\>
+31. </table>
 
-32. \</body\>
+32. </body>
 
-33. \</html\>
+33. </html>
 
 ### hover to highlight
 
-Using the hover property on your \<tr\>, you can mouse over rows in your
+Using the hover property on your <tr>, you can mouse over rows in your
 table to highlight them in the color you specify. This is useful to help
 users differentiate data between rows. 
 
@@ -10630,44 +10634,46 @@ users differentiate data between rows. 
 style="width:4in;height:3.80672in" />
 
 <h4>CSS</h4>
+
 ```
 1.  table { border-collapse: collapse; }
 2.  table, th, td { padding: 15px; border-bottom: 1px solid black; }
 3.  
-4.  table.eg1 tr:hover { background-color: \#ccff99; }
+4.  table.eg1 tr:hover { background-color: #ccff99; }
 5.  
 6.  table.eg2 tr:hover { background-color: grey; }
 ```
 
 <h5>HTML</h5>
+
 ```
-1.  <!DOCTYPE html\>
-2.  <html lang="en"\>
+1.  <!DOCTYPE html>
+2.  <html lang="en">
 3.  
-4.  <head\>
-5.  <meta charset="UTF-8"\>
-6.  <title\>Styling your table\</title\>
-7.  </head\>
-8.  <body\>
-9.  <table class="eg1"\>
-10. <tr\><th class="eg1"\>Name\</th\>\<th class="eg1"\>Age\</th\>\<th
-    lass="eg1">Gender\</th\>\</tr\>
-11. <tr\><td class="eg1"\>Michael\</td\>\<td
-    class="eg1">21\</td\>\<td class="eg1"\>Male\</td\>\</tr\>
-12. <tr\><td class="eg1"\>Amy\</td\>\<td class="eg1"\>37\</td\>\<td
-    class="eg1">Female\</td\>\</tr\>
-13. <tr\><td class="eg1"\>Mark\</td\>\<td class="eg1"\>32\</td\>\<td
-    class="eg1">Male\</td\>\</tr\>
+4.  <head>
+5.  <meta charset="UTF-8">
+6.  <title>Styling your table</title>
+7.  </head>
+8.  <body>
+9.  <table class="eg1">
+10. <tr><th class="eg1">Name</th><th class="eg1">Age</th><th
+    lass="eg1">Gender</th></tr>
+11. <tr><td class="eg1">Michael</td><td
+    class="eg1">21</td><td class="eg1">Male</td></tr>
+12. <tr><td class="eg1">Amy</td><td class="eg1">37</td><td
+    class="eg1">Female</td></tr>
+13. <tr><td class="eg1">Mark</td><td class="eg1">32</td><td
+    class="eg1">Male</td></tr>
 14. </table>
 15. <br><br>
 16. <table class="eg2">
-17. <tr><th class="eg2"\>Name</th\>\<th class="eg2"\>Age\</th\>\<th
-    class="eg2"\>Gender\</th\></tr\>
-18. <tr><td class="eg2"\>Michael</td\>\<td
-    class="eg2"\>21\</td\><td class="eg2"\>Male\</td\>\</tr\>
-19. <tr><td class="eg2"\>Amy</td\>\<td class="eg2"\>37\</td\>\<td
-    class="eg2"\>Female\</td>\</tr\>
-20. <tr><td class="eg2"\>Mark</td\>\<td class="eg2"\>32\</td\>\<td
+17. <tr><th class="eg2">Name</th><th class="eg2">Age</th><th
+    class="eg2">Gender</th></tr>
+18. <tr><td class="eg2">Michael</td><td
+    class="eg2">21</td><td class="eg2">Male</td></tr>
+19. <tr><td class="eg2">Amy</td><td class="eg2">37</td><td
+    class="eg2">Female</td></tr>
+20. <tr><td class="eg2">Mark</td><td class="eg2">32</td><td
     class="eg2">Male</td></tr>
 21. </table>
 22. </body>
@@ -10677,7 +10683,7 @@ style="width:4in;height:3.80672in" />
 <h4>overflow</h4>
 
 With padding, additional columns and rows, your table can easily grow
-rather big overflowing out of the \<div\> you had planned for your table
+rather big overflowing out of the <div> you had planned for your table
 in your Web page. You can use the CSS overflow property to resolve this.
 It has four values other than initial (sets the default value) and
 inherit (from parent element). 
@@ -10704,6 +10710,7 @@ to address top and bottom edges of content, you can use overflow-y.
 style="width:4in;height:2.5126in" />
 
 <h5>CSS</h5>
+
 ```
 1.  table { border-collapse: collapse; }
 2.  div { height: 200px; width: 200px; border: 1px solid blue; }
@@ -10716,6 +10723,7 @@ style="width:4in;height:2.5126in" />
 ```
 
 <h5>HTML</h5>
+
 ```
 1.  <!DOCTYPE html>
 2.  <html lang="en">
@@ -10751,7 +10759,7 @@ style="width:4in;height:2.5126in" />
 31. </table>
 32. </div>
 33. <br><br>
-34. <h4>Overflow-scroll\</h4>
+34. <h4>Overflow-scroll</h4>
 35. <div class="overflow-scroll">
 36. <table>
 37. <tr>
@@ -10767,10 +10775,10 @@ style="width:4in;height:2.5126in" />
 47. <td>Fitness Trainer</td>
 48. </tr>
 49. <tr>
-50. <td>Mike\</td>
-51. <td>52\</td>
-52. <td>Male\</td>
-53. <td>Engineer\</td>
+50. <td>Mike</td>
+51. <td>52</td>
+52. <td>Male</td>
+53. <td>Engineer</td>
 54. </tr>
 55. </table>
 56. </div>
@@ -10834,10 +10842,11 @@ As a conclusion to this tables section, here is a complete table design:
 style="width:4in;height:4.52941in" />
 
 <h5>CSS</h5>
+
 ```
 1.  table, th, td {
 2.  padding: 30px;
-3.  border: 1px solid \#DCDCDC;
+3.  border: 1px solid #DCDCDC;
 4.  text-align: center;
 5.  }
 6.  
@@ -10848,30 +10857,31 @@ style="width:4in;height:4.52941in" />
 11. }
 12. 
 13. tr:hover {
-14. background-color: \#e6e6e6;
+14. background-color: #e6e6e6;
 15. }
 16. 
 17. tr.main-heading {
 18. line-height: 10%;
-19. background-color: \#32B2B2;
+19. background-color: #32B2B2;
 20. color: white;
 21. }
 22. 
 23. tr.sub-heading {
 24. line-height: 150%;
-25. background-color: \#149494;
+25. background-color: #149494;
 26. color: white;
 27. }
 28. 
 29. tr.buy-now-footer {
 30. line-height: 150%;
-31. background-color: \#149494;
+31. background-color: #149494;
 32. font-weight: bold;
 33. font-size: 20px;
 34. }
 ```
 
 <h5>HTML</h5>
+
 ```
 1.  <!DOCTYPE html>
 2.  <html lang="en">
@@ -10907,7 +10917,7 @@ style="width:4in;height:4.52941in" />
 32. <td headers="mh-co1 sh-co1">5 channels</td>
 33. <td headers="mh-co2 sh-co2">32 channels</td>
 34. <td headers="mh-co3 sh-co3">Booster Pack - 152 channels</td>
-35. <td headers="mh-co4 sh-co4">Unlimited\</td>
+35. <td headers="mh-co4 sh-co4">Unlimited</td>
 36. </tr>
 37. <tr>
 38. <td headers="mh-co1 sh-co1">-</td>
@@ -11338,7 +11348,7 @@ previous methods. 
 
 <h3>The &lt;audio&gt; tag</h3>
 
-You can use the \<audio\> tag to embed audio in your page.
+You can use the <audio> tag to embed audio in your page.
 
 ```
 1.  <audio src="sounds/flute.mp3">
@@ -11346,7 +11356,7 @@ You can use the \<audio\> tag to embed audio in your page.
 3.  </audio>
 ```
 
-Any text within the \<audio\> tags will be displayed if the browser does
+Any text within the <audio> tags will be displayed if the browser does
 not support the audio element. You should add such a message to provide
 better user experience for your page as it will be viewed in all types
 of devices and browsers. 
@@ -11425,20 +11435,20 @@ to choose apart from audio element and browser compatibility:
 The source element, also new in HTML5, serves the same purpose as
 the src attribute in an audio element. It is used to specify source
 files for the audio and video elements. Using the source element, you
-can specify multiple source files. The \<source\> tag is self-closing,
+can specify multiple source files. The <source> tag is self-closing,
 therefore, it does not require a closing tag.
 
 ### Example:
 
-1.  \<audio controls\>
+1.  <audio controls>
 
-2.    \<source src="https://courses.edx.org/asset-v1:W3Cx+HTML5.0x+3T2016+type@asset+block@splash.wav" type="audio/wav"\>
+2.    <source src="https://courses.edx.org/asset-v1:W3Cx+HTML5.0x+3T2016+type@asset+block@splash.wav" type="audio/wav">
 
-3.    \<source src="https://courses.edx.org/asset-v1:W3Cx+HTML5.0x+3T2016+type@asset+block@splash.mp3" type="audio/mpeg"\>
+3.    <source src="https://courses.edx.org/asset-v1:W3Cx+HTML5.0x+3T2016+type@asset+block@splash.mp3" type="audio/mpeg">
 
 4.    Your browser does not support the audio element.
 
-5.  \</audio\>
+5.  </audio>
 
 ### Output for code above (try playing):
 
@@ -11450,7 +11460,7 @@ above, Internet Explorer does not support .wav files. So if you tried to
 play the file above in Internet Explorer, the browser would have tried
 to play .wav, failed and played the .mp3 version instead. 
 
-The following table lists the \<source\> element's attributes:
+The following table lists the <source> element's attributes:
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 107.  (###) -------------------------------------->
@@ -11458,19 +11468,19 @@ The following table lists the \<source\> element's attributes:
 <img src="./images/image107.png"
 style="width:6.5in;height:2.79653in" />
 
-<h3>5.3.2 The \<video\> Element</h3>
+<h3>5.3.2 The <video> Element</h3>
 
 You can use the video element to embed video in your page. You can
 specify the location of your video file using the src attribute
 or source element (for multiple source files). 
 
-1.  \<video src="multimedia/running.mp4"\>
+1.  <video src="multimedia/running.mp4">
 
 2.    Your browser does not support the HTML5 video element.
 
-3.  \</video\>
+3.  </video>
 
-Any text within the \<video\> tags will be displayed if the browser does
+Any text within the <video> tags will be displayed if the browser does
 not support the video element. You should add such a message to provide
 better user experience for your page as it will be viewed in all types
 of devices and browsers. 
@@ -11498,7 +11508,7 @@ style="width:2.00009in;height:2.31677in" />
 
 <h3>Poster attribute</h3>
 
-The \<video\> tag has an important attribute that you don't find on
+The <video> tag has an important attribute that you don't find on
 the audio element.  The poster attribute is used to specify what picture
 is shown before the video starts playing.  By default, the poster shown
 is simply the first frame of the video, but the poster attribute can be
@@ -11575,18 +11585,18 @@ to choose apart from video element and browser compatibility:
 <h2>5.3.3 Video – Source and Track Elements</h2>
 
 The source element that we saw in the previous unit is also used to
-specify multiple source files for the video element. The \<source\> tag
+specify multiple source files for the video element. The <source> tag
 is self-closing and so does not require a closing tag.
 
-1.  \<video controls height="320" width="240"\>
+1.  <video controls height="320" width="240">
 2.   
-    \<source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4"\>
+    <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
 3.   
-    \<source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm"\>
+    <source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm">
 4.   
-    \<source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg"\>
+    <source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg">
 5.    Your browser does not support the HTML5 video element.
-6.  \</video\>
+6.  </video>
 
 The advantage of providing multiple source files in different formats is
 that if the browser doesn't support the first format, it will try the
@@ -11607,8 +11617,8 @@ The following table lists the source element's attributes:
 
 <h3>Track element for captions and subtitles</h3>
 
-The \<video\> element is very similar to the HTML5 \<audio\> element
-except for one addition - the \<track\> element. The \<track\> element
+The <video> element is very similar to the HTML5 <audio> element
+except for one addition - the <track> element. The <track> element
 is used to add timed text like subtitles, captions or any text you would
 like to display to the user when the video is playing. 
 
@@ -11624,26 +11634,26 @@ like to display to the user when the video is playing. 
     same language as the audio. Read more about their
     difference [here](https://www.alsintl.com/blog/subtitles-captions-difference/). 
 
--   Like the \<source\> tag, you can add multiple \<track\> tags in your
+-   Like the <source> tag, you can add multiple <track> tags in your
     video element to add multiple subtitle/caption tracks. This is
     commonly done when providing them in different languages. 
 
-The \<track\> tag is self-closing and so does not require a closing tag.
-You specify the \<track\> element as a child element of
-your \<video\> tag like this:
+The <track> tag is self-closing and so does not require a closing tag.
+You specify the <track> element as a child element of
+your <video> tag like this:
 
-1.  \<video width="320" height="240" controls\>
+1.  <video width="320" height="240" controls>
 
-2.    \<source src="module.mp4" type="video/mp4"\>
+2.    <source src="module.mp4" type="video/mp4">
 
 3.   
-    \<track src="module-captions.vtt" kind="captions" srclang="en" label="English" default\>
+    <track src="module-captions.vtt" kind="captions" srclang="en" label="English" default>
 
 4.    Your browser does not support the HTML5 video element.
 
-5.  \</video\>
+5.  </video>
 
-The following table lists the \<track\> element's attributes:
+The following table lists the <track> element's attributes:
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 112.  (###) -------------------------------------->
@@ -11660,7 +11670,7 @@ It will not appear on any graded question.*
 
 There are tags for all kinds of content in your Web page, text, images,
 videos, animations.  There's even a tag that allows you to put another
-Web page in your Web page - the \<iframe\> tag (*HTML Inline Frame
+Web page in your Web page - the <iframe> tag (*HTML Inline Frame
 Element*).  Why would you want to do this?  Well, it enables a lot of
 possibilities.
 
@@ -11672,7 +11682,7 @@ pages. You can add YouTube videos or display a PDF file (some browsers
 will display the file inline while some older browsers will try to
 download it instead). 
 
-An \<iframe\> tag can be as simple as this:
+An <iframe> tag can be as simple as this:
 
 ```
 1.  <p>This is a parent page that will host the iframe.</p>
@@ -11680,6 +11690,7 @@ An \<iframe\> tag can be as simple as this:
 3.    <p>Your browser does not support iframes.</p>
 4.  </iframe>
 ```
+
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 113.  (###) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -11723,11 +11734,12 @@ And we've added styling like this to get the border and drop-shadow:
 2.    border: 10px solid red;
 3.    padding: .5rem;
 4.    margin: 1rem;
-5.    box-shadow: 20px 20px 10px \#888888;
+5.    box-shadow: 20px 20px 10px #888888;
 6.    width: 355;
 7.    height: 200;
 8.  }
 ```
+
 There is one significant problem with iframes. Suppose you create your
 Web page, containing only an iframe with src="http://foo.com", with no
 borders, padding or margin. By all appearances, you would seem to be on
@@ -11737,7 +11749,7 @@ inclusion, so if you create an iframe with src="https://google.com",
 you'll get a blank frame and an error message in the console.  This
 isn't a bug, it's a feature.
 
-There are a number of important attributes for an \<iframe\> tag, but
+There are a number of important attributes for an <iframe> tag, but
 for now we'll just look at a few of them:
 
 <!------------------------------------------------------------------------------------------------>
@@ -11799,10 +11811,10 @@ It will not appear on any graded question.*
 
 <b>Important:</b> The attributes we will see in this unit
 - ismap and usemap are <b>image attributes**. Since they use
-the \<link\> tag, having learned hyperlinks, now would be a good time to
+the <link> tag, having learned hyperlinks, now would be a good time to
 explore them. Be sure to watch the video at the end of this unit. 
 
-Adding the ismap or usemap attributes to the \<img\> tag means that the
+Adding the ismap or usemap attributes to the <img> tag means that the
 picture is an image with clickable areas. Imagine a picture of a world
 map where different countries on the map can be clicked and it navigates
 to another page like the country's wikipedia page. Simply put, we say
@@ -11820,7 +11832,7 @@ ismap is a <b>boolean attribute<b> i.e. its value is either true or false.
 Thus, just the presence of the attribute indicates that it is a mapped
 image. To be more precise, we say it is a server-side image-map.
 
-An \<img\> tag with the src  and ismap attributes creates an image with
+An <img> tag with the src  and ismap attributes creates an image with
 the image source file and indicates it is a server-side image-map. How
 will your code know that if you click on a part of your image, i.e.
 'Australia in a world map', it should navigate to the country's
@@ -11836,10 +11848,10 @@ code sample:
 
 Here, the href attribute points to the location of the map file.
 The target attribute indicates where the page it navigates to should
-open. '\_self' will open in the same page whereas '\_blank' will open it
+open. '_self' will open in the same page whereas '_blank' will open it
 in a new tab or window. 
 
-ismap only works if the \<img\> tag is used within the anchor element
+ismap only works if the <img> tag is used within the anchor element
 like in the code above. This is important because without a link to the
 target map file, it has no idea what to do with
 your ismap specification.
@@ -11883,7 +11895,7 @@ usemap is a lot like ismap and is more widely used. ismap deals with
 server-side image-maps whereas usemap deals with client-side
 image-maps. 
 
--   \>Server-side image-maps: use separate map files that have to be
+-   >Server-side image-maps: use separate map files that have to be
     downloaded. They depend on the server for translating the request.
     They also create additional network traffic. 
 
@@ -11902,7 +11914,7 @@ preceding it.
 
 Like ismap, usemap cannot be used by itself. In ismap, we used the
 anchor tag to specify the map file. In usemap, we use
-the **\<area\>** element as a child of **\<map\>** element to specify
+the **<area>** element as a child of **<map>** element to specify
 the coordinates and the page it should navigate to. The usemap value
 should match the map element's name or id attribute. 
 
@@ -11914,16 +11926,16 @@ should match the map element's name or id attribute. 
 5.  </map>
 ```
 
-**\<map\>** - defines a client-side image map and is used to create a
+**<map>** - defines a client-side image map and is used to create a
 relationship between the image and the map by matching the map name and
 usemap's value. It contains a set of area elements.
 
-**\<area\>** - defines the areas that can be clicked and the pages it
+**<area>** - defines the areas that can be clicked and the pages it
 should navigate to. Typically takes the shape of the area, coordinates
 of the area, URL of the page it should redirect to and the alt attribute
 (short description). 
 
-The shape attribute in the \<area\> tag has four values:
+The shape attribute in the <area> tag has four values:
 
 -   circle - The clickable area is a circle. You need to
     specify three coordinates. E.g. coords="89,52,6". The first two is
@@ -11968,7 +11980,7 @@ how usemap works :) Remember to navigate back to the course!
    style="width:2in;height:2.23018in" 
    alt="" />
 
-Note: If the \<img\> is inside an \<a\> or \<button\> element, clicking
+Note: If the <img> is inside an <a> or <button> element, clicking
 on it will be interpreted as clicking on the link or button and usemap
 will not work.
 
@@ -11979,18 +11991,18 @@ will not work.
 
 2.  Try the following code in your HTML editor:
 
-    1.  \<iframe src="http://facebook.com"\>
-    2.  \<p\>Your browser does not support iframes.\</p\>
-    3.  \</iframe\>
+    1.  <iframe src="http://facebook.com">
+    2.  <p>Your browser does not support iframes.</p>
+    3.  </iframe>
 
 What happens? Why does it behave the way it does?
 
 <h3 id="ch5-5-1">5.5.1 Decorative images and backgrounds</h3>
 
-As we saw earlier, the \<img\> tag is meant to be used for semantically
+As we saw earlier, the <img> tag is meant to be used for semantically
 important imagery.  For example, the pictures that accompany a news
 story are important to understanding the news story and therefore should
-be displayed with the \<img\> tag.  The example of the cool banner with
+be displayed with the <img> tag.  The example of the cool banner with
 teletypes and coffee was meant to evoke competence and urgency, however,
 that image is <b>not<b> essential to understanding the news story. That
 image is decorative.
@@ -12018,9 +12030,9 @@ of transparent and none, there are all the values of  that we saw
 applicable to the color property. 
 
 In the example below we apply a variety of background colors to a
-hyperlink (\<a\>), paragraph (\<p\>), unordered list (\<ul\>) and list
-items (\<li\>):
-
+hyperlink (<a>), paragraph (<p>), unordered list (<ul>) and list
+items (<li>):
+<!---------------------------------------- world wide web consortium w3c ---------------------------->
 <img src="./images/image118.png"
 style="width:5in;height:1.59615in" />
 
@@ -12092,7 +12104,7 @@ opposite sides.  Neither contain or cover will distort or squish the
 image.  Its aspect ratio is maintained.
 
 Here we demonstrate the difference. A border has been applied to the
-paragraph to clearly show the bounds of the parent \<p\> element.
+paragraph to clearly show the bounds of the parent <p> element.
 
 <img src="./images/image122.png"
 style="width:5in;height:1.60897in" />
@@ -12101,11 +12113,11 @@ The background-size property can also be used to more exactly size the
 image.  When used in this fashion, it takes *two* values separated by a
 space. The first governs the width, the second the height.  Examples:
 
-.kittens  { background-size: 100px 120px; } /\* might distort \*/  
-.puppies  { background-size: 100px auto; }  /\* auto preserves aspect
-ratio, no distorting \*/  
-.munchies { background-size: 50% auto; }    /\* % is of percentage of
-parent (not of image). \*/
+.kittens  { background-size: 100px 120px; } /* might distort */  
+.puppies  { background-size: 100px auto; }  /* auto preserves aspect
+ratio, no distorting */  
+.munchies { background-size: 50% auto; }    /* % is of percentage of
+parent (not of image). */
 
  The px and % units were covered in the units section. Note that other
 units (rem, vh, etc.) have no guarantee of support.  
@@ -12194,8 +12206,8 @@ with border-width and border-color ( border-left-color, border-top-width,
 etc).
 
 Or, going in the other direction, the CSS property border can help
-abbreviate even further.  Use the formula  border: \<width\> \<style\>
-\<color\>;   separating the values with spaces: 
+abbreviate even further.  Use the formula  border: <width> <style>
+<color>;   separating the values with spaces: 
 
 p { border: 1px solid gray; }
 
@@ -12220,7 +12232,7 @@ A shadow effect can be applied to the outlining rectangle of an element
 with the box-shadow CSS property.  The box-shadow property is typically
 controlled with four values separated by spaces:
 
-box-shadow: \<x-offset\> \<y-offset\> \<blur\> \<color\>;
+box-shadow: <x-offset> <y-offset> <blur> <color>;
 
 The offset values are dimension units (px, em, etc) can be positive or
 negative. Positive x values place the shadow to the right, and negative
@@ -12238,7 +12250,7 @@ style="width:6.5in;height:1.93264in" />
 This CSS property takes the same values as box-shadow, however, the
 shadow is applied directly to the text shapes:
 
-text-shadow:  \<x-offset\> \<y-offset\> \<blur\> \<color\>;
+text-shadow:  <x-offset> <y-offset> <blur> <color>;
 
 <img src="./images/image129.png"
 style="width:6.5in;height:0.91458in" />
@@ -12286,11 +12298,11 @@ padding-left: 12px;
 
 Similar to margin, this can be abbreviated with the padding property.
 
-padding: \<top\> \<right\> \<bottom\> \<left\>;
+padding: <top> <right> <bottom> <left>;
 
-padding: \<top and bottom\> \<right and left\>;
+padding: <top and bottom> <right and left>;
 
-padding: \<all\>;
+padding: <all>;
 
 When decorative CSS is not used by many CSS newbies, use padding like
 margin, to space things out. Note: That is not correct. Margins make
@@ -12363,7 +12375,7 @@ a:visited { color: purple; }
 
 Above us we see a tag selector (a) followed by a pseudo class, which
 consists of a colon and a word (e.g. :visited ). This particular CSS
-rule will be applied to any \<a\> tag that the user has already visited.
+rule will be applied to any <a> tag that the user has already visited.
 There can be no spaces on either side of the colon. Pseudo classes can
 be amended onto *any* CSS selector, not just tag selectors.
 
@@ -12376,7 +12388,7 @@ look at some of the most common ones.
 a:visited { color: purple; }
 
 The :visited pseudo class is usually put on a selector that resolves to
-an \<a\> tag. It enables you to define a style for the visited state of
+an <a> tag. It enables you to define a style for the visited state of
 the link. For example, if the user has already been to that Web site,
 the :visited style will be applied.
 
@@ -12517,7 +12529,7 @@ Your favorite browser is not always right.
         It](https://alistapart.com/article/meaningful-css-style-like-you-mean-it/) (Tim
         Baxter, May 2016 - A list apart).
 
-    -   Use \<table\> for tabular data: don't use tables for layout, but
+    -   Use <table> for tabular data: don't use tables for layout, but
         if your content is tabular like a catalog, a calendar, or a
         price list, then the table element is the correct markup.
 
@@ -12967,10 +12979,10 @@ elements. 
 
 As the browser is rendering your page, every time it encounters the next
 tag it has a simple question: "Do I give this element its own line?"  
-For example, every \<p\> tag gets a new line, but \<a\> tags do not.   
+For example, every <p> tag gets a new line, but <a> tags do not.   
 
 This is the key distinction between the "block" level elements (like
-the \<p\> tag) and the "inline" elements (like the \<a\> tag).   Here is
+the <p> tag) and the "inline" elements (like the <a> tag).   Here is
 a quick table of the default values for some of the tags we've already
 learned.
 
@@ -13060,11 +13072,11 @@ change the span to be display:inline-block, which is discussed below.
 <h4>inline-block</h4>
 
 The astute reader may have spotted an obvious omission from the table of
-block and inline elements above: \<img\> . Is \<img\> a block level
+block and inline elements above: <img> . Is <img> a block level
 element or inline?  If you venture to experiment you may conclude
 "both", and you will be right.
 
-For historic reasons, the \<img\> tag defaults to display:inline in most
+For historic reasons, the <img> tag defaults to display:inline in most
 browsers. If you inspect using the browsers inspector, that's what you
 will see. However, it does not follow the same rules as other inline
 elements. In fact, regardless of what the inspector says, images are
@@ -13083,7 +13095,7 @@ calculation of the height of the line it falls on
 inline-block elements respect width and height properties
 
 In some browsers, some of the form elements default to inline-block
-(like \<button\>, \<select\>, and \<input\>)
+(like <button>, <select>, and <input>)
 
 Here is the overlapping background style presented again, but this time
 instead of using line-height to solve the problem, we simply make the
@@ -13131,8 +13143,8 @@ the element itself.
 To center an inline element, we use the text-align property of its
 parent.   
 
-p { text-align: center; } /\* the text and any inline children of this
-element will be centered \*/
+p { text-align: center; } /* the text and any inline children of this
+element will be centered */
 
 If this isn't satisfactory, consider changing the element to be
 inline-block or block.
@@ -13212,7 +13224,7 @@ flexbox reduces their use cases.
 
 <h4>static</h4>
 
-position: static; /\* the default \*/
+position: static; /* the default */
 
 A position property of static is the default for all elements. It simply
 means that all elements follow the "flowing text"model of layout and the
@@ -13420,8 +13432,8 @@ siblings have no effect on an absolutely positioned element that has
 some positioning properties set (left, top, etc.)
 
 Let's take a simple example.  Here we have a paragraph that contains
-some text and an inner \<q\>.  For a better illustration, the paragraph
-has its height set and a border applied.  The \<q\> is positioned
+some text and an inner <q>.  For a better illustration, the paragraph
+has its height set and a border applied.  The <q> is positioned
 absolutely.
 
 <img src="./images/image143.png"
@@ -13472,10 +13484,10 @@ There are four list items each containing child spans which are
 absolutely positioned. Two of the list items are position:relative, so
 the spans are positioned starting from their rectangle.  But two of the
 list items are position:static (the default), so the spans are moved up
-to the \<ul\> (which is also position:relative) where they overlap each
+to the <ul> (which is also position:relative) where they overlap each
 other. (The red 1 is hidden behind the red 2). Borders have been added
 in the result below, so you can easily see the rectangle
-for  \<li\> versus \<ul\>.
+for  <li> versus <ul>.
 
 <img src="./images/image144.png"
 style="width:6.5in;height:1.83681in" />
@@ -13515,10 +13527,10 @@ positioning, it may also have to start explicitly setting the dimensions
 of containers, which makes the overall design brittle and less
 adaptable.
 
-In the example below, there are two lists (\<ul\>) each with a fat
+In the example below, there are two lists (<ul>) each with a fat
 border. The list on the left is normal - its children contribute to
-making the \<ul\> taller and the fat border extends around, enclosing
-everything correctly. But the list items (\<li\>) on the right are
+making the <ul> taller and the fat border extends around, enclosing
+everything correctly. But the list items (<li>) on the right are
 positioned absolutely.  So those list items on the right do not
 contribute to the height of the parent. As a result, it ends up with a
 height of 0, as if it were empty. The fat border just becomes a fat flat
@@ -13679,7 +13691,7 @@ These display states are covered in the display section. 
 images have an interesting behavior in that if only one dimension is
 set, the other is automatically calculated so that the original aspect
 ratio of the image is preserved.  This is true for both decorative CSS
-images and \<img\> tags.
+images and <img> tags.
 
 <h4>sizing properties</h4>
 
@@ -13883,7 +13895,7 @@ and better results are achieved with a third.
 ```
 
 Here is a series of screen captures showing these minimum options
-applied to a parent \<div\> and four identical paragraphs at various
+applied to a parent <div> and four identical paragraphs at various
 browser sizes, with no other properties applied except some small margin
 and padding on the paragraph, and a background color and a border radius
 to help visualize.
@@ -13954,7 +13966,7 @@ flex item, as it happens automatically. 
 
 One other automatic behavior to be aware of is that empty flex items are
 automatically removed from the flex container. Keep that in mind if you
-were planning on using an empty \<div\>\</div\> construct as a
+were planning on using an empty <div></div> construct as a
 placeholder for a CSS background image.
 
 There is an array of flex item properties that can be applied to the
@@ -13973,7 +13985,7 @@ a value of the display property.
 But flex is also the name of  a property. It is a property that is
 applied to flex items, the children of a flex container.  
 ```
-span { flex: \<flex-grow\> \<flex-shrink\> \<flex-basis\>; }
+span { flex: <flex-grow> <flex-shrink> <flex-basis>; }
 ```
 
 The flex property provides a convenient way to abbreviate the three
@@ -14036,7 +14048,7 @@ the box-sizing to border-box.   
 
 ```
 p { flex: 1 1 <b>87px**;  /* use flex: <flex-grow>
-<flex-shrink> **<flex-basis\>** */}
+<flex-shrink> **<flex-basis>** */}
 ```
 
 The flex-basis can be used instead of the sizing properties on a flex
@@ -14762,5 +14774,5 @@ These are the final changes to our recipe project for this unit.
    alt="." />
 </p>
 
-<h3><b>Last Updated 07-31-2022 10:12pm</b></h3>
+<h3><b>Last Updated 08-32-2022 12:43am</b></h3>
 
