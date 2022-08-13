@@ -2184,8 +2184,8 @@ You have to write it like this in your HTML code:
 ```
 
 Some tolerant browsers will allow using the &amp; character directly
-but <b>not** all. So you should use its character reference &amp;. [Check
-out these examples](https://jsfiddle.net/vh2h7usk/1/) illustrating the
+but <b>not</b> all. So you should use its character reference &amp;. <a href="https://jsfiddle.net/vh2h7usk/1/">Check
+out these examples</a> illustrating the
 importance of using the character entity &amp; for &.
 
 While it might be tempting to not use one of these character references
@@ -2250,10 +2250,10 @@ categories, these include:
 
 -   Greek letters
 
-For a list of <b>named** character references available in HTML, visit:
+For a list of <b>named</b> character references available in HTML, visit:
  <https://dev.w3.org/html5/html-author/charref>.
 
-*Any* Unicode character can be represented using a <b>numeric** character
+<i>Any</i> Unicode character can be represented using a <b>numeric</b> character
 reference.
 
 Apart from the characters used for HTML syntax (described in the
@@ -2300,7 +2300,7 @@ overwhelming, and you can't really learn (or teach) everything at once.
 you fully understand the issue.
 
 That brings up a term you'll be hearing quite a bit in this class:
-"<b>*best practices***".  It's often said that bad programs can be
+"<b>*best practices*</b>".  It's often said that bad programs can be
 written in any language, and we've found that to be true (at least in
 every language we've seen).  Over time, developers learn that some
 habits are better than others, in other words that some habits ,
@@ -2485,13 +2485,13 @@ when you read them in the browser:
 It might seem confusing at first, but this rule about white space is
 actually very convenient.  The third option might be a bit too cramped
 for your taste, while the second might seem to take up too much room in
-your source code.  &lt;b>Because it doesn't matter to the browser how much
+your source code.  &lt;<b>Because it doesn't matter to the browser how much
 white space there is, you can use white space to make your code more
 visibly organized and easier to read (note the use of indentation in the
-second &lt;H1> element above).**
+second &lt;H1&gt; element above).</b>
 
 Given that tag names are case insensitive (you can write them either
-way), you might think that everything in between &lt; and > is case
+way), you might think that everything in between &lt; and &gt; is case
 insensitive, but it is not that easy.  
 
 <b>Attributes are case sensitive</b>! We have not learned much about
@@ -2539,7 +2539,7 @@ another double quote.  Any single quotes will be happily considered part
 of the string, which is handy if you need quotation marks in your
 string.  Because of this, if you create a string as ' "quote" ' (single
 quotes containing a double quoted string),  your string will have the
-letters <space>-"-q-u-o-t-e-"-<space> (with double quotes in the
+letters <space&gt;-"-q-u-o-t-e-"-<space&gt; (with double quotes in the
 string and spaces outside those) as opposed to "quote" which will just
 have the letters q-u-o-t-e (no quotation marks or spaces in the string).
  Nevertheless, best practice is to be consistent in your quotes, so it's
@@ -2586,7 +2586,7 @@ seem to make sense?
 Can you find other style guides or coding standards that agree or
 disagree with some of the suggestions in one of these guides?
 
-2. Check out the [W3C HTML Checker](https://validator.w3.org/):
+2. Check out the <a href="https://validator.w3.org/">W3C HTML Checker</a>:
 
 -   Try "Direct Input" and type some HTML5 code with errors to see what
     it detects.
@@ -2601,14 +2601,14 @@ are, though we have not said a lot about specific tags, what they mean,
 how many there are, etc.  We will start with the ones we have already
 seen:
 
--   <b><!doctype>** - This tag is special.  In fact, many folks don't
+-   <b>&lt;!doctype&gt;</b> - This tag is special.  In fact, many folks don't
     even consider it a tag, as it is officially the DTD - Document Type
     Declaration.  Unlike most tags, it has no closing tag, not even a
     "/" at the end.  It is there to declare exactly what type of HTML
-    the computer will find in this file. It is used as that: <!DOCTYPE
-    html>
+    the computer will find in this file. It is used as that: &lt;!DOCTYPE
+    html&gt;.
 
--   <b><html>** - The <b>*html*** open and close tags wrap around nearly
+-   <b>&lt;html&gt;</b> - The <b><i>html</i></b>open and close tags wrap around nearly
     everything in your html file (except the doctype tag).  This
     essentially contains all of the HTML code in the file, which is
     generally everything (one big html element). In the next module, we
@@ -2616,24 +2616,24 @@ seen:
     always add a lang attribute to the html opening tag, to identify the
     default language of your page.
 
--   <b><head>** - The <b>*head*</b> element is where you put information
+-   <b>&lt;head&gt;</b> - The <b><i>head</i></b> element is where you put information
     that does not really appear in the body of the work.  For example,
-    the <title> of the page, which typically appears on the window
+    the <title&gt; of the page, which typically appears on the window
     containing the page, is defined in the head section.
 
--   <b><body></b> - The <b>*body*</b> section contains all of the content of
+-   <b>&lt;body&gt;</b> - The <b><i>body</i></b> section contains all of the content of
     your page, essentially what the user sees.  This could be text,
     pictures, links, videos, tables and so on. There can be only
-    one <body> element in a document.
+    one &lt;body&gt; element in a document.
 
--   <b><h1></b> - There is a whole collection of '*h*' tags, <h1>,
-    <h2>, <h3> . . . all the way up to <h6>.  Why there are 6
+-   <b>&lt;h1&gt;</b> - There is a whole collection of '&lt;i&gt;h&lt;/i&gt;' tags, &lt;h1&gt;,
+    &lt;h2&gt;, &lt;h3&gt; . . . all the way up to &lt;h6&gt;.  Why there are 6
     rather than 5 or 7 may be a bit of a mystery, but there it is.
      They're generally used the same way you would use chapter or
     section headings in a book (don't confuse the <b>*h*</b> here with
-    the <head> section, that is completely different).  An <h1> tag
+    the &lt;head&gt; section, that is completely different).  An &lt;h1&gt; tag
     might be used as the title of the document (as it appears on the
-    page, not the same as the aforementioned <title> element), or to
+    page, not the same as the aforementioned &lt;title&gt; element), or to
     indicate the outermost level in a group of nested sections.
 
 <h4>HTML</h4>
