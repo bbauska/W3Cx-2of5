@@ -2351,8 +2351,8 @@ another, but the other part is not.
 ```
 
 The two examples above are fine because in each case either an element
-is wholly contained in another (<em> in <p>) or they are completely
-separate (<h1> and <p>). This, on the other hand, is not valid:
+is wholly contained in another (&lt;em&gt; in &lt;p&gt;) or they are completely
+separate (&lt;h1&gt; and &lt;p&gt;). This, on the other hand, is not valid:
 
 ```xml
   <h1>Part of this header is<p>in the</h2> paragraph below</p>
@@ -2360,10 +2360,10 @@ separate (<h1> and <p>). This, on the other hand, is not valid:
 
 What happens in this case is what we call "undefined". That just means
 that there is no telling how the browser will decide to handle it. It
-might decide to automatically close the <p> when it sees another close
+might decide to automatically close the &lt;p> when it sees another close
 tag, or it could complain about an unexpected close tag at the header.
 Then it might complain again when there is a now
-unexpected close </p> tag.
+unexpected close &lt;/p> tag.
 
 If you played around with the minimal HTML file from the previous
 section, you might have noticed that you can get more minimal than that.
@@ -2372,24 +2372,24 @@ will still render the page without complaint (at least Chrome will;
 Firefox does complain in the debugging console, but we will save that
 for week 4). In fact, you can even take out the "body" open and close
 tags (not the content, of course) and it will still work as expected.
-Not only that, if you take out the <!doctype> statement, it still
+Not only that, if you take out the &lt;!doctype> statement, it still
 works (and Chrome still doesn't complain!).
 
 What's actually happening is that the browser knows roughly what to
 expect in an HTML page, so if it sees a file ending in '.html' it will
 automatically stick some stuff in if it is not there already. It will
 typically make basic assumptions like: It is an HTML5 file, everything
-in there is content, so it goes in the <body> section,
-the <head> section is empty.  If you right-click on an element and
+in there is content, so it goes in the &lt;body> section,
+the &lt;head> section is empty.  If you right-click on an element and
 choose "Inspect", you will see that the browser has included
-the <html> section containing the <head> and <body> sections, even
+the &lt;html> section containing the &lt;head> and &lt;body> sections, even
 though it wasn't there in your file.
 
 Note that we said "typically". The current behavior of most browsers
 will handle this, but it is "undefined" so there is no guarantee that
 next module's update won't break it. To be correct and complete, you
-need the <!doctype> section and the <html> section with
- <head> and <body>. In any case, it is a good idea (best practice).
+need the &lt;!doctype> section and the &lt;html> section with
+ &lt;head> and &lt;body>. In any case, it is a good idea (best practice).
 
 Proper indentation is one way to make your code clearer and easier to
 understand:
@@ -2437,11 +2437,11 @@ details.  
 <h4>Tags are case insensitive</h4>
 
 You might notice that code is not always consistent in how a given tag
-is written.  We might say '<h1>' in one spot and '<H1>' in another.
+is written.  We might say '&lt;h1>' in one spot and '&lt;H1>' in another.
 In this case, they are exactly the same kind of tag.  Tag names are
 "case insensitive" meaning that it does not matter whether you use
 capital or lower case letters in writing them.  In fact, you could write
-your body tag as '<bOdY>', but that's not generally considered a good
+your body tag as '&lt;bOdY>', but that's not generally considered a good
 practice (Camel case/Snake case makes it harder to read).  On the other
 hand, there are places where you want the computer to be "case
 sensitive", meaning the computer will distinguish between upper-case and
@@ -2485,16 +2485,16 @@ when you read them in the browser:
 It might seem confusing at first, but this rule about white space is
 actually very convenient.  The third option might be a bit too cramped
 for your taste, while the second might seem to take up too much room in
-your source code.  <b>Because it doesn't matter to the browser how much
+your source code.  &lt;b>Because it doesn't matter to the browser how much
 white space there is, you can use white space to make your code more
 visibly organized and easier to read (note the use of indentation in the
-second <H1> element above).**
+second &lt;H1> element above).**
 
 Given that tag names are case insensitive (you can write them either
-way), you might think that everything in between < and > is case
+way), you might think that everything in between &lt; and > is case
 insensitive, but it is not that easy.  
 
-**Attributes are case sensitive<b>! We have not learned much about
+<b>Attributes are case sensitive</b>! We have not learned much about
 attributes yet, but when we do we will discover that they are case
 sensitive, thus these two elements will have different 'id's:
 
@@ -2533,7 +2533,7 @@ quotation marks it will essentially insert them for you. Thus:
 ```
 
 It is also important to know that, in HTML, <b>double and single quotes
-are almost interchangeable, but they have to match**.  If you start a
+are almost interchangeable, but they have to match</b>.  If you start a
 string with a double quote, the computer will not end it until it sees
 another double quote.  Any single quotes will be happily considered part
 of the string, which is handy if you need quotation marks in your
