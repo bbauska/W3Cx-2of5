@@ -944,9 +944,9 @@ toolbar and the title is also used in the browser history.
 For example, in our page we had typed: "my first HTML page", and that's
 where that would be created.
 
-That's the head tag. <head>
+That's the head tag. &lt;head&gt;
 
-Next up is the body element. <body>
+Next up is the body element. &lt;body&gt;
 
 And as its name suggests, this element contains the body of the page,
 meaning all of its contents.
@@ -1658,13 +1658,13 @@ the beginning and end of a paragraph (indicated by the single letter
 <p>This is my first paragraph!</p>
 ```
 
-The browser sees the letters '&lt;p&gt;' and decides 'A new paragraph is
+The browser sees the letters '<p>' and decides 'A new paragraph is
 starting, I'd better start a new line and maybe indent it'. Then when it
-sees '&lt;/p&gt;' it knows that the paragraph it was working on is finished,
+sees '</p>' it knows that the paragraph it was working on is finished,
 so it should break the line there before going on to whatever is next.
 
-For example, the '&lt;em&gt;' tag is used for element that needs <i>Em</i>phasis.
- The  '&lt;' and '&gt;' indicate that this is a tag, and the "little bits of
+For example, the '<em>' tag is used for element that needs *Em*phasis.
+ The  '<' and '>' indicate that this is a tag, and the "little bits of
 text" in between tell us what kind of tag it is.  To completely describe
 the element, it needs an open and close tag, with everything in between
 the tags being the content of the element:
@@ -1675,7 +1675,7 @@ the tags being the content of the element:
 <p align="center" width="100%">
 <img src="./images/image017.png?raw=true"
    width="65%"
-   alt="Diagram of an element: the &#39;&lt;em&gt;&#39; tag is used for element that needs Emphasis. The &#39;&lt;&#39; and &#39;&gt;&#39; indicate that this is a tag, and the little bits of text in between tell us what kind of tag it is. To completely describe the element, it needs an open and close tag, with everything in between the tags being the content of the element." />
+   alt="Diagram of an element: the &#39;&lt;em&gt;&#39; tag is used for element that needs Emphasis. The &#39;&lt;&#39; and &#39;&gt;&#39; indicate that this is a tag, and the little bits of text in between tell us what kind of tag it is. To completely describe the element, it needs an open and close tag, with everything in between the tags being the content of the element" />
 </p>
 <p>
 Most tags have open and close versions, but there are a few strange
@@ -1711,8 +1711,8 @@ tag for that (unsurprisingly called a "comment tag"):
 ```
 
 An HTML comment tag starts with <!-- and ends with -->, meaning that
-as the computer is reading through your HTML file, if it sees &lt;!-- it
-will ignore everything it sees until it comes across --&gt;.  There is no
+as the computer is reading through your HTML file, if it sees <!-- it
+will ignore everything it sees until it comes across -->.  There is no
 open or close tag, just a comment tag.  Unlike most other things in
 HTML5, comments cannot be nested.  If you try that, like:
 
@@ -1725,8 +1725,8 @@ This is after the nested comment
 ```
 
 The computer will then see the beginning of the comment tag and start
-ignoring everything until it sees --&gt;, including the second &lt;!--.
-Once it sees --&gt;, it assumes the comment is done and goes back to
+ignoring everything until it sees -->, including the second <!--.
+Once it sees -->, it assumes the comment is done and goes back to
 processing everything it sees as HTML code and content, even though the
 writer may have meant it to be a comment.
 
@@ -1797,7 +1797,7 @@ But more about attributes in the next module.
 One key to understanding HTML, or any computer language, is to be sure
 that you avoid ambiguity, because computers generally are not good at
 judgement calls. For example, you could streamline HTML so that whenever
-you see a &lt;p> tag, you start a new paragraph, no close tag needed.
+you see a <p> tag, you start a new paragraph, no close tag needed.
 That might work most of the time, but that would prevent you from
 nesting one element inside another, as the browser could not know if you
 meant the new element to be nested or a successor.
@@ -1874,7 +1874,7 @@ be grateful that HTML5 did away with it.
 <h4>Everything in HTML</h4>
 
 It may seem redundant, but the next bit tells the browser where the
-actual HTML code begins, using an &lt;html> tag:
+actual HTML code begins, using an <html> tag:
 
 ```
 <html>
@@ -1887,17 +1887,17 @@ document that does not really go in the body, AKA 'meta-' information.
 Things like what kind of character set the page is using, where the
 browser can find style tips, and what the title of the page is (which
 might be different from the title the user reads) all go in the
-&lt;head>. If you have been paying attention, you should be able to
+&lt;head&gt;. If you have been paying attention, you should be able to
 create a very basic html file, in the right form, without any content.
 Hint, for the head of the document you would write:
 
 ```
 <head>
-
+ 
 </head>
 ```
 
-You may recall the paragraph tag &lt;p> that we used in the example
+You may recall the paragraph tag <p> that we used in the example
 above. Try inserting a paragraph into the body of your new document.
  You should end up with something that looks like this:
 
@@ -1925,17 +1925,17 @@ the Chinese
 ideograph [請](http://www.w3.org/International/questions/images/35531.png) or
 the Devanagari
 character [ह](http://www.w3.org/International/questions/images/2361.png).
-A <b>character set** is a collection of characters (letters and symbols)
+A **character set** is a collection of characters (letters and symbols)
 in a writing system.
 
-Each character is assigned a particular number called a <b>code point**.
+Each character is assigned a particular number called a **code point**.
 These code points are stored in computer memory in the form
 of [bytes](https://en.wikipedia.org/wiki/Byte) (a unit of data in
 computer memory). In technical terms, we say the character
-is<b> encoded** using one or more bytes.
+is** encoded** using one or more bytes.
 
 Basically, all the characters are stored in computer language and
-a <b>character encoding** is the awesome dictionary that is going to help
+a **character encoding** is the awesome dictionary that is going to help
 us decode this computer language into something we can understand. In
 technical terms, it is what is used as a reference to map code points
 into bytes to store in computer memory; then when you use a character in
@@ -1964,14 +1964,14 @@ engine. A character encoding declaration in your HTML is also important
 to process unfamiliar characters entered in forms by users, URLs
 generated by scripts, etc.
 
-<b>You should always use the Unicode character encoding UTF-8 for your
+**You should always use the Unicode character encoding UTF-8 for your
 Web pages**, and avoid 'legacy' encodings such as ASCII, Windows-1252
 and ISO-8859-6 mentioned above. Do not use the UTF-16 Unicode encoding
 either.
 
 It is important to note that it is not enough to simply declare your
-encoding at the top of the web page. <b>You have to ensure that your
-editor saves the file in UTF-8</b> also. Most editors will do that these
+encoding at the top of the web page. **You have to ensure that your
+editor saves the file in UTF-8** also. Most editors will do that these
 days, but you should check.
 
 Read an [Introduction to character sets and encodings
@@ -1999,11 +1999,11 @@ You should also always use 'utf-8'.
 
 <h4>Where to place it?</h4>
 
-The meta declaration belongs inside the <head> element, and should be
+The meta declaration belongs inside the &lt;head&gt; element, and should be
 specified within the first 1024 bytes of your page. So the earlier it is
 mentioned in your code, the better. 
 
-W3C recommends placing it immediately after the opening <head> tag:
+W3C recommends placing it immediately after the opening &lt;head&gt; tag:
 
 ```
   <!DOCTYPE html>
@@ -2184,8 +2184,8 @@ You have to write it like this in your HTML code:
 ```
 
 Some tolerant browsers will allow using the &amp; character directly
-but <b>not</b> all. So you should use its character reference &amp;. <a href="https://jsfiddle.net/vh2h7usk/1/">Check
-out these examples</a> illustrating the
+but **not** all. So you should use its character reference &amp;. [Check
+out these examples](https://jsfiddle.net/vh2h7usk/1/) illustrating the
 importance of using the character entity &amp; for &.
 
 While it might be tempting to not use one of these character references
@@ -2250,10 +2250,10 @@ categories, these include:
 
 -   Greek letters
 
-For a list of <b>named</b> character references available in HTML, visit:
+For a list of **named** character references available in HTML, visit:
  <https://dev.w3.org/html5/html-author/charref>.
 
-<i>Any</i> Unicode character can be represented using a <b>numeric</b> character
+*Any* Unicode character can be represented using a **numeric** character
 reference.
 
 Apart from the characters used for HTML syntax (described in the
@@ -2300,7 +2300,7 @@ overwhelming, and you can't really learn (or teach) everything at once.
 you fully understand the issue.
 
 That brings up a term you'll be hearing quite a bit in this class:
-"<b>*best practices*</b>".  It's often said that bad programs can be
+"***best practices***".  It's often said that bad programs can be
 written in any language, and we've found that to be true (at least in
 every language we've seen).  Over time, developers learn that some
 habits are better than others, in other words that some habits ,
@@ -2351,8 +2351,8 @@ another, but the other part is not.
 ```
 
 The two examples above are fine because in each case either an element
-is wholly contained in another (&lt;em&gt; in &lt;p&gt;) or they are completely
-separate (&lt;h1&gt; and &lt;p&gt;). This, on the other hand, is not valid:
+is wholly contained in another (<em> in <p>) or they are completely
+separate (&lt;h1&gt; and <p>). This, on the other hand, is not valid:
 
 ```xml
   <h1>Part of this header is<p>in the</h2> paragraph below</p>
@@ -2360,10 +2360,10 @@ separate (&lt;h1&gt; and &lt;p&gt;). This, on the other hand, is not valid:
 
 What happens in this case is what we call "undefined". That just means
 that there is no telling how the browser will decide to handle it. It
-might decide to automatically close the &lt;p> when it sees another close
+might decide to automatically close the <p> when it sees another close
 tag, or it could complain about an unexpected close tag at the header.
 Then it might complain again when there is a now
-unexpected close &lt;/p> tag.
+unexpected close </p> tag.
 
 If you played around with the minimal HTML file from the previous
 section, you might have noticed that you can get more minimal than that.
@@ -2372,24 +2372,24 @@ will still render the page without complaint (at least Chrome will;
 Firefox does complain in the debugging console, but we will save that
 for week 4). In fact, you can even take out the "body" open and close
 tags (not the content, of course) and it will still work as expected.
-Not only that, if you take out the &lt;!doctype> statement, it still
+Not only that, if you take out the <!doctype> statement, it still
 works (and Chrome still doesn't complain!).
 
 What's actually happening is that the browser knows roughly what to
 expect in an HTML page, so if it sees a file ending in '.html' it will
 automatically stick some stuff in if it is not there already. It will
 typically make basic assumptions like: It is an HTML5 file, everything
-in there is content, so it goes in the &lt;body> section,
-the &lt;head> section is empty.  If you right-click on an element and
+in there is content, so it goes in the &lt;body&gt; section,
+the &lt;head&gt; section is empty.  If you right-click on an element and
 choose "Inspect", you will see that the browser has included
-the &lt;html> section containing the &lt;head> and &lt;body> sections, even
+the <html> section containing the &lt;head&gt; and &lt;body&gt; sections, even
 though it wasn't there in your file.
 
 Note that we said "typically". The current behavior of most browsers
 will handle this, but it is "undefined" so there is no guarantee that
 next module's update won't break it. To be correct and complete, you
-need the &lt;!doctype> section and the &lt;html> section with
- &lt;head> and &lt;body>. In any case, it is a good idea (best practice).
+need the <!doctype> section and the <html> section with
+ &lt;head&gt; and &lt;body&gt;. In any case, it is a good idea (best practice).
 
 Proper indentation is one way to make your code clearer and easier to
 understand:
@@ -2437,11 +2437,11 @@ details.  
 <h4>Tags are case insensitive</h4>
 
 You might notice that code is not always consistent in how a given tag
-is written.  We might say '&lt;h1>' in one spot and '&lt;H1>' in another.
+is written.  We might say '&lt;h1&gt;' in one spot and '&lt;h1&gt;' in another.
 In this case, they are exactly the same kind of tag.  Tag names are
 "case insensitive" meaning that it does not matter whether you use
 capital or lower case letters in writing them.  In fact, you could write
-your body tag as '&lt;bOdY>', but that's not generally considered a good
+your body tag as '&lt;body&gt;', but that's not generally considered a good
 practice (Camel case/Snake case makes it harder to read).  On the other
 hand, there are places where you want the computer to be "case
 sensitive", meaning the computer will distinguish between upper-case and
@@ -2485,16 +2485,16 @@ when you read them in the browser:
 It might seem confusing at first, but this rule about white space is
 actually very convenient.  The third option might be a bit too cramped
 for your taste, while the second might seem to take up too much room in
-your source code.  &lt;<b>Because it doesn't matter to the browser how much
+your source code.  **Because it doesn't matter to the browser how much
 white space there is, you can use white space to make your code more
 visibly organized and easier to read (note the use of indentation in the
-second &lt;H1&gt; element above).</b>
+second &lt;h1&gt; element above).**
 
 Given that tag names are case insensitive (you can write them either
-way), you might think that everything in between &lt; and &gt; is case
+way), you might think that everything in between < and > is case
 insensitive, but it is not that easy.  
 
-<b>Attributes are case sensitive</b>! We have not learned much about
+**Attributes are case sensitive**! We have not learned much about
 attributes yet, but when we do we will discover that they are case
 sensitive, thus these two elements will have different 'id's:
 
@@ -2532,14 +2532,14 @@ quotation marks it will essentially insert them for you. Thus:
 .... are all equivalent.  
 ```
 
-It is also important to know that, in HTML, <b>double and single quotes
-are almost interchangeable, but they have to match</b>.  If you start a
+It is also important to know that, in HTML, **double and single quotes
+are almost interchangeable, but they have to match**.  If you start a
 string with a double quote, the computer will not end it until it sees
 another double quote.  Any single quotes will be happily considered part
 of the string, which is handy if you need quotation marks in your
 string.  Because of this, if you create a string as ' "quote" ' (single
 quotes containing a double quoted string),  your string will have the
-letters <space&gt;-"-q-u-o-t-e-"-<space&gt; (with double quotes in the
+letters <space>-"-q-u-o-t-e-"-<space> (with double quotes in the
 string and spaces outside those) as opposed to "quote" which will just
 have the letters q-u-o-t-e (no quotation marks or spaces in the string).
  Nevertheless, best practice is to be consistent in your quotes, so it's
@@ -2552,21 +2552,21 @@ The idea is to take advantage of these flexibilities to create clean
 organized code that is easy for a human to comprehend.  I guess you
 could sum it all up with these simple dictum:
 
--   <b>*Case sensitive matters, except when it doesn't*** - case matters
+-   ***Case sensitive matters, except when it doesn't*** - case matters
     for some things, like strings and attributes, but not others, like
     tag names.
 
--   <b>*White space is ignored, except when it's not*** - White space is
+-   ***White space is ignored, except when it's not*** - White space is
     used to separate things, but adding more than one space will be the
     same as just one.  White space in strings is always just as you type
     it.
 
--   <b>*Quotation marks are not part of a string, except when they
+-   ***Quotation marks are not part of a string, except when they
     are*** - Quotation marks enclose a string, but thanks to the
     flexibility of choice between single or double quotes, it is easy to
     include one or the other in your string.
 
--   <b>*The important thing is to look good*** - You can take advantage
+-   ***The important thing is to look good*** - You can take advantage
     of flexibility in capitalization and white space to make your code
     more readable and organized.
 
@@ -2586,7 +2586,7 @@ seem to make sense?
 Can you find other style guides or coding standards that agree or
 disagree with some of the suggestions in one of these guides?
 
-2. Check out the <a href="https://validator.w3.org/">W3C HTML Checker</a>:
+2. Check out the [W3C HTML Checker](https://validator.w3.org/):
 
 -   Try "Direct Input" and type some HTML5 code with errors to see what
     it detects.
@@ -2606,9 +2606,9 @@ seen:
     Declaration.  Unlike most tags, it has no closing tag, not even a
     "/" at the end.  It is there to declare exactly what type of HTML
     the computer will find in this file. It is used as that: &lt;!DOCTYPE
-    html&gt;.
+    html&gt;
 
--   <b>&lt;html&gt;</b> - The <b><i>html</i></b>open and close tags wrap around nearly
+-   <b>&lt;html&gt;</b> - The <b><i>html</i></b> open and close tags wrap around nearly
     everything in your html file (except the doctype tag).  This
     essentially contains all of the HTML code in the file, which is
     generally everything (one big html element). In the next module, we
@@ -2618,7 +2618,7 @@ seen:
 
 -   <b>&lt;head&gt;</b> - The <b><i>head</i></b> element is where you put information
     that does not really appear in the body of the work.  For example,
-    the <title&gt; of the page, which typically appears on the window
+    the <title> of the page, which typically appears on the window
     containing the page, is defined in the head section.
 
 -   <b>&lt;body&gt;</b> - The <b><i>body</i></b> section contains all of the content of
@@ -2626,14 +2626,14 @@ seen:
     pictures, links, videos, tables and so on. There can be only
     one &lt;body&gt; element in a document.
 
--   <b>&lt;h1&gt;</b> - There is a whole collection of '&lt;i&gt;h&lt;/i&gt;' tags, &lt;h1&gt;,
-    &lt;h2&gt;, &lt;h3&gt; . . . all the way up to &lt;h6&gt;.  Why there are 6
+-   <b>&lt;h1&gt;</b> - There is a whole collection of '*h*' tags, &lt;h1&gt;,
+    <h2>, <h3> . . . all the way up to &lt;h6&gt;.  Why there are 6
     rather than 5 or 7 may be a bit of a mystery, but there it is.
      They're generally used the same way you would use chapter or
-    section headings in a book (don't confuse the <b>*h*</b> here with
+    section headings in a book (don't confuse the ***h*** here with
     the &lt;head&gt; section, that is completely different).  An &lt;h1&gt; tag
     might be used as the title of the document (as it appears on the
-    page, not the same as the aforementioned &lt;title&gt; element), or to
+    page, not the same as the aforementioned <title> element), or to
     indicate the outermost level in a group of nested sections.
 
 <h4>HTML</h4>
@@ -2657,13 +2657,13 @@ seen:
 Though you theoretically should not think about what it looks like, it
 will typically appear as large, possibly bold text in your document, to
 mark a separation or beginning of some new section.  <h2> is usually a
-bit smaller, and <h3> smaller yet and so on down to <h6>.  This
+bit smaller, and <h3> smaller yet and so on down to &lt;h6&gt;.  This
 allows logical nesting of sections, though they should not be nested too
-deeply. Try not to skip levels of headers when nesting them. <b>Headings
+deeply. Try not to skip levels of headers when nesting them. **Headings
 are really useful for some assistive technology users and missing levels
-can be confusing</b>.
+can be confusing**.
 
--   <b><p></b> - <b>*P*</b> is for 'paragraph', which is the tag you may use
+-   **<p>** - ***P*** is for 'paragraph', which is the tag you may use
     to arrange much of your text information.  Depending on the style
     you are using, text wrapped in a <p> tag may be indented or have
     extra vertical white space before starting.  When rendered on the
@@ -2706,7 +2706,7 @@ rendered (i.e. what they look like to the end user), you will find
 words like "typically", "possibly", and "generally".  It is a little
 picky. As you will learn in Module 3, it is possible to change the
 styling of one element to look like just about any other element.  You
-could style a <p> element so that it looks like an <h1>, though best
+could style a <p> element so that it looks like an &lt;h1&gt;, though best
 practice would be not to do that.
 
 <h3 id="ch1-6-2">1.6.2 A Few New Tags to Learn</h3>
@@ -2715,30 +2715,30 @@ There are a lot more tags, but we will just cover a few more for now,
 mostly because they are straightforward to use and you can see the
 effect in your Web page when you use them:
 
--   <b><q></b> - The <b>q</b> tag is for quotes.  This tag has no
+-   **<q>** - The **q** tag is for quotes.  This tag has no
     relationship to the somewhat confusing single and double quote
     characters, rather it's used when you want to quote a person or
     written work in your Web page. Quotes are customarily displayed
     using quotation marks. Thus <q>Brevity is beautiful</q> would be
     rendered as Brevity is beautiful.
 
--   <b><blockquote></b> - If you want to quote a larger passage, you may
-    want to use <b>blockquote</b>, which will typically set the quoted text
+-   **<blockquote>** - If you want to quote a larger passage, you may
+    want to use **blockquote**, which will typically set the quoted text
     apart from the surrounding text and indent it, to make clear that it
     is quoted text:
 
 > Early to bed and early to rise, makes someone healthy, wealthy and
 > wise - Benjamin Franklin
 
--   <b><ul></b>,<b> <ol></b> - These two tags are used to indicate a list
+-   **<ul>**,** <ol>** - These two tags are used to indicate a list
     of things.  The only difference is that <ol> is an "ordered" list,
     meaning the elements are in a particular order, and it might be a
-    good idea to number them.  The "<b>u</b>" in <ul> stands for
+    good idea to number them.  The "**u**" in <ul> stands for
     "unordered" and is used for a list of things where the order doesn't
     really matter, so it is usually rendered as a bulleted list, or some
     other structure without numbers.
 
--   <b><li></b> - The <b>li</b> element is a "List Item", i.e. one item in
+-   **<li>** - The **li** element is a "List Item", i.e. one item in
     the list.  As you might expect, this element only really makes sense
     nested inside a list (<ul> or <ol>).  In the final
     rendering, each li element would typically be preceded by a number
@@ -2770,13 +2770,13 @@ is for the logical structure of your content, not what it looks like.
  Well, this is not entirely true.  There are some HTML elements that are
 primarily used to invoke certain formatting. 
 
--   <b><hr></b> - The <b>hr</b> tag stands for horizontal rule and is used
+-   **<hr>** - The **hr** tag stands for horizontal rule and is used
     to insert a horizontal line across the width of the text, or a
     thematic break in an HTML page to divide or separate document
     sections. The <hr> tag is an empty tag and does not require an end
     tag. It would typically look like this:
 
--   <b><br></b> - This tag signifies a line break, and is used for any
+-   **<br>** - This tag signifies a line break, and is used for any
     number of situations.  For example, it can be an easy way to make
     sure that lines of poetry break where they're supposed to (less
     verbose than requiring each line to be a separate element).
@@ -2808,7 +2808,7 @@ primarily used to invoke certain formatting. 
    alt="Example of Poetry as it might appear on a Web Page" />
 </p>
 
--   <b><pre></b> - <b>pre</b> stands for "PREformatted text", meaning that
+-   **<pre>** - **pre** stands for "PREformatted text", meaning that
     the text is to be presented exactly as written in the HTML file. It
     preserves all text formatting characters i.e. spaces, line
     breaks and (thus bypassing the white space rule) and most typically
@@ -2958,7 +2958,7 @@ your article, addresses and citations. You also want to provide more
 detailed information such as, 'This sentence is really important and you
 need to convey that to the reader'.
 
-If we just use <p> tags and header tags, <h1> to <h6>, visually it
+If we just use <p> tags and header tags, &lt;h1&gt; to &lt;h6&gt;, visually it
 might look like what you want, but only a human will be able to read and
 understand the page. To a browser, there is very little information
 except that there is text and headings in your page. How can a search
@@ -3114,12 +3114,12 @@ You want your poems to look different from your other text. Grey text
 color, italic and bold. Like this:
 
 ```
-<b>*To move, to breathe, to fly, to float,*</b>  
-<b>*To gain all while you give,*</b>  
-<b>*To roam the roads of lands remote,*</b>  
-<b>*To travel is to live.*</b>
+***To move, to breathe, to fly, to float,***  
+***To gain all while you give,***  
+***To roam the roads of lands remote,***  
+***To travel is to live.***
 
-<b>*- Hans Christian Andersen*</b>
+***- Hans Christian Andersen***
 ```
 
 All poems have the same requirements.
@@ -3162,7 +3162,7 @@ There are two kinds of attributes:
 
 <h4>Global attributes</h4>
 
-Global attributes can be applied to <b>all tags</b>. They are common
+Global attributes can be applied to **all tags**. They are common
 attributes. Examples of global attributes are id and class. There are
 many more global attributes. Here is a [list of all the global
 attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes#list_of_global_attributes) and
@@ -3184,7 +3184,7 @@ that the contents of this document will be in french.
 <b>Non-global attributes</b> are attributes applied to a specific instance
 of a tag. It can be applied to one or more tags. For example, start is
 an attribute for the <ol> tag and it cannot be applied on
-the <p> or <h1> tags, it is specific to only ordered
+the <p> or &lt;h1&gt; tags, it is specific to only ordered
 lists <ol>. Another attribute specific to the <ol> tag
 is reversed, which we learned in the last unit as an example of a
 boolean attribute. The non-global attribute width can be applied to
@@ -3361,11 +3361,11 @@ telling it:
 
 The code above will then look like this:
 
-<b>Who are you?</b>
+**Who are you?**
 
 I am the author
 
-<b>Do you like HTML5?</b>
+**Do you like HTML5?**
 
 Yes
 
@@ -3397,14 +3397,14 @@ attribute?](https://www.w3.org/International/questions/qa-lang-why)
 The value of a lang attribute must be a language tag that is composed of
 one or more subtags defined in the [IANA Language Subtag
 Registry](https://www.iana.org/assignments/language-subtag-registry).
-Multiple subtags are separated by hyphens.  (Do <b>not</b> use the ISO
+Multiple subtags are separated by hyphens.  (Do **not** use the ISO
 lists of languages and countries! Those lists are already subsets of the
 IANA registry.) You may find it easier to look up subtags using the
 unofficial [Language Subtag
 Lookup](https://r12a.github.io/app-subtags/) tool.
 
-You should <b>always declare the language of your page in the
-&lt;html&gt; tag</b>.  You can also declare the language of content within the
+You should **always declare the language of your page in the
+<html> tag**.  You can also declare the language of content within the
 page by attaching a lang attribute to an element that contains it.
 
 <h4>For example:</h4>
@@ -3622,7 +3622,7 @@ elements you can think of.
 Please find below suggested activities to help you practice:
 
 1.  Find the list of supported attributes for the <area> tag.
-    (<i>Hint:</i> use the [W3C
+    (*Hint:* use the [W3C
     cheatsheet](https://www.w3.org/2009/cheatsheet/) or [MDN attribute
     reference
     list](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes))
@@ -3757,12 +3757,12 @@ importance or seriousness.
 
 <h4>&lt;i&gt; vs &lt;em&gt;</h4>
 
-<b>*Italics** *slants text. We usually italicize names of magazine,
+***Italics** *slants text. We usually italicize names of magazine,
 books, TV shows etc. Just like the bold tag, since it is meant purely
 for presentation purposes, it means nothing to someone who cannot read
 the text.
 
-<b>*Emphasis* **is used to stress emphasis of its contents. The word in a
+***Emphasis* **is used to stress emphasis of its contents. The word in a
 sentence you emphasize can change the whole meaning. Try reading the
 sentences below out loud, stressing on the emphasized words: 'you' and
 'store'. 
@@ -3785,9 +3785,9 @@ So how did <i> and <b>, purely style elements make the cut? 
 They were initially deprecated, however, in HTML5, they were brought
 back. This time, with semantic meaning. 
 
-| <i> | Apart from italic text, it is now also used for text in a different mood or voice, such as foreign words, a thought or technical terms.                                                                          | <p>This restaurant has a breakfast buffet and a four course **<i lang="fr">**À la carte**</i>** dinner.</p>
+| <i> | Apart from italic text, it is now also used for text in a different mood or voice, such as foreign words, a thought or technical terms.                                                                          | <p>This restaurant has a breakfast buffet and a four course **<i lang="fr">**À la carte**</i>** dinner.</p> |
 |-------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| <b> | Apart from bolded text, it is now also used as a stylistic offset such as keywords in a document, product names or action words without making them as important. It can also be used as headings in list items. | <p>The owner of this <b>rabbit</b> and <b>hamster</b> needs to step forward.</p>         |
+| <b> | Apart from bolded text, it is now also used as a stylistic offset such as keywords in a document, product names or action words without making them as important. It can also be used as headings in list items. | <p>The owner of this **<b>**rabbit**</b>**and **<b>**hamster**</b>** needs to step forward.</p>         |
 
 As of HTML5, <em> is now also used for words and sentences you would
 pronounce differently. It is not used to convey importance. For that you
@@ -3818,7 +3818,7 @@ Web pages instead of its presentation or look.
 <h4>What are semantic elements?</h4>
 
 If you want to add a paragraph, you would use the paragraph tag. If you
-want to add a heading, you would use the header tags <h1>-<h6>, and
+want to add a heading, you would use the header tags &lt;h1&gt;-&lt;h6&gt;, and
 to add an image, you would use the image tag (we will learn about this
 later in this module). All these tags along with their id and class
 attributes are semantic because they suggest the purpose of the content
@@ -3841,16 +3841,16 @@ separate content and style.
 Semantic elements are beneficial to both the developer and browser. They
 convey much more information about your HTML document's content and
 structure. There is a tag called header in semantic HTML. When you see a
-heading like <h1> or <h2>, you know this is likely the start of a
+heading like &lt;h1&gt; or <h2>, you know this is likely the start of a
 new sub-section or topic. Communication is always welcome in any
 programming language.
 
-This additional communication is useful for a <b>developer</b> who can
+This additional communication is useful for a **developer** who can
 understand the markup structure better (when you come back to your code
 after a year or pass it on to a colleague, this is going to help you and
-them a lot!). For the <b>browser</b>, it can better differentiate different
+them a lot!). For the **browser**, it can better differentiate different
 types of data which results in better display of content in different
-devices. <b>Assistive technology</b>, such as a screen reader, will read
+devices. **Assistive technology**, such as a screen reader, will read
 content and convey information about the content depending on the
 semantic meaning, for example, identifying headers and reading them in a
 different tone.
@@ -3873,8 +3873,8 @@ after: header, nav, article, section, aside and footer.
    alt="Picture showing the structure of a Web site: header, nav, article, section, aside and footer." />
 </p>
 
-Tags such as<b> <article></b>, <b><section></b>, <b><header></b>, <b><nav>
-and <footer> </b>were specifically introduced in HTML5 to define the Web
+Tags such as** <article>**, **<section>**, **<header>**, **<nav>
+and <footer> **were specifically introduced in HTML5 to define the Web
 page structure. These new semantic elements give meaning to different
 parts of a webpage. When you do a Google search, the search engine
 automatically processes millions of HTML pages to scan and offer you the
@@ -3882,31 +3882,31 @@ most appropriate content.
 
 Each section refers to a part of the document:
 
--   The <b>header</b> can be a starting point for the whole document or
+-   The **header** can be a starting point for the whole document or
     individual sections. It typically contains the introduction.
 
--   The <b>nav</b> refers to navigation. It could contain a set of
+-   The **nav** refers to navigation. It could contain a set of
     navigation links, such as a table of contents of a book.
 
--   The <b>section</b> refers to sections in a document. For example, a
+-   The **section** refers to sections in a document. For example, a
     document about plants could contain several sections under headings
     such as perennials, annuals, soil type, etc.
 
--   The <b>aside</b> refers to content that is apart from the main content.
+-   The **aside** refers to content that is apart from the main content.
     For example, in an article about a young architect from the Umbria
     region of Italy. The aside might be a small sidebar with information
     about Umbria, things like geographical details and population.
 
--   The <b>article</b> refers to independent content. If an article is
+-   The **article** refers to independent content. If an article is
     extracted out of the document, it should make sense all by itself.
     Articles, blog posts, frequently asked questions (FAQ) are all
     examples of independent content.
 
--   The <b>footer</b> contains typical footer information such as
+-   The **footer** contains typical footer information such as
     authoring, copyrights and contact information.
 
-The use of these semantic elements improves the <b>automated processing
-of documents</b>. When it scans a <nav> tag, it automatically knows it
+The use of these semantic elements improves the **automated processing
+of documents**. When it scans a <nav> tag, it automatically knows it
 includes content related to page navigation or a header indicates
 introductory content. It provides the structure and consistent behavior
 across many webpages providing simpler and more direct information to
@@ -4359,7 +4359,7 @@ semantic elements.
 Now, you have learned the semantic elements available and their syntax.
 When you try to apply it practically, there are some common problems you
 might run into. For example, when do we use <header> and when do we
-use <h1> to <h6> tags? Can I use semantic elements
+use &lt;h1&gt; to &lt;h6&gt; tags? Can I use semantic elements
 like <header>, <footer> and <nav> multiple times in my Web page?
 Or a more frequent question, do I
 use <article>, <section> or &lt;div&gt;?
@@ -4371,10 +4371,10 @@ equipped to apply semantic elements in your Web page. 
 
 <header> is simply an area to add any introductory content about your
 page. It can contains headings, paragraphs, tables, images, logos and
-even navigation. <h1> to <h6> are headings we learned early on in
-the course. <h1> is for the most important heading and <h6> is for
+even navigation. &lt;h1&gt; to &lt;h6&gt; are headings we learned early on in
+the course. &lt;h1&gt; is for the most important heading and &lt;h6&gt; is for
 the least important. Let's see an example of how to use
-the <header> and <h1> to <h6> tags in your Web page.
+the <header> and &lt;h1&gt; to &lt;h6&gt; tags in your Web page.
 
 For a simple HTML page, we will use the [W3C HTML5
 specification](https://www.w3.org/TR/html5/). You can view the page's
@@ -4382,7 +4382,7 @@ source code on any browser by right-click and select 'view page source'.
 
 If you view page source on the W3C specification and do a search for
 '<header>', you will be able to view the contents of the header
-element. <b>Here's a simplified version</b>:
+element. **Here's a simplified version**:
 
 ```html5
 1.  <header>
@@ -4408,10 +4408,10 @@ element. <b>Here's a simplified version</b>:
 </p>
 
 Like in the example above, the header can and frequently does contain
-headings <h1> to <h6>. In the case of headings, they do not have be
+headings &lt;h1&gt; to &lt;h6&gt;. In the case of headings, they do not have be
 to be used within a header. 
 
-<b>Important:</b> Headings are extremely helpful as a navigation tool for
+**Important:** Headings are extremely helpful as a navigation tool for
 assistive technology users. While it is valid to skip header levels
 (have an h4 after an h2), it is not a good practice. Assistive
 technology often relies on the semantics of headings to understand your
@@ -4446,7 +4446,7 @@ identify headings](https://www.w3.org/TR/WCAG20-TECHS/H42.html).
    alt="." />
 </p>
 
-Assistive technology uses heading markup, <h1> to <h6> to identify
+Assistive technology uses heading markup, &lt;h1&gt; to &lt;h6&gt; to identify
 headings in a document. By using them to define your document's
 structure, a screen reader that parses your Web page will in some manner
 indicate the heading level. For example, raise its voice to indicate
@@ -4628,7 +4628,7 @@ articles here.</p>
 
 <h4>&lt;article&gt; element</h4>
 
-An <b>article element</b> as we know is stand-alone content. If you pick an
+An **article element** as we know is stand-alone content. If you pick an
 article out of a Web page, it should make sense all by itself.
 In [Brad's Blog example](https://codepen.io/w3devcampus/pen/oWqbad) in
 the previous unit, if you extract only the first article, you can see
@@ -4675,7 +4675,7 @@ into an article element. Maybe a section element?
 
 <h4>&lt;section&gt; element</h4>
 
-The <b>section element</b> is used to section a page. For example, chapters
+The **section element** is used to section a page. For example, chapters
 in a book, sections in a thesis or splitting an 'about me' page into
 introduction, interests and skills. Sections can be used in a page or
 within an article. In fact, all content within the body element is
@@ -4910,7 +4910,7 @@ division or a section of the document. Div is not a semantic element,
 however, it is commonly used when there isn't a better semantic
 sectioning element to use.
 
-It is like a <b>generic container</b> that can hold a variety of
+It is like a **generic container** that can hold a variety of
 elements such as paragraphs, images, links, tables, etc. It can be used
 to group elements for styling purposes. You can do this by assigning
 an id or class attribute to the div element and then applying styles
@@ -5006,16 +5006,16 @@ They are both considered generic elements that don't have any meaning.
 But &lt;div&gt; is a block level element while &lt;span&gt; is an inline
 element. 
 
-<b>Block level elements</b> - used within body of the page. These occupy a
+**Block level elements** - used within body of the page. These occupy a
 block of space and start in a new line. They usually have empty lines
 above and below the block. They can contain inline elements and other
-block level elements. Other examples: <p>, <h1> - <h6>.
+block level elements. Other examples: <p>, &lt;h1&gt; - &lt;h6&gt;.
 
-<b>Inline elements </b>- as the name suggests are 'in-the-line'. They can
+**Inline elements **- as the name suggests are 'in-the-line'. They can
 start anywhere in a line. They can only contain data (like text) or
 other in-line elements. Other examples: <em>, <strong>.
 
-<b>Note: </b>There are several other semantic inline elements such
+**Note: **There are several other semantic inline elements such
 as <abbr>, <cite> and <code> that should be used in preference
 to &lt;span&gt; where possible.
 
@@ -5038,7 +5038,7 @@ with two closing tags </p></p> at the end, they are ignored.
 
 Please find below suggested activities to help you practice:
 
-1.  How are <header> and <h1> related? What is the difference
+1.  How are <header> and &lt;h1&gt; related? What is the difference
     between them?
 
 2.  Create a well structured HTML page using as many semantic elements
@@ -5277,7 +5277,7 @@ The alt attribute is meant to be an alternate source of information
 while the title attribute should provide additional information about
 the image. 
 
-<b>Note</b>: For images, you <b>must</b> use an alt attribute as there is no
+<b>Note</b>: For images, you **must** use an alt attribute as there is no
 guarantee that the title attribute is presented to assistive technology
 users. The title attribute should not be relied upon for important
 information, and it should not be used in place of the alt attribute.
@@ -5705,8 +5705,8 @@ possible.
     and underlined. Ensure no other text in your page is underlined so
     as to avoid confusing the user. They might get frustrated trying to
     click text that they think is a link.</li>
-<li>If you choose to have image links, it should have <b>alternate
-    text</b> that describes the purpose of the link instead of the image
+<li>If you choose to have image links, it should have **alternate
+    text** that describes the purpose of the link instead of the image
     used - describe the target link.</li>
 </ul>
 
@@ -5742,11 +5742,11 @@ status called active link. A link becomes active while the user
 is clicking on it. During this time, the link will be red and
 underlined.
 
--   <b>Unvisited</b>: blue + underlined
+-   **Unvisited**: blue + underlined
 
--   <b>Visited</b>: purple + underlined
+-   **Visited**: purple + underlined
 
--   <b>Active</b>: red + underlined
+-   **Active**: red + underlined
 
 <h4>Usage</h4>
 
@@ -5900,7 +5900,7 @@ attribute allows us to tell the anchor element that this page is
 targeted for handheld devices. You do this by providing a value for the
 attribute. This value could be any valid [media
 query ](https://www.w3.org/TR/css3-mediaqueries/)and is a combination
-of <b>device type</b> and <b>media rendering values</b>.
+of **device type** and **media rendering values**.
 
 Let's look at another example - you could create a print link to a long
 content heavy page that will redirect you to a print version of the
@@ -6504,16 +6504,16 @@ you learn, experimentation.
 
 <h3 id="ch3-1-2">3.1.2 Module 3 Content</h3>
 
-1.  <b>Introduction to Module 3: </b>Get an overview of what CSS (Cascading
+1.  **Introduction to Module 3: **Get an overview of what CSS (Cascading
     Style Sheets) can do for your Web pages.
 
-2.  <b>CSS basic syntax: </b>Understanding the language of CSS: style tags,
+2.  **CSS basic syntax: **Understanding the language of CSS: style tags,
     links tags, rules, and comments.
 
-3.  <b>CSS properties: </b>Here, you will be introduced to just a few of
+3.  **CSS properties: **Here, you will be introduced to just a few of
     the many properties that make CSS such a powerful tool.
 
-4.  <b>Lists and selectors: </b>List markup tags
+4.  **Lists and selectors: **List markup tags
     (<ul>, &lt;ol> and &lt;li>) are some of the most frequently used
     specific purpose tags in HTML, and selectors are what allows you to
     target specific HTML elements and apply style to them
@@ -6557,7 +6557,7 @@ processor. CSS helps to solve this problem.
 
 <h3 id="ch3-1-4">3.1.4 The W3C CSS Working Group</h3>
 
-The <b>CSS Working Group</b> (Cascading Style Sheets Working Group) is
+The **CSS Working Group** (Cascading Style Sheets Working Group) is
 a [working group](https://en.wikipedia.org/wiki/Working_group) created
 by the W3C in 1997 to tackle issues that had not been addressed
 with [CSS](https://en.wikipedia.org/wiki/CSS) level 1.
@@ -6601,7 +6601,7 @@ different. So let's get started.
 
 <h4>The &lt;style&gt; tag</h4>
 
-<!----- <b>********************* image ***************** ------->
+<!----- *********************** image ***************** ------->
 <img src="./images/image052.jpeg"
 style="width:1.5625in;height:1.5625in"
 alt="Snapshot os a style tag in the XDK code editor" />
@@ -6612,7 +6612,7 @@ merely place it directly into the document under edit.  
 
 To place CSS directly into an HTML document, we use the <style> tag.
  This tag can appear anywhere in an HTML document, however, the most
-common practice is to place it in the <head> section.  Such as:
+common practice is to place it in the &lt;head&gt; section.  Such as:
 
 ```
 1.  <!DOCTYPE html>
@@ -6643,7 +6643,7 @@ files (for example: one for text styles and another one for layout).  
 Simply put your CSS into a separate file. This file does not need any
 HTML markup (i.e., no <style> tag required).  Use the .css file
 extension and use a <link> tag to bind it in. The <link> tag must
-appear in the <head> section.  By convention, css files are kept in a
+appear in the &lt;head&gt; section.  By convention, css files are kept in a
 directory named *css*.
 
 <h5>Use this &lt;link&gt; as a template:</h5>
@@ -8821,7 +8821,7 @@ font-size:1.2rem;
 </html>
 ```
 Looking at the style rules we see there are three different
-possibilities for the size and color of an <h1> element. In this case
+possibilities for the size and color of an &lt;h1&gt; element. In this case
 the application of the rules seems pretty intuitive. The outermost
 heading is neither in a Article or a Section, so it is blue and largest
 of the three. The one that's in the Article, but not in the section is
@@ -9898,12 +9898,15 @@ regular and left-aligned by default.
 ```
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 89.  (###) -------------------------------------->
+<!------------------------------ ##. template (##) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="./images/image089.png"
-style="width:6.5in;height:3.23611in" />
+<p align="center" width="100%">
+<img src="./images/image089.png?raw=true"
+   width="65%"
+   alt="." />
+</p>
 
-Now, let's have a look at the <colgroup> and <col> tags
+Now, let's have a look at the &lt;colgroup&gt; and &lt;col&gt; tags
 
 <h4>&lt;colgroup&gt;</h4>
 
@@ -9924,7 +9927,7 @@ cell.
 
 Used within <colgroup>, the <col> tag specifies the column property
 for each column within a colgroup. The only element a <colgroup> can
-contain is <col>. 
+contain is &lt;col&gt;. 
 
 <h4>Attribute:</h4>
 <ul>
@@ -9961,23 +9964,28 @@ achieve styling effects specific to a column. 
 ```
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 90.  (###) -------------------------------------->
+<!------------------------------ 90. color column headers (218) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="./images/image090.png"
-style="width:4in;height:2.53782in" />
+<p align="center" width="100%">
+<img src="./images/image090.png?raw=true"
+   width="40%"
+   alt="Color column headers." />
+</p>
 
 <h3>5.2.3 The &lt;thead&gt;, &lt;tbody&gt; and &lt;tfoot&gt; tags</h3>
 
 Similar to an HTML document, a table in HTML can be split into header,
-body and footer. We use these three tags
-- <thead>, <tbody> and <tfoot> - to specify parts of a table.
+body and footer. We use these three tags;
+<ul>
+<li>&lt;thead&gt;, &lt;tbody&gt; and &lt;tfoot&gt; - to specify parts of a table.</li>
+</ul>
 
 It is very useful to define parts of a table as header, body and footer
 because once browsers are able to identify which cells are header and
 footer, the body can be allowed to scroll independently of header and
 footer catering to a good table viewing experience in small
-screens. [This is one such
-example](https://www.tjvantoll.com/demos/2012-11-10/). Apart from this,
+screens. <a href="https://www.tjvantoll.com/demos/2012-11-10/">This is one such
+example</a>. Apart from this,
 these elements can also be used to style header, body and footer rows
 individually using CSS. 
 
@@ -10100,7 +10108,9 @@ CSS properties simultaneously. 
 The CSS border property
 sets border-width, border-style and border-color in order: 
 
+```
 <b>table { border: 1px solid black; }</b>
+```
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 92.  (###) -------------------------------------->
@@ -10110,7 +10120,9 @@ style="width:6.5in;height:1.67986in" />
 
 To give a border to &lt;table&gt;, <th> and <td>:
 
+```
 1.  table, th, td { border: 1px solid black; }
+```
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 93.  (###) -------------------------------------->
@@ -10166,7 +10178,9 @@ We gave a border to the table, table-header and table-data above. This
 creates two borders creating a double line. In order to collapse them
 all into a single border, we use the border-collapse CSS property:
 
+```
 1.  table { border-collapse: collapse; }
+```
 
 Possible values of this property are: 
 
@@ -10502,51 +10516,35 @@ style="width:4in;height:2.52101in" />
 <h4>HTML</h4>
 
 ```
-> <!DOCTYPE html>
->
-> <html lang="en">
->
-> <head>
->
-> <meta charset="UTF-8">
->
-> <title>Styling your table</title>
->
-> </head>
->
-> <body>
->
-> <table class="eg1">
->
-> <tr><th class="eg1">Names</th><th class="eg1">Age</th><th
-> class="eg1">Gender</th></tr>
->
-> <tr><td class="eg1">Michael</td><td class="eg1">21</td><td
-> class="eg1">Male</td></tr>
->
-> <tr><td class="eg1">Amy</td><td class="eg1">37</td><td
-> class="eg1">Female</td></tr>
->
-> </table>
->
-> <br>
->
-> <table class="eg2">
->
-> <tr><th class="eg2">Names</th><th class="eg2">Age</th><th
-> class="eg2">Gender</th></tr>
->
-> <tr><td class="eg2">Michael</td><td class="eg2">21</td><td
-> class="eg2">Male</td></tr>
->
-> <tr><td class="eg2">Amy</td><td class="eg2">37</td><td
-> class="eg2">Female</td></tr>
->
-> </table>
->
-> </body>
->
-> </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Styling your table</title>
+</head>
+<body>
+<table class="eg1">
+
+<tr><th class="eg1">Names</th><th class="eg1">Age</th><th
+class="eg1">Gender</th></tr>
+<tr><td class="eg1">Michael</td><td class="eg1">21</td><td
+class="eg1">Male</td></tr>
+<tr><td class="eg1">Amy</td><td class="eg1">37</td><td
+class="eg1">Female</td></tr>
+</table>
+
+<br>
+<table class="eg2">
+<tr><th class="eg2">Names</th><th class="eg2">Age</th><th
+class="eg2">Gender</th></tr>
+<tr><td class="eg2">Michael</td><td class="eg2">21</td><td
+class="eg2">Male</td></tr>
+<tr><td class="eg2">Amy</td><td class="eg2">37</td><td
+class="eg2">Female</td></tr>
+
+</table>
+</body>
+</html>
 ```
 
 <h4>zebra table</h4>
@@ -10573,10 +10571,13 @@ of the table or any parent element. Therefore,
 will make the every third list item grey.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 99.  (###) -------------------------------------->
+<!------------------------------ 99.  (###) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="./images/image099.png"
-style="width:4in;height:4.52101in" />
+<p align="center" width="100%">
+<img src="./images/image099.png?raw=true"
+   width="40%"
+   alt="." />
+</p>
 
 <h4>CSS</h4>
 
@@ -10676,7 +10677,7 @@ users differentiate data between rows. 
 6.  table.eg2 tr:hover { background-color: grey; }
 ```
 
-<h5>HTML</h5>
+<h4>HTML</h4>
 
 ```
 1.  <!DOCTYPE html>
@@ -10718,19 +10719,17 @@ With padding, additional columns and rows, your table can easily grow
 rather big overflowing out of the &lt;div&gt; you had planned for your table
 in your Web page. You can use the CSS overflow property to resolve this.
 It has four values other than initial (sets the default value) and
-inherit (from parent element). 
-
--   visible - Content that has overflowed is visible outside the parent
-    element. Eg: Text in a box overflows outside box and is visible.
-
--   hidden - Content that has overflowed is hidden. This makes the
-    overflowed content inaccessible. 
-
--   scroll - Content that has overflowed is hidden but a scroll bar is
-    added to make it accessible. 
-
--   auto - Content that has overflowed is hidden but a scroll bar is
-    automatically added to view hidden content. 
+inherit (from parent element).
+<ul>
+<li>visible - Content that has overflowed is visible outside the parent
+    element. Eg: Text in a box overflows outside box and is visible.</li>
+<li>hidden - Content that has overflowed is hidden. This makes the
+    overflowed content inaccessible.</li>
+<li>scroll - Content that has overflowed is hidden but a scroll bar is
+    added to make it accessible.</li>
+<li>auto - Content that has overflowed is hidden but a scroll bar is
+    automatically added to view hidden content.</li>
+</ul>
 
 To address left and right edges of content, you can use overflow-x and
 to address top and bottom edges of content, you can use overflow-y.
@@ -10874,7 +10873,7 @@ to address top and bottom edges of content, you can use overflow-y.
 As a conclusion to this tables section, here is a complete table design:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------- 102.   () -------------------------------------->
+<!----------------------- 102. picture of a complete table design (239) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image102.png?raw=true"
