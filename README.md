@@ -4362,7 +4362,7 @@ might run into. For example, when do we use <header> and when do we
 use <h1> to <h6> tags? Can I use semantic elements
 like <header>, <footer> and <nav> multiple times in my Web page?
 Or a more frequent question, do I
-use <article>, <section> or <div>?
+use <article>, <section> or &lt;div&gt;?
 
 Fear not. We will discuss these scenarios in detail so you can be better
 equipped to apply semantic elements in your Web page. 
@@ -4673,7 +4673,7 @@ Let's look at another example:
 This doesn't look like it makes sense all on its own. So we can't put it
 into an article element. Maybe a section element?
 
-### <section> element
+<h4>&lt;section&gt; element</h4>
 
 The **section element** is used to section a page. For example, chapters
 in a book, sections in a thesis or splitting an 'about me' page into
@@ -4684,8 +4684,14 @@ in another). Sections can also be part of an article, aside or nav
 elements. While the code above makes no sense by itself, if you add it
 to our CES 2018 <article> example, it will fit right in:
 
-<img src="./images/image035.png"
-style="width:4in;height:4.44255in" />
+<!------------------------------------------------------------------------------------------------>
+<!--------- ##.  (##) ---------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image035.png?raw=true"
+   width="40%"
+   alt="." />
+</p>
 
 <h5>HTML</h5>
 
@@ -4725,14 +4731,20 @@ here.</p>
 An article element can use section elements to split its contents into
 groups.
 
-### Semantic elements sample
+<h4>Semantic elements sample</h4>
 
 To get a better understanding on the usage of semantic elements in your
 Web page, try on
 this [CodePen](https://codepen.io/w3devcampus/pen/Wjzjpx):
 
-<img src="./images/image036.png"
-style="width:4in;height:2.54468in" />
+<!------------------------------------------------------------------------------------------------>
+<!--------- 36.  (##) ---------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image036.png?raw=true"
+   width="40%"
+   alt="." />
+</p>
 
 ```
 <!DOCTYPE html>
@@ -4888,12 +4900,12 @@ mark, figure, figcaption, details and summary.
 Experiment with the sample and try inserting other semantic elements
 that you want to try.
 
-<h3 id="ch2-3-6">2.3.6 <div> and <span> Elements</h3>
+<h3 id="ch2-3-6">2.3.6 &lt;div&gt; and &lt;span&gt; Elements</h3>
 
-<div> element
+<h4>&lt;div&gt; element</h4>
 
-The <div> tag is one you will likely see sprinkled all over an HTML
-document.  <div>, as the Content Division element, is used to define a
+The &lt;div&gt; tag is one you will likely see sprinkled all over an HTML
+document.  &lt;div&gt;, as the Content Division element, is used to define a
 division or a section of the document. Div is not a semantic element,
 however, it is commonly used when there isn't a better semantic
 sectioning element to use.
@@ -4936,10 +4948,10 @@ If you want to style all code snippets in your HTML document a certain
 way, you can place your code in a div container and apply styles
 collectively to it using the class attribute.
 
-<span> element
+&lt;span&gt; element
 
-While we are on the topic of the <div> tag and semantic elements, one
-more important element that comes in handy is <span>. Span and Div are
+While we are on the topic of the &lt;div&gt; tag and semantic elements, one
+more important element that comes in handy is &lt;span&gt;. Span and Div are
 so similar yet so different that there is an entire [wikipedia
 page](https://en.wikipedia.org/wiki/Span_and_div) dedicated to it.
 
@@ -4964,34 +4976,34 @@ Hi everyone! My name is Alexa and I work for
 <h4>ABC Company</h4>
 
 That does not work because <p> creates a new line. The HTML above is
-also invalid. We will see why shortly. Now, let's try using <span>:
+also invalid. We will see why shortly. Now, let's try using &lt;span&gt;:
 
 1.  <p>Hi everyone! My name is Alexa and I work
     for <span class="company">ABC Company</span></p>
 
 Hi everyone! My name is Alexa and I work for ABC Company
 
-When can <span> be used?
+When can &lt;span&gt; be used?
 
 -   when adding styling to part of a sentence (inline),
 
 -   when manipulating part of a sentence using JavaScript,
 
 -   When there isn't a more appropriate HTML element that applies, you
-    can use <span> (and <div>) to add attributes such
+    can use &lt;span&gt; (and &lt;div&gt;) to add attributes such
     as class and id
 
-Like <div>, <span> is not a semantic element. You should only
-use <span> if no other semantic element is
-appropriate. <div> and <span> serve the same purpose but should be
-applied at different levels. <div> is a block level element (for a
-block of space) while <span> is an inline element (for within a line
+Like &lt;div&gt;, &lt;span&gt; is not a semantic element. You should only
+use &lt;span&gt; if no other semantic element is
+appropriate. &lt;div&gt; and &lt;span&gt; serve the same purpose but should be
+applied at different levels. &lt;div&gt; is a block level element (for a
+block of space) while &lt;span&gt; is an inline element (for within a line
 or phrase).
 
-Difference between <div> and <span>
+Difference between &lt;div&gt; and &lt;span&gt;
 
 They are both considered generic elements that don't have any meaning.
-But <div> is a block level element while <span> is an inline
+But &lt;div&gt; is a block level element while &lt;span&gt; is an inline
 element. 
 
 **Block level elements** - used within body of the page. These occupy a
@@ -5005,18 +5017,18 @@ other in-line elements. Other examples: <em>, <strong>.
 
 **Note: **There are several other semantic inline elements such
 as <abbr>, <cite> and <code> that should be used in preference
-to <span> where possible.
+to &lt;span&gt; where possible.
 
 <h4>Why two paragraph tags don't work</h4>
 
-In the first <span> example, we said that nesting two paragraph
+In the first &lt;span&gt; example, we said that nesting two paragraph
 elements was invalid HTML.
 
 <p>Hi everyone! My name is Alexa and I work
 for <p class="company">ABC Company</p></p>
 
 After reading an opening tag <p>, if the browser sees another <p> or
-any other block level element including <div>, it will automatically
+any other block level element including &lt;div&gt;, it will automatically
 close the first open <p> for you. Nesting one paragraph tag in another
 is not valid because the browser will consider them as two
 paragraphs one after the other. Even though you close the paragraphs
@@ -5032,7 +5044,7 @@ Please find below suggested activities to help you practice:
 2.  Create a well structured HTML page using as many semantic elements
     as you can.
 
-3.  Write a short HTML page that uses the <div> and <span> tags. You
+3.  Write a short HTML page that uses the &lt;div&gt; and &lt;span&gt; tags. You
     need not style them.
 
 <h3 id="ch2-4-1">2.4.1 Introduction</h3>
@@ -5115,49 +5127,56 @@ bmp, tiff and png, their pros and cons, and when to use them.
 
 When using images in your HTML5, there are a few image format related
 information to be aware of.
-
--   **Image data:** most images, especially JPEG, contain a lot more
+<ul>
+<li><b>Image data:</b> most images, especially JPEG, contain a lot more
     data than is needed for a browser and are too often overly large and
     slow.  You can reduce the size of the image using photo editing
     software that allows you to re-sample an image to reduce its pixel
     data and in turn reducing image size. However, once you re-sample an
     image, do not make change its size (height and width) to make it
-    larger as it will become pixelated and blurry.
-
--   **JPEG** (Joint Photographic Experts Group) images compress well and
+    larger as it will become pixelated and blurry.</li>
+<li><b>JPEG</b> (Joint Photographic Experts Group) images compress well and
     are the standard for photos. But they don’t support any sort of
-    animation or transparency.
-
--   **PNG** (Portable Network Graphics) images support transparency and
+    animation or transparency.</li>
+<li><b>PNG</b> (Portable Network Graphics) images support transparency and
     alpha channels. This makes them useful for non-rectangular images
     that may need to overlay different background colors or other
     elements on the page. To make PNG images, a user would need graphics
-    editing software (like GIMP, Photoshop, or others). PNG is a [W3C
-    Web standard](https://www.w3.org/TR/PNG/) (this is the 2nd edition -
+    editing software (like GIMP, Photoshop, or others). PNG is a <a href="https://www.w3.org/TR/PNG/">W3C
+    Web standard</a> (this is the 2nd edition -
     the 1st edition
-    was [published](https://www.w3.org/TR/REC-png-961001) in 1996!).
-
--   **SVG** (Scalable Vector Graphics) are defined mathematically and
+    was <a href="https://www.w3.org/TR/REC-png-961001">published</a> in 1996!).
+<li><b>SVG</b> (Scalable Vector Graphics) are defined mathematically and
     support animation. Also, since they are defined mathematically  they
-    scale to <img src="./images/image037.png"
-    style="width:0.73958in;height:0.73958in"
-    alt="Logo Scalable Vector Graphics (SVG)" />any size without
-    worrying about pixels, resolution or image data. This makes SVG
+    scale to:</li>
+</ul>
+<!------------------------------------------------------------------------------------------------>
+<!--------- 37. logo scalable vector graphics (svg) (##) ---------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image037.png?raw=true"
+   width="10%"
+   alt="Logo Scalable Vector Graphics (SVG)." />
+</p>
+
+	any size without worrying about pixels, resolution or image data. This makes SVG
     images an excellent format to use, if possible. SVG is great for
     charts, graphs, maps, geometric shapes, and line based
     illustrations.  SVG is also a markup language in its own right and
     is very similar to HTML. Typically, it is created with vector
     graphic software (like Inkscape, Adobe Illustrator,
-    and [others](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Tools_for_SVG)),
+    and <a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Tools_for_SVG">others</a>),
     but some people write the markup by hand. Note that SVG 1.1 is
-    a [W3C Web standard](https://www.w3.org/TR/SVG/).
+    a <a href="https://www.w3.org/TR/SVG/">W3C Web standard</a>).
 
 <h3 id="ch2-4-2">2.4.2 Attribute alt</h3>
 
-alt stands for *alternate text* for an image.
+<h4>alt stands for <i>alternate text</i> for an image.
 
+```
 1.  <img src="image/example.png" alt="Add a short text description of
     the image here">
+```
 
 Using this attribute, you can provide a short description of what the
 image is about. This description should convey information about the
@@ -5195,15 +5214,13 @@ ignore this content.
 <h4>Purpose of the image</h4>
 
 You can use images for various reasons in your Web page like:
-
-represent a concept, illustration or just a photograph that provide
-information
-
-background for a button or link
-
-display a quote or message in the form of text in an image
-
-decorative images
+<ul>
+<li>represent a concept, illustration or just a photograph that provide
+information</li>
+<li>background for a button or link</li>
+<li>display a quote or message in the form of text in an image</li>
+<li>decorative images</li>
+</ul>
 
 Depending on the category the image fits into, the alt text differs.
 This W3C [WAI images
@@ -5215,8 +5232,10 @@ Here is an example of a tulip image using invalid source (that image is
 missing from the 'images' directory) and how it will look in a Web
 browser:
 
+```
 1.  <img src="image/tulips.png" alt="This is supposed to be an image of
     tulips">
+```
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------ 38. Supposed to be an image of tulips (108) --------------------------->
@@ -5258,7 +5277,7 @@ The alt attribute is meant to be an alternate source of information
 while the title attribute should provide additional information about
 the image. 
 
-**Note**: For images, you **must** use an alt attribute as there is no
+<b>Note</b>: For images, you **must** use an alt attribute as there is no
 guarantee that the title attribute is presented to assistive technology
 users. The title attribute should not be relied upon for important
 information, and it should not be used in place of the alt attribute.
@@ -5289,8 +5308,10 @@ pixels.
 
 Now, if I want to resize the HTML logo above by half:
 
+```
 1.  <img src="images/html5.png" alt="HTML resized image" title="Resized
     image seems to fit the page better" height="173" width="262">
+```
 
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- 41. html5 logo resized (109) ---------------------------------->
@@ -5305,8 +5326,10 @@ Actually, you don't need to define both width and height. You can just
 specify either height or width and the aspect ratio will be adjusted.
 For example, the image above can be achieved using the following too:
 
+```
 1.  <img src="images/html5.png" alt="HTML resized image" title="Resized
     image seems to fit the page better" height="173">
+```
 
 The use of these attributes really depends on how you are using the
 image. If it is part of an [image
@@ -5339,16 +5362,14 @@ We know we should keep content and style separate in HTML. Then how do
 we move these images out of content? Well, don't add them using
 the <img> tag in HTML. Use CSS instead. 
 
-Examples of such images:
-
--   background images
-
--   fancy border graphics
-
--   banner graphics
-
--   pictures of landscapes or textures that are being used as elements
-    behind or surrounding the content
+<h4>Examples of such images:</h4>
+<ul>
+<li>background images</li>
+<li>fancy border graphics</li>
+<li>banner graphics</li>
+<li>pictures of landscapes or textures that are being used as elements
+    behind or surrounding the content</li>
+</ul>
 
 Some pages (especially for video games, fancy magazines, etc) have a lot
 of eye-candy imagery that is not core to any of the semantic meaning of
@@ -7056,7 +7077,7 @@ tags <span>, <a>, <i>, <b>, <q> and others are considered
 And text-align is often not useful on these tags.
 
 But it is useful on block level text tags, such
-as <p>, <li>, <ul>, <ol>, <div>,
+as <p>, <li>, <ul>, <ol>, &lt;div&gt;,
 and <blockquote>
 
 ```
@@ -10087,7 +10108,7 @@ sets border-width, border-style and border-color in order: 
 <img src="./images/image092.png"
 style="width:6.5in;height:1.67986in" />
 
-To give a border to <table>, <th> and <td>:
+To give a border to &lt;table&gt;, <th> and <td>:
 
 1.  table, th, td { border: 1px solid black; }
 
@@ -10358,25 +10379,25 @@ table { border-collapse: collapse;}
 th, td { padding: 20px; }
 ```
 
-### HTML
+<h4>HTML</h4>
 
 ```
-<!DOCTYPE html>
-> <html lang="en">
-> <head>
-> <meta charset="UTF-8">
-> <title>Styling your table</title>
-> </head>
-> <body>
-> <table>
-> <tr><th>Names</th><th>Age</th></tr>
+!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Styling your table</title>
+</head>
+<body>
+<table>
+<tr><th>Names</th><th>Age</th></tr>
 <tr><td>Michael</td><td>21</td></tr>
 </table>
 </body>
 </html>
 ```
 
-### border-spacing
+<h4>border-spacing</h4>
 
 border-spacing specifies the distance between two cell borders in
 pixels. This is different from padding which is space between content in
@@ -10410,69 +10431,45 @@ style="width:4in;height:2.52101in" />
 <h4>CSS</h4>
 
 ```
-> table, th, td { border: 1px solid black; }
->
-> table { border-collapse: separate;}
->
-> table.eg1, th.eg1, td.eg1 { border-spacing: 50px; }
->
-> table.eg2, th.eg2, td.eg2 { border-spacing: 25px 50px; }
->
-> table.eg3, th.eg3, td.eg3 { border-spacing: 50px 25px; }
+table, th, td { border: 1px solid black; }
+table { border-collapse: separate;}
+table.eg1, th.eg1, td.eg1 { border-spacing: 50px; }
+table.eg2, th.eg2, td.eg2 { border-spacing: 25px 50px; }
+table.eg3, th.eg3, td.eg3 { border-spacing: 50px 25px; }
 ```
+
 <h4>HTML</h4>
+
 ```
-> <!DOCTYPE html>
->
-> <html lang="en">
->
-> <head>
->
-> <meta charset="UTF-8">
->
-> <title>Styling your table</title>
->
-> </head>
->
-> <body>
->
-> <table class="eg1">
->
-> <tr><th class="eg1">Names</th><th
-> class="eg1">Age</th></tr>
->
-> <tr><td class="eg1">Michael</td><td
-> class="eg1">21</td></tr>
->
-> </table>
->
-> <br>
->
-> <table class="eg2">
->
-> <tr><th class="eg2">Names</th><th
-> class="eg2">Age</th></tr>
->
-> <tr><td class="eg2">Michael</td><td
-> class="eg2">21</td></tr>
->
-> </table>
->
-> <br>
->
-> <table class="eg3">
->
-> <tr><th class="eg3">Names</th><th
-> class="eg3">Age</th></tr>
->
-> <tr><td class="eg3">Michael</td><td
-> class="eg3">21</td></tr>
->
-> </table>
->
-> </body>
->
-> </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Styling your table</title>
+</head>
+<body>
+<table class="eg1">
+<tr><th class="eg1">Names</th><th
+class="eg1">Age</th></tr>
+<tr><td class="eg1">Michael</td><td
+class="eg1">21</td></tr>
+</table>
+<br>
+<table class="eg2">
+<tr><th class="eg2">Names</th><th
+class="eg2">Age</th></tr>
+<tr><td class="eg2">Michael</td><td
+class="eg2">21</td></tr>
+</table>
+<br>
+<table class="eg3">
+<tr><th class="eg3">Names</th><th
+class="eg3">Age</th></tr>
+<tr><td class="eg3">Michael</td><td
+class="eg3">21</td></tr>
+</table>
+</body>
+</html>
 ```
 
 <h4>Side-borders</h4>
@@ -10480,7 +10477,9 @@ style="width:4in;height:2.52101in" />
 The first property border will set a border to all four sides. You can
 also set borders to individual sides - top, right, bottom, left:
 
+```
 1.  th, td { border-right: 1px solid black; }
+```
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 98.  (###) -------------------------------------->
@@ -10490,6 +10489,7 @@ style="width:4in;height:2.52101in" />
 
 <h4>CSS</h4>
 
+```
 > table { border-collapse: collapse;}
 >
 > table, th, td { padding: 15px;}
@@ -10497,9 +10497,11 @@ style="width:4in;height:2.52101in" />
 > table.eg1, th.eg1, td.eg1 { border: 1px solid black; }
 >
 > table.eg2, th.eg2, td.eg2 { border-bottom: 1px solid black; }
+```
 
 <h4>HTML</h4>
 
+```
 > <!DOCTYPE html>
 >
 > <html lang="en">
@@ -10545,8 +10547,9 @@ style="width:4in;height:2.52101in" />
 > </body>
 >
 > </html>
+```
 
-### zebra table
+<h4>zebra table</h4>
 
 A zebra table has alternating colors for table rows making it easier to
 differentiate data between rows. You can specify which rows you want to
@@ -10555,14 +10558,17 @@ property to a set of even or odd table rows to created a striped effect.
 You can set odd or even rows a particular color and leave the other rows
 white (default color).
 
+```
 1.  tr:nth-child(even) { background-color: grey; }
-
 2.  tr:nth-child(odd) { background-color: #ccff99; }
+```
 
 The '*n*th-child' selector matches every element that is the *n*th child
 of the table or any parent element. Therefore,
 
+```
 1.  tr:nth-child(3n) { background-color: grey; } 
+```
 
 will make the every third list item grey.
 
@@ -10574,120 +10580,90 @@ style="width:4in;height:4.52101in" />
 
 <h4>CSS</h4>
 
+```
 1.  table { border-collapse: collapse; }
-
 2.  table, th, td { padding: 15px; border-bottom: 1px solid black; }
-
 3.  
-
 4.  table.eg1 tr:nth-child(even) { background-color: #ccff99; }
-
 5.  
-
 6.  table.eg2 tr:nth-child(odd) { background-color: #ccff99; }
-
 7.  
-
 8.  table.eg3 tr:nth-child(3n) { background-color: #ccff99; }
+```
 
-### HTML
+<h4>HTML</h4>
 
+```
 1.  <!DOCTYPE html>
-
 2.  <html lang="en">
-
 3.  
-
 4.  <head>
-
 5.  <meta charset="UTF-8">
-
 6.  <title>Styling your table</title>
-
 7.  </head>
-
 8.  <body>
-
 9.  <table class="eg1">
-
 10. <tr><th class="eg1">Name</th><th class="eg1">Age</th><th
     class="eg1">Gender</th></tr>
-
 11. <tr><td class="eg1">Michael</td><td
     class="eg1">21</td><td class="eg1">Male</td></tr>
-
 12. <tr><td class="eg1">Amy</td><td class="eg1">37</td><td
     class="eg1">Female</td></tr>
-
 13. <tr><td class="eg1">Mark</td><td class="eg1">32</td><td
     class="eg1">Male</td></tr>
-
 14. </table>
-
 15. <br><br>
-
 16. <table class="eg2">
-
 17. <tr><th class="eg2">Name</th><th class="eg2">Age</th><th
     class="eg2">Gender</th></tr>
-
 18. <tr><td class="eg2">Michael</td><td
     class="eg2">21</td><td class="eg2">Male</td></tr>
-
 19. <tr><td class="eg2">Amy</td><td class="eg2">37</td><td
     class="eg2">Female</td></tr>
-
 20. <tr><td class="eg2">Mark</td><td class="eg2">32</td><td
     class="eg2">Male</td></tr>
-
 21. </table>
-
 22. <br><br>
-
 23. <table class="eg3">
-
 24. <tr><th class="eg3">Name</th><th class="eg3">Age</th><th
     class="eg3">Gender</th></tr>
-
 25. <tr><td class="eg3">Michael</td><td
     class="eg3">21</td><td class="eg3">Male</td></tr>
-
 26. <tr><td class="eg3">Sarah</td><td class="eg3">37</td><td
     class="eg3">Female</td></tr>
-
 27. <tr><td class="eg3">Mark</td><td class="eg3">32</td><td
     class="eg3">Male</td></tr>
-
 28. <tr><td class="eg3">Paul</td><td class="eg3">25</td><td
     class="eg3">Male</td></tr>
-
 29. <tr><td class="eg3">Jack</td><td class="eg3">26</td><td
     class="eg3">Male</td></tr>
-
 30. <tr><td class="eg3">Juliet</td><td class="eg3">55</td><td
     class="eg3">Female</td></tr>
-
 31. </table>
-
 32. </body>
-
 33. </html>
+```
 
-### hover to highlight
+<h4>hover to highlight</h4>
 
 Using the hover property on your <tr>, you can mouse over rows in your
 table to highlight them in the color you specify. This is useful to help
 users differentiate data between rows. 
 
+```
 1.  tr:hover {background-color: #ccff99; }
+```
 
-### Hover over these tables:
+<h4>Hover over these tables:</h4>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 100.  (###) -------------------------------------->
+<!------------------------------------- 100.  () -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="./images/image100.png"
-style="width:4in;height:3.80672in" />
+<p align="center" width="100%">
+<img src="./images/image100.png?raw=true"
+   width="40%"
+   alt="image100.png" />
+</p>
 
 <h4>CSS</h4>
 
@@ -10739,7 +10715,7 @@ style="width:4in;height:3.80672in" />
 <h4>overflow</h4>
 
 With padding, additional columns and rows, your table can easily grow
-rather big overflowing out of the <div> you had planned for your table
+rather big overflowing out of the &lt;div&gt; you had planned for your table
 in your Web page. You can use the CSS overflow property to resolve this.
 It has four values other than initial (sets the default value) and
 inherit (from parent element). 
@@ -10760,10 +10736,13 @@ To address left and right edges of content, you can use overflow-x and
 to address top and bottom edges of content, you can use overflow-y.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 101.  (###) -------------------------------------->
+<!------------------------------------- 101.   () -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="./images/image101.png"
-style="width:4in;height:2.5126in" />
+<p align="center" width="100%">
+<img src="./images/image101.png?raw=true"
+   width="40%"
+   alt="" />
+</p>
 
 <h5>CSS</h5>
 
@@ -10894,8 +10873,14 @@ style="width:4in;height:2.5126in" />
 
 As a conclusion to this tables section, here is a complete table design:
 
-<img src="./images/image102.png"
-style="width:4in;height:4.52941in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------- 102.   () -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image102.png?raw=true"
+   width="40%"
+   alt="" />
+</p>
 
 <h5>CSS</h5>
 
@@ -11000,10 +10985,10 @@ style="width:4in;height:4.52941in" />
 57. </html>
 ```
 
-<b>Note**: This table contains multi-line headers. You can find more
+<b>Note</b>: This table contains multi-line headers. You can find more
 information on the right way to design tables of different header types
-on this W3C [Tables
-Concepts](https://www.w3.org/WAI/tutorials/tables/) page.
+on this W3C <a href="https://www.w3.org/WAI/tutorials/tables/">Tables
+Concepts</a> page.
 
 <h3>5.2.6 Creating a Table</h3>
 
@@ -11371,7 +11356,7 @@ little more visually appealing inside your document.
 
 2.  Create the following table with same cell content:
 
-| <b>Attribute<b> | <b>Description<b>                                | <b>Usage<b>                         |
+| <b>Attribute</b> | <b>Description<b/>                                | <b>Usage<b/>                         |
 |---------------|------------------------------------------------|-----------------------------------|
 | src           | Used to specify the URL of the image           | src=“images/test.png"             |
 | alt           | Used to specify replacement text for the image | alt=“Test image for HTML5 course” |
@@ -11379,16 +11364,29 @@ little more visually appealing inside your document.
 3.  Create the following table structure using HTML and CSS following
     the style as closely as possible noting table border, colors, etc.  
     Insert dummy text values for table.  
-    <img src="./images/image103.png"
-    style="width:6.025in;height:1.56667in"
-    alt="Tables activity #2: it&#39;s a 3x3 table - the header row has a dark grey background; the last column is composed of the header cell and the other cells are grouped; the last row has the 2 first cells merged" />
+
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------- 103. tables activity #2  () -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image103.png?raw=true"
+   width="60%"
+   alt="Tables activity #2: it&#39;s a 3x3 table - the header row has a dark grey background; the last column is composed of the header cell and the other cells are grouped; the last row has the 2 first cells merged." />
+</p>
 
 4.  Create the following table structure using HTML and CSS following
     the style as closely as possible noting table border, colors, etc.  
     Make the table cover the entire width of the screen.   
-    Insert dummy text values for the table.  
-    <img src="./images/image104.png"
-    style="width:6.5in;height:2.38333in" alt="Tables activity example" />
+    Insert dummy text values for the table.
+
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------- 104. tables activity #2  () -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image104.png?raw=true"
+   width="65%"
+   alt="." />
+</p>
 
 5.  Find a table used in a real Web page whose table body can be
     scrolled. 
@@ -12585,7 +12583,7 @@ Your favorite browser is not always right.
         It](https://alistapart.com/article/meaningful-css-style-like-you-mean-it/) (Tim
         Baxter, May 2016 - A list apart).
 
-    -   Use <table> for tabular data: don't use tables for layout, but
+    -   Use &lt;table&gt; for tabular data: don't use tables for layout, but
         if your content is tabular like a catalog, a calendar, or a
         price list, then the table element is the correct markup.
 
@@ -13951,7 +13949,7 @@ and better results are achieved with a third.
 ```
 
 Here is a series of screen captures showing these minimum options
-applied to a parent <div> and four identical paragraphs at various
+applied to a parent &lt;div&gt; and four identical paragraphs at various
 browser sizes, with no other properties applied except some small margin
 and padding on the paragraph, and a background color and a border radius
 to help visualize.
@@ -14022,7 +14020,7 @@ flex item, as it happens automatically. 
 
 One other automatic behavior to be aware of is that empty flex items are
 automatically removed from the flex container. Keep that in mind if you
-were planning on using an empty <div></div> construct as a
+were planning on using an empty &lt;div&gt;&lt;/div&gt; construct as a
 placeholder for a CSS background image.
 
 There is an array of flex item properties that can be applied to the
@@ -14830,5 +14828,5 @@ These are the final changes to our recipe project for this unit.
    alt="." />
 </p>
 
-<h3><b>Last Updated 08-12-2022 07:51am</b></h3>
+<h3><b>Last Updated 08-12-2022 10:16pm</b></h3>
 
