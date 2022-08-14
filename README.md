@@ -944,9 +944,9 @@ toolbar and the title is also used in the browser history.
 For example, in our page we had typed: "my first HTML page", and that's
 where that would be created.
 
-That's the head tag. &lt;head&gt;
+That's the head tag. <b>&lt;head&gt;</b>
 
-Next up is the body element. &lt;body&gt;
+Next up is the body element. <b>&lt;body&gt;</b>
 
 And as its name suggests, this element contains the body of the page,
 meaning all of its contents.
@@ -966,9 +966,9 @@ page "Hello HTML!", and the page title we've said is my first HTML page,
 and that's the amount of code it takes to construct that page.
 
 Hello, everyone. Today, I'd like to give you a brief overview of a site
-called CodePen.
+called <b>CodePen</b>.
 
-I'm already at the site here in my browser at codepen.io, so you should
+I'm already at the site here in my browser at <b>codepen.io</b>, so you should
 browse there, too.
 
 And here I am at the landing page and I haven't logged in, I don't have
@@ -1006,12 +1006,12 @@ And you can see an "Editor" opens up, and it has a HTML Pane, A CSS
 Pane, a JavaScript Pane, and an Output Pane. This is just an example.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ image-example 13 1/2. example (23) ------------------------------>
+<!-------------------------- image-example 13 1/2. example editor (23) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image-example.png"
    width="85%"
-   alt="Example" />
+   alt="Example editor." />
 </p>
 
 We won't go into the code in this example.
@@ -1622,7 +1622,7 @@ a text file?  Well, that's where "tags" come in.
 <h3 id="ch1-3-4">1.3.4 Tags</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------------------- 16. tags (36) ----------------------------------------->
+<!---------------------------------------- 16. tags (35) ----------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image016.png?raw=true"
@@ -1658,19 +1658,19 @@ the beginning and end of a paragraph (indicated by the single letter
 <p>This is my first paragraph!</p>
 ```
 
-The browser sees the letters '<p>' and decides 'A new paragraph is
+The browser sees the letters '&lt;p&gt;' and decides 'A new paragraph is
 starting, I'd better start a new line and maybe indent it'. Then when it
 sees '</p>' it knows that the paragraph it was working on is finished,
 so it should break the line there before going on to whatever is next.
 
-For example, the '<em>' tag is used for element that needs *Em*phasis.
+For example, the '&lt;em&gt;' tag is used for element that needs <i>Em</i>phasis.
  The  '<' and '>' indicate that this is a tag, and the "little bits of
 text" in between tell us what kind of tag it is.  To completely describe
 the element, it needs an open and close tag, with everything in between
 the tags being the content of the element:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 17. diagram of an element  (34) --------------------------------->
+<!------------------------------- 17. diagram of an element (34) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image017.png?raw=true"
@@ -1797,7 +1797,7 @@ But more about attributes in the next module.
 One key to understanding HTML, or any computer language, is to be sure
 that you avoid ambiguity, because computers generally are not good at
 judgement calls. For example, you could streamline HTML so that whenever
-you see a <p> tag, you start a new paragraph, no close tag needed.
+you see a &lt;p&gt; tag, you start a new paragraph, no close tag needed.
 That might work most of the time, but that would prevent you from
 nesting one element inside another, as the browser could not know if you
 meant the new element to be nested or a successor.
@@ -1897,7 +1897,7 @@ Hint, for the head of the document you would write:
 </head>
 ```
 
-You may recall the paragraph tag <p> that we used in the example
+You may recall the paragraph tag &lt;p&gt; that we used in the example
 above. Try inserting a paragraph into the body of your new document.
  You should end up with something that looks like this:
 
@@ -2237,23 +2237,19 @@ character).
 
 There are predefined, named character references in HTML for several
 categories, these include:
-
--   currency symbols
-
--   copyright, trademark and registered symbol
-
--   general punctuation
-
--   arrows
-
--   mathematical symbols
-
--   Greek letters
+<ul>
+<li>currency symbols</li>
+<li>copyright, trademark and registered symbol</li>
+<li>general punctuation</li>
+<li>arrows</li>
+<li>mathematical symbols</li>
+<li>Greek letters</li>
+</ul>
 
 For a list of <b>named</b> character references available in HTML, visit:
  <https://dev.w3.org/html5/html-author/charref>.
 
-*Any* Unicode character can be represented using a <b>numeric</b> character
+<i>Any</i> Unicode character can be represented using a <b>numeric</b> character
 reference.
 
 Apart from the characters used for HTML syntax (described in the
@@ -2286,8 +2282,8 @@ There is no need for the &copy; or &euro; HTML character reference if
 you are able to type the character itself.
 
 If you'd like to read more information about when to use character
-references and when not to use them, see [Using character escapes in
-markup and CSS](https://www.w3.org/International/questions/qa-escapes).
+references and when not to use them, see <a href="https://www.w3.org/International/questions/qa-escapes">Using character escapes in
+markup and CSS</a>.
 
 <h3 id="ch1-5-1">1.5.1 Learning from the Mistakes of Others</h3>
 
@@ -2300,15 +2296,15 @@ overwhelming, and you can't really learn (or teach) everything at once.
 you fully understand the issue.
 
 That brings up a term you'll be hearing quite a bit in this class:
-"*<b>best practices</b>*".  It's often said that bad programs can be
+"<i><b>best practices</b></i>".  It's often said that bad programs can be
 written in any language, and we've found that to be true (at least in
 every language we've seen).  Over time, developers learn that some
 habits are better than others, in other words that some habits ,
-like [avoiding redundancy and
-repetition](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself), tend
+like <a href="https://en.wikipedia.org/wiki/Don%27t_repeat_yourself">avoiding redundancy and
+repetition</a>, tend
 to make a program more clear and easier to understand and maintain than
-other habits, like [using goto
-statements](https://www.cs.utexas.edu/users/EWD/ewd02xx/EWD215.PDF).  It
+other habits, like <a href="https://www.cs.utexas.edu/users/EWD/ewd02xx/EWD215.PDF">using goto
+statements</a>.  It
 could also be about performance, i.e. in a given language doing a task
 one way may be faster than another.
 
@@ -2335,8 +2331,8 @@ you meant it to. Or maybe it does look like you want, but you do not
 want to depend on that. In general, best practices would call for one to
 do it properly, and not depend on the browser to patch it for you.
 
-Because an HTML file essentially represents a [tree
-structure](https://en.wikipedia.org/wiki/Tree_(data_structure)), the
+Because an HTML file essentially represents a <a href="https://en.wikipedia.org/wiki/Tree_(data_structure)">tree
+structure</a>, the
 open and close tags should always match, and there should not be any
 overlap with other elements. That is, you can have an element that is
 enclosed in another element, or you can have two elements side-by-side,
@@ -2345,22 +2341,22 @@ another, but the other part is not.
 
 ```xml
   <p>This is a <em>paragraph</em></p>
-   
+  
   <h1>Paragraph ahead</h1>
   <p>And here it is.</p>
 ```
 
 The two examples above are fine because in each case either an element
-is wholly contained in another (<em> in <p>) or they are completely
-separate (&lt;h1&gt; and <p>). This, on the other hand, is not valid:
+is wholly contained in another (&lt;em&gt; in &lt;p&gt;) or they are completely
+separate (&lt;h1&gt; and &lt;p&gt;). This, on the other hand, is not valid:
 
 ```xml
-  <h1>Part of this header is<p>in the</h2> paragraph below</p>
+  <h1>Part of this header is&lt;p&gt;in the</h2> paragraph below</p>
 ```
 
 What happens in this case is what we call "undefined". That just means
 that there is no telling how the browser will decide to handle it. It
-might decide to automatically close the <p> when it sees another close
+might decide to automatically close the &lt;p&gt; when it sees another close
 tag, or it could complain about an unexpected close tag at the header.
 Then it might complain again when there is a now
 unexpected close </p> tag.
@@ -2663,9 +2659,9 @@ deeply. Try not to skip levels of headers when nesting them. <b>Headings
 are really useful for some assistive technology users and missing levels
 can be confusing</b>.
 
--   <b><p></b> - <i><b>P</b></i> is for 'paragraph', which is the tag you may use
+-   <b>&lt;p&gt;</b> - <i><b>P</b></i> is for 'paragraph', which is the tag you may use
     to arrange much of your text information.  Depending on the style
-    you are using, text wrapped in a <p> tag may be indented or have
+    you are using, text wrapped in a &lt;p&gt; tag may be indented or have
     extra vertical white space before starting.  When rendered on the
     Web page, a <i>p<i> element creates a new line.
 
@@ -3654,7 +3650,7 @@ rule and were eventually corrected in HTML5.
 
 1.  <p>This text is in <i>Italics</i>. It uses the i tag</p>
 
-2.  <p>This text is also in <em>Italics</em>. But it uses the em
+2.  <p>This text is also in &lt;em&gt;Italics</em>. But it uses the em
     tag!</p>
 
 3.  <p>This text is in <b>Bold</b>. It uses the b tag</p>
@@ -3673,7 +3669,7 @@ This is how the above HTML code will look in a browser: 
 </p>
 
 It seems redundant for two tags to do the same thing in HTML.
-While <b> and <strong>, <i> and <em> seem no different in a
+While <b> and <strong>, <i> and &lt;em&gt; seem no different in a
 regular Web browser there is an important difference between them.
 
 <h4>Semantic vs Style tags</h4>
@@ -3789,12 +3785,12 @@ back. This time, with semantic meaning.
 |-------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | <b> | Apart from bolded text, it is now also used as a stylistic offset such as keywords in a document, product names or action words without making them as important. It can also be used as headings in list items. | <p>The owner of this <b>rabbit</b>and <b>hamster</b> needs to step forward.</p>         |
 
-As of HTML5, <em> is now also used for words and sentences you would
+As of HTML5, &lt;em&gt; is now also used for words and sentences you would
 pronounce differently. It is not used to convey importance. For that you
 should use <strong>. 
 
-You can nest both <em> and <strong>. Two <em> means higher level
-of stress/emphasis on the content than one <em>.
+You can nest both &lt;em&gt; and <strong>. Two &lt;em&gt; means higher level
+of stress/emphasis on the content than one &lt;em&gt;.
 
 You should also bear in mind that <b> and <i> may not produce
 appropriate styling for some parts of the world. For example, Chinese
@@ -3830,7 +3826,7 @@ deprecated.
 
 From a semantic HTML perspective, using the right tags is important. You
 should use <blockquote> to wrap a quote and not use a paragraph tag
-and then style it to look like a quote. You should use <em> to
+and then style it to look like a quote. You should use &lt;em&gt; to
 emphasize a part of your content, not just to italicize text. For
 presentation purposes, you can achieve the same using CSS. How something
 looks has very little to do with what it means. This is why in HTML, we
@@ -4250,7 +4246,7 @@ support</a> (on caniuse.com).
 If you have had a chance to try the examples of the semantic elements
 discussed above, you will notice that semantic elements are not visually
 promising in general. Only a few semantic elements such
-as <mark>, <em>, <strong> and <code> provide some kind of visual
+as <mark>, &lt;em&gt;, <strong> and <code> provide some kind of visual
 change to the document. The rest don't do anything except providing the
 structure for your document. 
 
@@ -4351,7 +4347,7 @@ Los Angeles, USA<br />
 </table>
 
 Apart from
-these, <cite>, <em>, <strong>, <p> and <blockquote> are also
+these, <cite>, &lt;em&gt;, <strong>, <p> and <blockquote> are also
 semantic elements.
 
 <h3 id="ch2-3-4">2.3.4 Differentiating Semantic Elements</h3>
@@ -5013,7 +5009,7 @@ block level elements. Other examples: <p>, &lt;h1&gt; - &lt;h6&gt;.
 
 **Inline elements **- as the name suggests are 'in-the-line'. They can
 start anywhere in a line. They can only contain data (like text) or
-other in-line elements. Other examples: <em>, <strong>.
+other in-line elements. Other examples: &lt;em&gt;, <strong>.
 
 **Note: **There are several other semantic inline elements such
 as <abbr>, <cite> and <code> that should be used in preference
@@ -7164,7 +7160,7 @@ blockquote { font-weight: 900; }
 
 <h4>font-style (italic)</h4>
 
-Earlier we saw that the <i> and <em> tags could make text
+Earlier we saw that the <i> and &lt;em&gt; tags could make text
 italicized. But, just as we saw when discussing font-weight, this can be
 changed with CSS, and any tag can make its text italic or oblique with
 the font-style property.  The choices of values for this property
