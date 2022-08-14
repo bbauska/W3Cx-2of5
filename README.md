@@ -2712,17 +2712,17 @@ effect in your Web page when you use them:
 > Early to bed and early to rise, makes someone healthy, wealthy and
 > wise - Benjamin Franklin
 
--   <b><ul></b>,<b> <ol>** - These two tags are used to indicate a list
-    of things.  The only difference is that <ol> is an "ordered" list,
+-   <b>&lt;ul&gt;</b>,<b>&lt;ol&gt;</b> - These two tags are used to indicate a list
+    of things.  The only difference is that &lt;ol&gt; is an "ordered" list,
     meaning the elements are in a particular order, and it might be a
-    good idea to number them.  The "<b>u**" in <ul> stands for
+    good idea to number them.  The "<b>u</b>" in &lt;ul&gt; stands for
     "unordered" and is used for a list of things where the order doesn't
     really matter, so it is usually rendered as a bulleted list, or some
     other structure without numbers.
 
--   <b><li>** - The <b>li** element is a "List Item", i.e. one item in
+-   <b>&lt;li&gt;</b> - The <b>li</b> element is a "List Item", i.e. one item in
     the list.  As you might expect, this element only really makes sense
-    nested inside a list (<ul> or <ol>).  In the final
+    nested inside a list (&lt;ul&gt; or &lt;ol&gt;).  In the final
     rendering, each li element would typically be preceded by a number
     or bullet, or something similar (but not necessarily).  Thus a list
     in HTML would look like this:
@@ -2752,21 +2752,21 @@ is for the logical structure of your content, not what it looks like.
  Well, this is not entirely true.  There are some HTML elements that are
 primarily used to invoke certain formatting. 
 
--   <b><hr>** - The <b>hr** tag stands for horizontal rule and is used
+-   <b><hr></b> - The <b>hr</b> tag stands for horizontal rule and is used
     to insert a horizontal line across the width of the text, or a
     thematic break in an HTML page to divide or separate document
     sections. The <hr> tag is an empty tag and does not require an end
     tag. It would typically look like this:
 
--   <b><br>** - This tag signifies a line break, and is used for any
+-   <b><br></b> - This tag signifies a line break, and is used for any
     number of situations.  For example, it can be an easy way to make
     sure that lines of poetry break where they're supposed to (less
     verbose than requiring each line to be a separate element).
      Essentially it helps break the "white space" rule: where spaces and
-    carriage returns are generally treated the same, the <br> tag is
+    carriage returns are generally treated the same, the &lt;br&gt; tag is
     treated as a required carriage return.   
     Because it's an empty tag, there's no need for a close tag. Indeed,
-    if you do try adding </br> after your <br> tag, it will likely
+    if you do try adding &lt;/br&gt; after your &lt;br&gt; tag, it will likely
     be interpreted as an additional break. If you feel a strong need to
     indicate tag closure, <br /> is also valid syntax.  
     Note that the <br> tag implies a break even if there is no break
@@ -2787,10 +2787,10 @@ primarily used to invoke certain formatting. 
 <p align="center" width="100%">
 <img src="./images/image019.png?raw=true"
    width="25%"
-   alt="Example of Poetry as it might appear on a Web Page" />
+   alt="Example of Poetry as it might appear on a Web Page." />
 </p>
 
--   <b><pre>** - <b>pre** stands for "PREformatted text", meaning that
+-   <b>&lt;pre&gt;</b> - <b>pre</b> stands for "PREformatted text", meaning that
     the text is to be presented exactly as written in the HTML file. It
     preserves all text formatting characters i.e. spaces, line
     breaks and (thus bypassing the white space rule) and most typically
