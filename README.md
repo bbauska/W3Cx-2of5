@@ -2260,8 +2260,8 @@ defined by Unicode. So, the best practice for symbols like copyright,
 currency symbols, math and arrows is to simply type them directly into
 the source code.
 
-You can do this directly in the code:   <p>This is © 2015. Breach will
-entail a fine of € 400</p>
+You can do this directly in the code:   &lt;p&gt; is © 2015. Breach will
+entail a fine of € 400&lt;/p&gt;
 
 <h4>HTML</h4>
 
@@ -2359,7 +2359,7 @@ that there is no telling how the browser will decide to handle it. It
 might decide to automatically close the &lt;p&gt; when it sees another close
 tag, or it could complain about an unexpected close tag at the header.
 Then it might complain again when there is a now
-unexpected close </p> tag.
+unexpected close &lt;/p&gt; tag.
 
 If you played around with the minimal HTML file from the previous
 section, you might have noticed that you can get more minimal than that.
@@ -2505,7 +2505,7 @@ different names.  Note that distinguishing different id's solely by case
 (i.e. spelled the same but with different capitalization) is a really
 bad practice (opposite of best practice).  Instead you can use
 capitalization in other ways,
-like [CamelCase](https://en.wikipedia.org/wiki/CamelCase).
+like <a href="https://en.wikipedia.org/wiki/CamelCase">CamelCase</a>.
 
 <h4>Any kind of quotes for strings</h4>
 
@@ -2535,7 +2535,7 @@ another double quote.  Any single quotes will be happily considered part
 of the string, which is handy if you need quotation marks in your
 string.  Because of this, if you create a string as ' "quote" ' (single
 quotes containing a double quoted string),  your string will have the
-letters <space>-"-q-u-o-t-e-"-<space> (with double quotes in the
+letters <space>-"-q-u-o-t-e-"-&lt;space&gt; (with double quotes in the
 string and spaces outside those) as opposed to "quote" which will just
 have the letters q-u-o-t-e (no quotation marks or spaces in the string).
  Nevertheless, best practice is to be consistent in your quotes, so it's
@@ -2547,34 +2547,32 @@ understand it anyway.
 The idea is to take advantage of these flexibilities to create clean
 organized code that is easy for a human to comprehend.  I guess you
 could sum it all up with these simple dictum:
-
--   *<b>Case sensitive matters, except when it doesn't</b>* - case matters
+<ul>
+<li><i><b>Case sensitive matters, except when it doesn't</b></i> - case matters
     for some things, like strings and attributes, but not others, like
-    tag names.
-
--   *<b>White space is ignored, except when it's not</b>* - White space is
+    tag names.</li>
+<li><i><b>White space is ignored, except when it's not</b></i> - White space is
     used to separate things, but adding more than one space will be the
     same as just one.  White space in strings is always just as you type
-    it.
-
--   *<b>Quotation marks are not part of a string, except when they
-    are</b>* - Quotation marks enclose a string, but thanks to the
+    it.</li>
+<li><i><b>Quotation marks are not part of a string, except when they
+    are</b></i> - Quotation marks enclose a string, but thanks to the
     flexibility of choice between single or double quotes, it is easy to
     include one or the other in your string.
-
--   *<b>The important thing is to look good</b>* - You can take advantage
+<li><i><b>The important thing is to look good</b></i> - You can take advantage
     of flexibility in capitalization and white space to make your code
-    more readable and organized.
+    more readable and organized.</li>
+</ul>
 
 <h3 id="ch1-5-4">1.5.4 Activity – Best Practices</h3>
 
 1. Compare and contrast these two different HTML Style Guides:
 
--   [JQuery HTML Style
-    Guide](https://contribute.jquery.org/style-guide/html/)
+-   <a href="https://contribute.jquery.org/style-guide/html/">JQuery HTML Style
+    Guide</a>
 
--   [Google HTML/CSS Style
-    Guide](https://google.github.io/styleguide/htmlcssguide.html)
+-   [<a href="https://google.github.io/styleguide/htmlcssguide.html">Google HTML/CSS Style
+    Guide</a>
 
 Are they consistent with each other? Are there some rules that don't
 seem to make sense?
@@ -2582,7 +2580,7 @@ seem to make sense?
 Can you find other style guides or coding standards that agree or
 disagree with some of the suggestions in one of these guides?
 
-2. Check out the [W3C HTML Checker](https://validator.w3.org/):
+2. Check out the <a href="https://validator.w3.org/">W3C HTML Checker</a>:
 
 -   Try "Direct Input" and type some HTML5 code with errors to see what
     it detects.
@@ -2623,13 +2621,13 @@ seen:
     one &lt;body&gt; element in a document.
 
 -   <b>&lt;h1&gt;</b> - There is a whole collection of '*h*' tags, &lt;h1&gt;,
-    <h2>, <h3> . . . all the way up to &lt;h6&gt;.  Why there are 6
+    &lt;h2&gt;, &lt;h3&gt; . . . all the way up to &lt;h6&gt;.  Why there are 6
     rather than 5 or 7 may be a bit of a mystery, but there it is.
      They're generally used the same way you would use chapter or
-    section headings in a book (don't confuse the *<b>h</b>* here with
+    section headings in a book (don't confuse the <b>h</b> here with
     the &lt;head&gt; section, that is completely different).  An &lt;h1&gt; tag
     might be used as the title of the document (as it appears on the
-    page, not the same as the aforementioned <title> element), or to
+    page, not the same as the aforementioned &lt;title&gt; element), or to
     indicate the outermost level in a group of nested sections.
 
 <h4>HTML</h4>
@@ -2676,22 +2674,10 @@ can be confusing</b>.
    </head>
    <body>
    <p>
-
 This is a paragraph.
-
-It may or may not be indented but it but there
-
-should be a line break at the end.
-
-Typically the last line will not stretch as far
-
-to the right as the rest of the lines.
-
-</p>
-<p>
-
+It may or may not be indented but it but there should be a line break at the end.
+Typically the last line will not stretch as far to the right as the rest of the lines.
 Often there is extra space between one paragraph and the next.
-
 </p>
 </body>
 </html>
