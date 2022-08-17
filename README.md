@@ -14561,7 +14561,7 @@ layout grid.
 
 If that sounds a bit too abstract, here is another way of looking at it.
 The idea behind the Grid module is that you split
-the [box](https://courses.edx.org/courses/course-v1:W3Cx+HTML5.0x+3T2020/jump_to_id/61920cda43ca49cca2fcf26e763bbe16) that
+the <a href="https://courses.edx.org/courses/course-v1:W3Cx+HTML5.0x+3T2020/jump_to_id/61920cda43ca49cca2fcf26e763bbe16">box</a> that
 makes up an element into many individual ‘slots’, arranged in a matrix,
 and separated from each other by (invisible) horizontal and vertical
 lines. You do that with a property called 'grid', which contains the
@@ -14589,7 +14589,7 @@ CSS, such as the table-related properties or the 'float' and 'clear'
 properties, while also allowing elements to be displayed out of order.
 As such they are especially appreciated for (Web) applications with user
 interfaces that are made with HTML and CSS. The Grid module is not yet
-the ‘[design grid](https://en.wikipedia.org/wiki/Grid_(graphic_design))’
+the ‘<a href="https://en.wikipedia.org/wiki/Grid_(graphic_design)">design grid</a>)’
 that typographers want for the layout of magazines and books, but it is
 a first step. (E.g., one obvious thing to do, applying grid properties
 to an HTML table, doesn't work, because the properties do not handle
@@ -14597,16 +14597,16 @@ nested elements yet.) Even though this is only level 1 of the module, it
 is well worth trying out.
 
 The properties from the Grid module have only been available in major
-browsers since mid 2017 (see the [status of browser
-support](http://caniuse.com/#feat=css-grid)). But the ideas behind the
+browsers since mid 2017 (see the <a href="http://caniuse.com/#feat=css-grid">status of browser
+support</a>). But the ideas behind the
 Grid module aren't new. From the start of CSS, there have been proposals
 to use CSS properties to define a template or matrix to guide the layout
-of elements, e.g.: [Frame-based
-layout](http://www.w3.org/TR/WD-layout), [Advanced
-Layout](http://www.w3.org/TR/2005/WD-css3-layout-20051215/) (later
-called [Template Layout](http://www.w3.org/TR/css-template-3/)), [Grid
-Style Sheets](https://github.com/gss) and [Constraint
-CSS](https://constraints.cs.washington.edu/web/ccss-uwtr.pdf). But only
+of elements, e.g.: <a href="http://www.w3.org/TR/WD-layout">Frame-based
+layout</a>, <a href="http://www.w3.org/TR/2005/WD-css3-layout-20051215/">Advanced
+Layout</a> (later
+called <a href="http://www.w3.org/TR/css-template-3/">Template Layout</a>), <a href="https://github.com/gss">Grid
+Style Sheets</a> and <a href="https://constraints.cs.washington.edu/web/ccss-uwtr.pdf">Constraint
+CSS</a>. But only
 recently has technology become good enough to support some (not all!) of
 those ideas.
 
@@ -14635,7 +14635,7 @@ cases.
 <h3 id="ch6-6-1">6.6.1 Recipe project - Module 6</h3>
 
 <h3 id="ch6-6-2">6.6.2 Recipe project</h3>
-
+<p>
 In this next iteration of our recipe project, we're going to make a few
 changes again to our Web page using cascading style sheets.
 
@@ -14799,7 +14799,7 @@ They've actually scrolled down a little bit more.
 We fixed those issues at the top.
 
 These are the final changes to our recipe project for this unit.
-
+</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ ##. template (##) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -14809,5 +14809,5 @@ These are the final changes to our recipe project for this unit.
    alt="." />
 </p>
 
-<h3><b>Last Updated 08-12-2022 10:16pm</b></h3>
+<h3><b>Last Updated 08-16-2022 8:14pm</b></h3>
 
