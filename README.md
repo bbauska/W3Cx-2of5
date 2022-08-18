@@ -72,7 +72,7 @@
 >### 6.1 [**Introduction to Module 6**](#ch6-1-1)
 >### 6.2 [**Concepts**](#ch6-2-1)
 >### 6.3 [**CSS Flexbox**](#ch6-3-1)
->### 6.4 [**More flexbox**](#ch6-4-1)
+>### 6.4 [**More Flexbox**](#ch6-4-1)
 >### 6.5 [**CSS Grid**](#ch6-5-1)
 >### 6.6 [**Recipe project**](#ch6-6-1)
 
@@ -13614,7 +13614,7 @@ positioned elements.
 
 <h3 id="ch6-2-6">6.2.6 'z-index' (OPTIONAL)</h3>
 
-<b>Note**: this section is optional material included for the curious. It
+<b>Note</b>: this section is optional material included for the curious. It
 will not appear on any graded question.
 
 In the previous sections, we named four positioning
@@ -13622,7 +13622,9 @@ properties: left, top, right, and bottom.   With these properties, we
 can govern the placement of positioned elements in both the x and y
 axis.  But there is a fifth positioning property: z-index.
 
+```
 z-index: 3;
+```
 
 Like the other positioning properties, z-index only applies to
 positioned elements (elements that have their position property set
@@ -13675,10 +13677,10 @@ Alan's high z-index is only relevant to his siblings, not to cousins
 further out in the document.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 147.  (xxx) -------------------------------->
+<!------------------------------ 145?.  (xxx) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image147.png?raw=true"
+<img src="./images/image145?.png?raw=true"
    width="65%"
    alt="" />
 </p>
@@ -13697,7 +13699,7 @@ element.  
 <h4>inline</h4>
 
 Inline elements take the size of their content plus any padding.
-Additionally, inline elements ***ignore*** any explicit sizing
+Additionally, inline elements <b><i>ignore</i></b> any explicit sizing
 properties (width, height, etc.) unless they are
 also position:absolute or position:fixed.  This leads to a lot of
 confusion when newbies are working with inline elements. If you have an
@@ -13730,26 +13732,22 @@ images and <img> tags.
 
 <h4>sizing properties</h4>
 
-There are six sizing properties. They are 
-
--   width
-
--   min-width
-
--   max-width
-
--   height
-
--   min-height
-
--   max-height
-
+<h4>There are six sizing properties. They are;</h4>
+<ul>
+<li>width</li>
+<li>min-width</li>
+<li>max-width</li>
+<li>height</li>
+<li>min-height</li>
+<li>max-height</li>
+</ul>
+<p>
 The width and height properties are a simple way to explicitly set the
 width or height of an element. It is set directly, and the element
 maintains that dimension (unless it is inline and ignores these
 properties). And certainly, when dealing with images, there is little
 reason to pursue anything but the most straightforward approach. 
-
+</p><p>
 However, if you look again at the descriptions for inline-block and
 block level elements above, you will notice that inline-block elements
 are *sized (height and width) to their content*.  And block level
@@ -13757,46 +13755,47 @@ elements take the *width of their parent* and the *height of their
 content*. So these elements are fundamentally <b>variably <b>sized, and
 this variability is one of the most powerful and useful aspects of these
 elements.
-
+</p><p>
 However, when we use an explicit width or height property, we remove
 that variability from the element. This makes it less powerful and less
 useful.
-
+</p><p>
 The min-width and min-height properties allow us to set a minimum
 boundary for that variability, but otherwise the variable sizing of the
 element is unimpeded. So if we have min-width:300px; that means the
 element will be 300 pixels or possibly wider.
-
+</p><p>
 Likewise the max-width and max-height properties allow us to set a
 maximum boundary for the variability.
-
+</p><p>
 As we move into flexbox based layouts, variability in our design will
 become very important.  
+</p><p>
 
-Best practice
-
+<h4>Best practice</h4>
+<p>
 Unless you have good cause, try to avoid using explicit dimension
 properties like width and height.  If you must control the dimensions,
 consider using the min- or max- variants. 
-
-Cropping and scrolling: overflow
+</p>
+<h4>Cropping and scrolling: overflow</h4>
 
 If the element's dimensions are overdetermined by the sizing properties,
 then its content may not fit. In the example below, the width and height
 of the paragraph have been set too small for its content.  As a result,
 the content overflows the rectangle of the paragraph. We've made this
 easier to see by adding a border and background color to the paragraph.
- 
-
+</p><p>
 This default behavior, that content that doesn't fit is shown anyway,
 can be surprising if you weren't expecting it.
+</p>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 148.  (xxx) -------------------------------->
+<!------------------------- 146. cropping and scrolling overflow (312) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image148.png?raw=true"
+<img src="./images/image146.png?raw=true"
    width="65%"
-   alt="W3Cx HTML 5.0x logo" />
+   alt="Cropping and scrolling overflow." />
 </p>
 
 <h4>overflow</h4>
@@ -13804,7 +13803,9 @@ can be surprising if you weren't expecting it.
 The overflow properties govern this situation.  There are three related
 properties: overflow, overflow-x, and overflow-y.
 
+```
 p { overflow: auto; }
+```
 
 With common text, overflowing normally only occurs in the vertical
 direction (like in the example above). But if your element contains
@@ -13829,13 +13830,14 @@ of 100 pixels. 
 
 3.  When the value is scroll, then the scroll bars are *always* shown,
     whether they are needed or not.
+
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- 149. (xxx) -------------------------------->
+<!--------------------------------- 147. scrolling value (313) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image149.png?raw=true"
+<img src="./images/image147.png?raw=true"
    width="65%"
-   alt="W3Cx HTML 5.0x logo" />
+   alt="Scrolling & overflow." />
 </p>
 
 <h4>The box model and box-sizing</h4>
@@ -13856,15 +13858,16 @@ Model" of the element.  Here is an illustration of how the different
 boxes are organized (innermost to outermost).
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------- 150. flex container result (321) ---------------------------->
+<!------------------- 148. it's own content, padding, border & margines (314) -------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image150.png?raw=true"
+<img src="./images/image148.png?raw=true"
    width="45%"
-   alt="Flex Container result" />
+   alt="Managed boxes: it's own content, padding, border & margins." />
 </p>
 
-box-sizing
+<h4>box-sizing</h4>
+
 ```
 p { box-sizing: border-box; }
 ```
@@ -13892,7 +13895,7 @@ that the more you are directly managing the size of items, the more
 likely you will need to change the box-sizing property to
 be border-box.  
 
-<h3 id="ch6-3-2">6.3.2 Flexbox</h3>
+<h3 id="ch6-3-1">6.3.2 Flexbox</h3>
 
 Up to this point, we have covered quite a few different CSS layout
 concepts. Inline vs. block level display, different position values,
@@ -13945,6 +13948,7 @@ to help visualize.
 </p>
 
 <h4>flex container</h4>
+
 ```
 div { display: flex; }
 span { display: inline-flex; }
@@ -14018,7 +14022,8 @@ element as a flex container. In that case, the symbol "flex" is used as
 a value of the display property.
 
 But flex is also the name of  a property. It is a property that is
-applied to flex items, the children of a flex container.  
+applied to flex items, the children of a flex container.
+
 ```
 span { flex: <flex-grow> <flex-shrink> <flex-basis>; }
 ```
@@ -14030,6 +14035,7 @@ optional properties.
 Therefore, flex:1; is <b>better<b> than flex-grow:1; . 
 
 <h4>flex-grow</h4>
+
 ```
 p { flex: <b>1**; /* rather than use flex-grow, use
 flex: **<flex-grow>**; */ }
@@ -14301,7 +14307,9 @@ will appear in any graded question.
 
 <h4>justify-content</h4>
 
+```
 .fc { justify-content: space-around; }
+```
 
 When all the flex items in a flexbox container are fully resizable, then
 there will not be any extra space to put between the items.  However,
@@ -14359,7 +14367,9 @@ has any extra cross axis space (vertical space).  
 
 <h4>align-items</h4>
 
+```
 .fc { align-items: stretch; }
+```
 
 The align-items determines how items are aligned in the cross axis
 direction. This is applied to the flexbox container.  The possible
@@ -14395,7 +14405,9 @@ you can see how they align to each other.
 
 <h4>align-content</h4>
 
+```
 .fc { align-content: space-between; }
+```
 
 align-content is only relevant when the flexbox container supports
 wrapping and the flex items are, in fact, wrapping.
@@ -14426,7 +14438,9 @@ than the height of any of the items.
 
 <h4>align-self</h4>
 
+```
 .item { align-self: center; }
+```
 
 Unlike the other flexbox align properties, align-self is applied to an
 individual flex item, not to a flexbox container.  This allows an
@@ -14445,12 +14459,12 @@ In the example below, we have a flex container
 with flex-flow:row; and align-items:center;.  The individual items have
 their align-self property set.
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------- 158. flex container  (330) ----------------------------------->
+<!--------------------------------- 158. flex container (330) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image158.png?raw=true"
    width="65%"
-   alt="Flex Container with flex-flow and align" />
+   alt="Flex Container with flex-flow and align." />
 </p>
 
 <h3 id="ch6-4-3">6.4.3 Order</h3>
@@ -14460,6 +14474,7 @@ able to use flexbox satisfactorily without it. None of the material here
 will appear in any graded question.
 
 One of the most exciting flexbox properties is also its simplest: order.
+
 ```
 .item { order: 2; }
 ```
@@ -14809,5 +14824,5 @@ These are the final changes to our recipe project for this unit.
    alt="." />
 </p>
 
-<h3><b>Last Updated 08-16-2022 8:14pm</b></h3>
+<h3><b>Last Updated 08-17-2022 4:58pm</b></h3>
 
