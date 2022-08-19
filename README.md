@@ -3157,7 +3157,7 @@ There are two kinds of attributes:</p>
 
 <h4>Global attributes</h4>
 
-<p>Global attributes can be applied to <b>all tags**. They are common
+<p>Global attributes can be applied to <b>all tags</b>. They are common
 attributes. Examples of global attributes are id and class. There are
 many more global attributes. Here is a <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes#list_of_global_attributes">list of all the global
 attributes</a> and the values they accept.
@@ -3212,25 +3212,23 @@ several tags such as &lt;img&gt;, &lt;input&gt; and &lt;video&gt;.</p>
    width="35%"
    alt="HTML Result." />
 </p>
-
+<p>
 Ordered lists have their own specific attributes and all global
-attributes can also be applied to them.
+attributes can also be applied to them.</p>
 
 <h4>More examples:</h4>
-
+<p>
 The image <img> and hyperlink <a> elements, which we will be
-learning about shortly, have many non-global attributes of their own.
+learning about shortly, have many non-global attributes of their own.</p>
 
 ```
 <b><img>  :</b> src, alt, etc.
 <b><a></b>  : href, target, download, etc.
 ```
 
-Other than the common global attributes, if you wish to learn about the
+<p>Other than the common global attributes, if you wish to learn about the
 supported non-global attributes for any element, you can visit the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes">HTML
-attribute
-reference</a> available
-at the Mozilla Developer Network (MDN).
+attribute reference</a> available at the Mozilla Developer Network (MDN).
 
 <b>Important:</b> Throughout the course, using the MDN attribute reference,
 you are encouraged to explore non-global attributes for the elements you
@@ -3248,22 +3246,22 @@ reference</a> at Mozilla
 Developer Network and find out the non-global attributes that can be
 applied to the &lt;li&gt; tag. Search for the &lt;li&gt; element and then click
 on it: it will take you to the list tag's page that specifies applicable
-attributes.
+attributes.</p>
 
 <h3 id="ch2-2-3">2.2.3 Global Attributes: Examples</h3>
 
 <h4>Global attribute: 'id'</h4>
 
-Like we saw in the previous unit, [here is a list of all the global
-attributes](https://www.w3.org/TR/html5/dom.html#global-attributes) and
+<p>Like we saw in the previous unit, <a href="https://www.w3.org/TR/html5/dom.html#global-attributes">here is a list of all the global
+attributes</a> and
 the values they accept. To understand attributes, we considered an
 example of usage id and class. We are going to look at it in depth here
 and discuss another global attribute title.
 
 The id attribute gives your element a unique identifier. In your HTML
-document, that ID value can only be used in one element. 
+document, that ID value can only be used in one element.</p>
 
-Naming rules for id attribute:
+<h4>Naming rules for id attribute:</h4>
 <ul>
 <li>Must be of at least one character,</li>
 <li>Should not contain any spaces,</li>
@@ -3302,10 +3300,10 @@ Naming rules for id attribute:
 
 <h4>Global attribute: 'class'</h4>
 
-The class attribute, while similar to id, groups a set of elements in
+<p>The class attribute, while similar to id, groups a set of elements in
 the same class. Its name-value pair is class="classname".
 Unlike id, which is unique to an element, the same class name can be
-assigned to more than one element.
+assigned to more than one element.</p>
 
 <h4>For example:</h4>
 
@@ -3314,17 +3312,17 @@ assigned to more than one element.
   <p class="question">Do you like HTML5?</p>
 ```
 
-Both paragraphs above are grouped under the class named 'question'. An
+<p>Both paragraphs above are grouped under the class named 'question'. An
 element can have one or more class names. If we also want the second
 question to be under the 'html' class because it is an HTML related
 question, you can add two class names by separating them with white
-space:
+space:</p>
 
 ```
 <p class="question html">Do you like HTML5?</p>
 ```
 
-Naming rules for the class attribute:
+<h4>Naming rules for the class attribute:</h4>
 <ul>
 <li>Must begin with a letter (a-z or A-Z).</li>
 <li>First letter can be followed by a letter, digit, hyphen or an
@@ -3346,14 +3344,13 @@ the elements that belong to the class in your stylesheet. 
 
 In your CSS, you can include code to style your classes, for example by
 telling it:
+<ul>
+<li><i>question</i> class: text color is black and text is bold</li>
+<li><i>answer</i> class: text color is green</li>
+<li><i>html</i> class: text color is red</li>
+</ul>
 
--   'question' class: text color is black and text is bold
-
--   'answer' class: text color is green
-
--   'html' class: text color is red
-
-The code above will then look like this:
+<h4>The code above will then look like this:</h4>
 
 <b>Who are you?**
 
@@ -3385,20 +3382,20 @@ will style content differently for line-breaking, hyphenation, and
 text-transforms depending on the declared language. Other features, such
 as spell-checking and voice browsers for visually-challenged people,
 also work differently according to which language the content is in. 
-For more details see [Why use the language
-attribute?](https://www.w3.org/International/questions/qa-lang-why)
+For more details see <a href="https://www.w3.org/International/questions/qa-lang-why">Why use the language
+attribute?</a>
 
 The value of a lang attribute must be a language tag that is composed of
-one or more subtags defined in the [IANA Language Subtag
-Registry](https://www.iana.org/assignments/language-subtag-registry).
+one or more subtags defined in the <a href="https://www.iana.org/assignments/language-subtag-registry">IANA Language Subtag
+Registry</a>.
 Multiple subtags are separated by hyphens.  (Do <b>not** use the ISO
 lists of languages and countries! Those lists are already subsets of the
 IANA registry.) You may find it easier to look up subtags using the
-unofficial [Language Subtag
-Lookup](https://r12a.github.io/app-subtags/) tool.
+unofficial <a href="https://r12a.github.io/app-subtags/) tool">Language Subtag
+Lookup</a>
 
 You should <b>always declare the language of your page in the
-<html> tag**.  You can also declare the language of content within the
+&lt;html&gt; tag</b>.  You can also declare the language of content within the
 page by attaching a lang attribute to an element that contains it.
 
 <h4>For example:</h4>
@@ -3455,12 +3452,12 @@ value. 
 	
 <h3 id="ch2-2-4">2.2.4 Global Attributes</h3>
 
-References for the video text below:
-
--   [W3C Cheatsheet](https://www.w3.org/2009/cheatsheet/)
-
--   [Mozilla Developer Newsletter (MDN) Attribute
-    Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes)
+<h4>References for the video text below:</h4>
+<ul>
+<li><a href="https://www.w3.org/2009/cheatsheet/">W3C Cheatsheet</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes">Mozilla Developer Newsletter (MDN) Attribute
+    Reference</a></li>
+</ul>
 
 Hi everyone! Now that we have read a fair amount of information about
 attributes, we know that there are two kinds, global and non global
@@ -3615,18 +3612,17 @@ elements you can think of.
 
 Please find below suggested activities to help you practice:
 
-1.  Find the list of supported attributes for the <area> tag.
-    (*Hint:* use the [W3C
-    cheatsheet](https://www.w3.org/2009/cheatsheet/) or [MDN attribute
+1.  Find the list of supported attributes for the &lt;area&gt; tag.
+    (<i>Hint:</i> use the <a href="https://www.w3.org/2009/cheatsheet/">W3C
+    cheatsheet</a> or <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes">MDN attribute
     reference
-    list](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes))
+    list</a>)
 
 2.  Create two paragraphs with the same id and run your code in a
     CodePen. What happens? We know the value of the id attribute must be
     unique, so why does it behave the way it does? Run your code through
-    the [W3C Markup
-    Validator](https://validator.w3.org/#validate_by_input). Does it
-    throw an error?
+    the <a href="https://validator.w3.org/#validate_by_input">W3C Markup
+    Validator</a>. Does it throw an error?
 
 3.  Does an attribute called src exist? What is the purpose of this
     attribute and what are the elements it can be applied to?
@@ -3656,7 +3652,8 @@ rule and were eventually corrected in HTML5.
 4.  <p>This text is also in <strong>Bold</strong>. But it uses the
     strong tag!</p>
 
-This is how the above HTML code will look in a browser: 
+This is how the above HTML code will look in a browser:
+
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 23.  (##) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -3667,7 +3664,7 @@ This is how the above HTML code will look in a browser: 
 </p>
 
 It seems redundant for two tags to do the same thing in HTML.
-While <b> and <strong>, <i> and &lt;em&gt; seem no different in a
+While &lt;b&gt; and &lt;strong&gt;, &lt;i&gt; and &lt;em&gt; seem no different in a
 regular Web browser there is an important difference between them.
 
 <h4>Semantic vs Style tags</h4>
