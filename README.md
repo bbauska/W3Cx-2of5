@@ -2661,7 +2661,7 @@ can be confusing</b>.
     to arrange much of your text information.  Depending on the style
     you are using, text wrapped in a &lt;p&gt; tag may be indented or have
     extra vertical white space before starting.  When rendered on the
-    Web page, a <i>p<i> element creates a new line.</li>
+    Web page, a <i>p</i> element creates a new line.</li>
 </ul>
 
 <h4>HTML</h4>
@@ -2689,21 +2689,21 @@ rendered (i.e. what they look like to the end user), you will find
 words like "typically", "possibly", and "generally".  It is a little
 picky. As you will learn in Module 3, it is possible to change the
 styling of one element to look like just about any other element.  You
-could style a <p> element so that it looks like an &lt;h1&gt;, though best
+could style a &lt;p&gt; element so that it looks like an &lt;h1&gt;, though best
 practice would be not to do that.</p>
 
 <h3 id="ch1-6-2">1.6.2 A Few New Tags to Learn</h3>
 
-There are a lot more tags, but we will just cover a few more for now,
+<p>There are a lot more tags, but we will just cover a few more for now,
 mostly because they are straightforward to use and you can see the
-effect in your Web page when you use them:
+effect in your Web page when you use them:</p>
 <ul>
-<li>   <b>&lt;q&gt;</b> - The <b>q</b> tag is for quotes.  This tag has no
+<li><b>&lt;q&gt;</b> - The <b>q</b> tag is for quotes.  This tag has no
     relationship to the somewhat confusing single and double quote
     characters, rather it's used when you want to quote a person or
     written work in your Web page. Quotes are customarily displayed
     using quotation marks. Thus <q>Brevity is beautiful</q> would be
-    rendered as Brevity is beautiful.<li>
+    rendered as Brevity is beautiful.</li>
 <li><b>&lt;blockquote&gt;</b> - If you want to quote a larger passage, you may
     want to use <b>blockquote</b>, which will typically set the quoted text
     apart from the surrounding text and indent it, to make clear that it
@@ -3029,9 +3029,9 @@ Tags and attributes make up the language.</p>
 <h4>Attributes are used in tags to further define the tag:</h4>
 <ul>
 <li>It is used inside the opening tag it is applied to and should be
-    added after a space from the tag name: <ol start="5">.
-    The start attribute is used inside the <ol> tag.</li>
-<li>start="5"  
+    added after a space from the tag name: &lt;ol start="5"&gt;.
+    The start attribute is used inside the &lt;ol&gt; tag.</li>
+<li>start="5"
     Attribute name, equal sign, opening quote, attribute value, closing
     quote</li>
 <li>Attributes are a name-value pair: start="5"  
@@ -3042,7 +3042,7 @@ Tags and attributes make up the language.</p>
     values - true or false. But instead of writing "true" or "false" for
     its value, you add the attribute name to indicate true and omit it
     to indicate false. An example is the 'reversed' attribute in an
-    ordered list <ol>. Adding this attribute is an indication that the
+    ordered list &lt;ol&gt;. Adding this attribute is an indication that the
     list order should be reversed (in descending order).</li>
 </ul>
 
