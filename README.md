@@ -2650,18 +2650,19 @@ seen:
 
 Though you theoretically should not think about what it looks like, it
 will typically appear as large, possibly bold text in your document, to
-mark a separation or beginning of some new section.  <h2> is usually a
-bit smaller, and <h3> smaller yet and so on down to &lt;h6&gt;.  This
+mark a separation or beginning of some new section.  &lt;h2&gt; is usually a
+bit smaller, and &lt;h3&gt; smaller yet and so on down to &lt;h6&gt;.  This
 allows logical nesting of sections, though they should not be nested too
 deeply. Try not to skip levels of headers when nesting them. <b>Headings
 are really useful for some assistive technology users and missing levels
 can be confusing</b>.
-
--   <b>&lt;p&gt;</b> - <i><b>P</b></i> is for 'paragraph', which is the tag you may use
+<ul>
+<li>   <b>&lt;p&gt;</b> - <i><b>P</b></i> is for 'paragraph', which is the tag you may use
     to arrange much of your text information.  Depending on the style
     you are using, text wrapped in a &lt;p&gt; tag may be indented or have
     extra vertical white space before starting.  When rendered on the
-    Web page, a <i>p<i> element creates a new line.
+    Web page, a <i>p<i> element creates a new line.</li>
+</ul>
 
 <h4>HTML</h4>
 
@@ -2683,49 +2684,50 @@ Often there is extra space between one paragraph and the next.
 </html>
 ```
 
-You might notice that when discussing how these different elements are
+<p>You might notice that when discussing how these different elements are
 rendered (i.e. what they look like to the end user), you will find
 words like "typically", "possibly", and "generally".  It is a little
 picky. As you will learn in Module 3, it is possible to change the
 styling of one element to look like just about any other element.  You
 could style a <p> element so that it looks like an &lt;h1&gt;, though best
-practice would be not to do that.
+practice would be not to do that.</p>
 
 <h3 id="ch1-6-2">1.6.2 A Few New Tags to Learn</h3>
 
 There are a lot more tags, but we will just cover a few more for now,
 mostly because they are straightforward to use and you can see the
 effect in your Web page when you use them:
-
--   <b><q></b> - The <b>q</b> tag is for quotes.  This tag has no
+<ul>
+<li>   <b>&lt;q&gt;</b> - The <b>q</b> tag is for quotes.  This tag has no
     relationship to the somewhat confusing single and double quote
     characters, rather it's used when you want to quote a person or
     written work in your Web page. Quotes are customarily displayed
     using quotation marks. Thus <q>Brevity is beautiful</q> would be
-    rendered as Brevity is beautiful.
-
--   <b>&lt;blockquote&gt;</b> - If you want to quote a larger passage, you may
+    rendered as Brevity is beautiful.<li>
+<li><b>&lt;blockquote&gt;</b> - If you want to quote a larger passage, you may
     want to use <b>blockquote</b>, which will typically set the quoted text
     apart from the surrounding text and indent it, to make clear that it
-    is quoted text:
+    is quoted text:</li>
+</ul>
 
 > Early to bed and early to rise, makes someone healthy, wealthy and
 > wise - Benjamin Franklin
 
--   <b>&lt;ul&gt;</b>,<b>&lt;ol&gt;</b> - These two tags are used to indicate a list
+<ul>
+<li><b>&lt;ul&gt;</b>,<b>&lt;ol&gt;</b> - These two tags are used to indicate a list
     of things.  The only difference is that &lt;ol&gt; is an "ordered" list,
     meaning the elements are in a particular order, and it might be a
     good idea to number them.  The "<b>u</b>" in &lt;ul&gt; stands for
     "unordered" and is used for a list of things where the order doesn't
     really matter, so it is usually rendered as a bulleted list, or some
-    other structure without numbers.
-
--   <b>&lt;li&gt;</b> - The <b>li</b> element is a "List Item", i.e. one item in
+    other structure without numbers.</li>
+<li><b>&lt;li&gt;</b> - The <b>li</b> element is a "List Item", i.e. one item in
     the list.  As you might expect, this element only really makes sense
     nested inside a list (&lt;ul&gt; or &lt;ol&gt;).  In the final
     rendering, each li element would typically be preceded by a number
     or bullet, or something similar (but not necessarily).  Thus a list
-    in HTML would look like this:
+    in HTML would look like this:</li>
+</ul>
 
 ```xml
   <ul>
@@ -2735,7 +2737,7 @@ effect in your Web page when you use them:
   </ul>
 ```
 
-This code might be rendered like this:
+<h4>This code might be rendered like this:</h4>
 
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- 18.  (??) ---------------------------------->
@@ -2743,22 +2745,21 @@ This code might be rendered like this:
 <p align="center" width="100%">
 <img src="./images/image018.png?raw=true"
    width="15%"
-   alt="Example of a list as it would appear on a web page," />
+   alt="Example of a list as it would appear on a web page." />
 </p>
 
-There are a couple more tags we want to bring up at this point, but
+<p>There are a couple more tags we want to bring up at this point, but
 first a disclaimer.  We have been emphasizing the general rule that HTML
 is for the logical structure of your content, not what it looks like.
  Well, this is not entirely true.  There are some HTML elements that are
-primarily used to invoke certain formatting. 
-
--   <b><hr></b> - The <b>hr</b> tag stands for horizontal rule and is used
+primarily used to invoke certain formatting.</p>
+<ul>
+<li><b><hr></b> - The <b>hr</b> tag stands for horizontal rule and is used
     to insert a horizontal line across the width of the text, or a
     thematic break in an HTML page to divide or separate document
     sections. The <hr> tag is an empty tag and does not require an end
-    tag. It would typically look like this:
-
--   <b><br></b> - This tag signifies a line break, and is used for any
+    tag. It would typically look like this:</li>
+<li><b><br></b> - This tag signifies a line break, and is used for any
     number of situations.  For example, it can be an easy way to make
     sure that lines of poetry break where they're supposed to (less
     verbose than requiring each line to be a separate element).
@@ -2771,7 +2772,8 @@ primarily used to invoke certain formatting. 
     indicate tag closure, <br /> is also valid syntax.  
     Note that the <br> tag implies a break even if there is no break
     in the text containing it, so for example, these two sentences would
-    be formatted exactly the same:
+    be formatted exactly the same:</li>
+</ul>
 
 ```
 1.  That which we call a rose <br>
@@ -2790,12 +2792,14 @@ primarily used to invoke certain formatting. 
    alt="Example of Poetry as it might appear on a Web Page." />
 </p>
 
--   <b>&lt;pre&gt;</b> - <b>pre</b> stands for "PREformatted text", meaning that
+<ul>
+<li><b>&lt;pre&gt;</b> - <b>pre</b> stands for "PREformatted text", meaning that
     the text is to be presented exactly as written in the HTML file. It
     preserves all text formatting characters i.e. spaces, line
     breaks and (thus bypassing the white space rule) and most typically
     implies a monospace font. It is very handy for illustrating bits of
-    program code, or other "typewritten" material:
+    program code, or other "typewritten" material:</li>
+</ul>
 
 ```
 Text in a pre element
@@ -2813,23 +2817,22 @@ line breaks
 
 <h3 id="ch1-6-5">1.6.5 Recipe Project – Module 1</h3>
 
-Throughout the course, we'll be building a simple project, adding to it
+<p>Throughout the course, we'll be building a simple project, adding to it
 with what we've learned in each module. This project will be a simple
 Web application that will allow you to browse different recipes.
 
 For now, we'll start off with a simple first draft using just what we've
 learned about HTML5 using tags we've covered.  We want to have the
-following components:
+following components:</p>
+<ul>
+<li>A large title for the app, something like "My Favorite Recipes", or
+    whatever you'd like to call it.</li>
+<li>A description of a recipe, just some plain text explaining what the
+    recipe is and any other pertinent information.</li>
+<li>A set of steps to follow, numbered in order.</li>
+</ul>
 
--   A large title for the app, something like "My Favorite Recipes", or
-    whatever you'd like to call it.
-
--   A description of a recipe, just some plain text explaining what the
-    recipe is and any other pertinent information.
-
--   A set of steps to follow, numbered in order.
-
-Please start with this "empty page" in CodePen:
+<p>Please start with this "empty page" in CodePen:</p>
 
 <h4>HTML</h4>
 
@@ -2888,7 +2891,7 @@ This is going to be my favorite recipe.
    width="35%"
    alt="Attributes, images and links." />
 </p>
-
+<p>
 Hi, everyone, and welcome.
 
 I'm Andrew, your instructor for week 2 of the Introduction to HTML and
@@ -2919,9 +2922,9 @@ At the end of each subsection, you'll be able to do exercises based on
 what you've learned and test your knowledge by doing a quiz.
 
 We hope you enjoy the course, and happy learning!
-
+</p>
 <h3 id="ch2-1-2">2.1.2 Meaningful Web Pages</h3>
-
+<p>
 Tags and elements are building blocks of HTML5. However, they can be
 made so much more exciting with attributes. Let's take a simple element
 like list. You know how to add one to your page but can you change the
@@ -2951,7 +2954,7 @@ It is very important to style your Web pages for search engine
 optimization (SEO) to improve your search engine rankings, and for
 visually impaired people who access your Web page using assistive
 technology like screen readers. Semantic markup enables all of this and
-more.
+more.</p>
 
 <h3 id="ch2-1-3">2.1.3 Module 2 - Content</h3>
 
@@ -2995,8 +2998,8 @@ module. Let's look into it in more depth, by using examples.
  3. Action
 ```
 
-If i want an ordered list to start with the number 5 instead of 1 (as it
-does by default), let's code like this:
+<p>If i want an ordered list to start with the number 5 instead of 1 (as it
+does by default), let's code like this:</p>
 
 ```xml
   <ol start="5">
@@ -3014,42 +3017,48 @@ does by default), let's code like this:
 7. Action
 ```
 
-Here, using the start attribute, we made our list start with 5 instead
+<p>Here, using the start attribute, we made our list start with 5 instead
 of 1.
 
 Like start, we have many useful attributes we will see in this section
 that can affect your element. Attributes are a significant part of HTML.
-Tags and attributes make up the language. 
+Tags and attributes make up the language.</p>
 
 <h4>Syntax:</h4>
 
 <h4>Attributes are used in tags to further define the tag:</h4>
-
--   It is used inside the opening tag it is applied to and should be
+<ul>
+<li>It is used inside the opening tag it is applied to and should be
     added after a space from the tag name: <ol start="5">.
-    The start attribute is used inside the <ol> tag. 
-
--   start="5"  
+    The start attribute is used inside the <ol> tag.</li>
+<li>start="5"  
     Attribute name, equal sign, opening quote, attribute value, closing
-    quote
-
--   Attributes are a name-value pair: start="5"  
+    quote</li>
+<li>Attributes are a name-value pair: start="5"  
     name: start  
-    value: any positive integer
-
--   The only exception to the name-value pair is if the attribute is a
+    value: any positive integer</li>
+<li>The only exception to the name-value pair is if the attribute is a
     'boolean attribute'. These attributes have only two types of
     values - true or false. But instead of writing "true" or "false" for
     its value, you add the attribute name to indicate true and omit it
     to indicate false. An example is the 'reversed' attribute in an
     ordered list <ol>. Adding this attribute is an indication that the
-    list order should be reversed (in descending order).   
-         <ol reversed></ol>
+    list order should be reversed (in descending order).</li>
+</ul>
 
--   A tag can have multiple attributes:  
+```	
+         <ol reversed></ol>
+```
+
+<ul>
+<li>A tag can have multiple attributes:</li>
+</ul>
+
+```
        <ol start="5"></ol>  
        <ol id="cinema" class="attribute-list" start="5"></ol>  
        <ol start="5" class="attribute-list"></ol>
+```
 
 <h4>Example #1: the 'id' attribute</h4>
 
@@ -3060,6 +3069,7 @@ Tags and attributes make up the language. 
   <p>I am paragraph 2 and I want to be in blue</p>
 ```
 
+<p>
 Your task is to make the text color of the first paragraph red and the
 other blue. How do we do that? You add styling to your HTML document
 through CSS. CSS is a style sheet language where you add any
@@ -3074,26 +3084,27 @@ name we give each element is called an 'ID'. This is very similar to
 your school or corporate ID that is unique to you. No one else in your
 company will have the same ID as you. id is an attribute. It should be
 unique to the element; we know how more than one people having the same
-ID can just cause a lot of confusion.
+ID can just cause a lot of confusion.</p>
 
 ```xml
   <p id="para1">I am paragraph 1 and I want to be in red</p>
   <p id="para2">I am paragraph 2 and I want to be in blue</p>
 ```
 
+<p>
 Here, we can style para1 and para2 separately using CSS.
 The id attribute helps us do this by letting us give each paragraph an
-ID.
+ID.</p>
 
 <h4>Example #2: the 'class' attribute</h4>
 
-A similar attribute is class. class like id is a very useful attribute
+<p>A similar attribute is class. class like id is a very useful attribute
 and one you will be using very frequently. Let's assume you are an
 author of a book. You like poems and you want to include at least 20 of
 them in your new book. You add IDs for them: 'poem1', 'poem2', 'poem3'.
 
 You want your poems to look different from your other text. Grey text
-color, italic and bold. Like this:
+color, italic and bold. Like this:</p>
 
 ```
 *<b>To move, to breathe, to fly, to float,***  
@@ -3104,16 +3115,18 @@ color, italic and bold. Like this:
 <i><b>- Hans Christian Andersen</b></i>
 ```
 
-All poems have the same requirements.
+<p>All poems have the same requirements.
 
 If you use the id attribute, you can instruct the stylesheet to style
 each poem in a particular way. It will look something like (we will
 learn how to write proper styles in the next chapter, so for now we will
-just phrase it in English) -
+just phrase it in English) -</p>
 
+```
 'Make poem1's text color grey, italic and bold'  
 'Make poem2's text color grey, italic and bold'  
 'Make poem3's text color grey, italic and bold'
+```
 
 Can you imagine how repetitive your style sheet will look if you have to
 instruct it to do the same thing 20 times for different poem IDs? HTML
@@ -3127,16 +3140,16 @@ poems 'poetry'.
     blue...</p>
 ```
 
-So now, all you have to do in your style sheet, is to instruct it to
+<p>So now, all you have to do in your style sheet, is to instruct it to
 make all elements belonging to the 'poetry' class grey, italic and
-bold. 
+bold.</p>
 
 <h3 id="ch2-2-2">2.2.2 Global and Non-Global Attributes</h3>
 
-You have seen a few examples of attributes now: start, id and class. All
+<p>You have seen a few examples of attributes now: start, id and class. All
 HTML elements have attributes.
 
-There are two kinds of attributes:
+There are two kinds of attributes:</p>
 <ul>
 <li>Global</li>
 <li>Non-global</li>
@@ -3144,13 +3157,12 @@ There are two kinds of attributes:
 
 <h4>Global attributes</h4>
 
-Global attributes can be applied to <b>all tags**. They are common
+<p>Global attributes can be applied to <b>all tags**. They are common
 attributes. Examples of global attributes are id and class. There are
-many more global attributes. Here is a [list of all the global
-attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes#list_of_global_attributes) and
-the values they accept.
+many more global attributes. Here is a <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes#list_of_global_attributes">list of all the global
+attributes</a> and the values they accept.
 
-Attributes like id and class can be applied to any HTML tag.
+Attributes like id and class can be applied to any HTML tag.</p>
 
 ```xml
 <p id="para1" class="poetry" lang="en">The global attribute lang
@@ -3162,15 +3174,15 @@ that the contents of this document will be in french.
 ```
 
 <h4>Non-global attributes</h4>
-
+<p>
 <b>Non-global attributes</b> are attributes applied to a specific instance
 of a tag. It can be applied to one or more tags. For example, start is
-an attribute for the <ol> tag and it cannot be applied on
-the <p> or &lt;h1&gt; tags, it is specific to only ordered
-lists <ol>. Another attribute specific to the <ol> tag
+an attribute for the &lt;ol&gt; tag and it cannot be applied on
+the &lt;p&gt; or &lt;h1&gt; tags, it is specific to only ordered
+lists &lt;ol&gt;. Another attribute specific to the &lt;ol&gt; tag
 is reversed, which we learned in the last unit as an example of a
 boolean attribute. The non-global attribute width can be applied to
-several tags such as <img>, <input> and <video>.
+several tags such as &lt;img&gt;, &lt;input&gt; and &lt;video&gt;.</p>
 
 <h4><b>Without</b> the boolean attribute reversed:</h4>
 
@@ -14824,5 +14836,5 @@ These are the final changes to our recipe project for this unit.
    alt="." />
 </p>
 
-<h3><b>Last Updated 08-17-2022 4:58pm</b></h3>
+<h3><b>Last Updated 08-18-2022 10:16pm</b></h3>
 
