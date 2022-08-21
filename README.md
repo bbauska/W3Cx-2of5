@@ -76,7 +76,7 @@
 >### 6.5 [**CSS Grid**](#ch6-5-1)
 >### 6.6 [**Recipe project**](#ch6-6-1)
 
-<a href="https://github.com/bbauska/W3Cx-2of5-HTML5-and-CSS-Fundamentals.git">HTML5 and CSS Fundamentals - git</a>
+<a href="https://github.com/bbauska/W3Cx-2of5-HTML5-and-CSS-Fundamentals.git" target="_blank">HTML5 and CSS Fundamentals - git</a>
 
 <h3>Course Outline:</h3>
 
@@ -143,7 +143,7 @@ layout your page during the last week of this course.
 <li>In <b>Module 5</b>, you will be combining HTML and CSS to create more
     complex pages, and "beautify" even more your recipe projects. You
     will learn about tables, the audio and video elements, etc. This is
-    a good preparatory work for the <a href="https://www.edx.org/course/html5-coding-essentials-and-best-practices">HTML5 Coding Essentials and Best Practices course</a> (intermediate level). You will also learn how to embed other elements in a page other than a simple image. Note that some parts of the material are optional: iframes, usemap, and ismap.<br/>&nbsp;</li>
+    a good preparatory work for the <a href="https://www.edx.org/course/html5-coding-essentials-and-best-practices" target="_blank">HTML5 Coding Essentials and Best Practices course</a> (intermediate level). You will also learn how to embed other elements in a page other than a simple image. Note that some parts of the material are optional: iframes, usemap, and ismap.<br/>&nbsp;</li>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- 06. can i use: css colors (03) --------------------------------->
@@ -158,23 +158,23 @@ layout your page during the last week of this course.
 CSS flexbox. Using flexible widths and heights, elements can be aligned
 to fill a space or distribute space between elements, which makes it a
 great tool to use for responsive design systems. Once you've got the
-basics, practice more with this fun <a href="https://flexboxfroggy.com/">Flexbox Froggy</a> game. Note that some parts of this week are clearly indicated OPTIONAL, meaning that there will be no
+basics, practice more with this fun <a href="https://flexboxfroggy.com/" target="_blank">Flexbox Froggy</a> game. Note that some parts of this week are clearly indicated OPTIONAL, meaning that there will be no
 questions related to that content material.</li>
 </ul>
 
-W3C has designed a <a href="https://www.edx.org/professional-certificate/w3cx-front-end-web-developer">"Front-End Web Developer" (FEWD) Professional
+W3C has designed a <a href="https://www.edx.org/professional-certificate/w3cx-front-end-web-developer" target="_blank">"Front-End Web Developer" (FEWD) Professional
 Certificate</a> where you will learn all of the necessary skills needed to build interactive
 and responsive user experiences on the Web. This program will deepen
 your knowledge of the 3 foundational languages that power the Web:
 HTML5, CSS and JavaScript. The W3C FEWD program is composed of 5
 courses:
 <ol type="1">
-   <li><a href="https://www.edx.org/course/css-basics">CSS Basics</a> - introductory level,<br/>&nbsp;</li>
-   <li><b>This course: <a href="https://www.edx.org/course/html5-and-css-fundamentals">HTML5 and CSS Fundamentals</a> - introductory level,</b><br/>&nbsp;</li>
-   <li><a href="https://www.edx.org/course/html5-coding-essentials-and-best-practices">HTML5 Coding Essentials and Best Practices</a> - intermediate level,<br/>&nbsp;</li>
-   <li><a href="https://www.edx.org/course/html5-apps-and-games">HTML5 Apps and Games</a> - advanced
+   <li><a href="https://www.edx.org/course/css-basics" target="_blank">CSS Basics</a> - introductory level,<br/>&nbsp;</li>
+   <li><b>This course: <a href="https://www.edx.org/course/html5-and-css-fundamentals" target="_blank">HTML5 and CSS Fundamentals</a> - introductory level,</b><br/>&nbsp;</li>
+   <li><a href="https://www.edx.org/course/html5-coding-essentials-and-best-practices" target="_blank">HTML5 Coding Essentials and Best Practices</a> - intermediate level,<br/>&nbsp;</li>
+   <li><a href="https://www.edx.org/course/html5-apps-and-games" target="_blank">HTML5 Apps and Games</a> - advanced
     level,<br/>&nbsp;</li>
-   <li><a href="https://www.edx.org/course/javascript-introduction">JavaScript Introduction</a> -
+   <li><a href="https://www.edx.org/course/javascript-introduction" target="_blank">JavaScript Introduction</a> -
     introductory level.</li>
 </ol>
 
@@ -200,15 +200,15 @@ Not surprisingly, it would be helpful to have a browser (short for "Web
 Browser") so that you can see the end result of your source code.
 
 Common modern browsers for the desktop
-are <a href="https://firefox.com/), [Chrome](https://www.google.com/chrome/">Firefox</a>, <a href="https://www.microsoft.com/en-us/windows/microsoft-edge">Microsoft
-Edge</a>(and IE), <a href="http://www.apple.com/safari/">Safari</a>, <a href="https://brave.com/">Brave</a>,
+are <a href="https://firefox.com/), [Chrome](https://www.google.com/chrome/" target="_blank">Firefox</a>, <a href="https://www.microsoft.com/en-us/windows/microsoft-edge" target="_blank">Microsoft
+Edge</a>(and IE), <a href="http://www.apple.com/safari/" target="_blank">Safari</a>, <a href="https://brave.com/" target="_blank">Brave</a>,
 etc. The most common features of a Web browser include the browser
 window itself (also referred to as the user interface), the navigation
 and address bar, and options to view your history, settings, and other
 tools.
 
-Look at the <a href="https://en.wikipedia.org/wiki/Web_browser#History">history of Web
-browsers</a> (on Wikipedia). An interesting resource is the <a href="https://www.w3counter.com/globalstats.php">Browser and Platform Market
+Look at the <a href="https://en.wikipedia.org/wiki/Web_browser#History" target="_blank">history of Web
+browsers</a> (on Wikipedia). An interesting resource is the <a href="https://www.w3counter.com/globalstats.php" target="_blank">Browser and Platform Market
 Share</a> (updated regularly).
 
 <h3>Web editors</h3>
@@ -222,35 +222,35 @@ for you.
 There are two types of editors available, WYSIWYG ("What You See Is What
 You Get") and textual HTML editors. Here is a non exhaustive list:
 <ul>
-<li><a href="https://www.sublimetext.com/">Sublime Text</a> - it is quite
+<li><a href="https://www.sublimetext.com/" target="_blank">Sublime Text</a> - it is quite
 popular with developers, though there can be a bit of a learning curve
 to use its many features,</li>
-<li><a href="http://bluegriffon.org/">BlueGriffon</a> - a WYSIWYG content
+<li><a href="http://bluegriffon.org/" target="_blank">BlueGriffon</a> - a WYSIWYG content
 editor for the World Wide Web. Powered by Gecko, the rendering engine of
 Firefox, it's a modern and robust solution to edit Web pages in
 conformance to the latest Web Standards,</li>
-<li><a href="https://code.visualstudio.com/">Visual Studio Code</a> - a free
+<li><a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> - a free
 open source editor that can run on any operating system. Many coding
 videos in this course are demonstrated using Visual Studio Code,</li>
-<li><a href="https://github.com/">GitHub</a> itself - check <a href="https://towardsdatascience.com/how-to-create-a-free-github-pages-website-53743d7524e1">this resource
+<li><a href="https://github.com/" target="_blank">GitHub</a> itself - check <a href="https://towardsdatascience.com/how-to-create-a-free-github-pages-website-53743d7524e1" target="_blank">this resource
 that explains how to create a Web site using 
 GitHub</a>,</li>
-<li><a href="https://developer.apple.com/xcode/">XCode</a> - Mac developers
+<li><a href="https://developer.apple.com/xcode/" target="_blank">XCode</a> - Mac developers
 may be familiar with XCode,</li>
 <li>TextEdit - this is available on Macs, but be sure
-you're <a href="https://discussions.apple.com/message/5014514#5014514">saving as plain
+you're <a href="https://discussions.apple.com/message/5014514#5014514" target="_blank">saving as plain
 text</a>, not as a ".rtf" or ".doc" file,</li>
-<li><a href="https://notepad-plus-plus.org/">Notepad++</a> - on Windows PC's,</li>
-<li><a href="https://www.sublimetext.com/">Atom</a> - another cross platform
-editor, created by <a href="https://github.com/">GitHub</a>,</li>
-<li><a href="https://www.vim.org/) or [Emacs](https://www.gnu.org/software/emacs/">Vim</a> -
+<li><a href="https://notepad-plus-plus.org/" target="_blank">Notepad++</a> - on Windows PC's,</li>
+<li><a href="https://www.sublimetext.com/" target="_blank">Atom</a> - another cross platform
+editor, created by <a href="https://github.com/" target="_blank">GitHub</a>,</li>
+<li><a href="https://www.vim.org/) or [Emacs](https://www.gnu.org/software/emacs/" target="_blank">Vim</a> -
 great editors, but if you're not already familiar with these, this isn't the time to try.</li>
 </ul>
 
 <h3>Online Code Editors</h3>
 
 To help you practice during the whole duration of the course, we propose
-to use the <a href="https://codepen.io/">CodePen</a> online code editor. An online
+to use the <a href="https://codepen.io/" target="_blank">CodePen</a> online code editor. An online
 code editor is a tool that resides on a remote server and is accessible
 via browsers.
 
@@ -266,7 +266,7 @@ Note that there are many other online code editors available out there,
 such as JSBin,  JSFiddle, and Dabblet (Lea Verou's tool).
 
 Here's an interesting article on what beginners can do with
-CodePen: <a href="https://codepen.io/brentmiller/post/things-you-can-do-with-codepen">Things you can do with
+CodePen: <a href="https://codepen.io/brentmiller/post/things-you-can-do-with-codepen" target="_blank">Things you can do with
 CodePen</a> [Brent Miller, February 6, 2019].
 
 <h3>W3C Validators</h3>
@@ -289,10 +289,10 @@ CodePen</a> [Brent Miller, February 6, 2019].
 </p>
 
 For over 15 years, the W3C has been developing and
-hosting <a href="https://w3c.github.io/developers/">free and open source tools</a> used every day
+hosting <a href="https://w3c.github.io/developers/" target="_blank">free and open source tools</a> used every day
 by millions of Web developers and Web designers. All the tools
 listed below are Web-based, and are available as downloadable sources or
-as free services on the <a href="https://w3c.github.io/developers/tools/">W3C Developers
+as free services on the <a href="https://w3c.github.io/developers/tools/" target="_blank">W3C Developers
 tools</a>.
 
 <h3>W3C Validator</h3>
@@ -337,7 +337,7 @@ of issues and offer advice about how to resolve them.
 
 <h3>Link Checker</h3>
 
-The <a href="https://validator.w3.org/checklink">W3C Link Checker</a> looks for
+The <a href="https://validator.w3.org/checklink" target="_blank">W3C Link Checker</a> looks for
 issues in links, anchors and referenced objects in a Web page, CSS style
 sheet, or recursively on a whole Web site. For best results, it is
 recommended to first ensure that the documents checked use
@@ -365,7 +365,7 @@ internationalization tips.
 
 Its main feature is a lookup search box, where one can start typing a keyword and get a list of matching properties/elements/ attributes/functions in the above-mentioned specifications, and further details on those when selecting the one of interest.
 
-The W3C cheatsheet is only available as a <a href="https://dev.w3.org/2009/cheatsheet/doc/">pure Web application</a>.
+The W3C cheatsheet is only available as a <a href="https://dev.w3.org/2009/cheatsheet/doc/" target="_blank">pure Web application</a>.
 
 <h3>Browser Compatibility</h3>
 
@@ -379,23 +379,23 @@ devices and operating systems!
 
 To make the Web evolve in a sane and sustainable way for both users and
 developers, browser vendors work together to standardize new features,
-whether it’s a new <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">HTML
-element</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#Keyword_index">CSS
+whether it’s a new <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">HTML
+element</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#Keyword_index" target="_blank">CSS
 property</a>,
-or <a href="https://developer.mozilla.org/en-US/docs/Web/API">JavaScript API</a>.
+or <a href="https://developer.mozilla.org/en-US/docs/Web/API" target="_blank">JavaScript API</a>.
 But different vendors have different priorities, resources, and release
 cycles — so it’s very unlikely that a new feature will land on all the
 major browsers at once. As a Web developer, this is something you must
 consider if you’re relying on a feature to build your site.
 
 We are then providing references to the browser support of HTML5
-features presented in this course using 2 resources: <a href="https://caniuse.com/">Can I
-Use</a> and [Mozilla Developer Network <a href="https://developer.mozilla.org/en-US/">MDN Web
+features presented in this course using 2 resources: <a href="https://caniuse.com/" target="_blank">Can I
+Use</a> and [Mozilla Developer Network <a href="https://developer.mozilla.org/en-US/" target="_blank">MDN Web
 Docs</a>.
 
 <h3>Can I use</h3>
 
-<a href="https://caniuse.com/">Can I Use</a> provides up-to-date tables for support
+<a href="https://caniuse.com/" target="_blank">Can I Use</a> provides up-to-date tables for support
 of front-end Web technologies on desktop and mobile Web browsers. Below
 is a snapshot of what information is given by CanIUse when searching for
 "CSS3 colors".
@@ -421,16 +421,16 @@ is a snapshot of what information is given by CanIUse when searching for
 </p>
 
 To help developers make these decisions consciously rather than
-accidentally, <a href="https://developer.mozilla.org/">MDN Web Docs</a> provides
+accidentally, <a href="https://developer.mozilla.org/" target="_blank">MDN Web Docs</a> provides
 browser compatibility tables in its documentation pages, so that when
 looking up a feature you’re considering for your project, you know
 exactly which browsers will support it.
 
 <h3>External resources</h3>
 <ul>
-<li><a href="https://hacks.mozilla.org/2018/02/mdn-browser-compatibility-data/">MDN browser compatibility data: Taking the guesswork out of web
+<li><a href="https://hacks.mozilla.org/2018/02/mdn-browser-compatibility-data/" target="_blank">MDN browser compatibility data: Taking the guesswork out of web
     compatibility</a),</li>
-<li><a href="https://hacks.mozilla.org/2019/09/caniuse-and-mdn-compat-data-collaboration/">Caniuse and MDN compatibility data
+<li><a href="https://hacks.mozilla.org/2019/09/caniuse-and-mdn-compat-data-collaboration/" target="_blank">Caniuse and MDN compatibility data
     collaboration</a>.</li>
 </ul>
 
@@ -454,8 +454,8 @@ define key parts of what actually makes the World Wide Web work.
 </p>
 <h6 align="center">Tim Berners-Lee at his desk in CERN, 1994</h6>
 
-<a href="https://www.w3.org/People/Berners-Lee/">Tim Berners-Lee</a> wrote a
-<a href="https://www.w3.org/History/1989/proposal.html">proposal</a> in 1989 for a
+<a href="https://www.w3.org/People/Berners-Lee/" target="_blank">Tim Berners-Lee</a> wrote a
+<a href="https://www.w3.org/History/1989/proposal.html" target="_blank">proposal</a> in 1989 for a
 system called the World Wide Web. He then created the first Web browser,
 server, and Web page. He wrote the first specifications for URLs, HTTP,
 and HTML.
@@ -463,39 +463,39 @@ and HTML.
 In October 1994, Tim Berners-Lee founded the World Wide Web Consortium
 (W3C) at the Massachusetts Institute of Technology, Laboratory for
 Computer Science [MIT/LCS] in collaboration with
-<a href="https://home.cern/">CERN</a>, where the Web originated (see information on
-the <a href="https://www.w3.org/Daemon/">original CERN Server</a>), with support
-from DARPA and the <a href="https://ec.europa.eu/index_en.htm">European
+<a href="https://home.cern/" target="_blank">CERN</a>, where the Web originated (see information on
+the <a href="https://www.w3.org/Daemon/"> target="_blank"original CERN Server</a>), with support
+from DARPA and the <a href="https://ec.europa.eu/index_en.htm" target="_blank">European
 Commission</a>.
 
-In April 1995, <a href="https://www.inria.fr/">Inria</a> became the first European
-W3C host, followed by <a href="https://www.keio.ac.jp/">Keio University of
+In April 1995, <a href="https://www.inria.fr/" target="_blank">Inria</a> became the first European
+W3C host, followed by <a href="https://www.keio.ac.jp/" target="_blank">Keio University of
 Japan</a> (Shonan Fujisawa Campus) in Asia in
-1996. In 2003, <a href="https://www.ercim.eu/">ERCIM</a> took over the role of
-European W3C Host from Inria. In 2013, W3C announced <a href="https://ev.buaa.edu.cn/">Beihang
+1996. In 2003, <a href="https://www.ercim.eu/" target="_blank">ERCIM</a> took over the role of
+European W3C Host from Inria. In 2013, W3C announced <a href="https://ev.buaa.edu.cn/" target="_blank">Beihang
 University</a> as the fourth Host.
 
 <h3>A few figures</h3>
 
 As of April 2021, W3C:
 <ul>
-<li>Is a <a href="https://www.w3.org/Consortium/Member/List">member-</a>driven
+<li>Is a <a href="https://www.w3.org/Consortium/Member/List" target="_blank">member-</a>driven
     organization composed of nearly 430 companies, universities,
     start-ups, etc. from all over the world.&nbsp;<br/></li>
-<li>Holds 48 <a href="https://www.w3.org/Consortium/activities">technical groups</a>, including Working
+<li>Holds 48 <a href="https://www.w3.org/Consortium/activities" target="_blank">technical groups</a>, including Working
     and Interest Groups where technical specifications are discussed and
     developed.&nbsp;<br/></li>
-<li>Published over 7,652 <a href-"https://www.w3.org/TR/">published technical
+<li>Published over 7,652 <a href-"https://www.w3.org/TR/" target="_blank">published technical
     reports</a>, including 442 Web standards (or
     W3C Recommendations) - since January 1st,1995.&nbsp;<br/></li>
-<li>Runs a <a href="https://www.w3.org/Consortium/Translation/">translation
+<li>Runs a <a href="https://www.w3.org/Consortium/Translation/" target="_blank">translation
     program</a> to foster the translation of its specifications: see the <a href="https://www.w3.org/Consortium/Translation/matrix.html">translation
     matrix</a> currently listing 307 available translations of W3C recommendations.&nbsp;<br/></li>
-<li>Hosts 350 <a href="https://www.w3.org/community/groups/">Community and Business Groups</a>, where developers, designers, and anyone passionate about the Web have a place to hold
+<li>Hosts 350 <a href="https://www.w3.org/community/groups/" target="_blank">Community and Business Groups</a>, where developers, designers, and anyone passionate about the Web have a place to hold
     discussions and publish ideas.&nbsp;<br/></li>
 <li>Gathers over 13,960active participants constituting the W3C
     community.&nbsp;<br/></li>
-<li>Has a <a href="https://www.w3.org/People/"> technical staff</a> composed of 68
+<li>Has a <a href="https://www.w3.org/People/" target="_blank"> technical staff</a> composed of 68
     people, spread on all five continents.</li>
 </ul>
 
@@ -517,10 +517,10 @@ this usage is technically incorrect.
 
 The Web is an application of the Internet. The Web is the most popular
 way of accessing the Internet, but other applications of the Internet
-are <a href="https://en.wikipedia.org/wiki/Email">e-mail</a> and
-<a href="https://en.wikipedia.org/wiki/File_Transfer_Protocol">ftp</a> for example.
+are <a href="https://en.wikipedia.org/wiki/Email" target="_blank">e-mail</a> and
+<a href="https://en.wikipedia.org/wiki/File_Transfer_Protocol" target="_blank">ftp</a> for example.
 One analogy equates the Internet to a road network where the Web is a
-car, the email is a bicycle, etc.  Read <a href="https://www.lifewire.com/difference-between-the-internet-and-the-web-2483335">this
+car, the email is a bicycle, etc.  Read <a href="https://www.lifewire.com/difference-between-the-internet-and-the-web-2483335" target="_blank">this
 article</a>
 for more details about the difference between Internet and the Web.
 
@@ -737,9 +737,9 @@ email and other conveniences.
 </p>
 
 At the time there were a number of different programs like
-'<a href="https://en.wikipedia.org/wiki/Fetch_(FTP_client">fetch</a>',
-'<a href="http://www.yourdictionary.com/gopher#Noun-3">gopher</a>' and
-'<a href="https://en.wikipedia.org/wiki/Archie_search_engine">archie</a>' that were
+'<a href="https://en.wikipedia.org/wiki/Fetch_(FTP_client" target="_blank">fetch</a>',
+'<a href="http://www.yourdictionary.com/gopher#Noun-3" target="_blank">gopher</a>' and
+'<a href="https://en.wikipedia.org/wiki/Archie_search_engine" target="_blank">archie</a>' that were
 used to download, browse and search for files.  Typically, you might use
 one tool to search for the location of files of interest, then another
 to copy that file to a local machine.  Then, you still needed more tools
@@ -747,7 +747,7 @@ to read that file.  If it was text, you could use a text editor, if it
 was a formatted document you might need a word processor, if a picture
 you would need an image viewer and so on.
 
-<a href="https://en.wikipedia.org/wiki/Marc_Andreessen">Marc Andreessen</a> conceived of
+<a href="https://en.wikipedia.org/wiki/Marc_Andreessen" target="_blank">Marc Andreessen</a> conceived of
 a solution that would put all the pieces together in one app, making it
 easy for users to browse all the different sorts of information and data
 on the World Wide Web.  Together with others, he started the "Mosaic"
@@ -766,7 +766,7 @@ most modern browsers.
 
 <h4>Exploring the Web, "Then and Now":</h4>
 
-<li>Go to <a href="https://archive.org/">archive.org</a> and find the earliest
+<li>Go to <a href="https://archive.org/" target="_blank">archive.org</a> and find the earliest
     available instance of the Web site: www.google.com.</li><br/>
 <li>Note the differences between that and its current Web site.</li><br/>
 <li>Find an old news story, see how far back you can go (hint: start by
@@ -785,7 +785,7 @@ and end, which part is the title, which things should be emphasized and
 so on.  
 
 There are many ways to markup a document, but HTML borrows a technique
-from an ancestor language, SGML (<a href="https://en.wikipedia.org/wiki/Standard_Generalized_Markup_Language">Standard Generalized Markup
+from an ancestor language, SGML (<a href="https://en.wikipedia.org/wiki/Standard_Generalized_Markup_Language" target="_blank">Standard Generalized Markup
 Language</a>),
 which uses angle brackets ("&lt;" and "&gt;") to separate the annotations
 from the regular text.  In HTML these annotations are called "tags".
@@ -837,10 +837,10 @@ editors that you can install on your machine, like Visual Studio Code.
 
 <h4>Using online editors:</h4>
 
-Both <a href="https://jsbin.com">JSBin</a> and <a href="https://codepen.io/">CodePen</a> are
+Both <a href="https://jsbin.com" target="_blank">JSBin</a> and <a href="https://codepen.io/"> target="_blank"CodePen</a> are
 two online editors that you can use to create HTML Web pages.
 The following two videos show you how to create your first HTML page
-using <a href="https://jsbin.com">JSBin</a> and <a href="https://codepen.io/">CodePen</a>
+using <a href="https://jsbin.com" target="_blank">JSBin</a> and <a href="https://codepen.io/" target="_blank">CodePen</a>
 
 And this time, what I'd like to show you a very simple HTML file that
 I've created.
@@ -1133,7 +1133,7 @@ Until next time, happy coding.
 
 <h4>Using Visual Studio Code</h4>
 
-Watch these 3 demos/videos below to learn how to use <a href="https://code.visualstudio.com/">Visual Studio
+Watch these 3 demos/videos below to learn how to use <a href="https://code.visualstudio.com/" target="_blank">Visual Studio
 Code</a> (VS):
 <ul>
 <li>to write HTML pages and explore the support you get when using
@@ -1833,7 +1833,7 @@ slack of his roundabout and arrest his flight.
 > and layout accordingly.*
 
 On the other hand, you might think that since a browser always knows
-exactly what tag it is working with (<a href="https://en.wikipedia.org/wiki/Eidetic_memory">eidetic
+exactly what tag it is working with (<a href="https://en.wikipedia.org/wiki/Eidetic_memory" target="_blank">eidetic
 memory</a>), you could
 provide a sort of "universal close tag" that doesn't specify the type
 that it's closing. It would know to close the current tag. While that's
@@ -2282,7 +2282,7 @@ There is no need for the &copy; or &euro; HTML character reference if
 you are able to type the character itself.
 
 If you'd like to read more information about when to use character
-references and when not to use them, see <a href="https://www.w3.org/International/questions/qa-escapes">Using character escapes in
+references and when not to use them, see <a href="https://www.w3.org/International/questions/qa-escapes" target="_blank">Using character escapes in
 markup and CSS</a>.
 
 <h3 id="ch1-5-1">1.5.1 Learning from the Mistakes of Others</h3>
@@ -4426,7 +4426,7 @@ identify headings</a>.
 ```
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 31. template (##) -------------------------------->
+<!--------------------------- 31. example codepen; heading level (##) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image031.png?raw=true"
@@ -4442,9 +4442,8 @@ higher level headings or announce the heading level with the text it
 reads. They can also navigate through the headings quicker making it
 easier for the user to navigate contents of the Web page. 
 
-You can learn more about the source of this technique in that [other W3C
-resource page about
-headings](https://www.w3.org/WAI/tutorials/page-structure/headings/).
+You can learn more about the source of this technique in that <a href="https://www.w3.org/WAI/tutorials/page-structure/headings/" target="_blank">other W3C
+resource page about headings</a>.
 
 <h4>Can you have more than one <header>, <footer> and <nav>?</h4>
 
@@ -4618,7 +4617,7 @@ articles here.</p>
 
 An <b>article element</b> as we know is stand-alone content. If you pick an
 article out of a Web page, it should make sense all by itself.
-In <a href="https://codepen.io/w3devcampus/pen/oWqbad">Brad's Blog example</a> in
+In <a href="https://codepen.io/w3devcampus/pen/oWqbad" target="_blank">Brad's Blog example</a> in
 the previous unit, if you extract only the first article, you can see
 that it will make sense all by itself without any context. It can be
 reused anywhere else.
@@ -5130,10 +5129,10 @@ information to be aware of.
     alpha channels. This makes them useful for non-rectangular images
     that may need to overlay different background colors or other
     elements on the page. To make PNG images, a user would need graphics
-    editing software (like GIMP, Photoshop, or others). PNG is a <a href="https://www.w3.org/TR/PNG/">W3C
+    editing software (like GIMP, Photoshop, or others). PNG is a <a href="https://www.w3.org/TR/PNG/" target="_blank">W3C
     Web standard</a> (this is the 2nd edition -
     the 1st edition
-    was <a href="https://www.w3.org/TR/REC-png-961001">published</a> in 1996!).
+    was <a href="https://www.w3.org/TR/REC-png-961001" target="_blank">published</a> in 1996!).
 <li><b>SVG</b> (Scalable Vector Graphics) are defined mathematically and
     support animation. Also, since they are defined mathematically  they
     scale to:</li>
@@ -5153,9 +5152,9 @@ information to be aware of.
     illustrations.  SVG is also a markup language in its own right and
     is very similar to HTML. Typically, it is created with vector
     graphic software (like Inkscape, Adobe Illustrator,
-    and <a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Tools_for_SVG">others</a>),
+    and <a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Tools_for_SVG" target="_blank">others</a>),
     but some people write the markup by hand. Note that SVG 1.1 is
-    a <a href="https://www.w3.org/TR/SVG/">W3C Web standard</a>).
+    a <a href="https://www.w3.org/TR/SVG/" target="_blank">W3C Web standard</a>).
 
 <h3 id="ch2-4-2">2.4.2 Attribute alt</h3>
 
@@ -5621,7 +5620,7 @@ Please find below a list of possible activities:
     - images of text
 
 Use the alt attribute to provide alternate text for the images above.   
-Refer to the <a href="https://www.w3.org/WAI/tutorials/images/">WAI images
+Refer to the <a href="https://www.w3.org/WAI/tutorials/images/" target="_blank">WAI images
 Tutorial</a> for a guide to
 writing alternate text. 
 
@@ -5631,7 +5630,7 @@ writing alternate text. 
 
 In a typical Web page, you may well have seen a sentence like this one:
 
-<b><a href="https://en.wikipedia.org/wiki/Hyperlink">Find out more</a> about our
+<b><a href="https://en.wikipedia.org/wiki/Hyperlink" target="_blank">Find out more</a> about our
    offers!</b>
 
 Or something like this:
@@ -5639,7 +5638,7 @@ Or something like this:
 <!---------------------- 45. buy now button to illustrate hyperlink (xxx) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<a href="https://en.wikipedia.org/wiki/Hyperlink">
+<a href="https://en.wikipedia.org/wiki/Hyperlink" target="_blank">
    <img alt="Buy now button to illustrate hyperlink." 
    src="./images/image045.png?raw=true"
    width=150" height="70">
@@ -5710,10 +5709,10 @@ possible.
 The hyperlink tag in html is simply <b>&lt;a&gt;, </b>and it is called
 the<b> anchor element</b>. Here is how it is used:
 
-1.  <a href="https://en.wikipedia.org/wiki/Hyperlink">Click
+1.  <a href="https://en.wikipedia.org/wiki/Hyperlink" target="_blank">Click
     here</a> to go to the Wikipedia Hyperlink page.
 
-Result: <a href="https://en.wikipedia.org/wiki/Hyperlink">Click here</a> to go to
+Result: <a href="https://en.wikipedia.org/wiki/Hyperlink" target="_blank">Click here</a> to go to
 the Wikipedia Hyperlink page.
 
 Note: The anchor element should not be confused with the <link> tag.
@@ -5850,7 +5849,7 @@ we'll focus on the two below.
 this is the default behavior.</td>
 <td>_self</td>
 <td>&lt;a href="https://qwant.com/" target="_self"&gt;&lt;/a&gt;</td>
-<td><a href="https://qwant.com/">LINK will open in same
+<td>&lt;a href="https://qwant.com/" target="_blank"&gt;LINK will open in same
 window</a> (Navigate back to the course by clicking Back button in
 browser)</td>
 </tr>
@@ -5864,7 +5863,7 @@ open in a new tab or window when using '_blank' as some may not be aware
 of the new tab having opened.</p></td>
 <td>_blank</td>
 <td>&lt;a href="https://qwant.com/" target="_blank"&gt;&lt;/a&gt;</td>
-<td><a href="https://qwant.com/">LINK will open in new window</a></td>
+<td>&lt;a href="https://qwant.com/" target="_blank"&lt;LINK will open in new window</a></td>
 </tr>
 </tbody>
 </table>
@@ -5928,7 +5927,7 @@ modified according to value specified. 
 
 <h4>Example (try the hyperlink below in Google Chrome):</h4>
 
-<a href="https://courses.edx.org/assets/courseware/v1/6e709b3765de6510e212932331a0bf52/asset-v1:W3Cx+HTML5.0x+3T2020+type@asset+block/hello.txt">Click to Download</a>
+<a href="https://courses.edx.org/assets/courseware/v1/6e709b3765de6510e212932331a0bf52/asset-v1:W3Cx+HTML5.0x+3T2020+type@asset+block/hello.txt" target="_blank">Click to Download</a>
 
 <b>Note: </b>the download attribute is [not supported in all
 browsers](https://caniuse.com/#search=download). Try
@@ -6743,7 +6742,7 @@ have fun. We have a live coding demonstration in the next page working
 with the same source.
 
 You are welcome to edit the
-following <a href="https://codepen.io/w3devcampus/pen/QvQgbr">CodePen.</a>
+following <a href="https://codepen.io/w3devcampus/pen/QvQgbr" target="_blank">CodePen.</a>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 54.  (##) -------------------------------->
@@ -6990,9 +6989,9 @@ and just sort of see what each one does.
 
 <h3 id="ch3-3-1">3.3.1 Common CSS Properties</h3>
 
-There are hundreds of CSS properties for you to use. The <a href="https://www.w3.org/Style/CSS/all-properties.en.html">complete
+There are hundreds of CSS properties for you to use. The <a href="https://www.w3.org/Style/CSS/all-properties.en.html" target="_blank">complete
 list</a> is available
-on the W3C Web site (or also, see the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">CSS reference page on the MDN Web
+on the W3C Web site (or also, see the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference" target="_blank">CSS reference page on the MDN Web
 site</a>).
 
 Below we've gathered a more manageable list of the most useful
@@ -9014,7 +9013,7 @@ font-size:1.2rem;
 <h3>4.4.3 Cloud images</h3>
 
 We're working on a Web page about clouds in
-the <a href="https://codepen.io/w3devcampus/pen/ybqbwJ">CodePen</a> below, and we
+the <a href="https://codepen.io/w3devcampus/pen/ybqbwJ" target="_blank">CodePen</a> below, and we
 have some beautiful pictures we'd like to use: one for the top of the
 page, and others as examples of different types of clouds.  We include
 the pictures but the result is unwieldy:
@@ -9240,7 +9239,7 @@ learn more about that in the module 6.
 <h3 id="ch4-4-4">4.4.4 Shrinking Text</h3>
 
 For this section you can play with
-the <a href="http://codepen.io/w3devcampus/pen/wdxegK">CodePen</a> below. The main
+the <a href="http://codepen.io/w3devcampus/pen/wdxegK" target="_blank">CodePen</a> below. The main
 content is an outline for an essay and it should look something like
 this:
 
@@ -9699,7 +9698,7 @@ intended purpose - making tables.
 
 <h4>Separating content and style</h4>
 
-Look at <a href="http://create.adobe.com/">this site</a> that is laid out with
+Look at <a href="http://create.adobe.com/" target="_blank">this site</a> that is laid out with
 CSS. You might be tempted to do this via tables instead. Or you might
 want to just make your whole Web page into one big table: site header in
 a table row, left navigation bar on the second row, left column, etc.
@@ -9976,7 +9975,7 @@ It is very useful to define parts of a table as header, body and footer
 because once browsers are able to identify which cells are header and
 footer, the body can be allowed to scroll independently of header and
 footer catering to a good table viewing experience in small
-screens. <a href="https://www.tjvantoll.com/demos/2012-11-10/">This is one such
+screens. <a href="https://www.tjvantoll.com/demos/2012-11-10/" target="_blank">This is one such
 example</a>. Apart from this,
 these elements can also be used to style header, body and footer rows
 individually using CSS. 
@@ -10978,7 +10977,7 @@ As a conclusion to this tables section, here is a complete table design:
 
 <b>Note</b>: This table contains multi-line headers. You can find more
 information on the right way to design tables of different header types
-on this W3C <a href="https://www.w3.org/WAI/tutorials/tables/">Tables
+on this W3C <a href="https://www.w3.org/WAI/tutorials/tables/" target="_blank">Tables
 Concepts</a> page.
 
 <h3>5.2.6 Creating a Table</h3>
@@ -14185,12 +14184,12 @@ in the advanced optional flexbox material.
 margin:auto prevents align-self from working (a very handy flexbox
 property covered in the Optional section). There are effective ways of
 using auto margins though, just do so with
-care: <a href="https://medium.com/@samserif/flexbox-s-best-kept-secret-bd3d892826b6#.wzrvpxpqv">
+care: <a href="https://medium.com/@samserif/flexbox-s-best-kept-secret-bd3d892826b6#.wzrvpxpqv" target="_blank">
 <https://medium.com/@samserif/flexbox-s-best-kept-secret-bd3d892826b6#.wzrvpxpqv></a>
 
 <h4>Try to keep your flexbox usage simple</h4>
 
-You can see here: <a href="http://caniuse.com/#search=flexbox">http://caniuse.com/#search=flexbox</a> that flexbox is
+You can see here: <a href="http://caniuse.com/#search=flexbox" target="_blank">http://caniuse.com/#search=flexbox</a> that flexbox is
 widely supported across all the modern browsers. However, Internet
 Explorer had bugs in its support (but they are fixed in Edge). And the
 flexbox standard has had some changes since it was first proposed. For
@@ -14199,8 +14198,8 @@ in this course material, and, as with all CSS, be sure to always test in
 as many browsers as possible.
 
 <h4>External resources</h4>
-<li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox">Flexbox documentation</a> on MDN (available in many languages!)
-<li><a href="https://www.smashingmagazine.com/2018/08/flexbox-display-flex-container/">What Happens When You Create A Flexbox Flex Container?</a> (by Rachel Andrew - 2 August 2018)
+<li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox" target="_blank">Flexbox documentation</a> on MDN (available in many languages!)
+<li><a href="https://www.smashingmagazine.com/2018/08/flexbox-display-flex-container/" target="_blank">What Happens When You Create A Flexbox Flex Container?</a> (by Rachel Andrew - 2 August 2018)
 </ul>
 
 <h3 id="ch6-4-1">6.4.1 Main and cross axes</h3>
@@ -14518,10 +14517,10 @@ the order value of 1, the second is 2, etc.  And you can override it.
 <h4>CSS flexbox resources</h4>
 
 <ul>
-<li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">A complete guide to Flexbox</a> (CSS Tricks) - <b>updated 7 April 2021</b></li><br/>
-<li><a href="https://www.smashingmagazine.com/2018/10/flexbox-use-cases/">Use cases for Flexbox</a> (Smashing Magazine) - <b>October 2018</b></li><br/>
-<li><a href="https://www.w3.org/TR/css-flexbox/">CSS Flexible Box Layout</a>, the W3C specification</li><br/>
-<li><a href="https://flexboxfroggy.com/">Flexbox froggy</a> (game to practice CSS flexbox code)</li><br/>
+<li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">A complete guide to Flexbox</a> (CSS Tricks) - <b>updated 7 April 2021</b></li><br/>
+<li><a href="https://www.smashingmagazine.com/2018/10/flexbox-use-cases/" target="_blank">Use cases for Flexbox</a> (Smashing Magazine) - <b>October 2018</b></li><br/>
+<li><a href="https://www.w3.org/TR/css-flexbox/" target="_blank">CSS Flexible Box Layout</a>, the W3C specification</li><br/>
+<li><a href="https://flexboxfroggy.com/" target="_blank">Flexbox froggy</a> (game to practice CSS flexbox code)</li><br/>
 </ul>
 
 <h3 id="ch6-5-1">6.5.1 CSS Grid Layout</h3>
@@ -14561,7 +14560,7 @@ The grid is something we should have had, probably from very early on, maybe fro
 
 Have a look at how CSS Grid Layout went from an idea to a reality. The
 video below has been shot in August 2017 by the Microsoft team. It
-features some of the <a href="https://courses.edx.org/courses/course-v1:W3Cx+CSS.0x+3T2017/courseware/12e8f1585d88470e95f54cf0ff6a1a00/6c9058a29dc5493fbb43332c6bc3b550/4?activate_block_id=block-v1%3AW3Cx%2BCSS.0x%2B3T2017%2Btype%40vertical%2Bblock%40beac75cf51c34b51a0ac0f6e5fad70cc">CSS Working Group
+features some of the <a href="https://courses.edx.org/courses/course-v1:W3Cx+CSS.0x+3T2017/courseware/12e8f1585d88470e95f54cf0ff6a1a00/6c9058a29dc5493fbb43332c6bc3b550/4?activate_block_id=block-v1%3AW3Cx%2BCSS.0x%2B3T2017%2Btype%40vertical%2Bblock%40beac75cf51c34b51a0ac0f6e5fad70cc" target="_blank">CSS Working Group
 participants</a>:
 
 Rossen Atanassov (Microsoft) ; Tab Atkins Jr. (Google) ; Sergio Villar
@@ -14586,7 +14585,7 @@ layout grid.
 
 If that sounds a bit too abstract, here is another way of looking at it.
 The idea behind the Grid module is that you split
-the <a href="https://courses.edx.org/courses/course-v1:W3Cx+HTML5.0x+3T2020/jump_to_id/61920cda43ca49cca2fcf26e763bbe16">box</a> that
+the <a href="https://courses.edx.org/courses/course-v1:W3Cx+HTML5.0x+3T2020/jump_to_id/61920cda43ca49cca2fcf26e763bbe16" target="_blank">box</a> that
 makes up an element into many individual ‘slots’, arranged in a matrix,
 and separated from each other by (invisible) horizontal and vertical
 lines. You do that with a property called 'grid', which contains the
@@ -14614,7 +14613,7 @@ CSS, such as the table-related properties or the 'float' and 'clear'
 properties, while also allowing elements to be displayed out of order.
 As such they are especially appreciated for (Web) applications with user
 interfaces that are made with HTML and CSS. The Grid module is not yet
-the ‘<a href="https://en.wikipedia.org/wiki/Grid_(graphic_design)">design grid</a>)’
+the ‘<a href="https://en.wikipedia.org/wiki/Grid_(graphic_design)" target="_blank">design grid</a>)’
 that typographers want for the layout of magazines and books, but it is
 a first step. (E.g., one obvious thing to do, applying grid properties
 to an HTML table, doesn't work, because the properties do not handle
@@ -14622,15 +14621,15 @@ nested elements yet.) Even though this is only level 1 of the module, it
 is well worth trying out.
 
 The properties from the Grid module have only been available in major
-browsers since mid 2017 (see the <a href="http://caniuse.com/#feat=css-grid">status of browser
+browsers since mid 2017 (see the <a href="http://caniuse.com/#feat=css-grid" target="_blank">status of browser
 support</a>). But the ideas behind the
 Grid module aren't new. From the start of CSS, there have been proposals
 to use CSS properties to define a template or matrix to guide the layout
-of elements, e.g.: <a href="http://www.w3.org/TR/WD-layout">Frame-based
-layout</a>, <a href="http://www.w3.org/TR/2005/WD-css3-layout-20051215/">Advanced
+of elements, e.g.: <a href="http://www.w3.org/TR/WD-layout" target="_blank">Frame-based
+layout</a>, <a href="http://www.w3.org/TR/2005/WD-css3-layout-20051215/" target="_blank">Advanced
 Layout</a> (later
-called <a href="http://www.w3.org/TR/css-template-3/">Template Layout</a>), <a href="https://github.com/gss">Grid
-Style Sheets</a> and <a href="https://constraints.cs.washington.edu/web/ccss-uwtr.pdf">Constraint
+called <a href="http://www.w3.org/TR/css-template-3/" target="_blank">Template Layout</a>), <a href="https://github.com/gss" target="_blank">Grid
+Style Sheets</a> and <a href="https://constraints.cs.washington.edu/web/ccss-uwtr.pdf" target="_blank">Constraint
 CSS</a>. But only
 recently has technology become good enough to support some (not all!) of
 those ideas.
@@ -14653,8 +14652,8 @@ cases.
 
 <h4>CSS grid resources</h4>
 <ul>
-<li><a href="https://css-tricks.com/snippets/css/complete-guide-grid/">A complete guide to Grid</a> (CSS Tricks) - <i>updated 10 March 2021</i></li>
-<li><a href="https://www.w3.org/TR/css-grid-1/">CSS Grid</a>, the W3C specification -   <a href="https://gridbyexample.com/">Grid by example</a>: this site is a collection of <i>examples</i>, video and other information to help you learn CSS <i>Grid Layout - by Rachel Andrew</i>.</li>
+<li><a href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank">A complete guide to Grid</a> (CSS Tricks) - <i>updated 10 March 2021</i></li>
+<li><a href="https://www.w3.org/TR/css-grid-1/" target="_blank">CSS Grid</a>, the W3C specification -   <a href="https://gridbyexample.com/" target="_blank">Grid by example</a>: this site is a collection of <i>examples</i>, video and other information to help you learn CSS <i>Grid Layout - by Rachel Andrew</i>.</li>
 </ul>
 
 <h3 id="ch6-6-1">6.6.1 Recipe project - Module 6</h3>
