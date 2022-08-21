@@ -2753,13 +2753,14 @@ first a disclaimer.  We have been emphasizing the general rule that HTML
 is for the logical structure of your content, not what it looks like.
  Well, this is not entirely true.  There are some HTML elements that are
 primarily used to invoke certain formatting.</p>
+
 <ul>
-<li><b><hr></b> - The <b>hr</b> tag stands for horizontal rule and is used
+<li><b>&lt;hr&gt;</b> - The <b>hr</b> tag stands for horizontal rule and is used
     to insert a horizontal line across the width of the text, or a
     thematic break in an HTML page to divide or separate document
     sections. The <hr> tag is an empty tag and does not require an end
     tag. It would typically look like this:</li>
-<li><b><br></b> - This tag signifies a line break, and is used for any
+<li><b>&lt;br&gt;</b> - This tag signifies a line break, and is used for any
     number of situations.  For example, it can be an easy way to make
     sure that lines of poetry break where they're supposed to (less
     verbose than requiring each line to be a separate element).
@@ -2769,8 +2770,8 @@ primarily used to invoke certain formatting.</p>
     Because it's an empty tag, there's no need for a close tag. Indeed,
     if you do try adding &lt;/br&gt; after your &lt;br&gt; tag, it will likely
     be interpreted as an additional break. If you feel a strong need to
-    indicate tag closure, <br /> is also valid syntax.  
-    Note that the <br> tag implies a break even if there is no break
+    indicate tag closure, &lt;br /&gt; is also valid syntax.  
+    Note that the &lt;br&gt; tag implies a break even if there is no break
     in the text containing it, so for example, these two sentences would
     be formatted exactly the same:</li>
 </ul>
