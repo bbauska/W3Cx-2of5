@@ -3726,15 +3726,14 @@ Text is bold by default in a browser</td>
 <b>Bold</b> is a style that makes letters thicker so it stands out among
 other text but it has no semantic meaning, for example for voice
 browsers, screen readers, and other types of ways to access the Web. A
-device like [Kindle
-Paperwhite](https://en.wikipedia.org/wiki/Amazon_Kindle#Kindle_Paperwhite_.281st_generation.29) that
-renders text differently, might not pick up the bold.
+device like <a href="https://en.wikipedia.org/wiki/Amazon_Kindle#Kindle_Paperwhite_.281st_generation.29">Kindle
+Paperwhite</a> that renders text differently, might not pick up the bold.
 
 <b>Strong</b> is an indication of how something should be. It looks like
 bold in a browser, but it could mean ‘speak with urgency or seriousness’
 when reading text aloud. It is semantic in the sense, that we instruct
 it to be stronger than the text it surrounds which is different from
-giving instructions on how the text should look in the case of <b>. It
+giving instructions on how the text should look in the case of &lt;b&gt;. It
 represents importance, seriousness, or urgency for its contents.
 
 1.  &lt;p&gt; As a junior developer, you <strong>must</strong> submit
@@ -3746,7 +3745,7 @@ importance or seriousness.
 
 <h4>&lt;i&gt; vs &lt;em&gt;</h4>
 
-*<b>Italics</b> slants text. We usually italicize names of magazine,
+<b>Italics</b> slants text. We usually italicize names of magazine,
 books, TV shows etc. Just like the bold tag, since it is meant purely
 for presentation purposes, it means nothing to someone who cannot read
 the text.
@@ -3769,23 +3768,23 @@ You have to go to the store.
 So far, we have looked at how these tags were in HTML4. In the beginning
 of this unit, we learned that content and style should be kept separate
 and that styling should be kept tucked away in Cascading Style Sheets.
-So how did <i> and <b>, purely style elements make the cut? 
+So how did &lt;i&gt; and &lt;b&gt;, purely style elements make the cut? 
 
 They were initially deprecated, however, in HTML5, they were brought
 back. This time, with semantic meaning.
 
 | &lt;i&gt; | Apart from italic text, it is now also used for text in a different mood or voice, such as foreign words, a thought or technical terms.                                                                          | <p>This restaurant has a breakfast buffet and a four course <i lang="fr"><b>À la carte</b></i> dinner.</p>
 |-------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| &lt;b&gt; | Apart from bolded text, it is now also used as a stylistic offset such as keywords in a document, product names or action words without making them as important. It can also be used as headings in list items. | <p>The owner of this <b>rabbit</b>and <b>hamster</b> needs to step forward.</p>         |
+| &lt;b&gt; | Apart from bolded text, it is now also used as a stylistic offset such as keywords in a document, product names or action words without making them as important. It can also be used as headings in list items. | <p>The owner of this <b>rabbit</b> and <b>hamster</b> needs to step forward.</p>         |
 
 As of HTML5, &lt;em&gt; is now also used for words and sentences you would
 pronounce differently. It is not used to convey importance. For that you
-should use <strong>. 
+should use &lt;strong&gt;.
 
 You can nest both &lt;em&gt; and &lt;strong&gt;. Two &lt;em&gt; means higher level
 of stress/emphasis on the content than one &lt;em&gt;.
 
-You should also bear in mind that &lt;b&gt; and <i> may not produce
+You should also bear in mind that &lt;b&gt; and &lt;i&gt; may not produce
 appropriate styling for some parts of the world. For example, Chinese
 characters are so complicated that they often prefer something such as
 underlining to bold, because bold makes it too difficult to read the
