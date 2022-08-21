@@ -4200,7 +4200,7 @@ for all users.
 <h4>Result:</h4>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 27. example details command (86) -------------------------------->
+<!------------------------------ 27. example figcaption command (86) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image027.jpeg?raw=true"
@@ -4220,7 +4220,7 @@ Fig. 1: The cast hard at work at dress rehearsal before opening night
 ```
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------- 28. specify content you want to highlight (87) ------------------------->
+<!--------------------- 28. example mark command you want to highlight (87) ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image028.png?raw=true"
@@ -4273,12 +4273,12 @@ showcased in the paragraph -->
 ```
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 29.  (##) ------------------------------->
+<!----------------------------- 29. the aside semantic element (##) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image029.png?raw=true"
    width="30%"
-   alt="." />
+   alt="Example aside element." />
 </p>
 
 <h4>Lesser known semantic elements (OPTIONAL)</h4>
@@ -4339,37 +4339,37 @@ Los Angeles, USA<br />
 </table>
 
 Apart from
-these, <cite>, &lt;em&gt;, <strong>, <p> and <blockquote> are also
+these, &lt;cite&gt;, &lt;em&gt;, &lt;strong&gt;, &lt;p&gt; and &lt;blockquote&gt; are also
 semantic elements.
 
 <h3 id="ch2-3-4">2.3.4 Differentiating Semantic Elements</h3>
 
 Now, you have learned the semantic elements available and their syntax.
 When you try to apply it practically, there are some common problems you
-might run into. For example, when do we use <header> and when do we
+might run into. For example, when do we use &lt;header&gt; and when do we
 use &lt;h1&gt; to &lt;h6&gt; tags? Can I use semantic elements
-like <header>, <footer> and <nav> multiple times in my Web page?
+like &lt;header&gt;, &lt;footer&gt; and &lt;nav&gt; multiple times in my Web page?
 Or a more frequent question, do I
-use <article>, <section> or &lt;div&gt;?
+use &lt;article&gt;, &lt;section&gt; or &lt;div&gt;?
 
 Fear not. We will discuss these scenarios in detail so you can be better
 equipped to apply semantic elements in your Web page. 
 
 <h4>&lt;header&gt; vs &lt;h1&gt; - &lt;h6&gt;</h4>
 
-<header> is simply an area to add any introductory content about your
+&lt;header&gt; is simply an area to add any introductory content about your
 page. It can contains headings, paragraphs, tables, images, logos and
 even navigation. &lt;h1&gt; to &lt;h6&gt; are headings we learned early on in
 the course. &lt;h1&gt; is for the most important heading and &lt;h6&gt; is for
 the least important. Let's see an example of how to use
-the <header> and &lt;h1&gt; to &lt;h6&gt; tags in your Web page.
+the &lt;header&gt; and &lt;h1&gt; to &lt;h6&gt; tags in your Web page.
 
-For a simple HTML page, we will use the [W3C HTML5
-specification](https://www.w3.org/TR/html5/). You can view the page's
+For a simple HTML page, we will use the <a href="https://www.w3.org/TR/html5/">W3C HTML5
+specification</a>. You can view the page's
 source code on any browser by right-click and select 'view page source'.
 
 If you view page source on the W3C specification and do a search for
-'<header>', you will be able to view the contents of the header
+'&lt;header&gt;', you will be able to view the contents of the header
 element. <b>Here's a simplified version</b>:
 
 ```html5
@@ -4387,12 +4387,12 @@ element. <b>Here's a simplified version</b>:
 ```
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 30. template (##) -------------------------------->
+<!------------------------------ 30. header and headings (##) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image030.png?raw=true"
    width="40%"
-   alt="." />
+   alt="Header and headings." />
 </p>
 
 Like in the example above, the header can and frequently does contain
