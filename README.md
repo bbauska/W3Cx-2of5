@@ -4132,15 +4132,15 @@ The rest of the content in details is shown/hidden by user.</td>
 
 <h4>&lt;details&gt; element</h4>
 
-The <details> tag is very cool. It is used in conjunction with a
-nested <summary> tag and some other content. The result is that the
+The &lt;details&gt; tag is very cool. It is used in conjunction with a
+nested &lt;summary&gt; tag and some other content. The result is that the
 summary is shown with a disclosure triangle alongside it, and the other
 content is initially hidden.  By clicking the triangle, the other
 content is displayed to the user. This requires no JavaScript and is a
 simple way to get a powerful and desirable feature.
 
 Below we see the HTML, and you can try it out for yourself! Note that
-the <details> tag works in most Web browsers.
+the &lt;details&gt; tag works in most Web browsers.
 
 <table>
 <colgroup>
@@ -4185,7 +4185,7 @@ support</a> (on caniuse.com).
 
 This element is used to provide a caption or explanation of the image
 (figure). While the alt attribute explains the image for assistive
-technology, <figcaption> can be used to provide additional information
+technology, &lt;figcaption&gt; can be used to provide additional information
 for all users.
 
 ```html5
