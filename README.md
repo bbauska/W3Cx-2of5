@@ -3810,14 +3810,14 @@ want to add a heading, you would use the header tags &lt;h1&gt;-&lt;h6&gt;, and
 to add an image, you would use the image tag (we will learn about this
 later in this module). All these tags along with their id and class
 attributes are semantic because they suggest the purpose of the content
-within the tags. <i> and <b> suggest nothing about the content and
+within the tags. &lt;i&gt; and &lt;b&gt; suggest nothing about the content and
 this is why they were not considered semantic enough and initially
 deprecated.
 
 <h4>Using the right tags</h4>
 
 From a semantic HTML perspective, using the right tags is important. You
-should use <blockquote> to wrap a quote and not use a paragraph tag
+should use &lt;blockquote&gt; to wrap a quote and not use a paragraph tag
 and then style it to look like a quote. You should use &lt;em&gt; to
 emphasize a part of your content, not just to italicize text. For
 presentation purposes, you can achieve the same using CSS. How something
