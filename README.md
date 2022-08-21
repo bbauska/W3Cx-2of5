@@ -4370,7 +4370,7 @@ source code on any browser by right-click and select 'view page source'.
 
 If you view page source on the W3C specification and do a search for
 '<header>', you will be able to view the contents of the header
-element. **Here's a simplified version**:
+element. <b>Here's a simplified version</b>:
 
 ```html5
 1.  <header>
@@ -4399,12 +4399,12 @@ Like in the example above, the header can and frequently does contain
 headings &lt;h1&gt; to &lt;h6&gt;. In the case of headings, they do not have be
 to be used within a header. 
 
-**Important:** Headings are extremely helpful as a navigation tool for
+<b>Important:</b> Headings are extremely helpful as a navigation tool for
 assistive technology users. While it is valid to skip header levels
 (have an h4 after an h2), it is not a good practice. Assistive
 technology often relies on the semantics of headings to understand your
-document's structure. More information is provided in [Using h1-h6 to
-identify headings](https://www.w3.org/TR/WCAG20-TECHS/H42.html).
+document's structure. More information is provided in <a href="https://www.w3.org/TR/WCAG20-TECHS/H42.html">Using h1-h6 to
+identify headings</a>.
 
 ```xml
 1.  <body>
@@ -4616,9 +4616,9 @@ articles here.</p>
 
 <h4>&lt;article&gt; element</h4>
 
-An **article element** as we know is stand-alone content. If you pick an
+An <b>article element</b> as we know is stand-alone content. If you pick an
 article out of a Web page, it should make sense all by itself.
-In [Brad's Blog example](https://codepen.io/w3devcampus/pen/oWqbad) in
+In <a href="https://codepen.io/w3devcampus/pen/oWqbad">Brad's Blog example</a> in
 the previous unit, if you extract only the first article, you can see
 that it will make sense all by itself without any context. It can be
 reused anywhere else.
@@ -4663,7 +4663,7 @@ into an article element. Maybe a section element?
 
 <h4>&lt;section&gt; element</h4>
 
-The **section element** is used to section a page. For example, chapters
+The <b>section element</b> is used to section a page. For example, chapters
 in a book, sections in a thesis or splitting an 'about me' page into
 introduction, interests and skills. Sections can be used in a page or
 within an article. In fact, all content within the body element is
@@ -4898,7 +4898,7 @@ division or a section of the document. Div is not a semantic element,
 however, it is commonly used when there isn't a better semantic
 sectioning element to use.
 
-It is like a **generic container** that can hold a variety of
+It is like a <b>generic container</b> that can hold a variety of
 elements such as paragraphs, images, links, tables, etc. It can be used
 to group elements for styling purposes. You can do this by assigning
 an id or class attribute to the div element and then applying styles
@@ -4994,16 +4994,16 @@ They are both considered generic elements that don't have any meaning.
 But &lt;div&gt; is a block level element while &lt;span&gt; is an inline
 element. 
 
-**Block level elements** - used within body of the page. These occupy a
+<b>Block level elements</b> - used within body of the page. These occupy a
 block of space and start in a new line. They usually have empty lines
 above and below the block. They can contain inline elements and other
 block level elements. Other examples: <p>, &lt;h1&gt; - &lt;h6&gt;.
 
-**Inline elements **- as the name suggests are 'in-the-line'. They can
+<b>Inline elements </b>- as the name suggests are 'in-the-line'. They can
 start anywhere in a line. They can only contain data (like text) or
 other in-line elements. Other examples: &lt;em&gt;, <strong>.
 
-**Note: **There are several other semantic inline elements such
+<b>Note: </b>There are several other semantic inline elements such
 as <abbr>, <cite> and <code> that should be used in preference
 to &lt;span&gt; where possible.
 
@@ -5265,7 +5265,7 @@ The alt attribute is meant to be an alternate source of information
 while the title attribute should provide additional information about
 the image. 
 
-<b>Note</b>: For images, you **must** use an alt attribute as there is no
+<b>Note</b>: For images, you <b>must</b> use an alt attribute as there is no
 guarantee that the title attribute is presented to assistive technology
 users. The title attribute should not be relied upon for important
 information, and it should not be used in place of the alt attribute.
@@ -5693,8 +5693,8 @@ possible.
     and underlined. Ensure no other text in your page is underlined so
     as to avoid confusing the user. They might get frustrated trying to
     click text that they think is a link.</li>
-<li>If you choose to have image links, it should have **alternate
-    text** that describes the purpose of the link instead of the image
+<li>If you choose to have image links, it should have <b>alternate
+    text</b> that describes the purpose of the link instead of the image
     used - describe the target link.</li>
 </ul>
 
@@ -5707,7 +5707,7 @@ possible.
 
 <h4>Anchor element</h4>
 
-The hyperlink tag in html is simply <b><a>, </b>and it is called
+The hyperlink tag in html is simply <b>&lt;a&gt;, </b>and it is called
 the<b> anchor element</b>. Here is how it is used:
 
 1.  <a href="https://en.wikipedia.org/wiki/Hyperlink">Click
@@ -5730,11 +5730,11 @@ status called active link. A link becomes active while the user
 is clicking on it. During this time, the link will be red and
 underlined.
 
--   **Unvisited**: blue + underlined
+-   <b>Unvisited</b>: blue + underlined
 
--   **Visited**: purple + underlined
+-   <b>Visited</b>: purple + underlined
 
--   **Active**: red + underlined
+-   <b>Active</b>: red + underlined
 
 <h4>Usage</h4>
 
@@ -5888,7 +5888,7 @@ attribute allows us to tell the anchor element that this page is
 targeted for handheld devices. You do this by providing a value for the
 attribute. This value could be any valid [media
 query ](https://www.w3.org/TR/css3-mediaqueries/)and is a combination
-of **device type** and **media rendering values**.
+of <b>device type</b> and <b>media rendering values</b>.
 
 Let's look at another example - you could create a print link to a long
 content heavy page that will redirect you to a print version of the
@@ -6185,7 +6185,6 @@ We are now going to continue building on the recipe project we started
 in Module 1.  You can find our version in the CodePen below (and the
 live coding video at the end of this page).
 
-<!----------------------------------------- *************************** ------------------------------>
 <img src="./images/image047.png"
 style="width:6.5in;height:3.27778in" />
 
