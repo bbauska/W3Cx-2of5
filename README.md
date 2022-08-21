@@ -3106,14 +3106,12 @@ them in your new book. You add IDs for them: 'poem1', 'poem2', 'poem3'.
 You want your poems to look different from your other text. Grey text
 color, italic and bold. Like this:</p>
 
-```
-*<b>To move, to breathe, to fly, to float,***  
-*<b>To gain all while you give,***  
-*<b>To roam the roads of lands remote,***  
-*<b>To travel is to live.***
+<i><b>To move, to breathe, to fly, to float,</b></i>
+<i><b>To gain all while you give,</b></i>
+<i><b>To roam the roads of lands remote,</b></i>
+<i><b>To travel is to live.</b></i>
 
 <i><b>- Hans Christian Andersen</b></i>
-```
 
 <p>All poems have the same requirements.
 
@@ -3128,10 +3126,10 @@ just phrase it in English) -</p>
 'Make poem3's text color grey, italic and bold'
 ```
 
-Can you imagine how repetitive your style sheet will look if you have to
+<p>Can you imagine how repetitive your style sheet will look if you have to
 instruct it to do the same thing 20 times for different poem IDs? HTML
 makes it easier. We use the class attribute. Let's name this class of
-poems 'poetry'.
+poems 'poetry'.</p>
 
 ```xml
   <p id="poem1" class="poetry">To move, to breathe, to fly, to
@@ -3288,13 +3286,13 @@ document, that ID value can only be used in one element.</p>
     in this section. You can link to a section of your HTML page using
     the 'id' of the section. You should reference the 'id' value with a
     number sign preceding it - '#id-value'
-    1.  <a href="#introduction">1.1 Introduction</a> <!-- This is a
-        > hyperlink element which we will learn about later in this week
-        > -->
-    2.  <p id="introduction">This paragraph is the Introduction to the
-        > Web page</p>
+    <a href="#introduction">1.1 Introduction</a> <!-- This is a
+    hyperlink element which we will learn about later in this week
+     -->
+    <p id="introduction">This paragraph is the Introduction to the
+    Web page</p>
 
-1.  In JavaScript, 'id' can be used to manipulate an html element. Using
+3.  In JavaScript, 'id' can be used to manipulate an html element. Using
     the 'id' of the element, you can write JavaScript code to make it
     perform an action, i.e. change the text within paragraph tags. 
 
@@ -3352,11 +3350,11 @@ telling it:
 
 <h4>The code above will then look like this:</h4>
 
-<b>Who are you?**
+<b>Who are you?</b>
 
 I am the author
 
-<b>Do you like HTML5?**
+<b>Do you like HTML5?</b>
 
 Yes
 
@@ -3428,7 +3426,7 @@ Don't click on it, just rest your cursor there. 
 
 <h4>NASA</h4>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 22. beautiful girl (##) --------------------------------->
+<!---------------------------------- 22. beautiful girl (71) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image022.jpeg?raw=true"
@@ -3655,7 +3653,7 @@ rule and were eventually corrected in HTML5.
 This is how the above HTML code will look in a browser:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 23.  (##) --------------------------------->
+<!--------------------------- 23. how html will look in browser (76) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image023.png?raw=true"
@@ -3679,7 +3677,6 @@ Semantic refers to the meaning of words in a language. <b>Semantic
 tags</b> said something about the semantic of the tag. It offered
 meaning.
 
-```
 a
 <table>
 <colgroup>
@@ -3721,7 +3718,7 @@ Text is bold by default in a browser</td>
 </tr>
 </tbody>
 </table>
-```
+
 
 <h4>&lt;b&gt; vs &lt;strong&gt;</h4>
 
@@ -3739,8 +3736,8 @@ it to be stronger than the text it surrounds which is different from
 giving instructions on how the text should look in the case of <b>. It
 represents importance, seriousness, or urgency for its contents.
 
-1.  <p>As a junior developer, you <strong>must</strong> submit
-    your work for code review!</p>
+1.  &lt;p&gt; As a junior developer, you <strong>must</strong> submit
+    your work for code review!&lt;/p&gt;
 
 The 'must' may be bolded in a browser. But when reading the HTML
 document out loud by a text-to-speech program, it can be spoken with
@@ -3748,21 +3745,21 @@ importance or seriousness.
 
 <h4>&lt;i&gt; vs &lt;em&gt;</h4>
 
-*<b>Italics** *slants text. We usually italicize names of magazine,
+*<b>Italics</b> slants text. We usually italicize names of magazine,
 books, TV shows etc. Just like the bold tag, since it is meant purely
 for presentation purposes, it means nothing to someone who cannot read
 the text.
 
-*<b>Emphasis* **is used to stress emphasis of its contents. The word in a
+<b>Emphasis</b> is used to stress emphasis of its contents. The word in a
 sentence you emphasize can change the whole meaning. Try reading the
 sentences below out loud, stressing on the emphasized words: 'you' and
-'store'. 
+'store'.
 
-*You* have to go to the store.
+You have to go to the store.
 
                     Not me. That’s your job! 
 
- You have to go to the *store.*
+You have to go to the store.
 
                     To the store. Not the arcade.
 
@@ -3776,30 +3773,30 @@ So how did <i> and <b>, purely style elements make the cut? 
 They were initially deprecated, however, in HTML5, they were brought
 back. This time, with semantic meaning.
 
-| <i> | Apart from italic text, it is now also used for text in a different mood or voice, such as foreign words, a thought or technical terms.                                                                          | <p>This restaurant has a breakfast buffet and a four course <i lang="fr"><b>À la carte</b></i> dinner.</p>
+| &lt;i&gt; | Apart from italic text, it is now also used for text in a different mood or voice, such as foreign words, a thought or technical terms.                                                                          | <p>This restaurant has a breakfast buffet and a four course <i lang="fr"><b>À la carte</b></i> dinner.</p>
 |-------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| <b> | Apart from bolded text, it is now also used as a stylistic offset such as keywords in a document, product names or action words without making them as important. It can also be used as headings in list items. | <p>The owner of this <b>rabbit</b>and <b>hamster</b> needs to step forward.</p>         |
+| &lt;b&gt; | Apart from bolded text, it is now also used as a stylistic offset such as keywords in a document, product names or action words without making them as important. It can also be used as headings in list items. | <p>The owner of this <b>rabbit</b>and <b>hamster</b> needs to step forward.</p>         |
 
 As of HTML5, &lt;em&gt; is now also used for words and sentences you would
 pronounce differently. It is not used to convey importance. For that you
 should use <strong>. 
 
-You can nest both &lt;em&gt; and <strong>. Two &lt;em&gt; means higher level
+You can nest both &lt;em&gt; and &lt;strong&gt;. Two &lt;em&gt; means higher level
 of stress/emphasis on the content than one &lt;em&gt;.
 
-You should also bear in mind that <b> and <i> may not produce
+You should also bear in mind that &lt;b&gt; and <i> may not produce
 appropriate styling for some parts of the world. For example, Chinese
 characters are so complicated that they often prefer something such as
 underlining to bold, because bold makes it too difficult to read the
 text.
 
-If you do use <b> or <i> tags, the HTML5 specification recommends
+If you do use &lt;b&gt; or &lti&gt; tags, the HTML5 specification recommends
 that you also use class attributes to identify the semantic intention of
 the markup. This can be particularly important for pages that get
 translated, since styling doesn't necessarily map to the same semantic
 categories across different cultures. For more information, read the
-article [Using <b> and <i>
-elements](https://www.w3.org/International/questions/qa-b-and-i-tags).
+article <a href="https://www.w3.org/International/questions/qa-b-and-i-tags">Using &lt;b&gt; and &lt;i&gt;
+elements</a>.
 
 <h3 id="ch2-3-2">2.3.2 Introduction to Semantic Elements</h3>
 
@@ -3832,16 +3829,16 @@ separate content and style.
 Semantic elements are beneficial to both the developer and browser. They
 convey much more information about your HTML document's content and
 structure. There is a tag called header in semantic HTML. When you see a
-heading like &lt;h1&gt; or <h2>, you know this is likely the start of a
+heading like &lt;h1&gt; or &lt;h2&gt;, you know this is likely the start of a
 new sub-section or topic. Communication is always welcome in any
 programming language.
 
-This additional communication is useful for a <b>developer** who can
+This additional communication is useful for a <b>developer</b> who can
 understand the markup structure better (when you come back to your code
 after a year or pass it on to a colleague, this is going to help you and
-them a lot!). For the <b>browser**, it can better differentiate different
+them a lot!). For the <b>browser</b>, it can better differentiate different
 types of data which results in better display of content in different
-devices. <b>Assistive technology**, such as a screen reader, will read
+devices. <b>Assistive technology</b>, such as a screen reader, will read
 content and convey information about the content depending on the
 semantic meaning, for example, identifying headers and reading them in a
 different tone.
@@ -3864,8 +3861,8 @@ after: header, nav, article, section, aside and footer.
    alt="Picture showing the structure of a Web site: header, nav, article, section, aside and footer." />
 </p>
 
-Tags such as<b> <article>**, <b><section>**, <b><header>**, <b><nav>
-and <footer> **were specifically introduced in HTML5 to define the Web
+Tags such as<b> &lt;article&gt;</b>, <b>&lt;section&gt;</b>, <b>&lt;header&gt;</b>, <b>&lt;nav&gt;
+and &lt;footer&gt; </b>were specifically introduced in HTML5 to define the Web
 page structure. These new semantic elements give meaning to different
 parts of a webpage. When you do a Google search, the search engine
 automatically processes millions of HTML pages to scan and offer you the
@@ -3873,31 +3870,31 @@ most appropriate content.
 
 Each section refers to a part of the document:
 
--   The <b>header** can be a starting point for the whole document or
+-   The <b>header</b> can be a starting point for the whole document or
     individual sections. It typically contains the introduction.
 
--   The <b>nav** refers to navigation. It could contain a set of
+-   The <b>nav</b> refers to navigation. It could contain a set of
     navigation links, such as a table of contents of a book.
 
--   The <b>section** refers to sections in a document. For example, a
+-   The <b>section</b> refers to sections in a document. For example, a
     document about plants could contain several sections under headings
     such as perennials, annuals, soil type, etc.
 
--   The **aside** refers to content that is apart from the main content.
+-   The <b>aside</b> refers to content that is apart from the main content.
     For example, in an article about a young architect from the Umbria
     region of Italy. The aside might be a small sidebar with information
     about Umbria, things like geographical details and population.
 
--   The **article** refers to independent content. If an article is
+-   The <b>article</b> refers to independent content. If an article is
     extracted out of the document, it should make sense all by itself.
     Articles, blog posts, frequently asked questions (FAQ) are all
     examples of independent content.
 
--   The **footer** contains typical footer information such as
+-   The <b>footer</b> contains typical footer information such as
     authoring, copyrights and contact information.
 
-The use of these semantic elements improves the **automated processing
-of documents**. When it scans a <nav> tag, it automatically knows it
+The use of these semantic elements improves the <b>automated processing
+of documents</b>. When it scans a &lt;nav&gt; tag, it automatically knows it
 includes content related to page navigation or a header indicates
 introductory content. It provides the structure and consistent behavior
 across many webpages providing simpler and more direct information to
@@ -14833,5 +14830,5 @@ These are the final changes to our recipe project for this unit.
    alt="." />
 </p>
 
-<h3><b>Last Updated 08-18-2022 10:16pm</b></h3>
+<h3><b>Last Updated 08-20-2022 9:19pm</b></h3>
 
