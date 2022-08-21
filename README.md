@@ -2758,7 +2758,7 @@ primarily used to invoke certain formatting.</p>
 <li><b>&lt;hr&gt;</b> - The <b>hr</b> tag stands for horizontal rule and is used
     to insert a horizontal line across the width of the text, or a
     thematic break in an HTML page to divide or separate document
-    sections. The <hr> tag is an empty tag and does not require an end
+    sections. The &lt;hr&gt; tag is an empty tag and does not require an end
     tag. It would typically look like this:</li>
 <li><b>&lt;br&gt;</b> - This tag signifies a line break, and is used for any
     number of situations.  For example, it can be an easy way to make
@@ -2944,7 +2944,7 @@ your article, addresses and citations. You also want to provide more
 detailed information such as, 'This sentence is really important and you
 need to convey that to the reader'.
 
-If we just use <p> tags and header tags, &lt;h1&gt; to &lt;h6&gt;, visually it
+If we just use &lt;p&gt; tags and header tags, &lt;h1&gt; to &lt;h6&gt;, visually it
 might look like what you want, but only a human will be able to read and
 understand the page. To a browser, there is very little information
 except that there is text and headings in your page. How can a search
@@ -3387,7 +3387,7 @@ attribute?</a>
 The value of a lang attribute must be a language tag that is composed of
 one or more subtags defined in the <a href="https://www.iana.org/assignments/language-subtag-registry">IANA Language Subtag
 Registry</a>.
-Multiple subtags are separated by hyphens.  (Do <b>not** use the ISO
+Multiple subtags are separated by hyphens.  (Do <b>not</b> use the ISO
 lists of languages and countries! Those lists are already subsets of the
 IANA registry.) You may find it easier to look up subtags using the
 unofficial <a href="https://r12a.github.io/app-subtags/) tool">Language Subtag
@@ -3412,7 +3412,7 @@ subtags, such as scripts and variant labels to further refine the
 language. However, the golden rule is to always keep the lang value as
 short as possible, and only use additional subtags when you have a good
 reason (e.g. use just ja for Japanese, not ja-JP). For more information,
-see the article <a href="(https://www.w3.org/International/questions/qa-html-language-declarations">Declaring language in
+see the article <a href="https://www.w3.org/International/questions/qa-html-language-declarations">Declaring language in
 HTML</a>.
 
 The second example shows how you could specify a change of language
@@ -8809,6 +8809,7 @@ font-size:1.2rem;
 </body>
 </html>
 ```
+
 Looking at the style rules we see there are three different
 possibilities for the size and color of an &lt;h1&gt; element. In this case
 the application of the rules seems pretty intuitive. The outermost
@@ -8833,6 +8834,7 @@ you get a different result:
 </p>
 
 <h4>CSS</h4>
+
 ```
 section h1{
 color:grey;
@@ -8847,7 +8849,9 @@ color:blue;
 font-size: 2rem;
 }
 ```
+
 <h4>HTML</h4>
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -9012,7 +9016,7 @@ font-size:1.2rem;
 <h3>4.4.3 Cloud images</h3>
 
 We're working on a Web page about clouds in
-the [CodePen](https://codepen.io/w3devcampus/pen/ybqbwJ) below, and we
+the <a href="https://codepen.io/w3devcampus/pen/ybqbwJ">CodePen</a> below, and we
 have some beautiful pictures we'd like to use: one for the top of the
 page, and others as examples of different types of clouds.  We include
 the pictures but the result is unwieldy:
@@ -9023,7 +9027,7 @@ the pictures but the result is unwieldy:
 <p align="center" width="100%">
 <img src="./images/image075.png?raw=true"
    width="65%"
-   alt="Image of Cloud" />
+   alt="Image of Cloud." />
 </p>
 
 <h4>HTML</h4>
@@ -9066,7 +9070,7 @@ src="https://www.weather.gov/images/jetstreamclouds/st.jpg"></li>
 
 When you see the pictures, the text is so small it's unreadable. 
 Clearly we have a solution for this.  We can just specify the width of
-<img> elements.  We can use the debugger to try different sizes,
+&lt;img&gt; elements.  We can use the debugger to try different sizes,
 modifying it in the "Styles" panel and we decide on this:
 
 ```
@@ -9132,10 +9136,11 @@ So far so good, but we want our top image to be a bit bigger without
 changing the other images.  Recall  that an <img> tag
 includes a width attribute, so we can special case this image
 accordingly in the HTML code:
-```
-<img alt="Clouds" width=500 src="images/clouds.jpg">
 
 ```
+<img alt="Clouds" width=500 src="images/clouds.jpg">
+```
+
 We look at our page again, and it hasn't changed!  Time to try the
 debugger again.
 
@@ -9166,8 +9171,8 @@ special case the smaller pictures, and use a larger width by default.
  This would recognize that we really want small images when they are
 list elements, otherwise they should be bigger.  So we can change our
 code like this:
-```
 
+```
 img {
    width: 25rem;
 }
@@ -9264,28 +9269,28 @@ this:
 <h5>HTML</h5>
 
 ```
-   <!DOCTYPE html>
-   <html lang="en">
-   <head>
-   <meta charset="UTF-8">
-   <title>Shrinking text</title>
-   </head>
-    <body>
-    <section>
-    <h1>Essay Outline</h1>
-    <ol>
-    <li>Introduction
-    <ol>
-    <li>Introduce Subject
-    <ul>
-    <li>What is it?</li>
-    <li>Why is it important</li>
-    </ul>
-    </li>
-    <li>Propose Thesis</li>
-    <li>Outline</li>
-    </ol>
-    </li>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shrinking text</title>
+</head>
+<body>
+  <section>
+  <h1>Essay Outline</h1>
+  <ol>
+  <li>Introduction
+  <ol>
+  <li>Introduce Subject
+  <ul>
+  <li>What is it?</li>
+  <li>Why is it important</li>
+  </ul>
+  </li>
+  <li>Propose Thesis</li>
+  <li>Outline</li>
+  </ol>
+</li>
 ```
 
 As with the cloud pictures, we want the listed items a bit smaller than
@@ -9643,18 +9648,18 @@ complex pages.
 <b>5.2 Tables: </b>Tables can be a great way of organizing your content —
 learn when to use tables, and when to avoid them.
 
-<b>5.3 Multimedia: <b>Learn the best methods for including audio and video
+<b>5.3 Multimedia: </b>Learn the best methods for including audio and video
 in your page.
 
-<b>5.4 Embedding content: <b>Learn about iframes and some advanced image
-tag attributes, ismap and usemap. ***Note:** This section is optional
+<b>5.4 Embedding content: </b>Learn about iframes and some advanced image
+tag attributes, ismap and usemap. Note: This section is optional
 material included for the curious. It will not appear on any graded
-question.*
+question.
 
-<b>5.5 CSS tricks: <b>Here, we will introduce some next level methods for
+<b>5.5 CSS tricks: </b>Here, we will introduce some next level methods for
 making awesome Web pages.
 
-<b>5.5 Recipe project: <b>Separate your CSS and HTML into their own files
+<b>5.5 Recipe project: </b>Separate your CSS and HTML into their own files
 for cleaner, easier coding.
 
 <h3 id="ch5-1-3">5.1.3 A World of Possibilities</h3>
@@ -9696,7 +9701,7 @@ intended purpose - making tables.
 
 <h4>Separating content and style</h4>
 
-Look at [**this site**](http://create.adobe.com/) that is laid out with
+Look at <a href="http://create.adobe.com/">this site</a> that is laid out with
 CSS. You might be tempted to do this via tables instead. Or you might
 want to just make your whole Web page into one big table: site header in
 a table row, left navigation bar on the second row, left column, etc.
@@ -9914,8 +9919,8 @@ cell.
 
 <h4>&lt;col&gt;</h4>
 
-Used within <colgroup>, the <col> tag specifies the column property
-for each column within a colgroup. The only element a <colgroup> can
+Used within &lt;colgroup&gt;, the &lt;col&gt; tag specifies the column property
+for each column within a colgroup. The only element a &lt;colgroup&gt; can
 contain is &lt;col&gt;. 
 
 <h4>Attribute:</h4>
@@ -9924,9 +9929,9 @@ contain is &lt;col&gt;. 
     columns you want the col element to span (cover).</li>
 </ul>
 
-Consider the table above we created using <tr>, <th> and <td>.
+Consider the table above we created using &lt;tr&gt;, &lt;th&gt; and &lt;td&gt;.
 Let's say I want the 'name' column to be in green and the 'age' column
-to be orange. You need to use the <colgroup> and <col> tags to
+to be orange. You need to use the &lt;colgroup&gt; and &lt;col&gt; tags to
 achieve styling effects specific to a column. 
 
 ```
