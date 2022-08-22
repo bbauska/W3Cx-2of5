@@ -80,8 +80,8 @@
 
 <h3>Course Outline:</h3>
 
-Quickly learn the basics of Web design and style to give your Web sites
-a professional look and feel, by just following these 6 modules!
+<p>Quickly learn the basics of Web design and style to give your Web sites
+a professional look and feel, by just following these 6 modules!</p>
 <ul>
 <li>The first set of lessons are available under <b>"Module 1: My first Web page in HTML5"</b>.</li>
 </ul>
@@ -95,9 +95,10 @@ a professional look and feel, by just following these 6 modules!
 </p>
 <ul>
 <li>In <b>Module 2</b>, you will learn about HTML5 attributes, and become fluent in adding images and links in your Web pages.&nbsp;<br/></li>
-<li>Now that you have made your first Web page, it is time to introduce you to CSS in <b>Module 3</b>.
+<li>Now that you have made your first Web page, it is time to introduce you to CSS in <b>Module 3</b>.</li>
+</ul>
 
-<h5>CSS is used to style the HTML</h5>
+<h4>CSS is used to style the HTML</h4>
 
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- 03. w3c developers logo (02) ---------------------------------->
@@ -108,11 +109,11 @@ a professional look and feel, by just following these 6 modules!
    alt="W3C Developers logo" />
 </p>
 
-It is how we determine the color, text size, spacing and other visual
+<p>It is how we determine the color, text size, spacing and other visual
 aspects of your Web page. We'll introduce the syntax of CSS, how to
 include it with your pages, and get you started with some basic
 properties and concepts. Note that we'll explore how to use CSS to
-layout your page during the last week of this course.
+layout your page during the last week of this course.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------------- 04. laptop (02) ---------------------------------------->
@@ -169,20 +170,20 @@ your knowledge of the 3 foundational languages that power the Web:
 HTML5, CSS and JavaScript. The W3C FEWD program is composed of 5
 courses:
 <ol type="1">
-   <li><a href="https://www.edx.org/course/css-basics" target="_blank">CSS Basics</a> - introductory level,<br/>&nbsp;</li>
+   <li><a href="https://github.com/bbauska/W3Cx-1of5-CSS.0x" target="_blank">CSS Basics</a> - introductory level,<br/>&nbsp;</li>
    <li><b>This course: <a href="https://www.edx.org/course/html5-and-css-fundamentals" target="_blank">HTML5 and CSS Fundamentals</a> - introductory level,</b><br/>&nbsp;</li>
-   <li><a href="https://www.edx.org/course/html5-coding-essentials-and-best-practices" target="_blank">HTML5 Coding Essentials and Best Practices</a> - intermediate level,<br/>&nbsp;</li>
-   <li><a href="https://www.edx.org/course/html5-apps-and-games" target="_blank">HTML5 Apps and Games</a> - advanced
+   <li><a href="https://github.com/bbauska/W3Cx-3of5-HTML5.1x" target="_blank">HTML5 Coding Essentials and Best Practices</a> - intermediate level,<br/>&nbsp;</li>
+   <li><a href="https://github.com/bbauska/W3Cx-4of5-HTML5.2x" target="_blank">HTML5 Apps and Games</a> - advanced
     level,<br/>&nbsp;</li>
-   <li><a href="https://www.edx.org/course/javascript-introduction" target="_blank">JavaScript Introduction</a> -
+   <li><a href="https://github.com/bbauska/W3Cx-5of5-JS.0x" target="_blank">JavaScript Introduction</a> -
     introductory level.</li>
 </ol>
 
 <h4>Welcome!</h4>
 
-This "HTML5 & CSS Fundamentals" introductory course is designed for anyone, no prerequisites required.
+<p>This "HTML5 & CSS Fundamentals" introductory course is designed for anyone, no prerequisites required.
 
-During this course, you will learn:
+During this course, you will learn:</p>
 <ul>
 <li>Basic concepts of a markup language,<br/>&nbsp;</li>
 <li>Basic building blocks of Web design and style,<br/>&nbsp;</li>
@@ -190,13 +191,13 @@ During this course, you will learn:
 <li>How to write a Web page.</li>
 </ul>
 
-Have fun!
+<p>Have fun!</p>
 
 <h3>Web Browsers and Editors</h3>
 <hr/>
 <h3>Web browsers</h3>
 
-Not surprisingly, it would be helpful to have a browser (short for "Web
+<p>Not surprisingly, it would be helpful to have a browser (short for "Web
 Browser") so that you can see the end result of your source code.
 
 Common modern browsers for the desktop
@@ -209,18 +210,18 @@ tools.
 
 Look at the <a href="https://en.wikipedia.org/wiki/Web_browser#History" target="_blank">history of Web
 browsers</a> (on Wikipedia). An interesting resource is the <a href="https://www.w3counter.com/globalstats.php" target="_blank">Browser and Platform Market
-Share</a> (updated regularly).
+Share</a> (updated regularly).</p>
 
 <h3>Web editors</h3>
 
-An HTML editor is invaluable for both beginners and more advanced
+<p>An HTML editor is invaluable for both beginners and more advanced
 developers. While any text editor, like NotePad or TextEdit, can be used
 to create Web pages, they don't necessarily offer options for error
 checking, syntax coloring and saving some typing by filling things out
 for you.
 
 There are two types of editors available, WYSIWYG ("What You See Is What
-You Get") and textual HTML editors. Here is a non exhaustive list:
+You Get") and textual HTML editors. Here is a non exhaustive list:</p>
 <ul>
 <li><a href="https://www.sublimetext.com/" target="_blank">Sublime Text</a> - it is quite
 popular with developers, though there can be a bit of a learning curve
@@ -243,13 +244,13 @@ text</a>, not as a ".rtf" or ".doc" file,</li>
 <li><a href="https://notepad-plus-plus.org/" target="_blank">Notepad++</a> - on Windows PC's,</li>
 <li><a href="https://www.sublimetext.com/" target="_blank">Atom</a> - another cross platform
 editor, created by <a href="https://github.com/" target="_blank">GitHub</a>,</li>
-<li><a href="https://www.vim.org/) or [Emacs](https://www.gnu.org/software/emacs/" target="_blank">Vim</a> -
+<li><a href="https://www.vim.org/" target="_blank") or <a href="https://www.gnu.org/software/emacs/">Emacs</a> target="_blank">Vim</a> -
 great editors, but if you're not already familiar with these, this isn't the time to try.</li>
 </ul>
 
 <h3>Online Code Editors</h3>
 
-To help you practice during the whole duration of the course, we propose
+<p>To help you practice during the whole duration of the course, we propose
 to use the <a href="https://codepen.io/" target="_blank">CodePen</a> online code editor. An online
 code editor is a tool that resides on a remote server and is accessible
 via browsers.
@@ -265,9 +266,7 @@ and learn from their work, too.
 Note that there are many other online code editors available out there,
 such as JSBin,  JSFiddle, and Dabblet (Lea Verou's tool).
 
-Here's an interesting article on what beginners can do with
-CodePen: <a href="https://codepen.io/brentmiller/post/things-you-can-do-with-codepen" target="_blank">Things you can do with
-CodePen</a> [Brent Miller, February 6, 2019].
+Here's an interesting article on what beginners can do with CodePen: <a href="https://codepen.io/brentmiller/post/things-you-can-do-with-codepen" target="_blank">Things you can do with CodePen</a> [Brent Miller, February 6, 2019].</p>
 
 <h3>W3C Validators</h3>
 
@@ -277,7 +276,7 @@ CodePen</a> [Brent Miller, February 6, 2019].
 <p align="center" width="100%">
 <img src="./images/image003.png?raw=true"
    width="30%"
-   alt="W3C Developers logo" />
+   alt="W3C Developers logo." />
 </p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 07. mdn web docs mozilla logo (08) ------------------------------->
@@ -285,30 +284,18 @@ CodePen</a> [Brent Miller, February 6, 2019].
 <p align="center" width="100%">
 <img src="./images/image007.png?raw=true"
    width="30%"
-   alt="MDN Web Docs Mozilla logo" />
+   alt="MDN Web Docs Mozilla logo." />
 </p>
 
-For over 15 years, the W3C has been developing and
-hosting <a href="https://w3c.github.io/developers/" target="_blank">free and open source tools</a> used every day
-by millions of Web developers and Web designers. All the tools
-listed below are Web-based, and are available as downloadable sources or
-as free services on the <a href="https://w3c.github.io/developers/tools/" target="_blank">W3C Developers
-tools</a>.
+<p>For over 15 years, the W3C has been developing and hosting <a href="https://w3c.github.io/developers/" target="_blank">free and open source tools</a> used every day by millions of Web developers and Web designers. All the tools listed below are Web-based, and are available as downloadable sources or as free services on the <a href="https://w3c.github.io/developers/tools/" target="_blank">W3C Developers tools</a>.</p>
 
 <h3>W3C Validator</h3>
 
-The [W3C validator](https://validator.w3.org/) checks the [markup
-validity](https://validator.w3.org/docs/help.html#validation_basics) of
-various Web document formats, such as HTML. Note that you are
-automatically directed to the [Nu Html
-Checker](https://validator.w3.org/nu/) when validating an HTML5
-document.
+<p>The <a href="https://validator.w3.org/">W3C validator</a> checks the <a href="https://validator.w3.org/docs/help.html#validation_basics">markup validity</a> of various Web document formats, such as HTML. Note that you are automatically directed to the <a href="https://validator.w3.org/nu/">Nu Html Checker</a> when validating an HTML5 document.</p>
 
 <h3>CSS Validator</h3>
 
-The [CSS validator](https://jigsaw.w3.org/css-validator/) checks
-Cascading Style Sheets (CSS) and (X)HTML documents that use CSS
-stylesheets.
+<p>The <a href="https://jigsaw.w3.org/css-validator/">CSS validator</a> checks Cascading Style Sheets (CSS) and (X)HTML documents that use CSS stylesheets.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------------- 04. laptop (08) ---------------------------------------->
@@ -806,9 +793,8 @@ For example, consider the following chunk of HTML code:
        </p>
     </body>
 ```
-
-If you eliminated everything in between the angle brackets from the
-text, for most purposes it would still read the same:
+<p>
+If you eliminated everything in between the angle brackets from the text, for most purposes it would still read the same:
 
 A Tale of Two Cities  
 It was the best of times, it was the worst of times . . . .  
@@ -829,39 +815,32 @@ I expect at this point you may be longing to write some HTML code.  As
 is the tradition in programming tutorials, we'll pause here to create a
 simple "Hello HTML" program. Please choose any Web editor of your liking
 (see in the subsection "Course tools").
+</p>
 
 <h3 id="ch1-3-2">1.3.2 Programming “Hello HTML”</h3>
-
-You can build and edit your HTML pages by either using online editors or
-editors that you can install on your machine, like Visual Studio Code.
+<p>
+You can build and edit your HTML pages by either using online editors or editors that you can install on your machine, like Visual Studio Code.
 
 <h4>Using online editors:</h4>
+<p>
+Both <a href="https://jsbin.com" target="_blank">JSBin</a> and <a href="https://codepen.io/"> target="_blank"CodePen</a> are two online editors that you can use to create HTML Web pages.
+The following two videos show you how to create your first HTML page using <a href="https://jsbin.com" target="_blank">JSBin</a> and <a href="https://codepen.io/" target="_blank">CodePen</a>
 
-Both <a href="https://jsbin.com" target="_blank">JSBin</a> and <a href="https://codepen.io/"> target="_blank"CodePen</a> are
-two online editors that you can use to create HTML Web pages.
-The following two videos show you how to create your first HTML page
-using <a href="https://jsbin.com" target="_blank">JSBin</a> and <a href="https://codepen.io/" target="_blank">CodePen</a>
+And this time, what I'd like to show you a very simple HTML file that I've created.
 
-And this time, what I'd like to show you a very simple HTML file that
-I've created.
-
-We'll take a look at it in a browser, and then see how it's built using
-a popular online HTML editor.
+We'll take a look at it in a browser, and then see how it's built using a popular online HTML editor.
 
 Here's the file in question.
 
 It's called hello.html
 
-The .html extension tells me this is a HTML file, and it will contain
-some HTML code.
+The .html extension tells me this is a HTML file, and it will contain some HTML code.
 
-Let's look at this file in a browser and by right clicking and saying
-open with Microsoft Edge.
+Let's look at this file in a browser and by right clicking and saying open with Microsoft Edge.
 
 The file is loaded from my disk and then it displays its contents.
 
-And here you can see that this simple file, it is just showing me the
-text hello html and it's also changed the title of the page to be my first HTML page.
+And here you can see that this simple file, it is just showing me the text hello html and it's also changed the title of the page to be my first HTML page.
 
 So, there you have it, a very simple HTML page.
 
@@ -869,11 +848,9 @@ Let's now go to an online tool and try to create this page from scratch.
 
 Okay so, how did we create this page?
 
-Well, there are many ways to create HTML files and we'll show you a few
-throughout this course.
+Well, there are many ways to create HTML files and we'll show you a few throughout this course.
 
-At this point in time, I'll introduce you to JSBin, which is one of your
-options and to do that, I'll open up a new tab and go to jsbin.com
+At this point in time, I'll introduce you to JSBin, which is one of your options and to do that, I'll open up a new tab and go to jsbin.com.
 
 Here I am inside JSBin.
 
@@ -881,75 +858,55 @@ You can see that I'm using the free version right now.
 
 I haven't logged in, I haven't registered it on anything else.
 
-I'm just going to use the site as a kind of HTML playground to create a
-simple HTML page.
+I'm just going to use the site as a kind of HTML playground to create a simple HTML page.
 
 We'll have a quick look around the layout of the site.
 
-Here you can see there's a panel on the left which is a HTML panel to
-edit HTML code, and on the right, you have an open panel that will
-eventually display whatever code you write on the left-hand side.
+Here you can see there's a panel on the left which is a HTML panel to edit HTML code, and on the right, you have an open panel that will eventually display whatever code you write on the left-hand side.
 
-And the site can cater for other languages such as JavaScript, CSS, 
-and so on, and you can also share code snippets and do lots lots more.
+And the site can cater for other languages such as JavaScript, CSS, and so on, and you can also share code snippets and do lots lots more.
 
 I'd encourage you to browse around.
 
-But for this exercise, we're just going to use the site in this simple
-format.
+But for this exercise, we're just going to use the site in this simple format.
 
-As I said, this page on the left-hand side it was opened by default when
-we navigated here and it contained some HTML.
+As I said, this page on the left-hand side it was opened by default when we navigated here and it contained some HTML.
 
 There's no content or output yet and we'll get to that shortly.
 
-But this would be the most basic HTML code file that you would need to
-create in order to produce your first HTML page.
+But this would be the most basic HTML code file that you would need to create in order to produce your first HTML page.
 
-You could probably do a little bit simpler but this is a very good
-template for us to start with.
+You could probably do a little bit simpler but this is a very good template for us to start with.
 
-Why don't we just walk through some of the tags and elements that we see
-right in front of us.
+Why don't we just walk through some of the tags and elements that we see right in front of us.
 
 The first thing we see at the top of the page is a DOCTYPE declaration.
 
 This always comes before everything else in a HTML file.
 
-It's actually just some information for the browser about what version
-of HTML the page is written in.
+It's actually just some information for the browser about what version of HTML the page is written in.
 
 And in this case here, it signifies that the page is written in HTML5.
 
-The next tag we see is the html tag,
-and as you can see we have the beginning tag here and the ending tag at
-the end, which means everything on a HTML page is contained within these two
-tags.
+The next tag we see is the html tag, and as you can see we have the beginning tag here and the ending tag at the end, which means everything on a HTML page is contained within these two tags.
 
-All other tags must be contained or nested within this tag, 
-and it tells the browser of course that this is a HTML document.
+All other tags must be contained or nested within this tag, and it tells the browser of course that this is a HTML document.
 
-In this example, we then have a head tag, again the beginning and end,
-head tag, and as you can see, this head tag contains other types of
-elements.
+In this example, we then have a head tag, again the beginning and end, head tag, and as you can see, this head tag contains other types of elements.
 
-You can see in this example there's a meta and a title element, and
-there are more than these two.
+You can see in this example there's a meta and a title element, and there are more than these two.
 
 We've actually seen the title element in action already.
 
-It defines the title for the page, that's used in the browser tabs or
-toolbar and the title is also used in the browser history.
+It defines the title for the page, that's used in the browser tabs or toolbar and the title is also used in the browser history.
 
-For example, in our page we had typed: "my first HTML page", and that's
-where that would be created.
+For example, in our page we had typed: "my first HTML page", and that's where that would be created.
 
 That's the head tag. <b>&lt;head&gt;</b>
 
 Next up is the body element. <b>&lt;body&gt;</b>
 
-And as its name suggests, this element contains the body of the page,
-meaning all of its contents.
+And as its name suggests, this element contains the body of the page, meaning all of its contents.
 
 As you learn more and more about HTML you'll see there's lots of
 different tags you can put in here to do various different things within your HTML
@@ -957,54 +914,41 @@ page, but for now as in our example, we'll just type some text.
 
 Hello HTML!.
 
-And as you can see, output is now appearing because we have some content
-in our body.
+And as you can see, output is now appearing because we have some content in our body.
 
 And I can do a lot more here if I want to, but for now that's just
 showing you that this page has created the same output as our original
 page "Hello HTML!", and the page title we've said is my first HTML page,
 and that's the amount of code it takes to construct that page.
 
-Hello, everyone. Today, I'd like to give you a brief overview of a site
-called <b>CodePen</b>.
+Hello, everyone. Today, I'd like to give you a brief overview of a site called <b>CodePen</b>.
 
-I'm already at the site here in my browser at <b>codepen.io</b>, so you should
-browse there, too.
+I'm already at the site here in my browser at <b>codepen.io</b>, so you should browse there, too.
 
-And here I am at the landing page and I haven't logged in, I don't have
-an account.
+And here I am at the landing page and I haven't logged in, I don't have an account.
 
-What I'm going to show you now is just a very brief overview of what the
-site can be used for.
+What I'm going to show you now is just a very brief overview of what the site can be used for.
 
 A "Pen" in this site is kind of like a Code snippet.
 
-It's code you can write, or you can also explore Pens that the community
-has put up on the site for you to consume.
+It's code you can write, or you can also explore Pens that the community has put up on the site for you to consume.
 
 Let's start there, let's have a look at what a Pen might look like.
 
-To do that, I'm going over here on the top right to the "Search" button,
-and I get a nice big Search text box.
+To do that, I'm going over here on the top right to the "Search" button, and I get a nice big Search text box.
 
-And if I just type in a term that I'm interested in, for example,
-"Button", and I just wait a brief second, you'll see that that search
-returns 936,000 Pens.
+And if I just type in a term that I'm interested in, for example, "Button", and I just wait a brief second, you'll see that that search returns 936,000 Pens.
 
-These are pieces of code that other people have shared that contain
-something to do with Buttons, the key word "Button".
+These are pieces of code that other people have shared that contain something to do with Buttons, the key word "Button".
 
-And so, this is the list that you'll get back and you can explore and do
-a lot of configurations on the search.
+And so, this is the list that you'll get back and you can explore and do a lot of configurations on the search.
 
-To see the code behind one of these, you would click on the Tile that
-has been returned.
+To see the code behind one of these, you would click on the Tile that has been returned.
 
 And I'll do it, I'll click on this one.
 
-And you can see an "Editor" opens up, and it has a HTML Pane, A CSS
-Pane, a JavaScript Pane, and an Output Pane. This is just an example.
-
+And you can see an "Editor" opens up, and it has a HTML Pane, A CSS Pane, a JavaScript Pane, and an Output Pane. This is just an example.
+</p>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- image-example 13 1/2. example editor (23) --------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -1013,7 +957,7 @@ Pane, a JavaScript Pane, and an Output Pane. This is just an example.
    width="85%"
    alt="Example editor." />
 </p>
-
+<p>
 We won't go into the code in this example.
 
 But you can see that this is a live preview of what's being shown here
@@ -1086,50 +1030,38 @@ Take other people's code and play with it.
 
 Explore with their cool creations and try that stuff out as well.
 
-Another reason I wanted to introduce CodePen is,
-
-because if you look at our course, you may come across this editor here
-in line, inside the content that we've created.
+Another reason I wanted to introduce CodePen is, because if you look at our course, you may come across this editor here in line, inside the content that we've created.
 
 It's an embedded CodePen editor.
 
-In this example, it shows you two panes, the "HTML" code and the
-"Result".
+In this example, it shows you two panes, the "HTML" code and the "Result".
 
-Switch off the "Result"and just show the "HTML" by clicking on the
-"Result" button.
+Switch off the "Result"and just show the "HTML" by clicking on the "Result" button.
 
 Vice versa. I can also edit inline here.
 
-For example, if I go into this paragraph in code and I say something
-like "Hi!", that will refresh, on the right hand side, the actual
-output, which is interesting.
+For example, if I go into this paragraph in code and I say something like "Hi!", that will refresh, on the right hand side, the actual output, which is interesting.
 
 I'll just ignore that DOCTYPE warning for the moment.
 
 That's not really important right now.
 
-This is a live editing experience embedded into our course, but you can
-go over to CodePen which is where we've been, and you can navigate to the actual Pen that was created.
+This is a live editing experience embedded into our course, but you can go over to CodePen which is where we've been, and you can navigate to the actual Pen that was created.
 
 And here, you can see that in the CodePen site.
 
 And you get yourself an account on CodePen.
 
-You're able to do stuff like just fork this, which is effectively
-copying this actual Pen into your own account so you can play with it,
-use it, and so on, and so forth.
+You're able to do stuff like just fork this, which is effectively copying this actual Pen into your own account so you can play with it, use it, and so on, and so forth.
 
 That's the round tripping. I just wanted to make sure you see.
 
-When you come across these integers inside our course, you'll know that
-that's really a CodePen editor inside the content, that you can then go
-and use the CodePen site, or use it directly inside the content itself.
+When you come across these integers inside our course, you'll know that that's really a CodePen editor inside the content, that you can then go and use the CodePen site, or use it directly inside the content itself.
 
-So that's it. A very quick look at the popular online editor and
-front-end code playground called CodePen.
+So that's it. A very quick look at the popular online editor and front-end code playground called CodePen.
 
 Until next time, happy coding.
+</p>
 
 <h4>Using Visual Studio Code</h4>
 
@@ -1392,9 +1324,7 @@ One is the Ctrl+Alt+O command, which allows you to select a browser in
 order to open this page in.
 
 I won't do that for now because the other ways open your default
-browser,
-
-which is Ctrl+K+D.
+browser, which is Ctrl+K+D.
 
 And as you can see, that's opened a copy of Microsoft Edge because
 that's my default browser, and it's launched my page.
@@ -4680,7 +4610,7 @@ to our CES 2018 <article> example, it will fit right in:
    alt="." />
 </p>
 
-<h5>HTML</h5>
+<h4>HTML:</h4>
 
 ```
 <!DOCTYPE html>
@@ -6632,13 +6562,13 @@ extension and use a <link> tag to bind it in. The <link> tag must
 appear in the &lt;head&gt; section.  By convention, css files are kept in a
 directory named *css*.
 
-<h5>Use this &lt;link&gt; as a template:</h5>
+<h4>Use this &lt;link&gt; as a template:</h4>
 
 ```
 1.  <link rel="stylesheet" href="css/my_styles.css">
 ```
 
-<h5>Here is an example HTML document.</h5>
+<h4>Here is an example HTML document.</h4>
 
 ```
 1.  <!DOCTYPE html>
@@ -7734,14 +7664,14 @@ individually, we can apply unique id attributes to the paragraphs
 (id="p18" and id="p19"). In the CSS, we will use the id selector.  The
 id selector is simply a hash sign (#) followed directly by the id.  
 
-<h5>CSS:</h5>
+<h4>CSS:</h4>
 
 ```
 #p18 { color: blue; }  
 #p19 { color: green; }
 ```
 
-<h5>HTML:</h5>
+<h4>HTML:</h4>
 
 ```
 <p id="p18">He is Ulysses, a man of great craft, son of Laertes. He
@@ -7775,7 +7705,7 @@ be unique and singular, the values of the class attribute can be shared
 by multiple tags. And, multiple classes can be assigned to a tag by
 simply separating them with spaces.  
 
-<h5>HTML:</h5>
+<h4>HTML:</h4>
 
 ```
 <ul>  
@@ -7789,7 +7719,7 @@ simply separating them with spaces.  
 The class selector is simply a period (.) followed by the class name
 itself.
 
-<h5>CSS:</h5>
+<h4>CSS:</h4>
 
 ```
 <b>.bird</b>   { color: blue; }  
@@ -9200,7 +9130,7 @@ width: 10rem;
 }
 ```
 
-<h5>HTML</h5>
+<h4>HTML:</h4>
 
 ```
 <!DOCTYPE html>
@@ -9252,7 +9182,7 @@ this:
    alt="Easy outline-codepen results" />
 </p>
 
-<h5>CSS</h5>
+<h4>CSS:</h4>
 
 ```
    section {
@@ -9294,15 +9224,15 @@ As with the cloud pictures, we want the listed items a bit smaller than
 the regular text, so we add this styling:
 
 ```
-   1.  section {
-   2.    font-size: 24px;
-   3.  }
-   4.  section h1 {
-   5.    font-size: 28px;
-   6.  }
-   7.  li {
-   8.    font-size: 0.5em;
-   9.  }
+1.  section {
+2.    font-size: 24px;
+3.  }
+4.  section h1 {
+5.    font-size: 28px;
+6.  }
+7.  li {
+8.    font-size: 0.5em;
+9.  }
 ```
 
 The outermost level is fine, the next level is almost readable but the
@@ -9316,6 +9246,7 @@ glance we don't see anything unusual.  The font-size is .5em as
 expected.  One odd thing is that below the user agent stylesheet panels
 is the over-ridden font-size setting identical to the current one, i.e.
 .5em on <li> elements.
+
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 80. debugging font-size (###) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
@@ -9324,7 +9255,7 @@ is the over-ridden font-size setting identical to the current one, i.e.
    width="65%"
    alt="Debugging font-size" />
 </p>
-
+<p>
 The styles panel doesn't tell us a lot about the actually font-size in
 absolute terms.  To determine that we can use the "Computed" tab. 
 
@@ -9334,7 +9265,7 @@ listed in alphabetical order.  Since the computer considers the
 character '-' as coming before 'a' in the alphabet, the first thing
 you'll see is a long list of properties starting with '-webkit'.  We're
 going to scroll down past those to "font-size" which reveals this:
-
+</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 81.  (###) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -9388,7 +9319,7 @@ Try to make changes to get something like this:
 <img src="./images/image083.png"
 style="width:4.96875in;height:2.73958in" />
 
-<h5>CSS</h5>
+<h4>CSS:</h4>
 
 ```css
 nav {
@@ -9408,7 +9339,7 @@ color: white;
 }
 ```
 
-<h5>HTML</h5>
+<h4>HTML:</h4>
 
 ```html5
 <!DOCTYPE html>
@@ -9520,7 +9451,7 @@ the CodePen below:
 <img src="./images/image084.png"
 style="width:4.96875in;height:2.73958in" />
 
-<h5>CSS</h5>
+<h4>CSS:</h4>
 
 ```
 nav {
@@ -9540,7 +9471,7 @@ color: white;
 }
 ```
 
-<h5>HTML</h5>
+<h4>HTML:</h4>
 
 ```
 <!DOCTYPE html>
@@ -10734,7 +10665,7 @@ to address top and bottom edges of content, you can use overflow-y.
    alt="" />
 </p>
 
-<h5>CSS</h5>
+<h4>CSS:</h4>
 
 ```
 1.  table { border-collapse: collapse; }
@@ -10747,7 +10678,7 @@ to address top and bottom edges of content, you can use overflow-y.
 8.  div.overflow-x-auto { overflow-x: auto; overflow-y:hidden; }
 ```
 
-<h5>HTML</h5>
+<h4>HTML:</h4>
 
 ```
 1.  <!DOCTYPE html>
@@ -10872,7 +10803,7 @@ As a conclusion to this tables section, here is a complete table design:
    alt="" />
 </p>
 
-<h5>CSS</h5>
+<h4>CSS:</h4>
 
 ```
 1.  table, th, td {
@@ -10911,7 +10842,7 @@ As a conclusion to this tables section, here is a complete table design:
 34. }
 ```
 
-<h5>HTML</h5>
+<h4>HTML:</h4>
 
 ```
 1.  <!DOCTYPE html>
@@ -11431,10 +11362,7 @@ file will play. 
 
 The most common ones are MP3, WAV and Ogg. 
 
-[This
-page](https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats) under
-'Browser Compatibility' lists the audio formats supported by
-the audio element and their browser support.
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats">This page</a> under 'Browser Compatibility' lists the audio formats supported by the audio element and their browser support.
 
 Here is some information regarding different types of audio formats and
 their compression techniques that can help you decide which audio format
@@ -11474,7 +11402,7 @@ to choose apart from audio element and browser compatibility:
     another, there are a lot of software applications available to help
     you do that. 
 
-### Source element for multiple source files
+<h4>Source element for multiple source files</h4>
 
 The source element, also new in HTML5, serves the same purpose as
 the src attribute in an audio element. It is used to specify source
@@ -11482,19 +11410,19 @@ files for the audio and video elements. Using the source element, you
 can specify multiple source files. The <source> tag is self-closing,
 therefore, it does not require a closing tag.
 
-### Example:
+<h4>Example:</h4>
 
-1.  <audio controls>
+1. <audio controls>
 
-2.    <source src="https://courses.edx.org/asset-v1:W3Cx+HTML5.0x+3T2016+type@asset+block@splash.wav" type="audio/wav">
+2. <source src="https://courses.edx.org/asset-v1:W3Cx+HTML5.0x+3T2016+type@asset+block@splash.wav" type="audio/wav">
 
-3.    <source src="https://courses.edx.org/asset-v1:W3Cx+HTML5.0x+3T2016+type@asset+block@splash.mp3" type="audio/mpeg">
+3. <source src="https://courses.edx.org/asset-v1:W3Cx+HTML5.0x+3T2016+type@asset+block@splash.mp3" type="audio/mpeg">
 
-4.    Your browser does not support the audio element.
+4. Your browser does not support the audio element.
 
-5.  </audio>
+5. </audio>
 
-### Output for code above (try playing):
+<h4>Output for code above (try playing):</h4>
 
 The advantage of providing multiple source files in different formats is
 that if the browser doesn't support the first format, it will try the
@@ -11512,17 +11440,17 @@ The following table lists the <source> element's attributes:
 <img src="./images/image107.png"
 style="width:6.5in;height:2.79653in" />
 
-<h3>5.3.2 The <video> Element</h3>
+<h3 id="ch5-3-2">5.3.2 The <video> Element</h3>
 
 You can use the video element to embed video in your page. You can
 specify the location of your video file using the src attribute
 or source element (for multiple source files). 
 
-1.  <video src="multimedia/running.mp4">
-
-2.    Your browser does not support the HTML5 video element.
-
-3.  </video>
+```
+1. <video src="multimedia/running.mp4">
+2. Your browser does not support the HTML5 video element.
+3. </video>
+```
 
 Any text within the <video> tags will be displayed if the browser does
 not support the video element. You should add such a message to provide
@@ -11541,14 +11469,34 @@ the video element's attributes:
    width="65%"
    alt="Attributes: src and type" />
 </p>
+
 <img src="./images/image106.png" (253)
 style="width:6.5in;height:4.73403in" />
+<!------------------------------------------------------------------------------------------------>
+<!---------------------- 106. table of attributes (description & usage) (253) -------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image106.png?raw=true"
+   width="65%"
+   alt="Attributes: src and type" />
+</p>
 
-<img src="./images/image109.png"
-style="width:6.5in;height:2.075in" />
-
-<img src="./images/image110.png"
-style="width:2.00009in;height:2.31677in" />
+<!------------------------------------------------------------------------------------------------>
+<!---------------------- 109.  (xxx) -------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image109.png?raw=true"
+   width="65%"
+   alt="" />
+</p>
+<!------------------------------------------------------------------------------------------------>
+<!---------------------- 110.  (xxx) -------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image110.png?raw=true"
+   width="20%"
+   alt="" />
+</p>
 
 <h3>Poster attribute</h3>
 
@@ -11626,21 +11574,20 @@ to choose apart from video element and browser compatibility:
     another, there are a lot of software applications available to help
     you do that. 
 
-<h2>5.3.3 Video – Source and Track Elements</h2>
+<h3 id="ch5-3-3">5.3.3 Video – Source and Track Elements</h3>
 
 The source element that we saw in the previous unit is also used to
-specify multiple source files for the video element. The <source> tag
+specify multiple source files for the video element. The &lt;source&gt; tag
 is self-closing and so does not require a closing tag.
 
-1.  <video controls height="320" width="240">
-2.   
-    <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
-3.   
-    <source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm">
-4.   
-    <source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg">
-5.    Your browser does not support the HTML5 video element.
-6.  </video>
+```
+1. <video controls height="320" width="240">
+2. <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
+3. <source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm">
+4. <source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg">
+5. Your browser does not support the HTML5 video element.
+6. </video>
+```
 
 The advantage of providing multiple source files in different formats is
 that if the browser doesn't support the first format, it will try the
@@ -11649,7 +11596,7 @@ file format or codec support. There is no one format that is supported
 by all browsers. So you will have to use the source element to list
 a combination of formats. 
 
-The following table lists the source element's attributes:
+<h4>The following table lists the source element's attributes:</h4>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- 109. table src and type (256) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -11686,18 +11633,15 @@ The <track> tag is self-closing and so does not require a closing tag.
 You specify the <track> element as a child element of
 your <video> tag like this:
 
-1.  <video width="320" height="240" controls>
+```
+1. <video width="320" height="240" controls>
+2. <source src="module.mp4" type="video/mp4">
+3. <track src="module-captions.vtt" kind="captions" srclang="en" label="English" default>
+4. Your browser does not support the HTML5 video element.
+5. </video>
+```
 
-2.    <source src="module.mp4" type="video/mp4">
-
-3.   
-    <track src="module-captions.vtt" kind="captions" srclang="en" label="English" default>
-
-4.    Your browser does not support the HTML5 video element.
-
-5.  </video>
-
-The following table lists the <track> element's attributes:
+<h4>The following table lists the &lt;track&gt; element's attributes:</h4>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 112.  (###) -------------------------------------->
@@ -11756,8 +11700,7 @@ style="width:4in;height:2.51477in" />
 </html>
 ```
 
-Because iframes are HTML elements, they can be styled just like other
-elements, with borders, margins, sizes specified with CSS rules:
+Because iframes are HTML elements, they can be styled just like other elements, with borders, margins, sizes specified with CSS rules:
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 114.  (###) -------------------------------------->
@@ -14660,19 +14603,15 @@ cases.
 
 <h3 id="ch6-6-2">6.6.2 Recipe project</h3>
 <p>
-In this next iteration of our recipe project, we're going to make a few
-changes again to our Web page using cascading style sheets.
+In this next iteration of our recipe project, we're going to make a few changes again to our Web page using cascading style sheets.
 
-One of the first things that we want to do is go ahead and increase the
-font size on our page.
+One of the first things that we want to do is go ahead and increase the font size on our page.
 
 If you take a look at the font, it seems to be a little bit small.
 
-Maybe we'd like to have it a little bit larger so that the text is
-easier to read.
+Maybe we'd like to have it a little bit larger so that the text is easier to read.
 
-In order to do that, we'll go into the 'body' tag, and we're going to
-set our font size to a percentage.
+In order to do that, we'll go into the 'body' tag, and we're going to set our font size to a percentage.
 
 And in this case, we'll increase it by 20 percent.
 
@@ -14680,11 +14619,9 @@ Setting it to 120 percent does that for us.
 
 Refresh the page, and you can see that our fonts size has increased.
 
-Now, one of the things that we want to do here is change the width of
-our page.
+Now, one of the things that we want to do here is change the width of our page.
 
-We want to do some changes in how the page responds to width as the user
-resizes the window.
+We want to do some changes in how the page responds to width as the user resizes the window.
 
 What we're going to do to change that, is we're going to go through the
 process of manipulating some of the elements within our F12 tools just
@@ -14694,11 +14631,9 @@ Within the F12, we'll set the width of our page.
 
 And in this case, we're giving it a specific size.
 
-Now, you might notice that what took place was at our header element is
-no longer expanding across the entire width of the browser window.
+Now, you might notice that what took place was at our header element is no longer expanding across the entire width of the browser window.
 
-And that's because the whole page element was resized into the smaller
-size rates.
+And that's because the whole page element was resized into the smaller size rates.
 
 We've done this on the 'body' tag.
 
@@ -14706,30 +14641,25 @@ But we want that header element to be across the entire page.
 
 We know that this creates a problem.
 
-Let's go ahead and clear that style from within the F12 tools, and lets
-go make some changes in our CSS file.
+Let's go ahead and clear that style from within the F12 tools, and lets go make some changes in our CSS file.
 
-The first thing we're going to do, is rather than change the whole body
-width, we're going to change the width of the article elements.
+The first thing we're going to do, is rather than change the whole body width, we're going to change the width of the article elements.
 
 This allows us to manipulate only specific items on the page itself.
 
 The first thing we're going to do, is change the minimum width.
 
-Let's go ahead and refresh the page and see what happens as we start
-coming down to a smaller size.
+Let's go ahead and refresh the page and see what happens as we start coming down to a smaller size.
 
 You'll see that the article elements will only shrink so much.
 
 We specified a minimum of 30rem on this one here.
 
-It's also good to set the max-width, and we'll set that to 50rem for
-this particular instance.
+It's also good to set the max-width, and we'll set that to 50rem for this particular instance.
 
 Let's refresh and see how that impacts us.
 
-You'll notice a small change in the article width, and then we can
-resize the page and see how are min and max widths work.
+You'll notice a small change in the article width, and then we can resize the page and see how are min and max widths work.
 
 Finally, we're going to go through the process of manipulating the
 margins a little bit on this page as well, and we'll do it with the
@@ -14738,8 +14668,7 @@ article element.
 We're going to specify an auto-margin for this particular instance.
 Let's refresh.
 
-You'll notice a slight change in the margins of the articles, and then
-you'll see how those change as you resize your document.
+You'll notice a slight change in the margins of the articles, and then you'll see how those change as you resize your document.
 
 Now let's take a look what happens as we scroll our page.
 
@@ -14747,11 +14676,9 @@ Notice that our banner disappears at the top.
 
 We want to fix that. We'd like to have that banner remain static.
 
-We're going to do that. Because the banner is specified in the 'h1',
-we'll go into the CSS, and we'll set the position to fixed.
+We're going to do that. Because the banner is specified in the 'h1', we'll go into the CSS, and we'll set the position to fixed.
 
-Then as we do that and refresh the page and scroll, you'll see that it
-no longer disappears.
+Then as we do that and refresh the page and scroll, you'll see that it no longer disappears.
 
 But it's not the right width anymore, so we have to fix that as well.
 
@@ -14833,5 +14760,7 @@ These are the final changes to our recipe project for this unit.
    alt="." />
 </p>
 
-<h3><b>Last Updated 08-20-2022 9:19pm</b></h3>
+<h4>The end...</h4>
+
+<h3><b>Last Updated 08-21-2022 8:19pm</b></h3>
 
