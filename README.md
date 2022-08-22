@@ -1082,14 +1082,11 @@ Just as I've done here in my browser.
 
 Visual Studio Code is a very powerful and popular code editor.
 
-It's completely free and it supports a multitude of programming
-languages.
+It's completely free and it supports a multitude of programming languages.
 
-And as you can see here, it's also available for multiple platforms, Mac
-OS, Windows and Linux.
+And as you can see here, it's also available for multiple platforms, Mac OS, Windows and Linux.
 
-One of the really great things about this editor is that it's open
-source and has a very active community behind it.
+One of the really great things about this editor is that it's open source and has a very active community behind it.
 
 And that means that great features and fixes are released every month.
 
@@ -1099,23 +1096,17 @@ appreciation or liked this editor, is quite high.
 
 There's a lot of activity behind this editor.
 
-Once you follow the installation instructions for your platform, and you
-have Visual Studio Code on your machine, launch it.
+Once you follow the installation instructions for your platform, and you have Visual Studio Code on your machine, launch it.
 
-On this Windows machine, I'll just click on my Visual Studio Code icon,
-and then a couple of seconds, Visual Studio Code will be launched.
+On this Windows machine, I'll just click on my Visual Studio Code icon, and then a couple of seconds, Visual Studio Code will be launched.
 
-You should be presented with a similar welcome screen when you open
-Visual Studio Code for the first time.
+You should be presented with a similar welcome screen when you open Visual Studio Code for the first time.
 
-And so, to get going here, what I'd like to do next is open a file or
-create a new file.
+And so, to get going here, what I'd like to do next is open a file or create a new file.
 
-And I can do that here by clicking on "New file", or up in the main menu
-by choosing "File", "New File", or even using a shortcut.
+And I can do that here by clicking on "New file", or up in the main menu by choosing "File", "New File", or even using a shortcut.
 
-For now, I just click on "New File" and I'm presented with this new file
-inside the code editor.
+For now, I just click on "New File" and I'm presented with this new file inside the code editor.
 
 I'll just paste some HTML in to save some time.
 
@@ -1133,22 +1124,17 @@ HTML and I'll call this one test.html Bingo. Once you do that, you can
 see that the editor has recognized this page as HTML and it's beginning
 to light up the content.
 
-You can see the nice color coding of the page we get for free out of the
-box.
+You can see the nice color coding of the page we get for free out of the box.
 
-Let's look at a couple more things we get with this basic support for
-HTML.
+Let's look at a couple more things we get with this basic support for HTML.
 
-If I move my mouse over any tag, I get more information on the symbol
-under the cursor.
+If I move my mouse over any tag, I get more information on the symbol under the cursor.
 
-If I roll over HTML, I get some information about that tag and similarly
-for the body tag and every other tag or element on this page.
+If I roll over HTML, I get some information about that tag and similarly for the body tag and every other tag or element on this page.
 
 This is great when you're learning the language.
 
-If I'm inside my page and I'm editing, if I open an angle bracket, it
-gives me a list of possible tags I can use.
+If I'm inside my page and I'm editing, if I open an angle bracket, it gives me a list of possible tags I can use.
 
 And if I select the tags, for example, P, and I close it with an angle
 bracket, the editor automatically inserts the end tag if one is needed
@@ -1160,14 +1146,11 @@ Another one is if I'm in my HTML or any other code inside a Visual
 Studio, and I want to tidy it up a bit, one thing to try is
 "shift-Alt-F", and it will prettify or beautify the page a little bit.
 
-And that's useful. And on the MAC, you can use the same command,
-"Command K", "Command F".
+And that's useful. And on the MAC, you can use the same command, "Command K", "Command F".
 
-And so, that's just a couple of more features that are available out of
-the box in Visual Studio Code for HTML editing.
+And so, that's just a couple of more features that are available out of the box in Visual Studio Code for HTML editing.
 
-Of course, it's always nice to see what your HTML code looks like when
-the page is rendered in a browser.
+Of course, it's always nice to see what your HTML code looks like when the page is rendered in a browser.
 
 One way to do that is to open the file from the local folder.
 
@@ -1783,7 +1766,7 @@ tell you what type of HTML file it is:
 <!DOCTYPE html>
 ```
 
-In other words, the first thing the browser sees is the declaration
+<p>In other words, the first thing the browser sees is the declaration
 "This is an HTML5 file, in case you were wondering". It may seem tedious
 to put this at the top of every file, but believe me, it used to be
 worse.  You probably noticed that it doesn't say "!DOCTYPE HTML5" but
@@ -1791,26 +1774,26 @@ just "html".
 
 HTML5 can do this because all the previous versions were much more long
 winded.  For example, at the top of an HTML 4.01 page, you might have
-something like this:
+something like this:</p>
 
 ```
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
 "http://www.w3.org/TR/html4/strict.dtd">
 ```
 
-We do not need to go into the details of why and what that means, just
-be grateful that HTML5 did away with it.
+<p>We do not need to go into the details of why and what that means, just
+be grateful that HTML5 did away with it.</p>
 
 <h4>Everything in HTML</h4>
 
-It may seem redundant, but the next bit tells the browser where the
-actual HTML code begins, using an <html> tag:
+<p>It may seem redundant, but the next bit tells the browser where the
+actual HTML code begins, using an &lt;html&gt; tag:</p>
 
 ```
 <html>
 ```
 
-Nearly every HTML document has two parts. The body is the main content
+<p>Nearly every HTML document has two parts. The body is the main content
 of the page, containing text, images, tables and so on. The head comes
 before the body (on top?). It is where you put information about the
 document that does not really go in the body, AKA 'meta-' information.
@@ -1819,7 +1802,7 @@ browser can find style tips, and what the title of the page is (which
 might be different from the title the user reads) all go in the
 &lt;head&gt;. If you have been paying attention, you should be able to
 create a very basic html file, in the right form, without any content.
-Hint, for the head of the document you would write:
+Hint, for the head of the document you would write:</p>
 
 ```
 <head>
@@ -1827,9 +1810,9 @@ Hint, for the head of the document you would write:
 </head>
 ```
 
-You may recall the paragraph tag &lt;p&gt; that we used in the example
+<p>You may recall the paragraph tag &lt;p&gt; that we used in the example
 above. Try inserting a paragraph into the body of your new document.
- You should end up with something that looks like this:
+ You should end up with something that looks like this:</p>
 
 ```
  <!DOCTYPE html>
@@ -1847,7 +1830,7 @@ above. Try inserting a paragraph into the body of your new document.
 
 <h3 id="ch1-4-1">1.4.1 Character Encoding</h3>
 
-A character can be any letter, digit or symbol that makes up words and
+<p>A character can be any letter, digit or symbol that makes up words and
 languages. English alphabets and digits 'a-z', 'A-Z', '0-9' are all
 considered characters. Other examples of characters include the Latin
 letter [á](http://www.w3.org/International/questions/images/225.png) or
@@ -1860,9 +1843,8 @@ in a writing system.
 
 Each character is assigned a particular number called a <b>code point</b>.
 These code points are stored in computer memory in the form
-of [bytes](https://en.wikipedia.org/wiki/Byte) (a unit of data in
-computer memory). In technical terms, we say the character
-is<b> encoded</b> using one or more bytes.
+of <a href="https://en.wikipedia.org/wiki/Byte">bytes</a> (a unit of data in
+computer memory). In technical terms, we say the character is <b>encoded</b> using one or more bytes.
 
 Basically, all the characters are stored in computer language and
 a <b>character encoding</b> is the awesome dictionary that is going to help
@@ -1870,23 +1852,18 @@ us decode this computer language into something we can understand. In
 technical terms, it is what is used as a reference to map code points
 into bytes to store in computer memory; then when you use a character in
 your HTML, the bytes are read back into code points using the character
-encoding as a reference. 
+encoding as a reference.</p>
 
-Examples of character encodings include:
+<h4>Examples of character encodings include:</h4>
 
--   *ASCII*: contains letters, characters and a limited set of symbols
-    and punctuation for the English language
+<ul>
+<li><i>ASCII</i>: contains letters, characters and a limited set of symbols and punctuation for the English language.</li>
+<li><i>Windows-1252 (Latin1)</i>: Windows character set that supports 256 different code points.</li>
+<li><i>ISO-8859-6</i>: contains letters and symbols based on the Arabic script.</li>
+<li><i>Unicode</i>: contains characters for most living languages and scripts in the world.</li>
+</ul>
 
--   *Windows-1252 (Latin1)*: Windows character set that supports 256
-    different code points
-
--   *ISO-8859-6*: contains letters and symbols based on the Arabic
-    script
-
--   *Unicode*: contains characters for most living languages and scripts
-    in the world
-
-When you code in HTML, you must specify the encoding you wish your page
+<p>When you code in HTML, you must specify the encoding you wish your page
 to use. Providing no encoding or the wrong one is pretty much like
 providing the wrong dictionary to decode. It can display your text
 incorrectly or cause your data to not be read correctly by a search
@@ -1904,20 +1881,19 @@ encoding at the top of the web page. <b>You have to ensure that your
 editor saves the file in UTF-8</b> also. Most editors will do that these
 days, but you should check.
 
-Read an [Introduction to character sets and encodings
-here](https://www.w3.org/International/getting-started/characters).
+Read an <a href="https://www.w3.org/International/getting-started/characters">Introduction to character sets and encodings here</a>.</p>
 
 <h3 id="ch1-4-2">1.4.2 The <meta> tag</h3>
 
-Use the <meta> tag with the charset attribute in your HTML page to
+<p>Use the &lt;meta&gt; tag with the charset attribute in your HTML page to
 indicate to the browser the character encoding you will be using in the
-page.
+page.</p>
 
 ```
   <meta charset="utf-8">
 ```
 
-Alternatively, you can also use http-equiv and content attributes. 
+<p>Alternatively, you can also use http-equiv and content attributes.</p>
 
 ```
   <meta http-equiv="Content-Type" content="text/html;
@@ -1929,11 +1905,11 @@ You should also always use 'utf-8'.
 
 <h4>Where to place it?</h4>
 
-The meta declaration belongs inside the &lt;head&gt; element, and should be
+<p>The meta declaration belongs inside the &lt;head&gt; element, and should be
 specified within the first 1024 bytes of your page. So the earlier it is
 mentioned in your code, the better. 
 
-W3C recommends placing it immediately after the opening &lt;head&gt; tag:
+W3C recommends placing it immediately after the opening &lt;head&gt; tag:</p>
 
 ```
   <!DOCTYPE html>
@@ -1949,10 +1925,10 @@ W3C recommends placing it immediately after the opening &lt;head&gt; tag:
 
 <h4>Why we need character references</h4>
 
-Before we learn what HTML character references are, let's look at how
+<p>Before we learn what HTML character references are, let's look at how
 the need for them came about. 
 
-Try the following code in your HTML:
+Try the following code in your HTML:</p>
 
 ```
   <p>Welcome to "HTML5 & CSS Fundamentals". The first tag we will be
@@ -1976,42 +1952,42 @@ Try the following code in your HTML:
  </html>
 ```
 
-Did you notice the <html> tag is missing in your output? In this case,
+<p>Did you notice the <html> tag is missing in your output? In this case,
 your browser mixed it up with an actual tag, although it was meant to be
 a part of the sentence as text. 
 
 Because of this kind of confusion, HTML reserves certain characters. If
 you want to use these characters in your HTML, you need to use character
-references to display them.
+references to display them.</p>
 
 <h4>How to use character references</h4>
 
-All HTML character references can be written using either a name or
+<p>All HTML character references can be written using either a name or
 number. 
 
 If you want to use a named character reference in your source code, use
 an ampersand symbol '&', followed by the name and a semi-colon. Names
 are case sensitive. For example, the following represents a no-break
-space:
+space:</p>
 
 ```
 &nbsp;
 ```
 
-There are two types of numeric character reference: ones that use
+<p>There are two types of numeric character reference: ones that use
 decimal numbers and ones that use hexadecimal numbers.  In each case,
 the number represents the code point number of the character in Unicode.
 
 If you are using a decimal number, use an ampersand symbol '&' ,
-followed by the symbol '#', then a decimal number and a semi-colon.
+followed by the symbol '#', then a decimal number and a semi-colon.</p>
 
 ```
 &#160;
 ```
 
-If you are using a hexadecimal number, use an ampersand symbol '&' ,
+<p>If you are using a hexadecimal number, use an ampersand symbol '&' ,
 followed by the symbols '#x', then a hexadecimal number and a
-semi-colon.
+semi-colon.</p>
 
 ```
 &#x00A0;
@@ -2019,9 +1995,9 @@ semi-colon.
 
 <h4>Protecting characters used for HTML syntax</h4>
 
-The five special characters listed in the table below should always be
+<p>The five special characters listed in the table below should always be
 written as character references if you want them to appear on your page
-when viewed by a reader:
+when viewed by a reader:</p>
 
 <table>
 <colgroup>
@@ -2079,21 +2055,21 @@ href=&amp;quot;&amp;num;timetable&amp;quot;&amp;gt;</p>
 </tbody>
 </table>
 
-We do not want these special characters to be processed by the browser
+<p>We do not want these special characters to be processed by the browser
 as HTML code. Instead, you want it to be displayed to the user. So if
-you wish to display this in your browser:
+you wish to display this in your browser:</p>
 
 ```
 <img src="images/test.png" alt="test image">
 ```
 
-You have to write it like this in your HTML code:
+<p>You have to write it like this in your HTML code:</p>
 
 ```
 &lt;img src=&quot;images/test.png&quot; alt=&quot;test image&quot;&gt;
 ```
 
-<h4>HTML</h4>
+<h4>HTML:</h4>
 
 ```
 <!DOCTYPE html>
@@ -2113,10 +2089,9 @@ You have to write it like this in your HTML code:
 </html>
 ```
 
-Some tolerant browsers will allow using the &amp; character directly
-but <b>not</b> all. So you should use its character reference &amp;. [Check
-out these examples](https://jsfiddle.net/vh2h7usk/1/) illustrating the
-importance of using the character entity &amp; for &.
+<p>Some tolerant browsers will allow using the &amp; character directly
+but <b>not</b> all. So you should use its character reference &amp;. <a href="https://jsfiddle.net/vh2h7usk/1/">Check
+out these examples</a> illustrating the importance of using the character entity &amp; for &.
 
 While it might be tempting to not use one of these character references
 when you notice that the browser produces the expected result anyway, it
@@ -2131,21 +2106,21 @@ a title attribute to an abbreviation to provide an expansion of the
 abbreviation. If you try the code below in a browser and hover your
 mouse pointer on the text 'HTML5', it will show you the title text (it
 works like a tooltip). The title text in the source code includes quotes
-(around the number 5) like this:
+(around the number 5) like this:</p>
 
 ```
 1.  <abbr title="Hypertext Markup Language "5"">HTML5</abbr>
 ```
 
-The above will not display the number 5.
+<p>The above will not display the number 5.
 
-Replacing the quotes with its character entity will work:
+Replacing the quotes with its character entity will work:</p>
 
 ```
 1.  <abbr title="Hypertext Markup Language "5"">HTML5</abbr>
 ```
 
-Check out this jsfiddle link.
+<p>Check out this jsfiddle link.</p>
 
 <h4>HTML</h4>
 
@@ -2159,14 +2134,14 @@ replaced with its character entity name)</p>
 
 <h3 id="ch1-4-5">1.4.5 Character References for Other Characters</h3>
 
-It is also possible to use character references to represent other
+<p>It is also possible to use character references to represent other
 characters in your page. This is useful when you are unable to type the
 character itself, or when you can't tell what the character is by
 looking at it (for example, a no-break space, or an invisible formatting
 character).
 
 There are predefined, named character references in HTML for several
-categories, these include:
+categories, these include:</p>
 <ul>
 <li>currency symbols</li>
 <li>copyright, trademark and registered symbol</li>
@@ -2176,6 +2151,7 @@ categories, these include:
 <li>Greek letters</li>
 </ul>
 
+<p>
 For a list of <b>named</b> character references available in HTML, visit:
  <https://dev.w3.org/html5/html-author/charref>.
 
@@ -2191,9 +2167,9 @@ currency symbols, math and arrows is to simply type them directly into
 the source code.
 
 You can do this directly in the code:   &lt;p&gt; is © 2015. Breach will
-entail a fine of € 400&lt;/p&gt;
+entail a fine of € 400&lt;/p&gt;</p>
 
-<h4>HTML</h4>
+<h4>HTML:</h4>
 
 ```
 <!DOCTYPE html>
@@ -3335,6 +3311,7 @@ page by attaching a lang attribute to an element that contains it.
     sur le Web.</span></p>
 ```
 
+<p>
 The first example above shows how you can qualify the language (English)
 with a region subtag (GB) to specify British English.  This distinction
 can be useful for spellchecking your source. You can also add other
@@ -3348,12 +3325,12 @@ HTML</a>.
 The second example shows how you could specify a change of language
 within the document.  This would help a voice browser pronounce the
 French word 'chats' correctly, meaning 'cats' and not 'chats' in
-English.
+English.</p>
 
 <h4>Global attribute: 'title'</h4>
 
-Try this: Place your cursor on the word and then on the picture below.
-Don't click on it, just rest your cursor there. 
+<p>Try this: Place your cursor on the word and then on the picture below.
+Don't click on it, just rest your cursor there.</p>
 
 <h4>NASA</h4>
 <!------------------------------------------------------------------------------------------------>
@@ -4107,9 +4084,10 @@ Moncrieff&lt;/p&gt;</p></li>
    width="40%"
    alt="Example details command." />
 </p>
-
+<p>
 See also the current <a href="https://caniuse.com/#search=%3Cdetails%3E">browser
 support</a> (on caniuse.com).
+</p>
 
 <h4>&lt;figcaption&gt; element</h4>
 
@@ -4137,8 +4115,8 @@ for all users.
    width="20%"
    alt="Dress rehearsal." />
 </p>
-
-Fig. 1: The cast hard at work at dress rehearsal before opening night
+<p align="center" width="100%">
+Fig. 1: The cast hard at work at dress rehearsal before opening night</p>
 
 <h4>&lt;mark&gt; element</h4>
 
@@ -4168,11 +4146,11 @@ support</a> (on caniuse.com).
 If you have had a chance to try the examples of the semantic elements
 discussed above, you will notice that semantic elements are not visually
 promising in general. Only a few semantic elements such
-as <mark>, &lt;em&gt;, <strong> and <code> provide some kind of visual
+as <mark>, &lt;em&gt;, &lt;strong&gt; and &lt;code&gt; provide some kind of visual
 change to the document. The rest don't do anything except providing the
-structure for your document. 
+structure for your document.
 
-A good example is <aside>. The <aside> element is used for side
+A good example is &lt;aside&gt;. The &lt;aside&gt; element is used for side
 content other than the main content, such as a sidebar, but it does not
 actually create a sidebar in your page. Sidebar is a user interface (UI)
 element and must be styled to achieve the look of a sidebar. The
@@ -7433,7 +7411,7 @@ These simple guidelines merely scratch the surface.
 
 <h3 id="ch3-4">3.4.1 Styling Lists</h3>
 
-The list markup tags (<ul>, <ol> and <li>) are some of the most
+The list markup tags (&lt;ul&gt;, &lt;ol&gt; and &lt;li&gt;) are some of the most
 frequently used specific purpose tags in HTML. There are a few CSS style
 properties that are available for lists.
 
@@ -7502,7 +7480,7 @@ li { list-style-type: disc; }
 </tbody>
 </table>
 
-For ordered lists (<ol>) you can choose different ways of having the
+For ordered lists (&lt;ol&gt;) you can choose different ways of having the
 numbers
 shown: decimal, decimal-leading-zero, lower-roman, upper-roman, lower-alpha, upper-alpha,
 as well as several of the worlds
@@ -7646,6 +7624,7 @@ interesting and useful ways. So let's learn some more CSS selectors.
 We've already seen this one. A CSS selector that consists solely of a
 single tag (without punctuation or spacing) will be applied to any
 matching tag on the page.
+
 ```
 <b>li</b> { list-style-type: circle; }
 ```
@@ -11852,6 +11831,7 @@ Let's look at how the code above works.
    style="width:3in;height:1.96474in"
    alt="Image illustrating how an image map works, how it processes mouse click coordinates using a map file that define target areas" />
 
+<p>
 Let's go back to our world map example where clicking on different parts
 of the image will take you to a page about the country you clicked on.
 The map file '/ismap-image/ismap.cgi' defines target areas. We can
@@ -11863,18 +11843,15 @@ sending these mouse click coordinates to the server. Based on these
 coordinates, the map file will return the Web page it should navigate
 to, to the browser. 
 
-Read more about image maps [on
-wikipedia](https://en.wikipedia.org/wiki/Image_map). You might be
+Read more about image maps <a href="https://en.wikipedia.org/wiki/Image_map">on wikipedia</a>. You might be
 inclined to assume an image map will only be used for an actual
-map. However, there are a lot more use cases for it. The [Atlas
-Magazine](http://www.atlasmagazine.com/win98r.html) is a good example.
+map. However, there are a lot more use cases for it. The <a href="http://www.atlasmagazine.com/win98r.html">Atlas Magazine</a> is a good example.
 
-Try this: Navigate to the [Atlas
-magazine](http://www.atlasmagazine.com/win98r.html) and explore the
+Try this: Navigate to the <a href="http://www.atlasmagazine.com/win98r.html">Atlas magazine</a> and explore the
 header image with a 'laughing budha' like image. The image acts as a
 site navigator. Clicking on different parts of the image will bring you
 to different parts of the Web page. You can use image maps in many
-creative ways. 
+creative ways.</p>
 
 <h4>The 'usemap' attribute</h4>
 
@@ -14763,4 +14740,3 @@ These are the final changes to our recipe project for this unit.
 <h4>The end...</h4>
 
 <h3><b>Last Updated 08-21-2022 8:19pm</b></h3>
-
