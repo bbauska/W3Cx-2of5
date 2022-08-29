@@ -2650,7 +2650,7 @@ effect in your Web page when you use them:</p>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image018.png?raw=true"
-   width="15%"
+   width="35%"
    alt="Example of a list as it would appear on a web page." />
 </p>
 
@@ -2791,7 +2791,7 @@ This is going to be my favorite recipe.
 <h3 id="ch2-1-1">2.1.1 Welcome to Module 2</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 20. attributes, images and links (57) ----------------------------->
+<!---------------------------- 20. attributes, images and links (61) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image020.png?raw=true"
@@ -2865,7 +2865,7 @@ more.</p>
 
 <h3 id="ch2-1-3">2.1.3 Module 2 - Content</h3>
 
-<b>2.1 Introduction:</b> Check out this video explaining what you'll be
+<p><b>2.1 Introduction:</b> Check out this video explaining what you'll be
 learning about in Module 2 - and wrap your mind around the concept of
 "semantic markup".
 
@@ -2880,12 +2880,12 @@ your Web pages.
 
 <b>2.5 Hyperlinks:</b> They are the connections that allow the world to
 jump from place to place on the Web. Explore the secrets of this
-powerful mechanism!
+powerful mechanism!</p>
 
 <h3 id="ch2-2-1">2.2.1 Introduction</h3>
 
-We learned a little bit about what attributes are in the previous
-module. Let's look into it in more depth, by using examples.
+<p>We learned a little bit about what attributes are in the previous
+module. Let's look into it in more depth, by using examples.</p>
 
 <h4>Here is an ordered list:</h4>
 
@@ -3110,7 +3110,7 @@ several tags such as &lt;img&gt;, &lt;input&gt; and &lt;video&gt;.</p>
 ```
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------- 21. html result (63) ------------------------------------->
+<!------------------------------------- 21. html result (67) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image021.png?raw=true"
@@ -11719,10 +11719,13 @@ There are a number of important attributes for an <iframe> tag, but
 for now we'll just look at a few of them:
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 115.  (###) -------------------------------------->
+<!------------------------------ 115.  (xxx) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="./images/image115.png"
-   style="width:6.5in;height:4.87014in" />
+<p align="center" width="100%">
+<img src="./images/image115.png?raw=true"
+   width="65%"
+   alt="." />
+</p>
 
 <b>Notes:</b>
 
@@ -11825,11 +11828,13 @@ your ismap specification.
 Let's look at how the code above works.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 116.  (###) -------------------------------------->
+<!------------------------------ 116.  (xxx) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="./images/image116.png"
-   style="width:3in;height:1.96474in"
-   alt="Image illustrating how an image map works, how it processes mouse click coordinates using a map file that define target areas" />
+<p align="center" width="100%">
+<img src="./images/image116.png?raw=true"
+   width="30%"
+   alt="Image illustrating how an image map works, how it processes mouse click coordinates using a map file that define target areas." />
+</p>
 
 <p>
 Let's go back to our world map example where clicking on different parts
@@ -11938,13 +11943,15 @@ Try this: Click on the left and right side of the images to check out
 how usemap works :) Remember to navigate back to the course!
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 117.  (###) -------------------------------------->
+<!------------------------------ 117.  (xxx) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="./images/image117.png"
-   style="width:2in;height:2.23018in" 
-   alt="" />
+<p align="center" width="100%">
+<img src="./images/image117.png?raw=true"
+   width="20%"
+   alt="." />
+</p>
 
-Note: If the <img> is inside an <a> or <button> element, clicking
+Note: If the &lt;img&gt; is inside an &lt;a&gt; or &lt;button&gt; element, clicking
 on it will be interpreted as clicking on the link or button and usemap
 will not work.
 
@@ -11955,9 +11962,11 @@ will not work.
 
 2.  Try the following code in your HTML editor:
 
+```
     1.  <iframe src="http://facebook.com">
     2.  <p>Your browser does not support iframes.</p>
     3.  </iframe>
+```
 
 What happens? Why does it behave the way it does?
 
@@ -11996,9 +12005,15 @@ applicable to the color property. 
 In the example below we apply a variety of background colors to a
 hyperlink (<a>), paragraph (<p>), unordered list (<ul>) and list
 items (<li>):
-<!---------------------------------------- world wide web consortium w3c ---------------------------->
-<img src="./images/image118.png"
-style="width:5in;height:1.59615in" />
+
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 118.  (xxx) -------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image118.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
 
 <h4>background-image</h4>
 
@@ -12022,10 +12037,14 @@ scenarios can be constructed with other CSS properties,
 like background-repeat, background-size, and background-attach (as well
 as several others). 
 
-```
-<img src="./images/image119.png"
-style="width:5in;height:1.85524in" />
-```
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 119.  (xxx) -------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image119.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
 
 <h4>background-repeat</h4>
 
@@ -12034,8 +12053,14 @@ image itself, then the image will repeat and fill the space, like tiles.
 
 <h4>For example:</h4>
 
-<img src="./images/image120.png"
-style="width:5in;height:1.96635in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 120.  (xxx) -------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image120.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
 
 The background-repeat property can be used to control this.  It's more
 commonly used values are: repeat, repeat-x, repeat-y, and <b>no-repeat**.
@@ -12238,8 +12263,14 @@ explore them more in next module when covering Layout.  
 
 Here is a simple example of a common error:
 
-<img src="./images/image130.png"
-style="width:6.5in;height:1.61667in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 130.  (xxx) -------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image130.png?raw=true"
+   width="65%"
+   alt="." />
+</p>
 
 ### Padding - The right way
 
@@ -12278,8 +12309,14 @@ paragraph we apply the same padding to all four sides. However, in the
 second paragraph we use different padding for different sides, thus
 placing the rectangle of the element relative to the text itself.
 
-<img src="./images/image131.png"
-style="width:6.5in;height:3.18472in" />
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 131.  (xxx) -------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image131.png?raw=true"
+   width="65%"
+   alt="." />
+</p>
 
 I'm confused - are you saying that I shouldn't use the width property to
 change the width?
@@ -14739,4 +14776,4 @@ These are the final changes to our recipe project for this unit.
 
 <h4>The end...</h4>
 
-<h3><b>Last Updated 08-21-2022 8:19pm</b></h3>
+<h3><b>Last Updated 08-28-2022 5:11pm</b></h3>
