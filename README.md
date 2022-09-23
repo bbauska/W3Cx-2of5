@@ -5823,12 +5823,12 @@ with name unchanged. Else it will download the file with file name
 modified according to value specified. 
 
 ```html
-1.  <a href="/assets/hello.txt" download>
+<a href="/assets/hello.txt" download>
 ... will download the file with the same name - 'hello.txt'.
 ```
 
 ```
-1.  <a href="/assets/hello.txt" download="new-name-for-text-file">
+<a href="/assets/hello.txt" download="new-name-for-text-file">
 ... will download the file after altering its name to -
 'new-name-for-text-file.txt'.
 ```
@@ -6101,71 +6101,71 @@ style="width:6.5in;height:3.27778in" />
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>My Favorite Recipes - Module 2</title>
+   <meta charset="UTF-8">
+   <title>My Favorite Recipes - Module 2</title>
 </head>
-<body>
-<h1>My Favorite Recipes</h1>
-<nav>
-<ul>
-<li><a href="#soup">Soup</a></li>
-<li><a href="#salad">Salad</a></li>
-<li><a href="#pizza">Pizza</a></li>
-</ul>
-</nav>
-<article id="soup">
-<h2>Soup</h2>
-<img
-src="https://upload.wikimedia.org/wikipedia/commons/2/22/Bol_soupe_bicolore.jpg"
-alt="soup image" width=320>
-<p>
-Beethoven once said <q>Only the pure of heart can make a good
-soup</q>. Well, here's my attempt at doing just that!
-</p>
-<ol>
-<li>Step 1</li>
-<li>Step 2</li>
-<li>Step 3</li>
-<li>Enjoy!</li>
-</ol>
-</article>
-<article id="salad">
-<h2>Salad</h2>
-<img
-src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Caesar_salad_%281%29.jpg/320px-Caesar_salad_%281%29.jpg"
-alt="salad image" width=320>
-<h3>List of ingredients</h3>
-<ul>
-<li>Ingredient 1</li>
-<li>Ingredient 2</li>
-<li>Ingredient 3</li>
-</ul>
-<p>
-Who can resist a fresh salad ! Here's one of my favorites.
-</p>
-<ol>
-<li>Step 1</li>
-<li>Step 2</li>
-<li>Step 3</li>
-<li>Enjoy!</li>
-</ol>
-</article>
-<article id="pizza">
-<h2>Pizza</h2>
-<img
-src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Margherita_Originale.JPG/320px-Margherita_Originale.JPG"
-alt="pizza image" width=320>
-<p>
-Pizza, the king of comfort foods. Try this simple, taste sensation.
-</p>
-<ol
-<li>Step 1</li>
-<li>Step 2</li>
-<li>Step 3</li>
-<li>Enjoy!</li>
-</ol>
-</article>
-</body>
+   <body>
+      <h1>My Favorite Recipes</h1>
+      <nav>
+      <ul>
+         <li><a href="#soup">Soup</a></li>
+         <li><a href="#salad">Salad</a></li>
+         <li><a href="#pizza">Pizza</a></li>
+      </ul>
+      </nav>
+      <article id="soup">
+         <h2>Soup</h2>
+         <img
+         src="https://upload.wikimedia.org/wikipedia/commons/2/22/Bol_soupe_bicolore.jpg"
+            alt="soup image" width=320>
+         <p>
+         Beethoven once said <q>Only the pure of heart can make a good
+         soup</q>. Well, here's my attempt at doing just that!
+         </p>
+         <ol>
+            <li>Step 1</li>
+            <li>Step 2</li>
+            <li>Step 3</li>
+            <li>Enjoy!</li>
+         </ol>
+      </article>
+      <article id="salad">
+         <h2>Salad</h2>
+         <img
+         src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Caesar_salad_%281%29.jpg/320px-Caesar_salad_%281%29.jpg"
+            alt="salad image" width=320>
+         <h3>List of ingredients</h3>
+         <ul>
+            <li>Ingredient 1</li>
+            <li>Ingredient 2</li>
+            <li>Ingredient 3</li>
+         </ul>
+         <p>
+            Who can resist a fresh salad ! Here's one of my favorites.
+         </p>
+         <ol>
+            <li>Step 1</li>
+            <li>Step 2</li>
+            <li>Step 3</li>
+            <li>Enjoy!</li>
+         </ol>
+      </article>
+      <article id="pizza">
+         <h2>Pizza</h2>
+         <img
+         src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Margherita_Originale.JPG/320px-Margherita_Originale.JPG"
+            alt="pizza image" width=320>
+         <p>
+         Pizza, the king of comfort foods. Try this simple, taste sensation.
+         </p>
+         <ol>
+            <li>Step 1</li>
+            <li>Step 2</li>
+            <li>Step 3</li>
+            <li>Enjoy!</li>
+         </ol>
+      </article>
+   </body>
 </html>
 ```
 
@@ -6543,7 +6543,7 @@ directory named *css*.
 <h4>Use this &lt;link&gt; as a template:</h4>
 
 ```
-1.  <link rel="stylesheet" href="css/my_styles.css">
+<link rel="stylesheet" href="css/my_styles.css">
 ```
 
 <h4>Here is an example HTML document.</h4>
@@ -7068,9 +7068,7 @@ are normal and italic.  
 |------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Many years later, as he faced the firing squad, Colonel Aureliano Buendía was to remember that distant afternoon when his father took him to discover ice. | <i>Many years later, as he faced the firing squad, Colonel Aureliano Buendía was to remember that distant afternoon when his father took him to discover ice.</i> |
 
-```
-<h4>font-family</h4>
-```
+> <h4>font-family</h4>
 
 Want to set the font for an item on the page?   The font-family is the
 correct property for the task, but there are caveats:
@@ -7710,21 +7708,21 @@ itself.
 
 ```xml
 <table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><ul>
-<li><p><u>eagle</u></p></li>
-<li><p>ostrich</p></li>
-<li><p>ant</p></li>
-<li><p><u>moth</u></p></li>
-</ul></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
+   <colgroup>
+      <col style="width: 100%" />
+   </colgroup>
+   <thead>
+      <tr class="header">
+      <th><ul>
+         <li><p><u>eagle</u></p></li>
+         <li><p>ostrich</p></li>
+         <li><p>ant</p></li>
+         <li><p><u>moth</u></p></li>
+      </ul></th>
+      </tr>
+   </thead>
+   <tbody>
+   </tbody>
 </table>
 ```
 
@@ -7988,48 +7986,48 @@ none of its children inherit the padding.
 
 ```html5
 <table>
-<colgroup>
-<col style="width: 32%" />
-<col style="width: 31%" />
-<col style="width: 35%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>HTML</strong></th>
-<th><strong>CSS</strong></th>
-<th><strong>Result</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>&lt;p&gt;This paragraph has children
-<span> spans</span> and <span>q&lt;/span&gt;, which, in
-turn, have their own child &lt;span&gt;spans&lt;/span&gt;.</p>
-<p>&lt;q&gt;With this structure, we can see how some CSS
-&lt;span&gt;rules&lt;/span&gt; are</p>
-<p>&lt;span&gt;applied across a &lt;q&gt;variety&lt;/q&gt;&lt;/span&gt;
-of scopes.&lt;/q&gt;</p>
-<p>&lt;/p&gt;</p></td>
-<td><p>p {</p>
-<p>/* inherited by children of p */</p>
-<p>font-family: monospace;</p>
-<p>/* not inherited */</p>
-<p>padding: 40px;</p>
-<p>}</p></td>
-<td>This paragraph has children spans and q, which, in turn, have their
-own child spans. With this structure, we can see how some
-CSS rules are applied across a variety of scopes.</td>
-</tr>
-<tr class="even">
-<td><strong>Discussion</strong></td>
-<td><strong>CSS</strong></td>
-<td><strong>Result</strong></td>
-</tr>
-<tr class="odd">
-<td><p>To the right we add another CSS rule, this one instructing that
-the padding for spans and q elements should be inherited from their
-parent.</p>
-<p>Look at the result on the right, the padding is very
+   <colgroup>
+      <col style="width: 32%" />
+      <col style="width: 31%" />
+      <col style="width: 35%" />
+   </colgroup>
+   <thead>
+   <tr class="header">
+      <th><strong>HTML</strong></th>
+      <th><strong>CSS</strong></th>
+      <th><strong>Result</strong></th>
+   </tr>
+   </thead>
+   <tbody>
+      <tr class="odd">
+         <td><p>&lt;p&gt;This paragraph has children
+         <span> spans</span> and <span>q&lt;/span&gt;, which, in
+            turn, have their own child &lt;span&gt;spans&lt;/span&gt;.</p>
+         <p>&lt;q&gt;With this structure, we can see how some CSS
+            &lt;span&gt;rules&lt;/span&gt; are</p>
+         <p>&lt;span&gt;applied across a &lt;q&gt;variety&lt;/q&gt;&lt;/span&gt;
+            of scopes.&lt;/q&gt;</p>
+         <p>&lt;/p&gt;</p></td>
+            <td><p>p {</p>
+         <p>/* inherited by children of p */</p>
+         <p>font-family: monospace;</p>
+         <p>/* not inherited */</p>
+         <p>padding: 40px;</p>
+         <p>}</p></td>
+         <td>This paragraph has children spans and q, which, in turn, have their
+            own child spans. With this structure, we can see how some
+            CSS rules are applied across a variety of scopes.</td>
+         </tr>
+      <tr class="even">
+         <td><strong>Discussion</strong></td>
+         <td><strong>CSS</strong></td>
+         <td><strong>Result</strong></td>
+      </tr>
+      <tr class="odd">
+         <td><p>To the right we add another CSS rule, this one instructing that
+            the padding for spans and q elements should be inherited from their
+            parent.</p>
+         <p>Look at the result on the right, the padding is very
 evident. </p></td>
 <td><p>span, q {</p>
 <p>padding: inherit;</p>
@@ -14776,4 +14774,4 @@ These are the final changes to our recipe project for this unit.
 
 <h4>The end...</h4>
 
-<h3><b>Last Updated 08-28-2022 5:11pm</b></h3>
+<h3><b>Last Updated 09-23-2022 11:34am</b></h3>
