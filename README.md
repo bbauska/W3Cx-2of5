@@ -4807,26 +4807,26 @@ its place.
 We will see an example of &lt;div&gt; here:
 
 ```
-1.  <section>
-2.    <h2>Week 1</h2>
-3.    <p>This week, you will be learning about...week 1 stuff</p>
-4.    <div class="code">
-5.      <ol>
-6.        <li>Line of code</li>
-7.        <li>Line of code</li>
-8.      </ol>
-9.    </div>
-10. </section>
-11. <section>
-12.   <h2>Week 2</h2>
-13.   <p>This week, you will be learning about...week 2 stuff</p>
-14.   <div class="code">
-15.     <ol>
-16.       <li>Line of code</li>
-17.       <li>Line of code</li>
-18.     </ol>
-19.   </div>
-20. </section>
+<section>
+  <h2>Week 1</h2>
+  <p>This week, you will be learning about...week 1 stuff</p>
+  <div class="code">
+    <ol>
+      <li>Line of code</li>
+      <li>Line of code</li>
+    </ol>
+  </div>
+</section>
+<section>
+  <h2>Week 2</h2>
+  <p>This week, you will be learning about...week 2 stuff</p>
+  <div class="code">
+    <ol>
+      <li>Line of code</li>
+      <li>Line of code</li>
+    </ol>
+  </div>
+</section>
 ```
 
 If you want to style all code snippets in your HTML document a certain
@@ -4845,26 +4845,34 @@ page](https://en.wikipedia.org/wiki/Span_and_div) dedicated to it.
 What happens when you do not find an appropriate tag to use? Let's look
 at this example:
 
-1.  <p>Hi everyone! My name is Alexa and I work for ABC Company</p>
+```
+Hi everyone! My name is Alexa and I work for ABC Company
+```
 
 I want to change the color of only 'ABC Company'? Should I use a
 paragraph tag? Let's try that..
 
-1.  <p>Hi everyone! My name is Alexa and I work
+```
+<p>Hi everyone! My name is Alexa and I work
     for <p class="company">ABC Company</p></p>
+```
 
 If you then design your style such that the 'company' class will make
 text blue, the output will look like this:
 
+```
 Hi everyone! My name is Alexa and I work for
+```
 
 <h4>ABC Company</h4>
 
-That does not work because <p> creates a new line. The HTML above is
+That does not work because &lt;p&gt; creates a new line. The HTML above is
 also invalid. We will see why shortly. Now, let's try using &lt;span&gt;:
 
-1.  <p>Hi everyone! My name is Alexa and I work
-    for <span class="company">ABC Company</span></p>
+```
+<p>Hi everyone! My name is Alexa and I work
+  for <span class="company">ABC Company</span></p>
+```
 
 Hi everyone! My name is Alexa and I work for ABC Company
 
@@ -4876,7 +4884,7 @@ When can &lt;span&gt; be used?
 
 -   When there isn't a more appropriate HTML element that applies, you
     can use &lt;span&gt; (and &lt;div&gt;) to add attributes such
-    as class and id
+    as class and id.
 
 Like &lt;div&gt;, &lt;span&gt; is not a semantic element. You should only
 use &lt;span&gt; if no other semantic element is
@@ -4894,14 +4902,14 @@ element. 
 <b>Block level elements</b> - used within body of the page. These occupy a
 block of space and start in a new line. They usually have empty lines
 above and below the block. They can contain inline elements and other
-block level elements. Other examples: <p>, &lt;h1&gt; - &lt;h6&gt;.
+block level elements. Other examples: &lt;p&gt;, &lt;h1&gt; - &lt;h6&gt;.
 
 <b>Inline elements </b>- as the name suggests are 'in-the-line'. They can
 start anywhere in a line. They can only contain data (like text) or
-other in-line elements. Other examples: &lt;em&gt;, <strong>.
+other in-line elements. Other examples: &lt;em&gt;, &lt;strong&gt;.
 
 <b>Note: </b>There are several other semantic inline elements such
-as <abbr>, <cite> and <code> that should be used in preference
+as &lt;abbr&gt;, &lt;cite&gt; and &lt;code&gt; that should be used in preference
 to &lt;span&gt; where possible.
 
 <h4>Why two paragraph tags don't work</h4>
@@ -4909,15 +4917,17 @@ to &lt;span&gt; where possible.
 In the first &lt;span&gt; example, we said that nesting two paragraph
 elements was invalid HTML.
 
+```
 <p>Hi everyone! My name is Alexa and I work
 for <p class="company">ABC Company</p></p>
+```
 
-After reading an opening tag <p>, if the browser sees another <p> or
+After reading an opening tag &lt;p&gt;, if the browser sees another &lt;p&gt; or
 any other block level element including &lt;div&gt;, it will automatically
-close the first open <p> for you. Nesting one paragraph tag in another
+close the first open &lt;p&gt; for you. Nesting one paragraph tag in another
 is not valid because the browser will consider them as two
 paragraphs one after the other. Even though you close the paragraphs
-with two closing tags </p></p> at the end, they are ignored.
+with two closing tags &lt;/p&gt;&lt;/p&gt; at the end, they are ignored.
 
 <h3 id="ch2-3-7">2.3.7 Activities – Semantic Meaning</h3>
 
@@ -4934,32 +4944,34 @@ Please find below suggested activities to help you practice:
 
 <h3 id="ch2-4-1">2.4.1 Introduction</h3>
 
-The <img> tag
+<h4>The &lt;img&gt; tag</h4>
 
 In this age of visual culture, what is a Web page without images?
 Boring! Pictures and images make everything more interesting and
 engaging. 
 
-Here is the most basic <img> tag:
+Here is the most basic &lt;img&gt; tag:
 
+```
 1.  <img src="example.png" alt="Example Tutorial Image">
+```
 
 The image tag has several attributes out of which only src and alt are
 required. The rest are useful but optional attributes. 
 
-<h4>*Image*: 'src' attribute</h4>
+<h4>Image: 'src' attribute</h4>
 
 The source attribute from the <img> tag tells us where to fetch the
 image from. There are two different types of URLs you can give for
 source. 
 
 1.  Path to an image file within your Web site:  
-    <img src="images/image-with-relative-url.png" alt="Example Tutorial
-    Image">
+    &lt;img src="images/image-with-relative-url.png" alt="Example Tutorial
+    Image"&gt;,
 
 2.  Path to an image file that resides elsewhere on the Web:  
-    <img src="https://www.example.com/image-with-absolute-url.png" alt="Example
-    Tutorial Image">
+    &lt;img src="https://www.example.com/image-with-absolute-url.png" alt="Example
+    Tutorial Image"&gt;.
 
 The type of image file format (i.e. png, jpeg, etc.) you should use does
 not depend on the img element in HTML5 but on the browser that renders
@@ -5002,7 +5014,7 @@ Here is a list of things to keep in mind when using the src attribute:
     maintain. It will work on localhost or if you switch domain names
     without requiring any changes.
 
-*Image: Formats*
+<h4>Image: Formats</h4>
 
 Before you begin using images in your Web site, you are advised to visit
 this [Web
@@ -5027,10 +5039,9 @@ information to be aware of.
     alpha channels. This makes them useful for non-rectangular images
     that may need to overlay different background colors or other
     elements on the page. To make PNG images, a user would need graphics
-    editing software (like GIMP, Photoshop, or others). PNG is a <a href="https://www.w3.org/TR/PNG/" target="_blank">W3C
-    Web standard</a> (this is the 2nd edition -
-    the 1st edition
-    was <a href="https://www.w3.org/TR/REC-png-961001" target="_blank">published</a> in 1996!).
+    editing software (like GIMP, Photoshop, or others). PNG is a &lt;a href="https://www.w3.org/TR/PNG/" target="_blank"&gt;W3C
+    Web standard</a> (this is the 2nd edition - the 1st edition
+    was &lt;a href="https://www.w3.org/TR/REC-png-961001" target="_blank"&gt;published</a> in 1996!).
 <li><b>SVG</b> (Scalable Vector Graphics) are defined mathematically and
     support animation. Also, since they are defined mathematically  they
     scale to:</li>
