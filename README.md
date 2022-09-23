@@ -4353,7 +4353,7 @@ easier for the user to navigate contents of the Web page. 
 You can learn more about the source of this technique in that <a href="https://www.w3.org/WAI/tutorials/page-structure/headings/" target="_blank">other W3C
 resource page about headings</a>.
 
-<h4>Can you have more than one <header>, <footer> and <nav>?</h4>
+<h4>Can you have more than one &lt;header&gt;, &lt;footer&gt; and &lt;nav&gt;?</h4>
 
 There is a common misconception that a Web page can only have one header
 at the start, one footer at the end and one main navigation section to
@@ -4375,13 +4375,12 @@ other links, copyright information etc.
 
 Sometimes, the header of a Web page comes from a template file. This
 template file is used throughout the site as a global header. Check
-out [this
-demo](https://demo.tutorialzine.com/2015/02/freebie-7-responsive-header-templates/) by
+out [this demo](https://demo.tutorialzine.com/2015/02/freebie-7-responsive-header-templates/) by
 tutorialzine.com for examples of header templates. 
 
 Let's look at site-wide/global header and footer used in [Microsoft
 Virtual Academy home page](https://mva.microsoft.com/). At the time of
-course creation, here are screenshots of its header  
+course creation, here are screenshots of its header:
 <!------------------------------------------------------------------------------------------------>
 <!------------------ 32. screenshot of the ms virtual academy home page (##) --------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4390,7 +4389,6 @@ course creation, here are screenshots of its header  
    width="40%"
    alt="Screenshot of the microsoft virtual academy home page." />
 </p>
-
 
 and footer.
 
@@ -4421,7 +4419,7 @@ reading its contents or to make it immediately available.
 <h4>Complete example</h4>
 
 Now, let's look at a more complete example using a global header and
-multiple <header>, <footer> and <nav> tags.
+multiple &lt;header&gt;, &lt;footer&gt; and &lt;nav&gt; tags.
 
 <!------------------------------------------------------------------------------------------------>
 <!--------- 34. screenshot of the ms virtual academy home page showing the  footer (##) ---------->
@@ -4435,87 +4433,79 @@ multiple <header>, <footer> and <nav> tags.
 ```xml
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Header Hierarchy</title>
-</head>
-<body>
+   <head>
+      <meta charset="UTF-8">
+      <title>Header Hierarchy</title>
+   </head>
+   <body>
 <!--Our global header used across all pages in our website-->
-<header>
-<h1>Brad Abc's Blog</h1>
-<nav>
-<ul>
-<li><a href="#ces">CES 2018</a></li>
-<li><a href="#vegan">Being Vegan</a></li>
-<li><a href="#html5">HTML5</a></li>
-</ul>
-</nav>
->
-> </header>
->
-> <!-- The main contents of the blog starts here -->
->
-> <main>
->
-> <!-- Each blogpost is split into individual articles -->
->
-> <article id="ces">
->
-<header>
-<h2>CES 2018</h2>
-<h3>Consumer electronics and consumer technology tradeshow</h3>
-</header>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-neque risus, consequat eget vestibulum eu, consequat at eros. Nam eu
-nisl vel neque malesuada sollicitudin quis eget libero.</p>
-<footer>
-<p>Written by guest author Nicholas Abc. Read Nicholas's blog
-here.</p>
-</footer>
-</article>
+   <header>
+   <h1>Brad Abc's Blog</h1>
+   <nav>
+      <ul>
+         <li><a href="#ces">CES 2018</a></li>
+         <li><a href="#vegan">Being Vegan</a></li>
+         <li><a href="#html5">HTML5</a></li>
+      </ul>
+   </nav>
+   </header>
+<!-- The main contents of the blog starts here -->
+   <main>
+<!-- Each blogpost is split into individual articles -->
+      <article id="ces">
+      <header>
+      <h2>CES 2018</h2>
+      <h3>Consumer electronics and consumer technology tradeshow</h3>
+   </header>
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+      neque risus, consequat eget vestibulum eu, consequat at eros. Nam eu
+      nisl vel neque malesuada sollicitudin quis eget libero.</p>
+   <footer>
+      <p>Written by guest author Nicholas Abc. Read Nicholas's blog here.</p>
+   </footer>
+   </article>
 <!-- Article 2 -->
-<article id="vegan">
-<header>
-<h2>Being Vegan</h2>
-<h3>My cooking tips for new vegans</h3>
-</header>
-<p>Donec ut librero sed accu vehicula ultricies a non tortor. Lorem
-ipsum dolor sit amet, consectetur adipisicing elit. Aenean ut gravida
-lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id
-dolor.</p>
-<footer>
-<p>Written by Brad Abc. Read my other health articles here.</p>
-</footer>
-</article>
+   <article id="vegan">
+   <header>
+      <h2>Being Vegan</h2>
+      <h3>My cooking tips for new vegans</h3>
+   </header>
+   <p>Donec ut librero sed accu vehicula ultricies a non tortor. Lorem
+      ipsum dolor sit amet, consectetur adipisicing elit. Aenean ut gravida
+      lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id
+   dolor.</p>
+   <footer>
+      <p>Written by Brad Abc. Read my other health articles here.</p>
+   </footer>
+   </article>
 <!-- Article 3 -->
-<article id="html5">
-<header>
-<h2>HTML5</h2>
-<h3>A summary of HTML5 differences from HTML4</h3>
-</header>
-<p>Pelientesque auctor nisi id magna consequat sagittis. Curabitur
-dapibus, enim sit amet elit pharetra tincidunt feugiat nist imperdiet.
-Ut convallis libero in urna ultrices accumsan. Donec sed odio
-eros.</p>
-<footer>
-<p>Written by Brad Abc, HTML5 developer. Read my other technical
-articles here.</p>
-</footer>
-</article>
-</main>
+   <article id="html5">
+   <header>
+      <h2>HTML5</h2>
+      <h3>A summary of HTML5 differences from HTML4</h3>
+   </header>
+   <p>Pelientesque auctor nisi id magna consequat sagittis. Curabitur
+      dapibus, enim sit amet elit pharetra tincidunt feugiat nist imperdiet.
+      Ut convallis libero in urna ultrices accumsan. Donec sed odio
+   eros.</p>
+   <footer>
+      <p>Written by Brad Abc, HTML5 developer. Read my other technical
+         articles here.</p>
+   </footer>
+   </article>
+   </main>
 <!--Our global footer used across all pages in our website-->
-<footer>
-©Copyright 2025. All rights reserved.
-<nav>
-<ul>
-
-<li><a href="">Email</a></li>
-<li><a href="">Twitter</a></li>
-<li><a href="">License</a></li>
-</ul>
-</nav>
-</footer>
-</body>
+   <footer>
+   ©Copyright 2025. All rights reserved.
+   <nav>
+      <ul>
+         <li><a href="">Email</a></li>
+         <li><a href="">Twitter</a></li>
+         <li><a href="">License</a></li>
+      </ul>
+   </nav>
+   </footer>
+   </body>
 </html>
 ```
 
@@ -4550,7 +4540,7 @@ reused anywhere else.
 
 One article element can be nested inside another. For example, if you
 have a blog post and you want to include a forum post or newspaper
-article in it, you can nest it in another <article> tag. 
+article in it, you can nest it in another &lt;article&gt; tag. 
 
 Let's look at another example:
 
@@ -4577,7 +4567,7 @@ within an article. In fact, all content within the body element is
 considered to be within one section. Sections can be nested (one section
 in another). Sections can also be part of an article, aside or nav
 elements. While the code above makes no sense by itself, if you add it
-to our CES 2018 <article> example, it will fit right in:
+to our CES 2018 &lt;article&gt; example, it will fit right in:
 
 <!------------------------------------------------------------------------------------------------>
 <!--------- ##.  (##) ---------->
@@ -4933,7 +4923,7 @@ with two closing tags </p></p> at the end, they are ignored.
 
 Please find below suggested activities to help you practice:
 
-1.  How are <header> and &lt;h1&gt; related? What is the difference
+1.  How are &lt;header&gt; and &lt;h1&gt; related? What is the difference
     between them?
 
 2.  Create a well structured HTML page using as many semantic elements
@@ -7324,7 +7314,7 @@ accessibility.  In Module 2, we learned that using the correct tag with
 the best semantic meaning is very important for a variety of reasons,
 one of which included visitors who may have a disability. If you clearly
 put your page navigation in a <nav> block, and use the header tags and
-others (like <article> or <main>), then this can greatly enhance the
+others (like &lt;article&gt; or <main>), then this can greatly enhance the
 page experience for certain disabled visitors, like the blind who might
 be having the page read aloud to them with a screen reader.
 
@@ -8027,16 +8017,15 @@ none of its children inherit the padding.
          <td><p>To the right we add another CSS rule, this one instructing that
             the padding for spans and q elements should be inherited from their
             parent.</p>
-         <p>Look at the result on the right, the padding is very
-evident. </p></td>
-<td><p>span, q {</p>
-<p>padding: inherit;</p>
-<p>}</p></td>
-<td>This paragraph has children spans and q, which, in turn, have their
-own child spans. With this structure, we can see how some
-CSS rules are applied across a variety of scopes.</td>
-</tr>
-</tbody>
+         <p>Look at the result on the right, the padding is very evident. </p></td>
+         <td><p>span, q {</p>
+         <p>padding: inherit;</p>
+         <p>}</p></td>
+         <td>This paragraph has children spans and q, which, in turn, have their
+            own child spans. With this structure, we can see how some
+            CSS rules are applied across a variety of scopes.</td>
+      </tr>
+   </tbody>
 </table>
 ```
 
@@ -8501,10 +8490,16 @@ are defaults for these values, so you technically don't need to specify
 all of them, but it is the minimal info needed and is quite common.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 61.  (###) -------------------------------------->
+<!------------------------------ 61. illustration of css box model (##) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="./images/image061.jpeg"
+<p align="center" width="100%">
+<img src="./images/image061.jpeg?raw=true"
+   width="50%"
+   alt="Illustration of CSS Box Model." />
+</p>
+<!------
 style="width:5in;height:3.89in" alt="Illustration of CSS Box Model" />
+------->
 
 The margin, as we learned earlier, specifies the position of the
 element relative to whatever is adjacent to it, either to the right or
@@ -8516,13 +8511,27 @@ you want to control where an element is placed on a page.  In the
 following pictures, the black rectangles encompass the content:
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 62/63.  (###) -------------------------------------->
+<!----------------------------------- 62.  (###) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="./images/image062.png"
+<p align="center" width="100%">
+<img src="./images/image062.png?raw=true"
+   width="30%"
+   alt="Image showing three blocks (Block 1, Block 2, Block 3) with no margins between them." />
+</p>
+<!-------
 style="width:3in;height:1.02479in"
-alt="Image showing three blocks (Block 1, Block 2, Block 3) with no margins between them" /><img src="./images/image063.png"
+------->
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- 63.  (###) -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image063.png?raw=true"
+   width="30%"
+   alt="Image showing (Block 1, Block 2, Block 3). Block 2 has a positive margin-left, creating space between Blocks 1 and 2. Block 3 is negative causing its left side to overlap with Block 2." />
+</p>
+<!-------
 style="width:3in;height:1.10482in"
-alt="Image showing (Block 1, Block 2, Block 3). Block 2 has a positive margin-left, creating space between Blocks 1 and 2. Block 3 has a negative margin-left, causing its left side to overlap with Block 2." />
+ ------->
 
 On the left, we see three blocks with no margins between them. On the
 right are the same 3 blocks, but now block 2 has a positive margin-left,
@@ -8544,9 +8553,14 @@ than 0 is undefined and shouldn't be relied on.
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 64.  (###) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="./images/image064.png"
+<p align="center" width="100%">
+<img src="./images/image064.png?raw=true"
+   width="30%"
+   alt="Image showing 3 blocks (Block 1, Block 2, Block 3). These blocks all have borders with different widths, but the margins are zero, implying that the borders are up against each other regardless of their width." />
+</p>
+<!-------
 style="width:3in;height:1.074in"
-alt="Image showing 3 blocks (Block 1, Block 2, Block 3). These blocks all have borders with different widths, but the margins are zero, implying that the borders are up against each other regardless of their width." />
+------->
 
 Here blocks 1, 2 and 3 all have borders with different widths, but the
 margins are zero.  There is no overlap, the borders are up against each
@@ -8861,8 +8875,8 @@ the change in the section headers.
 
 We could fix it by just making sure things are in the right order (which
 is important) but a more robust solution might be to make use of the
-fact that the way we're using <section> in fact is more specific
-than <article>.  We can make this explicit by changing the selector to
+fact that the way we're using &lt;section&gt; in fact is more specific
+than &lt;article&gt;.  We can make this explicit by changing the selector to
 "article section h1", so that now the smaller, lighter color will be
 used only on a section that is inside an article, which is really what
 we want:
