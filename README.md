@@ -1778,7 +1778,7 @@ something like this:</p>
 
 ```
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
-"http://www.w3.org/TR/html4/strict.dtd">
+   "http://www.w3.org/TR/html4/strict.dtd">
 ```
 
 <p>We do not need to go into the details of why and what that means, just
@@ -1815,17 +1815,17 @@ above. Try inserting a paragraph into the body of your new document.
  You should end up with something that looks like this:</p>
 
 ```
- <!DOCTYPE html>
- <html>
- <head>
- </head>
- <body>
- <p>
-    As my English teacher used to say, 'One sentence does not a
-    paragraph make'!
- </p>
- </body>
- </html>
+<!DOCTYPE html>
+<html>
+   <head>
+   </head>
+   <body>
+      <p>
+         As my English teacher used to say, 'One sentence does not a
+         paragraph make'!
+      </p>
+   </body>
+</html>
 ```
 
 <h3 id="ch1-4-1">1.4.1 Character Encoding</h3>
@@ -1857,10 +1857,10 @@ encoding as a reference.</p>
 <h4>Examples of character encodings include:</h4>
 
 <ul>
-<li><i>ASCII</i>: contains letters, characters and a limited set of symbols and punctuation for the English language.</li>
-<li><i>Windows-1252 (Latin1)</i>: Windows character set that supports 256 different code points.</li>
-<li><i>ISO-8859-6</i>: contains letters and symbols based on the Arabic script.</li>
-<li><i>Unicode</i>: contains characters for most living languages and scripts in the world.</li>
+   <li><i>ASCII</i>: contains letters, characters and a limited set of symbols and punctuation for the English language.</li>
+   <li><i>Windows-1252 (Latin1)</i>: Windows character set that supports 256 different code points.</li>
+   <li><i>ISO-8859-6</i>: contains letters and symbols based on the Arabic script.</li>
+   <li><i>Unicode</i>: contains characters for most living languages and scripts in the world.</li>
 </ul>
 
 <p>When you code in HTML, you must specify the encoding you wish your page
@@ -1890,14 +1890,14 @@ indicate to the browser the character encoding you will be using in the
 page.</p>
 
 ```
-  <meta charset="utf-8">
+<meta charset="utf-8">
 ```
 
 <p>Alternatively, you can also use http-equiv and content attributes.</p>
 
 ```
-  <meta http-equiv="Content-Type" content="text/html;
-    charset=utf-8">
+<meta http-equiv="Content-Type" content="text/html;
+   charset=utf-8">
 ```
 
 We recommend using the first one because it is much less complicated.
@@ -1912,13 +1912,13 @@ mentioned in your code, the better. 
 W3C recommends placing it immediately after the opening &lt;head&gt; tag:</p>
 
 ```
-  <!DOCTYPE html>
-  <html lang="en">
-    <head>
-      <meta charset="utf-8">
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="utf-8">
       ...
-    </head>
-  </html>
+   </head>
+</html>
 ```
 
 <h3 id="ch1-4-3">1.4.3 HTML Character References</h3>
@@ -2066,7 +2066,7 @@ you wish to display this in your browser:</p>
 <p>You have to write it like this in your HTML code:</p>
 
 ```
-&lt;img src=&quot;images/test.png&quot; alt=&quot;test image&quot;&gt;
+<img src="images/test.png" alt="test image">
 ```
 
 <h4>HTML:</h4>
@@ -2074,16 +2074,16 @@ you wish to display this in your browser:</p>
 ```
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Welcome</title>
-</head>
-<body>
-<p>
-<img src="images/test.png" alt="test image">
-</p>
-<p>
-&lt;img src=&quot;images/test.png&quot; alt=&quot;test image&quot;&gt;
+   <head>
+      <meta charset="UTF-8">
+      <title>Welcome</title>
+   </head>
+   <body>
+      <p>
+         <img src="images/test.png" alt="test image">
+      </p>
+      <p>
+         <img src=""images/test.png" alt="test image">
 </p>
 </body>
 </html>
@@ -2109,7 +2109,7 @@ works like a tooltip). The title text in the source code includes quotes
 (around the number 5) like this:</p>
 
 ```
-1.  <abbr title="Hypertext Markup Language "5"">HTML5</abbr>
+<abbr title="Hypertext Markup Language "5"">HTML5</abbr>
 ```
 
 <p>The above will not display the number 5.
@@ -2117,7 +2117,7 @@ works like a tooltip). The title text in the source code includes quotes
 Replacing the quotes with its character entity will work:</p>
 
 ```
-1.  <abbr title="Hypertext Markup Language "5"">HTML5</abbr>
+<abbr title="Hypertext Markup Language "5"">HTML5</abbr>
 ```
 
 <p>Check out this jsfiddle link.</p>
@@ -2143,12 +2143,12 @@ character).
 There are predefined, named character references in HTML for several
 categories, these include:</p>
 <ul>
-<li>currency symbols</li>
-<li>copyright, trademark and registered symbol</li>
-<li>general punctuation</li>
-<li>arrows</li>
-<li>mathematical symbols</li>
-<li>Greek letters</li>
+   <li>currency symbols</li>
+   <li>copyright, trademark and registered symbol</li>
+   <li>general punctuation</li>
+   <li>arrows</li>
+   <li>mathematical symbols</li>
+   <li>Greek letters</li>
 </ul>
 
 <p>
@@ -2541,16 +2541,16 @@ seen:
 ```xml
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Welcome</title>
-</head>
-<body>
-<h1>A TALE OF TWO CITIES</h1>
-<h2>A STORY OF THE FRENCH REVOLUTION</h2>
-<h2>Book the First—Recalled to Life</h2>
-<h3>I. The Period</h3>
-</body>
+   <head>
+      <meta charset="UTF-8">
+      <title>Welcome</title>
+   </head>
+   <body>
+      <h1>A TALE OF TWO CITIES</h1>
+      <h2>A STORY OF THE FRENCH REVOLUTION</h2>
+      <h2>Book the First—Recalled to Life</h2>
+      <h3>I. The Period</h3>
+   </body>
 </html>
 ```
 
@@ -2563,11 +2563,11 @@ deeply. Try not to skip levels of headers when nesting them. <b>Headings
 are really useful for some assistive technology users and missing levels
 can be confusing</b>.
 <ul>
-<li>   <b>&lt;p&gt;</b> - <i><b>P</b></i> is for 'paragraph', which is the tag you may use
-    to arrange much of your text information.  Depending on the style
-    you are using, text wrapped in a &lt;p&gt; tag may be indented or have
-    extra vertical white space before starting.  When rendered on the
-    Web page, a <i>p</i> element creates a new line.</li>
+   <li>   <b>&lt;p&gt;</b> - <i><b>P</b></i> is for 'paragraph', which is the tag you may use
+      to arrange much of your text information.  Depending on the style
+      you are using, text wrapped in a &lt;p&gt; tag may be indented or have
+      extra vertical white space before starting.  When rendered on the
+      Web page, a <i>p</i> element creates a new line.</li>
 </ul>
 
 <h4>HTML</h4>
@@ -2576,17 +2576,17 @@ can be confusing</b>.
 <!DOCTYPE html>
    <html lang="en">
    <head>
-   <meta charset="UTF-8">
-   <title>Welcome</title>
+      <meta charset="UTF-8">
+      <title>Welcome</title>
    </head>
    <body>
    <p>
-This is a paragraph.
-It may or may not be indented but it but there should be a line break at the end.
-Typically the last line will not stretch as far to the right as the rest of the lines.
-Often there is extra space between one paragraph and the next.
-</p>
-</body>
+      This is a paragraph.
+      It may or may not be indented but it but there should be a line break at the end.
+      Typically the last line will not stretch as far to the right as the rest of the lines.
+      Often there is extra space between one paragraph and the next.
+   </p>
+   </body>
 </html>
 ```
 
@@ -2636,21 +2636,21 @@ effect in your Web page when you use them:</p>
 </ul>
 
 ```xml
-  <ul>
-     <li> First item in list </li>
-     <li> Second item in list </li>
-     . . .
-  </ul>
+<ul>
+   <li> First item in list </li>
+   <li> Second item in list </li>
+   . . .
+</ul>
 ```
 
 <h4>This code might be rendered like this:</h4>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 18.  (??) ---------------------------------->
+<!--------------------------------- 18. example ul and li (56) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image018.png?raw=true"
-   width="35%"
+   width="25%"
    alt="Example of a list as it would appear on a web page." />
 </p>
 
@@ -2661,25 +2661,25 @@ is for the logical structure of your content, not what it looks like.
 primarily used to invoke certain formatting.</p>
 
 <ul>
-<li><b>&lt;hr&gt;</b> - The <b>hr</b> tag stands for horizontal rule and is used
-    to insert a horizontal line across the width of the text, or a
-    thematic break in an HTML page to divide or separate document
-    sections. The &lt;hr&gt; tag is an empty tag and does not require an end
-    tag. It would typically look like this:</li>
-<li><b>&lt;br&gt;</b> - This tag signifies a line break, and is used for any
-    number of situations.  For example, it can be an easy way to make
-    sure that lines of poetry break where they're supposed to (less
-    verbose than requiring each line to be a separate element).
-     Essentially it helps break the "white space" rule: where spaces and
-    carriage returns are generally treated the same, the &lt;br&gt; tag is
-    treated as a required carriage return.   
-    Because it's an empty tag, there's no need for a close tag. Indeed,
-    if you do try adding &lt;/br&gt; after your &lt;br&gt; tag, it will likely
-    be interpreted as an additional break. If you feel a strong need to
-    indicate tag closure, &lt;br /&gt; is also valid syntax.  
-    Note that the &lt;br&gt; tag implies a break even if there is no break
-    in the text containing it, so for example, these two sentences would
-    be formatted exactly the same:</li>
+   <li><b>&lt;hr&gt;</b> - The <b>hr</b> tag stands for horizontal rule and is used
+       to insert a horizontal line across the width of the text, or a
+       thematic break in an HTML page to divide or separate document
+       sections. The &lt;hr&gt; tag is an empty tag and does not require an end
+       tag. It would typically look like this:</li>
+   <li><b>&lt;br&gt;</b> - This tag signifies a line break, and is used for any
+       number of situations.  For example, it can be an easy way to make
+       sure that lines of poetry break where they're supposed to (less
+       verbose than requiring each line to be a separate element).
+       Essentially it helps break the "white space" rule: where spaces and
+       carriage returns are generally treated the same, the &lt;br&gt; tag is
+       treated as a required carriage return.   
+       Because it's an empty tag, there's no need for a close tag. Indeed,
+       if you do try adding &lt;/br&gt; after your &lt;br&gt; tag, it will likely
+       be interpreted as an additional break. If you feel a strong need to
+       indicate tag closure, &lt;br /&gt; is also valid syntax.  
+       Note that the &lt;br&gt; tag implies a break even if there is no break
+       in the text containing it, so for example, these two sentences would
+       be formatted exactly the same:</li>
 </ul>
 
 ```
@@ -2691,7 +2691,7 @@ primarily used to invoke certain formatting.</p>
 ```
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 19. w3c developers logo (??) ---------------------------------->
+<!----------------------------- 19. that which we call a rose (61) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image019.png?raw=true"
@@ -2700,12 +2700,12 @@ primarily used to invoke certain formatting.</p>
 </p>
 
 <ul>
-<li><b>&lt;pre&gt;</b> - <b>pre</b> stands for "PREformatted text", meaning that
-    the text is to be presented exactly as written in the HTML file. It
-    preserves all text formatting characters i.e. spaces, line
-    breaks and (thus bypassing the white space rule) and most typically
-    implies a monospace font. It is very handy for illustrating bits of
-    program code, or other "typewritten" material:</li>
+   <li><b>&lt;pre&gt;</b> - <b>pre</b> stands for "PREformatted text", meaning that
+       the text is to be presented exactly as written in the HTML file. It
+       preserves all text formatting characters i.e. spaces, line
+       breaks and (thus bypassing the white space rule) and most typically
+       implies a monospace font. It is very handy for illustrating bits of
+       program code, or other "typewritten" material:</li>
 </ul>
 
 ```
@@ -2746,45 +2746,45 @@ following components:</p>
 ```xml
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>My favorite Recipes</title>
-</head>
-<body>
-</body>
+   <head>
+      <meta charset="UTF-8">
+      <title>My favorite Recipes</title>
+   </head>
+   <body>
+   </body>
 </html>
 ```
 
 ```xml
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>My Favorite Recipes - Module 1</title>
-</head>
-<body>
-<h1>My Favorite Recipes</h1>
-<ul>
-<li>Recipe 1</li>
-</ul>
-<h2>Recipe 1</h2>
-<p>
-This is going to be my favorite recipe.
-</p>
-<h3>List of Ingredients:</h3>
-<ul>
-<li>Ingredient 1</li>
-<li>Ingredient 2</li>
-<li>Ingredient 3</li>
-</ul>
-<h3>Steps:</h3>
-<ol>
-<li>Step 1</li>
-<li>Step 2</li>
-<li>Step 3</li>
-<li>Enjoy!</li>
-</ol>
-</body>
+   <head>
+      <meta charset="UTF-8">
+      <title>My Favorite Recipes - Module 1</title>
+   </head>
+   <body>
+      <h1>My Favorite Recipes</h1>
+      <ul>
+         <li>Recipe 1</li>
+      </ul>
+      <h2>Recipe 1</h2>
+      <p>
+         This is going to be my favorite recipe.
+      </p>
+      <h3>List of Ingredients:</h3>
+      <ul>
+         <li>Ingredient 1</li>
+         <li>Ingredient 2</li>
+         <li>Ingredient 3</li>
+      </ul>
+      <h3>Steps:</h3>
+      <ol>
+         <li>Step 1</li>
+         <li>Step 2</li>
+          <li>Step 3</li>
+         <li>Enjoy!</li>
+      </ol>
+   </body>
 </html>
 ```
 
@@ -2890,30 +2890,30 @@ module. Let's look into it in more depth, by using examples.</p>
 <h4>Here is an ordered list:</h4>
 
 ```xml
-1.  <ol>
-2.    <li>Lights</li>
-3.    <li>Camera</li>
-4.    <li>Action</li>
-5.  </ol>
+<ol>
+   <li>Lights</li>
+   <li>Camera</li>
+   <li>Action</li>
+</ol>
 ```
 
 <h4>Output:</h4>
 
 ```
- 1. Lights
- 2. Camera
- 3. Action
+1. Lights
+2. Camera
+3. Action
 ```
 
 <p>If i want an ordered list to start with the number 5 instead of 1 (as it
 does by default), let's code like this:</p>
 
 ```xml
-  <ol start="5">
-    <li>Lights</li>
-    <li>Camera</li>
-    <li>Action</li>
-  </ol>
+<ol start="5">
+   <li>Lights</li>
+   <li>Camera</li>
+   <li>Action</li>
+</ol>
 ```
 
 <h4>Output:</h4>
@@ -2935,36 +2935,36 @@ Tags and attributes make up the language.</p>
 
 <h4>Attributes are used in tags to further define the tag:</h4>
 <ul>
-<li>It is used inside the opening tag it is applied to and should be
-    added after a space from the tag name: &lt;ol start="5"&gt;.
-    The start attribute is used inside the &lt;ol&gt; tag.</li>
-<li>start="5"
-    Attribute name, equal sign, opening quote, attribute value, closing
-    quote</li>
-<li>Attributes are a name-value pair: start="5"  
-    name: start  
-    value: any positive integer</li>
-<li>The only exception to the name-value pair is if the attribute is a
-    'boolean attribute'. These attributes have only two types of
-    values - true or false. But instead of writing "true" or "false" for
-    its value, you add the attribute name to indicate true and omit it
-    to indicate false. An example is the 'reversed' attribute in an
-    ordered list &lt;ol&gt;. Adding this attribute is an indication that the
-    list order should be reversed (in descending order).</li>
+   <li>It is used inside the opening tag it is applied to and should be
+      added after a space from the tag name: &lt;ol start="5"&gt;.
+      The start attribute is used inside the &lt;ol&gt; tag.</li>
+   <li>start="5"
+      Attribute name, equal sign, opening quote, attribute value, closing
+      quote</li>
+   <li>Attributes are a name-value pair: start="5"  
+      name: start  
+      value: any positive integer</li>
+   <li>The only exception to the name-value pair is if the attribute is a
+      'boolean attribute'. These attributes have only two types of
+      values - true or false. But instead of writing "true" or "false" for
+      its value, you add the attribute name to indicate true and omit it
+      to indicate false. An example is the 'reversed' attribute in an
+      ordered list &lt;ol&gt;. Adding this attribute is an indication that the
+      list order should be reversed (in descending order).</li>
 </ul>
 
 ```	
-         <ol reversed></ol>
+<ol reversed></ol>
 ```
 
 <ul>
-<li>A tag can have multiple attributes:</li>
+   <li>A tag can have multiple attributes:</li>
 </ul>
 
 ```
-       <ol start="5"></ol>  
-       <ol id="cinema" class="attribute-list" start="5"></ol>  
-       <ol start="5" class="attribute-list"></ol>
+<ol start="5"></ol>  
+<ol id="cinema" class="attribute-list" start="5"></ol>  
+<ol start="5" class="attribute-list"></ol>
 ```
 
 <h4>Example #1: the 'id' attribute</h4>
@@ -2972,8 +2972,8 @@ Tags and attributes make up the language.</p>
 <h4>Imagine you have two paragraphs in your HTML page:</h4>
 
 ```xml
-  <p>I am paragraph 1 and I want to be in red</p>
-  <p>I am paragraph 2 and I want to be in blue</p>
+<p>I am paragraph 1 and I want to be in red</p>
+<p>I am paragraph 2 and I want to be in blue</p>
 ```
 
 <p>
@@ -2994,8 +2994,8 @@ unique to the element; we know how more than one people having the same
 ID can just cause a lot of confusion.</p>
 
 ```xml
-  <p id="para1">I am paragraph 1 and I want to be in red</p>
-  <p id="para2">I am paragraph 2 and I want to be in blue</p>
+<p id="para1">I am paragraph 1 and I want to be in red</p>
+<p id="para2">I am paragraph 2 and I want to be in blue</p>
 ```
 
 <p>
@@ -3039,10 +3039,10 @@ makes it easier. We use the class attribute. Let's name this class of
 poems 'poetry'.</p>
 
 ```xml
-  <p id="poem1" class="poetry">To move, to breathe, to fly, to
-    float...</p>
-  <p id="poem2" class="poetry">Roses are red, violets are
-    blue...</p>
+<p id="poem1" class="poetry">To move, to breathe, to fly, to
+   float...</p>
+<p id="poem2" class="poetry">Roses are red, violets are
+   blue...</p>
 ```
 
 <p>So now, all you have to do in your style sheet, is to instruct it to
@@ -3056,8 +3056,8 @@ HTML elements have attributes.
 
 There are two kinds of attributes:</p>
 <ul>
-<li>Global</li>
-<li>Non-global</li>
+   <li>Global</li>
+   <li>Non-global</li>
 </ul>
 
 <h4>Global attributes</h4>
@@ -3071,9 +3071,9 @@ Attributes like id and class can be applied to any HTML tag.</p>
 
 ```xml
 <p id="para1" class="poetry" lang="en">The global attribute lang
-takes language codes for values. The code for English is 'en'.</p>  
+   takes language codes for values. The code for English is 'en'.</p>  
 <html lang="fr"></html> - The language attribute tells the browser
-that the contents of this document will be in french.
+   that the contents of this document will be in french.
 <ul id="intro-list"></ul>
 <pre class="html-code"></pre>
 ```
@@ -3092,21 +3092,21 @@ several tags such as &lt;img&gt;, &lt;input&gt; and &lt;video&gt;.</p>
 <h4><b>Without</b> the boolean attribute reversed:</h4>
 
 ```xml
-  <ol>
-     <li>HTML5</li>
-     <li>CSS</li>
-     <li>JavaScript</li>
-  </ol>
+<ol>
+   <li>HTML5</li>
+   <li>CSS</li>
+   <li>JavaScript</li>
+</ol>
 ```
 
 <h4><b>With</b> the boolean attribute reversed:</h4>
 
 ```xml
-  <ol reversed>
-     <li>HTML5</li>
-     <li>CSS</li>
-     <li>JavaScript</li>
-  </ol>
+<ol reversed>
+   <li>HTML5</li>
+   <li>CSS</li>
+   <li>JavaScript</li>
+</ol>
 ```
 
 <!------------------------------------------------------------------------------------------------>
@@ -3177,9 +3177,9 @@ document, that ID value can only be used in one element.</p>
 </ul>
 
 ```
-1.  <p id="question-about-html">How many times can a particular 'id'
-    value be used in an HTML document?</p>
-2.  <p id="html-answer">Once</p>
+<p id="question-about-html">How many times can a particular 'id'
+   value be used in an HTML document?</p>
+<p id="html-answer">Once</p>
 ```
 
 <h4>id is primarily used for:</h4>
@@ -3213,8 +3213,8 @@ assigned to more than one element.</p>
 <h4>For example:</h4>
 
 ```
-  <p class="question">What is your name?</p>
-  <p class="question">Do you like HTML5?</p>
+<p class="question">What is your name?</p>
+<p class="question">Do you like HTML5?</p>
 ```
 
 <p>Both paragraphs above are grouped under the class named 'question'. An
@@ -3250,9 +3250,9 @@ the elements that belong to the class in your stylesheet. 
 In your CSS, you can include code to style your classes, for example by
 telling it:
 <ul>
-<li><i>question</i> class: text color is black and text is bold</li>
-<li><i>answer</i> class: text color is green</li>
-<li><i>html</i> class: text color is red</li>
+   <li><i>question</i> class: text color is black and text is bold</li>
+   <li><i>answer</i> class: text color is green</li>
+   <li><i>html</i> class: text color is red</li>
 </ul>
 
 <h4>The code above will then look like this:</h4>
@@ -3307,8 +3307,8 @@ page by attaching a lang attribute to an element that contains it.
 
 ```xml
 <html lang="en-GB">...</html>
-<p>In French you'd say <span lang="fr">On voit souvent des chats
-    sur le Web.</span></p>
+   <p>In French you'd say <span lang="fr">On voit souvent des chats
+      sur le Web.</span></p>
 ```
 
 <p>
@@ -3352,17 +3352,17 @@ be presented to assistive technology users. The title can be any text
 value. 
 
 ```
-1.  <abbr title="National Aeronautics and Space
-    Administration">NASA</abbr>
+<abbr title="National Aeronautics and Space
+   Administration">NASA</abbr>
 ```
 	
 <h3 id="ch2-2-4">2.2.4 Global Attributes</h3>
 
 <h4>References for the video text below:</h4>
 <ul>
-<li><a href="https://www.w3.org/2009/cheatsheet/">W3C Cheatsheet</a></li>
-<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes">Mozilla Developer Newsletter (MDN) Attribute
-    Reference</a></li>
+   <li><a href="https://www.w3.org/2009/cheatsheet/">W3C Cheatsheet</a></li>
+   <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes">Mozilla Developer Newsletter (MDN) Attribute
+      Reference</a></li>
 </ul>
 
 Hi everyone! Now that we have read a fair amount of information about
@@ -4097,12 +4097,12 @@ technology, &lt;figcaption&gt; can be used to provide additional information
 for all users.
 
 ```html5
-1.  <figure>
-2.     <img src="img_cast.jpg" alt="The Importance of Being Earnest
-    Cast">
-3.     <figcaption>Fig1. - The cast hard at work at dress rehearsal
-    before opening night</figcaption>
-4.  </figure>
+<figure>
+   <img src="img_cast.jpg" alt="The Importance of Being Earnest
+      Cast">
+   <figcaption>Fig1. - The cast hard at work at dress rehearsal
+      before opening night</figcaption>
+</figure>
 ```
 
 <h4>Result:</h4>
@@ -4123,8 +4123,8 @@ Fig. 1: The cast hard at work at dress rehearsal before opening night</p>
 <h5>This element is used to specify content that you want to highlight.</h5>
 
 ```
-1.  <h3>Lane: </h3><p>Yes sir. [<mark>Handing his master the
-    sandwiches on a salver</mark>]</p>
+<h3>Lane: </h3><p>Yes sir. [<mark>Handing his master the
+   sandwiches on a salver</mark>]</p>
 ```
 
 <!------------------------------------------------------------------------------------------------>
@@ -4281,17 +4281,16 @@ If you view page source on the W3C specification and do a search for
 element. <b>Here's a simplified version</b>:
 
 ```html5
-1.  <header>
-2.     <!-- You will learn about the <a> and <img> tags later in
-   this chapter-->
-3.    <p>
-4.      <a href="https://www.w3.org/"><img alt="W3C
-    logo" height="48" src="https://www.w3.org/Icons/w3c_home" width="72"></a>
-5.    </p>
-6.   
-7.    <h1>HTML 5.2</h1>
-8.    <h2>W3C Recommendation, 14 December 2017</h2>
-9.  </header>
+<header>
+<!-- You will learn about the <a> and <img> tags later in this chapter-->
+   <p>
+   <a href="https://www.w3.org/"><img alt="W3C
+      logo" height="48" src="https://www.w3.org/Icons/w3c_home" width="72"></a>
+   </p>
+
+   <h1>HTML 5.2</h1>
+   <h2>W3C Recommendation, 14 December 2017</h2>
+</header>
 ```
 
 <!------------------------------------------------------------------------------------------------>
@@ -4315,22 +4314,20 @@ document's structure. More information is provided in <a href="https://www.w3.o
 identify headings</a>.
 
 ```xml
-1.  <body>
-2.     <h1>Brad's Cookbook</h1>
-3.       <h2>Slowcook Recipes</h2>
-4.         <h3>Minestrone Soup</h3>
-5.           <h4>Description:</h4>
-6.             <p>Minestrone Soup is a simple and nutritious
-    dish...</p>
-7.         <h3>Refried Beans</h3>
-8.           <h4>Description:</h4>
-9.             <p>Cumin is the secret to this recipe.</p>
-10.      <h2>Dessert Recipes</h2>
-11.        <h3>Peach Cobbler</h3>
-12.          <h4>Description:</h4>
-13.            <p>If you can't get fresh peaches, frozen to the
-    rescue!</p>
-14. </body>
+<body>
+   <h1>Brad's Cookbook</h1>
+     <h2>Slowcook Recipes</h2>
+       <h3>Minestrone Soup</h3>
+          <h4>Description:</h4>
+           <p>Minestrone Soup is a simple and nutritious dish...</p>
+       <h3>Refried Beans</h3>
+         <h4>Description:</h4>
+           <p>Cumin is the secret to this recipe.</p>
+     <h2>Dessert Recipes</h2>
+       <h3>Peach Cobbler</h3>
+         <h4>Description:</h4>
+           <p>If you can't get fresh peaches, frozen to the rescue!</p>
+</body>
 ```
 
 <!------------------------------------------------------------------------------------------------>
@@ -4521,21 +4518,19 @@ that it will make sense all by itself without any context. It can be
 reused anywhere else.
 
 ```
-1.  <article id="ces">
-2.    <header>
-3.      <h2>CES 2018</h2>
-4.      <h3>Consumer electronics and consumer technology
-    tradeshow</h3>
-5.    </header>
-6.    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Aliquam neque risus, consequat eget vestibulum eu, consequat at
-    eros. Nam eu nisl vel neque malesuada sollicitudin quis eget
-    libero.</p>
-7.    <footer>
-8.      <p>Written by guest author Nicholas Abc. Read Nicholas's blog
-    here.</p>
-9.    </footer>
-10. </article>
+<article id="ces">
+  <header>
+    <h2>CES 2018</h2>
+    <h3>Consumer electronics and consumer technology tradeshow</h3>
+  </header>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Aliquam neque risus, consequat eget vestibulum eu, consequat at
+eros. Nam eu nisl vel neque malesuada sollicitudin quis eget
+libero.</p>
+  <footer>
+    <p>Written by guest author Nicholas Abc. Read Nicholas's blog here.</p>
+  </footer>
+</article>
 ```
 
 One article element can be nested inside another. For example, if you
@@ -4583,31 +4578,28 @@ to our CES 2018 &lt;article&gt; example, it will fit right in:
 ```
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>article and section elements</title>
-</head>
+   <head>
+      <meta charset="UTF-8">
+      <title>article and section elements</title>
+   </head>
 <body>
-<article id="ces">
-<header>
-<h2>CES 2018</h2>
-<h3>Consumer electronics and consumer technology tradeshow</h3>
-</header>
-<section>
-<h4>Getting There</h4>
-<p>Arriving at the show location proved much harder for me. I couldn't
-get a hotel closer to where the show was taking place and so had to rent
-a car....</p>
-</section>
-<section>
-<h4>Conference Sessions</h4>
-<p>I managed to squeeze in 3 conference sessions on the first
-day...</p>
-</section>
-<footer>
-<p>Written by guest author Nicholas Abc. Read Nicholas's blog
-here.</p>
-</footer>
+   <article id="ces">
+   <header>
+      <h2>CES 2018</h2>
+      <h3>Consumer electronics and consumer technology tradeshow</h3>
+   </header>
+   <section>
+      <h4>Getting There</h4>
+      <p>Arriving at the show location proved much harder for me. I couldn't
+         get a hotel closer to where the show was taking place and so had to rent a car....</p>
+   </section>
+   <section>
+      <h4>Conference Sessions</h4>
+      <p>I managed to squeeze in 3 conference sessions on the first day...</p>
+   </section>
+   <footer>
+      <p>Written by guest author Nicholas Abc. Read Nicholas's blog here.</p>
+   </footer>
 </article>
 </body>
 </html>
@@ -4635,74 +4627,74 @@ this [CodePen](https://codepen.io/w3devcampus/pen/Wjzjpx):
 <!DOCTYPE html>
 <!--HTML5 doctype-->
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Semantic Elements complete example</title>
-</head>
+   <head>
+      <meta charset="UTF-8">
+      <title>Semantic Elements complete example</title>
+   </head>
 <body>
 <!--Our global header-->
-<header>
-<h1>HTML5</h1>
-<h2>Table of Contents</h2>
+   <header>
+      <h1>HTML5</h1>
+      <h2>Table of Contents</h2>
 <!-- Navigation can be on its own or within the header element-->
-<nav>
-<ol>
-<li><a href="#intro">Introduction</a></li>
-<li><a href="#history">History</a></li>
-<li><a href="#features">Features</a></li>
-<li><a href="#logo">Logo</a></li>
-<li><a href="#ref">References</a></li>
-</ol>
-</nav>
-</header>
+      <nav>
+         <ol>
+            <li><a href="#intro">Introduction</a></li>
+            <li><a href="#history">History</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#logo">Logo</a></li>
+            <li><a href="#ref">References</a></li>
+          </ol>
+      </nav>
+   </header>
 <!--The main content of our page starts here-->
-<main>
+   <main>
 <!-- Our introduction is within an article element because this content
 can make sense on its own-->
-<article>
-<header id="intro">
-<h2>Introduction</h2>
-</header>
-<p>HTML5 stands for HyperText Markup Language. It is used to create
-content on the world wide web like webpages. HTML5 is the fifth revision
-of the language's standard. It was published in October 2014, 17 years
-after HTML4 was standardized.</p>
-<p>HTML5 aims to provide improved support for latest multimedia. It
-also reduced dependency on plugins and APIs providing a common interface
-making loading elements easier...</p>
+      <article>
+      <header id="intro">
+         <h2>Introduction</h2>
+      </header>
+      <p>HTML5 stands for HyperText Markup Language. It is used to create
+         content on the world wide web like webpages. HTML5 is the fifth revision
+         of the language's standard. It was published in October 2014, 17 years
+         after HTML4 was standardized.</p>
+         <p>HTML5 aims to provide improved support for latest multimedia. It
+         also reduced dependency on plugins and APIs providing a common interface
+         making loading elements easier...</p>
 <!-- This is an example of aside. The mark element has also been
 showcased in the paragraph. -->
-<aside>
-<h4>API</h4>
-<p>API stands for Application Programming Interface. It is a set of
-routines, protocols, and tools for building software and applications.
-<mark>This content uses the aside element.</mark> This is only for
-semantic meaning and so doesn't carry any instructions for presentation.
-It will appear like a normal paragraph in your document. If you wish to
-include this in a sidebar, you will have to provide the appropriate
-markup and styling for it.</p>
-</aside>
-</article>
+      <aside>
+         <h4>API</h4>
+            <p>API stands for Application Programming Interface. It is a set of
+               routines, protocols, and tools for building software and applications.
+               <mark>This content uses the aside element.</mark> This is only for
+               semantic meaning and so doesn't carry any instructions for presentation.
+               It will appear like a normal paragraph in your document. If you wish to
+               include this in a sidebar, you will have to provide the appropriate
+               markup and styling for it.</p>
+       </aside>
+   </article>
 <!-- Our history section-->
-<section>
-<header id="history">
-<h2>History</h2>
-</header>
-<p>HTML5 is based on a position paper presented by Mozilla Foundation
-and Opera Software at the W3C workshop in 2004. The Web Hypertext
-Application Technology Working Group (WHATWG) was formed to start work
-on this...</p>
-</section>
+   <section>
+      <header id="history">
+         <h2>History</h2>
+      </header>
+      <p>HTML5 is based on a position paper presented by Mozilla Foundation
+         and Opera Software at the W3C workshop in 2004. The Web Hypertext
+         Application Technology Working Group (WHATWG) was formed to start work
+         on this...</p>
+   </section>
 <!-- Our features section with smaller headings-->
-<section>
-<header id="features">
-<h2>Features</h2>
-<h4>Keeping up with times</h4>
-</header>
-<p>HTML5 introduced elements and attributes that fits the typical
-usage in modern websites. It introduced new semantic elements to replace
-generic blocks like div and span. Purely presentation elements such as
-font and center have also been completely dropped...</p>
+   <section>
+      <header id="features">
+         <h2>Features</h2>
+         <h4>Keeping up with times</h4>
+       </header>
+       <p>HTML5 introduced elements and attributes that fits the typical
+          usage in modern websites. It introduced new semantic elements to replace
+          generic blocks like div and span. Purely presentation elements such as
+          font and center have also been completely dropped...</p>
 ```
 
 <h4>New APIs</h4>
@@ -4720,59 +4712,53 @@ Older browsers ignore new HTML5 constructs... </p>
 
 ```
 </section>
-<!-- Our logo section show hows to use the semantic elements figure and
-figcaption-->
+<!-- Our logo section show hows to use the semantic elements figure and figcaption-->
 <section>
-<header id="logo">
-<h2>Logo</h2>
-</header>
-<figure>
-<img
-src="http://courses.edx.org/asset-v1:W3Cx+HTML5.0x+1T2017+type@asset+block@html5_logo.png"
-alt="HTML5 Logo">
-<figcaption>Fig1. - The HTML5 logo made official in April
-2011</figcaption>
-</figure>
+   <header id="logo">
+      <h2>Logo</h2>
+   </header>
+   <figure>
+      <img
+      src="http://courses.edx.org/asset-v1:W3Cx+HTML5.0x+1T2017+type@asset+block@html5_logo.png"
+         alt="HTML5 Logo">
+      <figcaption>Fig1. - The HTML5 logo made official in April
+         2011</figcaption>
+    </figure>
 </section>
 <!--Our references section concludes the main content of this page-->
 <section>
-<header id="ref">
-<h2>References</h2>
-</header>
-<p>Contents of this sample have been adapted from the <a
-href="https://en.wikipedia.org/wiki/HTML5" target="_blank">HTML5 page
-on Wikipedia</a>
-</p>
+   <header id="ref">
+      <h2>References</h2>
+   </header>
+   <p>Contents of this sample have been adapted from the <a
+      href="https://en.wikipedia.org/wiki/HTML5" target="_blank">HTML5 page on Wikipedia</a>
+   </p>
 </section>
 </main>
 <!--Our global footer where you would typically specify copyright,
-author, contact info and a footer navigation bar-->
+   author, contact info and a footer navigation bar-->
 <footer>
-<p>Copyrights information...</p>
+   <p>Copyrights information...</p>
 <!-- We show our authors and contact details using the details and
 summary elements. Expand to show content. -->
-<details>
-<summary>Authors</summary>
-<p>Author1</p>
-<p>Author2</p>
-</details>
-<details>
-<summary>Contact</summary>
+   <details>
+      <summary>Authors</summary>
+      <p>Author1</p>
+      <p>Author2</p>
+   </details>
+   <details>
+      <summary>Contact</summary>
 <!-- Using nav within summary element-->
-<nav>
+      <nav>
 <!-- Styling has been added to make nav menu in a horizontal row-->
-<ul style="margin: 0; padding: 0; list-style-type: none;">
-<li style="display: inline;"><a href="#" style="text-decoration:
-none; padding: .2em 1em;">email</a></li>
-<li style="display: inline;"><a href="#" style="text-decoration:
-none; padding: .2em 1em;">twitter</a></li>
-<li style="display: inline;"><a href="#" style="text-decoration:
-none; padding: .2em 1em;">facebook</a></li>
-<li style="display: inline;"><a href="#" style="text-decoration:
-none; padding: .2em 1em;">GitHub</a></li>
-</ul>
-</nav>
-</details>
+         <ul style="margin: 0; padding: 0; list-style-type: none;">
+            <li style="display: inline;"><a href="#" style="text-decoration:none; padding: .2em 1em;">email</a></li>
+            <li style="display: inline;"><a href="#" style="text-decoration:none; padding: .2em 1em;">twitter</a></li>
+            <li style="display: inline;"><a href="#" style="text-decoration:none; padding: .2em 1em;">facebook</a></li>
+            <li style="display: inline;"><a href="#" style="text-decoration:none; padding: .2em 1em;">GitHub</a></li>
+         </ul>
+      </nav>
+   </details>
 </footer>
 </body>
 </html>
@@ -4807,26 +4793,26 @@ its place.
 We will see an example of &lt;div&gt; here:
 
 ```
-1.  <section>
-2.    <h2>Week 1</h2>
-3.    <p>This week, you will be learning about...week 1 stuff</p>
-4.    <div class="code">
-5.      <ol>
-6.        <li>Line of code</li>
-7.        <li>Line of code</li>
-8.      </ol>
-9.    </div>
-10. </section>
-11. <section>
-12.   <h2>Week 2</h2>
-13.   <p>This week, you will be learning about...week 2 stuff</p>
-14.   <div class="code">
-15.     <ol>
-16.       <li>Line of code</li>
-17.       <li>Line of code</li>
-18.     </ol>
-19.   </div>
-20. </section>
+<section>
+  <h2>Week 1</h2>
+  <p>This week, you will be learning about...week 1 stuff</p>
+  <div class="code">
+    <ol>
+      <li>Line of code</li>
+      <li>Line of code</li>
+    </ol>
+  </div>
+</section>
+<section>
+  <h2>Week 2</h2>
+  <p>This week, you will be learning about...week 2 stuff</p>
+  <div class="code">
+    <ol>
+      <li>Line of code</li>
+      <li>Line of code</li>
+    </ol>
+  </div>
+</section>
 ```
 
 If you want to style all code snippets in your HTML document a certain
@@ -4845,13 +4831,17 @@ page](https://en.wikipedia.org/wiki/Span_and_div) dedicated to it.
 What happens when you do not find an appropriate tag to use? Let's look
 at this example:
 
-1.  <p>Hi everyone! My name is Alexa and I work for ABC Company</p>
+```
+<p>Hi everyone! My name is Alexa and I work for ABC Company</p>
+```
 
 I want to change the color of only 'ABC Company'? Should I use a
 paragraph tag? Let's try that..
 
-1.  <p>Hi everyone! My name is Alexa and I work
-    for <p class="company">ABC Company</p></p>
+```
+<p>Hi everyone! My name is Alexa and I work
+   for <p class="company">ABC Company</p></p>
+```
 
 If you then design your style such that the 'company' class will make
 text blue, the output will look like this:
@@ -4863,8 +4853,10 @@ Hi everyone! My name is Alexa and I work for
 That does not work because <p> creates a new line. The HTML above is
 also invalid. We will see why shortly. Now, let's try using &lt;span&gt;:
 
-1.  <p>Hi everyone! My name is Alexa and I work
-    for <span class="company">ABC Company</span></p>
+```
+<p>Hi everyone! My name is Alexa and I work
+   for <span class="company">ABC Company</span></p>
+```
 
 Hi everyone! My name is Alexa and I work for ABC Company
 
@@ -4934,7 +4926,7 @@ Please find below suggested activities to help you practice:
 
 <h3 id="ch2-4-1">2.4.1 Introduction</h3>
 
-The <img> tag
+<h4>The &lt;img&gt; tag
 
 In this age of visual culture, what is a Web page without images?
 Boring! Pictures and images make everything more interesting and
@@ -4942,12 +4934,14 @@ engaging. 
 
 Here is the most basic <img> tag:
 
-1.  <img src="example.png" alt="Example Tutorial Image">
+```
+<img src="example.png" alt="Example Tutorial Image">
+```
 
 The image tag has several attributes out of which only src and alt are
 required. The rest are useful but optional attributes. 
 
-<h4>*Image*: 'src' attribute</h4>
+<h4><i>Image</i>: 'src' attribute</h4>
 
 The source attribute from the <img> tag tells us where to fetch the
 image from. There are two different types of URLs you can give for
@@ -5002,7 +4996,7 @@ Here is a list of things to keep in mind when using the src attribute:
     maintain. It will work on localhost or if you switch domain names
     without requiring any changes.
 
-*Image: Formats*
+<i>Image: Formats</i>
 
 Before you begin using images in your Web site, you are advised to visit
 this [Web
@@ -5056,11 +5050,10 @@ information to be aware of.
 
 <h3 id="ch2-4-2">2.4.2 Attribute alt</h3>
 
-<h4>alt stands for <i>alternate text</i> for an image.
+<h4>alt stands for <i>alternate text</i> for an image.</h4>
 
 ```
-1.  <img src="image/example.png" alt="Add a short text description of
-    the image here">
+<img src="image/example.png" alt="Add a short text description of the image here">
 ```
 
 Using this attribute, you can provide a short description of what the
@@ -5100,11 +5093,11 @@ ignore this content.
 
 You can use images for various reasons in your Web page like:
 <ul>
-<li>represent a concept, illustration or just a photograph that provide
-information</li>
-<li>background for a button or link</li>
-<li>display a quote or message in the form of text in an image</li>
-<li>decorative images</li>
+   <li>represent a concept, illustration or just a photograph that provide
+      information</li>
+   <li>background for a button or link</li>
+   <li>display a quote or message in the form of text in an image</li>
+   <li>decorative images</li>
 </ul>
 
 Depending on the category the image fits into, the alt text differs.
@@ -5154,8 +5147,8 @@ have a complicated image that could use a tooltip or description, you
 will want to use the title attribute.
 
 ```
-1.  <img src="images/tulips.png" alt="This is supposed to be an image
-    of tulips" title="Tulips from woodburn tulip festival">
+<img src="images/tulips.png" alt="This is supposed to be an image
+   of tulips" title="Tulips from woodburn tulip festival">
 ```
 
 The alt attribute is meant to be an alternate source of information
@@ -5194,8 +5187,8 @@ pixels.
 Now, if I want to resize the HTML logo above by half:
 
 ```
-1.  <img src="images/html5.png" alt="HTML resized image" title="Resized
-    image seems to fit the page better" height="173" width="262">
+<img src="images/html5.png" alt="HTML resized image" title="Resized
+   image seems to fit the page better" height="173" width="262">
 ```
 
 <!------------------------------------------------------------------------------------------------>
@@ -5212,8 +5205,8 @@ specify either height or width and the aspect ratio will be adjusted.
 For example, the image above can be achieved using the following too:
 
 ```
-1.  <img src="images/html5.png" alt="HTML resized image" title="Resized
-    image seems to fit the page better" height="173">
+<img src="images/html5.png" alt="HTML resized image" title="Resized
+   image seems to fit the page better" height="173">
 ```
 
 The use of these attributes really depends on how you are using the
@@ -5249,11 +5242,11 @@ the <img> tag in HTML. Use CSS instead. 
 
 <h4>Examples of such images:</h4>
 <ul>
-<li>background images</li>
-<li>fancy border graphics</li>
-<li>banner graphics</li>
-<li>pictures of landscapes or textures that are being used as elements
-    behind or surrounding the content</li>
+   <li>background images</li>
+   <li>fancy border graphics</li>
+   <li>banner graphics</li>
+   <li>pictures of landscapes or textures that are being used as elements
+      behind or surrounding the content</li>
 </ul>
 
 Some pages (especially for video games, fancy magazines, etc) have a lot
@@ -5547,18 +5540,18 @@ already (make sure to navigate back to the course).
 A hyperlink is any text or image that takes you to another place. This
 can be:
 <ul>
-<li>another Web page: e.g. the hyperlinks wiki page
-    at https://en.wikipedia.org/wiki/Hyperlink</li>
-<li>a bookmark (a specific part of a Web page): e.g. the History section
-    of the Hyperlinks wiki page
-    at https://en.wikipedia.org/wiki/Hyperlink#History.
-We learned about using the id attribute as a link target in the unit
-    about attributes earlier. If you have a section in your page, you
-    can link to that section using the value of its id attribute (e.g.
-    History) preceded by the number sign as per *#History*</li>
-<li>a local link (link to another part of the same Web page):
-    e.g. a_tag.asp is a page that belongs to this Web site.</li>
-<li>an email: e.g. mailto:helloauthor@w3c.com</li>
+   <li>another Web page: e.g. the hyperlinks wiki page
+      at https://en.wikipedia.org/wiki/Hyperlink</li>
+   <li>a bookmark (a specific part of a Web page): e.g. the History section
+      of the Hyperlinks wiki page
+      at https://en.wikipedia.org/wiki/Hyperlink#History.
+      We learned about using the id attribute as a link target in the unit
+      about attributes earlier. If you have a section in your page, you
+      can link to that section using the value of its id attribute (e.g.
+      History) preceded by the number sign as per *#History*</li>
+   <li>a local link (link to another part of the same Web page):
+      e.g. a_tag.asp is a page that belongs to this Web site.</li>
+   <li>an email: e.g. mailto:helloauthor@w3c.com</li>
 </ul>
 
 <h4>Why you should prefer text links over images</h4>
@@ -5566,13 +5559,13 @@ We learned about using the id attribute as a link target in the unit
 When it comes to hyperlinks, try to use text instead of images when
 possible.
 <ul>
-<li>images are not as well understood or recognized as text.</li>
-<li>Text is better for accessibility.</li>
-<li>If you have text in an image like the 'Buy now' button, search
-    engines do not recognize text in images. The text alternative for
-    the image should convey the action that will be initiated (the
-    purpose of the image, e.g, "buy now"), rather than a description of
-    the image ("button").</li>
+   <li>images are not as well understood or recognized as text.</li>
+   <li>Text is better for accessibility.</li>
+   <li>If you have text in an image like the 'Buy now' button, search
+      engines do not recognize text in images. The text alternative for
+      the image should convey the action that will be initiated (the
+      purpose of the image, e.g, "buy now"), rather than a description of
+      the image ("button").</li>
 </ul>
 
 <h4>Best practices</h4>
@@ -5595,20 +5588,22 @@ possible.
     used - describe the target link.</li>
 </ul>
 
-1.  <a href="https://www.table-header-cells.com">
-
-2.    <img src="table-th.png" alt="Introduction to table header cells
-    and their usage">
-
-3.  </a>
+```
+<a href="https://www.table-header-cells.com">
+<img src="table-th.png" alt="Introduction to table header cells
+   and their usage">
+</a>
+```
 
 <h4>Anchor element</h4>
 
 The hyperlink tag in html is simply <b>&lt;a&gt;, </b>and it is called
 the<b> anchor element</b>. Here is how it is used:
 
-1.  <a href="https://en.wikipedia.org/wiki/Hyperlink" target="_blank">Click
-    here</a> to go to the Wikipedia Hyperlink page.
+```
+<a href="https://en.wikipedia.org/wiki/Hyperlink" target="_blank">Click
+   here</a> to go to the Wikipedia Hyperlink page.
+```
 
 Result: <a href="https://en.wikipedia.org/wiki/Hyperlink" target="_blank">Click here</a> to go to
 the Wikipedia Hyperlink page.
@@ -5638,23 +5633,23 @@ underlined.
 The <a> tag can surround text or an image. 
 
 ```
-1.  <!-- Text in a hyperlink-->
-2.  <a href="https://www.qwant.com/">If you click on me, I will take
-    you to qwant.com</a>
-3.  <!-- Paragraph in a hyperlink-->
-4.  <a href="https://www.qwant.com/"><p>If you click on me, I will
-    take you to qwant.com</p></a>
-5.  <!-- Image in a hyperlink-->
-6.  <a href="https://www.qwant.com/"><img src="images/qwant-image.png" alt="Image
-    navigating to Qwant"></a>
+<!-- Text in a hyperlink-->
+<a href="https://www.qwant.com/">If you click on me, I will take
+  you to qwant.com</a>
+<!-- Paragraph in a hyperlink-->
+<a href="https://www.qwant.com/"><p>If you click on me, I will
+   take you to qwant.com</p></a>
+<!-- Image in a hyperlink-->
+<a href="https://www.qwant.com/"><img src="images/qwant-image.png" alt="Image
+   navigating to Qwant"></a>
 ```
 
 You can even use the anchor element to add your email address under the
 contacts section of your Web page. 
 
 ```
-1.  <p>Feedback: <a href="mailto:authors@example.com">Send Mail to
-    Authors</a></p>
+<p>Feedback: <a href="mailto:authors@example.com">Send Mail to
+   Authors</a></p>
 ```
 
 Result (try the hyperlink below):
@@ -5664,8 +5659,8 @@ Feedback: [Send Mail to Authors](mailto:authors@example.com)
 You can add a subject to the email. 
 
 ```
-1.  <p>Feedback: <a href="mailto:authors@example.com?Subject=Hello">Send
-    Mail to Authors with Subject</a></p>
+<p>Feedback: <a href="mailto:authors@example.com?Subject=Hello">Send
+   Mail to Authors with Subject</a></p>
 ```
 
 Result (try the hyperlink below)
@@ -5700,25 +5695,33 @@ The href attribute takes a URL. This URL can be in the form of:
 -   a link to an external Web site also known as [absolute
     URL](https://www.differencebetween.com/difference-between-an-absolute-and-vs-a-relative-url/).
 
-1.  <a href="https://qwant.com"></a>
+```
+<a href="https://qwant.com"></a>
+```
 
 -   a link to a file or page within the same Web site also known
     as [relative
     URL](https://www.differencebetween.com/difference-between-an-absolute-and-vs-a-relative-url/). 
 
-1.  <a href="contacts.html"></a>
+```
+<a href="contacts.html"></a>
+```
 
 -   a link to an element on the same page. The element, is referenced
     using its ID. E.g. If you want to link to a div with id='details',
     the corresponding anchor tag will be:
 
-1.  <a href="#details"></a>
+```
+<a href="#details"></a>
+```
 
 -   protocols such as:
 
 - mailto: | for email addresses. 
 
-1.  <a href="mailto:abc@alphabets.com"></a>
+```
+<a href="mailto:abc@alphabets.com"></a>
+```
 
 <h4>The 'target' attribute</h4>
 
@@ -5793,8 +5796,10 @@ same. You want this print version to be formatted into one page ideal
 for printing and with resolution of 250 dpi. Here is how the HTML5 code
 will look like:
 
-1.  <a href="https://en.wikipedia.org/wiki/Media_queries?output=print" media="print
-    and (resolution:250dpi)">Print wiki page about media queries</a>
+```
+<a href="https://en.wikipedia.org/wiki/Media_queries?output=print" media="print
+   and (resolution:250dpi)">Print wiki page about media queries</a>
+```
 
 <h4>The 'download' attribute</h4>
 
@@ -5804,8 +5809,8 @@ as value but the value is optional. So the download attribute can be
 specified in the following ways:
 
 ```xml
-1.  <a href="assets/hello.txt" download>
-2.  <a href="assets/hello.txt" download="new-name-for-text-file">
+<a href="assets/hello.txt" download>
+<a href="assets/hello.txt" download="new-name-for-text-file">
 ```
 
 If you do not specify a value for download, it will download the file
@@ -5835,13 +5840,16 @@ different browsers to see how it behaves.
 <h3 id="ch2-5-4">2.5.4 Use of Hyperlink Attributes</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- 46.  hyperlink (xxx) ------------------------>
+<!------------------------------- 46. hyperlink attributes (122) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image046.png?raw=true"
-   style="width:6.5in;height:3.55208in"
+   width="65%"
    alt="hyperlink" />
 </p>
+<!-------
+style="width:6.5in;height:3.55208in"
+------->
 
 In this live coding demo, we're going to dive deep into hyperlinks.
 
@@ -5905,15 +5913,13 @@ You may have noticed that when I clicked on this Page 2 hyperlink, Page
 And that sometimes is not what you want.
 
 Maybe sometimes you want to open up a new tab in your browser, and
-that's all
+that's all controlled with this target attribute.
 
-controlled with this target attribute.
-
-So, allow me to demonstrate.
+Allow me to demonstrate.
 
 In this next demo, I say, "Open page 2 in a new window."
 
-So here I'm going to make a hyperlink for this new window and when I
+Here I'm going to make a hyperlink for this new window and when I
 click, it will open Page 2 but it won't replace this tab with that page.
 
 I'm going to open a new tab.
@@ -5954,7 +5960,7 @@ It's practically the same as the last two only instead of a local
 reference to a page like this "page2.html", we're actually going to
 enter a location of a page or a site.
 
-So here and this "Remember to Always Be Learning", I'm going to
+Here and this "Remember to Always Be Learning", I'm going to
 hyperlink "Always Be learning" and take us somewhere we can maybe take a
 course.
 
@@ -6031,9 +6037,7 @@ Consider this example, where I have something, a lot of text or content
 and I want to get down here.
 
 I want to give the user the ability to jump past some information maybe
-or
-
-referring them to something else on the page.
+or referring them to something else on the page.
 
 That's a local jump on the page.
 
@@ -6082,9 +6086,17 @@ We are now going to continue building on the recipe project we started
 in Module 1.  You can find our version in the CodePen below (and the
 live coding video at the end of this page).
 
-<img src="./images/image047.png"
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------- 47. recipe project, part ii (126) -------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image047.png?raw=true"
+   width="65%"
+   alt="Recipe project, part ii." />
+</p>
+<!--------
 style="width:6.5in;height:3.27778in" />
-
+------->
 <h4>HTML</h4>
 
 ```
@@ -6331,7 +6343,7 @@ purpose of this set of links.
 And if I'm a screen reader, I, too, might don't know what this group of
 links is for so this is where the 'nav' semantic element comes in.
 
-So, by surrounding this list of links with the 'nav' semantic tag, we're
+By surrounding this list of links with the 'nav' semantic tag, we're
 sharing more information about the intent or the meaning of the set of
 links.
 
@@ -6351,10 +6363,16 @@ And that concludes this live coding session. Bon appétit !
 <h3 id="ch3-1">3.1.1 Welcome to Module 3</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 48.  (xxx) ---------------------------------->
+<!------------------------------ 48. w3dx html5 and css3 logo (132) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
 <img src="./images/image048.png"
+   width="40%"
+   alt="" />
+</p>
+<!-------
 style="width:4in;height:2.27184in" />
+------->
 
 Hi, my name's Adrian.
 
@@ -6388,16 +6406,16 @@ you learn, experimentation.
 
 <h3 id="ch3-1-2">3.1.2 Module 3 Content</h3>
 
-1.  **Introduction to Module 3: **Get an overview of what CSS (Cascading
+1.  <b>Introduction to Module 3:</b> Get an overview of what CSS (Cascading
     Style Sheets) can do for your Web pages.
 
-2.  **CSS basic syntax: **Understanding the language of CSS: style tags,
+2.  <b>CSS basic syntax:</b> Understanding the language of CSS: style tags,
     links tags, rules, and comments.
 
-3.  **CSS properties: **Here, you will be introduced to just a few of
+3.  <b>CSS properties:</b> Here, you will be introduced to just a few of
     the many properties that make CSS such a powerful tool.
 
-4.  **Lists and selectors: **List markup tags
+4.  <b>Lists and selectors:</b> List markup tags
     (<ul>, &lt;ol> and &lt;li>) are some of the most frequently used
     specific purpose tags in HTML, and selectors are what allows you to
     target specific HTML elements and apply style to them
@@ -6407,7 +6425,7 @@ you learn, experimentation.
 <h4>CSS stands for 'Cascading Style Sheets'</h4>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 50.  (###) ---------------------------------->
+<!-------------------------------- 50. css logo (133) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <img src="./images/image050.png"
 style="width:2in;height:1.09388in" />
@@ -14788,4 +14806,4 @@ These are the final changes to our recipe project for this unit.
 
 <h4>The end...</h4>
 
-<h3><b>Last Updated 09-23-2022 11:34am</b></h3>
+<h3><b>Last Updated 09-23-2022 9:27pm</b></h3>
