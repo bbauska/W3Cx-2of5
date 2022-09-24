@@ -4886,14 +4886,14 @@ element. 
 <b>Block level elements</b> - used within body of the page. These occupy a
 block of space and start in a new line. They usually have empty lines
 above and below the block. They can contain inline elements and other
-block level elements. Other examples: <p>, &lt;h1&gt; - &lt;h6&gt;.
+block level elements. Other examples: &lt;p&gt;, &lt;h1&gt; - &lt;h6&gt;.
 
 <b>Inline elements </b>- as the name suggests are 'in-the-line'. They can
 start anywhere in a line. They can only contain data (like text) or
 other in-line elements. Other examples: &lt;em&gt;, <strong>.
 
 <b>Note: </b>There are several other semantic inline elements such
-as <abbr>, <cite> and <code> that should be used in preference
+as &lt;abbr&gt;, &lt;cite&gt; and &lt;code&gt; that should be used in preference
 to &lt;span&gt; where possible.
 
 <h4>Why two paragraph tags don't work</h4>
@@ -4904,12 +4904,12 @@ elements was invalid HTML.
 <p>Hi everyone! My name is Alexa and I work
 for <p class="company">ABC Company</p></p>
 
-After reading an opening tag <p>, if the browser sees another <p> or
+After reading an opening tag &lt;p&gt;, if the browser sees another &lt;p&gt; or
 any other block level element including &lt;div&gt;, it will automatically
-close the first open <p> for you. Nesting one paragraph tag in another
+close the first open &lt;p&gt; for you. Nesting one paragraph tag in another
 is not valid because the browser will consider them as two
 paragraphs one after the other. Even though you close the paragraphs
-with two closing tags </p></p> at the end, they are ignored.
+with two closing tags &lt;/p&gt;&lt;/p&gt; at the end, they are ignored.
 
 <h3 id="ch2-3-7">2.3.7 Activities – Semantic Meaning</h3>
 
@@ -4932,7 +4932,7 @@ In this age of visual culture, what is a Web page without images?
 Boring! Pictures and images make everything more interesting and
 engaging. 
 
-Here is the most basic <img> tag:
+<h4>Here is the most basic &lt;img&gt; tag:</h4>
 
 ```
 <img src="example.png" alt="Example Tutorial Image">
@@ -4943,7 +4943,7 @@ required. The rest are useful but optional attributes. 
 
 <h4><i>Image</i>: 'src' attribute</h4>
 
-The source attribute from the <img> tag tells us where to fetch the
+The source attribute from the &lt;img&gt; tag tells us where to fetch the
 image from. There are two different types of URLs you can give for
 source. 
 
@@ -5086,7 +5086,7 @@ alt also contributes to semantic meaning - it offers meaning to the
 image and suggests the purpose of the image content.
 
 If the image is purely for presentation or decoration purposes, you
-should leave alt empty - <img alt="">. Assistive technology will then
+should leave alt empty - &lt;img alt=""&gt;. Assistive technology will then
 ignore this content.
 
 <h4>Purpose of the image</h4>
@@ -5142,7 +5142,7 @@ your cursor on it. 
 
 Did you see the hidden message 'Tulips from woodburn tulip
 festival'? title is a global attribute we have seen before but worth
-mentioning again because it is very useful in an <img> tag. If you
+mentioning again because it is very useful in an &lt;img&gt; tag. If you
 have a complicated image that could use a tooltip or description, you
 will want to use the title attribute.
 
@@ -5238,7 +5238,7 @@ HTML.
 
 We know we should keep content and style separate in HTML. Then how do
 we move these images out of content? Well, don't add them using
-the <img> tag in HTML. Use CSS instead. 
+the &lt;img&gt; tag in HTML. Use CSS instead. 
 
 <h4>Examples of such images:</h4>
 <ul>
@@ -5258,21 +5258,28 @@ Can you identify these types of decorative images?
 Find out from their tooltips!
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 42,43,44.  (110) ---------------------------------->
+<!----------------------- 42,43,44. mountains, brick wall & banner (110) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image042.jpeg"
-   style="width:2in;height:2in"
+   width="20%"
    alt="Beautiful landscape background image" />
-
+<!-------
+style="width:2in;height:2in"
+-------->
 <img src="./images/image043.jpeg"
-   style="width:2in;height:2in"
+   width="20%"
    alt="Brick texture for use behind main content" />
-
-<img src="./images/image044.jpeg"
+<!-------
    style="width:2in;height:2in"
+-------->
+<img src="./images/image044.jpeg"
+   width="20%"
    alt="Decorative banner graphic" />
 </p>
+<!-------
+style="width:2in;height:2in"
+-------->
 
 <h3 id="ch2-4-5">2.4.5 Using &lt;img&gt; Tags</h3>
 
@@ -5526,13 +5533,16 @@ In a typical Web page, you may well have seen a sentence like this one:
 
 Or something like this:
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- 45. buy now button to illustrate hyperlink (xxx) ------------------------>
+<!---------------------- 45. buy now button to illustrate hyperlink (116) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <a href="https://en.wikipedia.org/wiki/Hyperlink" target="_blank">
    <img alt="Buy now button to illustrate hyperlink." 
    src="./images/image045.png?raw=true"
+   width="50%" />
+<!-------
    width=150" height="70">
+-------->
 </a>
 Try clicking the blue text or the 'Buy Now!' button, if you haven't
 already (make sure to navigate back to the course).
@@ -5608,10 +5618,10 @@ the<b> anchor element</b>. Here is how it is used:
 Result: <a href="https://en.wikipedia.org/wiki/Hyperlink" target="_blank">Click here</a> to go to
 the Wikipedia Hyperlink page.
 
-Note: The anchor element should not be confused with the <link> tag.
-The <link> tag is used to define a link between a document and an
+Note: The anchor element should not be confused with the &lt;link&gt; tag.
+The &lt;link&gt; tag is used to define a link between a document and an
 external resource like an external style sheet. You will learn more
-about the <link> tag in the next chapter.
+about the &lt;link&gt; tag in the next chapter.
 
 <h4>States of a hyperlink</h4>
 
@@ -5630,7 +5640,7 @@ underlined.
 
 <h4>Usage</h4>
 
-The <a> tag can surround text or an image. 
+The &lt;a&gt; tag can surround text or an image. 
 
 ```
 <!-- Text in a hyperlink-->
@@ -5687,7 +5697,7 @@ addresses:
 The only attribute we have seen thus far in this chapter of hyperlinks
 is href.   
 href points to the URL that the link should jump to. Though it is an
-optional attribute, without it, the <a> tag will not be a hyperlink
+optional attribute, without it, the &lt;a&gt; tag will not be a hyperlink
 because it obviously has no idea where to jump to.
 
 The href attribute takes a URL. This URL can be in the form of:
@@ -6363,7 +6373,7 @@ And that concludes this live coding session. Bon appétit !
 <h3 id="ch3-1">3.1.1 Welcome to Module 3</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 48. w3dx html5 and css3 logo (132) ------------------------------>
+<!------------------------------ 48. w3cx html5 and css3 logo (132) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image048.png"
@@ -6384,7 +6394,7 @@ In this module, we will introduce a new language, CSS.
 CSS, or Cascading Style Sheets, is used to style each HTML.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 49.  (xxx) ---------------------------------->
+<!------------------------------ 49. adding styles with css (132) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <img src="./images/image049.png"
 style="width:2.125in;height:2.27083in" />
@@ -6416,7 +6426,7 @@ you learn, experimentation.
     the many properties that make CSS such a powerful tool.
 
 4.  <b>Lists and selectors:</b> List markup tags
-    (<ul>, &lt;ol> and &lt;li>) are some of the most frequently used
+    (&lt;ul&gt;, &lt;ol&gt; and &lt;li&gt;) are some of the most frequently used
     specific purpose tags in HTML, and selectors are what allows you to
     target specific HTML elements and apply style to them
 
@@ -6425,10 +6435,14 @@ you learn, experimentation.
 <h4>CSS stands for 'Cascading Style Sheets'</h4>
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 50. css logo (133) ---------------------------------->
+<!------------------------------------- 50. css logo (133) --------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <img src="./images/image050.png"
+   alt="CSS Logo."
+   width="20%" />
+<!-------
 style="width:2in;height:1.09388in" />
+------->
 
 For now, do not worry about what the 'Cascading' part means and just
 focus on the 'Style Sheets'.
@@ -6442,7 +6456,8 @@ the work the designer does: deciding how things look.
 
 In the early days, there was no CSS, so any control over what the page
 looked like was done with tags that controlled the form of the Web page.
-Tags like <font> to choose a font, <b> for bold, <i> for italic
+
+Tags like &lt;font&gt; to choose a font, &lt;b&gt; for bold, &lt;i&gt; for italic
 were added to have some control, and that let your page be at the mercy
 of whatever browser the reader was using. There are several problems
 with this approach. First, it violates our paradigm of HTML containing
@@ -6464,10 +6479,21 @@ a [working group](https://en.wikipedia.org/wiki/Working_group) created
 by the W3C in 1997 to tackle issues that had not been addressed
 with [CSS](https://en.wikipedia.org/wiki/CSS) level 1.
 
-<img src="./images/image051.jpeg"
-style="width:6.5in;height:3.31528in" alt="CSS groupe TPAC" />The CSS WG
-meeting in Lisbon, November 2016. The working group is co-chaired by
-Rossen Atanassov and Alan Stearns. (*Photo credit: Marie-Claire Forgue*)
+<img src="./images/image051.
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 51. the css gang photo (134) ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image051.jpeg?raw=true"
+   width="65%"
+   alt="Gang photo of the css folks (TPAC)." />
+</p>
+<!-------
+style="width:6.5in;height:3.31528in"
+-------->
+
+The CSS WG meeting in Lisbon, November 2016. The working group is co-chaired by
+Rossen Atanassov and Alan Stearns. (Photo credit: Marie-Claire Forgue*)
 
 The CSS WG members are working on a [whole range of
 specifications](https://www.w3.org/Style/CSS/current-work), but their
@@ -6503,10 +6529,18 @@ different. So let's get started.
 
 <h4>The &lt;style&gt; tag</h4>
 
-<!----- *********************** image ***************** ------->
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 52. style and link tags & attributes (134) --------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image052.png?raw=true"
+   width="15%"
+   alt="Snapshot as a style tag in the XDR code editor." />
+</p>
+<!--------
 <img src="./images/image052.jpeg"
 style="width:1.5625in;height:1.5625in"
-alt="Snapshot os a style tag in the XDK code editor" />
+-------->
 
 The best practice when working with CSS is to keep it in an external
 file using the <link> tag, however, when starting, it is simpler to
@@ -6661,7 +6695,7 @@ You are welcome to edit the
 following <a href="https://codepen.io/w3devcampus/pen/QvQgbr" target="_blank">CodePen.</a>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 54.  (##) -------------------------------->
+<!------------------------------ 54.  (137) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image054.png?raw=true"
