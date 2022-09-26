@@ -2174,13 +2174,13 @@ entail a fine of € 400&lt;/p&gt;</p>
 ```
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Welcome</title>
-</head>
-<body>
-<p>This is © 2015. Breach will entail a fine of € 400</p>
-</body>
+   <head>
+      <meta charset="UTF-8">
+      <title>Welcome</title>
+   </head>
+   <body>
+      <p>This is © 2015. Breach will entail a fine of € 400</p>
+      </body>
 </html>
 ```
 
@@ -2257,7 +2257,7 @@ is wholly contained in another (&lt;em&gt; in &lt;p&gt;) or they are completel
 separate (&lt;h1&gt; and &lt;p&gt;). This, on the other hand, is not valid:
 
 ```xml
-  <h1>Part of this header is&lt;p&gt;in the</h2> paragraph below</p>
+<h1>Part of this header is <p>in the</h2> paragraph below</p>
 ```
 
 What happens in this case is what we call "undefined". That just means
@@ -2297,12 +2297,12 @@ Proper indentation is one way to make your code clearer and easier to
 understand:
 
 ```xml
-  <body>
-  <h1>Here is a heading</h1>
-  <p>
-  <ol><li>List Item 1</li></ol>
-  </p>
-  </body>
+<body>
+<h1>Here is a heading</h1>
+<p>
+<ol><li>List Item 1</li></ol>
+</p>
+</body>
 ```
 
 The code above doesn't give any sense of the structure of the document.
@@ -2310,14 +2310,14 @@ By using indentation effectively, you can make it more clear, showing
 the nesting of elements:
 
 ```xml
-  <body>
-    <h1>Here is a heading</h1>
-    <p>
-      <ol>
-        <li>List Item 1</li>
-      </ol>
-    </p>
-  </body>
+<body>
+  <h1>Here is a heading</h1>
+  <p>
+    <ol>
+      <li>List Item 1</li>
+    </ol>
+  </p>
+</body>
 ```
 
 Consistent quoting of strings is also helpful, in part to avoid
@@ -2373,15 +2373,15 @@ Thus, all three of the following elements should look exactly the same
 when you read them in the browser:
 
 ```xml
-  <H1> This is the Beginning </H1>
+<H1> This is the Beginning </H1>
 
-  <H1>
+<H1>
 
-     This is the Beginning
+   This is the Beginning
 
-  </H1>
+</H1>
 
-  <h1>This is the Beginning</h1>
+<h1>This is the Beginning</h1>
 ```
 
 It might seem confusing at first, but this rule about white space is
@@ -2401,9 +2401,9 @@ attributes yet, but when we do we will discover that they are case
 sensitive, thus these two elements will have different 'id's:
 
 ```xml
-   <p id=ThisOne>
+<p id=ThisOne>
    
-   <p id=thisone>
+<p id=thisone>
 ```
 
 Even though they're spelled the same, the differing cases indicate
@@ -2428,9 +2428,9 @@ strings (say a string without spaces), even if you do not use the
 quotation marks it will essentially insert them for you. Thus:
 
 ```xml
-   <p id=MyName>
-   <p id="MyName">
-   <p id='MyName'>
+<p id=MyName>
+<p id="MyName">
+<p id='MyName'>
 .... are all equivalent.  
 ```
 
@@ -3123,7 +3123,7 @@ attributes can also be applied to them.</p>
 
 <h4>More examples:</h4>
 <p>
-The image <img> and hyperlink <a> elements, which we will be
+The image &lt;img&gt; and hyperlink <a> elements, which we will be
 learning about shortly, have many non-global attributes of their own.</p>
 
 ```
@@ -5111,8 +5111,7 @@ missing from the 'images' directory) and how it will look in a Web
 browser:
 
 ```
-1.  <img src="image/tulips.png" alt="This is supposed to be an image of
-    tulips">
+<img src="image/tulips.png" alt="This is supposed to be an image of tulips">
 ```
 
 <!------------------------------------------------------------------------------------------------>
@@ -6551,21 +6550,18 @@ To place CSS directly into an HTML document, we use the <style> tag.
 common practice is to place it in the &lt;head&gt; section.  Such as:
 
 ```
-1.  <!DOCTYPE html>
-2.  <html lang="en">
-3.   
-4.    <head>
-5.      <meta charset="UTF-8">
-6.      <title>Style and link tags</title>
-7.      <style>
-8.        /* CSS will go in this area */
-9.      </style>
-10.   </head>
-11.  
-12.   <body>
-13. 
-14.   </body>
-15. </html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Style and link tags</title>
+    <style>
+      /* CSS will go in this area */
+    </style>
+  </head>
+  <body>
+  </body>
+</html>
 ```
 
 <h4>The &lt;link&gt; tag</h4>
@@ -6591,17 +6587,16 @@ directory named *css*.
 <h4>Here is an example HTML document.</h4>
 
 ```
-1.  <!DOCTYPE html>
-2.  <html lang="en">
-3.   
-4.    <head>
-5.      <meta charset="UTF-8">
-6.      <title>Style and link tags</title>
-7.      <link rel="stylesheet" href="css/my_styles.css">
-8.    </head>
-9.    <body>
-10.   </body>
-11. </html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Style and link tags</title>
+    <link rel="stylesheet" href="css/my_styles.css">
+  </head>
+  <body>
+  </body>
+</html>
 ```
 
 <h3 id="ch3-2-2">3.2.2 Rules: selectors and declarations</h3>
@@ -6648,11 +6643,11 @@ property.  If a CSS rule has several properties, then it should be
 written to use one line per property value pair. For example:
 
 ```
-1.  p {
-2.    font-size: 12px;
-3.    line-height: 15px;
-4.    color: #223344;
-5.  }
+p {
+  font-size: 12px;
+  line-height: 15px;
+  color: #223344;
+}
 ```
 
 <h3 id="ch2-2-3">3.2.3 Comments</h3>
@@ -6665,20 +6660,15 @@ Comments begin with / and <b>must</b> end with / and they can span
 several lines. But they <b>cannot</b> be nested.
 
 ```
-1.  p {
-2.     font-size: 8px; /* client insists small text makes them more
-    'professional'. */
-3.     /* I hope his idea of 'professional' includes paying on time.
-    */
-4.   
-5.     line-height: 24px; /* see above */
-6.   
-7.     /* none of the stuff below is working. I don't know why.
-8.   
-9.     margin-top: 5%;
-10.    margin-bottom:6%;
-11.    */
-12. }
+p {
+   font-size: 8px; /* client insists small text makes them more 'professional'. */
+   /* I hope his idea of 'professional' includes paying on time. */
+   line-height: 24px; /* see above */
+   /* none of the stuff below is working. I don't know why.
+   margin-top: 5%;
+   margin-bottom:6%;
+   */
+}
 ```
 
 <h3>3.2.4 Knowledge Check</h3>
@@ -6695,43 +6685,43 @@ You are welcome to edit the
 following <a href="https://codepen.io/w3devcampus/pen/QvQgbr" target="_blank">CodePen.</a>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 54.  (137) -------------------------------->
+<!---------------------- 54. the inventor of gunpower by john milton (137) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image054.png?raw=true"
    width="65%"
-   alt="." />
+   alt="On the inventor of gunpower, by john milton." />
 </p>
 
 ... or work from the lines of code below (to paste in your favorite Web
 editor):
 
 ```
-1.  <!DOCTYPE html>
-2.     <html lang="en">
-3.       <head>
-4.           <meta charset="UTF-8">
-5.           <title>On the Inventor of Gunpowder</title>
-6.  
-7.           <style>
-8.              /* CSS */
-9.        </style>
-10. 
-11.     </head>
-12.  
-13.    <body>
-14. 
-15.       <h1>On the Inventor of Gunpowder.</h1>
-16.  
-17.       <address rel="author">By John Milton</address>
-18.  
-19.       <p>Praise in old time the sage Prometheus won,<br>
-20. Who stole ethereal radiance from the sun;<br>
-21. But greater he, whose bold invention strove<br>
-22. To emulate the fiery bolts of Jove.</p>
-23.  
-24.    </body>
-25. </html>
+<!DOCTYPE html>
+   <html lang="en">
+     <head>
+         <meta charset="UTF-8">
+         <title>On the Inventor of Gunpowder</title>
+  
+         <style>
+            /* CSS */
+      </style>
+
+    </head>
+ 
+   <body>
+ 
+       <h1>On the Inventor of Gunpowder.</h1>
+ 
+      <address rel="author">By John Milton</address>
+ 
+      <p>Praise in old time the sage Prometheus won,<br>
+Who stole ethereal radiance from the sun;<br>
+But greater he, whose bold invention strove<br>
+To emulate the fiery bolts of Jove.</p>
+ 
+   </body>
+</html>
 ```
 
 You could also take another short text (such as a poem) and apply the
@@ -8730,12 +8720,13 @@ different .css files.
 Nevertheless, that can cause problems when you have different rules that
 could apply to the same element. Consider the following example:
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 69.  (###) -------------------------------------->
+<!-------------------------- 69. my book chapter 1 section 1.1 (###) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image069.png?raw=true"
    width="40%"
-   alt="" />
+   title="My Book, Chapter 1, Section 1.1."
+   alt="my book chapter 1 section 1.1." />
 </p>
 
 <h4>CSS</h4>
@@ -8866,7 +8857,7 @@ there.
 <p align="center" width="100%">
 <img src="./images/image071.png?raw=true"
    width="65%"
-   alt="Styles in the Debugger" />
+   alt="Styles in the Debugger." />
 </p>
 
 There is a sequence of the panels under "Style" that helps understand
@@ -8875,12 +8866,12 @@ have rules that apply specifically to the currently active element.  In
 fact, changes in this top panel are mirrored as settings in the style
 attribute of the element:
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 72.  (###) -------------------------------------->
+<!--------------------------- 72. modifying style in debugger (###) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image072.jpeg?raw=true"
    width="65%"
-   alt="Modifying style in the debugger" />
+   alt="Modifying style in the debugger." />
 </p>
 
 Under that there are more panels which show where CSS properties for
@@ -8901,12 +8892,12 @@ Back to our quandary, why does "article h1" take precedence over
 "section h1"?  Let's take a look at the first version we tried, before
 rearranging, which did what we wanted:
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 73.  (###) -------------------------------------->
+<!--------------------------- 73. working version in debugger (###) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image073.png?raw=true"
    width="65%"
-   alt="Working Version in Debugger" />
+   alt="Working version in Debugger." />
 </p>
 
 Here we see just the opposite of what we saw before, now "section h1"
@@ -8933,12 +8924,12 @@ than &lt;article&gt;.  We can make this explicit by changing the selector to
 used only on a section that is inside an article, which is really what
 we want:
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 74.  (###) -------------------------------------->
+<!-------------------------- 74. my book chapter 1 section 1.1 (###) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image074.png?raw=true"
    width="45%"
-   alt="" />
+   alt="My book, chapter 1, section 1.1." />
 </p>
 
 <h4>CSS</h4>
@@ -8963,27 +8954,27 @@ font-size:1.2rem;
 ```
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<title>precedence 1</title>
-</head>
-<body>
-<h1>My Book</h1>
-<article>
-  <h1>Chapter 1 </h1>
-  <section>
-    <h1>Section 1.1</h1>
-    <p>...</p>
-  </section>
-  <section>
-    <h1>Section 1.2</h1>
-    </section>
+  <head>
+    <meta charset="utf-8">
+    <title>precedence 1</title>
+  </head>
+  <body>
+    <h1>My Book</h1>
+    <article>
+      <h1>Chapter 1 </h1>
+      <section>
+        <h1>Section 1.1</h1>
+        <p>...</p>
+      </section>
+      <section>
+        <h1>Section 1.2</h1>
+      </section>
     </article>
   </body>
 </html>
 ```
 
-<h3>4.4.3 Cloud images</h3>
+<h3 id="ch4-4-3">4.4.3 Cloud images</h3>
 
 We're working on a Web page about clouds in
 the <a href="https://codepen.io/w3devcampus/pen/ybqbwJ" target="_blank">CodePen</a> below, and we
@@ -9005,36 +8996,32 @@ the pictures but the result is unwieldy:
 ```
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Cloud images</title>
-</head>
-<body>
-<img alt="Clouds (Undulatus asperatus) above Tallinn - Author: Ave
-Maria Mõistlik" width="500"
-src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Beautiful_clouds.JPG/1600px-Beautiful_clouds.JPG">
-
-<h1>Clouds</h1>
-<blockquote>
-<hr>
-“Clouds come floating into my life, no longer to carry rain or usher
-storm, but to add color to my sunset sky.”
-
-― Rabindranath Tagore, Stray Birds
-
-<hr>
-
-</blockquote>
-<p>Among the many types of clouds are:</p>
-<ol>
-<li id="cumulus">Cumulus clouds: <img alt="Cumulus Clouds"
-src="https://www.weather.gov/images/jetstream/clouds/cu.jpg"></li>
-<li id="cirrus">Cirrus clouds: <img alt="Cirrus clouds"
-src="https://www.weather.gov/images/jetstream/clouds/ci.jpg"></li>
-<li id="stratus">Stratus clouds: <img alt="Stratus clouds"
-src="https://www.weather.gov/images/jetstreamclouds/st.jpg"></li>
-</ol>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <title>Cloud images</title>
+  </head>
+  <body>
+    <img alt="Clouds (Undulatus asperatus) above Tallinn - Author: Ave
+      Maria Mõistlik" width="500"
+    src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Beautiful_clouds.JPG/1600px-Beautiful_clouds.JPG">
+    <h1>Clouds</h1>
+    <blockquote>
+      <hr>
+        “Clouds come floating into my life, no longer to carry rain or usher
+        storm, but to add color to my sunset sky.”
+        ― Rabindranath Tagore, Stray Birds
+      <hr>
+    </blockquote>
+    <p>Among the many types of clouds are:</p>
+    <ol>
+      <li id="cumulus">Cumulus clouds: <img alt="Cumulus Clouds"
+        src="https://www.weather.gov/images/jetstream/clouds/cu.jpg"></li>
+      <li id="cirrus">Cirrus clouds: <img alt="Cirrus clouds"
+        src="https://www.weather.gov/images/jetstream/clouds/ci.jpg"></li>
+      <li id="stratus">Stratus clouds: <img alt="Stratus clouds"
+        src="https://www.weather.gov/images/jetstreamclouds/st.jpg"></li>
+    </ol>
+  </body>
 </html>
 ```
 
@@ -9103,7 +9090,7 @@ src="https://www.weather.gov/images/jetstream/clouds/st.jpg"></li>
 ```
 
 So far so good, but we want our top image to be a bit bigger without
-changing the other images.  Recall  that an <img> tag
+changing the other images.  Recall  that an &lt;img&gt; tag
 includes a width attribute, so we can special case this image
 accordingly in the HTML code:
 
@@ -9116,7 +9103,7 @@ debugger again.
 
 <h4>Debugging image size</h4>
 
-We open up the debugger and choose the <img> tag corresponding to our
+We open up the debugger and choose the &lt;img&gt; tag corresponding to our
 first picture, then we see this in the Styles section:
 
 <!------------------------------------------------------------------------------------------------>
@@ -9709,7 +9696,7 @@ section:
 |               | <caption>                     |
 | Row groups    | <thead>, <tfoot>, <tbody> |
 | Column groups | <colgroup>, <col>           |
-| Table row     | <tr>                          |
+| Table row     | &lt;tr&gt;                          |
 | Table cells   | <th>, <td>                  |
 
 We will use these elements to build our table as we go.
@@ -9960,7 +9947,7 @@ Just like how we use <colgroup> to group columns, <thead> is used to
 group the header content in a HTML table. 
 
 As we learned in the previous unit, header cells are specified
-using <th> as a child of <tr>. Rows specified
+using <th> as a child of &lt;tr&gt;. Rows specified
 within <thead> indicate that they are header rows. See the code below:
 
 ```xml
@@ -9975,7 +9962,7 @@ within <thead> indicate that they are header rows. See the code below:
 <h4>&lt;tbody&gt;</h4>
 
 Following <thead>, subsequent rows are considered body rows in a
-table. Regular cells are specified using <td> as a child of <tr>:
+table. Regular cells are specified using <td> as a child of &lt;tr&gt;:
 
 ```xml
   <tbody>
@@ -10617,7 +10604,7 @@ table to highlight them in the color you specify. This is useful to help
 users differentiate data between rows. 
 
 ```
-1.  tr:hover {background-color: #ccff99; }
+tr:hover {background-color: #ccff99; }
 ```
 
 <h4>Hover over these tables:</h4>
@@ -10634,12 +10621,12 @@ users differentiate data between rows. 
 <h4>CSS</h4>
 
 ```
-1.  table { border-collapse: collapse; }
-2.  table, th, td { padding: 15px; border-bottom: 1px solid black; }
-3.  
-4.  table.eg1 tr:hover { background-color: #ccff99; }
-5.  
-6.  table.eg2 tr:hover { background-color: grey; }
+table { border-collapse: collapse; }
+table, th, td { padding: 15px; border-bottom: 1px solid black; }
+  
+table.eg1 tr:hover { background-color: #ccff99; }
+  
+table.eg2 tr:hover { background-color: grey; }
 ```
 
 <h4>HTML</h4>
@@ -11366,15 +11353,15 @@ previous methods. 
 
 <h3>The &lt;audio&gt; tag</h3>
 
-You can use the <audio> tag to embed audio in your page.
+You can use the &lt;audio&gt; tag to embed audio in your page.
 
 ```
-1.  <audio src="sounds/flute.mp3">
-2.    Your browser does not support the audio file.
-3.  </audio>
+<audio src="sounds/flute.mp3">
+  Your browser does not support the audio file.
+</audio>
 ```
 
-Any text within the <audio> tags will be displayed if the browser does
+Any text within the &lt;audio&gt; tags will be displayed if the browser does
 not support the audio element. You should add such a message to provide
 better user experience for your page as it will be viewed in all types
 of devices and browsers. 
@@ -11450,20 +11437,20 @@ to choose apart from audio element and browser compatibility:
 The source element, also new in HTML5, serves the same purpose as
 the src attribute in an audio element. It is used to specify source
 files for the audio and video elements. Using the source element, you
-can specify multiple source files. The <source> tag is self-closing,
+can specify multiple source files. The &lt;source&gt; tag is self-closing,
 therefore, it does not require a closing tag.
 
 <h4>Example:</h4>
 
-1. <audio controls>
-
-2. <source src="https://courses.edx.org/asset-v1:W3Cx+HTML5.0x+3T2016+type@asset+block@splash.wav" type="audio/wav">
-
-3. <source src="https://courses.edx.org/asset-v1:W3Cx+HTML5.0x+3T2016+type@asset+block@splash.mp3" type="audio/mpeg">
-
-4. Your browser does not support the audio element.
-
-5. </audio>
+```
+<audio controls>
+   <source src="https://courses.edx.org/asset-v1:W3Cx+HTML5.0x+3T2016+type@asset+block@splash.wav" 
+      type="audio/wav">
+   <source src="https://courses.edx.org/asset-v1:W3Cx+HTML5.0x+3T2016+type@asset+block@splash.mp3" 
+      type="audio/mpeg">
+   Your browser does not support the audio element.
+</audio>
+```
 
 <h4>Output for code above (try playing):</h4>
 
@@ -11475,7 +11462,7 @@ above, Internet Explorer does not support .wav files. So if you tried to
 play the file above in Internet Explorer, the browser would have tried
 to play .wav, failed and played the .mp3 version instead. 
 
-The following table lists the <source> element's attributes:
+The following table lists the &lt;source&gt; element's attributes:
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 107.  (###) -------------------------------------->
@@ -11490,9 +11477,9 @@ specify the location of your video file using the src attribute
 or source element (for multiple source files). 
 
 ```
-1. <video src="multimedia/running.mp4">
-2. Your browser does not support the HTML5 video element.
-3. </video>
+<video src="multimedia/running.mp4">
+   Your browser does not support the HTML5 video element.
+</video>
 ```
 
 Any text within the <video> tags will be displayed if the browser does
@@ -11624,12 +11611,12 @@ specify multiple source files for the video element. The &lt;source&gt; tag
 is self-closing and so does not require a closing tag.
 
 ```
-1. <video controls height="320" width="240">
-2. <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
-3. <source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm">
-4. <source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg">
-5. Your browser does not support the HTML5 video element.
-6. </video>
+<video controls height="320" width="240">
+   <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
+   <source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm">
+   <source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg">
+      Your browser does not support the HTML5 video element.
+</video>
 ```
 
 The advantage of providing multiple source files in different formats is
@@ -11651,8 +11638,8 @@ a combination of formats. 
 
 <h3>Track element for captions and subtitles</h3>
 
-The <video> element is very similar to the HTML5 <audio> element
-except for one addition - the <track> element. The <track> element
+The <video> element is very similar to the HTML5 &lt;audio&gt; element
+except for one addition - the &lt;track&gt; element. The &lt;track&gt; element
 is used to add timed text like subtitles, captions or any text you would
 like to display to the user when the video is playing. 
 
@@ -11668,20 +11655,20 @@ like to display to the user when the video is playing. 
     same language as the audio. Read more about their
     difference [here](https://www.alsintl.com/blog/subtitles-captions-difference/). 
 
--   Like the <source> tag, you can add multiple <track> tags in your
+-   Like the &lt;source&gt; tag, you can add multiple &lt;track&gt; tags in your
     video element to add multiple subtitle/caption tracks. This is
     commonly done when providing them in different languages. 
 
-The <track> tag is self-closing and so does not require a closing tag.
-You specify the <track> element as a child element of
+The &lt;track&gt; tag is self-closing and so does not require a closing tag.
+You specify the &lt;track&gt; element as a child element of
 your <video> tag like this:
 
 ```
-1. <video width="320" height="240" controls>
-2. <source src="module.mp4" type="video/mp4">
-3. <track src="module-captions.vtt" kind="captions" srclang="en" label="English" default>
-4. Your browser does not support the HTML5 video element.
-5. </video>
+<video width="320" height="240" controls>
+<source src="module.mp4" type="video/mp4">
+<track src="module-captions.vtt" kind="captions" srclang="en" label="English" default>
+Your browser does not support the HTML5 video element.
+</video>
 ```
 
 <h4>The following table lists the &lt;track&gt; element's attributes:</h4>
@@ -11690,11 +11677,12 @@ your <video> tag like this:
 <!----------------------------------- 112.  (###) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <img src="./images/image112.png"
-style="width:6.5in;height:4.29444in" />
+   style="width:6.5in;height:4.29444in"
+   alt="" />
 
-<h3>5.3.4 Audio and Video Elements</h3>
+<h3 id="ch5-3-4">5.3.4 Audio and Video Elements</h3>
 
-<h3 id="ch5-4">5.4.1 The iframes tag (OPTIONAL)</h3>
+<h3 id="ch5-4-1">5.4.1 The iframes tag (OPTIONAL)</h3>
 
 ***Note:** This section is optional material included for the curious.
 It will not appear on any graded question.*
@@ -11716,10 +11704,10 @@ download it instead). 
 An <iframe> tag can be as simple as this:
 
 ```
-1.  <p>This is a parent page that will host the iframe.</p>
-2.  <iframe src="https://www.w3.org/">
-3.    <p>Your browser does not support iframes.</p>
-4.  </iframe>
+<p>This is a parent page that will host the iframe.</p>
+<iframe src="https://www.w3.org/">
+  <p>Your browser does not support iframes.</p>
+</iframe>
 ```
 
 <!------------------------------------------------------------------------------------------------>
@@ -11749,25 +11737,26 @@ Because iframes are HTML elements, they can be styled just like other elements, 
 <!----------------------------------- 114.  (###) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <img src="./images/image114.png"
-   style="width:3in;height:1.64371in" />
+   style="width:3in;height:1.64371in"
+   alt="" />
 
 Here, we've embedded a YouTube video with an iframe like this:
 
 ```
-1.  <iframe src="https://www.youtube.com/embed/YE7VzlLtp-4"></iframe>
+<iframe src="https://www.youtube.com/embed/YE7VzlLtp-4"></iframe>
 ```
 
 And we've added styling like this to get the border and drop-shadow:
 
 ```
-1.  iframe {
-2.    border: 10px solid red;
-3.    padding: .5rem;
-4.    margin: 1rem;
-5.    box-shadow: 20px 20px 10px #888888;
-6.    width: 355;
-7.    height: 200;
-8.  }
+iframe {
+  border: 10px solid red;
+  padding: .5rem;
+  margin: 1rem;
+  box-shadow: 20px 20px 10px #888888;
+  width: 355;
+  height: 200;
+}
 ```
 
 There is one significant problem with iframes. Suppose you create your
@@ -11779,7 +11768,7 @@ inclusion, so if you create an iframe with src="https://google.com",
 you'll get a blank frame and an error message in the console.  This
 isn't a bug, it's a feature.
 
-There are a number of important attributes for an <iframe> tag, but
+There are a number of important attributes for an &lt;iframe&gt; tag, but
 for now we'll just look at a few of them:
 
 <!------------------------------------------------------------------------------------------------>
@@ -11847,7 +11836,7 @@ It will not appear on any graded question.*
 the <link> tag, having learned hyperlinks, now would be a good time to
 explore them. Be sure to watch the video at the end of this unit. 
 
-Adding the ismap or usemap attributes to the <img> tag means that the
+Adding the ismap or usemap attributes to the &lt;img&gt; tag means that the
 picture is an image with clickable areas. Imagine a picture of a world
 map where different countries on the map can be clicked and it navigates
 to another page like the country's wikipedia page. Simply put, we say
@@ -11858,14 +11847,14 @@ image-map.
 <h4>The 'ismap' attribute</h4>
 
 ```
-1.  <img src="images/logo.png" alt="ismap tutorial" <b>ismap**>
+<img src="images/logo.png" alt="ismap tutorial" ismap>
 ```
 
 ismap is a <b>boolean attribute<b> i.e. its value is either true or false.
 Thus, just the presence of the attribute indicates that it is a mapped
 image. To be more precise, we say it is a server-side image-map.
 
-An <img> tag with the src  and ismap attributes creates an image with
+An &lt;img&gt; tag with the src  and ismap attributes creates an image with
 the image source file and indicates it is a server-side image-map. How
 will your code know that if you click on a part of your image, i.e.
 'Australia in a world map', it should navigate to the country's
@@ -11874,9 +11863,9 @@ add the location of this map file using the anchor element. Here is a
 code sample:
 
 ```
-1.  <a href="/ismap-image/ismap.cgi" target="_self">
-2.     <img src="images/logo.png" alt="ismap tutorial" ismap>
-3.  </a>
+<a href="/ismap-image/ismap.cgi" target="_self">
+   <img src="images/logo.png" alt="ismap tutorial" ismap>
+</a>
 ```
 
 Here, the href attribute points to the location of the map file.
@@ -11884,7 +11873,7 @@ The target attribute indicates where the page it navigates to should
 open. '_self' will open in the same page whereas '_blank' will open it
 in a new tab or window. 
 
-ismap only works if the <img> tag is used within the anchor element
+ismap only works if the &lt;img&gt; tag is used within the anchor element
 like in the code above. This is important because without a link to the
 target map file, it has no idea what to do with
 your ismap specification.
@@ -11941,8 +11930,8 @@ type boolean. It takes in the name of the map with a '#' character
 preceding it.
 
 ```
-1.  <img src="navigator.jpg" alt="Pages in this Web
-    site" usemap="#navigatormap">
+<img src="navigator.jpg" alt="Pages in this Web
+     site" usemap="#navigatormap">
 ```
 
 Like ismap, usemap cannot be used by itself. In ismap, we used the
@@ -11952,11 +11941,11 @@ the coordinates and the page it should navigate to. The usemap value
 should match the map element's name or id attribute. 
 
 ```
-1.  <img src="images/crossroads.jpg" alt="Crossroads" usemap="#**navigatormap**">
-2.  <map name="**navigatormap**">
-3.    <area shape="rect" coords="0,0,195,439" href="https://en.wikipedia.org/wiki/Millery" alt="Millery">
-4.    <area shape="rect" coords="196,0,390,439" href="https://en.wikipedia.org/wiki/Nomeny" alt="Nomeny">
-5.  </map>
+<img src="images/crossroads.jpg" alt="Crossroads" usemap="#**navigatormap**">
+<map name="**navigatormap**">
+  <area shape="rect" coords="0,0,195,439" href="https://en.wikipedia.org/wiki/Millery" alt="Millery">
+  <area shape="rect" coords="196,0,390,439" href="https://en.wikipedia.org/wiki/Nomeny" alt="Nomeny">
+</map>
 ```
 
 **<map>** - defines a client-side image map and is used to create a
@@ -11994,11 +11983,11 @@ here](https://www.w3.org/wiki/HTML/Elements/area).
 Here is a working example of usemap.
 
 ```
-1.  <img src="images/crossroads.jpg" alt="Crossroads" usemap="#**navigatormap**">
-2.  <map name="**navigatormap**">
-3.    <area shape="rect" coords="0,0,195,439" href="https://en.wikipedia.org/wiki/Millery" alt="Millery">
-4.    <area shape="rect" coords="196,0,390,439" href="https://en.wikipedia.org/wiki/Nomeny" alt="Nomeny">
-5.  </map>
+<img src="images/crossroads.jpg" alt="Crossroads" usemap="#navigatormap">
+<map name="navigatormap">
+  <area shape="rect" coords="0,0,195,439" href="https://en.wikipedia.org/wiki/Millery" alt="Millery">
+  <area shape="rect" coords="196,0,390,439" href="https://en.wikipedia.org/wiki/Nomeny" alt="Nomeny">
+</map>
 ```
 
 <h4>Result:</h4>
@@ -12027,19 +12016,19 @@ will not work.
 2.  Try the following code in your HTML editor:
 
 ```
-    1.  <iframe src="http://facebook.com">
-    2.  <p>Your browser does not support iframes.</p>
-    3.  </iframe>
+<iframe src="http://facebook.com">
+   <p>Your browser does not support iframes.</p>
+</iframe>
 ```
 
 What happens? Why does it behave the way it does?
 
 <h3 id="ch5-5-1">5.5.1 Decorative images and backgrounds</h3>
 
-As we saw earlier, the <img> tag is meant to be used for semantically
+As we saw earlier, the &lt;img&gt; tag is meant to be used for semantically
 important imagery.  For example, the pictures that accompany a news
 story are important to understanding the news story and therefore should
-be displayed with the <img> tag.  The example of the cool banner with
+be displayed with the &lt;img&gt; tag.  The example of the cool banner with
 teletypes and coffee was meant to evoke competence and urgency, however,
 that image is <b>not<b> essential to understanding the news story. That
 image is decorative.
@@ -12568,7 +12557,6 @@ W3C.
    alt="Keep the web open!" />
 </p>
 
-```
 <b>Test in multiple browsers:</b>
 Your favorite browser is not always right.
 <ul>
@@ -13137,11 +13125,11 @@ change the span to be display:inline-block, which is discussed below.
 <h4>inline-block</h4>
 
 The astute reader may have spotted an obvious omission from the table of
-block and inline elements above: <img> . Is <img> a block level
+block and inline elements above: &lt;img&gt; . Is &lt;img&gt; a block level
 element or inline?  If you venture to experiment you may conclude
 "both", and you will be right.
 
-For historic reasons, the <img> tag defaults to display:inline in most
+For historic reasons, the &lt;img&gt; tag defaults to display:inline in most
 browsers. If you inspect using the browsers inspector, that's what you
 will see. However, it does not follow the same rules as other inline
 elements. In fact, regardless of what the inspector says, images are
@@ -13758,7 +13746,7 @@ These display states are covered in the display section. 
 images have an interesting behavior in that if only one dimension is
 set, the other is automatically calculated so that the original aspect
 ratio of the image is preserved.  This is true for both decorative CSS
-images and <img> tags.
+images and &lt;img&gt; tags.
 
 <h4>sizing properties</h4>
 
@@ -13957,9 +13945,9 @@ The minimum scenario for using flexbox is to make use of two CSS rules,
 and better results are achieved with a third.
 
 ```
-1.  display:flex; on the flex container
-2.  flex:1; on the flex items (the children of the flex container)
-3.  (better)   flex-flow: row wrap; on the flex container.
+display:flex; on the flex container
+flex:1; on the flex items (the children of the flex container)
+(better)   flex-flow: row wrap; on the flex container.
 ```
 
 Here is a series of screen captures showing these minimum options
@@ -14829,6 +14817,7 @@ We fixed those issues at the top.
 
 These are the final changes to our recipe project for this unit.
 </p>
+<!---
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ ##. template (##) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -14837,7 +14826,8 @@ These are the final changes to our recipe project for this unit.
    width="65%"
    alt="." />
 </p>
+--->
 
 <h4>The end...</h4>
 
-<h3><b>Last Updated 09-23-2022 9:27pm</b></h3>
+<h3><b>Last Updated 09-26-2022 10:21am</b></h3>
