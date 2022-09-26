@@ -6964,7 +6964,7 @@ q { font-size: small; }
 blockquote { font-size: larger; }
 ```
 
-line-height
+<h4>line-height</h4>
 
 Whereas font-size may drive the size of the text itself,
 the line-height property drives the height of the space it is drawn
@@ -6975,14 +6975,14 @@ For example, all of the Middlemarch text below has font-size:16px;
 But on the left, we see line-height:0.5; and on the
 right, line-height:3; 
 
-| **line-height: 0.5;**                                                                   | **line-height: 3;**                                                                     |
+| line-height: 0.5;                                                                       | line-height: 3;                                                                         |
 |-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
 | Miss Brooke had that kind of beauty which seems to be thrown into relief by poor dress. | Miss Brooke had that kind of beauty which seems to be thrown into relief by poor dress. |
 
 The used value is this
-unitless [<number>](https://developer.mozilla.org/en-US/docs/Web/CSS/number) multiplied
+unitless [&lt;number&gt;](https://developer.mozilla.org/en-US/docs/Web/CSS/number) multiplied
 by the element's font size. The computed value is the same as the
-specified <number>. In most cases this is the preferred way to
+specified &lt;number&gt;. In most cases this is the preferred way to
 set line-height with no unexpected results in case of inheritance.
 Read [more](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height) on
 the MDN Web site.
@@ -6998,13 +6998,13 @@ use text-align unnecessarily.
 Note that text-align may <b>not</b> work as expected if applied to
 elements that are the same width as their text, or whose width is
 determined by the text within them (i.e., inline elements).  The
-tags <span>, <a>, <i>, <b>, <q> and others are considered
+tags &lt;span&gt;, &lt;a&gt;, &lt;i&gt;, &lt;b&gt;, &lt;q&gt; and others are considered
 "inline" because they do not receive their own new line when used.
 And text-align is often not useful on these tags.
 
 But it is useful on block level text tags, such
-as <p>, <li>, <ul>, <ol>, &lt;div&gt;,
-and <blockquote>
+as &lt;p&gt;, &lt;li&gt;, &lt;ul&gt;, &lt;ol&gt;, &lt;div&gt;,
+and &lt;blockquote&gt;.
 
 ```
 p { text-align: left; }  
@@ -7019,10 +7019,10 @@ languages is right).  The new values start and end are currently being
 implemented in browsers, and those will be a much better choice
 than left and right once Internet Explorer supports them.
 
-| **left**                                                                                                                                                                                                                                                                                       | **center**                                                                                                                                                                                                                                                                                     |
+| left                                                                                                                                                                                                                                                                                       | center                                                                                                                                                                                                                                                                                     |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair. | It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair. |
-| **right**                                                                                                                                                                                                                                                                                      | **justify**                                                                                                                                                                                                                                                                                    |
+| right                                                                                                                                                                                                                                                                                        | justify                                                                                                                                                                                                                                                                                    |
 | It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair. | It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair. |
 
 Note that CSS will in the future provide better support for
