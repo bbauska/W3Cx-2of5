@@ -5235,7 +5235,7 @@ Now, if I want to resize the HTML logo above by half:
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image041.png?raw=true"
-   width="15%"
+   width="7%"
    alt="HTML5 logo Resized" />
 </p>
 
@@ -5581,6 +5581,7 @@ Or something like this:
    <img alt="Buy now button to illustrate hyperlink." 
    src="./images/image045.png?raw=true"
    width="50%" />
+<br>
 <!-------
    width=150" height="70">
 -------->
@@ -5591,9 +5592,9 @@ already (make sure to navigate back to the course).
 A hyperlink is any text or image that takes you to another place. This
 can be:
 <ul>
-   <li>another Web page: e.g. the hyperlinks wiki page
+   <li>Another Web page: e.g. the hyperlinks wiki page
       at https://en.wikipedia.org/wiki/Hyperlink</li>
-   <li>a bookmark (a specific part of a Web page): e.g. the History section
+   <li>A bookmark (a specific part of a Web page): e.g. the History section
       of the Hyperlinks wiki page
       at https://en.wikipedia.org/wiki/Hyperlink#History.
       We learned about using the id attribute as a link target in the unit
@@ -5610,7 +5611,7 @@ can be:
 When it comes to hyperlinks, try to use text instead of images when
 possible.
 <ul>
-   <li>images are not as well understood or recognized as text.</li>
+   <li>Images are not as well understood or recognized as text.</li>
    <li>Text is better for accessibility.</li>
    <li>If you have text in an image like the 'Buy now' button, search
       engines do not recognize text in images. The text alternative for
@@ -6534,7 +6535,7 @@ style="width:6.5in;height:3.31528in"
 -------->
 
 The CSS WG meeting in Lisbon, November 2016. The working group is co-chaired by
-Rossen Atanassov and Alan Stearns. (Photo credit: Marie-Claire Forgue*)
+Rossen Atanassov and Alan Stearns. (Photo credit: Marie-Claire Forgue)
 
 The CSS WG members are working on a [whole range of
 specifications](https://www.w3.org/Style/CSS/current-work), but their
@@ -7092,11 +7093,7 @@ are: underline, overline, line-through, and none;  They can combined.
 ```
 p { text-decoration: underline; }  
 a { text-decoration: none; } /* hyperlinks are underlined by default,
-```
-
 but that can be removed */   
-
-```
 span { text-decoration: overline; }  
 span { text-decoration: underline overline; } /* apply two with just a
 space between the values */  
@@ -8015,9 +8012,9 @@ blockquotes. :
 #intro > a { font-size: large; }
 ```
 
-<h4>Everything selector (*)</h4>
+<h4>Everything selector (\*)</h4>
 
-The asterisk (*) can be used to match <b>any</b> tag. By itself, this is
+The asterisk (\*) can be used to match <b>any</b> tag. By itself, this is
 only marginally useful. But combined with other selectors into a
 descendant selector, it can be pretty useful.
 
@@ -11794,7 +11791,7 @@ Your browser does not support the HTML5 video element.
 <h3 id="ch5-4-1">5.4.1 The iframes tag (OPTIONAL)</h3>
 <!------------------------------------------------------------------------------------------------>
 
-*</b>Note:</b> This section is optional material included for the curious.
+*<b>Note:</b> This section is optional material included for the curious.
 It will not appear on any graded question.*
 
 There are tags for all kinds of content in your Web page, text, images,
@@ -12290,11 +12287,13 @@ The background-size property can also be used to more exactly size the
 image.  When used in this fashion, it takes *two* values separated by a
 space. The first governs the width, the second the height.  Examples:
 
+```
 .kittens  { background-size: 100px 120px; } /* might distort */  
 .puppies  { background-size: 100px auto; }  /* auto preserves aspect
 ratio, no distorting */  
 .munchies { background-size: 50% auto; }    /* % is of percentage of
 parent (not of image). */
+```
 
  The px and % units were covered in the units section. Note that other
 units (rem, vh, etc.) have no guarantee of support.  
@@ -14287,6 +14286,7 @@ be an inline element. However, in both cases the element is now a flex
 container and will be handling the layout of its children.
 
 <h4>flex-flow</h4>
+
 ```
 .fc {
 display: flex;  /* this is now a flex container */
@@ -15165,4 +15165,4 @@ These are the final changes to our recipe project for this unit.
 
 <h4>The end...</h4>
 
-<h3><b>Last Updated 09-27-2022 2:32am</b></h3>
+<h3><b>Last Updated 09-27-2022 11:32am</b></h3>
