@@ -7463,7 +7463,7 @@ properties that are available for lists.
 <h4>list-style-type</h4>
 
 list-style-type governs the little list marker that is usually
-positioned to the left of any list item.  For un-ordered lists (<ul>),
+positioned to the left of any list item.  For un-ordered lists (&lt;ul&gt;),
 there are several popular values: disc, circle, square, and none.
 
 ```
