@@ -7062,7 +7062,7 @@ span { text-decoration: underline overline line-through; } /*
 everything */
 ```
 
-| **underline**      | **overline** | **line-through** | **underline overline line-through** |
+| underline      | overline | line-through | underline overline line-through |
 |--------------------|--------------|------------------|-------------------------------------|
 | <u>Middlemarch</u> | Middlemarch  | ~~Middlemarch~~  | ~~<u>Middlemarch</u>~~              |
 
@@ -7091,9 +7091,9 @@ p { font-weight: bold; }
 blockquote { font-weight: 900; }
 ```
 
-| **normal**           | **bold**                 | **200**              | **500**              | **700**                  | **900**                  |
+| normal           | bold                 | 200              | 500              | 700                  | 900                  |
 |----------------------|--------------------------|----------------------|----------------------|--------------------------|--------------------------|
-| A Tale of Two Cities | **A Tale of Two Cities** | A Tale of Two Cities | A Tale of Two Cities | **A Tale of Two Cities** | **A Tale of Two Cities** |
+| A Tale of Two Cities | A Tale of Two Cities | A Tale of Two Cities | A Tale of Two Cities | A Tale of Two Cities | A Tale of Two Cities |
 
 <h4>font-style (italic)</h4>
 
@@ -7107,7 +7107,7 @@ are normal and italic.  
 |------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Many years later, as he faced the firing squad, Colonel Aureliano Buendía was to remember that distant afternoon when his father took him to discover ice. | <i>Many years later, as he faced the firing squad, Colonel Aureliano Buendía was to remember that distant afternoon when his father took him to discover ice.</i> |
 
-> <h4>font-family</h4>
+<h4>font-family</h4>
 
 Want to set the font for an item on the page?   The font-family is the
 correct property for the task, but there are caveats:
@@ -9775,7 +9775,7 @@ through CSS.
 The code above will not provide any major visual change to your website
 yet because we don't have any cells defined.
 
-<b>Note**: Though there is an attribute for border, the table elements
+<b>Note</b>: Though there is an attribute for border, the table elements
 should be styled using CSS. You can use the CSS border property to do
 that instead. 
 
@@ -11897,10 +11897,10 @@ However, there can be some disadvantages:
 <!------------------------------------------------------------------------------------------------>
 
 <b>Note:</b> This section is optional material included for the curious.
-It will not appear on any graded question.*
+It will not appear on any graded question.
 
 <b>Important:</b> The attributes we will see in this unit
-- ismap and usemap are <b>image attributes**. Since they use
+- ismap and usemap are <b>image attributes</b>. Since they use
 the <link> tag, having learned hyperlinks, now would be a good time to
 explore them. Be sure to watch the video at the end of this unit. 
 
@@ -12004,23 +12004,23 @@ preceding it.
 
 Like ismap, usemap cannot be used by itself. In ismap, we used the
 anchor tag to specify the map file. In usemap, we use
-the **<area>** element as a child of **<map>** element to specify
+the **&lt;area&gt;** element as a child of **&lt;map&gt;** element to specify
 the coordinates and the page it should navigate to. The usemap value
 should match the map element's name or id attribute. 
 
 ```
-<img src="images/crossroads.jpg" alt="Crossroads" usemap="#**navigatormap**">
-<map name="**navigatormap**">
+<img src="images/crossroads.jpg" alt="Crossroads" usemap="#navigatormap">
+<map name="navigatormap">
   <area shape="rect" coords="0,0,195,439" href="https://en.wikipedia.org/wiki/Millery" alt="Millery">
   <area shape="rect" coords="196,0,390,439" href="https://en.wikipedia.org/wiki/Nomeny" alt="Nomeny">
 </map>
 ```
 
-**<map>** - defines a client-side image map and is used to create a
+**&lt;map&gt;** - defines a client-side image map and is used to create a
 relationship between the image and the map by matching the map name and
 usemap's value. It contains a set of area elements.
 
-**<area>** - defines the areas that can be clicked and the pages it
+**&lt;area&gt;** - defines the areas that can be clicked and the pages it
 should navigate to. Typically takes the shape of the area, coordinates
 of the area, URL of the page it should redirect to and the alt attribute
 (short description). 
@@ -12188,7 +12188,7 @@ image itself, then the image will repeat and fill the space, like tiles.
 </p>
 
 The background-repeat property can be used to control this.  It's more
-commonly used values are: repeat, repeat-x, repeat-y, and <b>no-repeat**.
+commonly used values are: repeat, repeat-x, repeat-y, and <b>no-repeat</b>.
 The no-repeat value is very useful, and bears repeating.
 
 There are advanced uses of this property.  Notice in the above example,
@@ -13013,9 +13013,9 @@ sizing.
 and order — more flexbox concepts.  
 <i>Note</i>: This ENTIRE section is OPTIONAL.
 
-<b><i>6.5 CSS Grid:** CSS Grid Layout is another new layout system available
-in CSS.  
-*Note*: This ENTIRE section is OPTIONAL.
+<b>6.5 CSS Grid:</b> CSS Grid Layout is another new layout system available
+in CSS.
+<i>Note</i>: This ENTIRE section is OPTIONAL.
 
 <b><i>6.6 Recipe project:</i><b> Let's get "responsive" — how to make your Web
 page look good on differently sized devices.
@@ -13788,7 +13788,7 @@ we govern the overlapping with the z-index property. 
 <h4>Siblings and nesting</h4>
 
 It is entirely possible that one element with z-index:100 could
-appear ***below* <b>another element with z-index:1;  
+appear ***below* **another element with z-index:1;  
 
 This can happen because the z-index is used to figure out which sibling
 is higher than another. But if two elements are not siblings, then the
@@ -14189,8 +14189,8 @@ Therefore, flex:1; is <b>better<b> than flex-grow:1; . 
 <h4>flex-grow</h4>
 
 ```
-p { flex: <b>1**; /* rather than use flex-grow, use
-flex: **<flex-grow>**; */ }
+p { flex: 1; /* rather than use flex-grow, use
+flex: <flex-grow>; */ }
 ```
 
 The flex-grow property is set simply to a positive number. In isolation
@@ -14215,8 +14215,8 @@ super-power. 
 <h4>flex-shrink</h4>
 
 ```
-p { flex: 1 <b>1**; /* rather than use flex-shrink directly, use flex:
-<flex-grow> **<flex-shrink>** */ }
+p { flex: 1 1; /* rather than use flex-shrink directly, use flex:
+<flex-grow> <flex-shrink> */ }
 ```
 
 The flex-shrink is the opposite of flex-grow. When laying out any row or
@@ -14240,8 +14240,8 @@ the box-sizing to border-box.   
 <h4>flex-basis</h4>
 
 ```
-p { flex: 1 1 <b>87px**;  /* use flex: <flex-grow>
-<flex-shrink> **<flex-basis>** */}
+p { flex: 1 1 87px;  /* use flex: <flex-grow>
+<flex-shrink> <flex-basis> */}
 ```
 
 The flex-basis can be used instead of the sizing properties on a flex
@@ -14280,7 +14280,7 @@ flex items (e.g. flex:1), but again, this isn't required.
 This advice may not apply to images and may not be appropriate for every
 flex item. However, for most flex items, try to avoid using
 explicit width and height properties. Instead, use the flex-basis to set
-a desired dimension (e.g. flex: 1 1 <b>200px**; ).  Or consider
+a desired dimension (e.g. flex: 1 1 <b>200px</b>; ).  Or consider
 using min-width (or max-width) and min-height (or max-height). 
 
 Doing so will make your flex items a bit more malleable. In CSS
@@ -14629,7 +14629,7 @@ their align-self property set.
 <h3 id="ch6-4-3">6.4.3 Order</h3>
 <!------------------------------------------------------------------------------------------------>
 
-<b>Note**: This material is included for completeness. However, many are
+<b>Note</b>: This material is included for completeness. However, many are
 able to use flexbox satisfactorily without it. None of the material here
 will appear in any graded question.
 
