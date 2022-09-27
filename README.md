@@ -9329,15 +9329,15 @@ As with the cloud pictures, we want the listed items a bit smaller than
 the regular text, so we add this styling:
 
 ```
-1.  section {
-2.    font-size: 24px;
-3.  }
-4.  section h1 {
-5.    font-size: 28px;
-6.  }
-7.  li {
-8.    font-size: 0.5em;
-9.  }
+section {
+  font-size: 24px;
+}
+section h1 {
+  font-size: 28px;
+}
+li {
+  font-size: 0.5em;
+}
 ```
 
 The outermost level is fine, the next level is almost readable but the
@@ -9801,7 +9801,7 @@ Other attributes have been deprecated as the same can be achieved
 through CSS.
 
 ```
-1.  <table border=1></table>
+<table border=1></table>
 ```
 
 The code above will not provide any major visual change to your website
@@ -11415,6 +11415,11 @@ little more visually appealing inside your document.
     the style as closely as possible noting table border, colors, etc.  
     Insert dummy text values for table.  
 
+4.  Create the following table structure using HTML and CSS following
+    the style as closely as possible noting table border, colors, etc.  
+    Make the table cover the entire width of the screen.   
+    Insert dummy text values for the table.
+
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------- 103. tables activity #2  () -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -11422,20 +11427,6 @@ little more visually appealing inside your document.
 <img src="./images/image103.png?raw=true"
    width="60%"
    alt="Tables activity #2: it&#39;s a 3x3 table - the header row has a dark grey background; the last column is composed of the header cell and the other cells are grouped; the last row has the 2 first cells merged." />
-</p>
-
-4.  Create the following table structure using HTML and CSS following
-    the style as closely as possible noting table border, colors, etc.  
-    Make the table cover the entire width of the screen.   
-    Insert dummy text values for the table.
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------------- 104. tables activity #2  () -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="./images/image104.png?raw=true"
-   width="65%"
-   alt="." />
 </p>
 
 5.  Find a table used in a real Web page whose table body can be
@@ -11472,12 +11463,20 @@ audio playback. The following table lists the audio element's
 attributes:
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 105. table src and type (252) --------------------------------->
+<!----------------------- 103. audio: attribute, description & usage (248) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image105.png?raw=true"
+<img src="./images/image103.png?raw=true"
    width="65%"
-   alt="Attributes: src and type." />
+   alt="Attributes, Description and Usage of audio element." />
+</p>
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- 104. autoplay and example code (249) ------------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image104.png?raw=true"
+   width="65%"
+   alt="Autoplay and example code of audio src." />
 </p>
 
 If you hit play and didn't hear anything, remember that we have added
@@ -11566,13 +11565,17 @@ to play .wav, failed and played the .mp3 version instead. 
 The following table lists the &lt;source&gt; element's attributes:
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 107.  (###) -------------------------------------->
+<!---------------------------- 109. source element attributes (251) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
-<img src="./images/image107.png"
-style="width:6.5in;height:2.79653in" />
+<p align="center" width="100%">
+<img src="/images/image109.png?raw=true"
+   width="65%"
+   alt="Source element attributes." />
+</p>
+<!-- style="width:6.5in;height:2.79653in" /> -->
 
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch5-3-2">5.3.2 The <video> Element</h3>
+<h3 id="ch5-3-2">5.3.2 The &lt;video&gt; Element</h3>
 <!------------------------------------------------------------------------------------------------>
 
 You can use the video element to embed video in your page. You can
@@ -11595,45 +11598,17 @@ that can be used to configure playback. The following table lists
 the video element's attributes:
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- 106. table of attributes (description & usage) (253) -------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image106.png?raw=true"
-   width="65%"
-   alt="Attributes: src and type" />
-</p>
-
-<img src="./images/image106.png" (253)
-style="width:6.5in;height:4.73403in" />
-<!------------------------------------------------------------------------------------------------>
-<!---------------------- 106. table of attributes (description & usage) (253) -------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image106.png?raw=true"
-   width="65%"
-   alt="Attributes: src and type" />
-</p>
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------- 109.  (xxx) -------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image109.png?raw=true"
-   width="65%"
-   alt="" />
-</p>
-<!------------------------------------------------------------------------------------------------>
-<!---------------------- 110.  (xxx) -------------------->
+<!---------------------- 110. video element attributes (xxx) -------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image110.png?raw=true"
-   width="20%"
-   alt="" />
+   width="65%"
+   alt="Video element attributes." />
 </p>
 
 <h3>Poster attribute</h3>
 
-The <video> tag has an important attribute that you don't find on
+The &lt;video&gt; tag has an important attribute that you don't find on
 the audio element.  The poster attribute is used to specify what picture
 is shown before the video starts playing.  By default, the poster shown
 is simply the first frame of the video, but the poster attribute can be
@@ -11743,7 +11718,7 @@ a combination of formats. 
 
 <h3>Track element for captions and subtitles</h3>
 
-The <video> element is very similar to the HTML5 &lt;audio&gt; element
+The &lt;video&gt; element is very similar to the HTML5 &lt;audio&gt; element
 except for one addition - the &lt;track&gt; element. The &lt;track&gt; element
 is used to add timed text like subtitles, captions or any text you would
 like to display to the user when the video is playing. 
@@ -11766,7 +11741,7 @@ like to display to the user when the video is playing. 
 
 The &lt;track&gt; tag is self-closing and so does not require a closing tag.
 You specify the &lt;track&gt; element as a child element of
-your <video> tag like this:
+your &lt;video&gt; tag like this:
 
 ```
 <video width="320" height="240" controls>
@@ -11798,7 +11773,7 @@ It will not appear on any graded question.*
 
 There are tags for all kinds of content in your Web page, text, images,
 videos, animations.  There's even a tag that allows you to put another
-Web page in your Web page - the <iframe> tag (*HTML Inline Frame
+Web page in your Web page - the &lt;iframe&gt; tag (*HTML Inline Frame
 Element*).  Why would you want to do this?  Well, it enables a lot of
 possibilities.
 
@@ -11810,7 +11785,7 @@ pages. You can add YouTube videos or display a PDF file (some browsers
 will display the file inline while some older browsers will try to
 download it instead). 
 
-An <iframe> tag can be as simple as this:
+An &lt;iframe&gt; tag can be as simple as this:
 
 ```
 <p>This is a parent page that will host the iframe.</p>
@@ -11944,7 +11919,7 @@ It will not appear on any graded question.
 
 <b>Important:</b> The attributes we will see in this unit
 - ismap and usemap are <b>image attributes</b>. Since they use
-the <link> tag, having learned hyperlinks, now would be a good time to
+the &lt;link&gt; tag, having learned hyperlinks, now would be a good time to
 explore them. Be sure to watch the video at the end of this unit. 
 
 Adding the ismap or usemap attributes to the &lt;img&gt; tag means that the
@@ -11961,7 +11936,7 @@ image-map.
 <img src="images/logo.png" alt="ismap tutorial" ismap>
 ```
 
-ismap is a <b>boolean attribute<b> i.e. its value is either true or false.
+ismap is a <b>boolean attribute</b> i.e. its value is either true or false.
 Thus, just the presence of the attribute indicates that it is a mapped
 image. To be more precise, we say it is a server-side image-map.
 
@@ -12059,16 +12034,16 @@ should match the map element's name or id attribute. 
 </map>
 ```
 
-</b>&lt;map&gt;</b> - defines a client-side image map and is used to create a
+<b>&lt;map&gt;</b> - defines a client-side image map and is used to create a
 relationship between the image and the map by matching the map name and
 usemap's value. It contains a set of area elements.
 
-</b>&lt;area&gt;</b> - defines the areas that can be clicked and the pages it
+<b>&lt;area&gt;</b> - defines the areas that can be clicked and the pages it
 should navigate to. Typically takes the shape of the area, coordinates
 of the area, URL of the page it should redirect to and the alt attribute
 (short description). 
 
-The shape attribute in the <area> tag has four values:
+The shape attribute in the &lt;area&gt; tag has four values:
 
 -   circle - The clickable area is a circle. You need to
     specify three coordinates. E.g. coords="89,52,6". The first two is
@@ -12145,7 +12120,7 @@ important imagery.  For example, the pictures that accompany a news
 story are important to understanding the news story and therefore should
 be displayed with the &lt;img&gt; tag.  The example of the cool banner with
 teletypes and coffee was meant to evoke competence and urgency, however,
-that image is <b>not<b> essential to understanding the news story. That
+that image is <b>not</b> essential to understanding the news story. That
 image is decorative.
 
 <h4>Decorative images are incorporated via CSS.</h4>
@@ -12171,8 +12146,8 @@ of transparent and none, there are all the values of  that we saw
 applicable to the color property. 
 
 In the example below we apply a variety of background colors to a
-hyperlink (<a>), paragraph (<p>), unordered list (<ul>) and list
-items (<li>):
+hyperlink (&lt;a&gt;), paragraph (&lt;p&gt;), unordered list (&lt;ul&gt;) and list
+items (&lt;li&gt;):
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 118.  (xxx) -------------------------------->
@@ -12270,15 +12245,15 @@ opposite sides.  Neither contain or cover will distort or squish the
 image.  Its aspect ratio is maintained.
 
 Here we demonstrate the difference. A border has been applied to the
-paragraph to clearly show the bounds of the parent <p> element.
+paragraph to clearly show the bounds of the parent &lt;p&gt; element.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 122.  (xxx) -------------------------------->
+<!-------------------------------- 122. background sizing (272) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image122.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Background sizing." />
 </p>
 <!--
 <img src="./images/image122.png"
@@ -12462,7 +12437,9 @@ A shadow effect can be applied to the outlining rectangle of an element
 with the box-shadow CSS property.  The box-shadow property is typically
 controlled with four values separated by spaces:
 
+```
 box-shadow: <x-offset> <y-offset> <blur> <color>;
+```
 
 The offset values are dimension units (px, em, etc) can be positive or
 negative. Positive x values place the shadow to the right, and negative
@@ -12490,7 +12467,9 @@ style="width:6.5in;height:1.93264in" />
 This CSS property takes the same values as box-shadow, however, the
 shadow is applied directly to the text shapes:
 
+```
 text-shadow:  <x-offset> <y-offset> <blur> <color>;
+```
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- 127. blurred majestic 12 (276) --------------------------------->
@@ -12545,6 +12524,7 @@ normally be.  Similar to margin, there are four padding properties.  The
 values are dimension units that can be 0 or a positive value; negative
 values are not allowed.
 
+```
 padding-top: 0;
 
 padding-right: 1em;
@@ -12552,14 +12532,17 @@ padding-right: 1em;
 padding-bottom: 10px;
 
 padding-left: 12px;
+```
 
 Similar to margin, this can be abbreviated with the padding property.
 
+```
 padding: <top> <right> <bottom> <left>;
 
 padding: <top and bottom> <right and left>;
 
 padding: <all>;
+```
 
 When decorative CSS is not used by many CSS newbies, use padding like
 margin, to space things out. Note: That is not correct. Margins make
@@ -12636,7 +12619,9 @@ various children of an element based on their index, or to other
 interactions with the browser. Best of all, pseudo classes are easy to
 use.
 
+```
 a:visited { color: purple; }
+```
 
 Above us we see a tag selector (a) followed by a pseudo class, which
 consists of a colon and a word (e.g. :visited ). This particular CSS
@@ -12648,19 +12633,23 @@ A full list of pseudo classes can be
 found [here](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes). Let's
 look at some of the most common ones.
 
+```
 :visited
 
 a:visited { color: purple; }
+```
 
 The :visited pseudo class is usually put on a selector that resolves to
 an <a> tag. It enables you to define a style for the visited state of
 the link. For example, if the user has already been to that Web site,
 the :visited style will be applied.
 
+```
 :hover / :active
 
 li:hover  { background-color: red; }  
 li:active { background-color: green; }
+```
 
 The :hover pseudo class lets you change the style for an element when
 the mouse is hovering above it.  The :active pseudo class is applied
@@ -12680,10 +12669,12 @@ mouse is over one of the list items.  
    alt="Hover pseudo-class." />
 </p>
 
+```
 :nth-child
 
 tr:nth-child(odd)  { background-color: lightgray; }  
 tr:nth-child(even) { background-color: white; }
+```
 
 The :nth-child pseudo class is very handy.  Unlike the pseudo classes
 we've seen so far, it expects a parameter. The pseudo class always ends
@@ -13147,7 +13138,7 @@ and order — more flexbox concepts.
 in CSS.
 <i>Note</i>: This ENTIRE section is OPTIONAL.
 
-<b><i>6.6 Recipe project:</i><b> Let's get "responsive" — how to make your Web
+<b><i>6.6 Recipe project:</i></b> Let's get "responsive" — how to make your Web
 page look good on differently sized devices.
 
 <!------------------------------------------------------------------------------------------------>
@@ -13283,7 +13274,7 @@ The block level:
 -   appears below and to the left of their block level neighbors (like a
     carriage return on a typewriter going to the next new line)
 
--   &lt;b&gt; will expand to fill the width of the parent container by default</b>
+-   &lt;b&gt; will expand to fill the width of the parent container by default
 
 -   respects all margin properties
 
@@ -13384,7 +13375,7 @@ calculation of the height of the line it falls on
 inline-block elements respect width and height properties
 
 In some browsers, some of the form elements default to inline-block
-(like <button>, <select>, and <input>)
+(like &lt;button&gt;, &lt;select&gt;, and &lt;input&gt;)
 
 Here is the overlapping background style presented again, but this time
 instead of using line-height to solve the problem, we simply make the
@@ -13739,8 +13730,8 @@ siblings have no effect on an absolutely positioned element that has
 some positioning properties set (left, top, etc.)
 
 Let's take a simple example.  Here we have a paragraph that contains
-some text and an inner <q>.  For a better illustration, the paragraph
-has its height set and a border applied.  The <q> is positioned
+some text and an inner &lt;q&gt;.  For a better illustration, the paragraph
+has its height set and a border applied.  The &lt;q&gt; is positioned
 absolutely.
 
 <!------------------------------------------------------------------------------------------------>
@@ -13801,10 +13792,10 @@ There are four list items each containing child spans which are
 absolutely positioned. Two of the list items are position:relative, so
 the spans are positioned starting from their rectangle.  But two of the
 list items are position:static (the default), so the spans are moved up
-to the <ul> (which is also position:relative) where they overlap each
+to the &lt;ul&gt; (which is also position:relative) where they overlap each
 other. (The red 1 is hidden behind the red 2). Borders have been added
 in the result below, so you can easily see the rectangle
-for  <li> versus <ul>.
+for  &lt;li&gt; versus &lt;ul&gt;.
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 142.  (303) -------------------------------->
@@ -13854,10 +13845,10 @@ positioning, it may also have to start explicitly setting the dimensions
 of containers, which makes the overall design brittle and less
 adaptable.
 
-In the example below, there are two lists (<ul>) each with a fat
+In the example below, there are two lists (&lt;ul&gt;) each with a fat
 border. The list on the left is normal - its children contribute to
-making the <ul> taller and the fat border extends around, enclosing
-everything correctly. But the list items (<li>) on the right are
+making the &lt;ul&gt; taller and the fat border extends around, enclosing
+everything correctly. But the list items (&lt;li&gt;) on the right are
 positioned absolutely.  So those list items on the right do not
 contribute to the height of the parent. As a result, it ends up with a
 height of 0, as if it were empty. The fat border just becomes a fat flat
@@ -13995,7 +13986,7 @@ We've provided you with a starter project file. The code is included below in th
 This simple file has two block level elements (the paragraphs) and two spans, which are inline. Additionally, there are several classes defined for you. 
 Try the following:
 •	Notice immediately each paragraph gets its own line.
-•	Notice the inline span that follows the paragraph (</p>) starts on its own line. However, the second inline span directly follows its predecessor - it does not get a new line, it continues on the same line.
+•	Notice the inline span that follows the paragraph (&lt;/p&gt;) starts on its own line. However, the second inline span directly follows its predecessor - it does not get a new line, it continues on the same line.
 •	Try applying the brect and prect classes to the elements. (via class="brect" ). When applied to the paragraphs, you can see that the classes make the width of the paragraph stretch to the edge of the window. It is the same as its parent width.  Note that its height is no more than its content.  But the background colors and borders are tight to the spans.
 •	Try applying the w class to each of the elements. This class sets the width property. It works on both paragraphs, but it has no effect on the two spans.
 •	Try applying the h class to each element. This class sets the height property. Again, the paragraphs are affected, but the spans are not.
@@ -14059,12 +14050,12 @@ images and &lt;img&gt; tags.
 
 <h4>There are six sizing properties. They are;</h4>
 <ul>
-<li>width</li>
-<li>min-width</li>
-<li>max-width</li>
-<li>height</li>
-<li>min-height</li>
-<li>max-height</li>
+  <li>width</li>
+  <li>min-width</li>
+  <li>max-width</li>
+  <li>height</li>
+  <li>min-height</li>
+  <li>max-height</li>
 </ul>
 <p>
 The width and height properties are a simple way to explicitly set the
@@ -14567,16 +14558,18 @@ the start and end points for both the main and cross axes.  Take a
 moment and visualize how both the axes *and* the start and end points
 would change for each of these combinations for flex-flow :
 
+```
 <ul>
-<li>row wrap</li><br/>
-<li>row wrap-reverse</li><br/>
-<li>row-reverse wrap</li><br/>
-<li>row-reverse wrap-reverse</li><br/>
-<li>column wrap</li><br/>
-<li>column wrap-reverse</li><br/>
-<li>column-reverse wrap</li><br/>
-<li>column-reverse wrap-reverse</li><br/>
+  <li>row wrap</li><br/>
+  <li>row wrap-reverse</li><br/>
+  <li>row-reverse wrap</li><br/>
+  <li>row-reverse wrap-reverse</li><br/>
+  <li>column wrap</li><br/>
+  <li>column wrap-reverse</li><br/>
+  <li>column-reverse wrap</li><br/>
+  <li>column-reverse wrap-reverse</li><br/>
 </ul>
+```
 
 <h4>Main axis for sizing, cross axis for alignment</h4>
 
@@ -14586,13 +14579,15 @@ are <b>not</b> used in the names of any CSS properties or values.  The
 following properties control behavior along the main axis. We are
 already familiar with all of them, except justify-content.
 
+```
 <ul>
-<li>flex</li><br/>
-<li>flex-grow</li><br/>
-<li>flex-shrink</li><br/>
-<li>flex-basis</li><br/>
-<li>justify-content</li><br/>
+  <li>flex</li><br/>
+  <li>flex-grow</li><br/>
+  <li>flex-shrink</li><br/>
+  <li>flex-basis</li><br/>
+  <li>justify-content</li><br/>
 </ul>
+```
 
 All the properties above control how a flex item might be *sized*,
 except justify-content, which controls how a flexbox container spaces
@@ -14601,11 +14596,13 @@ out and positions flex items. 
 And, obversely, the following list of properties controls behavior along
 the cross axis:
 
+```
 <ul>
-<li>align-content</li><br/>
-<li>align-items</li><br/>
-<li>align-self</li><br/>
+  <li>align-content</li><br/>
+  <li>align-items</li><br/>
+  <li>align-self</li><br/>
 </ul>
+```
 
 These properties all govern how a flex item might be *aligned* or
 positioned along the cross axis. They also support a
@@ -14846,10 +14843,10 @@ the order value of 1, the second is 2, etc.  And you can override it.
 <h4>CSS flexbox resources</h4>
 
 <ul>
-<li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">A complete guide to Flexbox</a> (CSS Tricks) - <b>updated 7 April 2021</b></li><br/>
-<li><a href="https://www.smashingmagazine.com/2018/10/flexbox-use-cases/" target="_blank">Use cases for Flexbox</a> (Smashing Magazine) - <b>October 2018</b></li><br/>
-<li><a href="https://www.w3.org/TR/css-flexbox/" target="_blank">CSS Flexible Box Layout</a>, the W3C specification</li><br/>
-<li><a href="https://flexboxfroggy.com/" target="_blank">Flexbox froggy</a> (game to practice CSS flexbox code)</li><br/>
+   <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">A complete guide to Flexbox</a> (CSS Tricks) - <b>updated 7 April 2021</b></li><br/>
+   <li><a href="https://www.smashingmagazine.com/2018/10/flexbox-use-cases/" target="_blank">Use cases for Flexbox</a> (Smashing Magazine) - <b>October 2018</b></li><br/>
+   <li><a href="https://www.w3.org/TR/css-flexbox/" target="_blank">CSS Flexible Box Layout</a>, the W3C specification</li><br/>
+   <li><a href="https://flexboxfroggy.com/" target="_blank">Flexbox froggy</a> (game to practice CSS flexbox code)</li><br/>
 </ul>
 
 <!------------------------------------------------------------------------------------------------>
@@ -14940,7 +14937,7 @@ slots empty.
 <p align="center" width="100%">
 <img src="./images/image178.png?raw=true"
    width="65%"
-   alt="Grid module." />
+   alt="Grid module: lines, columns and rows for cell/area (slot)." />
 </p>
 
 The Grid module provides several different ways to define such a grid
@@ -14994,8 +14991,8 @@ cases.
 
 <h4>CSS grid resources</h4>
 <ul>
-<li><a href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank">A complete guide to Grid</a> (CSS Tricks) - <i>updated 10 March 2021</i></li>
-<li><a href="https://www.w3.org/TR/css-grid-1/" target="_blank">CSS Grid</a>, the W3C specification -   <a href="https://gridbyexample.com/" target="_blank">Grid by example</a>: this site is a collection of <i>examples</i>, video and other information to help you learn CSS <i>Grid Layout - by Rachel Andrew</i>.</li>
+   <li><a href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank">A complete guide to Grid</a> (CSS Tricks) - <i>updated 10 March 2021</i></li>
+   <li><a href="https://www.w3.org/TR/css-grid-1/" target="_blank">CSS Grid</a>, the W3C specification -   <a href="https://gridbyexample.com/" target="_blank">Grid by example</a>: this site is a collection of <i>examples</i>, video and other information to help you learn CSS <i>Grid Layout - by Rachel Andrew</i>.</li>
 </ul>
 
 <!------------------------------------------------------------------------------------------------>
@@ -15167,4 +15164,4 @@ These are the final changes to our recipe project for this unit.
 
 <h4>The end...</h4>
 
-<h3><b>Last Updated 09-27-2022 11:32am</b></h3>
+<h3><b>Last Updated 09-27-2022 12:57pm</b></h3>
