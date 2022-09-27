@@ -9776,12 +9776,12 @@ section:
 
 | Type          | Element                         |
 |---------------|---------------------------------|
-|               | <table>                       |
-|               | <caption>                     |
-| Row groups    | <thead>, <tfoot>, <tbody> |
-| Column groups | <colgroup>, <col>           |
+|               | &lt;table&gt;                       |
+|               | &lt;caption&gt;                     |
+| Row groups    | &lt;thead&gt;, &lt;tfoot&gt;, &lt;tbody&gt; |
+| Column groups | &lt;colgroup&gt;, &lt;col&gt;           |
 | Table row     | &lt;tr&gt;                          |
-| Table cells   | <th>, <td>                  |
+| Table cells   | &lt;th&gt;, &lt;td&gt;                  |
 
 We will use these elements to build our table as we go.
 
@@ -10010,7 +10010,9 @@ achieve styling effects specific to a column. 
    alt="Color column headers." />
 </p>
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-2-3">5.2.3 The &lt;thead&gt;, &lt;tbody&gt; and &lt;tfoot&gt; tags</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Similar to an HTML document, a table in HTML can be split into header,
 body and footer. We use these three tags;
@@ -11404,7 +11406,7 @@ little more visually appealing inside your document.
 
 2.  Create the following table with same cell content:
 
-| <b>Attribute</b> | <b>Description<b/>                                | <b>Usage<b/>                         |
+| <b>Attribute</b> | <b>Description<b/>                          | <b>Usage<b/>                      |
 |---------------|------------------------------------------------|-----------------------------------|
 | src           | Used to specify the URL of the image           | src=“images/test.png"             |
 | alt           | Used to specify replacement text for the image | alt=“Test image for HTML5 course” |
