@@ -11755,7 +11755,7 @@ Your browser does not support the HTML5 video element.
 <h3 id="ch5-4-1">5.4.1 The iframes tag (OPTIONAL)</h3>
 <!------------------------------------------------------------------------------------------------>
 
-***Note:** This section is optional material included for the curious.
+*</b>Note:</b> This section is optional material included for the curious.
 It will not appear on any graded question.*
 
 There are tags for all kinds of content in your Web page, text, images,
@@ -12009,7 +12009,7 @@ preceding it.
 
 Like ismap, usemap cannot be used by itself. In ismap, we used the
 anchor tag to specify the map file. In usemap, we use
-the **&lt;area&gt;** element as a child of **&lt;map&gt;** element to specify
+the </b>&lt;area&gt;</b> element as a child of </b>&lt;map&gt;</b> element to specify
 the coordinates and the page it should navigate to. The usemap value
 should match the map element's name or id attribute. 
 
@@ -12021,11 +12021,11 @@ should match the map element's name or id attribute. 
 </map>
 ```
 
-**&lt;map&gt;** - defines a client-side image map and is used to create a
+</b>&lt;map&gt;</b> - defines a client-side image map and is used to create a
 relationship between the image and the map by matching the map name and
 usemap's value. It contains a set of area elements.
 
-**&lt;area&gt;** - defines the areas that can be clicked and the pages it
+</b>&lt;area&gt;</b> - defines the areas that can be clicked and the pages it
 should navigate to. Typically takes the shape of the area, coordinates
 of the area, URL of the page it should redirect to and the alt attribute
 (short description). 
@@ -12478,7 +12478,7 @@ A common trap that newbies fall into is to discover
 the width, height, left and top CSS properties and to start blindly
 using them.
 
-These are useful properties, however, they should <b>not<b> be your first
+These are useful properties, however, they should <b>not</b> be your first
 choice.  These CSS properties depend upon *other* properties before they
 can even be used, and they can have unintended consequences. We'll
 explore them more in next module when covering Layout.  
@@ -12559,8 +12559,8 @@ next module. Here is a quick rundown:
 -   height and width properties do not work on inline elements.
 
 -   Many elements have natural behaviors that occur when height and
-    width are <b>not<b> set. These are generally advantageous. However, by
-    setting the width and height you <b>lose<b> those advantages. We'll
+    width are <b>not</b> set. These are generally advantageous. However, by
+    setting the width and height you <b>lose</b> those advantages. We'll
     understand this in next module.
 
 -   Most Web pages are viewed in a variety of browser sizes, especially
@@ -12704,20 +12704,20 @@ W3C.
 
 <h4>Executive summary</h4>
 
--   <b>Logical source order:**  
+-   <b>Logical source order:</b>  
     The order of the HTML content should make sense even without the
     CSS: for accessibility, mobile optimization, device adaptability,
     and long-term maintainability.
 
--   <b>Liquid layouts and relativity:**  
+-   <b>Liquid layouts and relativity:</b>  
     Use smart relative sizing: to optimize layouts while minimizing
     media query code forks.
 
--   <b>Media queries:**  
+-   <b>Media queries:</b>  
     Adapt to screen size changes; get font size adaptation free by
     using ems.
 
--   <b>Prevent zombie code:**  
+-   <b>Prevent zombie code:</b>  
     Dead code may come alive as CSS changes. Delete it before it does,
     and ruins your layout.
 
@@ -12759,8 +12759,8 @@ Your favorite browser is not always right.
         if your content is tabular like a catalog, a calendar, or a
         price list, then the table element is the correct markup.
 
--   <b>Linearized logical source order  
-    <b>The order of the HTML content should make sense even without the
+-   <b>Linearized logical source order
+    </b>The order of the HTML content should make sense even without the
     CSS.  
     Benefits are numerous as it *works best*:
 
@@ -12772,7 +12772,7 @@ Your favorite browser is not always right.
 
     -   as a foundation for device adaptation (media queries)
 
--   <b>Linguistic variations**: set the language correctly for better
+-   <b>Linguistic variations</b>: set the language correctly for better
     typography (see the section entitled "Why Internationalization is
     important").
 
@@ -12786,10 +12786,10 @@ Your favorite browser is not always right.
    alt="Red Testing Button." />
 </p>
 
--   <b>Test without CSS**: turn off CSS, and if the page makes no sense,
+-   <b>Test without CSS</b>: turn off CSS, and if the page makes no sense,
     fix your markup.
 
--   <b>Test in multiple environments**:
+-   <b>Test in multiple environments</b>:
 
     -   Resize the window
 
@@ -12799,15 +12799,15 @@ Your favorite browser is not always right.
 
     -   Navigate by keyboard
 
--   <b>Test in multiple browsers**: remember that just testing in Chrome
+-   <b>Test in multiple browsers</b>: remember that just testing in Chrome
     does not work for everyone!  ;)
 
 <h4>Adaptability</h4>
 
--   <b>Media queries**: set media query breakpoints in em or ch, not
+-   <b>Media queries</b>: set media query breakpoints in em or ch, not
     always in px.
 
--   <b>Liquid layouts and relativity**: what is your sizing based on?
+-   <b>Liquid layouts and relativity</b>: what is your sizing based on?
 
 -   Containing block size? → Use percents.
 
@@ -12834,13 +12834,13 @@ Absolute units are usually the wrong answer.
 
 -   Simplify selectors if you need to decrease specificity
 
--   <b>Don't over-escalate**: understand your code, and don't overkill.
+-   <b>Don't over-escalate</b>: understand your code, and don't overkill.
 
--   *For example, avoid:  
-    *        . z-index: 9999999999999999999999999999999999999;  
+-   <i>For example, avoid:  
+    </i>        . z-index: 9999999999999999999999999999999999999;  
             . position: absolute; left: -10000000000px
 
--   <b>Drop dead code**: you tried something and it didn't work? Delete
+-   <b>Drop dead code</b>: you tried something and it didn't work? Delete
     it right away!
 
 -   Code to Standard
@@ -13243,7 +13243,7 @@ The block level:
 -   appears below and to the left of their block level neighbors (like a
     carriage return on a typewriter going to the next new line)
 
--   &lt;b&gt; will expand to fill the width of the parent container by default<b>
+-   &lt;b&gt; will expand to fill the width of the parent container by default</b>
 
 -   respects all margin properties
 
@@ -13264,17 +13264,17 @@ Inline elements:
     do not drop to the next line unless they must "wrap".
 
 -   <b>by default, the width is simply the width of the content of the
-    element, plus any padding<b>
+    element, plus any padding</b>
 
--   <b>ignore top and bottom margin settings<b>
+-   <b>ignore top and bottom margin settings</b>
 
--   <b>ignore width and height properties<b>
+-   <b>ignore width and height properties</b>
 
 -   are subject to vertical-align property as well as
     CSS white-space settings
 
 -   support padding, but
-    any padding-top or padding-bottom does <b>not<b> contribute to the
+    any padding-top or padding-bottom does <b>not</b> contribute to the
     calculation of the height of the text line it sits upon
 
 -   cleave to the baseline where they are being placed
@@ -13293,25 +13293,27 @@ applied, but no extra room is being made for it above or below, so its
 background is overlapping the lines above and below.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ ###.  (xxx) -------------------------------->
+<!------------------------------ 136.  (xxx) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image###.png?raw=true"
+<img src="./images/image136.png?raw=true"
    width="65%"
    alt="." />
 </p>
+<!---
 <img src="./images/image138.png"
 style="width:6.5in;height:1.52708in" />
+--->
 
-So here we prevent the overlap by setting the line-height of the span.
+Here we prevent the overlap by setting the line-height of the span.
 However, this solution should not be considered optimal.  Better is to
 change the span to be display:inline-block, which is discussed below.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 139. template (##) -------------------------------->
+<!------------------------------ 137. template (##) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image139.png?raw=true"
+<img src="./images/image137.png?raw=true"
    width="65%"
    alt="." />
 </p>
@@ -13350,10 +13352,10 @@ span element display:inline-block.  Note that the margin-top is also
 respected. 
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 140.  (##) -------------------------------->
+<!------------------------------ 138.  (##) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image140.png?raw=true"
+<img src="./images/image138.png?raw=true"
    width="65%"
    alt="." />
 </p>
@@ -13374,12 +13376,12 @@ the differences between block, inline, and inline-block display.
 <h3 id="ch6-2-2">6.2.2 Horizontal and vertical centering</h3>
 <!------------------------------------------------------------------------------------------------>
 
-<b>Horizontal centering<b>
+<b>Horizontal centering</b>
 
 Now that we've covered inline versus block display, we can intelligently
 discuss centering. Let's start with inline elements.
 
-<b>inline<b>
+<b>inline</b>
 
 How do you center an inline element?  As we recall, inline elements are
 positioned along the baseline, in the natural flow of the text or
@@ -13398,7 +13400,7 @@ element will be centered */
 If this isn't satisfactory, consider changing the element to be
 inline-block or block.
 
-<b>block<b>
+<b>block</b>
 
 How do you center a block level element? First, you may recall that
 block level elements take the width of their parent by default. If the
@@ -13411,7 +13413,7 @@ div { width: 200px; } 
 
 Now that we've sized the element, how to center it?
 
-<b>margin magic<b>
+<b>margin magic</b>
 
 If set to auto, then the left and right margins will center the element.
  This is the simplest and best way of centering a block level element.
@@ -13425,15 +13427,15 @@ Horizontal centering - a better way
 Do auto margins seem spooky to you?  There is a better way to achieve
 centering and its name is *flexbox*.  We'll read more about it later. 
 
-<b>Vertical centering<b>
+<b>Vertical centering</b>
 
-<b>inline<b>
+<b>inline</b>
 
 Inline elements respect the vertical-align property. This determines how
 the inline element is aligned relative to the baseline it is being laid
 upon. This may or may not solve your vertical centering conundrum.
 
-<b>block<b>
+<b>block</b>
 
 There is no margin:auto approach to vertical centering. There are some
 complicated systems that folk have developed, but the shortest and best
@@ -13565,7 +13567,7 @@ feature is only available to fixed (and absolute) elements.
 <h3 id="ch6-2-4">6.2.4 Positioning (OPTIONAL)</h3>
 <!------------------------------------------------------------------------------------------------>
 
-<b>Note:** This section is optional material included for the curious. It
+<b>Note:</b> This section is optional material included for the curious. It
 will not appear on any graded question.
 
 <h4>Positioned elements</h4>
@@ -13588,14 +13590,14 @@ have different interpretations.   
 
 #### relative
 
-position: relative;
+<h4>position: relative;</h4>
 
 The relative value is exactly like static in that the "flowing text"
 model of layout is setting the initial position for the element
 (including margins and display). However, unlike static, elements with
 relative position respect the positioning 
 properties (left, top, right, and bottom).  These properties will move
-the named edge of the element <b>from<b> its initial position. So a value
+the named edge of the element <b>from</b> its initial position. So a value
 of top: 20px;  will move the top edge of the element 20 pixels further
 down the page.  And similarly, a value of left: 20px; will move an
 element 20 pixels from its original left edge, which means move it 20
@@ -13613,8 +13615,8 @@ should be aware:
 
 ### Independence - margin-top vs top
 
-*IMPORTANT*: The positioning properties (left, top, right, and bottom)
-adjust the placement of the element*** independently of its siblings***.
+<i>IMPORTANT</i>: The positioning properties (left, top, right, and bottom)
+adjust the placement of the element independently of its siblings.
  What does this mean?   Let's imagine we have a list and we want to move
 one of the items a little further down the page. Should we
 use margin-top to move it? Or position:relative in conjunction with
@@ -13629,14 +13631,10 @@ positioning property (top).   When we use top, the "Third" item appears
 overlapping the Fourth and Fifth items, as they did not move at all. 
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ ###.  (xxx) -------------------------------->
+<!------------------------------ 139.  (300) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image###.png?raw=true"
-   width="65%"
-   alt="." />
-</p>
-<img src="./images/image141.png"
+<img src="./images/image139.png"
 style="width:6.5in;height:1.83681in" />
 
 This is why, in our introduction to CSS, we said that margin should be
@@ -13650,8 +13648,7 @@ cannot also use the bottom property. If both properties are applied,
 then the CSS precedence rules will determine the "winner", which is
 usually just the last one applied.
 
-Again, this is unlike margins, where
-both margin-right and margin-left can be meaningfully used.
+Again, this is unlike margins, where both margin-right and margin-left can be meaningfully used.
 
 No automatic size adjustments
 
@@ -13669,15 +13666,16 @@ it is position:relative and moved with the left property, it can leave
 the bounds of its parent, or go offscreen.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ ###.  (xxx) -------------------------------->
+<!------------------------------ 140.  (301) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image###.png?raw=true"
+<img src="./images/image140.png?raw=true"
    width="65%"
    alt="." />
 </p>
-<img src="./images/image142.png"
+<!-- <img src="./images/image142.png"
 style="width:6.5in;height:1.45139in" />
+-->
 
 Admittedly, this is not necessarily a "limitation", for many layout
 situations preserving the size is exactly what is wanted. 
@@ -13706,15 +13704,17 @@ has its height set and a border applied.  The <q> is positioned
 absolutely.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ ###.  (xxx) -------------------------------->
+<!------------------------------ 141.  (302) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image###.png?raw=true"
+<img src="./images/image141.png?raw=true"
    width="65%"
    alt="." />
 </p>
+<!---
 <img src="./images/image143.png"
 style="width:6.5in;height:2.33889in" />
+--->
 
 So that seems fairly straightforward and useful. But there are some
 subtle caveats and trade-offs of which you must be wary:
@@ -13738,8 +13738,8 @@ subtle caveats and trade-offs of which you must be wary:
 Interpretation of positioning properties (top, left, etc.) depends ON
 parent/grandparent being positioned elements (or not).
 
-*IMPORTANT*: For an absolutely positioned element, ***where*** the left,
-top, etc. are calculated ***from* <b>depends upon the position property
+<i>IMPORTANT</i>: For an absolutely positioned element, ***where*** the left,
+top, etc. are calculated ***from* **depends upon the position property
 of the parent and grandparents of the element in question. If the parent
 of the element is a positioned element (meaning its position is set to
 anything except position:static), then an absolutely positioned
@@ -13767,15 +13767,17 @@ in the result below, so you can easily see the rectangle
 for  <li> versus <ul>.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ ###.  (xxx) -------------------------------->
+<!------------------------------ 142.  (303) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image###.png?raw=true"
+<img src="./images/image142.png?raw=true"
    width="65%"
    alt="." />
 </p>
+<!---
 <img src="./images/image143.png"
 style="width:6.5in;height:1.83681in" />
+--->
 
 Best practice: use both horizontal and vertical positioning property on
 every absolute element
@@ -13801,7 +13803,7 @@ Whether you realize it or not, one of the most useful default behaviors
 is that the height of a parent element is automatically extended to
 include all its children, its content. Designers working in CSS
 unconsciously lean on this fact as they plan layouts and adjust element
-positions. But this is <b>not<b> true for children that are positioned
+positions. But this is <b>not</b> true for children that are positioned
 absolutely.  Absolutely positioned children do not contribute to the
 size of the parent element. A parent element that contains only
 absolutely positioned children will have a height of 0, has no
@@ -13871,7 +13873,9 @@ grow or shrink based on the size of the ancestor it is positioning
 against.  Note that this feature is only available to absolute and fixed
 positioned elements.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch6-2-5">6.2.5 'z-index' (OPTIONAL)</h3>
+<!------------------------------------------------------------------------------------------------>
 
 <b>Note</b>: this section is optional material included for the curious. It
 will not appear on any graded question.
@@ -14033,7 +14037,7 @@ However, if you look again at the descriptions for inline-block and
 block level elements above, you will notice that inline-block elements
 are *sized (height and width) to their content*.  And block level
 elements take the *width of their parent* and the *height of their
-content*. So these elements are fundamentally <b>variably <b>sized, and
+content*. So these elements are fundamentally <b>variably </b>sized, and
 this variability is one of the most powerful and useful aspects of these
 elements.
 </p><p>
@@ -14315,7 +14319,7 @@ The flex property provides a convenient way to abbreviate the three
 interrelated properties of flex-grow, flex-shrink, and flex-basis.
  The flex property *also* gives a flex item nice defaults for the
 optional properties.
-Therefore, flex:1; is <b>better<b> than flex-grow:1; . 
+Therefore, flex:1; is <b>better</b> than flex-grow:1; . 
 
 <h4>flex-grow</h4>
 
@@ -14537,7 +14541,7 @@ would change for each of these combinations for flex-flow :
 
 The terms *"main"* and *"cross"* appear in the descriptions of flexbox
 and in multiple online tutorials you might find. However, they
-are <b>not<b> used in the names of any CSS properties or values.  The
+are <b>not</b> used in the names of any CSS properties or values.  The
 following properties control behavior along the main axis. We are
 already familiar with all of them, except justify-content.
 
@@ -15122,4 +15126,4 @@ These are the final changes to our recipe project for this unit.
 
 <h4>The end...</h4>
 
-<h3><b>Last Updated 09-26-2022 10:19pm</b></h3>
+<h3><b>Last Updated 09-27-2022 2:32am</b></h3>
