@@ -12181,12 +12181,12 @@ like background-repeat, background-size, and background-attach (as well
 as several others). 
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 119.  (xxx) -------------------------------->
+<!--------------------------------- 117. background image (271) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image119.png?raw=true"
-   width="50%"
-   alt="." />
+<img src="./images/image117.png?raw=true"
+   width="65%"
+   alt="CSS property: backgrouind image." />
 </p>
 
 <h4>background-repeat</h4>
@@ -12197,12 +12197,12 @@ image itself, then the image will repeat and fill the space, like tiles.
 <h4>For example:</h4>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 120.  (xxx) -------------------------------->
+<!----------------------------- 118. repeat background image (271) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image120.png?raw=true"
-   width="50%"
-   alt="." />
+<img src="./images/image118.png?raw=true"
+   width="65%"
+   alt="CSS property: background image, repeated." />
 </p>
 
 The background-repeat property can be used to control this.  It's more
@@ -12221,12 +12221,12 @@ repeats. The space value will result in cropped images; it means
 of spacing. That is calculated for you.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 121.  (xxx) -------------------------------->
+<!------------------------- 119. repeat background image centered (272) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image121.png?raw=true"
-   width="50%"
-   alt="." />
+<img src="./images/image119.png?raw=true"
+   width="65%"
+   alt="CSS property: background image, centered repeat to avoid cropping." />
 </p>
 <!-- <img src="./images/image121.png"
 style="width:5in;height:2.11378in" />
@@ -12248,11 +12248,11 @@ Here we demonstrate the difference. A border has been applied to the
 paragraph to clearly show the bounds of the parent &lt;p&gt; element.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 122. background sizing (272) ---------------------------------->
+<!-------------------------------- 120. background sizing (272) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image122.png?raw=true"
-   width="50%"
+<img src="./images/image120.png?raw=true"
+   width="65%"
    alt="Background sizing." />
 </p>
 <!--
@@ -12281,12 +12281,12 @@ handle it for you. Otherwise there is a risk of stretching/distorting
 images. 
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 123.  (xxx) -------------------------------->
+<!------------------------------ 121. auto background size (273) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image123.png?raw=true"
-   width="50%"
-   alt="." />
+<img src="./images/image121.png?raw=true"
+   width="65%"
+   alt="Auto background size." />
 </p>
 <!--
 <img src="./images/image123.png"
@@ -12304,12 +12304,12 @@ image in the center of the element. This is useful even with repeating
 tiles. 
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 124.  (xxx) -------------------------------->
+<!--------------------------- 122. center background position (273) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image124.png?raw=true"
-   width="50%"
-   alt="." />
+<img src="./images/image122.png?raw=true"
+   width="65%"
+   alt="Center background position." />
 </p>
 <!--
 <img src="./images/image124.png"
@@ -12341,12 +12341,12 @@ include none, hidden, solid, dotted, dashed, double, groove, ridge, ins
 Here the visible border styles displayed on a gray border:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 125. silence is golden (xxx) -------------------------------->
+<!---------------------------------- 123. border styles (274) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image125.png?raw=true"
    width="65%"
-   alt="." />
+   alt="Border styling." />
 </p>
 <!--
 <img src="./images/image125.png"
@@ -14244,11 +14244,9 @@ started.
 The minimum scenario for using flexbox is to make use of two CSS rules,
 and better results are achieved with a third.
 
-```
-display:flex; on the flex container
-flex:1; on the flex items (the children of the flex container)
-(better)   flex-flow: row wrap; on the flex container.
-```
+1. display:flex; on the flex container
+2. flex:1; on the flex items (the children of the flex container)
+3. (better)   flex-flow: row wrap; on the flex container.
 
 Here is a series of screen captures showing these minimum options
 applied to a parent &lt;div&gt; and four identical paragraphs at various
@@ -14544,10 +14542,10 @@ wrap-reverse; it is vertical running bottom to top.
 <h4>Start and end</h4>
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------- 152. flex container and flex-flow (324) ---------------------------->
+<!--------------------------- 170. flex container and flex-flow (324) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image152.png?raw=true"
+<img src="./images/image170.png?raw=true"
    width="65%"
    alt="Flex Container and Flex-flow" />
 </p>
@@ -14558,7 +14556,6 @@ the start and end points for both the main and cross axes.  Take a
 moment and visualize how both the axes *and* the start and end points
 would change for each of these combinations for flex-flow :
 
-```
 <ul>
   <li>row wrap</li><br/>
   <li>row wrap-reverse</li><br/>
@@ -14569,7 +14566,6 @@ would change for each of these combinations for flex-flow :
   <li>column-reverse wrap</li><br/>
   <li>column-reverse wrap-reverse</li><br/>
 </ul>
-```
 
 <h4>Main axis for sizing, cross axis for alignment</h4>
 
@@ -14579,7 +14575,6 @@ are <b>not</b> used in the names of any CSS properties or values.  The
 following properties control behavior along the main axis. We are
 already familiar with all of them, except justify-content.
 
-```
 <ul>
   <li>flex</li><br/>
   <li>flex-grow</li><br/>
@@ -14587,7 +14582,6 @@ already familiar with all of them, except justify-content.
   <li>flex-basis</li><br/>
   <li>justify-content</li><br/>
 </ul>
-```
 
 All the properties above control how a flex item might be *sized*,
 except justify-content, which controls how a flexbox container spaces
@@ -14596,13 +14590,11 @@ out and positions flex items. 
 And, obversely, the following list of properties controls behavior along
 the cross axis:
 
-```
 <ul>
   <li>align-content</li><br/>
   <li>align-items</li><br/>
   <li>align-self</li><br/>
 </ul>
-```
 
 These properties all govern how a flex item might be *aligned* or
 positioned along the cross axis. They also support a
@@ -14790,10 +14782,10 @@ In the example below, we have a flex container
 with flex-flow:row; and align-items:center;.  The individual items have
 their align-self property set.
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------- 158. flex container (330) ------------------------------------>
+<!--------------------------------- 176. flex container (341) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image158.png?raw=true"
+<img src="./images/image176.png?raw=true"
    width="65%"
    alt="Flex Container with flex-flow and align." />
 </p>
@@ -14828,10 +14820,10 @@ The order property, when applied to an individual flexbox item, lets you
 set its order. By default, the first item in a flexbox container has
 the order value of 1, the second is 2, etc.  And you can override it.
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 159. order property in flex box (330) ----------------------------->
+<!---------------------------- 177. order property in flex box (342) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image159.png?raw=true"
+<img src="./images/image177.png?raw=true"
    width="85%"
    alt="Order property in flex box." />
 </p>
@@ -14948,46 +14940,44 @@ vertical lines, the properties from the CSS Grid module provide more
 control over the alignment of elements than most other properties in
 CSS, such as the table-related properties or the 'float' and 'clear'
 properties, while also allowing elements to be displayed out of order.
-As such they are especially appreciated for (Web) applications with user
-interfaces that are made with HTML and CSS. The Grid module is not yet
-the ‘<a href="https://en.wikipedia.org/wiki/Grid_(graphic_design)" target="_blank">design grid</a>)’
-that typographers want for the layout of magazines and books, but it is
-a first step. (E.g., one obvious thing to do, applying grid properties
-to an HTML table, doesn't work, because the properties do not handle
-nested elements yet.) Even though this is only level 1 of the module, it
-is well worth trying out.
 
-The properties from the Grid module have only been available in major
-browsers since mid 2017 (see the <a href="http://caniuse.com/#feat=css-grid" target="_blank">status of browser
-support</a>). But the ideas behind the
-Grid module aren't new. From the start of CSS, there have been proposals
-to use CSS properties to define a template or matrix to guide the layout
-of elements, e.g.: <a href="http://www.w3.org/TR/WD-layout" target="_blank">Frame-based
-layout</a>, <a href="http://www.w3.org/TR/2005/WD-css3-layout-20051215/" target="_blank">Advanced
-Layout</a> (later
-called <a href="http://www.w3.org/TR/css-template-3/" target="_blank">Template Layout</a>), <a href="https://github.com/gss" target="_blank">Grid
-Style Sheets</a> and <a href="https://constraints.cs.washington.edu/web/ccss-uwtr.pdf" target="_blank">Constraint
-CSS</a>. But only
-recently has technology become good enough to support some (not all!) of
-those ideas.
+As such they are especially appreciated for (Web) applications with user
+interfaces that are made with HTML and CSS. 
+
+The Grid module is not yet the (‘<a href="https://en.wikipedia.org/wiki/Grid_(graphic_design)" target="_blank">design grid</a>)’
+that typographers want for the layout of magazines and books, but it is a first step. (E.g., one obvious thing to do, applying grid properties to an HTML table, doesn't work, because the properties do not handle nested elements yet.)
+
+Even though this is only level 1 of the module, it is well worth trying out.
+
+The properties from the Grid module have only been available in major browsers since mid 2017 
+(see the <a href="http://caniuse.com/#feat=css-grid" target="_blank">status of browser support</a>). 
+
+But the ideas behind the Grid module aren't new.
+
+From the start of CSS, there have been proposals to use CSS properties to define a template or matrix to guide the layout
+of elements, e.g.: <a href="http://www.w3.org/TR/WD-layout" target="_blank">Frame-based layout</a>, <a href="http://www.w3.org/TR/2005/WD-css3-layout-20051215/" target="_blank">Advanced Layout</a> (later called <a href="http://www.w3.org/TR/css-template-3/" target="_blank">Template Layout</a>), <a href="https://github.com/gss" target="_blank">Grid
+Style Sheets</a> and <a href="https://constraints.cs.washington.edu/web/ccss-uwtr.pdf" target="_blank">Constraint CSS</a>. 
+
+But only recently has technology become good enough to support some (not all!) of those ideas.
 
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch6-5-3">6.5.3 CSS Grid resources</h3>
 <!------------------------------------------------------------------------------------------------>
 
 If you look at the CSS Grid module, you may notice that it has rather a
-large number of properties. That is because it tries to allow different
-manners of writing style sheets. There are many shorthand properties and
-many alternative ways to define the same grid. In practice, most style
-sheet writers will select a set of just three or four properties that
-suits their way of working.
+large number of properties. 
 
-When considering the CSS Grid module, also look at the CSS Flexible Box
-module. It only provides for alignment of elements in a single row or
-column, but has some features that Grid doesn't have (and it has been
-around longer and works in older browsers). On the other hand, even for
-a single row or column, the Grid properties may turn out easier in some
-cases.
+That is because it tries to allow different manners of writing style sheets.
+
+There are many shorthand properties and many alternative ways to define the same grid. 
+
+In practice, most style sheet writers will select a set of just three or four properties that suits their way of working.
+
+When considering the CSS Grid module, also look at the CSS Flexible Box module.
+
+It only provides for alignment of elements in a single row or column, but has some features that Grid doesn't have (and it has been around longer and works in older browsers). 
+
+On the other hand, even for a single row or column, the Grid properties may turn out easier in some cases.
 
 <h4>CSS grid resources</h4>
 <ul>
@@ -15151,10 +15141,8 @@ We fixed those issues at the top.
 
 These are the final changes to our recipe project for this unit.
 </p>
+
 <!---
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------ ##. template (##) -------------------------------->
-<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image###.png?raw=true"
    width="65%"
