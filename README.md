@@ -4926,7 +4926,7 @@ Please find below suggested activities to help you practice:
 
 <h3 id="ch2-4-1">2.4.1 Introduction</h3>
 
-<h4>The &lt;img&gt; tag
+<h4>The &lt;img&gt; tag</h4>
 
 In this age of visual culture, what is a Web page without images?
 Boring! Pictures and images make everything more interesting and
@@ -4951,9 +4951,9 @@ source. 
     <img src="images/image-with-relative-url.png" alt="Example Tutorial
     Image">
 
-2.  Path to an image file that resides elsewhere on the Web:  
-    <img src="https://www.example.com/image-with-absolute-url.png" alt="Example
-    Tutorial Image">
+2.  Path to an image file that resides elsewhere on the Web: 
+    <img src="https://www.example.com/image-with-absolute-url.png"
+	alt="Example Tutorial Image">
 
 The type of image file format (i.e. png, jpeg, etc.) you should use does
 not depend on the img element in HTML5 but on the browser that renders
@@ -4996,7 +4996,7 @@ Here is a list of things to keep in mind when using the src attribute:
     maintain. It will work on localhost or if you switch domain names
     without requiring any changes.
 
-<i>Image: Formats</i>
+<h4>Image: Formats</h4>
 
 Before you begin using images in your Web site, you are advised to visit
 this [Web
@@ -5027,16 +5027,13 @@ information to be aware of.
     was <a href="https://www.w3.org/TR/REC-png-961001" target="_blank">published</a> in 1996!).
 <li><b>SVG</b> (Scalable Vector Graphics) are defined mathematically and
     support animation. Also, since they are defined mathematically  they
-    scale to:</li>
-</ul>
+    scale to:
 <!------------------------------------------------------------------------------------------------>
 <!--------- 37. logo scalable vector graphics (svg) (##) ---------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
 <img src="./images/image037.png?raw=true"
    width="10%"
    alt="Logo Scalable Vector Graphics (SVG)." />
-</p>
 
 	any size without worrying about pixels, resolution or image data. This makes SVG
     images an excellent format to use, if possible. SVG is great for
@@ -5046,7 +5043,10 @@ information to be aware of.
     graphic software (like Inkscape, Adobe Illustrator,
     and <a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Tools_for_SVG" target="_blank">others</a>),
     but some people write the markup by hand. Note that SVG 1.1 is
-    a <a href="https://www.w3.org/TR/SVG/" target="_blank">W3C Web standard</a>).
+    a <a href="https://www.w3.org/TR/SVG/" target="_blank">W3C Web standard</a>).</li>
+</ul>
+
+</p>
 
 <h3 id="ch2-4-2">2.4.2 Attribute alt</h3>
 
@@ -9782,18 +9782,18 @@ that instead. 
 <h4>&lt;caption&gt;</h4>
 
 It is used to give a title to the table and should be used as the first
-child element of <table>. It can be used to provide more context to
+child element of &lt;table&gt;. It can be used to provide more context to
 the table if its content is ambiguous. As a summary of the table
 content, a caption can also be helpful for people who have difficulty
 understanding the content or use assistive technology.
 
 ```
-1.  <table border=1>
-2.    <caption>
-3.      <p>Table 1.0</p>
-4.      <p>Student's final exam results 2016</p>
-5.    </caption>
-6.  </table>
+<table border=1>
+  <caption>
+    <p>Table 1.0</p>
+    <p>Student's final exam results 2016</p>
+  </caption>
+</table>
 ```
 
 <!------------------------------------------------------------------------------------------------>
@@ -9805,18 +9805,18 @@ style="width:4in;height:2.54315in" />
 ```
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Table elements</title>
-</head>
-<body>
-<table border=1>
-<caption>
-<p>Table 1.0</p>
-<p>Student's final exam results 2016</p>
-</caption>
-</table>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <title>Table elements</title>
+  </head>
+  <body>
+    <table border=1>
+      <caption>
+        <p>Table 1.0</p>
+        <p>Student's final exam results 2016</p>
+      </caption>
+    </table>
+  </body>
 </html>
 ```
 
@@ -9837,16 +9837,16 @@ Creates a table row.
 ```
 
 There are two types of cells in a table - header and
-standard. <th> creates table header cells. The content of table header
+standard. &lt;th&gt; creates table header cells. The content of table header
 cells is bold and centered by default.
 
 ```
-1.  <table border=1>
-2.  <tr>
-3.  <th>Name</th>
-4.  <th>Age</th>
-5.  <tr>
-6.  <table>
+<table border=1>
+  <tr>
+    <th>Name</th>
+    <th>Age</th>
+  </tr>
+</table>
 ```
 
 <!------------------------------------------------------------------------------------------------>
@@ -9887,20 +9887,20 @@ regular and left-aligned by default.
 <h4>With these tags we can create a simple table.</h4>
 
 ```
-1.  <table border=1>
-2.    <tr>
-3.      <th scope="col">Name</th>
-4.      <th scope="col">Age</th>
-5.    </tr>
-6.    <tr>
-7.      <td>Alexa</td>
-8.      <td>23</td>
-9.    </tr>
-10.   <tr>
-11.     <td>James</td>
-12.     <td>35</td>
-13.   </tr>
-14. </table>
+<table border=1>
+  <tr>
+    <th scope="col">Name</th>
+    <th scope="col">Age</th>
+  </tr>
+  <tr>
+    <td>Alexa</td>
+    <td>23</td>
+  </tr>
+  <tr>
+    <td>James</td>
+    <td>35</td>
+  </tr>
+</table>
 ```
 
 <!------------------------------------------------------------------------------------------------>
@@ -9947,26 +9947,26 @@ to be orange. You need to use the &lt;colgroup&gt; and &lt;col&gt; tags to
 achieve styling effects specific to a column. 
 
 ```
-1.  <body>
-2.    <table border=1>
-3.      <colgroup>
-4.        <col span="1" style="background-color:green">
-5.        <col span="1" style="background-color:orange">
-6.      </colgroup>
-7.      <tr>
-8.        <th>Name</th>
-9.        <th>Age</th>
-10.     </tr>
-11.     <tr>
-12.       <td>Alexa</td>
-13.       <td>23</td>
-14.     </tr>
-15.     <tr>
-16.       <td>James</td>
-17.       <td>35</td>
-18.     </tr>
-19.   </table>
-20. </body>
+<body>
+  <table border=1>
+    <colgroup>
+      <col span="1" style="background-color:green">
+      <col span="1" style="background-color:orange">
+    </colgroup>
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+    </tr>
+    <tr>
+      <td>Alexa</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <td>James</td>
+      <td>35</td>
+    </tr>
+  </table>
+</body>
 ```
 
 <!------------------------------------------------------------------------------------------------>
@@ -9978,7 +9978,7 @@ achieve styling effects specific to a column. 
    alt="Color column headers." />
 </p>
 
-<h3>5.2.3 The &lt;thead&gt;, &lt;tbody&gt; and &lt;tfoot&gt; tags</h3>
+<h3 id="ch5-2-3">5.2.3 The &lt;thead&gt;, &lt;tbody&gt; and &lt;tfoot&gt; tags</h3>
 
 Similar to an HTML document, a table in HTML can be split into header,
 body and footer. We use these three tags;
@@ -10001,8 +10001,8 @@ Just like how we use <colgroup> to group columns, <thead> is used to
 group the header content in a HTML table. 
 
 As we learned in the previous unit, header cells are specified
-using <th> as a child of &lt;tr&gt;. Rows specified
-within <thead> indicate that they are header rows. See the code below:
+using &lt;th&gt; as a child of &lt;tr&gt;. Rows specified
+within &lt;thead&gt; indicate that they are header rows. See the code below:
 
 ```xml
   <thead style="color:white">
@@ -10015,7 +10015,7 @@ within <thead> indicate that they are header rows. See the code below:
 
 <h4>&lt;tbody&gt;</h4>
 
-Following <thead>, subsequent rows are considered body rows in a
+Following &lt;thead&gt;, subsequent rows are considered body rows in a
 table. Regular cells are specified using <td> as a child of &lt;tr&gt;:
 
 ```xml
@@ -10092,7 +10092,7 @@ considered footer rows at the end of a table:
 <img src="./images/image091.png"
 style="width:4in;height:2.53781in" />
 
-<h3>5.2.4 Styling your table</h3>
+<h3 id="ch5-2-4">5.2.4 Styling your table</h3>
 
 We now know how to put a basic table together. However, the tables we
 have looked at so far could really use some work in terms of how they
@@ -10127,7 +10127,7 @@ style="width:6.5in;height:1.67986in" />
 To give a border to &lt;table&gt;, <th> and <td>:
 
 ```
-1.  table, th, td { border: 1px solid black; }
+table, th, td { border: 1px solid black; }
 ```
 
 <!------------------------------------------------------------------------------------------------>
@@ -10271,20 +10271,20 @@ style="width:4in;height:4.33613in" />
 ```
 table, th, td
 {
-border: 1px solid black;
-border-collapse: collapse;
+   border: 1px solid black;
+   border-collapse: collapse;
 }
 th.eg1
 {
-width: 25%;
+   width: 25%;
 }
 th.eg2
 {
-height: 70px;
+   height: 70px;
 }
 table.eg3
 {
-width: 100%;
+   width: 100%;
 }
 ```
 
@@ -10341,7 +10341,9 @@ Default:
 
 -   <td> - left
 
-1.  td { text-align: right;}
+```
+td { text-align: right;}
+```
 
 ### vertical-align
 
@@ -10354,7 +10356,9 @@ Default:
 
 -   <td> - middle
 
-1.  th { vertical-align: top; }
+```
+th { vertical-align: top; }
+```
 
 ### padding
 
@@ -10363,7 +10367,9 @@ on <th> and <td> to provide some space between border and content in
 cell. It takes its value in units of length like px, cm, % - relative to
 parent container's width, etc. 
 
-1.  th, td { padding: 15px; }
+```
+th, td { padding: 15px; }
+```
 
 This will add 15px space around the content on all sides. 
 
@@ -10381,7 +10387,9 @@ using:
 Alternatively, padding can also be provided as a shorthand property
 where you can specify all four sides in one go:
 
-1.  th, td { padding: 20px 30px 40px 50px; }
+```
+th, td { padding: 20px 30px 40px 50px; }
+```
 
 It is specified in the order: top, right, bottom and left padding.
 
@@ -10429,9 +10437,10 @@ It has the inherit property whose default value is 0.
 It takes two values for horizontal and vertical spacing. If only one
 value is provided, it is used for both horizontal and vertical spacing: 
 
-1.  table { border-spacing: 25px 50px; }
-
-2.  table, td, th { border-spacing: 25px; }
+```
+table { border-spacing: 25px 50px; }
+table, td, th { border-spacing: 25px; }
+```
 
 Some things to keep in mind:
 
@@ -10510,13 +10519,10 @@ style="width:4in;height:2.52101in" />
 <h4>CSS</h4>
 
 ```
-> table { border-collapse: collapse;}
->
-> table, th, td { padding: 15px;}
->
-> table.eg1, th.eg1, td.eg1 { border: 1px solid black; }
->
-> table.eg2, th.eg2, td.eg2 { border-bottom: 1px solid black; }
+table { border-collapse: collapse;}
+table, th, td { padding: 15px;}
+table.eg1, th.eg1, td.eg1 { border: 1px solid black; }
+table.eg2, th.eg2, td.eg2 { border-bottom: 1px solid black; }
 ```
 
 <h4>HTML</h4>
@@ -10563,15 +10569,15 @@ You can set odd or even rows a particular color and leave the other rows
 white (default color).
 
 ```
-1.  tr:nth-child(even) { background-color: grey; }
-2.  tr:nth-child(odd) { background-color: #ccff99; }
+tr:nth-child(even) { background-color: grey; }
+tr:nth-child(odd) { background-color: #ccff99; }
 ```
 
 The '*n*th-child' selector matches every element that is the *n*th child
 of the table or any parent element. Therefore,
 
 ```
-1.  tr:nth-child(3n) { background-color: grey; } 
+tr:nth-child(3n) { background-color: grey; } 
 ```
 
 will make the every third list item grey.
@@ -10686,37 +10692,36 @@ table.eg2 tr:hover { background-color: grey; }
 <h4>HTML</h4>
 
 ```
-1.  <!DOCTYPE html>
-2.  <html lang="en">
-3.  
-4.  <head>
-5.  <meta charset="UTF-8">
-6.  <title>Styling your table</title>
-7.  </head>
-8.  <body>
-9.  <table class="eg1">
-10. <tr><th class="eg1">Name</th><th class="eg1">Age</th><th
-    lass="eg1">Gender</th></tr>
-11. <tr><td class="eg1">Michael</td><td
-    class="eg1">21</td><td class="eg1">Male</td></tr>
-12. <tr><td class="eg1">Amy</td><td class="eg1">37</td><td
-    class="eg1">Female</td></tr>
-13. <tr><td class="eg1">Mark</td><td class="eg1">32</td><td
-    class="eg1">Male</td></tr>
-14. </table>
-15. <br><br>
-16. <table class="eg2">
-17. <tr><th class="eg2">Name</th><th class="eg2">Age</th><th
-    class="eg2">Gender</th></tr>
-18. <tr><td class="eg2">Michael</td><td
-    class="eg2">21</td><td class="eg2">Male</td></tr>
-19. <tr><td class="eg2">Amy</td><td class="eg2">37</td><td
-    class="eg2">Female</td></tr>
-20. <tr><td class="eg2">Mark</td><td class="eg2">32</td><td
-    class="eg2">Male</td></tr>
-21. </table>
-22. </body>
-23. </html>
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+       <title>Styling your table</title>
+   </head>
+   <body>
+      <table class="eg1">
+.     <tr><th class="eg1">Name</th><th class="eg1">Age</th><th
+         class="eg1">Gender</th></tr>
+         <tr><td class="eg1">Michael</td><td
+            class="eg1">21</td><td class="eg1">Male</td></tr>
+          <tr><td class="eg1">Amy</td><td class="eg1">37</td><td
+            class="eg1">Female</td></tr>
+          <tr><td class="eg1">Mark</td><td class="eg1">32</td><td
+            class="eg1">Male</td></tr>
+      </table>
+      <br><br>
+      <table class="eg2">
+         <tr><th class="eg2">Name</th><th class="eg2">Age</th><th
+           class="eg2">Gender</th></tr>
+         <tr><td class="eg2">Michael</td><td
+           class="eg2">21</td><td class="eg2">Male</td></tr>
+         <tr><td class="eg2">Amy</td><td class="eg2">37</td><td
+           class="eg2">Female</td></tr>
+         <tr><td class="eg2">Mark</td><td class="eg2">32</td><td
+           class="eg2">Male</td></tr>
+      </table>
+   </body>
+</html>
 ```
 
 <h4>overflow</h4>
@@ -10727,14 +10732,14 @@ in your Web page. You can use the CSS overflow property to resolve this.
 It has four values other than initial (sets the default value) and
 inherit (from parent element).
 <ul>
-<li>visible - Content that has overflowed is visible outside the parent
-    element. Eg: Text in a box overflows outside box and is visible.</li>
-<li>hidden - Content that has overflowed is hidden. This makes the
-    overflowed content inaccessible.</li>
-<li>scroll - Content that has overflowed is hidden but a scroll bar is
-    added to make it accessible.</li>
-<li>auto - Content that has overflowed is hidden but a scroll bar is
-    automatically added to view hidden content.</li>
+   <li>visible - Content that has overflowed is visible outside the parent
+       element. Eg: Text in a box overflows outside box and is visible.</li>
+   <li>hidden - Content that has overflowed is hidden. This makes the
+       overflowed content inaccessible.</li>
+   <li>scroll - Content that has overflowed is hidden but a scroll bar is
+       added to make it accessible.</li>
+   <li>auto - Content that has overflowed is hidden but a scroll bar is
+       automatically added to view hidden content.</li>
 </ul>
 
 To address left and right edges of content, you can use overflow-x and
@@ -10752,14 +10757,14 @@ to address top and bottom edges of content, you can use overflow-y.
 <h4>CSS:</h4>
 
 ```
-1.  table { border-collapse: collapse; }
-2.  div { height: 200px; width: 200px; border: 1px solid blue; }
-3.  table, th, td { padding: 30px; border-bottom: 1px solid black; }
-4.  
-5.  div.overflow-hidden { overflow: hidden; }
-6.  div.overflow-scroll { overflow: scroll; }
-7.  div.overflow-auto { overflow: auto; }
-8.  div.overflow-x-auto { overflow-x: auto; overflow-y:hidden; }
+table { border-collapse: collapse; }
+div { height: 200px; width: 200px; border: 1px solid blue; }
+table, th, td { padding: 30px; border-bottom: 1px solid black; }
+  
+div.overflow-hidden { overflow: hidden; }
+div.overflow-scroll { overflow: scroll; }
+div.overflow-auto { overflow: auto; }
+div.overflow-x-auto { overflow-x: auto; overflow-y:hidden; }
 ```
 
 <h4>HTML:</h4>
