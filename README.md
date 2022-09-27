@@ -7097,7 +7097,7 @@ blockquote { font-weight: 900; }
 
 <h4>font-style (italic)</h4>
 
-Earlier we saw that the <i> and &lt;em&gt; tags could make text
+Earlier we saw that the &lt;i&gt; and &lt;em&gt; tags could make text
 italicized. But, just as we saw when discussing font-weight, this can be
 changed with CSS, and any tag can make its text italic or oblique with
 the font-style property.  The choices of values for this property
@@ -7105,7 +7105,7 @@ are normal and italic.  
 
 | <b>font-style: normal;</b>                                                                                                                                    | <b>font-style: italic;</b>                                                                                                                                      |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Many years later, as he faced the firing squad, Colonel Aureliano Buendía was to remember that distant afternoon when his father took him to discover ice. | <i>Many years later, as he faced the firing squad, Colonel Aureliano Buendía was to remember that distant afternoon when his father took him to discover ice.</i> |
+| Many years later, as he faced the firing squad, Colonel Aureliano Buendía was to remember that distant afternoon when his father took him to discover ice. | Many years later, as he faced the firing squad, Colonel Aureliano Buendía was to remember that distant afternoon when his father took him to discover ice. |
 
 <h4>font-family</h4>
 
@@ -11690,10 +11690,10 @@ a combination of formats. 
 
 <h4>The following table lists the source element's attributes:</h4>
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 109. table src and type (256) --------------------------------->
+<!-------------------------------- 111. table src and type (256) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image109.png?raw=true"
+<img src="/images/image111.png?raw=true"
    width="85%"
    alt="Attributes: src and type" />
 </p>
@@ -12202,8 +12202,17 @@ repeats. The space value will result in cropped images; it means
  Note that this property does not let you directly manipulate the amount
 of spacing. That is calculated for you.
 
-<img src="./images/image121.png"
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 121.  (xxx) -------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image121.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
+<!-- <img src="./images/image121.png"
 style="width:5in;height:2.11378in" />
+-->
 
 <h4>background-size</h4>
 
@@ -12220,9 +12229,18 @@ image.  Its aspect ratio is maintained.
 Here we demonstrate the difference. A border has been applied to the
 paragraph to clearly show the bounds of the parent <p> element.
 
-
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 122.  (xxx) -------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image122.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
+<!--
 <img src="./images/image122.png"
 style="width:5in;height:1.60897in" />
+-->
 
 The background-size property can also be used to more exactly size the
 image.  When used in this fashion, it takes *two* values separated by a
@@ -12242,8 +12260,18 @@ allows you to worry only about one dimension, and then the other will
 handle it for you. Otherwise there is a risk of stretching/distorting
 images. 
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 123.  (xxx) -------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image123.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
+<!--
 <img src="./images/image123.png"
 style="width:5in;height:1.71421in" />
+-->
 
 ### background-position
 
@@ -12255,12 +12283,22 @@ The most useful is the center value.  It is position the center of the
 image in the center of the element. This is useful even with repeating
 tiles. 
 
-
-
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 124.  (xxx) -------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image124.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
+<!--
 <img src="./images/image124.png"
 style="width:5in;height:1.82425in" />
+-->
 
+<!------------------------------------------------------------------------------------------------>
 <h3>5.5.2 Decorative borders and shadows</h3>
+<!------------------------------------------------------------------------------------------------>
 
 In the previous sub-section, we looked at decorative backgrounds and
 images. We will continue this theme by examining decorative borders and
@@ -12282,10 +12320,18 @@ This property sets the style of a border.  Possible values
 include none, hidden, solid, dotted, dashed, double, groove, ridge, inset, and outset.
 Here the visible border styles displayed on a gray border:
 
-
-
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 125. silence is golden (xxx) -------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image125.png?raw=true"
+   width="65%"
+   alt="." />
+</p>
+<!--
 <img src="./images/image125.png"
 style="width:6.5in;height:0.42361in" />
+--->
 
 Note that the groove, ridge, inset and outset borders all use black in
 addition to any explicit border-color.  So if the border-color is also
@@ -12325,8 +12371,8 @@ with border-width and border-color ( border-left-color, border-top-width,
 etc).
 
 Or, going in the other direction, the CSS property border can help
-abbreviate even further.  Use the formula  border: <width> <style>
-<color>;   separating the values with spaces: 
+abbreviate even further.  Use the formula  border: &lt;width&gt; &lt;style&gt;
+&lt;color&gt;;   separating the values with spaces: 
 
 p { border: 1px solid gray; }
 
@@ -12336,14 +12382,34 @@ Sometimes it seems that the whole of the World Wide Web consists of
 round cornered rectangles.  Join the fun by using
 the border-radius property:  
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 124.  (xxx) -------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image124.png?raw=true"
+   width="65%"
+   alt="." />
+</p>
+<!--
 <img src="./images/image126.png"
 style="width:6.5in;height:1.67847in" />
+-->
 
 Note this is fun to use with a background color or background image and
 no border at all:
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 125. silence is golden (xxx) -------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image125.png?raw=true"
+   width="65%"
+   alt="." />
+</p>
+<!--
 <img src="./images/image127.png"
 style="width:6.5in;height:1.67153in" />
+-->
 
 ### box-shadow
 
@@ -12361,8 +12427,18 @@ up.
 
 The blur value is also a dimension unit, but can only be 0 or positive.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 126. illuminati (xxx) -------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image126.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
+<!--
 <img src="./images/image128.png"
 style="width:6.5in;height:1.93264in" />
+-->
 
 ### text-shadow
 
@@ -12371,9 +12447,18 @@ shadow is applied directly to the text shapes:
 
 text-shadow:  <x-offset> <y-offset> <blur> <color>;
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 127. blurred majestic 12 (xxx) -------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image127.png?raw=true"
+   width="65%"
+   alt="." />
+</p>
+<!--
 <img src="./images/image129.png"
 style="width:6.5in;height:0.91458in" />
-
+-->
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-5-3">5.5.3 Managing element size</h3>
 <!------------------------------------------------------------------------------------------------>
@@ -13201,6 +13286,14 @@ Below we see a span that has padding, margin-top, and background-color
 applied, but no extra room is being made for it above or below, so its
 background is overlapping the lines above and below.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ ###.  (xxx) -------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image###.png?raw=true"
+   width="65%"
+   alt="." />
+</p>
 <img src="./images/image138.png"
 style="width:6.5in;height:1.52708in" />
 
@@ -13529,6 +13622,14 @@ Compare what happens when we use  margin-top to move it, versus a
 positioning property (top).   When we use top, the "Third" item appears
 overlapping the Fourth and Fifth items, as they did not move at all. 
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ ###.  (xxx) -------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image###.png?raw=true"
+   width="65%"
+   alt="." />
+</p>
 <img src="./images/image141.png"
 style="width:6.5in;height:1.83681in" />
 
@@ -13561,6 +13662,14 @@ paragraph is made smaller and no part goes outside its parent.  But when
 it is position:relative and moved with the left property, it can leave
 the bounds of its parent, or go offscreen.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ ###.  (xxx) -------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image###.png?raw=true"
+   width="65%"
+   alt="." />
+</p>
 <img src="./images/image142.png"
 style="width:6.5in;height:1.45139in" />
 
@@ -13590,6 +13699,14 @@ some text and an inner <q>.  For a better illustration, the paragraph
 has its height set and a border applied.  The <q> is positioned
 absolutely.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ ###.  (xxx) -------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image###.png?raw=true"
+   width="65%"
+   alt="." />
+</p>
 <img src="./images/image143.png"
 style="width:6.5in;height:2.33889in" />
 
@@ -13643,6 +13760,14 @@ other. (The red 1 is hidden behind the red 2). Borders have been added
 in the result below, so you can easily see the rectangle
 for  <li> versus <ul>.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ ###.  (xxx) -------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image###.png?raw=true"
+   width="65%"
+   alt="." />
+</p>
 <img src="./images/image143.png"
 style="width:6.5in;height:1.83681in" />
 
