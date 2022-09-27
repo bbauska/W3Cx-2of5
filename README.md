@@ -7965,7 +7965,7 @@ this:
 #intro blockquote a { font-weight: bold; } 
 ```
 
-Any <a> tags anywhere inside a <blockquote> anywhere inside
+Any &lt;a&gt; tags anywhere inside a &lt;blockquote&gt; anywhere inside
 the #intro section will now be bold.
 
 <h4>Direct descendant selectors ( &gt; )</h4>
@@ -7990,9 +7990,9 @@ descendant selector, it can be pretty useful.
 
 ```
 body > * { margin-left: 10px; } /* all the _direct_ children of the
-body receive the margin */
+   body receive the margin */
 p * { text-decoration: underline; } /* the text of the paragraph will
-be normal, but any children anywhere inside it will be underlined */
+   be normal, but any children anywhere inside it will be underlined */
 ```
 
 <!------------------------------------------------------------------------------------------------>
@@ -11547,7 +11547,7 @@ or source element (for multiple source files). 
 </video>
 ```
 
-Any text within the <video> tags will be displayed if the browser does
+Any text within the &lt;video&gt; tags will be displayed if the browser does
 not support the video element. You should add such a message to provide
 better user experience for your page as it will be viewed in all types
 of devices and browsers. 
