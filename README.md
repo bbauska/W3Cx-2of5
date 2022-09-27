@@ -421,7 +421,9 @@ exactly which browsers will support it.
     collaboration</a>.</li>
 </ul>
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="cha-1">What is W3C?</h3>
+<!------------------------------------------------------------------------------------------------>
 
 <h4>As steward of global Web standards, W3C's mission is to safeguard the openness, accessibility, and freedom of the World Wide Web from a technical perspective.</h4>
 
@@ -511,9 +513,11 @@ car, the email is a bicycle, etc.  Read <a href="https://www.lifewire.com/diff
 article</a>
 for more details about the difference between Internet and the Web.
 
+<!------------------------------------------------------------------------------------------------>
 <h4 id="cha-2">What is Web Accessibility?</h4>
-
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-1-1">1.1.1 Welcome to Module 1</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Hello everyone! Welcome to Module 1 of the introduction to HTML5 and CSS
 course.
@@ -541,7 +545,9 @@ quiz section.
 
 With that, let's jump right in.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-1-2">1.1.2 Module 1 – Content</h3>
+<!------------------------------------------------------------------------------------------------>
 
 <b>1.1 Introduction:</b> A video that introduces the content of Module 1.
 
@@ -606,7 +612,9 @@ the big 3 (HTML5, CSS and JavaScript), the hypertext concept and the
 browser, an application program that provides a way to look at and
 interact with all the information on the World Wide Web.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-2-2">1.2.2 HTML5, CSS and JS</h3>
+<!------------------------------------------------------------------------------------------------>
 
 <h4>HTML5</h4>
 <!------------------------------------------------------------------------------------------------>
@@ -669,7 +677,9 @@ application, with nearly unlimited possibilities.  We will not be
 doing much with JavaScript in this course, but you should know that it
 is an important leg of the stool for modern Web pages.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-2-3">1.2.3 Hypertext</h3>
+<!------------------------------------------------------------------------------------------------>
 
 A fundamental key to the World Wide Web is the concept of "*Hypertext*".
  Hypertext is built on the idea of linking information together, not
@@ -706,7 +716,9 @@ between documents. It was not just a long list of details, but rather a
 sea of information stretching out in all directions. This sea of
 information was navigated by a new tool called a "Browser".
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-2-4">1.2.4 The Browser</h3>
+<!------------------------------------------------------------------------------------------------>
 
 The Internet existed long before the Web came to fruition, and lots of
 organizations were connected to it, including schools, companies and
@@ -749,7 +761,9 @@ information on the Internet, a simple click on a link would present the
 information in a graphical window. In many ways, it is the ancestor of
 most modern browsers.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-2-5">1.2.5 Activity – Explore the Web</h3>
+<!------------------------------------------------------------------------------------------------>
 
 <h4>Exploring the Web, "Then and Now":</h4>
 
@@ -763,7 +777,9 @@ most modern browsers.
 <li>Post your observations and findings in the discussion forum below.</li><br/>
 </ul>
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-3-1">1.3.1 Putting the “M” in HTML</h3>
+<!------------------------------------------------------------------------------------------------>
 
 So the "M" in HTML stands for "Markup", but what does Markup really
 mean? Essentially, it means to annotate a document with extra
@@ -817,7 +833,9 @@ simple "Hello HTML" program. Please choose any Web editor of your liking
 (see in the subsection "Course tools").
 </p>
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-3-2">1.3.2 Programming “Hello HTML”</h3>
+<!------------------------------------------------------------------------------------------------>
 <p>
 You can build and edit your HTML pages by either using online editors or editors that you can install on your machine, like Visual Studio Code.
 
@@ -1490,7 +1508,9 @@ are available to you.
 
 But hopefully this shows you, just how easy it is to get started.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-3-3">1.3.3 Elements</h3>
+<!------------------------------------------------------------------------------------------------>
 
 If you are sitting at a coffee shop next to a table of Web developers,
 you will probably hear three words quite a bit:  'Tags', 'Attributes'
@@ -1532,7 +1552,9 @@ children, but for our purpose this is enough.
 That may be a great picture, but how do we represent such a structure in
 a text file?  Well, that's where "tags" come in.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-3-4">1.3.4 Tags</h3>
+<!------------------------------------------------------------------------------------------------>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------------- 16. tags (35) ----------------------------------------->
@@ -1608,7 +1630,9 @@ that don't even use the '/' at the end, they just don't have any close
 tag at all.  This works because all of the information this tag needs is
 declared in an "attribute".
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-3-5">1.3.5 Comments</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Computers are great at reading computer languages, but it's not always
 easy for humans.  Comments are a way of adding some text that is
@@ -1672,7 +1696,9 @@ important that the HTML comment notation, at least, differs from the
 others.  As for the exact form of those comments, we'll cover that in
 good time.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-3-6">1.3.6 Attributes</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Most of what we'll cover about attributes will come later, but I wanted
 to introduce the idea briefly. Basically, a given element on your Web
@@ -1705,7 +1731,9 @@ increase clarity, consistency and brevity.
 
 But more about attributes in the next module.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-3-7">1.3.7 All Together Now</h3>
+<!------------------------------------------------------------------------------------------------>
 
 One key to understanding HTML, or any computer language, is to be sure
 that you avoid ambiguity, because computers generally are not good at
@@ -1828,7 +1856,9 @@ above. Try inserting a paragraph into the body of your new document.
 </html>
 ```
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-4-1">1.4.1 Character Encoding</h3>
+<!------------------------------------------------------------------------------------------------>
 
 <p>A character can be any letter, digit or symbol that makes up words and
 languages. English alphabets and digits 'a-z', 'A-Z', '0-9' are all
@@ -1883,7 +1913,9 @@ days, but you should check.
 
 Read an <a href="https://www.w3.org/International/getting-started/characters">Introduction to character sets and encodings here</a>.</p>
 
-<h3 id="ch1-4-2">1.4.2 The <meta> tag</h3>
+<!------------------------------------------------------------------------------------------------>
+<h3 id="ch1-4-2">1.4.2 The &lt;meta&gt; tag</h3>
+<!------------------------------------------------------------------------------------------------>
 
 <p>Use the &lt;meta&gt; tag with the charset attribute in your HTML page to
 indicate to the browser the character encoding you will be using in the
@@ -1921,7 +1953,9 @@ W3C recommends placing it immediately after the opening &lt;head&gt; tag:</p>
 </html>
 ```
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-4-3">1.4.3 HTML Character References</h3>
+<!------------------------------------------------------------------------------------------------>
 
 <h4>Why we need character references</h4>
 
@@ -1992,6 +2026,10 @@ semi-colon.</p>
 ```
 &#x00A0;
 ```
+
+<!------------------------------------------------------------------------------------------------>
+<h3 id="ch1-4-4">1.4.4 Special characters</h3>
+<!------------------------------------------------------------------------------------------------>
 
 <h4>Protecting characters used for HTML syntax</h4>
 
@@ -2132,7 +2170,9 @@ replaced with its character entity name)</p>
 <abbr title="Hypertext Markup Language &quot;5&quot;">HTML5</abbr>
 ```
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-4-5">1.4.5 Character References for Other Characters</h3>
+<!------------------------------------------------------------------------------------------------>
 
 <p>It is also possible to use character references to represent other
 characters in your page. This is useful when you are unable to type the
@@ -5224,7 +5264,9 @@ also useful if you are changing or removing the image: you can just
 remove it from your HTML and not deal with remembering to remove it
 from your CSS too.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-4-4">2.4.4 Decorative images</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Should all images be part of HTML content?
 
@@ -7884,25 +7926,16 @@ In the following HTML, we see some paragraphs that have some links
 necessarily direct children.
 
 ```
-<section id="intro">Welcome
-   to <a href="#palaceland">PalaceLand</a>, world renown <q>Land
-   of endless palaces and <a href="#delight">delights</a></q>. As
-   you make your way about, remember the words of our
-   founder <blockquote>Shouldn't we
-   have <a href="#chairs">chairs</a>? Never made much sense
-   wandering room a room looking for a place to sit a spell. Folk that
-   don't sit are not likely all right in
-   the <a href="#head">head</a></blockquote></section>
+<section id="intro">Welcome to <a href="#palaceland">PalaceLand</a>, world renown 
+   <q>Land of endless palaces and <a href="#delight">delights</a></q>. 
+   As you make your way about, remember the words of our founder <blockquote>Shouldn't we
+   have <a href="#chairs">chairs</a>? Never made much sense wandering room a room looking for a place to sit a spell. 
+   Folk that don't sit are not likely all right in the <a href="#head">head</a></blockquote></section>
 
-<section id="guideline">There are guidelines to follow while
-   in <a href="#palaceland">PalaceLand</a>. They are outlined on
-   the back of your <q>Daring
-   Footman <a href="#trademark">(tm)</a></q> card. But the spirit
-   of the guidelines are best summed up by our
-   founder <blockquote>Don't just <a href="#standthere">stand
-   there</a> with your mouth hanging open waiting for a pair of
-   nesting birds.</blockquote> (and
-   no <a href="#camera_policy">flash
+<section id="guideline">There are guidelines to follow while in <a href="#palaceland">PalaceLand</a>. 
+   They are outlined on the back of your <q>Daring Footman <a href="#trademark">(tm)</a></q> card.
+   But the spirit of the guidelines are best summed up by our founder <blockquote>Don't just <a href="#standthere">stand
+   there</a> with your mouth hanging open waiting for a pair of nesting birds.</blockquote> (and no <a href="#camera_policy">flash
    photography</a> please.)</section>
 ```
 
@@ -8498,7 +8531,7 @@ changes again if you want to get back to where you were. It's not that
 easy to break the Web!
 
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch4-3">4.3.1 CSS box model</h3>
+<h3 id="ch4-3-1">4.3.1 CSS box model</h3>
 <!------------------------------------------------------------------------------------------------>
 
 Before we get too far into debugging, it's helpful to understand a
@@ -8555,7 +8588,9 @@ pen), border-style (dashed, dotted,  solid, etc.) and border-color (the
 color of your pen).  In fact these are so commonly specified that there
 is a shorthand syntax to set all three in one line:
 
-    border: 5px solid blue;
+```
+   border: 5px solid blue;
+```
 
 There are many other shortcuts to learn, but this one is fairly common.
  To draw a border you need to know the width, style and color.  There
@@ -8563,7 +8598,7 @@ are defaults for these values, so you technically don't need to specify
 all of them, but it is the minimal info needed and is quite common.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 61. illustration of css box model (##) -------------------------------->
+<!--------------------------- 61. illustration of css box model (##) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image061.jpeg?raw=true"
@@ -8700,7 +8735,7 @@ rounded corners using the border-radius setting:
 </p>
 
 <!------------------------------------------------------------------------------------------------>
-<h3>4.3.2 Debugging with the box model</h3>
+<h3 id="ch4-3-2">4.3.2 Debugging with the box model</h3>
 <!------------------------------------------------------------------------------------------------>
 
 In any browser's debugger, you will see a box model diagram. It looks
@@ -8743,7 +8778,7 @@ So, in the example above:
 MS Edge….
 
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch4-4">4.4.1 CSS Precedence</h3>
+<h3 id="ch4-4-1">4.4.1 CSS Precedence</h3>
 <!------------------------------------------------------------------------------------------------>
 
 As we learned in the last module, in order for the computer to decide
@@ -10092,7 +10127,9 @@ considered footer rows at the end of a table:
 <img src="./images/image091.png"
 style="width:4in;height:2.53781in" />
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-2-4">5.2.4 Styling your table</h3>
+<!------------------------------------------------------------------------------------------------>
 
 We now know how to put a basic table together. However, the tables we
 have looked at so far could really use some work in terms of how they
@@ -11000,7 +11037,9 @@ information on the right way to design tables of different header types
 on this W3C <a href="https://www.w3.org/WAI/tutorials/tables/" target="_blank">Tables
 Concepts</a> page.
 
-<h3>5.2.6 Creating a Table</h3>
+<!------------------------------------------------------------------------------------------------>
+<h3 id="ch5-2-5">5.2.5 Creating a Table</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Let's take a look at how to work with tables and manipulate the table
 styling within an HTML document.
@@ -11360,7 +11399,7 @@ And then using CSS, how to apply some styling to make your tables look a
 little more visually appealing inside your document.
 
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch5-2-7">5.2.7 Activities - Tables</h3>
+<h3 id="ch5-2-6">5.2.6 Activities - Tables</h3>
 <!------------------------------------------------------------------------------------------------>
 
 1.  Create a simple 3x3 table with the first row containing header
@@ -11407,7 +11446,7 @@ little more visually appealing inside your document.
     color of a row 'yellow' when you hover over a table row.
 
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch5-3">5.3.1 The &lt;audio&gt; element</h3>
+<h3 id="ch5-3-1">5.3.1 The &lt;audio&gt; element</h3>
 <!------------------------------------------------------------------------------------------------>
 
 audio and video are new HTML 5 elements that were highly anticipated.
@@ -12302,7 +12341,7 @@ style="width:5in;height:1.82425in" />
 -->
 
 <!------------------------------------------------------------------------------------------------>
-<h3>5.5.2 Decorative borders and shadows</h3>
+<h3 id="ch5-5-2">5.5.2 Decorative borders and shadows</h3>
 <!------------------------------------------------------------------------------------------------>
 
 In the previous sub-section, we looked at decorative backgrounds and
@@ -12572,7 +12611,7 @@ next module. Here is a quick rundown:
     reduce its usefulness to you and your viewer.
 
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch5-5-5">5.5.5 Pseudo classes and cursor (OPTIONAL)</h3>
+<h3 id="ch5-5-4">5.5.4 Pseudo classes and cursor (OPTIONAL)</h3>
 <!------------------------------------------------------------------------------------------------>
 
 <h4>Refined CSS selectors - pseudo classes</h4>
@@ -12688,7 +12727,7 @@ For more information, please visit the [MDN page on
 cursor](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor).
 
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch5-5-6">5.5.6 CSS best practices (OPTIONAL)</h3>
+<h3 id="ch5-5-5">5.5.5 CSS best practices (OPTIONAL)</h3>
 <!------------------------------------------------------------------------------------------------>
 
 You will find below an excerpt of CSS best practices (see the [full
@@ -12853,7 +12892,7 @@ Absolute units are usually the wrong answer.
 -   Provide fallbacks / use @supports.
 
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch5-5-7">5.5.7 Recipe project - Module 5</h3>
+<h3 id="ch5-5-6">5.5.6 Recipe project - Module 5</h3>
 <!------------------------------------------------------------------------------------------------>
 
 Let's up some of our code, as well as improve the look and feel of our
@@ -12870,7 +12909,7 @@ Give it a try, and when you're done (or if you get stuck), watch the
 next video to see what we did.
 
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch5-5-8">5.5.8 Recipe project - Module 5</h3>
+<h3 id="ch5-5-7">5.5.7 Recipe project - Module 5</h3>
 <!------------------------------------------------------------------------------------------------>
 
 In this next session, we're going to take a look at continuing the work
