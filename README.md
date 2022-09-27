@@ -7701,8 +7701,8 @@ id selector is simply a hash sign (#) followed directly by the id.  
 
 ```
 <p id="p18">He is Ulysses, a man of great craft, son of Laertes. He
-was born in rugged Ithaca, and excels in all manner of stratagems and
-subtle cunning.</p>
+   was born in rugged Ithaca, and excels in all manner of stratagems and
+   subtle cunning.</p>
 <p id="p19">Madam, you have spoken truly.</p>
 ```
 
@@ -7734,11 +7734,11 @@ simply separating them with spaces.  
 <h4>HTML:</h4>
 
 ```
-<ul>  
-<li class="bird flying">eagle</li>
-<li class="bird">ostrich</li>
-<li class="insect">ant</li>
-<li class="insect flying">moth</li>
+<ul>
+   <li class="bird flying">eagle</li>
+   <li class="bird">ostrich</li>
+   <li class="insect">ant</li>
+   <li class="insect flying">moth</li>
 </ul>
 ```
 
@@ -7748,9 +7748,9 @@ itself.
 <h4>CSS:</h4>
 
 ```
-<b>.bird</b>   { color: blue; }  
-<b>.insect</b> { color: green; }  
-<b>.flying</b> { text-decoration: underline; }
+.bird   { color: blue; }  
+.insect { color: green; }  
+.flying { text-decoration: underline; }
 ```
 
 <h4>Result:</h4>
@@ -7787,7 +7787,7 @@ selectors, all that can be avoided.  
 
 <h4>Comma separated selectors</h4>
 
-Let's say we want to make all our <blockquote> tags, <q> tags, and
+Let's say we want to make all our &lt;blockquote&gt; tags, &lt;q&gt; tags, and
 anything with "speech" in it's class string, to be red italic text.  How
 might we do that?  We could make three separate rule sets.  Or, better,
 we can separate our selectors with commas (,) before one rule set.  Like
@@ -7869,7 +7869,7 @@ It isn't unusual to see multiple classes joined this way as well:
 ```
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 56. template (##) -------------------------------->
+<!-------------------------------- 56. combining classes (164) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image056.png?raw=true"
@@ -12383,7 +12383,7 @@ round cornered rectangles.  Join the fun by using
 the border-radius property:  
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 124.  (xxx) -------------------------------->
+<!------------------------------ 124. silence is golden, 1 (275) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image124.png?raw=true"
@@ -12399,7 +12399,7 @@ Note this is fun to use with a background color or background image and
 no border at all:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 125. silence is golden (xxx) -------------------------------->
+<!------------------------------ 125. silence is golden, 2 (275) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image125.png?raw=true"
@@ -12428,7 +12428,7 @@ up.
 The blur value is also a dimension unit, but can only be 0 or positive.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 126. illuminati (xxx) -------------------------------->
+<!------------------------------------ 126. illuminati (276) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image126.png?raw=true"
@@ -12448,7 +12448,7 @@ shadow is applied directly to the text shapes:
 text-shadow:  <x-offset> <y-offset> <blur> <color>;
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 127. blurred majestic 12 (xxx) -------------------------------->
+<!------------------------------- 127. blurred majestic 12 (276) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image127.png?raw=true"
@@ -12481,12 +12481,12 @@ explore them more in next module when covering Layout.  
 Here is a simple example of a common error:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 130.  (xxx) -------------------------------->
+<!---------------------------- 128. example of a common error (277) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image130.png?raw=true"
    width="65%"
-   alt="." />
+   alt="Example of blindly using css properties." />
 </p>
 
 ### Padding - The right way
@@ -12527,12 +12527,12 @@ second paragraph we use different padding for different sides, thus
 placing the rectangle of the element relative to the text itself.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 131.  (xxx) -------------------------------->
+<!------------------------ 129. padding & relative text placement (278) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image131.png?raw=true"
+<img src="./images/image129.png?raw=true"
    width="65%"
-   alt="." />
+   alt="Padding example with relative text placement." />
 </p>
 
 I'm confused - are you saying that I shouldn't use the width property to
@@ -15116,4 +15116,4 @@ These are the final changes to our recipe project for this unit.
 
 <h4>The end...</h4>
 
-<h3><b>Last Updated 09-26-2022 4:40pm</b></h3>
+<h3><b>Last Updated 09-26-2022 10:19pm</b></h3>
