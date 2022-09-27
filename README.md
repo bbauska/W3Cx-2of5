@@ -7453,7 +7453,7 @@ If you are interested in accessibility, there is much more to learn.
 These simple guidelines merely scratch the surface.
 
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch3-4">3.4.1 Styling Lists</h3>
+<h3 id="ch3-4-1">3.4.1 Styling Lists</h3>
 <!------------------------------------------------------------------------------------------------>
 
 The list markup tags (&lt;ul&gt;, &lt;ol&gt; and &lt;li&gt;) are some of the most
@@ -7884,26 +7884,26 @@ In the following HTML, we see some paragraphs that have some links
 necessarily direct children.
 
 ```
-1.  <section id="intro">Welcome
-    to <a href="#palaceland">PalaceLand</a>, world renown <q>Land
-    of endless palaces and <a href="#delight">delights</a></q>. As
-    you make your way about, remember the words of our
-    founder <blockquote>Shouldn't we
-    have <a href="#chairs">chairs</a>? Never made much sense
-    wandering room a room looking for a place to sit a spell. Folk that
-    don't sit are not likely all right in
-    the <a href="#head">head</a></blockquote></section>
+<section id="intro">Welcome
+   to <a href="#palaceland">PalaceLand</a>, world renown <q>Land
+   of endless palaces and <a href="#delight">delights</a></q>. As
+   you make your way about, remember the words of our
+   founder <blockquote>Shouldn't we
+   have <a href="#chairs">chairs</a>? Never made much sense
+   wandering room a room looking for a place to sit a spell. Folk that
+   don't sit are not likely all right in
+   the <a href="#head">head</a></blockquote></section>
 
-2.  <section id="guideline">There are guidelines to follow while
-    in <a href="#palaceland">PalaceLand</a>. They are outlined on
-    the back of your <q>Daring
-    Footman <a href="#trademark">(tm)</a></q> card. But the spirit
-    of the guidelines are best summed up by our
-    founder <blockquote>Don't just <a href="#standthere">stand
-    there</a> with your mouth hanging open waiting for a pair of
-    nesting birds.</blockquote> (and
-    no <a href="#camera_policy">flash
-    photography</a> please.)</section>
+<section id="guideline">There are guidelines to follow while
+   in <a href="#palaceland">PalaceLand</a>. They are outlined on
+   the back of your <q>Daring
+   Footman <a href="#trademark">(tm)</a></q> card. But the spirit
+   of the guidelines are best summed up by our
+   founder <blockquote>Don't just <a href="#standthere">stand
+   there</a> with your mouth hanging open waiting for a pair of
+   nesting birds.</blockquote> (and
+   no <a href="#camera_policy">flash
+   photography</a> please.)</section>
 ```
 
 What if we wanted all the links in the introductory section to be red,
@@ -7919,7 +7919,7 @@ facing:
 We merely separate the tag, identifier, or class selectors by a space.
 
 So, in the first rule, we see that the selector will match to any
-<a> tag that is a descendant of #intro.  The <a> tag can appear
+&lt;a&gt; tag that is a descendant of #intro.  The &lt;a&gt; tag can appear
 directly within #intro, or be buried within its children.  Here is the
 result:
 
@@ -12393,7 +12393,7 @@ the border-radius property:  
 <p align="center" width="100%">
 <img src="./images/image124.png?raw=true"
    width="65%"
-   alt="." />
+   alt="Silence is golden." />
 </p>
 <!--
 <img src="./images/image126.png"
@@ -12409,7 +12409,7 @@ no border at all:
 <p align="center" width="100%">
 <img src="./images/image125.png?raw=true"
    width="65%"
-   alt="." />
+   alt="Silence is golden, 2." />
 </p>
 <!--
 <img src="./images/image127.png"
@@ -12438,7 +12438,7 @@ The blur value is also a dimension unit, but can only be 0 or positive.
 <p align="center" width="100%">
 <img src="./images/image126.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Illuminati." />
 </p>
 <!--
 <img src="./images/image128.png"
@@ -12458,7 +12458,7 @@ text-shadow:  <x-offset> <y-offset> <blur> <color>;
 <p align="center" width="100%">
 <img src="./images/image127.png?raw=true"
    width="65%"
-   alt="." />
+   alt="Blurred majestic 12 - text-shadow." />
 </p>
 <!--
 <img src="./images/image129.png"
@@ -12632,12 +12632,12 @@ grandparent.  Therefore, if you have two different style rules, such
 as li:hover and ul:hover, then they will *both* be activated,  when the
 mouse is over one of the list items.  
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 132.  (##) -------------------------------->
+<!------------------------------- 130. hover pseudo-class  (280) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image132.jpeg?raw=true"
+<img src="./images/image130.png?raw=true"
    width="65%"
-   alt="." />
+   alt="Hover pseudo-class." />
 </p>
 
 :nth-child
@@ -12655,12 +12655,12 @@ This selector is most commonly used to apply "transaction ledger" styles
 to tables or lists.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 133. template (##) -------------------------------->
+<!------------------------------ 131. nth child pseudo-class (281) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image133.png?raw=true"
+<img src="./images/image131.png?raw=true"
    width="65%"
-   alt="." />
+   alt="Nth child pseudo-class." />
 </p>
 
 <h4>Cursor property</h4>
@@ -12722,10 +12722,10 @@ W3C.
     and ruins your layout.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 134. template (##) -------------------------------->
+<!------------------------------ 132. keep the web open (282) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image134.jpeg?raw=true"
+<img src="./images/image132.jpeg?raw=true"
    width="15%"
    alt="Keep the web open!" />
 </p>
@@ -12778,12 +12778,12 @@ Your favorite browser is not always right.
 
 <h4>Testing</h4>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 135.  (##) -------------------------------->
+<!-------------------------------- 133. red testing button (283) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image135.jpeg?raw=true"
+<img src="./images/image133.jpeg?raw=true"
    width="20%"
-   alt="Testing image." />
+   alt="Red Testing Button." />
 </p>
 
 -   <b>Test without CSS**: turn off CSS, and if the page makes no sense,
@@ -13195,12 +13195,12 @@ block and inline display. And that begins with the baseline.
 The text "baseline" is a key concept to understanding how the browser
 makes its layout decisions.  
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 136.  (##) -------------------------------->
+<!--------------------------------- 134. big t, little g (291) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image136.png?raw=true"
    width="20%"
-   alt="Baseline." />
+   alt="Baseline: Big T, little g." />
 </p>
 
 In the image above, we see two text characters placed next to each
@@ -13217,20 +13217,21 @@ elements. 
 
 As the browser is rendering your page, every time it encounters the next
 tag it has a simple question: "Do I give this element its own line?"  
-For example, every <p> tag gets a new line, but <a> tags do not.   
+For example, every &lt;p&gt; tag gets a new line, but &lt;a&gt; tags do not.   
 
 This is the key distinction between the "block" level elements (like
-the <p> tag) and the "inline" elements (like the <a> tag).   Here is
-a quick table of the default values for some of the tags we've already
-learned.
+the &lt;p&gt; tag) and the "inline" elements (like the &lt;a&gt; tag).
+
+Here is a quick table of the default values for some of the tags we've already
+learned:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 137. template (##) -------------------------------->
+<!------------------------------ 135. block and inline tags (292) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image137.png?raw=true"
+<img src="./images/image135.png?raw=true"
    width="65%"
-   alt="." />
+   alt="Block and inline tags." />
 </p>
 
 Here are some differences between the block - level and inline elements.
@@ -13242,7 +13243,7 @@ The block level:
 -   appears below and to the left of their block level neighbors (like a
     carriage return on a typewriter going to the next new line)
 
--   <b>will expand to fill the width of the parent container by default<b>
+-   &lt;b&gt; will expand to fill the width of the parent container by default<b>
 
 -   respects all margin properties
 
