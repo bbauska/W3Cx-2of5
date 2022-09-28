@@ -5069,12 +5069,11 @@ information to be aware of.
     support animation. Also, since they are defined mathematically  they
     scale to:
 <!------------------------------------------------------------------------------------------------>
-<!--------- 37. logo scalable vector graphics (svg) (##) ---------->
+<!------------------------ 37. logo scalable vector graphics (svg) (106) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <img src="./images/image037.png?raw=true"
    width="10%"
    alt="Logo Scalable Vector Graphics (SVG)." />
-
 	any size without worrying about pixels, resolution or image data. This makes SVG
     images an excellent format to use, if possible. SVG is great for
     charts, graphs, maps, geometric shapes, and line based
@@ -5085,11 +5084,8 @@ information to be aware of.
     but some people write the markup by hand. Note that SVG 1.1 is
     a <a href="https://www.w3.org/TR/SVG/" target="_blank">W3C Web standard</a>).</li>
 </ul>
-
 </p>
-
 <h3 id="ch2-4-2">2.4.2 Attribute alt</h3>
-
 <h4>alt stands for <i>alternate text</i> for an image.</h4>
 
 ```
