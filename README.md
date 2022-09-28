@@ -2231,7 +2231,9 @@ If you'd like to read more information about when to use character
 references and when not to use them, see <a href="https://www.w3.org/International/questions/qa-escapes" target="_blank">Using character escapes in
 markup and CSS</a>.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-5-1">1.5.1 Learning from the Mistakes of Others</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Children can be great at asking questions about things that most adults
 take for granted, and like to challenge assumptions.
@@ -2267,7 +2269,9 @@ the term "best practice" you can trust that it is, even though we may
 not be able to explain it at that point in the course, so you'll want to
 make it a habit.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-5-2">1.5.2 Do’s and Don’ts</h3>
+<!------------------------------------------------------------------------------------------------>
 
 The history of Web pages is such that browsers tend to be very forgiving
 of certain types of mistakes. If you miss a closing tag, it will often
@@ -2371,7 +2375,9 @@ the rules are (how many spaces to indent, single or double-quotes, etc.)
 but unless there is a good reason to change away from typical practices,
 it is usually best to adopt them.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-5-3">1.5.3 White Space and Capitalization</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Before we go any further, it's good to understand a few technical
 details.  
@@ -2510,7 +2516,9 @@ could sum it all up with these simple dictum:
     more readable and organized.</li>
 </ul>
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-5-4">1.5.4 Activity – Best Practices</h3>
+<!------------------------------------------------------------------------------------------------>
 
 1. Compare and contrast these two different HTML Style Guides:
 
@@ -2534,7 +2542,9 @@ disagree with some of the suggestions in one of these guides?
 -   Using "Validate by URI", try some popular Web sites and see if you
     can find any errors.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-6-1">1.6.1 Tags We Have Already Used</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Now you can create a simple, empty, HTML page, and you know what tags
 are, though we have not said a lot about specific tags, what they mean,
@@ -2638,7 +2648,9 @@ styling of one element to look like just about any other element.  You
 could style a &lt;p&gt; element so that it looks like an &lt;h1&gt;, though best
 practice would be not to do that.</p>
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-6-2">1.6.2 A Few New Tags to Learn</h3>
+<!------------------------------------------------------------------------------------------------>
 
 <p>There are a lot more tags, but we will just cover a few more for now,
 mostly because they are straightforward to use and you can see the
@@ -2756,13 +2768,19 @@ both spaces and
 line breaks
 ```
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-6-3">1.6.3 More HTML5</h3>
+<!------------------------------------------------------------------------------------------------>
 
 <h4>Video</h4>
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-6-4">1.6.4 Activity - Your First Web Page</h3>
+<!------------------------------------------------------------------------------------------------>
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-6-5">1.6.5 Recipe Project – Module 1</h3>
+<!------------------------------------------------------------------------------------------------>
 
 <p>Throughout the course, we'll be building a simple project, adding to it
 with what we've learned in each module. This project will be a simple
@@ -2828,7 +2846,9 @@ following components:</p>
 </html>
 ```
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-1-1">2.1.1 Welcome to Module 2</h3>
+<!------------------------------------------------------------------------------------------------>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 20. attributes, images and links (61) ----------------------------->
@@ -2870,7 +2890,9 @@ what you've learned and test your knowledge by doing a quiz.
 
 We hope you enjoy the course, and happy learning!
 </p>
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-1-2">2.1.2 Meaningful Web Pages</h3>
+<!------------------------------------------------------------------------------------------------>
 <p>
 Tags and elements are building blocks of HTML5. However, they can be
 made so much more exciting with attributes. Let's take a simple element
@@ -2903,7 +2925,9 @@ visually impaired people who access your Web page using assistive
 technology like screen readers. Semantic markup enables all of this and
 more.</p>
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-1-3">2.1.3 Module 2 - Content</h3>
+<!------------------------------------------------------------------------------------------------>
 
 <p><b>2.1 Introduction:</b> Check out this video explaining what you'll be
 learning about in Module 2 - and wrap your mind around the concept of
@@ -2922,7 +2946,9 @@ your Web pages.
 jump from place to place on the Web. Explore the secrets of this
 powerful mechanism!</p>
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-2-1">2.2.1 Introduction</h3>
+<!------------------------------------------------------------------------------------------------>
 
 <p>We learned a little bit about what attributes are in the previous
 module. Let's look into it in more depth, by using examples.</p>
@@ -3089,7 +3115,9 @@ poems 'poetry'.</p>
 make all elements belonging to the 'poetry' class grey, italic and
 bold.</p>
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-2-2">2.2.2 Global and Non-Global Attributes</h3>
+<!------------------------------------------------------------------------------------------------>
 
 <p>You have seen a few examples of attributes now: start, id and class. All
 HTML elements have attributes.
@@ -3193,7 +3221,9 @@ applied to the &lt;li&gt; tag. Search for the &lt;li&gt; element and then cl
 on it: it will take you to the list tag's page that specifies applicable
 attributes.</p>
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-2-3">2.2.3 Global Attributes: Examples</h3>
+<!------------------------------------------------------------------------------------------------>
 
 <h4>Global attribute: 'id'</h4>
 
@@ -3396,7 +3426,9 @@ value. 
    Administration">NASA</abbr>
 ```
 	
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-2-4">2.2.4 Global Attributes</h3>
+<!------------------------------------------------------------------------------------------------>
 
 <h4>References for the video text below:</h4>
 <ul>
@@ -3554,7 +3586,9 @@ different element pages.
 That's it for now and, go ahead and explore attributes and all of the
 elements you can think of.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-2-5">2.2.5 Activities - Attributes</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Please find below suggested activities to help you practice:
 
@@ -3579,7 +3613,9 @@ Please find below suggested activities to help you practice:
     the list. Give it the following title (when you hover your mouse, it
     should display the title as a tooltip): 'Activity List'.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-3-1">2.3.1 Separating Content and Style</h3>
+<!------------------------------------------------------------------------------------------------>
 
 When writing in hypertext language, it is important to separate content
 and style. Style should be kept tucked away in Cascading Style Sheets
@@ -3745,7 +3781,9 @@ categories across different cultures. For more information, read the
 article <a href="https://www.w3.org/International/questions/qa-b-and-i-tags">Using &lt;b&gt; and &lt;i&gt;
 elements</a>.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-3-2">2.3.2 Introduction to Semantic Elements</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Semantic HTML is HTML that concentrates on the meaning of information in
 Web pages instead of its presentation or look.
@@ -3937,7 +3975,9 @@ this:
    alt="Using the markup validator." />
 </p>
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-3-3">2.3.3 New HTML5 Semantic Elements</h3>
+<!------------------------------------------------------------------------------------------------>
 
 We will elaborate on selected semantic elements in detail in the next
 unit.
@@ -4290,7 +4330,9 @@ Apart from
 these, &lt;cite&gt;, &lt;em&gt;, &lt;strong&gt;, &lt;p&gt; and &lt;blockquote&gt; are also
 semantic elements.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-3-4">2.3.4 Differentiating Semantic Elements</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Now, you have learned the semantic elements available and their syntax.
 When you try to apply it practically, there are some common problems you
@@ -4546,7 +4588,9 @@ multiple &lt;header&gt;, &lt;footer&gt; and &lt;nav&gt; tags.
 </html>
 ```
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-3-5">2.3.5 &lt;article&gt; and &lt;section&gt; Elements</h3>
+<!------------------------------------------------------------------------------------------------>
 
 <h4>&lt;article&gt; element</h4>
 
@@ -4811,7 +4855,9 @@ mark, figure, figcaption, details and summary.
 Experiment with the sample and try inserting other semantic elements
 that you want to try.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-3-6">2.3.6 &lt;div&gt; and &lt;span&gt; Elements</h3>
+<!------------------------------------------------------------------------------------------------>
 
 <h4>&lt;div&gt; element</h4>
 
@@ -4951,7 +4997,9 @@ is not valid because the browser will consider them as two
 paragraphs one after the other. Even though you close the paragraphs
 with two closing tags &lt;/p&gt;&lt;/p&gt; at the end, they are ignored.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-3-7">2.3.7 Activities – Semantic Meaning</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Please find below suggested activities to help you practice:
 
@@ -4964,7 +5012,9 @@ Please find below suggested activities to help you practice:
 3.  Write a short HTML page that uses the &lt;div&gt; and &lt;span&gt; tags. You
     need not style them.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-4-1">2.4.1 Introduction</h3>
+<!------------------------------------------------------------------------------------------------>
 
 <h4>The &lt;img&gt; tag</h4>
 
@@ -5085,7 +5135,9 @@ information to be aware of.
     a <a href="https://www.w3.org/TR/SVG/" target="_blank">W3C Web standard</a>).</li>
 </ul>
 </p>
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-4-2">2.4.2 Attribute alt</h3>
+<!------------------------------------------------------------------------------------------------>
 <h4>alt stands for <i>alternate text</i> for an image.</h4>
 
 ```
@@ -5159,7 +5211,9 @@ browser:
    alt="Supposed to be an image of tulips" />
 </p>
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-4-3">2.4.3 Attributes: title, height & width</h3>
+<!------------------------------------------------------------------------------------------------>
 
 <h4>The 'title' attribute</h4>
 
@@ -5318,7 +5372,9 @@ style="width:2in;height:2in"
 style="width:2in;height:2in"
 -------->
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-4-5">2.4.5 Using &lt;img&gt; Tags</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Hi there! In this video, we're going to take a closer look at how we add
 images to our HTML pages.
@@ -5538,7 +5594,9 @@ In this video, we'd fun with images, the image tag and its attributes.
 
 You're all set to spice up your pages with some images. Take care!
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-4-6">2.4.6 Activities - images</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Please find below a list of possible activities:
 
@@ -5559,7 +5617,9 @@ Refer to the <a href="https://www.w3.org/WAI/tutorials/images/" target="_blank"
 Tutorial</a> for a guide to
 writing alternate text. 
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-5-1">2.5.1 Introduction</h3>
+<!------------------------------------------------------------------------------------------------>
 
 <h4>What are hyperlinks?</h4>
 
@@ -5728,7 +5788,9 @@ addresses:
     be used to search the Web to pick up email addresses for spam. You
     should avoid this if possible and use contact forms instead.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-5-2">2.5.2 Attributes: href and target</h3>
+<!------------------------------------------------------------------------------------------------>
 
 <h4>The 'href' attribute</h4>
 
@@ -5817,7 +5879,9 @@ of the new tab having opened.</p></td>
 </tbody>
 </table>
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-5-3">2.5.3 Attributes: Media and Download</h3>
+<!------------------------------------------------------------------------------------------------>
 
 <h4>The 'media' attribute</h4>
 
@@ -5885,7 +5949,9 @@ browsers](https://caniuse.com/#search=download). Try
 the download attribute in a html file of your own and run it in
 different browsers to see how it behaves.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-5-4">2.5.4 Use of Hyperlink Attributes</h3>
+<!------------------------------------------------------------------------------------------------>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- 46. hyperlink attributes (122) --------------------------------->
@@ -6128,7 +6194,9 @@ You've seen how to use the attributes on the anchor tag to jump to pages
 on our site, visit other sites, download files and even skip around on
 the same page.
 
-<h3 id="ch2-5-6">2.5.6 Recipe Project – Module 2</h3>
+<!------------------------------------------------------------------------------------------------>
+<h3 id="ch2-5-5">2.5.5 Recipe Project – Module 2</h3>
+<!------------------------------------------------------------------------------------------------>
 
 We are now going to continue building on the recipe project we started
 in Module 1.  You can find our version in the CodePen below (and the
@@ -6408,7 +6476,9 @@ tags.
 
 And that concludes this live coding session. Bon appétit !
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch3-1">3.1.1 Welcome to Module 3</h3>
+<!------------------------------------------------------------------------------------------------>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 48. w3cx html5 and css3 logo (132) ------------------------------>
@@ -6452,7 +6522,9 @@ visual impact is very rewarding.
 So, prepare to have fun, and let yourself experiment because that's how
 you learn, experimentation.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch3-1-2">3.1.2 Module 3 Content</h3>
+<!------------------------------------------------------------------------------------------------>
 
 1.  <b>Introduction to Module 3:</b> Get an overview of what CSS (Cascading
     Style Sheets) can do for your Web pages.
@@ -6468,7 +6540,9 @@ you learn, experimentation.
     specific purpose tags in HTML, and selectors are what allows you to
     target specific HTML elements and apply style to them
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch3-1-3">3.1.3 The CSS Language</h3>
+<!------------------------------------------------------------------------------------------------>
 
 <h4>CSS stands for 'Cascading Style Sheets'</h4>
 
@@ -6510,7 +6584,9 @@ central way to set such rules, i.e. one place that said "I want all my
 paragraphs to be indented this much", much like master sheets in a word
 processor. CSS helps to solve this problem.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch3-1-4">3.1.4 The W3C CSS Working Group</h3>
+<!------------------------------------------------------------------------------------------------>
 
 The **CSS Working Group** (Cascading Style Sheets Working Group) is
 a [working group](https://en.wikipedia.org/wiki/Working_group) created
@@ -6542,7 +6618,9 @@ together form the current state of Cascading Style Sheets (CSS) as of
 definition includes modules by specification stability, not Web browser
 adoption rate.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch3-1-5">3.1.5 An Example</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Let's see CSS in action. Below, we see two identical copies of HTML,
 however, styled differently.
@@ -6563,7 +6641,9 @@ stopped.
 Both of these use the exact same HTML. It is the CSS that makes them so
 different. So let's get started.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch3-2-1">3.2.1 The &lt;style&gt; and &lt;link&gt; tags</h3>
+<!------------------------------------------------------------------------------------------------>
 
 <h4>The &lt;style&gt; tag</h4>
 
@@ -6638,7 +6718,9 @@ directory named *css*.
 </html>
 ```
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch3-2-2">3.2.2 Rules: selectors and declarations</h3>
+<!------------------------------------------------------------------------------------------------>
 
 At its simplest, CSS is just a list of *rules*.  Each *rule* consists of
 a *selector* and a *declaration.  *Here is an example:
@@ -6689,7 +6771,9 @@ p {
 }
 ```
 
-<h3 id="ch2-2-3">3.2.3 Comments</h3>
+<!------------------------------------------------------------------------------------------------>
+<h3 id="ch3-2-3">3.2.3 Comments</h3>
+<!------------------------------------------------------------------------------------------------>
 
 CSS can include "comments" as well, by which you, the developer today,
 can leave notes and reminders to you, a different developer tomorrow. Or
@@ -6711,13 +6795,13 @@ p {
 ```
 
 <!------------------------------------------------------------------------------------------------>
-<h3>3.2.4 Knowledge Check</h3>
+<h3 id="ch3-2-4">3.2.4 Knowledge Check</h3>
 <!------------------------------------------------------------------------------------------------>
 
 n/a
 
 <!------------------------------------------------------------------------------------------------>
-<h3>3.2.5 Activity - Use CSS</h3>
+<h3 id="ch3-2-5">3.2.5 Activity - Use CSS</h3>
 <!------------------------------------------------------------------------------------------------>
 
 Use CSS on the following HTML code. Try various styles, experiment, and
@@ -8242,7 +8326,7 @@ conflict there is no escape.  If you are having problems with precedence
 the best advice is to fix them directly, rather than using !important.
 
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch3-4-6">3.4.6 Recipe</h3>
+<h3 id="ch3-4-5">3.4.5 Recipe</h3>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 57.  (170) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -8355,7 +8439,7 @@ the browser to understand conflicting rules.
 debugging your code.
 
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch4-2">4.2.1 Tools</h3>
+<h3 id="ch4-2-1">4.2.1 Tools</h3>
 <!------------------------------------------------------------------------------------------------>
 
 It's hard to overestimate the value of tools for programming languages.
@@ -8473,7 +8557,9 @@ you want to inspect and select "Inspect element" which will bring up the
 developer tools and highlights the HTML element or code for that section
 on the page.
 
+<!------------------------------------------------------------------------------------------------>
 <h3>4.2.3 Modifying HTML5 elements</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Another handy feature of the developer tools is the ability to make
 temporary modifications to your code to try out different things and see
