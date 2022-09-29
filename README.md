@@ -10712,17 +10712,20 @@ will make the every third list item grey.
 <h4>CSS</h4>
 
 ```
-1.  table { border-collapse: collapse; }
-2.  table, th, td { padding: 15px; border-bottom: 1px solid black; }
-3.  
-4.  table.eg1 tr:nth-child(even) { background-color: #ccff99; }
-5.  
-6.  table.eg2 tr:nth-child(odd) { background-color: #ccff99; }
-7.  
-8.  table.eg3 tr:nth-child(3n) { background-color: #ccff99; }
+table { border-collapse: collapse; }
+table, th, td { padding: 15px; border-bottom: 1px solid black; }
+
+table.eg1 tr:nth-child(even) { background-color: #ccff99; }
+
+table.eg2 tr:nth-child(odd) { background-color: #ccff99; }
+
+table.eg3 tr:nth-child(3n) { background-color: #ccff99; }
 ```
 
 <h4>HTML</h4>
+
+<details>
+  <summary> HTML
 
 ```
 1.  <!DOCTYPE html>
@@ -10777,7 +10780,7 @@ will make the every third list item grey.
 
 <h4>hover to highlight</h4>
 
-Using the hover property on your <tr>, you can mouse over rows in your
+Using the hover property on your &lt;tr&gt;, you can mouse over rows in your
 table to highlight them in the color you specify. This is useful to help
 users differentiate data between rows. 
 
@@ -11626,11 +11629,11 @@ therefore, it does not require a closing tag.
 
 ```
 <audio controls>
-   <source src="https://courses.edx.org/asset-v1:W3Cx+HTML5.0x+3T2016+type@asset+block@splash.wav" 
-      type="audio/wav">
-   <source src="https://courses.edx.org/asset-v1:W3Cx+HTML5.0x+3T2016+type@asset+block@splash.mp3" 
-      type="audio/mpeg">
-   Your browser does not support the audio element.
+  <source src="https://courses.edx.org/asset-v1:W3Cx+HTML5.0x+3T2016+type@asset+block@splash.wav" 
+          type="audio/wav">
+  <source src="https://courses.edx.org/asset-v1:W3Cx+HTML5.0x+3T2016+type@asset+block@splash.mp3" 
+         type="audio/mpeg">
+  Your browser does not support the audio element.
 </audio>
 ```
 
@@ -11666,7 +11669,7 @@ or source element (for multiple source files). 
 
 ```
 <video src="multimedia/running.mp4">
-   Your browser does not support the HTML5 video element.
+  Your browser does not support the HTML5 video element.
 </video>
 ```
 
@@ -11774,10 +11777,10 @@ is self-closing and so does not require a closing tag.
 
 ```
 <video controls height="320" width="240">
-   <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
-   <source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm">
-   <source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg">
-      Your browser does not support the HTML5 video element.
+  <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
+  <source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm">
+  <source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg">
+    Your browser does not support the HTML5 video element.
 </video>
 ```
 
@@ -11827,9 +11830,9 @@ your &lt;video&gt; tag like this:
 
 ```
 <video width="320" height="240" controls>
-<source src="module.mp4" type="video/mp4">
-<track src="module-captions.vtt" kind="captions" srclang="en" label="English" default>
-Your browser does not support the HTML5 video element.
+  <source src="module.mp4" type="video/mp4">
+  <track src="module-captions.vtt" kind="captions" srclang="en" label="English" default>
+  Your browser does not support the HTML5 video element.
 </video>
 ```
 
@@ -11886,13 +11889,13 @@ style="width:4in;height:2.51477in" />
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>The iframes tag</title>
+  <meta charset="UTF-8">
+  <title>The iframes tag</title>
 </head>
 <body>
-<p>This is a parent page that will host the iframe.</p>
-<iframe src="https://www.w3.org/">
-</iframe>
+  <p>This is a parent page that will host the iframe.</p>
+  <iframe src="https://www.w3.org/">
+  </iframe>
 </body>
 </html>
 ```
@@ -12032,7 +12035,7 @@ code sample:
 
 ```
 <a href="/ismap-image/ismap.cgi" target="_self">
-   <img src="images/logo.png" alt="ismap tutorial" ismap>
+  <img src="images/logo.png" alt="ismap tutorial" ismap>
 </a>
 ```
 
@@ -12085,7 +12088,7 @@ usemap is a lot like ismap and is more widely used. ismap deals with
 server-side image-maps whereas usemap deals with client-side
 image-maps. 
 
--   >Server-side image-maps: use separate map files that have to be
+-   Server-side image-maps: use separate map files that have to be
     downloaded. They depend on the server for translating the request.
     They also create additional network traffic. 
 
@@ -12187,7 +12190,7 @@ will not work.
 
 ```
 <iframe src="http://facebook.com">
-   <p>Your browser does not support iframes.</p>
+  <p>Your browser does not support iframes.</p>
 </iframe>
 ```
 
@@ -15234,4 +15237,4 @@ These are the final changes to our recipe project for this unit.
 
 <h4>The end...</h4>
 
-<h3><b>Last Updated 09-27-2022 12:57pm</b></h3>
+<h3><b>Last Updated 09-29-2022 9:58am</b></h3>
