@@ -5863,7 +5863,7 @@ The href attribute takes a URL. This URL can be in the form of:
 
 -   protocols such as:
 
-- mailto: | for email addresses. 
+    - mailto: | for email addresses.
 
 ```
 <a href="mailto:abc@alphabets.com"></a>
@@ -6527,7 +6527,7 @@ And that concludes this live coding session. Bon appétit !
 <p align="center" width="100%">
 <img src="./images/image048.png"
    width="40%"
-   alt="" />
+   alt="W3Cx html5 and css3 logo." />
 </p>
 <!-------
 style="width:4in;height:2.27184in" />
@@ -6546,7 +6546,10 @@ CSS, or Cascading Style Sheets, is used to style each HTML.
 <!------------------------------ 49. adding styles with css (132) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <img src="./images/image049.png"
-style="width:2.125in;height:2.27083in" />
+   width="20%"
+   alt="Adding styles with CSS." />
+</p>
+<!-- style="width:2.125in;height:2.27083in" /> -->
 
 It's how we determine the color, text size, and spacing, as well as
 other visual aspects of your Web page.
@@ -6766,6 +6769,10 @@ directory named <i>css</i>.
 At its simplest, CSS is just a list of <i>rules</i>.  Each <i>rule</i> consists of
 a <i>selector</i> and a <i>declaration.  </i>Here is an example:
 
+<!------------------------------------------------------------------------------------------------>
+<!---------------------- 53 figure showing a selector & declaration (137) ------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
 <img src="./images/image053.jpeg"
 style="width:4in;height:3.30064in"
 alt="Figure showing a selector &#39;p&#39; before a declaration &#39;font-size:12px; color: #223344&#39;" />
@@ -6853,12 +6860,12 @@ You are welcome to edit the
 following <a href="https://codepen.io/w3devcampus/pen/QvQgbr" target="_blank">CodePen.</a>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- 54. the inventor of gunpower by john milton (137) ----------------------->
+<!---------------------- 54. the inventor of gunpower by john milton (139) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image054.png?raw=true"
    width="65%"
-   alt="On the inventor of gunpower, by john milton." />
+   alt="On the Inventor of Gunpower, by John Milton." />
 </p>
 
 ... or work from the lines of code below (to paste in your favorite Web
@@ -6896,10 +6903,11 @@ styles you like on it.
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch3-2-6">3.2.6 CSS Rules</h3>
 <!------------------------------------------------------------------------------------------------>
-
 Hi, this is Adrian from Microsoft learning, and we're going to be
 learning today about CSS and HTML, and the ways in which they play
 together.
+
+<!----------------------- image page 140 ---------------------------->
 
 If you look at this file that I have opened right now in Visual Studio
 Code, it's the Gunpowder file which you should be at least a little bit
@@ -6912,6 +6920,8 @@ it look and feel a little bit different.
 
 And we've got our header tag, we've got our address and of course the
 poem which is being held in this fantastic paragraph tag.
+
+<!----------------------- image page 141 ---------------------------->
 
 Before we get started, let's just take a look at what this looks like
 here in the Microsoft Edge.
@@ -6960,6 +6970,8 @@ You can see it's a little bit bigger, but I want to make this 25.
 
 It's not quite big enough yet.
 
+<!----------------------- image page 142 ---------------------------->
+
 We'll refresh the page, and you can see the size has been changed very
 slightly.
 
@@ -6972,6 +6984,8 @@ and I'm going to make the font size of that to be 0.7 rem
 
 It's going to be a little bit smaller relative to the sort of default
 font size that we've set up here.
+
+<!----------------------- image page 143 ---------------------------->
 
 You could just do em, just to make it consistent and not relative.
 
@@ -7308,7 +7322,7 @@ the built in sans-serif browser font.
     (serif, sans-serif, etc.)
 
 Web fonts are outside the scope of this course. Google provides a nice
-selection of licensed free Web fonts. Type "<i>google Web font tutorial<i>"
+selection of licensed free Web fonts. Type "<i>google Web font tutorial</i>"
 into any search engine to learn more. 
 
 <!------------------------------------------------------------------------------------------------>
@@ -7446,14 +7460,16 @@ will generally prove to be more reliable than 'em'.  'rem' is supported
 in all modern day browsers, including mobile, but not older ones. 
 
 Using the CSS rules from the em section immediately above, nested list
-items (<li>birds<ul><li>hawk</li></ul></li>)would get
+items (&lt;li&gt;birds&lt;ul&gt;&lt;li&gt;hawk&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;)would get
 increasingly smaller. And if 'rem' units were used, they would be the
 same size.
 
 Note: to ensure you are setting the root size,
 use <i><b>both</b></i> the html and body selectors.
 
+```
 <h4>html, body { font-size: 20px; }</h4>
+```
 
 <h4>%</h4>
 
