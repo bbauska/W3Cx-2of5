@@ -7,8 +7,8 @@
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/w3c-logo.png?raw=true"
-   width="35%"
-   alt="W3C logo" />
+  width="35%"
+  alt="W3C logo" />
 </p>
 
 <h3 align="center">W3Cx-2of5-HTML5.0x - HTML5 and CSS3 Fundamentals</h3>
@@ -17,8 +17,8 @@
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image001.png?raw=true"
-   width="65%"
-   alt="W3Cx HTML 5.0x logo" />
+  width="65%"
+  alt="W3Cx HTML 5.0x logo" />
 </p>
 
 ## [Table of Contents](#table-of-contents)
@@ -90,8 +90,8 @@ a professional look and feel, by just following these 6 modules!</p>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image002.jpeg?raw=true"
-   width="15%"
-   alt="My First Web Page" />
+  width="15%"
+  alt="My First Web Page" />
 </p>
 <ul>
 <li>In <b>Module 2</b>, you will learn about HTML5 attributes, and become fluent in adding images and links in your Web pages.&nbsp;<br/></li>
@@ -105,8 +105,8 @@ a professional look and feel, by just following these 6 modules!</p>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image003.png?raw=true"
-   width="15%"
-   alt="W3C Developers logo" />
+  width="15%"
+  alt="W3C Developers logo" />
 </p>
 
 <p>It is how we determine the color, text size, spacing and other visual
@@ -120,8 +120,8 @@ layout your page during the last week of this course.</p>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image004.png?raw=true"
-   width="15%"
-   alt="" />
+  width="15%"
+  alt="" />
 </p>
 
 <li>Whilst practicing and improving your recipe project (or else) with
@@ -137,8 +137,8 @@ layout your page during the last week of this course.</p>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image005.png?raw=true"
-   width="50%"
-   alt="W3C Cheat Sheet" />
+  width="50%"
+  alt="W3C Cheat Sheet" />
 </p>
 
 <li>In <b>Module 5</b>, you will be combining HTML and CSS to create more
@@ -151,8 +151,8 @@ layout your page during the last week of this course.</p>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image006.png?raw=true"
-   width="65%"
-   alt="Can I Use: CSS Colors" />
+  width="65%"
+  alt="Can I Use: CSS Colors" />
 </p>
 
 <li><b>Module 6</b> is about page layout and more specifically about
@@ -170,12 +170,12 @@ your knowledge of the 3 foundational languages that power the Web:
 HTML5, CSS and JavaScript. The W3C FEWD program is composed of 5
 courses:
 <ol type="1">
-   <li><a href="https://github.com/bbauska/W3Cx-1of5-CSS.0x" target="_blank">CSS Basics</a> - introductory level,<br/>&nbsp;</li>
-   <li><b>This course: <a href="https://www.edx.org/course/html5-and-css-fundamentals" target="_blank">HTML5 and CSS Fundamentals</a> - introductory level,</b><br/>&nbsp;</li>
-   <li><a href="https://github.com/bbauska/W3Cx-3of5-HTML5.1x" target="_blank">HTML5 Coding Essentials and Best Practices</a> - intermediate level,<br/>&nbsp;</li>
-   <li><a href="https://github.com/bbauska/W3Cx-4of5-HTML5.2x" target="_blank">HTML5 Apps and Games</a> - advanced
+  <li><a href="https://github.com/bbauska/W3Cx-1of5-CSS.0x" target="_blank">CSS Basics</a> - introductory level,<br/>&nbsp;</li>
+  <li><b>This course: <a href="https://www.edx.org/course/html5-and-css-fundamentals" target="_blank">HTML5 and CSS Fundamentals</a> - introductory level,</b><br/>&nbsp;</li>
+  <li><a href="https://github.com/bbauska/W3Cx-3of5-HTML5.1x" target="_blank">HTML5 Coding Essentials and Best Practices</a> - intermediate level,<br/>&nbsp;</li>
+  <li><a href="https://github.com/bbauska/W3Cx-4of5-HTML5.2x" target="_blank">HTML5 Apps and Games</a> - advanced
     level,<br/>&nbsp;</li>
-   <li><a href="https://github.com/bbauska/W3Cx-5of5-JS.0x" target="_blank">JavaScript Introduction</a> -
+  <li><a href="https://github.com/bbauska/W3Cx-5of5-JS.0x" target="_blank">JavaScript Introduction</a> -
     introductory level.</li>
 </ol>
 
@@ -185,10 +185,10 @@ courses:
 
 During this course, you will learn:</p>
 <ul>
-<li>Basic concepts of a markup language,<br/>&nbsp;</li>
-<li>Basic building blocks of Web design and style,<br/>&nbsp;</li>
-<li>Basics of HTML5 and CSS,<br/>&nbsp;</li>
-<li>How to write a Web page.</li>
+  <li>Basic concepts of a markup language,<br/>&nbsp;</li>
+  <li>Basic building blocks of Web design and style,<br/>&nbsp;</li>
+  <li>Basics of HTML5 and CSS,<br/>&nbsp;</li>
+  <li>How to write a Web page.</li>
 </ul>
 
 <p>Have fun!</p>
@@ -223,29 +223,27 @@ for you.
 There are two types of editors available, WYSIWYG ("What You See Is What
 You Get") and textual HTML editors. Here is a non exhaustive list:</p>
 <ul>
-<li><a href="https://www.sublimetext.com/" target="_blank">Sublime Text</a> - it is quite
-popular with developers, though there can be a bit of a learning curve
-to use its many features,</li>
-<li><a href="http://bluegriffon.org/" target="_blank">BlueGriffon</a> - a WYSIWYG content
-editor for the World Wide Web. Powered by Gecko, the rendering engine of
-Firefox, it's a modern and robust solution to edit Web pages in
-conformance to the latest Web Standards,</li>
-<li><a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> - a free
-open source editor that can run on any operating system. Many coding
-videos in this course are demonstrated using Visual Studio Code,</li>
-<li><a href="https://github.com/" target="_blank">GitHub</a> itself - check <a href="https://towardsdatascience.com/how-to-create-a-free-github-pages-website-53743d7524e1" target="_blank">this resource
-that explains how to create a Web site using 
-GitHub</a>,</li>
-<li><a href="https://developer.apple.com/xcode/" target="_blank">XCode</a> - Mac developers
-may be familiar with XCode,</li>
-<li>TextEdit - this is available on Macs, but be sure
-you're <a href="https://discussions.apple.com/message/5014514#5014514" target="_blank">saving as plain
-text</a>, not as a ".rtf" or ".doc" file,</li>
-<li><a href="https://notepad-plus-plus.org/" target="_blank">Notepad++</a> - on Windows PC's,</li>
-<li><a href="https://www.sublimetext.com/" target="_blank">Atom</a> - another cross platform
-editor, created by <a href="https://github.com/" target="_blank">GitHub</a>,</li>
-<li><a href="https://www.vim.org/" target="_blank") or <a href="https://www.gnu.org/software/emacs/">Emacs</a> target="_blank">Vim</a> -
-great editors, but if you're not already familiar with these, this isn't the time to try.</li>
+  <li><a href="https://www.sublimetext.com/" target="_blank">Sublime Text</a> - it is quite
+    popular with developers, though there can be a bit of a learning curve
+    to use its many features,</li>
+  <li><a href="http://bluegriffon.org/" target="_blank">BlueGriffon</a> - a WYSIWYG content
+    editor for the World Wide Web. Powered by Gecko, the rendering engine of
+    Firefox, it's a modern and robust solution to edit Web pages in
+    conformance to the latest Web Standards,</li>
+  <li><a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> - a free
+    open source editor that can run on any operating system. Many coding
+    videos in this course are demonstrated using Visual Studio Code,</li>
+  <li><a href="https://github.com/" target="_blank">GitHub</a> itself - check <a href="https://towardsdatascience.com/how-to-create-a-free-github-pages-website-53743d7524e1"
+    target="_blank">this resource that explains how to create a Web site using GitHub</a>,</li>
+  <li><a href="https://developer.apple.com/xcode/" target="_blank">XCode</a> - Mac developers
+    may be familiar with XCode,</li>
+  <li>TextEdit - this is available on Macs, but be sure you're <a href="https://discussions.apple.com/message/5014514#5014514" 
+    target="_blank">saving as plain text</a>, not as a ".rtf" or ".doc" file,</li>
+  <li><a href="https://notepad-plus-plus.org/" target="_blank">Notepad++</a> - on Windows PC's,</li>
+  <li><a href="https://www.sublimetext.com/" target="_blank">Atom</a> - another cross platform
+    editor, created by <a href="https://github.com/" target="_blank">GitHub</a>,</li>
+  <li><a href="https://www.vim.org/" target="_blank") or <a href="https://www.gnu.org/software/emacs/">Emacs</a> target="_blank">Vim</a> -
+    great editors, but if you're not already familiar with these, this isn't the time to try.</li>
 </ul>
 
 <h3>Online Code Editors</h3>
@@ -275,16 +273,16 @@ Here's an interesting article on what beginners can do with CodePen: <a href="h
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image003.png?raw=true"
-   width="30%"
-   alt="W3C Developers logo." />
+  width="30%"
+  alt="W3C Developers logo." />
 </p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 07. mdn web docs mozilla logo (08) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image007.png?raw=true"
-   width="30%"
-   alt="MDN Web Docs Mozilla logo." />
+  width="30%"
+  alt="MDN Web Docs Mozilla logo." />
 </p>
 
 <p>For over 15 years, the W3C has been developing and hosting <a href="https://w3c.github.io/developers/" target="_blank">free and open source tools</a> used every day by millions of Web developers and Web designers. All the tools listed below are Web-based, and are available as downloadable sources or as free services on the <a href="https://w3c.github.io/developers/tools/" target="_blank">W3C Developers tools</a>.</p>
@@ -302,8 +300,8 @@ Here's an interesting article on what beginners can do with CodePen: <a href="h
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image004.png?raw=true"
-   width="15%"
-   alt="Laptop" />
+  width="15%"
+  alt="Laptop" />
 </p>
 
 <h3>Unicorn</h3>
@@ -346,8 +344,8 @@ internationalization tips.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image005.png?raw=true"
-   width="50%"
-   alt="W3C Cheat Sheet" />
+  width="50%"
+  alt="W3C Cheat Sheet" />
 </p>
 
 Its main feature is a lookup search box, where one can start typing a keyword and get a list of matching properties/elements/ attributes/functions in the above-mentioned specifications, and further details on those when selecting the one of interest.
@@ -392,8 +390,8 @@ is a snapshot of what information is given by CanIUse when searching for
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image006.png?raw=true"
-   width="65%"
-   alt="Example of a CanIUse browser support table (using CSS3 colors)" />
+  width="65%"
+  alt="Example of a CanIUse browser support table (using CSS3 colors)" />
 </p>
 
 <h3>MDN Web Docs</h3>
@@ -403,8 +401,8 @@ is a snapshot of what information is given by CanIUse when searching for
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image007.png?raw=true"
-   width="35%"
-   alt="MDN Web Docs logo" />
+  width="35%"
+  alt="MDN Web Docs logo" />
 </p>
 
 To help developers make these decisions consciously rather than
@@ -416,9 +414,9 @@ exactly which browsers will support it.
 <h3>External resources</h3>
 <ul>
 <li><a href="https://hacks.mozilla.org/2018/02/mdn-browser-compatibility-data/" target="_blank">MDN browser compatibility data: Taking the guesswork out of web
-    compatibility</a),</li>
+  compatibility</a),</li>
 <li><a href="https://hacks.mozilla.org/2019/09/caniuse-and-mdn-compat-data-collaboration/" target="_blank">Caniuse and MDN compatibility data
-    collaboration</a>.</li>
+  collaboration</a>.</li>
 </ul>
 
 <!------------------------------------------------------------------------------------------------>
@@ -438,8 +436,8 @@ define key parts of what actually makes the World Wide Web work.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image008.jpeg?raw=true"
-   width="35%"
-   alt="Tim Berners-Lee at his desk in CERN, 1994" />
+  width="35%"
+  alt="Tim Berners-Lee at his desk in CERN, 1994" />
 </p>
 <h6 align="center">Tim Berners-Lee at his desk in CERN, 1994</h6>
 
@@ -469,23 +467,23 @@ University</a> as the fourth Host.
 As of April 2021, W3C:
 <ul>
 <li>Is a <a href="https://www.w3.org/Consortium/Member/List" target="_blank">member-</a>driven
-    organization composed of nearly 430 companies, universities,
-    start-ups, etc. from all over the world.&nbsp;<br/></li>
+  organization composed of nearly 430 companies, universities,
+  start-ups, etc. from all over the world.&nbsp;<br/></li>
 <li>Holds 48 <a href="https://www.w3.org/Consortium/activities" target="_blank">technical groups</a>, including Working
-    and Interest Groups where technical specifications are discussed and
-    developed.&nbsp;<br/></li>
+  and Interest Groups where technical specifications are discussed and
+  developed.&nbsp;<br/></li>
 <li>Published over 7,652 <a href-"https://www.w3.org/TR/" target="_blank">published technical
-    reports</a>, including 442 Web standards (or
-    W3C Recommendations) - since January 1st,1995.&nbsp;<br/></li>
+  reports</a>, including 442 Web standards (or
+  W3C Recommendations) - since January 1st,1995.&nbsp;<br/></li>
 <li>Runs a <a href="https://www.w3.org/Consortium/Translation/" target="_blank">translation
-    program</a> to foster the translation of its specifications: see the <a href="https://www.w3.org/Consortium/Translation/matrix.html">translation
-    matrix</a> currently listing 307 available translations of W3C recommendations.&nbsp;<br/></li>
+  program</a> to foster the translation of its specifications: see the <a href="https://www.w3.org/Consortium/Translation/matrix.html">translation
+  matrix</a> currently listing 307 available translations of W3C recommendations.&nbsp;<br/></li>
 <li>Hosts 350 <a href="https://www.w3.org/community/groups/" target="_blank">Community and Business Groups</a>, where developers, designers, and anyone passionate about the Web have a place to hold
-    discussions and publish ideas.&nbsp;<br/></li>
+  discussions and publish ideas.&nbsp;<br/></li>
 <li>Gathers over 13,960active participants constituting the W3C
-    community.&nbsp;<br/></li>
+  community.&nbsp;<br/></li>
 <li>Has a <a href="https://www.w3.org/People/" target="_blank"> technical staff</a> composed of 68
-    people, spread on all five continents.</li>
+  people, spread on all five continents.</li>
 </ul>
 
 <h3>W3C's core values</h3>
@@ -579,8 +577,8 @@ as 'vague but exciting'.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image009.gif?raw=true"
-   width="85%"
-   alt="Network of Components" />
+  width="85%"
+  alt="Network of Components" />
 </p>
 
 Sir Tim Berners-Lee’s vision for universality enabled the development of
@@ -598,12 +596,12 @@ His breakthrough was to link hypertext to the Internet and he used three
 technologies to do this:
 
 <ul>
-<li>HyperText Transfer Protocol (HTTP) is the foundation of data
+  <li>HyperText Transfer Protocol (HTTP) is the foundation of data
     communication for the Web.</li><br/>
-<li>HyperText Markup Language (HTML) is the main mark-up language for
+  <li>HyperText Markup Language (HTML) is the main mark-up language for
     creating Web pages and information that can be displayed on a Web
     browser.</li><br/>
-<li>Web addresses or a Uniform Resource Locator (URL) are used to
+  <li>Web addresses or a Uniform Resource Locator (URL) are used to
     reference a Web page.</li><br/>
 </ul>
 
@@ -622,8 +620,8 @@ interact with all the information on the World Wide Web.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image010.png?raw=true"
-   width="15%"
-   alt="HTML5 logo" />
+  width="15%"
+  alt="HTML5 logo" />
 </p>
 
 When people say 'HTML5', they usually mean a bit more than just the 5th
@@ -647,8 +645,8 @@ create dynamic Web pages.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image011.png?raw=true"
-   width="15%"
-   alt="CSS3 logo" />
+  width="15%"
+  alt="CSS3 logo" />
 </p>
 
 The 'CSS' part (version 3 being current) is all about the presentation
@@ -665,8 +663,8 @@ whatever else may apply to what it looks like.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image012.jpeg?raw=true"
-   width="15%"
-   alt="JavaScript logo" />
+  width="15%"
+  alt="JavaScript logo" />
 </p>
 
 The 'JavaScript', or 'JS' for short, part is about the actions a page
@@ -697,8 +695,8 @@ incorporate Hyperlinks in a text document.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image013.png"
-   width="85%"
-   alt="Illustration of hypertext documents (here are extract of wikipedia pages): the HTML5 page has links going to the Markup language page, the World Wide Web definition page, etc." />
+  width="85%"
+  alt="Illustration of hypertext documents (here are extract of wikipedia pages): the HTML5 page has links going to the Markup language page, the World Wide Web definition page, etc." />
 </p>
 
 He envisioned a technology that would facilitate thoroughly
@@ -731,8 +729,8 @@ email and other conveniences.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image014.jpeg?raw=true"
-   width="65%"
-   alt="Snapshot of a Mosaic Browser." />
+  width="65%"
+  alt="Snapshot of a Mosaic Browser." />
 </p>
 
 At the time there were a number of different programs like
@@ -766,15 +764,15 @@ most modern browsers.
 <!------------------------------------------------------------------------------------------------>
 
 <h4>Exploring the Web, "Then and Now":</h4>
-
-<li>Go to <a href="https://archive.org/" target="_blank">archive.org</a> and find the earliest
+<ul>
+  <li>Go to <a href="https://archive.org/" target="_blank">archive.org</a> and find the earliest
     available instance of the Web site: www.google.com.</li><br/>
-<li>Note the differences between that and its current Web site.</li><br/>
-<li>Find an old news story, see how far back you can go (hint: start by
+  <li>Note the differences between that and its current Web site.</li><br/>
+  <li>Find an old news story, see how far back you can go (hint: start by
     looking at yahoo.com).</li><br/>
-<li>In general, what differences do you notice between Web sites from
+  <li>In general, what differences do you notice between Web sites from
     the 90's and Web sites today?</li><br/>
-<li>Post your observations and findings in the discussion forum below.</li><br/>
+  <li>Post your observations and findings in the discussion forum below.</li><br/>
 </ul>
 
 <!------------------------------------------------------------------------------------------------>
@@ -797,16 +795,16 @@ For example, consider the following chunk of HTML code:
 
 ```xml
 <body>
-   <h1>A Tale of Two Cities</h1>
-   <p>
-     It was the best of times, it was the worst of times, . . .
-     . . .
-   </p>
-     . . .
-   <p>
-     . . . it is a far, far better rest
-     that I go to than I have ever known.
-   </p>
+  <h1>A Tale of Two Cities</h1>
+  <p>
+    It was the best of times, it was the worst of times, . . .
+    . . .
+  </p>
+    . . .
+  <p>
+    . . . it is a far, far better rest
+    that I go to than I have ever known.
+  </p>
 </body>
 ```
 
@@ -973,8 +971,8 @@ And you can see an "Editor" opens up, and it has a HTML Pane, A CSS Pane, a Java
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image-example.png"
-   width="85%"
-   alt="Example editor." />
+  width="85%"
+  alt="Example editor." />
 </p>
 <p>
 We won't go into the code in this example.
@@ -1087,10 +1085,10 @@ Until next time, happy coding.
 Watch these 3 demos/videos below to learn how to use <a href="https://code.visualstudio.com/" target="_blank">Visual Studio
 Code</a> (VS):
 <ul>
-<li>to write HTML pages and explore the support you get when using
+  <li>to write HTML pages and explore the support you get when using
     Visual Studio Code to create Web pages.</li>
-<li>to preview your HTML page using the "open in browser" extension.</li>
-<li>to build your first "Hello HTML!" page using VS Code.</li>
+  <li>to preview your HTML page using the "open in browser" extension.</li>
+  <li>to build your first "Hello HTML!" page using VS Code.</li>
 </ul>
 
 <h4>Live coding video: using Visual Studio Code</h4>
@@ -1529,8 +1527,8 @@ elements of the DOM.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image015.png?raw=true"
-   width="65%"
-   alt="HTML element." />
+  width="65%"
+  alt="HTML element." />
 </p>
 
 Consider the figure above.  It contains a single 'html' element.  It
@@ -1562,8 +1560,8 @@ a text file?  Well, that's where "tags" come in.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image016.png?raw=true"
-   width="25%"
-   alt="Tags" />
+  width="25%"
+  alt="Tags" />
 </p>
 
 'Tags' are what we use to organize a text file (which is just a long
@@ -1610,8 +1608,8 @@ the tags being the content of the element:
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image017.png?raw=true"
-   width="65%"
-   alt="Diagram of an element: the &#39;&lt;em&gt;&#39; tag is used for element that needs Emphasis. The &#39;&lt;&#39; and &#39;&gt;&#39; indicate that this is a tag, and the little bits of text in between tell us what kind of tag it is. To completely describe the element, it needs an open and close tag, with everything in between the tags being the content of the element" />
+  width="65%"
+  alt="Diagram of an element: the &#39;&lt;em&gt;&#39; tag is used for element that needs Emphasis. The &#39;&lt;&#39; and &#39;&gt;&#39; indicate that this is a tag, and the little bits of text in between tell us what kind of tag it is. To completely describe the element, it needs an open and close tag, with everything in between the tags being the content of the element" />
 </p>
 <p>
 Most tags have open and close versions, but there are a few strange
@@ -2526,7 +2524,7 @@ could sum it all up with these simple dictum:
 -   <a href="https://contribute.jquery.org/style-guide/html/">JQuery HTML Style
     Guide</a>
 
--   [<a href="https://google.github.io/styleguide/htmlcssguide.html">Google HTML/CSS Style
+-   <a href="https://google.github.io/styleguide/htmlcssguide.html">Google HTML/CSS Style
     Guide</a>
 
 Are they consistent with each other? Are there some rules that don't
@@ -2703,8 +2701,8 @@ effect in your Web page when you use them:</p>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image018.png?raw=true"
-   width="25%"
-   alt="Example of a list as it would appear on a web page." />
+  width="25%"
+  alt="Example of a list as it would appear on a web page." />
 </p>
 
 <p>There are a couple more tags we want to bring up at this point, but
@@ -2714,25 +2712,25 @@ is for the logical structure of your content, not what it looks like.
 primarily used to invoke certain formatting.</p>
 
 <ul>
-   <li><b>&lt;hr&gt;</b> - The <b>hr</b> tag stands for horizontal rule and is used
-       to insert a horizontal line across the width of the text, or a
-       thematic break in an HTML page to divide or separate document
-       sections. The &lt;hr&gt; tag is an empty tag and does not require an end
-       tag. It would typically look like this:</li>
-   <li><b>&lt;br&gt;</b> - This tag signifies a line break, and is used for any
-       number of situations.  For example, it can be an easy way to make
-       sure that lines of poetry break where they're supposed to (less
-       verbose than requiring each line to be a separate element).
-       Essentially it helps break the "white space" rule: where spaces and
-       carriage returns are generally treated the same, the &lt;br&gt; tag is
-       treated as a required carriage return.   
-       Because it's an empty tag, there's no need for a close tag. Indeed,
-       if you do try adding &lt;/br&gt; after your &lt;br&gt; tag, it will likely
-       be interpreted as an additional break. If you feel a strong need to
-       indicate tag closure, &lt;br /&gt; is also valid syntax.  
-       Note that the &lt;br&gt; tag implies a break even if there is no break
-       in the text containing it, so for example, these two sentences would
-       be formatted exactly the same:</li>
+  <li><b>&lt;hr&gt;</b> - The <b>hr</b> tag stands for horizontal rule and is used
+    to insert a horizontal line across the width of the text, or a
+    thematic break in an HTML page to divide or separate document
+    sections. The &lt;hr&gt; tag is an empty tag and does not require an end
+    tag. It would typically look like this:</li>
+  <li><b>&lt;br&gt;</b> - This tag signifies a line break, and is used for any
+    number of situations.  For example, it can be an easy way to make
+    sure that lines of poetry break where they're supposed to (less
+    verbose than requiring each line to be a separate element).
+    Essentially it helps break the "white space" rule: where spaces and
+    carriage returns are generally treated the same, the &lt;br&gt; tag is
+    treated as a required carriage return.   
+    Because it's an empty tag, there's no need for a close tag. Indeed,
+    if you do try adding &lt;/br&gt; after your &lt;br&gt; tag, it will likely
+    be interpreted as an additional break. If you feel a strong need to
+    indicate tag closure, &lt;br /&gt; is also valid syntax.  
+    Note that the &lt;br&gt; tag implies a break even if there is no break
+    in the text containing it, so for example, these two sentences would
+    be formatted exactly the same:</li>
 </ul>
 
 ```
@@ -2748,17 +2746,17 @@ primarily used to invoke certain formatting.</p>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image019.png?raw=true"
-   width="25%"
-   alt="Example of Poetry as it might appear on a Web Page." />
+  width="25%"
+  alt="Example of Poetry as it might appear on a Web Page." />
 </p>
 
 <ul>
-   <li><b>&lt;pre&gt;</b> - <b>pre</b> stands for "PREformatted text", meaning that
-       the text is to be presented exactly as written in the HTML file. It
-       preserves all text formatting characters i.e. spaces, line
-       breaks and (thus bypassing the white space rule) and most typically
-       implies a monospace font. It is very handy for illustrating bits of
-       program code, or other "typewritten" material:</li>
+  <li><b>&lt;pre&gt;</b> - <b>pre</b> stands for "PREformatted text", meaning that
+    the text is to be presented exactly as written in the HTML file. It
+    preserves all text formatting characters i.e. spaces, line
+    breaks and (thus bypassing the white space rule) and most typically
+    implies a monospace font. It is very handy for illustrating bits of
+    program code, or other "typewritten" material:</li>
 </ul>
 
 ```
@@ -2791,11 +2789,11 @@ For now, we'll start off with a simple first draft using just what we've
 learned about HTML5 using tags we've covered.  We want to have the
 following components:</p>
 <ul>
-<li>A large title for the app, something like "My Favorite Recipes", or
+  <li>A large title for the app, something like "My Favorite Recipes", or
     whatever you'd like to call it.</li>
-<li>A description of a recipe, just some plain text explaining what the
+  <li>A description of a recipe, just some plain text explaining what the
     recipe is and any other pertinent information.</li>
-<li>A set of steps to follow, numbered in order.</li>
+  <li>A set of steps to follow, numbered in order.</li>
 </ul>
 
 <p>Please start with this "empty page" in CodePen:</p>
@@ -2805,45 +2803,45 @@ following components:</p>
 ```xml
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <title>My favorite Recipes</title>
-   </head>
-   <body>
-   </body>
+  <head>
+    <meta charset="UTF-8">
+    <title>My favorite Recipes</title>
+  </head>
+  <body>
+  </body>
 </html>
 ```
 
 ```xml
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8">
       <title>My Favorite Recipes - Module 1</title>
-   </head>
-   <body>
-      <h1>My Favorite Recipes</h1>
-      <ul>
-         <li>Recipe 1</li>
-      </ul>
-      <h2>Recipe 1</h2>
+  </head>
+  <body>
+    <h1>My Favorite Recipes</h1>
+    <ul>
+      <li>Recipe 1</li>
+    </ul>
+    <h2>Recipe 1</h2>
       <p>
-         This is going to be my favorite recipe.
+        This is going to be my favorite recipe.
       </p>
-      <h3>List of Ingredients:</h3>
-      <ul>
-         <li>Ingredient 1</li>
-         <li>Ingredient 2</li>
-         <li>Ingredient 3</li>
-      </ul>
-      <h3>Steps:</h3>
-      <ol>
-         <li>Step 1</li>
-         <li>Step 2</li>
-          <li>Step 3</li>
-         <li>Enjoy!</li>
-      </ol>
-   </body>
+    <h3>List of Ingredients:</h3>
+    <ul>
+      <li>Ingredient 1</li>
+      <li>Ingredient 2</li>
+      <li>Ingredient 3</li>
+    </ul>
+    <h3>Steps:</h3>
+    <ol>
+       <li>Step 1</li>
+       <li>Step 2</li>
+       <li>Step 3</li>
+       <li>Enjoy!</li>
+    </ol>
+  </body>
 </html>
 ```
 
@@ -2856,8 +2854,8 @@ following components:</p>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image020.png?raw=true"
-   width="35%"
-   alt="Attributes, images and links." />
+  width="35%"
+  alt="Attributes, images and links." />
 </p>
 <p>
 Hi, everyone, and welcome.
@@ -2958,9 +2956,9 @@ module. Let's look into it in more depth, by using examples.</p>
 
 ```xml
 <ol>
-   <li>Lights</li>
-   <li>Camera</li>
-   <li>Action</li>
+  <li>Lights</li>
+  <li>Camera</li>
+  <li>Action</li>
 </ol>
 ```
 
@@ -2977,9 +2975,9 @@ does by default), let's code like this:</p>
 
 ```xml
 <ol start="5">
-   <li>Lights</li>
-   <li>Camera</li>
-   <li>Action</li>
+  <li>Lights</li>
+  <li>Camera</li>
+  <li>Action</li>
 </ol>
 ```
 
@@ -3002,22 +3000,22 @@ Tags and attributes make up the language.</p>
 
 <h4>Attributes are used in tags to further define the tag:</h4>
 <ul>
-   <li>It is used inside the opening tag it is applied to and should be
-      added after a space from the tag name: &lt;ol start="5"&gt;.
-      The start attribute is used inside the &lt;ol&gt; tag.</li>
-   <li>start="5"
-      Attribute name, equal sign, opening quote, attribute value, closing
-      quote</li>
-   <li>Attributes are a name-value pair: start="5"  
-      name: start  
-      value: any positive integer</li>
-   <li>The only exception to the name-value pair is if the attribute is a
-      'boolean attribute'. These attributes have only two types of
-      values - true or false. But instead of writing "true" or "false" for
-      its value, you add the attribute name to indicate true and omit it
-      to indicate false. An example is the 'reversed' attribute in an
-      ordered list &lt;ol&gt;. Adding this attribute is an indication that the
-      list order should be reversed (in descending order).</li>
+  <li>It is used inside the opening tag it is applied to and should be
+     added after a space from the tag name: &lt;ol start="5"&gt;.
+     The start attribute is used inside the &lt;ol&gt; tag.</li>
+  <li>start="5"
+     Attribute name, equal sign, opening quote, attribute value, closing
+     quote</li>
+  <li>Attributes are a name-value pair: start="5"  
+     name: start  
+     value: any positive integer</li>
+  <li>The only exception to the name-value pair is if the attribute is a
+     'boolean attribute'. These attributes have only two types of
+     values - true or false. But instead of writing "true" or "false" for
+     its value, you add the attribute name to indicate true and omit it
+     to indicate false. An example is the 'reversed' attribute in an
+     ordered list &lt;ol&gt;. Adding this attribute is an indication that the
+     list order should be reversed (in descending order).</li>
 </ul>
 
 ```	
@@ -3107,9 +3105,9 @@ poems 'poetry'.</p>
 
 ```xml
 <p id="poem1" class="poetry">To move, to breathe, to fly, to
-   float...</p>
+  float...</p>
 <p id="poem2" class="poetry">Roses are red, violets are
-   blue...</p>
+  blue...</p>
 ```
 
 <p>So now, all you have to do in your style sheet, is to instruct it to
@@ -3125,8 +3123,8 @@ HTML elements have attributes.
 
 There are two kinds of attributes:</p>
 <ul>
-   <li>Global</li>
-   <li>Non-global</li>
+  <li>Global</li>
+  <li>Non-global</li>
 </ul>
 
 <h4>Global attributes</h4>
@@ -3162,9 +3160,9 @@ several tags such as &lt;img&gt;, &lt;input&gt; and &lt;video&gt;.</p>
 
 ```xml
 <ol>
-   <li>HTML5</li>
-   <li>CSS</li>
-   <li>JavaScript</li>
+  <li>HTML5</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
 </ol>
 ```
 
@@ -3172,9 +3170,9 @@ several tags such as &lt;img&gt;, &lt;input&gt; and &lt;video&gt;.</p>
 
 ```xml
 <ol reversed>
-   <li>HTML5</li>
-   <li>CSS</li>
-   <li>JavaScript</li>
+  <li>HTML5</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
 </ol>
 ```
 
@@ -3183,8 +3181,8 @@ several tags such as &lt;img&gt;, &lt;input&gt; and &lt;video&gt;.</p>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image021.png?raw=true"
-   width="35%"
-   alt="HTML Result." />
+  width="35%"
+  alt="HTML Result." />
 </p>
 <p>
 Ordered lists have their own specific attributes and all global
@@ -3409,8 +3407,8 @@ Don't click on it, just rest your cursor there.</p>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image022.jpeg?raw=true"
-   width="25%"
-   alt="Example image of a girl with a beautiful smile to illustrate title attribute." />
+  width="25%"
+  alt="Example image of a girl with a beautiful smile to illustrate title attribute." />
 </p>
 
 Did you see the two "secret" messages? A message that appears when you
@@ -3642,8 +3640,8 @@ This is how the above HTML code will look in a browser:
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image023.png?raw=true"
-   width="45%"
-   alt="" />
+  width="45%"
+  alt="" />
 </p>
 
 It seems redundant for two tags to do the same thing in HTML.
@@ -3720,8 +3718,10 @@ it to be stronger than the text it surrounds which is different from
 giving instructions on how the text should look in the case of &lt;b&gt;. It
 represents importance, seriousness, or urgency for its contents.
 
-1.  &lt;p&gt; As a junior developer, you <strong>must</strong> submit
-    your work for code review!&lt;/p&gt;
+```
+<p>As a junior developer, you <strong>must</strong> submit
+  your work for code review!</p>
+```
 
 The 'must' may be bolded in a browser. But when reading the HTML
 document out loud by a text-to-speech program, it can be spoken with
@@ -3843,8 +3843,8 @@ after: header, nav, article, section, aside and footer.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image024.jpeg?raw=true"
-   width="45%"
-   alt="Picture showing the structure of a Web site: header, nav, article, section, aside and footer." />
+  width="45%"
+  alt="Picture showing the structure of a Web site: header, nav, article, section, aside and footer." />
 </p>
 
 Tags such as<b> &lt;article&gt;</b>, <b>&lt;section&gt;</b>, <b>&lt;header&gt;</b>, <b>&lt;nav&gt;
@@ -3977,8 +3977,8 @@ this:
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image025.png?raw=true"
-   width="45%"
-   alt="Using the markup validator." />
+  width="45%"
+  alt="Using the markup validator." />
 </p>
 
 <!------------------------------------------------------------------------------------------------>
@@ -4167,8 +4167,8 @@ Moncrieff&lt;/p&gt;</p></li>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image026.png?raw=true"
-   width="40%"
-   alt="Example details command." />
+  width="40%"
+  alt="Example details command." />
 </p>
 <p>
 See also the current <a href="https://caniuse.com/#search=%3Cdetails%3E">browser
@@ -4184,22 +4184,22 @@ for all users.
 
 ```html5
 <figure>
-   <img src="img_cast.jpg" alt="The Importance of Being Earnest
-      Cast">
-   <figcaption>Fig1. - The cast hard at work at dress rehearsal
-      before opening night</figcaption>
+  <img src="img_cast.jpg" alt="The Importance of Being Earnest
+    Cast">
+  <figcaption>Fig1. - The cast hard at work at dress rehearsal
+    before opening night</figcaption>
 </figure>
 ```
 
 <h4>Result:</h4>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 27. example figcaption command (86) -------------------------------->
+<!---------------------------- 27. example figcaption command (86) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image027.jpeg?raw=true"
-   width="20%"
-   alt="Dress rehearsal." />
+  width="20%"
+  alt="Dress rehearsal." />
 </p>
 <p align="center" width="100%">
 Fig. 1: The cast hard at work at dress rehearsal before opening night</p>
@@ -4218,8 +4218,8 @@ Fig. 1: The cast hard at work at dress rehearsal before opening night</p>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image028.png?raw=true"
-   width="40%"
-   alt="Specify content you want to highlight." />
+  width="40%"
+  alt="Specify content you want to highlight." />
 </p>
 
 Most browsers will display mark element with a yellow background to
@@ -4272,12 +4272,12 @@ showcased in the paragraph -->
 </details>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- 29. the aside semantic element (##) ------------------------------>
+<!----------------------------- 29. the aside semantic element (88) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image029.png?raw=true"
-   width="30%"
-   alt="Example aside element." />
+  width="30%"
+  alt="Example aside element." />
 </p>
 
 <h4>Lesser known semantic elements (OPTIONAL)</h4>
@@ -4387,12 +4387,12 @@ element. <b>Here's a simplified version</b>:
 ```
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 30. header and headings (##) -------------------------------->
+<!---------------------------- 30. html5.2x header and headings (91) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image030.png?raw=true"
-   width="40%"
-   alt="Header and headings." />
+  width="40%"
+  alt="HTML5.2x header and headings." />
 </p>
 
 Like in the example above, the header can and frequently does contain
@@ -4424,12 +4424,12 @@ identify headings</a>.
 ```
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------- 31. example codepen; heading level (##) ---------------------------->
+<!----------------------------- 31. brad's cookbook in codepen (92) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image031.png?raw=true"
-   width="40%"
-   alt="." />
+  width="40%"
+  alt="Brad's cookbook example, in CodePen." />
 </p>
 
 Assistive technology uses heading markup, &lt;h1&gt; to &lt;h6&gt; to identify
@@ -4440,8 +4440,8 @@ higher level headings or announce the heading level with the text it
 reads. They can also navigate through the headings quicker making it
 easier for the user to navigate contents of the Web page. 
 
-You can learn more about the source of this technique in that <a href="https://www.w3.org/WAI/tutorials/page-structure/headings/" target="_blank">other W3C
-resource page about headings</a>.
+You can learn more about the source of this technique in that <a href="https://www.w3.org/WAI/tutorials/page-structure/headings/" 
+  target="_blank">other W3C resource page about headings</a>.
 
 <h4>Can you have more than one &lt;header&gt;, &lt;footer&gt; and &lt;nav&gt;?</h4>
 
@@ -4472,23 +4472,23 @@ Let's look at site-wide/global header and footer used in [Microsoft
 Virtual Academy home page](https://mva.microsoft.com/). At the time of
 course creation, here are screenshots of its header:
 <!------------------------------------------------------------------------------------------------>
-<!------------------ 32. screenshot of the ms virtual academy home page (##) --------------------->
+<!---------------- 32. screenshot of the top ms virtual academy home page (93) ------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image032.png?raw=true"
-   width="40%"
-   alt="Screenshot of the microsoft virtual academy home page." />
+  width="40%"
+  alt="Screenshot of the microsoft virtual academy home page." />
 </p>
 
 and footer.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------- 33. screenshot of the ms virtual academy home page showing the  footer (##) ---------->
+<!--------- 33. screenshot of the ms virtual academy home page showing the footer (93) ----------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image033.png?raw=true"
-   width="65%"
-   alt="Screenshot of Microsoft Virtual Academy home page showing the footer." />
+  width="65%"
+  alt="Screenshot of Microsoft Virtual Academy home page showing the footer." />
 </p>
 
 If you visit the page and navigate to other parts of the site, you will
@@ -4512,12 +4512,12 @@ Now, let's look at a more complete example using a global header and
 multiple &lt;header&gt;, &lt;footer&gt; and &lt;nav&gt; tags.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------- 34. screenshot of the ms virtual academy home page showing the  footer (##) ---------->
+<!------------ 34. screenshot of the ms virtual academy home page showing more (94) -------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image034.png?raw=true"
-   width="50%"
-   alt="Screenshot of Microsoft Virtual Academy home page showing the footer." />
+  width="50%"
+  alt="Screenshot of Microsoft Virtual Academy home page showing the header, footer & nav tags." />
 </p>
 
 <details>
@@ -4665,12 +4665,12 @@ elements. While the code above makes no sense by itself, if you add it
 to our CES 2018 &lt;article&gt; example, it will fit right in:
 
 <!------------------------------------------------------------------------------------------------>
-<!--------- ##.  (##) ---------->
+<!----------------------- 35. example html with article and section (97) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image035.png?raw=true"
-   width="40%"
-   alt="." />
+  width="40%"
+  alt="CES 2018 Example with article and section." />
 </p>
 
 <h4>HTML:</h4>
@@ -4720,12 +4720,12 @@ Web page, try on
 this [CodePen](https://codepen.io/w3devcampus/pen/Wjzjpx):
 
 <!------------------------------------------------------------------------------------------------>
-<!--------- 36.  (##) ---------->
+<!------------------------------ 36. html5 table of contents (98) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image036.png?raw=true"
-   width="40%"
-   alt="." />
+  width="40%"
+  alt="HTML5 Table of Contents." />
 </p>
 
 <details>
@@ -4833,7 +4833,7 @@ Older browsers ignore new HTML5 constructs... </p>
    <figure>
       <img
       src="http://courses.edx.org/asset-v1:W3Cx+HTML5.0x+1T2017+type@asset+block@html5_logo.png"
-         alt="HTML5 Logo">
+     alt="HTML5 Logo">
       <figcaption>Fig1. - The HTML5 logo made official in April
          2011</figcaption>
     </figure>
@@ -5012,7 +5012,7 @@ block level elements. Other examples: &lt;p&gt;, &lt;h1&gt; - &lt;h6&gt;.
 
 <b>Inline elements </b>- as the name suggests are 'in-the-line'. They can
 start anywhere in a line. They can only contain data (like text) or
-other in-line elements. Other examples: &lt;em&gt;, <strong>.
+other in-line elements. Other examples: &lt;em&gt;, &lt;strong&gt;.
 
 <b>Note: </b>There are several other semantic inline elements such
 as &lt;abbr&gt;, &lt;cite&gt; and &lt;code&gt; that should be used in preference
@@ -5158,8 +5158,8 @@ information to be aware of.
 <!------------------------ 37. logo scalable vector graphics (svg) (106) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <img src="./images/image037.png?raw=true"
-   width="10%"
-   alt="Logo Scalable Vector Graphics (SVG)." />
+  width="10%"
+  alt="Logo Scalable Vector Graphics (SVG)." />
 	any size without worrying about pixels, resolution or image data. This makes SVG
     images an excellent format to use, if possible. SVG is great for
     charts, graphs, maps, geometric shapes, and line based
@@ -5239,12 +5239,12 @@ browser:
 ```
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 38. Supposed to be an image of tulips (108) --------------------------->
+<!-------------------- 38. this is supposed to be an image of tulips (108) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image038.png?raw=true"
-   width="35%"
-   alt="Supposed to be an image of tulips" />
+  width="35%"
+  alt="This is supposed to be an image of tulips." />
 </p>
 
 <!------------------------------------------------------------------------------------------------>
@@ -5261,8 +5261,8 @@ your cursor on it. 
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image039.jpeg?raw=true"
-   width="35%"
-   alt="Tulips in a Basket" />
+  width="35%"
+  alt="Tulips in a basket" />
 </p>
 
 Did you see the hidden message 'Tulips from woodburn tulip
@@ -5298,8 +5298,8 @@ Here is my original image:
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image040.png?raw=true"
-   width="15%"
-   alt="HTML5 logo." />
+  width="15%"
+  alt="HTML5 logo." />
 </p>
 
 Clearly too big for the page. The original image dimensions is 345x523
@@ -5317,12 +5317,12 @@ Now, if I want to resize the HTML logo above by half:
 ```
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 41. html5 logo resized (109) ---------------------------------->
+<!------------------------------- 41. html5 logo 1/2-sized (109) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image041.png?raw=true"
-   width="7%"
-   alt="HTML5 logo Resized" />
+  width="7%"
+  alt="HTML5 logo 1/2-sized" />
 </p>
 
 Actually, you don't need to define both width and height. You can just
@@ -5369,11 +5369,11 @@ the &lt;img&gt; tag in HTML. Use CSS instead. 
 
 <h4>Examples of such images:</h4>
 <ul>
-   <li>background images</li>
-   <li>fancy border graphics</li>
-   <li>banner graphics</li>
-   <li>pictures of landscapes or textures that are being used as elements
-      behind or surrounding the content</li>
+  <li>background images</li>
+  <li>fancy border graphics</li>
+  <li>banner graphics</li>
+  <li>pictures of landscapes or textures that are being used as elements
+    behind or surrounding the content</li>
 </ul>
 
 Some pages (especially for video games, fancy magazines, etc) have a lot
@@ -5385,24 +5385,24 @@ Can you identify these types of decorative images?
 Find out from their tooltips!
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------- 42,43,44. mountains, brick wall & banner (110) ------------------------->
+<!----------------------- 42,43,44. mountains, brick wall & banner (111) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image042.jpeg"
-   width="20%"
-   alt="Beautiful landscape background image" />
+  width="20%"
+  alt="Beautiful landscape background image.  On the left." />
 <!-------
 style="width:2in;height:2in"
 -------->
 <img src="./images/image043.jpeg"
-   width="20%"
-   alt="Brick texture for use behind main content" />
+  width="20%"
+  alt="Brick texture for use behind main content.  In the center." />
 <!-------
    style="width:2in;height:2in"
 -------->
 <img src="./images/image044.jpeg"
-   width="20%"
-   alt="Decorative banner graphic" />
+  width="20%"
+  alt="Decorative banner graphic.  On the right." />
 </p>
 <!-------
 style="width:2in;height:2in"
@@ -5670,14 +5670,15 @@ Or something like this:
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <a href="https://en.wikipedia.org/wiki/Hyperlink" target="_blank">
-   <img alt="Buy now button to illustrate hyperlink." 
-   src="./images/image045.png?raw=true"
-   width="50%" />
+  <img alt="Buy now button to illustrate hyperlink." 
+  src="./images/image045.png?raw=true"
+  width="50%" />
 <br>
 <!-------
-   width=150" height="70">
+  width=150" height="70">
 -------->
 </a>
+<p align="left" width="100%">
 Try clicking the blue text or the 'Buy Now!' button, if you haven't
 already (make sure to navigate back to the course).
 
@@ -5994,8 +5995,8 @@ different browsers to see how it behaves.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image046.png?raw=true"
-   width="65%"
-   alt="hyperlink" />
+  width="65%"
+  alt="hyperlink" />
 </p>
 <!-------
 style="width:6.5in;height:3.55208in"
@@ -6243,8 +6244,8 @@ live coding video at the end of this page).
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image047.png?raw=true"
-   width="65%"
-   alt="Recipe project, part ii." />
+  width="65%"
+  alt="Recipe project, part ii." />
 </p>
 <!--------
 style="width:6.5in;height:3.27778in" />
@@ -6274,7 +6275,7 @@ style="width:6.5in;height:3.27778in" />
          <h2>Soup</h2>
          <img
          src="https://upload.wikimedia.org/wikipedia/commons/2/22/Bol_soupe_bicolore.jpg"
-            alt="soup image" width=320>
+        alt="soup image" width=320>
          <p>
          Beethoven once said <q>Only the pure of heart can make a good
          soup</q>. Well, here's my attempt at doing just that!
@@ -6290,7 +6291,7 @@ style="width:6.5in;height:3.27778in" />
          <h2>Salad</h2>
          <img
          src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Caesar_salad_%281%29.jpg/320px-Caesar_salad_%281%29.jpg"
-            alt="salad image" width=320>
+        alt="salad image" width=320>
          <h3>List of ingredients</h3>
          <ul>
             <li>Ingredient 1</li>
@@ -6311,7 +6312,7 @@ style="width:6.5in;height:3.27778in" />
          <h2>Pizza</h2>
          <img
          src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Margherita_Originale.JPG/320px-Margherita_Originale.JPG"
-            alt="pizza image" width=320>
+         alt="pizza image" width=320>
          <p>
          Pizza, the king of comfort foods. Try this simple, taste sensation.
          </p>
@@ -6526,8 +6527,8 @@ And that concludes this live coding session. Bon appétit !
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image048.png"
-   width="40%"
-   alt="W3Cx html5 and css3 logo." />
+  width="40%"
+  alt="W3Cx html5 and css3 logo." />
 </p>
 <!-------
 style="width:4in;height:2.27184in" />
@@ -6546,8 +6547,8 @@ CSS, or Cascading Style Sheets, is used to style each HTML.
 <!------------------------------ 49. adding styles with css (132) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <img src="./images/image049.png"
-   width="20%"
-   alt="Adding styles with CSS." />
+  width="20%"
+  alt="Adding styles with CSS." />
 </p>
 <!-- style="width:2.125in;height:2.27083in" /> -->
 
@@ -6594,8 +6595,8 @@ you learn, experimentation.
 <!------------------------------------- 50. css logo (133) --------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <img src="./images/image050.png"
-   alt="CSS Logo."
-   width="20%" />
+  alt="CSS Logo."
+  width="20%" />
 <!-------
 style="width:2in;height:1.09388in" />
 ------->
@@ -6643,8 +6644,8 @@ with [CSS](https://en.wikipedia.org/wiki/CSS) level 1.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image051.jpeg?raw=true"
-   width="65%"
-   alt="Gang photo of the css folks (TPAC)." />
+  width="65%"
+  alt="Gang photo of the css folks (TPAC)." />
 </p>
 <!-------
 style="width:6.5in;height:3.31528in"
@@ -6696,8 +6697,8 @@ different. So let's get started.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image052.png?raw=true"
-   width="15%"
-   alt="Snapshot as a style tag in the XDR code editor." />
+  width="15%"
+  alt="Snapshot as a style tag in the XDR code editor." />
 </p>
 <!--------
 <img src="./images/image052.jpeg"
@@ -6864,8 +6865,8 @@ following <a href="https://codepen.io/w3devcampus/pen/QvQgbr" target="_blank">Co
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image054.png?raw=true"
-   width="65%"
-   alt="On the Inventor of Gunpower, by John Milton." />
+  width="65%"
+  alt="On the Inventor of Gunpower, by John Milton." />
 </p>
 
 ... or work from the lines of code below (to paste in your favorite Web
@@ -7245,7 +7246,7 @@ table](https://caniuse.com/#search=text-decoration))
 
 <h4>font-weight (bold)</h4>
 
-Earlier we saw that the <b> and <strong> tags would make text
+Earlier we saw that the &lt;b&gt; and &lt;strong&gt; tags would make text
 bold-faced. However, semantically speaking, that is a mere side-effect
 of the tag. Any tag can make the text bolder (or less bold) via
 the font-weight CSS property.  While common values
@@ -7830,8 +7831,8 @@ section dedicated to the background-image property.  
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image055.png?raw=true"
-   width="40%"
-   alt="Selector and declaration." />
+  width="40%"
+  alt="Selector and declaration." />
 </p>
 
 Earlier, we learned that a CSS rule is made up of two parts: the
@@ -8047,8 +8048,8 @@ It isn't unusual to see multiple classes joined this way as well:
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image056.png?raw=true"
-   width="65%"
-   alt="." />
+  width="65%"
+  alt="." />
 </p>
 
 <h4>Descendant selectors</h4>
@@ -8392,8 +8393,8 @@ the best advice is to fix them directly, rather than using !important.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image057.png?raw=true"
-   width="40%"
-   alt="." />
+  width="40%"
+  alt="." />
 </p>
 
 <details>
@@ -8480,8 +8481,8 @@ Pizza, the king of comfort foods. Try this simple, taste sensation.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image058.png?raw=true"
-   width="30%"
-   alt="Module 4: Fixing and debugging." />
+  width="30%"
+  alt="Module 4: Fixing and debugging." />
 </p>
 
 <!------------------------------------------------------------------------------------------------>
@@ -8746,8 +8747,8 @@ all of them, but it is the minimal info needed and is quite common.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image061.jpeg?raw=true"
-   width="50%"
-   alt="Illustration of CSS Box Model." />
+  width="50%"
+  alt="Illustration of CSS Box Model." />
 </p>
 <!------
 style="width:5in;height:3.89in" alt="Illustration of CSS Box Model" />
@@ -8767,8 +8768,8 @@ following pictures, the black rectangles encompass the content:
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image062.png?raw=true"
-   width="30%"
-   alt="Image showing three blocks (Block 1, Block 2, Block 3) with no margins between them." />
+  width="30%"
+  alt="Image showing three blocks (Block 1, Block 2, Block 3) with no margins between them." />
 </p>
 <!-------
 style="width:3in;height:1.02479in"
@@ -8778,8 +8779,8 @@ style="width:3in;height:1.02479in"
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image063.png?raw=true"
-   width="30%"
-   alt="Image showing (Block 1, Block 2, Block 3). Block 2 has a positive margin-left, creating space between Blocks 1 and 2. Block 3 is negative causing its left side to overlap with Block 2." />
+  width="30%"
+  alt="Image showing (Block 1, Block 2, Block 3). Block 2 has a positive margin-left, creating space between Blocks 1 and 2. Block 3 is negative causing its left side to overlap with Block 2." />
 </p>
 <!-------
 style="width:3in;height:1.10482in"
@@ -8807,8 +8808,8 @@ than 0 is undefined and shouldn't be relied on.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image064.png?raw=true"
-   width="30%"
-   alt="Image showing 3 blocks (Block 1, Block 2, Block 3). These blocks all have borders with different widths, but the margins are zero, implying that the borders are up against each other regardless of their width." />
+  width="30%"
+  alt="Image showing 3 blocks (Block 1, Block 2, Block 3). These blocks all have borders with different widths, but the margins are zero, implying that the borders are up against each other regardless of their width." />
 </p>
 <!-------
 style="width:3in;height:1.074in"
@@ -8837,8 +8838,8 @@ padding.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image065.png?raw=true"
-   width="30%"
-   alt="Image showing 3 blocks and they all have a thin border directly around their respective texts: &#39;Block 1&#39;, &#39;Block 2&#39;, &#39;Block 3&#39;." />
+  width="30%"
+  alt="Image showing 3 blocks and they all have a thin border directly around their respective texts: &#39;Block 1&#39;, &#39;Block 2&#39;, &#39;Block 3&#39;." />
 </p>
 
 Here we've got a thin border directly around the content to delineate
@@ -8853,8 +8854,8 @@ the contents and the border:
 <!----------------------------------- 66.  (###) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <img src="./images/image066.png"
-   width="30%"
-   alt="Image showing 3 blocks that have padding with borders, in addition to the thin border aroung their texts &#39;Block 1&#39;, &#39;Block 2&#39;, &#39;Block 3&#39;." />
+  width="30%"
+  alt="Image showing 3 blocks that have padding with borders, in addition to the thin border aroung their texts &#39;Block 1&#39;, &#39;Block 2&#39;, &#39;Block 3&#39;." />
 
 All of these can have a width of 0, which is equivalent to not having
 them, thus 'margin: 0;'  is the same as 'margin: none;'.  Each can be
@@ -8874,8 +8875,8 @@ rounded corners using the border-radius setting:
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image067.png?raw=true"
-   width="30%"
-   alt="Image showing the 3 blocks with rounded borders, different thickness for their borders and keeping a thin border around their texts Block 1&#39;, &#39;Block 2&#39;, &#39;Block 3&#39;." />
+  width="30%"
+  alt="Image showing the 3 blocks with rounded borders, different thickness for their borders and keeping a thin border around their texts Block 1&#39;, &#39;Block 2&#39;, &#39;Block 3&#39;." />
 </p>
 
 <!------------------------------------------------------------------------------------------------>
@@ -8890,8 +8891,8 @@ like this:
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image068.png?raw=true"
-   width="30%"
-   alt="Image of a CSS Box Model which content is described in the following text of this page." />
+  width="30%"
+  alt="Image of a CSS Box Model which content is described in the following text of this page." />
 </p>
 
 This is an example of a diagram of the box model information for a
@@ -8940,9 +8941,9 @@ could apply to the same element. Consider the following example:
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image069.png?raw=true"
-   width="40%"
+  width="40%"
    title="My Book, Chapter 1, Section 1.1."
-   alt="my book chapter 1 section 1.1." />
+  alt="my book chapter 1 section 1.1." />
 </p>
 
 <h4>CSS</h4>
@@ -9011,8 +9012,8 @@ you get a different result:
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image070.png?raw=true"
-   width="40%"
-   alt="" />
+  width="40%"
+  alt="" />
 </p>
 
 <h4>CSS</h4>
@@ -9084,8 +9085,8 @@ there.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image071.png?raw=true"
-   width="65%"
-   alt="Styles in the Debugger." />
+  width="65%"
+  alt="Styles in the Debugger." />
 </p>
 
 There is a sequence of the panels under "Style" that helps understand
@@ -9098,8 +9099,8 @@ attribute of the element:
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image072.jpeg?raw=true"
-   width="65%"
-   alt="Modifying style in the debugger." />
+  width="65%"
+  alt="Modifying style in the debugger." />
 </p>
 
 Under that there are more panels which show where CSS properties for
@@ -9124,8 +9125,8 @@ rearranging, which did what we wanted:
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image073.png?raw=true"
-   width="65%"
-   alt="Working version in Debugger." />
+  width="65%"
+  alt="Working version in Debugger." />
 </p>
 
 Here we see just the opposite of what we saw before, now "section h1"
@@ -9156,8 +9157,8 @@ we want:
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image074.png?raw=true"
-   width="45%"
-   alt="My book, chapter 1, section 1.1." />
+  width="45%"
+  alt="My book, chapter 1, section 1.1." />
 </p>
 
 <h4>CSS</h4>
@@ -9222,8 +9223,8 @@ the pictures but the result is unwieldy:
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image075.png?raw=true"
-   width="65%"
-   alt="Image of Cloud." />
+  width="65%"
+  alt="Image of Cloud." />
 </p>
 
 <h4>HTML</h4>
@@ -9283,8 +9284,8 @@ Giving a much more reasonable page:
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image076.png?raw=true"
-   width="65%"
-   alt="Cloud image in debugger" />
+  width="65%"
+  alt="Cloud image in debugger" />
 </p>
 
 <h4>CSS</h4>
@@ -9356,8 +9357,8 @@ first picture, then we see this in the Styles section:
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image077.png?raw=true"
-   width="35%"
-   alt="img width precedence in debugger" />
+  width="35%"
+  alt="img width precedence in debugger" />
 </p>
 
 The specialized width setting that we added as an img attribute isn't
@@ -9390,8 +9391,8 @@ li img {
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image078.jpeg?raw=true"
-   width="65%"
-   alt="Cloud image-codepen" />
+  width="65%"
+  alt="Cloud image-codepen" />
 </p>
 
 <h4>CSS</h4>
@@ -9460,8 +9461,8 @@ this:
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image079.png?raw=true"
-   width="40%"
-   alt="Easy outline-codepen results" />
+  width="40%"
+  alt="Easy outline-codepen results" />
 </p>
 
 <h4>CSS:</h4>
@@ -9539,8 +9540,8 @@ is the over-ridden font-size setting identical to the current one, i.e.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image080.png?raw=true"
-   width="65%"
-   alt="Debugging font-size" />
+  width="65%"
+  alt="Debugging font-size" />
 </p>
 <p>
 The styles panel doesn't tell us a lot about the actually font-size in
@@ -9558,8 +9559,8 @@ going to scroll down past those to "font-size" which reveals this:
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image081.png?raw=true"
-   width="45%"
-   alt="Debugging font-size after opening the &#39;Computed&#39; tab" />
+  width="45%"
+  alt="Debugging font-size after opening the &#39;Computed&#39; tab" />
 </p>
 
 This tells us that the font-size on the innermost list item is only 3px.
@@ -9575,8 +9576,8 @@ several repetitions of the li .5em.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image082.png?raw=true"
-   width="45%"
-   alt="Computed tab for font-size" />
+  width="45%"
+  alt="Computed tab for font-size" />
 </p>
 
 If we look at the next outer list item, we see that the font-size is
@@ -10137,8 +10138,8 @@ regular and left-aligned by default.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image089.png?raw=true"
-   width="65%"
-   alt="." />
+  width="65%"
+  alt="." />
 </p>
 
 Now, let's have a look at the &lt;colgroup&gt; and &lt;col&gt; tags
@@ -10203,8 +10204,8 @@ achieve styling effects specific to a column. 
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image090.png?raw=true"
-   width="40%"
-   alt="Color column headers." />
+  width="40%"
+  alt="Color column headers." />
 </p>
 
 <!------------------------------------------------------------------------------------------------>
@@ -10481,7 +10482,7 @@ With CSS, you can also explicitly set the dimensions of your cells.
 Width and height can be specified in:
 
 -   units of length like pixels, percentage - relative to the table
-    width, etc
+  width, etc
 
 -   auto: the browser will calculate and select a width for the
     specified element (default value)
@@ -10509,7 +10510,7 @@ table, th, td
 }
 th.eg1
 {
-   width: 25%;
+  width: 25%;
 }
 th.eg2
 {
@@ -10517,7 +10518,7 @@ th.eg2
 }
 table.eg3
 {
-   width: 100%;
+  width: 100%;
 }
 ```
 
@@ -10820,8 +10821,8 @@ will make the every third list item grey.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image099.png?raw=true"
-   width="40%"
-   alt="." />
+  width="40%"
+  alt="." />
 </p>
 
 <h4>CSS</h4>
@@ -10912,8 +10913,8 @@ tr:hover {background-color: #ccff99; }
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image100.png?raw=true"
-   width="40%"
-   alt="image100.png" />
+  width="40%"
+  alt="image100.png" />
 </p>
 
 <h4>CSS</h4>
@@ -10975,14 +10976,14 @@ in your Web page. You can use the CSS overflow property to resolve this.
 It has four values other than initial (sets the default value) and
 inherit (from parent element).
 <ul>
-   <li>visible - Content that has overflowed is visible outside the parent
-       element. Eg: Text in a box overflows outside box and is visible.</li>
-   <li>hidden - Content that has overflowed is hidden. This makes the
-       overflowed content inaccessible.</li>
-   <li>scroll - Content that has overflowed is hidden but a scroll bar is
-       added to make it accessible.</li>
-   <li>auto - Content that has overflowed is hidden but a scroll bar is
-       automatically added to view hidden content.</li>
+  <li>visible - Content that has overflowed is visible outside the parent
+    element. Eg: Text in a box overflows outside box and is visible.</li>
+  <li>hidden - Content that has overflowed is hidden. This makes the
+    overflowed content inaccessible.</li>
+  <li>scroll - Content that has overflowed is hidden but a scroll bar is
+    added to make it accessible.</li>
+  <li>auto - Content that has overflowed is hidden but a scroll bar is
+    automatically added to view hidden content.</li>
 </ul>
 
 To address left and right edges of content, you can use overflow-x and
@@ -10993,8 +10994,8 @@ to address top and bottom edges of content, you can use overflow-y.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image101.png?raw=true"
-   width="40%"
-   alt="" />
+  width="40%"
+  alt="" />
 </p>
 
 <h4>CSS:</h4>
@@ -11136,8 +11137,8 @@ As a conclusion to this tables section, here is a complete table design:
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image102.png?raw=true"
-   width="40%"
-   alt="" />
+  width="40%"
+  alt="" />
 </p>
 
 <h4>CSS:</h4>
@@ -11647,8 +11648,8 @@ little more visually appealing inside your document.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image103.png?raw=true"
-   width="60%"
-   alt="Tables activity #2: it&#39;s a 3x3 table - the header row has a dark grey background; the last column is composed of the header cell and the other cells are grouped; the last row has the 2 first cells merged." />
+  width="60%"
+  alt="Tables activity #2: it&#39;s a 3x3 table - the header row has a dark grey background; the last column is composed of the header cell and the other cells are grouped; the last row has the 2 first cells merged." />
 </p>
 
 5.  Find a table used in a real Web page whose table body can be
@@ -11689,16 +11690,16 @@ attributes:
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image103.png?raw=true"
-   width="65%"
-   alt="Attributes, Description and Usage of audio element." />
+  width="65%"
+  alt="Attributes, Description and Usage of audio element." />
 </p>
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 104. autoplay and example code (249) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image104.png?raw=true"
-   width="65%"
-   alt="Autoplay and example code of audio src." />
+  width="65%"
+  alt="Autoplay and example code of audio src." />
 </p>
 
 If you hit play and didn't hear anything, remember that we have added
@@ -11791,8 +11792,8 @@ The following table lists the &lt;source&gt; element's attributes:
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image109.png?raw=true"
-   width="65%"
-   alt="Source element attributes." />
+  width="65%"
+  alt="Source element attributes." />
 </p>
 <!-- style="width:6.5in;height:2.79653in" /> -->
 
@@ -11824,8 +11825,8 @@ the video element's attributes:
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image110.png?raw=true"
-   width="65%"
-   alt="Video element attributes." />
+  width="65%"
+  alt="Video element attributes." />
 </p>
 
 <h3>Poster attribute</h3>
@@ -11934,8 +11935,8 @@ a combination of formats. 
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image111.png?raw=true"
-   width="85%"
-   alt="Attributes: src and type" />
+  width="85%"
+  alt="Attributes: src and type" />
 </p>
 
 <h3>Track element for captions and subtitles</h3>
@@ -11980,7 +11981,7 @@ your &lt;video&gt; tag like this:
 <!------------------------------------------------------------------------------------------------>
 <img src="./images/image112.png"
    style="width:6.5in;height:4.29444in"
-   alt="" />
+  alt="" />
 
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-3-4">5.3.4 Audio and Video Elements</h3>
@@ -12044,7 +12045,7 @@ Because iframes are HTML elements, they can be styled just like other elements, 
 <!------------------------------------------------------------------------------------------------>
 <img src="./images/image114.png"
    style="width:3in;height:1.64371in"
-   alt="" />
+  alt="" />
 
 Here, we've embedded a YouTube video with an iframe like this:
 
@@ -12082,8 +12083,8 @@ for now we'll just look at a few of them:
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image115.png?raw=true"
-   width="65%"
-   alt="." />
+  width="65%"
+  alt="." />
 </p>
 
 <b>Notes:</b>
@@ -12193,8 +12194,8 @@ Let's look at how the code above works.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image116.png?raw=true"
-   width="30%"
-   alt="Image illustrating how an image map works, how it processes mouse click coordinates using a map file that define target areas." />
+  width="30%"
+  alt="Image illustrating how an image map works, how it processes mouse click coordinates using a map file that define target areas." />
 </p>
 
 <p>
@@ -12308,8 +12309,8 @@ how usemap works :) Remember to navigate back to the course!
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image117.png?raw=true"
-   width="20%"
-   alt="." />
+  width="20%"
+  alt="." />
 </p>
 
 Note: If the &lt;img&gt; is inside an &lt;a&gt; or &lt;button&gt; element, clicking
@@ -12376,8 +12377,8 @@ items (&lt;li&gt;):
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image118.png?raw=true"
-   width="50%"
-   alt="." />
+  width="50%"
+  alt="." />
 </p>
 
 <h4>background-image</h4>
@@ -12407,8 +12408,8 @@ as several others). 
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image117.png?raw=true"
-   width="65%"
-   alt="CSS property: backgrouind image." />
+  width="65%"
+  alt="CSS property: backgrouind image." />
 </p>
 
 <h4>background-repeat</h4>
@@ -12423,8 +12424,8 @@ image itself, then the image will repeat and fill the space, like tiles.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image118.png?raw=true"
-   width="65%"
-   alt="CSS property: background image, repeated." />
+  width="65%"
+  alt="CSS property: background image, repeated." />
 </p>
 
 The background-repeat property can be used to control this.  It's more
@@ -12447,8 +12448,8 @@ of spacing. That is calculated for you.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image119.png?raw=true"
-   width="65%"
-   alt="CSS property: background image, centered repeat to avoid cropping." />
+  width="65%"
+  alt="CSS property: background image, centered repeat to avoid cropping." />
 </p>
 <!-- <img src="./images/image121.png"
 style="width:5in;height:2.11378in" />
@@ -12474,8 +12475,8 @@ paragraph to clearly show the bounds of the parent &lt;p&gt; element.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image120.png?raw=true"
-   width="65%"
-   alt="Background sizing." />
+  width="65%"
+  alt="Background sizing." />
 </p>
 <!--
 <img src="./images/image122.png"
@@ -12507,8 +12508,8 @@ images. 
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image121.png?raw=true"
-   width="65%"
-   alt="Auto background size." />
+  width="65%"
+  alt="Auto background size." />
 </p>
 <!--
 <img src="./images/image123.png"
@@ -12530,8 +12531,8 @@ tiles. 
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image122.png?raw=true"
-   width="65%"
-   alt="Center background position." />
+  width="65%"
+  alt="Center background position." />
 </p>
 <!--
 <img src="./images/image124.png"
@@ -12567,8 +12568,8 @@ Here the visible border styles displayed on a gray border:
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image125.png?raw=true"
-   width="65%"
-   alt="Border styling." />
+  width="65%"
+  alt="Border styling." />
 </p>
 <!--
 <img src="./images/image125.png"
@@ -12629,8 +12630,8 @@ the border-radius property:  
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image124.png?raw=true"
-   width="65%"
-   alt="Silence is golden." />
+  width="65%"
+  alt="Silence is golden." />
 </p>
 <!--
 <img src="./images/image126.png"
@@ -12645,8 +12646,8 @@ no border at all:
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image125.png?raw=true"
-   width="65%"
-   alt="Silence is golden, 2." />
+  width="65%"
+  alt="Silence is golden, 2." />
 </p>
 <!--
 <img src="./images/image127.png"
@@ -12676,8 +12677,8 @@ The blur value is also a dimension unit, but can only be 0 or positive.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image126.png?raw=true"
-   width="50%"
-   alt="Illuminati." />
+  width="50%"
+  alt="Illuminati." />
 </p>
 <!--
 <img src="./images/image128.png"
@@ -12698,8 +12699,8 @@ text-shadow:  <x-offset> <y-offset> <blur> <color>;
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image127.png?raw=true"
-   width="65%"
-   alt="Blurred majestic 12 - text-shadow." />
+  width="65%"
+  alt="Blurred majestic 12 - text-shadow." />
 </p>
 <!--
 <img src="./images/image129.png"
@@ -12731,8 +12732,8 @@ Here is a simple example of a common error:
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image130.png?raw=true"
-   width="65%"
-   alt="Example of blindly using css properties." />
+  width="65%"
+  alt="Example of blindly using css properties." />
 </p>
 
 ### Padding - The right way
@@ -12781,8 +12782,8 @@ placing the rectangle of the element relative to the text itself.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image129.png?raw=true"
-   width="65%"
-   alt="Padding example with relative text placement." />
+  width="65%"
+  alt="Padding example with relative text placement." />
 </p>
 
 I'm confused - are you saying that I shouldn't use the width property to
@@ -12804,7 +12805,7 @@ next module. Here is a quick rundown:
 -   height and width properties do not work on inline elements.
 
 -   Many elements have natural behaviors that occur when height and
-    width are <b>not</b> set. These are generally advantageous. However, by
+  width are <b>not</b> set. These are generally advantageous. However, by
     setting the width and height you <b>lose</b> those advantages. We'll
     understand this in next module.
 
@@ -12887,8 +12888,8 @@ mouse is over one of the list items.  
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image130.png?raw=true"
-   width="65%"
-   alt="Hover pseudo-class." />
+  width="65%"
+  alt="Hover pseudo-class." />
 </p>
 
 ```
@@ -12912,8 +12913,8 @@ to tables or lists.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image131.png?raw=true"
-   width="65%"
-   alt="Nth child pseudo-class." />
+  width="65%"
+  alt="Nth child pseudo-class." />
 </p>
 
 <h4>Cursor property</h4>
@@ -12979,8 +12980,8 @@ W3C.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image132.jpeg?raw=true"
-   width="15%"
-   alt="Keep the web open!" />
+  width="15%"
+  alt="Keep the web open!" />
 </p>
 
 <b>Test in multiple browsers:</b>
@@ -13035,8 +13036,8 @@ Your favorite browser is not always right.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image133.jpeg?raw=true"
-   width="20%"
-   alt="Red Testing Button." />
+  width="20%"
+  alt="Red Testing Button." />
 </p>
 
 -   <b>Test without CSS</b>: turn off CSS, and if the page makes no sense,
@@ -13452,8 +13453,8 @@ makes its layout decisions.  
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image136.png?raw=true"
-   width="20%"
-   alt="Baseline: Big T, little g." />
+  width="20%"
+  alt="Baseline: Big T, little g." />
 </p>
 
 In the image above, we see two text characters placed next to each
@@ -13483,8 +13484,8 @@ learned:
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image135.png?raw=true"
-   width="65%"
-   alt="Block and inline tags." />
+  width="65%"
+  alt="Block and inline tags." />
 </p>
 
 Here are some differences between the block - level and inline elements.
@@ -13550,8 +13551,8 @@ background is overlapping the lines above and below.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image136.png?raw=true"
-   width="65%"
-   alt="." />
+  width="65%"
+  alt="." />
 </p>
 <!---
 <img src="./images/image138.png"
@@ -13567,8 +13568,8 @@ change the span to be display:inline-block, which is discussed below.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image137.png?raw=true"
-   width="65%"
-   alt="." />
+  width="65%"
+  alt="." />
 </p>
 
 <h4>inline-block</h4>
@@ -13609,8 +13610,8 @@ respected. 
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image138.png?raw=true"
-   width="65%"
-   alt="." />
+  width="65%"
+  alt="." />
 </p>
 
 <h4>display property</h4>
@@ -13923,8 +13924,8 @@ the bounds of its parent, or go offscreen.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image140.png?raw=true"
-   width="65%"
-   alt="." />
+  width="65%"
+  alt="." />
 </p>
 <!-- <img src="./images/image142.png"
 style="width:6.5in;height:1.45139in" />
@@ -13961,8 +13962,8 @@ absolutely.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image141.png?raw=true"
-   width="65%"
-   alt="." />
+  width="65%"
+  alt="." />
 </p>
 <!---
 <img src="./images/image143.png"
@@ -14024,8 +14025,8 @@ for  &lt;li&gt; versus &lt;ul&gt;.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image142.png?raw=true"
-   width="65%"
-   alt="." />
+  width="65%"
+  alt="." />
 </p>
 <!---
 <img src="./images/image143.png"
@@ -14081,8 +14082,8 @@ line, and the list items themselves are not enclosed. 
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image143.png?raw=true"
-   width="65%"
-   alt="" />
+  width="65%"
+  alt="" />
 </p>
 <!-- <img src="./images/image145.png"
 style="width:6.5in;height:1.29306in" />
@@ -14162,8 +14163,8 @@ we govern the overlapping with the z-index property. 
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image144.png?raw=true"
-   width="65%"
-   alt="Position Relative overlap." />
+  width="65%"
+  alt="Position Relative overlap." />
 </p>
 
 <ul>
@@ -14197,8 +14198,8 @@ further out in the document.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image145.png?raw=true"
-   width="65%"
-   alt="Overlapping sibling divs" />
+  width="65%"
+  alt="Overlapping sibling divs" />
 </p>
 
 <!------------------------------------------------------------------------------------------------>
@@ -14332,8 +14333,8 @@ can be surprising if you weren't expecting it.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image146.png?raw=true"
-   width="65%"
-   alt="Cropping and scrolling overflow." />
+  width="65%"
+  alt="Cropping and scrolling overflow." />
 </p>
 
 <h4>overflow</h4>
@@ -14374,8 +14375,8 @@ of 100 pixels. 
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image147.png?raw=true"
-   width="65%"
-   alt="Scrolling & overflow." />
+  width="65%"
+  alt="Scrolling & overflow." />
 </p>
 
 <h4>The box model and box-sizing</h4>
@@ -14400,8 +14401,8 @@ boxes are organized (innermost to outermost).
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image148.png?raw=true"
-   width="45%"
-   alt="Managed boxes: it's own content, padding, border & margins." />
+  width="45%"
+  alt="Managed boxes: it's own content, padding, border & margins." />
 </p>
 
 <h4>box-sizing</h4>
@@ -14481,8 +14482,8 @@ to help visualize.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image151.png?raw=true"
-   width="100%"
-   alt="Flex Container and Flex Columns" />
+  width="100%"
+  alt="Flex Container and Flex Columns" />
 </p>
 
 <h4>flex container</h4>
@@ -14768,8 +14769,8 @@ wrap-reverse; it is vertical running bottom to top.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image170.png?raw=true"
-   width="65%"
-   alt="Flex Container and Flex-flow" />
+  width="65%"
+  alt="Flex Container and Flex-flow" />
 </p>
 
 In the illustration above, we see the main and cross axes as they would
@@ -14886,8 +14887,8 @@ options for a flexbox container with flex-flow:row;
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image171.png?raw=true"
-   width="100%"
-   alt="Justification Options for a Flexbox container with Flex-Flow" />
+  width="100%"
+  alt="Justification Options for a Flexbox container with Flex-Flow" />
 </p>
 
 If the flex-direction were row-reverse, then the only thing to change in
@@ -14935,8 +14936,8 @@ you can see how they align to each other.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image172.png?raw=true"
-   width="65%"
-   alt="Line Height and Align Items #1" />
+  width="65%"
+  alt="Line Height and Align Items #1" />
 </p>
 
 <!------------------------------------------------------------------------------------------------>
@@ -14944,8 +14945,8 @@ you can see how they align to each other.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image173.png?raw=true"
-   width="65%"
-   alt="Line Height and Align Items #2" />
+  width="65%"
+  alt="Line Height and Align Items #2" />
 </p>
 
 <h4>align-content</h4>
@@ -14969,16 +14970,16 @@ than the height of any of the items.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image174.png?raw=true"
-   width="65%"
-   alt="Flexbox and Flex Item Align #1" />
+  width="65%"
+  alt="Flexbox and Flex Item Align #1" />
 </p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 175. flexbox and flex items align #2 (340) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image175.png?raw=true"
-   width="65%"
-   alt="Flexbox and Flex Item Align #2" />
+  width="65%"
+  alt="Flexbox and Flex Item Align #2" />
 </p>
 
 <h4>align-self</h4>
@@ -15008,8 +15009,8 @@ their align-self property set.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image176.png?raw=true"
-   width="65%"
-   alt="Flex Container with flex-flow and align." />
+  width="65%"
+  alt="Flex Container with flex-flow and align." />
 </p>
 
 <!------------------------------------------------------------------------------------------------>
@@ -15046,8 +15047,8 @@ the order value of 1, the second is 2, etc.  And you can override it.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image177.png?raw=true"
-   width="85%"
-   alt="Order property in flex box." />
+  width="85%"
+  alt="Order property in flex box." />
 </p>
 
 <!------------------------------------------------------------------------------------------------>
@@ -15150,8 +15151,8 @@ slots empty.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image178.png?raw=true"
-   width="65%"
-   alt="Grid module: lines, columns and rows for cell/area (slot)." />
+  width="65%"
+  alt="Grid module: lines, columns and rows for cell/area (slot)." />
 </p>
 
 The Grid module provides several different ways to define such a grid
@@ -15364,14 +15365,14 @@ We fixed those issues at the top.
 These are the final changes to our recipe project for this unit.
 </p>
 
-<!---
+<!--- template for images
 <p align="center" width="100%">
 <img src="./images/image###.png?raw=true"
-   width="65%"
-   alt="." />
+  width="65%"
+  alt="." />
 </p>
 --->
 
-<h4>The end...</h4>
+<h6>The end...</h6>
 
-<h3><b>Last Updated 09-29-2022 8:24pm</b></h3>
+<h4><b>Last Updated 09-30-2022 4:55pm</b></h4>
