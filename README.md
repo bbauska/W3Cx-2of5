@@ -681,7 +681,7 @@ is an important leg of the stool for modern Web pages.
 <h3 id="ch1-2-3">1.2.3 Hypertext</h3>
 <!------------------------------------------------------------------------------------------------>
 
-A fundamental key to the World Wide Web is the concept of "*Hypertext*".
+A fundamental key to the World Wide Web is the concept of "<i>Hypertext</i>".
  Hypertext is built on the idea of linking information together, not
 unlike using footnotes, except much easier and more flexible. The idea
 was to "Mark Up" your document with links and define how to break it
@@ -796,19 +796,20 @@ from the regular text.  In HTML these annotations are called "tags".
 For example, consider the following chunk of HTML code:
 
 ```xml
-     <body>
-        <h1>A Tale of Two Cities</h1>
-        <p>
-           It was the best of times, it was the worst of times, . . .
-    .
-        </p>
-        . . .
-        <p>
-           . . . it is a far, far better rest
-           that I go to than I have ever known.
-       </p>
-    </body>
+<body>
+   <h1>A Tale of Two Cities</h1>
+   <p>
+     It was the best of times, it was the worst of times, . . .
+     . . .
+   </p>
+     . . .
+   <p>
+     . . . it is a far, far better rest
+     that I go to than I have ever known.
+   </p>
+</body>
 ```
+
 <p>
 If you eliminated everything in between the angle brackets from the text, for most purposes it would still read the same:
 
@@ -1768,10 +1769,10 @@ room; then she put them up and looked out under them. There was a slight
 noise behind her and she turned just in time to seize a small boy by the
 slack of his roundabout and arrest his flight.
 
-> *A human reader could easily detect that two paragraphs were intended
+> <i>A human reader could easily detect that two paragraphs were intended
 > and that the writer probably just forgot to terminate one and start
 > the other. The browser, on the other hand, will only see one paragraph
-> and layout accordingly.*
+> and layout accordingly.</i>
 
 On the other hand, you might think that since a browser always knows
 exactly what tag it is working with (<a href="https://en.wikipedia.org/wiki/Eidetic_memory" target="_blank">eidetic
@@ -2112,18 +2113,18 @@ you wish to display this in your browser:</p>
 ```
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <title>Welcome</title>
-   </head>
-   <body>
-      <p>
-         <img src="images/test.png" alt="test image">
-      </p>
-      <p>
-         <img src=""images/test.png" alt="test image">
-</p>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+  </head>
+  <body>
+    <p>
+      <img src="images/test.png" alt="test image">
+    </p>
+    <p>
+      <img src=""images/test.png" alt="test image">
+    </p>
+  </body>
 </html>
 ```
 
@@ -2576,7 +2577,7 @@ seen:
     pictures, links, videos, tables and so on. There can be only
     one &lt;body&gt; element in a document.
 
--   <b>&lt;h1&gt;</b> - There is a whole collection of '*h*' tags, &lt;h1&gt;,
+-   <b>&lt;h1&gt;</b> - There is a whole collection of '<i>h</i>' tags, &lt;h1&gt;,
     &lt;h2&gt;, &lt;h3&gt; . . . all the way up to &lt;h6&gt;.  Why there are 6
     rather than 5 or 7 may be a bit of a mystery, but there it is.
      They're generally used the same way you would use chapter or
@@ -3606,7 +3607,7 @@ Please find below suggested activities to help you practice:
 
 3.  Does an attribute called src exist? What is the purpose of this
     attribute and what are the elements it can be applied to?
-    (*Hint:* refer to the W3C HTML5 specification, W3C cheatsheet or MDN
+    (<i>Hint:</i> refer to the W3C HTML5 specification, W3C cheatsheet or MDN
     attribute reference list)
 
 4.  Create an ordered list starting with the number 11. Then, reverse
@@ -3893,6 +3894,9 @@ repeating content. 
 We can apply the elements in the image above to a simple Web page like
 this:
 
+<details>
+  <summary>HTML</summary>
+
 ```html5
 1.  <!DOCTYPE html>
 2.  <html lang="en">
@@ -3965,6 +3969,8 @@ this:
 51.  
 52. </html>
 ```
+
+</details>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 25. using the markup validator (83) ------------------------------->
@@ -4068,7 +4074,7 @@ society.&lt;/p&gt;<br />
 <tr class="odd">
 <td><strong>&lt;details&gt;</strong><br />
 <br />
-*see example below</td>
+see example below</td>
 <td>A way to provide additional information that the user can show or
 hide. Content that is shown to user by default. Other content is hidden
 and can be expanded to view.</td>
@@ -4080,7 +4086,7 @@ and can be expanded to view.</td>
 </tr>
 <tr class="even">
 <td><p><strong>&lt;figcaption&gt;</strong></p>
-<p>*see example below</p></td>
+<p>see example below</p></td>
 <td>Provides a caption (explanation) of an image. To be used within
 &lt;figure&gt;.</td>
 <td>&lt;figure&gt;<br />
@@ -4098,7 +4104,7 @@ caption</td>
 </tr>
 <tr class="even">
 <td><p><strong>&lt;mark&gt;</strong></p>
-<p>*see example below</p></td>
+<p>see example below</p></td>
 <td>Defines a part of a text you want to highlight. The highlight
 styling is specified in CSS.</td>
 <td>&lt;h4&gt;Lane: &lt;/h4&gt;&lt;p&gt;Yes sir. [&lt;mark&gt;Handing
@@ -5091,7 +5097,7 @@ Here is a list of things to keep in mind when using the src attribute:
     path. Your images directory in your Web project might be 'images/'
     but your path might say 'images/' missing the capitalization in 'I'.
     Mismatched capitalization might work in some places but not
-    all. *Recommended practice*: use lower case for all directories,
+    all. <i>Recommended practice</i>: use lower case for all directories,
     file names and file extensions.
 
 -   Use Unix (/) path name separator instead of Windows () style. This
@@ -5686,7 +5692,7 @@ can be:
       We learned about using the id attribute as a link target in the unit
       about attributes earlier. If you have a section in your page, you
       can link to that section using the value of its id attribute (e.g.
-      History) preceded by the number sign as per *#History*</li>
+      History) preceded by the number sign as per <i>#History</i></li>
    <li>a local link (link to another part of the same Web page):
       e.g. a_tag.asp is a page that belongs to this Web site.</li>
    <li>an email: e.g. mailto:helloauthor@w3c.com</li>
@@ -6623,7 +6629,7 @@ processor. CSS helps to solve this problem.
 <h3 id="ch3-1-4">3.1.4 The W3C CSS Working Group</h3>
 <!------------------------------------------------------------------------------------------------>
 
-The **CSS Working Group** (Cascading Style Sheets Working Group) is
+The <b>CSS Working Group</b> (Cascading Style Sheets Working Group) is
 a [working group](https://en.wikipedia.org/wiki/Working_group) created
 by the W3C in 1997 to tackle issues that had not been addressed
 with [CSS](https://en.wikipedia.org/wiki/CSS) level 1.
@@ -6730,7 +6736,7 @@ Simply put your CSS into a separate file. This file does not need any
 HTML markup (i.e., no <style> tag required).  Use the .css file
 extension and use a <link> tag to bind it in. The <link> tag must
 appear in the &lt;head&gt; section.  By convention, css files are kept in a
-directory named *css*.
+directory named <i>css</i>.
 
 <h4>Use this &lt;link&gt; as a template:</h4>
 
@@ -6757,8 +6763,8 @@ directory named *css*.
 <h3 id="ch3-2-2">3.2.2 Rules: selectors and declarations</h3>
 <!------------------------------------------------------------------------------------------------>
 
-At its simplest, CSS is just a list of *rules*.  Each *rule* consists of
-a *selector* and a *declaration.  *Here is an example:
+At its simplest, CSS is just a list of <i>rules</i>.  Each <i>rule</i> consists of
+a <i>selector</i> and a <i>declaration.  </i>Here is an example:
 
 <img src="./images/image053.jpeg"
 style="width:4in;height:3.30064in"
@@ -6766,26 +6772,26 @@ alt="Figure showing a selector &#39;p&#39; before a declaration &#39;font-size:1
 
 <h4>Selector</h4>
 
-In the above, the *selector* is **p.  **When a selector appears
+In the above, the <i>selector</i> is <b>p.  </b>When a selector appears
 unprefixed by any punctuation, then it is assumed to match to an HTML
-tag.  Thus, the **p** selector will apply the CSS rule to all <p> tags
+tag.  Thus, the <b>p</b> selector will apply the CSS rule to all <p> tags
 in the document. 
 
 We will cover more selector possibilities in the future.
 
 <h4>Declaration</h4>
 
-The *declaration* part of a CSS rule opens and closes with curly
-braces: **{  }**    
-And between them, you can put any number of *property* *value* pairs.
+The <i>declaration</i> part of a CSS rule opens and closes with curly
+braces: <b>{  }</b>    
+And between them, you can put any number of <i>property</i> <i>value</i> pairs.
 
 <h4>Properties and values</h4>
 
 There are hundreds of different visual properties that may be set via
 CSS.  And each property has a range of possible values that it can be
 set to.  Syntactically, property value pairs are simple. Each pair
-consists of a *property*, followed by a colon **:** followed by
-a *value* and terminated by a semi-colon **;**
+consists of a <i>property</i>, followed by a colon <b>:</b> followed by
+a <i>value</i> and terminated by a semi-colon <b>;</b>
 
 ```
 font-size: 12px;
@@ -7279,7 +7285,7 @@ correct property for the task, but there are caveats:
     Again, "Web fonts" are the alternative here. 
 
 To help ameliorate these limitations, the font-family property accepts
-a *list* of possible font choices.  The browser will start with trying
+a <i>list</i> of possible font choices.  The browser will start with trying
 the first font listed, and if not available (or not having a needed
 glyph) it will then proceed to the next font in the list, and so on.
 Here is a typical font-family declaration:
@@ -7302,7 +7308,7 @@ the built in sans-serif browser font.
     (serif, sans-serif, etc.)
 
 Web fonts are outside the scope of this course. Google provides a nice
-selection of licensed free Web fonts. Type "*google Web font tutorial*"
+selection of licensed free Web fonts. Type "<i>google Web font tutorial<i>"
 into any search engine to learn more. 
 
 <!------------------------------------------------------------------------------------------------>
@@ -7412,7 +7418,7 @@ px are useful for both horizontal and vertical dimensions. 
 
 'em' is a typographic term that has come to the Web. On the Web, em
 units are usually used for vertical dimensions.  One 'em' maps to the
-height of one capital letter in the* parent context*.   
+height of one capital letter in the<i> parent context</i>.   
 
 ```
 li { font-size: 0.9em; }  /* text in a list item is smaller than its
@@ -7434,8 +7440,8 @@ remain sized correctly.
 <h4>rem</h4>
 
 'rem' is much like 'em', except that 'em' sizes an element relative to
-its *parent*, and 'rem' always derives its size relative to
-the ***root***.  In an HTML document with lots of nested elements, 'rem'
+its <i>parent</i>, and 'rem' always derives its size relative to
+the <i><b>root</b></i>.  In an HTML document with lots of nested elements, 'rem'
 will generally prove to be more reliable than 'em'.  'rem' is supported
 in all modern day browsers, including mobile, but not older ones. 
 
@@ -7445,7 +7451,7 @@ increasingly smaller. And if 'rem' units were used, they would be the
 same size.
 
 Note: to ensure you are setting the root size,
-use ***both*** the html and body selectors.
+use <i><b>both</b></i> the html and body selectors.
 
 <h4>html, body { font-size: 20px; }</h4>
 
@@ -8146,18 +8152,18 @@ Now that we've covered several ways of defining CSS selectors, we need
 to understand what happens when multiple selectors resolve to the same
 element, and how an element can get inherit rules from its parent.
 
-Remember when we said *"For now don't worry about the 'Cascading'
-part..."* at the beginning of this module?  Well, that was then, this is
+Remember when we said <i>"For now don't worry about the 'Cascading'
+part..."</i> at the beginning of this module?  Well, that was then, this is
 now. From this moment on, you will need to worry about cascading.
 
-Most CSS rules once applied to an element are *also* applied to all the
-children of that element, and to their children, and theirs *ad
-infinitum*. There are exceptions, notably the layout properties (margin,
+Most CSS rules once applied to an element are <i>also</i> applied to all the
+children of that element, and to their children, and theirs <i>ad
+infinitum</i>. There are exceptions, notably the layout properties (margin,
 padding, position, width, etc.) and the decorative properties (border,
 background, etc.) <b>do not</b> cascade. This cascading of a CSS property
 from parent to child is also called "inheritance". 
 
-Generally, inheritance is a *good* thing. Do you want the whole page to
+Generally, inheritance is a <i>good</i> thing. Do you want the whole page to
 use your corporate approved Web-font?
  body { font-family: "Soulless", serif; } is all you need.  There is no
 need to apply the same font-family property to each and every tag used
@@ -8244,7 +8250,7 @@ none of its children inherit the padding.
 
 There is no reliable rule for which CSS properties are inheritable by
 default and which are not. However, generally, the properties associated
-with positioning and layout are *not* inherited.  Likewise, the
+with positioning and layout are <i>not</i> inherited.  Likewise, the
 decorative properties (borders, background images, etc.) do not inherit.
  Most properties that begin with text- or font- inherit.
 
@@ -8252,7 +8258,7 @@ decorative properties (borders, background images, etc.) do not inherit.
 
 It is possible, and easy, to have several different CSS rules all
 applying to the same element.  This is often advantageous because most
-CSS properties are *orthogonal* to one another, meaning they do not
+CSS properties are <i>orthogonal</i> to one another, meaning they do not
 interfere with each other. This gives us freedom to organize the CSS
 properties in rules in ways that make sense to us as developers, knowing
 that they can compose nicely. For example, a bit of text can be made
@@ -8262,13 +8268,13 @@ convenient for us.
 
 However, what happens when there are different rules competing to set
 different values for the same property?  This is where
-CSS *precedence* comes into play. When rendering CSS, the browser has
+CSS <i>precedence</i> comes into play. When rendering CSS, the browser has
 some guidelines it follows for resolving conflicting rules. Here is
 rough summary, in order:
 
 <h4>1 - Most specific rule</h4>
 
-A more *specific* rule takes precedence over a less specific rule.  A
+A more <i>specific</i> rule takes precedence over a less specific rule.  A
 rule that more tightly matches a particular element than a general rule
 will be applied. 
 
@@ -8661,20 +8667,20 @@ couple of things about CSS more deeply.
 
 The placement of elements on a Web page can be fairly complicated. One
 of the most basic features that influence where things go on a Web page
-is the CSS *Box Model*. The Box Model governs 3 important spacing
-features of CSS.  We learned about *margins* previously as the space
+is the CSS <i>Box Model</i>. The Box Model governs 3 important spacing
+features of CSS.  We learned about <i>margins</i> previously as the space
 between elements.  There are two other similar
-notions, *padding* and *borders*.
+notions, <i>padding</i> and <i>borders</i>.
 
 Perhaps the best way to understand is with a picture.  All elements in
 an html document end up being treated as rectangles somewhere in the
-window. The *content* of each rectangle corresponds to the innermost
+window. The <i>content</i> of each rectangle corresponds to the innermost
 rectangle in the image below.  Just outside the content is the padding.
  This is kind of like an internal margin, meaning that it separates the
-contents from the *border*.  The border essentially traces the sides of
+contents from the <i>border</i>.  The border essentially traces the sides of
 the padding rectangle.
 
-It's important to note that the border goes around the *content* and the
+It's important to note that the border goes around the <i>content</i> and the
 padding.  There are sometimes visible things associated with an element
 that are not technically part of the content of the element.  One such
 example is the list item:
@@ -8735,7 +8741,7 @@ The margin, as we learned earlier, specifies the position of the
 element relative to whatever is adjacent to it, either to the right or
 left, or top or bottom.  The margin is always transparent, and each side
 can be set individually.  The unique thing about the margin is that the
-values for any of the sides can be *negative,* even if that means that
+values for any of the sides can be <i>negative,</i> even if that means that
 it overlaps with another element on the page.  This can be useful when
 you want to control where an element is placed on a page.  In the
 following pictures, the black rectangles encompass the content:
@@ -10784,7 +10790,7 @@ tr:nth-child(even) { background-color: grey; }
 tr:nth-child(odd) { background-color: #ccff99; }
 ```
 
-The '*n*th-child' selector matches every element that is the *n*th child
+The '<i>n</i>th-child' selector matches every element that is the <i>n</i>th child
 of the table or any parent element. Therefore,
 
 ```
@@ -11968,13 +11974,13 @@ your &lt;video&gt; tag like this:
 <h3 id="ch5-4-1">5.4.1 The iframes tag (OPTIONAL)</h3>
 <!------------------------------------------------------------------------------------------------>
 
-*<b>Note:</b> This section is optional material included for the curious.
-It will not appear on any graded question.*
+<i><b>Note:</b> This section is optional material included for the curious.
+It will not appear on any graded question.</i>
 
 There are tags for all kinds of content in your Web page, text, images,
 videos, animations.  There's even a tag that allows you to put another
-Web page in your Web page - the &lt;iframe&gt; tag (*HTML Inline Frame
-Element*).  Why would you want to do this?  Well, it enables a lot of
+Web page in your Web page - the &lt;iframe&gt; tag (<i>HTML Inline Frame
+Element</i>).  Why would you want to do this?  Well, it enables a lot of
 possibilities.
 
 The popular online code editor [CodePen](https://codepen.io/) has
@@ -12414,7 +12420,7 @@ that if the size of the parent element is not exactly a multiple of the
 tile, then the image may be "cropped" and bleed off the side.  That can
 be managed by centering the tile
 (with background-position: center;).  Additionally
-the background-repeat property can also be used to control *how* it
+the background-repeat property can also be used to control <i>how</i> it
 repeats. The space value will result in cropped images; it means
 "repeat, and add space between the elements so there is no cropping".
  Note that this property does not let you directly manipulate the amount
@@ -12434,7 +12440,7 @@ style="width:5in;height:2.11378in" />
 
 <h4>background-size</h4>
 
-When *not* repeating, it is very useful to size a background image to
+When <i>not</i> repeating, it is very useful to size a background image to
 fit its element.  The background-size can be used for this.  There are
 two very useful values:  contain and cover.   The contain value will put
 the entire image into the space of the element, however, the space of
@@ -12461,7 +12467,7 @@ style="width:5in;height:1.60897in" />
 -->
 
 The background-size property can also be used to more exactly size the
-image.  When used in this fashion, it takes *two* values separated by a
+image.  When used in this fashion, it takes <i>two</i> values separated by a
 space. The first governs the width, the second the height.  Examples:
 
 ```
@@ -12698,7 +12704,7 @@ the width, height, left and top CSS properties and to start blindly
 using them.
 
 These are useful properties, however, they should <b>not</b> be your first
-choice.  These CSS properties depend upon *other* properties before they
+choice.  These CSS properties depend upon <i>other</i> properties before they
 can even be used, and they can have unintended consequences. We'll
 explore them more in next module when covering Layout.  
 
@@ -12827,7 +12833,7 @@ Above us we see a tag selector (a) followed by a pseudo class, which
 consists of a colon and a word (e.g. :visited ). This particular CSS
 rule will be applied to any <a> tag that the user has already visited.
 There can be no spaces on either side of the colon. Pseudo classes can
-be amended onto *any* CSS selector, not just tag selectors.
+be amended onto <i>any</i> CSS selector, not just tag selectors.
 
 A full list of pseudo classes can be
 found [here](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes). Let's
@@ -12858,7 +12864,7 @@ rarely hovering or clicking over/into "just one" item. At any given
 moment, the mouse is usually over several elements, because if it is
 over a child element, it will be over the parent, grandparent, and great
 grandparent.  Therefore, if you have two different style rules, such
-as li:hover and ul:hover, then they will *both* be activated,  when the
+as li:hover and ul:hover, then they will <i>both</i> be activated,  when the
 mouse is over one of the list items.  
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- 130. hover pseudo-class  (280) --------------------------------->
@@ -12993,7 +12999,7 @@ Your favorite browser is not always right.
 -   <b>Linearized logical source order
     </b>The order of the HTML content should make sense even without the
     CSS.  
-    Benefits are numerous as it *works best*:
+    Benefits are numerous as it <i>works best</i>:
 
     -   for long-term site maintainability
 
@@ -13078,7 +13084,7 @@ Absolute units are usually the wrong answer.
 
 -   Don't rely on proprietary extensions
 
--   Don't use experimental features in production *or* commit to keeping
+-   Don't use experimental features in production <i>or</i> commit to keeping
     up-to-date.
 
 -   Provide fallbacks / use @supports.
@@ -13404,7 +13410,7 @@ positioning or size of an element such as left, top, and margin.
 However, when using the properties,
 these developers get confused because the properties fail to behave
 consistently. Sometimes the properties work, sometimes they don't,
-sometimes they do the *opposite* of what they are doing in a different
+sometimes they do the <i>opposite</i> of what they are doing in a different
 rule.  We have not covered properties like left and top yet, but we have
 introduced margin and the intrepid readers may have already discovered
 in their exercises that margin can have some unexpected behavior. Why is
@@ -13511,7 +13517,7 @@ Inline elements:
 -   cleave to the baseline where they are being placed
 
 The last bullet about inline elements is one of the most important to
-understand. *Inline elements cleave to the baseline*.  This is very
+understand. <i>Inline elements cleave to the baseline</i>.  This is very
 important to understand why inline elements are positioned vertically
 the way they are. It also contributes to why they ignore top and bottom
 margins. Note that making an inline element "bigger" with padding will
@@ -13616,8 +13622,8 @@ discuss centering. Let's start with inline elements.
 
 How do you center an inline element?  As we recall, inline elements are
 positioned along the baseline, in the natural flow of the text or
-content. So for any individual inline element, there is *no CSS
-property* you can apply directly to cause this element to center.
+content. So for any individual inline element, there is <i>no CSS
+property</i> you can apply directly to cause this element to center.
 You may apply some padding evenly or unevenly to
 position its content relative to its own box. But that's not centering
 the element itself.
@@ -13656,7 +13662,7 @@ div { width: 200px; margin: auto; }
 Horizontal centering - a better way
 
 Do auto margins seem spooky to you?  There is a better way to achieve
-centering and its name is *flexbox*.  We'll read more about it later. 
+centering and its name is <i>flexbox</i>.  We'll read more about it later. 
 
 <b>Vertical centering</b>
 
