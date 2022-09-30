@@ -1644,7 +1644,7 @@ file that you want the browser to completely ignore, there's a special
 tag for that (unsurprisingly called a "comment tag"):
 
 ```
-  <!-- This is a comment -->
+<!-- This is a comment -->
 ```
 
 An HTML comment tag starts with <!-- and ends with -->, meaning that
@@ -4237,6 +4237,9 @@ element and must be styled to achieve the look of a sidebar. The
 following code will only create structure to your document, not any
 visual change:
 
+<details>
+  <summary>HTML</summary>
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -4259,6 +4262,8 @@ showcased in the paragraph -->
 </article>
 </body>
 ```
+
+</details>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 29. the aside semantic element (##) ------------------------------>
@@ -4509,6 +4514,9 @@ multiple &lt;header&gt;, &lt;footer&gt; and &lt;nav&gt; tags.
    alt="Screenshot of Microsoft Virtual Academy home page showing the footer." />
 </p>
 
+<details>
+  <summary>HTML</summary>
+
 ```xml
 <!DOCTYPE html>
 <html lang="en">
@@ -4588,6 +4596,8 @@ multiple &lt;header&gt;, &lt;footer&gt; and &lt;nav&gt; tags.
 </html>
 ```
 
+</details>
+
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-3-5">2.3.5 &lt;article&gt; and &lt;section&gt; Elements</h3>
 <!------------------------------------------------------------------------------------------------>
@@ -4659,6 +4669,9 @@ to our CES 2018 &lt;article&gt; example, it will fit right in:
 
 <h4>HTML:</h4>
 
+<details>
+  <summary>HTML</summary>
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -4689,6 +4702,8 @@ to our CES 2018 &lt;article&gt; example, it will fit right in:
 </html>
 ```
 
+</details>
+
 An article element can use section elements to split its contents into
 groups.
 
@@ -4706,6 +4721,9 @@ this [CodePen](https://codepen.io/w3devcampus/pen/Wjzjpx):
    width="40%"
    alt="." />
 </p>
+
+<details>
+  <summary>HTML</summary>
 
 ```
 <!DOCTYPE html>
@@ -4781,6 +4799,8 @@ showcased in the paragraph. -->
           font and center have also been completely dropped...</p>
 ```
 
+</details>
+
 <h4>New APIs</h4>
 
 <p>New APIs were introduced to allow cross-document communication,
@@ -4793,6 +4813,9 @@ element, webstorage etc...</p>
 browsers to produce the same type of behavior when parsing incorrect
 syntax. It has been designed for compatibility with older browsers.
 Older browsers ignore new HTML5 constructs... </p>
+
+<details>
+  <summary>HTML</summary>
 
 ```
 </section>
@@ -4848,6 +4871,8 @@ summary elements. Expand to show content. -->
 </html>
 ```
 
+</details>
+
 It is an example of an informational page about HTML5 using the
 following semantic elements: header, nav, main, article, section, aside,
 mark, figure, figcaption, details and summary.
@@ -4878,6 +4903,9 @@ its place.
 
 We will see an example of &lt;div&gt; here:
 
+<details>
+  <summary>HTML</summary>
+
 ```
 <section>
   <h2>Week 1</h2>
@@ -4900,6 +4928,8 @@ We will see an example of &lt;div&gt; here:
   </div>
 </section>
 ```
+
+</details>
 
 If you want to style all code snippets in your HTML document a certain
 way, you can place your code in a div container and apply styles
@@ -6215,6 +6245,9 @@ style="width:6.5in;height:3.27778in" />
 ------->
 <h4>HTML</h4>
 
+<details>
+  <summary>HTML</summary>
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -6286,6 +6319,8 @@ style="width:6.5in;height:3.27778in" />
    </body>
 </html>
 ```
+
+</details>
 
 Hello, everyone. In this live coding demo, we're going to enhance this
 recipe page that was introduced earlier.
@@ -6823,33 +6858,31 @@ following <a href="https://codepen.io/w3devcampus/pen/QvQgbr" target="_blank">Co
 ... or work from the lines of code below (to paste in your favorite Web
 editor):
 
+<details>
+  <summary>HTML</summary>
+
 ```
 <!DOCTYPE html>
-   <html lang="en">
-     <head>
-         <meta charset="UTF-8">
-         <title>On the Inventor of Gunpowder</title>
-  
-         <style>
-            /* CSS */
-      </style>
-
-    </head>
- 
-   <body>
- 
-       <h1>On the Inventor of Gunpowder.</h1>
- 
-      <address rel="author">By John Milton</address>
- 
-      <p>Praise in old time the sage Prometheus won,<br>
-Who stole ethereal radiance from the sun;<br>
-But greater he, whose bold invention strove<br>
-To emulate the fiery bolts of Jove.</p>
- 
-   </body>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>On the Inventor of Gunpowder</title>
+    <style>
+      /* CSS */
+    </style>
+  </head>
+  <body>
+    <h1>On the Inventor of Gunpowder.</h1>
+    <address rel="author">By John Milton</address>
+    <p>Praise in old time the sage Prometheus won,<br>
+       Who stole ethereal radiance from the sun;<br>
+       But greater he, whose bold invention strove<br>
+       To emulate the fiery bolts of Jove.</p>
+  </body>
 </html>
 ```
+
+</details>
 
 You could also take another short text (such as a poem) and apply the
 styles you like on it.
@@ -8147,6 +8180,9 @@ that in the result, the font-family is applied to all the
 children, while the padding is only applied to the paragraph itself,
 none of its children inherit the padding.
 
+<details>
+  <summary>HTML</summary>
+
 ```html5
 <table>
    <colgroup>
@@ -8201,6 +8237,8 @@ none of its children inherit the padding.
    </tbody>
 </table>
 ```
+
+</details>
 
 <h4>Which rules are inheritable?</h4>
 
@@ -8336,6 +8374,9 @@ the best advice is to fix them directly, rather than using !important.
    alt="." />
 </p>
 
+<details>
+  <summary>HTML</summary>
+
 ```xml
 <!DOCTYPE html>
 <html lang="en">
@@ -8407,6 +8448,8 @@ Pizza, the king of comfort foods. Try this simple, taste sensation.
 </body>
 </html>
 ```
+
+</details>
 
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch4-1-1">4.1.1 Welcome to Module 4</h3>
@@ -8899,6 +8942,9 @@ font-size:1.2rem;
 
 <h4>HTML</h4>
 
+<details>
+  <summary>HTML</summary>
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -8921,6 +8967,8 @@ font-size:1.2rem;
 </body>
 </html>
 ```
+
+</details>
 
 Looking at the style rules we see there are three different
 possibilities for the size and color of an &lt;h1&gt; element. In this case
@@ -8964,28 +9012,33 @@ font-size: 2rem;
 
 <h4>HTML</h4>
 
+<details>
+  <summary>HTML</summary>
+
 ```
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<title>precedence 2</title>
+  <meta charset="utf-8">
+  <title>precedence 2</title>
 </head>
 <body>
-<h1>My Book</h1>
-<article>
-<h1>Chapter 1 </h1>
-<section>
-<h1>Section 1.1</h1>
-<p>...</p>
-</section>
-<section>
-<h1>Section 1.2</h1>
-</section>
-</article>
+  <h1>My Book</h1>
+  <article>
+    <h1>Chapter 1 </h1>
+    <section>
+      <h1>Section 1.1</h1>
+      <p>...</p>
+    </section>
+    <section>
+      <h1>Section 1.2</h1>
+    </section>
+  </article>
 </body>
 </html>
 ```
+
+</details>
 
 What happened? To answer that question, we'll turn to the browser's
 debugger.
@@ -9104,6 +9157,9 @@ font-size:1.2rem;
 
 <h4>HTML</h4>
 
+<details>
+  <summary>HTML</summary>
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -9127,6 +9183,8 @@ font-size:1.2rem;
 </html>
 ```
 
+</details>
+
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch4-4-3">4.4.3 Cloud images</h3>
 <!------------------------------------------------------------------------------------------------>
@@ -9147,6 +9205,9 @@ the pictures but the result is unwieldy:
 </p>
 
 <h4>HTML</h4>
+
+<details>
+  <summary>HTML</summary>
 
 ```
 <!DOCTYPE html>
@@ -9180,6 +9241,8 @@ the pictures but the result is unwieldy:
 </html>
 ```
 
+</details>
+
 When you see the pictures, the text is so small it's unreadable. 
 Clearly we have a solution for this.  We can just specify the width of
 &lt;img&gt; elements.  We can use the debugger to try different sizes,
@@ -9212,37 +9275,42 @@ width: 10rem;
 
 <h4>HTML</h4>
 
+<details>
+  <summary>HTML</summary>
+
 ```
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Cloud images</title>
+  <meta charset="UTF-8">
+  <title>Cloud images</title>
 </head>
 <body>
-<h1>Clouds</h1>
-<img alt="Clouds (Undulatus asperatus) above Tallinn - Author: Ave
-Maria Mõistlik" width="500"
-src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Beautiful_clouds.JPG/1600px-Beautiful_clouds.JPG">
-<blockquote>
-<hr>
-“Clouds come floating into my life, no longer to carry rain or usher
-storm, but to add color to my sunset sky.”
-― Rabindranath Tagore, Stray Birds
-<hr>
-</blockquote>
-<p>Among the many types of clouds are:</p>
-<ol>
-<li id="cumulus">Cumulus clouds: <img alt="Cumulus Clouds"
-src="https://www.weather.gov/images/jetstream/clouds/cu.jpg"></li>
-<li id="cirrus">Cirrus clouds: <img alt="Cirrus clouds"
-src="https://www.weather.gov/imagesjetstream/clouds/ci.jpg"></li>
-<li id="stratus">Stratus clouds: <img alt="Stratus clouds"
-src="https://www.weather.gov/images/jetstream/clouds/st.jpg"></li>
-</ol>
+  <h1>Clouds</h1>
+  <img alt="Clouds (Undulatus asperatus) above Tallinn - Author: Ave
+  Maria Mõistlik" width="500"
+  src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Beautiful_clouds.JPG/1600px-Beautiful_clouds.JPG">
+  <blockquote>
+    <hr>
+    “Clouds come floating into my life, no longer to carry rain or usher
+    storm, but to add color to my sunset sky.”
+    ― Rabindranath Tagore, Stray Birds
+    <hr>
+  </blockquote>
+  <p>Among the many types of clouds are:</p>
+  <ol>
+    <li id="cumulus">Cumulus clouds: <img alt="Cumulus Clouds"
+      src="https://www.weather.gov/images/jetstream/clouds/cu.jpg"></li>
+    <li id="cirrus">Cirrus clouds: <img alt="Cirrus clouds"
+      src="https://www.weather.gov/imagesjetstream/clouds/ci.jpg"></li>
+    <li id="stratus">Stratus clouds: <img alt="Stratus clouds"
+      src="https://www.weather.gov/images/jetstream/clouds/st.jpg"></li>
+  </ol>
 </body>
 </html>
 ```
+
+</details>
 
 So far so good, but we want our top image to be a bit bigger without
 changing the other images.  Recall  that an &lt;img&gt; tag
@@ -9317,6 +9385,9 @@ width: 10rem;
 
 <h4>HTML:</h4>
 
+<details>
+  <summary>HTML</summary>
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -9347,6 +9418,8 @@ src="https://www.weather.gov/images/jetstream/clouds/st.jpg"></li>
 </body>
 </html>
 ```
+
+</details>
 
 There is still the issue of things not being laid out nicely, you'll
 learn more about that in the module 6.
@@ -9382,6 +9455,9 @@ this:
 
 <h5>HTML</h5>
 
+<details>
+  <summary>HTML</summary>
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -9391,21 +9467,23 @@ this:
 </head>
 <body>
   <section>
-  <h1>Essay Outline</h1>
-  <ol>
-  <li>Introduction
-  <ol>
-  <li>Introduce Subject
-  <ul>
-  <li>What is it?</li>
-  <li>Why is it important</li>
-  </ul>
+    <h1>Essay Outline</h1>
+    <ol>
+      <li>Introduction
+    <ol>
+      <li>Introduce Subject
+    <ul>
+    <li>What is it?</li>
+    <li>Why is it important</li>
+    </ul>
   </li>
   <li>Propose Thesis</li>
   <li>Outline</li>
   </ol>
 </li>
 ```
+
+</details>
 
 As with the cloud pictures, we want the listed items a bit smaller than
 the regular text, so we add this styling:
@@ -9530,6 +9608,9 @@ color: white;
 
 <h4>HTML:</h4>
 
+<details>
+  <summary>HTML</summary>
+
 ```html5
 <!DOCTYPE html>
 <html lang="en">
@@ -9627,6 +9708,8 @@ Pizza, the king of comfort foods. Try this simple, taste sensation.
 </html>
 ```
 
+</details>
+
 Use the debugger to experiment with settings of margins, padding and
 borders, to figure out what needs to change to eliminate some of the
 gaps between elements and the side of the window and frame the images.
@@ -9641,6 +9724,9 @@ the CodePen below:
 style="width:4.96875in;height:2.73958in" />
 
 <h4>CSS:</h4>
+
+<details>
+  <summary>HTML</summary>
 
 ```
 nav {
@@ -9660,7 +9746,12 @@ color: white;
 }
 ```
 
+</details>
+
 <h4>HTML:</h4>
+
+<details>
+  <summary>HTML</summary>
 
 ```
 <!DOCTYPE html>
@@ -9749,6 +9840,8 @@ Pizza, the king of comfort foods. Try this simple, taste sensation.
 </body>
 </html>
 ```
+
+</details>
 
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-1-1">5.1.1 Welcome to Module 5</h3>
@@ -10725,7 +10818,7 @@ table.eg3 tr:nth-child(3n) { background-color: #ccff99; }
 <h4>HTML</h4>
 
 <details>
-  <summary> HTML
+  <summary>HTML</summary>
 
 ```
 1.  <!DOCTYPE html>
@@ -10778,6 +10871,8 @@ table.eg3 tr:nth-child(3n) { background-color: #ccff99; }
 33. </html>
 ```
 
+</details>
+
 <h4>hover to highlight</h4>
 
 Using the hover property on your &lt;tr&gt;, you can mouse over rows in your
@@ -10812,6 +10907,9 @@ table.eg2 tr:hover { background-color: grey; }
 
 <h4>HTML</h4>
 
+<details>
+  <summary>HTML</summary>
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -10844,6 +10942,8 @@ table.eg2 tr:hover { background-color: grey; }
    </body>
 </html>
 ```
+
+</details>
 
 <h4>overflow</h4>
 
@@ -10889,6 +10989,9 @@ div.overflow-x-auto { overflow-x: auto; overflow-y:hidden; }
 ```
 
 <h4>HTML:</h4>
+
+<details>
+  <summary>HTML</summary>
 
 ```
 1.  <!DOCTYPE html>
@@ -11000,6 +11103,8 @@ div.overflow-x-auto { overflow-x: auto; overflow-y:hidden; }
 106. </html>
 ```
 
+</details>
+
 <h4>In summary: a fancy table</h4>
 
 As a conclusion to this tables section, here is a complete table design:
@@ -11014,6 +11119,9 @@ As a conclusion to this tables section, here is a complete table design:
 </p>
 
 <h4>CSS:</h4>
+
+<details>
+  <summary>HTML</summary>
 
 ```
 1.  table, th, td {
@@ -11052,7 +11160,12 @@ As a conclusion to this tables section, here is a complete table design:
 34. }
 ```
 
+</details>
+
 <h4>HTML:</h4>
+
+<details>
+  <summary>HTML</summary>
 
 ```
 1.  <!DOCTYPE html>
@@ -11115,6 +11228,8 @@ As a conclusion to this tables section, here is a complete table design:
 56. </body>
 57. </html>
 ```
+
+</details>
 
 <b>Note</b>: This table contains multi-line headers. You can find more
 information on the right way to design tables of different header types
@@ -11583,20 +11698,20 @@ Here is some information regarding different types of audio formats and
 their compression techniques that can help you decide which audio format
 to choose apart from audio element and browser compatibility:
 
--   There are three major groups of audio file formats - uncompressed
+  - There are three major groups of audio file formats - uncompressed
     (eg: WAV), lossless compressed (eg: MPEG-4, WMA Lossless) and lossy
     compressed (eg: Opus, MPC, AAC, WMA Lossy). 
 
--   In uncompressed audio file formats, no compression is applied to the
+  - In uncompressed audio file formats, no compression is applied to the
     audio file. The memory used for both sound and silence is the same
     though silence contains less information/data.
 
--   In lossless compression, no data is lost but the file is compressed
+  - In lossless compression, no data is lost but the file is compressed
     as silence is designed to take up very little space. Compared to
     uncompressed, lossless compression's compression ratio
     is approximately 2:1.
 
--   Lossy compression provides the greatest compression by simplifying
+  - Lossy compression provides the greatest compression by simplifying
     the data and removing some audio information resulting in some loss
     of quality. It is also the most popular. There are techniques in
     place to ensure that the parts of sound that is lost has little
@@ -11604,7 +11719,7 @@ to choose apart from audio element and browser compatibility:
     The larger the rate of compression, the bigger the loss in quality
     and smaller the file size. 
 
--   The audio format Ogg Opus has two parts to it. 'Ogg' is a digital
+  - The audio format Ogg Opus has two parts to it. 'Ogg' is a digital
     container format. It is a specification that describes how different
     elements of data and metadata work in an audio file. However, it
     provides no information on how the data is compressed. So a program
@@ -11613,7 +11728,7 @@ to choose apart from audio element and browser compatibility:
     encoding or decoding mechanism for that stream of audio. Opus is a
     lossy audio coding format.
 
--   If you have an audio file in one format and wish to convert it to
+  - If you have an audio file in one format and wish to convert it to
     another, there are a lot of software applications available to help
     you do that. 
 
@@ -15237,4 +15352,4 @@ These are the final changes to our recipe project for this unit.
 
 <h4>The end...</h4>
 
-<h3><b>Last Updated 09-29-2022 9:58am</b></h3>
+<h3><b>Last Updated 09-29-2022 8:24pm</b></h3>
