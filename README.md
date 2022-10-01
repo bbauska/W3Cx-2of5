@@ -8093,26 +8093,26 @@ result:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Welcome to <a
+<th><p align="left">Welcome to <a
 href="https://courses.edx.org/xblock/block-v1:W3Cx+HTML5.0x+3T2020+type@vertical+block@a45bbd47f6184286ab951aee1ba7fe0f?show_title=0&amp;show_bookmark_button=0&amp;recheck_access=1&amp;view=student_view#palaceland">PalaceLand</a>,
 world renown Land of endless palaces and <a
 href="https://courses.edx.org/xblock/block-v1:W3Cx+HTML5.0x+3T2020+type@vertical+block@a45bbd47f6184286ab951aee1ba7fe0f?show_title=0&amp;show_bookmark_button=0&amp;recheck_access=1&amp;view=student_view#delight">delights</a>.
 As you make your way about, remember the words of our founder</p>
-<p>Shouldn't we have <a
+<p align="left">Shouldn't we have <a
 href="https://courses.edx.org/xblock/block-v1:W3Cx+HTML5.0x+3T2020+type@vertical+block@a45bbd47f6184286ab951aee1ba7fe0f?show_title=0&amp;show_bookmark_button=0&amp;recheck_access=1&amp;view=student_view#chairs">chairs</a>?
 Never made much sense wandering room a room looking for a place to sit a
 spell. Folk that don't sit are not likely all right in the <a
-href="https://courses.edx.org/xblock/block-v1:W3Cx+HTML5.0x+3T2020+type@vertical+block@a45bbd47f6184286ab951aee1ba7fe0f?show_title=0&amp;show_bookmark_button=0&amp;recheck_access=1&amp;view=student_view#head">head</a></p>
+href="https://courses.edx.org/xblock/block-v1:W3Cx+HTML5.0x+3T2020+type@vertical+block@a45bbd47f6184286ab951aee1ba7fe0f?show_title=0&amp;show_bookmark_button=0&amp;recheck_access=1&amp;view=student_view#head">head</a></p align="left">
 <p>There are guidelines to follow while in <a
 href="https://courses.edx.org/xblock/block-v1:W3Cx+HTML5.0x+3T2020+type@vertical+block@a45bbd47f6184286ab951aee1ba7fe0f?show_title=0&amp;show_bookmark_button=0&amp;recheck_access=1&amp;view=student_view#palaceland">PalaceLand</a>.
 They are outlined on the back of your Daring Footman <a
 href="https://courses.edx.org/xblock/block-v1:W3Cx+HTML5.0x+3T2020+type@vertical+block@a45bbd47f6184286ab951aee1ba7fe0f?show_title=0&amp;show_bookmark_button=0&amp;recheck_access=1&amp;view=student_view#trademark">(tm)</a> card.
 But the spirit of the guidelines are best summed up by our founder</p>
-<p>Don't just <a
+<p align="left">Don't just <a
 href="https://courses.edx.org/xblock/block-v1:W3Cx+HTML5.0x+3T2020+type@vertical+block@a45bbd47f6184286ab951aee1ba7fe0f?show_title=0&amp;show_bookmark_button=0&amp;recheck_access=1&amp;view=student_view#standthere">stand
 there</a> with your mouth hanging open waiting for a pair of nesting
 birds.</p>
-<p>(and no <a
+<p align="left">(and no <a
 href="https://courses.edx.org/xblock/block-v1:W3Cx+HTML5.0x+3T2020+type@vertical+block@a45bbd47f6184286ab951aee1ba7fe0f?show_title=0&amp;show_bookmark_button=0&amp;recheck_access=1&amp;view=student_view#camera_policy">flash
 photography</a> please.)</p></th>
 </tr>
@@ -8146,7 +8146,7 @@ blockquotes. :
 #intro > a { font-size: large; }
 ```
 
-<h4>Everything selector (\*)</h4>
+<h4>Everything selector (*)</h4>
 
 The asterisk (\*) can be used to match <b>any</b> tag. By itself, this is
 only marginally useful. But combined with other selectors into a
@@ -8259,9 +8259,8 @@ html5
     </tr>
   </tbody>
 </table>
-```
 
-</details>
+<!-- </details> -->
 
 <h4>Which rules are inheritable?</h4>
 
@@ -8387,14 +8386,145 @@ conflict there is no escape.  If you are having problems with precedence
 the best advice is to fix them directly, rather than using !important.
 
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch3-4-5">3.4.5 Recipe</h3>
+<h3 id="ch3-4-5">3.4.5 Knowledge Check</h3>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 57.  (170) -------------------------------->
+n/a
+<!------------------------------------------------------------------------------------------------>
+<h3 id="ch3-4-6">3.4.6 Activity - List</h3>
+<!------------------------------------------------------------------------------------------------>
+
+The HTML that follows is for a simple list.  Insert it into a properly formed HTML file and format it.  Try to ensure the following are done:
+•	space the list items at least 20 pixels from the left edge of the page
+•	space the list items at least 10 pixels from each other
+•	center the header
+•	keep the list at least 50 pixels from the header
+•	the book titles in the list should not be displayed in a serif font
+•	the header should use a different font than the list
+•	the text of header should be dark red
+•	break the CSS rules into two different .css files. One file should contain any spacing rules, the other any rules governing font faces or coloring.  Bind both into your HTML document
+•	instead of numbers, have the list items indexed by the alphabet
+•	change the <ol> tag to <ul> (and the closing </ol> to </ul>) and style the list items to have square bullet points
+•	download this simple triangle shape   and style the list items to use it
+Please work on the following CodePen and implement the instructions above - do not hesitate to tweak and test!
+
+<h4>HTML</h4>
+
+```
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>List</title>
+    <style>
+        /* CSS */
+    </style>
+</head>
+
+<body>
+
+<h1>Books</h1> 
+<ol> 
+        <li>A la Recherche de Temps Perdu</li>
+        <li>Middlemarch</li>
+        <li>Ulysses</li>
+        <li>Don Quixote</li>
+        <li>Moby Dick</li>
+        <li>Hamlet</li>
+        <li>War and Peace</li>
+        <li>The Odyssey</li>
+        <li>The Great Gatsby</li>
+        <li>The Divine Comedy</li>
+        <li>Madame Bovary</li>
+        <li>The Brothers Karamazov</li>
+        <li>One Hundred Years of Solitude</li>
+        <li>The Iliad</li>
+        <li>Lolita</li>
+        <li>Anna Karenina</li>
+        <li>Crime and Punishment</li>
+        <li>The Sound and the Fury</li>
+        <li>Wuthering Heights</li>
+        <li>Le Rouge et le Noir</li>
+    </ol>
+
+</body>
+</html>
+```
+
+Result
+ 
+<!------------------------------------------------------------------------------------------------>
+<h3 id="ch3-4-7">3.4.7 Activity - CSS selectors</h3>
+<!------------------------------------------------------------------------------------------------>
+
+Using the HTML below (in this CodePen), please style the two lists by following these instructions: 
+•	The female characters are in blue text, and the male characters are red
+•	Dorothea Brooke and Sydney Carton are bold text
+•	Joshua Rigg and Madame Defarge are italicized
+•	The list for Middlemarch is enumerated with roman numerals
+•	The list for A Tale of Two Cities is enumerated with alpha characters
+•	The list items for Middlemarch are spaced out more
+•	The list for Middlemarch has been moved rightward
+•	Serif font is not used anywhere on the page
+Can you achieve the same styling without adding any new tags (i.e., without adding <i> or <b> or <span>) ? Feel free to modify the HTML, but try not to add any new id attributes, if possible. 
+
+<h4>HTML</h4>
+
+```
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Characters</title>
+    <style>
+        /* style rules go here */
+    </style>
+</head>
+
+<body>
+    <h1>Characters</h1>
+    <h2>Middlemarch</h2>
+    <h3>George Eliot</h3>
+    <ol id="middlemarch">
+        <li>Dorothea Brooke</li>
+        <li>Celia Brooke</li>
+        <li>Edward Casaubon</li>
+        <li>Sir James Chettam</li>
+        <li>Joshua Rigg</li>
+        <li>Will Ladislaw</li>
+        <li>Tertius Lydgate</li>
+        <li>Rosamond Vincy</li>
+    </ol>
+    <h2>A Tale of Two Cities</h2>
+    <h3>Charles Dickens</h3>
+    <ol id="taletwocities">
+        <li>Charles Danay</li>
+        <li>Sydney Carton</li>
+        <li>Doctor Manette</li>
+        <li>Lucie Mantte</li>
+        <li>Madame Defarge</li>
+        <li>Miss Pross</li>
+    </ol>
+</body>
+</html>
+```
+
+Result
+ 
+<!------------------------------------------------------------------------------------------------>
+<h3 id="ch3-4-8">3.4.8 Recipe</h3>
+<!------------------------------------------------------------------------------------------------>
+
+<a href=https://learning.edx.org/course/course-v1:W3Cx+HTML5.0x+1T2022/block-v1:W3Cx+HTML5.0x+1T2022+type@sequential+block@0045398377b14c60b9a3820ead6441d6/block-v1:W3Cx+HTML5.0x+1T2022+type@vertical+block@a40220f07c494fb88d47047b8c6d20bc,target=”_blank”>Go Here</a>
+
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 57. my favorite recipe; soup, salad, pizza (170) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image057.png?raw=true"
   width="40%"
-  alt="." />
+  alt="Example: My Favorite Recipes; soup, salad & pizza." />
 </p>
 
 <details>
