@@ -4073,8 +4073,7 @@ society.&lt;/p&gt;<br />
 </tr>
 <tr class="odd">
 <td><strong>&lt;details&gt;</strong><br />
-<br />
-see example below</td>
+<br />\*see example below</td>
 <td>A way to provide additional information that the user can show or
 hide. Content that is shown to user by default. Other content is hidden
 and can be expanded to view.</td>
@@ -4086,7 +4085,7 @@ and can be expanded to view.</td>
 </tr>
 <tr class="even">
 <td><p><strong>&lt;figcaption&gt;</strong></p>
-<p>see example below</p></td>
+<p>\* see example below</p></td>
 <td>Provides a caption (explanation) of an image. To be used within
 &lt;figure&gt;.</td>
 <td>&lt;figure&gt;<br />
@@ -4104,7 +4103,7 @@ caption</td>
 </tr>
 <tr class="even">
 <td><p><strong>&lt;mark&gt;</strong></p>
-<p>see example below</p></td>
+<p>\* see example below</p></td>
 <td>Defines a part of a text you want to highlight. The highlight
 styling is specified in CSS.</td>
 <td>&lt;h4&gt;Lane: &lt;/h4&gt;&lt;p&gt;Yes sir. [&lt;mark&gt;Handing
@@ -7875,7 +7874,7 @@ id selector is simply a hash sign (#) followed directly by the id.  
 <h4>HTML:</h4>
 
 ```
-<p id="p18">He is Ulysses, a man of great craft, son of Laertes. He
+<p align="left" id="p18">He is Ulysses, a man of great craft, son of Laertes. He
    was born in rugged Ithaca, and excels in all manner of stratagems and
    subtle cunning.</p>
 <p id="p19">Madam, you have spoken truly.</p>
@@ -7889,7 +7888,7 @@ id selector is simply a hash sign (#) followed directly by the id.  
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>He is Ulysses, a man of great craft, son of Laertes. He was born
+<th><p align="left">He is Ulysses, a man of great craft, son of Laertes. He was born
 in rugged Ithaca, and excels in all manner of stratagems and subtle
 cunning.</p>
 <p>Madam, you have spoken truly.</p></th>
