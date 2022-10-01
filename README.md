@@ -8392,19 +8392,20 @@ n/a
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch3-4-6">3.4.6 Activity - List</h3>
 <!------------------------------------------------------------------------------------------------>
-
 The HTML that follows is for a simple list.  Insert it into a properly formed HTML file and format it.  Try to ensure the following are done:
-•	space the list items at least 20 pixels from the left edge of the page
-•	space the list items at least 10 pixels from each other
-•	center the header
-•	keep the list at least 50 pixels from the header
-•	the book titles in the list should not be displayed in a serif font
-•	the header should use a different font than the list
-•	the text of header should be dark red
-•	break the CSS rules into two different .css files. One file should contain any spacing rules, the other any rules governing font faces or coloring.  Bind both into your HTML document
-•	instead of numbers, have the list items indexed by the alphabet
-•	change the <ol> tag to <ul> (and the closing </ol> to </ul>) and style the list items to have square bullet points
-•	download this simple triangle shape   and style the list items to use it
+
+  •	space the list items at least 20 pixels from the left edge of the page
+  •	space the list items at least 10 pixels from each other
+  •	center the header
+  •	keep the list at least 50 pixels from the header
+  •	the book titles in the list should not be displayed in a serif font
+  •	the header should use a different font than the list
+  •	the text of header should be dark red
+  •	break the CSS rules into two different .css files. One file should contain any spacing rules, the other any rules governing font faces or coloring.  Bind both into your HTML document
+  •	instead of numbers, have the list items indexed by the alphabet
+  •	change the <ol> tag to <ul> (and the closing </ol> to </ul>) and style the list items to have square bullet points
+  •	download this simple triangle shape   
+  and style the list items to use it
 Please work on the following CodePen and implement the instructions above - do not hesitate to tweak and test!
 
 <h4>HTML</h4>
@@ -8414,39 +8415,37 @@ Please work on the following CodePen and implement the instructions above - do n
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>List</title>
-    <style>
-        /* CSS */
-    </style>
+  <meta charset="UTF-8">
+  <title>List</title>
+  <style>
+    /* CSS */
+  </style>
 </head>
 
 <body>
-
-<h1>Books</h1> 
-<ol> 
-        <li>A la Recherche de Temps Perdu</li>
-        <li>Middlemarch</li>
-        <li>Ulysses</li>
-        <li>Don Quixote</li>
-        <li>Moby Dick</li>
-        <li>Hamlet</li>
-        <li>War and Peace</li>
-        <li>The Odyssey</li>
-        <li>The Great Gatsby</li>
-        <li>The Divine Comedy</li>
-        <li>Madame Bovary</li>
-        <li>The Brothers Karamazov</li>
-        <li>One Hundred Years of Solitude</li>
-        <li>The Iliad</li>
-        <li>Lolita</li>
-        <li>Anna Karenina</li>
-        <li>Crime and Punishment</li>
-        <li>The Sound and the Fury</li>
-        <li>Wuthering Heights</li>
-        <li>Le Rouge et le Noir</li>
-    </ol>
-
+  <h1>Books</h1>
+  <ol> 
+    <li>A la Recherche de Temps Perdu</li>
+    <li>Middlemarch</li>
+    <li>Ulysses</li>
+    <li>Don Quixote</li>
+    <li>Moby Dick</li>
+    <li>Hamlet</li>
+    <li>War and Peace</li>
+    <li>The Odyssey</li>
+    <li>The Great Gatsby</li>
+    <li>The Divine Comedy</li>
+    <li>Madame Bovary</li>
+    <li>The Brothers Karamazov</li>
+    <li>One Hundred Years of Solitude</li>
+    <li>The Iliad</li>
+    <li>Lolita</li>
+    <li>Anna Karenina</li>
+    <li>Crime and Punishment</li>
+    <li>The Sound and the Fury</li>
+    <li>Wuthering Heights</li>
+    <li>Le Rouge et le Noir</li>
+  </ol>
 </body>
 </html>
 ```
@@ -8457,15 +8456,15 @@ Result
 <h3 id="ch3-4-7">3.4.7 Activity - CSS selectors</h3>
 <!------------------------------------------------------------------------------------------------>
 
-Using the HTML below (in this CodePen), please style the two lists by following these instructions: 
-•	The female characters are in blue text, and the male characters are red
-•	Dorothea Brooke and Sydney Carton are bold text
-•	Joshua Rigg and Madame Defarge are italicized
-•	The list for Middlemarch is enumerated with roman numerals
-•	The list for A Tale of Two Cities is enumerated with alpha characters
-•	The list items for Middlemarch are spaced out more
-•	The list for Middlemarch has been moved rightward
-•	Serif font is not used anywhere on the page
+Using the HTML below (in this CodePen), please style the two lists by following these instructions:
+  •	The female characters are in blue text, and the male characters are red
+  •	Dorothea Brooke and Sydney Carton are bold text
+  •	Joshua Rigg and Madame Defarge are italicized
+  •	The list for Middlemarch is enumerated with roman numerals
+  •	The list for A Tale of Two Cities is enumerated with alpha characters
+  •	The list items for Middlemarch are spaced out more
+  •	The list for Middlemarch has been moved rightward
+  •	Serif font is not used anywhere on the page
 Can you achieve the same styling without adding any new tags (i.e., without adding <i> or <b> or <span>) ? Feel free to modify the HTML, but try not to add any new id attributes, if possible. 
 
 <h4>HTML</h4>
