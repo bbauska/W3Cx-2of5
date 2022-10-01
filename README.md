@@ -8325,7 +8325,7 @@ there are conflicts, the rules from the later one apply.  
 ```
 
 In the example above, an element with the .hortense class will be
-underlined and its color will be <b>blue, because that rule came later
+underlined and its color will be blue, because that rule came later
 than when it was set red.
 
 <h4>No fear</h4>
@@ -8457,17 +8457,21 @@ Result
 <!------------------------------------------------------------------------------------------------>
 
 Using the HTML below (in this CodePen), please style the two lists by following these instructions:
-  •	The female characters are in blue text, and the male characters are red
-  •	Dorothea Brooke and Sydney Carton are bold text
-  •	Joshua Rigg and Madame Defarge are italicized
-  •	The list for Middlemarch is enumerated with roman numerals
-  •	The list for A Tale of Two Cities is enumerated with alpha characters
-  •	The list items for Middlemarch are spaced out more
-  •	The list for Middlemarch has been moved rightward
-  •	Serif font is not used anywhere on the page
-Can you achieve the same styling without adding any new tags (i.e., without adding <i> or <b> or <span>) ? Feel free to modify the HTML, but try not to add any new id attributes, if possible. 
+- The female characters are in blue text, and the male characters are red,
+- Dorothea Brooke and Sydney Carton are bold text,
+- Joshua Rigg and Madame Defarge are italicized,
+- The list for Middlemarch is enumerated with roman numerals,
+- The list for A Tale of Two Cities is enumerated with alpha characters,
+- The list items for Middlemarch are spaced out more,
+- The list for Middlemarch has been moved rightward,
+- Serif font is not used anywhere on the page,
+
+Can you achieve the same styling without adding any new tags (i.e., without adding &lt;i&gt; or &lt;b&gt; or &lt;span&gt;) ? Feel free to modify the HTML, but try not to add any new id attributes, if possible.
 
 <h4>HTML</h4>
+
+<details>
+  <summary>Source code!</summary>
 
 ```
 <!DOCTYPE html>
@@ -8509,7 +8513,9 @@ Can you achieve the same styling without adding any new tags (i.e., without addi
 </html>
 ```
 
-Result
+</details>
+
+<h4>Result</h4>
  
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch3-4-8">3.4.8 Recipe</h3>
@@ -8533,70 +8539,69 @@ Result
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>My Favorite Recipes - Module 2</title>
+  <meta charset="UTF-8">
+  <title>My Favorite Recipes - Module 2</title>
 </head>
 <body>
-<h1>My Favorite Recipes</h1>
-<nav>
-<ul>
-<li><a href="#soup">Soup</a></li>
-<li><a href="#salad">Salad</a></li>
-<li><a href="#pizza">Pizza</a></li>
-</ul>
-</nav>
-<article id="soup">
-<h2>Soup</h2>
-<img
-src="https://upload.wikimedia.org/wikipedia/commons/2/22/Bol_soupe_bicolore.jpg"
-alt="soup image" width=320>
-<p>
-Beethoven once said <q>Only the pure of heart can make a good
-soup</q>. Well, here's my attempt at doing just that!
-</p>
-<ol>
-<li>Step 1</li>
-<li>Step 2</li>
-<li>Step 3</li>
-<li>Enjoy!</li>
-</ol>
-</article>
-<article id="salad">
-<h2>Salad</h2>
-<img
-src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Caesar_salad_%281%29.jpg/320px-Caesar_salad_%281%29.jpg"
-alt="salad image" width=320>
-<h3>List of ingredients</h3>
-<ul>
-<li>Ingredient 1</li>
-<li>Ingredient 2</li>
-<li>Ingredient 3</li>
-</ul>
-<p>
-Who can resist a fresh salad ! Here's one of my favorites.
-</p>
-<ol>
-<li>Step 1</li>
-<li>Step 2</li>
-<li>Step 3</li>
-<li>Enjoy!</li>
-</ol>
-</article>
-<article id="pizza">
-<h2>Pizza</h2>
-<img
-src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Margherita_Originale.JPG/320px-Margherita_Originale.JPG"
-alt="pizza image" width=320>
-<p>
-Pizza, the king of comfort foods. Try this simple, taste sensation.
-</p>
-<ol>
-<li>Step 1</li>
-<li>Step 2</li>
-<li>Step 3</li>
-<li>Enjoy!</li>
-</ol>
-</article>
+  <h1>My Favorite Recipes</h1>
+  <nav>
+    <ul>
+      <li><a href="#soup">Soup</a></li>
+      <li><a href="#salad">Salad</a></li>
+      <li><a href="#pizza">Pizza</a></li>
+    </ul>
+  </nav>
+  <article id="soup">
+  <h2>Soup</h2>
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/2/22/Bol_soupe_bicolore.jpg"
+      alt="soup image" width=320>
+    <p>
+      Beethoven once said <q>Only the pure of heart can make a good
+      soup</q>. Well, here's my attempt at doing just that!
+    </p>
+    <ol>
+      <li>Step 1</li>
+      <li>Step 2</li>
+      <li>Step 3</li>
+      <li>Enjoy!</li>
+    </ol>
+  </article>
+  <article id="salad">
+  <h2>Salad</h2>
+  <img
+    src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Caesar_salad_%281%29.jpg/320px-Caesar_salad_%281%29.jpg"
+    alt="salad image" width=320>
+  <h3>List of ingredients</h3>
+  <ul>
+    <li>Ingredient 1</li>
+    <li>Ingredient 2</li>
+    <li>Ingredient 3</li>
+  </ul>
+  <p>
+    Who can resist a fresh salad ! Here's one of my favorites.
+  </p>
+  <ol>
+    <li>Step 1</li>
+    <li>Step 2</li>
+    <li>Step 3</li>
+    <li>Enjoy!</li>
+  </ol>
+  </article>
+  <article id="pizza">
+    <h2>Pizza</h2>
+    <img   src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Margherita_Originale.JPG/320px-Margherita_Originale.JPG"
+      alt="pizza image" width=320>
+    <p>
+      Pizza, the king of comfort foods. Try this simple, taste sensation.
+    </p>
+    <ol>
+      <li>Step 1</li>
+      <li>Step 2</li>
+      <li>Step 3</li>
+      <li>Enjoy!</li>
+    </ol>
+  </article>
 </body>
 </html>
 ```
