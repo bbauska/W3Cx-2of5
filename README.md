@@ -7877,7 +7877,7 @@ id selector is simply a hash sign (#) followed directly by the id.  
 <p align="left" id="p18">He is Ulysses, a man of great craft, son of Laertes. He
    was born in rugged Ithaca, and excels in all manner of stratagems and
    subtle cunning.</p>
-<p id="p19">Madam, you have spoken truly.</p>
+<p align="left" id="p19">Madam, you have spoken truly.</p>
 ```
 
 <h4>Result:</h4>
@@ -7891,7 +7891,7 @@ id selector is simply a hash sign (#) followed directly by the id.  
 <th><p align="left">He is Ulysses, a man of great craft, son of Laertes. He was born
 in rugged Ithaca, and excels in all manner of stratagems and subtle
 cunning.</p>
-<p>Madam, you have spoken truly.</p></th>
+<p align="left">Madam, you have spoken truly.</p></th>
 </tr>
 </thead>
 <tbody>
@@ -7929,25 +7929,24 @@ itself.
 
 <h4>Result:</h4>
 
-```xml
 <table>
-   <colgroup>
-      <col style="width: 100%" />
-   </colgroup>
-   <thead>
-      <tr class="header">
+  <colgroup>
+    <col style="width: 100%" />
+  </colgroup>
+  <thead>
+    <tr class="header">
       <th><ul>
-         <li><p><u>eagle</u></p></li>
-         <li><p>ostrich</p></li>
-         <li><p>ant</p></li>
-         <li><p><u>moth</u></p></li>
+        <li><p><u>eagle</u></p></li>
+        <li><p>ostrich</p></li>
+        <li><p>ant</p></li>
+        <li><p><u>moth</u></p></li>
       </ul></th>
-      </tr>
-   </thead>
-   <tbody>
-   </tbody>
+    </tr>
+  </thead>
+
+  <tbody>
+  </tbody>
 </table>
-```
 
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch3-4-3">3.4.3 Combining Selectors</h3>
@@ -7968,38 +7967,38 @@ we can separate our selectors with commas (,) before one rule set.  Like
 so:
 
 <table>
-<colgroup>
-<col style="width: 44%" />
-<col style="width: 55%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>separate</strong></th>
-<th><strong>joined</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>blockquote {<br />
-  color: red;<br />
-  font-style: italic;<br />
-}<br />
-q          {<br />
-  color: red;<br />
-  font-style: italic;<br />
-}<br />
-.speech    {<br />
-  color: red;<br />
-  font-style: italic;<br />
-}</td>
-<td>blockquote,<br />
-q,<br />
-.speech {<br />
-   color: red;<br />
-   font-style: italic;   <br />
-}</td>
-</tr>
-</tbody>
+  <colgroup>
+    <col style="width: 44%" />
+    <col style="width: 55%" />
+  </colgroup>
+  <thead>
+    <tr class="header">
+      <th><strong>separate</strong></th>
+      <th><strong>joined</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="odd">
+      <td>blockquote {<br />
+        color: red;<br />
+        font-style: italic;<br />
+        }<br />
+        q          {<br />
+        color: red;<br />
+        font-style: italic;<br />
+        }<br />
+        .speech    {<br />
+        color: red;<br />
+        font-style: italic;<br />
+      }</td>
+      <td>blockquote,<br />
+        q,<br />
+        .speech {<br />
+        color: red;<br />
+        font-style: italic;   <br />
+      }</td>
+    </tr>
+  </tbody>
 </table>
 
 The joined version on the right is much easier to read and maintain.  
@@ -8008,12 +8007,12 @@ If the "speech" items need to also be bold, that can simply be added by
 an additional rule:
 
 ```
-blockquote,  
-q,  
-.speech {  
-   color: red;  
-   font-style: italic;     
-}  
+blockquote,
+q,
+.speech {
+   color: red;
+   font-style: italic;
+}
 .speech { font-weight: bold; }
 ```
 
@@ -8202,61 +8201,63 @@ that in the result, the font-family is applied to all the
 children, while the padding is only applied to the paragraph itself,
 none of its children inherit the padding.
 
+<!---
 <details>
   <summary>HTML</summary>
+html5 
+-->
 
-```html5
 <table>
-   <colgroup>
-      <col style="width: 32%" />
-      <col style="width: 31%" />
-      <col style="width: 35%" />
-   </colgroup>
-   <thead>
-   <tr class="header">
+  <colgroup>
+    <col style="width: 32%" />
+    <col style="width: 31%" />
+    <col style="width: 35%" />
+  </colgroup>
+  <thead>
+    <tr class="header">
       <th><strong>HTML</strong></th>
       <th><strong>CSS</strong></th>
       <th><strong>Result</strong></th>
-   </tr>
-   </thead>
-   <tbody>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="odd">
+      <td><p>&lt;p&gt;This paragraph has children
+        <span> spans</span> and <span>q&lt;/span&gt;, which, in
+          turn, have their own child &lt;span&gt;spans&lt;/span&gt;.</p>
+        <p>&lt;q&gt;With this structure, we can see how some CSS
+          &lt;span&gt;rules&lt;/span&gt; are</p>
+        <p>&lt;span&gt;applied across a &lt;q&gt;variety&lt;/q&gt;&lt;/span&gt;
+          of scopes.&lt;/q&gt;</p>
+      <p>&lt;/p&gt;</p></td>
+      <td><p>p {</p>
+        <p>/* inherited by children of p */</p>
+        <p>font-family: monospace;</p>
+        <p>/* not inherited */</p>
+        <p>padding: 40px;</p>
+      <p>}</p></td>
+      <td>This paragraph has children spans and q, which, in turn, have their
+        own child spans. With this structure, we can see how some
+        CSS rules are applied across a variety of scopes.</td>
+    </tr>
+    <tr class="even">
+      <td><strong>Discussion</strong></td>
+      <td><strong>CSS</strong></td>
+      <td><strong>Result</strong></td>
+    </tr>
       <tr class="odd">
-         <td><p>&lt;p&gt;This paragraph has children
-         <span> spans</span> and <span>q&lt;/span&gt;, which, in
-            turn, have their own child &lt;span&gt;spans&lt;/span&gt;.</p>
-         <p>&lt;q&gt;With this structure, we can see how some CSS
-            &lt;span&gt;rules&lt;/span&gt; are</p>
-         <p>&lt;span&gt;applied across a &lt;q&gt;variety&lt;/q&gt;&lt;/span&gt;
-            of scopes.&lt;/q&gt;</p>
-         <p>&lt;/p&gt;</p></td>
-            <td><p>p {</p>
-         <p>/* inherited by children of p */</p>
-         <p>font-family: monospace;</p>
-         <p>/* not inherited */</p>
-         <p>padding: 40px;</p>
-         <p>}</p></td>
-         <td>This paragraph has children spans and q, which, in turn, have their
-            own child spans. With this structure, we can see how some
-            CSS rules are applied across a variety of scopes.</td>
-         </tr>
-      <tr class="even">
-         <td><strong>Discussion</strong></td>
-         <td><strong>CSS</strong></td>
-         <td><strong>Result</strong></td>
-      </tr>
-      <tr class="odd">
-         <td><p>To the right we add another CSS rule, this one instructing that
-            the padding for spans and q elements should be inherited from their
-            parent.</p>
-         <p>Look at the result on the right, the padding is very evident. </p></td>
-         <td><p>span, q {</p>
-         <p>padding: inherit;</p>
-         <p>}</p></td>
-         <td>This paragraph has children spans and q, which, in turn, have their
-            own child spans. With this structure, we can see how some
-            CSS rules are applied across a variety of scopes.</td>
-      </tr>
-   </tbody>
+      <td><p>To the right we add another CSS rule, this one instructing that
+        the padding for spans and q elements should be inherited from their
+        parent.</p>
+      <p>Look at the result on the right, the padding is very evident. </p></td>
+      <td><p>span, q {</p>
+        <p>padding: inherit;</p>
+        <p>}</p></td>
+      <td>This paragraph has children spans and q, which, in turn, have their
+        own child spans. With this structure, we can see how some
+        CSS rules are applied across a variety of scopes.</td>
+    </tr>
+  </tbody>
 </table>
 ```
 
