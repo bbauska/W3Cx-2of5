@@ -12113,9 +12113,11 @@ your &lt;video&gt; tag like this:
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 112.  (###) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
 <img src="./images/image112.png"
-   style="width:6.5in;height:4.29444in"
+  style="width:6.5in;height:4.29444in"
   alt="" />
+</p>
 
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-3-4">5.3.4 Audio and Video Elements</h3>
@@ -12152,10 +12154,13 @@ An &lt;iframe&gt; tag can be as simple as this:
 ```
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 113.  (###) -------------------------------------->
+<!--------------------- 113. attribute, description, value & example (###) ----------------------->
 <!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
 <img src="./images/image113.png"
-style="width:4in;height:2.51477in" />
+  style="width:4in;height:2.51477in"
+  alt="." />
+</p>
 
 ```
 <!DOCTYPE html>
@@ -12177,9 +12182,11 @@ Because iframes are HTML elements, they can be styled just like other elements, 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 114.  (###) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="./images/image114.png"
+<p align="center" width="100%">
+<img src="./images/image114.jpeg"
    style="width:3in;height:1.64371in"
   alt="" />
+</p>
 
 Here, we've embedded a YouTube video with an iframe like this:
 
@@ -12213,7 +12220,7 @@ There are a number of important attributes for an &lt;iframe&gt; tag, but
 for now we'll just look at a few of them:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 115.  (xxx) -------------------------------->
+<!------------------------------ 115. sign nomeny and millery (xxx) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image115.png?raw=true"
@@ -12324,7 +12331,7 @@ your ismap specification.
 Let's look at how the code above works.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 116.  (xxx) -------------------------------->
+<!------------------------------ 116. image map with mouse clicks (xxx) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image116.png?raw=true"
@@ -12439,12 +12446,12 @@ Try this: Click on the left and right side of the images to check out
 how usemap works :) Remember to navigate back to the course!
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 117.  (xxx) -------------------------------->
+<!------------------------- 117. women and cats, men and dogs  (xxx) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image117.png?raw=true"
   width="20%"
-  alt="." />
+  alt="Women and cats, men and dogs." />
 </p>
 
 Note: If the &lt;img&gt; is inside an &lt;a&gt; or &lt;button&gt; element, clicking
@@ -12507,12 +12514,12 @@ hyperlink (&lt;a&gt;), paragraph (&lt;p&gt;), unordered list (&lt;ul&gt;) and l
 items (&lt;li&gt;):
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 118.  (xxx) -------------------------------->
+<!------------------------------ 118. w3c background image  (xxx) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image118.png?raw=true"
   width="50%"
-  alt="." />
+  alt="Background image W3C." />
 </p>
 
 <h4>background-image</h4>
@@ -12543,7 +12550,7 @@ as several others). 
 <p align="center" width="100%">
 <img src="./images/image117.png?raw=true"
   width="65%"
-  alt="CSS property: backgrouind image." />
+  alt="CSS property: background image." />
 </p>
 
 <h4>background-repeat</h4>
@@ -12629,7 +12636,7 @@ ratio, no distorting */
 parent (not of image). */
 ```
 
- The px and % units were covered in the units section. Note that other
+The px and % units were covered in the units section. Note that other
 units (rem, vh, etc.) have no guarantee of support.  
 
 When specifying exact sizes, the auto value is extremely useful. It
@@ -12650,7 +12657,7 @@ images. 
 style="width:5in;height:1.71421in" />
 -->
 
-### background-position
+<h4>background-position</h4>
 
 Like background-size, background-position can be used to place or offset
 a background image in the element. It takes two values (x and y)
@@ -12689,9 +12696,11 @@ For now, let's look at these new
 properties: border-style, border-color, border-width, border
 abbreviations, border-radius and text-shadow.
 
-### border-style
+<h4>border-style</h4>
 
+```
 p { border-style: solid; }
+```
 
 This property sets the style of a border.  Possible values
 include none, hidden, solid, dotted, dashed, double, groove, ridge, inset, and outset.
@@ -12701,7 +12710,7 @@ Here the visible border styles displayed on a gray border:
 <!---------------------------------- 123. border styles (274) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image125.png?raw=true"
+<img src="./images/image123.png?raw=true"
   width="65%"
   alt="Border styling." />
 </p>
@@ -12721,39 +12730,42 @@ positioning of the element. An item with a hidden border is positioned
 as if it had a border, but the border is not drawn. Whereas
 with border-style of none, no space is allocated for the border at all. 
 
-### border-color
+<h4>border-color</h4>
 
 Sets the color of the border.  
 
-### border-width
+<h4>border-width</h4>
 
 Sets the width of the border.  Supports a variety of units (px, em, rem
 ).  
 
-### border abbreviations
+<h4>border abbreviations</h4>
 
 All border styles just introduced are actually abbreviations that can be
 broken out if needed. For example, here we set four different styles for
 a border:  
 
+```
 p {  
    border-left-style: solid;  
    border-right-style: dotted;  
    border-bottom-style: dashed;  
    border-left-style: hidden;  
  }
+```
 
-This same thing can be done
-with border-width and border-color ( border-left-color, border-top-width,
+This same thing can be done with border-width and border-color ( border-left-color, border-top-width,
 etc).
 
 Or, going in the other direction, the CSS property border can help
 abbreviate even further.  Use the formula  border: &lt;width&gt; &lt;style&gt;
 &lt;color&gt;;   separating the values with spaces: 
 
+```
 p { border: 1px solid gray; }
+```
 
-### border-radius
+<h4>border-radius</h4>
 
 Sometimes it seems that the whole of the World Wide Web consists of
 round cornered rectangles.  Join the fun by using
@@ -12783,12 +12795,13 @@ no border at all:
   width="65%"
   alt="Silence is golden, 2." />
 </p>
+
 <!--
 <img src="./images/image127.png"
 style="width:6.5in;height:1.67153in" />
 -->
 
-### box-shadow
+<h4>box-shadow</h4>
 
 A shadow effect can be applied to the outlining rectangle of an element
 with the box-shadow CSS property.  The box-shadow property is typically
@@ -12870,7 +12883,7 @@ Here is a simple example of a common error:
   alt="Example of blindly using css properties." />
 </p>
 
-### Padding - The right way
+<h4>Padding - The right way</h4>
 
 The best way to control an element's size for the purpose of controlling
 how a border or background extends relative to the item itself is with
@@ -15509,4 +15522,4 @@ These are the final changes to our recipe project for this unit.
 
 <h6>The end...</h6>
 
-<h4><b>Last Updated 09-30-2022 4:55pm</b></h4>
+<h4><b>Last Updated 10-10-2022 12:00am</b></h4>
