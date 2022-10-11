@@ -2567,7 +2567,7 @@ seen:
 
 -   <b>&lt;head&gt;</b> - The <b><i>head</i></b> element is where you put information
     that does not really appear in the body of the work.  For example,
-    the <title> of the page, which typically appears on the window
+    the &lt;title&gt; of the page, which typically appears on the window
     containing the page, is defined in the head section.
 
 -   <b>&lt;body&gt;</b> - The <b><i>body</i></b> section contains all of the content of
@@ -13767,7 +13767,9 @@ At long last we arrive at the display property. We have now seen three
 of its possible values: block, inline, and inline-block.  There are
 others (like none and flex) and we will cover them later.  
 
+```
 .name { display: inline-block; }
+```
 
 A key to not getting confounded by the display property is to have a
 grasp on which elements default to which display value and appreciating
@@ -13795,8 +13797,10 @@ the element itself.
 To center an inline element, we use the text-align property of its
 parent.   
 
+```
 p { text-align: center; } /* the text and any inline children of this
 element will be centered */
+```
 
 If this isn't satisfactory, consider changing the element to be
 inline-block or block.
@@ -13810,7 +13814,9 @@ first step is to limit the width of the element.  Setting the width
 property directly is not generally a good practice, but we'll just do
 that and discuss sizing at length later.
 
+```
 div { width: 200px; } 
+```
 
 Now that we've sized the element, how to center it?
 
@@ -13821,7 +13827,9 @@ If set to auto, then the left and right margins will center the element.
  So the full solution is to set the width and apply auto to the left and
 right margins (or to all margins). 
 
+```
 div { width: 200px; margin: auto; }
+```
 
 Horizontal centering - a better way
 
