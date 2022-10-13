@@ -10382,7 +10382,7 @@ within &lt;thead&gt; indicate that they are header rows. See the code below:
 <h4>&lt;tbody&gt;</h4>
 
 Following &lt;thead&gt;, subsequent rows are considered body rows in a
-table. Regular cells are specified using <td> as a child of &lt;tr&gt;:
+table. Regular cells are specified using &lt;td&gt; as a child of &lt;tr&gt;:
 
 ```xml
   <tbody>
@@ -10455,8 +10455,11 @@ considered footer rows at the end of a table:
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 91.  (###) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="./images/image091.png"
-style="width:4in;height:2.53781in" />
+<p align="center" width="100%">
+  <img src="./images/image091.png"
+  style="width:4in;height:2.53781in" 
+  alt="" />
+</p>
 
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-2-4">5.2.4 Styling your table</h3>
@@ -10487,22 +10490,28 @@ sets border-width, border-style and border-color in order: 
 ```
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 92.  (###) -------------------------------------->
+<!------------------------------ 92. border property values (###) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
 <img src="./images/image092.png"
-style="width:6.5in;height:1.67986in" />
+  style="width:6.5in;height:1.67986in"
+  alt="Border property values." />
+</p>
 
-To give a border to &lt;table&gt;, <th> and <td>:
+To give a border to &lt;table&gt;, &lt;th&gt; and &lt;td&gt;:
 
 ```
 table, th, td { border: 1px solid black; }
 ```
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 93.  (###) -------------------------------------->
+<!------------------------------ 93. three border examples (###) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
 <img src="./images/image093.png"
-style="width:4in;height:2.4958in" />
+  style="width:4in;height:2.4958in"
+  alt="Border examples for Michael, age 21." />
+</p>
 
 <h4>CSS</h4>
 
@@ -10566,11 +10575,13 @@ Possible values of this property are: 
 -   initial - sets to default value (separate)
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 94.  (###) -------------------------------------->
+<!------------------------------ 94. table border collapse (###) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
 <img src="./images/image094.png"
-style="width:4in;height:2.4958in" />
-
+  style="width:4in;height:2.4958in" 
+  alt="Table border collapse." />
+</p>
 ```
 table.no-collapse, th.no-collapse, td.no-collapse
 {
@@ -10624,7 +10635,7 @@ Width and height can be specified in:
 It also supports initial (sets property to default value) and inherit
 (from parent element). 
 
-width/height of <td> of one cell will not only affect that cell but
+width/height of &lt;td&gt; of one cell will not only affect that cell but
 the whole column/row. If two cells in one column/row have different
 widths/heights specified, the larger value is set.
 
@@ -10700,14 +10711,14 @@ parent element:</p>
 
 ### text-align
 
-This property is used to align the text of <th> and <td> cells left,
+This property is used to align the text of &lt;th&gt; and &lt;td&gt; cells left,
 right or center (week 3 recap). 
 
 Default:
 
--   <th> - center
+-   &lt;th&gt; - center
 
--   <td> - left
+-   &lt;td&gt; - left
 
 ```
 td { text-align: right;}
@@ -10715,14 +10726,14 @@ td { text-align: right;}
 
 ### vertical-align
 
-This property is used to align the text of <th> and <td> cells top,
+This property is used to align the text of &lt;th&gt; and &lt;td&gt; cells top,
 bottom or middle.
 
 Default:
 
--   <th> - middle
+-   &lt;th&gt; - middle
 
--   <td> - middle
+-   &lt;td&gt; - middle
 
 ```
 th { vertical-align: top; }
@@ -10731,7 +10742,7 @@ th { vertical-align: top; }
 ### padding
 
 Right now our table looks quite cramped. We use the padding property
-on <th> and <td> to provide some space between border and content in
+on &lt;th&gt; and &lt;td&gt; to provide some space between border and content in
 cell. It takes its value in units of length like px, cm, % - relative to
 parent container's width, etc. 
 
@@ -10812,7 +10823,7 @@ table, td, th { border-spacing: 25px; }
 
 Some things to keep in mind:
 
--   If you try to provide spacing for only <th> and <td>, make sure
+-   If you try to provide spacing for only &lt;th&gt; and &lt;td&gt;, make sure
     there is space from the table border or you will not see a
     difference. 
 
