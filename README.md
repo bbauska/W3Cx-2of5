@@ -646,7 +646,7 @@ create dynamic Web pages.
 <p align="center" width="100%">
 <img src="./images/image011.png?raw=true"
   width="15%"
-  alt="CSS3 logo" />
+  alt="CSS3 logo." />
 </p>
 
 The 'CSS' part (version 3 being current) is all about the presentation
@@ -664,7 +664,7 @@ whatever else may apply to what it looks like.
 <p align="center" width="100%">
 <img src="./images/image012.jpeg?raw=true"
   width="15%"
-  alt="JavaScript logo" />
+  alt="JavaScript logo." />
 </p>
 
 The 'JavaScript', or 'JS' for short, part is about the actions a page
@@ -1619,7 +1619,7 @@ element that is completely described by its attributes, and thus
 there is no need for other content.  So if you see something like this:
 
 ```
-<img src="https://goo.gl/pVxY0e" alt="Floating Flower"/>
+<img src="https://goo.gl/pVxY0e" alt="Floating flower"/>
 ```
 
 ... then you should know that the slash at the end of the open tag is
@@ -15530,4 +15530,4 @@ These are the final changes to our recipe project for this unit.
 
 <h6>The end...</h6>
 
-<h4><b>Last Updated 10-10-2022 12:00am</b></h4>
+<h4><b>Last Updated 10-13-2022 12:57pm</b></h4>
