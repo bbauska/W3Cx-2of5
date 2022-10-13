@@ -77,7 +77,7 @@
     code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="custom.css" />
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
@@ -916,7 +916,7 @@ CSS
 <p align="center" width="100%">
 <img src="./images/image011.png?raw=true"
   width="15%"
-  alt="CSS3 logo" />
+  alt="CSS3 logo." />
 </p>
 <p>The ‘CSS’ part (version 3 being current) is all about the
 presentation or style of the page; what it looks like without too much
@@ -933,7 +933,7 @@ JavaScript
 <p align="center" width="100%">
 <img src="./images/image012.jpeg?raw=true"
   width="15%"
-  alt="JavaScript logo" />
+  alt="JavaScript logo." />
 </p>
 <p>The ‘JavaScript’, or ‘JS’ for short, part is about the actions a page
 can take such as interaction with the user, and customizing and changing
@@ -1724,7 +1724,7 @@ strange ones as “self closing” tags. Usually these tags represent an
 element that is completely described by its attributes, and thus
 there is no need for other content.  So if you see something like
 this:</p>
-<pre><code>&lt;img src=&quot;https://goo.gl/pVxY0e&quot; alt=&quot;Floating Flower&quot;/&gt;</code></pre>
+<pre><code>&lt;img src=&quot;https://goo.gl/pVxY0e&quot; alt=&quot;Floating flower&quot;/&gt;</code></pre>
 <p>… then you should know that the slash at the end of the open tag is
 sort of a shorthand for a close tag, so you won’t see any other
 indication that this element is now complete.  There are also a few tags
@@ -2658,10 +2658,8 @@ add a lang attribute to the html opening tag, to identify the default
 language of your page.</p></li>
 <li><p><b>&lt;head&gt;</b> - The <b><i>head</i></b> element is where you
 put information that does not really appear in the body of the work.
- For example, the </p>
-<title>
-<p> of the page, which typically appears on the window containing the
-page, is defined in the head section.</p></li>
+ For example, the &lt;title&gt; of the page, which typically appears on
+the window containing the page, is defined in the head section.</p></li>
 <li><p><b>&lt;body&gt;</b> - The <b><i>body</i></b> section contains all
 of the content of your page, essentially what the user sees.  This could
 be text, pictures, links, videos, tables and so on. There can be only
@@ -10368,10 +10366,9 @@ class="sourceCode xml"><code class="sourceCode xml"><span id="cb175-1"><a href="
 <h4>
 &lt;tbody&gt;
 </h4>
-Following &lt;thead&gt;, subsequent rows are considered body rows in a
-table. Regular cells are specified using 
-<td>
-<p> as a child of &lt;tr&gt;:</p>
+<p>Following &lt;thead&gt;, subsequent rows are considered body rows in
+a table. Regular cells are specified using &lt;td&gt; as a child
+of &lt;tr&gt;:</p>
 <div class="sourceCode" id="cb176"><pre
 class="sourceCode xml"><code class="sourceCode xml"><span id="cb176-1"><a href="#cb176-1" aria-hidden="true" tabindex="-1"></a>  &lt;<span class="kw">tbody</span>&gt;</span>
 <span id="cb176-2"><a href="#cb176-2" aria-hidden="true" tabindex="-1"></a>    &lt;<span class="kw">tr</span>&gt;</span>
@@ -10439,8 +10436,11 @@ class="sourceCode xml"><code class="sourceCode xml"><span id="cb178-1"><a href="
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 91.  (###) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p><img src="./images/image091.png"
-style="width:4in;height:2.53781in" /></p>
+<p align="center" width="100%">
+<img src="./images/image091.png"
+  style="width:4in;height:2.53781in" 
+  alt="" />
+</p>
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-2-4">
 5.2.4 Styling your table
@@ -10465,21 +10465,23 @@ CSS properties simultaneously. </p>
 sets border-width, border-style and border-color in order: </p>
 <pre><code>&lt;b&gt;table { border: 1px solid black; }&lt;/b&gt;</code></pre>
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 92.  (###) -------------------------------------->
+<!------------------------------ 92. border property values (###) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p><img src="./images/image092.png"
-style="width:6.5in;height:1.67986in" /></p>
-To give a border to &lt;table&gt;, 
-<th>
- and 
-<td>
-<p>:</p>
+<p align="center" width="100%">
+<img src="./images/image092.png"
+  style="width:6.5in;height:1.67986in"
+  alt="Border property values." />
+</p>
+<p>To give a border to &lt;table&gt;, &lt;th&gt; and &lt;td&gt;:</p>
 <pre><code>table, th, td { border: 1px solid black; }</code></pre>
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 93.  (###) -------------------------------------->
+<!------------------------------ 93. three border examples (###) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p><img src="./images/image093.png"
-style="width:4in;height:2.4958in" /></p>
+<p align="center" width="100%">
+<img src="./images/image093.png"
+  style="width:4in;height:2.4958in"
+  alt="Border examples for Michael, age 21." />
+</p>
 <h4>
 CSS
 </h4>
@@ -10532,10 +10534,13 @@ example above</p></li>
 <li><p>initial - sets to default value (separate)</p></li>
 </ul>
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 94.  (###) -------------------------------------->
+<!------------------------------ 94. table border collapse (###) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p><img src="./images/image094.png"
-style="width:4in;height:2.4958in" /></p>
+<p align="center" width="100%">
+<img src="./images/image094.png"
+  style="width:4in;height:2.4958in" 
+  alt="Table border collapse." />
+</p>
 <pre><code>table.no-collapse, th.no-collapse, td.no-collapse
 {
 border: 1px solid black;
@@ -10582,11 +10587,9 @@ specified element (default value)</p></li>
 </ul>
 <p>It also supports initial (sets property to default value) and inherit
 (from parent element). </p>
-width/height of 
-<td>
-<p> of one cell will not only affect that cell but the whole column/row.
-If two cells in one column/row have different widths/heights specified,
-the larger value is set.</p>
+<p>width/height of &lt;td&gt; of one cell will not only affect that cell
+but the whole column/row. If two cells in one column/row have different
+widths/heights specified, the larger value is set.</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 95.  (###) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -10653,41 +10656,29 @@ parent element:&lt;/p&gt;
 &lt;/body&gt;
 &lt;/html&gt;</code></pre>
 <h3 id="text-align">text-align</h3>
-This property is used to align the text of 
-<th>
- and 
-<td>
-<p> cells left, right or center (week 3 recap). </p>
+<p>This property is used to align the text
+of &lt;th&gt; and &lt;td&gt; cells left, right or center (week 3
+recap). </p>
 <p>Default:</p>
 <ul>
-<li><th>
-<p> - center</p></li>
-<li><td>
-<p> - left</p></li>
+<li><p>&lt;th&gt; - center</p></li>
+<li><p>&lt;td&gt; - left</p></li>
 </ul>
 <pre><code>td { text-align: right;}</code></pre>
 <h3 id="vertical-align">vertical-align</h3>
-This property is used to align the text of 
-<th>
- and 
-<td>
-<p> cells top, bottom or middle.</p>
+<p>This property is used to align the text
+of &lt;th&gt; and &lt;td&gt; cells top, bottom or middle.</p>
 <p>Default:</p>
 <ul>
-<li><th>
-<p> - middle</p></li>
-<li><td>
-<p> - middle</p></li>
+<li><p>&lt;th&gt; - middle</p></li>
+<li><p>&lt;td&gt; - middle</p></li>
 </ul>
 <pre><code>th { vertical-align: top; }</code></pre>
 <h3 id="padding">padding</h3>
-Right now our table looks quite cramped. We use the padding property on 
-<th>
- and 
-<td>
-<p> to provide some space between border and content in cell. It takes
-its value in units of length like px, cm, % - relative to parent
-container’s width, etc. </p>
+<p>Right now our table looks quite cramped. We use the padding property
+on &lt;th&gt; and &lt;td&gt; to provide some space between border and
+content in cell. It takes its value in units of length like px, cm, % -
+relative to parent container’s width, etc. </p>
 <pre><code>th, td { padding: 15px; }</code></pre>
 <p>This will add 15px space around the content on all sides. </p>
 <p>You can also apply different padding styles for four individual sides
@@ -10743,12 +10734,9 @@ spacing: </p>
 table, td, th { border-spacing: 25px; }</code></pre>
 <p>Some things to keep in mind:</p>
 <ul>
-<li><p>If you try to provide spacing for only </p>
-<th>
-<p> and </p>
-<td>
-<p>, make sure there is space from the table border or you will not see
-a difference. </p></li>
+<li><p>If you try to provide spacing for only &lt;th&gt; and &lt;td&gt;,
+make sure there is space from the table border or you will not see a
+difference. </p></li>
 <li><p>You have to set - table { border-collapse: separate; } for it to
 take effect.</p></li>
 </ul>
@@ -13288,7 +13276,7 @@ display property
 <p>At long last we arrive at the display property. We have now seen
 three of its possible values: block, inline, and inline-block.  There
 are others (like none and flex) and we will cover them later.  </p>
-<p>.name { display: inline-block; }</p>
+<pre><code>.name { display: inline-block; }</code></pre>
 <p>A key to not getting confounded by the display property is to have a
 grasp on which elements default to which display value and appreciating
 the differences between block, inline, and inline-block display.</p>
@@ -13310,8 +13298,8 @@ position its content relative to its own box. But that’s not centering
 the element itself.</p>
 <p>To center an inline element, we use the text-align property of its
 parent.   </p>
-<p>p { text-align: center; } /* the text and any inline children of this
-element will be centered */</p>
+<pre><code>p { text-align: center; } /* the text and any inline children of this
+element will be centered */</code></pre>
 <p>If this isn’t satisfactory, consider changing the element to be
 inline-block or block.</p>
 <p><b>block</b></p>
@@ -13321,14 +13309,14 @@ element is the same width as its parent, it is already centered.  So the
 first step is to limit the width of the element.  Setting the width
 property directly is not generally a good practice, but we’ll just do
 that and discuss sizing at length later.</p>
-<p>div { width: 200px; } </p>
+<pre><code>div { width: 200px; } </code></pre>
 <p>Now that we’ve sized the element, how to center it?</p>
 <p><b>margin magic</b></p>
 <p>If set to auto, then the left and right margins will center the
 element.  This is the simplest and best way of centering a block level
 element.  So the full solution is to set the width and apply auto to the
 left and right margins (or to all margins). </p>
-<p>div { width: 200px; margin: auto; }</p>
+<pre><code>div { width: 200px; margin: auto; }</code></pre>
 <p>Horizontal centering - a better way</p>
 <p>Do auto margins seem spooky to you?  There is a better way to achieve
 centering and its name is <i>flexbox</i>.  We’ll read more about it
@@ -14974,7 +14962,7 @@ These are the final changes to our recipe project for this unit.
 The end…
 </h6>
 <h4>
-<b>Last Updated 10-10-2022 12:00am</b>
+<b>Last Updated 10-13-2022 12:57pm</b>
 </h4>
 </body>
 </html>
