@@ -6945,7 +6945,7 @@ You are welcome to edit the
 following <a href="https://codepen.io/w3devcampus/pen/QvQgbr" target="_blank">CodePen.</a>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- 54. the inventor of gunpower by john milton (139) ----------------------->
+<!-------------------- 54. on the inventor of gunpower by john milton (139) ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image054.png?raw=true"
@@ -6992,7 +6992,15 @@ Hi, this is Adrian from Microsoft learning, and we're going to be
 learning today about CSS and HTML, and the ways in which they play
 together.
 
-<!----------------------- image page 140 ---------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!-------------------- 54b. on the inventor of gunpower by john milton (140) --------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image054b.png?raw=true"
+  width="65%"
+  alt="On the Inventor of Gunpower, by John Milton." />
+</p>
+<!----------------------- image page 140 image054b.png ---------------------------->
 
 If you look at this file that I have opened right now in Visual Studio
 Code, it's the Gunpowder file which you should be at least a little bit
@@ -7006,7 +7014,15 @@ it look and feel a little bit different.
 And we've got our header tag, we've got our address and of course the
 poem which is being held in this fantastic paragraph tag.
 
-<!----------------------- image page 141 ---------------------------->
+<!----------------------- image page 141 image055b.png ---------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!-------------------- 55b. on the inventor of gunpower by john milton (141) --------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image055b.png?raw=true"
+  width="65%"
+  alt="On the Inventor of Gunpower, by John Milton." />
+</p>
 
 Before we get started, let's just take a look at what this looks like
 here in the Microsoft Edge.
@@ -7055,7 +7071,15 @@ You can see it's a little bit bigger, but I want to make this 25.
 
 It's not quite big enough yet.
 
-<!----------------------- image page 142 ---------------------------->
+<!----------------------- image page 142 image056b.png ---------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!-------------------- 56b. on the inventor of gunpower by john milton (142) --------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image056b.png?raw=true"
+  width="65%"
+  alt="On the Inventor of Gunpower, by John Milton." />
+</p>
 
 We'll refresh the page, and you can see the size has been changed very
 slightly.
@@ -9523,12 +9547,12 @@ img {
 Giving a much more reasonable page:
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 76. cloud image (187) -------------------------------------->
+<!----------------------------------- 76. cloud image (197) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image076.png?raw=true"
   width="65%"
-  alt="Cloud image in debugger" />
+  alt="Cloud image in debugger." />
 </p>
 
 <h4>CSS</h4>
@@ -9700,12 +9724,12 @@ content is an outline for an essay and it should look something like
 this:
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 79. Easy outline-code results (199) ------------------------------->
+<!---------------------------- 79. Essay outline-code results (201) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image079.png?raw=true"
   width="40%"
-  alt="Easy outline-codepen results" />
+  alt="Essay outline-codepen results." />
 </p>
 
 <h4>CSS:</h4>
@@ -9779,13 +9803,14 @@ is the over-ridden font-size setting identical to the current one, i.e.
 .5em on <li> elements.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 80. debugging font-size (###) ------------------------------>
+<!----------------------------------- 80. debugging font-size (203) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image080.png?raw=true"
   width="65%"
-  alt="Debugging font-size" />
+  alt="Debugging font-size." />
 </p>
+
 <p>
 The styles panel doesn't tell us a lot about the actually font-size in
 absolute terms.  To determine that we can use the "Computed" tab. 
@@ -9798,12 +9823,12 @@ you'll see is a long list of properties starting with '-webkit'.  We're
 going to scroll down past those to "font-size" which reveals this:
 </p>
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 81.  (###) -------------------------------------->
+<!-------------------------------- 81. computed font-size (204) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image081.png?raw=true"
   width="45%"
-  alt="Debugging font-size after opening the &#39;Computed&#39; tab" />
+  alt="Debugging font-size after opening the &#39;Computed&#39; tab." />
 </p>
 
 This tells us that the font-size on the innermost list item is only 3px.
@@ -9815,12 +9840,12 @@ going on.  We see that the font-size on the body is 24px, but there are
 several repetitions of the li .5em.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 82.  (###) -------------------------------------->
+<-!----------------------------------- 82. font-size (204) --------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image082.png?raw=true"
   width="45%"
-  alt="Computed tab for font-size" />
+  alt="Computed tab for font-size." />
 </p>
 
 If we look at the next outer list item, we see that the font-size is
@@ -9849,8 +9874,11 @@ Try to make changes to get something like this:
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 83. example: my favorite recipes (205) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
 <img src="./images/image083.png"
-style="width:4.96875in;height:2.73958in" />
+  style="width:4.96875in;height:2.73958in"
+  alt="My Favorite Recipes web site./>
+</p>
 
 <h4>CSS:</h4>
 
@@ -9989,10 +10017,13 @@ If you'd like to see what we did for the module 3, you can find it in
 the CodePen below:
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 84. my favorite recipes (###) -------------------------------------->
+<!-------------------------------- 84. my favorite recipes (208) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
 <img src="./images/image084.png"
-style="width:4.96875in;height:2.73958in" />
+  style="width:4.96875in;height:2.73958in" 
+  alt="Margins, padding and borders on my favorite recipes web site./>
+</p>
 
 <h4>CSS:</h4>
 
@@ -10117,10 +10148,13 @@ Pizza, the king of comfort foods. Try this simple, taste sensation.
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-1-1">5.1.1 Welcome to Module 5</h3>
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 85.  (###) -------------------------------------->
+<!------------------------------- 85. more html5 and css3 (210) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
 <img src="./images/image085.png"
-style="width:3in;height:3.27103in" />
+  style="width:3in;height:3.27103in"
+  alt="More HTML5 and CSS3./>
+</p>
 
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-1-2">5.1.2 Module 5 - Content</h3>
@@ -10333,10 +10367,13 @@ cells is bold and centered by default.
 ```
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 87.  (###) -------------------------------------->
+<!-------------------------- 87. table cells  header & standard (215) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
 <img src="./images/image087.png"
-style="width:4in;height:2.54315in" />
+  style="width:4in;height:2.54315in"
+  alt="Table Cells are either header or standard./>
+</p>
 
 <details>
   <summary>HTML code extract!</summary>
@@ -10364,8 +10401,10 @@ style="width:4in;height:2.54315in" />
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 88.  (###) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
 <img src="./images/image088.png"
 style="width:6.5in;height:3.03681in" />
+</p>
 
 <h4>&lt;td&gt;</h4>
 
@@ -15730,4 +15769,4 @@ These are the final changes to our recipe project for this unit.
 
 <h6>The end...</h6>
 
-<h4><b>Last Updated 10-13-2022 12:57pm</b></h4>
+<h4><b>Last Updated 10-13-2022 7:05pm</b></h4>
