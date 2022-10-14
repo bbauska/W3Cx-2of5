@@ -14399,8 +14399,8 @@ subtle caveats and trade-offs of which you must be wary:
 Interpretation of positioning properties (top, left, etc.) depends ON
 parent/grandparent being positioned elements (or not).
 
-<i>IMPORTANT</i>: For an absolutely positioned element, ***where*** the left,
-top, etc. are calculated ***from* **depends upon the position property
+<i>IMPORTANT</i>: For an absolutely positioned element, <b><i>where</i></b> the left,
+top, etc. are calculated <b><i>from</i> </b>depends upon the position property
 of the parent and grandparents of the element in question. If the parent
 of the element is a positioned element (meaning its position is set to
 anything except position:static), then an absolutely positioned
@@ -14584,7 +14584,7 @@ we govern the overlapping with the z-index property. 
 <h4>Siblings and nesting</h4>
 
 It is entirely possible that one element with z-index:100 could
-appear ***below* **another element with z-index:1;  
+appear <b><i>below</i> </b>another element with z-index:1;
 
 This can happen because the z-index is used to figure out which sibling
 is higher than another. But if two elements are not siblings, then the
@@ -14612,22 +14612,25 @@ further out in the document.
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch6-2-6">6.2.6 Activity - Block vs. inline</h3>
 <!------------------------------------------------------------------------------------------------>
-We've provided you with a starter project file. The code is included below in this CodePen:
+We've provided you with a starter project file. The code is included below in a CodePen:
 This simple file has two block level elements (the paragraphs) and two spans, which are inline. Additionally, there are several classes defined for you. 
-Try the following:
-•	Notice immediately each paragraph gets its own line.
-•	Notice the inline span that follows the paragraph (&lt;/p&gt;) starts on its own line. However, the second inline span directly follows its predecessor - it does not get a new line, it continues on the same line.
-•	Try applying the brect and prect classes to the elements. (via class="brect" ). When applied to the paragraphs, you can see that the classes make the width of the paragraph stretch to the edge of the window. It is the same as its parent width.  Note that its height is no more than its content.  But the background colors and borders are tight to the spans.
-•	Try applying the w class to each of the elements. This class sets the width property. It works on both paragraphs, but it has no effect on the two spans.
-•	Try applying the h class to each element. This class sets the height property. Again, the paragraphs are affected, but the spans are not.
-•	Apply the pad class to each element. This class sets the padding property. The paragraphs are clearly padded. The spans are also padded, but the extra padding does not space them out. So if the background colors are still being applied, the padded background of one inline element may overlap the other.  Can you think of a solution that would prevent the overlap?
-•	Apply the marg-vert class to each element. This class sets the top and bottom margins. Note that it works on the block level paragraphs well enough, but has no effect on the inline spans.
-•	Apply the marg-horiz class to each element. This class sets the left and right margins.  It works on everything.
+
+<h4>Try the following:</h4>
+- Notice immediately each paragraph gets its own line.
+- Notice the inline span that follows the paragraph (&lt;/p&gt;) starts on its own line. However, the second inline span directly follows its predecessor - it does not get a new line, it continues on the same line.
+- Try applying the brect and prect classes to the elements. (via class="brect" ). When applied to the paragraphs, you can see that the classes make the width of the paragraph stretch to the edge of the window. It is the same as its parent width.  Note that its height is no more than its content.  But the background colors and borders are tight to the spans.
+- Try applying the w class to each of the elements. This class sets the width property. It works on both paragraphs, but it has no effect on the two spans.
+- Try applying the h class to each element. This class sets the height property. Again, the paragraphs are affected, but the spans are not.
+- Apply the pad class to each element. This class sets the padding property. The paragraphs are clearly padded. The spans are also padded, but the extra padding does not space them out. So if the background colors are still being applied, the padded background of one inline element may overlap the other.  Can you think of a solution that would prevent the overlap?
+- Apply the marg-vert class to each element. This class sets the top and bottom margins. Note that it works on the block level paragraphs well enough, but has no effect on the inline spans.
+- Apply the marg-horiz class to each element. This class sets the left and right margins.  It works on everything.
+
 Play some more with the elements, trying to appreciate how block and inline elements differ.
-•	Try changing the HTML so that the inline elements are inside the block level ones.
-•	Put a margin:0 on the body.
-•	Have fun!
-NOTE: Please do not upload HTML code to the discussion forum.
+- Try changing the HTML so that the inline elements are inside the block level ones.
+- Put a margin:0 on the body.
+- Have fun!
+
+<b>NOTE:</b> Please do not upload HTML code to the discussion forum.
 
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch6-3-1">6.3.1 Sizing and dimensions</h3>
