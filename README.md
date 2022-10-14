@@ -2647,7 +2647,7 @@ deeply. Try not to skip levels of headers when nesting them. <b>Headings
 are really useful for some assistive technology users and missing levels
 can be confusing</b>.
 <ul>
-   <li>   <b>&lt;p&gt;</b> - <i><b>P</b></i> is for 'paragraph', which is the tag you may use
+   <li><b>&lt;p&gt;</b> - <i><b>p</b></i> is for 'paragraph', which is the tag you may use
       to arrange much of your text information.  Depending on the style
       you are using, text wrapped in a &lt;p&gt; tag may be indented or have
       extra vertical white space before starting.  When rendered on the
@@ -2677,7 +2677,7 @@ can be confusing</b>.
 </html>
 ```
 
-<details>
+</details>
 
 <p>You might notice that when discussing how these different elements are
 rendered (i.e. what they look like to the end user), you will find
