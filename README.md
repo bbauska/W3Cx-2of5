@@ -9657,9 +9657,9 @@ li img {
 <!------------------------------- 78. cloud image-codepen (198) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image078.jpeg?raw=true"
+<img src="./images/image078.png?raw=true"
   width="65%"
-  alt="Cloud image-codepen" />
+  alt="Cloud image-codepen." />
 </p>
 
 <h4>CSS</h4>
@@ -9720,8 +9720,7 @@ learn more about that in the module 6.
 
 For this section you can play with
 the <a href="http://codepen.io/w3devcampus/pen/wdxegK" target="_blank">CodePen</a> below. The main
-content is an outline for an essay and it should look something like
-this:
+content is an outline for an essay and it should look something like this:
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 79. Essay outline-code results (201) ------------------------------>
@@ -9877,7 +9876,7 @@ Try to make changes to get something like this:
 <p align="center" width="100%">
 <img src="./images/image083.png"
   style="width:4.96875in;height:2.73958in"
-  alt="My Favorite Recipes web site./>
+  alt="My Favorite Recipes web site." />
 </p>
 
 <h4>CSS:</h4>
@@ -9885,7 +9884,7 @@ Try to make changes to get something like this:
 <details>
   <summary>CSS code extract!</summary>
 
-```css
+```
 nav {
 background: aliceblue;
 width: 12rem;
