@@ -793,6 +793,9 @@ from the regular text.  In HTML these annotations are called "tags".
 
 For example, consider the following chunk of HTML code:
 
+<details>
+  <summary>HTML code extract!</summary>
+
 ```xml
 <body>
   <h1>A Tale of Two Cities</h1>
@@ -807,6 +810,8 @@ For example, consider the following chunk of HTML code:
   </p>
 </body>
 ```
+
+</details>
 
 <p>
 If you eliminated everything in between the angle brackets from the text, for most purposes it would still read the same:
@@ -1748,6 +1753,9 @@ suited in that case. A browser, on the other hand, has difficulty with a
 task like that, so it is helpful to use a close tag that matches the
 open tag to make things absolutely clear.
 
+<details>
+  <summary>HTML code extract!</summary>
+
 ```
 <p>
 The old lady pulled her spectacles
@@ -1761,6 +1769,8 @@ small boy by the slack of his roundabout
 and arrest his flight.
 </p>
 ```
+
+</details>
 
 The old lady pulled her spectacles down and looked over them about the
 room; then she put them up and looked out under them. There was a slight
@@ -1841,6 +1851,9 @@ Hint, for the head of the document you would write:</p>
 above. Try inserting a paragraph into the body of your new document.
  You should end up with something that looks like this:</p>
 
+<details>
+  <summary>HTML code extract!</summary>
+
 ```
 <!DOCTYPE html>
 <html>
@@ -1854,6 +1867,8 @@ above. Try inserting a paragraph into the body of your new document.
    </body>
 </html>
 ```
+
+</details>
 
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-4-1">1.4.1 Character Encoding</h3>
@@ -1964,11 +1979,14 @@ the need for them came about. 
 Try the following code in your HTML:</p>
 
 ```
-  <p>Welcome to "HTML5 & CSS Fundamentals". The first tag we will be
-    learning about is  the <html> tag.</p>
+<p>Welcome to "HTML5 & CSS Fundamentals". The first tag we will be
+   learning about is  the <html> tag.</p>
 ```
 
 <h4>HTML</h4>
+
+<details>
+  <summary>HTML code extract!</summary>
 
 ```
  <!DOCTYPE html>
@@ -1984,6 +2002,8 @@ Try the following code in your HTML:</p>
  </body>
  </html>
 ```
+
+</details>
 
 <p>Did you notice the <html> tag is missing in your output? In this case,
 your browser mixed it up with an actual tag, although it was meant to be
@@ -2108,6 +2128,9 @@ you wish to display this in your browser:</p>
 
 <h4>HTML:</h4>
 
+<details>
+  <summary>HTML code extract!</summary>
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -2125,6 +2148,8 @@ you wish to display this in your browser:</p>
   </body>
 </html>
 ```
+
+</details>
 
 <p>Some tolerant browsers will allow using the &amp; character directly
 but <b>not</b> all. So you should use its character reference &amp;. <a href="https://jsfiddle.net/vh2h7usk/1/">Check
@@ -2210,6 +2235,9 @@ entail a fine of € 400&lt;/p&gt;</p>
 
 <h4>HTML:</h4>
 
+<details>
+  <summary>HTML code extract!</summary>
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -2222,6 +2250,8 @@ entail a fine of € 400&lt;/p&gt;</p>
       </body>
 </html>
 ```
+
+</details>
 
 There is no need for the &copy; or &euro; HTML character reference if
 you are able to type the character itself.
@@ -2587,6 +2617,9 @@ seen:
 
 <h4>HTML</h4>
 
+<details>
+  <summary>HTML code extract!</summary>
+
 ```xml
 <!DOCTYPE html>
 <html lang="en">
@@ -2602,6 +2635,8 @@ seen:
    </body>
 </html>
 ```
+
+</details>
 
 Though you theoretically should not think about what it looks like, it
 will typically appear as large, possibly bold text in your document, to
@@ -2621,6 +2656,9 @@ can be confusing</b>.
 
 <h4>HTML</h4>
 
+<details>
+  <summary>HTML code extract!</summary>
+
 ```xml
 <!DOCTYPE html>
    <html lang="en">
@@ -2638,6 +2676,8 @@ can be confusing</b>.
    </body>
 </html>
 ```
+
+<details>
 
 <p>You might notice that when discussing how these different elements are
 rendered (i.e. what they look like to the end user), you will find
@@ -2800,6 +2840,9 @@ following components:</p>
 
 <h4>HTML</h4>
 
+<details>
+  <summary>HTML code extract!</summary>
+
 ```xml
 <!DOCTYPE html>
 <html lang="en">
@@ -2811,6 +2854,11 @@ following components:</p>
   </body>
 </html>
 ```
+
+</details>
+
+<details>
+  <summary>HTML code extract!</summary>
 
 ```xml
 <!DOCTYPE html>
@@ -2844,6 +2892,8 @@ following components:</p>
   </body>
 </html>
 ```
+
+</details>
 
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-1-1">2.1.1 Welcome to Module 2</h3>
@@ -3895,7 +3945,7 @@ We can apply the elements in the image above to a simple Web page like
 this:
 
 <details>
-  <summary>HTML</summary>
+  <summary>HTML code extract!</summary>
 
 ```html5
 1.  <!DOCTYPE html>
@@ -4243,7 +4293,7 @@ following code will only create structure to your document, not any
 visual change:
 
 <details>
-  <summary>HTML</summary>
+  <summary>HTML code extract!</summary>
 
 ```
 <!DOCTYPE html>
@@ -4372,6 +4422,9 @@ If you view page source on the W3C specification and do a search for
 '&lt;header&gt;', you will be able to view the contents of the header
 element. <b>Here's a simplified version</b>:
 
+<details>
+  <summary>HTML code extract!</summary>
+
 ```html5
 <header>
 <!-- You will learn about the <a> and <img> tags later in this chapter-->
@@ -4384,6 +4437,8 @@ element. <b>Here's a simplified version</b>:
    <h2>W3C Recommendation, 14 December 2017</h2>
 </header>
 ```
+
+</details>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 30. html5.2x header and headings (91) ----------------------------->
@@ -4405,6 +4460,9 @@ technology often relies on the semantics of headings to understand your
 document's structure. More information is provided in <a href="https://www.w3.org/TR/WCAG20-TECHS/H42.html">Using h1-h6 to
 identify headings</a>.
 
+<details>
+  <summary>HTML code extract!</summary>
+
 ```xml
 <body>
    <h1>Brad's Cookbook</h1>
@@ -4421,6 +4479,8 @@ identify headings</a>.
            <p>If you can't get fresh peaches, frozen to the rescue!</p>
 </body>
 ```
+
+</details>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 31. brad's cookbook in codepen (92) ------------------------------>
@@ -4520,7 +4580,7 @@ multiple &lt;header&gt;, &lt;footer&gt; and &lt;nav&gt; tags.
 </p>
 
 <details>
-  <summary>HTML</summary>
+  <summary>HTML code extract!</summary>
 
 ```xml
 <!DOCTYPE html>
@@ -4616,6 +4676,9 @@ the previous unit, if you extract only the first article, you can see
 that it will make sense all by itself without any context. It can be
 reused anywhere else.
 
+<details>
+  <summary>HTML code extract!</summary>
+
 ```
 <article id="ces">
   <header>
@@ -4631,6 +4694,8 @@ libero.</p>
   </footer>
 </article>
 ```
+
+</details>
 
 One article element can be nested inside another. For example, if you
 have a blog post and you want to include a forum post or newspaper
@@ -4675,7 +4740,7 @@ to our CES 2018 &lt;article&gt; example, it will fit right in:
 <h4>HTML:</h4>
 
 <details>
-  <summary>HTML</summary>
+  <summary>HTML code extract!</summary>
 
 ```
 <!DOCTYPE html>
@@ -4728,7 +4793,7 @@ this [CodePen](https://codepen.io/w3devcampus/pen/Wjzjpx):
 </p>
 
 <details>
-  <summary>HTML</summary>
+  <summary>HTML code extract!</summary>
 
 ```
 <!DOCTYPE html>
@@ -4820,7 +4885,7 @@ syntax. It has been designed for compatibility with older browsers.
 Older browsers ignore new HTML5 constructs... </p>
 
 <details>
-  <summary>HTML</summary>
+  <summary>HTML code extract!</summary>
 
 ```
 </section>
@@ -4909,7 +4974,7 @@ its place.
 We will see an example of &lt;div&gt; here:
 
 <details>
-  <summary>HTML</summary>
+  <summary>HTML code extract!</summary>
 
 ```
 <section>
@@ -5776,6 +5841,9 @@ underlined.
 
 The &lt;a&gt; tag can surround text or an image. 
 
+<details>
+  <summary>HTML code extract!</summary>
+
 ```
 <!-- Text in a hyperlink-->
 <a href="https://www.qwant.com/">If you click on me, I will take
@@ -5787,6 +5855,8 @@ The &lt;a&gt; tag can surround text or an image. 
 <a href="https://www.qwant.com/"><img src="images/qwant-image.png" alt="Image
    navigating to Qwant"></a>
 ```
+
+</details>
 
 You can even use the anchor element to add your email address under the
 contacts section of your Web page. 
@@ -6252,7 +6322,7 @@ style="width:6.5in;height:3.27778in" />
 <h4>HTML</h4>
 
 <details>
-  <summary>HTML</summary>
+  <summary>HTML code extract!</summary>
 
 ```
 <!DOCTYPE html>
@@ -6712,6 +6782,9 @@ To place CSS directly into an HTML document, we use the <style> tag.
  This tag can appear anywhere in an HTML document, however, the most
 common practice is to place it in the &lt;head&gt; section.  Such as:
 
+<details>
+  <summary>HTML code extract!</summary>
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -6726,6 +6799,8 @@ common practice is to place it in the &lt;head&gt; section.  Such as:
   </body>
 </html>
 ```
+
+</details>
 
 <h4>The &lt;link&gt; tag</h4>
 
@@ -6749,6 +6824,9 @@ directory named <i>css</i>.
 
 <h4>Here is an example HTML document.</h4>
 
+<details>
+  <summary>HTML code extract!</summary>
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -6761,6 +6839,8 @@ directory named <i>css</i>.
   </body>
 </html>
 ```
+
+</details>
 
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch3-2-2">3.2.2 Rules: selectors and declarations</h3>
@@ -6830,6 +6910,9 @@ to others who might read your CSS.  
 Comments begin with / and <b>must</b> end with / and they can span
 several lines. But they <b>cannot</b> be nested.
 
+<details>
+  <summary>CSS code extract!</summary>
+
 ```
 p {
    font-size: 8px; /* client insists small text makes them more 'professional'. */
@@ -6841,6 +6924,8 @@ p {
    */
 }
 ```
+
+</details>
 
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch3-2-4">3.2.4 Knowledge Check</h3>
@@ -6872,7 +6957,7 @@ following <a href="https://codepen.io/w3devcampus/pen/QvQgbr" target="_blank">Co
 editor):
 
 <details>
-  <summary>HTML</summary>
+  <summary>HTML code extract!</summary>
 
 ```
 <!DOCTYPE html>
@@ -8056,6 +8141,9 @@ In the following HTML, we see some paragraphs that have some links
 (<a>) inside. The link tags are inside the paragraphs, but not
 necessarily direct children.
 
+<details>
+  <summary>HTML code extract!</summary>
+
 ```
 <section id="intro">Welcome to <a href="#palaceland">PalaceLand</a>, world renown 
    <q>Land of endless palaces and <a href="#delight">delights</a></q>. 
@@ -8069,6 +8157,8 @@ necessarily direct children.
    there</a> with your mouth hanging open waiting for a pair of nesting birds.</blockquote> (and no <a href="#camera_policy">flash
    photography</a> please.)</section>
 ```
+
+</details>
 
 What if we wanted all the links in the introductory section to be red,
 but all the link in the guideline section to be green?  That is what
@@ -8410,6 +8500,9 @@ Please work on the following CodePen and implement the instructions above - do n
 
 <h4>HTML</h4>
 
+<details>
+  <summary>HTML code extract!</summary>
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -8450,7 +8543,9 @@ Please work on the following CodePen and implement the instructions above - do n
 </html>
 ```
 
-Result
+</details>
+
+<h4>Result:</h4>
  
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch3-4-7">3.4.7 Activity - CSS selectors</h3>
@@ -8471,7 +8566,7 @@ Can you achieve the same styling without adding any new tags (i.e., without addi
 <h4>HTML</h4>
 
 <details>
-  <summary>Source code!</summary>
+  <summary>HTML code extract!</summary>
 
 ```
 <!DOCTYPE html>
@@ -8533,7 +8628,7 @@ Can you achieve the same styling without adding any new tags (i.e., without addi
 </p>
 
 <details>
-  <summary>HTML</summary>
+  <summary>HTML code extract!</summary>
 
 ```xml
 <!DOCTYPE html>
@@ -8868,7 +8963,7 @@ color of your pen).  In fact these are so commonly specified that there
 is a shorthand syntax to set all three in one line:
 
 ```
-   border: 5px solid blue;
+border: 5px solid blue;
 ```
 
 There are many other shortcuts to learn, but this one is fairly common.
@@ -9082,6 +9177,9 @@ could apply to the same element. Consider the following example:
 
 <h4>CSS</h4>
 
+<details>
+  <summary>CSS code extract!</summary>
+
 ```
 h1{
 color:blue;
@@ -9097,10 +9195,12 @@ font-size:1.2rem;
 }
 ```
 
+</details>
+
 <h4>HTML</h4>
 
 <details>
-  <summary>HTML</summary>
+  <summary>HTML code extract!</summary>
 
 ```
 <!DOCTYPE html>
@@ -9152,6 +9252,9 @@ you get a different result:
 
 <h4>CSS</h4>
 
+<details>
+  <summary>CSS code extract!</summary>
+
 ```
 section h1{
 color:grey;
@@ -9166,11 +9269,12 @@ color:blue;
 font-size: 2rem;
 }
 ```
+</details>
 
 <h4>HTML</h4>
 
 <details>
-  <summary>HTML</summary>
+  <summary>HTML code extract!</summary>
 
 ```
 <!DOCTYPE html>
@@ -9297,6 +9401,9 @@ we want:
 
 <h4>CSS</h4>
 
+<details>
+  <summary>CSS code extract!</summary>
+
 ```
 h1{
 color:blue;
@@ -9312,10 +9419,12 @@ font-size:1.2rem;
 }
 ```
 
+</details>
+
 <h4>HTML</h4>
 
 <details>
-  <summary>HTML</summary>
+  <summary>HTML code extract!</summary>
 
 ```
 <!DOCTYPE html>
@@ -9364,7 +9473,7 @@ the pictures but the result is unwieldy:
 <h4>HTML</h4>
 
 <details>
-  <summary>HTML</summary>
+  <summary>HTML code extract!</summary>
 
 ```
 <!DOCTYPE html>
@@ -9433,7 +9542,7 @@ width: 10rem;
 <h4>HTML</h4>
 
 <details>
-  <summary>HTML</summary>
+  <summary>HTML code extract!</summary>
 
 ```
 <!DOCTYPE html>
@@ -9543,7 +9652,7 @@ width: 10rem;
 <h4>HTML:</h4>
 
 <details>
-  <summary>HTML</summary>
+  <summary>HTML code extract!</summary>
 
 ```
 <!DOCTYPE html>
@@ -9613,7 +9722,7 @@ this:
 <h5>HTML</h5>
 
 <details>
-  <summary>HTML</summary>
+  <summary>HTML code extract!</summary>
 
 ```
 <!DOCTYPE html>
@@ -9745,6 +9854,9 @@ style="width:4.96875in;height:2.73958in" />
 
 <h4>CSS:</h4>
 
+<details>
+  <summary>CSS code extract!</summary>
+
 ```css
 nav {
 background: aliceblue;
@@ -9763,10 +9875,12 @@ color: white;
 }
 ```
 
+</details>
+
 <h4>HTML:</h4>
 
 <details>
-  <summary>HTML</summary>
+  <summary>HTML code extract!</summary>
 
 ```html5
 <!DOCTYPE html>
@@ -9875,7 +9989,7 @@ If you'd like to see what we did for the module 3, you can find it in
 the CodePen below:
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 84.  (###) -------------------------------------->
+<!----------------------------------- 84. my favorite recipes (###) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <img src="./images/image084.png"
 style="width:4.96875in;height:2.73958in" />
@@ -9883,7 +9997,7 @@ style="width:4.96875in;height:2.73958in" />
 <h4>CSS:</h4>
 
 <details>
-  <summary>HTML</summary>
+  <summary>HTML code extact!</summary>
 
 ```
 nav {
@@ -9908,7 +10022,7 @@ color: white;
 <h4>HTML:</h4>
 
 <details>
-  <summary>HTML</summary>
+  <summary>HTML code extract!</summary>
 
 ```
 <!DOCTYPE html>
@@ -10166,6 +10280,9 @@ understanding the content or use assistive technology.
 <img src="./images/image086.png"
 style="width:4in;height:2.54315in" />
 
+<details>
+  <summary>HTML code extract!</summary>
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -10183,6 +10300,8 @@ style="width:4in;height:2.54315in" />
   </body>
 </html>
 ```
+
+</details>
 
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-2-2">5.2.2 The &lt;tr&gt;, &lt;th&gt;, &lt;td&gt;, &lt;colgroup&gt;, &lt;col&gt; tags</h3>
@@ -10219,6 +10338,9 @@ cells is bold and centered by default.
 <img src="./images/image087.png"
 style="width:4in;height:2.54315in" />
 
+<details>
+  <summary>HTML code extract!</summary>
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -10237,6 +10359,8 @@ style="width:4in;height:2.54315in" />
 </html>
 ```
 
+</details>
+
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 88.  (###) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -10249,6 +10373,9 @@ Creates table data (standard) cells. Content of table data cells is
 regular and left-aligned by default.
 
 <h4>With these tags we can create a simple table.</h4>
+
+<details>
+  <summary>HTML code extract!</summary>
 
 ```
 <table border=1>
@@ -10266,6 +10393,8 @@ regular and left-aligned by default.
   </tr>
 </table>
 ```
+
+</details>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ ##. template (##) -------------------------------->
@@ -10310,6 +10439,9 @@ Let's say I want the 'name' column to be in green and the 'age' column
 to be orange. You need to use the &lt;colgroup&gt; and &lt;col&gt; tags to
 achieve styling effects specific to a column. 
 
+<details>
+  <summary>HTML code extract!</summary>
+
 ```
 <body>
   <table border=1>
@@ -10333,8 +10465,10 @@ achieve styling effects specific to a column. 
 </body>
 ```
 
+</details>
+
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 90. color column headers (218) -------------------------------->
+<!------------------------------- 90. color column headers (218) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image090.png?raw=true"
@@ -10384,6 +10518,9 @@ within &lt;thead&gt; indicate that they are header rows. See the code below:
 Following &lt;thead&gt;, subsequent rows are considered body rows in a
 table. Regular cells are specified using &lt;td&gt; as a child of &lt;tr&gt;:
 
+<details>
+  <summary>HTML code extract!</summary>
+
 ```xml
   <tbody>
     <tr>
@@ -10401,11 +10538,16 @@ table. Regular cells are specified using &lt;td&gt; as a child of &lt;tr&gt;:
  </tbody>
 ```
 
+</details>
+
 <h4>&lt;tfoot&gt;</h4>
 
 The footer is the last to be specified and rows within <tfoot> are
 considered footer rows at the end of a table:
 
+<details>
+  <summary>HTML code extract!</summary>
+  
 ```xml
   <tfoot>
     <tr>
@@ -10415,7 +10557,12 @@ considered footer rows at the end of a table:
   </tfoot>
 ```
 
+</details>
+
 <h4>Putting it all together:</h4>
+
+<details>
+  <summary>HTML code extract!</summary>
 
 ```xml
   <table border=1>
@@ -10451,6 +10598,8 @@ considered footer rows at the end of a table:
    </tfoot>
  </table>
 ```
+
+</details>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 91.  (###) -------------------------------------->
@@ -10523,6 +10672,9 @@ table.eg3, th.eg3, td.eg3 { border: initial; }
 
 <h4>HTML</h4>
 
+<details>
+  <summary>HTML code extract!</summary>
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -10555,14 +10707,16 @@ class="eg3">21</td></tr>
 </html>
 ```
 
-### border-collapse
+</details>
+
+<h4>border-collapse</h4>
 
 We gave a border to the table, table-header and table-data above. This
 creates two borders creating a double line. In order to collapse them
 all into a single border, we use the border-collapse CSS property:
 
 ```
-1.  table { border-collapse: collapse; }
+table { border-collapse: collapse; }
 ```
 
 Possible values of this property are: 
@@ -10595,6 +10749,9 @@ border-collapse: collapse;
 
 <h4>HTML</h4>
 
+<details>
+  <summary>HTML code extract!</summary>
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -10615,6 +10772,8 @@ border-collapse: collapse;
 </body>
 </html>
 ```
+
+</details>
 
 <h4>Table width and height</h4>
 
@@ -10647,6 +10806,9 @@ style="width:4in;height:4.33613in" />
 
 <h4>CSS</h4>
 
+<details>
+  <summary>CSS code extract!</summary>
+
 ```
 table, th, td
 {
@@ -10667,7 +10829,12 @@ table.eg3
 }
 ```
 
+</details>
+
 <h4>HTML</h4>
+
+<details>
+  <summary>HTML code extract!</summary>
 
 ```
 <!DOCTYPE html>
@@ -10709,7 +10876,9 @@ parent element:</p>
 </html>
 ```
 
-### text-align
+</details>
+
+<h4>text-align</h4>
 
 This property is used to align the text of &lt;th&gt; and &lt;td&gt; cells left,
 right or center (week 3 recap). 
@@ -10724,12 +10893,12 @@ Default:
 td { text-align: right;}
 ```
 
-### vertical-align
+<h4>vertical-align</h4>
 
 This property is used to align the text of &lt;th&gt; and &lt;td&gt; cells top,
 bottom or middle.
 
-Default:
+<h4>Default:</h4>
 
 -   &lt;th&gt; - middle
 
@@ -10739,7 +10908,7 @@ Default:
 th { vertical-align: top; }
 ```
 
-### padding
+<h4>padding</h4>
 
 Right now our table looks quite cramped. We use the padding property
 on &lt;th&gt; and &lt;td&gt; to provide some space between border and content in
@@ -10778,7 +10947,7 @@ It is specified in the order: top, right, bottom and left padding.
 <img src="./images/image096.png"
 style="width:4in;height:2.52101in" />
 
-### CSS
+<h4>CSS</h4>
 
 ```
 table, th, td { border: 1px solid black; }
@@ -10788,21 +10957,26 @@ th, td { padding: 20px; }
 
 <h4>HTML</h4>
 
+<details>
+  <summary>HTML code extract!</summary>
+
 ```
 !DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Styling your table</title>
+  <meta charset="UTF-8">
+  <title>Styling your table</title>
 </head>
 <body>
-<table>
-<tr><th>Names</th><th>Age</th></tr>
-<tr><td>Michael</td><td>21</td></tr>
-</table>
+  <table>
+    <tr><th>Names</th><th>Age</th></tr>
+    <tr><td>Michael</td><td>21</td></tr>
+  </table>
 </body>
 </html>
 ```
+
+</details>
 
 <h4>border-spacing</h4>
 
@@ -10848,6 +11022,9 @@ table.eg3, th.eg3, td.eg3 { border-spacing: 50px 25px; }
 
 <h4>HTML</h4>
 
+<details>
+  <summary>HTML code extract!</summary>
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -10880,13 +11057,15 @@ class="eg3">21</td></tr>
 </html>
 ```
 
+</details>
+
 <h4>Side-borders</h4>
 
 The first property border will set a border to all four sides. You can
 also set borders to individual sides - top, right, bottom, left:
 
 ```
-1.  th, td { border-right: 1px solid black; }
+th, td { border-right: 1px solid black; }
 ```
 
 <!------------------------------------------------------------------------------------------------>
@@ -10905,6 +11084,9 @@ table.eg2, th.eg2, td.eg2 { border-bottom: 1px solid black; }
 ```
 
 <h4>HTML</h4>
+
+<details>
+  <summary>HTML code extract!</summary>
 
 ```
 <!DOCTYPE html>
@@ -10937,6 +11119,8 @@ class="eg2">Female</td></tr>
 </body>
 </html>
 ```
+
+</details>
 
 <h4>zebra table</h4>
 
@@ -10986,7 +11170,7 @@ table.eg3 tr:nth-child(3n) { background-color: #ccff99; }
 <h4>HTML</h4>
 
 <details>
-  <summary>HTML</summary>
+  <summary>HTML code extract!</summary>
 
 ```
 1.  <!DOCTYPE html>
@@ -11076,7 +11260,7 @@ table.eg2 tr:hover { background-color: grey; }
 <h4>HTML</h4>
 
 <details>
-  <summary>HTML</summary>
+  <summary>HTML code extract!</summary>
 
 ```
 <!DOCTYPE html>
@@ -11159,7 +11343,7 @@ div.overflow-x-auto { overflow-x: auto; overflow-y:hidden; }
 <h4>HTML:</h4>
 
 <details>
-  <summary>HTML</summary>
+  <summary>HTML code extract!</summary>
 
 ```
 1.  <!DOCTYPE html>
@@ -11289,7 +11473,7 @@ As a conclusion to this tables section, here is a complete table design:
 <h4>CSS:</h4>
 
 <details>
-  <summary>HTML</summary>
+  <summary>CSS code extract!</summary>
 
 ```
 1.  table, th, td {
@@ -11333,7 +11517,7 @@ As a conclusion to this tables section, here is a complete table design:
 <h4>HTML:</h4>
 
 <details>
-  <summary>HTML</summary>
+  <summary>HTML code extract!</summary>
 
 ```
 1.  <!DOCTYPE html>
@@ -12173,6 +12357,9 @@ An &lt;iframe&gt; tag can be as simple as this:
   alt="." />
 </p>
 
+<details>
+  <summary>HTML code extract!</summary>
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -12187,6 +12374,8 @@ An &lt;iframe&gt; tag can be as simple as this:
 </body>
 </html>
 ```
+
+</details>
 
 Because iframes are HTML elements, they can be styled just like other elements, with borders, margins, sizes specified with CSS rules:
 
@@ -14182,17 +14371,17 @@ absolutely positioned. Two of the list items are position:relative, so
 the spans are positioned starting from their rectangle.  But two of the
 list items are position:static (the default), so the spans are moved up
 to the &lt;ul&gt; (which is also position:relative) where they overlap each
-other. (The red 1 is hidden behind the red 2). Borders have been added
-in the result below, so you can easily see the rectangle
+other. (The 1 is hidden behind the 2). Borders have been added in the 
+result below, so you can easily see the rectangle
 for  &lt;li&gt; versus &lt;ul&gt;.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 142.  (303) -------------------------------->
+<!--------------------------- 142. relative, static & absolute (303) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image142.png?raw=true"
   width="65%"
-  alt="." />
+  alt="List item styling.  Two are relative, therefore are static & overlapped." />
 </p>
 <!---
 <img src="./images/image143.png"
@@ -14244,12 +14433,12 @@ height of 0, as if it were empty. The fat border just becomes a fat flat
 line, and the list items themselves are not enclosed. 
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------- 143. position normal & absolute  (304) ----------------------------->
+<!-------------------------- 143. position default vs absolute  (304) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image143.png?raw=true"
   width="65%"
-  alt="" />
+  alt="Position default vs. absolute." />
 </p>
 <!-- <img src="./images/image145.png"
 style="width:6.5in;height:1.29306in" />
