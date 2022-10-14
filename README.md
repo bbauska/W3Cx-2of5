@@ -12156,14 +12156,12 @@ to play .wav, failed and played the .mp3 version instead. 
 The following table lists the &lt;source&gt; element's attributes:
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 109. source element attributes (251) ------------------------------>
+<!-------------------------- 105. source element attributes (251) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image109.png?raw=true"
+<img src="/images/image105.png?raw=true"
   width="65%"
   alt="Source element attributes." />
-</p>
-<!-- style="width:6.5in;height:2.79653in" /> -->
 
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-3-2">5.3.2 The &lt;video&gt; Element</h3>
@@ -12189,12 +12187,25 @@ that can be used to configure playback. The following table lists
 the video element's attributes:
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- 110. video element attributes (xxx) -------------------->
+<!-------------------------- 106/107. video element attributes (251) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image110.png?raw=true"
+<img src="/images/image106.png?raw=true"
   width="65%"
-  alt="Video element attributes." />
+  alt="Video element attributes (top section)." />
+<img src="/images/image107.png?raw=true"
+  width="65%"
+  alt="Video element attributes (bottom section)." />
+</p>
+<!-- style="width:6.5in;height:2.79653in" /> -->
+
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- 108. html5 logo  (253) ------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image108.png?raw=true"
+  width="65%"
+  alt="HTML5 logo." />
 </p>
 
 <h3>Poster attribute</h3>
@@ -12299,12 +12310,12 @@ a combination of formats. 
 
 <h4>The following table lists the source element's attributes:</h4>
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 111. table src and type (256) --------------------------------->
+<!--------------------------- 109. source element's attributes (255) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image111.png?raw=true"
+<img src="/images/image109.png?raw=true"
   width="85%"
-  alt="Attributes: src and type" />
+  alt="Attributes: src and type." />
 </p>
 
 <h3>Track element for captions and subtitles</h3>
@@ -12345,12 +12356,12 @@ your &lt;video&gt; tag like this:
 <h4>The following table lists the &lt;track&gt; element's attributes:</h4>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 112.  (###) -------------------------------------->
+<!--------------------------- 110. track element's attributes (256) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image112.png"
+<img src="./images/image110.png"
   style="width:6.5in;height:4.29444in"
-  alt="" />
+  alt="Track Element's attributes." />
 </p>
 
 <!------------------------------------------------------------------------------------------------>
@@ -12388,12 +12399,12 @@ An &lt;iframe&gt; tag can be as simple as this:
 ```
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------- 113. attribute, description, value & example (###) ----------------------->
+<!-------------------------------------- 111. iframe (263) --------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image113.png"
+<img src="./images/image111.png"
   style="width:4in;height:2.51477in"
-  alt="." />
+  alt="iframe." />
 </p>
 
 <details>
@@ -12419,12 +12430,12 @@ An &lt;iframe&gt; tag can be as simple as this:
 Because iframes are HTML elements, they can be styled just like other elements, with borders, margins, sizes specified with CSS rules:
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 114.  (###) -------------------------------------->
+<!------------------------------- 112. iframes and images (263) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image114.jpeg"
-   style="width:3in;height:1.64371in"
-  alt="" />
+<img src="./images/image112.png"
+  style="width:3in;height:1.64371in"
+  alt="Image example using iframes with borders and margins." />
 </p>
 
 Here, we've embedded a YouTube video with an iframe like this:
@@ -12459,12 +12470,12 @@ There are a number of important attributes for an &lt;iframe&gt; tag, but
 for now we'll just look at a few of them:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 115. sign nomeny and millery (xxx) -------------------------------->
+<!-------------------------------- 113. iframe attributes (264) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image115.png?raw=true"
+<img src="./images/image113.png?raw=true"
   width="65%"
-  alt="." />
+  alt="iframe attributes and how they work." />
 </p>
 
 <b>Notes:</b>
@@ -12570,14 +12581,16 @@ your ismap specification.
 Let's look at how the code above works.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 116. image map with mouse clicks (xxx) -------------------------------->
+<!------------------------------- 114. how ismap code works (266) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image116.png?raw=true"
+<img src="./images/image114.jpeg?raw=true"
   width="30%"
-  alt="Image illustrating how an image map works, how it processes mouse click coordinates using a map file that define target areas." />
+  alt="Graphical representation of how ismap command works in web development." />
 </p>
-
+<!---
+  Image illustrating how an image map works, how it processes mouse click coordinates using a map file that define target areas." />
+--->
 <p>
 Let's go back to our world map example where clicking on different parts
 of the image will take you to a page about the country you clicked on.
@@ -12685,12 +12698,12 @@ Try this: Click on the left and right side of the images to check out
 how usemap works :) Remember to navigate back to the course!
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 117. women and cats, men and dogs  (xxx) ----------------------------->
+<!------------------------------- 115. usemap sign example (269) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image117.png?raw=true"
-  width="20%"
-  alt="Women and cats, men and dogs." />
+<img src="./images/image115.png?raw=true"
+  width="50%"
+  alt="Usemap example, sign to Millery or Nomeny." />
 </p>
 
 Note: If the &lt;img&gt; is inside an &lt;a&gt; or &lt;button&gt; element, clicking
@@ -12753,10 +12766,10 @@ hyperlink (&lt;a&gt;), paragraph (&lt;p&gt;), unordered list (&lt;ul&gt;) and l
 items (&lt;li&gt;):
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 118. w3c background image  (xxx) -------------------------------->
+<!------------------------------ 116. w3c background image  (xxx) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image118.png?raw=true"
+<img src="./images/image116.png?raw=true"
   width="50%"
   alt="Background image W3C." />
 </p>
@@ -13838,8 +13851,8 @@ makes its layout decisions.  
 <!--------------------------------- 134. big t, little g (291) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image136.png?raw=true"
-  width="20%"
+<img src="./images/image134.png?raw=true"
+  width="25%"
   alt="Baseline: Big T, little g." />
 </p>
 
@@ -15162,9 +15175,9 @@ wrap-reverse; it is vertical running bottom to top.
 <!--------------------------- 170. flex container and flex-flow (324) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image170.png?raw=true"
+<img src="./images/image170.jpg?raw=true"
   width="65%"
-  alt="Flex Container and Flex-flow" />
+  alt="Flex Container and Flex-flow." />
 </p>
 
 In the illustration above, we see the main and cross axes as they would
