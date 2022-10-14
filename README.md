@@ -8903,11 +8903,13 @@ current element by adding them to the "element.style" box at the top of
 the "Styles" panel.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 59.  (###) -------------------------------------->
+<!----------------------------------- 59. modify html5 (180) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
 <img src="./images/image059.png"
-style="width:5in;height:1.73333in"
-alt="Screenshot of MS Edge showing modifying in the developers tools" />
+  style="width:5in;height:1.73333in"
+  alt="Screenshot of MS Edge showing modifying in the developers tools. />
+</p>
 
 Just click in between the two curly braces on the "Inline style" rule at
 the top of the Styles panel.  After clicking you should see a little
@@ -8915,11 +8917,13 @@ text entry box with which you can type property value pairs that will
 then effect the currently active element.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 60.  (###) -------------------------------------->
+<!----------------------------------- 60. modify html5 (180) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
 <img src="./images/image060.png"
-style="width:5in;height:3.01603in"
-alt="Screenshot of MSEdge developer tools showing changing text color in developers tools" />
+  style="width:5in;height:3.01603in"
+  alt="Screenshot of MSEdge developer tools showing changing text color in developers tools." />
+</p>
 
 It's important to know that any changes you make in the developer tools
 will have no effect on the original Web page. They only affect that
