@@ -774,17 +774,17 @@ most modern browsers.
 <h3 id="ch1-3-1">1.3.1 Putting the “M” in HTML</h3>
 <!------------------------------------------------------------------------------------------------>
 
-So the "M" in HTML stands for "Markup", but what does Markup really
-mean? Essentially, it means to annotate a document with extra
+The "M" in HTML stands for "Markup", but what does Markup really
+mean?  Essentially, it means to annotate a document with extra
 information. Things like where different sections and paragraphs begin
 and end, which part is the title, which things should be emphasized and
 so on.  
 
 There are many ways to markup a document, but HTML borrows a technique
-from an ancestor language, SGML (<a href="https://en.wikipedia.org/wiki/Standard_Generalized_Markup_Language" target="_blank">Standard Generalized Markup
-Language</a>),
-which uses angle brackets ("&lt;" and "&gt;") to separate the annotations
-from the regular text.  In HTML these annotations are called "tags".
+from an ancestor language, SGML (<a href="https://en.wikipedia.org/wiki/Standard_Generalized_Markup_Language" target="_blank">Standard Generalized Markup Language</a>),
+which uses angle brackets ("&lt;" and "&gt;") to separate the annotations from the regular text.
+
+In HTML these annotations are called "tags".
 
 For example, consider the following chunk of HTML code:
 
@@ -810,13 +810,17 @@ For example, consider the following chunk of HTML code:
 
 <p>
 If you eliminated everything in between the angle brackets from the text, for most purposes it would still read the same:
+</p>
 
+<pre>
 A Tale of Two Cities  
 It was the best of times, it was the worst of times . . . .  
 . . .  
 . . . it is a far, far better rest  
 that I go to than I have ever known.
+</pre>
 
+<p>
 Once you know that everything in angle brackets is "meta-information",
 it leaves a lot of flexibility. You can put a lot of different things in
 between those brackets without any of it showing up (directly) in your
@@ -836,7 +840,7 @@ simple "Hello HTML" program. Please choose any Web editor of your liking
 <h3 id="ch1-3-2">1.3.2 Programming “Hello HTML”</h3>
 <!------------------------------------------------------------------------------------------------>
 <p>
-You can build and edit your HTML pages by either using online editors or editors that you can install on your machine, like Visual Studio Code.
+You can build and edit your HTML pages by either using online editors or editors that you can install on your machine, like Visual Studio Code.</p>
 
 <h4>Using online editors:</h4>
 <p>
@@ -859,7 +863,7 @@ The file is loaded from my disk and then it displays its contents.
 
 And here you can see that this simple file, it is just showing me the text hello html and it's also changed the title of the page to be my first HTML page.
 
-So, there you have it, a very simple HTML page.
+There you have it, a very simple HTML page.
 
 Let's now go to an online tool and try to create this page from scratch.
 
@@ -3176,8 +3180,7 @@ There are two kinds of attributes:</p>
 
 <p>Global attributes can be applied to <b>all tags</b>. They are common
 attributes. Examples of global attributes are id and class. There are
-many more global attributes. Here is a <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes#list_of_global_attributes">list of all the global
-attributes</a> and the values they accept.
+many more global attributes. Here is a <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes#list_of_global_attributes">list of all the global attributes</a> and the values they accept.
 
 Attributes like id and class can be applied to any HTML tag.</p>
 
@@ -14157,7 +14160,9 @@ flexbox reduces their use cases.
 
 <h4>static</h4>
 
+```
 position: static; /* the default */
+```
 
 A position property of static is the default for all elements. It simply
 means that all elements follow the "flowing text"model of layout and the
@@ -14166,9 +14171,11 @@ display property that selects block level layout, inline or
 inline-block. Static elements *ignore* the positioning properties we
 read about earlier (left, top, right, and bottom).
 
-#### fixed
+<h4>fixed</h4>
 
+```
 position: fixed;
+```
 
 A fixed positioned element respects the positioning properties
 (left, top, right, and bottom).  A fixed positioned element
@@ -14268,7 +14275,7 @@ browser window; they don't even scroll with the content.
 to relative and absolute. For these values, the positioning properties
 have different interpretations.   
 
-#### relative
+<h4>relative</h4>
 
 <h4>position: relative;</h4>
 
@@ -14508,14 +14515,14 @@ line, and the list items themselves are not enclosed. 
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image143.png?raw=true"
-  width="65%"
+  width="85%"
   alt="Position default vs. absolute." />
 </p>
 <!-- <img src="./images/image145.png"
 style="width:6.5in;height:1.29306in" />
 -->
 
-### Absolute positioned block level elements do not get the width of their parent
+<h4>Absolute positioned block level elements do not get the width of their parent</h4>
 
 Earlier we learned that block level elements automatically get the width
 of their parent, that is, they extend to become full width. But this is
@@ -14528,7 +14535,7 @@ their rectangle rightward to fill the entire line. But the right column
 of absolutely positioned items does not. Their initial size is simply
 the size of their content. 
 
-### Margins do not work the same
+<h4>Margins do not work the same</h4>
 
 For static and relative positioned items, margins can be used to adjust
 an element position and keep neighboring siblings "away". We make this
@@ -14589,7 +14596,7 @@ we govern the overlapping with the z-index property. 
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image144.png?raw=true"
-  width="65%"
+  width="85%"
   alt="Position Relative overlap." />
 </p>
 
@@ -14624,29 +14631,38 @@ further out in the document.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image145.png?raw=true"
-  width="65%"
-  alt="Overlapping sibling divs" />
+  width="85%"
+  alt="Overlapping sibling divs." />
 </p>
 
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch6-2-6">6.2.6 Activity - Block vs. inline</h3>
 <!------------------------------------------------------------------------------------------------>
 We've provided you with a starter project file. The code is included below in a CodePen:
-This simple file has two block level elements (the paragraphs) and two spans, which are inline. Additionally, there are several classes defined for you. 
+This simple file has two block level elements (the paragraphs) and two spans, which are inline. Additionally, there are several classes defined for you.
 
 <h4>Try the following:</h4>
 - Notice immediately each paragraph gets its own line.
+
 - Notice the inline span that follows the paragraph (&lt;/p&gt;) starts on its own line. However, the second inline span directly follows its predecessor - it does not get a new line, it continues on the same line.
+
 - Try applying the brect and prect classes to the elements. (via class="brect" ). When applied to the paragraphs, you can see that the classes make the width of the paragraph stretch to the edge of the window. It is the same as its parent width.  Note that its height is no more than its content.  But the background colors and borders are tight to the spans.
+
 - Try applying the w class to each of the elements. This class sets the width property. It works on both paragraphs, but it has no effect on the two spans.
+
 - Try applying the h class to each element. This class sets the height property. Again, the paragraphs are affected, but the spans are not.
+
 - Apply the pad class to each element. This class sets the padding property. The paragraphs are clearly padded. The spans are also padded, but the extra padding does not space them out. So if the background colors are still being applied, the padded background of one inline element may overlap the other.  Can you think of a solution that would prevent the overlap?
+
 - Apply the marg-vert class to each element. This class sets the top and bottom margins. Note that it works on the block level paragraphs well enough, but has no effect on the inline spans.
+
 - Apply the marg-horiz class to each element. This class sets the left and right margins.  It works on everything.
 
 Play some more with the elements, trying to appreciate how block and inline elements differ.
 - Try changing the HTML so that the inline elements are inside the block level ones.
+
 - Put a margin:0 on the body.
+
 - Have fun!
 
 <b>NOTE:</b> Please do not upload HTML code to the discussion forum.
@@ -14693,7 +14709,7 @@ These display states are covered in the display section. 
 
 <h4>images - aspect ratio preserving</h4>
 
-images have an interesting behavior in that if only one dimension is
+Images have an interesting behavior in that if only one dimension is
 set, the other is automatically calculated so that the original aspect
 ratio of the image is preserved.  This is true for both decorative CSS
 images and &lt;img&gt; tags.
@@ -14810,7 +14826,7 @@ of 100 pixels. 
 
 <h4>The box model and box-sizing</h4>
 
-So, if we say that some block level element is supposed to have a height
+If we say that some block level element is supposed to have a height
 and width of 100 pixels, does that include the border or the padding?
  This is an excellent question, worthy of some experimentation. The
 reader is encouraged to explore this.
