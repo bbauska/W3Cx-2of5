@@ -9056,7 +9056,7 @@ than or equal to 0.  What the browser does if the border-width is less
 than 0 is undefined and shouldn't be relied on.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 64.  (###) -------------------------------------->
+<!----------------------------------- 64. three blocks (183) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image064.png?raw=true"
@@ -9086,7 +9086,7 @@ element, so the effective visible size of the element includes the
 padding.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 65.  (###) -------------------------------------->
+<!----------------------------------- 65. three blocks (184) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image065.png?raw=true"
@@ -9103,11 +9103,12 @@ to these, we see that the padding is reflected by empty space between
 the contents and the border:
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 66.  (###) -------------------------------------->
+<!----------------------------------- 66. three blocks (184) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <img src="./images/image066.png"
   width="30%"
   alt="Image showing 3 blocks that have padding with borders, in addition to the thin border aroung their texts &#39;Block 1&#39;, &#39;Block 2&#39;, &#39;Block 3&#39;." />
+</p>
 
 All of these can have a width of 0, which is equivalent to not having
 them, thus 'margin: 0;'  is the same as 'margin: none;'.  Each can be
@@ -9123,7 +9124,7 @@ border comes to surrounding elements.  You can even give your border
 rounded corners using the border-radius setting:
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 67.  (###) -------------------------------------->
+<!----------------------------------- 67. three blocks (184) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image067.png?raw=true"
@@ -9139,7 +9140,7 @@ In any browser's debugger, you will see a box model diagram. It looks
 like this:
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 68.  (###) -------------------------------------->
+<!--------------------- 68. css box model - margin, border, padding (185) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image068.png?raw=true"
@@ -9189,13 +9190,13 @@ different .css files.
 Nevertheless, that can cause problems when you have different rules that
 could apply to the same element. Consider the following example:
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------- 69. my book chapter 1 section 1.1 (###) ----------------------------->
+<!-------------------------- 69. my book chapter 1 section 1.1 (190) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image069.png?raw=true"
   width="40%"
    title="My Book, Chapter 1, Section 1.1."
-  alt="my book chapter 1 section 1.1." />
+  alt="My Book Chapter 1 Section 1.1." />
 </p>
 
 <h4>CSS</h4>
@@ -9265,12 +9266,12 @@ specific than "article h1" or "h1", and therefore it takes precedence
 resulting in smaller gray text.  However, when you re-arrange the rules
 you get a different result:
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------- 70. my boook chapter 1, section1.1 (###) ---------------------------->
+<!-------------------------- 70. my boook chapter 1, section 1.1 (191) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image070.png?raw=true"
   width="40%"
-  alt="" />
+  alt="My Book Chapter 1 Section 1.1." />
 </p>
 
 <h4>CSS</h4>
@@ -9342,7 +9343,7 @@ settings in the "Styles" panel, however, there is much more information
 there.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 71. styles in the debugger (###) -------------------------------->
+<!------------------------------ 71. styles in the debugger (192) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image071.png?raw=true"
@@ -9356,7 +9357,7 @@ have rules that apply specifically to the currently active element.  In
 fact, changes in this top panel are mirrored as settings in the style
 attribute of the element:
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------- 72. modifying style in debugger (###) ------------------------------>
+<!--------------------------- 72. modifying style in debugger (193) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image072.jpeg?raw=true"
@@ -9382,7 +9383,7 @@ Back to our quandary, why does "article h1" take precedence over
 "section h1"?  Let's take a look at the first version we tried, before
 rearranging, which did what we wanted:
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------- 73. working version in debugger (###) ------------------------------>
+<!--------------------------- 73. working version in debugger (194) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image073.png?raw=true"
@@ -9414,7 +9415,7 @@ than &lt;article&gt;.  We can make this explicit by changing the selector to
 used only on a section that is inside an article, which is really what
 we want:
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------- 74. my book chapter 1 section 1.1 (###) ----------------------------->
+<!-------------------------- 74. my book chapter 1 section 1.1 (195) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image074.png?raw=true"
@@ -9485,7 +9486,7 @@ page, and others as examples of different types of clouds.  We include
 the pictures but the result is unwieldy:
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 75. image of cloud (186) ----------------------------------->
+<!----------------------------------- 75. image of cloud (196) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image075.png?raw=true"
@@ -9619,7 +9620,7 @@ We open up the debugger and choose the &lt;img&gt; tag corresponding to our
 first picture, then we see this in the Styles section:
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------------- 77. debugger (188) -------------------------------------->
+<!-------------------------------------- 77. debugger (198) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image077.png?raw=true"
@@ -10307,13 +10308,16 @@ understanding the content or use assistive technology.
 ```
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 86.  (###) -------------------------------------->
+<!-------------------------------- 86. table example 1.0 (214) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
 <img src="./images/image086.png"
-style="width:4in;height:2.54315in" />
+  style="width:4in;height:2.54315in"
+  alt="Table."/>
+</p>
 
 <details>
-  <summary>HTML code extract!</summary>
+  <summary>HTML table code extract!</summary>
 
 ```
 <!DOCTYPE html>
@@ -10339,7 +10343,7 @@ style="width:4in;height:2.54315in" />
 <h3 id="ch5-2-2">5.2.2 The &lt;tr&gt;, &lt;th&gt;, &lt;td&gt;, &lt;colgroup&gt;, &lt;col&gt; tags</h3>
 <!------------------------------------------------------------------------------------------------>
 
-Let's now create the most basic table with a few cells.
+Let's now create a basic table with a few cells.
 
 ```
 <tr>
@@ -10351,9 +10355,8 @@ Creates a table row.
 <th>
 ```
 
-There are two types of cells in a table - header and
-standard. &lt;th&gt; creates table header cells. The content of table header
-cells is bold and centered by default.
+There are two types of cells in a table - header and standard. &lt;th&gt; creates table header cells. 
+The content of table header cells is bold and centered by default.
 
 ```
 <table border=1>
@@ -10365,7 +10368,7 @@ cells is bold and centered by default.
 ```
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------- 87. table cells  header & standard (215) ---------------------------->
+<!-------------------------- 87. table cells header & standard (215) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image087.png"
@@ -10380,16 +10383,16 @@ cells is bold and centered by default.
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>th</title>
+  <meta charset="UTF-8">
+  <title>th</title>
 </head>
 <body>
-<table border=1>
-<tr>
-<th>Name</th>
-<th>Age</th>
-</tr>
-</table>
+  <table border=1>
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+    </tr>
+  </table>
 </body>
 </html>
 ```
@@ -10397,11 +10400,12 @@ cells is bold and centered by default.
 </details>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 88.  (###) -------------------------------------->
+<!-------------------------- 88. th: colspan, rowspan & scope (215) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image088.png"
-style="width:6.5in;height:3.03681in" />
+  style="width:6.5in;height:3.03681in"
+  alt="Table attributes for 'th' along with purpose and usage./>
 </p>
 
 <h4>&lt;td&gt;</h4>
@@ -10412,7 +10416,7 @@ regular and left-aligned by default.
 <h4>With these tags we can create a simple table.</h4>
 
 <details>
-  <summary>HTML code extract!</summary>
+  <summary>HTML table code extract!</summary>
 
 ```
 <table border=1>
@@ -10434,12 +10438,12 @@ regular and left-aligned by default.
 </details>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ ##. template (##) -------------------------------->
+<!-------------------------- 89. td: colspan, rowspan & headers (217) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image089.png?raw=true"
   width="65%"
-  alt="." />
+  alt="Table attributes for 'td' with purpose and usage." />
 </p>
 
 Now, let's have a look at the &lt;colgroup&gt; and &lt;col&gt; tags
