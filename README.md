@@ -520,8 +520,6 @@ for more details about the difference between Internet and the Web.
 Hello everyone! Welcome to Module 1 of the introduction to HTML5 and CSS
 course.
 
-I'm Andrew and I'll be your instructor for this module.
-
 We have lots of exciting stuff to cover in this module, and we're going
 to also create and edit our very first Web page.
 
@@ -537,9 +535,6 @@ We'll cover best practices, some do's and don'ts of writing HTML5.
 As I mentioned already, throughout this module, you'll have
 opportunities to practice what we're teaching by creating and editing
 your very first Web page.
-
-Finally, you'll have a chance to show off what you've learned in the
-quiz section.
 
 With that, let's jump right in.
 
@@ -6741,8 +6736,8 @@ however, styled differently.
 
 Here is the HTML:
 
-1.  <p>She looked over the top of her book and whispered &lt;q>I'm
-    hungry.</q> My heart stopped.</p>
+1.  <p>She looked over the top of her book and whispered &lt;q&gt;I'm
+    hungry.&lt;/q&gt; My heart stopped.</p>
 
 And now two very different looks:
 
@@ -6775,10 +6770,10 @@ style="width:1.5625in;height:1.5625in"
 -------->
 
 The best practice when working with CSS is to keep it in an external
-file using the <link> tag, however, when starting, it is simpler to
+file using the &lt;link&gt; tag, however, when starting, it is simpler to
 merely place it directly into the document under edit.  
 
-To place CSS directly into an HTML document, we use the <style> tag.
+To place CSS directly into an HTML document, we use the &lt;style&gt; tag.
  This tag can appear anywhere in an HTML document, however, the most
 common practice is to place it in the &lt;head&gt; section.  Such as:
 
@@ -6804,15 +6799,15 @@ common practice is to place it in the &lt;head&gt; section.  Such as:
 
 <h4>The &lt;link&gt; tag</h4>
 
-While <style> is convenient, the better practice is to put the
+While &lt;style&gt; is convenient, the better practice is to put the
 CSS into a separate file. One of the key advantages of using a separate
 file is that the CSS styles can easily be re-used between your different
 .html pages.  Many authors further divide their CSS up into different
 files (for example: one for text styles and another one for layout).  
 
 Simply put your CSS into a separate file. This file does not need any
-HTML markup (i.e., no <style> tag required).  Use the .css file
-extension and use a <link> tag to bind it in. The <link> tag must
+HTML markup (i.e., no &lt;style&gt; tag required).  Use the .css file
+extension and use a &lt;link&gt; tag to bind it in. The &lt;link&gt; tag must
 appear in the &lt;head&gt; section.  By convention, css files are kept in a
 directory named <i>css</i>.
 
@@ -8196,7 +8191,7 @@ facing:
 
 We merely separate the tag, identifier, or class selectors by a space.
 
-So, in the first rule, we see that the selector will match to any
+In the first rule, we see that the selector will match to any
 &lt;a&gt; tag that is a descendant of #intro.  The &lt;a&gt; tag can appear
 directly within #intro, or be buried within its children.  Here is the
 result:
@@ -9162,7 +9157,7 @@ hover over one of the rectangles, that portion of element is highlighted
 on the rendered page, so you can see exactly where the margin, the
 border, the padding and the element are.
 
-So, in the example above:
+In the example above:
 <ul>
 <li>the centered blue box corresponds to the size of the inspected
     element: width is 536 pixels and height is 118 pixels,</li>
@@ -9629,7 +9624,7 @@ first picture, then we see this in the Styles section:
 <p align="center" width="100%">
 <img src="./images/image077.png?raw=true"
   width="35%"
-  alt="img width precedence in debugger" />
+  alt="img width precedence in debugger." />
 </p>
 
 The specialized width setting that we added as an img attribute isn't
@@ -11862,7 +11857,7 @@ And the 'thead' element allows us to specify that this will become a
 And then, we can use that information to apply CSS stylesheets for how
 we want it to look.
 
-So, let's pace that in here.
+So, let's paste that in here.
 
 We'll do a little more document reformatting, just so things look a
 little bit better.
@@ -13283,7 +13278,7 @@ rarely hovering or clicking over/into "just one" item. At any given
 moment, the mouse is usually over several elements, because if it is
 over a child element, it will be over the parent, grandparent, and great
 grandparent.  Therefore, if you have two different style rules, such
-as li:hover and ul:hover, then they will <i>both</i> be activated,  when the
+as li:hover and ul:hover, then they will <i>both</i> be activated, when the
 mouse is over one of the list items.  
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- 130. hover pseudo-class  (280) --------------------------------->
@@ -13336,9 +13331,13 @@ the cursor property in the context of an :active style. 
 
 There are many possible values for the cursor property.  Their exact
 representation may vary slightly from browser to browser.  Common values
-include: default, pointer, text, move and grab.  (Hover over each value
+include: default, pointer, text, move and grab. (Hover over each value
 to see). In addition, some browsers support a custom image as
-well  ( cursor: url("images/my_pointer.png"); ).
+well 
+
+```
+( cursor: url("images/my_pointer.png"); ).
+```
 
 For more information, please visit the [MDN page on
 cursor](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor).
@@ -13378,7 +13377,7 @@ W3C.
     and ruins your layout.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 132. keep the web open (282) -------------------------------->
+<!-------------------------------- 132. keep the web open (282) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image132.jpeg?raw=true"
@@ -15788,4 +15787,4 @@ These are the final changes to our recipe project for this unit.
 
 <h6>The end...</h6>
 
-<h4><b>Last Updated 10-13-2022 7:05pm</b></h4>
+<h4><b>Last Updated 10-15-2022 2:33pm</b></h4>
