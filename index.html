@@ -1069,6 +1069,10 @@ Generalized Markup Language</a>), which uses angle brackets (“&lt;” and
 “&gt;”) to separate the annotations from the regular text.  In HTML
 these annotations are called “tags”.</p>
 <p>For example, consider the following chunk of HTML code:</p>
+<details>
+<summary>
+HTML code extract!
+</summary>
 <div class="sourceCode" id="cb1"><pre
 class="sourceCode xml"><code class="sourceCode xml"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>&lt;<span class="kw">body</span>&gt;</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  &lt;<span class="kw">h1</span>&gt;A Tale of Two Cities&lt;/<span class="kw">h1</span>&gt;</span>
@@ -1082,6 +1086,7 @@ class="sourceCode xml"><code class="sourceCode xml"><span id="cb1-1"><a href="#c
 <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    that I go to than I have ever known.</span>
 <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  &lt;/<span class="kw">p</span>&gt;</span>
 <span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>&lt;/<span class="kw">body</span>&gt;</span></code></pre></div>
+</details>
 <p>
 <p>If you eliminated everything in between the angle brackets from the
 text, for most purposes it would still read the same:</p>
@@ -1827,6 +1832,10 @@ context, and knowing that mistakes happen choose the one she thinks is
 best suited in that case. A browser, on the other hand, has difficulty
 with a task like that, so it is helpful to use a close tag that matches
 the open tag to make things absolutely clear.</p>
+<details>
+<summary>
+HTML code extract!
+</summary>
 <pre><code>&lt;p&gt;
 The old lady pulled her spectacles
 down and looked over them about the
@@ -1838,6 +1847,7 @@ and she turned just in time to seize a
 small boy by the slack of his roundabout
 and arrest his flight.
 &lt;/p&gt;</code></pre>
+</details>
 <p>The old lady pulled her spectacles down and looked over them about
 the room; then she put them up and looked out under them. There was a
 slight noise behind her and she turned just in time to seize a small boy
@@ -1907,6 +1917,10 @@ You may recall the paragraph tag &lt;p&gt; that we used in the example
 above. Try inserting a paragraph into the body of your new document.
  You should end up with something that looks like this:
 </p>
+<details>
+<summary>
+HTML code extract!
+</summary>
 <pre><code>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
    &lt;head&gt;
@@ -1918,6 +1932,7 @@ above. Try inserting a paragraph into the body of your new document.
       &lt;/p&gt;
    &lt;/body&gt;
 &lt;/html&gt;</code></pre>
+</details>
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-4-1">
 1.4.1 Character Encoding
@@ -2037,11 +2052,15 @@ Why we need character references
 the need for them came about. </p>
 Try the following code in your HTML:
 </p>
-<pre><code>  &lt;p&gt;Welcome to &quot;HTML5 &amp; CSS Fundamentals&quot;. The first tag we will be
-    learning about is  the &lt;html&gt; tag.&lt;/p&gt;</code></pre>
+<pre><code>&lt;p&gt;Welcome to &quot;HTML5 &amp; CSS Fundamentals&quot;. The first tag we will be
+   learning about is  the &lt;html&gt; tag.&lt;/p&gt;</code></pre>
 <h4>
 HTML
 </h4>
+<details>
+<summary>
+HTML code extract!
+</summary>
 <pre><code> &lt;!DOCTYPE html&gt;
  &lt;html lang=&quot;en&quot;&gt;
  &lt;head&gt;
@@ -2054,6 +2073,7 @@ HTML
  &lt;html&gt; tag.&lt;/p&gt;
  &lt;/body&gt;
  &lt;/html&gt;</code></pre>
+</details>
 <p>
 Did you notice the 
 <html>
@@ -2224,6 +2244,10 @@ You have to write it like this in your HTML code:
 <h4>
 HTML:
 </h4>
+<details>
+<summary>
+HTML code extract!
+</summary>
 <pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
@@ -2239,6 +2263,7 @@ HTML:
     &lt;/p&gt;
   &lt;/body&gt;
 &lt;/html&gt;</code></pre>
+</details>
 <p>
 <p>Some tolerant browsers will allow using the &amp; character directly
 but <b>not</b> all. So you should use its character
@@ -2329,6 +2354,10 @@ entail a fine of € 400&lt;/p&gt;
 <h4>
 HTML:
 </h4>
+<details>
+<summary>
+HTML code extract!
+</summary>
 <pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
    &lt;head&gt;
@@ -2339,6 +2368,7 @@ HTML:
       &lt;p&gt;This is © 2015. Breach will entail a fine of € 400&lt;/p&gt;
       &lt;/body&gt;
 &lt;/html&gt;</code></pre>
+</details>
 <p>There is no need for the © or € HTML character reference if you are
 able to type the character itself.</p>
 <p>If you’d like to read more information about when to use character
@@ -2678,6 +2708,10 @@ level in a group of nested sections.</p></li>
 <h4>
 HTML
 </h4>
+<details>
+<summary>
+HTML code extract!
+</summary>
 <div class="sourceCode" id="cb37"><pre
 class="sourceCode xml"><code class="sourceCode xml"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;!DOCTYPE</span> <span class="dt">html&gt;</span></span>
 <span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>&lt;<span class="kw">html</span><span class="ot"> lang=</span><span class="st">&quot;en&quot;</span>&gt;</span>
@@ -2692,6 +2726,7 @@ class="sourceCode xml"><code class="sourceCode xml"><span id="cb37-1"><a href="#
 <span id="cb37-11"><a href="#cb37-11" aria-hidden="true" tabindex="-1"></a>      &lt;<span class="kw">h3</span>&gt;I. The Period&lt;/<span class="kw">h3</span>&gt;</span>
 <span id="cb37-12"><a href="#cb37-12" aria-hidden="true" tabindex="-1"></a>   &lt;/<span class="kw">body</span>&gt;</span>
 <span id="cb37-13"><a href="#cb37-13" aria-hidden="true" tabindex="-1"></a>&lt;/<span class="kw">html</span>&gt;</span></code></pre></div>
+</details>
 Though you theoretically should not think about what it looks like, it
 will typically appear as large, possibly bold text in your document, to
 mark a separation or beginning of some new section.  &lt;h2&gt; is
@@ -2702,7 +2737,7 @@ when nesting them. <b>Headings are really useful for some assistive
 technology users and missing levels can be confusing</b>.
 <ul>
 <li>
-<b>&lt;p&gt;</b> - <i><b>P</b></i> is for ‘paragraph’, which is the tag
+<b>&lt;p&gt;</b> - <i><b>p</b></i> is for ‘paragraph’, which is the tag
 you may use to arrange much of your text information.  Depending on the
 style you are using, text wrapped in a &lt;p&gt; tag may be indented or
 have extra vertical white space before starting.  When rendered on the
@@ -2712,6 +2747,10 @@ Web page, a <i>p</i> element creates a new line.
 <h4>
 HTML
 </h4>
+<details>
+<summary>
+HTML code extract!
+</summary>
 <div class="sourceCode" id="cb38"><pre
 class="sourceCode xml"><code class="sourceCode xml"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;!DOCTYPE</span> <span class="dt">html&gt;</span></span>
 <span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a>   &lt;<span class="kw">html</span><span class="ot"> lang=</span><span class="st">&quot;en&quot;</span>&gt;</span>
@@ -2728,6 +2767,7 @@ class="sourceCode xml"><code class="sourceCode xml"><span id="cb38-1"><a href="#
 <span id="cb38-13"><a href="#cb38-13" aria-hidden="true" tabindex="-1"></a>   &lt;/<span class="kw">p</span>&gt;</span>
 <span id="cb38-14"><a href="#cb38-14" aria-hidden="true" tabindex="-1"></a>   &lt;/<span class="kw">body</span>&gt;</span>
 <span id="cb38-15"><a href="#cb38-15" aria-hidden="true" tabindex="-1"></a>&lt;/<span class="kw">html</span>&gt;</span></code></pre></div>
+</details>
 <p>
 You might notice that when discussing how these different elements are
 rendered (i.e. what they look like to the end user), you will find
@@ -2908,6 +2948,10 @@ Please start with this “empty page” in CodePen:
 <h4>
 HTML
 </h4>
+<details>
+<summary>
+HTML code extract!
+</summary>
 <div class="sourceCode" id="cb42"><pre
 class="sourceCode xml"><code class="sourceCode xml"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;!DOCTYPE</span> <span class="dt">html&gt;</span></span>
 <span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a>&lt;<span class="kw">html</span><span class="ot"> lang=</span><span class="st">&quot;en&quot;</span>&gt;</span>
@@ -2918,6 +2962,11 @@ class="sourceCode xml"><code class="sourceCode xml"><span id="cb42-1"><a href="#
 <span id="cb42-7"><a href="#cb42-7" aria-hidden="true" tabindex="-1"></a>  &lt;<span class="kw">body</span>&gt;</span>
 <span id="cb42-8"><a href="#cb42-8" aria-hidden="true" tabindex="-1"></a>  &lt;/<span class="kw">body</span>&gt;</span>
 <span id="cb42-9"><a href="#cb42-9" aria-hidden="true" tabindex="-1"></a>&lt;/<span class="kw">html</span>&gt;</span></code></pre></div>
+</details>
+<details>
+<summary>
+HTML code extract!
+</summary>
 <div class="sourceCode" id="cb43"><pre
 class="sourceCode xml"><code class="sourceCode xml"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;!DOCTYPE</span> <span class="dt">html&gt;</span></span>
 <span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a>&lt;<span class="kw">html</span><span class="ot"> lang=</span><span class="st">&quot;en&quot;</span>&gt;</span>
@@ -2949,6 +2998,7 @@ class="sourceCode xml"><code class="sourceCode xml"><span id="cb43-1"><a href="#
 <span id="cb43-28"><a href="#cb43-28" aria-hidden="true" tabindex="-1"></a>    &lt;/<span class="kw">ol</span>&gt;</span>
 <span id="cb43-29"><a href="#cb43-29" aria-hidden="true" tabindex="-1"></a>  &lt;/<span class="kw">body</span>&gt;</span>
 <span id="cb43-30"><a href="#cb43-30" aria-hidden="true" tabindex="-1"></a>&lt;/<span class="kw">html</span>&gt;</span></code></pre></div>
+</details>
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-1-1">
 2.1.1 Welcome to Module 2
@@ -3983,7 +4033,7 @@ information or repeating content. </p>
 like this:</p>
 <details>
 <summary>
-HTML
+HTML code extract!
 </summary>
 <pre class="html5"><code>1.  &lt;!DOCTYPE html&gt;
 2.  &lt;html lang=&quot;en&quot;&gt;
@@ -4407,7 +4457,7 @@ sidebar. The following code will only create structure to your document,
 not any visual change:</p>
 <details>
 <summary>
-HTML
+HTML code extract!
 </summary>
 <pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
@@ -4562,6 +4612,10 @@ select ‘view page source’.</p>
 <p>If you view page source on the W3C specification and do a search for
 ‘&lt;header&gt;’, you will be able to view the contents of the header
 element. <b>Here’s a simplified version</b>:</p>
+<details>
+<summary>
+HTML code extract!
+</summary>
 <pre class="html5"><code>&lt;header&gt;
 &lt;!-- You will learn about the &lt;a&gt; and &lt;img&gt; tags later in this chapter--&gt;
    &lt;p&gt;
@@ -4572,6 +4626,7 @@ element. <b>Here’s a simplified version</b>:</p>
    &lt;h1&gt;HTML 5.2&lt;/h1&gt;
    &lt;h2&gt;W3C Recommendation, 14 December 2017&lt;/h2&gt;
 &lt;/header&gt;</code></pre>
+</details>
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 30. html5.2x header and headings (91) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4590,6 +4645,10 @@ technology often relies on the semantics of headings to understand your
 document’s structure. More information is provided
 in <a href="https://www.w3.org/TR/WCAG20-TECHS/H42.html">Using h1-h6 to
 identify headings</a>.</p>
+<details>
+<summary>
+HTML code extract!
+</summary>
 <div class="sourceCode" id="cb70"><pre
 class="sourceCode xml"><code class="sourceCode xml"><span id="cb70-1"><a href="#cb70-1" aria-hidden="true" tabindex="-1"></a>&lt;<span class="kw">body</span>&gt;</span>
 <span id="cb70-2"><a href="#cb70-2" aria-hidden="true" tabindex="-1"></a>   &lt;<span class="kw">h1</span>&gt;Brad&#39;s Cookbook&lt;/<span class="kw">h1</span>&gt;</span>
@@ -4605,6 +4664,7 @@ class="sourceCode xml"><code class="sourceCode xml"><span id="cb70-1"><a href="#
 <span id="cb70-12"><a href="#cb70-12" aria-hidden="true" tabindex="-1"></a>         &lt;<span class="kw">h4</span>&gt;Description:&lt;/<span class="kw">h4</span>&gt;</span>
 <span id="cb70-13"><a href="#cb70-13" aria-hidden="true" tabindex="-1"></a>           &lt;<span class="kw">p</span>&gt;If you can&#39;t get fresh peaches, frozen to the rescue!&lt;/<span class="kw">p</span>&gt;</span>
 <span id="cb70-14"><a href="#cb70-14" aria-hidden="true" tabindex="-1"></a>&lt;/<span class="kw">body</span>&gt;</span></code></pre></div>
+</details>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 31. brad's cookbook in codepen (92) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
@@ -4704,7 +4764,7 @@ multiple &lt;header&gt;, &lt;footer&gt; and &lt;nav&gt; tags.</p>
 </p>
 <details>
 <summary>
-HTML
+HTML code extract!
 </summary>
 <div class="sourceCode" id="cb71"><pre
 class="sourceCode xml"><code class="sourceCode xml"><span id="cb71-1"><a href="#cb71-1" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;!DOCTYPE</span> <span class="dt">html&gt;</span></span>
@@ -4798,6 +4858,10 @@ In <a href="https://codepen.io/w3devcampus/pen/oWqbad" target="_blank">Brad’s
 Blog example</a> in the previous unit, if you extract only the first
 article, you can see that it will make sense all by itself without any
 context. It can be reused anywhere else.</p>
+<details>
+<summary>
+HTML code extract!
+</summary>
 <pre><code>&lt;article id=&quot;ces&quot;&gt;
   &lt;header&gt;
     &lt;h2&gt;CES 2018&lt;/h2&gt;
@@ -4811,6 +4875,7 @@ libero.&lt;/p&gt;
     &lt;p&gt;Written by guest author Nicholas Abc. Read Nicholas&#39;s blog here.&lt;/p&gt;
   &lt;/footer&gt;
 &lt;/article&gt;</code></pre>
+</details>
 <p>One article element can be nested inside another. For example, if you
 have a blog post and you want to include a forum post or newspaper
 article in it, you can nest it in another &lt;article&gt; tag. </p>
@@ -4857,7 +4922,7 @@ HTML:
 </h4>
 <details>
 <summary>
-HTML
+HTML code extract!
 </summary>
 <pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
@@ -4905,7 +4970,7 @@ href="https://codepen.io/w3devcampus/pen/Wjzjpx">CodePen</a>:</p>
 </p>
 <details>
 <summary>
-HTML
+HTML code extract!
 </summary>
 <pre><code>&lt;!DOCTYPE html&gt;
 &lt;!--HTML5 doctype--&gt;
@@ -4998,7 +5063,7 @@ Older browsers ignore new HTML5 constructs…
 </p>
 <details>
 <summary>
-HTML
+HTML code extract!
 </summary>
 <pre><code>&lt;/section&gt;
 &lt;!-- Our logo section show hows to use the semantic elements figure and figcaption--&gt;
@@ -5080,7 +5145,7 @@ in its place.</p>
 <p>We will see an example of &lt;div&gt; here:</p>
 <details>
 <summary>
-HTML
+HTML code extract!
 </summary>
 <pre><code>&lt;section&gt;
   &lt;h2&gt;Week 1&lt;/h2&gt;
@@ -5857,6 +5922,10 @@ underlined.</p>
 Usage
 </h4>
 <p>The &lt;a&gt; tag can surround text or an image. </p>
+<details>
+<summary>
+HTML code extract!
+</summary>
 <pre><code>&lt;!-- Text in a hyperlink--&gt;
 &lt;a href=&quot;https://www.qwant.com/&quot;&gt;If you click on me, I will take
   you to qwant.com&lt;/a&gt;
@@ -5866,6 +5935,7 @@ Usage
 &lt;!-- Image in a hyperlink--&gt;
 &lt;a href=&quot;https://www.qwant.com/&quot;&gt;&lt;img src=&quot;images/qwant-image.png&quot; alt=&quot;Image
    navigating to Qwant&quot;&gt;&lt;/a&gt;</code></pre>
+</details>
 <p>You can even use the anchor element to add your email address under
 the contacts section of your Web page. </p>
 <pre><code>&lt;p&gt;Feedback: &lt;a href=&quot;mailto:authors@example.com&quot;&gt;Send Mail to
@@ -6251,7 +6321,7 @@ HTML
 </h4>
 <details>
 <summary>
-HTML
+HTML code extract!
 </summary>
 <pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
@@ -6634,6 +6704,10 @@ To place CSS directly into an HTML document, we use the 
 <p> tag.  This tag can appear anywhere in an HTML document, however, the
 most common practice is to place it in the &lt;head&gt; section.  Such
 as:</p>
+<details>
+<summary>
+HTML code extract!
+</summary>
 <pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
@@ -6646,6 +6720,7 @@ as:</p>
   &lt;body&gt;
   &lt;/body&gt;
 &lt;/html&gt;</code></pre>
+</details>
 <h4>
 The &lt;link&gt; tag
 </h4>
@@ -6669,6 +6744,10 @@ Use this &lt;link&gt; as a template:
 <h4>
 Here is an example HTML document.
 </h4>
+<details>
+<summary>
+HTML code extract!
+</summary>
 <pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
@@ -6679,6 +6758,7 @@ Here is an example HTML document.
   &lt;body&gt;
   &lt;/body&gt;
 &lt;/html&gt;</code></pre>
+</details>
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch3-2-2">
 3.2.2 Rules: selectors and declarations
@@ -6741,6 +6821,10 @@ today, can leave notes and reminders to you, a different developer
 tomorrow. Or to others who might read your CSS.  </p>
 <p>Comments begin with / and <b>must</b> end with / and they can span
 several lines. But they <b>cannot</b> be nested.</p>
+<details>
+<summary>
+CSS code extract!
+</summary>
 <pre><code>p {
    font-size: 8px; /* client insists small text makes them more &#39;professional&#39;. */
    /* I hope his idea of &#39;professional&#39; includes paying on time. */
@@ -6750,6 +6834,7 @@ several lines. But they <b>cannot</b> be nested.</p>
    margin-bottom:6%;
    */
 }</code></pre>
+</details>
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch3-2-4">
 3.2.4 Knowledge Check
@@ -6767,7 +6852,7 @@ working with the same source.</p>
 <p>You are welcome to edit the following
 <a href="https://codepen.io/w3devcampus/pen/QvQgbr" target="_blank">CodePen.</a></p>
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- 54. the inventor of gunpower by john milton (139) ----------------------->
+<!-------------------- 54. on the inventor of gunpower by john milton (139) ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image054.png?raw=true"
@@ -6778,7 +6863,7 @@ working with the same source.</p>
 editor):</p>
 <details>
 <summary>
-HTML
+HTML code extract!
 </summary>
 <pre><code>&lt;!DOCTYPE html&gt;
   &lt;html lang=&quot;en&quot;&gt;
@@ -6809,7 +6894,15 @@ styles you like on it.</p>
 <p>Hi, this is Adrian from Microsoft learning, and we’re going to be
 learning today about CSS and HTML, and the ways in which they play
 together.</p>
-<!----------------------- image page 140 ---------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!-------------------- 54b. on the inventor of gunpower by john milton (140) --------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image054b.png?raw=true"
+  width="65%"
+  alt="On the Inventor of Gunpower, by John Milton." />
+</p>
+<!----------------------- image page 140 image054b.png ---------------------------->
 <p>If you look at this file that I have opened right now in Visual
 Studio Code, it’s the Gunpowder file which you should be at least a
 little bit familiar with from the lesson, and it’s pretty
@@ -6819,7 +6912,15 @@ straightforward.</p>
 make it look and feel a little bit different.</p>
 <p>And we’ve got our header tag, we’ve got our address and of course the
 poem which is being held in this fantastic paragraph tag.</p>
-<!----------------------- image page 141 ---------------------------->
+<!----------------------- image page 141 image055b.png ---------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!-------------------- 55b. on the inventor of gunpower by john milton (141) --------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image055b.png?raw=true"
+  width="65%"
+  alt="On the Inventor of Gunpower, by John Milton." />
+</p>
 <p>Before we get started, let’s just take a look at what this looks like
 here in the Microsoft Edge.</p>
 <p>And you can see it’s pretty straightforward.</p>
@@ -6851,7 +6952,15 @@ attribute.</p>
 <p>Let’s open up the file again and see how that looks.</p>
 <p>You can see it’s a little bit bigger, but I want to make this 25.</p>
 <p>It’s not quite big enough yet.</p>
-<!----------------------- image page 142 ---------------------------->
+<!----------------------- image page 142 image056b.png ---------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!-------------------- 56b. on the inventor of gunpower by john milton (142) --------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image056b.png?raw=true"
+  width="65%"
+  alt="On the Inventor of Gunpower, by John Milton." />
+</p>
 <p>We’ll refresh the page, and you can see the size has been changed
 very slightly.</p>
 <p>That looks good, but I think this by John Milton text is a little bit
@@ -8147,6 +8256,10 @@ Descendant selectors
 <p>In the following HTML, we see some paragraphs that have some links
 (<a>) inside. The link tags are inside the paragraphs, but not
 necessarily direct children.</p>
+<details>
+<summary>
+HTML code extract!
+</summary>
 <pre><code>&lt;section id=&quot;intro&quot;&gt;Welcome to &lt;a href=&quot;#palaceland&quot;&gt;PalaceLand&lt;/a&gt;, world renown 
    &lt;q&gt;Land of endless palaces and &lt;a href=&quot;#delight&quot;&gt;delights&lt;/a&gt;&lt;/q&gt;. 
    As you make your way about, remember the words of our founder &lt;blockquote&gt;Shouldn&#39;t we
@@ -8158,6 +8271,7 @@ necessarily direct children.</p>
    But the spirit of the guidelines are best summed up by our founder &lt;blockquote&gt;Don&#39;t just &lt;a href=&quot;#standthere&quot;&gt;stand
    there&lt;/a&gt; with your mouth hanging open waiting for a pair of nesting birds.&lt;/blockquote&gt; (and no &lt;a href=&quot;#camera_policy&quot;&gt;flash
    photography&lt;/a&gt; please.)&lt;/section&gt;</code></pre>
+</details>
 <p>What if we wanted all the links in the introductory section to be
 red, but all the link in the guideline section to be green?  That is
 what descendant selectors are for. Here is an example for the problem we
@@ -8507,6 +8621,10 @@ test!</p>
 <h4>
 HTML
 </h4>
+<details>
+<summary>
+HTML code extract!
+</summary>
 <pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 
@@ -8544,7 +8662,10 @@ HTML
   &lt;/ol&gt;
 &lt;/body&gt;
 &lt;/html&gt;</code></pre>
-<p>Result</p>
+</details>
+<h4>
+Result:
+</h4>
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch3-4-7">
 3.4.7 Activity - CSS selectors
@@ -8567,7 +8688,7 @@ HTML
 </h4>
 <details>
 <summary>
-Source code!
+HTML code extract!
 </summary>
 <pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
@@ -8627,7 +8748,7 @@ Here</a></p>
 </p>
 <details>
 <summary>
-HTML
+HTML code extract!
 </summary>
 <div class="sourceCode" id="cb143"><pre
 class="sourceCode xml"><code class="sourceCode xml"><span id="cb143-1"><a href="#cb143-1" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;!DOCTYPE</span> <span class="dt">html&gt;</span></span>
@@ -8865,21 +8986,25 @@ tab activated.  Once you do that, you can modify CSS properties of the
 current element by adding them to the “element.style” box at the top of
 the “Styles” panel.</p>
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 59.  (###) -------------------------------------->
+<!----------------------------------- 59. modify html5 (180) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p><img src="./images/image059.png"
-style="width:5in;height:1.73333in"
-alt="Screenshot of MS Edge showing modifying in the developers tools" /></p>
+<p align="center" width="100%">
+&lt;img src=“./images/image059.png” style=“width:5in;height:1.73333in”
+alt=“Screenshot of MS Edge showing modifying in the developers tools.
+/&gt;
+</p>
 <p>Just click in between the two curly braces on the “Inline style” rule
 at the top of the Styles panel.  After clicking you should see a little
 text entry box with which you can type property value pairs that will
 then effect the currently active element.</p>
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 60.  (###) -------------------------------------->
+<!----------------------------------- 60. modify html5 (180) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p><img src="./images/image060.png"
-style="width:5in;height:3.01603in"
-alt="Screenshot of MSEdge developer tools showing changing text color in developers tools" /></p>
+<p align="center" width="100%">
+<img src="./images/image060.png"
+  style="width:5in;height:3.01603in"
+  alt="Screenshot of MSEdge developer tools showing changing text color in developers tools." />
+</p>
 <p>It’s important to know that any changes you make in the developer
 tools will have no effect on the original Web page. They only affect
 that particular instance of that page during that debugging session. If
@@ -8940,7 +9065,7 @@ border: border-width (the size of your imaginary
 pen), border-style (dashed, dotted,  solid, etc.) and border-color (the
 color of your pen).  In fact these are so commonly specified that there
 is a shorthand syntax to set all three in one line:</p>
-<pre><code>   border: 5px solid blue;</code></pre>
+<pre><code>border: 5px solid blue;</code></pre>
 <p>There are many other shortcuts to learn, but this one is fairly
 common.  To draw a border you need to know the width, style and color.
  There are defaults for these values, so you technically don’t need to
@@ -9142,6 +9267,10 @@ could apply to the same element. Consider the following example:
 <h4>
 CSS
 </h4>
+<details>
+<summary>
+CSS code extract!
+</summary>
 <pre><code>h1{
 color:blue;
 font-size: 2rem;
@@ -9154,12 +9283,13 @@ section h1{
 color:grey;
 font-size:1.2rem;
 }</code></pre>
+</details>
 <h4>
 HTML
 </h4>
 <details>
 <summary>
-HTML
+HTML code extract!
 </summary>
 <pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
@@ -9205,6 +9335,10 @@ you get a different result:
 <h4>
 CSS
 </h4>
+<details>
+<summary>
+CSS code extract!
+</summary>
 <pre><code>section h1{
 color:grey;
 font-size:1.2rem;
@@ -9217,12 +9351,13 @@ h1{
 color:blue;
 font-size: 2rem;
 }</code></pre>
+</details>
 <h4>
 HTML
 </h4>
 <details>
 <summary>
-HTML
+HTML code extract!
 </summary>
 <pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
@@ -9336,6 +9471,10 @@ really what we want:
 <h4>
 CSS
 </h4>
+<details>
+<summary>
+CSS code extract!
+</summary>
 <pre><code>h1{
 color:blue;
 font-size: 2rem;
@@ -9348,12 +9487,13 @@ section h1{
 color:grey;
 font-size:1.2rem;
 }</code></pre>
+</details>
 <h4>
 HTML
 </h4>
 <details>
 <summary>
-HTML
+HTML code extract!
 </summary>
 <pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
@@ -9399,7 +9539,7 @@ HTML
 </h4>
 <details>
 <summary>
-HTML
+HTML code extract!
 </summary>
 <pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
@@ -9440,12 +9580,12 @@ modifying it in the “Styles” panel and we decide on this:</p>
 }</code></pre>
 <p>Giving a much more reasonable page:</p>
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 76. cloud image (187) -------------------------------------->
+<!----------------------------------- 76. cloud image (197) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image076.png?raw=true"
   width="65%"
-  alt="Cloud image in debugger" />
+  alt="Cloud image in debugger." />
 </p>
 <h4>
 CSS
@@ -9458,7 +9598,7 @@ HTML
 </h4>
 <details>
 <summary>
-HTML
+HTML code extract!
 </summary>
 <pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
@@ -9536,9 +9676,9 @@ That looks better:
 <!------------------------------- 78. cloud image-codepen (198) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image078.jpeg?raw=true"
+<img src="./images/image078.png?raw=true"
   width="65%"
-  alt="Cloud image-codepen" />
+  alt="Cloud image-codepen." />
 </p>
 <h4>
 CSS
@@ -9554,7 +9694,7 @@ HTML:
 </h4>
 <details>
 <summary>
-HTML
+HTML code extract!
 </summary>
 <pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
@@ -9597,12 +9737,12 @@ the <a href="http://codepen.io/w3devcampus/pen/wdxegK" target="_blank">CodePen<
 The main content is an outline for an essay and it should look something
 like this:</p>
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 79. Easy outline-code results (199) ------------------------------->
+<!---------------------------- 79. Essay outline-code results (201) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image079.png?raw=true"
   width="40%"
-  alt="Easy outline-codepen results" />
+  alt="Essay outline-codepen results." />
 </p>
 <h4>
 CSS:
@@ -9618,7 +9758,7 @@ HTML
 </h5>
 <details>
 <summary>
-HTML
+HTML code extract!
 </summary>
 <pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
@@ -9668,12 +9808,12 @@ is the over-ridden font-size setting identical to the current one, i.e.
 <li>
 <p> elements.</p>
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 80. debugging font-size (###) ------------------------------>
+<!----------------------------------- 80. debugging font-size (203) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image080.png?raw=true"
   width="65%"
-  alt="Debugging font-size" />
+  alt="Debugging font-size." />
 </p>
 <p>
 <p>The styles panel doesn’t tell us a lot about the actually font-size
@@ -9687,12 +9827,12 @@ you’ll see is a long list of properties starting with ‘-webkit’.  We’re
 going to scroll down past those to “font-size” which reveals this:
 </p>
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 81.  (###) -------------------------------------->
+<!-------------------------------- 81. computed font-size (204) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image081.png?raw=true"
   width="45%"
-  alt="Debugging font-size after opening the &#39;Computed&#39; tab" />
+  alt="Debugging font-size after opening the &#39;Computed&#39; tab." />
 </p>
 <p>This tells us that the font-size on the innermost list item is only
 3px.  No wonder it’s unreadable!</p>
@@ -9701,12 +9841,12 @@ can expand the details on font-size, which makes a little more clear
 what’s going on.  We see that the font-size on the body is 24px, but
 there are several repetitions of the li .5em.</p>
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 82.  (###) -------------------------------------->
+&lt;-!———————————– 82. font-size (204) —————————————&gt;
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image082.png?raw=true"
   width="45%"
-  alt="Computed tab for font-size" />
+  alt="Computed tab for font-size." />
 </p>
 If we look at the next outer list item, we see that the font-size is
 6px, and the one outside of that is 12px.  This doubling makes it clear
@@ -9732,33 +9872,40 @@ little more flair.</p>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 83. example: my favorite recipes (205) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p><img src="./images/image083.png"
-style="width:4.96875in;height:2.73958in" /></p>
+<p align="center" width="100%">
+<img src="./images/image083.png"
+  style="width:4.96875in;height:2.73958in"
+  alt="My Favorite Recipes web site." />
+</p>
 <h4>
 CSS:
 </h4>
-<div class="sourceCode" id="cb162"><pre
-class="sourceCode css"><code class="sourceCode css"><span id="cb162-1"><a href="#cb162-1" aria-hidden="true" tabindex="-1"></a>nav {</span>
-<span id="cb162-2"><a href="#cb162-2" aria-hidden="true" tabindex="-1"></a><span class="kw">background</span>: <span class="cn">aliceblue</span><span class="op">;</span></span>
-<span id="cb162-3"><a href="#cb162-3" aria-hidden="true" tabindex="-1"></a><span class="kw">width</span>: <span class="dv">12</span><span class="dt">rem</span><span class="op">;</span></span>
-<span id="cb162-4"><a href="#cb162-4" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb162-5"><a href="#cb162-5" aria-hidden="true" tabindex="-1"></a>img {</span>
-<span id="cb162-6"><a href="#cb162-6" aria-hidden="true" tabindex="-1"></a><span class="kw">width</span>: <span class="dv">300</span><span class="dt">px</span><span class="op">;</span></span>
-<span id="cb162-7"><a href="#cb162-7" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb162-8"><a href="#cb162-8" aria-hidden="true" tabindex="-1"></a>article {</span>
-<span id="cb162-9"><a href="#cb162-9" aria-hidden="true" tabindex="-1"></a><span class="kw">margin-left</span>: <span class="dv">3</span><span class="dt">rem</span><span class="op">;</span></span>
-<span id="cb162-10"><a href="#cb162-10" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb162-11"><a href="#cb162-11" aria-hidden="true" tabindex="-1"></a>h1 {</span>
-<span id="cb162-12"><a href="#cb162-12" aria-hidden="true" tabindex="-1"></a><span class="kw">text-align</span>: <span class="dv">center</span><span class="op">;</span></span>
-<span id="cb162-13"><a href="#cb162-13" aria-hidden="true" tabindex="-1"></a><span class="kw">background</span>: <span class="cn">blue</span><span class="op">;</span></span>
-<span id="cb162-14"><a href="#cb162-14" aria-hidden="true" tabindex="-1"></a><span class="kw">color</span>: <span class="cn">white</span><span class="op">;</span></span>
-<span id="cb162-15"><a href="#cb162-15" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<details>
+<summary>
+CSS code extract!
+</summary>
+<pre><code>nav {
+background: aliceblue;
+width: 12rem;
+}
+img {
+width: 300px;
+}
+article {
+margin-left: 3rem;
+}
+h1 {
+text-align: center;
+background: blue;
+color: white;
+}</code></pre>
+</details>
 <h4>
 HTML:
 </h4>
 <details>
 <summary>
-HTML
+HTML code extract!
 </summary>
 <pre class="html5"><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
@@ -9862,16 +10009,19 @@ images.</p>
 <p>If you’d like to see what we did for the module 3, you can find it in
 the CodePen below:</p>
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 84.  (###) -------------------------------------->
+<!-------------------------------- 84. my favorite recipes (208) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p><img src="./images/image084.png"
-style="width:4.96875in;height:2.73958in" /></p>
+<p align="center" width="100%">
+&lt;img src=“./images/image084.png”
+style=“width:4.96875in;height:2.73958in” alt=“Margins, padding and
+borders on my favorite recipes web site./&gt;
+</p>
 <h4>
 CSS:
 </h4>
 <details>
 <summary>
-HTML
+HTML code extact!
 </summary>
 <pre><code>nav {
 background: aliceblue;
@@ -9894,7 +10044,7 @@ HTML:
 </h4>
 <details>
 <summary>
-HTML
+HTML code extract!
 </summary>
 <pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
@@ -9987,10 +10137,12 @@ Pizza, the king of comfort foods. Try this simple, taste sensation.
 5.1.1 Welcome to Module 5
 </h3>
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 85.  (###) -------------------------------------->
+<!------------------------------- 85. more html5 and css3 (210) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p><img src="./images/image085.png"
-style="width:3in;height:3.27103in" /></p>
+<p align="center" width="100%">
+&lt;img src=“./images/image085.png” style=“width:3in;height:3.27103in”
+alt=“More HTML5 and CSS3./&gt;
+</p>
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-1-2">
 5.1.2 Module 5 - Content
@@ -10168,6 +10320,10 @@ difficulty understanding the content or use assistive technology.</p>
 <!------------------------------------------------------------------------------------------------>
 <p><img src="./images/image086.png"
 style="width:4in;height:2.54315in" /></p>
+<details>
+<summary>
+HTML code extract!
+</summary>
 <pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
@@ -10183,6 +10339,7 @@ style="width:4in;height:2.54315in" /></p>
     &lt;/table&gt;
   &lt;/body&gt;
 &lt;/html&gt;</code></pre>
+</details>
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-2-2">
 5.2.2 The &lt;tr&gt;, &lt;th&gt;, &lt;td&gt;, &lt;colgroup&gt;,
@@ -10203,10 +10360,16 @@ header cells is bold and centered by default.</p>
   &lt;/tr&gt;
 &lt;/table&gt;</code></pre>
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 87.  (###) -------------------------------------->
+<!-------------------------- 87. table cells  header & standard (215) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p><img src="./images/image087.png"
-style="width:4in;height:2.54315in" /></p>
+<p align="center" width="100%">
+&lt;img src=“./images/image087.png” style=“width:4in;height:2.54315in”
+alt=“Table Cells are either header or standard./&gt;
+</p>
+<details>
+<summary>
+HTML code extract!
+</summary>
 <pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
@@ -10222,11 +10385,14 @@ style="width:4in;height:2.54315in" /></p>
 &lt;/table&gt;
 &lt;/body&gt;
 &lt;/html&gt;</code></pre>
+</details>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 88.  (###) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p><img src="./images/image088.png"
-style="width:6.5in;height:3.03681in" /></p>
+<p align="center" width="100%">
+<img src="./images/image088.png"
+style="width:6.5in;height:3.03681in" />
+</p>
 <h4>
 &lt;td&gt;
 </h4>
@@ -10235,6 +10401,10 @@ regular and left-aligned by default.</p>
 <h4>
 With these tags we can create a simple table.
 </h4>
+<details>
+<summary>
+HTML code extract!
+</summary>
 <pre><code>&lt;table border=1&gt;
   &lt;tr&gt;
     &lt;th scope=&quot;col&quot;&gt;Name&lt;/th&gt;
@@ -10249,6 +10419,7 @@ With these tags we can create a simple table.
     &lt;td&gt;35&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;</code></pre>
+</details>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ ##. template (##) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -10296,6 +10467,10 @@ using &lt;tr&gt;, &lt;th&gt; and &lt;td&gt;. Let’s say I want the ‘name�
 column to be in green and the ‘age’ column to be orange. You need to use
 the &lt;colgroup&gt; and &lt;col&gt; tags to achieve styling effects
 specific to a column. </p>
+<details>
+<summary>
+HTML code extract!
+</summary>
 <pre><code>&lt;body&gt;
   &lt;table border=1&gt;
     &lt;colgroup&gt;
@@ -10316,8 +10491,9 @@ specific to a column. </p>
     &lt;/tr&gt;
   &lt;/table&gt;
 &lt;/body&gt;</code></pre>
+</details>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 90. color column headers (218) -------------------------------->
+<!------------------------------- 90. color column headers (218) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image090.png?raw=true"
@@ -10369,6 +10545,10 @@ class="sourceCode xml"><code class="sourceCode xml"><span id="cb175-1"><a href="
 <p>Following &lt;thead&gt;, subsequent rows are considered body rows in
 a table. Regular cells are specified using &lt;td&gt; as a child
 of &lt;tr&gt;:</p>
+<details>
+<summary>
+HTML code extract!
+</summary>
 <div class="sourceCode" id="cb176"><pre
 class="sourceCode xml"><code class="sourceCode xml"><span id="cb176-1"><a href="#cb176-1" aria-hidden="true" tabindex="-1"></a>  &lt;<span class="kw">tbody</span>&gt;</span>
 <span id="cb176-2"><a href="#cb176-2" aria-hidden="true" tabindex="-1"></a>    &lt;<span class="kw">tr</span>&gt;</span>
@@ -10384,12 +10564,17 @@ class="sourceCode xml"><code class="sourceCode xml"><span id="cb176-1"><a href="
 <span id="cb176-12"><a href="#cb176-12" aria-hidden="true" tabindex="-1"></a>     &lt;<span class="kw">td</span>&gt;23&lt;/<span class="kw">td</span>&gt;</span>
 <span id="cb176-13"><a href="#cb176-13" aria-hidden="true" tabindex="-1"></a>   &lt;/<span class="kw">tr</span>&gt;</span>
 <span id="cb176-14"><a href="#cb176-14" aria-hidden="true" tabindex="-1"></a> &lt;/<span class="kw">tbody</span>&gt;</span></code></pre></div>
+</details>
 <h4>
 &lt;tfoot&gt;
 </h4>
 The footer is the last to be specified and rows within 
 <tfoot>
 <p> are considered footer rows at the end of a table:</p>
+<details>
+<summary>
+HTML code extract!
+</summary>
 <div class="sourceCode" id="cb177"><pre
 class="sourceCode xml"><code class="sourceCode xml"><span id="cb177-1"><a href="#cb177-1" aria-hidden="true" tabindex="-1"></a>  &lt;<span class="kw">tfoot</span>&gt;</span>
 <span id="cb177-2"><a href="#cb177-2" aria-hidden="true" tabindex="-1"></a>    &lt;<span class="kw">tr</span>&gt;</span>
@@ -10397,9 +10582,14 @@ class="sourceCode xml"><code class="sourceCode xml"><span id="cb177-1"><a href="
 <span id="cb177-4"><a href="#cb177-4" aria-hidden="true" tabindex="-1"></a>      &lt;<span class="kw">td</span>&gt;2 Unique Ages&lt;/<span class="kw">td</span>&gt;</span>
 <span id="cb177-5"><a href="#cb177-5" aria-hidden="true" tabindex="-1"></a>    &lt;/<span class="kw">tr</span>&gt;</span>
 <span id="cb177-6"><a href="#cb177-6" aria-hidden="true" tabindex="-1"></a>  &lt;/<span class="kw">tfoot</span>&gt;</span></code></pre></div>
+</details>
 <h4>
 Putting it all together:
 </h4>
+<details>
+<summary>
+HTML code extract!
+</summary>
 <div class="sourceCode" id="cb178"><pre
 class="sourceCode xml"><code class="sourceCode xml"><span id="cb178-1"><a href="#cb178-1" aria-hidden="true" tabindex="-1"></a>  &lt;<span class="kw">table</span><span class="ot"> border=</span><span class="er">1&gt;</span></span>
 <span id="cb178-2"><a href="#cb178-2" aria-hidden="true" tabindex="-1"></a>    <span class="er">&lt;colgroup&gt;</span></span>
@@ -10433,6 +10623,7 @@ class="sourceCode xml"><code class="sourceCode xml"><span id="cb178-1"><a href="
 <span id="cb178-30"><a href="#cb178-30" aria-hidden="true" tabindex="-1"></a>     &lt;/<span class="kw">tr</span>&gt;</span>
 <span id="cb178-31"><a href="#cb178-31" aria-hidden="true" tabindex="-1"></a>   &lt;/<span class="kw">tfoot</span>&gt;</span>
 <span id="cb178-32"><a href="#cb178-32" aria-hidden="true" tabindex="-1"></a> &lt;/<span class="kw">table</span>&gt;</span></code></pre></div>
+</details>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 91.  (###) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -10491,6 +10682,10 @@ table.eg3, th.eg3, td.eg3 { border: initial; }</code></pre>
 <h4>
 HTML
 </h4>
+<details>
+<summary>
+HTML code extract!
+</summary>
 <pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
@@ -10520,12 +10715,15 @@ class=&quot;eg3&quot;&gt;21&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 &lt;/body&gt;
 &lt;/html&gt;</code></pre>
-<h3 id="border-collapse">border-collapse</h3>
+</details>
+<h4>
+border-collapse
+</h4>
 <p>We gave a border to the table, table-header and table-data above.
 This creates two borders creating a double line. In order to collapse
 them all into a single border, we use the border-collapse CSS
 property:</p>
-<pre><code>1.  table { border-collapse: collapse; }</code></pre>
+<pre><code>table { border-collapse: collapse; }</code></pre>
 <p>Possible values of this property are: </p>
 <ul>
 <li><p>separate - default value where borders are detached like in the
@@ -10552,6 +10750,10 @@ border-collapse: collapse;
 <h4>
 HTML
 </h4>
+<details>
+<summary>
+HTML code extract!
+</summary>
 <pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
@@ -10570,6 +10772,7 @@ HTML
 &lt;/table&gt;
 &lt;/body&gt;
 &lt;/html&gt;</code></pre>
+</details>
 <h4>
 Table width and height
 </h4>
@@ -10598,6 +10801,10 @@ style="width:4in;height:4.33613in" /></p>
 <h4>
 CSS
 </h4>
+<details>
+<summary>
+CSS code extract!
+</summary>
 <pre><code>table, th, td
 {
    border: 1px solid black;
@@ -10615,9 +10822,14 @@ table.eg3
 {
   width: 100%;
 }</code></pre>
+</details>
 <h4>
 HTML
 </h4>
+<details>
+<summary>
+HTML code extract!
+</summary>
 <pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
@@ -10655,7 +10867,10 @@ parent element:&lt;/p&gt;
 &lt;/table&gt;
 &lt;/body&gt;
 &lt;/html&gt;</code></pre>
-<h3 id="text-align">text-align</h3>
+</details>
+<h4>
+text-align
+</h4>
 <p>This property is used to align the text
 of &lt;th&gt; and &lt;td&gt; cells left, right or center (week 3
 recap). </p>
@@ -10665,16 +10880,22 @@ recap). </p>
 <li><p>&lt;td&gt; - left</p></li>
 </ul>
 <pre><code>td { text-align: right;}</code></pre>
-<h3 id="vertical-align">vertical-align</h3>
+<h4>
+vertical-align
+</h4>
 <p>This property is used to align the text
 of &lt;th&gt; and &lt;td&gt; cells top, bottom or middle.</p>
-<p>Default:</p>
+<h4>
+Default:
+</h4>
 <ul>
 <li><p>&lt;th&gt; - middle</p></li>
 <li><p>&lt;td&gt; - middle</p></li>
 </ul>
 <pre><code>th { vertical-align: top; }</code></pre>
-<h3 id="padding">padding</h3>
+<h4>
+padding
+</h4>
 <p>Right now our table looks quite cramped. We use the padding property
 on &lt;th&gt; and &lt;td&gt; to provide some space between border and
 content in cell. It takes its value in units of length like px, cm, % -
@@ -10699,26 +10920,33 @@ padding.</p>
 <!------------------------------------------------------------------------------------------------>
 <p><img src="./images/image096.png"
 style="width:4in;height:2.52101in" /></p>
-<h3 id="css">CSS</h3>
+<h4>
+CSS
+</h4>
 <pre><code>table, th, td { border: 1px solid black; }
 table { border-collapse: collapse;}
 th, td { padding: 20px; }</code></pre>
 <h4>
 HTML
 </h4>
+<details>
+<summary>
+HTML code extract!
+</summary>
 <pre><code>!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
-&lt;meta charset=&quot;UTF-8&quot;&gt;
-&lt;title&gt;Styling your table&lt;/title&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;title&gt;Styling your table&lt;/title&gt;
 &lt;/head&gt;
 &lt;body&gt;
-&lt;table&gt;
-&lt;tr&gt;&lt;th&gt;Names&lt;/th&gt;&lt;th&gt;Age&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;Michael&lt;/td&gt;&lt;td&gt;21&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
+  &lt;table&gt;
+    &lt;tr&gt;&lt;th&gt;Names&lt;/th&gt;&lt;th&gt;Age&lt;/th&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Michael&lt;/td&gt;&lt;td&gt;21&lt;/td&gt;&lt;/tr&gt;
+  &lt;/table&gt;
 &lt;/body&gt;
 &lt;/html&gt;</code></pre>
+</details>
 <h4>
 border-spacing
 </h4>
@@ -10756,6 +10984,10 @@ table.eg3, th.eg3, td.eg3 { border-spacing: 50px 25px; }</code></pre>
 <h4>
 HTML
 </h4>
+<details>
+<summary>
+HTML code extract!
+</summary>
 <pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
@@ -10785,12 +11017,13 @@ class=&quot;eg3&quot;&gt;21&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 &lt;/body&gt;
 &lt;/html&gt;</code></pre>
+</details>
 <h4>
 Side-borders
 </h4>
 <p>The first property border will set a border to all four sides. You
 can also set borders to individual sides - top, right, bottom, left:</p>
-<pre><code>1.  th, td { border-right: 1px solid black; }</code></pre>
+<pre><code>th, td { border-right: 1px solid black; }</code></pre>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 98.  (###) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -10806,6 +11039,10 @@ table.eg2, th.eg2, td.eg2 { border-bottom: 1px solid black; }</code></pre>
 <h4>
 HTML
 </h4>
+<details>
+<summary>
+HTML code extract!
+</summary>
 <pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
@@ -10835,6 +11072,7 @@ class=&quot;eg2&quot;&gt;Female&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 &lt;/body&gt;
 &lt;/html&gt;</code></pre>
+</details>
 <h4>
 zebra table
 </h4>
@@ -10874,7 +11112,7 @@ HTML
 </h4>
 <details>
 <summary>
-HTML
+HTML code extract!
 </summary>
 <pre><code>1.  &lt;!DOCTYPE html&gt;
 2.  &lt;html lang=&quot;en&quot;&gt;
@@ -10957,7 +11195,7 @@ HTML
 </h4>
 <details>
 <summary>
-HTML
+HTML code extract!
 </summary>
 <pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
@@ -11043,7 +11281,7 @@ HTML:
 </h4>
 <details>
 <summary>
-HTML
+HTML code extract!
 </summary>
 <pre><code>1.  &lt;!DOCTYPE html&gt;
 2.  &lt;html lang=&quot;en&quot;&gt;
@@ -11171,7 +11409,7 @@ CSS:
 </h4>
 <details>
 <summary>
-HTML
+CSS code extract!
 </summary>
 <pre><code>1.  table, th, td {
 2.  padding: 30px;
@@ -11213,7 +11451,7 @@ HTML:
 </h4>
 <details>
 <summary>
-HTML
+HTML code extract!
 </summary>
 <pre><code>1.  &lt;!DOCTYPE html&gt;
 2.  &lt;html lang=&quot;en&quot;&gt;
@@ -11702,14 +11940,12 @@ to play .wav, failed and played the .mp3 version instead. </p>
 <p>The following table lists the &lt;source&gt; element’s
 attributes:</p>
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 109. source element attributes (251) ------------------------------>
+<!-------------------------- 105. source element attributes (251) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image109.png?raw=true"
+<p><img src="/images/image105.png?raw=true"
   width="65%"
-  alt="Source element attributes." />
-</p>
-<!-- style="width:6.5in;height:2.79653in" /> -->
+  alt="Source element attributes." /></p>
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-3-2">
 5.3.2 The &lt;video&gt; Element
@@ -11729,12 +11965,24 @@ viewed in all types of devices and browsers. </p>
 attributes that can be used to configure playback. The following table
 lists the video element’s attributes:</p>
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- 110. video element attributes (xxx) -------------------->
+<!-------------------------- 106/107. video element attributes (251) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image110.png?raw=true"
+<img src="/images/image106.png?raw=true"
   width="65%"
-  alt="Video element attributes." />
+  alt="Video element attributes (top section)." />
+<img src="/images/image107.png?raw=true"
+  width="65%"
+  alt="Video element attributes (bottom section)." />
+</p>
+<!-- style="width:6.5in;height:2.79653in" /> -->
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- 108. html5 logo  (253) ------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image108.png?raw=true"
+  width="65%"
+  alt="HTML5 logo." />
 </p>
 <h3>
 Poster attribute
@@ -11829,12 +12077,12 @@ a combination of formats. </p>
 The following table lists the source element’s attributes:
 </h4>
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 111. table src and type (256) --------------------------------->
+<!--------------------------- 109. source element's attributes (255) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image111.png?raw=true"
+<img src="/images/image109.png?raw=true"
   width="85%"
-  alt="Attributes: src and type" />
+  alt="Attributes: src and type." />
 </p>
 <h3>
 Track element for captions and subtitles
@@ -11873,12 +12121,12 @@ your &lt;video&gt; tag like this:</p>
 The following table lists the &lt;track&gt; element’s attributes:
 </h4>
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 112.  (###) -------------------------------------->
+<!--------------------------- 110. track element's attributes (256) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image112.png"
+<img src="./images/image110.png"
   style="width:6.5in;height:4.29444in"
-  alt="" />
+  alt="Track Element's attributes." />
 </p>
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-3-4">
@@ -11910,13 +12158,17 @@ some older browsers will try to download it instead). </p>
   &lt;p&gt;Your browser does not support iframes.&lt;/p&gt;
 &lt;/iframe&gt;</code></pre>
 <!------------------------------------------------------------------------------------------------>
-<!--------------------- 113. attribute, description, value & example (###) ----------------------->
+<!-------------------------------------- 111. iframe (263) --------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image113.png"
+<img src="./images/image111.png"
   style="width:4in;height:2.51477in"
-  alt="." />
+  alt="iframe." />
 </p>
+<details>
+<summary>
+HTML code extract!
+</summary>
 <pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
@@ -11929,15 +12181,16 @@ some older browsers will try to download it instead). </p>
   &lt;/iframe&gt;
 &lt;/body&gt;
 &lt;/html&gt;</code></pre>
+</details>
 <p>Because iframes are HTML elements, they can be styled just like other
 elements, with borders, margins, sizes specified with CSS rules:</p>
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 114.  (###) -------------------------------------->
+<!------------------------------- 112. iframes and images (263) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image114.jpeg"
-   style="width:3in;height:1.64371in"
-  alt="" />
+<img src="./images/image112.png"
+  style="width:3in;height:1.64371in"
+  alt="Image example using iframes with borders and margins." />
 </p>
 <p>Here, we’ve embedded a YouTube video with an iframe like this:</p>
 <pre><code>&lt;iframe src=&quot;https://www.youtube.com/embed/YE7VzlLtp-4&quot;&gt;&lt;/iframe&gt;</code></pre>
@@ -11962,12 +12215,12 @@ isn’t a bug, it’s a feature.</p>
 <p>There are a number of important attributes for an &lt;iframe&gt; tag,
 but for now we’ll just look at a few of them:</p>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 115. sign nomeny and millery (xxx) -------------------------------->
+<!-------------------------------- 113. iframe attributes (264) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image115.png?raw=true"
+<img src="./images/image113.png?raw=true"
   width="65%"
-  alt="." />
+  alt="iframe attributes and how they work." />
 </p>
 <p><b>Notes:</b></p>
 <ol type="1">
@@ -12057,13 +12310,16 @@ to the target map file, it has no idea what to do with
 your ismap specification.</p>
 <p>Let’s look at how the code above works.</p>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 116. image map with mouse clicks (xxx) -------------------------------->
+<!------------------------------- 114. how ismap code works (266) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image116.png?raw=true"
+<img src="./images/image114.jpeg?raw=true"
   width="30%"
-  alt="Image illustrating how an image map works, how it processes mouse click coordinates using a map file that define target areas." />
+  alt="Graphical representation of how ismap command works in web development." />
 </p>
+<!---
+  Image illustrating how an image map works, how it processes mouse click coordinates using a map file that define target areas." />
+--->
 <p>
 <p>Let’s go back to our world map example where clicking on different
 parts of the image will take you to a page about the country you clicked
@@ -12156,12 +12412,12 @@ Result:
 <p>Try this: Click on the left and right side of the images to check out
 how usemap works :) Remember to navigate back to the course!</p>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 117. women and cats, men and dogs  (xxx) ----------------------------->
+<!------------------------------- 115. usemap sign example (269) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image117.png?raw=true"
-  width="20%"
-  alt="Women and cats, men and dogs." />
+<img src="./images/image115.png?raw=true"
+  width="50%"
+  alt="Usemap example, sign to Millery or Nomeny." />
 </p>
 <p>Note: If the &lt;img&gt; is inside
 an &lt;a&gt; or &lt;button&gt; element, clicking on it will be
@@ -12218,10 +12474,10 @@ applicable to the color property. </p>
 hyperlink (&lt;a&gt;), paragraph (&lt;p&gt;), unordered list
 (&lt;ul&gt;) and list items (&lt;li&gt;):</p>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 118. w3c background image  (xxx) -------------------------------->
+<!------------------------------ 116. w3c background image  (xxx) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image118.png?raw=true"
+<img src="./images/image116.png?raw=true"
   width="50%"
   alt="Background image W3C." />
 </p>
@@ -13129,8 +13385,8 @@ makes its layout decisions.  
 <!--------------------------------- 134. big t, little g (291) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image136.png?raw=true"
-  width="20%"
+<img src="./images/image134.png?raw=true"
+  width="25%"
   alt="Baseline: Big T, little g." />
 </p>
 <p>In the image above, we see two text characters placed next to each
@@ -13586,15 +13842,15 @@ their parent. </p></li>
 <p>Interpretation of positioning properties (top, left, etc.) depends ON
 parent/grandparent being positioned elements (or not).</p>
 <p><i>IMPORTANT</i>: For an absolutely positioned
-element, <strong><em>where</em></strong> the left, top, etc. are
-calculated <strong><em>from</em> </strong>depends upon
-the position property of the parent and grandparents of the element in
-question. If the parent of the element is a positioned element (meaning
-its position is set to anything except position:static), then an
-absolutely positioned child  is positioned relative to that
-parents rectangle (or grandparent, or great-grandparent, etc).  But if
-none of the parents are positioned elements, the child is positioned
-relative to the bounds of the document.  </p>
+element, <b><i>where</i></b> the left, top, etc. are
+calculated <b><i>from</i> </b>depends upon the position property of the
+parent and grandparents of the element in question. If the parent of the
+element is a positioned element (meaning its position is set to anything
+except position:static), then an absolutely positioned child  is
+positioned relative to that parents rectangle (or grandparent, or
+great-grandparent, etc).  But if none of the parents are positioned
+elements, the child is positioned relative to the bounds of the
+document.  </p>
 <p>This means that how the position properties of an absolutely
 positioned element are interpreted depends upon the position property of
 its parent (and grandparents). For many developers, this is a spooky
@@ -13608,16 +13864,16 @@ absolutely positioned. Two of the list items are position:relative, so
 the spans are positioned starting from their rectangle.  But two of the
 list items are position:static (the default), so the spans are moved up
 to the &lt;ul&gt; (which is also position:relative) where they overlap
-each other. (The red 1 is hidden behind the red 2). Borders have been
-added in the result below, so you can easily see the rectangle
+each other. (The 1 is hidden behind the 2). Borders have been added in
+the result below, so you can easily see the rectangle
 for  &lt;li&gt; versus &lt;ul&gt;.</p>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 142.  (303) -------------------------------->
+<!--------------------------- 142. relative, static & absolute (303) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image142.png?raw=true"
   width="65%"
-  alt="." />
+  alt="List item styling.  Two are relative, therefore are static & overlapped." />
 </p>
 <!---
 <img src="./images/image143.png"
@@ -13662,12 +13918,12 @@ not contribute to the height of the parent. As a result, it ends up with
 a height of 0, as if it were empty. The fat border just becomes a fat
 flat line, and the list items themselves are not enclosed. </p>
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------- 143. position normal & absolute  (304) ----------------------------->
+<!-------------------------- 143. position default vs absolute  (304) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image143.png?raw=true"
   width="65%"
-  alt="" />
+  alt="Position default vs. absolute." />
 </p>
 <!-- <img src="./images/image145.png"
 style="width:6.5in;height:1.29306in" />
@@ -13755,8 +14011,7 @@ z-index is relative between siblings, not any arbitrary elements.
 Siblings and nesting
 </h4>
 <p>It is entirely possible that one element with z-index:100 could
-appear <strong><em>below</em> </strong>another element with z-index:1;
- </p>
+appear <b><i>below</i> </b>another element with z-index:1;</p>
 <p>This can happen because the z-index is used to figure out which
 sibling is higher than another. But if two elements are not siblings,
 then the z-index of their respective sibling ancestors will need to be
@@ -13783,36 +14038,48 @@ cousins further out in the document.</p>
 </h3>
 <!------------------------------------------------------------------------------------------------>
 <p>We’ve provided you with a starter project file. The code is included
-below in this CodePen: This simple file has two block level elements
-(the paragraphs) and two spans, which are inline. Additionally, there
-are several classes defined for you. Try the following: • Notice
-immediately each paragraph gets its own line. • Notice the inline span
-that follows the paragraph (&lt;/p&gt;) starts on its own line. However,
-the second inline span directly follows its predecessor - it does not
-get a new line, it continues on the same line. • Try applying the brect
-and prect classes to the elements. (via class=“brect” ). When applied to
-the paragraphs, you can see that the classes make the width of the
-paragraph stretch to the edge of the window. It is the same as its
-parent width. Note that its height is no more than its content. But the
-background colors and borders are tight to the spans. • Try applying the
-w class to each of the elements. This class sets the width property. It
-works on both paragraphs, but it has no effect on the two spans. • Try
-applying the h class to each element. This class sets the height
-property. Again, the paragraphs are affected, but the spans are not. •
-Apply the pad class to each element. This class sets the padding
+below in a CodePen: This simple file has two block level elements (the
+paragraphs) and two spans, which are inline. Additionally, there are
+several classes defined for you.</p>
+<h4>
+Try the following:
+</h4>
+<ul>
+<li>Notice immediately each paragraph gets its own line.</li>
+<li>Notice the inline span that follows the paragraph (&lt;/p&gt;)
+starts on its own line. However, the second inline span directly follows
+its predecessor - it does not get a new line, it continues on the same
+line.</li>
+<li>Try applying the brect and prect classes to the elements. (via
+class=“brect” ). When applied to the paragraphs, you can see that the
+classes make the width of the paragraph stretch to the edge of the
+window. It is the same as its parent width. Note that its height is no
+more than its content. But the background colors and borders are tight
+to the spans.</li>
+<li>Try applying the w class to each of the elements. This class sets
+the width property. It works on both paragraphs, but it has no effect on
+the two spans.</li>
+<li>Try applying the h class to each element. This class sets the height
+property. Again, the paragraphs are affected, but the spans are
+not.</li>
+<li>Apply the pad class to each element. This class sets the padding
 property. The paragraphs are clearly padded. The spans are also padded,
 but the extra padding does not space them out. So if the background
 colors are still being applied, the padded background of one inline
 element may overlap the other. Can you think of a solution that would
-prevent the overlap? • Apply the marg-vert class to each element. This
-class sets the top and bottom margins. Note that it works on the block
-level paragraphs well enough, but has no effect on the inline spans. •
-Apply the marg-horiz class to each element. This class sets the left and
-right margins. It works on everything. Play some more with the elements,
-trying to appreciate how block and inline elements differ. • Try
-changing the HTML so that the inline elements are inside the block level
-ones. • Put a margin:0 on the body. • Have fun! NOTE: Please do not
-upload HTML code to the discussion forum.</p>
+prevent the overlap?</li>
+<li>Apply the marg-vert class to each element. This class sets the top
+and bottom margins. Note that it works on the block level paragraphs
+well enough, but has no effect on the inline spans.</li>
+<li>Apply the marg-horiz class to each element. This class sets the left
+and right margins. It works on everything.</li>
+</ul>
+<p>Play some more with the elements, trying to appreciate how block and
+inline elements differ. - Try changing the HTML so that the inline
+elements are inside the block level ones. - Put a margin:0 on the body.
+- Have fun!</p>
+<p><b>NOTE:</b> Please do not upload HTML code to the discussion
+forum.</p>
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch6-3-1">
 6.3.1 Sizing and dimensions
@@ -14339,9 +14606,9 @@ Start and end
 <!--------------------------- 170. flex container and flex-flow (324) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image170.png?raw=true"
+<img src="./images/image170.jpg?raw=true"
   width="65%"
-  alt="Flex Container and Flex-flow" />
+  alt="Flex Container and Flex-flow." />
 </p>
 <p>In the illustration above, we see the main and cross axes as they
 would be for flex-flow:row wrap;.  And in the same illustration, we also
@@ -14962,7 +15229,7 @@ These are the final changes to our recipe project for this unit.
 The end…
 </h6>
 <h4>
-<b>Last Updated 10-13-2022 12:57pm</b>
+<b>Last Updated 10-13-2022 7:05pm</b>
 </h4>
 </body>
 </html>
