@@ -6613,6 +6613,7 @@ CSS, or Cascading Style Sheets, is used to style each HTML.
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 49. adding styles with css (132) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
 <img src="./images/image049.png"
   width="20%"
   alt="Adding styles with CSS." />
@@ -6662,8 +6663,9 @@ you learn, experimentation.
 <!------------------------------------- 50. css logo (133) --------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <img src="./images/image050.png"
-  alt="CSS Logo."
-  width="20%" />
+  width="20%"
+  alt="CSS Logo." />
+</p>
 <!-------
 style="width:2in;height:1.09388in" />
 ------->
@@ -6705,7 +6707,6 @@ a [working group](https://en.wikipedia.org/wiki/Working_group) created
 by the W3C in 1997 to tackle issues that had not been addressed
 with [CSS](https://en.wikipedia.org/wiki/CSS) level 1.
 
-<img src="./images/image051.
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- 51. the css gang photo (134) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -6763,12 +6764,11 @@ different. So let's get started.
 <!------------------------- 52. style and link tags & attributes (134) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image052.png?raw=true"
+<img src="./images/image052.jpeg?raw=true"
   width="15%"
   alt="Snapshot as a style tag in the XDR code editor." />
 </p>
 <!--------
-<img src="./images/image052.jpeg"
 style="width:1.5625in;height:1.5625in"
 -------->
 
@@ -6845,15 +6845,16 @@ directory named <i>css</i>.
 <!------------------------------------------------------------------------------------------------>
 
 At its simplest, CSS is just a list of <i>rules</i>.  Each <i>rule</i> consists of
-a <i>selector</i> and a <i>declaration.  </i>Here is an example:
+a <i>selector</i> and a <i>declaration.</i>  Here is an example:
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------- 53 figure showing a selector & declaration (137) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image053.jpeg"
-style="width:4in;height:3.30064in"
-alt="Figure showing a selector &#39;p&#39; before a declaration &#39;font-size:12px; color: #223344&#39;" />
+  style="width:4in;height:3.30064in"
+  alt="Figure showing a selector &#39;p&#39; before a declaration &#39;font-size:12px; color: #223344&#39;" />
+</p>
 
 <h4>Selector</h4>
 
@@ -6998,7 +6999,6 @@ together.
   width="65%"
   alt="On the Inventor of Gunpower, by John Milton." />
 </p>
-<!----------------------- image page 140 image054b.png ---------------------------->
 
 If you look at this file that I have opened right now in Visual Studio
 Code, it's the Gunpowder file which you should be at least a little bit
@@ -7012,7 +7012,6 @@ it look and feel a little bit different.
 And we've got our header tag, we've got our address and of course the
 poem which is being held in this fantastic paragraph tag.
 
-<!----------------------- image page 141 image055b.png ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <!-------------------- 55b. on the inventor of gunpower by john milton (141) --------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -7069,7 +7068,6 @@ You can see it's a little bit bigger, but I want to make this 25.
 
 It's not quite big enough yet.
 
-<!----------------------- image page 142 image056b.png ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <!-------------------- 56b. on the inventor of gunpower by john milton (142) --------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -7178,42 +7176,29 @@ So I encourage you to play around with it.
 
 And the last little change that we're going to make is,
 
-I think that this looks interesting,
-but if you open it up to full size,
-you'll see that this header
-is kind of over here on the left,
+I think that this looks interesting, but if you open it up to full size,
+you'll see that this header is kind of over here on the left,
 and I don't really like the way that looks.
 
-So I'm going to go into our 'h1' tag here,
-and I am going to say that
-the text-align should be in the center.
+I'm going to go into our 'h1' tag here, and I am going to say that the text-align should be in the center.
 
-And what that's going to do is take
-this and move it to the center.
+And what that's going to do is take this and move it to the center.
 
 One thing you should be aware of is that text-align is
-relative to the container
-that something is being stored in.
+relative to the container that something is being stored in.
 
-So, you can see that this header is relative to the page.
+You can see that this header is relative to the page.
 
-So if we resize the page,
-it actually sort of changes the way that it looks.
+If we resize the page, it actually sort of changes the way that it looks.
 
-So, be mindful of that.
+Be mindful of that.
 
-We're in a day and age where
-so many different screen sizes are possible to be
-used and you kind of have to consider how
-something looks for every orientation of a page,
+We're in a day and age where so many different screen sizes are possible to be
+used and you kind of have to consider how something looks for every orientation of a page,
 in order to make sure that it looks good for everybody.
 
-So play around with that,
-and play around with some of
-the other attributes that I didn't
-get to in this little demo
-because there are so many that we learn in the lesson
-and I encourage you to mess around with them,
+Play around with that, and play around with some of the other attributes that I didn't get to in this little demo
+because there are so many that we learn in the lesson and I encourage you to mess around with them,
 and just sort of see what each one does.
 
 <!------------------------------------------------------------------------------------------------>
@@ -7243,10 +7228,8 @@ blockquote { font-size: 10vh; }
 These units are discussed below.
 
 Additionally, font-size supports a more readable set of values that many
-authors
-prefer: xx-small, x-small, small, medium, large, x-large, xx-large    
-and relative sizing (relative to the text of the
-parent): larger, smaller. For example:
+authors prefer: xx-small, x-small, small, medium, large, x-large, xx-large    
+and relative sizing (relative to the text of the parent): larger, smaller. For example:
 
 ```
 p { font-size: medium; }  
@@ -7292,8 +7275,7 @@ tags &lt;span&gt;, &lt;a&gt;, &lt;i&gt;, &lt;b&gt;, &lt;q&gt; and others are 
 "inline" because they do not receive their own new line when used.
 And text-align is often not useful on these tags.
 
-But it is useful on block level text tags, such
-as &lt;p&gt;, &lt;li&gt;, &lt;ul&gt;, &lt;ol&gt;, &lt;div&gt;,
+But it is useful on block level text tags, such as &lt;p&gt;, &lt;li&gt;, &lt;ul&gt;, &lt;ol&gt;, &lt;div&gt;,
 and &lt;blockquote&gt;.
 
 ```
