@@ -34,7 +34,6 @@
 >### * [**Course tools**](#chb-3)
 
 ## [Module 1: My first Web page in HTML5](#ch1)
-
 >### 1.1 [**Introduction to Module 1**](#ch1)
 >### 1.2 [**The big three: HTML5, CSS3 and JavaScript**](#ch1-2-1)
 >### 1.3 [**Elements, tags and attributes**](#ch1-3-1)
