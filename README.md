@@ -33,43 +33,43 @@
 >### * [**Course practical information**](#chb-2)
 >### * [**Course tools**](#chb-3)
 
-## [Module 1: My first Web page in HTML5](/modules/module1.md)
+## [Module 1: My first Web page in HTML5](#ch1)
 
->### 1.1 [**Introduction to Module 1**](#ch1-1-1)
+>### 1.1 [**Introduction to Module 1**](#ch1)
 >### 1.2 [**The big three: HTML5, CSS3 and JavaScript**](#ch1-2-1)
 >### 1.3 [**Elements, tags and attributes**](#ch1-3-1)
 >### 1.4 [**Character encoding**](#ch1-4-1)
 >### 1.5 [**Best practices**](#ch1-5-1)
 >### 1.6 [**More on tags**](#ch1-6-1)
 
-## [Module 2: Attributes, images and links](/modules/module2.md)
->### 2.1 [**Introduction to Module 2**](#ch2-1-1)
+## [Module 2: Attributes, images and links](#ch2)
+>### 2.1 [**Introduction to Module 2**](#ch2)
 >### 2.2 [**Attributes**](#ch2-2-1)
 >### 2.3 [**Semantic meaning**](#ch2-3-1)
 >### 2.4 [**images**](#ch2-4-1)
 >### 2.5 [**Hyperlinks**](#ch2-5-1)
 
-## [Module 3: Adding style with CSS](/modules/module3.md)
->### 3.1 [**Introduction to Module 3**](#ch3-1-1)
+## [Module 3: Adding style with CSS](#ch3)
+>### 3.1 [**Introduction to Module 3**](#ch3)
 >### 3.2 [**CSS basic syntax**](#ch3-2-1)
 >### 3.3 [**CSS properties**](#ch3-3-1)
 >### 3.4 [**Lists and selectors**](#ch3-4-1)
 
-## [Module 4: Fixing and debugging](/modules/module4.md)
->### 4.1 [**Introduction to Module 4**](#ch4-1-1)
+## [Module 4: Fixing and debugging](#ch4)
+>### 4.1 [**Introduction to Module 4**](#ch4)
 >### 4.2 [**Debugging tools and HTML5**](#ch4-2-1)
 >### 4.3 [**Debugging and the CSS box model**](#ch4-3-1)
 >### 4.4 [**Debugging CSS precedence**](#ch4-4-1)
 
-## [Module 5: More HTML5 and CSS](/modules/module5.md)
->### 5.1 [**Introduction to Module 5**](#ch5-1-1)
+## [Module 5: More HTML5 and CSS](#ch5)
+>### 5.1 [**Introduction to Module 5**](#ch5)
 >### 5.2 [**Tables**](#ch5-2-1)
 >### 5.3 [**Multimedia**](#ch5-3-1)
 >### 5.4 [**Embedding content**](#ch5-4-1)
 >### 5.5 [**CSS tricks**](#ch5-5-1)
 
-## [Module 6: Basics of page Layout](/modules/module6.md)
->### 6.1 [**Introduction to Module 6**](#ch6-1-1)
+## [Module 6: Basics of page Layout](#ch6)
+>### 6.1 [**Introduction to Module 6**](#ch6)
 >### 6.2 [**Concepts**](#ch6-2-1)
 >### 6.3 [**CSS Flexbox**](#ch6-3-1)
 >### 6.4 [**More Flexbox**](#ch6-4-1)
@@ -512,9 +512,9 @@ article</a>
 for more details about the difference between Internet and the Web.
 
 <!------------------------------------------------------------------------------------------------>
-<h4 id="cha-2">What is Web Accessibility?</h4>
+<h3 id="cha-2">What is Web Accessibility?</h3>
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch1-1-1">1.1.1 Welcome to Module 1</h3>
+<h2 id="ch1">Welcome to Module 1</h2>
 <!------------------------------------------------------------------------------------------------>
 
 Hello everyone! Welcome to Module 1 of the introduction to HTML5 and CSS
@@ -2895,7 +2895,7 @@ following components:</p>
 </details>
 
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch2-1-1">2.1.1 Welcome to Module 2</h3>
+<h2 id="ch2">Welcome to Module 2</h2>
 <!------------------------------------------------------------------------------------------------>
 
 <!------------------------------------------------------------------------------------------------>
@@ -6586,7 +6586,7 @@ tags.
 And that concludes this live coding session. Bon appétit !
 
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch3-1">3.1.1 Welcome to Module 3</h3>
+<h2 id="ch3">Welcome to Module 3</h2>
 <!------------------------------------------------------------------------------------------------>
 
 <!------------------------------------------------------------------------------------------------>
@@ -8708,7 +8708,7 @@ Can you achieve the same styling without adding any new tags (i.e., without addi
 </details>
 
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch4-1-1">4.1.1 Welcome to Module 4</h3>
+<h2 id="ch4">Welcome to Module 4</h2>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 58. module 4: fixing and debugging (176) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -10130,7 +10130,7 @@ Pizza, the king of comfort foods. Try this simple, taste sensation.
 </details>
 
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch5-1-1">5.1.1 Welcome to Module 5</h3>
+<h2 id="ch5">Welcome to Module 5</h2>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- 85. more html5 and css3 (210) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -13717,7 +13717,7 @@ then applied some styling using class names to our table giving a little
 more visual appeal to that.
 
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch6-1-1">6.1.1 Welcome to Module 6</h3>
+<h2 id="ch6">Welcome to Module 6</h2>
 <!------------------------------------------------------------------------------------------------>
 
 Hi, and welcome to Module 6.
@@ -15802,4 +15802,4 @@ These are the final changes to our recipe project for this unit.
 
 <h6>The end...</h6>
 
-<h4><b>Last Updated 10-15-2022 2:33pm</b></h4>
+<h4><b>Last Updated 10-21-2022 12:24am</b></h4>
