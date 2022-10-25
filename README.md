@@ -6062,7 +6062,7 @@ different browsers to see how it behaves.
 <p align="center" width="100%">
 <img src="./images/image046.png?raw=true"
   width="65%"
-  alt="hyperlink" />
+  alt="Hyperlink attributes." />
 </p>
 <!-------
 style="width:6.5in;height:3.55208in"
@@ -6594,7 +6594,7 @@ And that concludes this live coding session. Bon appétit !
 <p align="center" width="100%">
 <img src="./images/image048.png"
   width="40%"
-  alt="W3Cx html5 and css3 logo." />
+  alt="W3Cx HTML5 and CSS3 logo." />
 </p>
 <!-------
 style="width:4in;height:2.27184in" />
@@ -6747,7 +6747,7 @@ And now two very different looks:
 She looked over the top of her book and whispered I'm hungry. My heart
 stopped.
 
-> She looked over the top of her book and whisperedi'm hungry.My heart
+> She looked over the top of her book and whisperedi'm hungry. My heart
 > stopped.
 
 Both of these use the exact same HTML. It is the CSS that makes them so
@@ -6847,7 +6847,7 @@ At its simplest, CSS is just a list of <i>rules</i>.  Each <i>rule</i> consi
 a <i>selector</i> and a <i>declaration.</i>  Here is an example:
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- 53 figure showing a selector & declaration (137) ------------------------>
+<!---------------------- 53. figure showing a selector & declaration (137) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image053.jpeg"
@@ -13957,7 +13957,6 @@ background is overlapping the lines above and below.
   alt="." />
 </p>
 <!---
-<img src="./images/image138.png"
 style="width:6.5in;height:1.52708in" />
 --->
 
@@ -13966,12 +13965,12 @@ However, this solution should not be considered optimal.  Better is to
 change the span to be display:inline-block, which is discussed below.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 137. template (##) -------------------------------->
+<!------------------------------ 137. display:inline-block (##) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image137.png?raw=true"
   width="65%"
-  alt="." />
+  alt="Prevent overlap with line-height of the span." />
 </p>
 
 <h4>inline-block</h4>
@@ -13992,12 +13991,16 @@ are on. If top or bottom margins or paddings are used, then the entire
 line is adjusted to make room. (So the line-height does not need to be
 used.)
 
+```
 inline-block elements respect margin-top and margin-bottom
+```
 
 the vertical padding for inline-block elements contributes to the
 calculation of the height of the line it falls on
 
+```
 inline-block elements respect width and height properties
+```
 
 In some browsers, some of the form elements default to inline-block
 (like &lt;button&gt;, &lt;select&gt;, and &lt;input&gt;)
@@ -14281,7 +14284,7 @@ should be aware:
 
 -   There are no automatic size adjustments.
 
-### Independence - margin-top vs top
+<h3>Independence - margin-top vs top</h3>
 
 <i>IMPORTANT</i>: The positioning properties (left, top, right, and bottom)
 adjust the placement of the element independently of its siblings.
@@ -14299,11 +14302,13 @@ positioning property (top).   When we use top, the "Third" item appears
 overlapping the Fourth and Fifth items, as they did not move at all. 
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 139.  (300) -------------------------------->
+<!-------------------------------- 139. example using css (300) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image139.png"
-style="width:6.5in;height:1.83681in" />
+  <img src="./images/image139.png"
+  style="width:6.5in;height:1.83681in"
+  alt="Margin top vs. Top example of CSS." />
+</p>
 
 This is why, in our introduction to CSS, we said that margin should be
 your "go to" property when you want to adjust position. 
@@ -14325,21 +14330,20 @@ level elements take the width of their parent (when no width is
 specified).  And when using left or right margins on a block level
 element that does not have an explicit width, the browser will smartly
 size the element down for you to make it fit.  But this size adjustment
-does not happen when you
-use position:relative and the left or right positional properties. This
-is easily illustrated with an example. Below is a block level paragraph
+does not happen when you use position:relative and the left or right positional properties.
+This is easily illustrated with an example. Below is a block level paragraph
 with a border applied to it.  When a margin-left is applied to it, the
 paragraph is made smaller and no part goes outside its parent.  But when
 it is position:relative and moved with the left property, it can leave
 the bounds of its parent, or go offscreen.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 140.  (301) -------------------------------->
+<!------------------------ 140. block level paragraph with border (301) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image140.png?raw=true"
   width="65%"
-  alt="." />
+  alt="Block level paragraph with border." />
 </p>
 <!-- <img src="./images/image142.png"
 style="width:6.5in;height:1.45139in" />
@@ -14372,12 +14376,12 @@ has its height set and a border applied.  The &lt;q&gt; is positioned
 absolutely.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 141.  (302) -------------------------------->
+<!---------- 141. paragraph with height & border set and 'q' positioned absolute (302) ----------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image141.png?raw=true"
   width="65%"
-  alt="." />
+  alt="Paragraph with height and border set along with 'q' positioned absolute." />
 </p>
 <!---
 <img src="./images/image143.png"
@@ -15801,4 +15805,4 @@ These are the final changes to our recipe project for this unit.
 
 <h6>The end...</h6>
 
-<h4><b>Last Updated 10-21-2022 12:24am</b></h4>
+<h4><b>Last Updated 10-24-2022 11:32pm</b></h4>
