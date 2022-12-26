@@ -1677,17 +1677,20 @@ new tag (representing a nested element). This is done by adding a ‘/’
 right after the ‘&lt;’ to indicated that it’s a ‘close tag’. To indicate
 the beginning and end of a paragraph (indicated by the single letter
 ‘p’) you end up with something like this:</p>
-<pre><code>&lt;p&gt;This is my first paragraph!&lt;/p&gt;</code></pre>
-The browser sees the letters ‘&lt;p&gt;’ and decides ‘A new paragraph is
-starting, I’d better start a new line and maybe indent it’. Then when it
-sees (xyz) it knows that the paragraph it was working on is finished, so it
-should break the line there before going on to whatever is next.</p>
-<p>For example, the ‘&lt;em&gt;’ tag is used for element that needs
-<i>Em</i>phasis.  The  ‘&lt;’ and ‘&gt;’ indicate that this is a tag,
-and the “little bits of text” in between tell us what kind of tag it is.
- To completely describe the element, it needs an open and close
-tag, with everything in between the tags being the content of the
-element:</p>
+
+<pre><code>
+&lt;p&gt;This is my first paragraph!&lt;/p&gt;
+</code></pre>
+
+<p>The browser sees the letters ‘&lt;p&gt;’ and decides ‘A new paragraph is
+starting, I’d better start a new line and maybe indent it’.<br>
+<br>Then when it sees (xyz) it knows that the paragraph it was working on is finished, so it
+should break the line there before going on to whatever is next.<br>
+<br>For example, the ‘&lt;em&gt;’ tag is used for element that needs
+<i>Em</i>phasis.<br>
+<br>The ‘&lt;’ and ‘&gt;’ indicate that this is a tag, and the “little bits of text” in between tell us what kind of tag it is.<br>
+<br>To completely describe the element, it needs an open and close
+tag, with everything in between the tags being the content of the element:</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- 17. diagram of an element (34) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -1696,18 +1699,23 @@ element:</p>
   alt="Diagram of an element: the &#39;&lt;em&gt;&#39; tag is used for element that needs Emphasis. The &#39;&lt;&#39; and &#39;&gt;&#39; indicate that this is a tag, and the little bits of text in between tell us what kind of tag it is. To completely describe the element, it needs an open and close tag, with everything in between the tags being the content of the element."
   style="width:65%;" />
 <p>Most tags have open and close versions, but there are a few strange
-ones.  We’ll learn more about these later, but we generally refer to the
-strange ones as “self closing” tags. Usually these tags represent an
-element that is completely described by its attributes, and thus
-there is no need for other content.  So if you see something like
-this:</p>
-<pre><code>&lt;img src=&quot;https://goo.gl/pVxY0e&quot; alt=&quot;Floating flower&quot;/&gt;</code></pre>
+ones.<br>
+<br>We’ll learn more about these later, but we generally refer to the
+strange ones as “self closing” tags.<br>
+<br>Usually these tags represent an element that is completely described by its attributes, and thus
+there is no need for other content.<br>
+<br>So if you see something like this:</p>
+
+<pre><code>
+&lt;img src=&quot;https://goo.gl/pVxY0e&quot; alt=&quot;Floating flower&quot;/&gt;
+</code></pre>
+
 <p>… then you should know that the slash at the end of the open tag is
 sort of a shorthand for a close tag, so you won’t see any other
-indication that this element is now complete.  There are also a few tags
-that don’t even use the ‘/’ at the end, they just don’t have any close
-tag at all.  This works because all of the information this tag needs is
-declared in an “attribute”.</p>
+indication that this element is now complete.<br>
+<br>There are also a few tags that don’t even use the ‘/’ at the end, they just don’t have any close
+tag at all.<br>
+<br>This works because all of the information this tag needs is declared in an “attribute”.</p>
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-3-5">
 1.3.5 Comments
@@ -1720,17 +1728,25 @@ primarily targeted towards human readers.</p>
 comments.  HTML5 is no exception.  If you want to add something in your
 file that you want the browser to completely ignore, there’s a special
 tag for that (unsurprisingly called a “comment tag”):</p>
-<pre><code>&lt;!-- This is a comment --&gt;</code></pre>
+
+<pre><code>
+&lt;!-- This is a comment --&gt;
+</code></pre>
+
 <p>An HTML comment tag starts with <!-- and ends with -->, meaning that
 as the computer is reading through your HTML file, if it sees <!-- it
 will ignore everything it sees until it comes across -->.  There is no
 open or close tag, just a comment tag.  Unlike most other things in
 HTML5, comments cannot be nested.  If you try that, like:</p>
-<pre class="html5"><code>&lt;!--
+
+<pre class="html5"><code>
+&lt;!--
 Beginning of comment
   &lt;!-- comment nested inside --&gt;
 This is after the nested comment
---&gt;</code></pre>
+--&gt;
+</code></pre>
+
 <p>The computer will then see the beginning of the comment tag and start
 ignoring everything until it sees –&gt;, including the second <!--.
 Once it sees -->, it assumes the comment is done and goes back to
@@ -1738,6 +1754,7 @@ processing everything it sees as HTML code and content, even though the
 writer may have meant it to be a comment.</p>
 <p>Like most other tags, it can span multiple lines of your source file.
  This can be really convenient when you have a lot to say:</p>
+
 <div class="sourceCode" id="cb6"><pre
 class="sourceCode xml"><code class="sourceCode xml"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!--</span></span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="co">If you want some good advice,</span></span>
@@ -1745,23 +1762,28 @@ class="sourceCode xml"><code class="sourceCode xml"><span id="cb6-1"><a href="#c
 <span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="co">For loan oft loses both itself and friend,</span></span>
 <span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="co">And borrowing dulls the edge of husbandry.</span></span>
 <span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="co">--&gt;</span></span></code></pre></div>
+
 <p>Comments are also commonly used in development to block out bits of
 code, whether for testing or leaving unfinished business in the
 file:</p>
-<pre><code> &lt;!-- Not sure if I want this wording or not:
+
+<pre><code>
+&lt;!-- Not sure if I want this wording or not:
  &lt;p&gt;Eighty seven years ago, a bunch of guys started a new
     country&lt;/p&gt;
- --&gt;</code></pre>
+ --&gt;
+</code></pre>
+
 <p>It’s important to remember that just as HTML, CSS and JavaScript are
 three different languages, they each have their own notation for
-handling comments. This might seem confusing, but it’s actually kind of
+handling comments.<br>
+<br>This might seem confusing, but it’s actually kind of
 important that the HTML comment notation, at least, differs from the
-others.  As for the exact form of those comments, we’ll cover that in
+others. <br>
+<br>As for the exact form of those comments, we’ll cover that in
 good time.</p>
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch1-3-6">
-1.3.6 Attributes
-</h3>
+<h3 id="ch1-3-6">1.3.6 Attributes</h3>
 <!------------------------------------------------------------------------------------------------>
 <p>Most of what we’ll cover about attributes will come later, but I
 wanted to introduce the idea briefly. Basically, a given element on your
@@ -1770,22 +1792,27 @@ attributes. You can identify it uniquely with an ‘id’ attribute, or
 group it with a class of other elements by setting the ‘class’
 attribute.</p>
 <p>Attributes in HTML are written inside the opening tag like this:</p>
-<pre><code>&lt;p id=&quot;paragraph-1&quot; class=&quot;regular-paragraphs&quot;&gt;
+
+<pre><code>
+&lt;p id=&quot;paragraph-1&quot; class=&quot;regular-paragraphs&quot;&gt;
    Call me Ishmael . . .
-&lt;/p&gt;</code></pre>
+&lt;/p&gt;
+</code></pre>
+
 <p>The paragraph above has a unique identifier, “paragraph-1” and is
-part of a class of “regular-paragraphs”. The letters inside the quotes
-have no meaning to the browser, they just need to be consistent. They
-are actually strings (of characters), which, as we will soon learn,
+part of a class of “regular-paragraphs”.<br>
+<br>The letters inside the quotes have no meaning to the browser, they just need to be consistent. <br>
+<br>They are actually strings (of characters), which, as we will soon learn,
 suggest that if you want to have another paragraph in this class, it has
 to say “regular-paragraphs”, not “regular” or “Regular-Paragraphs” or
 any other variation.</p>
 <p>Again, the fact that the computer does not care what we put in those
 strings (except for some restrictions) means we can use them to convey
-meaning to a human developer. I could just as easily have said id=‘x’
+meaning to a human developer.<br>
+<br>I could just as easily have said id=‘x’
 and class=‘y’, but anyone looking at that would have no hint what the
-significance of x and y are. Best practice is to name these things to
-increase clarity, consistency and brevity.</p>
+significance of x and y are.<br>
+<br>Best practice is to name these things to increase clarity, consistency and brevity.</p>
 <p>But more about attributes in the next module.</p>
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-3-7">
@@ -1794,21 +1821,26 @@ increase clarity, consistency and brevity.</p>
 <!------------------------------------------------------------------------------------------------>
 <p>One key to understanding HTML, or any computer language, is to be
 sure that you avoid ambiguity, because computers generally are not good
-at judgement calls. For example, you could streamline HTML so that
+at judgement calls.<br>
+<br>For example, you could streamline HTML so that
 whenever you see a &lt;p&gt; tag, you start a new paragraph, no close
-tag needed. That might work most of the time, but that would prevent you
+tag needed.<br>
+<br>That might work most of the time, but that would prevent you
 from nesting one element inside another, as the browser could not know
 if you meant the new element to be nested or a successor.</p>
 <p>A human designer might be able to tell what you meant from the
 context, and knowing that mistakes happen choose the one she thinks is
-best suited in that case. A browser, on the other hand, has difficulty
+best suited in that case.<br>
+<br>A browser, on the other hand, has difficulty
 with a task like that, so it is helpful to use a close tag that matches
 the open tag to make things absolutely clear.</p>
 <details>
 <summary>
 HTML code extract!
 </summary>
-<pre><code>&lt;p&gt;
+
+<pre><code>
+&lt;p&gt;
 The old lady pulled her spectacles
 down and looked over them about the
 room; then she put them up and looked
@@ -1818,18 +1850,23 @@ There was a slight noise behind her
 and she turned just in time to seize a
 small boy by the slack of his roundabout
 and arrest his flight.
-&lt;/p&gt;</code></pre>
+&lt;/p&gt;
+</code></pre>
+
 </details>
 <p>The old lady pulled her spectacles down and looked over them about
-the room; then she put them up and looked out under them. There was a
+the room; then she put them up and looked out under them.<br>
+<br>There was a
 slight noise behind her and she turned just in time to seize a small boy
 by the slack of his roundabout and arrest his flight.</p>
+
 <blockquote>
 <p><i>A human reader could easily detect that two paragraphs were
 intended and that the writer probably just forgot to terminate one and
 start the other. The browser, on the other hand, will only see one
 paragraph and layout accordingly.</i></p>
 </blockquote>
+
 <p>On the other hand, you might think that since a browser always knows
 exactly what tag it is working with
 (<a href="https://en.wikipedia.org/wiki/Eidetic_memory" target="_blank" rel="noopener noreferrer">eidetic
@@ -1841,59 +1878,81 @@ remember what tag it is closing. We humans can get confused trying to
 remember that kind of detail.</p>
 <p>But there are other ambiguities to consider. For example, when a
 browser receives a file, it may know that it’s receiving an HTML file,
-but it won’t know which version of HTML is used (it matters).  </p>
+but it won’t know which version of HTML is used (it matters).</p>
 <p>That’s why <b>the first thing you need in any HTML file</b> is a tag
 to tell you what type of HTML file it is:</p>
-<pre><code>&lt;!DOCTYPE html&gt;</code></pre>
-<p>
+
+<pre><code>
+&lt;!DOCTYPE html&gt;
+</code></pre>
+
 <p>In other words, the first thing the browser sees is the declaration
-“This is an HTML5 file, in case you were wondering”. It may seem tedious
+“This is an HTML5 file, in case you were wondering”.<br>
+<br>It may seem tedious
 to put this at the top of every file, but believe me, it used to be
-worse.  You probably noticed that it doesn’t say “!DOCTYPE HTML5” but
+worse.<br>
+<br>You probably noticed that it doesn’t say “!DOCTYPE HTML5” but
 just “html”.</p>
 HTML5 can do this because all the previous versions were much more long
-winded.  For example, at the top of an HTML 4.01 page, you might have
-something like this:
-</p>
-<pre><code>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01//EN&quot;
-   &quot;http://www.w3.org/TR/html4/strict.dtd&quot;&gt;</code></pre>
+winded.<br>
+<br>For example, at the top of an HTML 4.01 page, you might have
+something like this:</p>
+
+<pre><code>
+&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01//EN&quot;
+   &quot;http://www.w3.org/TR/html4/strict.dtd&quot;&gt;
+</code></pre>
+
 <p>
 We do not need to go into the details of why and what that means, just
 be grateful that HTML5 did away with it.
 </p>
-<h4>
-Everything in HTML
-</h4>
+<h4>Everything in HTML</h4>
 <p>
 It may seem redundant, but the next bit tells the browser where the
 actual HTML code begins, using an &lt;html&gt; tag:
 </p>
-<pre><code>&lt;html&gt;</code></pre>
+
+<pre><code>
+&lt;html&gt;
+</code></pre>
+
 <p>
-Nearly every HTML document has two parts. The body is the main content
-of the page, containing text, images, tables and so on. The head comes
-before the body (on top?). It is where you put information about the
-document that does not really go in the body, AKA ‘meta-’ information.
-Things like what kind of character set the page is using, where the
+Nearly every HTML document has two parts.<br>
+<br>The body is the main content
+of the page, containing text, images, tables and so on.<br>
+<br>The head comes
+before the body (on top?).<br>
+<br>It is where you put information about the
+document that does not really go in the body, AKA ‘meta-’ information.<br>
+<br>Things like what kind of character set the page is using, where the
 browser can find style tips, and what the title of the page is (which
 might be different from the title the user reads) all go in the
-&lt;head&gt;. If you have been paying attention, you should be able to
-create a very basic html file, in the right form, without any content.
-Hint, for the head of the document you would write:
+&lt;head&gt;.<br>
+<br>If you have been paying attention, you should be able to
+create a very basic html file, in the right form, without any content.<br>
+<br>Hint, for the head of the document you would write:
 </p>
-<pre><code>&lt;head&gt;
- 
-&lt;/head&gt;</code></pre>
+
+<pre><code>
+&lt;head&gt;
+&lt;/head&gt;
+</code></pre>
+
 <p>
 You may recall the paragraph tag &lt;p&gt; that we used in the example
-above. Try inserting a paragraph into the body of your new document.
- You should end up with something that looks like this:
+above.<br>
+<br>Try inserting a paragraph into the body of your new document.<br>
+<br>You should end up with something that looks like this:
 </p>
+
 <details>
 <summary>
 HTML code extract!
 </summary>
-<pre><code>&lt;!DOCTYPE html&gt;
+
+<pre><code>
+&lt;!DOCTYPE html&gt;
 &lt;html&gt;
    &lt;head&gt;
    &lt;/head&gt;
@@ -1903,17 +1962,19 @@ HTML code extract!
          paragraph make&#39;!
       &lt;/p&gt;
    &lt;/body&gt;
-&lt;/html&gt;</code></pre>
+&lt;/html&gt;
+</code></pre>
+
 </details>
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch1-4-1">
-1.4.1 Character Encoding
-</h3>
+<h3 id="ch1-4-1">1.4.1 Character Encoding</h3>
 <!------------------------------------------------------------------------------------------------>
 <p>
 <p>A character can be any letter, digit or symbol that makes up words
-and languages. English alphabets and digits ‘a-z’, ‘A-Z’, ‘0-9’ are all
-considered characters. Other examples of characters include the Latin
+and languages.<br>
+<br>English alphabets and digits ‘a-z’, ‘A-Z’, ‘0-9’ are all
+considered characters.<br>
+<br>Other examples of characters include the Latin
 letter <a
 href="http://www.w3.org/International/questions/images/225.png" target="_blank" rel="noopener noreferrer">á</a> or
 the Chinese ideograph <a
@@ -1929,15 +1990,14 @@ data in computer memory). In technical terms, we say the character is
 <b>encoded</b> using one or more bytes.</p>
 Basically, all the characters are stored in computer language and
 a <b>character encoding</b> is the awesome dictionary that is going to
-help us decode this computer language into something we can understand.
-In technical terms, it is what is used as a reference to map code points
+help us decode this computer language into something we can understand.<br>
+<br>In technical terms, it is what is used as a reference to map code points
 into bytes to store in computer memory; then when you use a character in
 your HTML, the bytes are read back into code points using the character
 encoding as a reference.
 </p>
-<h4>
-Examples of character encodings include:
-</h4>
+
+<h4>Examples of character encodings include:</h4>
 <ul>
 <li>
 <i>ASCII</i>: contains letters, characters and a limited set of symbols
@@ -1985,51 +2045,63 @@ Use the &lt;meta&gt; tag with the charset attribute in your HTML page to
 indicate to the browser the character encoding you will be using in the
 page.
 </p>
-<pre><code>&lt;meta charset=&quot;utf-8&quot;&gt;</code></pre>
+
+<pre><code>
+&lt;meta charset=&quot;utf-8&quot;&gt;
+</code></pre>
+
 <p>
 Alternatively, you can also use http-equiv and content attributes.
 </p>
-<pre><code>&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;
-   charset=utf-8&quot;&gt;</code></pre>
+
+<pre><code>
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;
+   charset=utf-8&quot;&gt;
+</code></pre>
+
 <p>We recommend using the first one because it is much less complicated.
 You should also always use ‘utf-8’.</p>
-<h4>
-Where to place it?
-</h4>
+
+<h4>Where to place it?</h4>
 <p>The meta declaration belongs inside the &lt;head&gt; element, and
 should be specified within the first 1024 bytes of your page. So the
 earlier it is mentioned in your code, the better. <br>
 <br>W3C recommends placing it immediately after the
 opening &lt;head&gt; tag:</p>
-<pre><code>&lt;!DOCTYPE html&gt;
+
+<pre><code>
+&lt;!DOCTYPE html&gt;
    &lt;html lang=&quot;en&quot;&gt;
    &lt;head&gt;
       &lt;meta charset=&quot;utf-8&quot;&gt;
       ...
    &lt;/head&gt;
-&lt;/html&gt;</code></pre>
+&lt;/html&gt;
+</code></pre>
+
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch1-4-3">
-1.4.3 HTML Character References
-</h3>
+<h3 id="ch1-4-3">1.4.3 HTML Character References</h3>
 <!------------------------------------------------------------------------------------------------>
-<h4>
-Why we need character references
-</h4>
+<h4>Why we need character references</h4>
 <p>Before we learn what HTML character references are, let’s look at how
 the need for them came about. <br>
 <br>Try the following code in your HTML:
 </p>
-<pre><code>&lt;p&gt;Welcome to &quot;HTML5 &amp; CSS Fundamentals&quot;. The first tag we will be
-   learning about is  the &lt;html&gt; tag.&lt;/p&gt;</code></pre>
-<h4>
-HTML
-</h4>
+
+<pre><code>
+&lt;p&gt;Welcome to &quot;HTML5 &amp; CSS Fundamentals&quot;. The first tag we will be
+   learning about is  the &lt;html&gt; tag.&lt;/p&gt;
+</code></pre>
+
+<h4>HTML</h4>
+
 <details>
 <summary>
 HTML code extract!
 </summary>
-<pre><code> &lt;!DOCTYPE html&gt;
+
+<pre><code>
+ &lt;!DOCTYPE html&gt;
  &lt;html lang=&quot;en&quot;&gt;
  &lt;head&gt;
  &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -2040,21 +2112,21 @@ HTML code extract!
  learning about is the
  &lt;html&gt; tag.&lt;/p&gt;
  &lt;/body&gt;
- &lt;/html&gt;</code></pre>
+ &lt;/html&gt;
+</code></pre>
 </details>
+
 <p>
 Did you notice the 
 &lt;html&gt;
 <br>tag is missing in your output? In this case, your browser mixed it
 up with an actual tag, although it was meant to be a part of
 the sentence as text. <br>
-<br>Because of this kind of confusion, HTML reserves certain characters. If
-you want to use these characters in your HTML, you need to use character
+<br>Because of this kind of confusion, HTML reserves certain characters.<br>
+<br>If you want to use these characters in your HTML, you need to use character
 references to display them.
 </p>
-<h4>
-How to use character references
-</h4>
+<h4>How to use character references</h4>
 <p>All HTML character references can be written using either a name or
 number. <br>
 <br>If you want to use a named character reference in your source code, use
@@ -2062,7 +2134,11 @@ an ampersand symbol '&amp;', followed by the name and a semi-colon.
 Names are case sensitive. For example, the following represents a
 no-break space:
 </p>
-<pre><code>&amp;nbsp;</code></pre>
+
+<pre><code>
+&amp;nbsp;
+</code></pre>
+
 <p>There are two types of numeric character reference: ones that use
 decimal numbers and ones that use hexadecimal numbers.  In each case,
 the number represents the code point number of the character in
@@ -2070,26 +2146,31 @@ Unicode.<br>
 <br>If you are using a decimal number, use an ampersand symbol ‘&amp;’ ,
 followed by the symbol ‘#’, then a decimal number and a semi-colon.
 </p>
-<pre><code>&amp;#160;</code></pre>
+
+<pre><code>
+&amp;#160;
+</code></pre>
+
 <p>
 If you are using a hexadecimal number, use an ampersand symbol ‘&amp;’ ,
 followed by the symbols ‘#x’, then a hexadecimal number and a
 semi-colon.
 </p>
-<pre><code>&amp;#x00A0;</code></pre>
+
+<pre><code>
+&amp;#x00A0;
+</code></pre>
+
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch1-4-4">
-1.4.4 Special characters
-</h3>
+<h3 id="ch1-4-4">1.4.4 Special characters</h3>
 <!------------------------------------------------------------------------------------------------>
-<h4>
-Protecting characters used for HTML syntax
-</h4>
+<h4>Protecting characters used for HTML syntax</h4>
 <p>
 The five special characters listed in the table below should always be
 written as character references if you want them to appear on your page
 when viewed by a reader:
 </p>
+
 <table>
 <colgroup>
 <col style="width: 22%" />
@@ -2197,24 +2278,33 @@ Displayed as: &lt;a href=“#timetable”&gt;
 </tr>
 </tbody>
 </table>
+
 <p>
 We do not want these special characters to be processed by the browser
-as HTML code. Instead, you want it to be displayed to the user. So if
-you wish to display this in your browser:
+as HTML code.<br>
+<br>Instead, you want it to be displayed to the user.<br>
+<br>So if you wish to display this in your browser:
 </p>
-<pre><code>&lt;img src=&quot;images/test.png&quot; alt=&quot;test image&quot;&gt;</code></pre>
+
+<pre><code>
+&lt;img src=&quot;images/test.png&quot; alt=&quot;test image&quot;&gt;
+</code></pre>
+
 <p>
 You have to write it like this in your HTML code:
 </p>
-<pre><code>&lt;img src=&quot;images/test.png&quot; alt=&quot;test image&quot;&gt;</code></pre>
-<h4>
-HTML:
-</h4>
+
+<pre><code>
+&lt;img src=&quot;images/test.png&quot; alt=&quot;test image&quot;&gt;
+</code></pre>
+
+<h4>HTML:</h4>
+
 <details>
-<summary>
-HTML code extract!
-</summary>
-<pre><code>&lt;!DOCTYPE html&gt;
+<summary>HTML code extract!</summary>
+
+<pre><code>
+&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
     &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -2228,57 +2318,71 @@ HTML code extract!
       &lt;img src=&quot;&quot;images/test.png&quot; alt=&quot;test image&quot;&gt;
     &lt;/p&gt;
   &lt;/body&gt;
-&lt;/html&gt;</code></pre>
+&lt;/html&gt;
+</code></pre>
+
 </details>
+
 <p>
 <p>Some tolerant browsers will allow using the &amp; character directly
-but <b>not</b> all. So you should use its character
+but <b>not</b> all.<br>
+<br>So you should use its character
 reference &amp;. <a href="https://jsfiddle.net/vh2h7usk/1/" target="_blank" rel="noopener noreferrer">Check out
 these examples</a> illustrating the importance of using the character
 entity &amp; for &amp;.</p>
 <p>While it might be tempting to not use one of these character
 references when you notice that the browser produces the expected result
 anyway, it is a best practice to use character references for these five
-special characters using &lt;, &gt;, ", &amp; and   at all times.  This
-is because you can never be sure what browser or application will be
-used to view your code, and how that will behave.</p>
-The " character reference is particularly useful for quotation marks
-within attribute values. Let’s say you want to add a title attribute to
-an abbreviation to provide an expansion of the abbreviation. If you try
+special characters using &lt;, &gt;, ", &amp; and   at all times.<br>
+<br>This is because you can never be sure what browser or application will be
+used to view your code, and how that will behave.<br>
+<br>The " character reference is particularly useful for quotation marks
+within attribute values.<br>
+<br>Let’s say you want to add a title attribute to
+an abbreviation to provide an expansion of the abbreviation.<br>
+<br>If you try
 the code below in a browser and hover your mouse pointer on the text
-‘HTML5’, it will show you the title text (it works like a tooltip). The
-title text in the source code includes quotes (around the number 5) like
-this:
-</p>
-<pre><code>&lt;abbr title=&quot;Hypertext Markup Language &quot;5&quot;&quot;&gt;HTML5&lt;/abbr&gt;</code></pre>
+‘HTML5’, it will show you the title text (it works like a tooltip).<br>
+<br>The title text in the source code includes quotes (around the number 5) like
+this:</p>
+
+<pre><code>
+&lt;abbr title=&quot;Hypertext Markup Language &quot;5&quot;&quot;&gt;HTML5&lt;/abbr&gt;
+</code></pre>
+
 <p>The above will not display the number 5.<br>
 <br>Replacing the quotes with its character entity will work:
 </p>
-<pre><code>&lt;abbr title=&quot;Hypertext Markup Language &quot;5&quot;&quot;&gt;HTML5&lt;/abbr&gt;</code></pre>
+
+<pre><code>
+&lt;abbr title=&quot;Hypertext Markup Language &quot;5&quot;&quot;&gt;HTML5&lt;/abbr&gt;
+</code></pre>
+
 <p>
 Check out this jsfiddle link.
 </p>
-<h4>
-HTML
-</h4>
-<pre><code>&lt;p&gt;Rest your mouse on the text below: (The number 5 is missing)&lt;/p&gt;
+<h4>HTML</h4>
+
+<pre><code>
+&lt;p&gt;Rest your mouse on the text below: (The number 5 is missing)&lt;/p&gt;
 &lt;abbr title=&quot;Hypertext Markup Language &quot;5&quot;&quot;&gt;HTML5&lt;/abbr&gt;
 &lt;p&gt;Rest your mouse on the text below: (5 is displayed when quotes is
 replaced with its character entity name)&lt;/p&gt;
-&lt;abbr title=&quot;Hypertext Markup Language &amp;quot;5&amp;quot;&quot;&gt;HTML5&lt;/abbr&gt;</code></pre>
+&lt;abbr title=&quot;Hypertext Markup Language &amp;quot;5&amp;quot;&quot;&gt;HTML5&lt;/abbr&gt;
+</code></pre>
+
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch1-4-5">
-1.4.5 Character References for Other Characters
-</h3>
+<h3 id="ch1-4-5">1.4.5 Character References for Other Characters</h3>
 <!------------------------------------------------------------------------------------------------>
 <p>It is also possible to use character references to represent other
-characters in your page. This is useful when you are unable to type the
+characters in your page.<br>
+<br>This is useful when you are unable to type the
 character itself, or when you can’t tell what the character is by
 looking at it (for example, a no-break space, or an invisible formatting
 character).<br>
 <br>There are predefined, named character references in HTML for several
-categories, these include:
-</p>
+categories, these include:</p>
+
 <ul>
 <li>
 currency symbols
@@ -2299,7 +2403,7 @@ mathematical symbols
 Greek letters
 </li>
 </ul>
-<p>
+
 <p>For a list of <b>named</b> character references available in HTML,
 visit:  <a href="https://dev.w3.org/html5/html-author/charref"
 class="uri" target="_blank" rel="noopener noreferrer">https://dev.w3.org/html5/html-author/charref</a>.</p>
@@ -2307,22 +2411,24 @@ class="uri" target="_blank" rel="noopener noreferrer">https://dev.w3.org/html5/h
 a <b>numeric</b> character reference.</p>
 <p>Apart from the characters used for HTML syntax (described in the
 previous unit), there is usually no need to use character references to
-represent characters.  All browsers are built using Unicode internally,
+represent characters.<br>
+<br>All browsers are built using Unicode internally,
 which means that they are capable of handling all possible characters
-defined by Unicode. The best practice for symbols like copyright,
+defined by Unicode.<br>
+<br>The best practice for symbols like copyright,
 currency symbols, math and arrows is to simply type them directly into
-the source code.</p>
-You can do this directly in the code:   &lt;p&gt; is © 2015. Breach will
+the source code.<br>
+<br>You can do this directly in the code:   &lt;p&gt; is © 2015. Breach will
 entail a fine of € 400&lt;/p&gt;
 </p>
-<h4>
-HTML:
-</h4>
+
+<h4>HTML:</h4>
+
 <details>
-<summary>
-HTML code extract!
-</summary>
-<pre><code>&lt;!DOCTYPE html&gt;
+<summary>HTML code extract!</summary>
+
+<pre><code>
+&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
    &lt;head&gt;
       &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -2331,8 +2437,11 @@ HTML code extract!
    &lt;body&gt;
       &lt;p&gt;This is © 2015. Breach will entail a fine of € 400&lt;/p&gt;
       &lt;/body&gt;
-&lt;/html&gt;</code></pre>
+&lt;/html&gt;
+</code></pre>
+
 </details>
+
 <p>There is no need for the © or € HTML character reference if you are
 able to type the character itself.</p>
 <p>If you’d like to read more information about when to use character
@@ -15120,6 +15229,7 @@ page.<br>
 <br>We fixed those issues at the top.<br>
 These are the final changes to our recipe project for this unit.<br>
 </p>
+	
 <!--- template for images
 <p align="center" width="100%">
 <img src="./images/image###.png?raw=true"
@@ -15130,13 +15240,9 @@ These are the final changes to our recipe project for this unit.<br>
   src="./images/image102.png?raw=true"
   alt="Picture of a complete table design."
   style="width:40%;" />
-
 --->
-<h6>
-The end…
-</h6>
-<h4>
-<b>Last Updated 12-25-2022 Sun 7:35pm</b>
-</h4>
+	
+<h6>The end…</h6>
+<h4><b>Last Updated 12-25-2022 Sun 7:35pm</b></h4>
 </body>
 </html>
