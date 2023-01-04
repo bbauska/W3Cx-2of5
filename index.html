@@ -2857,7 +2857,7 @@ that lines of poetry break where they’re supposed to (less verbose than
 requiring each line to be a separate element).  Essentially it helps
 break the “white space” rule: where spaces and carriage returns are
 generally treated the same, the &lt;br&gt; tag is treated as a required
-carriage return. <br />
+carriage return. <br>
 Because it’s an empty tag, there’s no need for a close tag. Indeed, if
 you do try adding &lt;/br&gt; after your &lt;br&gt; tag, it will likely
 be interpreted as an additional break. If you feel a strong need to
@@ -3123,7 +3123,7 @@ closing quote
 </li>
 <li>
 Attributes are a name-value pair: start=“5”<br />
-name: start<br />
+name: start<br>
 value: any positive integer
 </li>
 <li>
@@ -3371,7 +3371,7 @@ id is primarily used for:
 </h4>
 <ol type="1">
 <li>Styling your element. You can specify the style you want for the
-element in your style sheet by referencing the ‘id’. <br />
+element in your style sheet by referencing the ‘id’. <br>
 Using CSS, you can specify code that will give different styles to
 “question-about-html” (e.g.: purple text, center-aligned) and
 “html-answer”  (e.g.: green text)</li>
@@ -3414,20 +3414,12 @@ space:
 Naming rules for the class attribute:
 </h4>
 <ul>
-<li>
-Must begin with a letter (a-z or A-Z).
-</li>
-<li>
-First letter can be followed by a letter, digit, hyphen or an
-underscore.
-</li>
-<li>
-Values are case-sensitive.
-</li>
+<li>Must begin with a letter (a-z or A-Z).</li>
+<li>First letter can be followed by a letter, digit, hyphen or an underscore.</li>
+<li>Values are case-sensitive.</li>
 </ul>
-<h4>
-class is primarily used for:
-</h4>
+
+<h4>class is primarily used for:</h4>
 <ol type="1">
 <li>Styling your elements. You can specify the style you want for all
 the elements that belong to the class in your stylesheet. </li>
@@ -3450,9 +3442,7 @@ telling it:
 <i>html</i> class: text color is red
 </li>
 </ul>
-<h4>
-The code above will then look like this:
-</h4>
+<h4>The code above will then look like this:</h4>
 <p><b>Who are you?</b></p>
 <p>I am the author</p>
 <p><b>Do you like HTML5?</b></p>
@@ -3463,9 +3453,7 @@ and ‘html’ classes applied to it.</p>
 <li>In JavaScript, class can also be used to manipulate html elements of
 the same class. </li>
 </ol>
-<h4>
-Global attribute: ‘lang’
-</h4>
+<h4>Global attribute: ‘lang’</h4>
 <p>The lang attribute indicates the language of the text in the element
 to which it is attached.  Identifying the language of content is
 increasingly important, as browsers adapt styling and other aspects of
@@ -3495,14 +3483,13 @@ Subtag Lookup</a></p>
 &lt;html&gt; tag</b>.  You can also declare the language of content
 within the page by attaching a lang attribute to an element that
 contains it.</p>
-<h4>
-For example:
-</h4>
+<h4>For example:</h4>
 <div class="sourceCode" id="cb62"><pre
 class="sourceCode xml"><code class="sourceCode xml"><span id="cb62-1"><a href="#cb62-1" aria-hidden="true" tabindex="-1"></a>&lt;<span class="kw">html</span><span class="ot"> lang=</span><span class="st">&quot;en-GB&quot;</span>&gt;...&lt;/<span class="kw">html</span>&gt;</span>
 <span id="cb62-2"><a href="#cb62-2" aria-hidden="true" tabindex="-1"></a>   &lt;<span class="kw">p</span>&gt;In French you&#39;d say &lt;<span class="kw">span</span><span class="ot"> lang=</span><span class="st">&quot;fr&quot;</span>&gt;On voit souvent des chats</span>
-<span id="cb62-3"><a href="#cb62-3" aria-hidden="true" tabindex="-1"></a>      sur le Web.&lt;/<span class="kw">span</span>&gt;&lt;/<span class="kw">p</span>&gt;</span></code></pre></div>
-<p>
+<span id="cb62-3"><a href="#cb62-3" aria-hidden="true" tabindex="-1"></a>      sur le Web.&lt;/<span class="kw">span</span>&gt;&lt;/<span class="kw">p</span>&gt;</span></code></pre>
+</div>
+
 <p>The first example above shows how you can qualify the language
 (English) with a region subtag (GB) to specify British English.  This
 distinction can be useful for spellchecking your source. You can also
@@ -3518,16 +3505,10 @@ within the document.  This would help a voice browser pronounce the
 French word ‘chats’ correctly, meaning ‘cats’ and not ‘chats’ in
 English.
 </p>
-<h4>
-Global attribute: ‘title’
-</h4>
-<p>
-Try this: Place your cursor on the word and then on the picture below.
-Don’t click on it, just rest your cursor there.
-</p>
-<h4>
-NASA
-</h4>
+<h4>Global attribute: ‘title’</h4>
+<p>Try this: Place your cursor on the word and then on the picture below.
+Don’t click on it, just rest your cursor there.</p>
+<h4>NASA</h4>
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- 22. beautiful girl (71) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -3535,6 +3516,7 @@ NASA
   src="./images/image022.jpeg?raw=true"
   alt="Example image of a girl with a beautiful smile to illustrate title attribute."
   style="width:25%;" />
+
 <p>Did you see the two “secret” messages? A message that appears when
 you rest your pointer over an element, is called a tooltip. Be it a
 paragraph, header, image or any element, the title attribute is used to
@@ -3543,25 +3525,21 @@ on abbreviations or add some context. For images, you should use
 an alt attribute as there is no guarantee that the title attribute will
 be presented to assistive technology users. The title can be any text
 value. </p>
-<pre><code>&lt;abbr title=&quot;National Aeronautics and Space
-   Administration&quot;&gt;NASA&lt;/abbr&gt;</code></pre>
+
+<pre><code>
+&lt;abbr title=&quot;National Aeronautics and Space
+   Administration&quot;&gt;NASA&lt;/abbr&gt;
+ </code></pre>
+<
+!------------------------------------------------------------------------------------------------>
+<h3 id="ch2-2-4">2.2.4 Global Attributes</h3>
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch2-2-4">
-2.2.4 Global Attributes
-</h3>
-<!------------------------------------------------------------------------------------------------>
-<h4>
-References for the video text below:
-</h4>
+<h4>References for the video text below:</h4>
 <ul>
-<li>
-<a href="https://www.w3.org/2009/cheatsheet/" target="_blank" rel="noopener noreferrer">W3C Cheatsheet</a>
-</li>
-<li>
-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes" target="_blank" rel="noopener noreferrer">Mozilla
-Developer Newsletter (MDN) Attribute Reference</a>
-</li>
+<li><a href="https://www.w3.org/2009/cheatsheet/" target="_blank" rel="noopener noreferrer">W3C Cheatsheet</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes" target="_blank" rel="noopener noreferrer">Mozilla Developer Newsletter (MDN) Attribute Reference</a></li>
 </ul>
+
 <p>Hi everyone! Now that we have read a fair amount of information about
 attributes, we know that there are two kinds, global and non global
 attributes.</p>
@@ -3665,9 +3643,7 @@ different element pages.</p>
 <p>That’s it for now and, go ahead and explore attributes and all of the
 elements you can think of.</p>
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch2-2-5">
-2.2.5 Activities - Attributes
-</h3>
+<h3 id="ch2-2-5">2.2.5 Activities - Attributes</h3>
 <!------------------------------------------------------------------------------------------------>
 <p>Please find below suggested activities to help you practice:</p>
 <ol type="1">
@@ -3689,29 +3665,21 @@ the list. Give it the following title (when you hover your mouse, it
 should display the title as a tooltip): ‘Activity List’.</p></li>
 </ol>
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch2-3-1">
-2.3.1 Separating Content and Style
-</h3>
+<h3 id="ch2-3-1">2.3.1 Separating Content and Style</h3>
 <!------------------------------------------------------------------------------------------------>
 <p>When writing in hypertext language, it is important to separate
 content and style. Style should be kept tucked away in Cascading Style
 Sheets (CSS).</p>
 <p>Let’s look at a few interesting tags that lived as exception to this
 rule and were eventually corrected in HTML5.</p>
+
 <ol type="1">
-<li><p>
-This text is in <i>Italics</i>. It uses the i tag
-</p></li>
-<li><p>
-This text is also in &lt;em&gt;Italics</em>. But it uses the em tag!
-</p></li>
-<li><p>
-This text is in <b>Bold</b>. It uses the b tag
-</p></li>
-<li><p>
-This text is also in <strong>Bold</strong>. But it uses the strong tag!
-</p></li>
+<li><p>This text is in <i>Italics</i>. It uses the i tag</p></li>
+<li><p>This text is also in &lt;em&gt;Italics</em>. But it uses the em tag!</p></li>
+<li><p>This text is in <b>Bold</b>. It uses the b tag</p></li>
+<li><p>This text is also in <strong>Bold</strong>. But it uses the strong tag!</p></li>
 </ol>
+
 <p>This is how the above HTML code will look in a browser:</p>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 23. how html will look in browser (76) ----------------------------->
@@ -3720,13 +3688,13 @@ This text is also in <strong>Bold</strong>. But it uses the strong tag!
   src="./images/image023.png?raw=true"
   alt="Example italics and bold.  How HTML will look in the browser."
   style="width:45%;" />
+
 <p>It seems redundant for two tags to do the same thing in HTML.
 While &lt;b&gt; and &lt;strong&gt;, &lt;i&gt; and &lt;em&gt; seem no
 different in a regular Web browser there is an important difference
 between them.</p>
-<h4>
-Semantic vs Style tags
-</h4>
+
+<h4>Semantic vs Style tags</h4>
 <p>The four tags we saw above can be categorized into style and semantic
 tags.</p>
 <p><b>Style tags</b>, in HTML4, focused purely on presentation and
@@ -3734,49 +3702,29 @@ design. It only talked about how the text should look like on the
 screen. </p>
 <p>Semantic refers to the meaning of words in a language. <b>Semantic
 tags</b> said something about the semantic of the tag. It offered
-meaning.</p>
-a
+meaning.</p>a
+
 <table>
 <colgroup>
 <col style="width: 18%" />
 <col style="width: 19%" />
 <col style="width: 61%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>
-Tag
-</th>
-<th>
-Type
-</th>
-<th>
-Description
-</th>
+<thead><tr class="header">
+<th>Tag</th>
+<th>Type</th>
+<th>Description</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td>
-&lt;b&gt;
-</td>
-<td>
-Style
-</td>
-<td>
-Makes text bold
-</td>
+<tbody><tr class="odd">
+<td>&lt;b&gt;</td>
+<td>Style</td>
+<td>Makes text bold</td>
 </tr>
 <tr class="even">
-<td>
-&lt;i&gt;
-</td>
-<td>
-Style
-</td>
-<td>
-Makes text italics
-</td>
+<td>&lt;i&gt;</td>
+<td>Style</td>
+<td>Makes text italics</td>
 </tr>
 <tr class="odd">
 <td>
@@ -3786,7 +3734,7 @@ Makes text italics
 Semantic
 </td>
 <td>
-Emphasizes text<br /> <br /> Text is italics by default in a browser
+Emphasizes text<br> <br> Text is italics by default in a browser
 </td>
 </tr>
 <tr class="even">
@@ -3797,14 +3745,12 @@ Emphasizes text<br /> <br /> Text is italics by default in a browser
 Semantic
 </td>
 <td>
-Important text<br /> <br /> Text is bold by default in a browser
+Important text<br> <br> Text is bold by default in a browser
 </td>
 </tr>
 </tbody>
 </table>
-<h4>
-&lt;b&gt; vs &lt;strong&gt;
-</h4>
+<h4>&lt;b&gt; vs &lt;strong&gt;</h4>
 <p><b>Bold</b> is a style that makes letters thicker so it stands out
 among other text but it has no semantic meaning, for example for voice
 browsers, screen readers, and other types of ways to access the Web. A
@@ -3824,9 +3770,7 @@ its contents.</p>
 <p>The ‘must’ may be bolded in a browser. But when reading the HTML
 document out loud by a text-to-speech program, it can be spoken with
 importance or seriousness.</p>
-<h4>
-&lt;i&gt; vs &lt;em&gt;
-</h4>
+<h4>&lt;i&gt; vs &lt;em&gt;</h4>
 <p><b>Italics</b> slants text. We usually italicize names of magazine,
 books, TV shows etc. Just like the bold tag, since it is meant purely
 for presentation purposes, it means nothing to someone who cannot read
@@ -3839,9 +3783,7 @@ and ‘store’.</p>
 <p>                    Not me. That’s your job! </p>
 <p>You have to go to the store.</p>
 <p>                    To the store. Not the arcade.</p>
-<h4>
-Changes in HTML5
-</h4>
+<h4>Changes in HTML5</h4>
 <p>So far, we have looked at how these tags were in HTML4. In the
 beginning of this unit, we learned that content and style should be kept
 separate and that styling should be kept tucked away in Cascading Style
@@ -3893,15 +3835,11 @@ read the
 article <a href="https://www.w3.org/International/questions/qa-b-and-i-tags" target="_blank" rel="noopener noreferrer">Using
 &lt;b&gt; and &lt;i&gt; elements</a>.</p>
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch2-3-2">
-2.3.2 Introduction to Semantic Elements
-</h3>
+<h3 id="ch2-3-2">2.3.2 Introduction to Semantic Elements</h3>
 <!------------------------------------------------------------------------------------------------>
 <p>Semantic HTML is HTML that concentrates on the meaning of information
 in Web pages instead of its presentation or look.</p>
-<h4>
-What are semantic elements?
-</h4>
+<h4>What are semantic elements?</h4>
 <p>If you want to add a paragraph, you would use the paragraph tag. If
 you want to add a heading, you would use the header
 tags &lt;h1&gt;-&lt;h6&gt;, and to add an image, you would use the image
@@ -3911,9 +3849,7 @@ suggest the purpose of the content within the
 tags. &lt;i&gt; and &lt;b&gt; suggest nothing about the content and this
 is why they were not considered semantic enough and initially
 deprecated.</p>
-<h4>
-Using the right tags
-</h4>
+<h4>Using the right tags</h4>
 <p>From a semantic HTML perspective, using the right tags is important.
 You should use &lt;blockquote&gt; to wrap a quote and not use a
 paragraph tag and then style it to look like a quote. You
@@ -3921,9 +3857,7 @@ should use &lt;em&gt; to emphasize a part of your content, not just to
 italicize text. For presentation purposes, you can achieve the same
 using CSS. How something looks has very little to do with what it means.
 This is why in HTML, we separate content and style.</p>
-<h4>
-Why is it important?
-</h4>
+<h4>Why is it important?</h4>
 <p>Semantic elements are beneficial to both the developer and browser.
 They convey much more information about your HTML document’s content and
 structure. There is a tag called header in semantic HTML. When you see a
@@ -3942,9 +3876,7 @@ headers and reading them in a different tone.</p>
 <p>Since its establishment, it is an ongoing effort on part of W3C to
 make HTML as semantic as possible. HTML5 brought with it a slew of new
 semantic elements.</p>
-<h4>
-Web page structure
-</h4>
+<h4>Web page structure</h4>
 <p>Let’s look at a typical Web page structure that consists of blocks
 named after: header, nav, article, section, aside and footer.</p>
 <!------------------------------------------------------------------------------------------------>
@@ -3954,6 +3886,7 @@ named after: header, nav, article, section, aside and footer.</p>
   src="./images/image024.jpeg?raw=true"
   alt="Picture showing the structure of a Web site: header, nav, article, section, aside and footer."
   style="width:45%;" />
+
 <p>Tags such
 as<b> &lt;article&gt;</b>, <b>&lt;section&gt;</b>, <b>&lt;header&gt;</b>, <b>&lt;nav&gt;
 and &lt;footer&gt; </b>were specifically introduced in HTML5 to define
@@ -4146,7 +4079,7 @@ header and footer navigation.
 </td>
 <td>
 &lt;nav&gt;&lt;ol&gt;<br /> &lt;li&gt;&lt;a href=“/act1/”&gt;Act
-1&lt;/a&gt;&lt;/li&gt;  <br /> &lt;li&gt;&lt;a href=“/act2/”&gt;Act
+1&lt;/a&gt;&lt;/li&gt;  <br> &lt;li&gt;&lt;a href=“/act2/”&gt;Act
 2&lt;/a&gt;&lt;/li&gt;<br /> &lt;li&gt;&lt;a href=“/act3/”&gt;Act
 3&lt;/a&gt;&lt;/li&gt;<br /> &lt;/ol&gt;&lt;/nav&gt;
 </td>
@@ -4190,7 +4123,7 @@ considered as part of the main page outline.
 </td>
 <td>
 &lt;p&gt;Algernon’s flat is luxuriously and artistically
-furnished&lt;/p&gt;<br /> <br /> &lt;aside&gt;<br /> &lt;h3&gt;Algernon
+furnished&lt;/p&gt;<br /> <br> &lt;aside&gt;<br /> &lt;h3&gt;Algernon
 Moncrieff&lt;/h3&gt;<br /> &lt;p&gt;A wealthy bachelor who lives in a
 fashionable part of London. He has a good sense of humor and utter lack
 of respect for society.&lt;/p&gt;<br /> &lt;/aside&gt;
@@ -4205,65 +4138,38 @@ A way to provide additional information that the user can show or hide.
 Content that is shown to user by default. Other content is hidden and
 can be expanded to view.
 </td>
-<td>
-&lt;details&gt;<br /> &lt;summary&gt;Cast Members&lt;/summary&gt;<br />
-&lt;p&gt;George Washington as Algernon Moncrieff&lt;/p&gt;<br />
-&lt;p&gt;Ronald Reagan as John Worthing&lt;/p&gt;<br /> &lt;/details&gt;
-</td>
+<td>&lt;details&gt;<br /> &lt;summary&gt;Cast Members&lt;/summary&gt;<br>
+&lt;p&gt;George Washington as Algernon Moncrieff&lt;/p&gt;<br>
+&lt;p&gt;Ronald Reagan as John Worthing&lt;/p&gt;<br /> &lt;/details&gt;</td>
 </tr>
 <tr class="even">
-<td>
-<p>
-<strong>&lt;figcaption&gt;</strong>
-</p>
-<p>
+<td><p><strong>&lt;figcaption&gt;</strong></p><p>
 * see example below
 </p>
 </td>
-<td>
-Provides a caption (explanation) of an image. To be used within
-&lt;figure&gt;.
-</td>
-<td>
-&lt;figure&gt;<br /> &lt;img src=“img_cast.jpg” alt=“The Importance of
+<td>Provides a caption (explanation) of an image. To be used within
+&lt;figure&gt;.</td>
+<td>&lt;figure&gt;<br /> &lt;img src=“img_cast.jpg” alt=“The Importance of
 Being Earnest Cast”&gt;<br /> &lt;figcaption&gt;Fig1. - The cast hard at
-work at dress rehearsal before opening night&lt;/figcaption&gt;<br />
-&lt;/figure&gt;
-</td>
+work at dress rehearsal before opening night&lt;/figcaption&gt;<br>
+&lt;/figure&gt;</td>
 </tr>
 <tr class="odd">
-<td>
-<strong>&lt;figure&gt;</strong>
-</td>
-<td>
-Contains an image and can be used to group with an image’s caption
-</td>
-<td>
-Refer to &lt;figcaption&gt;
-</td>
+<td><strong>&lt;figure&gt;</strong></td>
+<td>Contains an image and can be used to group with an image’s caption</td>
+<td>Refer to &lt;figcaption&gt;</td>
 </tr>
 <tr class="even">
-<td>
-<p>
-<strong>&lt;mark&gt;</strong>
-</p>
-<p>
-* see example below
-</p>
+<td><p><strong>&lt;mark&gt;</strong></p>
+<p>* see example below</p>
 </td>
-<td>
-Defines a part of a text you want to highlight. The highlight styling is
-specified in CSS.
-</td>
-<td>
-&lt;h4&gt;Lane: &lt;/h4&gt;&lt;p&gt;Yes sir. [&lt;mark&gt;Handing his
-master the sandwiches on a salver&lt;/mark&gt;]&lt;/p&gt;
-</td>
+<td>Defines a part of a text you want to highlight. The highlight styling is
+specified in CSS.</td>
+<td>&lt;h4&gt;Lane: &lt;/h4&gt;&lt;p&gt;Yes sir. [&lt;mark&gt;Handing his
+master the sandwiches on a salver&lt;/mark&gt;]&lt;/p&gt;</td>
 </tr>
 <tr class="odd">
-<td>
-<strong>&lt;summary&gt;</strong>
-</td>
+<td><strong>&lt;summary&gt;</strong></td>
 <td>
 Used within the &lt;details&gt; tag. Specifies the visible content. The
 rest of the content in details is shown/hidden by user.
@@ -4276,9 +4182,8 @@ rest of the content in details is shown/hidden by user.
 </tr>
 </tbody>
 </table>
-<h4>
-&lt;details&gt; element
-</h4>
+<h4>&lt;details&gt; element</h4>
+
 <p>The &lt;details&gt; tag is very cool. It is used in conjunction with
 a nested &lt;summary&gt; tag and some other content. The result is that
 the summary is shown with a disclosure triangle alongside it, and the
@@ -4287,61 +4192,35 @@ content is displayed to the user. This requires no JavaScript and is a
 simple way to get a powerful and desirable feature.</p>
 <p>Below we see the HTML, and you can try it out for yourself! Note that
 the &lt;details&gt; tag works in most Web browsers.</p>
+
 <table>
 <colgroup>
 <col style="width: 68%" />
 <col style="width: 31%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>
-<strong>HTML</strong>
-</th>
-<th>
-<strong>Result / Try It!</strong>
-</th>
+<thead><tr class="header">
+<th><strong>HTML</strong></th>
+<th><strong>Result / Try It!</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>
+
 <ol type="1">
-<li>
-<p>
-&lt;details&gt;
-</p>
-</li>
-<li>
-<p>
-   &lt;summary&gt;Cast Members&lt;/summary&gt;
-</p>
-</li>
-<li>
-<p>
-   &lt;p&gt;George Washington as Algernon Moncrieff&lt;/p&gt;
-</p>
-</li>
-<li>
-<p>
-   &lt;p&gt;Ronald Reagan as John Worthing&lt;/p&gt;
-</p>
-</li>
-<li>
-<p>
-&lt;/details&gt;
-</p>
-</li>
+<li><p>&lt;details&gt;</p></li>
+<li><p>   &lt;summary&gt;Cast Members&lt;/summary&gt;</p></li>
+<li><p>   &lt;p&gt;George Washington as Algernon Moncrieff&lt;/p&gt;</p></li>
+<li><p>   &lt;p&gt;Ronald Reagan as John Worthing&lt;/p&gt;</p></li>
+<li><p>&lt;/details&gt;</p></li>
 </ol>
 </td>
-<td>
-Cast Members
-</td>
+<td>Cast Members</td>
 </tr>
 </tbody>
 </table>
-<h4>
-Element
-</h4>
+<h4>Element</h4>
+
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 26. example details command (86) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4349,27 +4228,27 @@ Element
   src="./images/image026.png?raw=true"
   alt="Example details command."
   style="width:40%;" />
-<p>
-See also the
-current <a href="https://caniuse.com/#search=%3Cdetails%3E" target="_blank" rel="noopener noreferrer">browser
-support</a> (on caniuse.com).
-</p>
-<h4>
-&lt;figcaption&gt; element
-</h4>
+  
+<p>See also the current <a href="https://caniuse.com/#search=%3Cdetails%3E" target="_blank" rel="noopener noreferrer">browser
+support</a> (on caniuse.com).</p>
+<h4>&lt;figcaption&gt; element</h4>
+
 <p>This element is used to provide a caption or explanation of the image
 (figure). While the alt attribute explains the image for assistive
 technology, &lt;figcaption&gt; can be used to provide additional
 information for all users.</p>
-<pre class="html5"><code>&lt;figure&gt;
+
+<pre class="html5"><code>
+&lt;figure&gt;
   &lt;img src=&quot;img_cast.jpg&quot; alt=&quot;The Importance of Being Earnest
     Cast&quot;&gt;
   &lt;figcaption&gt;Fig1. - The cast hard at work at dress rehearsal
     before opening night&lt;/figcaption&gt;
-&lt;/figure&gt;</code></pre>
-<h4>
-Result:
-</h4>
+&lt;/figure&gt;
+</code></pre>
+
+<h4>Result:</h4>
+
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 27. example figcaption command (86) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4377,17 +4256,17 @@ Result:
   src="./images/image027.jpeg?raw=true"
   alt="Dress rehearsal."
   style="width:20%;" />
-<p align="center" width="100%">
-Fig. 1: The cast hard at work at dress rehearsal before opening night
-</p>
-<h4>
-&lt;mark&gt; element
-</h4>
-<h5>
-This element is used to specify content that you want to highlight.
-</h5>
-<pre><code>&lt;h3&gt;Lane: &lt;/h3&gt;&lt;p&gt;Yes sir. [&lt;mark&gt;Handing his master the
-   sandwiches on a salver&lt;/mark&gt;]&lt;/p&gt;</code></pre>
+
+<p align="center" width="100%">Fig. 1: The cast hard at work at dress rehearsal before opening night</p>
+
+<h4>&lt;mark&gt; element</h4>
+<h5>This element is used to specify content that you want to highlight.</h5>
+
+<pre><code>
+&lt;h3&gt;Lane: &lt;/h3&gt;&lt;p&gt;Yes sir. [&lt;mark&gt;Handing his master the
+   sandwiches on a salver&lt;/mark&gt;]&lt;/p&gt;
+</code></pre>
+
 <!------------------------------------------------------------------------------------------------>
 <!--------------------- 28. example mark command you want to highlight (87) ---------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4395,14 +4274,15 @@ This element is used to specify content that you want to highlight.
   src="./images/image028.png?raw=true"
   alt="Specify content you want to highlight."
   style="width:40%;" />
+
 <p>Most browsers will display mark element with a yellow background to
 black text by default, however, if it doesn’t, you can specify the
 styling in CSS. See also the current
 <a href="https://caniuse.com/#feat=html5semantic" target="_blank" rel="noopener noreferrer">browser
 support</a> (on caniuse.com).</p>
-<h4>
-Effect of semantic elements
-</h4>
+
+<h4>Effect of semantic elements</h4>
+
 <p>If you have had a chance to try the examples of the semantic elements
 discussed above, you will notice that semantic elements are not visually
 promising in general. Only a few semantic elements such
@@ -4415,10 +4295,10 @@ does not actually create a sidebar in your page. Sidebar is a user
 interface (UI) element and must be styled to achieve the look of a
 sidebar. The following code will only create structure to your document,
 not any visual change:</p>
+
 <details>
-<summary>
-HTML code extract!
-</summary>
+
+<summary>HTML code extract!</summary>
 <pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
@@ -4438,8 +4318,11 @@ showcased in the paragraph --&gt;
 &lt;p&gt; API stands ... &lt;/p&gt;
 &lt;/aside&gt;
 &lt;/article&gt;
-&lt;/body&gt;</code></pre>
+&lt;/body&gt;
+</code></pre>
+
 </details>
+
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 29. the aside semantic element (88) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
@@ -4447,13 +4330,14 @@ showcased in the paragraph --&gt;
   src="./images/image029.png?raw=true"
   alt="Example aside element."
   style="width:30%;" />
-<h4>
-Lesser known semantic elements (OPTIONAL)
-</h4>
+
+<h4>Lesser known semantic elements (OPTIONAL)</h4>
+
 <p><b>Note:</b> This section is optional material included for the
 curious. It will not appear on any graded question.</p>
 <p>We will look at a few more semantic elements that are commonly in use
 but lesser known.</p>
+
 <table>
 <colgroup>
 <col style="width: 13%" />
@@ -4462,38 +4346,22 @@ but lesser known.</p>
 </colgroup>
 <thead>
 <tr class="header">
-<th>
-Semantic Element
-</th>
-<th>
-Description
-</th>
-<th>
-Example
-</th>
+<th>Semantic Element</th>
+<th>Description</th>
+<th>Example</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-&lt;code&gt;
-</td>
-<td>
-Used to represent short computer code in a sentence. It displays code in
-default monospace font. 
-</td>
-<td>
-&lt;p&gt;For larger code snippets, you should use the &lt;code&gt;pre
-tag&lt;/code&gt;.&lt;/p&gt;
-</td>
+<td>&lt;code&gt;</td>
+<td>Used to represent short computer code in a sentence. It displays code in
+default monospace font.</td>
+<td>&lt;p&gt;For larger code snippets, you should use the &lt;code&gt;pre
+tag&lt;/code&gt;.&lt;/p&gt;</td>
 </tr>
 <tr class="even">
-<td>
-&lt;abbr&gt;
-</td>
-<td>
-Used to indicate the occurrence of an abbreviation.
-</td>
+<td>&lt;abbr&gt;</td>
+<td>Used to indicate the occurrence of an abbreviation.</td>
 <td>
 &lt;abbr title=“Hypertext Markup Language”&gt;HTML&lt;/abbr&gt;
 </td>
@@ -4502,47 +4370,29 @@ Used to indicate the occurrence of an abbreviation.
 <td>
 &lt;br&gt;
 </td>
-<td>
-Used to introduce a line break in your HTML document.
-</td>
-<td>
-&lt;br&gt;
-</td>
+<td>Used to introduce a line break in your HTML document.</td>
+<td>&lt;br&gt;</td>
 </tr>
 <tr class="even">
-<td>
-&lt;address&gt;
-</td>
-<td>
-Used to supply contact information for its
-nearest &lt;article&gt; or &lt;body&gt; ancestor.
-</td>
-<td>
-&lt;address&gt;<br /> &lt;a href=“www.example.com”&gt;John
+<td>&lt;address&gt;</td>
+<td>Used to supply contact information for its
+nearest &lt;article&gt; or &lt;body&gt; ancestor.</td>
+<td>&lt;address&gt;<br /> &lt;a href=“www.example.com”&gt;John
 Doe&lt;/a&gt;&lt;br&gt;<br /> #123, Doe Villa&lt;br&gt;<br /> Los
-Angeles, USA<br /> &lt;/address&gt;
-</td>
+Angeles, USA<br> &lt;/address&gt;</td>
 </tr>
 <tr class="odd">
-<td>
-&lt;hr&gt;
-</td>
-<td>
-Used to introduce a horizontal line in your HTML document.
-</td>
-<td>
-&lt;p&gt;Hello&lt;/p&gt;&lt;hr&gt;&lt;p&gt;World!&lt;/p&gt;
-</td>
+<td>&lt;hr&gt;</td>
+<td>Used to introduce a horizontal line in your HTML document.</td>
+<td>&lt;p&gt;Hello&lt;/p&gt;&lt;hr&gt;&lt;p&gt;World!&lt;/p&gt;</td>
 </tr>
 </tbody>
 </table>
-<p>Apart from
-these, &lt;cite&gt;, &lt;em&gt;, &lt;strong&gt;, &lt;p&gt; and &lt;blockquote&gt; are
+
+<p>Apart from these, &lt;cite&gt;, &lt;em&gt;, &lt;strong&gt;, &lt;p&gt; and &lt;blockquote&gt; are
 also semantic elements.</p>
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch2-3-4">
-2.3.4 Differentiating Semantic Elements
-</h3>
+<h3 id="ch2-3-4">2.3.4 Differentiating Semantic Elements</h3>
 <!------------------------------------------------------------------------------------------------>
 <p>Now, you have learned the semantic elements available and their
 syntax. When you try to apply it practically, there are some common
@@ -4554,9 +4404,8 @@ Web page? Or a more frequent question, do I
 use &lt;article&gt;, &lt;section&gt; or &lt;div&gt;?</p>
 <p>Fear not. We will discuss these scenarios in detail so you can be
 better equipped to apply semantic elements in your Web page. </p>
-<h4>
-&lt;header&gt; vs &lt;h1&gt; - &lt;h6&gt;
-</h4>
+<h4>&lt;header&gt; vs &lt;h1&gt; - &lt;h6&gt;</h4>
+
 <p>&lt;header&gt; is simply an area to add any introductory content
 about your page. It can contains headings, paragraphs, tables, images,
 logos and even navigation. &lt;h1&gt; to &lt;h6&gt; are headings we
@@ -4572,10 +4421,11 @@ select ‘view page source’.</p>
 ‘&lt;header&gt;’, you will be able to view the contents of the header
 element. <b>Here’s a simplified version</b>:</p>
 <details>
-<summary>
-HTML code extract!
-</summary>
-<pre class="html5"><code>&lt;header&gt;
+
+<summary>HTML code extract!</summary>
+
+<pre class="html5"><code>
+&lt;header&gt;
 &lt;!-- You will learn about the &lt;a&gt; and &lt;img&gt; tags later in this chapter--&gt;
    &lt;p&gt;
    &lt;a  target=&quot;_blank&quot; href=&quot;https://www.w3.org/&quot;&gt;&lt;img alt=&quot;W3C
@@ -4584,8 +4434,11 @@ HTML code extract!
 
    &lt;h1&gt;HTML 5.2&lt;/h1&gt;
    &lt;h2&gt;W3C Recommendation, 14 December 2017&lt;/h2&gt;
-&lt;/header&gt;</code></pre>
+&lt;/header&gt;
+</code></pre>
+
 </details>
+
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 30. html5.2x header and headings (91) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4593,6 +4446,7 @@ HTML code extract!
   src="./images/image030.png?raw=true"
   alt="HTML5.2x header and headings."
   style="width:40%;" />
+
 <p>Like in the example above, the header can and frequently does contain
 headings &lt;h1&gt; to &lt;h6&gt;. In the case of headings, they do not
 have be to be used within a header. </p>
@@ -4604,9 +4458,9 @@ document’s structure. More information is provided
 in <a href="https://www.w3.org/TR/WCAG20-TECHS/H42.html" target="_blank" rel="noopener noreferrer">Using h1-h6 to
 identify headings</a>.</p>
 <details>
-<summary>
-HTML code extract!
-</summary>
+
+<summary>HTML code extract!</summary>
+
 <div class="sourceCode" id="cb70"><pre
 class="sourceCode xml"><code class="sourceCode xml"><span id="cb70-1"><a href="#cb70-1" aria-hidden="true" tabindex="-1"></a>&lt;<span class="kw">body</span>&gt;</span>
 <span id="cb70-2"><a href="#cb70-2" aria-hidden="true" tabindex="-1"></a>   &lt;<span class="kw">h1</span>&gt;Brad&#39;s Cookbook&lt;/<span class="kw">h1</span>&gt;</span>
@@ -4623,6 +4477,7 @@ class="sourceCode xml"><code class="sourceCode xml"><span id="cb70-1"><a href="#
 <span id="cb70-13"><a href="#cb70-13" aria-hidden="true" tabindex="-1"></a>           &lt;<span class="kw">p</span>&gt;If you can&#39;t get fresh peaches, frozen to the rescue!&lt;/<span class="kw">p</span>&gt;</span>
 <span id="cb70-14"><a href="#cb70-14" aria-hidden="true" tabindex="-1"></a>&lt;/<span class="kw">body</span>&gt;</span></code></pre></div>
 </details>
+
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 31. brad's cookbook in codepen (92) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
@@ -4630,32 +4485,28 @@ class="sourceCode xml"><code class="sourceCode xml"><span id="cb70-1"><a href="#
   src="./images/image031.png?raw=true"
   alt="Brad's cookbook example, in CodePen."
   style="width:40%;" />
+
 <p>Assistive technology uses heading markup, &lt;h1&gt; to &lt;h6&gt; to
 identify headings in a document. By using them to define your document’s
 structure, a screen reader that parses your Web page will in some manner
 indicate the heading level. For example, raise its voice to indicate
 higher level headings or announce the heading level with the text it
 reads. They can also navigate through the headings quicker making it
-easier for the user to navigate contents of the Web page. </p>
+easier for the user to navigate contents of the Web page.</p>
 <p>You can learn more about the source of this technique in
 that <a href="https://www.w3.org/WAI/tutorials/page-structure/headings/" target="_blank" rel="noopener noreferrer">other W3C resource page about headings</a>.</p>
-<h4>
-Can you have more than one &lt;header&gt;, &lt;footer&gt; and
-&lt;nav&gt;?
-</h4>
+<h4>Can you have more than one &lt;header&gt;, &lt;footer&gt; and
+&lt;nav&gt;?</h4>
 <p>There is a common misconception that a Web page can only have one
 header at the start, one footer at the end and one main navigation
 section to maneuver the site. </p>
-<h4>
-Multiple headers &amp; footers
-</h4>
+
+<h4>Multiple headers &amp; footers</h4>
 <p>Header and footer elements are for the parent element (section,
 article, division or body) that they are used in. If you have multiple
 sections or articles, then you can have one header and footer for
 each.</p>
-<h4>
-Global header &amp; footer
-</h4>
+<h4>Global header &amp; footer</h4>
 <p>Header and footer elements can also be used site-wide at the top and
 bottom of the body of the Web page. This type of header will typically
 contain logos, main heading, a search area and site-wide navigation and
@@ -4683,27 +4534,22 @@ header:
   src="./images/image033.png?raw=true"
   alt="Screenshot of Microsoft Virtual Academy home page showing the footer."
   style="width:65%;" />
+
 <p>If you visit the page and navigate to other parts of the site, you
 will see that the header and footer remain unchanged. </p>
-<h4>
-Multiple navigation menus
-</h4>
+<h4>Multiple navigation menus</h4>
 So we know we can have the nav element in header. In the example above,
 we have one in the global header with menu items ‘Courses’. Did you
 notice that we also have one in the footer? With menu items ‘Support’,
 ‘Terms of Use’, etc. You can definitely have more than one navigation
 menu in your Web page because there are so many different types of menus
 calling the need for multiple 
-<nav>
- tags. Using 
-<nav>
+<nav> tags. Using<nav>
 <p> also helps assistive technology. Screen readers now knows exactly
 where page navigation lies so it can provide options for the users to
 either skip reading its contents or to make it immediately
 available.</p>
-<h4>
-Complete example
-</h4>
+<h4>Complete example</h4>
 <p>Now, let’s look at a more complete example using a global header and
 multiple &lt;header&gt;, &lt;footer&gt; and &lt;nav&gt; tags.</p>
 <!------------------------------------------------------------------------------------------------>
@@ -4713,10 +4559,11 @@ multiple &lt;header&gt;, &lt;footer&gt; and &lt;nav&gt; tags.</p>
   src="./images/image034.png?raw=true"
   alt="Screenshot of Microsoft Virtual Academy home page showing the header, footer & nav tags."
   style="width:50%;" />
+
 <details>
-<summary>
-HTML code extract!
-</summary>
+
+<summary>HTML code extract!</summary>
+
 <div class="sourceCode" id="cb71"><pre
 class="sourceCode xml"><code class="sourceCode xml"><span id="cb71-1"><a href="#cb71-1" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;!DOCTYPE</span> <span class="dt">html&gt;</span></span>
 <span id="cb71-2"><a href="#cb71-2" aria-hidden="true" tabindex="-1"></a>&lt;<span class="kw">html</span><span class="ot"> lang=</span><span class="st">&quot;en&quot;</span>&gt;</span>
@@ -4796,13 +4643,9 @@ class="sourceCode xml"><code class="sourceCode xml"><span id="cb71-1"><a href="#
 <span id="cb71-76"><a href="#cb71-76" aria-hidden="true" tabindex="-1"></a>&lt;/<span class="kw">html</span>&gt;</span></code></pre></div>
 </details>
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch2-3-5">
-2.3.5 &lt;article&gt; and &lt;section&gt; Elements
-</h3>
+<h3 id="ch2-3-5">2.3.5 &lt;article&gt; and &lt;section&gt; Elements</h3>
 <!------------------------------------------------------------------------------------------------>
-<h4>
-&lt;article&gt; element
-</h4>
+<h4>&lt;article&gt; element</h4>
 <p>An <b>article element</b> as we know is stand-alone content. If you
 pick an article out of a Web page, it should make sense all by itself.
 In <a href="https://codepen.io/w3devcampus/pen/oWqbad" target="_blank" rel="noopener noreferrer">Brad’s
@@ -4810,10 +4653,11 @@ Blog example</a> in the previous unit, if you extract only the first
 article, you can see that it will make sense all by itself without any
 context. It can be reused anywhere else.</p>
 <details>
-<summary>
-HTML code extract!
-</summary>
-<pre><code>&lt;article id=&quot;ces&quot;&gt;
+
+<summary>HTML code extract!</summary>
+
+<pre><code>
+&lt;article id=&quot;ces&quot;&gt;
   &lt;header&gt;
     &lt;h2&gt;CES 2018&lt;/h2&gt;
     &lt;h3&gt;Consumer electronics and consumer technology tradeshow&lt;/h3&gt;
@@ -4825,33 +4669,27 @@ libero.&lt;/p&gt;
   &lt;footer&gt;
     &lt;p&gt;Written by guest author Nicholas Abc. Read Nicholas&#39;s blog here.&lt;/p&gt;
   &lt;/footer&gt;
-&lt;/article&gt;</code></pre>
+&lt;/article&gt;
+</code></pre>
+
 </details>
+
 <p>One article element can be nested inside another. For example, if you
 have a blog post and you want to include a forum post or newspaper
 article in it, you can nest it in another &lt;article&gt; tag. </p>
 <p>Let’s look at another example:</p>
 <ol type="1">
-<li><h4>
-Getting There
-</h4></li>
-<li><p>
-Arriving at the show location proved much harder for me. I couldn’t get
+<li><h4>Getting There</h4></li>
+<li><p>Arriving at the show location proved much harder for me. I couldn’t get
 a hotel closer to where the show was taking place and so had to rent a
-car….
-</p></li>
-<li><h4>
-Conference Sessions
-</h4></li>
-<li><p>
-I managed to squeeze in 3 conference sessions on the first day…
-</p></li>
+car….</p></li>
+<li><h4>Conference Sessions</h4></li>
+<li><p>I managed to squeeze in 3 conference sessions on the first day…</p></li>
 </ol>
+
 <p>This doesn’t look like it makes sense all on its own. So we can’t put
 it into an article element. Maybe a section element?</p>
-<h4>
-&lt;section&gt; element
-</h4>
+<h4>&lt;section&gt; element</h4>
 <p>The <b>section element</b> is used to section a page. For example,
 chapters in a book, sections in a thesis or splitting an ‘about me’ page
 into introduction, interests and skills. Sections can be used in a page
@@ -4867,14 +4705,13 @@ to our CES 2018 &lt;article&gt; example, it will fit right in:</p>
   src="./images/image035.png?raw=true"
   alt="CES 2018 Example with article and section."
   style="width:40%;" />
-<h4>
-HTML:
-</h4>
+
+<h4>HTML:</h4>
 <details>
-<summary>
-HTML code extract!
-</summary>
-<pre><code>&lt;!DOCTYPE html&gt;
+<summary>HTML code extract!</summary>
+
+<pre><code>
+&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
    &lt;head&gt;
       &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -4900,13 +4737,15 @@ HTML code extract!
    &lt;/footer&gt;
 &lt;/article&gt;
 &lt;/body&gt;
-&lt;/html&gt;</code></pre>
+&lt;/html&gt;
+</code></pre>
+
 </details>
+
 <p>An article element can use section elements to split its contents
 into groups.</p>
-<h4>
-Semantic elements sample
-</h4>
+<h4>Semantic elements sample</h4>
+
 <p>To get a better understanding on the usage of semantic elements in
 your Web page, try on this <a href="https://codepen.io/w3devcampus/pen/Wjzjpx" target="_blank" rel="noopener noreferrer">CodePen</a>:</p>
 <!------------------------------------------------------------------------------------------------>
@@ -4916,11 +4755,12 @@ your Web page, try on this <a href="https://codepen.io/w3devcampus/pen/Wjzjpx" 
   src="./images/image036.png?raw=true"
   alt="HTML5 Table of Contents."
   style="width:40%;" />
+
 <details>
-<summary>
-HTML code extract!
-</summary>
-<pre><code>&lt;!DOCTYPE html&gt;
+<summary>HTML code extract!</summary>
+
+<pre><code>
+&lt;!DOCTYPE html&gt;
 &lt;!--HTML5 doctype--&gt;
 &lt;html lang=&quot;en&quot;&gt;
    &lt;head&gt;
@@ -4990,30 +4830,25 @@ showcased in the paragraph. --&gt;
        &lt;p&gt;HTML5 introduced elements and attributes that fits the typical
           usage in modern websites. It introduced new semantic elements to replace
           generic blocks like div and span. Purely presentation elements such as
-          font and center have also been completely dropped...&lt;/p&gt;</code></pre>
+          font and center have also been completely dropped...&lt;/p&gt;
+</code></pre>
+
 </details>
-<h4>
-New APIs
-</h4>
-<p>
-New APIs were introduced to allow cross-document communication, drag and
+<h4>New APIs</h4>
+<p>New APIs were introduced to allow cross-document communication, drag and
 drop functionality, immediate mode 2D drawing using the canvas element,
-webstorage etc…
-</p>
-<h4>
-Error Handling
-</h4>
-<p>
-HTML5 provides detailed rules for parsing allowing HTML5 compliant
+webstorage etc…</p>
+<h4>Error Handling</h4>
+<p>HTML5 provides detailed rules for parsing allowing HTML5 compliant
 browsers to produce the same type of behavior when parsing incorrect
 syntax. It has been designed for compatibility with older browsers.
-Older browsers ignore new HTML5 constructs…
-</p>
+Older browsers ignore new HTML5 constructs…</p>
+
 <details>
-<summary>
-HTML code extract!
-</summary>
-<pre><code>&lt;/section&gt;
+<summary>HTML code extract!</summary>
+
+<pre><code>
+&lt;/section&gt;
 &lt;!-- Our logo section show hows to use the semantic elements figure and figcaption--&gt;
 &lt;section&gt;
    &lt;header id=&quot;logo&quot;&gt;
@@ -5064,21 +4899,20 @@ summary elements. Expand to show content. --&gt;
    &lt;/details&gt;
 &lt;/footer&gt;
 &lt;/body&gt;
-&lt;/html&gt;</code></pre>
+&lt;/html&gt;
+</code></pre>
+
 </details>
+
 <p>It is an example of an informational page about HTML5 using the
 following semantic elements: header, nav, main, article, section, aside,
 mark, figure, figcaption, details and summary.</p>
 <p>Experiment with the sample and try inserting other semantic elements
 that you want to try.</p>
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch2-3-6">
-2.3.6 &lt;div&gt; and &lt;span&gt; Elements
-</h3>
+<h3 id="ch2-3-6">2.3.6 &lt;div&gt; and &lt;span&gt; Elements</h3>
 <!------------------------------------------------------------------------------------------------>
-<h4>
-&lt;div&gt; element
-</h4>
+<h4>&lt;div&gt; element</h4>
 <p>The &lt;div&gt; tag is one you will likely see sprinkled all over an
 HTML document.  &lt;div&gt;, as the Content Division element, is used to
 define a division or a section of the document. Div is not a semantic
@@ -5092,11 +4926,12 @@ which will affect all elements in the div container.</p>
 <p>It should only be used if you cannot use any other semantic element
 in its place.</p>
 <p>We will see an example of &lt;div&gt; here:</p>
+
 <details>
-<summary>
-HTML code extract!
-</summary>
-<pre><code>&lt;section&gt;
+<summary>HTML code extract!</summary>
+
+<pre><code>
+&lt;section&gt;
   &lt;h2&gt;Week 1&lt;/h2&gt;
   &lt;p&gt;This week, you will be learning about...week 1 stuff&lt;/p&gt;
   &lt;div class=&quot;code&quot;&gt;
@@ -5115,8 +4950,10 @@ HTML code extract!
       &lt;li&gt;Line of code&lt;/li&gt;
     &lt;/ol&gt;
   &lt;/div&gt;
-&lt;/section&gt;</code></pre>
+&lt;/section&gt;
+</code></pre>
 </details>
+
 <p>If you want to style all code snippets in your HTML document a
 certain way, you can place your code in a div container and apply styles
 collectively to it using the class attribute.</p>
@@ -5278,9 +5115,7 @@ HTML document is deployed. This is easier to maintain. It will work on
 localhost or if you switch domain names without requiring any
 changes.</p></li>
 </ul>
-<h4>
-Image: Formats
-</h4>
+<h4>Image: Formats</h4>
 <p>Before you begin using images in your Web site, you are advised to
 visit this <a 
 href="https://www.smartbugmedia.com/blog/image-file-formats" target="_blank" rel="noopener noreferrer">Web
@@ -5340,13 +5175,9 @@ standard</a>).
 </ul>
 </p>
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch2-4-2">
-2.4.2 Attribute alt
-</h3>
+<h3 id="ch2-4-2">2.4.2 Attribute alt</h3>
 <!------------------------------------------------------------------------------------------------>
-<h4>
-alt stands for <i>alternate text</i> for an image.
-</h4>
+<h4>alt stands for <i>alternate text</i> for an image.</h4>
 <pre><code>&lt;img src=&quot;image/example.png&quot; alt=&quot;Add a short text description of the image here&quot;&gt;</code></pre>
 <p>Using this attribute, you can provide a short description of what the
 image is about. This description should convey information about the
@@ -5374,9 +5205,7 @@ image and suggests the purpose of the image content.</p>
 <p>If the image is purely for presentation or decoration purposes, you
 should leave alt empty - &lt;img alt=““&gt;. Assistive technology will
 then ignore this content.</p>
-<h4>
-Purpose of the image
-</h4>
+<h4>Purpose of the image</h4>
 You can use images for various reasons in your Web page like:
 <ul>
 <li>
@@ -5410,13 +5239,9 @@ browser:</p>
   alt="This is supposed to be an image of tulips."
   style="width:35%;" />
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch2-4-3">
-2.4.3 Attributes: title, height &amp; width
-</h3>
+<h3 id="ch2-4-3">2.4.3 Attributes: title, height &amp; width</h3>
 <!------------------------------------------------------------------------------------------------>
-<h4>
-The ‘title’ attribute
-</h4>
+<h4>The ‘title’ attribute</h4>
 <p>Try this: place your mouse on the image below. Don’t click, just rest
 your cursor on it. </p>
 <!------------------------------------------------------------------------------------------------>
@@ -5426,13 +5251,18 @@ your cursor on it. </p>
   src="./images/image039.jpeg?raw=true"
   alt="Tulips in a basket"
   style="width:35%;" />
+
 <p>Did you see the hidden message ‘Tulips from woodburn tulip
 festival’? title is a global attribute we have seen before but worth
 mentioning again because it is very useful in an &lt;img&gt; tag. If you
 have a complicated image that could use a tooltip or description, you
 will want to use the title attribute.</p>
-<pre><code>&lt;img src=&quot;images/tulips.png&quot; alt=&quot;This is supposed to be an image
-   of tulips&quot; title=&quot;Tulips from woodburn tulip festival&quot;&gt;</code></pre>
+
+<pre><code>
+&lt;img src=&quot;images/tulips.png&quot; alt=&quot;This is supposed to be an image
+   of tulips&quot; title=&quot;Tulips from woodburn tulip festival&quot;&gt;
+</code></pre>
+
 <p>The alt attribute is meant to be an alternate source of information
 while the title attribute should provide additional information about
 the image. </p>
@@ -5453,15 +5283,21 @@ pixels without using an external editor.</p>
   src="./images/image040.png?raw=true"
   alt="HTML5 logo."
   style="width:15%;" />
+
 <p>Clearly too big for the page. The original image dimensions is
 345x523 in pixels. Pixel is short for picture element. These are
 the little dots that make up your image on a computer display like the
 monitor or laptop you are viewing this in. Pixels are generally too
 small to see (unless you look really close) and a screen might be made
 up of millions of pixels.</p>
+
 <p>Now, if I want to resize the HTML logo above by half:</p>
-<pre><code>&lt;img src=&quot;images/html5.png&quot; alt=&quot;HTML resized image&quot; title=&quot;Resized
-   image seems to fit the page better&quot; height=&quot;173&quot; width=&quot;262&quot;&gt;</code></pre>
+
+<pre><code>
+&lt;img src=&quot;images/html5.png&quot; alt=&quot;HTML resized image&quot; title=&quot;Resized
+   image seems to fit the page better&quot; height=&quot;173&quot; width=&quot;262&quot;&gt;
+</code></pre>
+
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- 41. html5 logo 1/2-sized (109) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5469,6 +5305,7 @@ up of millions of pixels.</p>
   src="./images/image041.png?raw=true"
   alt="HTML5 logo 1/2-sized"
   style="width:7%;" />
+
 <p>Actually, you don’t need to define both width and height. You can
 just specify either height or width and the aspect ratio will be
 adjusted. For example, the image above can be achieved using the
@@ -5504,24 +5341,15 @@ HTML.</p>
 <p>We know we should keep content and style separate in HTML. Then how
 do we move these images out of content? Well, don’t add them using
 the &lt;img&gt; tag in HTML. Use CSS instead. </p>
-<h4>
-Examples of such images:
-</h4>
+<h4>Examples of such images:</h4>
 <ul>
-<li>
-background images
-</li>
-<li>
-fancy border graphics
-</li>
-<li>
-banner graphics
-</li>
-<li>
-pictures of landscapes or textures that are being used as elements
-behind or surrounding the content
-</li>
+<li>background images</li>
+<li>fancy border graphics</li>
+<li>banner graphics</li>
+<li>pictures of landscapes or textures that are being used as elements
+behind or surrounding the content</li>
 </ul>
+
 <p>Some pages (especially for video games, fancy magazines, etc) have a
 lot of eye-candy imagery that is not core to any of the semantic meaning
 of the page.</p>
@@ -5700,9 +5528,7 @@ attributes.</p>
 <p>You’re all set to spice up your pages with some images. Take
 care!</p>
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch2-4-6">
-2.4.6 Activities - images
-</h3>
+<h3 id="ch2-4-6">2.4.6 Activities - images</h3>
 <!------------------------------------------------------------------------------------------------>
 <p>Please find below a list of possible activities:</p>
 <ol type="1">
@@ -5711,30 +5537,22 @@ text and images. Include at least three images and add
 the alt and title attributes. </p></li>
 <li><p>Look through the Web and your favorite Web sites and identify
 those that you think use a lot of decorative images.</p></li>
+
 <li><p>Create a HTML page and add the following types of images:</p>
 <ul>
-<li>Informative image that represents concepts and information<br />
-</li>
-<li>Decorative image<br />
-</li>
+<li>Informative image that represents concepts and information<br></li>
+<li>Decorative image<br></li>
 <li>images of text</li>
 </ul></li>
 </ol>
-<p>Use the alt attribute to provide alternate text for the images
-above. <br />
-Refer to
-the <a href="https://www.w3.org/WAI/tutorials/images/" target="_blank">WAI
-images Tutorial</a> for a guide to writing alternate text. </p>
+<p>Use the alt attribute to provide alternate text for the images above.<br>
+Refer to the <a href="https://www.w3.org/WAI/tutorials/images/" target="_blank">WAI
+images Tutorial</a> for a guide to writing alternate text.</p>
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch2-5-1">
-2.5.1 Introduction
-</h3>
+<h3 id="ch2-5-1">2.5.1 Introduction</h3>
 <!------------------------------------------------------------------------------------------------>
-<h4>
-What are hyperlinks?
-</h4>
-<p>In a typical Web page, you may well have seen a sentence like this
-one:</p>
+<h4>What are hyperlinks?</h4>
+<p>In a typical Web page, you may well have seen a sentence like this one:</p>
 <p><b><a href="https://en.wikipedia.org/wiki/Hyperlink" target="_blank">Find
 out more</a> about our offers!</b></p>
 Or something like this:
@@ -5751,85 +5569,58 @@ already (make sure to navigate back to the course).</p>
 A hyperlink is any text or image that takes you to another place. This
 can be:
 <ul>
-<li>
-Another Web page: e.g. the hyperlinks wiki page
-at https://en.wikipedia.org/wiki/Hyperlink
-</li>
-<li>
-A bookmark (a specific part of a Web page): e.g. the History section of
-the Hyperlinks wiki page
-at https://en.wikipedia.org/wiki/Hyperlink#History. We learned about
-using the id attribute as a link target in the unit about attributes
-earlier. If you have a section in your page, you can link to that
-section using the value of its id attribute (e.g. History) preceded by
-the number sign as per <i>#History</i>
-</li>
-<li>
-a local link (link to another part of the same Web page):
-e.g. a_tag.asp is a page that belongs to this Web site.
-</li>
-<li>
-an email: e.g. mailto:helloauthor@w3c.com
-</li>
+<li>Another Web page: e.g. the hyperlinks wiki page at https://en.wikipedia.org/wiki/Hyperlink</li>
+<li>A bookmark (a specific part of a Web page): e.g. the History section of the Hyperlinks wiki page
+at https://en.wikipedia.org/wiki/Hyperlink#History. We learned about using the id attribute as a link target in the unit about attributes
+earlier. If you have a section in your page, you can link to that section using the value of its id attribute (e.g. History) preceded by
+the number sign as per <i>#History</i></li>
+<li>a local link (link to another part of the same Web page):
+e.g. a_tag.asp is a page that belongs to this Web site.</li>
+<li>an email: e.g. mailto:helloauthor@w3c.com</li>
 </ul>
-<h4>
-Why you should prefer text links over images
-</h4>
+<h4>Why you should prefer text links over images</h4>
 When it comes to hyperlinks, try to use text instead of images when
 possible.
+
 <ul>
-<li>
-Images are not as well understood or recognized as text.
-</li>
-<li>
-Text is better for accessibility.
-</li>
-<li>
-If you have text in an image like the ‘Buy now’ button, search engines
+<li>Images are not as well understood or recognized as text.</li>
+<li>Text is better for accessibility.</li>
+<li>If you have text in an image like the ‘Buy now’ button, search engines
 do not recognize text in images. The text alternative for the image
 should convey the action that will be initiated (the purpose of the
-image, e.g, “buy now”), rather than a description of the image
-(“button”).
-</li>
+image, e.g, “buy now”), rather than a description of the image (“button”).</li>
 </ul>
-<h4>
-Best practices
-</h4>
+
+<h4>Best practices</h4>
+
 <ul>
-<li>
-Apply hyperlinks to short phrases. It is unusual to see the link tag
-used around a whole paragraph.
-</li>
+<li>Apply hyperlinks to short phrases. It is unusual to see the link tag
+used around a whole paragraph.</li>
 <li>
 Make link phrase meaningful. Avoid phrases like ‘Click Here’ or ‘Read
 More’. ‘Click here to get help’ is redundant when you can create a link
 around the phrase ‘Get Help’. The link is an indication that it should
-be clicked.
-</li>
-<li>
-Don’t use short link text. It is easy to miss the ‘blue’ hyperlink if it
+be clicked.</li>
+<li>Don’t use short link text. It is easy to miss the ‘blue’ hyperlink if it
 is used on one word or character and is hard for users to click using
-touch screen.
-</li>
-<li>
-Appearance - links have a default appearance in most browsers, blue and
+touch screen.</li>
+<li>Appearance - links have a default appearance in most browsers, blue and
 underlined. Ensure no other text in your page is underlined so as to
 avoid confusing the user. They might get frustrated trying to click text
-that they think is a link.
-</li>
-<li>
-If you choose to have image links, it should have <b>alternate
+that they think is a link.</li>
+<li>If you choose to have image links, it should have <b>alternate
 text</b> that describes the purpose of the link instead of the image
-used - describe the target link.
-</li>
+used - describe the target link.</li>
 </ul>
-<pre><code>&lt;a href=&quot;https://www.table-header-cells.com&quot;&gt;
+
+<pre><code>
+&lt;a href=&quot;https://www.table-header-cells.com&quot;&gt;
 &lt;img src=&quot;table-th.png&quot; alt=&quot;Introduction to table header cells
    and their usage&quot;&gt;
-&lt;/a&gt;</code></pre>
-<h4>
-Anchor element
-</h4>
+&lt;/a&gt;
+</code></pre>
+
+<h4>Anchor element</h4>
 <p>The hyperlink tag in html is simply <b>&lt;a&gt;, </b>and it is
 called the<b> anchor element</b>. Here is how it is used:</p>
 
@@ -5866,9 +5657,7 @@ During this time, the link will be red and underlined.</p>
 <p>The &lt;a&gt; tag can surround text or an image.</p>
 
 <details>
-<summary>
-HTML code extract!
-</summary>
+<summary>HTML code extract!</summary>
 <pre><code>
 &lt;!-- Text in a hyperlink--&gt;
 &lt;a target=&quot;_blank&quot; href=&quot;https://www.qwant.com/&quot;&gt;If you click on me, I will take
@@ -5884,6 +5673,7 @@ HTML code extract!
 </details>
 <p>You can even use the anchor element to add your email address under
 the contacts section of your Web page. </p>
+
 <pre><code>
 &lt;p&gt;Feedback: &lt;a href=&quot;mailto:authors@example.com&quot;&gt;Send Mail to
    Authors&lt;/a&gt;&lt;/p&gt;
@@ -5904,6 +5694,7 @@ Authors</a><br>
 Mail to Authors with Subject</a><br>
 <br>Nevertheless, you should probably avoid using hyperlinks for email
 addresses:</p>
+
 <ul>
 <li><p>The email address usually opens up on the default email client on
 the user’s computer which they might not use. This defeats the whole
@@ -5914,28 +5705,27 @@ used to search the Web to pick up email addresses for spam. You should
 avoid this if possible and use contact forms instead.</p></li>
 </ul>
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch2-5-2">
-2.5.2 Attributes: href and target
-</h3>
+<h3 id="ch2-5-2">2.5.2 Attributes: href and target</h3>
 <!------------------------------------------------------------------------------------------------>
 <h4>The 'href' attribute</h4>
 <p>The only attribute we have seen thus far in this chapter of
 hyperlinks is href. <br>
-<br>
-href points to the URL that the link should jump to.<br>
-<br>
-Though it is an optional attribute, without it, the &lt;a&gt; tag will not be a
+<br>href points to the URL that the link should jump to.<br>
+<br>Though it is an optional attribute, without it, the &lt;a&gt; tag will not be a
 hyperlink because it obviously has no idea where to jump to.<br>
-<br>
-The href attribute takes a URL.<br>
-<br>
-This URL can be in the form of:</p>
+<br>The href attribute takes a URL.<br>
+<br>This URL can be in the form of:</p>
+
 <ul>
 <li>a link to an external Web site also known as <a target="_blank" rel="noopener noreferrer" 
 href="https://www.differencebetween.com/difference-between-an-absolute-and-vs-a-relative-url/">absolute
 URL</a>.</li>
 </ul>
-<pre><code>&lt;a href=&quot;https://qwant.com&quot;&gt;&lt;/a&gt;</code></pre>
+
+<pre><code>
+&lt;a href=&quot;https://qwant.com&quot;&gt;&lt;/a&gt;
+</code></pre>
+
 <ul>
 <li>a link to a file or page within the same Web site also known as <a target="_blank" rel="noopener noreferrer" 
 href="https://www.differencebetween.com/difference-between-an-absolute-and-vs-a-relative-url/">relative
@@ -5981,37 +5771,21 @@ It can take a variety of different values, but for our purposes we’ll focus o
 </colgroup>
 <thead>
 <tr class="header">
-<th>
-Destination
-</th>
-<th>
-Attribute value
-</th>
-<th>
-Example
-</th>
-<th>
-Result (try this)
-</th>
+<th>Destination</th>
+<th>Attribute value</th>
+<th>Example</th>
+<th>Result (try this)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-In the same view where the link resides. If no target is specified, this
-is the default behavior.
-</td>
-<td>
-_self
-</td>
-<td>
-&lt;a href=“https://qwant.com/” target=&quot;_self&quot;&gt;&lt;/a&gt;
-</td>
-<td>
-&lt;a href=“https://qwant.com/” target=“_blank” rel="noopener noreferrer"&gt;LINK will open in
+<td>In the same view where the link resides. If no target is specified, this
+is the default behavior.</td>
+<td>_self</td>
+<td>&lt;a href=“https://qwant.com/” target=&quot;_self&quot;&gt;&lt;/a&gt;</td>
+<td>&lt;a href=“https://qwant.com/” target=“_blank” rel="noopener noreferrer"&gt;LINK will open in
 same window</a> (Navigate back to the course by clicking Back button in
-browser)
-</td>
+browser)</td>
 </tr>
 <tr class="even">
 <td>
@@ -6041,13 +5815,9 @@ window</a>
 </tbody>
 </table>
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch2-5-3">
-2.5.3 Attributes: Media and Download
-</h3>
+<h3 id="ch2-5-3">2.5.3 Attributes: Media and Download</h3>
 <!------------------------------------------------------------------------------------------------>
-<h4>
-The ‘media’ attribute
-</h4>
+<h4>The ‘media’ attribute</h4>
 <p>The media attribute was introduced in HTML5. We will look at it
 briefly here. It is used to specify what kind of media or device the URL
 you linked to in href is optimized for. The URL could be targeted for
@@ -6067,11 +5837,13 @@ long content heavy page that will redirect you to a print version of the
 same. You want this print version to be formatted into one page ideal
 for printing and with resolution of 250 dpi. Here is how the HTML5 code
 will look like:</p>
-<pre><code>&lt;a href=&quot;https://en.wikipedia.org/wiki/Media_queries?output=print&quot; media=&quot;print
-   and (resolution:250dpi)&quot;&gt;Print wiki page about media queries&lt;/a&gt;</code></pre>
-<h4>
-The ‘download’ attribute
-</h4>
+
+<pre><code>
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Media_queries?output=print&quot; media=&quot;print
+   and (resolution:250dpi)&quot;&gt;Print wiki page about media queries&lt;/a&gt;
+</code></pre>
+
+<h4>The ‘download’ attribute</h4>
 <p>The download attribute is also new in HTML5 and it makes a link
 download a file instead of navigate to another location. It takes in the
 filename as value but the value is optional. So the download attribute
@@ -6088,18 +5860,15 @@ class="sourceCode html"><code class="sourceCode html"><span id="cb97-1"><a href=
 <pre><code>&lt;a href=&quot;/assets/hello.txt&quot; download=&quot;new-name-for-text-file&quot;&gt;
 ... will download the file after altering its name to -
 &#39;new-name-for-text-file.txt&#39;.</code></pre>
-<h4>
-Example (try the hyperlink below in Google Chrome):
-</h4>
+<h4>Example (try the hyperlink below in Google Chrome):</h4>
+
 <p><a target="_blank" rel="noopener noreferrer"  href="https://courses.edx.org/assets/courseware/v1/6e709b3765de6510e212932331a0bf52/asset-v1:W3Cx+HTML5.0x+3T2020+type@asset+block/hello.txt">Click to Download</a></p>
 <p><b>Note: </b>the download attribute is <a target="_blank" rel="noopener noreferrer"  
 href="https://caniuse.com/#search=download">not supported in all
 browsers</a>. Try the download attribute in a html file of your own and
 run it in different browsers to see how it behaves.</p>
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch2-5-4">
-2.5.4 Use of Hyperlink Attributes
-</h3>
+<h3 id="ch2-5-4">2.5.4 Use of Hyperlink Attributes</h3>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- 46. hyperlink attributes (122) --------------------------------->
@@ -6108,6 +5877,7 @@ run it in different browsers to see how it behaves.</p>
   src="./images/image046.png?raw=true"
   alt="Hyperlink attributes."
   style="width:65%;" />
+
 <p>In this live coding demo, we’re going to dive deep into
 hyperlinks.</p>
 <p>Hyperlinks, or links for short, are what give the Internet its
@@ -6259,9 +6029,7 @@ how the page scrolls.</p>
 pages on our site, visit other sites, download files and even skip
 around on the same page.</p>
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch2-5-5">
-2.5.5 Recipe Project – Module 2
-</h3>
+<h3 id="ch2-5-5">2.5.5 Recipe Project – Module 2</h3>
 <!------------------------------------------------------------------------------------------------>
 <p>We are now going to continue building on the recipe project we
 started in Module 1.  You can find our version in the CodePen below (and
@@ -6273,12 +6041,11 @@ the live coding video at the end of this page).</p>
   src="./images/image047.png?raw=true"
   alt="Recipe project, part ii."
   style="width:65%;" />
+
 <h4>HTML</h4>
 
 <details>
-<summary>
-HTML code extract!
-</summary>
+<summary>HTML code extract!</summary>
 
 <pre><code>
 &lt;!DOCTYPE html&gt;
@@ -6351,6 +6118,7 @@ HTML code extract!
    &lt;/body&gt;
 &lt;/html&gt;
 </code></pre>
+
 </details>
 
 <p>Hello, everyone. In this live coding demo, we’re going to enhance
@@ -6514,9 +6282,7 @@ visual impact is very rewarding.<br>
 <br>Prepare to have fun, and let yourself experiment because that’s
 how you learn, experimentation.</p>
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch3-1-2">
-3.1.2 Module 3 Content
-</h3>
+<h3 id="ch3-1-2">3.1.2 Module 3 Content</h3>
 <!------------------------------------------------------------------------------------------------>
 <ol type="1">
 <li><p><b>Introduction to Module 3:</b> Get an overview of what CSS
@@ -6531,9 +6297,8 @@ used specific purpose tags in HTML, and selectors are what allows you to
 target specific HTML elements and apply style to them</p></li>
 </ol>
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch3-1-3">
-3.1.3 The CSS Language
-</h3>
+<h3 id="ch3-1-3">3.1.3 The CSS Language</h3>
+
 <h4>CSS stands for 'Cascading Style Sheets'</h4>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------- 50. css logo (133) --------------------------------------->
@@ -6542,6 +6307,7 @@ target specific HTML elements and apply style to them</p></li>
   src="./images/image050.png"
   alt="CSS Logo."
   style="width:20%;" />
+  
 <p>For now, do not worry about what the ‘Cascading’ part means and just
 focus on the ‘Style Sheets’.<br>
 <br>Using CSS, we can determine the visual appearance of our HTML
@@ -6571,9 +6337,7 @@ paragraphs to be indented this much”, much like master sheets in a word proces
 <br>
 CSS helps to solve this problem.</p>
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch3-1-4">
-3.1.4 The W3C CSS Working Group
-</h3>
+<h3 id="ch3-1-4">3.1.4 The W3C CSS Working Group</h3>
 <!------------------------------------------------------------------------------------------------>
 <p>The <b>CSS Working Group</b> (Cascading Style Sheets Working Group)
 is a <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Working_group">working
@@ -6588,6 +6352,7 @@ addressed with <a target="_blank" rel="noopener noreferrer" href="https://en.wi
   src="./images/image051.jpeg?raw=true"
   alt="Gang photo of the css folks (TPAC)."
   style="width:65%;" />
+
 <p>The CSS WG meeting in Lisbon, November 2016. The working group is
 co-chaired by Rossen Atanassov and Alan Stearns. (Photo credit:
 Marie-Claire Forgue)</p>
@@ -6601,9 +6366,7 @@ together form the current state of Cascading Style Sheets (CSS) as of
 definition includes modules by specification stability, not Web browser
 adoption rate.</p>
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch3-1-5">
-3.1.5 An Example
-</h3>
+<h3 id="ch3-1-5">3.1.5 An Example</h3>
 <!------------------------------------------------------------------------------------------------>
 <p>Let’s see CSS in action. Below, we see two identical copies of HTML,
 however, styled differently.</p>
@@ -6626,9 +6389,7 @@ so different. So let’s get started.</p>
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch3-2-1">3.2.1 The &lt;style&gt; and &lt;link&gt; tags</h3>
 <!------------------------------------------------------------------------------------------------>
-<h4>
-The &lt;style&gt; tag
-</h4>
+<h4>The &lt;style&gt; tag</h4>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 52. style and link tags & attributes (134) --------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -6660,9 +6421,7 @@ HTML code extract!
   &lt;/body&gt;
 &lt;/html&gt;</code></pre>
 </details>
-<h4>
-The &lt;link&gt; tag
-</h4>
+<h4>The &lt;link&gt; tag</h4>
 <p>While &lt;style&gt; is convenient, the better practice is to put the
 CSS into a separate file. One of the key advantages of using a separate
 file is that the CSS styles can easily be re-used between your different
@@ -6673,9 +6432,7 @@ HTML markup (i.e., no &lt;style&gt; tag required).  Use the .css file
 extension and use a &lt;link&gt; tag to bind it in. The &lt;link&gt; tag
 must appear in the &lt;head&gt; section.  By convention, css files are
 kept in a directory named <i>css</i>.</p>
-<h4>
-Use this &lt;link&gt; as a template:
-</h4>
+<h4>Use this &lt;link&gt; as a template:</h4>
 
 <pre><code>
 &lt;link rel=&quot;stylesheet&quot; href=&quot;css/my_styles.css&quot;&gt;
@@ -6989,9 +6746,7 @@ attributes that I didn’t get to in this little demo because there are so
 many that we learn in the lesson and I encourage you to mess around with
 them, and just sort of see what each one does.</p>
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch3-3-1">
-3.3.1 Common CSS Properties
-</h3>
+<h3 id="ch3-3-1">3.3.1 Common CSS Properties</h3>
 <!------------------------------------------------------------------------------------------------>
 <p>There are hundreds of CSS properties for you to use.
 The <a href="https://www.w3.org/Style/CSS/all-properties.en.html" target="_blank" rel="noopener noreferrer">complete
@@ -7001,9 +6756,7 @@ reference page on the MDN Web site</a>).</p>
 <p>Below we’ve gathered a more manageable list of the most useful
 and common CSS
 properties: font-size, line-height, text-align, text-decoration, font-weight, font-style and font-family.</p>
-<h4>
-font-size
-</h4>
+<h4>font-size</h4>
 <p>font-size can be used to size the text of a tag.  The value for
 the font-size has two parts: a number and a unit.  Some of the most
 common units are: px, em, %, vh.  For example:</p>
@@ -7017,7 +6770,7 @@ blockquote { font-size: 10vh; }
 <p>These units are discussed below.</p>
 <p>Additionally, font-size supports a more readable set of values that
 many authors
-prefer: xx-small, x-small, small, medium, large, x-large, xx-large  <br />
+prefer: xx-small, x-small, small, medium, large, x-large, xx-large  <br>
 and relative sizing (relative to the text of the
 parent): larger, smaller. For example:</p>
 
@@ -7031,15 +6784,12 @@ blockquote { font-size: larger; }
 <p>Whereas font-size may drive the size of the text itself,
 the line-height property drives the height of the space it is drawn
 into.<br>
-<br>
-A large line-height will give the text more spacing.<br>
-<br>
-A small line-height will smash the text lines together.</p>
+<br>A large line-height will give the text more spacing.<br>
+<br>A small line-height will smash the text lines together.</p>
 
 <p>For example, all of the Middlemarch text below
 has font-size:16px;<br>
-<br>
-But on the left, we see line-height:0.5; and on the
+<br>But on the left, we see line-height:0.5; and on the
 right, line-height:3;</p>
 
 <table>
@@ -7347,9 +7097,7 @@ tutorial</i>” into any search engine to learn more. </p>
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch3-3-2">3.3.2 Margin and Color</h3>
 <!------------------------------------------------------------------------------------------------>
-<h4>
-Margin
-</h4>
+<h4>Margin</h4>
 <p>We will examine layout in a later unit. But
 the margin property is the lynch-pin for positioning elements. Whenever
 you want to move something a little the margin property should be your
@@ -7387,9 +7135,7 @@ for colors are all supported, plus many others.</p>
 invisible. However, if you want to make an HTML element invisible, then
 the display:none; or visibility:hidden; rules are preferred. They are
 discussed in a future section.</p>
-<h4>
-rgb/rgba
-</h4>
+<h4>rgb/rgba</h4>
 
 <pre><code>
 p { color: rgb(10, 200, 255); }  
@@ -7507,9 +7253,7 @@ correctly, the parent must have an explicit width or height set. This
 limitation is particularly noticeable in the vertical dimension. If the
 parent element doesn’t have an explicit height set then child
 percentages may be percentages of 0. </p>
-<h4>
-vh / vw
-</h4>
+<h4>vh / vw</h4>
 <p>‘vh’ stands for viewport height, and ‘vw’ for viewport width.  The vh
 and vw units work much like the percentage ( % ) unit. But instead of
 percentage of the parent, it is percentage of the screen (aka viewport).
@@ -8037,16 +7781,16 @@ selector and the declaration. We’ve seen quite a few different
 declarations, but the only selector we’ve learned is the tag selector.
 There are other choices, and they can be composed together in
 interesting and useful ways. So let’s learn some more CSS selectors.</p>
-<h4>
-tag selector
-</h4>
+<h4>tag selector</h4>
 <p>We’ve already seen this one. A CSS selector that consists solely of a
 single tag (without punctuation or spacing) will be applied to any
 matching tag on the page.</p>
-<pre><code>&lt;b&gt;li&lt;/b&gt; { list-style-type: circle; }</code></pre>
-<h4>
-id selector
-</h4>
+
+<pre><code>
+&lt;b&gt;li&lt;/b&gt; { list-style-type: circle; }
+</code></pre>
+
+<h4>id selector</h4>
 <p>You may remember the id attribute (short for “identifier”). This
 attribute can be applied to an HTML tag to uniquely identify the
 element. Recall that the value for any given id attribute can only
@@ -8057,21 +7801,24 @@ punctuation, nor begin with numbers.</p>
 individually, we can apply unique id attributes to the paragraphs
 (id=“p18” and id=“p19”). In the CSS, we will use the id selector.  The
 id selector is simply a hash sign (#) followed directly by the id.  </p>
-<h4>
-CSS:
-</h4>
-<pre><code>#p18 { color: blue; }  
-#p19 { color: green; }</code></pre>
-<h4>
-HTML:
-</h4>
-<pre><code>&lt;p align=&quot;left&quot; id=&quot;p18&quot;&gt;He is Ulysses, a man of great craft, son of Laertes. He
+<h4>CSS:</h4>
+
+<pre><code>
+#p18 { color: blue; }  
+#p19 { color: green; }
+</code></pre>
+
+<h4>HTML:</h4>
+
+<pre><code>
+&lt;p align=&quot;left&quot; id=&quot;p18&quot;&gt;He is Ulysses, a man of great craft, son of Laertes. He
    was born in rugged Ithaca, and excels in all manner of stratagems and
    subtle cunning.&lt;/p&gt;
-&lt;p align=&quot;left&quot; id=&quot;p19&quot;&gt;Madam, you have spoken truly.&lt;/p&gt;</code></pre>
-<h4>
-Result:
-</h4>
+&lt;p align=&quot;left&quot; id=&quot;p19&quot;&gt;Madam, you have spoken truly.&lt;/p&gt;
+</code></pre>
+
+<h4>Result:</h4>
+
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -8093,33 +7840,33 @@ Madam, you have spoken truly.
 <tbody>
 </tbody>
 </table>
-<h4>
-class selector
-</h4>
+<h4>class selector</h4>
 <p>The class attribute is similar to the id. However, whereas
 the id must be unique and singular, the values of the class attribute
 can be shared by multiple tags. And, multiple classes can be assigned to
 a tag by simply separating them with spaces.  </p>
-<h4>
-HTML:
-</h4>
-<pre><code>&lt;ul&gt;
+<h4>HTML:</h4>
+
+<pre><code>
+&lt;ul&gt;
    &lt;li class=&quot;bird flying&quot;&gt;eagle&lt;/li&gt;
    &lt;li class=&quot;bird&quot;&gt;ostrich&lt;/li&gt;
    &lt;li class=&quot;insect&quot;&gt;ant&lt;/li&gt;
    &lt;li class=&quot;insect flying&quot;&gt;moth&lt;/li&gt;
-&lt;/ul&gt;</code></pre>
+&lt;/ul&gt;
+</code></pre>
+
 <p>The class selector is simply a period (.) followed by the class name
 itself.</p>
-<h4>
-CSS:
-</h4>
-<pre><code>.bird   { color: blue; }  
+<h4>CSS:</h4>
+
+<pre><code>
+.bird   { color: blue; }  
 .insect { color: green; }  
-.flying { text-decoration: underline; }</code></pre>
-<h4>
-Result:
-</h4>
+.flying { text-decoration: underline; }<
+/code></pre>
+
+<h4>Result:</h4>
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -8156,18 +7903,14 @@ ant
 </tbody>
 </table>
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch3-4-3">
-3.4.3 Combining Selectors
-</h3>
+<h3 id="ch3-4-3">3.4.3 Combining Selectors</h3>
 <!------------------------------------------------------------------------------------------------>
 <p>Being able to define a CSS selector in terms of a tag, class or id is
 very powerful. But it’s not practical to place classes on every tag in
 your document, much less to put unique ids throughout.  It’s also
 inconvenient to constantly repeat CSS rules. But by combining composing
 selectors, all that can be avoided.  </p>
-<h4>
-Comma separated selectors
-</h4>
+<h4>Comma separated selectors</h4>
 <p>Let’s say we want to make all our &lt;blockquote&gt; tags,
 &lt;q&gt; tags, and anything with “speech” in it’s class string, to be
 red italic text.  How might we do that?  We could make three separate
@@ -8198,7 +7941,7 @@ color: red;<br />    font-style: italic;<br /> }
 </td>
 <td>
 blockquote,<br /> q,<br /> .speech {<br /> color: red;<br />    
-font-style: italic;   <br /> }
+font-style: italic;   <br> }
 </td>
 </tr>
 </tbody>
@@ -8207,30 +7950,40 @@ font-style: italic;   <br /> }
  </p>
 <p>If the “speech” items need to also be bold, that can simply be added
 by an additional rule:</p>
-<pre><code>blockquote,
+
+<pre><code>
+blockquote,
 q,
 .speech {
    color: red;
    font-style: italic;
 }
-.speech { font-weight: bold; }</code></pre>
-<h4>
-Specialized selectors
-</h4>
+.speech { font-weight: bold; }
+</code></pre>
+
+<h4>Specialized selectors</h4>
 <p>If two selectors of different types (like tag and class) appear next
 to each other with no spacing separating them, then they form a
 specialized selector. To match, a candidate must
 match <b>both</b> rules. If a tag selector is used, it must appear
 first.</p>
 <p>This is most useful with class and tag selectors, like so:</p>
-<pre><code>blockquote.speech { font-color: green; }</code></pre>
+
+<pre><code>
+blockquote.speech { font-color: green; }
+</code></pre>
+
 <p>In the example above, the blockquote.speech selector is
 a blockquote tag selector combined with a .speech class selector.  So
 this rule will not necessarily apply to every blockquote, nor every
 element with the speech class. Instead, it will only apply to those
 blockquotes that also have the speech class.</p>
 <p>It isn’t unusual to see multiple classes joined this way as well:</p>
-<pre><code>.insect.flying { text-decoration: underline; font-weight:bold; }</code></pre>
+
+<pre><code>
+.insect.flying { text-decoration: underline; font-weight:bold; }
+</code></pre>
+
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- 56. combining classes (164) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -8238,17 +7991,13 @@ blockquotes that also have the speech class.</p>
   src="./images/image056.png?raw=true"
   alt="Combining classes."
   style="width:65%;" />
-</p>
-<h4>
-Descendant selectors
-</h4>
+  
+<h4>Descendant selectors</h4>
 <p>In the following HTML, we see some paragraphs that have some links
 (<a>) inside. The link tags are inside the paragraphs, but not
 necessarily direct children.</p>
 <details>
-<summary>
-HTML code extract!
-</summary>
+<summary>HTML code extract!</summary>
 <pre><code>&lt;section id=&quot;intro&quot;&gt;Welcome to &lt;a href=&quot;#palaceland&quot;&gt;PalaceLand&lt;/a&gt;, world renown 
    &lt;q&gt;Land of endless palaces and &lt;a href=&quot;#delight&quot;&gt;delights&lt;/a&gt;&lt;/q&gt;. 
    As you make your way about, remember the words of our founder &lt;blockquote&gt;Shouldn&#39;t we
@@ -8322,12 +8071,15 @@ photography</a> please.)
 <p>But what if we want the links in the founder blockquote in the intro
 section to be bold?  Again, a descendant selector will work.  We add
 this:</p>
-<pre><code>#intro blockquote a { font-weight: bold; } </code></pre>
+
+<pre><code>
+#intro blockquote a { font-weight: bold; } 
+</code></pre>
+
 <p>Any &lt;a&gt; tags anywhere inside a &lt;blockquote&gt; anywhere
 inside the #intro section will now be bold.</p>
-<h4>
-Direct descendant selectors ( &gt; )
-</h4>
+
+<h4>Direct descendant selectors ( &gt; )</h4>
 <p>Sometimes you don’t want to apply a style to any <em>possible</em>
 child, but to only to the direct children.  This can be done with
 the <b>&gt;</b> symbol.  Use it between selectors to limit the
@@ -8335,21 +8087,25 @@ application to the direct children of the parent. For example, this
 rule, if applied to the HTML of the previous selector, would cause the
 links in the intro section to be larger, but not the links in any nested
 quotes or blockquotes. :</p>
-<pre><code>#intro &gt; a { font-size: large; }</code></pre>
-<h4>
-Everything selector (*)
-</h4>
+
+<pre><code>
+#intro &gt; a { font-size: large; }
+</code></pre>
+
+<h4>Everything selector (*)</h4>
 <p>The asterisk (*) can be used to match <b>any</b> tag. By itself, this
 is only marginally useful. But combined with other selectors into a
 descendant selector, it can be pretty useful.</p>
-<pre><code>body &gt; * { margin-left: 10px; } /* all the _direct_ children of the
+
+<pre><code>
+body &gt; * { margin-left: 10px; } /* all the _direct_ children of the
    body receive the margin */
 p * { text-decoration: underline; } /* the text of the paragraph will
-   be normal, but any children anywhere inside it will be underlined */</code></pre>
+   be normal, but any children anywhere inside it will be underlined */
+</code></pre>
+
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch3-4-4">
-3.4.4 Cascading: inheritance and precedence
-</h3>
+<h3 id="ch3-4-4">3.4.4 Cascading: inheritance and precedence</h3>
 <!------------------------------------------------------------------------------------------------>
 <p>Now that we’ve covered several ways of defining CSS selectors, we
 need to understand what happens when multiple selectors resolve to the
@@ -8417,7 +8173,9 @@ html5
 <span>q&lt;/span&gt;, which, in turn, have their own child
 &lt;span&gt;spans&lt;/span&gt;.
 </p>
-<pre><code>    &lt;p&gt;&amp;lt;q&amp;gt;With this structure, we can see how some CSS
+
+<pre><code>
+    &lt;p&gt;&amp;lt;q&amp;gt;With this structure, we can see how some CSS
       &amp;lt;span&amp;gt;rules&amp;lt;/span&amp;gt; are&lt;/p&gt;
     &lt;p&gt;&amp;lt;span&amp;gt;applied across a &amp;lt;q&amp;gt;variety&amp;lt;/q&amp;gt;&amp;lt;/span&amp;gt;
       of scopes.&amp;lt;/q&amp;gt;&lt;/p&gt;
@@ -8448,21 +8206,19 @@ html5
   &lt;td&gt;This paragraph has children spans and q, which, in turn, have their
     own child spans. With this structure, we can see how some
     CSS rules are applied across a variety of scopes.&lt;/td&gt;
-&lt;/tr&gt;</code></pre>
+&lt;/tr&gt;
+</code></pre>
+
 </tbody>
 </table>
 <!-- </details> -->
-<h4>
-Which rules are inheritable?
-</h4>
+<h4>Which rules are inheritable?</h4>
 <p>There is no reliable rule for which CSS properties are inheritable by
 default and which are not. However, generally, the properties associated
 with positioning and layout are <i>not</i> inherited.  Likewise, the
 decorative properties (borders, background images, etc.) do not inherit.
  Most properties that begin with text- or font- inherit.</p>
-<h4>
-Precedence
-</h4>
+<h4>Precedence</h4>
 <p>It is possible, and easy, to have several different CSS rules all
 applying to the same element.  This is often advantageous because most
 CSS properties are <i>orthogonal</i> to one another, meaning they do not
@@ -8477,9 +8233,7 @@ different values for the same property?  This is where
 CSS <i>precedence</i> comes into play. When rendering CSS, the browser
 has some guidelines it follows for resolving conflicting rules. Here is
 rough summary, in order:</p>
-<h4>
-1 - Most specific rule
-</h4>
+<h4>1 - Most specific rule</h4>
 <p>A more <i>specific</i> rule takes precedence over a less specific
 rule.  A rule that more tightly matches a particular element than a
 general rule will be applied. </p>
@@ -8488,20 +8242,14 @@ ul li span { color: red; }</code></pre>
 <p>In the example above, both rules are attempting to set a span color
 for a span inside a list item. However, the second rule will “win” when
 there is a conflict (like color in this case). </p>
-<h4>
-2 - #id selector is the most specific
-</h4>
+<h4>2 - #id selector is the most specific</h4>
 <p>Rules with an id selector (e.g.  #someid ) are considered more
 specific than rules without.</p>
-<h4>
-3- .class selector is more specific than a tag selector
-</h4>
+<h4>3- .class selector is more specific than a tag selector</h4>
 <p>Rules employing a class selector (e.g. .someclass ) are considered
 more specific than rules without (but not as specific as an #id
 selector, which trumps everything).</p>
-<h4>
-4- Rules that come later override those that come earlier
-</h4>
+<h4>4- Rules that come later override those that come earlier</h4>
 <p>This guideline is for two CSS rulesets with the same selector.  Where
 there are conflicts, the rules from the later one apply.  </p>
 <pre><code>.hortense { color: red; text-decoration: underline; }
@@ -8509,9 +8257,7 @@ there are conflicts, the rules from the later one apply.  </p>
 <p>In the example above, an element with the .hortense class will be
 underlined and its color will be blue, because that rule came later than
 when it was set red.</p>
-<h4>
-No fear
-</h4>
+<h4>No fear</h4>
 <p>These guidelines seem fairly straightforward, but situations can
 quickly get rather knotty.  For example, what color should we expect in
 this situation?</p>
@@ -8554,10 +8300,12 @@ In the next section, we will be looking at Chrome Developer Tools.
 You’ll see how you can use the tools in the browser itself to inspect
 your elements and see exactly what CSS rules and properties are being
 inherited, applied and what is their precedence.  </p>
-<h4>
-!important
-</h4>
-<pre><code>p { color: orange !important; }</code></pre>
+<h4>!important</h4>
+
+<pre><code>
+p { color: orange !important; }
+</code></pre>
+
 <p>Because multiple CSS selectors can resolve to the same element, and
 because the rules that govern precedence are complex, you may from time
 to time encounter a situation where you need to apply a particular CSS
@@ -8603,18 +8351,18 @@ tag to
 to
 </ul>
 <p>) and style the list items to have square bullet points • download
-this simple triangle shape<br />
+this simple triangle shape<br>
 and style the list items to use it Please work on the following CodePen
 and implement the instructions above - do not hesitate to tweak and
 test!</p>
-<h4>
-HTML
-</h4>
+
+<h4>HTML</h4>
+
 <details>
-<summary>
-HTML code extract!
-</summary>
-<pre><code>&lt;!DOCTYPE html&gt;
+<summary>HTML code extract!</summary>
+
+<pre><code>
+&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 
 &lt;head&gt;
@@ -8650,15 +8398,15 @@ HTML code extract!
     &lt;li&gt;Le Rouge et le Noir&lt;/li&gt;
   &lt;/ol&gt;
 &lt;/body&gt;
-&lt;/html&gt;</code></pre>
+&lt;/html&gt;
+</code></pre>
+
 </details>
-<h4>
-Result:
-</h4>
+
+<h4>Result:</h4>
+
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch3-4-7">
-3.4.7 Activity - CSS selectors
-</h3>
+<h3 id="ch3-4-7">3.4.7 Activity - CSS selectors</h3>
 <!------------------------------------------------------------------------------------------------>
 <p>Using the HTML below (in this CodePen), please style the two lists by
 following these instructions: - The female characters are in blue text,
@@ -8672,14 +8420,12 @@ moved rightward, - Serif font is not used anywhere on the page,</p>
 without adding &lt;i&gt; or &lt;b&gt; or &lt;span&gt;) ? Feel free to
 modify the HTML, but try not to add any new id attributes, if
 possible.</p>
-<h4>
-HTML
-</h4>
+<h4>HTML</h4>
 <details>
-<summary>
-HTML code extract!
-</summary>
-<pre><code>&lt;!DOCTYPE html&gt;
+<summary>HTML code extract!</summary>
+
+<pre><code>
+&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 
 &lt;head&gt;
@@ -8715,15 +8461,14 @@ HTML code extract!
         &lt;li&gt;Miss Pross&lt;/li&gt;
     &lt;/ol&gt;
 &lt;/body&gt;
-&lt;/html&gt;</code></pre>
+&lt;/html&gt;
+</code></pre>
+
 </details>
-<h4>
-Result
-</h4>
+
+<h4>Result</h4>
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch3-4-8">
-3.4.8 Recipe
-</h3>
+<h3 id="ch3-4-8">3.4.8 Recipe</h3>
 <!------------------------------------------------------------------------------------------------>
 <p><a target="_blank" rel="noopener noreferrer"  href=https://learning.edx.org/course/course-v1:W3Cx+HTML5.0x+1T2022/block-v1:W3Cx+HTML5.0x+1T2022+type@sequential+block@0045398377b14c60b9a3820ead6441d6/block-v1:W3Cx+HTML5.0x+1T2022+type@vertical+block@a40220f07c494fb88d47047b8c6d20bc,target=”_blank”>Go
 Here</a></p>
@@ -8734,10 +8479,10 @@ Here</a></p>
   src="./images/image057.png?raw=true"
   alt="Example: My Favorite Recipes; soup, salad & pizza."
   style="width:40%;" />
+
 <details>
-<summary>
-HTML code extract!
-</summary>
+<summary>HTML code extract!</summary>
+
 <div class="sourceCode" id="cb143"><pre
 class="sourceCode xml"><code class="sourceCode xml"><span id="cb143-1"><a href="#cb143-1" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;!DOCTYPE</span> <span class="dt">html&gt;</span></span>
 <span id="cb143-2"><a href="#cb143-2" aria-hidden="true" tabindex="-1"></a>&lt;<span class="kw">html</span><span class="ot"> lang=</span><span class="st">&quot;en&quot;</span>&gt;</span>
@@ -8809,8 +8554,7 @@ class="sourceCode xml"><code class="sourceCode xml"><span id="cb143-1"><a href="
 <span id="cb143-68"><a href="#cb143-68" aria-hidden="true" tabindex="-1"></a><span class="er">&lt;/html&gt;</span></span></code></pre></div>
 </details>
 <!------------------------------------------------------------------------------------------------>
-<h2 id="ch4">Welcome to Module 4
-</h2>
+<h2 id="ch4">Welcome to Module 4</h2>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 58. module 4: fixing and debugging (176) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -8818,10 +8562,9 @@ class="sourceCode xml"><code class="sourceCode xml"><span id="cb143-1"><a href="
   src="./images/image058.png?raw=true"
   alt="Module 4: Fixing and debugging."
   style="width:30%;" />
+  
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch4-1">
-4.1.2 Content
-</h3>
+<h3 id="ch4-1">4.1.2 Content</h3>
 <!------------------------------------------------------------------------------------------------>
 <p><b>4.1 Introduction:</b> You will now begin learning how to fix your
 Web page when it’s not doing what you hoped it would do.</p>
@@ -8834,9 +8577,7 @@ debugger in the browser to understand conflicting rules.</p>
 <p><b>4.5 Give Your Mind a Workout:</b> Let’s see what you have learned
 about debugging your code.</p>
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch4-2-1">
-4.2.1 Tools
-</h3>
+<h3 id="ch4-2-1">4.2.1 Tools</h3>
 <!------------------------------------------------------------------------------------------------>
 <p>It’s hard to overestimate the value of tools for programming
 languages. There are tools for creation, testing, debugging and even
@@ -8853,9 +8594,7 @@ handy because everyone seems to have one. You might have even seen this
 yourself if you’ve ever tried the “Show Source” button, but perhaps the
 most important tool that we have yet to explore is the debugger
 activated when you “Inspect Element”.</p>
-<h4>
-Accessibility
-</h4>
+<h4>Accessibility</h4>
 <p>While it’s important that your page looks and acts the way you
 intend, there are other considerations as well. One important aspect is
 “<a target="_blank" 
@@ -8874,9 +8613,7 @@ figure out how well your background a foreground colors interact.  For a
 good list of such tools, check out  <a target="_blank" 
 href="https://www.w3.org/WAI/ER/tools/">Web Accessibility Evaluations
 Tools List</a>.</p>
-<h4>
-Debugging
-</h4>
+<h4>Debugging</h4>
 <p>When you’re using a traditional programming language, like
 JavaScript, debugging is primarily concerned with values of variables,
 what path is being taken through the code, and whether the program
@@ -8918,9 +8655,7 @@ browsers are likely to have similar capabilities, the user interface may
 be a bit different.  Feel free to use whichever “Developers Tools” you
 prefer.</p>
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch4-2-2">
-4.2.2 Identifying HTML5 elements
-</h3>
+<h3 id="ch4-2-2">4.2.2 Identifying HTML5 elements</h3>
 <!------------------------------------------------------------------------------------------------>
 <p>Remember that elements are the intangible parts of your Web page,
 which are described by the text in tags and are rendered on the screen
@@ -9231,14 +8966,14 @@ could apply to the same element. Consider the following example:
   title="My Book, Chapter 1, Section 1.1."
   alt="My Book Chapter 1 Section 1.1."
   style="width:40%;" />
-<h4>
-CSS
-</h4>
+
+<h4>CSS</h4>
+
 <details>
-<summary>
-CSS code extract!
-</summary>
-<pre><code>h1{
+<summary>CSS code extract!</summary>
+
+<pre><code>
+h1{
 color:blue;
 font-size: 2rem;
 }
@@ -9249,16 +8984,18 @@ font-size: 1.4rem;
 section h1{
 color:grey;
 font-size:1.2rem;
-}</code></pre>
+}
+</code></pre>
+
 </details>
-<h4>
-HTML
-</h4>
+
+<h4>HTML</h4>
+
 <details>
-<summary>
-HTML code extract!
-</summary>
-<pre><code>&lt;!DOCTYPE html&gt;
+<summary>HTML code extract!</summary>
+
+<pre><code>
+&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
 &lt;meta charset=&quot;utf-8&quot;&gt;
@@ -9277,8 +9014,11 @@ HTML code extract!
 &lt;section&gt;
 &lt;article&gt;
 &lt;/body&gt;
-&lt;/html&gt;</code></pre>
+&lt;/html&gt;
+</code></pre>
+
 </details>
+
 <p>Looking at the style rules we see there are three different
 possibilities for the size and color of an &lt;h1&gt; element. In this
 case the application of the rules seems pretty intuitive. The outermost
@@ -9287,10 +9027,11 @@ of the three. The one that’s in the Article, but not in the section is
 black and of medium size.</p>
 <p>Finally, the heading in the section is the smallest and shows up as
 grey.</p>
-Your intuition may be thinking along these lines - “section h1” is more
+<p>Your intuition may be thinking along these lines - “section h1” is more
 specific than “article h1” or “h1”, and therefore it takes precedence
 resulting in smaller gray text.  However, when you re-arrange the rules
-you get a different result:
+you get a different result:</p>
+
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 70. my boook chapter 1, section 1.1 (191) --------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -9298,14 +9039,13 @@ you get a different result:
   src="./images/image070.png?raw=true"
   alt="My Book Chapter 1 Section 1.1."
   style="width:40%;" />
-<h4>
-CSS
-</h4>
+
+<h4>CSS</h4>
 <details>
-<summary>
-CSS code extract!
-</summary>
-<pre><code>section h1{
+<summary>CSS code extract!</summary>
+
+<pre><code>
+section h1{
 color:grey;
 font-size:1.2rem;
 }
@@ -9316,16 +9056,16 @@ font-size: 1.4rem;
 h1{
 color:blue;
 font-size: 2rem;
-}</code></pre>
+}
+</code></pre>
+
 </details>
-<h4>
-HTML
-</h4>
+<h4>HTML</h4>
 <details>
-<summary>
-HTML code extract!
-</summary>
-<pre><code>&lt;!DOCTYPE html&gt;
+<summary>HTML code extract!</summary>
+
+<pre><code>
+&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
   &lt;meta charset=&quot;utf-8&quot;&gt;
@@ -9344,14 +9084,14 @@ HTML code extract!
     &lt;/section&gt;
   &lt;/article&gt;
 &lt;/body&gt;
-&lt;/html&gt;</code></pre>
+&lt;/html&gt;
+</code></pre>
+
 </details>
 <p>What happened? To answer that question, we’ll turn to the browser’s
 debugger.</p>
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch4-4-2">
-4.4.2 Debugging CSS Precedence
-</h3>
+<h3 id="ch4-4-2">4.4.2 Debugging CSS Precedence</h3>
 <!------------------------------------------------------------------------------------------------>
 <p>This lesson is using developer tools provided by the Chrome
 browser.</p>
@@ -9369,6 +9109,7 @@ there.</p>
   src="./images/image071.png?raw=true"
   alt="Styles in the debugger."
   style="width:65%;" />
+
 <p>
 There is a sequence of the panels under “Style” that helps understand
 just where a particular CSS rule is coming from. Starting at the top, we
@@ -9431,14 +9172,14 @@ really what we want:
   src="./images/image074.png?raw=true"
   alt="My book, chapter 1, section 1.1."
   style="width:45%;" />
-<h4>
-CSS
-</h4>
+
+<h4>CSS</h4>
+
 <details>
-<summary>
-CSS code extract!
-</summary>
-<pre><code>h1{
+<summary>CSS code extract!</summary>
+
+<pre><code>
+h1{
 color:blue;
 font-size: 2rem;
 }
@@ -9449,16 +9190,16 @@ font-size: 1.4rem;
 section h1{
 color:grey;
 font-size:1.2rem;
-}</code></pre>
+}
+</code></pre>
+
 </details>
-<h4>
-HTML
-</h4>
+<h4>HTML</h4>
 <details>
-<summary>
-HTML code extract!
-</summary>
-<pre><code>&lt;!DOCTYPE html&gt;
+<summary>HTML code extract!</summary>
+
+<pre><code>
+&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
     &lt;meta charset=&quot;utf-8&quot;&gt;
@@ -9477,12 +9218,13 @@ HTML code extract!
       &lt;/section&gt;
     &lt;/article&gt;
   &lt;/body&gt;
-&lt;/html&gt;</code></pre>
+&lt;/html&gt;
+</code></pre>
+
 </details>
+
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch4-4-3">
-4.4.3 Cloud images
-</h3>
+<h3 id="ch4-4-3">4.4.3 Cloud images</h3>
 <!------------------------------------------------------------------------------------------------>
 <p>We’re working on a Web page about clouds in
 the <a href="https://codepen.io/w3devcampus/pen/ybqbwJ" target="_blank">CodePen</a> below,
@@ -11762,7 +11504,7 @@ the style as closely as possible noting table border, colors, etc.<br />
 Insert dummy text values for table.</p></li>
 <li><p>Create the following table structure using HTML and CSS following
 the style as closely as possible noting table border, colors, etc.<br />
-Make the table cover the entire width of the screen. <br />
+Make the table cover the entire width of the screen. <br>
 Insert dummy text values for the table.</p></li>
 </ol>
 <!------------------------------------------------------------------------------------------------>
