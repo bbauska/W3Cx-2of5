@@ -14758,120 +14758,118 @@ Andrew</i>.
 </li>
 </ul>
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch6-6-1">
-6.6.1 Recipe project - Module 6
-</h3>
+<h3 id="ch6-6-1">6.6.1 Recipe project - Module 6</h3>
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch6-6-2">
-6.6.2 Recipe project
-</h3>
+<p>We'll put to use some of the layout techniques that we've learned.</p>
+<p>Let's improve our Web page by making it more responsive, so it's easily readable whether wide or narrow. And we'll fix the banner and nav element in place, so it's always where we need it.</p>
 <!------------------------------------------------------------------------------------------------>
-<p>
+<h3 id="ch6-6-2">6.6.2 Recipe project</h3>
+<!------------------------------------------------------------------------------------------------>
 <p>In this next iteration of our recipe project, we’re going to make a
 few changes again to our Web page using cascading style sheets.</p>
 <p>One of the first things that we want to do is go ahead and increase
-the font size on our page.</p>
-<p>If you take a look at the font, it seems to be a little bit
-small.</p>
-<p>Maybe we’d like to have it a little bit larger so that the text is
-easier to read.</p>
-<p>In order to do that, we’ll go into the ‘body’ tag, and we’re going to
-set our font size to a percentage.</p>
-<p>And in this case, we’ll increase it by 20 percent.</p>
+the font size on our page.<br>
+<br>If you take a look at the font, it seems to be a little bit
+small.<br>
+<br>Maybe we’d like to have it a little bit larger so that the text is
+easier to read.<br>
+<br>In order to do that, we’ll go into the ‘body’ tag, and we’re going to
+set our font size to a percentage.<br>
+<br>And in this case, we’ll increase it by 20 percent.</p>
 <p>Setting it to 120 percent does that for us.</p>
 <p>Refresh the page, and you can see that our fonts size has
-increased.</p>
-<p>Now, one of the things that we want to do here is change the width of
-our page.</p>
-<p>We want to do some changes in how the page responds to width as the
-user resizes the window.</p>
-<p>What we’re going to do to change that, is we’re going to go through
+increased.<br>
+<br>Now, one of the things that we want to do here is change the width of
+our page.<br>
+<br>We want to do some changes in how the page responds to width as the
+user resizes the window.<br>
+<br>What we’re going to do to change that, is we’re going to go through
 the process of manipulating some of the elements within our F12 tools
 just to get an idea of some of the issues we may run into.</p>
-<p>Within the F12, we’ll set the width of our page.</p>
-<p>And in this case, we’re giving it a specific size.</p>
-<p>Now, you might notice that what took place was at our header element
+<p>Within the F12, we’ll set the width of our page.<br>
+<br>And in this case, we’re giving it a specific size.<br>
+<br>Now, you might notice that what took place was at our header element
 is no longer expanding across the entire width of the browser
-window.</p>
-<p>And that’s because the whole page element was resized into the
+window.<br>
+<br>And that’s because the whole page element was resized into the
 smaller size rates.</p>
-<p>We’ve done this on the ‘body’ tag.</p>
-<p>But we want that header element to be across the entire page.</p>
-<p>We know that this creates a problem.</p>
-<p>Let’s go ahead and clear that style from within the F12 tools, and
-lets go make some changes in our CSS file.</p>
-<p>The first thing we’re going to do, is rather than change the whole
-body width, we’re going to change the width of the article elements.</p>
-<p>This allows us to manipulate only specific items on the page
-itself.</p>
-<p>The first thing we’re going to do, is change the minimum width.</p>
+<p>We’ve done this on the ‘body’ tag.<br>
+<br>But we want that header element to be across the entire page.<br>
+<br>We know that this creates a problem.<br>
+<br>Let’s go ahead and clear that style from within the F12 tools, and
+lets go make some changes in our CSS file.<br>
+<br>The first thing we’re going to do, is rather than change the whole
+body width, we’re going to change the width of the article elements.<br>
+<br>This allows us to manipulate only specific items on the page
+itself.<br>
+<br>The first thing we’re going to do, is change the minimum width.</p>
 <p>Let’s go ahead and refresh the page and see what happens as we start
-coming down to a smaller size.</p>
-<p>You’ll see that the article elements will only shrink so much.</p>
-<p>We specified a minimum of 30rem on this one here.</p>
-<p>It’s also good to set the max-width, and we’ll set that to 50rem for
-this particular instance.</p>
-<p>Let’s refresh and see how that impacts us.</p>
+coming down to a smaller size.<br>
+<br>You’ll see that the article elements will only shrink so much.<br>
+<br>We specified a minimum of 30rem on this one here.<br>
+<br>It’s also good to set the max-width, and we’ll set that to 50rem for
+this particular instance.<br>
+<br>Let’s refresh and see how that impacts us.</p>
 <p>You’ll notice a small change in the article width, and then we can
-resize the page and see how are min and max widths work.</p>
-<p>Finally, we’re going to go through the process of manipulating the
+resize the page and see how are min and max widths work.<br>
+<br>Finally, we’re going to go through the process of manipulating the
 margins a little bit on this page as well, and we’ll do it with the
-article element.</p>
-<p>We’re going to specify an auto-margin for this particular instance.
+article element.<br>
+<br>We’re going to specify an auto-margin for this particular instance.
 Let’s refresh.</p>
 <p>You’ll notice a slight change in the margins of the articles, and
-then you’ll see how those change as you resize your document.</p>
-<p>Now let’s take a look what happens as we scroll our page.</p>
-<p>Notice that our banner disappears at the top.</p>
-<p>We want to fix that. We’d like to have that banner remain static.</p>
-<p>We’re going to do that. Because the banner is specified in the ‘h1’,
-we’ll go into the CSS, and we’ll set the position to fixed.</p>
-<p>Then as we do that and refresh the page and scroll, you’ll see that
+then you’ll see how those change as you resize your document.<br>
+<br>Now let’s take a look what happens as we scroll our page.<br>
+<br>Notice that our banner disappears at the top.<br>
+<br>We want to fix that. We’d like to have that banner remain static.<br>
+<br>We’re going to do that. Because the banner is specified in the ‘h1’,
+we’ll go into the CSS, and we’ll set the position to fixed.<br>
+<br>Then as we do that and refresh the page and scroll, you’ll see that
 it no longer disappears.</p>
 <p>But it’s not the right width anymore, so we have to fix that as
-well.</p>
-<p>Let’s go back in and specify the width for the ‘h1’ element.</p>
-<p>And because we want it to span the entire page, we’ll set it at 100
+well.<br>
+<br>Let’s go back in and specify the width for the ‘h1’ element.<br>
+<br>And because we want it to span the entire page, we’ll set it at 100
 percent.</p>
 <p>There, now the banner’s looking a little bit better in the width
 size, but notice as we scroll and also now look, there’s a little space
-at the top. We need to get rid of that.</p>
-<p>We can do that in the CSS, and we’ll specify a top, setting a value
-of zero.</p>
-<p>And on the refresh, our banner now positions itself or basically
-anchors itself to the top of the page.</p>
-<p>Now, our nav menu is partially covered.</p>
-<p>We need to fix that. Because our ‘nav’ element is already specified,
+at the top. We need to get rid of that.<br>
+<br>We can do that in the CSS, and we’ll specify a top, setting a value
+of zero.<br>
+<br>And on the refresh, our banner now positions itself or basically
+anchors itself to the top of the page.<br>
+<br>Now, our nav menu is partially covered.<br>
+<br>We need to fix that. Because our ‘nav’ element is already specified,
 let’s give it a specific width, and let’s set its position to fixed as
 well.</p>
 <p>Also, let’s change the top so that when we set it to 4rem, it brings
-that ‘nav’ menu down a little bit lower.</p>
-<p>And now, we can actually see the whole menu.</p>
-<p>The problem is now, that it’s covering up our images.</p>
-<p>We can fix that too by specifying an opacity value in here.</p>
-<p>Setting the opacity gives it somewhat of a transparency.</p>
+that ‘nav’ menu down a little bit lower.<br>
+<br>And now, we can actually see the whole menu.<br>
+<br>The problem is now, that it’s covering up our images.<br>
+<br>We can fix that too by specifying an opacity value in here.<br>
+<br>Setting the opacity gives it somewhat of a transparency.</p>
 <p>And if we set it 0.8 and refresh our page, we can see that now we can
 look at some of the image behind it, so it’s not completely covered
-up.</p>
-<p>But the problem may be that with that opacity, maybe the text isn’t
-easy to read.</p>
-<p>We can fix that by manipulating something called the hover.</p>
-<p>Now, we don’t have a nav.hover in our cascading style sheet yet, so
+up.<br>
+<br>But the problem may be that with that opacity, maybe the text isn’t
+easy to read.<br>
+<br>We can fix that by manipulating something called the hover.<br>
+<br>Now, we don’t have a nav.hover in our cascading style sheet yet, so
 we’ll go ahead and add that.</p>
 <p>Simply, nav and hover, and this basically covers the action for when
-the user hovers the most over that ‘nav’ element.</p>
-<p>And what we’ll do is simply set the opacity back to 1.0.</p>
-<p>Now we can see how the opacity changes when we hover the mouse over
-our ‘nav’ menu.</p>
-<p>Now, we’re almost finished, but notice that we’ve got some text that,
+the user hovers the most over that ‘nav’ element.<br>
+<br>And what we’ll do is simply set the opacity back to 1.0.<br>
+<br>Now we can see how the opacity changes when we hover the mouse over
+our ‘nav’ menu.<br>
+<br>Now, we’re almost finished, but notice that we’ve got some text that,
 again, is still hidden behind that ‘h1’.</p>
-<br>Let’s fix that by setting up our margin.</p>
+<p>Let’s fix that by setting up our margin.<br>
 <br>In this case, we want ‘margin-top’.</p>
-<br>We’ll specify a ‘margin-top’, give it a value, add then refresh the
+<p>We’ll specify a ‘margin-top’, give it a value, add then refresh the
 page.<br>
-<br>And now, you can see that.<br>
-<br>They’ve actually scrolled down a little bit more.<br>
-<br>We fixed those issues at the top.<br>
+And now, you can see that.<br>
+They’ve actually scrolled down a little bit more.<br>
+We fixed those issues at the top.<br>
 These are the final changes to our recipe project for this unit.<br>
 </p>
 	
@@ -14888,6 +14886,6 @@ These are the final changes to our recipe project for this unit.<br>
 --->
 	
 <h6>The end…</h6>
-<h4><b>Last Updated 12-25-2022 Sun 7:35pm</b></h4>
+<h4><b>Last Updated 1-4-2023 Wed 7:32pm</b></h4>
 </body>
 </html>
