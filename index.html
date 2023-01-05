@@ -2817,20 +2817,17 @@ line breaks</code></pre>
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-6-3">1.6.3 More HTML5</h3>
 <!------------------------------------------------------------------------------------------------>
-<h4>
-Video
-</h4>
+<h4>Video</h4>
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-6-4">1.6.4 Activity - Your First Web Page</h3>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-6-5">1.6.5 Recipe Project – Module 1</h3>
 <!------------------------------------------------------------------------------------------------>
-<p>
 <p>Throughout the course, we’ll be building a simple project, adding to
 it with what we’ve learned in each module. This project will be a simple
 Web application that will allow you to browse different recipes.</p>
-For now, we’ll start off with a simple first draft using just what we’ve
+<p>For now, we’ll start off with a simple first draft using just what we’ve
 learned about HTML5 using tags we’ve covered.  We want to have the
 following components:
 </p>
@@ -2847,9 +2844,7 @@ recipe is and any other pertinent information.
 A set of steps to follow, numbered in order.
 </li>
 </ul>
-<p>
-Please start with this “empty page” in CodePen:
-</p>
+<p>Please start with this “empty page” in CodePen:</p>
 <h4>HTML</h4>
 <details>
 <summary>HTML code extract!</summary>
@@ -2979,58 +2974,48 @@ jump from place to place on the Web. Explore the secrets of this
 powerful mechanism!
 </p>
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch2-2-1">
-2.2.1 Introduction
-</h3>
+<h3 id="ch2-2-1">2.2.1 Introduction</h3>
 <!------------------------------------------------------------------------------------------------>
-<p>
-We learned a little bit about what attributes are in the previous
-module. Let’s look into it in more depth, by using examples.
-</p>
-<h4>
-Here is an ordered list:
-</h4>
+<p>We learned a little bit about what attributes are in the previous
+module. Let’s look into it in more depth, by using examples.</p>
+<h4>Here is an ordered list:</h4>
 <div class="sourceCode" id="cb44"><pre
 class="sourceCode xml"><code class="sourceCode xml"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a>&lt;<span class="kw">ol</span>&gt;</span>
 <span id="cb44-2"><a href="#cb44-2" aria-hidden="true" tabindex="-1"></a>  &lt;<span class="kw">li</span>&gt;Lights&lt;/<span class="kw">li</span>&gt;</span>
 <span id="cb44-3"><a href="#cb44-3" aria-hidden="true" tabindex="-1"></a>  &lt;<span class="kw">li</span>&gt;Camera&lt;/<span class="kw">li</span>&gt;</span>
 <span id="cb44-4"><a href="#cb44-4" aria-hidden="true" tabindex="-1"></a>  &lt;<span class="kw">li</span>&gt;Action&lt;/<span class="kw">li</span>&gt;</span>
 <span id="cb44-5"><a href="#cb44-5" aria-hidden="true" tabindex="-1"></a>&lt;/<span class="kw">ol</span>&gt;</span></code></pre></div>
-<h4>
-Output:
-</h4>
-<pre><code>1. Lights
+<h4>Output:</h4>
+
+<pre><code>
+1. Lights
 2. Camera
-3. Action</code></pre>
-<p>
-If i want an ordered list to start with the number 5 instead of 1 (as it
-does by default), let’s code like this:
-</p>
+3. Action
+</code></pre>
+
+<p>If i want an ordered list to start with the number 5 instead of 1 (as it
+does by default), let’s code like this:</p>
 <div class="sourceCode" id="cb46"><pre
 class="sourceCode xml"><code class="sourceCode xml"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a>&lt;<span class="kw">ol</span><span class="ot"> start=</span><span class="st">&quot;5&quot;</span>&gt;</span>
 <span id="cb46-2"><a href="#cb46-2" aria-hidden="true" tabindex="-1"></a>  &lt;<span class="kw">li</span>&gt;Lights&lt;/<span class="kw">li</span>&gt;</span>
 <span id="cb46-3"><a href="#cb46-3" aria-hidden="true" tabindex="-1"></a>  &lt;<span class="kw">li</span>&gt;Camera&lt;/<span class="kw">li</span>&gt;</span>
 <span id="cb46-4"><a href="#cb46-4" aria-hidden="true" tabindex="-1"></a>  &lt;<span class="kw">li</span>&gt;Action&lt;/<span class="kw">li</span>&gt;</span>
 <span id="cb46-5"><a href="#cb46-5" aria-hidden="true" tabindex="-1"></a>&lt;/<span class="kw">ol</span>&gt;</span></code></pre></div>
-<h4>
-Output:
-</h4>
-<pre><code>5. Lights
+<h4>Output:</h4>
+
+<pre><code>
+5. Lights
 6. Camera
-7. Action</code></pre>
-<p>
+7. Action
+</code></pre>
+
 <p>Here, using the start attribute, we made our list start with 5
-instead of 1.</p>
+instead of 1.<br>
 Like start, we have many useful attributes we will see in this section
 that can affect your element. Attributes are a significant part of HTML.
-Tags and attributes make up the language.
-</p>
-<h4>
-Syntax:
-</h4>
-<h4>
-Attributes are used in tags to further define the tag:
-</h4>
+Tags and attributes make up the language.</p>
+<h4>Syntax:</h4>
+<h4>Attributes are used in tags to further define the tag:</h4>
 <ul>
 <li>
 It is used inside the opening tag it is applied to and should be added
@@ -3062,34 +3047,36 @@ order should be reversed (in descending order).
 A tag can have multiple attributes:
 </li>
 </ul>
-<pre><code>&lt;ol start=&quot;5&quot;&gt;&lt;/ol&gt;  
+
+<pre><code>
+&lt;ol start=&quot;5&quot;&gt;&lt;/ol&gt;  
 &lt;ol id=&quot;cinema&quot; class=&quot;attribute-list&quot; start=&quot;5&quot;&gt;&lt;/ol&gt;  
-&lt;ol start=&quot;5&quot; class=&quot;attribute-list&quot;&gt;&lt;/ol&gt;</code></pre>
-<h4>
-Example #1: the ‘id’ attribute
-</h4>
+&lt;ol start=&quot;5&quot; class=&quot;attribute-list&quot;&gt;&lt;/ol&gt;
+</code></pre>
+
+<h4>Example #1: the ‘id’ attribute</h4>
 <h4>
 Imagine you have two paragraphs in your HTML page:
 </h4>
 <div class="sourceCode" id="cb50"><pre
 class="sourceCode xml"><code class="sourceCode xml"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a>&lt;<span class="kw">p</span>&gt;I am paragraph 1 and I want to be in red&lt;/<span class="kw">p</span>&gt;</span>
 <span id="cb50-2"><a href="#cb50-2" aria-hidden="true" tabindex="-1"></a>&lt;<span class="kw">p</span>&gt;I am paragraph 2 and I want to be in blue&lt;/<span class="kw">p</span>&gt;</span></code></pre></div>
-<p>
+
 <p>Your task is to make the text color of the first paragraph red and
 the other blue. How do we do that? You add styling to your HTML document
 through CSS. CSS is a style sheet language where you add any
 presentation related information for your HTML document. You will learn
 about this in the next chapter. In this case, you will have to write
 code in your style sheet to inform that it needs to change the text
-colors respectively. </p>
+colors respectively. <br>
 But to identify each paragraph, we need to give them each a name first
-so we can instruct our style sheet to make X red and Y blue. This unique
-name we give each element is called an ‘ID’. This is very similar to
-your school or corporate ID that is unique to you. No one else in your
-company will have the same ID as you. id is an attribute. It should be
-unique to the element; we know how more than one people having the same
-ID can just cause a lot of confusion.
-</p>
+so we can instruct our style sheet to make X red and Y blue.<br>
+This unique name we give each element is called an ‘ID’.<br>
+This is very similar to your school or corporate ID that is unique to you.<br>
+No one else in your company will have the same ID as you. id is an attribute.<br>
+It should be unique to the element; we know how more than one people having the same
+ID can just cause a lot of confusion.</p>
+
 <div class="sourceCode" id="cb51"><pre
 class="sourceCode xml"><code class="sourceCode xml"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a>&lt;<span class="kw">p</span><span class="ot"> id=</span><span class="st">&quot;para1&quot;</span>&gt;I am paragraph 1 and I want to be in red&lt;/<span class="kw">p</span>&gt;</span>
 <span id="cb51-2"><a href="#cb51-2" aria-hidden="true" tabindex="-1"></a>&lt;<span class="kw">p</span><span class="ot"> id=</span><span class="st">&quot;para2&quot;</span>&gt;I am paragraph 2 and I want to be in blue&lt;/<span class="kw">p</span>&gt;</span></code></pre></div>
@@ -3098,18 +3085,14 @@ Here, we can style para1 and para2 separately using CSS.
 The id attribute helps us do this by letting us give each paragraph an
 ID.
 </p>
-<h4>
-Example #2: the ‘class’ attribute
-</h4>
-<p>
+<h4>Example #2: the ‘class’ attribute</h4>
 <p>A similar attribute is class. class like id is a very useful
 attribute and one you will be using very frequently. Let’s assume you
-are an author of a book. You like poems and you want to include at least
-20 of them in your new book. You add IDs for them: ‘poem1’, ‘poem2’,
-‘poem3’.</p>
-You want your poems to look different from your other text. Grey text
-color, italic and bold. Like this:
-</p>
+are an author of a book.<br>
+You like poems and you want to include at least 20 of them in your new book.<br>
+You add IDs for them: ‘poem1’, ‘poem2’, ‘poem3’.<br>
+You want your poems to look different from your other text.<br>
+Grey text color, italic and bold. Like this:</p>
 <p><i><b>To move, to breathe, to fly, to float,</b></i> <i><b>To gain
 all while you give,</b></i> <i><b>To roam the roads of lands
 remote,</b></i> <i><b>To travel is to live.</b></i></p>
@@ -3121,15 +3104,17 @@ each poem in a particular way. It will look something like (we will
 learn how to write proper styles in the next chapter, so for now we will
 just phrase it in English) -
 </p>
-<pre><code>&#39;Make poem1&#39;s text color grey, italic and bold&#39;  
+
+<pre><code>
+&#39;Make poem1&#39;s text color grey, italic and bold&#39;  
 &#39;Make poem2&#39;s text color grey, italic and bold&#39;  
-&#39;Make poem3&#39;s text color grey, italic and bold&#39;</code></pre>
-<p>
-Can you imagine how repetitive your style sheet will look if you have to
+&#39;Make poem3&#39;s text color grey, italic and bold&#39;
+</code></pre>
+
+<p>Can you imagine how repetitive your style sheet will look if you have to
 instruct it to do the same thing 20 times for different poem IDs? HTML
 makes it easier. We use the class attribute. Let’s name this class of
-poems ‘poetry’.
-</p>
+poems ‘poetry’.</p>
 <div class="sourceCode" id="cb53"><pre
 class="sourceCode xml"><code class="sourceCode xml"><span id="cb53-1"><a href="#cb53-1" aria-hidden="true" tabindex="-1"></a>&lt;<span class="kw">p</span><span class="ot"> id=</span><span class="st">&quot;poem1&quot;</span><span class="ot"> class=</span><span class="st">&quot;poetry&quot;</span>&gt;To move, to breathe, to fly, to</span>
 <span id="cb53-2"><a href="#cb53-2" aria-hidden="true" tabindex="-1"></a>  float...&lt;/<span class="kw">p</span>&gt;</span>
@@ -3140,9 +3125,7 @@ So now, all you have to do in your style sheet, is to instruct it to
 make all elements belonging to the ‘poetry’ class grey, italic and bold.
 </p>
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch2-2-2">
-2.2.2 Global and Non-Global Attributes
-</h3>
+<h3 id="ch2-2-2">2.2.2 Global and Non-Global Attributes</h3>
 <!------------------------------------------------------------------------------------------------>
 <p>You have seen a few examples of attributes now: start, id and class.
 All HTML elements have attributes.</p>
@@ -3156,9 +3139,7 @@ Global
 Non-global
 </li>
 </ul>
-<h4>
-Global attributes
-</h4>
+<h4>Global attributes</h4>
 <p>
 <p>Global attributes can be applied to <b>all tags</b>. They are common
 attributes. Examples of global attributes are id and class. There are
@@ -3174,11 +3155,8 @@ class="sourceCode xml"><code class="sourceCode xml"><span id="cb54-1"><a href="#
 <span id="cb54-4"><a href="#cb54-4" aria-hidden="true" tabindex="-1"></a>   that the contents of this document will be in french.</span>
 <span id="cb54-5"><a href="#cb54-5" aria-hidden="true" tabindex="-1"></a>&lt;<span class="kw">ul</span><span class="ot"> id=</span><span class="st">&quot;intro-list&quot;</span>&gt;&lt;/<span class="kw">ul</span>&gt;</span>
 <span id="cb54-6"><a href="#cb54-6" aria-hidden="true" tabindex="-1"></a>&lt;<span class="kw">pre</span><span class="ot"> class=</span><span class="st">&quot;html-code&quot;</span>&gt;&lt;/<span class="kw">pre</span>&gt;</span></code></pre></div>
-<h4>
-Non-global attributes
-</h4>
-<p>
-<b>Non-global attributes</b> are attributes applied to a specific
+<h4>Non-global attributes</h4>
+<p><b>Non-global attributes</b> are attributes applied to a specific
 instance of a tag. It can be applied to one or more tags. For
 example, start is an attribute for the &lt;ol&gt; tag and it cannot be
 applied on the &lt;p&gt; or &lt;h1&gt; tags, it is specific to only
@@ -3188,18 +3166,15 @@ example of a boolean attribute. The non-global attribute width can be
 applied to several tags such
 as &lt;img&gt;, &lt;input&gt; and &lt;video&gt;.
 </p>
-<h4>
-<b>Without</b> the boolean attribute reversed:
-</h4>
+<h4><b>Without</b> the boolean attribute reversed:</h4>
 <div class="sourceCode" id="cb55"><pre
 class="sourceCode xml"><code class="sourceCode xml"><span id="cb55-1"><a href="#cb55-1" aria-hidden="true" tabindex="-1"></a>&lt;<span class="kw">ol</span>&gt;</span>
 <span id="cb55-2"><a href="#cb55-2" aria-hidden="true" tabindex="-1"></a>  &lt;<span class="kw">li</span>&gt;HTML5&lt;/<span class="kw">li</span>&gt;</span>
 <span id="cb55-3"><a href="#cb55-3" aria-hidden="true" tabindex="-1"></a>  &lt;<span class="kw">li</span>&gt;CSS&lt;/<span class="kw">li</span>&gt;</span>
 <span id="cb55-4"><a href="#cb55-4" aria-hidden="true" tabindex="-1"></a>  &lt;<span class="kw">li</span>&gt;JavaScript&lt;/<span class="kw">li</span>&gt;</span>
 <span id="cb55-5"><a href="#cb55-5" aria-hidden="true" tabindex="-1"></a>&lt;/<span class="kw">ol</span>&gt;</span></code></pre></div>
-<h4>
-<b>With</b> the boolean attribute reversed:
-</h4>
+
+<h4><b>With</b> the boolean attribute reversed:</h4>
 <div class="sourceCode" id="cb56"><pre
 class="sourceCode xml"><code class="sourceCode xml"><span id="cb56-1"><a href="#cb56-1" aria-hidden="true" tabindex="-1"></a>&lt;<span class="kw">ol</span><span class="ot"> reversed</span><span class="er">&gt;</span></span>
 <span id="cb56-2"><a href="#cb56-2" aria-hidden="true" tabindex="-1"></a>  <span class="er">&lt;li&gt;HTML5&lt;/li&gt;</span></span>
@@ -3213,17 +3188,11 @@ class="sourceCode xml"><code class="sourceCode xml"><span id="cb56-1"><a href="#
   src="./images/image021.png?raw=true"
   alt="HTML Result."
   style="width:35%;" />
-<p>
-Ordered lists have their own specific attributes and all global
-attributes can also be applied to them.
-</p>
-<h4>
-More examples:
-</h4>
-<p>
-The image &lt;img&gt; and hyperlink <a> elements, which we will be
-learning about shortly, have many non-global attributes of their own.
-</p>
+<p>Ordered lists have their own specific attributes and all global
+attributes can also be applied to them.</p>
+<h4>More examples:</h4>
+<p>The image &lt;img&gt; and hyperlink <a> elements, which we will be
+learning about shortly, have many non-global attributes of their own.</p>
 <pre><code>&lt;b&gt;&lt;img&gt;  :&lt;/b&gt; src, alt, etc.
 &lt;b&gt;&lt;a&gt;&lt;/b&gt;  : href, target, download, etc.</code></pre>
 <p>Other than the common global attributes, if you wish to learn about
@@ -3249,26 +3218,17 @@ for the &lt;li&gt; element and then click on it: it will take you to the
 list tag’s page that specifies applicable attributes.
 </p>
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch2-2-3">
-2.2.3 Global Attributes: Examples
-</h3>
+<h3 id="ch2-2-3">2.2.3 Global Attributes: Examples</h3>
 <!------------------------------------------------------------------------------------------------>
-<h4>
-Global attribute: ‘id’
-</h4>
-<p>
+<h4>Global attribute: ‘id’</h4>
 <p>Like we saw in the previous
 unit, <a href="https://www.w3.org/TR/html5/dom.html#global-attributes" target="_blank" rel="noopener noreferrer">here
-is a list of all the global attributes</a> and the values they accept.
-To understand attributes, we considered an example
-of usage id and class. We are going to look at it in depth here and
-discuss another global attribute title.</p>
-The id attribute gives your element a unique identifier. In your HTML
-document, that ID value can only be used in one element.
-</p>
-<h4>
-Naming rules for id attribute:
-</h4>
+is a list of all the global attributes</a> and the values they accept.<br>
+To understand attributes, we considered an example of usage id and class.<br>
+We are going to look at it in depth here and discuss another global attribute title.<br>
+The id attribute gives your element a unique identifier.<br>
+In your HTML document, that ID value can only be used in one element.</p>
+<h4>Naming rules for id attribute:</h4>
 <ul>
 <li>
 Must be of at least one character,
@@ -3283,12 +3243,14 @@ differ by case, e.g. “myid” and “MyId”. They are different and so legal
 but it would be extremely confusing to do this!,
 </li>
 </ul>
-<pre><code>&lt;p id=&quot;question-about-html&quot;&gt;How many times can a particular &#39;id&#39;
+
+<pre><code>
+&lt;p id=&quot;question-about-html&quot;&gt;How many times can a particular &#39;id&#39;
    value be used in an HTML document?&lt;/p&gt;
-&lt;p id=&quot;html-answer&quot;&gt;Once&lt;/p&gt;</code></pre>
-<h4>
-id is primarily used for:
-</h4>
+&lt;p id=&quot;html-answer&quot;&gt;Once&lt;/p&gt;
+</code></pre>
+
+<h4>id is primarily used for:</h4>
 <ol type="1">
 <li>Styling your element. You can specify the style you want for the
 element in your style sheet by referencing the ‘id’. <br>
@@ -3308,31 +3270,29 @@ to the Web page
 the ‘id’ of the element, you can write JavaScript code to make it
 perform an action, i.e. change the text within paragraph tags. </li>
 </ol>
-<h4>
-Global attribute: ‘class’
-</h4>
-<p>
-The class attribute, while similar to id, groups a set of elements in
-the same class. Its name-value pair is class=“classname”.
+<h4>Global attribute: ‘class’</h4>
+<p>The class attribute, while similar to id, groups a set of elements in
+the same class.<br>
+Its name-value pair is class=“classname”.<br>
 Unlike id, which is unique to an element, the same class name can be
-assigned to more than one element.
-</p>
-<h4>
-For example:
-</h4>
-<pre><code>&lt;p class=&quot;question&quot;&gt;What is your name?&lt;/p&gt;
-&lt;p class=&quot;question&quot;&gt;Do you like HTML5?&lt;/p&gt;</code></pre>
-<p>
-Both paragraphs above are grouped under the class named ‘question’. An
-element can have one or more class names. If we also want the second
-question to be under the ‘html’ class because it is an HTML related
-question, you can add two class names by separating them with white
-space:
-</p>
-<pre><code>&lt;p class=&quot;question html&quot;&gt;Do you like HTML5?&lt;/p&gt;</code></pre>
-<h4>
-Naming rules for the class attribute:
-</h4>
+assigned to more than one element.</p>
+<h4>For example:</h4>
+
+<pre><code>
+&lt;p class=&quot;question&quot;&gt;What is your name?&lt;/p&gt;
+&lt;p class=&quot;question&quot;&gt;Do you like HTML5?&lt;/p&gt;
+</code></pre>
+
+<p>Both paragraphs above are grouped under the class named ‘question’.<br>
+An element can have one or more class names.<br>
+If we also want the second question to be under the ‘html’ class because it is an HTML related
+question, you can add two class names by separating them with white space:</p>
+
+<pre><code>
+&lt;p class=&quot;question html&quot;&gt;Do you like HTML5?&lt;/p&gt;
+</code></pre>
+
+<h4>Naming rules for the class attribute:</h4>
 <ul>
 <li>Must begin with a letter (a-z or A-Z).</li>
 <li>First letter can be followed by a letter, digit, hyphen or an underscore.</li>
