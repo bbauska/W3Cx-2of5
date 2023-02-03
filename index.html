@@ -6918,7 +6918,11 @@ b { color: rgba(10, 200, 255, 0.5); }  /* semi-transparent */
 three components together: red, green, and blue. The amount of each
 component falls within a range between 0 and 255.   So
 the rgb() function can be used to specify a color.</p>
-<pre><code>rgb( red, green, blue);  </code></pre>
+
+<pre><code>
+rgb( red, green, blue);  
+</code></pre>
+
 <p>parenthesis required, commas between each component.</p>
 <p>Similarly, the rgba() function can be used for semi-transparent
 colors. The fourth value is for the “alpha channel” (thus the “a” in
@@ -7001,8 +7005,13 @@ get increasingly smaller. And if ‘rem’ units were used, they would be
 the same size.</p>
 <p>Note: to ensure you are setting the root size,
 use <i><b>both</b></i> the html and body selectors.</p>
-<pre><code>&lt;h4&gt;html, body { font-size: 20px; }&lt;/h4&gt;</code></pre>
+
+<pre><code>
+&lt;h4&gt;html, body { font-size: 20px; }&lt;/h4&gt;
+</code></pre>
+
 <h4>%</h4>
+
 <p>Whereas em is a measure relative to the parents text size, the
 percentage unit (%) is relative to the parent dimension.  This is a
 useful unit for both horizontal and vertical dimensions, though often
@@ -7990,13 +7999,17 @@ html5
 </tbody>
 </table>
 <!-- </details> -->
+
 <h4>Which rules are inheritable?</h4>
+
 <p>There is no reliable rule for which CSS properties are inheritable by
 default and which are not. However, generally, the properties associated
 with positioning and layout are <i>not</i> inherited.  Likewise, the
 decorative properties (borders, background images, etc.) do not inherit.
  Most properties that begin with text- or font- inherit.</p>
+
 <h4>Precedence</h4>
+
 <p>It is possible, and easy, to have several different CSS rules all
 applying to the same element.  This is often advantageous because most
 CSS properties are <i>orthogonal</i> to one another, meaning they do not
@@ -8011,34 +8024,53 @@ different values for the same property?  This is where
 CSS <i>precedence</i> comes into play. When rendering CSS, the browser
 has some guidelines it follows for resolving conflicting rules. Here is
 rough summary, in order:</p>
+
 <h4>1 - Most specific rule</h4>
+
 <p>A more <i>specific</i> rule takes precedence over a less specific
 rule.  A rule that more tightly matches a particular element than a
 general rule will be applied. </p>
-<pre><code>span { color: blue; }
-ul li span { color: red; }</code></pre>
+
+<pre><code>
+span { color: blue; }
+ul li span { color: red; }
+</code></pre>
+
 <p>In the example above, both rules are attempting to set a span color
 for a span inside a list item. However, the second rule will “win” when
 there is a conflict (like color in this case). </p>
+
 <h4>2 - #id selector is the most specific</h4>
+
 <p>Rules with an id selector (e.g.  #someid ) are considered more
 specific than rules without.</p>
+
 <h4>3- .class selector is more specific than a tag selector</h4>
+
 <p>Rules employing a class selector (e.g. .someclass ) are considered
 more specific than rules without (but not as specific as an #id
 selector, which trumps everything).</p>
+
 <h4>4- Rules that come later override those that come earlier</h4>
+
 <p>This guideline is for two CSS rulesets with the same selector.  Where
 there are conflicts, the rules from the later one apply.  </p>
-<pre><code>.hortense { color: red; text-decoration: underline; }
-.hortense { color: blue; }</code></pre>
+
+<pre><code>
+.hortense { color: red; text-decoration: underline; }
+.hortense { color: blue; }
+</code></pre>
+
 <p>In the example above, an element with the .hortense class will be
 underlined and its color will be blue, because that rule came later than
 when it was set red.</p>
+
 <h4>No fear</h4>
+
 <p>These guidelines seem fairly straightforward, but situations can
 quickly get rather knotty.  For example, what color should we expect in
 this situation?</p>
+
 <table>
 <colgroup>
 <col style="width: 54%" />
@@ -8565,7 +8597,9 @@ pen), border-style (dashed, dotted,  solid, etc.) and border-color (the
 color of your pen).  In fact these are so commonly specified that there
 is a shorthand syntax to set all three in one line:</p>
 
-<pre><code>border: 5px solid blue;</code></pre>
+<pre><code>
+border: 5px solid blue;
+</code></pre>
 
 <p>There are many other shortcuts to learn, but this one is fairly
 common.  To draw a border you need to know the width, style and color.
@@ -8579,6 +8613,7 @@ common.</p>
   src="./images/image061.jpeg?raw=true"
   alt="Illustration of CSS Box Model."
   style="width:50%;" />
+
 <p>The margin, as we learned earlier, specifies the position of the
 element relative to whatever is adjacent to it, either to the right or
 left, or top or bottom.  The margin is always transparent, and each side
@@ -9134,7 +9169,11 @@ width: 10rem;
 changing the other images.  Recall  that an &lt;img&gt; tag
 includes a width attribute, so we can special case this image
 accordingly in the HTML code:</p>
-<pre><code>&lt;img alt=&quot;Clouds&quot; width=500 src=&quot;images/clouds.jpg&quot;&gt;</code></pre>
+
+<pre><code>
+&lt;img alt=&quot;Clouds&quot; width=500 src=&quot;images/clouds.jpg&quot;&gt;
+</code></pre>
+
 <p>We look at our page again, and it hasn’t changed!  Time to try the
 debugger again.</p>
 
@@ -9163,15 +9202,17 @@ special case the smaller pictures, and use a larger width by default.
  This would recognize that we really want small images when they are
 list elements, otherwise they should be bigger.  So we can change our
 code like this:</p>
-<pre><code>img {
+
+<pre><code>
+img {
    width: 25rem;
 }
 li img {
    width: 10rem;
-}</code></pre>
-<h4>
-That looks better:
-</h4>
+}
+</code></pre>
+
+<h4>That looks better:</h4>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- 78. cloud image-codepen (198) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -9846,7 +9887,11 @@ difficulty understanding the content or use assistive technology.</p>
 </code></pre>
 
 <p>Creates a table row.</p>
-<pre><code>&lt;th&gt;</code></pre>
+
+<pre><code>
+&lt;th&gt;
+</code></pre>
+
 <p>There are two types of cells in a table - header and
 standard. &lt;th&gt; creates table header cells. The content of table
 header cells is bold and centered by default.</p>
@@ -10064,31 +10109,31 @@ class="sourceCode xml"><code class="sourceCode xml"><span id="cb176-1"><a href="
 <span id="cb176-13"><a href="#cb176-13" aria-hidden="true" tabindex="-1"></a>   &lt;/<span class="kw">tr</span>&gt;</span>
 <span id="cb176-14"><a href="#cb176-14" aria-hidden="true" tabindex="-1"></a> &lt;/<span class="kw">tbody</span>&gt;</span></code></pre></div>
 </details>
-<h4>
-&lt;tfoot&gt;
-</h4>
+
+<h4>&lt;tfoot&gt;</h4>
 The footer is the last to be specified and rows within 
-<tfoot>
+&lt;tfoot&gt;
 <p> are considered footer rows at the end of a table:</p>
+
 <details>
-<summary>
-HTML code extract!
-</summary>
-<div class="sourceCode" id="cb177"><pre
-class="sourceCode xml"><code class="sourceCode xml"><span id="cb177-1"><a href="#cb177-1" aria-hidden="true" tabindex="-1"></a>  &lt;<span class="kw">tfoot</span>&gt;</span>
+  <summary>HTML code extract!</summary>
+  
+<div class="sourceCode" id="cb177"><pre class="sourceCode xml">
+<code class="sourceCode xml"><span id="cb177-1"><a href="#cb177-1" aria-hidden="true" tabindex="-1"></a>  &lt;<span class="kw">tfoot</span>&gt;</span>
 <span id="cb177-2"><a href="#cb177-2" aria-hidden="true" tabindex="-1"></a>    &lt;<span class="kw">tr</span>&gt;</span>
 <span id="cb177-3"><a href="#cb177-3" aria-hidden="true" tabindex="-1"></a>      &lt;<span class="kw">td</span>&gt;3 Unique Name&lt;/<span class="kw">td</span>&gt;</span>
 <span id="cb177-4"><a href="#cb177-4" aria-hidden="true" tabindex="-1"></a>      &lt;<span class="kw">td</span>&gt;2 Unique Ages&lt;/<span class="kw">td</span>&gt;</span>
 <span id="cb177-5"><a href="#cb177-5" aria-hidden="true" tabindex="-1"></a>    &lt;/<span class="kw">tr</span>&gt;</span>
-<span id="cb177-6"><a href="#cb177-6" aria-hidden="true" tabindex="-1"></a>  &lt;/<span class="kw">tfoot</span>&gt;</span></code></pre></div>
+<span id="cb177-6"><a href="#cb177-6" aria-hidden="true" tabindex="-1"></a>  &lt;/<span class="kw">tfoot</span>&gt;</span></code>
+</pre></div>
+
 </details>
-<h4>
-Putting it all together:
-</h4>
+
+<h4>Putting it all together:</h4>
+
 <details>
-<summary>
-HTML code extract!
-</summary>
+  <summary>HTML code extract!</summary>
+  
 <div class="sourceCode" id="cb178"><pre
 class="sourceCode xml"><code class="sourceCode xml"><span id="cb178-1"><a href="#cb178-1" aria-hidden="true" tabindex="-1"></a>  &lt;<span class="kw">table</span><span class="ot"> border=</span><span class="er">1&gt;</span></span>
 <span id="cb178-2"><a href="#cb178-2" aria-hidden="true" tabindex="-1"></a>    <span class="er">&lt;colgroup&gt;</span></span>
@@ -10121,7 +10166,9 @@ class="sourceCode xml"><code class="sourceCode xml"><span id="cb178-1"><a href="
 <span id="cb178-29"><a href="#cb178-29" aria-hidden="true" tabindex="-1"></a>       &lt;<span class="kw">td</span>&gt;2 Unique Ages&lt;/<span class="kw">td</span>&gt;</span>
 <span id="cb178-30"><a href="#cb178-30" aria-hidden="true" tabindex="-1"></a>     &lt;/<span class="kw">tr</span>&gt;</span>
 <span id="cb178-31"><a href="#cb178-31" aria-hidden="true" tabindex="-1"></a>   &lt;/<span class="kw">tfoot</span>&gt;</span>
-<span id="cb178-32"><a href="#cb178-32" aria-hidden="true" tabindex="-1"></a> &lt;/<span class="kw">table</span>&gt;</span></code></pre></div>
+<span id="cb178-32"><a href="#cb178-32" aria-hidden="true" tabindex="-1"></a> &lt;/<span class="kw">table</span>&gt;</span>
+</code></pre></div>
+
 </details>
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 91. table example: name & age (220) ------------------------------->
@@ -10131,9 +10178,7 @@ class="sourceCode xml"><code class="sourceCode xml"><span id="cb178-1"><a href="
   alt="Table example with name and age."
   style="width:40%;" />
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch5-2-4">
-5.2.4 Styling your table
-</h3>
+<h3 id="ch5-2-4">5.2.4 Styling your table</h3>
 <!------------------------------------------------------------------------------------------------>
 <p>We now know how to put a basic table together. However, the tables we
 have looked at so far could really use some work in terms of how they
@@ -10144,15 +10189,17 @@ Result, HTML and CSS. Make sure to view each tab to get the HTML and CSS
 code for examples. You are also welcome to modify the code for each
 example by clicking on ‘Edit on CodePen’ on the top right corner of the
 CodePen (click on “RUN” when you completed your changes).</p>
-<h4>
-border
-</h4>
+
+<h4>border</h4>
+
 <p>Though border is a valid attribute of the table element, it is best
 specified in CSS. It is a shorthand property meaning you can set several
 CSS properties simultaneously. </p>
-<p>The CSS border property
-sets border-width, border-style and border-color in order: </p>
-<pre><code>&lt;b&gt;table { border: 1px solid black; }&lt;/b&gt;</code></pre>
+<p>The CSS border property sets border-width, border-style and border-color in order:</p>
+
+<pre><code>
+&lt;b&gt;table { border: 1px solid black; }&lt;/b&gt;
+</code></pre>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 92. border property values (221) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -10160,8 +10207,12 @@ sets border-width, border-style and border-color in order: </p>
   src="./images/image092.png?raw=true"
   alt="Border property values."
   style="width:65%;" />
+
 <p>To give a border to &lt;table&gt;, &lt;th&gt; and &lt;td&gt;:</p>
-<pre><code>table, th, td { border: 1px solid black; }</code></pre>
+
+<pre><code>
+table, th, td { border: 1px solid black; }
+</code></pre>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 93. three border examples (222) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -10169,20 +10220,22 @@ sets border-width, border-style and border-color in order: </p>
   src="./images/image093.png?raw=true"
   alt="Border examples for Michael, age 21."
   style="width:40%;" />
-<h4>
-CSS
-</h4>
-<pre><code>table.eg1, th.eg1, td.eg1 { border: 1px solid black; }
+
+<h4>CSS</h4>
+
+<pre><code>
+table.eg1, th.eg1, td.eg1 { border: 1px solid black; }
 table.eg2, th.eg2, td.eg2 { border: thin dashed black; }
-table.eg3, th.eg3, td.eg3 { border: initial; }</code></pre>
-<h4>
-HTML
-</h4>
+table.eg3, th.eg3, td.eg3 { border: initial; }
+</code></pre>
+
+<h4>HTML</h4>
+
 <details>
-<summary>
-HTML code extract!
-</summary>
-<pre><code>&lt;!DOCTYPE html&gt;
+  <summary>HTML code extract!</summary>
+  
+<pre><code>
+&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
 &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -10210,16 +10263,22 @@ class=&quot;eg3&quot;&gt;Age&lt;/th&gt;&lt;/tr&gt;
 class=&quot;eg3&quot;&gt;21&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 &lt;/body&gt;
-&lt;/html&gt;</code></pre>
+&lt;/html&gt;
+</code></pre>
+
 </details>
-<h4>
-border-collapse
-</h4>
+
+<h4>border-collapse</h4>
+
 <p>We gave a border to the table, table-header and table-data above.
 This creates two borders creating a double line. In order to collapse
 them all into a single border, we use the border-collapse CSS
 property:</p>
-<pre><code>table { border-collapse: collapse; }</code></pre>
+
+<pre><code>
+table { border-collapse: collapse; }
+</code></pre>
+
 <p>Possible values of this property are: </p>
 <ul>
 <li><p>separate - default value where borders are detached like in the
@@ -10234,22 +10293,25 @@ example above</p></li>
   src="./images/image094.png?raw=true"
   alt="Table border collapse."
   style="width:40%;" />
-<pre><code>table.no-collapse, th.no-collapse, td.no-collapse
+
+<pre><code>
+table.no-collapse, th.no-collapse, td.no-collapse
 {
 border: 1px solid black;
 }
 table.collapse
 {
 border-collapse: collapse;
-}</code></pre>
-<h4>
-HTML
-</h4>
+}
+</code></pre>
+
+<h4>HTML</h4>
+
 <details>
-<summary>
-HTML code extract!
-</summary>
-<pre><code>&lt;!DOCTYPE html&gt;
+  <summary>HTML code extract!</summary>
+  
+<pre><code>
+&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
 &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -10266,11 +10328,13 @@ HTML code extract!
 &lt;tr&gt;&lt;td class=&quot;no-collapse&quot;&gt;Michael&lt;/td&gt;&lt;td class=&quot;no-collapse&quot;&gt;21&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 &lt;/body&gt;
-&lt;/html&gt;</code></pre>
+&lt;/html&gt;
+</code></pre>
+
 </details>
-<h4>
-Table width and height
-</h4>
+
+<h4>Table width and height</h4>
+
 <p>Browsers automatically set the width and height for the rows and
 columns for your table based on the content in your cells. Cells with
 most content usually set the height and width of all cells adjacent to
@@ -10295,13 +10359,12 @@ widths/heights specified, the larger value is set.</p>
   src="./images/image095.png?raw=true"
   alt="Table examples."
   style="width:40%;" />
-<h4>
-CSS
-</h4>
+
+<h4>CSS</h4>
+
 <details>
-<summary>
-CSS code extract!
-</summary>
+  <summary>CSS code extract!</summary>
+
 <pre><code>table, th, td
 {
    border: 1px solid black;
@@ -10318,16 +10381,18 @@ th.eg2
 table.eg3
 {
   width: 100%;
-}</code></pre>
+}
+</code></pre>
+
 </details>
-<h4>
-HTML
-</h4>
+
+<h4>HTML</h4>
+
 <details>
-<summary>
-HTML code extract!
-</summary>
-<pre><code>&lt;!DOCTYPE html&gt;
+  <summary>HTML code extract!</summary>
+  
+<pre><code>
+&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
 &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -10363,55 +10428,73 @@ parent element:&lt;/p&gt;
 &lt;tr&gt;&lt;td&gt;Amy Frank&lt;/td&gt;&lt;td &gt;Computer Engineer&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 &lt;/body&gt;
-&lt;/html&gt;</code></pre>
+&lt;/html&gt;
+</code></pre>
+
 </details>
-<h4>
-text-align
-</h4>
+
+<h4>text-align</h4>
+
 <p>This property is used to align the text
 of &lt;th&gt; and &lt;td&gt; cells left, right or center (week 3
 recap). </p>
 <p>Default:</p>
+
 <ul>
-<li><p>&lt;th&gt; - center</p></li>
-<li><p>&lt;td&gt; - left</p></li>
+  <li><p>&lt;th&gt; - center</p></li>
+  <li><p>&lt;td&gt; - left</p></li>
 </ul>
-<pre><code>td { text-align: right;}</code></pre>
-<h4>
-vertical-align
-</h4>
+
+<pre><code>
+td { text-align: right;}
+</code></pre>
+
+<h4>vertical-align</h4>
+
 <p>This property is used to align the text
 of &lt;th&gt; and &lt;td&gt; cells top, bottom or middle.</p>
-<h4>
-Default:
-</h4>
+
+<h4>Default:</h4>
+
 <ul>
-<li><p>&lt;th&gt; - middle</p></li>
-<li><p>&lt;td&gt; - middle</p></li>
+  <li><p>&lt;th&gt; - middle</p></li>
+  <li><p>&lt;td&gt; - middle</p></li>
 </ul>
-<pre><code>th { vertical-align: top; }</code></pre>
-<h4>
-padding
-</h4>
+
+<pre><code>
+th { vertical-align: top; }
+</code></pre>
+
+<h4>padding</h4>
+
 <p>Right now our table looks quite cramped. We use the padding property
 on &lt;th&gt; and &lt;td&gt; to provide some space between border and
 content in cell. It takes its value in units of length like px, cm, % -
 relative to parent container’s width, etc. </p>
-<pre><code>th, td { padding: 15px; }</code></pre>
+
+<pre><code>
+th, td { padding: 15px; }
+</code></pre>
+
 <p>This will add 15px space around the content on all sides. </p>
 <p>You can also apply different padding styles for four individual sides
 by using:</p>
+
 <ul>
-<li><p>padding-top | th, td { padding-top: 15px; }</p></li>
-<li><p>padding-right | th, td { padding-right: 25px; }</p></li>
-<li><p>padding-bottom | th, td { padding-bottom: 35px; }</p></li>
-<li><p>padding-left | th, td { padding-left: 45px; }</p></li>
+  <li><p>padding-top | th, td { padding-top: 15px; }</p></li>
+  <li><p>padding-right | th, td { padding-right: 25px; }</p></li>
+  <li><p>padding-bottom | th, td { padding-bottom: 35px; }</p></li>
+  <li><p>padding-left | th, td { padding-left: 45px; }</p></li>
 </ul>
+
 <p>Alternatively, padding can also be provided as a shorthand property
 where you can specify all four sides in one go:</p>
-<pre><code>th, td { padding: 20px 30px 40px 50px; }</code></pre>
-<p>It is specified in the order: top, right, bottom and left
-padding.</p>
+
+<pre><code>
+th, td { padding: 20px 30px 40px 50px; }
+</code></pre>
+
+<p>It is specified in the order: top, right, bottom and left padding.</p>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- 96. table th and td (227) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
@@ -10419,20 +10502,22 @@ padding.</p>
   src="./images/image096.png?raw=true"
   alt="Table th and td."
   style="width:40%;" />
-<h4>
-CSS
-</h4>
-<pre><code>table, th, td { border: 1px solid black; }
+  
+<h4>CSS</h4>
+
+<pre><code>
+table, th, td { border: 1px solid black; }
 table { border-collapse: collapse;}
-th, td { padding: 20px; }</code></pre>
-<h4>
-HTML
-</h4>
+th, td { padding: 20px; }
+</code></pre>
+
+<h4>HTML</h4>
+
 <details>
-<summary>
-HTML code extract!
-</summary>
-<pre><code>!DOCTYPE html&gt;
+  <summary>HTML code extract!</summary>
+  
+<pre><code>
+!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
   &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -10444,11 +10529,13 @@ HTML code extract!
     &lt;tr&gt;&lt;td&gt;Michael&lt;/td&gt;&lt;td&gt;21&lt;/td&gt;&lt;/tr&gt;
   &lt;/table&gt;
 &lt;/body&gt;
-&lt;/html&gt;</code></pre>
+&lt;/html&gt;
+</code></pre>
+
 </details>
-<h4>
-border-spacing
-</h4>
+
+<h4>border-spacing</h4>
+
 <p>border-spacing specifies the distance between two cell borders in
 pixels. This is different from padding which is space between content in
 cell and border. It takes its value in units of length like px, cm, % -
@@ -10456,16 +10543,18 @@ relative to parent container’s width, etc. </p>
 <p>It has the inherit property whose default value is 0.</p>
 <p>It takes two values for horizontal and vertical spacing. If only one
 value is provided, it is used for both horizontal and vertical
-spacing: </p>
-<pre><code>table { border-spacing: 25px 50px; }
-table, td, th { border-spacing: 25px; }</code></pre>
+spacing:</p>
+
+<pre><code>
+table { border-spacing: 25px 50px; }
+table, td, th { border-spacing: 25px; }
+</code></pre>
+
 <p>Some things to keep in mind:</p>
+
 <ul>
-<li><p>If you try to provide spacing for only &lt;th&gt; and &lt;td&gt;,
-make sure there is space from the table border or you will not see a
-difference. </p></li>
-<li><p>You have to set - table { border-collapse: separate; } for it to
-take effect.</p></li>
+  <li><p>If you try to provide spacing for only &lt;th&gt; and &lt;td&gt;, make sure there is space from the table border or you will not see a difference. </p></li>
+  <li><p>You have to set - table { border-collapse: separate; } for it to take effect.</p></li>
 </ul>
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 97. set table border-collapse (228) ------------------------------->
@@ -10474,22 +10563,24 @@ take effect.</p></li>
   src="./images/image097.png?raw=true"
   alt="Set table border-collapse."
   style="width:40%;" />
-<h4>
-CSS
-</h4>
-<pre><code>table, th, td { border: 1px solid black; }
+
+<h4>CSS</h4>
+
+<pre><code>
+table, th, td { border: 1px solid black; }
 table { border-collapse: separate;}
 table.eg1, th.eg1, td.eg1 { border-spacing: 50px; }
 table.eg2, th.eg2, td.eg2 { border-spacing: 25px 50px; }
-table.eg3, th.eg3, td.eg3 { border-spacing: 50px 25px; }</code></pre>
-<h4>
-HTML
-</h4>
+table.eg3, th.eg3, td.eg3 { border-spacing: 50px 25px; }
+</code></pre>
+
+<h4>HTML</h4>
+
 <details>
-<summary>
-HTML code extract!
-</summary>
-<pre><code>&lt;!DOCTYPE html&gt;
+  <summary>HTML code extract!</summary>
+
+<pre><code>
+&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
 &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -10517,14 +10608,19 @@ class=&quot;eg3&quot;&gt;Age&lt;/th&gt;&lt;/tr&gt;
 class=&quot;eg3&quot;&gt;21&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 &lt;/body&gt;
-&lt;/html&gt;</code></pre>
+&lt;/html&gt;
+</code></pre>
+
 </details>
-<h4>
-Side-borders
-</h4>
+
+<h4>Side-borders</h4>
+
 <p>The first property border will set a border to all four sides. You
 can also set borders to individual sides - top, right, bottom, left:</p>
-<pre><code>th, td { border-right: 1px solid black; }</code></pre>
+
+<pre><code>
+th, td { border-right: 1px solid black; }
+</code></pre>
 <!------------------------------------------------------------------------------------------------>
 <!---------------------- 98. border property set all or individual (229) ------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -10532,21 +10628,23 @@ can also set borders to individual sides - top, right, bottom, left:</p>
   src="./images/image098.png?raw=true"
   alt="Set border property to all or individually."
   style="width:40%;" />
-<h4>
-CSS
-</h4>
-<pre><code>table { border-collapse: collapse;}
+
+<h4>CSS</h4>
+
+<pre><code>
+table { border-collapse: collapse;}
 table, th, td { padding: 15px;}
 table.eg1, th.eg1, td.eg1 { border: 1px solid black; }
-table.eg2, th.eg2, td.eg2 { border-bottom: 1px solid black; }</code></pre>
-<h4>
-HTML
-</h4>
+table.eg2, th.eg2, td.eg2 { border-bottom: 1px solid black; }
+</code></pre>
+
+<h4>HTML</h4>
+
 <details>
-<summary>
-HTML code extract!
-</summary>
-<pre><code>&lt;!DOCTYPE html&gt;
+  <summary>HTML code extract!</summary>
+
+<pre><code>
+&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
 &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -10574,22 +10672,32 @@ class=&quot;eg2&quot;&gt;Female&lt;/td&gt;&lt;/tr&gt;
 
 &lt;/table&gt;
 &lt;/body&gt;
-&lt;/html&gt;</code></pre>
+&lt;/html&gt;
+</code></pre>
+
 </details>
-<h4>
-zebra table
-</h4>
+
+<h4>zebra table</h4>
+
 <p>A zebra table has alternating colors for table rows making it easier
 to differentiate data between rows. You can specify which rows you want
 to differentiate using a different color. Typically, you apply this
 property to a set of even or odd table rows to created a striped effect.
 You can set odd or even rows a particular color and leave the other rows
 white (default color).</p>
-<pre><code>tr:nth-child(even) { background-color: grey; }
-tr:nth-child(odd) { background-color: #ccff99; }</code></pre>
+
+<pre><code>
+tr:nth-child(even) { background-color: grey; }
+tr:nth-child(odd) { background-color: #ccff99; }
+</code></pre>
+
 <p>The ‘<i>n</i>th-child’ selector matches every element that is
 the <i>n</i>th child of the table or any parent element. Therefore,</p>
-<pre><code>tr:nth-child(3n) { background-color: grey; } </code></pre>
+
+<pre><code>
+tr:nth-child(3n) { background-color: grey; } 
+</code></pre>
+
 <p>will make every third list item grey.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 99. make every third list item grey (231) ---------------------------->
@@ -10598,25 +10706,27 @@ the <i>n</i>th child of the table or any parent element. Therefore,</p>
   src="./images/image099.png?raw=true"
   alt="Make every third list item grey."
   style="width:40%;" />
-<h4>
-CSS
-</h4>
-<pre><code>table { border-collapse: collapse; }
+
+<h4>CSS</h4>
+
+<pre><code>
+table { border-collapse: collapse; }
 table, th, td { padding: 15px; border-bottom: 1px solid black; }
 
 table.eg1 tr:nth-child(even) { background-color: #ccff99; }
 
 table.eg2 tr:nth-child(odd) { background-color: #ccff99; }
 
-table.eg3 tr:nth-child(3n) { background-color: #ccff99; }</code></pre>
-<h4>
-HTML
-</h4>
+table.eg3 tr:nth-child(3n) { background-color: #ccff99; }
+</code></pre>
+
+<h4>HTML</h4>
+
 <details>
-<summary>
-HTML code extract!
-</summary>
-<pre><code>1.  &lt;!DOCTYPE html&gt;
+  <summary>HTML code extract!</summary>
+
+<pre><code>
+1.  &lt;!DOCTYPE html&gt;
 2.  &lt;html lang=&quot;en&quot;&gt;
 3.  
 4.  &lt;head&gt;
@@ -10663,18 +10773,22 @@ HTML code extract!
     class=&quot;eg3&quot;&gt;Female&lt;/td&gt;&lt;/tr&gt;
 31. &lt;/table&gt;
 32. &lt;/body&gt;
-33. &lt;/html&gt;</code></pre>
+33. &lt;/html&gt;
+</code></pre>
+
 </details>
-<h4>
-hover to highlight
-</h4>
+
+<h4>hover to highlight</h4>
+
 <p>Using the hover property on your &lt;tr&gt;, you can mouse over rows
 in your table to highlight them in the color you specify. This is useful
-to help users differentiate data between rows. </p>
-<pre><code>tr:hover {background-color: #ccff99; }</code></pre>
-<h4>
-Hover over these tables:
-</h4>
+to help users differentiate data between rows.</p>
+
+<pre><code>
+tr:hover {background-color: #ccff99; }
+</code></pre>
+
+<h4>Hover over these tables:</h4>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------- 100. using hover property over table row (233) ------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -10682,23 +10796,25 @@ Hover over these tables:
   src="./images/image100.png?raw=true"
   alt="Hover.  Using hover property over the tr (table row)."
   style="width:40%;" />
-<h4>
-CSS
-</h4>
-<pre><code>table { border-collapse: collapse; }
+
+<h4>CSS</h4>
+
+<pre><code>
+table { border-collapse: collapse; }
 table, th, td { padding: 15px; border-bottom: 1px solid black; }
   
 table.eg1 tr:hover { background-color: #ccff99; }
   
-table.eg2 tr:hover { background-color: grey; }</code></pre>
-<h4>
-HTML
-</h4>
+table.eg2 tr:hover { background-color: grey; }
+</code></pre>
+
+<h4>HTML</h4>
+
 <details>
-<summary>
-HTML code extract!
-</summary>
-<pre><code>&lt;!DOCTYPE html&gt;
+  <summary>HTML code extract!</summary>
+
+<pre><code>
+&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
    &lt;head&gt;
       &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -10727,34 +10843,26 @@ HTML code extract!
            class=&quot;eg2&quot;&gt;Male&lt;/td&gt;&lt;/tr&gt;
       &lt;/table&gt;
    &lt;/body&gt;
-&lt;/html&gt;</code></pre>
+&lt;/html&gt;
+</code></pre>
+
 </details>
-<h4>
-overflow
-</h4>
-With padding, additional columns and rows, your table can easily grow
+
+<h4>overflow</h4>
+
+<p>With padding, additional columns and rows, your table can easily grow
 rather big overflowing out of the &lt;div&gt; you had planned for your
 table in your Web page. You can use the CSS overflow property to resolve
 this. It has four values other than initial (sets the default value) and
-inherit (from parent element).
+inherit (from parent element).</p>
+
 <ul>
-<li>
-visible - Content that has overflowed is visible outside the parent
-element. Eg: Text in a box overflows outside box and is visible.
-</li>
-<li>
-hidden - Content that has overflowed is hidden. This makes the
-overflowed content inaccessible.
-</li>
-<li>
-scroll - Content that has overflowed is hidden but a scroll bar is added
-to make it accessible.
-</li>
-<li>
-auto - Content that has overflowed is hidden but a scroll bar is
-automatically added to view hidden content.
-</li>
+  <li>visible - Content that has overflowed is visible outside the parent element. Eg: Text in a box overflows outside box and is visible.</li>
+  <li>hidden - Content that has overflowed is hidden. This makes the overflowed content inaccessible.</li>
+  <li>scroll - Content that has overflowed is hidden but a scroll bar is added to make it accessible.</li>
+  <li>auto - Content that has overflowed is hidden but a scroll bar is automatically added to view hidden content.</li>
 </ul>
+
 <p>To address left and right edges of content, you can
 use overflow-x and to address top and bottom edges of content, you can
 use overflow-y.</p>
@@ -10765,25 +10873,27 @@ use overflow-y.</p>
   src="./images/image101.png?raw=true"
   alt="To address left and right edges, use overflow-x and overflow-y."
   style="width:40%;" />
-<h4>
-CSS:
-</h4>
-<pre><code>table { border-collapse: collapse; }
+
+<h4>CSS:</h4>
+
+<pre><code>
+table { border-collapse: collapse; }
 div { height: 200px; width: 200px; border: 1px solid blue; }
 table, th, td { padding: 30px; border-bottom: 1px solid black; }
   
 div.overflow-hidden { overflow: hidden; }
 div.overflow-scroll { overflow: scroll; }
 div.overflow-auto { overflow: auto; }
-div.overflow-x-auto { overflow-x: auto; overflow-y:hidden; }</code></pre>
-<h4>
-HTML:
-</h4>
+div.overflow-x-auto { overflow-x: auto; overflow-y:hidden; }
+</code></pre>
+
+<h4>HTML:</h4>
+
 <details>
-<summary>
-HTML code extract!
-</summary>
-<pre><code>1.  &lt;!DOCTYPE html&gt;
+  <summary>HTML code extract!</summary>
+  
+<pre><code>
+1.  &lt;!DOCTYPE html&gt;
 2.  &lt;html lang=&quot;en&quot;&gt;
 3.  
 4.  &lt;head&gt;
@@ -10889,11 +10999,13 @@ HTML code extract!
 103. &lt;/table&gt;
 104. &lt;/div&gt;
 105. &lt;/body&gt;
-106. &lt;/html&gt;</code></pre>
+106. &lt;/html&gt;
+</code></pre>
+
 </details>
-<h4>
-In summary: a fancy table
-</h4>
+
+<h4>In summary: a fancy table</h4>
+
 <p>As a conclusion to this tables section, here is a complete table
 design:</p>
 <!------------------------------------------------------------------------------------------------>
@@ -10903,14 +11015,14 @@ design:</p>
   src="./images/image102.png?raw=true"
   alt="Picture of a complete table design."
   style="width:40%;" />
-<h4>
-CSS:
-</h4>
+
+<h4>CSS:</h4>
+
 <details>
-<summary>
-CSS code extract!
-</summary>
-<pre><code>1.  table, th, td {
+  <summary>CSS code extract!</summary>
+
+<pre><code>
+1.  table, th, td {
 2.  padding: 30px;
 3.  border: 1px solid #DCDCDC;
 4.  text-align: center;
@@ -10943,16 +11055,18 @@ CSS code extract!
 31. background-color: #149494;
 32. font-weight: bold;
 33. font-size: 20px;
-34. }</code></pre>
+34. }
+</code></pre>
+
 </details>
-<h4>
-HTML:
-</h4>
+
+<h4>HTML:</h4>
+
 <details>
-<summary>
-HTML code extract!
-</summary>
-<pre><code>1.  &lt;!DOCTYPE html&gt;
+  <summary>HTML code extract!</summary>
+
+<pre><code>
+1.  &lt;!DOCTYPE html&gt;
 2.  &lt;html lang=&quot;en&quot;&gt;
 3.  
 4.  &lt;head&gt;
@@ -11010,17 +11124,18 @@ HTML code extract!
 54. &lt;/tfoot&gt;
 55. &lt;/table&gt;
 56. &lt;/body&gt;
-57. &lt;/html&gt;</code></pre>
+57. &lt;/html&gt;
+</code></pre>
+
 </details>
+
 <p><b>Note</b>: This table contains multi-line headers. You can find
 more information on the right way to design tables of different header
 types on this
 W3C <a href="https://www.w3.org/WAI/tutorials/tables/" target="_blank">Tables
 Concepts</a> page.</p>
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch5-2-5">
-5.2.5 Creating a Table
-</h3>
+<h3 id="ch5-2-5">5.2.5 Creating a Table</h3>
 <!------------------------------------------------------------------------------------------------>
 <p>Let’s take a look at how to work with tables and manipulate the table
 styling within an HTML document.</p>
@@ -11324,20 +11439,22 @@ background color of a row ‘yellow’ when you hover over a table
 row.</p></li>
 </ol>
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch5-3-1">
-5.3.1 The &lt;audio&gt; element
-</h3>
+<h3 id="ch5-3-1">5.3.1 The &lt;audio&gt; element</h3>
 <!------------------------------------------------------------------------------------------------>
 <p>audio and video are new HTML 5 elements that were highly anticipated.
 With HTML5 support for multimedia, this has become much easier, than
 previous methods. </p>
-<h3>
-The &lt;audio&gt; tag
-</h3>
+
+<h3>The &lt;audio&gt; tag</h3>
+
 <p>You can use the &lt;audio&gt; tag to embed audio in your page.</p>
-<pre><code>&lt;audio src=&quot;sounds/flute.mp3&quot;&gt;
+
+<pre><code>
+&lt;audio src=&quot;sounds/flute.mp3&quot;&gt;
   Your browser does not support the audio file.
-&lt;/audio&gt;</code></pre>
+&lt;/audio&gt;
+</code></pre>
+
 <p>Any text within the &lt;audio&gt; tags will be displayed if the
 browser does not support the audio element. You should add such a
 message to provide better user experience for your page as it will be
@@ -11359,12 +11476,13 @@ attributes:</p>
   src="./images/image104.png?raw=true"
   alt="Autoplay and example code of audio src."
   style="width:65%;" />
+
 <p>If you hit play and didn’t hear anything, remember that we have added
 the muted attribute. So the audio will be muted when playback begins.
 Increase the volume to hear the music. </p>
-<h3>
-Audio file formats
-</h3>
+
+<h3>Audio file formats</h3>
+
 <p>Just like image file formats, not all audio file formats are
 supported by all browsers. You will want to use common audio file
 formats for browser compatibility ensuring the highest probability that
@@ -11406,27 +11524,29 @@ coding format.</p></li>
 another, there are a lot of software applications available to help you
 do that. </p></li>
 </ul>
-<h4>
-Source element for multiple source files
-</h4>
+
+<h4>Source element for multiple source files</h4>
+
 <p>The source element, also new in HTML5, serves the same purpose as
 the src attribute in an audio element. It is used to specify source
 files for the audio and video elements. Using the source element, you
 can specify multiple source files. The &lt;source&gt; tag is
 self-closing, therefore, it does not require a closing tag.</p>
-<h4>
-Example:
-</h4>
-<pre><code>&lt;audio controls&gt;
+
+<h4>Example:</h4>
+
+<pre><code>
+&lt;audio controls&gt;
   &lt;source src=&quot;https://courses.edx.org/asset-v1:W3Cx+HTML5.0x+3T2016+type@asset+block@splash.wav&quot; 
           type=&quot;audio/wav&quot;&gt;
   &lt;source src=&quot;https://courses.edx.org/asset-v1:W3Cx+HTML5.0x+3T2016+type@asset+block@splash.mp3&quot; 
          type=&quot;audio/mpeg&quot;&gt;
   Your browser does not support the audio element.
-&lt;/audio&gt;</code></pre>
-<h4>
-Output for code above (try playing):
-</h4>
+&lt;/audio&gt;
+</code></pre>
+
+<h4>Output for code above (try playing):</h4>
+
 <p>The advantage of providing multiple source files in different formats
 is that if the browser doesn’t support the first format, it will try the
 second source file. The browser can select from the list based on its
@@ -11444,20 +11564,22 @@ attributes:</p>
   alt="Source element attributes."
   style="width:65%;" />
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch5-3-2">
-5.3.2 The &lt;video&gt; Element
-</h3>
+<h3 id="ch5-3-2">5.3.2 The &lt;video&gt; Element</h3>
 <!------------------------------------------------------------------------------------------------>
 <p>You can use the video element to embed video in your page. You can
 specify the location of your video file using the src attribute
 or source element (for multiple source files). </p>
-<pre><code>&lt;video src=&quot;multimedia/running.mp4&quot;&gt;
+
+<pre><code>
+&lt;video src=&quot;multimedia/running.mp4&quot;&gt;
   Your browser does not support the HTML5 video element.
-&lt;/video&gt;</code></pre>
+&lt;/video&gt;
+</code></pre>
+
 <p>Any text within the &lt;video&gt; tags will be displayed if the
 browser does not support the video element. You should add such a
 message to provide better user experience for your page as it will be
-viewed in all types of devices and browsers. </p>
+viewed in all types of devices and browsers.</p>
 <p>Similar to the audio element, the video element has several
 attributes that can be used to configure playback. The following table
 lists the video element’s attributes:</p>
@@ -11479,9 +11601,9 @@ lists the video element’s attributes:</p>
   src="./images/image108.png?raw=true"
   alt="HTML5 logo."
   style="width:65%;" />
-<h3>
-Poster attribute
-</h3>
+  
+<h3>Poster attribute</h3>
+
 <p>The &lt;video&gt; tag has an important attribute that you don’t find
 on the audio element.  The poster attribute is used to specify what
 picture is shown before the video starts playing.  By default, the
@@ -11489,9 +11611,9 @@ poster shown is simply the first frame of the video, but
 the poster attribute can be used to specify a different image.  It can
 specify a particular frame of the video or, like a real movie poster, it
 can be an image that doesn’t actually appear in the video. </p>
-<h3>
-Video file formats
-</h3>
+
+<h3>Video file formats</h3>
+
 <p>Just like audio file formats, not all video file formats are
 supported by all browsers. You should use common video file formats for
 browser compatibility ensuring the highest probability that your
@@ -11548,29 +11670,30 @@ another, there are a lot of software applications available to help you
 do that. </p></li>
 </ul>
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch5-3-3">
-5.3.3 Video – Source and Track Elements
-</h3>
+<h3 id="ch5-3-3">5.3.3 Video – Source and Track Elements</h3>
 <!------------------------------------------------------------------------------------------------>
 <p>The source element that we saw in the previous unit is also used to
 specify multiple source files for
 the video element. The &lt;source&gt; tag is self-closing and so does
 not require a closing tag.</p>
-<pre><code>&lt;video controls height=&quot;320&quot; width=&quot;240&quot;&gt;
+
+<pre><code>
+&lt;video controls height=&quot;320&quot; width=&quot;240&quot;&gt;
   &lt;source src=&quot;http://techslides.com/demos/sample-videos/small.mp4&quot; type=&quot;video/mp4&quot;&gt;
   &lt;source src=&quot;http://techslides.com/demos/sample-videos/small.webm&quot; type=&quot;video/webm&quot;&gt;
   &lt;source src=&quot;http://techslides.com/demos/sample-videos/small.ogv&quot; type=&quot;video/ogg&quot;&gt;
     Your browser does not support the HTML5 video element.
-&lt;/video&gt;</code></pre>
+&lt;/video&gt;
+</code></pre>
+
 <p>The advantage of providing multiple source files in different formats
 is that if the browser doesn’t support the first format, it will try the
 second source file. The browser can select from the list based on its
 file format or codec support. There is no one format that is supported
 by all browsers. So you will have to use the source element to list
-a combination of formats. </p>
-<h4>
-The following table lists the source element’s attributes:
-</h4>
+a combination of formats.</p>
+
+<h4>The following table lists the source element’s attributes:</h4>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 109. source element's attributes (255) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -11578,9 +11701,9 @@ The following table lists the source element’s attributes:
   src="./images/image109.png?raw=true"
   alt="Attributes: src and type."
   style="width:85%;" />
-<h3>
-Track element for captions and subtitles
-</h3>
+
+<h3>Track element for captions and subtitles</h3>
+
 <p>The &lt;video&gt; element is very similar to the
 HTML5 &lt;audio&gt; element except for one addition -
 the &lt;track&gt; element. The &lt;track&gt; element is used to add
@@ -11606,14 +11729,16 @@ different languages. </p></li>
 <p>The &lt;track&gt; tag is self-closing and so does not require a
 closing tag. You specify the &lt;track&gt; element as a child element of
 your &lt;video&gt; tag like this:</p>
-<pre><code>&lt;video width=&quot;320&quot; height=&quot;240&quot; controls&gt;
+
+<pre><code>
+&lt;video width=&quot;320&quot; height=&quot;240&quot; controls&gt;
   &lt;source src=&quot;module.mp4&quot; type=&quot;video/mp4&quot;&gt;
   &lt;track src=&quot;module-captions.vtt&quot; kind=&quot;captions&quot; srclang=&quot;en&quot; label=&quot;English&quot; default&gt;
   Your browser does not support the HTML5 video element.
-&lt;/video&gt;</code></pre>
-<h4>
-The following table lists the &lt;track&gt; element’s attributes:
-</h4>
+&lt;/video&gt;
+</code></pre>
+
+<h4>The following table lists the &lt;track&gt; element’s attributes:</h4>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 110. track element's attributes (256) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
@@ -11622,14 +11747,9 @@ The following table lists the &lt;track&gt; element’s attributes:
   alt="Track Element's attributes."
   style="width:65%;" />
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch5-3-4">
-5.3.4 Audio and Video Elements
-</h3>
+<h3 id="ch5-3-4">5.3.4 Audio and Video Elements</h3>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------------------------------------------------------------------>
-<h3 id="ch5-4-1">
-5.4.1 The iframes tag (OPTIONAL)
-</h3>
+<h3 id="ch5-4-1">5.4.1 The iframes tag (OPTIONAL)</h3>
 <!------------------------------------------------------------------------------------------------>
 <p><i><b>Note:</b> This section is optional material included for the
 curious. It will not appear on any graded question.</i></p>
@@ -11646,10 +11766,13 @@ content is not limited to other Web pages. You can add YouTube videos or
 display a PDF file (some browsers will display the file inline while
 some older browsers will try to download it instead). </p>
 <p>An &lt;iframe&gt; tag can be as simple as this:</p>
-<pre><code>&lt;p&gt;This is a parent page that will host the iframe.&lt;/p&gt;
+
+<pre><code>
+&lt;p&gt;This is a parent page that will host the iframe.&lt;/p&gt;
 &lt;iframe src=&quot;https://www.w3.org/&quot;&gt;
   &lt;p&gt;Your browser does not support iframes.&lt;/p&gt;
-&lt;/iframe&gt;</code></pre>
+&lt;/iframe&gt;
+</code></pre>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------------- 111. iframe (263) --------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -11657,11 +11780,12 @@ some older browsers will try to download it instead). </p>
   src="./images/image111.png?raw=true"
   alt="iFrame."
   style="width:45%;" />
+
 <details>
-<summary>
-HTML code extract!
-</summary>
-<pre><code>&lt;!DOCTYPE html&gt;
+  <summary>HTML code extract!</summary>
+
+<pre><code>
+&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
   &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -11672,8 +11796,11 @@ HTML code extract!
   &lt;iframe src=&quot;https://www.w3.org/&quot;&gt;
   &lt;/iframe&gt;
 &lt;/body&gt;
-&lt;/html&gt;</code></pre>
+&lt;/html&gt;
+</code></pre>
+
 </details>
+
 <p>Because iframes are HTML elements, they can be styled just like other
 elements, with borders, margins, sizes specified with CSS rules:</p>
 <!------------------------------------------------------------------------------------------------>
@@ -11683,19 +11810,27 @@ elements, with borders, margins, sizes specified with CSS rules:</p>
   src="./images/image112.png?raw=true"
   alt="Image example using iframes with borders and margins."
   style="width:30%;" />
-<p align="center" width="100%">
+
 <p>Here, we’ve embedded a YouTube video with an iframe like this:</p>
-<pre><code>&lt;iframe src=&quot;https://www.youtube.com/embed/YE7VzlLtp-4&quot;&gt;&lt;/iframe&gt;</code></pre>
+
+<pre><code>
+&lt;iframe src=&quot;https://www.youtube.com/embed/YE7VzlLtp-4&quot;&gt;&lt;/iframe&gt;
+</code></pre>
+
 <p>And we’ve added styling like this to get the border and
 drop-shadow:</p>
-<pre><code>iframe {
+
+<pre><code>
+iframe {
   border: 10px solid red;
   padding: .5rem;
   margin: 1rem;
   box-shadow: 20px 20px 10px #888888;
   width: 355;
   height: 200;
-}</code></pre>
+}
+</code></pre>
+
 <p>There is one significant problem with iframes. Suppose you create
 your Web page, containing only an iframe with src=“http://foo.com”, with
 no borders, padding or margin. By all appearances, you would seem to be
@@ -11773,10 +11908,13 @@ navigates to another page like the country’s wikipedia page. Simply put,
 we say such an image is mapped. <a 
 href="http://html.cita.illinois.edu/text/map/map-example.php" target="_blank" rel="noopener noreferrer">Here is an
 example</a> of an image-map.</p>
-<h4>
-The ‘ismap’ attribute
-</h4>
-<pre><code>&lt;img src=&quot;images/logo.png&quot; alt=&quot;ismap tutorial&quot; ismap&gt;</code></pre>
+
+<h4>The ‘ismap’ attribute</h4>
+
+<pre><code>
+&lt;img src=&quot;images/logo.png&quot; alt=&quot;ismap tutorial&quot; ismap&gt;
+</code></pre>
+
 <p>ismap is a <b>boolean attribute</b> i.e. its value is either true or
 false. Thus, just the presence of the attribute indicates that it is a
 mapped image. To be more precise, we say it is a server-side
@@ -11788,9 +11926,13 @@ image, i.e. ‘Australia in a world map’, it should navigate to the
 country’s Wikipedia page? We need to create a map file with these
 details and then add the location of this map file using the anchor
 element. Here is a code sample:</p>
-<pre><code>&lt;a href=&quot;/ismap-image/ismap.cgi&quot; target=&quot;_self&quot;&gt;
+
+<pre><code>
+&lt;a href=&quot;/ismap-image/ismap.cgi&quot; target=&quot;_self&quot;&gt;
   &lt;img src=&quot;images/logo.png&quot; alt=&quot;ismap tutorial&quot; ismap&gt;
-&lt;/a&gt;</code></pre>
+&lt;/a&gt;
+</code></pre>
+
 <p>Here, the href attribute points to the location of the map file.
 The target attribute indicates where the page it navigates to should
 open. ’_self’ will open in the same page whereas ’_blank’ will open it
@@ -11851,19 +11993,27 @@ clicked to corresponding Web pages). </p></li>
 <p>Client-side maps are becoming increasingly popular. usemap is NOT of
 type boolean. It takes in the name of the map with a ‘#’ character
 preceding it.</p>
-<pre><code>&lt;img src=&quot;navigator.jpg&quot; alt=&quot;Pages in this Web
-     site&quot; usemap=&quot;#navigatormap&quot;&gt;</code></pre>
+
+<pre><code>
+&lt;img src=&quot;navigator.jpg&quot; alt=&quot;Pages in this Web
+     site&quot; usemap=&quot;#navigatormap&quot;&gt;
+</code></pre>
+
 <p>Like ismap, usemap cannot be used by itself. In ismap, we used the
 anchor tag to specify the map file. In usemap, we use
 the </b>&lt;area&gt;</b> element as a child
 of </b>&lt;map&gt;</b> element to specify the coordinates and the page
 it should navigate to. The usemap value should match the map element’s
 name or id attribute. </p>
-<pre><code>&lt;img src=&quot;images/crossroads.jpg&quot; alt=&quot;Crossroads&quot; usemap=&quot;#navigatormap&quot;&gt;
+
+<pre><code>
+&lt;img src=&quot;images/crossroads.jpg&quot; alt=&quot;Crossroads&quot; usemap=&quot;#navigatormap&quot;&gt;
 &lt;map name=&quot;navigatormap&quot;&gt;
   &lt;area shape=&quot;rect&quot; coords=&quot;0,0,195,439&quot; href=&quot;https://en.wikipedia.org/wiki/Millery&quot; alt=&quot;Millery&quot;&gt;
   &lt;area shape=&quot;rect&quot; coords=&quot;196,0,390,439&quot; href=&quot;https://en.wikipedia.org/wiki/Nomeny&quot; alt=&quot;Nomeny&quot;&gt;
-&lt;/map&gt;</code></pre>
+&lt;/map&gt;
+</code></pre>
+
 <p><b>&lt;map&gt;</b> - defines a client-side image map and is used to
 create a relationship between the image and the map by matching the map
 name and usemap’s value. It contains a set of area elements.</p>
@@ -11872,6 +12022,7 @@ pages it should navigate to. Typically takes the shape of the area,
 coordinates of the area, URL of the page it should redirect to and
 the alt attribute (short description). </p>
 <p>The shape attribute in the &lt;area&gt; tag has four values:</p>
+
 <ul>
 <li><p>circle - The clickable area is a circle. You need to
 specify three coordinates. E.g. coords=“89,52,6”. The first two is the
@@ -11891,14 +12042,17 @@ automatically match it for you to close the polygon. </p></li>
 <p>Read more about the <a 
 href="https://www.w3.org/wiki/HTML/Elements/area" target="_blank" rel="noopener noreferrer">area tag here</a>.</p>
 <p>Here is a working example of usemap.</p>
-<pre><code>&lt;img src=&quot;images/crossroads.jpg&quot; alt=&quot;Crossroads&quot; usemap=&quot;#navigatormap&quot;&gt;
+
+<pre><code>
+&lt;img src=&quot;images/crossroads.jpg&quot; alt=&quot;Crossroads&quot; usemap=&quot;#navigatormap&quot;&gt;
 &lt;map name=&quot;navigatormap&quot;&gt;
   &lt;area shape=&quot;rect&quot; coords=&quot;0,0,195,439&quot; href=&quot;https://en.wikipedia.org/wiki/Millery&quot; alt=&quot;Millery&quot;&gt;
   &lt;area shape=&quot;rect&quot; coords=&quot;196,0,390,439&quot; href=&quot;https://en.wikipedia.org/wiki/Nomeny&quot; alt=&quot;Nomeny&quot;&gt;
-&lt;/map&gt;</code></pre>
-<h4>
-Result:
-</h4>
+&lt;/map&gt;
+</code></pre>
+
+<h4>Result:</h4>
+
 <p>Try this: Click on the left and right side of the images to check out
 how usemap works :) Remember to navigate back to the course!</p>
 <!------------------------------------------------------------------------------------------------>
@@ -11908,28 +12062,29 @@ how usemap works :) Remember to navigate back to the course!</p>
   src="./images/image115.png?raw=true"
   alt="Usemap example, sign to Millery or Nomeny."
   style="width:50%;" />
+
 <p>Note: If the &lt;img&gt; is inside
 an &lt;a&gt; or &lt;button&gt; element, clicking on it will be
 interpreted as clicking on the link or button and usemap will not
 work.</p>
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch5-4-3">
-5.4.3 Activities - Embedding content (OPTIONAL)
-</h3>
+<h3 id="ch5-4-3">5.4.3 Activities - Embedding content (OPTIONAL)</h3>
 <!------------------------------------------------------------------------------------------------>
 <ol type="1">
 <li><p>How can you inform screen readers that you are using an iframe in
 your Web page since iframes have poor accessibility?</p></li>
 <li><p>Try the following code in your HTML editor:</p></li>
 </ol>
-<pre><code>&lt;iframe src=&quot;http://facebook.com&quot;&gt;
+
+<pre><code>
+&lt;iframe src=&quot;http://facebook.com&quot;&gt;
   &lt;p&gt;Your browser does not support iframes.&lt;/p&gt;
-&lt;/iframe&gt;</code></pre>
+&lt;/iframe&gt;
+</code></pre>
+
 <p>What happens? Why does it behave the way it does?</p>
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch5-5-1">
-5.5.1 Decorative images and backgrounds
-</h3>
+<h3 id="ch5-5-1">5.5.1 Decorative images and backgrounds</h3>
 <!------------------------------------------------------------------------------------------------>
 <p>As we saw earlier, the &lt;img&gt; tag is meant to be used for
 semantically important imagery.  For example, the pictures that
@@ -11969,18 +12124,22 @@ hyperlink (&lt;a&gt;), paragraph (&lt;p&gt;), unordered list
   src="./images/image116.png?raw=true"
   alt="Background image W3C."
   style="width:50%;" />
-<h4>
-background-image
-</h4>
+
+<h4>background-image</h4>
+
 <p>The background-image property is used to set an external image file
 as the background to a particular HTML element.  To bind in an external
 file, the value is url, followed by an open parenthesis (, followed by a
 quote “, then the path, a closing quote ” and a closing parentheses ).
  The path can be a URL, or a path relative from the file the CSS is
-in. </p>
-<pre><code>div { background-image: url(&quot;https://www.w3.org/2008/site/images/logo-w3c-mobile-lg&quot;);
+in.</p>
+
+<pre><code>
+div { background-image: url(&quot;https://www.w3.org/2008/site/images/logo-w3c-mobile-lg&quot;);
 }  
-div { background-image: url(&quot;images/kitten.png&quot;); }</code></pre>
+div { background-image: url(&quot;images/kitten.png&quot;); }
+</code></pre>
+
 <p>As these are decorative images, there are quite a few different usage
 scenarios that can leverage background images. For instance, an image
 can be used as repeating tile, or a background image can fit its parent
@@ -12066,17 +12225,21 @@ style="width:5in;height:1.60897in" />
 the image.  When used in this fashion, it takes <i>two</i> values
 separated by a space. The first governs the width, the second the
 height.  Examples:</p>
-<pre><code>.kittens  { background-size: 100px 120px; } /* might distort */  
+
+<pre><code>
+.kittens  { background-size: 100px 120px; } /* might distort */  
 .puppies  { background-size: 100px auto; }  /* auto preserves aspect
 ratio, no distorting */  
 .munchies { background-size: 50% auto; }    /* % is of percentage of
-parent (not of image). */</code></pre>
+parent (not of image). */
+</code></pre>
+
 <p>The px and % units were covered in the units section. Note that other
-units (rem, vh, etc.) have no guarantee of support.  </p>
+units (rem, vh, etc.) have no guarantee of support.</p>
 <p>When specifying exact sizes, the auto value is extremely useful. It
 allows you to worry only about one dimension, and then the other will
 handle it for you. Otherwise there is a risk of stretching/distorting
-images. </p>
+images.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 121. auto background size (273) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -12088,9 +12251,9 @@ images. </p>
 <img src="./images/image123.png"
 style="width:5in;height:1.71421in" />
 -->
-<h4>
-background-position
-</h4>
+
+<h4>background-position</h4>
+
 <p>Like background-size, background-position can be used to place or
 offset a background image in the element. It takes two values (x and y)
 separated by a space when used to exactly specify a position. </p>
@@ -12109,9 +12272,7 @@ repeating tiles. </p>
 style="width:5in;height:1.82425in" />
 -->
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch5-5-2">
-5.5.2 Decorative borders and shadows
-</h3>
+<h3 id="ch5-5-2">5.5.2 Decorative borders and shadows</h3>
 <!------------------------------------------------------------------------------------------------>
 <p>In the previous sub-section, we looked at decorative backgrounds and
 images. We will continue this theme by examining decorative borders and
@@ -12123,10 +12284,13 @@ sub-section.</p>
 <p>For now, let’s look at these new
 properties: border-style, border-color, border-width, border
 abbreviations, border-radius and text-shadow.</p>
-<h4>
-border-style
-</h4>
-<pre><code>p { border-style: solid; }</code></pre>
+
+<h4>border-style</h4>
+
+<pre><code>
+p { border-style: solid; }
+</code></pre>
+
 <p>This property sets the style of a border.  Possible values
 include none, hidden, solid, dotted, dashed, double, groove, ridge, inset, and outset.
 Here the visible border styles displayed on a gray border:</p>
@@ -12150,51 +12314,51 @@ fat border-width.</p>
 positioning of the element. An item with a hidden border is positioned
 as if it had a border, but the border is not drawn. Whereas
 with border-style of none, no space is allocated for the border at
-all. </p>
-<h4>
-border-color
-</h4>
+all.</p>
+
+<h4>border-color</h4>
+
 <p>Sets the color of the border.  </p>
-<h4>
-border-width
-</h4>
+
+<h4>border-width</h4>
+
 <p>Sets the width of the border.  Supports a variety of units (px, em,
-rem ).  </p>
-<h4>
-border abbreviations
-</h4>
+rem ).</p>
+
+<h4>border abbreviations</h4>
+
 <p>All border styles just introduced are actually abbreviations that can
 be broken out if needed. For example, here we set four different styles
-for a border:  </p>
-<pre><code>p {  
+for a border:</p>
+
+<pre><code>
+p {  
    border-left-style: solid;  
    border-right-style: dotted;  
    border-bottom-style: dashed;  
    border-left-style: hidden;  
- }</code></pre>
-<p>This same thing can be done
-with border-width and border-color ( border-left-color, border-top-width,
-etc).</p>
-<p>Or, going in the other direction, the CSS property border can help
-abbreviate even further.  Use the
-formula  border: &lt;width&gt; &lt;style&gt; &lt;color&gt;;   separating
-the values with spaces: </p>
-<pre><code>p { border: 1px solid gray; }</code></pre>
-<h4>
-border-radius
-</h4>
+ }
+</code></pre>
+
+<p>This same thing can be done with border-width and border-color ( border-left-color, border-top-width, etc).</p>
+<p>Or, going in the other direction, the CSS property border can help abbreviate even further.  Use the formula  border: &lt;width&gt; &lt;style&gt; &lt;color&gt;;   separating the values with spaces: </p>
+
+<pre><code>
+p { border: 1px solid gray; }
+</code></pre>
+
+<h4>border-radius</h4>
+
 <p>Sometimes it seems that the whole of the World Wide Web consists of
 round cornered rectangles.  Join the fun by using
 the border-radius property:  </p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 124. silence is golden, 1 (275) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
 <img class="displayed"
   src="./images/image124.png?raw=true"
   alt="Silence is golden, 1."
   style="width:65%;" />
-</p>
 <!--
 <img src="./images/image126.png"
 style="width:6.5in;height:1.67847in" />
@@ -12212,20 +12376,22 @@ and no border at all:</p>
 <img src="./images/image127.png"
 style="width:6.5in;height:1.67153in" />
 -->
-<h4>
-box-shadow
-</h4>
+<h4>box-shadow</h4>
+
 <p>A shadow effect can be applied to the outlining rectangle of an
 element with the box-shadow CSS property.  The box-shadow property is
 typically controlled with four values separated by spaces:</p>
-<pre><code>box-shadow: &lt;x-offset&gt; &lt;y-offset&gt; &lt;blur&gt; &lt;color&gt;;</code></pre>
+
+<pre><code>
+box-shadow: &lt;x-offset&gt; &lt;y-offset&gt; &lt;blur&gt; &lt;color&gt;;
+</code></pre>
+
 <p>The offset values are dimension units (px, em, etc) can be positive
 or negative. Positive x values place the shadow to the right, and
 negative values place the shadow to the left. Similarly positive y
 values place the shadow vertically lower than the element and negative
 values move it up.</p>
-<p>The blur value is also a dimension unit, but can only be 0 or
-positive.</p>
+<p>The blur value is also a dimension unit, but can only be 0 or positive.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------ 126. illuminati (276) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -12238,9 +12404,13 @@ positive.</p>
 style="width:6.5in;height:1.93264in" />
 -->
 <h3 id="text-shadow">text-shadow</h3>
+
 <p>This CSS property takes the same values as box-shadow, however, the
 shadow is applied directly to the text shapes:</p>
-<pre><code>text-shadow:  &lt;x-offset&gt; &lt;y-offset&gt; &lt;blur&gt; &lt;color&gt;;</code></pre>
+
+<pre><code>
+text-shadow:  &lt;x-offset&gt; &lt;y-offset&gt; &lt;blur&gt; &lt;color&gt;;
+</code></pre>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- 127. blurred majestic 12 (276) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -12253,9 +12423,7 @@ shadow is applied directly to the text shapes:</p>
 style="width:6.5in;height:0.91458in" />
 -->
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch5-5-3">
-5.5.3 Managing element size
-</h3>
+<h3 id="ch5-5-3">5.5.3 Managing element size</h3>
 <!------------------------------------------------------------------------------------------------>
 <p>As you start to leverage borders, background colors, and the other
 decorative CSS properties we have seen in the previous sections you will
@@ -12984,20 +13152,22 @@ respected. </p>
   src="./images/image138.png?raw=true"
   alt="Using span element display:inline-block."
   style="width:65%;" />
-<h4>
-display property
-</h4>
+
+<h4>display property</h4>
+
 <p>At long last we arrive at the display property. We have now seen
 three of its possible values: block, inline, and inline-block.  There
 are others (like none and flex) and we will cover them later.  </p>
-<pre><code>.name { display: inline-block; }</code></pre>
+
+<pre><code>
+.name { display: inline-block; }
+</code></pre>
+
 <p>A key to not getting confounded by the display property is to have a
 grasp on which elements default to which display value and appreciating
 the differences between block, inline, and inline-block display.</p>
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch6-2-2">
-6.2.2 Horizontal and vertical centering
-</h3>
+<h3 id="ch6-2-2">6.2.2 Horizontal and vertical centering</h3>
 <!------------------------------------------------------------------------------------------------>
 <p><b>Horizontal centering</b></p>
 <p>Now that we’ve covered inline versus block display, we can
@@ -13012,8 +13182,12 @@ position its content relative to its own box. But that’s not centering
 the element itself.</p>
 <p>To center an inline element, we use the text-align property of its
 parent.   </p>
-<pre><code>p { text-align: center; } /* the text and any inline children of this
-element will be centered */</code></pre>
+
+<pre><code>
+p { text-align: center; } /* the text and any inline children of this
+element will be centered */
+</code></pre>
+
 <p>If this isn’t satisfactory, consider changing the element to be
 inline-block or block.</p>
 <p><b>block</b></p>
@@ -13023,14 +13197,22 @@ element is the same width as its parent, it is already centered.  So the
 first step is to limit the width of the element.  Setting the width
 property directly is not generally a good practice, but we’ll just do
 that and discuss sizing at length later.</p>
-<pre><code>div { width: 200px; } </code></pre>
+
+<pre><code>
+div { width: 200px; } 
+</code></pre>
+
 <p>Now that we’ve sized the element, how to center it?</p>
 <p><b>margin magic</b></p>
 <p>If set to auto, then the left and right margins will center the
 element.  This is the simplest and best way of centering a block level
 element.  So the full solution is to set the width and apply auto to the
 left and right margins (or to all margins). </p>
-<pre><code>div { width: 200px; margin: auto; }</code></pre>
+
+<pre><code>
+div { width: 200px; margin: auto; }
+</code></pre>
+
 <p>Horizontal centering - a better way</p>
 <p>Do auto margins seem spooky to you?  There is a better way to achieve
 centering and its name is <i>flexbox</i>.  We’ll read more about it
@@ -13076,20 +13258,26 @@ at static and fixed.   The options relative and absolute are more
 complex, they’ll be discussed in an optional advanced section for
 completeness, but we aren’t going to worry much about them because
 flexbox reduces their use cases.</p>
-<h4>
-static
-</h4>
-<pre><code>position: static; /* the default */</code></pre>
+
+<h4>static</h4>
+
+<pre><code>
+position: static; /* the default */
+</code></pre>
+
 <p>A position property of static is the default for all elements. It
 simply means that all elements follow the “flowing text”model of layout
 and the only properties influencing their position are margins, padding,
 and the display property that selects block level layout, inline or
 inline-block. Static elements <em>ignore</em> the positioning properties
 we read about earlier (left, top, right, and bottom).</p>
-<h4>
-fixed
-</h4>
-<pre><code>position: fixed;</code></pre>
+
+<h4>fixed</h4>
+
+<pre><code>
+position: fixed;
+</code></pre>
+
 <p>A fixed positioned element respects the positioning properties
 (left, top, right, and bottom).  A fixed positioned element
 is positioned against the <em>window</em> rectangle (aka the viewport).
@@ -13426,9 +13614,7 @@ grow or shrink based on the size of the ancestor it is positioning
 against.  Note that this feature is only available to absolute and fixed
 positioned elements.</p>
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch6-2-5">
-6.2.5 ‘z-index’ (OPTIONAL)
-</h3>
+<h3 id="ch6-2-5">6.2.5 ‘z-index’ (OPTIONAL)</h3>
 <!------------------------------------------------------------------------------------------------>
 <p><b>Note</b>: this section is optional material included for the
 curious. It will not appear on any graded question.</p>
@@ -13436,20 +13622,24 @@ curious. It will not appear on any graded question.</p>
 properties: left, top, right, and bottom.   With these properties, we
 can govern the placement of positioned elements in both the x and y
 axis.  But there is a fifth positioning property: z-index.</p>
-<pre><code>z-index: 3;</code></pre>
+
+<pre><code>
+z-index: 3;
+</code></pre>
+
 <p>Like the other positioning properties, z-index only applies to
 positioned elements (elements that have their position property set
 to relative, absolute,or fixed, but not static).  With the z-index you
 can control overlapping - whether or not an element is in front of or
 behind other <em>sibling</em> positioned elements.  The z-index can be
 an integer 0 or higher. The higher the number, the more “topmost” or
-“overlapping” the element will be.  </p>
+“overlapping” the element will be.</p>
 <p>In the sample below, we have two lists with relatively positioned
 list items and background colors. We are forcing them to overlap by
 making them position relative and using negative margins
 ( margin-bottom:-20px; ). The list on the left has no z-index values
 set, so the later elements overlap the earlier ones.  But on the right,
-we govern the overlapping with the z-index property. </p>
+we govern the overlapping with the z-index property.</p>
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 144. position relative overlap  (306) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -13457,6 +13647,7 @@ we govern the overlapping with the z-index property. </p>
   src="./images/image144.png?raw=true"
   alt="Position Relative overlap."
   style="width:85%;" />
+
 <ul>
 <li>
 z-index has no effect on position:static (the default) elements.
@@ -13680,12 +13871,16 @@ can be surprising if you weren’t expecting it.
   src="./images/image146.png?raw=true"
   alt="Cropping and scrolling overflow."
   style="width:65%;" />
-<h4>
-overflow
-</h4>
+
+<h4>overflow</h4>
+
 <p>The overflow properties govern this situation.  There are three
 related properties: overflow, overflow-x, and overflow-y.</p>
-<pre><code>p { overflow: auto; }</code></pre>
+
+<pre><code>
+p { overflow: auto; }
+</code></pre>
+
 <p>With common text, overflowing normally only occurs in the vertical
 direction (like in the example above). But if your element contains
 images, extremely long words, or has adjusted CSS white spacing
@@ -13695,7 +13890,8 @@ the overflow-x and overflow-y properties let you assign different
 policies for horizontal versus vertical overflow. </p>
 <p>There are five possible values: unset, auto, visible, hidden,
 and scroll. In the example below, the paragraphs are limited to a height
-of 100 pixels. </p>
+of 100 pixels.</p>
+
 <ol type="1">
 <li><p>unset is both the default value when overflow has not been set
 and a value that can be explicitly set. </p></li>
@@ -13736,12 +13932,15 @@ different boxes are organized (innermost to outermost).</p>
   src="./images/image148.png?raw=true"
   alt="Managed boxes: it's own content, padding, border & margins."
   style="width:45%;" />
-<h4>
-box-sizing
-</h4>
-<pre><code>p { box-sizing: border-box; }</code></pre>
+
+<h4>box-sizing</h4>
+
+<pre><code>
+p { box-sizing: border-box; }
+</code></pre>
+
 <p>The box-sizing property determines how the sizing properties are
-applied.  It has two values: content-box and border-box.  </p>
+applied.  It has two values: content-box and border-box.</p>
 <p>The content-box value is default and simply means that the height or
 width properties affect the content box of the element and any padding
 or border is “additional”.  </p>
