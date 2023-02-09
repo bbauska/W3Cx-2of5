@@ -2380,28 +2380,27 @@ marks, either single (’) or double (“). HTML tries to be helpful here.</p>
 strings (say a string without spaces), even if you do not use the
 quotation marks it will essentially insert them for you. Thus:</p>
 
-<div class="sourceCode" id="cb36"><pre
-class="sourceCode xml"><code class="sourceCode xml"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a>&lt;<span class="kw">p</span><span class="ot"> id=</span><span class="er">MyName&gt;</span></span>
+<div class="sourceCode" id="cb36">
+<pre class="sourceCode xml"><code class="sourceCode xml">
+<span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a>&lt;<span class="kw">p</span><span class="ot"> id=</span><span class="er">MyName&gt;</span></span>
 <span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a><span class="er">&lt;p</span> <span class="er">id=</span><span class="st">&quot;MyName&quot;</span>&gt;</span>
 <span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a>&lt;<span class="kw">p</span><span class="ot"> id=</span><span class="st">&#39;MyName&#39;</span>&gt;</span>
-<span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a>.... are all equivalent.  </span></code></pre></div>
-<p>It is also important to know that, in HTML, <b>double and single
-quotes are almost interchangeable, but they have to match</b>.  If you
-start a string with a double quote, the computer will not end it until
-it sees another double quote.  Any single quotes will be happily
-considered part of the string, which is handy if you need quotation
-marks in your string.  Because of this, if you create a string as ’
-“quote” ’ (single quotes containing a double quoted string),  your
-string will have the letters <space>-“-q-u-o-t-e-”-&lt;space&gt; (with
-double quotes in the string and spaces outside those) as opposed to
-“quote” which will just have the letters q-u-o-t-e (no quotation marks
-or spaces in the string).  Nevertheless, best practice is to be
-consistent in your quotes, so it’s best to quote them all the same way,
+<span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a>.... are all equivalent.  </span>
+</code></pre>
+
+</div>
+
+<p>It is also important to know that, in HTML, <b>double and single quotes are almost interchangeable, but they have to match</b>.  If you
+start a string with a double quote, the computer will not end it until it sees another double quote.  Any single quotes will be happily
+considered part of the string, which is handy if you need quotation marks in your string.  Because of this, if you create a string as ’
+“quote” ’ (single quotes containing a double quoted string), your string will have the letters &t;space&gt;-“-q-u-o-t-e-”-&lt;space&gt; (with
+double quotes in the string and spaces outside those) as opposed to “quote” which will just have the letters q-u-o-t-e (no quotation marks
+or spaces in the string).  Nevertheless, best practice is to be consistent in your quotes, so it’s best to quote them all the same way,
 even if the browser would understand it anyway.</p>
 
 <h4>In summary:</h4>
-<p>The idea is to take advantage of these flexibilities to create clean
-organized code that is easy for a human to comprehend.  I guess you
+
+<p>The idea is to take advantage of these flexibilities to create clean organized code that is easy for a human to comprehend.  I guess you
 could sum it all up with these simple dictum:</p>
 
 <ul>
@@ -2417,6 +2416,7 @@ could sum it all up with these simple dictum:</p>
 <ol type="1">
   <li>Compare and contrast these two different HTML Style Guides:</li>
 </ol>
+
 <ul>
   <li><p><a href="https://contribute.jquery.org/style-guide/html/" target="_blank" rel="noopener noreferrer">JQuery HTML Style Guide</a></p></li>
   <li><p><a href="https://google.github.io/styleguide/htmlcssguide.html" target="_blank" rel="noopener noreferrer">Google HTML/CSS Style Guide</a></p></li>
@@ -2429,6 +2429,7 @@ disagree with some of the suggestions in one of these guides?</p>
 <ol start="2" type="1">
   <li>Check out the <a href="https://validator.w3.org/" target="_blank" rel="noopener noreferrer">W3C HTML Checker</a>:</li>
 </ol>
+
 <ul>
   <li><p>Try “Direct Input” and type some HTML5 code with errors to see what it detects.</p></li>
   <li><p>Using “Validate by URI”, try some popular Web sites and see if you can find any errors.</p></li>
@@ -2436,10 +2437,9 @@ disagree with some of the suggestions in one of these guides?</p>
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-6-1">1.6.1 Tags We Have Already Used</h3>
 <!------------------------------------------------------------------------------------------------>
-<p>Now you can create a simple, empty, HTML page, and you know what tags
-are, though we have not said a lot about specific tags, what they mean,
-how many there are, etc.  We will start with the ones we have already
-seen:</p>
+<p>Now you can create a simple, empty, HTML page, and you know what tags are, though we have not said a lot about specific tags, what they mean,
+how many there are, etc.  We will start with the ones we have already seen:</p>
+
 <ul>
   <li><b>&lt;!doctype&gt;</b> - This tag is special.  In fact, many folks don’t even consider it a tag, as it is officially the DTD - Document Type Declaration.  Unlike most tags, it has no closing tag, not even a “/” at the end.  It is there to declare exactly what type of HTML the computer will find in this file. It is used as that: &lt;!DOCTYPE html&gt;</li>
   <li><b>&lt;html&gt;</b> - The <b><i>html</i></b> open and close tags wrap around nearly everything in your html file  (except the doctype tag).  This essentially contains all of the HTML code in the file, which is generally everything (one big html element). In the next module, we will learn about attributes, and you will learn that you should always add a lang attribute to the html opening tag, to identify the default language of your page.</li>
@@ -2453,8 +2453,10 @@ seen:</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<div class="sourceCode" id="cb37"><pre
-class="sourceCode xml"><code class="sourceCode xml"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;!DOCTYPE</span> <span class="dt">html&gt;</span></span>
+<div class="sourceCode" id="cb37">
+
+<pre class="sourceCode xml"><code class="sourceCode xml">
+<span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;!DOCTYPE</span> <span class="dt">html&gt;</span></span>
 <span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>&lt;<span class="kw">html</span><span class="ot"> lang=</span><span class="st">&quot;en&quot;</span>&gt;</span>
 <span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>   &lt;<span class="kw">head</span>&gt;</span>
 <span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a>      &lt;<span class="kw">meta</span><span class="ot"> charset=</span><span class="st">&quot;UTF-8&quot;</span>&gt;</span>
@@ -2466,7 +2468,11 @@ class="sourceCode xml"><code class="sourceCode xml"><span id="cb37-1"><a href="#
 <span id="cb37-10"><a href="#cb37-10" aria-hidden="true" tabindex="-1"></a>      &lt;<span class="kw">h2</span>&gt;Book the First—Recalled to Life&lt;/<span class="kw">h2</span>&gt;</span>
 <span id="cb37-11"><a href="#cb37-11" aria-hidden="true" tabindex="-1"></a>      &lt;<span class="kw">h3</span>&gt;I. The Period&lt;/<span class="kw">h3</span>&gt;</span>
 <span id="cb37-12"><a href="#cb37-12" aria-hidden="true" tabindex="-1"></a>   &lt;/<span class="kw">body</span>&gt;</span>
-<span id="cb37-13"><a href="#cb37-13" aria-hidden="true" tabindex="-1"></a>&lt;/<span class="kw">html</span>&gt;</span></code></pre></div>
+<span id="cb37-13"><a href="#cb37-13" aria-hidden="true" tabindex="-1"></a>&lt;/<span class="kw">html</span>&gt;</span>
+</code></pre>
+
+</div>
+
 </details>
 
 <p>Though you theoretically should not think about what it looks like, it
@@ -2477,12 +2483,9 @@ to &lt;h6&gt;.  This allows logical nesting of sections, though
 they should not be nested too deeply. Try not to skip levels of headers
 when nesting them. <b>Headings are really useful for some assistive
 technology users and missing levels can be confusing</b>.</p>
+
 <ul>
-<li><b>&lt;p&gt;</b> - <i><b>p</b></i> is for ‘paragraph’, which is the tag
-you may use to arrange much of your text information.  Depending on the
-style you are using, text wrapped in a &lt;p&gt; tag may be indented or
-have extra vertical white space before starting.  When rendered on the
-Web page, a <i>p</i> element creates a new line.</li>
+  <li><b>&lt;p&gt;</b> - <i><b>p</b></i> is for ‘paragraph’, which is the tag you may use to arrange much of your text information.  Depending on the style you are using, text wrapped in a &lt;p&gt; tag may be indented or have extra vertical white space before starting.  When rendered on the Web page, a <i>p</i> element creates a new line.</li>
 </ul>
 
 <h4>HTML</h4>
@@ -2490,8 +2493,10 @@ Web page, a <i>p</i> element creates a new line.</li>
 <details>
   <summary>HTML code extract!</summary>
 
-<div class="sourceCode" id="cb38"><pre
-class="sourceCode xml"><code class="sourceCode xml"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;!DOCTYPE</span> <span class="dt">html&gt;</span></span>
+<div class="sourceCode" id="cb38">
+
+<pre class="sourceCode xml"><code class="sourceCode xml">
+<span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;!DOCTYPE</span> <span class="dt">html&gt;</span></span>
 <span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a>   &lt;<span class="kw">html</span><span class="ot"> lang=</span><span class="st">&quot;en&quot;</span>&gt;</span>
 <span id="cb38-3"><a href="#cb38-3" aria-hidden="true" tabindex="-1"></a>   &lt;<span class="kw">head</span>&gt;</span>
 <span id="cb38-4"><a href="#cb38-4" aria-hidden="true" tabindex="-1"></a>      &lt;<span class="kw">meta</span><span class="ot"> charset=</span><span class="st">&quot;UTF-8&quot;</span>&gt;</span>
@@ -2505,10 +2510,14 @@ class="sourceCode xml"><code class="sourceCode xml"><span id="cb38-1"><a href="#
 <span id="cb38-12"><a href="#cb38-12" aria-hidden="true" tabindex="-1"></a>      Often there is extra space between one paragraph and the next.</span>
 <span id="cb38-13"><a href="#cb38-13" aria-hidden="true" tabindex="-1"></a>   &lt;/<span class="kw">p</span>&gt;</span>
 <span id="cb38-14"><a href="#cb38-14" aria-hidden="true" tabindex="-1"></a>   &lt;/<span class="kw">body</span>&gt;</span>
-<span id="cb38-15"><a href="#cb38-15" aria-hidden="true" tabindex="-1"></a>&lt;/<span class="kw">html</span>&gt;</span></code></pre></div>
+<span id="cb38-15"><a href="#cb38-15" aria-hidden="true" tabindex="-1"></a>&lt;/<span class="kw">html</span>&gt;</span>
+</code></pre>
+
+</div>
+
 </details>
-<p>
-You might notice that when discussing how these different elements are
+
+<p>You might notice that when discussing how these different elements are
 rendered (i.e. what they look like to the end user), you will find
 words like “typically”, “possibly”, and “generally”.<br>
 <br>It is a little picky. As you will learn in Module 3, it is possible to change the
@@ -2521,6 +2530,7 @@ though best practice would be not to do that.</p>
 <p>There are a lot more tags, but we will just cover a few more for now,
 mostly because they are straightforward to use and you can see the
 effect in your Web page when you use them:</p>
+
 <ul>
 <li>
 <b>&lt;q&gt;</b> - The <b>q</b> tag is for quotes.  This tag has no
@@ -2773,12 +2783,11 @@ a browser, there is very little information except that there is text
 and headings in your page. How can a search engine know what is
 important? Does a visually impaired person have to listen to the entire
 page or can they just jump to the article?</p>
-It is very important to style your Web pages for search engine
+<p>It is very important to style your Web pages for search engine
 optimization (SEO) to improve your search engine rankings, and for
 visually impaired people who access your Web page using assistive
 technology like screen readers. Semantic markup enables all of this and
-more.
-</p>
+more.</p>
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-1-3">2.1.3 Module 2 - Content</h3>
 <!------------------------------------------------------------------------------------------------>
@@ -3032,19 +3041,12 @@ as &lt;img&gt;, &lt;input&gt; and &lt;video&gt;.</p>
 &lt;b&gt;&lt;a&gt;&lt;/b&gt;  : href, target, download, etc.
 </code></pre>
 
-<p>Other than the common global attributes, if you wish to learn about the supported non-global attributes for any element, you can visit the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes" target="_blank" rel="noopener noreferrer">HTML attribute reference</a> available at the Mozilla Developer Network
-(MDN).</p>
-<p><b>Important:</b> Throughout the course, using the MDN attribute
-reference, you are encouraged to explore non-global attributes for the
-elements you learn about or would like to use in your Web pages. In the
-MDN attribute reference list, you can click on the element’s hyperlinked
-name to be navigated to its page that lists supported attributes for
-that element.</p>
-<p><b>Try this:</b> Navigate to the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes" target="_blank" rel="noopener noreferrer">HTML attribute reference</a> at Mozilla Developer Network and find out which
-element(s) the attributes muted and readonly can be applied to.</p>
-<b>Try this:</b> Navigate to the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes" target="_blank" rel="noopener noreferrer">HTML attribute reference</a> at Mozilla Developer Network and find out the
-non-global attributes that can be applied to the &lt;li&gt; tag. Search for the &lt;li&gt; element and then click on it: it will take you to the list tag’s page that specifies applicable attributes.
-</p>
+<p>Other than the common global attributes, if you wish to learn about the supported non-global attributes for any element, you can visit the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes" target="_blank" rel="noopener noreferrer">HTML attribute reference</a> available at the Mozilla Developer Network (MDN).</p>
+<p><b>Important:</b> Throughout the course, using the MDN attribute reference, you are encouraged to explore non-global attributes for the
+elements you learn about or would like to use in your Web pages. In the MDN attribute reference list, you can click on the element’s hyperlinked
+name to be navigated to its page that lists supported attributes for that element.</p>
+<p><b>Try this:</b> Navigate to the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes" target="_blank" rel="noopener noreferrer">HTML attribute reference</a> at Mozilla Developer Network and find out which element(s) the attributes muted and readonly can be applied to.</p>
+<b>Try this:</b> Navigate to the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes" target="_blank" rel="noopener noreferrer">HTML attribute reference</a> at Mozilla Developer Network and find out the non-global attributes that can be applied to the &lt;li&gt; tag. Search for the &lt;li&gt; element and then click on it: it will take you to the list tag’s page that specifies applicable attributes.</p>
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-2-3">2.2.3 Global Attributes: Examples</h3>
 <!------------------------------------------------------------------------------------------------>
