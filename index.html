@@ -3454,22 +3454,15 @@ Important text<br> <br> Text is bold by default in a browser
 
 <h4>&lt;b&gt; vs &lt;strong&gt;</h4>
 
-<p><b>Bold</b> is a style that makes letters thicker so it stands out
-among other text but it has no semantic meaning, for example for voice
-browsers, screen readers, and other types of ways to access the Web. A
-device
-like <a href="https://en.wikipedia.org/wiki/Amazon_Kindle#Kindle_Paperwhite_.281st_generation.29" target="_blank" rel="noopener noreferrer">Kindle
-Paperwhite</a> that renders text differently, might not pick up the
+<p><b>Bold</b> is a style that makes letters thicker so it stands out among other text but it has no semantic meaning, for example for voice browsers, screen readers, and other types of ways to access the Web. A device like <a href="https://en.wikipedia.org/wiki/Amazon_Kindle#Kindle_Paperwhite_.281st_generation.29" target="_blank" rel="noopener noreferrer">Kindle Paperwhite</a> that renders text differently, might not pick up the
 bold.</p>
-<p><b>Strong</b> is an indication of how something should be. It looks
-like bold in a browser, but it could mean ‘speak with urgency or
-seriousness’ when reading text aloud. It is semantic in the sense, that
-we instruct it to be stronger than the text it surrounds which is
-different from giving instructions on how the text should look in the
-case of &lt;b&gt;. It represents importance, seriousness, or urgency for
-its contents.</p>
-<pre><code>&lt;p&gt;As a junior developer, you &lt;strong&gt;must&lt;/strong&gt; submit
-  your work for code review!&lt;/p&gt;</code></pre>
+<p><b>Strong</b> is an indication of how something should be. It looks like bold in a browser, but it could mean ‘speak with urgency or seriousness’ when reading text aloud. It is semantic in the sense, that we instruct it to be stronger than the text it surrounds which is different from giving instructions on how the text should look in the case of &lt;b&gt;. It represents importance, seriousness, or urgency for its contents.</p>
+
+<pre><code>
+&lt;p&gt;As a junior developer, you &lt;strong&gt;must&lt;/strong&gt; submit
+  your work for code review!&lt;/p&gt;
+</code></pre>
+
 <p>The ‘must’ may be bolded in a browser. But when reading the HTML
 document out loud by a text-to-speech program, it can be spoken with
 importance or seriousness.</p>
@@ -3498,6 +3491,7 @@ Sheets. So how did &lt;i&gt; and &lt;b&gt;, purely style elements make
 the cut? </p>
 <p>They were initially deprecated, however, in HTML5, they were brought
 back. This time, with semantic meaning.</p>
+
 <table>
 <colgroup>
 <col style="width: 2%" />
@@ -3602,14 +3596,10 @@ named after: header, nav, article, section, aside and footer.</p>
   alt="Picture showing the structure of a Web site: header, nav, article, section, aside and footer."
   style="width:45%;" />
 
-<p>Tags such
-as<b> &lt;article&gt;</b>, <b>&lt;section&gt;</b>, <b>&lt;header&gt;</b>, <b>&lt;nav&gt;
-and &lt;footer&gt; </b>were specifically introduced in HTML5 to define
-the Web page structure. These new semantic elements give meaning to
-different parts of a webpage. When you do a Google search, the search
-engine automatically processes millions of HTML pages to scan and offer
-you the most appropriate content.</p>
+<p>Tags such as<b> &lt;article&gt;</b>, <b>&lt;section&gt;</b>, <b>&lt;header&gt;</b>, <b>&lt;nav&gt;
+and &lt;footer&gt; </b>were specifically introduced in HTML5 to define the Web page structure. These new semantic elements give meaning to different parts of a webpage. When you do a Google search, the search engine automatically processes millions of HTML pages to scan and offer you the most appropriate content.</p>
 <p>Each section refers to a part of the document:</p>
+
 <ul>
 <li><p>The <b>header</b> can be a starting point for the whole document
 or individual sections. It typically contains the introduction.</p></li>
@@ -3630,6 +3620,7 @@ of independent content.</p></li>
 <li><p>The <b>footer</b> contains typical footer information such as
 authoring, copyrights and contact information.</p></li>
 </ul>
+
 <p>The use of these semantic elements improves the <b>automated
 processing of documents</b>. When it scans a &lt;nav&gt; tag, it
 automatically knows it includes content related to page navigation or a
@@ -3645,8 +3636,7 @@ information or repeating content. </p>
 like this:</p>
 
 <details>
-  <summary>HTML code extract!
-</summary>
+  <summary>HTML code extract!</summary>
 
 <pre class="html5"><code>
 1.  &lt;!DOCTYPE html&gt;
@@ -3920,6 +3910,7 @@ the &lt;details&gt; tag works in most Web browsers.</p>
   <li>   &lt;p&gt;Ronald Reagan as John Worthing&lt;/p&gt;</li>
   <li>&lt;/details&gt;</li>
 </ol>
+
 </td>
 <td>Cast Members</td>
 </tr>
@@ -4283,8 +4274,10 @@ multiple &lt;header&gt;, &lt;footer&gt; and &lt;nav&gt; tags.</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<div class="sourceCode" id="cb71"><pre
-class="sourceCode xml"><code class="sourceCode xml"><span id="cb71-1"><a href="#cb71-1" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;!DOCTYPE</span> <span class="dt">html&gt;</span></span>
+<div class="sourceCode" id="cb71">
+
+<pre class="sourceCode xml"><code class="sourceCode xml">
+<span id="cb71-1"><a href="#cb71-1" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;!DOCTYPE</span> <span class="dt">html&gt;</span></span>
 <span id="cb71-2"><a href="#cb71-2" aria-hidden="true" tabindex="-1"></a>&lt;<span class="kw">html</span><span class="ot"> lang=</span><span class="st">&quot;en&quot;</span>&gt;</span>
 <span id="cb71-3"><a href="#cb71-3" aria-hidden="true" tabindex="-1"></a>   &lt;<span class="kw">head</span>&gt;</span>
 <span id="cb71-4"><a href="#cb71-4" aria-hidden="true" tabindex="-1"></a>      &lt;<span class="kw">meta</span><span class="ot"> charset=</span><span class="st">&quot;UTF-8&quot;</span>&gt;</span>
@@ -4360,7 +4353,9 @@ class="sourceCode xml"><code class="sourceCode xml"><span id="cb71-1"><a href="#
 <span id="cb71-74"><a href="#cb71-74" aria-hidden="true" tabindex="-1"></a>   &lt;/<span class="kw">footer</span>&gt;</span>
 <span id="cb71-75"><a href="#cb71-75" aria-hidden="true" tabindex="-1"></a>   &lt;/<span class="kw">body</span>&gt;</span>
 <span id="cb71-76"><a href="#cb71-76" aria-hidden="true" tabindex="-1"></a>&lt;/<span class="kw">html</span>&gt;</span>
-</code></pre></div>
+</code></pre>
+
+</div>
 
 </details>
 <!------------------------------------------------------------------------------------------------>
@@ -4684,6 +4679,7 @@ in its place.</p>
   &lt;/div&gt;
 &lt;/section&gt;
 </code></pre>
+
 </details>
 
 <p>If you want to style all code snippets in your HTML document a
@@ -5613,15 +5609,28 @@ will look like:</p>
 download a file instead of navigate to another location. It takes in the
 filename as value but the value is optional. So the download attribute
 can be specified in the following ways:</p>
-<div class="sourceCode" id="cb96"><pre
-class="sourceCode xml"><code class="sourceCode xml"><span id="cb96-1"><a href="#cb96-1" aria-hidden="true" tabindex="-1"></a>&lt;<span class="kw">a</span><span class="ot"> href=</span><span class="st">&quot;assets/hello.txt&quot;</span><span class="ot"> download</span><span class="er">&gt;</span></span>
-<span id="cb96-2"><a href="#cb96-2" aria-hidden="true" tabindex="-1"></a><span class="er">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">&quot;assets/hello.txt&quot;</span><span class="ot"> download=</span><span class="st">&quot;new-name-for-text-file&quot;</span>&gt;</span></code></pre></div>
+
+<div class="sourceCode" id="cb96">
+
+<pre class="sourceCode xml"><code class="sourceCode xml">
+<span id="cb96-1"><a href="#cb96-1" aria-hidden="true" tabindex="-1"></a>&lt;<span class="kw">a</span><span class="ot"> href=</span><span class="st">&quot;assets/hello.txt&quot;</span><span class="ot"> download</span><span class="er">&gt;</span></span>
+<span id="cb96-2"><a href="#cb96-2" aria-hidden="true" tabindex="-1"></a><span class="er">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">&quot;assets/hello.txt&quot;</span><span class="ot"> download=</span><span class="st">&quot;new-name-for-text-file&quot;</span>&gt;</span>
+</code></pre>
+
+</div>
+
 <p>If you do not specify a value for download, it will download the file
 with name unchanged. Else it will download the file with file name
-modified according to value specified. </p>
-<div class="sourceCode" id="cb97"><pre
-class="sourceCode html"><code class="sourceCode html"><span id="cb97-1"><a href="#cb97-1" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">&quot;/assets/hello.txt&quot;</span> <span class="er">download</span><span class="kw">&gt;</span></span>
-<span id="cb97-2"><a href="#cb97-2" aria-hidden="true" tabindex="-1"></a>... will download the file with the same name - &#39;hello.txt&#39;.</span></code></pre></div>
+modified according to value specified.</p>
+
+<div class="sourceCode" id="cb97">
+
+<pre class="sourceCode html"><code class="sourceCode html">
+<span id="cb97-1"><a href="#cb97-1" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">&quot;/assets/hello.txt&quot;</span> <span class="er">download</span><span class="kw">&gt;</span></span>
+<span id="cb97-2"><a href="#cb97-2" aria-hidden="true" tabindex="-1"></a>... will download the file with the same name - &#39;hello.txt&#39;.</span>
+</code></pre>
+
+</div>
 
 <pre><code>
 &lt;a href=&quot;/assets/hello.txt&quot; download=&quot;new-name-for-text-file&quot;&gt;
@@ -7852,15 +7861,22 @@ necessarily direct children.</p>
 red, but all the link in the guideline section to be green?  That is
 what descendant selectors are for. Here is an example for the problem we
 are facing:</p>
-<div class="sourceCode" id="cb133"><pre
-class="sourceCode css"><code class="sourceCode css"><span id="cb133-1"><a href="#cb133-1" aria-hidden="true" tabindex="-1"></a><span class="pp">#intro</span> a { color: red<span class="op">;</span> }  </span>
-<span id="cb133-2"><a href="#cb133-2" aria-hidden="true" tabindex="-1"></a><span class="pp">#guideline</span> a { color: <span class="cn">#00FF00</span><span class="op">;</span> }</span></code></pre></div>
-<p>We merely separate the tag, identifier, or class selectors by a
-space.</p>
+
+<div class="sourceCode" id="cb133">
+
+<pre class="sourceCode css"><code class="sourceCode css">
+<span id="cb133-1"><a href="#cb133-1" aria-hidden="true" tabindex="-1"></a><span class="pp">#intro</span> a { color: red<span class="op">;</span> }  </span>
+<span id="cb133-2"><a href="#cb133-2" aria-hidden="true" tabindex="-1"></a><span class="pp">#guideline</span> a { color: <span class="cn">#00FF00</span><span class="op">;</span> }</span>
+</code></pre>
+
+</div>
+
+<p>We merely separate the tag, identifier, or class selectors by a space.</p>
 <p>In the first rule, we see that the selector will match to any
 &lt;a&gt; tag that is a descendant of #intro.  The &lt;a&gt; tag can
 appear directly within #intro, or be buried within its children.  Here
 is the result:</p>
+
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -8341,8 +8357,10 @@ Here</a></p>
 <details>
   <summary>HTML code extract!</summary>
 
-<div class="sourceCode" id="cb143"><pre
-class="sourceCode xml"><code class="sourceCode xml"><span id="cb143-1"><a href="#cb143-1" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;!DOCTYPE</span> <span class="dt">html&gt;</span></span>
+<div class="sourceCode" id="cb143">
+
+<pre class="sourceCode xml"><code class="sourceCode xml">
+<span id="cb143-1"><a href="#cb143-1" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;!DOCTYPE</span> <span class="dt">html&gt;</span></span>
 <span id="cb143-2"><a href="#cb143-2" aria-hidden="true" tabindex="-1"></a>&lt;<span class="kw">html</span><span class="ot"> lang=</span><span class="st">&quot;en&quot;</span>&gt;</span>
 <span id="cb143-3"><a href="#cb143-3" aria-hidden="true" tabindex="-1"></a>&lt;<span class="kw">head</span>&gt;</span>
 <span id="cb143-4"><a href="#cb143-4" aria-hidden="true" tabindex="-1"></a>  &lt;<span class="kw">meta</span><span class="ot"> charset=</span><span class="st">&quot;UTF-8&quot;</span>&gt;</span>
@@ -8409,7 +8427,11 @@ class="sourceCode xml"><code class="sourceCode xml"><span id="cb143-1"><a href="
 <span id="cb143-65"><a href="#cb143-65" aria-hidden="true" tabindex="-1"></a>    <span class="er">&lt;/ol&gt;</span></span>
 <span id="cb143-66"><a href="#cb143-66" aria-hidden="true" tabindex="-1"></a>  <span class="er">&lt;/article&gt;</span></span>
 <span id="cb143-67"><a href="#cb143-67" aria-hidden="true" tabindex="-1"></a><span class="er">&lt;/body&gt;</span></span>
-<span id="cb143-68"><a href="#cb143-68" aria-hidden="true" tabindex="-1"></a><span class="er">&lt;/html&gt;</span></span></code></pre></div>
+<span id="cb143-68"><a href="#cb143-68" aria-hidden="true" tabindex="-1"></a><span class="er">&lt;/html&gt;</span></span>
+</code></pre>
+
+</div>
+
 </details>
 <!------------------------------------------------------------------------------------------------>
 <h2 id="ch4">Welcome to Module 4</h2>
@@ -14858,6 +14880,6 @@ These are the final changes to our recipe project for this unit.<br>
 
 <h6>The end…</h6>
 
-<h4><b>Last Updated 2-7-2023 Tue 3:07pm</b></h4>
+<h4><b>Last Updated 2-9-2023 Thu 12:08am</b></h4>
 </body>
 </html>
