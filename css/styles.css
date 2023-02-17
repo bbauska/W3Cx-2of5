@@ -540,12 +540,12 @@ details > summary {
 
 details > p {
   border-radius: 0 0 10px 10px;
-  background-color: #fff;
+  background-color: #ffef29;
   padding: 2px 6px;
   margin: 0;
   box-shadow: 3px 3px 4px green;
 }
 
 details[open] > summary {
-  background-color: #000;
+  background-color: #ffef29;
 }
