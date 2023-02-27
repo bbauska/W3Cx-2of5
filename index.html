@@ -4757,7 +4757,7 @@ information to be aware of.
 <ul>
   <li><b>Image data:</b> most images, especially JPEG, contain a lot more data than is needed for a browser and are too often overly large and slow.  You can reduce the size of the image using photo editing software that allows you to re-sample an image to reduce its pixel data and in turn reducing image size. However, once you re-sample an image, do not make change its size (height and width) to make it larger as it will become pixelated and blurry.</li>
   <li><b>JPEG</b> (Joint Photographic Experts Group) images compress well and are the standard for photos. But they don’t support any sort of animation or transparency.</li>
-  <li><b>PNG</b> (Portable Network Graphics) images support transparency and alpha channels. This makes them useful for non-rectangular images that may need to overlay different background colors or other elements on the page. To make PNG images, a user would need graphics editing software (like GIMP, Photoshop, or others). PNG is a <a href="https://www.w3.org/TR/PNG/" target="_blank" rel="noopener noreferrer">W3C Web standard</a> (this is the 2nd edition - the 1st edition was <a href="https://www.w3.org/TR/REC-png-961001" target="_blank" rel="noopener noreferrer">published</a> in 1996!).
+  <li><b>PNG</b> (Portable Network Graphics) images support transparency and alpha channels. This makes them useful for non-rectangular images that may need to overlay different background colors or other elements on the page. To make PNG images, a user would need graphics editing software (like GIMP, Photoshop, or others). PNG is a <a href="https://www.w3.org/TR/PNG/" target="_blank" rel="noopener noreferrer">W3C Web standard</a> (this is the 2nd edition - the 1st edition was <a href="https://www.w3.org/TR/REC-png-961001" target="_blank" rel="noopener noreferrer">published</a> in 1996!).</li>
     <li><b>SVG</b> (Scalable Vector Graphics) are defined mathematically and support animation. Also, since they are defined mathematically  they scale to:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------ 37. logo scalable vector graphics (svg) (106) ------------------------->
@@ -4769,9 +4769,10 @@ information to be aware of.
 
 <p>Any size without worrying about pixels, resolution or image data. This makes SVG images
 an excellent format to use, if possible. SVG is great for charts, graphs, maps, geometric shapes, and line based illustrations.  SVG is also a markup language in its own right and is very similar to HTML. Typically, it is created with vector graphic software (like Inkscape, Adobe Illustrator, and <a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Tools_for_SVG" target="_blank" rel="noopener noreferrer">others</a>), but some people write the markup by hand. Note that SVG 1.1 is a <a href="https://www.w3.org/TR/SVG/" target="_blank" rel="noopener noreferrer">W3C Web standard</a>).
+</p>
 </li>
 </ul>
-</p>
+
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-4-2">2.4.2 Attribute alt</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5218,24 +5219,15 @@ called the<b> anchor element</b>. Here is how it is used:</p>
 
 <p>Result: <a href="https://en.wikipedia.org/wiki/Hyperlink" target="_blank">Click
 here</a> to go to the Wikipedia Hyperlink page.<br>
-<br>Note: The anchor element should not be confused with
-the &lt;link&gt; tag. The &lt;link&gt; tag is used to define a link
-between a document and an external resource like an external style
-sheet. You will learn more about the &lt;link&gt; tag in the next
-chapter.</p>
+<br>Note: The anchor element should not be confused with the &lt;link&gt; tag. The &lt;link&gt; tag is used to define a link between a document and an external resource like an external style sheet. You will learn more about the &lt;link&gt; tag in the next chapter.</p>
 
 <h4>States of a hyperlink</h4>
 
-<p>If the link has not been clicked, it will be blue and underlined.
-Now, click on the link and you will see that a visited link looks purple
-and underlined.<br>
-<br>
-Apart from unvisited and visited links, there is also a
-status called active link.<br>
-<br>
-A link becomes active while the user is clicking on it.<br>
-<br>
-During this time, the link will be red and underlined.</p>
+<p>If the link has not been clicked, it will be blue and underlined. Now, click on the link and you will see that a visited link looks purple and underlined.<br>
+<br>Apart from unvisited and visited links, there is also a status called active link.<br>
+<br>A link becomes active while the user is clicking on it.<br>
+<br>During this time, the link will be red and underlined.</p>
+
 <ul>
 <li><p><b>Unvisited</b>: blue + underlined</p></li>
 <li><p><b>Visited</b>: purple + underlined</p></li>
@@ -5255,13 +5247,12 @@ During this time, the link will be red and underlined.</p>
 <!-- Paragraph in a hyperlink-->
 <a target="_blank" href="https://www.qwant.com/"><p>If you click on me, I will take you to qwant.com</p></a>
 <!-- Image in a hyperlink-->
-<a target="_blank" rel="noopener noreferrer" href="https://www.qwant.com/"><img src="images/qwant-image.png" alt="Image
-   navigating to Qwant";></a>
+<a target="_blank" rel="noopener noreferrer" href="https://www.qwant.com/"><img src="images/qwant-image.png" alt="Image navigating to Qwant";></a>
 </code></pre>
 
 </details>
-<p>You can even use the anchor element to add your email address under
-the contacts section of your Web page. </p>
+
+<p>You can even use the anchor element to add your email address under the contacts section of your Web page.</p>
 
 <pre><code>
 &lt;p&gt;Feedback: &lt;a href=&quot;mailto:authors@example.com&quot;&gt;Send Mail to
