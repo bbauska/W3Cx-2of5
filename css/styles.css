@@ -1,6 +1,11 @@
   img.displayed {
     display: block;
-	margin: 0 auto;	}
+    margin: 0 auto; }
+  .border {
+    border-width: 1px;
+    border-color: #778899;
+    border-style: solid; 
+    }
 
   p.em1 {
     margin-left: 1em; }
