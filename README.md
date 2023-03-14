@@ -843,8 +843,8 @@ You can build and edit your HTML pages by either using online editors or editors
 
 <h4>Using online editors:</h4>
 <p>
-Both <a href="https://jsbin.com" target="_blank">JSBin</a> and <a href="https://codepen.io/"> target="_blank"CodePen</a> are two online editors that you can use to create HTML Web pages.
-The following two videos show you how to create your first HTML page using <a href="https://jsbin.com" target="_blank">JSBin</a> and <a href="https://codepen.io/" target="_blank">CodePen</a>
+Both <a href="https://jsbin.com" target="_blank">JSBin</a> and <a href="https://codepen.io/" target="_blank">CodePen</a> are two online editors that you can use to create HTML Web pages.
+The following two videos show you how to create your first HTML page using <a href="https://jsbin.com" target="_blank">JSBin</a>.
 
 And this time, what I'd like to show you a very simple HTML file that I've created.
 
@@ -1162,9 +1162,7 @@ for that particular element, which is really useful, too.
 
 There are two more things I can use.
 
-Another one is if I'm in my HTML or any other code inside a Visual
-Studio, and I want to tidy it up a bit, one thing to try is
-"shift-Alt-F", and it will prettify or beautify the page a little bit.
+Another one is if I'm in my HTML or any other code inside a Visual Studio, and I want to tidy it up a bit, one thing to try is "shift-Alt-F", and it will prettify or beautify the page a little bit.
 
 And that's useful. And on the MAC, you can use the same command, "Command K", "Command F".
 
