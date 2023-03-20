@@ -9987,7 +9987,7 @@ the CodePen below:
 <h4>CSS:</h4>
 
 <details>
-  <summary>HTML code extact!</summary>
+  <summary>CSS code extact!</summary>
 
 ```
 nav {
@@ -10439,7 +10439,7 @@ to be orange. You need to use the &lt;colgroup&gt; and &lt;col&gt; tags to
 achieve styling effects specific to a column. 
 
 <details>
-  <summary>HTML code extract!</summary>
+  <summary>HTML table code extract!</summary>
 
 ```
 <body>
@@ -10517,7 +10517,7 @@ Following &lt;thead&gt;, subsequent rows are considered body rows in a
 table. Regular cells are specified using &lt;td&gt; as a child of &lt;tr&gt;:
 
 <details>
-  <summary>HTML code extract!</summary>
+  <summary>HTML table code extract!</summary>
 
 ```xml
   <tbody>
@@ -10544,7 +10544,7 @@ The footer is the last to be specified and rows within <tfoot> are
 considered footer rows at the end of a table:
 
 <details>
-  <summary>HTML code extract!</summary>
+  <summary>HTML table code extract!</summary>
   
 ```xml
   <tfoot>
@@ -10560,7 +10560,7 @@ considered footer rows at the end of a table:
 <h4>Putting it all together:</h4>
 
 <details>
-  <summary>HTML code extract!</summary>
+  <summary>HTML table code extract!</summary>
 
 ```xml
   <table border=1>
@@ -10670,37 +10670,37 @@ table.eg3, th.eg3, td.eg3 { border: initial; }
 <h4>HTML</h4>
 
 <details>
-  <summary>HTML code extract!</summary>
+  <summary>HTML table code extract!</summary>
 
 ```
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Styling your table</title>
-</head>
-<body>
-<table class="eg1">
-<tr><th class="eg1">Names</th><th
- class="eg1">Age</th></tr>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Styling your table</title>
+  </head>
+  <body>
+    <table class="eg1">
+      <tr><th class="eg1">Names</th><th
+        class="eg1">Age</th></tr>
 
-<tr><td class="eg1">Michael</td><td
-class="eg1">21</td></tr>
-</table>
-<br>
-<table class="eg2">
-<tr><th class="eg2">Names</th><th class="eg2">Age</th></tr>
-<tr><td class="eg2">Michael</td><td
-class="eg2">21</td></tr>
-</table>
-<br>
-<table class="eg3">
-<tr><th class="eg3">Names</th><th
-class="eg3">Age</th></tr>
-<tr><td class="eg3">Michael</td><td
-class="eg3">21</td></tr>
-</table>
-</body>
+      <tr><td class="eg1">Michael</td><td
+        class="eg1">21</td></tr>
+    </table>
+    <br>
+    <table class="eg2">
+      <tr><th class="eg2">Names</th><th class="eg2">Age</th></tr>
+      <tr><td class="eg2">Michael</td><td
+        class="eg2">21</td></tr>
+    </table>
+    <br>
+    <table class="eg3">
+      <tr><th class="eg3">Names</th><th
+        class="eg3">Age</th></tr>
+      <tr><td class="eg3">Michael</td><td
+        class="eg3">21</td></tr>
+    </table>
+  </body>
 </html>
 ```
 
@@ -10753,21 +10753,21 @@ border-collapse: collapse;
 ```
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Styling your table</title>
-</head>
-<body>
-<table class="no-collapse">
-<tr><th class="no-collapse">Names</th><th class="no-collapse">Age</th></tr>
-<tr><td class="no-collapse">Michael</td><td class="no-collapse">21</td></tr>
-</table>
-<br>
-<table class="collapse">
-<tr><th class="no-collapse">Names</th><th class="no-collapse">Age</th></tr>
-<tr><td class="no-collapse">Michael</td><td class="no-collapse">21</td></tr>
-</table>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <title>Styling your table</title>
+  </head>
+  <body>
+    <table class="no-collapse">
+      <tr><th class="no-collapse">Names</th><th class="no-collapse">Age</th></tr>
+      <tr><td class="no-collapse">Michael</td><td class="no-collapse">21</td></tr>
+    </table>
+    <br>
+    <table class="collapse">
+      <tr><th class="no-collapse">Names</th><th class="no-collapse">Age</th></tr>
+      <tr><td class="no-collapse">Michael</td><td class="no-collapse">21</td></tr>
+    </table>
+  </body>
 </html>
 ```
 
@@ -10840,40 +10840,40 @@ table.eg3
 ```
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Styling your table</title>
-</head>
-<body>
-<p>The width of the first whole column is decided by the width of the
-cell with most content:</p>
-<table>
-<tr><th>Names</th><th>Profession</th></tr>
-<tr><td>Michael Fernandez</td><td>Doctor</td></tr>
-<tr><td>Amy Frank</td><td >Computer Engineer</td></tr>
-</table>
-<p>Specifying the width for one cell will affect the whole column.
-Width is set in percentage relative to the whole table:</p>
-<table>
-<tr><th class="eg1">Names</th><th>Profession</th></tr>
-<tr><td>Michael Fernandez</td><td>Doctor</td></tr>
-<tr><td>Amy Frank</td><td >Computer Engineer</td></tr>
-</table>
-<p>Specifying the height for one cell will affect the whole row.
-Height is set in fixed pixels:</p>
-<table>
-<tr><th class="eg2">Names</th><th>Profession</th></tr>
-<tr><td>Michael Fernandez</td><td>Doctor</td></tr>
-<tr><td>Amy Frank</td><td >Computer Engineer</td></tr>
-</table>
-<p>Specifying 100% for table width will occupy the whole width of the
-parent element:</p>
-<table class="eg3">
-<tr><th>Names</th><th>Profession</th></tr>
-<tr><td>Michael Fernandez</td><td>Doctor</td></tr>
-<tr><td>Amy Frank</td><td >Computer Engineer</td></tr>
-</table>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <title>Styling your table</title>
+  </head>
+  <body>
+    <p>The width of the first whole column is decided by the width of the
+      cell with most content:</p>
+    <table>
+      <tr><th>Names</th><th>Profession</th></tr>
+      <tr><td>Michael Fernandez</td><td>Doctor</td></tr>
+      <tr><td>Amy Frank</td><td >Computer Engineer</td></tr>
+    </table>
+    <p>Specifying the width for one cell will affect the whole column.
+      Width is set in percentage relative to the whole table:</p>
+    <table>
+      <tr><th class="eg1">Names</th><th>Profession</th></tr>
+      <tr><td>Michael Fernandez</td><td>Doctor</td></tr>
+      <tr><td>Amy Frank</td><td >Computer Engineer</td></tr>
+    </table>
+    <p>Specifying the height for one cell will affect the whole row.
+      Height is set in fixed pixels:</p>
+    <table>
+      <tr><th class="eg2">Names</th><th>Profession</th></tr>
+      <tr><td>Michael Fernandez</td><td>Doctor</td></tr>
+      <tr><td>Amy Frank</td><td >Computer Engineer</td></tr>
+    </table>
+    <p>Specifying 100% for table width will occupy the whole width of the
+      parent element:</p>
+    <table class="eg3">
+      <tr><th>Names</th><th>Profession</th></tr>
+      <tr><td>Michael Fernandez</td><td>Doctor</td></tr>
+      <tr><td>Amy Frank</td><td >Computer Engineer</td></tr>
+    </table>
+  </body>
 </html>
 ```
 
@@ -11036,30 +11036,30 @@ table.eg3, th.eg3, td.eg3 { border-spacing: 50px 25px; }
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Styling your table</title>
+  <meta charset="UTF-8">
+  <title>Styling your table</title>
 </head>
 <body>
-<table class="eg1">
-<tr><th class="eg1">Names</th><th
-class="eg1">Age</th></tr>
-<tr><td class="eg1">Michael</td><td
-class="eg1">21</td></tr>
-</table>
-<br>
-<table class="eg2">
-<tr><th class="eg2">Names</th><th
-class="eg2">Age</th></tr>
-<tr><td class="eg2">Michael</td><td
-class="eg2">21</td></tr>
-</table>
-<br>
-<table class="eg3">
-<tr><th class="eg3">Names</th><th
-class="eg3">Age</th></tr>
-<tr><td class="eg3">Michael</td><td
-class="eg3">21</td></tr>
-</table>
+  <table class="eg1">
+    <tr><th class="eg1">Names</th><th
+      class="eg1">Age</th></tr>
+    <tr><td class="eg1">Michael</td><td
+      class="eg1">21</td></tr>
+  </table>
+  <br>
+  <table class="eg2">
+    <tr><th class="eg2">Names</th><th
+      class="eg2">Age</th></tr>
+    <tr><td class="eg2">Michael</td><td
+      class="eg2">21</td></tr>
+  </table>
+  <br>
+  <table class="eg3">
+    <tr><th class="eg3">Names</th><th
+      class="eg3">Age</th></tr>
+    <tr><td class="eg3">Michael</td><td
+      class="eg3">21</td></tr>
+  </table>
 </body>
 </html>
 ```
@@ -11102,30 +11102,27 @@ table.eg2, th.eg2, td.eg2 { border-bottom: 1px solid black; }
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Styling your table</title>
+  <meta charset="UTF-8">
+  <title>Styling your table</title>
 </head>
 <body>
-<table class="eg1">
-
-<tr><th class="eg1">Names</th><th class="eg1">Age</th><th
-class="eg1">Gender</th></tr>
-<tr><td class="eg1">Michael</td><td class="eg1">21</td><td
-class="eg1">Male</td></tr>
-<tr><td class="eg1">Amy</td><td class="eg1">37</td><td
-class="eg1">Female</td></tr>
-</table>
-
-<br>
-<table class="eg2">
-<tr><th class="eg2">Names</th><th class="eg2">Age</th><th
-class="eg2">Gender</th></tr>
-<tr><td class="eg2">Michael</td><td class="eg2">21</td><td
-class="eg2">Male</td></tr>
-<tr><td class="eg2">Amy</td><td class="eg2">37</td><td
-class="eg2">Female</td></tr>
-
-</table>
+  <table class="eg1">
+    <tr><th class="eg1">Names</th><th class="eg1">Age</th><th
+      class="eg1">Gender</th></tr>
+    <tr><td class="eg1">Michael</td><td class="eg1">21</td><td
+      class="eg1">Male</td></tr>
+    <tr><td class="eg1">Amy</td><td class="eg1">37</td><td
+      class="eg1">Female</td></tr>
+  </table>
+  <br>
+  <table class="eg2">
+    <tr><th class="eg2">Names</th><th class="eg2">Age</th><th
+      class="eg2">Gender</th></tr>
+    <tr><td class="eg2">Michael</td><td class="eg2">21</td><td
+      class="eg2">Male</td></tr>
+    <tr><td class="eg2">Amy</td><td class="eg2">37</td><td
+      class="eg2">Female</td></tr>
+  </table>
 </body>
 </html>
 ```
@@ -11187,48 +11184,48 @@ table.eg3 tr:nth-child(3n) { background-color: #ccff99; }
 2.  <html lang="en">
 3.  
 4.  <head>
-5.  <meta charset="UTF-8">
-6.  <title>Styling your table</title>
+5.    <meta charset="UTF-8">
+6.    <title>Styling your table</title>
 7.  </head>
 8.  <body>
-9.  <table class="eg1">
-10. <tr><th class="eg1">Name</th><th class="eg1">Age</th><th
-    class="eg1">Gender</th></tr>
-11. <tr><td class="eg1">Michael</td><td
-    class="eg1">21</td><td class="eg1">Male</td></tr>
-12. <tr><td class="eg1">Amy</td><td class="eg1">37</td><td
-    class="eg1">Female</td></tr>
-13. <tr><td class="eg1">Mark</td><td class="eg1">32</td><td
-    class="eg1">Male</td></tr>
-14. </table>
-15. <br><br>
-16. <table class="eg2">
-17. <tr><th class="eg2">Name</th><th class="eg2">Age</th><th
-    class="eg2">Gender</th></tr>
-18. <tr><td class="eg2">Michael</td><td
-    class="eg2">21</td><td class="eg2">Male</td></tr>
-19. <tr><td class="eg2">Amy</td><td class="eg2">37</td><td
-    class="eg2">Female</td></tr>
-20. <tr><td class="eg2">Mark</td><td class="eg2">32</td><td
-    class="eg2">Male</td></tr>
-21. </table>
-22. <br><br>
-23. <table class="eg3">
-24. <tr><th class="eg3">Name</th><th class="eg3">Age</th><th
-    class="eg3">Gender</th></tr>
-25. <tr><td class="eg3">Michael</td><td
-    class="eg3">21</td><td class="eg3">Male</td></tr>
-26. <tr><td class="eg3">Sarah</td><td class="eg3">37</td><td
-    class="eg3">Female</td></tr>
-27. <tr><td class="eg3">Mark</td><td class="eg3">32</td><td
-    class="eg3">Male</td></tr>
-28. <tr><td class="eg3">Paul</td><td class="eg3">25</td><td
-    class="eg3">Male</td></tr>
-29. <tr><td class="eg3">Jack</td><td class="eg3">26</td><td
-    class="eg3">Male</td></tr>
-30. <tr><td class="eg3">Juliet</td><td class="eg3">55</td><td
-    class="eg3">Female</td></tr>
-31. </table>
+9.    <table class="eg1">
+10.     <tr><th class="eg1">Name</th><th class="eg1">Age</th><th
+          class="eg1">Gender</th></tr>
+11.     <tr><td class="eg1">Michael</td><td
+          class="eg1">21</td><td class="eg1">Male</td></tr>
+12.     <tr><td class="eg1">Amy</td><td class="eg1">37</td><td
+          class="eg1">Female</td></tr>
+13.     <tr><td class="eg1">Mark</td><td class="eg1">32</td><td
+          class="eg1">Male</td></tr>
+14.   </table>
+15.   <br><br>
+16.   <table class="eg2">
+17.     <tr><th class="eg2">Name</th><th class="eg2">Age</th><th
+          class="eg2">Gender</th></tr>
+18.     <tr><td class="eg2">Michael</td><td
+          class="eg2">21</td><td class="eg2">Male</td></tr>
+19.     <tr><td class="eg2">Amy</td><td class="eg2">37</td><td
+          class="eg2">Female</td></tr>
+20.     <tr><td class="eg2">Mark</td><td class="eg2">32</td><td
+          class="eg2">Male</td></tr>
+21.   </table>
+22.   <br><br>
+23.   <table class="eg3">
+24.     <tr><th class="eg3">Name</th><th class="eg3">Age</th><th
+          class="eg3">Gender</th></tr>
+25.     <tr><td class="eg3">Michael</td><td
+          class="eg3">21</td><td class="eg3">Male</td></tr>
+26.     <tr><td class="eg3">Sarah</td><td class="eg3">37</td><td
+          class="eg3">Female</td></tr>
+27.     <tr><td class="eg3">Mark</td><td class="eg3">32</td><td
+          class="eg3">Male</td></tr>
+28.     <tr><td class="eg3">Paul</td><td class="eg3">25</td><td
+          class="eg3">Male</td></tr>
+29.     <tr><td class="eg3">Jack</td><td class="eg3">26</td><td
+          class="eg3">Male</td></tr>
+30.     <tr><td class="eg3">Juliet</td><td class="eg3">55</td><td
+          class="eg3">Female</td></tr>
+31.   </table>
 32. </body>
 33. </html>
 ```
