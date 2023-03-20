@@ -8,7 +8,7 @@
 <p align="center" width="100%">
 <img src="./images/w3c-logo.png?raw=true"
   width="35%"
-  alt="W3C logo" />
+  alt="W3C logo." />
 </p>
 
 <h3 align="center">W3Cx-2of5-HTML5.0x - HTML5 and CSS3 Fundamentals</h3>
@@ -18,7 +18,7 @@
 <p align="center" width="100%">
 <img src="./images/image001.png?raw=true"
   width="65%"
-  alt="W3Cx HTML 5.0x logo" />
+  alt="W3Cx HTML 5.0x logo." />
 </p>
 
 ## [Table of Contents](#table-of-contents)
@@ -90,7 +90,7 @@ a professional look and feel, by just following these 6 modules!</p>
 <p align="center" width="100%">
 <img src="./images/image002.jpeg?raw=true"
   width="15%"
-  alt="My First Web Page" />
+  alt="My First Web Page." />
 </p>
 <ul>
 <li>In <b>Module 2</b>, you will learn about HTML5 attributes, and become fluent in adding images and links in your Web pages.&nbsp;<br/></li>
@@ -105,7 +105,7 @@ a professional look and feel, by just following these 6 modules!</p>
 <p align="center" width="100%">
 <img src="./images/image003.png?raw=true"
   width="15%"
-  alt="W3C Developers logo" />
+  alt="W3C Developers logo." />
 </p>
 
 <p>It is how we determine the color, text size, spacing and other visual
@@ -120,7 +120,7 @@ layout your page during the last week of this course.</p>
 <p align="center" width="100%">
 <img src="./images/image004.png?raw=true"
   width="15%"
-  alt="" />
+  alt="." />
 </p>
 
 <li>Whilst practicing and improving your recipe project (or else) with
@@ -137,7 +137,7 @@ layout your page during the last week of this course.</p>
 <p align="center" width="100%">
 <img src="./images/image005.png?raw=true"
   width="50%"
-  alt="W3C Cheat Sheet" />
+  alt="W3C Cheat Sheet." />
 </p>
 
 <li>In <b>Module 5</b>, you will be combining HTML and CSS to create more
@@ -151,7 +151,7 @@ layout your page during the last week of this course.</p>
 <p align="center" width="100%">
 <img src="./images/image006.png?raw=true"
   width="65%"
-  alt="Can I Use: CSS Colors" />
+  alt="Can I Use: CSS Colors." />
 </p>
 
 <li><b>Module 6</b> is about page layout and more specifically about
@@ -300,7 +300,7 @@ Here's an interesting article on what beginners can do with CodePen: <a href="h
 <p align="center" width="100%">
 <img src="./images/image004.png?raw=true"
   width="15%"
-  alt="Laptop" />
+  alt="Laptop." />
 </p>
 
 <h3>Unicorn</h3>
@@ -344,7 +344,7 @@ internationalization tips.
 <p align="center" width="100%">
 <img src="./images/image005.png?raw=true"
   width="50%"
-  alt="W3C Cheat Sheet" />
+  alt="W3C Cheat Sheet." />
 </p>
 
 Its main feature is a lookup search box, where one can start typing a keyword and get a list of matching properties/elements/ attributes/functions in the above-mentioned specifications, and further details on those when selecting the one of interest.
@@ -390,7 +390,7 @@ is a snapshot of what information is given by CanIUse when searching for
 <p align="center" width="100%">
 <img src="./images/image006.png?raw=true"
   width="65%"
-  alt="Example of a CanIUse browser support table (using CSS3 colors)" />
+  alt="Example of a CanIUse browser support table (using CSS3 colors)." />
 </p>
 
 <h3>MDN Web Docs</h3>
@@ -401,7 +401,7 @@ is a snapshot of what information is given by CanIUse when searching for
 <p align="center" width="100%">
 <img src="./images/image007.png?raw=true"
   width="35%"
-  alt="MDN Web Docs logo" />
+  alt="MDN Web Docs logo." />
 </p>
 
 To help developers make these decisions consciously rather than
@@ -421,7 +421,6 @@ exactly which browsers will support it.
 <!------------------------------------------------------------------------------------------------>
 <h3 id="cha-1">What is W3C?</h3>
 <!------------------------------------------------------------------------------------------------>
-
 <h4>As steward of global Web standards, W3C's mission is to safeguard the openness, accessibility, and freedom of the World Wide Web from a technical perspective.</h4>
 
 W3C's primary activity is to develop protocols and guidelines that
@@ -436,7 +435,7 @@ define key parts of what actually makes the World Wide Web work.
 <p align="center" width="100%">
 <img src="./images/image008.jpeg?raw=true"
   width="35%"
-  alt="Tim Berners-Lee at his desk in CERN, 1994" />
+  alt="Tim Berners-Lee at his desk in CERN, 1994." />
 </p>
 <h6 align="center">Tim Berners-Lee at his desk in CERN, 1994</h6>
 
@@ -515,7 +514,6 @@ for more details about the difference between Internet and the Web.
 <!------------------------------------------------------------------------------------------------>
 <h2 id="ch1">Welcome to Module 1</h2>
 <!------------------------------------------------------------------------------------------------>
-
 Hello everyone! Welcome to Module 1 of the introduction to HTML5 and CSS
 course.
 
@@ -540,7 +538,6 @@ With that, let's jump right in.
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-1-2">1.1.2 Module 1 – Content</h3>
 <!------------------------------------------------------------------------------------------------>
-
 <b>1.1 Introduction:</b> A video that introduces the content of Module 1.
 
 <b>1.2 The big three:</b> Learn about the basic tools you will use to code
@@ -572,7 +569,7 @@ as 'vague but exciting'.
 <p align="center" width="100%">
 <img src="./images/image009.gif?raw=true"
   width="85%"
-  alt="Network of Components" />
+  alt="Network of Components." />
 </p>
 
 Sir Tim Berners-Lee’s vision for universality enabled the development of
@@ -615,7 +612,7 @@ interact with all the information on the World Wide Web.
 <p align="center" width="100%">
 <img src="./images/image010.png?raw=true"
   width="15%"
-  alt="HTML5 logo" />
+  alt="HTML5 logo." />
 </p>
 
 When people say 'HTML5', they usually mean a bit more than just the 5th
@@ -672,7 +669,6 @@ is an important leg of the stool for modern Web pages.
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-2-3">1.2.3 Hypertext</h3>
 <!------------------------------------------------------------------------------------------------>
-
 A fundamental key to the World Wide Web is the concept of "<i>Hypertext</i>".
  Hypertext is built on the idea of linking information together, not
 unlike using footnotes, except much easier and more flexible. The idea
@@ -711,7 +707,6 @@ information was navigated by a new tool called a "Browser".
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-2-4">1.2.4 The Browser</h3>
 <!------------------------------------------------------------------------------------------------>
-
 The Internet existed long before the Web came to fruition, and lots of
 organizations were connected to it, including schools, companies and
 government organizations.  As things progressed through the 80s, the
@@ -756,7 +751,6 @@ most modern browsers.
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-2-5">1.2.5 Activity – Explore the Web</h3>
 <!------------------------------------------------------------------------------------------------>
-
 <h4>Exploring the Web, "Then and Now":</h4>
 <ul>
   <li>Go to <a href="https://archive.org/" target="_blank">archive.org</a> and find the earliest
@@ -772,7 +766,6 @@ most modern browsers.
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-3-1">1.3.1 Putting the “M” in HTML</h3>
 <!------------------------------------------------------------------------------------------------>
-
 The "M" in HTML stands for "Markup", but what does Markup really
 mean?  Essentially, it means to annotate a document with extra
 information. Things like where different sections and paragraphs begin
@@ -838,12 +831,9 @@ simple "Hello HTML" program. Please choose any Web editor of your liking
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-3-2">1.3.2 Programming “Hello HTML”</h3>
 <!------------------------------------------------------------------------------------------------>
-<p>
-You can build and edit your HTML pages by either using online editors or editors that you can install on your machine, like Visual Studio Code.</p>
-
+<p>You can build and edit your HTML pages by either using online editors or editors that you can install on your machine, like Visual Studio Code.</p>
 <h4>Using online editors:</h4>
-<p>
-Both <a href="https://jsbin.com" target="_blank">JSBin</a> and <a href="https://codepen.io/" target="_blank">CodePen</a> are two online editors that you can use to create HTML Web pages.
+<p>Both <a href="https://jsbin.com" target="_blank">JSBin</a> and <a href="https://codepen.io/" target="_blank">CodePen</a> are two online editors that you can use to create HTML Web pages.
 The following two videos show you how to create your first HTML page using <a href="https://jsbin.com" target="_blank">JSBin</a>.
 
 And this time, what I'd like to show you a very simple HTML file that I've created.
@@ -977,8 +967,7 @@ And you can see an "Editor" opens up, and it has a HTML Pane, A CSS Pane, a Java
   width="85%"
   alt="Example editor." />
 </p>
-<p>
-We won't go into the code in this example.
+<p>We won't go into the code in this example.
 
 But you can see that this is a live preview of what's being shown here
 from the code out down here below in the Output window.
@@ -1506,12 +1495,10 @@ like this, based on the various tags that we've used.
 Now we have only used a tiny fraction of the HTML elements and tags that
 are available to you.
 
-But hopefully this shows you, just how easy it is to get started.
-
+But hopefully this shows you, just how easy it is to get started.</p>
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-3-3">1.3.3 Elements</h3>
 <!------------------------------------------------------------------------------------------------>
-
 If you are sitting at a coffee shop next to a table of Web developers,
 you will probably hear three words quite a bit:  'Tags', 'Attributes'
 and 'Elements' (or sometimes 'DOM elements', same thing just more
@@ -1551,18 +1538,16 @@ children, but for our purpose this is enough.
 
 That may be a great picture, but how do we represent such a structure in
 a text file?  Well, that's where "tags" come in.
-
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-3-4">1.3.4 Tags</h3>
 <!------------------------------------------------------------------------------------------------>
-
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------------- 16. tags (35) ----------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image016.png?raw=true"
   width="25%"
-  alt="Tags" />
+  alt="Tags." />
 </p>
 
 'Tags' are what we use to organize a text file (which is just a long
@@ -1633,7 +1618,6 @@ declared in an "attribute".
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-3-5">1.3.5 Comments</h3>
 <!------------------------------------------------------------------------------------------------>
-
 Computers are great at reading computer languages, but it's not always
 easy for humans.  Comments are a way of adding some text that is
 primarily targeted towards human readers.
@@ -1699,7 +1683,6 @@ good time.
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-3-6">1.3.6 Attributes</h3>
 <!------------------------------------------------------------------------------------------------>
-
 Most of what we'll cover about attributes will come later, but I wanted
 to introduce the idea briefly. Basically, a given element on your Web
 page can be distinguished by any number of unique or common attributes.
@@ -1734,7 +1717,6 @@ But more about attributes in the next module.
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-3-7">1.3.7 All Together Now</h3>
 <!------------------------------------------------------------------------------------------------>
-
 One key to understanding HTML, or any computer language, is to be sure
 that you avoid ambiguity, because computers generally are not good at
 judgement calls. For example, you could streamline HTML so that whenever
@@ -1869,7 +1851,6 @@ above. Try inserting a paragraph into the body of your new document.
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-4-1">1.4.1 Character Encoding</h3>
 <!------------------------------------------------------------------------------------------------>
-
 <p>A character can be any letter, digit or symbol that makes up words and
 languages. English alphabets and digits 'a-z', 'A-Z', '0-9' are all
 considered characters. Other examples of characters include the Latin
@@ -1922,11 +1903,9 @@ editor saves the file in UTF-8</b> also. Most editors will do that these
 days, but you should check.
 
 Read an <a href="https://www.w3.org/International/getting-started/characters">Introduction to character sets and encodings here</a>.</p>
-
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-4-2">1.4.2 The &lt;meta&gt; tag</h3>
 <!------------------------------------------------------------------------------------------------>
-
 <p>Use the &lt;meta&gt; tag with the charset attribute in your HTML page to
 indicate to the browser the character encoding you will be using in the
 page.</p>
@@ -1966,7 +1945,6 @@ W3C recommends placing it immediately after the opening &lt;head&gt; tag:</p>
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-4-3">1.4.3 HTML Character References</h3>
 <!------------------------------------------------------------------------------------------------>
-
 <h4>Why we need character references</h4>
 
 <p>Before we learn what HTML character references are, let's look at how
@@ -10003,7 +9981,7 @@ the CodePen below:
 <p align="center" width="100%">
 <img src="./images/image084.png"
   style="width:4.96875in;height:2.73958in" 
-  alt="Margins, padding and borders on my favorite recipes web site./>
+  alt="Margins, padding and borders on my favorite recipes web site."/>
 </p>
 
 <h4>CSS:</h4>
@@ -10134,7 +10112,7 @@ Pizza, the king of comfort foods. Try this simple, taste sensation.
 <p align="center" width="100%">
 <img src="./images/image085.png"
   style="width:3in;height:3.27103in"
-  alt="More HTML5 and CSS3./>
+  alt="More HTML5 and CSS3."/>
 </p>
 
 <!------------------------------------------------------------------------------------------------>
@@ -10164,7 +10142,6 @@ for cleaner, easier coding.
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-1-3">5.1.3 A World of Possibilities</h3>
 <!------------------------------------------------------------------------------------------------>
-
 In Module 1, we learned the basics of HTML5. It's a fairly simple
 format, just a tree full of elements, which are described by tags,
 attributes, and the content inside the tags; the rest is details.
@@ -10181,7 +10158,6 @@ into some of those interesting possibilities. 
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-2-1">5.2.1 Introduction to Tables</h3>
 <!------------------------------------------------------------------------------------------------>
-
 Using tables to organize information goes back a way.  A long way. Three
 or four thousand years ago, Sumerians were using [tables to calculate
 compound interest](http://www.storyofmathematics.com/sumerian.html).
@@ -10355,7 +10331,7 @@ The content of table header cells is bold and centered by default.
 <p align="center" width="100%">
 <img src="./images/image087.png"
   style="width:4in;height:2.54315in"
-  alt="Table Cells are either header or standard./>
+  alt="Table Cells are either header or standard."/>
 </p>
 
 <details>
@@ -10387,7 +10363,7 @@ The content of table header cells is bold and centered by default.
 <p align="center" width="100%">
 <img src="./images/image088.png"
   style="width:6.5in;height:3.03681in"
-  alt="Table attributes for 'th' along with purpose and usage./>
+  alt="Table attributes for 'th' along with purpose and usage."/>
 </p>
 
 <h4>&lt;td&gt;</h4>
@@ -10502,11 +10478,10 @@ achieve styling effects specific to a column. 
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-2-3">5.2.3 The &lt;thead&gt;, &lt;tbody&gt; and &lt;tfoot&gt; tags</h3>
 <!------------------------------------------------------------------------------------------------>
-
 Similar to an HTML document, a table in HTML can be split into header,
 body and footer. We use these three tags;
 <ul>
-<li>&lt;thead&gt;, &lt;tbody&gt; and &lt;tfoot&gt; - to specify parts of a table.</li>
+  <li>&lt;thead&gt;, &lt;tbody&gt; and &lt;tfoot&gt; - to specify parts of a table.</li>
 </ul>
 
 It is very useful to define parts of a table as header, body and footer
@@ -10636,7 +10611,6 @@ considered footer rows at the end of a table:
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-2-4">5.2.4 Styling your table</h3>
 <!------------------------------------------------------------------------------------------------>
-
 We now know how to put a basic table together. However, the tables we
 have looked at so far could really use some work in terms of how they
 look.
@@ -11627,7 +11601,6 @@ Concepts</a> page.
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-2-5">5.2.5 Creating a Table</h3>
 <!------------------------------------------------------------------------------------------------>
-
 Let's take a look at how to work with tables and manipulate the table
 styling within an HTML document.
 
@@ -11988,7 +11961,6 @@ little more visually appealing inside your document.
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-2-6">5.2.6 Activities - Tables</h3>
 <!------------------------------------------------------------------------------------------------>
-
 1.  Create a simple 3x3 table with the first row containing header
     cells. You may choose not to add any styling including border. 
 
@@ -12026,7 +11998,6 @@ little more visually appealing inside your document.
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-3-1">5.3.1 The &lt;audio&gt; element</h3>
 <!------------------------------------------------------------------------------------------------>
-
 audio and video are new HTML 5 elements that were highly anticipated.
 With HTML5 support for multimedia, this has become much easier, than
 previous methods. 
@@ -12153,7 +12124,7 @@ to play .wav, failed and played the .mp3 version instead. 
 The following table lists the &lt;source&gt; element's attributes:
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------- 105. source element attributes (251) ---------------------------->
+<!---------------------------- 105. source element attributes (251) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image105.png?raw=true"
@@ -12163,7 +12134,6 @@ The following table lists the &lt;source&gt; element's attributes:
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-3-2">5.3.2 The &lt;video&gt; Element</h3>
 <!------------------------------------------------------------------------------------------------>
-
 You can use the video element to embed video in your page. You can
 specify the location of your video file using the src attribute
 or source element (for multiple source files). 
@@ -12284,7 +12254,6 @@ to choose apart from video element and browser compatibility:
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-3-3">5.3.3 Video – Source and Track Elements</h3>
 <!------------------------------------------------------------------------------------------------>
-
 The source element that we saw in the previous unit is also used to
 specify multiple source files for the video element. The &lt;source&gt; tag
 is self-closing and so does not require a closing tag.
@@ -12368,7 +12337,6 @@ your &lt;video&gt; tag like this:
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-4-1">5.4.1 The iframes tag (OPTIONAL)</h3>
 <!------------------------------------------------------------------------------------------------>
-
 <i><b>Note:</b> This section is optional material included for the curious.
 It will not appear on any graded question.</i>
 
@@ -12524,7 +12492,6 @@ However, there can be some disadvantages:
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-4-2">5.4.2 The ismap and usemap attributes (OPTIONAL)</h3>
 <!------------------------------------------------------------------------------------------------>
-
 <b>Note:</b> This section is optional material included for the curious.
 It will not appear on any graded question.
 
@@ -13216,7 +13183,6 @@ next module. Here is a quick rundown:
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-5-4">5.5.4 Pseudo classes and cursor (OPTIONAL)</h3>
 <!------------------------------------------------------------------------------------------------>
-
 <h4>Refined CSS selectors - pseudo classes</h4>
 
 If you have a page with some links on it, and you look at them
@@ -13344,7 +13310,6 @@ cursor](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor).
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-5-5">5.5.5 CSS best practices (OPTIONAL)</h3>
 <!------------------------------------------------------------------------------------------------>
-
 You will find below an excerpt of CSS best practices (see the [full
 slide
 set](https://fantasai.inkedblade.net/style/talks/best-practices/#title#title))
@@ -13509,7 +13474,6 @@ Absolute units are usually the wrong answer.
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-5-6">5.5.6 Recipe project - Module 5</h3>
 <!------------------------------------------------------------------------------------------------>
-
 Let's up some of our code, as well as improve the look and feel of our
 Web page! Try moving all of your CSS code to a separate file (don't
 forget to link to it).
@@ -13716,7 +13680,6 @@ more visual appeal to that.
 <!------------------------------------------------------------------------------------------------>
 <h2 id="ch6">Welcome to Module 6</h2>
 <!------------------------------------------------------------------------------------------------>
-
 Hi, and welcome to Module 6.
 
 In this module, we're going to be looking at CSS Layout.
@@ -13741,7 +13704,6 @@ and ready to build great Web pages.
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch6-1-2">6.1.2 Module 6 - Content</h3>
 <!------------------------------------------------------------------------------------------------>
-
 <b>6.1 Introduction:</b> Understanding what "layout" means to your Web
 programming.
 
@@ -13767,7 +13729,6 @@ page look good on differently sized devices.
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch6-1-3">6.1.3 History of layout</h3>
 <!------------------------------------------------------------------------------------------------>
-
 Before we get started working on the topic of layout directly, it is
 useful to understand a bit of HTML and CSS history.  
 
@@ -13820,7 +13781,6 @@ brings sanity to the much needed world of layout in CSS.
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch6-2-1">6.2.1 Text baseline and the display property</h3>
 <!------------------------------------------------------------------------------------------------>
-
 When newbie developers are groping around CSS blindly, they often
 stumble upon a variety of CSS properties that could be used to alter the
 positioning or size of an element such as left, top, and margin.
@@ -14034,7 +13994,6 @@ the differences between block, inline, and inline-block display.
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch6-2-2">6.2.2 Horizontal and vertical centering</h3>
 <!------------------------------------------------------------------------------------------------>
-
 <b>Horizontal centering</b>
 
 Now that we've covered inline versus block display, we can intelligently
@@ -14109,7 +14068,6 @@ answer to vertical centering: use flexbox. 
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch6-2-3">6.2.3 Key concept: position property</h3>
 <!------------------------------------------------------------------------------------------------>
-
 The 'left', 'top', 'right', and 'bottom' properties
 
 In CSS, there are four properties which can be used to adjust or set the
@@ -14235,7 +14193,6 @@ feature is only available to fixed (and absolute) elements.
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch6-2-4">6.2.4 Positioning (OPTIONAL)</h3>
 <!------------------------------------------------------------------------------------------------>
-
 <b>Note:</b> This section is optional material included for the curious. It
 will not appear on any graded question.
 
@@ -14653,7 +14610,6 @@ Play some more with the elements, trying to appreciate how block and inline elem
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch6-3-1">6.3.1 Sizing and dimensions</h3>
 <!------------------------------------------------------------------------------------------------>
-
 We have already touched on the size properties in the various
 discussions about display and positioning. But here we'll cover them
 properly and add a few more.
@@ -14865,7 +14821,6 @@ be border-box.  
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch6-3-2">6.3.2 Flexbox</h3>
 <!------------------------------------------------------------------------------------------------>
-
 Up to this point, we have covered quite a few different CSS layout
 concepts. Inline vs. block level display, different position values,
 various positioning properties, six different sizing properties, plus
@@ -14911,7 +14866,7 @@ to help visualize.
 <p align="center" width="100%">
 <img src="./images/image151.png?raw=true"
   width="100%"
-  alt="Flex Container and Flex Columns" />
+  alt="Flex Container and Flex Columns." />
 </p>
 
 <h4>flex container</h4>
@@ -15075,7 +15030,6 @@ the flex-shrink discussion above.  
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch6-3-3">6.3.3 Flexbox advice and best practices</h3>
 <!------------------------------------------------------------------------------------------------>
-
 Here are some quick tips to help you get the most out of flexbox.
 
 <h4>Remember the minimum</h4>
@@ -15159,8 +15113,11 @@ in this course material, and, as with all CSS, be sure to always test in
 as many browsers as possible.
 
 <h4>External resources</h4>
-<li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox" target="_blank">Flexbox documentation</a> on MDN (available in many languages!)
-<li><a href="https://www.smashingmagazine.com/2018/08/flexbox-display-flex-container/" target="_blank">What Happens When You Create A Flexbox Flex Container?</a> (by Rachel Andrew - 2 August 2018)
+<ul>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox" target="_blank">Flexbox documentation</a> 
+  on MDN (available in many languages!)</li>
+  <li><a href="https://www.smashingmagazine.com/2018/08/flexbox-display-flex-container/" target="_blank">What Happens When You Create A Flexbox Flex Container?</a>
+  (by Rachel Andrew - 2 August 2018)</li>
 </ul>
 
 <!------------------------------------------------------------------------------------------------>
@@ -15274,7 +15231,6 @@ to the "cross start" and "cross end"  sides.
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch6-4-2">6.4.2 Justification and alignment</h3>
 <!------------------------------------------------------------------------------------------------>
-
 <b>Note</b>: This material is included for completeness. However, many are
 able to use flexbox satisfactorily without it. None of the material here
 will appear in any graded question.
@@ -15316,7 +15272,7 @@ options for a flexbox container with flex-flow:row;
 <p align="center" width="100%">
 <img src="./images/image171.png?raw=true"
   width="100%"
-  alt="Justification Options for a Flexbox container with Flex-Flow" />
+  alt="Justification Options for a Flexbox container with Flex-Flow." />
 </p>
 
 If the flex-direction were row-reverse, then the only thing to change in
@@ -15365,7 +15321,7 @@ you can see how they align to each other.
 <p align="center" width="100%">
 <img src="./images/image172.png?raw=true"
   width="65%"
-  alt="Line Height and Align Items #1" />
+  alt="Line Height and Align Items #1." />
 </p>
 
 <!------------------------------------------------------------------------------------------------>
@@ -15374,7 +15330,7 @@ you can see how they align to each other.
 <p align="center" width="100%">
 <img src="./images/image173.png?raw=true"
   width="65%"
-  alt="Line Height and Align Items #2" />
+  alt="Line Height and Align Items #2." />
 </p>
 
 <h4>align-content</h4>
@@ -15399,7 +15355,7 @@ than the height of any of the items.
 <p align="center" width="100%">
 <img src="./images/image174.png?raw=true"
   width="65%"
-  alt="Flexbox and Flex Item Align #1" />
+  alt="Flexbox and Flex Item Align #1." />
 </p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 175. flexbox and flex items align #2 (340) --------------------------->
@@ -15407,7 +15363,7 @@ than the height of any of the items.
 <p align="center" width="100%">
 <img src="./images/image175.png?raw=true"
   width="65%"
-  alt="Flexbox and Flex Item Align #2" />
+  alt="Flexbox and Flex Item Align #2." />
 </p>
 
 <h4>align-self</h4>
@@ -15444,7 +15400,6 @@ their align-self property set.
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch6-4-3">6.4.3 Order</h3>
 <!------------------------------------------------------------------------------------------------>
-
 <b>Note</b>: This material is included for completeness. However, many are
 able to use flexbox satisfactorily without it. None of the material here
 will appear in any graded question.
@@ -15482,7 +15437,6 @@ the order value of 1, the second is 2, etc.  And you can override it.
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch6-4-4">6.4.4 Flexbox resources</h3>
 <!------------------------------------------------------------------------------------------------>
-
 <h4>CSS flexbox resources</h4>
 
 <ul>
@@ -15495,7 +15449,6 @@ the order value of 1, the second is 2, etc.  And you can override it.
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch6-5-1">6.5.1 CSS Grid Layout</h3>
 <!------------------------------------------------------------------------------------------------>
-
 Have a look at how CSS Grid Layout went from an idea to a reality. The short video below has been shot in August 2017 by the Microsoft team. It features some of the CSS Working Group participants:
 The web has always been traditionally very document-centric.
 People have always been asking for better layouts. 
@@ -15536,7 +15489,6 @@ The grid is something we should have had, probably from very early on, maybe fro
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch6-5-2">6.5.2 CSS Grid</h3>
 <!------------------------------------------------------------------------------------------------>
-
 Have a look at how CSS Grid Layout went from an idea to a reality. The
 video below has been shot in August 2017 by the Microsoft team. It
 features some of the <a href="https://courses.edx.org/courses/course-v1:W3Cx+CSS.0x+3T2017/courseware/12e8f1585d88470e95f54cf0ff6a1a00/6c9058a29dc5493fbb43332c6bc3b550/4?activate_block_id=block-v1%3AW3Cx%2BCSS.0x%2B3T2017%2Btype%40vertical%2Bblock%40beac75cf51c34b51a0ac0f6e5fad70cc" target="_blank">CSS Working Group
@@ -15614,7 +15566,6 @@ But only recently has technology become good enough to support some (not all!) o
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch6-5-3">6.5.3 CSS Grid resources</h3>
 <!------------------------------------------------------------------------------------------------>
-
 If you look at the CSS Grid module, you may notice that it has rather a
 large number of properties. 
 
@@ -15635,7 +15586,6 @@ On the other hand, even for a single row or column, the Grid properties may turn
    <li><a href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank">A complete guide to Grid</a> (CSS Tricks) - <i>updated 10 March 2021</i></li>
    <li><a href="https://www.w3.org/TR/css-grid-1/" target="_blank">CSS Grid</a>, the W3C specification -   <a href="https://gridbyexample.com/" target="_blank">Grid by example</a>: this site is a collection of <i>examples</i>, video and other information to help you learn CSS <i>Grid Layout - by Rachel Andrew</i>.</li>
 </ul>
-
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch6-6-1">6.6.1 Recipe project - Module 6</h3>
 <!------------------------------------------------------------------------------------------------>
