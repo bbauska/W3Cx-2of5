@@ -4659,7 +4659,7 @@ then ignore this content.</p>
 </ul>
 
 <p>Depending on the category the image fits into, the alt text differs.
-This W3C <a target="_blank" href="https://www.w3.org/WAI/tutorials/images/">WAI images
+This W3C <a target="_blank" rel="noopener noreferrer" href="https://www.w3.org/WAI/tutorials/images/">WAI images
 Tutorial</a> is an excellent resource for deciding the category of your
 image and for learning how to write proper alt text for that
 category.</p>
@@ -4757,7 +4757,7 @@ following too:</p>
 </code></pre>
 
 <p>The use of these attributes really depends on how you are using the
-image. If it is part of an <a target="_blank" 
+image. If it is part of an <a target="_blank" rel="noopener noreferrer" 
 href="https://www.imagely.com/wp-content/uploads/2013/03/adding-functionality-justified-image-grid-03.png">image
 grid</a> or a list with multiple images of the same size, it is best
 achieved by CSS. So you don’t have to bother adding the same dimensions
@@ -4985,7 +4985,7 @@ care!</p>
 </ol>
 
 <p>Use the alt attribute to provide alternate text for the images above.<br>
-Refer to the <a href="https://www.w3.org/WAI/tutorials/images/" target="_blank">WAI
+Refer to the <a href="https://www.w3.org/WAI/tutorials/images/" target="_blank" rel="noopener noreferrer">WAI
 images Tutorial</a> for a guide to writing alternate text.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-5-1">2.5.1 Introduction</h3>
@@ -4993,23 +4993,23 @@ images Tutorial</a> for a guide to writing alternate text.</p>
 <h4>What are hyperlinks?</h4>
 
 <p>In a typical Web page, you may well have seen a sentence like this one:</p>
-<p><b><a href="https://en.wikipedia.org/wiki/Hyperlink" target="_blank">Find
+<p><b><a href="https://en.wikipedia.org/wiki/Hyperlink" target="_blank" rel="noopener noreferrer">Find
 out more</a> about our offers!</b></p>
 <p>Or something like this:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 45. buy now button to illustrate hyperlink (116) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<a href="https://en.wikipedia.org/wiki/Hyperlink" target="_blank">
-
+<a href="https://en.wikipedia.org/wiki/Hyperlink" target="_blank" rel="noopener noreferrer">
 <img class="displayed"
   src="./images/image045.png?raw=true"
   alt="Buy now button to illustrate hyperlink." 
   style="width:50%;" />
+</a>
 
 <p>Try clicking the blue text or the ‘Buy Now!’ button, if you haven’t
 already (make sure to navigate back to the course).</p>
-A hyperlink is any text or image that takes you to another place. This
-can be:
+<p>A hyperlink is any text or image that takes you to another place. This
+can be:</p>
 
 <ul>
   <li>Another Web page: e.g. the hyperlinks wiki page at https://en.wikipedia.org/wiki/Hyperlink</li>
@@ -5051,11 +5051,10 @@ can be:
 called the<b> anchor element</b>. Here is how it is used:</p>
 
 <pre><code>
-&lt;a href=&quot;https://en.wikipedia.org/wiki/Hyperlink&quot; target=&quot;_blank&quot;&gt;Click
-   here&lt;/a&gt; to go to the Wikipedia Hyperlink page.
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Hyperlink&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Click here&lt;/a&gt; to go to the Wikipedia Hyperlink page.
 </code></pre>
 
-<p>Result: <a href="https://en.wikipedia.org/wiki/Hyperlink" target="_blank">Click
+<p>Result: <a href="https://en.wikipedia.org/wiki/Hyperlink" target="_blank" rel="noopener noreferrer">Click
 here</a> to go to the Wikipedia Hyperlink page.<br>
 <br>Note: The anchor element should not be confused with the &lt;link&gt; tag. The &lt;link&gt; tag is used to define a link between a document and an external resource like an external style sheet. You will learn more about the &lt;link&gt; tag in the next chapter.</p>
 
@@ -5081,9 +5080,9 @@ here</a> to go to the Wikipedia Hyperlink page.<br>
 
 <pre><code>
 <!-- Text in a hyperlink-->
-<a target="_blank" href="https://www.qwant.com/">If you click on me, I will take you to qwant.com</a>
+<a target="_blank"  rel="noopener noreferrer" href="https://www.qwant.com/">If you click on me, I will take you to qwant.com</a>
 <!-- Paragraph in a hyperlink-->
-<a target="_blank" href="https://www.qwant.com/"><p>If you click on me, I will take you to qwant.com</p></a>
+<a target="_blank"  rel="noopener noreferrer" href="https://www.qwant.com/"><p>If you click on me, I will take you to qwant.com</p></a>
 <!-- Image in a hyperlink-->
 <a target="_blank" rel="noopener noreferrer" href="https://www.qwant.com/"><img src="images/qwant-image.png" alt="Image navigating to Qwant";></a>
 </code></pre>
@@ -6406,7 +6405,7 @@ everything */
 
 <p>Note: there are other properties that can help customize the text
 decoration, such as text-decoration-color and text-decoration-style, but
-they are not well supported across browsers (see <a target="_blank" 
+they are not well supported across browsers (see <a target="_blank" rel="noopener noreferrer" 
 href="https://caniuse.com/#search=text-decoration">related caniuse
 table</a>)</p>
 
@@ -6606,7 +6605,7 @@ example, 0.5 ).</p>
 p { color: #3A2BFF; }
 </code></pre>
 
-<p>Quicker than the lengthy rgb() function is simply providing an <a target="_blank" 
+<p>Quicker than the lengthy rgb() function is simply providing an <a target="_blank" rel="noopener noreferrer" 
 href="https://en.wikipedia.org/wiki/Hexadecimal">hexadecimal (hex)
 code</a>. This always starts with the pound sign (#) and is followed by
 three pairs of hex number, ranging 00 to FF. Constructing rgb
@@ -6736,7 +6735,7 @@ few that you might find helpful.</p>
 <ul>
   <li><p>This CSS Tricks article from March 2016: “<a target="_blank" rel="noopener noreferrer" href="https://css-tricks.com/rem-global-em-local/">Use  for Global Sizing; Use  for Local Sizing</a>”</p></li>
   <li><p><a target="_blank" rel="noopener noreferrer" href="https://www.cssmine.com/css3-units">New CSS3 Units: Root EM and Viewport Units</a></p></li>
-  <li><p>From the W3C specification: <a target="_blank" href="https://www.w3.org/TR/css3-values/#viewport-relative-lengths">Viewport-percentage lengths</a></p></li>
+  <li><p>From the W3C specification: <a target="_blank" rel="noopener noreferrer" href="https://www.w3.org/TR/css3-values/#viewport-relative-lengths">Viewport-percentage lengths</a></p></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-3-4">3.3.4 Accessible Typography</h3>
@@ -7333,7 +7332,7 @@ is the result:</p>
 <p align="left">
 Welcome to <a target="_blank" rel="noopener noreferrer" 
 href="https://courses.edx.org/xblock/block-v1:W3Cx+HTML5.0x+3T2020+type@vertical+block@a45bbd47f6184286ab951aee1ba7fe0f?show_title=0&amp;show_bookmark_button=0&amp;recheck_access=1&amp;view=student_view#palaceland">PalaceLand</a>,
-world renown Land of endless palaces and <a target="_blank" 
+world renown Land of endless palaces and <a target="_blank" rel="noopener noreferrer" 
 href="https://courses.edx.org/xblock/block-v1:W3Cx+HTML5.0x+3T2020+type@vertical+block@a45bbd47f6184286ab951aee1ba7fe0f?show_title=0&amp;show_bookmark_button=0&amp;recheck_access=1&amp;view=student_view#delight">delights</a>.
 As you make your way about, remember the words of our founder
 </p>
@@ -7341,11 +7340,11 @@ As you make your way about, remember the words of our founder
 Shouldn’t we have <a target="_blank" rel="noopener noreferrer" 
 href="https://courses.edx.org/xblock/block-v1:W3Cx+HTML5.0x+3T2020+type@vertical+block@a45bbd47f6184286ab951aee1ba7fe0f?show_title=0&amp;show_bookmark_button=0&amp;recheck_access=1&amp;view=student_view#chairs">chairs</a>?
 Never made much sense wandering room a room looking for a place to sit a
-spell. Folk that don’t sit are not likely all right in the <a target="_blank" 
+spell. Folk that don’t sit are not likely all right in the <a target="_blank" rel="noopener noreferrer"  
 href="https://courses.edx.org/xblock/block-v1:W3Cx+HTML5.0x+3T2020+type@vertical+block@a45bbd47f6184286ab951aee1ba7fe0f?show_title=0&amp;show_bookmark_button=0&amp;recheck_access=1&amp;view=student_view#head">head</a>
 </p align="left">
 <p>
-There are guidelines to follow while in <a target="_blank" 
+There are guidelines to follow while in <a target="_blank" rel="noopener noreferrer" 
 href="https://courses.edx.org/xblock/block-v1:W3Cx+HTML5.0x+3T2020+type@vertical+block@a45bbd47f6184286ab951aee1ba7fe0f?show_title=0&amp;show_bookmark_button=0&amp;recheck_access=1&amp;view=student_view#palaceland">PalaceLand</a>.
 They are outlined on the back of your Daring Footman <a target="_blank" rel="noopener noreferrer" 
 href="https://courses.edx.org/xblock/block-v1:W3Cx+HTML5.0x+3T2020+type@vertical+block@a45bbd47f6184286ab951aee1ba7fe0f?show_title=0&amp;show_bookmark_button=0&amp;recheck_access=1&amp;view=student_view#trademark">(tm)</a> card.
@@ -7445,7 +7444,7 @@ that in the result, the font-family is applied to all the
 children, while the padding is only applied to the paragraph itself,
 none of its children inherit the padding.</p>
 
-<!---
+<!--
 <details>
   <summary>HTML</summary>
 html5 
@@ -7788,7 +7787,7 @@ possible.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-4-8">3.4.8 Recipe</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p><a target="_blank" rel="noopener noreferrer"  href=https://learning.edx.org/course/course-v1:W3Cx+HTML5.0x+1T2022/block-v1:W3Cx+HTML5.0x+1T2022+type@sequential+block@0045398377b14c60b9a3820ead6441d6/block-v1:W3Cx+HTML5.0x+1T2022+type@vertical+block@a40220f07c494fb88d47047b8c6d20bc,target=”_blank”>Go
+<p><a target="_blank" rel="noopener noreferrer" href=https://learning.edx.org/course/course-v1:W3Cx+HTML5.0x+1T2022/block-v1:W3Cx+HTML5.0x+1T2022+type@sequential+block@0045398377b14c60b9a3820ead6441d6/block-v1:W3Cx+HTML5.0x+1T2022+type@vertical+block@a40220f07c494fb88d47047b8c6d20bc,target=”_blank”>Go
 Here</a></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 57. my favorite recipe; soup, salad, pizza (170) ~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7923,7 +7922,7 @@ activated when you “Inspect Element”.</p>
 
 <p>While it’s important that your page looks and acts the way you
 intend, there are other considerations as well. One important aspect is
-“<a target="_blank" 
+“<a target="_blank" rel="noopener noreferrer" 
 href="https://www.w3.org/WAI/intro/accessibility.php">accessibility</a>”.
 When talking about Web pages, accessibility means designing your page
 with various disabilities in mind. For example, for someone with
@@ -7936,7 +7935,7 @@ benefit for many users.</p>
 the accessibility of your site.  You can evaluate the overall
 accessibility of your page, see how it looks to a screenreader and even
 figure out how well your background a foreground colors interact.  For a
-good list of such tools, check out  <a target="_blank" 
+good list of such tools, check out  <a target="_blank" rel="noopener noreferrer" 
 href="https://www.w3.org/WAI/ER/tools/">Web Accessibility Evaluations
 Tools List</a>.</p>
 
@@ -8558,7 +8557,7 @@ font-size:1.2rem;
 <h3 id="ch4-4-3">4.4.3 Cloud images</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>We’re working on a Web page about clouds in
-the <a href="https://codepen.io/w3devcampus/pen/ybqbwJ" target="_blank">CodePen</a> below,
+the <a href="https://codepen.io/w3devcampus/pen/ybqbwJ" target="_blank" rel="noopener noreferrer">CodePen</a> below,
 and we have some beautiful pictures we’d like to use: one for the top of
 the page, and others as examples of different types of clouds.
  We include the pictures but the result is unwieldy:</p>
@@ -8786,7 +8785,7 @@ src=&quot;https://www.weather.gov/images/jetstream/clouds/st.jpg&quot;&gt;&lt;/l
 <h3 id="ch4-4-4">4.4.4 Shrinking Text</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>For this section you can play with
-the <a href="http://codepen.io/w3devcampus/pen/wdxegK" target="_blank">CodePen</a> below.
+the <a href="http://codepen.io/w3devcampus/pen/wdxegK" target="_blank" rel="noopener noreferrer">CodePen</a> below.
 The main content is an outline for an essay and it should look something
 like this:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9072,21 +9071,21 @@ the CodePen below:</p>
   <summary>HTML code extact!</summary>
   
 <pre><code>
- nav {
-background: aliceblue;
-width: 12rem;
-}
-img {
-width: 300px;
-}
-article {
-margin-left: 3rem;
-}
-h1 {
-text-align: center;
-background: blue;
-color: white;
-}
+  nav {
+    background: aliceblue;
+    width: 12rem;
+  }
+  img {
+    width: 300px;
+  }
+  article {
+    margin-left: 3rem;
+  }
+  h1 {
+    text-align: center;
+    background: blue;
+    color: white;
+  }
 </code></pre>
 
 </details>
@@ -9094,7 +9093,7 @@ color: white;
 <h4>HTML:</h4>
 
 <details>
-<summary>HTML code extract!</summary>
+  <summary>HTML code extract!</summary>
 
 <pre><code>
 &lt;!DOCTYPE html&gt;
@@ -9102,84 +9101,88 @@ color: white;
 &lt;head&gt;
 &lt;meta charset=&quot;UTF-8&quot;&gt;
 &lt;title&gt;My Favorite Recipes - Module 3&lt;/title&gt;
-&lt;style&gt;
-nav{
-background: lightgreen;
-width: 20em;
-}
-img{
-width: 400px;
-}
-article{
-margin-left: 40px;
-}
-h1{
-background: #4c6d48;
-text-align:center;
-}
-&lt;/style&gt;
+
+  &lt;style&gt;
+  nav{
+    background: lightgreen;
+    width: 20em;
+  }
+  img{
+    width: 400px;
+  }
+  article{
+    margin-left: 40px;
+  }
+  h1{
+    background: #4c6d48;
+    text-align:center;
+  }
+  &lt;/style&gt;
+
 &lt;/head&gt;
+
 &lt;body&gt;
-&lt;h1&gt;My Favorite Recipes&lt;/h1&gt;
-&lt;nav&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#soup&quot;&gt;Soup&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#salad&quot;&gt;Salad&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#pizza&quot;&gt;Pizza&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/nav&gt;
-&lt;article id=&quot;soup&quot;&gt;
-&lt;h2&gt;Soup&lt;/h2&gt;
-&lt;img
-src=&quot;https://upload.wikimedia.org/wikipedia/commons/2/22/Bol_soupe_bicolore.jpg&quot;
-alt=&quot;soup image&quot; width=320&gt;
-&lt;p&gt;
-Beethoven once said &lt;q&gt;Only the pure of heart can make a good
-soup&lt;/q&gt;. Well, here&#39;s my attempt at doing just that!
-&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Step 1&lt;/li&gt;
-&lt;li&gt;Step 2&lt;/li&gt;
-&lt;li&gt;Step 3&lt;/li&gt;
-&lt;li&gt;Enjoy!&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/article&gt;
-&lt;article id=&quot;salad&quot;&gt;
-&lt;h2&gt;Salad&lt;/h2&gt;
-&lt;img
-src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Caesar_salad_%281%29.jpg/320px-Caesar_salad_%281%29.jpg&quot;
-alt=&quot;salad image&quot; width=320&gt;
-&lt;h3&gt;List of ingredients&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Ingredient 1&lt;/li&gt;
-&lt;li&gt;Ingredient 2&lt;/li&gt;
-&lt;li&gt;Ingredient 3&lt;/li&gt;
-&lt;ul&gt;
-&lt;p&gt;
-Who can resist a fresh salad ! Here&#39;s one of my favorites.
-&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Step 1&lt;/li&gt;
-&lt;li&gt;Step 2&lt;/li&gt;
-&lt;li&gt;Step 3&lt;/li&gt;
-&lt;li&gt;Enjoy!&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/article&gt;
-&lt;article id=&quot;pizza&quot;&gt;
-&lt;h2&gt;Pizza&lt;/h2&gt;
-&lt;img
-src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Margherita_Originale.JPG/320px-Margherita_Originale.JPG&quot;
-alt=&quot;pizza image&quot; width=320&gt;
-&lt;p&gt;
-Pizza, the king of comfort foods. Try this simple, taste sensation.
-&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Step 1&lt;/li&gt;
-&lt;li&gt;Step 2&lt;/li&gt;
-&lt;li&gt;Step 3&lt;/li&gt;
-&lt;li&gt;Enjoy!&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/article&gt;
+
+  &lt;h1&gt;My Favorite Recipes&lt;/h1&gt;
+  &lt;nav&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#soup&quot;&gt;Soup&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#salad&quot;&gt;Salad&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#pizza&quot;&gt;Pizza&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/nav&gt;
+  &lt;article id=&quot;soup&quot;&gt;
+    &lt;h2&gt;Soup&lt;/h2&gt;
+    &lt;img
+      src=&quot;https://upload.wikimedia.org/wikipedia/commons/2/22/Bol_soupe_bicolore.jpg&quot;
+      alt=&quot;soup image&quot; width=320&gt;
+    &lt;p&gt;
+      Beethoven once said &lt;q&gt;Only the pure of heart can make a good
+      soup&lt;/q&gt;. Well, here&#39;s my attempt at doing just that!
+    &lt;/p&gt;
+    &lt;ol&gt;
+      &lt;li&gt;Step 1&lt;/li&gt;
+      &lt;li&gt;Step 2&lt;/li&gt;
+      &lt;li&gt;Step 3&lt;/li&gt;
+      &lt;li&gt;Enjoy!&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/article&gt;
+  &lt;article id=&quot;salad&quot;&gt;
+    &lt;h2&gt;Salad&lt;/h2&gt;
+    &lt;img
+      src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Caesar_salad_%281%29.jpg/320px-Caesar_salad_%281%29.jpg&quot;
+      alt=&quot;salad image&quot; width=320&gt;
+    &lt;h3&gt;List of ingredients&lt;/h3&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Ingredient 1&lt;/li&gt;
+      &lt;li&gt;Ingredient 2&lt;/li&gt;
+      &lt;li&gt;Ingredient 3&lt;/li&gt;
+    &lt;ul&gt;
+    &lt;p&gt;
+      Who can resist a fresh salad ! Here&#39;s one of my favorites.
+    &lt;/p&gt;
+    &lt;ol&gt;
+      &lt;li&gt;Step 1&lt;/li&gt;
+      &lt;li&gt;Step 2&lt;/li&gt;
+      &lt;li&gt;Step 3&lt;/li&gt;
+      &lt;li&gt;Enjoy!&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/article&gt;
+  &lt;article id=&quot;pizza&quot;&gt;
+    &lt;h2&gt;Pizza&lt;/h2&gt;
+    &lt;img
+      src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Margherita_Originale.JPG/320px-Margherita_Originale.JPG&quot;
+    alt=&quot;pizza image&quot; width=320&gt;
+    &lt;p&gt;
+      Pizza, the king of comfort foods. Try this simple, taste sensation.
+    &lt;/p&gt;
+    &lt;ol&gt;
+      &lt;li&gt;Step 1&lt;/li&gt;
+      &lt;li&gt;Step 2&lt;/li&gt;
+      &lt;li&gt;Step 3&lt;/li&gt;
+      &lt;li&gt;Enjoy!&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/article&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 </code></pre>
@@ -9229,7 +9232,7 @@ delve into some of those interesting possibilities. </p>
 <h3 id="ch5-2-1">5.2.1 Introduction to Tables</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Using tables to organize information goes back a way.  A long way.
-Three or four thousand years ago, Sumerians were using <a target="_blank" 
+Three or four thousand years ago, Sumerians were using <a target="_blank" rel="noopener noreferrer" 
 href="http://www.storyofmathematics.com/sumerian.html">tables to
 calculate compound interest</a>.  Even so, tables are not obsolete, in
 fact HTML5 includes extensive facilities for describing/building
@@ -9249,7 +9252,7 @@ intended purpose - making tables.</p>
 
 <h4>Separating content and style</h4>
 
-<p>Look at <a href="http://create.adobe.com/" target="_blank">this
+<p>Look at <a href="http://create.adobe.com/" target="_blank" rel="noopener noreferrer">this
 site</a> that is laid out with CSS. You might be tempted to do this via
 tables instead. Or you might want to just make your whole Web page into
 one big table: site header in a table row, left navigation bar on the
@@ -9556,7 +9559,7 @@ body and footer. We use these three tags;</p>
 footer because once browsers are able to identify which cells are header
 and footer, the body can be allowed to scroll independently of header
 and footer catering to a good table viewing experience in small
-screens. <a href="https://www.tjvantoll.com/demos/2012-11-10/" target="_blank">This
+screens. <a href="https://www.tjvantoll.com/demos/2012-11-10/" target="_blank" rel="noopener noreferrer">This
 is one such example</a>. Apart from this, these elements can also be
 used to style header, body and footer rows individually using CSS. </p>
 
@@ -10636,7 +10639,7 @@ design:</p>
 <p><b>Note</b>: This table contains multi-line headers. You can find
 more information on the right way to design tables of different header
 types on this
-W3C <a href="https://www.w3.org/WAI/tutorials/tables/" target="_blank">Tables
+W3C <a href="https://www.w3.org/WAI/tutorials/tables/" target="_blank" rel="noopener noreferrer">Tables
 Concepts</a> page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-2-5">5.2.5 Creating a Table</h3>
@@ -11095,7 +11098,7 @@ supported by all browsers. You should use common video file formats for
 browser compatibility ensuring the highest probability that your
 video file will play. </p>
 <p>The most common ones are MP4, WebM and Ogg. </p>
-<p><a target="_blank" 
+<p><a target="_blank" rel="noopener noreferrer" 
 href="https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats">This
 page</a> under ‘Browser Compatibility’ lists the video formats supported
 by the video element and their browser support for both desktop and
@@ -11367,10 +11370,10 @@ your ismap specification.</p>
   src="./images/image114.jpeg?raw=true"
   alt="Graphical representation of how ismap command works in web development."
   style="width:30%;" />
-<!---
+<!--
   Image illustrating how an image map works, how it processes mouse click coordinates using a map file that define target areas." />
---->
-<p>
+-->
+
 <p>Let’s go back to our world map example where clicking on different
 parts of the image will take you to a page about the country you clicked
 on. The map file ‘/ismap-image/ismap.cgi’ defines target areas. We can
@@ -12436,10 +12439,8 @@ below.</p>
   src="./images/image136.png?raw=true"
   alt="Inline elements cleave to the baseline."
   style="width:65%;" />
+<!-- <style="width:6.5in;height:1.52708in" -->
 
-<!---
-<style="width:6.5in;height:1.52708in" />
---->
 <p>Here we prevent the overlap by setting the line-height of the span.
 However, this solution should not be considered optimal.  Better is to
 change the span to be display:inline-block, which is discussed
@@ -12673,7 +12674,7 @@ should be aware:</p>
   <li><p>There are no automatic size adjustments.</p></li>
 </ul>
 
-<h3 id="independence---margin-top-vs-top">Independence - margin-top vs top</h3>
+<h3 id="independence--margin-top-vs-top">Independence - margin-top vs top</h3>
 
 <p><i>IMPORTANT</i>: The positioning
 properties (left, top, right, and bottom) adjust the placement of the
@@ -12757,10 +12758,10 @@ positioned absolutely.</p>
   alt="Paragraph has its height set and border applied. The q is positioned absolutely."
   style="width:65%;" />
 
-<!---
+<!--
 <img src="./images/image143.png"
 style="width:6.5in;height:2.33889in" />
---->
+-->
 <p>So that seems fairly straightforward and useful. But there are some
 subtle caveats and trade-offs of which you must be wary:</p>
 
@@ -13905,15 +13906,15 @@ We fixed those issues at the top.<br>
 These are the final changes to our recipe project for this unit.<br>
 </p>
 
-<!--- template for images
+<!-- template for images
 <img class="displayed"
   src="./images/image102.png?raw=true"
   alt="Picture of a complete table design."
   style="width:40%;" />
---->
+-->
 
 <h6>The end…</h6>
 
-<h4><b>Last Updated 4-5-2023 Wed 12:28pm</b></h4>
+<h4><b>Last Updated 4-26-2023 Wed 11:10pm</b></h4>
 </body>
 </html>
