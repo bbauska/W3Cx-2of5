@@ -1,5 +1,5 @@
 ---
-w3cx-2of5-html5.0x: Coursera - Front-End Web Development - HTML5 &amp; CSS3 Fundamentals
+w3cx-2of5-html5.0x: Coursera - Front-End Web Development - HTML5 & CSS3 Fundamentals
 ---
 
 <h2 align="center">W3Cx Front-End Web Developer</h2>
