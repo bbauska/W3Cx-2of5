@@ -1746,16 +1746,15 @@ opening &lt;head&gt; tag:</p>
 <h4>Why we need character references</h4>
 
 <p>Before we learn what HTML character references are, let’s look at how
-the need for them came about. <br>
+the need for them came about.<br>
 <br>Try the following code in your HTML:
-</p>
 
 <pre><code>
 &lt;p&gt;Welcome to &quot;HTML5 &amp; CSS Fundamentals&quot;. The first tag we will be
    learning about is  the &lt;html&gt; tag.&lt;/p&gt;
 </code></pre>
 
-<h4>HTML</h4>
+</p>
 
 <details>
   <summary>HTML code extract!</summary>
@@ -1763,27 +1762,22 @@ the need for them came about. <br>
 <pre><code>
  &lt;!DOCTYPE html&gt;
  &lt;html lang=&quot;en&quot;&gt;
- &lt;head&gt;
- &lt;meta charset=&quot;UTF-8&quot;&gt;
- &lt;title&gt;Welcome&lt;/title&gt;
- &lt;/head&gt;
- &lt;body&gt;
- &lt;p&gt;Welcome to &quot;HTML5 &amp; CSS Fundamentals&quot;. The first tag we will be
- learning about is the
- &lt;html&gt; tag.&lt;/p&gt;
- &lt;/body&gt;
+   &lt;head&gt;
+     &lt;meta charset=&quot;UTF-8&quot;&gt;
+     &lt;title&gt;Welcome&lt;/title&gt;
+   &lt;/head&gt;
+   &lt;body&gt;
+     &lt;p&gt;Welcome to &quot;HTML5 &amp; CSS Fundamentals&quot;. The first tag we will be
+     learning about is the &lt;html&gt; tag.&lt;/p&gt;
+   &lt;/body&gt;
  &lt;/html&gt;
 </code></pre>
 
 </details>
 
-<p>Did you notice the &lt;html&gt;
-<br>tag is missing in your output? In this case, your browser mixed it
-up with an actual tag, although it was meant to be a part of
-the sentence as text. <br>
+<p>Did you notice the &lt;html&gt; tag is missing in your output? In this case, your browser mixed it up with an actual tag, although it was meant to be a part of the sentence as text.<br>
 <br>Because of this kind of confusion, HTML reserves certain characters.<br>
-<br>If you want to use these characters in your HTML, you need to use character
-references to display them.</p>
+<br>If you want to use these characters in your HTML, you need to use character references to display them.</p>
 
 <h4>How to use character references</h4>
 
@@ -1792,31 +1786,34 @@ number.<br>
 <br>If you want to use a named character reference in your source code, use
 an ampersand symbol '&amp;', followed by the name and a semi-colon.
 Names are case sensitive. For example, the following represents a
-no-break space:</p>
+no-break space:
 
 <pre><code>
 &amp;nbsp;
 </code></pre>
 
+</p>
 <p>There are two types of numeric character reference: ones that use
 decimal numbers and ones that use hexadecimal numbers.  In each case,
 the number represents the code point number of the character in
 Unicode.<br>
 <br>If you are using a decimal number, use an ampersand symbol ‘&amp;’ ,
 followed by the symbol ‘#’, then a decimal number and a semi-colon.
-</p>
 
 <pre><code>
 &amp;#160;
 </code></pre>
 
+</p>
 <p>If you are using a hexadecimal number, use an ampersand symbol ‘&amp;’ ,
 followed by the symbols ‘#x’, then a hexadecimal number and a
-semi-colon.</p>
+semi-colon.
 
 <pre><code>
 &amp;#x00A0;
 </code></pre>
+
+</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-4-4">1.4.4 Special characters</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1846,7 +1843,7 @@ when viewed by a reader:</p>
 <td>Less than ‘&lt;’</td>
 <td>&amp;lt;</td>
 <td>&amp;#60;</td>
-<td>Div tag: &amp;lt;div&gt;</td>
+<td>Div tag: &amp;lt;div&amp;gt;</td>
 </tr>
 <tr class="even">
 <td>Greater than ‘&gt;’</td>
@@ -1870,12 +1867,10 @@ when viewed by a reader:</p>
 <td>Quotes “</td>
 <td>&amp;quot;</td>
 <td>&amp;#34;</td>
-<td>
-<p>Link to a another section on the same page using the id of the element:
-&amp;lt;a href=&amp;quot;&amp;num;timetable&amp;quot;&amp;gt;</p>
-<p>Displayed as: &lt;a href=“#timetable”&gt;</p>
-<p>&amp;quot; is generally encouraged for code. For an actual quotation, &lt;q&gt; or &lt;blockquote&gt; is preferred.</p>
-</td>
+<td>Link to another section on the same page using the id of the element:
+&amp;lt;a href=&amp;quot;&amp;num;timetable&amp;quot;&amp;gt;<br>
+Displayed as: &lt;a href=“#timetable”&gt;<br>
+&amp;quot; is generally encouraged for code. For an actual quotation, &lt;q&gt; or &lt;blockquote&gt; is preferred.</td>
 </tr>
 </tbody>
 </table>
