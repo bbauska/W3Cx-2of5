@@ -1,3 +1,7 @@
+---
+w3cx-2of5-html5.0x: Coursera - Front-End Web Development - HTML5 &amp; CSS3 Fundamentals
+---
+
 <h2 align="center">W3Cx Front-End Web Developer</h2>
 <br/>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -120,7 +124,7 @@ layout your page during the last week of this course.</p>
 <p align="center" width="100%">
 <img src="./images/image004.png?raw=true"
   width="15%"
-  alt="." />
+  alt="Laptop image." />
 </p>
 
 <li>Whilst practicing and improving your recipe project (or else) with
