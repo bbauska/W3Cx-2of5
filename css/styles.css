@@ -174,3 +174,18 @@
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: #398e41;} /* dark moderate lime green */
+
+pre, code {
+  font-family: monospace, monospace;
+  font-size: 10px;
+}
+
+pre {
+  overflow: auto;
+}
+
+pre > code {
+  display: block;
+  padding: 1rem;
+  word-wrap: normal;
+}
