@@ -5123,11 +5123,11 @@ hyperlink because it obviously has no idea where to jump to.<br>
 </code></pre>
 
 <ul>
-  <li>a link to a file or page within the same Web site also known as <a target="_blank" rel="noopener noreferrer" href="https://www.differencebetween.com/difference-between-an-absolute-and-vs-a-relative-url/">relative URL</a>. </li>
+  <li>a link to a file or page within the same Web site also known as <a target="_blank" rel="noopener noreferrer" href="https://www.differencebetween.com/difference-between-an-absolute-and-vs-a-relative-url/">relative URL</a>.</li>
 </ul>
 
 <pre><code>
-&lt;a href=&quot;contacts.html&quot;&gt;&lt;/a&gt;
+  &lt;a href=&quot;contacts.html&quot;&gt;&lt;/a&gt;
 </code></pre>
 
 <ul>
@@ -5151,60 +5151,40 @@ hyperlink because it obviously has no idea where to jump to.<br>
 
 <h4>The 'target' attribute</h4>
 
-<p>Target specifies the destination where the linked URL in href should
-be opened.<br>
-<br>
-It can take a variety of different values, but for our purposes we’ll focus on the two below.</p>
+<p>Target specifies the destination where the linked URL in href should be opened.<br>
+<br>It can take a variety of different values, but for our purposes we’ll focus on the two below.</p>
+
 <table>
 <colgroup>
-<col style="width: 40%" />
-<col style="width: 11%" />
-<col style="width: 29%" />
-<col style="width: 18%" />
+  <col style="width: 40%" />
+  <col style="width: 11%" />
+  <col style="width: 29%" />
+  <col style="width: 18%" />
 </colgroup>
 <thead>
-<tr class="header">
-<th>Destination</th>
-<th>Attribute value</th>
-<th>Example</th>
-<th>Result (try this)</th>
-</tr>
+  <tr class="header">
+    <th>Destination</th>
+    <th>Attribute value</th>
+    <th>Example</th>
+    <th>Result (try this)</th>
+  </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td>In the same view where the link resides. If no target is specified, this
-is the default behavior.</td>
-<td>_self</td>
-<td>&lt;a href=“https://qwant.com/” target=&quot;_self&quot;&gt;&lt;/a&gt;</td>
-<td>&lt;a href=“https://qwant.com/” target=“_blank” rel="noopener noreferrer"&gt;LINK will open in
-same window</a> (Navigate back to the course by clicking Back button in
-browser)</td>
-</tr>
-<tr class="even">
-<td>
-<p>
-In a new window or tab. This is very convenient if you want to link the
-user to a Web page without having the current page disappear. By
-clicking on the previous window or tab, they can redirect to the page
-where the link is.
-</p>
-<p>
-<strong>Note: </strong>It is best to inform users that the page will
-open in a new tab or window when using ’_blank’ as some may not be aware
-of the new tab having opened.
-</p>
-</td>
-<td>
-_blank
-</td>
-<td>
-&lt;a href=“https://qwant.com/” target=“_blank” rel="noopener noreferrer"&gt;&lt;/a&gt;
-</td>
-<td>
-&lt;a href=“https://qwant.com/” target=“_blank” rel="noopener noreferrer"&lt;LINK will open in new
-window</a>
-</td>
-</tr>
+  <tr class="odd">
+    <td>In the same view where the link resides. If no target is specified, this is the default behavior.</td>
+    <td>_self</td>
+    <td>&lt;a href=“https://qwant.com/” target=&quot;_self&quot;&gt;&lt;/a&gt;</td>
+    <td>&lt;a href=“https://qwant.com/” target=“_blank” rel="noopener noreferrer"&gt;LINK will open in same window&lt;/a&gt; (Navigate back to the course by clicking Back button in browser)</td>
+  </tr>
+  <tr class="even">
+    <td>
+      <p>In a new window or tab. This is very convenient if you want to link the user to a Web page without having the current page disappear. By clicking on the previous window or tab, they can redirect to the page where the link is.</p>
+      <p><strong>Note: </strong>It is best to inform users that the page will open in a new tab or window when using ’_blank’ as some may not be aware of the new tab having opened.</p>
+    </td>
+    <td>_blank</td>
+    <td>&lt;a href=“https://qwant.com/” target=“_blank” rel="noopener noreferrer"&gt;&lt;/a&gt;</td>
+    <td>&lt;a href=“https://qwant.com/” target=“_blank” rel="noopener noreferrer"&lt;LINK will open in new window&lt;/a&gt;</td>
+  </tr>
 </tbody>
 </table>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5458,72 +5438,66 @@ the live coding video at the end of this page).</p>
 <pre><code>
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-   &lt;meta charset=&quot;UTF-8&quot;&gt;
-   &lt;title&gt;My Favorite Recipes - Module 2&lt;/title&gt;
-&lt;/head&gt;
-   &lt;body&gt;
-      &lt;h1&gt;My Favorite Recipes&lt;/h1&gt;
-      &lt;nav&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;title&gt;My Favorite Recipes - Module 2&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;My Favorite Recipes&lt;/h1&gt;
+    &lt;nav&gt;
       &lt;ul&gt;
-         &lt;li&gt;&lt;a href=&quot;#soup&quot;&gt;Soup&lt;/a&gt;&lt;/li&gt;
-         &lt;li&gt;&lt;a href=&quot;#salad&quot;&gt;Salad&lt;/a&gt;&lt;/li&gt;
-         &lt;li&gt;&lt;a href=&quot;#pizza&quot;&gt;Pizza&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;#soup&quot;&gt;Soup&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;#salad&quot;&gt;Salad&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;#pizza&quot;&gt;Pizza&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
-      &lt;/nav&gt;
-      &lt;article id=&quot;soup&quot;&gt;
-         &lt;h2&gt;Soup&lt;/h2&gt;
-         &lt;img
-         src=&quot;https://upload.wikimedia.org/wikipedia/commons/2/22/Bol_soupe_bicolore.jpg&quot;
-        alt=&quot;soup image&quot; width=320&gt;
-         &lt;p&gt;
-         Beethoven once said &lt;q&gt;Only the pure of heart can make a good
-         soup&lt;/q&gt;. Well, here&#39;s my attempt at doing just that!
-         &lt;/p&gt;
-         &lt;ol&gt;
-            &lt;li&gt;Step 1&lt;/li&gt;
-            &lt;li&gt;Step 2&lt;/li&gt;
-            &lt;li&gt;Step 3&lt;/li&gt;
-            &lt;li&gt;Enjoy!&lt;/li&gt;
-         &lt;/ol&gt;
-      &lt;/article&gt;
-      &lt;article id=&quot;salad&quot;&gt;
-         &lt;h2&gt;Salad&lt;/h2&gt;
-         &lt;img
-         src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Caesar_salad_%281%29.jpg/320px-Caesar_salad_%281%29.jpg&quot;
+    &lt;/nav&gt;
+    &lt;article id=&quot;soup&quot;&gt;
+      &lt;h2&gt;Soup&lt;/h2&gt;
+      &lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/2/22/Bol_soupe_bicolore.jpg&quot;
+	    alt=&quot;soup image&quot; width=320&gt;
+      &lt;p&gt;Beethoven once said &lt;q&gt;Only the pure of heart can make a good
+      soup&lt;/q&gt;. Well, here&#39;s my attempt at doing just that!&lt;/p&gt;
+      &lt;ol&gt;
+        &lt;li&gt;Step 1&lt;/li&gt;
+        &lt;li&gt;Step 2&lt;/li&gt;
+        &lt;li&gt;Step 3&lt;/li&gt;
+        &lt;li&gt;Enjoy!&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/article&gt;
+    &lt;article id=&quot;salad&quot;&gt;
+      &lt;h2&gt;Salad&lt;/h2&gt;
+      &lt;img
+      src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Caesar_salad_%281%29.jpg/320px-Caesar_salad_%281%29.jpg&quot;
         alt=&quot;salad image&quot; width=320&gt;
-         &lt;h3&gt;List of ingredients&lt;/h3&gt;
-         &lt;ul&gt;
-            &lt;li&gt;Ingredient 1&lt;/li&gt;
-            &lt;li&gt;Ingredient 2&lt;/li&gt;
-            &lt;li&gt;Ingredient 3&lt;/li&gt;
-         &lt;/ul&gt;
-         &lt;p&gt;
-            Who can resist a fresh salad ! Here&#39;s one of my favorites.
-         &lt;/p&gt;
-         &lt;ol&gt;
-            &lt;li&gt;Step 1&lt;/li&gt;
-            &lt;li&gt;Step 2&lt;/li&gt;
-            &lt;li&gt;Step 3&lt;/li&gt;
-            &lt;li&gt;Enjoy!&lt;/li&gt;
-         &lt;/ol&gt;
-      &lt;/article&gt;
-      &lt;article id=&quot;pizza&quot;&gt;
-         &lt;h2&gt;Pizza&lt;/h2&gt;
-         &lt;img
-         src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Margherita_Originale.JPG/320px-Margherita_Originale.JPG&quot;
-         alt=&quot;pizza image&quot; width=320&gt;
-         &lt;p&gt;
-         Pizza, the king of comfort foods. Try this simple, taste sensation.
-         &lt;/p&gt;
-         &lt;ol&gt;
-            &lt;li&gt;Step 1&lt;/li&gt;
-            &lt;li&gt;Step 2&lt;/li&gt;
-            &lt;li&gt;Step 3&lt;/li&gt;
-            &lt;li&gt;Enjoy!&lt;/li&gt;
-         &lt;/ol&gt;
-      &lt;/article&gt;
-   &lt;/body&gt;
+      &lt;h3&gt;List of ingredients&lt;/h3&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Ingredient 1&lt;/li&gt;
+        &lt;li&gt;Ingredient 2&lt;/li&gt;
+        &lt;li&gt;Ingredient 3&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;p&gt;Who can resist a fresh salad ! Here&#39;s one of my favorites.&lt;/p&gt;
+      &lt;ol&gt;
+        &lt;li&gt;Step 1&lt;/li&gt;
+        &lt;li&gt;Step 2&lt;/li&gt;
+        &lt;li&gt;Step 3&lt;/li&gt;
+        &lt;li&gt;Enjoy!&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/article&gt;
+    &lt;article id=&quot;pizza&quot;&gt;
+      &lt;h2&gt;Pizza&lt;/h2&gt;
+      &lt;img src=&quot;
+      https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/
+      Margherita_Originale.JPG/320px-Margherita_Originale.JPG&quot;
+        alt=&quot;pizza image&quot; width=320&gt;
+      &lt;p&gt;Pizza, the king of comfort foods. Try this simple, taste sensation.&lt;/p&gt;
+      &lt;ol&gt;
+        &lt;li&gt;Step 1&lt;/li&gt;
+        &lt;li&gt;Step 2&lt;/li&gt;
+        &lt;li&gt;Step 3&lt;/li&gt;
+        &lt;li&gt;Enjoy!&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/article&gt;
+  &lt;/body&gt;
 &lt;/html&gt;
 </code></pre>
 
@@ -5695,16 +5669,10 @@ how you learn, experimentation.</p>
 <h3 id="ch3-1-2">3.1.2 Module 3 Content</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ol type="1">
-<li><p><b>Introduction to Module 3:</b> Get an overview of what CSS
-(Cascading Style Sheets) can do for your Web pages.</p></li>
-<li><p><b>CSS basic syntax:</b> Understanding the language of CSS: style
-tags, links tags, rules, and comments.</p></li>
-<li><p><b>CSS properties:</b> Here, you will be introduced to just a few
-of the many properties that make CSS such a powerful tool.</p></li>
-<li><p><b>Lists and selectors:</b> List markup tags
-(&lt;ul&gt;, &lt;ol&gt; and &lt;li&gt;) are some of the most frequently
-used specific purpose tags in HTML, and selectors are what allows you to
-target specific HTML elements and apply style to them</p></li>
+  <li><p><b>Introduction to Module 3:</b> Get an overview of what CSS (Cascading Style Sheets) can do for your Web pages.</p></li>
+  <li><p><b>CSS basic syntax:</b> Understanding the language of CSS: style tags, links tags, rules, and comments.</p></li>
+  <li><p><b>CSS properties:</b> Here, you will be introduced to just a few of the many properties that make CSS such a powerful tool.</p></li>
+  <li><p><b>Lists and selectors:</b> List markup tags (&lt;ul&gt;, &lt;ol&gt; and &lt;li&gt;) are some of the most frequently used specific purpose tags in HTML, and selectors are what allows you to target specific HTML elements and apply style to them</p></li>
 </ol>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-1-3">3.1.3 The CSS Language</h3>
@@ -5731,21 +5699,16 @@ page.<br>
 <br>Tags like &lt;font&gt; to choose a font, &lt;b&gt; for
 bold, &lt;i&gt; for italic were added to have some control, and that let
 your page be at the mercy of whatever browser the reader was using.<br>
-<br>
-There are several problems with this approach.<br>
-<br>
-First, it violates our paradigm of HTML containing only content.<br>
-<br>
-Second, and more practically, the tags only applied where they were used.</p>
+<br>There are several problems with this approach.<br>
+<br>First, it violates our paradigm of HTML containing only content.<br>
+<br>Second, and more practically, the tags only applied where they were used.</p>
 <p>For instance, if you originally wrote your document with all the
 paragraphs indented with a certain amount and then later you were
 decided to change the indentation, then you would have to modify every
 single paragraph in your document.<br>
-<br>
-It would be nice if there were a central way to set such rules, i.e. one place that said “I want all my
+<br>It would be nice if there were a central way to set such rules, i.e. one place that said “I want all my
 paragraphs to be indented this much”, much like master sheets in a word processor.<br>
-<br>
-CSS helps to solve this problem.</p>
+<br>CSS helps to solve this problem.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-1-4">3.1.4 The W3C CSS Working Group</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5775,22 +5738,22 @@ adoption rate.</p>
 <h3 id="ch3-1-5">3.1.5 An Example</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Let’s see CSS in action. Below, we see two identical copies of HTML,
-however, styled differently.</p>
+however, styled differently.<br>
 <br>Here is the HTML:</p>
+
 <ol type="1">
-<li><p>
-She looked over the top of her book and whispered &lt;q&gt;I’m
-hungry.&lt;/q&gt; My heart stopped.
-</p></li>
+  <li><p>She looked over the top of her book and whispered &lt;q&gt;I’m hungry.&lt;/q&gt; My heart stopped.</p></li>
 </ol>
-<p>And now two very different looks:</p>
-<br>She looked over the top of her book and whispered I’m hungry. My
-heart stopped.</p>
+
+<p>And now two very different looks:<br>
+<br>She looked over the top of her book and whispered I’m hungry. My heart stopped.</p>
+
 <blockquote>
 <br>She looked over the top of her book and whisperedi’m hungry.My heart
 stopped.</p>
 </blockquote>
-<br>Both of these use the exact same HTML. It is the CSS that makes them
+
+<p>Both of these use the exact same HTML. It is the CSS that makes them
 so different. So let’s get started.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-2-1">3.2.1 The &lt;style&gt; and &lt;link&gt; tags</h3>
@@ -7059,7 +7022,7 @@ single tag (without punctuation or spacing) will be applied to any
 matching tag on the page.</p>
 
 <pre><code>
-<b>li</b> { list-style-type: circle; }
+  li { list-style-type: circle; }
 </code></pre>
 
 <h4>id selector</h4>
@@ -7078,38 +7041,38 @@ id selector is simply a hash sign (#) followed directly by the id.</p>
 <h4>CSS:</h4>
 
 <pre><code>
-#p18 { color: blue; }  
-#p19 { color: green; }
+  #p18 { color: blue; }
+  #p19 { color: green; }
 </code></pre>
 
 <h4>HTML:</h4>
 
 <pre><code>
-&lt;p align=&quot;left&quot; id=&quot;p18&quot;&gt;He is Ulysses, a man of great craft, son of Laertes. He
-   was born in rugged Ithaca, and excels in all manner of stratagems and
-   subtle cunning.&lt;/p&gt;
-&lt;p align=&quot;left&quot; id=&quot;p19&quot;&gt;Madam, you have spoken truly.&lt;/p&gt;
+  &lt;p align=&quot;left&quot; id=&quot;p18&quot;&gt;He is Ulysses, a man of great craft, 
+    son of Laertes. He was born in rugged Ithaca, and excels in all manner of stratagems and
+	subtle cunning.&lt;/p&gt;
+  &lt;p align=&quot;left&quot; id=&quot;p19&quot;&gt;Madam, you have spoken truly.&lt;/p&gt;
 </code></pre>
 
 <h4>Result:</h4>
 
 <table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>
-<p align="left">
-He is Ulysses, a man of great craft, son of Laertes. He was born in
-rugged Ithaca, and excels in all manner of stratagems and subtle
-cunning.</p>
-<p align="left">Madam, you have spoken truly.</p>
-</th>
-</tr>
-</thead>
-<tbody>
-</tbody>
+  <colgroup>
+    <col style="width: 100%" />
+  </colgroup>
+  <thead>
+    <tr class="header">
+      <th>
+        <p align="left">
+        He is Ulysses, a man of great craft, son of Laertes. He was born in
+        rugged Ithaca, and excels in all manner of stratagems and subtle
+        cunning.</p>
+        <p align="left">Madam, you have spoken truly.</p>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
 </table>
 
 <h4>class selector</h4>
@@ -7133,31 +7096,31 @@ a tag by simply separating them with spaces.</p>
 <h4>CSS:</h4>
 
 <pre><code>
-.bird   { color: blue; }  
-.insect { color: green; }  
-.flying { text-decoration: underline; }
+  .bird   { color: blue; }  
+  .insect { color: green; }  
+  .flying { text-decoration: underline; }
 </code></pre>
 
 <h4>Result:</h4>
 
 <table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>
-<ul>
-  <li><p><u>eagle</u></p></li>
-  <li><p>ostrich</p></li>
-  <li><p>ant</p></li>
-  <li><p><u>moth</u></p></li>
-</ul>
-</th>
-</tr>
-</thead>
-<tbody>
-</tbody>
+  <colgroup>
+    <col style="width: 100%" />
+  </colgroup>
+  <thead>
+    <tr class="header">
+      <th>
+        <ul>
+          <li><p><u>eagle</u></p></li>
+          <li><p>ostrich</p></li>
+          <li><p>ant</p></li>
+          <li><p><u>moth</u></p></li>
+        </ul>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
 </table>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-4-3">3.4.3 Combining Selectors</h3>
@@ -7212,13 +7175,13 @@ font-style: italic;   <br> }
 by an additional rule:</p>
 
 <pre><code>
-blockquote,
-q,
-.speech {
-   color: red;
-   font-style: italic;
-}
-.speech { font-weight: bold; }
+  blockquote,
+  q,
+  .speech {
+    color: red;
+    font-style: italic;
+    }
+  .speech { font-weight: bold; }
 </code></pre>
 
 <h4>Specialized selectors</h4>
@@ -7231,7 +7194,7 @@ first.</p>
 <p>This is most useful with class and tag selectors, like so:</p>
 
 <pre><code>
-blockquote.speech { font-color: green; }
+  blockquote.speech { font-color: green; }
 </code></pre>
 
 <p>In the example above, the blockquote.speech selector is
@@ -7242,7 +7205,7 @@ blockquotes that also have the speech class.</p>
 <p>It isn’t unusual to see multiple classes joined this way as well:</p>
 
 <pre><code>
-.insect.flying { text-decoration: underline; font-weight:bold; }
+  .insect.flying { text-decoration: underline; font-weight:bold; }
 </code></pre>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7299,12 +7262,12 @@ appear directly within #intro, or be buried within its children.  Here
 is the result:</p>
 
 <table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>
+  <colgroup>
+    <col style="width: 100%" />
+  </colgroup>
+  <thead>
+    <tr class="header">
+  <th>
 
 <p align="left">
 Welcome to <a target="_blank" rel="noopener noreferrer" 
@@ -7350,7 +7313,7 @@ section to be bold?  Again, a descendant selector will work.  We add
 this:</p>
 
 <pre><code>
-#intro blockquote a { font-weight: bold; } 
+  #intro blockquote a { font-weight: bold; }
 </code></pre>
 
 <p>Any &lt;a&gt; tags anywhere inside a &lt;blockquote&gt; anywhere
@@ -7367,7 +7330,7 @@ links in the intro section to be larger, but not the links in any nested
 quotes or blockquotes. :</p>
 
 <pre><code>
-#intro &gt; a { font-size: large; }
+  #intro &gt; a { font-size: large; }
 </code></pre>
 
 <h4>Everything selector (*)</h4>
@@ -7377,10 +7340,10 @@ is only marginally useful. But combined with other selectors into a
 descendant selector, it can be pretty useful.</p>
 
 <pre><code>
-body &gt; * { margin-left: 10px; } /* all the _direct_ children of the
-   body receive the margin */
-p * { text-decoration: underline; } /* the text of the paragraph will
-   be normal, but any children anywhere inside it will be underlined */
+  body &gt; * { margin-left: 10px; } /* all the _direct_ children of the
+    body receive the margin */
+  p * { text-decoration: underline; } /* the text of the paragraph will
+    be normal, but any children anywhere inside it will be underlined */
 </code></pre>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7526,8 +7489,8 @@ rule.  A rule that more tightly matches a particular element than a
 general rule will be applied. </p>
 
 <pre><code>
-span { color: blue; }
-ul li span { color: red; }
+  span { color: blue; }
+  ul li span { color: red; }
 </code></pre>
 
 <p>In the example above, both rules are attempting to set a span color
@@ -7551,8 +7514,8 @@ selector, which trumps everything).</p>
 there are conflicts, the rules from the later one apply.  </p>
 
 <pre><code>
-.hortense { color: red; text-decoration: underline; }
-.hortense { color: blue; }
+  .hortense { color: red; text-decoration: underline; }
+  .hortense { color: blue; }
 </code></pre>
 
 <p>In the example above, an element with the .hortense class will be
@@ -7608,7 +7571,7 @@ inherited, applied and what is their precedence.</p>
 <h4>!important</h4>
 
 <pre><code>
-p { color: orange !important; }
+  p { color: orange !important; }
 </code></pre>
 
 <p>Because multiple CSS selectors can resolve to the same element, and
@@ -7718,39 +7681,39 @@ possible.</p>
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 
-&lt;head&gt;
+  &lt;head&gt;
     &lt;meta charset=&quot;UTF-8&quot;&gt;
     &lt;title&gt;Characters&lt;/title&gt;
     &lt;style&gt;
-        /* style rules go here */
+    /* style rules go here */
     &lt;/style&gt;
-&lt;/head&gt;
+  &lt;/head&gt;
 
-&lt;body&gt;
+  &lt;body&gt;
     &lt;h1&gt;Characters&lt;/h1&gt;
     &lt;h2&gt;Middlemarch&lt;/h2&gt;
     &lt;h3&gt;George Eliot&lt;/h3&gt;
     &lt;ol id=&quot;middlemarch&quot;&gt;
-        &lt;li&gt;Dorothea Brooke&lt;/li&gt;
-        &lt;li&gt;Celia Brooke&lt;/li&gt;
-        &lt;li&gt;Edward Casaubon&lt;/li&gt;
-        &lt;li&gt;Sir James Chettam&lt;/li&gt;
-        &lt;li&gt;Joshua Rigg&lt;/li&gt;
-        &lt;li&gt;Will Ladislaw&lt;/li&gt;
-        &lt;li&gt;Tertius Lydgate&lt;/li&gt;
-        &lt;li&gt;Rosamond Vincy&lt;/li&gt;
+      &lt;li&gt;Dorothea Brooke&lt;/li&gt;
+      &lt;li&gt;Celia Brooke&lt;/li&gt;
+      &lt;li&gt;Edward Casaubon&lt;/li&gt;
+      &lt;li&gt;Sir James Chettam&lt;/li&gt;
+      &lt;li&gt;Joshua Rigg&lt;/li&gt;
+      &lt;li&gt;Will Ladislaw&lt;/li&gt;
+      &lt;li&gt;Tertius Lydgate&lt;/li&gt;
+      &lt;li&gt;Rosamond Vincy&lt;/li&gt;
     &lt;/ol&gt;
     &lt;h2&gt;A Tale of Two Cities&lt;/h2&gt;
     &lt;h3&gt;Charles Dickens&lt;/h3&gt;
     &lt;ol id=&quot;taletwocities&quot;&gt;
-        &lt;li&gt;Charles Danay&lt;/li&gt;
-        &lt;li&gt;Sydney Carton&lt;/li&gt;
-        &lt;li&gt;Doctor Manette&lt;/li&gt;
-        &lt;li&gt;Lucie Mantte&lt;/li&gt;
-        &lt;li&gt;Madame Defarge&lt;/li&gt;
-        &lt;li&gt;Miss Pross&lt;/li&gt;
+      &lt;li&gt;Charles Danay&lt;/li&gt;
+      &lt;li&gt;Sydney Carton&lt;/li&gt;
+      &lt;li&gt;Doctor Manette&lt;/li&gt;
+      &lt;li&gt;Lucie Mantte&lt;/li&gt;
+      &lt;li&gt;Madame Defarge&lt;/li&gt;
+      &lt;li&gt;Miss Pross&lt;/li&gt;
     &lt;/ol&gt;
-&lt;/body&gt;
+  &lt;/body&gt;
 &lt;/html&gt;
 </code></pre>
 
@@ -13113,8 +13076,8 @@ to help visualize.</p>
 <h4>flex container</h4>
 
 <pre><code>
-div { display: flex; }
-span { display: inline-flex; }
+  div { display: flex; }
+  span { display: inline-flex; }
 </code></pre>
 
 <p>To designate an element as a flex container, we simply set
@@ -13126,10 +13089,10 @@ container and will be handling the layout of its children.</p>
 <h4>flex-flow</h4>
 
 <pre><code>
-.fc {
-display: flex;  /* this is now a flex container */
-flex-flow: row wrap;
-}
+  .fc {
+  display: flex;  /* this is now a flex container */
+  flex-flow: row wrap;
+  }
 </code></pre>
 
 <p>Flexbox containers can lay out their children both horizontally, as
@@ -13180,7 +13143,7 @@ a value of the display property.</p>
 applied to flex items, the children of a flex container.</p>
 
 <pre><code>
-span { flex: &lt;flex-grow&gt; &lt;flex-shrink&gt; &lt;flex-basis&gt;; }
+  span { flex: &lt;flex-grow&gt; &lt;flex-shrink&gt; &lt;flex-basis&gt;; }
 </code></pre>
 
 <p>The flex property provides a convenient way to abbreviate the three interrelated properties of flex-grow, flex-shrink, and flex-basis.  The flex property <em>also</em> gives a flex item nice defaults for the optional properties. Therefore, flex:1; is <b>better</b> than flex-grow:1; .</p>
@@ -13188,8 +13151,8 @@ span { flex: &lt;flex-grow&gt; &lt;flex-shrink&gt; &lt;flex-basis&gt;; }
 <h4>flex-grow</h4>
 
 <pre><code>
-p { flex: 1; /* rather than use flex-grow, use
-flex: &lt;flex-grow&gt;; */ }
+  p { flex: 1; /* rather than use flex-grow, use
+  flex: &lt;flex-grow&gt;; */ }
 </code></pre>
 
 <p>The flex-grow property is set simply to a positive number. In
@@ -13212,8 +13175,8 @@ super-power.</p>
 <h4>flex-shrink</h4>
 
 <pre><code>
-p { flex: 1 1; /* rather than use flex-shrink directly, use flex:
-&lt;flex-grow&gt; &lt;flex-shrink&gt; */ }
+  p { flex: 1 1; /* rather than use flex-shrink directly, use flex:
+    &lt;flex-grow&gt; &lt;flex-shrink&gt; */ }
 </code></pre>
 
 <p>The flex-shrink is the opposite of flex-grow. When laying out any row
@@ -13236,8 +13199,8 @@ the box-sizing to border-box.</p>
 <h4>flex-basis</h4>
 
 <pre><code>
-p { flex: 1 1 87px;  /* use flex: &lt;flex-grow&gt;
-&lt;flex-shrink&gt; &lt;flex-basis&gt; */}
+  p { flex: 1 1 87px;  /* use flex: &lt;flex-grow&gt;
+    &lt;flex-shrink&gt; &lt;flex-basis&gt; */}
 </code></pre>
 
 <p>The flex-basis can be used instead of the sizing properties on a flex
@@ -13335,13 +13298,9 @@ to always test in as many browsers as possible.</p>
 
 <h4>External resources</h4>
 
-<li>
-<a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox" target="_blank" rel="noopener noreferrer">Flexbox
-documentation</a> on MDN (available in many languages!)
-<li>
-<a href="https://www.smashingmagazine.com/2018/08/flexbox-display-flex-container/" target="_blank" rel="noopener noreferrer">What
-Happens When You Create A Flexbox Flex Container?</a> (by Rachel Andrew
-- 2 August 2018)
+<ul>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox" target="_blank" rel="noopener noreferrer">Flexbox documentation</a> on MDN (available in many languages!)</li>
+  <li><a href="https://www.smashingmagazine.com/2018/08/flexbox-display-flex-container/" target="_blank" rel="noopener noreferrer">What Happens When You Create A Flexbox Flex Container?</a> (by Rachel Andrew - 2 August 2018)</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch6-4-1">6.4.1 Main and cross axes</h3>
@@ -13464,7 +13423,7 @@ material here will appear in any graded question.</p>
 <h4>justify-content</h4>
 
 <pre><code>
-.fc { justify-content: space-around; }
+  .fc { justify-content: space-around; }
 </code></pre>
 
 <p>When all the flex items in a flexbox container are fully resizable, then there will not be any extra space to put between the items.  However, when the flex items are fixed size, or cannot grow anymore, then the flexbox container will put the extra space between or
@@ -13492,7 +13451,7 @@ stack of items) <em>unless</em> the height of the flexbox container were expli
 <h4>align-items</h4>
 
 <pre><code>
-.fc { align-items: stretch; }
+  .fc { align-items: stretch; }
 </code></pre>
 
 <p>The align-items determines how items are aligned in the cross axis direction. This is applied to the flexbox container.  The possible values are stretch, flex-start, flex-end, center, and baseline.  In the context of alignment, flex-start and flex-end refer to the cross
@@ -13516,7 +13475,7 @@ start and cross end sides, which may be swapped if the flex-wrap:wrap-reverse 
 <h4>align-content</h4>
 
 <pre><code>
-.fc { align-content: space-between; }
+  .fc { align-content: space-between; }
 </code></pre>
 
 <p>align-content is only relevant when the flexbox container supports wrapping and the flex items are, in fact, wrapping.<br>
@@ -13541,7 +13500,7 @@ This is easier to understand from an example.</p>
 <h4>align-self</h4>
 
 <pre><code>
-.item { align-self: center; }
+  .item { align-self: center; }
 </code></pre>
 
 <p>Unlike the other flexbox align properties, align-self is applied to
@@ -13571,7 +13530,7 @@ material here will appear in any graded question.</p>
 <p>One of the most exciting flexbox properties is also its simplest: order.</p>
 
 <pre><code>
-.item { order: 2; }
+  .item { order: 2; }
 </code></pre>
 
 <p>The order property allows you to determine the order in which the
@@ -13876,6 +13835,6 @@ These are the final changes to our recipe project for this unit.<br>
 
 <h6>The end…</h6>
 
-<h4><b>Last Updated 5-3-2023 Wed 8:02pm</b></h4>
+<h4><b>Last Updated 5-4-2023 Thu 12:18am</b></h4>
 </body>
 </html>
