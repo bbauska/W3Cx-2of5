@@ -2043,7 +2043,7 @@ do it properly, and not depend on the browser to patch it for you.</p>
 <p>Because an HTML file essentially represents a <a href="https://en.wikipedia.org/wiki/Tree_(data_structure)" target="_blank" rel="noopener noreferrer">tree structure</a>, the open and close tags should always match, and there should not be any overlap with other elements. That is, you can have an element that is enclosed in another element, or you can have two
 elements side-by-side, but you can never have a situation in which part of an element is in another, but the other part is not.</p>
 
-<pre></code>
+<pre><code>
   &lt;p&gt;This is a &lt;em&gt;paragraph&lt;/em&gt;&lt;/p&gt;
   
   &lt;h1&gt;Paragraph ahead&lt;/h1&gt;
@@ -2204,11 +2204,12 @@ different names.  Note that distinguishing different id’s solely by case
 bad practice (opposite of best practice).  Instead you can use
 capitalization in other ways,
 like <a href="https://en.wikipedia.org/wiki/CamelCase" target="_blank" rel="noopener noreferrer">CamelCase</a>.</p>
+
 <h4>Any kind of quotes for strings</h4>
+
 <p>Finally, it will eventually be important to know about “strings”.
  Strings are just a series of characters.  They could be any characters
-like “Dingbats” or “ABC123^&amp;*<span class="citation"
-data-cites="aeiou">@aeiou“.  They can even contain spaces as
+like “Dingbats” or “ABC123^&amp;*@aeiou“.  They can even contain spaces as
 in”This is a string.”.  Because they are so wildly variable (they can
 essentially be anything you can type), the computer needs us to indicate
 where a string begins and ends, which is typically done with quotation
@@ -2221,21 +2222,14 @@ quotation marks it will essentially insert them for you. Thus:</p>
   &lt;p id=MyName&gt;
   &lt;p id=&quot;MyName&quot;&gt;
   &lt;p id=&#39;MyName&#39;&gt;
-.... are all equivalent.  
+  .... are all equivalent.
 </code></pre>
 
-<p>It is also important to know that, in HTML, <b>double and single quotes are almost interchangeable, but they have to match</b>.  If you
-start a string with a double quote, the computer will not end it until it sees another double quote.  Any single quotes will be happily
-considered part of the string, which is handy if you need quotation marks in your string.  Because of this, if you create a string as ’
-“quote” ’ (single quotes containing a double quoted string), your string will have the letters &lt;space&gt;-“-q-u-o-t-e-”-&lt;space&gt; (with
-double quotes in the string and spaces outside those) as opposed to “quote” which will just have the letters q-u-o-t-e (no quotation marks
-or spaces in the string).  Nevertheless, best practice is to be consistent in your quotes, so it’s best to quote them all the same way,
-even if the browser would understand it anyway.</p>
+<p>It is also important to know that, in HTML, <b>double and single quotes are almost interchangeable, but they have to match</b>.  If you start a string with a double quote, the computer will not end it until it sees another double quote.  Any single quotes will be happily considered part of the string, which is handy if you need quotation marks in your string.  Because of this, if you create a string as ’“quote” ’ (single quotes containing a double quoted string), your string will have the letters &lt;space&gt;-“-q-u-o-t-e-”-&lt;space&gt; (with double quotes in the string and spaces outside those) as opposed to “quote” which will just have the letters q-u-o-t-e (no quotation marks or spaces in the string).  Nevertheless, best practice is to be consistent in your quotes, so it’s best to quote them all the same way, even if the browser would understand it anyway.</p>
 
 <h4>In summary:</h4>
 
-<p>The idea is to take advantage of these flexibilities to create clean organized code that is easy for a human to comprehend.  I guess you
-could sum it all up with these simple dictum:</p>
+<p>The idea is to take advantage of these flexibilities to create clean organized code that is easy for a human to comprehend.  I guess you could sum it all up with these simple dictum:</p>
 
 <ul>
   <li><i><b>Case sensitive matters, except when it doesn’t</b></i> - case matters for some things, like strings and attributes, but not others, like tag names.</li>
@@ -2336,8 +2330,6 @@ technology users and missing levels can be confusing</b>.</p>
    &lt;/body&gt;
 &lt;/html&gt;
 </code></pre>
-
-</details>
 
 <p>You might notice that when discussing how these different elements are
 rendered (i.e. what they look like to the end user), you will find
@@ -3874,7 +3866,6 @@ in <a href="https://www.w3.org/TR/WCAG20-TECHS/H42.html" target="_blank" rel="n
     &lt;p&gt;If you can&#39;t get fresh peaches, frozen to the rescue!&lt;/p&gt;
   &lt;/body&gt;
 </code></pre>
-</div>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -13753,6 +13744,6 @@ These are the final changes to our recipe project for this unit.<br>
 
 <h6>The end…</h6>
 
-<h4><b>Last Updated 5-4-2023 Thu 12:18am</b></h4>
+<h4><b>Last Updated 5-5-2023 Fri 9:37am</b></h4>
 </body>
 </html>
