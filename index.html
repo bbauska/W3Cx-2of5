@@ -2314,7 +2314,7 @@ technology users and missing levels can be confusing</b>.</p>
   <summary>HTML code extract!</summary>
 
 <pre><code>
-&lt;!DOCTYPE <span class="dt">html&gt;
+&lt;!DOCTYPE &lt;span class="dt"&gt;html&gt;
    &lt;html lang=&quot;en&quot;&gt;
    &lt;head&gt;
       &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -2323,7 +2323,7 @@ technology users and missing levels can be confusing</b>.</p>
    &lt;body&gt;
    &lt;p&gt;
       This is a paragraph.
-      It may or may not be indented but it but there should be a line break at the end.
+      It may or may not be indented but there should be a line break at the end.
       Typically the last line will not stretch as far to the right as the rest of the lines.
       Often there is extra space between one paragraph and the next.
    &lt;/p&gt;
@@ -2607,7 +2607,7 @@ Tags and attributes make up the language.</p>
 <ul>
   <li>It is used inside the opening tag it is applied to and should be added after a space from the tag name: &lt;ol start=“5”&gt;.  The start attribute is used inside the &lt;ol&gt; tag.</li>
   <li>start=“5” Attribute name, equal sign, opening quote, attribute value, closing quote</li>
-  <li>Attributes are a name-value pair: start=“5”<br />
+  <li>Attributes are a name-value pair: start=“5”<br>
   name: start<br>
   value: any positive integer</li>
   <li>The only exception to the name-value pair is if the attribute is a ‘boolean attribute’. These attributes have only two types of values - true or false. But instead of writing “true” or “false” for its value, you add the attribute name to indicate true and omit it to indicate false. An example is the ‘reversed’ attribute in an ordered list &lt;ol&gt;. Adding this attribute is an indication that the list order should be reversed (in descending order).</li>
@@ -3438,10 +3438,10 @@ like this:</p>
 <td><strong>&lt;header&gt;</strong></td>
 <td>Introduction for the whole page or individual sections, article, nav, aside elements. Typically contains site name, logo, navigation. Does not have to be at the beginning of page.</td>
 <td>
-&lt;header&gt;<br /> &lt;h1&gt;The Importance of Being
-Earnest&lt;/h1&gt;<br /> &lt;h3&gt;A Quest for Truth and
-Beauty&lt;/h3&gt;<br /> &lt;p&gt;The play was written in 1895 by
-playwright Oscar Wilde&lt;/p&gt;<br /> &lt;/header&gt;
+&lt;header&gt;<br> &lt;h1&gt;The Importance of Being
+Earnest&lt;/h1&gt;<br> &lt;h3&gt;A Quest for Truth and
+Beauty&lt;/h3&gt;<br> &lt;p&gt;The play was written in 1895 by
+playwright Oscar Wilde&lt;/p&gt;<br> &lt;/header&gt;
 </td>
 </tr>
 <tr class="even">
@@ -3453,10 +3453,10 @@ Includes typical footer information like authoring, copyrights, contact
 information and a footer menu.
 </td>
 <td>
-&lt;footer&gt;<br /> &lt;p&gt;Written by: Oscar Wilde&lt;/p&gt;<br />
+&lt;footer&gt;<br> &lt;p&gt;Written by: Oscar Wilde&lt;/p&gt;<br>
 &lt;p&gt;Contact information: &lt;a
-href=“mailto:oscar@wilde.com”&gt;<br />
-oscar@wilde.com&lt;/a&gt;.&lt;/p&gt;<br /> &lt;/footer&gt;
+href=“mailto:oscar@wilde.com”&gt;<br>
+oscar@wilde.com&lt;/a&gt;.&lt;/p&gt;<br> &lt;/footer&gt;
 </td>
 </tr>
 <tr class="odd">
@@ -3469,10 +3469,10 @@ Navigation links for the document. A page can have more than one
 header and footer navigation.
 </td>
 <td>
-&lt;nav&gt;&lt;ol&gt;<br /> &lt;li&gt;&lt;a href=“/act1/”&gt;Act
+&lt;nav&gt;&lt;ol&gt;<br> &lt;li&gt;&lt;a href=“/act1/”&gt;Act
 1&lt;/a&gt;&lt;/li&gt;  <br> &lt;li&gt;&lt;a href=“/act2/”&gt;Act
-2&lt;/a&gt;&lt;/li&gt;<br /> &lt;li&gt;&lt;a href=“/act3/”&gt;Act
-3&lt;/a&gt;&lt;/li&gt;<br /> &lt;/ol&gt;&lt;/nav&gt;
+2&lt;/a&gt;&lt;/li&gt;<br> &lt;li&gt;&lt;a href=“/act3/”&gt;Act
+3&lt;/a&gt;&lt;/li&gt;<br> &lt;/ol&gt;&lt;/nav&gt;
 </td>
 </tr>
 <tr class="even">
@@ -3484,9 +3484,9 @@ Defines sections in the document such as chapters, headers, etc.
 Typically used on content that cannot make sense on its own. 
 </td>
 <td>
-&lt;section&gt;<br /> &lt;h1&gt;Act 1 - Scene 1&lt;/h1&gt;<br />
+&lt;section&gt;<br> &lt;h1&gt;Act 1 - Scene 1&lt;/h1&gt;<br>
 &lt;p&gt;Set in the morning room of Algy’s flat in Half Moon
-Street&lt;/p&gt;<br /> &lt;/section&gt;
+Street&lt;/p&gt;<br> &lt;/section&gt;
 </td>
 </tr>
 <tr class="odd">
@@ -3498,9 +3498,9 @@ Defines independent content that should make sense on its own outside of
 the document such as newspaper articles, blog posts, etc.
 </td>
 <td>
-&lt;article&gt;<br /> &lt;h1&gt;A blogger’s analysis of this brilliant
-satire&lt;/h1&gt;<br /> &lt;p&gt;This witty, sometimes conscious play is
-Wilde’s playground to raise his progressive sentiments…&lt;/p&gt;<br />
+&lt;article&gt;<br> &lt;h1&gt;A blogger’s analysis of this brilliant
+satire&lt;/h1&gt;<br> &lt;p&gt;This witty, sometimes conscious play is
+Wilde’s playground to raise his progressive sentiments…&lt;/p&gt;<br>
 &lt;/article&gt;
 </td>
 </tr>
@@ -3514,24 +3514,24 @@ considered as part of the main page outline.
 </td>
 <td>
 &lt;p&gt;Algernon’s flat is luxuriously and artistically
-furnished&lt;/p&gt;<br /> <br> &lt;aside&gt;<br /> &lt;h3&gt;Algernon
-Moncrieff&lt;/h3&gt;<br /> &lt;p&gt;A wealthy bachelor who lives in a
+furnished&lt;/p&gt;<br> <br> &lt;aside&gt;<br> &lt;h3&gt;Algernon
+Moncrieff&lt;/h3&gt;<br> &lt;p&gt;A wealthy bachelor who lives in a
 fashionable part of London. He has a good sense of humor and utter lack
-of respect for society.&lt;/p&gt;<br /> &lt;/aside&gt;
+of respect for society.&lt;/p&gt;<br> &lt;/aside&gt;
 </td>
 </tr>
 <tr class="odd">
 <td>
-<strong>&lt;details&gt;</strong><br /> <br />*see example below
+<strong>&lt;details&gt;</strong><br> <br>*see example below
 </td>
 <td>
 A way to provide additional information that the user can show or hide.
 Content that is shown to user by default. Other content is hidden and
 can be expanded to view.
 </td>
-<td>&lt;details&gt;<br /> &lt;summary&gt;Cast Members&lt;/summary&gt;<br>
+<td>&lt;details&gt;<br> &lt;summary&gt;Cast Members&lt;/summary&gt;<br>
 &lt;p&gt;George Washington as Algernon Moncrieff&lt;/p&gt;<br>
-&lt;p&gt;Ronald Reagan as John Worthing&lt;/p&gt;<br /> &lt;/details&gt;</td>
+&lt;p&gt;Ronald Reagan as John Worthing&lt;/p&gt;<br> &lt;/details&gt;</td>
 </tr>
 <tr class="even">
 <td><p><strong>&lt;figcaption&gt;</strong></p><p>
@@ -3540,8 +3540,8 @@ can be expanded to view.
 </td>
 <td>Provides a caption (explanation) of an image. To be used within
 &lt;figure&gt;.</td>
-<td>&lt;figure&gt;<br /> &lt;img src=“img_cast.jpg” alt=“The Importance of
-Being Earnest Cast”&gt;<br /> &lt;figcaption&gt;Fig1. - The cast hard at
+<td>&lt;figure&gt;<br> &lt;img src=“img_cast.jpg” alt=“The Importance of
+Being Earnest Cast”&gt;<br> &lt;figcaption&gt;Fig1. - The cast hard at
 work at dress rehearsal before opening night&lt;/figcaption&gt;<br>
 &lt;/figure&gt;</td>
 </tr>
@@ -3566,9 +3566,9 @@ Used within the &lt;details&gt; tag. Specifies the visible content. The
 rest of the content in details is shown/hidden by user.
 </td>
 <td>
-&lt;details&gt;<br /> &lt;summary&gt;Cast Members&lt;/summary&gt;<br />
-&lt;p&gt;George Washington as Algernon Moncrieff&lt;/p&gt;<br />
-&lt;p&gt;Ronald Reagan as John Worthing&lt;/p&gt;<br /> &lt;/details&gt;
+&lt;details&gt;<br> &lt;summary&gt;Cast Members&lt;/summary&gt;<br>
+&lt;p&gt;George Washington as Algernon Moncrieff&lt;/p&gt;<br>
+&lt;p&gt;Ronald Reagan as John Worthing&lt;/p&gt;<br> &lt;/details&gt;
 </td>
 </tr>
 </tbody>
@@ -3586,31 +3586,30 @@ simple way to get a powerful and desirable feature.</p>
 the &lt;details&gt; tag works in most Web browsers.</p>
 
 <table>
-<colgroup>
-<col style="width: 68%" />
-<col style="width: 31%" />
-</colgroup>
-<thead><tr class="header">
-<th><strong>HTML</strong></th>
-<th><strong>Result / Try It!</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>
-
-<ol type="1">
-  <li>&lt;details&gt;</li>
-  <li>   &lt;summary&gt;Cast Members&lt;/summary&gt;</li>
-  <li>   &lt;p&gt;George Washington as Algernon Moncrieff&lt;/p&gt;</li>
-  <li>   &lt;p&gt;Ronald Reagan as John Worthing&lt;/p&gt;</li>
-  <li>&lt;/details&gt;</li>
-</ol>
-
-</td>
-<td>Cast Members</td>
-</tr>
-</tbody>
+  <colgroup>
+    <col style="width: 68%" />
+    <col style="width: 31%" />
+  </colgroup>
+  <thead>
+    <tr class="header">
+      <th><strong>HTML</strong></th>
+      <th><strong>Result / Try It!</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="odd">
+      <td>
+        <ol type="1">
+          <li>&lt;details&gt;</li>
+          <li>   &lt;summary&gt;Cast Members&lt;/summary&gt;</li>
+          <li>   &lt;p&gt;George Washington as Algernon Moncrieff&lt;/p&gt;</li>
+          <li>   &lt;p&gt;Ronald Reagan as John Worthing&lt;/p&gt;</li>
+          <li>&lt;/details&gt;</li>
+        </ol>
+      </td>
+      <td>Cast Members</td>
+    </tr>
+  </tbody>
 </table>
 
 <h4>Element</h4>
@@ -3633,12 +3632,12 @@ technology, &lt;figcaption&gt; can be used to provide additional
 information for all users.</p>
 
 <pre class="html5"><code>
-&lt;figure&gt;
-  &lt;img src=&quot;img_cast.jpg&quot; alt=&quot;The Importance of Being Earnest
-    Cast&quot;&gt;
-  &lt;figcaption&gt;Fig1. - The cast hard at work at dress rehearsal
-    before opening night&lt;/figcaption&gt;
-&lt;/figure&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;img_cast.jpg&quot; alt=&quot;The Importance of Being Earnest
+      Cast&quot;&gt;
+    &lt;figcaption&gt;Fig1. - The cast hard at work at dress rehearsal
+      before opening night&lt;/figcaption&gt;
+  &lt;/figure&gt;
 </code></pre>
 
 <h4>Result:</h4>
@@ -3767,8 +3766,8 @@ tag&lt;/code&gt;.&lt;/p&gt;</td>
 <td>&lt;address&gt;</td>
 <td>Used to supply contact information for its
 nearest &lt;article&gt; or &lt;body&gt; ancestor.</td>
-<td>&lt;address&gt;<br /> &lt;a href=“www.example.com”&gt;John
-Doe&lt;/a&gt;&lt;br&gt;<br /> #123, Doe Villa&lt;br&gt;<br /> Los
+<td>&lt;address&gt;<br> &lt;a href=“www.example.com”&gt;John
+Doe&lt;/a&gt;&lt;br&gt;<br> #123, Doe Villa&lt;br&gt;<br> Los
 Angeles, USA<br> &lt;/address&gt;</td>
 </tr>
 <tr class="odd">
@@ -4484,7 +4483,7 @@ the image from. There are two different types of URLs you can give for
 source.</p>
 
 <ol type="1">
-  <li><p>Path to an image file within your Web site:<br />
+  <li><p>Path to an image file within your Web site:<br>
   &lt;img src=“images/image-with-relative-url.png” alt=“Example Tutorial Image”&gt;</p></li>
   <li><p>Path to an image file that resides elsewhere on the Web:  &lt;img src=“https://www.example.com/image-with-absolute-url.png” alt=&quot;Example Tutorial Image.&quot;&gt;</p></li>
 </ol>
@@ -6287,7 +6286,7 @@ via the font-weight CSS property.  While common values
 are normal and bold, text can also be made bolder (or less bold) than
 its parent with the values bolder and lighter. Lastly,
 the font-weight can be set explicitly as a numeric value. The choices
-are: 100, 200, 300, 400, 500, 600, 700, 800 and 900.<br />
+are: 100, 200, 300, 400, 500, 600, 700, 800 and 900.<br>
 normal maps to 400 and bold to 700. However, the different numeric
 choices will only work for fonts that support a full range of
 font-weights. Many times the numeric weights will simply be mapped back
@@ -6784,85 +6783,85 @@ languages: armenian, georgian, simp-chinese-formal, and many
 others. </p>
 
 <table>
-<colgroup>
-<col style="width: 16%" />
-<col style="width: 25%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 24%" />
-</colgroup>
-<thead>
-<tr class="header">
-  <th><strong>decimal</strong></th>
-  <th><strong>decimal-leading-zero</strong></th>
-  <th><strong>lower-roman</strong></th>
-  <th><strong>upper-alpha</strong></th>
-  <th><strong>simp-chinese-formal</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>
-<ol type="1">
-  <li><p>eggs</p></li>
-  <li><p>milk</p></li>
-  <li><p>bread</p></li>
-</ol>
-</td>
-<td>
-<ol type="1">
-  <li><p>eggs</p></li>
-  <li><p>milk</p></li>
-  <li><p>bread</p></li>
-</ol>
-</td>
-<td>
-<ol type="i">
-  <li>
-    <blockquote>
-    <p>eggs</p>
-    </blockquote>
-</li>
-  <li>
-    <blockquote>
-    <p>milk</p>
-    </blockquote>
-  </li>
-  <li>
-    <blockquote>
-    <p>bread</p>
-    </blockquote>
-  </li>
-</ol>
-</td>
-<td>
-<ol type="A">
-  <li>
-    <blockquote>
-    <p>eggs</p>
-    </blockquote>
-  </li>
-  <li>
-    <blockquote>
-    <p>milk</p>
-    </blockquote>
-  </li>
-  <li>
-    <blockquote>
-    <p>bread</p>
-    </blockquote>
-  </li>
-</ol>
-</td>
-<td>
-<ol type="1">
-  <li><p>eggs</p></li>
-  <li><p>milk</p></li>
-  <li><p>bread</p></li>
-</ol>
-</td>
-</tr>
-</tbody>
+  <colgroup>
+    <col style="width: 16%" />
+    <col style="width: 25%" />
+    <col style="width: 16%" />
+    <col style="width: 16%" />
+    <col style="width: 24%" />
+  </colgroup>
+  <thead>
+    <tr class="header">
+      <th><strong>decimal</strong></th>
+      <th><strong>decimal-leading-zero</strong></th>
+      <th><strong>lower-roman</strong></th>
+      <th><strong>upper-alpha</strong></th>
+      <th><strong>simp-chinese-formal</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="odd">
+      <td>
+        <ol type="1">
+          <li><p>eggs</p></li>
+          <li><p>milk</p></li>
+          <li><p>bread</p></li>
+        </ol>
+      </td>
+      <td>
+        <ol type="1">
+          <li><p>eggs</p></li>
+          <li><p>milk</p></li>
+          <li><p>bread</p></li>
+        </ol>
+      </td>
+      <td>
+        <ol type="i">
+        <li>
+          <blockquote>
+            <p>eggs</p>
+          </blockquote>
+        </li>
+        <li>
+          <blockquote>
+            <p>milk</p>
+          </blockquote>
+        </li>
+        <li>
+          <blockquote>
+            <p>bread</p>
+          </blockquote>
+          </li>
+        </ol>
+      </td>
+      <td>
+        <ol type="A">
+          <li>
+            <blockquote>
+              <p>eggs</p>
+            </blockquote>
+          </li>
+          <li>
+            <blockquote>
+              <p>milk</p>
+            </blockquote>
+          </li>
+          <li>
+            <blockquote>
+              <p>bread</p>
+            </blockquote>
+          </li>
+        </ol>
+      </td>
+      <td>
+        <ol type="1">
+          <li><p>eggs</p></li>
+          <li><p>milk</p></li>
+          <li><p>bread</p></li>
+        </ol>
+      </td>
+    </tr>
+  </tbody>
 </table>
 
 <h4>list-style-position</h4>
@@ -6918,9 +6917,8 @@ may also want to govern how closely it is positioned to the list itself.<br>
 background-image section.</p>
 
 <pre><code>
-li { list-style-image: url(&quot;my_triangle.png&quot;); }
+  li { list-style-image: url(&quot;my_triangle.png&quot;); }
 </code></pre>
-
 
 <p>Note that the browser will do little more than draw the image.<br>
 <br>There is no guarantee to scale the image or assist with spacing or alignment.<br>
@@ -7086,17 +7084,17 @@ before one rule set.  Like so:</p>
 <tbody>
   <tr class="odd">
   <td>
-  blockquote {<br />   color: red;<br />   font-style: italic;<br />
-  }<br /> q          {<br />   color: red;<br />
-  font-style: italic;<br /> }<br /> .speech    {<br />   
-color: red;<br />    font-style: italic;<br /> }
-  </td>
-<td>
-blockquote,<br /> q,<br /> .speech {<br /> color: red;<br />    
-font-style: italic;   <br> }
-</td>
-</tr>
-</tbody>
+  blockquote {<br>   color: red;<br>   font-style: italic;<br>
+  }<br> q          {<br>   color: red;<br>
+  font-style: italic;<br> }<br> .speech    {<br>   
+color: red;<br>    font-style: italic;<br> }
+      </td>
+      <td>
+        blockquote,<br> q,<br> .speech {<br> color: red;<br>
+        font-style: italic;   <br>}
+      </td>
+    </tr>
+  </tbody>
 </table>
 
 <p>The joined version on the right is much easier to read and maintain.</p>
@@ -10747,8 +10745,8 @@ look a little more visually appealing inside your document.</p>
 </table>
 
 <ol start="3" type="1">
-  <li><p>Create the following table structure using HTML and CSS following the style as closely as possible noting table border, colors, etc.<br />Insert dummy text values for table.</p></li>
-  <li><p>Create the following table structure using HTML and CSS following the style as closely as possible noting table border, colors, etc.<br />Make the table cover the entire width of the screen.<br>Insert dummy text values for the table.</p></li>
+  <li><p>Create the following table structure using HTML and CSS following the style as closely as possible noting table border, colors, etc.<br>Insert dummy text values for table.</p></li>
+  <li><p>Create the following table structure using HTML and CSS following the style as closely as possible noting table border, colors, etc.<br>Make the table cover the entire width of the screen.<br>Insert dummy text values for the table.</p></li>
 </ol>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 103. tables activity #2 (247) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -11817,10 +11815,10 @@ the CSS test suites at W3C.</p>
 <h4>Executive summary</h4>
 
 <ul>
-  <li><p><b>Logical source order:</b><br />The order of the HTML content should make sense even without the CSS: for accessibility, mobile optimization, device adaptability, and long-term maintainability.</p></li>
-  <li><p><b>Liquid layouts and relativity:</b><br /> Use smart relative sizing: to optimize layouts while minimizing media query code forks.</p></li>
-  <li><p><b>Media queries:</b><br /> Adapt to screen size changes; get font size adaptation free by using ems.</p></li>
-  <li><p><b>Prevent zombie code:</b><br /> Dead code may come alive as CSS changes. Delete it before it does, and ruins your layout.</p></li>
+  <li><p><b>Logical source order:</b><br>The order of the HTML content should make sense even without the CSS: for accessibility, mobile optimization, device adaptability, and long-term maintainability.</p></li>
+  <li><p><b>Liquid layouts and relativity:</b><br> Use smart relative sizing: to optimize layouts while minimizing media query code forks.</p></li>
+  <li><p><b>Media queries:</b><br> Adapt to screen size changes; get font size adaptation free by using ems.</p></li>
+  <li><p><b>Prevent zombie code:</b><br> Dead code may come alive as CSS changes. Delete it before it does, and ruins your layout.</p></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 132. keep the web open (282) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -11845,11 +11843,11 @@ right.
   <li><p>Learn how to code CSS before relying on frameworks (such as Bootstrap, etc.)</p></li>
   <li><p><b>Separate content and style</b></p>
   <ul>
-    <li><p>Use semantic markup, ie., “classes for meaning, not for show”.<br />
+    <li><p>Use semantic markup, ie., “classes for meaning, not for show”.<br>
     The following article is helpful to understand this concept: <a target="_blank" rel="noopener noreferrer"  href="https://alistapart.com/article/meaningful-css-style-like-you-mean-it/">Meaningful CSS: Style Like You Mean It</a> (Tim Baxter, May 2016 - A list apart).</p></li>
     <li><p>Use &lt;table&gt; for tabular data: don’t use tables for layout, but if your content is tabular like a catalog, a calendar, or a price list, then the table element is the correct markup.</p></li>
   </ul></li>
-  <li><p><b>Linearized logical source order </b>The order of the HTML content should make sense even without the CSS.<br />
+  <li><p><b>Linearized logical source order </b>The order of the HTML content should make sense even without the CSS.<br>
   Benefits are numerous as it <i>works best</i>:</p>
   <ul>
     <li><p>for long-term site maintainability</p></li>
@@ -11904,7 +11902,7 @@ right.
   <li><p>Duplicate selectors if you need to increase specificity, or</p></li>
   <li><p>Simplify selectors if you need to decrease specificity</p></li>
   <li><p><b>Don’t over-escalate</b>: understand your code, and don’t overkill.</p></li>
-  <li><p><i>For example, avoid:<br /></i>        . z-index: 9999999999999999999999999999999999999;<br />        . position: absolute; left: -10000000000px</p></li>
+  <li><p><i>For example, avoid:<br></i>        . z-index: 9999999999999999999999999999999999999;<br>        . position: absolute; left: -10000000000px</p></li>
   <li><p><b>Drop dead code</b>: you tried something and it didn’t work? Delete it right away!</p></li>
   <li><p>Code to Standard</p></li>
   <li><p>Don’t rely on proprietary extensions</p></li>
@@ -12082,12 +12080,12 @@ and ready to build great Web pages.</p>
 <p><b>6.1 Introduction:</b> Understanding what “layout” means to your
 Web programming.</p>
 <p><b>6.2 Concepts:</b> Get an understanding of “display” versus
-“position” &amp; “block” versus “inline”.<br />
+“position” &amp; “block” versus “inline”.<br>
 <i>Note</i>: Positioning and z-index are OPTIONAL material.</p>
 <p><b>6.3 Flexbox:</b> There is more to understand about positioning and
 sizing. <i>Note</i>: Calc is OPTIONAL.</p>
 <p><b>6.4 More flexbox:</b> Main axis &amp; cross axis, justification,
-alignment and order — more flexbox concepts.<br />
+alignment and order — more flexbox concepts.<br>
 <i>Note</i>: This ENTIRE section is OPTIONAL.</p>
 <p><b>6.5 CSS Grid:</b> CSS Grid Layout is another new layout system
 available in CSS. <i>Note</i>: This ENTIRE section is OPTIONAL.</p>
@@ -13723,6 +13721,6 @@ These are the final changes to our recipe project for this unit.<br>
 
 <h6>The end…</h6>
 
-<h4><b>Last Updated 5-5-2023 Fri 9:37am</b></h4>
+<h4><b>Last Updated 5-5-2023 Fri 11:27am</b></h4>
 </body>
 </html>
