@@ -742,22 +742,20 @@ Generalized Markup Language</a>), which uses angle brackets (“&lt;” and
 <details>
   <summary>HTML code extract!</summary>
 
-<div class="sourceCode" id="cb1">
-<pre class="sourceCode xml"><code class="sourceCode xml">
-<span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>&lt;body&gt;
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  &lt;h1&gt;A Tale of Two Cities&lt;/h1&gt;
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  &lt;p&gt;
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    It was the best of times, it was the worst of times, . . .
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    . . .
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  &lt;/p&gt;
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    . . .
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  &lt;p&gt;
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    . . . it is a far, far better rest
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    that I go to than I have ever known.
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  &lt;/p&gt;
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>&lt;/body&gt;
+<pre><code>
+&lt;body&gt;
+  &lt;h1&gt;A Tale of Two Cities&lt;/h1&gt;
+  &lt;p&gt;
+    It was the best of times, it was the worst of times, . . .
+    . . .
+  &lt;/p&gt;
+    . . .
+  &lt;p&gt;
+    . . . it is a far, far better rest
+    that I go to than I have ever known.
+  &lt;/p&gt;
+&lt;/body&gt;
 </code></pre>
-</div>
 
 </details>
 
@@ -1438,16 +1436,14 @@ writer may have meant it to be a comment.</p>
 <p>Like most other tags, it can span multiple lines of your source file.
  This can be really convenient when you have a lot to say:</p>
 
-<div class="sourceCode" id="cb6">
-<pre class="sourceCode xml"><code class="sourceCode xml">
-<span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!--
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="co">If you want some good advice,
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="co">Neither a borrower nor a lender be,
-<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="co">For loan oft loses both itself and friend,
-<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="co">And borrowing dulls the edge of husbandry.
-<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="co">--&gt;
+<pre><code>
+&lt;!--
+If you want some good advice,
+Neither a borrower nor a lender be,
+For loan oft loses both itself and friend,
+And borrowing dulls the edge of husbandry.
+--&gt;
 </code></pre>
-</div>
 
 <p>Comments are also commonly used in development to block out bits of
 code, whether for testing or leaving unfinished business in the
@@ -2047,25 +2043,21 @@ do it properly, and not depend on the browser to patch it for you.</p>
 <p>Because an HTML file essentially represents a <a href="https://en.wikipedia.org/wiki/Tree_(data_structure)" target="_blank" rel="noopener noreferrer">tree structure</a>, the open and close tags should always match, and there should not be any overlap with other elements. That is, you can have an element that is enclosed in another element, or you can have two
 elements side-by-side, but you can never have a situation in which part of an element is in another, but the other part is not.</p>
 
-<div class="sourceCode" id="cb30">
-<pre class="sourceCode xml"><code class="sourceCode xml">
-<span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>  &lt;p&gt;This is a &lt;em&gt;paragraph&lt;/em&gt;&lt;/p&gt;
-<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>  
-<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a>  &lt;h1&gt;Paragraph ahead&lt;/h1&gt;
-<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a>  &lt;p&gt;And here it is.&lt;/p&gt;
+<pre></code>
+  &lt;p&gt;This is a &lt;em&gt;paragraph&lt;/em&gt;&lt;/p&gt;
+  
+  &lt;h1&gt;Paragraph ahead&lt;/h1&gt;
+  &lt;p&gt;And here it is.&lt;/p&gt;
 </code></pre>
-</div>
 
 <p>The two examples above are fine because in each case either an
 element is wholly contained in another (&lt;em&gt; in &lt;p&gt;) or they
 are completely separate (&lt;h1&gt; and &lt;p&gt;). This, on the other
 hand, is not valid:</p>
 
-<div class="sourceCode" id="cb31">
-<pre class="sourceCode xml"><code class="sourceCode xml">
-<span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>&lt;h1&gt;Part of this header is &lt;p&gt;in the&lt;/h2&gt; paragraph below&lt;/p&gt;
+<pre><code>
+  &lt;h1&gt;Part of this header is &lt;p&gt;in the&lt;/h2&gt; paragraph below&lt;/p&gt;
 </code></pre>
-</div>
 
 <p>What happens in this case is what we call “undefined”. That just
 means that there is no telling how the browser will decide to handle it.
@@ -2101,33 +2093,29 @@ good idea (best practice).</p>
 <p>Proper indentation is one way to make your code clearer and easier to
 understand:</p>
 
-<div class="sourceCode" id="cb32">
-<pre class="sourceCode xml"><code class="sourceCode xml">
-<span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>&lt;body&gt;
-<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>&lt;h1&gt;Here is a heading&lt;/h1&gt;
-<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a>&lt;p&gt;
-<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a>&lt;ol&gt;&lt;li&gt;List Item 1&lt;/li&gt;&lt;/ol&gt;
-<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a>&lt;/p&gt;
-<span id="cb32-6"><a href="#cb32-6" aria-hidden="true" tabindex="-1"></a>&lt;/body&gt;
+<pre><code>
+&lt;body&gt;
+  &lt;h1&gt;Here is a heading&lt;/h1&gt;
+  &lt;p&gt;
+  &lt;ol&gt;&lt;li&gt;List Item 1&lt;/li&gt;&lt;/ol&gt;
+  &lt;/p&gt;
+&lt;/body&gt;
 </code></pre>
-</div>
 
 <p>The code above doesn’t give any sense of the structure of the
 document. By using indentation effectively, you can make it more clear,
 showing the nesting of elements:</p>
 
-<div class="sourceCode" id="cb33">
-<pre class="sourceCode xml"><code class="sourceCode xml">
-<span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>&lt;body&gt;
-<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a>  &lt;h1&gt;Here is a heading&lt;/h1&gt;
-<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a>  &lt;p&gt;
-<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a>    &lt;ol&gt;
-<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a>      &lt;li&gt;List Item 1&lt;/li&gt;
-<span id="cb33-6"><a href="#cb33-6" aria-hidden="true" tabindex="-1"></a>    &lt;/ol&gt;
-<span id="cb33-7"><a href="#cb33-7" aria-hidden="true" tabindex="-1"></a>  &lt;/p&gt;
-<span id="cb33-8"><a href="#cb33-8" aria-hidden="true" tabindex="-1"></a>&lt;/body&gt;
+<pre><code>
+&lt;body&gt;
+  &lt;h1&gt;Here is a heading&lt;/h1&gt;
+  &lt;p&gt;
+    &lt;ol&gt;
+      &lt;li&gt;List Item 1&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/p&gt;
+&lt;/body&gt;
 </code></pre>
-</div>
 
 <p>Consistent quoting of strings is also helpful, in part to avoid
 potential problems that can arise when you think something does not need
@@ -2177,19 +2165,18 @@ will look the same.</p>
 <p>Thus, all three of the following elements should look exactly the
 same when you read them in the browser:</p>
 
-<div class="sourceCode" id="cb34">
-<pre class="sourceCode xml"><code class="sourceCode xml">
-<span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>&lt;H1&gt; This is the Beginning &lt;/H1&gt;
-<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>
-<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a>&lt;H1&gt;
-<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a>
-<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a>   This is the Beginning
-<span id="cb34-6"><a href="#cb34-6" aria-hidden="true" tabindex="-1"></a>
-<span id="cb34-7"><a href="#cb34-7" aria-hidden="true" tabindex="-1"></a>&lt;/H1&gt;
-<span id="cb34-8"><a href="#cb34-8" aria-hidden="true" tabindex="-1"></a>
-<span id="cb34-9"><a href="#cb34-9" aria-hidden="true" tabindex="-1"></a>&lt;h1&gt;This is the Beginning&lt;/h1&gt;
+
+<pre><code>
+&lt;H1&gt; This is the Beginning &lt;/H1&gt;
+
+&lt;H1&gt;
+
+   This is the Beginning
+
+&lt;/H1&gt;
+
+&lt;h1&gt;This is the Beginning&lt;/h1&gt;
 </code></pre>
-</div>
 
 <p>It might seem confusing at first, but this rule about white space is
 actually very convenient.  The third option might be a bit too cramped
@@ -2205,13 +2192,11 @@ insensitive, but it is not that easy.  </p>
 attributes yet, but when we do we will discover that they are case
 sensitive, thus these two elements will have different ’id’s:</p>
 
-<div class="sourceCode" id="cb35">
-<pre class="sourceCode xml"><code class="sourceCode xml">
-<span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>&lt;p id=ThisOne&gt;
-<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>   
-<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>&lt;p id=thisone&gt;
+<pre><code>
+  &lt;p id=ThisOne&gt;
+   
+  &lt;p id=thisone&gt;
 </code></pre>
-</div>
 
 <p>Even though they’re spelled the same, the differing cases indicate
 different names.  Note that distinguishing different id’s solely by case
@@ -2232,15 +2217,12 @@ marks, either single (’) or double (“). HTML tries to be helpful here.</p>
 strings (say a string without spaces), even if you do not use the
 quotation marks it will essentially insert them for you. Thus:</p>
 
-<div class="sourceCode" id="cb36">
-<pre class="sourceCode xml"><code class="sourceCode xml">
-<span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a>&lt;p id=MyName&gt;
-<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a>&lt;p id=&quot;MyName&quot;&gt;
-<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a>&lt;p id=&#39;MyName&#39;&gt;
-<span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a>.... are all equivalent.  
+<pre><code>
+  &lt;p id=MyName&gt;
+  &lt;p id=&quot;MyName&quot;&gt;
+  &lt;p id=&#39;MyName&#39;&gt;
+.... are all equivalent.  
 </code></pre>
-
-</div>
 
 <p>It is also important to know that, in HTML, <b>double and single quotes are almost interchangeable, but they have to match</b>.  If you
 start a string with a double quote, the computer will not end it until it sees another double quote.  Any single quotes will be happily
@@ -2303,25 +2285,21 @@ how many there are, etc.  We will start with the ones we have already seen:</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<div class="sourceCode" id="cb37">
-
-<pre class="sourceCode xml"><code class="sourceCode xml">
-<span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;!DOCTYPE <span class="dt">html&gt;
-<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>&lt;html lang=&quot;en&quot;&gt;
-<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>   &lt;head&gt;
-<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a>      &lt;meta charset=&quot;UTF-8&quot;&gt;
-<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a>      &lt;title&gt;Welcome&lt;/title&gt;
-<span id="cb37-6"><a href="#cb37-6" aria-hidden="true" tabindex="-1"></a>   &lt;/head&gt;
-<span id="cb37-7"><a href="#cb37-7" aria-hidden="true" tabindex="-1"></a>   &lt;body&gt;
-<span id="cb37-8"><a href="#cb37-8" aria-hidden="true" tabindex="-1"></a>      &lt;h1&gt;A TALE OF TWO CITIES&lt;/h1&gt;
-<span id="cb37-9"><a href="#cb37-9" aria-hidden="true" tabindex="-1"></a>      &lt;h2&gt;A STORY OF THE FRENCH REVOLUTION&lt;/h2&gt;
-<span id="cb37-10"><a href="#cb37-10" aria-hidden="true" tabindex="-1"></a>      &lt;h2&gt;Book the First—Recalled to Life&lt;/h2&gt;
-<span id="cb37-11"><a href="#cb37-11" aria-hidden="true" tabindex="-1"></a>      &lt;h3&gt;I. The Period&lt;/h3&gt;
-<span id="cb37-12"><a href="#cb37-12" aria-hidden="true" tabindex="-1"></a>   &lt;/body&gt;
-<span id="cb37-13"><a href="#cb37-13" aria-hidden="true" tabindex="-1"></a>&lt;/html&gt;
+<pre><code>
+&lt;!DOCTYPE <span class="dt">html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;title&gt;Welcome&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;A TALE OF TWO CITIES&lt;/h1&gt;
+    &lt;h2&gt;A STORY OF THE FRENCH REVOLUTION&lt;/h2&gt;
+    &lt;h2&gt;Book the First—Recalled to Life&lt;/h2&gt;
+    &lt;h3&gt;I. The Period&lt;/h3&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
 </code></pre>
-
-</div>
 
 </details>
 
@@ -2341,27 +2319,23 @@ technology users and missing levels can be confusing</b>.</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<div class="sourceCode" id="cb38">
-
-<pre class="sourceCode xml"><code class="sourceCode xml">
-<span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;!DOCTYPE <span class="dt">html&gt;
-<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a>   &lt;html lang=&quot;en&quot;&gt;
-<span id="cb38-3"><a href="#cb38-3" aria-hidden="true" tabindex="-1"></a>   &lt;head&gt;
-<span id="cb38-4"><a href="#cb38-4" aria-hidden="true" tabindex="-1"></a>      &lt;meta charset=&quot;UTF-8&quot;&gt;
-<span id="cb38-5"><a href="#cb38-5" aria-hidden="true" tabindex="-1"></a>      &lt;title&gt;Welcome&lt;/title&gt;
-<span id="cb38-6"><a href="#cb38-6" aria-hidden="true" tabindex="-1"></a>   &lt;/head&gt;
-<span id="cb38-7"><a href="#cb38-7" aria-hidden="true" tabindex="-1"></a>   &lt;body&gt;
-<span id="cb38-8"><a href="#cb38-8" aria-hidden="true" tabindex="-1"></a>   &lt;p&gt;
-<span id="cb38-9"><a href="#cb38-9" aria-hidden="true" tabindex="-1"></a>      This is a paragraph.
-<span id="cb38-10"><a href="#cb38-10" aria-hidden="true" tabindex="-1"></a>      It may or may not be indented but it but there should be a line break at the end.
-<span id="cb38-11"><a href="#cb38-11" aria-hidden="true" tabindex="-1"></a>      Typically the last line will not stretch as far to the right as the rest of the lines.
-<span id="cb38-12"><a href="#cb38-12" aria-hidden="true" tabindex="-1"></a>      Often there is extra space between one paragraph and the next.
-<span id="cb38-13"><a href="#cb38-13" aria-hidden="true" tabindex="-1"></a>   &lt;/p&gt;
-<span id="cb38-14"><a href="#cb38-14" aria-hidden="true" tabindex="-1"></a>   &lt;/body&gt;
-<span id="cb38-15"><a href="#cb38-15" aria-hidden="true" tabindex="-1"></a>&lt;/html&gt;
+<pre><code>
+&lt;!DOCTYPE <span class="dt">html&gt;
+   &lt;html lang=&quot;en&quot;&gt;
+   &lt;head&gt;
+      &lt;meta charset=&quot;UTF-8&quot;&gt;
+      &lt;title&gt;Welcome&lt;/title&gt;
+   &lt;/head&gt;
+   &lt;body&gt;
+   &lt;p&gt;
+      This is a paragraph.
+      It may or may not be indented but it but there should be a line break at the end.
+      Typically the last line will not stretch as far to the right as the rest of the lines.
+      Often there is extra space between one paragraph and the next.
+   &lt;/p&gt;
+   &lt;/body&gt;
+&lt;/html&gt;
 </code></pre>
-
-</div>
 
 </details>
 
@@ -2394,15 +2368,13 @@ wise - Benjamin Franklin</p>
   <li><b>&lt;li&gt;</b> - The <b>li</b> element is a “List Item”, i.e. one item in the list.  As you might expect, this element only really makes sense nested inside a list (&lt;ul&gt; or &lt;ol&gt;).  In the final rendering, each li element would typically be preceded by a number or bullet, or something similar (but not necessarily).  Thus a list in HTML would look like this:</li>
 </ul>
 
-<div class="sourceCode" id="cb39">
-<pre class="sourceCode xml"><code class="sourceCode xml">
-<span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>&lt;ul&gt;
-<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a>   &lt;li&gt; First item in list &lt;/li&gt;
-<span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a>   &lt;li&gt; Second item in list &lt;/li&gt;
-<span id="cb39-4"><a href="#cb39-4" aria-hidden="true" tabindex="-1"></a>   . . .
-<span id="cb39-5"><a href="#cb39-5" aria-hidden="true" tabindex="-1"></a>&lt;/ul&gt;
+<pre><code>
+  &lt;ul&gt;
+    &lt;li&gt; First item in list &lt;/li&gt;
+    &lt;li&gt; Second item in list &lt;/li&gt;
+   . . .
+  &lt;/ul&gt;
 </code></pre>
-</div>
 
 <h4>This code might be rendered like this:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2477,41 +2449,39 @@ following components:
 
 <details>
   <summary>HTML code extract!</summary>
-  
-<div class="sourceCode" id="cb43">
-<pre class="sourceCode xml"><code class="sourceCode xml">
-<span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;!DOCTYPE <span class="dt">html&gt;
-<span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a>&lt;html lang=&quot;en&quot;&gt;
-<span id="cb43-3"><a href="#cb43-3" aria-hidden="true" tabindex="-1"></a>  &lt;head&gt;
-<span id="cb43-4"><a href="#cb43-4" aria-hidden="true" tabindex="-1"></a>    &lt;meta charset=&quot;UTF-8&quot;&gt;
-<span id="cb43-5"><a href="#cb43-5" aria-hidden="true" tabindex="-1"></a>      &lt;title&gt;My Favorite Recipes - Module 1&lt;/title&gt;
-<span id="cb43-6"><a href="#cb43-6" aria-hidden="true" tabindex="-1"></a>  &lt;/head&gt;
-<span id="cb43-7"><a href="#cb43-7" aria-hidden="true" tabindex="-1"></a>  &lt;body&gt;
-<span id="cb43-8"><a href="#cb43-8" aria-hidden="true" tabindex="-1"></a>    &lt;h1&gt;My Favorite Recipes&lt;/h1&gt;
-<span id="cb43-9"><a href="#cb43-9" aria-hidden="true" tabindex="-1"></a>    &lt;ul&gt;
-<span id="cb43-10"><a href="#cb43-10" aria-hidden="true" tabindex="-1"></a>      &lt;li&gt;Recipe 1&lt;/li&gt;
-<span id="cb43-11"><a href="#cb43-11" aria-hidden="true" tabindex="-1"></a>    &lt;/ul&gt;
-<span id="cb43-12"><a href="#cb43-12" aria-hidden="true" tabindex="-1"></a>    &lt;h2&gt;Recipe 1&lt;/h2&gt;
-<span id="cb43-13"><a href="#cb43-13" aria-hidden="true" tabindex="-1"></a>      &lt;p&gt;
-<span id="cb43-14"><a href="#cb43-14" aria-hidden="true" tabindex="-1"></a>        This is going to be my favorite recipe.
-<span id="cb43-15"><a href="#cb43-15" aria-hidden="true" tabindex="-1"></a>      &lt;/p&gt;
-<span id="cb43-16"><a href="#cb43-16" aria-hidden="true" tabindex="-1"></a>    &lt;h3&gt;List of Ingredients:&lt;/h3&gt;
-<span id="cb43-17"><a href="#cb43-17" aria-hidden="true" tabindex="-1"></a>    &lt;ul&gt;
-<span id="cb43-18"><a href="#cb43-18" aria-hidden="true" tabindex="-1"></a>      &lt;li&gt;Ingredient 1&lt;/li&gt;
-<span id="cb43-19"><a href="#cb43-19" aria-hidden="true" tabindex="-1"></a>      &lt;li&gt;Ingredient 2&lt;/li&gt;
-<span id="cb43-20"><a href="#cb43-20" aria-hidden="true" tabindex="-1"></a>      &lt;li&gt;Ingredient 3&lt;/li&gt;
-<span id="cb43-21"><a href="#cb43-21" aria-hidden="true" tabindex="-1"></a>    &lt;/ul&gt;
-<span id="cb43-22"><a href="#cb43-22" aria-hidden="true" tabindex="-1"></a>    &lt;h3&gt;Steps:&lt;/h3&gt;
-<span id="cb43-23"><a href="#cb43-23" aria-hidden="true" tabindex="-1"></a>    &lt;ol&gt;
-<span id="cb43-24"><a href="#cb43-24" aria-hidden="true" tabindex="-1"></a>       &lt;li&gt;Step 1&lt;/li&gt;
-<span id="cb43-25"><a href="#cb43-25" aria-hidden="true" tabindex="-1"></a>       &lt;li&gt;Step 2&lt;/li&gt;
-<span id="cb43-26"><a href="#cb43-26" aria-hidden="true" tabindex="-1"></a>       &lt;li&gt;Step 3&lt;/li&gt;
-<span id="cb43-27"><a href="#cb43-27" aria-hidden="true" tabindex="-1"></a>       &lt;li&gt;Enjoy!&lt;/li&gt;
-<span id="cb43-28"><a href="#cb43-28" aria-hidden="true" tabindex="-1"></a>    &lt;/ol&gt;
-<span id="cb43-29"><a href="#cb43-29" aria-hidden="true" tabindex="-1"></a>  &lt;/body&gt;
-<span id="cb43-30"><a href="#cb43-30" aria-hidden="true" tabindex="-1"></a>&lt;/html&gt;
+
+<pre><code>
+&lt;!DOCTYPE <span class="dt">html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+      &lt;title&gt;My Favorite Recipes - Module 1&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;My Favorite Recipes&lt;/h1&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Recipe 1&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;h2&gt;Recipe 1&lt;/h2&gt;
+      &lt;p&gt;
+        This is going to be my favorite recipe.
+      &lt;/p&gt;
+    &lt;h3&gt;List of Ingredients:&lt;/h3&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Ingredient 1&lt;/li&gt;
+      &lt;li&gt;Ingredient 2&lt;/li&gt;
+      &lt;li&gt;Ingredient 3&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;h3&gt;Steps:&lt;/h3&gt;
+    &lt;ol&gt;
+       &lt;li&gt;Step 1&lt;/li&gt;
+       &lt;li&gt;Step 2&lt;/li&gt;
+       &lt;li&gt;Step 3&lt;/li&gt;
+       &lt;li&gt;Enjoy!&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
 </code></pre>
-</div>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2597,13 +2567,13 @@ module. Let’s look into it in more depth, by using examples.</p>
 
 <h4>Here is an ordered list:</h4>
 
-&lt;ol&gt;
-  &lt;li&gt;Lights&lt;/li&gt;
-<span id="cb44-3"><a href="#cb44-3" aria-hidden="true" tabindex="-1"></a>  &lt;li&gt;Camera&lt;/li&gt;
-<span id="cb44-4"><a href="#cb44-4" aria-hidden="true" tabindex="-1"></a>  &lt;li&gt;Action&lt;/li&gt;
-<span id="cb44-5"><a href="#cb44-5" aria-hidden="true" tabindex="-1"></a>&lt;/ol&gt;
+<pre><code>
+  &lt;ol&gt;
+    &lt;li&gt;Lights&lt;/li&gt;
+    &lt;li&gt;Camera&lt;/li&gt;
+    &lt;li&gt;Action&lt;/li&gt;
+  &lt;/ol&gt;
 </code></pre>
-</div>
 
 <h4>Output:</h4>
 
@@ -2615,12 +2585,15 @@ module. Let’s look into it in more depth, by using examples.</p>
 
 <p>If i want an ordered list to start with the number 5 instead of 1 (as it
 does by default), let’s code like this:</p>
-<div class="sourceCode" id="cb46"><pre
-class="sourceCode xml"><code class="sourceCode xml"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a>&lt;ol start=&quot;5&quot;&gt;
-<span id="cb46-2"><a href="#cb46-2" aria-hidden="true" tabindex="-1"></a>  &lt;li&gt;Lights&lt;/li&gt;
-<span id="cb46-3"><a href="#cb46-3" aria-hidden="true" tabindex="-1"></a>  &lt;li&gt;Camera&lt;/li&gt;
-<span id="cb46-4"><a href="#cb46-4" aria-hidden="true" tabindex="-1"></a>  &lt;li&gt;Action&lt;/li&gt;
-<span id="cb46-5"><a href="#cb46-5" aria-hidden="true" tabindex="-1"></a>&lt;/ol&gt;</code></pre></div>
+
+<pre><code>
+&lt;ol start=&quot;5&quot;&gt;
+  &lt;li&gt;Lights&lt;/li&gt;
+  &lt;li&gt;Camera&lt;/li&gt;
+  &lt;li&gt;Action&lt;/li&gt;
+&lt;/ol&gt;
+</code></pre>
+
 <h4>Output:</h4>
 
 <pre><code>
@@ -2666,12 +2639,10 @@ Tags and attributes make up the language.</p>
 
 <h4>Imagine you have two paragraphs in your HTML page:</h4>
 
-<div class="sourceCode" id="cb50">
-<pre class="sourceCode xml"><code class="sourceCode xml">
-<span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a>&lt;p&gt;I am paragraph 1 and I want to be in red&lt;/p&gt;
-<span id="cb50-2"><a href="#cb50-2" aria-hidden="true" tabindex="-1"></a>&lt;p&gt;I am paragraph 2 and I want to be in blue&lt;/p&gt;
+<pre><code>
+&lt;p&gt;I am paragraph 1 and I want to be in red&lt;/p&gt;
+&lt;p&gt;I am paragraph 2 and I want to be in blue&lt;/p&gt;
 </code></pre>
-</div>
 
 <p>Your task is to make the text color of the first paragraph red and
 the other blue. How do we do that? You add styling to your HTML document
@@ -2688,12 +2659,10 @@ No one else in your company will have the same ID as you. id is an attribute.<
 It should be unique to the element; we know how more than one people having the same
 ID can just cause a lot of confusion.</p>
 
-<div class="sourceCode" id="cb51">
-<pre class="sourceCode xml"><code class="sourceCode xml">
-<span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a>&lt;p id=&quot;para1&quot;&gt;I am paragraph 1 and I want to be in red&lt;/p&gt;
-<span id="cb51-2"><a href="#cb51-2" aria-hidden="true" tabindex="-1"></a>&lt;p id=&quot;para2&quot;&gt;I am paragraph 2 and I want to be in blue&lt;/p&gt;
+<pre><code>
+  &lt;p id=&quot;para1&quot;&gt;I am paragraph 1 and I want to be in red&lt;/p&gt;
+  &lt;p id=&quot;para2&quot;&gt;I am paragraph 2 and I want to be in blue&lt;/p&gt;
 </code></pre>
-</div>
 
 <p>Here, we can style para1 and para2 separately using CSS. The id attribute helps us do this by letting us give each paragraph an ID.</p>
 
@@ -2877,14 +2846,12 @@ question, you can add two class names by separating them with white space:</p>
   <li>Styling your elements. You can specify the style you want for all the elements that belong to the class in your stylesheet.</li>
 </ol>
 
-<div class="sourceCode" id="cb61">
-<pre class="sourceCode xml"><code class="sourceCode xml">
-<span id="cb61-1"><a href="#cb61-1" aria-hidden="true" tabindex="-1"></a>&lt;p class=&quot;question&quot;&gt;Who are you?&lt;/p&gt;
-<span id="cb61-2"><a href="#cb61-2" aria-hidden="true" tabindex="-1"></a>&lt;p class=&quot;answer&quot;&gt;I am the author&lt;/p&gt;
-<span id="cb61-3"><a href="#cb61-3" aria-hidden="true" tabindex="-1"></a>&lt;p class=&quot;question html&quot;&gt;Do you like HTML5?&lt;/p&gt;
-<span id="cb61-4"><a href="#cb61-4" aria-hidden="true" tabindex="-1"></a>&lt;p class=&quot;answer&quot;&gt;Yes&lt;/p&gt;
+<pre><code>
+  &lt;p class=&quot;question&quot;&gt;Who are you?&lt;/p&gt;
+  &lt;p class=&quot;answer&quot;&gt;I am the author&lt;/p&gt;
+  &lt;p class=&quot;question html&quot;&gt;Do you like HTML5?&lt;/p&gt;
+  &lt;p class=&quot;answer&quot;&gt;Yes&lt;/p&gt;
 </code></pre>
-</div>
 
 <p>In your CSS, you can include code to style your classes, for example by telling it:</p>
 
@@ -2942,13 +2909,11 @@ contains it.</p>
 
 <h4>For example:</h4>
 
-<div class="sourceCode" id="cb62">
-<pre class="sourceCode xml"><code class="sourceCode xml">
-<span id="cb62-1"><a href="#cb62-1" aria-hidden="true" tabindex="-1"></a>&lt;html lang=&quot;en-GB&quot;&gt;...&lt;/html&gt;
-<span id="cb62-2"><a href="#cb62-2" aria-hidden="true" tabindex="-1"></a>   &lt;p&gt;In French you&#39;d say &lt;span lang=&quot;fr&quot;&gt;On voit souvent des chats
-<span id="cb62-3"><a href="#cb62-3" aria-hidden="true" tabindex="-1"></a>      sur le Web.&lt;/span&gt;&lt;/p&gt;
+<pre><code>
+&lt;html lang=&quot;en-GB&quot;&gt;...&lt;/html&gt;
+   &lt;p&gt;In French you&#39;d say &lt;span lang=&quot;fr&quot;&gt;On voit souvent des chats
+      sur le Web.&lt;/span&gt;&lt;/p&gt;
 </code></pre>
-</div>
 
 <p>The first example above shows how you can qualify the language
 (English) with a region subtag (GB) to specify British English.  This
@@ -3893,22 +3858,21 @@ in <a href="https://www.w3.org/TR/WCAG20-TECHS/H42.html" target="_blank" rel="n
 <details>
   <summary>HTML code extract!</summary>
 
-<div class="sourceCode" id="cb70">
-<pre class="sourceCode xml"><code class="sourceCode xml">
-<span id="cb70-1"><a href="#cb70-1" aria-hidden="true" tabindex="-1"></a>&lt;body&gt;
-<span id="cb70-2"><a href="#cb70-2" aria-hidden="true" tabindex="-1"></a>   &lt;h1&gt;Brad&#39;s Cookbook&lt;/h1&gt;
-<span id="cb70-3"><a href="#cb70-3" aria-hidden="true" tabindex="-1"></a>     &lt;h2&gt;Slowcook Recipes&lt;/h2&gt;
-<span id="cb70-4"><a href="#cb70-4" aria-hidden="true" tabindex="-1"></a>       &lt;h3&gt;Minestrone Soup&lt;/h3&gt;
-<span id="cb70-5"><a href="#cb70-5" aria-hidden="true" tabindex="-1"></a>          &lt;h4&gt;Description:&lt;/h4&gt;
-<span id="cb70-6"><a href="#cb70-6" aria-hidden="true" tabindex="-1"></a>           &lt;p&gt;Minestrone Soup is a simple and nutritious dish...&lt;/p&gt;
-<span id="cb70-7"><a href="#cb70-7" aria-hidden="true" tabindex="-1"></a>       &lt;h3&gt;Refried Beans&lt;/h3&gt;
-<span id="cb70-8"><a href="#cb70-8" aria-hidden="true" tabindex="-1"></a>         &lt;h4&gt;Description:&lt;/h4&gt;
-<span id="cb70-9"><a href="#cb70-9" aria-hidden="true" tabindex="-1"></a>           &lt;p&gt;Cumin is the secret to this recipe.&lt;/p&gt;
-<span id="cb70-10"><a href="#cb70-10" aria-hidden="true" tabindex="-1"></a>     &lt;h2&gt;Dessert Recipes&lt;/h2&gt;
-<span id="cb70-11"><a href="#cb70-11" aria-hidden="true" tabindex="-1"></a>       &lt;h3&gt;Peach Cobbler&lt;/h3&gt;
-<span id="cb70-12"><a href="#cb70-12" aria-hidden="true" tabindex="-1"></a>         &lt;h4&gt;Description:&lt;/h4&gt;
-<span id="cb70-13"><a href="#cb70-13" aria-hidden="true" tabindex="-1"></a>           &lt;p&gt;If you can&#39;t get fresh peaches, frozen to the rescue!&lt;/p&gt;
-<span id="cb70-14"><a href="#cb70-14" aria-hidden="true" tabindex="-1"></a>&lt;/body&gt;
+<pre><code>
+  &lt;body&gt;
+    &lt;h1&gt;Brad&#39;s Cookbook&lt;/h1&gt;
+    &lt;h2&gt;Slowcook Recipes&lt;/h2&gt;
+    &lt;h3&gt;Minestrone Soup&lt;/h3&gt;
+    &lt;h4&gt;Description:&lt;/h4&gt;
+    &lt;p&gt;Minestrone Soup is a simple and nutritious dish...&lt;/p&gt;
+    &lt;h3&gt;Refried Beans&lt;/h3&gt;
+    &lt;h4&gt;Description:&lt;/h4&gt;
+    &lt;p&gt;Cumin is the secret to this recipe.&lt;/p&gt;
+    &lt;h2&gt;Dessert Recipes&lt;/h2&gt;
+    &lt;h3&gt;Peach Cobbler&lt;/h3&gt;
+    &lt;h4&gt;Description:&lt;/h4&gt;
+    &lt;p&gt;If you can&#39;t get fresh peaches, frozen to the rescue!&lt;/p&gt;
+  &lt;/body&gt;
 </code></pre>
 </div>
 
@@ -4006,90 +3970,83 @@ multiple &lt;header&gt;, &lt;footer&gt; and &lt;nav&gt; tags.</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<div class="sourceCode" id="cb71">
-
-<pre class="sourceCode xml"><code class="sourceCode xml">
-<span id="cb71-1"><a href="#cb71-1" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;!DOCTYPE <span class="dt">html&gt;
-<span id="cb71-2"><a href="#cb71-2" aria-hidden="true" tabindex="-1"></a>&lt;html lang=&quot;en&quot;&gt;
-<span id="cb71-3"><a href="#cb71-3" aria-hidden="true" tabindex="-1"></a>   &lt;head&gt;
-<span id="cb71-4"><a href="#cb71-4" aria-hidden="true" tabindex="-1"></a>      &lt;meta charset=&quot;UTF-8&quot;&gt;
-<span id="cb71-5"><a href="#cb71-5" aria-hidden="true" tabindex="-1"></a>      &lt;title&gt;Header Hierarchy&lt;/title&gt;
-<span id="cb71-6"><a href="#cb71-6" aria-hidden="true" tabindex="-1"></a>   &lt;/head&gt;
-<span id="cb71-7"><a href="#cb71-7" aria-hidden="true" tabindex="-1"></a>   &lt;body&gt;
-<span id="cb71-8"><a href="#cb71-8" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!--Our global header used across all pages in our website--&gt;
-<span id="cb71-9"><a href="#cb71-9" aria-hidden="true" tabindex="-1"></a>   &lt;header&gt;
-<span id="cb71-10"><a href="#cb71-10" aria-hidden="true" tabindex="-1"></a>   &lt;h1&gt;Brad Abc&#39;s Blog&lt;/h1&gt;
-<span id="cb71-11"><a href="#cb71-11" aria-hidden="true" tabindex="-1"></a>   &lt;nav&gt;
-<span id="cb71-12"><a href="#cb71-12" aria-hidden="true" tabindex="-1"></a>      &lt;ul&gt;
-<span id="cb71-13"><a href="#cb71-13" aria-hidden="true" tabindex="-1"></a>         &lt;li&gt;&lt;a href=&quot;#ces&quot;&gt;CES 2018&lt;/a&gt;&lt;/li&gt;
-<span id="cb71-14"><a href="#cb71-14" aria-hidden="true" tabindex="-1"></a>         &lt;li&gt;&lt;a href=&quot;#vegan&quot;&gt;Being Vegan&lt;/a&gt;&lt;/li&gt;
-<span id="cb71-15"><a href="#cb71-15" aria-hidden="true" tabindex="-1"></a>         &lt;li&gt;&lt;a href=&quot;#html5&quot;&gt;HTML5&lt;/a&gt;&lt;/li&gt;
-<span id="cb71-16"><a href="#cb71-16" aria-hidden="true" tabindex="-1"></a>      &lt;/ul&gt;
-<span id="cb71-17"><a href="#cb71-17" aria-hidden="true" tabindex="-1"></a>   &lt;/nav&gt;
-<span id="cb71-18"><a href="#cb71-18" aria-hidden="true" tabindex="-1"></a>   &lt;/header&gt;
-<span id="cb71-19"><a href="#cb71-19" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- The main contents of the blog starts here --&gt;
-<span id="cb71-20"><a href="#cb71-20" aria-hidden="true" tabindex="-1"></a>   &lt;main&gt;
-<span id="cb71-21"><a href="#cb71-21" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Each blogpost is split into individual articles --&gt;
-<span id="cb71-22"><a href="#cb71-22" aria-hidden="true" tabindex="-1"></a>      &lt;article id=&quot;ces&quot;&gt;
-<span id="cb71-23"><a href="#cb71-23" aria-hidden="true" tabindex="-1"></a>      &lt;header&gt;
-<span id="cb71-24"><a href="#cb71-24" aria-hidden="true" tabindex="-1"></a>      &lt;h2&gt;CES 2018&lt;/h2&gt;
-<span id="cb71-25"><a href="#cb71-25" aria-hidden="true" tabindex="-1"></a>      &lt;h3&gt;Consumer electronics and consumer technology tradeshow&lt;/h3&gt;
-<span id="cb71-26"><a href="#cb71-26" aria-hidden="true" tabindex="-1"></a>   &lt;/header&gt;
-<span id="cb71-27"><a href="#cb71-27" aria-hidden="true" tabindex="-1"></a>   &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-<span id="cb71-28"><a href="#cb71-28" aria-hidden="true" tabindex="-1"></a>      neque risus, consequat eget vestibulum eu, consequat at eros. Nam eu
-<span id="cb71-29"><a href="#cb71-29" aria-hidden="true" tabindex="-1"></a>      nisl vel neque malesuada sollicitudin quis eget libero.&lt;/p&gt;
-<span id="cb71-30"><a href="#cb71-30" aria-hidden="true" tabindex="-1"></a>   &lt;footer&gt;
-<span id="cb71-31"><a href="#cb71-31" aria-hidden="true" tabindex="-1"></a>      &lt;p&gt;Written by guest author Nicholas Abc. Read Nicholas&#39;s blog here.&lt;/p&gt;
-<span id="cb71-32"><a href="#cb71-32" aria-hidden="true" tabindex="-1"></a>   &lt;/footer&gt;
-<span id="cb71-33"><a href="#cb71-33" aria-hidden="true" tabindex="-1"></a>   &lt;/article&gt;
-<span id="cb71-34"><a href="#cb71-34" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Article 2 --&gt;
-<span id="cb71-35"><a href="#cb71-35" aria-hidden="true" tabindex="-1"></a>   &lt;article id=&quot;vegan&quot;&gt;
-<span id="cb71-36"><a href="#cb71-36" aria-hidden="true" tabindex="-1"></a>   &lt;header&gt;
-<span id="cb71-37"><a href="#cb71-37" aria-hidden="true" tabindex="-1"></a>      &lt;h2&gt;Being Vegan&lt;/h2&gt;
-<span id="cb71-38"><a href="#cb71-38" aria-hidden="true" tabindex="-1"></a>      &lt;h3&gt;My cooking tips for new vegans&lt;/h3&gt;
-<span id="cb71-39"><a href="#cb71-39" aria-hidden="true" tabindex="-1"></a>   &lt;/header&gt;
-<span id="cb71-40"><a href="#cb71-40" aria-hidden="true" tabindex="-1"></a>   &lt;p&gt;Donec ut librero sed accu vehicula ultricies a non tortor. Lorem
-<span id="cb71-41"><a href="#cb71-41" aria-hidden="true" tabindex="-1"></a>      ipsum dolor sit amet, consectetur adipisicing elit. Aenean ut gravida
-<span id="cb71-42"><a href="#cb71-42" aria-hidden="true" tabindex="-1"></a>      lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id
-<span id="cb71-43"><a href="#cb71-43" aria-hidden="true" tabindex="-1"></a>   dolor.&lt;/p&gt;
-<span id="cb71-44"><a href="#cb71-44" aria-hidden="true" tabindex="-1"></a>   &lt;footer&gt;
-<span id="cb71-45"><a href="#cb71-45" aria-hidden="true" tabindex="-1"></a>      &lt;p&gt;Written by Brad Abc. Read my other health articles here.&lt;/p&gt;
-<span id="cb71-46"><a href="#cb71-46" aria-hidden="true" tabindex="-1"></a>   &lt;/footer&gt;
-<span id="cb71-47"><a href="#cb71-47" aria-hidden="true" tabindex="-1"></a>   &lt;/article&gt;
-<span id="cb71-48"><a href="#cb71-48" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Article 3 --&gt;
-<span id="cb71-49"><a href="#cb71-49" aria-hidden="true" tabindex="-1"></a>   &lt;article id=&quot;html5&quot;&gt;
-<span id="cb71-50"><a href="#cb71-50" aria-hidden="true" tabindex="-1"></a>   &lt;header&gt;
-<span id="cb71-51"><a href="#cb71-51" aria-hidden="true" tabindex="-1"></a>      &lt;h2&gt;HTML5&lt;/h2&gt;
-<span id="cb71-52"><a href="#cb71-52" aria-hidden="true" tabindex="-1"></a>      &lt;h3&gt;A summary of HTML5 differences from HTML4&lt;/h3&gt;
-<span id="cb71-53"><a href="#cb71-53" aria-hidden="true" tabindex="-1"></a>   &lt;/header&gt;
-<span id="cb71-54"><a href="#cb71-54" aria-hidden="true" tabindex="-1"></a>   &lt;p&gt;Pelientesque auctor nisi id magna consequat sagittis. Curabitur
-<span id="cb71-55"><a href="#cb71-55" aria-hidden="true" tabindex="-1"></a>      dapibus, enim sit amet elit pharetra tincidunt feugiat nist imperdiet.
-<span id="cb71-56"><a href="#cb71-56" aria-hidden="true" tabindex="-1"></a>      Ut convallis libero in urna ultrices accumsan. Donec sed odio
-<span id="cb71-57"><a href="#cb71-57" aria-hidden="true" tabindex="-1"></a>   eros.&lt;/p&gt;
-<span id="cb71-58"><a href="#cb71-58" aria-hidden="true" tabindex="-1"></a>   &lt;footer&gt;
-<span id="cb71-59"><a href="#cb71-59" aria-hidden="true" tabindex="-1"></a>      &lt;p&gt;Written by Brad Abc, HTML5 developer. Read my other technical
-<span id="cb71-60"><a href="#cb71-60" aria-hidden="true" tabindex="-1"></a>         articles here.&lt;/p&gt;
-<span id="cb71-61"><a href="#cb71-61" aria-hidden="true" tabindex="-1"></a>   &lt;/footer&gt;
-<span id="cb71-62"><a href="#cb71-62" aria-hidden="true" tabindex="-1"></a>   &lt;/article&gt;
-<span id="cb71-63"><a href="#cb71-63" aria-hidden="true" tabindex="-1"></a>   &lt;/main&gt;
-<span id="cb71-64"><a href="#cb71-64" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!--Our global footer used across all pages in our website--&gt;
-<span id="cb71-65"><a href="#cb71-65" aria-hidden="true" tabindex="-1"></a>   &lt;footer&gt;
-<span id="cb71-66"><a href="#cb71-66" aria-hidden="true" tabindex="-1"></a>   ©Copyright 2025. All rights reserved.
-<span id="cb71-67"><a href="#cb71-67" aria-hidden="true" tabindex="-1"></a>   &lt;nav&gt;
-<span id="cb71-68"><a href="#cb71-68" aria-hidden="true" tabindex="-1"></a>      &lt;ul&gt;
-<span id="cb71-69"><a href="#cb71-69" aria-hidden="true" tabindex="-1"></a>         &lt;li&gt;&lt;a href=&quot;&quot;&gt;Email&lt;/a&gt;&lt;/li&gt;
-<span id="cb71-70"><a href="#cb71-70" aria-hidden="true" tabindex="-1"></a>         &lt;li&gt;&lt;a href=&quot;&quot;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
-<span id="cb71-71"><a href="#cb71-71" aria-hidden="true" tabindex="-1"></a>         &lt;li&gt;&lt;a href=&quot;&quot;&gt;License&lt;/a&gt;&lt;/li&gt;
-<span id="cb71-72"><a href="#cb71-72" aria-hidden="true" tabindex="-1"></a>      &lt;/ul&gt;
-<span id="cb71-73"><a href="#cb71-73" aria-hidden="true" tabindex="-1"></a>   &lt;/nav&gt;
-<span id="cb71-74"><a href="#cb71-74" aria-hidden="true" tabindex="-1"></a>   &lt;/footer&gt;
-<span id="cb71-75"><a href="#cb71-75" aria-hidden="true" tabindex="-1"></a>   &lt;/body&gt;
-<span id="cb71-76"><a href="#cb71-76" aria-hidden="true" tabindex="-1"></a>&lt;/html&gt;
+<pre><code>
+&lt;!DOCTYPE <span class="dt">html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;title&gt;Header Hierarchy&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;!--Our global header used across all pages in our website--&gt;
+    &lt;header&gt;
+    &lt;h1&gt;Brad Abc&#39;s Blog&lt;/h1&gt;
+    &lt;nav&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&quot;#ces&quot;&gt;CES 2018&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;#vegan&quot;&gt;Being Vegan&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;#html5&quot;&gt;HTML5&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/nav&gt;
+  &lt;/header&gt;
+  &lt;!-- The main contents of the blog starts here --&gt;
+  &lt;main&gt;
+    &lt;!-- Each blogpost is split into individual articles --&gt;
+    &lt;article id=&quot;ces&quot;&gt;
+      &lt;header&gt;
+        &lt;h2&gt;CES 2018&lt;/h2&gt;
+        &lt;h3&gt;Consumer electronics and consumer technology tradeshow&lt;/h3&gt;
+      &lt;/header&gt;
+      &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+        neque risus, consequat eget vestibulum eu, consequat at eros. Nam eu
+        nisl vel neque malesuada sollicitudin quis eget libero.&lt;/p&gt;
+      &lt;footer&gt;
+        &lt;p&gt;Written by guest author Nicholas Abc. Read Nicholas&#39;s blog here.&lt;/p&gt;
+      &lt;/footer&gt;
+    &lt;/article&gt;
+    &lt;!-- Article 2 --&gt;
+    &lt;article id=&quot;vegan&quot;&gt;
+      &lt;header&gt;
+        &lt;h2&gt;Being Vegan&lt;/h2&gt;
+        &lt;h3&gt;My cooking tips for new vegans&lt;/h3&gt;
+      &lt;/header&gt;
+      &lt;p&gt;Donec ut librero sed accu vehicula ultricies a non tortor. Lorem
+        ipsum dolor sit amet, consectetur adipisicing elit. Aenean ut gravida
+        lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id
+        dolor.&lt;/p&gt;
+      &lt;footer&gt;
+        &lt;p&gt;Written by Brad Abc. Read my other health articles here.&lt;/p&gt;
+      &lt;/footer&gt;
+    &lt;/article&gt;
+    &lt;!-- Article 3 --&gt;
+    &lt;article id=&quot;html5&quot;&gt;
+      &lt;header&gt;
+        &lt;h2&gt;HTML5&lt;/h2&gt;
+        &lt;h3&gt;A summary of HTML5 differences from HTML4&lt;/h3&gt;
+      &lt;/header&gt;
+      &lt;p&gt;Pelientesque auctor nisi id magna consequat sagittis. Curabitur
+        dapibus, enim sit amet elit pharetra tincidunt feugiat nist imperdiet.
+        Ut convallis libero in urna ultrices accumsan. Donec sed odio eros.&lt;/p&gt;
+      &lt;footer&gt;
+      &lt;p&gt;Written by Brad Abc, HTML5 developer. Read my other technical
+        articles here.&lt;/p&gt;
+      &lt;/footer&gt;
+    &lt;/article&gt;
+  &lt;/main&gt;
+  &lt;!--Our global footer used across all pages in our website--&gt;
+  &lt;footer&gt;
+    ©Copyright 2025. All rights reserved.
+    &lt;nav&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&quot;&quot;&gt;Email&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;&quot;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;&quot;&gt;License&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/nav&gt;
+  &lt;/footer&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
 </code></pre>
-
-</div>
-
-</details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-3-5">2.3.5 &lt;article&gt; and &lt;section&gt; Elements</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4388,26 +4345,26 @@ in its place.</p>
   <summary>HTML code extract!</summary>
 
 <pre><code>
-&lt;section&gt;
-  &lt;h2&gt;Week 1&lt;/h2&gt;
-  &lt;p&gt;This week, you will be learning about...week 1 stuff&lt;/p&gt;
-  &lt;div class=&quot;code&quot;&gt;
-    &lt;ol&gt;
-      &lt;li&gt;Line of code&lt;/li&gt;
-      &lt;li&gt;Line of code&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/div&gt;
-&lt;/section&gt;
-&lt;section&gt;
-  &lt;h2&gt;Week 2&lt;/h2&gt;
-  &lt;p&gt;This week, you will be learning about...week 2 stuff&lt;/p&gt;
-  &lt;div class=&quot;code&quot;&gt;
-    &lt;ol&gt;
-      &lt;li&gt;Line of code&lt;/li&gt;
-      &lt;li&gt;Line of code&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/div&gt;
-&lt;/section&gt;
+  &lt;section&gt;
+    &lt;h2&gt;Week 1&lt;/h2&gt;
+    &lt;p&gt;This week, you will be learning about...week 1 stuff&lt;/p&gt;
+    &lt;div class=&quot;code&quot;&gt;
+      &lt;ol&gt;
+        &lt;li&gt;Line of code&lt;/li&gt;
+        &lt;li&gt;Line of code&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+  &lt;section&gt;
+    &lt;h2&gt;Week 2&lt;/h2&gt;
+    &lt;p&gt;This week, you will be learning about...week 2 stuff&lt;/p&gt;
+    &lt;div class=&quot;code&quot;&gt;
+      &lt;ol&gt;
+        &lt;li&gt;Line of code&lt;/li&gt;
+        &lt;li&gt;Line of code&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
 </code></pre>
 
 </details>
@@ -4489,7 +4446,7 @@ preference to &lt;span&gt; where possible.</p>
 
 <p>In the first &lt;span&gt; example, we said that nesting two paragraph
 elements was invalid HTML.</p>
-<p>Hi everyone! My name is Alexa and I work for &lt;p class=“company”&gt;ABC Company </p>
+<p>Hi everyone! My name is Alexa and I work for &lt;p class=“company”&gt;ABC Company</p>
 <p>After reading an opening tag &lt;p&gt;, if the browser sees
 another &lt;p&gt; or any other block level element
 including &lt;div&gt;, it will automatically close the first
@@ -5203,8 +5160,8 @@ for printing and with resolution of 250 dpi. Here is how the HTML5 code
 will look like:</p>
 
 <pre><code>
-&lt;a href=&quot;https://en.wikipedia.org/wiki/Media_queries?output=print&quot; media=&quot;print
-   and (resolution:250dpi)&quot;&gt;Print wiki page about media queries&lt;/a&gt;
+  &lt;a href=&quot;https://en.wikipedia.org/wiki/Media_queries?output=print&quot; media=&quot;print
+    and (resolution:250dpi)&quot;&gt;Print wiki page about media queries&lt;/a&gt;
 </code></pre>
 
 <h4>The ‘download’ attribute</h4>
@@ -5214,31 +5171,22 @@ download a file instead of navigate to another location. It takes in the
 filename as value but the value is optional. So the download attribute
 can be specified in the following ways:</p>
 
-<div class="sourceCode" id="cb96">
-<pre class="sourceCode xml"><code class="sourceCode xml">
-<span id="cb96-1"><a href="#cb96-1" aria-hidden="true" tabindex="-1"></a>&lt;a href=&quot;assets/hello.txt&quot; download&gt;
-<span id="cb96-2"><a href="#cb96-2" aria-hidden="true" tabindex="-1"></a>&lt;a href=&quot;assets/hello.txt&quot; download=&quot;new-name-for-text-file&quot;&gt;
+<pre><code>
+  &lt;a href=&quot;assets/hello.txt&quot; download&gt;
+  &lt;a href=&quot;assets/hello.txt&quot; download=&quot;new-name-for-text-file&quot;&gt;
 </code></pre>
-
-</div>
 
 <p>If you do not specify a value for download, it will download the file
 with name unchanged. Else it will download the file with file name
 modified according to value specified.</p>
 
-<div class="sourceCode" id="cb97">
-
-<pre class="sourceCode html"><code class="sourceCode html">
-<span id="cb97-1"><a href="#cb97-1" aria-hidden="true" tabindex="-1"></a>&lt;a href=&quot;/assets/hello.txt&quot; download&gt;
-<span id="cb97-2"><a href="#cb97-2" aria-hidden="true" tabindex="-1"></a>... will download the file with the same name - &#39;hello.txt&#39;.
-</code></pre>
-
-</div>
-
 <pre><code>
-&lt;a href=&quot;/assets/hello.txt&quot; download=&quot;new-name-for-text-file&quot;&gt;
-... will download the file after altering its name to -
-&#39;new-name-for-text-file.txt&#39;.
+  &lt;a href=&quot;/assets/hello.txt&quot; download&gt;
+    ... will download the file with the same name - &#39;hello.txt&#39;.
+
+  &lt;a href=&quot;/assets/hello.txt&quot; download=&quot;new-name-for-text-file&quot;&gt;
+    ... will download the file after altering its name to -
+    &#39;new-name-for-text-file.txt&#39;.
 </code></pre>
 
 <h4>Example (try the hyperlink below in Google Chrome):</h4>
@@ -6221,8 +6169,8 @@ as &lt;p&gt;, &lt;li&gt;, &lt;ul&gt;, &lt;ol&gt;, &lt;div&gt;,
 and &lt;blockquote&gt;.</p>
 
 <pre><code>
-p { text-align: left; }  
-blockquote { text-align: right; }
+  p { text-align: left; }  
+  blockquote { text-align: right; }
 </code></pre>
 
 <p>Bear in mind, also, that you should only use text-align when the
@@ -7237,11 +7185,9 @@ what descendant selectors are for. Here is an example for the problem we
 are facing:</p>
 
 <pre><code>
-#intro a { color: red; }
-#guideline a { color: #00FF00; }
+  #intro a { color: red; }
+  #guideline a { color: #00FF00; }
 </code></pre>
-
-</div>
 
 <p>We merely separate the tag, identifier, or class selectors by a space.</p>
 <p>In the first rule, we see that the selector will match to any
@@ -7794,8 +7740,6 @@ Here</a></p>
 &lt;/body&gt;
 &lt;/html&gt;
 </code></pre>
-
-</div>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9479,18 +9423,14 @@ used to style header, body and footer rows individually using CSS. </p>
 <p>&lt;colgroup&gt; to group columns, &lt;thead&gt; is used to group the header content in a HTML table.</p>
 <p>As we learned in the previous unit, header cells are specified using &lt;th&gt; as a child of &lt;tr&gt;. Rows specified within &lt;thead&gt; indicate that they are header rows. See the code below:</p>
 
-<div class="sourceCode" id="cb175">
-
-<pre class="sourceCode xml"><code class="sourceCode xml">
-<span id="cb175-1"><a href="#cb175-1" aria-hidden="true" tabindex="-1"></a>  &lt;thead style=&quot;color:white&quot;&gt;
-<span id="cb175-2"><a href="#cb175-2" aria-hidden="true" tabindex="-1"></a>    &lt;tr&gt;
-<span id="cb175-3"><a href="#cb175-3" aria-hidden="true" tabindex="-1"></a>      &lt;th scope=&quot;col&quot;&gt;Name&lt;/th&gt;
-<span id="cb175-4"><a href="#cb175-4" aria-hidden="true" tabindex="-1"></a>      &lt;th scope=&quot;col&quot;&gt;Age&lt;/th&gt;
-<span id="cb175-5"><a href="#cb175-5" aria-hidden="true" tabindex="-1"></a>    &lt;/tr&gt;
-<span id="cb175-6"><a href="#cb175-6" aria-hidden="true" tabindex="-1"></a>  &lt;/thead&gt;
+<pre><code>
+  &lt;thead style=&quot;color:white&quot;&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;col&quot;&gt;Name&lt;/th&gt;
+      &lt;th scope=&quot;col&quot;&gt;Age&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
 </code></pre>
-
-</div>
 
 <h4>&lt;tbody&gt;</h4>
 
@@ -9501,26 +9441,22 @@ of &lt;tr&gt;:</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<div class="sourceCode" id="cb176">
-
-<pre class="sourceCode xml"><code class="sourceCode xml">
-<span id="cb176-1"><a href="#cb176-1" aria-hidden="true" tabindex="-1"></a>  &lt;tbody&gt;
-<span id="cb176-2"><a href="#cb176-2" aria-hidden="true" tabindex="-1"></a>    &lt;tr&gt;
-<span id="cb176-3"><a href="#cb176-3" aria-hidden="true" tabindex="-1"></a>      &lt;td&gt;Alexa&lt;/td&gt;
-<span id="cb176-4"><a href="#cb176-4" aria-hidden="true" tabindex="-1"></a>      &lt;td&gt;23&lt;/td&gt;
-<span id="cb176-5"><a href="#cb176-5" aria-hidden="true" tabindex="-1"></a>    &lt;/tr&gt;
-<span id="cb176-6"><a href="#cb176-6" aria-hidden="true" tabindex="-1"></a>    &lt;tr&gt;
-<span id="cb176-7"><a href="#cb176-7" aria-hidden="true" tabindex="-1"></a>      &lt;td&gt;James&lt;/td&gt;
-<span id="cb176-8"><a href="#cb176-8" aria-hidden="true" tabindex="-1"></a>      &lt;td&gt;35&lt;/td&gt;
-<span id="cb176-9"><a href="#cb176-9" aria-hidden="true" tabindex="-1"></a>    &lt;/tr&gt;
-<span id="cb176-10"><a href="#cb176-10" aria-hidden="true" tabindex="-1"></a>   &lt;tr&gt;
-<span id="cb176-11"><a href="#cb176-11" aria-hidden="true" tabindex="-1"></a>     &lt;td&gt;Trisha&lt;/td&gt;
-<span id="cb176-12"><a href="#cb176-12" aria-hidden="true" tabindex="-1"></a>     &lt;td&gt;23&lt;/td&gt;
-<span id="cb176-13"><a href="#cb176-13" aria-hidden="true" tabindex="-1"></a>   &lt;/tr&gt;
-<span id="cb176-14"><a href="#cb176-14" aria-hidden="true" tabindex="-1"></a> &lt;/tbody&gt;
+<pre><code>
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Alexa&lt;/td&gt;
+      &lt;td&gt;23&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;James&lt;/td&gt;
+      &lt;td&gt;35&lt;/td&gt;
+    &lt;/tr&gt;
+   &lt;tr&gt;
+     &lt;td&gt;Trisha&lt;/td&gt;
+     &lt;td&gt;23&lt;/td&gt;
+   &lt;/tr&gt;
+ &lt;/tbody&gt;
 </code></pre>
-
-</div>
 
 </details>
 
@@ -9530,19 +9466,15 @@ of &lt;tr&gt;:</p>
 
 <details>
   <summary>HTML code extract!</summary>
-  
-<div class="sourceCode" id="cb177">
 
-<pre class="sourceCode xml"><code class="sourceCode xml">
-<span id="cb177-1"><a href="#cb177-1" aria-hidden="true" tabindex="-1"></a>  &lt;tfoot&gt;
-<span id="cb177-2"><a href="#cb177-2" aria-hidden="true" tabindex="-1"></a>    &lt;tr&gt;
-<span id="cb177-3"><a href="#cb177-3" aria-hidden="true" tabindex="-1"></a>      &lt;td&gt;3 Unique Name&lt;/td&gt;
-<span id="cb177-4"><a href="#cb177-4" aria-hidden="true" tabindex="-1"></a>      &lt;td&gt;2 Unique Ages&lt;/td&gt;
-<span id="cb177-5"><a href="#cb177-5" aria-hidden="true" tabindex="-1"></a>    &lt;/tr&gt;
-<span id="cb177-6"><a href="#cb177-6" aria-hidden="true" tabindex="-1"></a>  &lt;/tfoot&gt;
+<pre><code>
+  &lt;tfoot&gt;
+    &lt;tr&gt;
+      &lt;td&gt;3 Unique Name&lt;/td&gt;
+      &lt;td&gt;2 Unique Ages&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tfoot&gt;
 </code></pre>
-
-</div>
 
 </details>
 
@@ -9550,41 +9482,41 @@ of &lt;tr&gt;:</p>
 
 <details>
   <summary>HTML code extract!</summary>
-  
-<div class="sourceCode" id="cb178"><pre
-class="sourceCode xml"><code class="sourceCode xml"><span id="cb178-1"><a href="#cb178-1" aria-hidden="true" tabindex="-1"></a>  &lt;table border=1&gt;
-<span id="cb178-2"><a href="#cb178-2" aria-hidden="true" tabindex="-1"></a>    &lt;colgroup&gt;
-<span id="cb178-3"><a href="#cb178-3" aria-hidden="true" tabindex="-1"></a>      &lt;col span=&quot;1&quot; style=&quot;background-color:green&quot;&gt;
-<span id="cb178-4"><a href="#cb178-4" aria-hidden="true" tabindex="-1"></a>      &lt;col span=&quot;1&quot; style=&quot;background-color:orange&quot;&gt;
-<span id="cb178-5"><a href="#cb178-5" aria-hidden="true" tabindex="-1"></a>    &lt;/colgroup&gt;
-<span id="cb178-6"><a href="#cb178-6" aria-hidden="true" tabindex="-1"></a>    &lt;thead style=&quot;color:white&quot;&gt;
-<span id="cb178-7"><a href="#cb178-7" aria-hidden="true" tabindex="-1"></a>      &lt;tr&gt;
-<span id="cb178-8"><a href="#cb178-8" aria-hidden="true" tabindex="-1"></a>        &lt;th scope=&quot;col&quot;&gt;Name&lt;/th&gt;
-<span id="cb178-9"><a href="#cb178-9" aria-hidden="true" tabindex="-1"></a>       &lt;th scope=&quot;col&quot;&gt;Age&lt;/th&gt;
-<span id="cb178-10"><a href="#cb178-10" aria-hidden="true" tabindex="-1"></a>     &lt;/tr&gt;
-<span id="cb178-11"><a href="#cb178-11" aria-hidden="true" tabindex="-1"></a>   &lt;/thead&gt;
-<span id="cb178-12"><a href="#cb178-12" aria-hidden="true" tabindex="-1"></a>   &lt;tbody&gt;
-<span id="cb178-13"><a href="#cb178-13" aria-hidden="true" tabindex="-1"></a>     &lt;tr&gt;
-<span id="cb178-14"><a href="#cb178-14" aria-hidden="true" tabindex="-1"></a>       &lt;td&gt;Alexa&lt;/td&gt;
-<span id="cb178-15"><a href="#cb178-15" aria-hidden="true" tabindex="-1"></a>       &lt;td&gt;23&lt;/td&gt;
-<span id="cb178-16"><a href="#cb178-16" aria-hidden="true" tabindex="-1"></a>     &lt;/tr&gt;
-<span id="cb178-17"><a href="#cb178-17" aria-hidden="true" tabindex="-1"></a>     &lt;tr&gt;
-<span id="cb178-18"><a href="#cb178-18" aria-hidden="true" tabindex="-1"></a>       &lt;td&gt;James&lt;/td&gt;
-<span id="cb178-19"><a href="#cb178-19" aria-hidden="true" tabindex="-1"></a>       &lt;td&gt;35&lt;/td&gt;
-<span id="cb178-20"><a href="#cb178-20" aria-hidden="true" tabindex="-1"></a>     &lt;/tr&gt;
-<span id="cb178-21"><a href="#cb178-21" aria-hidden="true" tabindex="-1"></a>     &lt;tr&gt;
-<span id="cb178-22"><a href="#cb178-22" aria-hidden="true" tabindex="-1"></a>       &lt;td&gt;Trisha&lt;/td&gt;
-<span id="cb178-23"><a href="#cb178-23" aria-hidden="true" tabindex="-1"></a>       &lt;td&gt;23&lt;/td&gt;
-<span id="cb178-24"><a href="#cb178-24" aria-hidden="true" tabindex="-1"></a>     &lt;/tr&gt;
-<span id="cb178-25"><a href="#cb178-25" aria-hidden="true" tabindex="-1"></a>   &lt;/tbody&gt;
-<span id="cb178-26"><a href="#cb178-26" aria-hidden="true" tabindex="-1"></a>   &lt;tfoot style=&quot;font-style: italic;&quot;&gt;
-<span id="cb178-27"><a href="#cb178-27" aria-hidden="true" tabindex="-1"></a>     &lt;tr&gt;
-<span id="cb178-28"><a href="#cb178-28" aria-hidden="true" tabindex="-1"></a>       &lt;td&gt;3 Unique Names&lt;/td&gt;
-<span id="cb178-29"><a href="#cb178-29" aria-hidden="true" tabindex="-1"></a>       &lt;td&gt;2 Unique Ages&lt;/td&gt;
-<span id="cb178-30"><a href="#cb178-30" aria-hidden="true" tabindex="-1"></a>     &lt;/tr&gt;
-<span id="cb178-31"><a href="#cb178-31" aria-hidden="true" tabindex="-1"></a>   &lt;/tfoot&gt;
-<span id="cb178-32"><a href="#cb178-32" aria-hidden="true" tabindex="-1"></a> &lt;/table&gt;
-</code></pre></div>
+
+<pre><code>  
+  &lt;table border=1&gt;
+    &lt;colgroup&gt;
+      &lt;col span=&quot;1&quot; style=&quot;background-color:green&quot;&gt;
+      &lt;col span=&quot;1&quot; style=&quot;background-color:orange&quot;&gt;
+    &lt;/colgroup&gt;
+    &lt;thead style=&quot;color:white&quot;&gt;
+      &lt;tr&gt;
+        &lt;th scope=&quot;col&quot;&gt;Name&lt;/th&gt;
+       &lt;th scope=&quot;col&quot;&gt;Age&lt;/th&gt;
+     &lt;/tr&gt;
+   &lt;/thead&gt;
+   &lt;tbody&gt;
+     &lt;tr&gt;
+       &lt;td&gt;Alexa&lt;/td&gt;
+       &lt;td&gt;23&lt;/td&gt;
+     &lt;/tr&gt;
+     &lt;tr&gt;
+       &lt;td&gt;James&lt;/td&gt;
+       &lt;td&gt;35&lt;/td&gt;
+     &lt;/tr&gt;
+     &lt;tr&gt;
+       &lt;td&gt;Trisha&lt;/td&gt;
+       &lt;td&gt;23&lt;/td&gt;
+     &lt;/tr&gt;
+   &lt;/tbody&gt;
+   &lt;tfoot style=&quot;font-style: italic;&quot;&gt;
+     &lt;tr&gt;
+       &lt;td&gt;3 Unique Names&lt;/td&gt;
+       &lt;td&gt;2 Unique Ages&lt;/td&gt;
+     &lt;/tr&gt;
+   &lt;/tfoot&gt;
+ &lt;/table&gt;
+</code></pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9890,7 +9822,7 @@ content in cell. It takes its value in units of length like px, cm, % -
 relative to parent container’s width, etc. </p>
 
 <pre><code>
-th, td { padding: 15px; }
+  th, td { padding: 15px; }
 </code></pre>
 
 <p>This will add 15px space around the content on all sides. </p>
@@ -9908,7 +9840,7 @@ by using:</p>
 where you can specify all four sides in one go:</p>
 
 <pre><code>
-th, td { padding: 20px 30px 40px 50px; }
+  th, td { padding: 20px 30px 40px 50px; }
 </code></pre>
 
 <p>It is specified in the order: top, right, bottom and left padding.</p>
@@ -10036,7 +9968,7 @@ class=&quot;eg3&quot;&gt;21&lt;/td&gt;&lt;/tr&gt;
 can also set borders to individual sides - top, right, bottom, left:</p>
 
 <pre><code>
-th, td { border-right: 1px solid black; }
+  th, td { border-right: 1px solid black; }
 </code></pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 98. border property set all or individual (229) ~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -10294,14 +10226,14 @@ use overflow-y.</p>
 <h4>CSS:</h4>
 
 <pre><code>
-table { border-collapse: collapse; }
-div { height: 200px; width: 200px; border: 1px solid blue; }
-table, th, td { padding: 30px; border-bottom: 1px solid black; }
+  table { border-collapse: collapse; }
+  div { height: 200px; width: 200px; border: 1px solid blue; }
+  table, th, td { padding: 30px; border-bottom: 1px solid black; }
   
-div.overflow-hidden { overflow: hidden; }
-div.overflow-scroll { overflow: scroll; }
-div.overflow-auto { overflow: auto; }
-div.overflow-x-auto { overflow-x: auto; overflow-y:hidden; }
+  div.overflow-hidden { overflow: hidden; }
+  div.overflow-scroll { overflow: scroll; }
+  div.overflow-auto { overflow: auto; }
+  div.overflow-x-auto { overflow-x: auto; overflow-y:hidden; }
 </code></pre>
 
 <h4>HTML:</h4>
@@ -10423,8 +10355,7 @@ div.overflow-x-auto { overflow-x: auto; overflow-y:hidden; }
 
 <h4>In summary: a fancy table</h4>
 
-<p>As a conclusion to this tables section, here is a complete table
-design:</p>
+<p>As a conclusion to this tables section, here is a complete table design:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 102. picture of a complete table design (237) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -11454,9 +11385,10 @@ quote “, then the path, a closing quote ” and a closing parentheses ).
 in.</p>
 
 <pre><code>
-div { background-image: url(&quot;https://www.w3.org/2008/site/images/logo-w3c-mobile-lg&quot;);
-}  
-div { background-image: url(&quot;images/kitten.png&quot;); }
+  div { background-image: url(&quot;https://www.w3.org/2008/site/images/logo-w3c-mobile-lg&quot;);
+  }  
+  div { background-image: url(&quot;images/kitten.png&quot;); 
+  }
 </code></pre>
 
 <p>As these are decorative images, there are quite a few different usage
@@ -12420,8 +12352,8 @@ You may apply some padding evenly or unevenly to position its content relati
 <p>To center an inline element, we use the text-align property of its parent.</p>
 
 <pre><code>
-p { text-align: center; } /* the text and any inline children of this
-element will be centered */
+  p { text-align: center; } /* the text and any inline children of this
+    element will be centered */
 </code></pre>
 
 <p>If this isn’t satisfactory, consider changing the element to be inline-block or block.</p>
@@ -12429,7 +12361,7 @@ element will be centered */
 <p>How do you center a block level element? First, you may recall that block level elements take the width of their parent by default. If the element is the same width as its parent, it is already centered.  So the first step is to limit the width of the element.  Setting the width property directly is not generally a good practice, but we’ll just do that and discuss sizing at length later.</p>
 
 <pre><code>
-div { width: 200px; } 
+  div { width: 200px; } 
 </code></pre>
 
 <p>Now that we’ve sized the element, how to center it?</p>
@@ -12438,7 +12370,7 @@ div { width: 200px; } 
 <p>If set to auto, then the left and right margins will center the element.  This is the simplest and best way of centering a block level element.  So the full solution is to set the width and apply auto to the left and right margins (or to all margins). </p>
 
 <pre><code>
-div { width: 200px; margin: auto; }
+  div { width: 200px; margin: auto; }
 </code></pre>
 
 <h4>Horizontal centering - a better way</h4>
@@ -13494,9 +13426,9 @@ an individual flex item, not to a flexbox container.  This allows an
 individual flex item to be aligned differently than its siblings.
  Again, this is only true for cross axis alignment, and will only come
 into play, if there is extra space in the cross axis direction to be
-exploited. </p>
+exploited.</p>
 <p>The values for align-self are stretch, flex-start, center, flex-end,
-and baseline. </p>
+and baseline.</p>
 <p>align-self is ignored, if any of the four margins on the item is set
 to auto.</p>
 <p>In the example below, we have a flex container with flex-flow:row; and align-items:center;.  The individual items have their align-self property set.</p>
