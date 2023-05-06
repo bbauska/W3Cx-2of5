@@ -5781,18 +5781,16 @@ kept in a directory named <i>css</i>.</p>
 
 <h4>Selector</h4>
 
-<p>In the above, the <i>selector</i> is <b>p.  </b>When a selector appears
+<p>In the above, the <i>selector</i> is <b>p. </b>When a selector appears
 unprefixed by any punctuation, then it is assumed to match to an HTML
 tag.  Thus, the <b>p</b> selector will apply the CSS rule to all tags in the document.<br>
-<br>
-We will cover more selector possibilities in the future.</p>
+<br>We will cover more selector possibilities in the future.</p>
 
 <h4>Declaration</h4>
 
 <p>The <i>declaration</i> part of a CSS rule opens and closes with curly
 braces: <b>{  }</b><br>
-<br>
-And between them, you can put any number of <i>property</i> <i>value</i> pairs.</p>
+<br>And between them, you can put any number of <i>property</i> <i>value</i> pairs.</p>
 
 <h4>Properties and values</h4>
 
@@ -5803,27 +5801,19 @@ consists of a <i>property</i>, followed by a colon <b>:</b> followed by
 a <i>value</i> and terminated by a semi-colon <b>;</b></p>
 
 <pre><code>
-font-size: 12px;
+  font-size: 12px;
 </code></pre>
 
 <h4>Best practice</h4>
 
-<p>In the example above, the entire CSS rule is written on one line.<br>
-<br>
-This is not uncommon when the declaration of the CSS rule only has one
-property.<br>
-<br>
-If a CSS rule has several properties, then it should be
-written to use one line per property value pair.<br>
-<br>
-For example:</p>
+<p>In the example above, the entire CSS rule is written on one line.  This is not uncommon when the declaration of the CSS rule only has one property. If a CSS rule has several properties, then it should be written to use one line per property value pair. For example:</p>
 
 <pre><code>
-p {
-  font-size: 12px;
-  line-height: 15px;
-  color: #223344;
-}
+  p {
+    font-size: 12px;
+    line-height: 15px;
+    color: #223344;
+  }
 </code></pre>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5858,13 +5848,9 @@ several lines. But they <b>cannot</b> be nested.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-2-5">3.2.5 Activity - Use CSS</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Use CSS on the following HTML code.<br>
-<br>
-Try various styles, experiment, and have fun.<br>
-<br>
+<p>Use CSS on the following HTML code.  Try various styles, experiment, and have fun. 
 We have a live coding demonstration in the next page working with the same source.<br>
-<br>
-You are welcome to edit the following <a target="_blank" rel="noopener noreferrer"  href="https://codepen.io/w3devcampus/pen/QvQgbr">CodePen.</a></p>
+<br>You are welcome to edit the following <a target="_blank" rel="noopener noreferrer"  href="https://codepen.io/w3devcampus/pen/QvQgbr">CodePen.</a></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 54. on the inventor of gunpower by john milton (139) ~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7014,12 +7000,12 @@ a tag by simply separating them with spaces.</p>
 <h4>HTML:</h4>
 
 <pre><code>
-&lt;ul&gt;
-   &lt;li class=&quot;bird flying&quot;&gt;eagle&lt;/li&gt;
-   &lt;li class=&quot;bird&quot;&gt;ostrich&lt;/li&gt;
-   &lt;li class=&quot;insect&quot;&gt;ant&lt;/li&gt;
-   &lt;li class=&quot;insect flying&quot;&gt;moth&lt;/li&gt;
-&lt;/ul&gt;
+  &lt;ul&gt;
+    &lt;li class=&quot;bird flying&quot;&gt;eagle&lt;/li&gt;
+    &lt;li class=&quot;bird&quot;&gt;ostrich&lt;/li&gt;
+    &lt;li class=&quot;insect&quot;&gt;ant&lt;/li&gt;
+    &lt;li class=&quot;insect flying&quot;&gt;moth&lt;/li&gt;
+  &lt;/ul&gt;
 </code></pre>
 
 <p>The class selector is simply a period (.) followed by the class name itself.</p>
@@ -7042,10 +7028,10 @@ a tag by simply separating them with spaces.</p>
     <tr class="header">
       <th>
         <ul>
-          <li><p><u>eagle</u></p></li>
-          <li><p>ostrich</p></li>
-          <li><p>ant</p></li>
-          <li><p><u>moth</u></p></li>
+          <li><u>eagle</u></li>
+          <li>ostrich</li>
+          <li>ant</li>
+          <li><u>moth</u></li>
         </ul>
       </th>
     </tr>
@@ -7071,27 +7057,27 @@ rule sets.  Or, better, we can separate our selectors with commas (,)
 before one rule set.  Like so:</p>
 
 <table>
-<colgroup>
-  <col style="width: 44%" />
-  <col style="width: 55%" />
-</colgroup>
-<thead>
-  <tr class="header">
-  <th>
-    <strong>separate</strong>
-  </th>
-  <th>
-    <strong>joined</strong>
-  </th>
-  </tr>
-</thead>
-<tbody>
-  <tr class="odd">
-  <td>
-  blockquote {<br>   color: red;<br>   font-style: italic;<br>
-  }<br> q          {<br>   color: red;<br>
-  font-style: italic;<br> }<br> .speech    {<br>   
-color: red;<br>    font-style: italic;<br> }
+  <colgroup>
+    <col style="width: 44%" />
+    <col style="width: 55%" />
+  </colgroup>
+  <thead>
+    <tr class="header">
+      <th>
+        <strong>separate</strong>
+      </th>
+      <th>
+        <strong>joined</strong>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="odd">
+      <td>
+        blockquote {<br>   color: red;<br>   font-style: italic;<br>
+        }<br> q          {<br>   color: red;<br>
+        font-style: italic;<br> }<br> .speech    {<br>
+        color: red;<br>    font-style: italic;<br> }
       </td>
       <td>
         blockquote,<br> q,<br> .speech {<br> color: red;<br>
@@ -7138,7 +7124,6 @@ blockquotes that also have the speech class.</p>
 <pre><code>
   .insect.flying { text-decoration: underline; font-weight:bold; }
 </code></pre>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 56. combining classes (164) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7195,7 +7180,7 @@ is the result:</p>
   <thead>
     <tr class="header">
   <th>
-  <p align="left">
+  <p style="align:left">
     Welcome to <a target="_blank" rel="noopener noreferrer" 
     href="https://courses.edx.org/xblock/block-v1:W3Cx+HTML5.0x+3T2020+type@vertical+block@a45bbd47f6184286ab951aee1ba7fe0f?show_title=0&amp;show_bookmark_button=0&amp;recheck_access=1&amp;view=student_view#palaceland">PalaceLand</a>, world renown Land of endless palaces and <a target="_blank" rel="noopener noreferrer" 
 href="https://courses.edx.org/xblock/block-v1:W3Cx+HTML5.0x+3T2020+type@vertical+block@a45bbd47f6184286ab951aee1ba7fe0f?show_title=0&amp;show_bookmark_button=0&amp;recheck_access=1&amp;view=student_view#delight">delights</a>.
@@ -10121,7 +10106,7 @@ in your table to highlight them in the color you specify. This is useful
 to help users differentiate data between rows.</p>
 
 <pre><code>
-tr:hover {background-color: #ccff99; }
+  tr:hover {background-color: #ccff99; }
 </code></pre>
 
 <h4>Hover over these tables:</h4>
