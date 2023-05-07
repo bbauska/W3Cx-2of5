@@ -2280,7 +2280,7 @@ how many there are, etc.  We will start with the ones we have already seen:</p>
   <summary>HTML code extract!</summary>
 
 <pre><code>
-&lt;!DOCTYPE <span class="dt">html&gt;
+&lt;!DOCTYPE &lt;span class="dt"&gt;html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
     &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -2445,7 +2445,7 @@ following components:
   <summary>HTML code extract!</summary>
 
 <pre><code>
-&lt;!DOCTYPE <span class="dt">html&gt;
+&lt;!DOCTYPE &lt;span class="dt"&gt;html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
     &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -3963,7 +3963,7 @@ multiple &lt;header&gt;, &lt;footer&gt; and &lt;nav&gt; tags.</p>
   <summary>HTML code extract!</summary>
 
 <pre><code>
-&lt;!DOCTYPE <span class="dt">html&gt;
+&lt;!DOCTYPE &lt;span class="dt"&gt;html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
     &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -6980,11 +6980,11 @@ id selector is simply a hash sign (#) followed directly by the id.</p>
   <thead>
     <tr class="header">
       <th>
-        <p align="left">
+        <p style="text-align:left;">
         He is Ulysses, a man of great craft, son of Laertes. He was born in
         rugged Ithaca, and excels in all manner of stratagems and subtle
         cunning.</p>
-        <p align="left">Madam, you have spoken truly.</p>
+        <p style="text-align:left;">Madam, you have spoken truly.</p>
       </th>
     </tr>
   </thead>
@@ -7180,33 +7180,33 @@ is the result:</p>
   <thead>
     <tr class="header">
   <th>
-  <p style="align:left">
+  <p style="text-align:left;">
     Welcome to <a target="_blank" rel="noopener noreferrer" 
     href="https://courses.edx.org/xblock/block-v1:W3Cx+HTML5.0x+3T2020+type@vertical+block@a45bbd47f6184286ab951aee1ba7fe0f?show_title=0&amp;show_bookmark_button=0&amp;recheck_access=1&amp;view=student_view#palaceland">PalaceLand</a>, world renown Land of endless palaces and <a target="_blank" rel="noopener noreferrer" 
 href="https://courses.edx.org/xblock/block-v1:W3Cx+HTML5.0x+3T2020+type@vertical+block@a45bbd47f6184286ab951aee1ba7fe0f?show_title=0&amp;show_bookmark_button=0&amp;recheck_access=1&amp;view=student_view#delight">delights</a>.
 As you make your way about, remember the words of our founder
 </p>
-<p align="left">
+<p style="text-align:left;">
 Shouldn’t we have <a target="_blank" rel="noopener noreferrer" 
 href="https://courses.edx.org/xblock/block-v1:W3Cx+HTML5.0x+3T2020+type@vertical+block@a45bbd47f6184286ab951aee1ba7fe0f?show_title=0&amp;show_bookmark_button=0&amp;recheck_access=1&amp;view=student_view#chairs">chairs</a>?
 Never made much sense wandering room a room looking for a place to sit a
 spell. Folk that don’t sit are not likely all right in the <a target="_blank" rel="noopener noreferrer"  
 href="https://courses.edx.org/xblock/block-v1:W3Cx+HTML5.0x+3T2020+type@vertical+block@a45bbd47f6184286ab951aee1ba7fe0f?show_title=0&amp;show_bookmark_button=0&amp;recheck_access=1&amp;view=student_view#head">head</a>
-</p align="left">
-<p>
+</p>
+<p style="text-align:left;">
 There are guidelines to follow while in <a target="_blank" rel="noopener noreferrer" 
 href="https://courses.edx.org/xblock/block-v1:W3Cx+HTML5.0x+3T2020+type@vertical+block@a45bbd47f6184286ab951aee1ba7fe0f?show_title=0&amp;show_bookmark_button=0&amp;recheck_access=1&amp;view=student_view#palaceland">PalaceLand</a>.
 They are outlined on the back of your Daring Footman <a target="_blank" rel="noopener noreferrer" 
 href="https://courses.edx.org/xblock/block-v1:W3Cx+HTML5.0x+3T2020+type@vertical+block@a45bbd47f6184286ab951aee1ba7fe0f?show_title=0&amp;show_bookmark_button=0&amp;recheck_access=1&amp;view=student_view#trademark">(tm)</a> card.
 But the spirit of the guidelines are best summed up by our founder
 </p>
-<p align="left">
+<p style="text-align:left;">
 Don’t just <a target="_blank" rel="noopener noreferrer" 
 href="https://courses.edx.org/xblock/block-v1:W3Cx+HTML5.0x+3T2020+type@vertical+block@a45bbd47f6184286ab951aee1ba7fe0f?show_title=0&amp;show_bookmark_button=0&amp;recheck_access=1&amp;view=student_view#standthere">stand
 there</a> with your mouth hanging open waiting for a pair of nesting
 birds.
 </p>
-<p align="left">
+<p style="text-align:left;">
 (and no <a target="_blank" rel="noopener noreferrer" 
 href="https://courses.edx.org/xblock/block-v1:W3Cx+HTML5.0x+3T2020+type@vertical+block@a45bbd47f6184286ab951aee1ba7fe0f?show_title=0&amp;show_bookmark_button=0&amp;recheck_access=1&amp;view=student_view#camera_policy">flash
 photography</a> please.)
@@ -7322,43 +7322,49 @@ html5
   <tbody>
     <tr class="odd">
     <td>
-      <p>&lt;p&gt;This paragraph has children <span> spans and
-	    </span>q&lt;/span&gt;, which, in turn, have their own child
+      <p>&lt;p&gt;This paragraph has children &lt;span&gt; spans and
+	    &lt;/span&gt;q&lt;/span&gt;, which, in turn, have their own child
         &lt;span&gt;spans&lt;/span&gt;.</p>
-<pre><code>
-    &lt;p&gt;&amp;lt;q&amp;gt;With this structure, we can see how some CSS
-      &amp;lt;span&amp;gt;rules&amp;lt;/span&amp;gt; are&lt;/p&gt;
-    &lt;p&gt;&amp;lt;span&amp;gt;applied across a &amp;lt;q&amp;gt;variety&amp;lt;/q&amp;gt;&amp;lt;/span&amp;gt;
-      of scopes.&amp;lt;/q&amp;gt;&lt;/p&gt;
-  &lt;p&gt;&amp;lt;/p&amp;gt;&lt;/p&gt;&lt;/td&gt;
-  &lt;td&gt;&lt;p&gt;p {&lt;/p&gt;
-    &lt;p&gt;/* inherited by children of p */&lt;/p&gt;
-    &lt;p&gt;font-family: monospace;&lt;/p&gt;
-    &lt;p&gt;/* not inherited */&lt;/p&gt;
-    &lt;p&gt;padding: 40px;&lt;/p&gt;
-  &lt;p&gt;}&lt;/p&gt;&lt;/td&gt;
-  &lt;td&gt;This paragraph has children spans and q, which, in turn, have their
-    own child spans. With this structure, we can see how some
-    CSS rules are applied across a variety of scopes.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&quot;even&quot;&gt;
+
+      <pre><code>
+      &lt;p&gt;&amp;lt;q&amp;gt;With this structure, we can see how some CSS
+        &amp;lt;span&amp;gt;rules&amp;lt;/span&amp;gt; are&lt;/p&gt;
+      &lt;p&gt;&amp;lt;span&amp;gt;applied across a &amp;lt;q&amp;gt;variety&amp;lt;/q&amp;gt;&amp;lt;/span&amp;gt;
+        of scopes.&amp;lt;/q&amp;gt;&lt;/p&gt;
+      &lt;p&gt;&amp;lt;/p&amp;gt;&lt;/p&gt;
+    </td>
+    <td>
+      <p>p {&lt;/p&gt;
+        &lt;p&gt;/* inherited by children of p */&lt;/p&gt;
+        &lt;p&gt;font-family: monospace;&lt;/p&gt;
+        &lt;p&gt;/* not inherited */&lt;/p&gt;
+        &lt;p&gt;padding: 40px;&lt;/p&gt;
+        &lt;p&gt;}&lt;
+	  </p>
+    </td>
+    <td>This paragraph has children spans and q, which, in turn, have their
+      own child spans. With this structure, we can see how some
+      CSS rules are applied across a variety of scopes.</td>
+    </tr>
+<tr class=&quot;even&quot;&gt;
   &lt;td&gt;&lt;strong&gt;Discussion&lt;/strong&gt;&lt;/td&gt;
   &lt;td&gt;&lt;strong&gt;CSS&lt;/strong&gt;&lt;/td&gt;
   &lt;td&gt;&lt;strong&gt;Result&lt;/strong&gt;&lt;/td&gt;
 &lt;/tr&gt;
   &lt;tr class=&quot;odd&quot;&gt;
-  &lt;td&gt;&lt;p&gt;To the right we add another CSS rule, this one instructing that
-    the padding for spans and q elements should be inherited from their
-    parent.&lt;/p&gt;
-  &lt;p&gt;Look at the result on the right, the padding is very evident. &lt;/p&gt;&lt;/td&gt;
-  &lt;td&gt;&lt;p&gt;span, q {&lt;/p&gt;
-    &lt;p&gt;padding: inherit;&lt;/p&gt;
-    &lt;p&gt;}&lt;/p&gt;&lt;/td&gt;
-  &lt;td&gt;This paragraph has children spans and q, which, in turn, have their
-    own child spans. With this structure, we can see how some
-    CSS rules are applied across a variety of scopes.&lt;/td&gt;
-&lt;/tr&gt;
+      &lt;td&gt;&lt;p&gt;To the right we add another CSS rule, this one instructing that
+        the padding for spans and q elements should be inherited from their
+        parent.&lt;/p&gt;
+      &lt;p&gt;Look at the result on the right, the padding is very evident. &lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;span, q {&lt;/p&gt;
+        &lt;p&gt;padding: inherit;&lt;/p&gt;
+        &lt;p&gt;}&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;This paragraph has children spans and q, which, in turn, have their
+      own child spans. With this structure, we can see how some
+      CSS rules are applied across a variety of scopes.</td>
+    </tr>
 </code></pre>
+
 </tbody>
 </table>
 <!-- </details> -->
@@ -7392,7 +7398,7 @@ rough summary, in order:</p>
 
 <p>A more <i>specific</i> rule takes precedence over a less specific
 rule.  A rule that more tightly matches a particular element than a
-general rule will be applied. </p>
+general rule will be applied.</p>
 
 <pre><code>
   span { color: blue; }
@@ -7629,8 +7635,7 @@ possible.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-4-8">3.4.8 Recipe</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p><a target="_blank" rel="noopener noreferrer" href=https://learning.edx.org/course/course-v1:W3Cx+HTML5.0x+1T2022/block-v1:W3Cx+HTML5.0x+1T2022+type@sequential+block@0045398377b14c60b9a3820ead6441d6/block-v1:W3Cx+HTML5.0x+1T2022+type@vertical+block@a40220f07c494fb88d47047b8c6d20bc,target=”_blank”>Go
-Here</a></p>
+<p><a target="_blank" rel="noopener noreferrer" href="https://learning.edx.org/course/course-v1:W3Cx+HTML5.0x+1T2022/block-v1:W3Cx+HTML5.0x+1T2022+type@sequential+block@0045398377b14c60b9a3820ead6441d6/block-v1:W3Cx+HTML5.0x+1T2022+type@vertical+block@a40220f07c494fb88d47047b8c6d20bc,target=”_blank”>Go Here</a></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 57. my favorite recipe; soup, salad, pizza (170) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -10715,8 +10720,8 @@ look a little more visually appealing inside your document.</p>
   <thead>
     <tr class="header">
       <th><b>Attribute</b></th>
-      <th><b>Description<b/></th>
-      <th><b>Usage<b/></th>
+      <th><b>Description</b></th>
+      <th><b>Usage</b></th>
     </tr>
   </thead>
   <tbody>
@@ -10744,7 +10749,6 @@ look a little more visually appealing inside your document.</p>
   src="./images/image103.png?raw=true"
   style="width:60%;"
   alt="Tables activity #2: it&#39;s a 3x3 table - the header row has a dark grey background; the last column is composed of the header cell and the other cells are grouped; the last row has the 2 first cells merged." />
-</p>
 
 <ol start="5" type="1">
   <li><p>Find a table used in a real Web page whose table body can be scrolled. </p></li>
@@ -10902,21 +10906,21 @@ picture is shown before the video starts playing.  By default, the
 poster shown is simply the first frame of the video, but
 the poster attribute can be used to specify a different image.  It can
 specify a particular frame of the video or, like a real movie poster, it
-can be an image that doesn’t actually appear in the video. </p>
+can be an image that doesn’t actually appear in the video.</p>
 
 <h3>Video file formats</h3>
 
 <p>Just like audio file formats, not all video file formats are
 supported by all browsers. You should use common video file formats for
 browser compatibility ensuring the highest probability that your
-video file will play. </p>
-<p>The most common ones are MP4, WebM and Ogg. </p>
+video file will play.</p>
+<p>The most common ones are MP4, WebM and Ogg.</p>
 <p><a target="_blank" rel="noopener noreferrer" 
 href="https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats">This
 page</a> under ‘Browser Compatibility’ lists the video formats supported
 by the video element and their browser support for both desktop and
 mobile. Using the source element, you will have to provide a combination
-of video formats to target most browsers. </p>
+of video formats to target most browsers.</p>
 <p>Here is some information regarding different types of video formats
 and their compression techniques that can help you decide which video
 format to choose apart from video element and browser compatibility:</p>
@@ -11170,7 +11174,7 @@ element. Here is a code sample:</p>
 <p>Here, the href attribute points to the location of the map file.
 The target attribute indicates where the page it navigates to should
 open. ’_self’ will open in the same page whereas ’_blank’ will open it
-in a new tab or window. </p>
+in a new tab or window.</p>
 <p>ismap only works if the &lt;img&gt; tag is used within the anchor
 element like in the code above. This is important because without a link
 to the target map file, it has no idea what to do with
@@ -11208,8 +11212,8 @@ server-side image-maps whereas usemap deals with client-side
 image-maps. </p>
 
 <ul>
-  <li><p>Server-side image-maps: use separate map files that have to be downloaded. They depend on the server for translating the request. They also create additional network traffic. </p></li>
-  <li><p>Client-side image-maps: reside within an HTML document. The browser takes care of the translation (translating mouse coordinates clicked to corresponding Web pages). </p></li>
+  <li><p>Server-side image-maps: use separate map files that have to be downloaded. They depend on the server for translating the request. They also create additional network traffic.</p></li>
+  <li><p>Client-side image-maps: reside within an HTML document. The browser takes care of the translation (translating mouse coordinates clicked to corresponding Web pages).</p></li>
 </ul>
 
 <p>Client-side maps are becoming increasingly popular. usemap is NOT of type boolean. It takes in the name of the map with a ‘#’ character preceding it.</p>
@@ -11219,7 +11223,7 @@ image-maps. </p>
     site&quot; usemap=&quot;#navigatormap&quot;&gt;
 </code></pre>
 
-<p>Like ismap, usemap cannot be used by itself. In ismap, we used the anchor tag to specify the map file. In usemap, we use the </b>&lt;area&gt;</b> element as a child of </b>&lt;map&gt;</b> element to specify the coordinates and the page it should navigate to. The usemap value should match the map element’s name or id attribute.</p>
+<p>Like ismap, usemap cannot be used by itself. In ismap, we used the anchor tag to specify the map file. In usemap, we use the <b>&lt;area&gt;</b> element as a child of <b>&lt;map&gt;</b> element to specify the coordinates and the page it should navigate to. The usemap value should match the map element’s name or id attribute.</p>
 
 <pre><code>
   &lt;img src=&quot;images/crossroads.jpg&quot; alt=&quot;Crossroads&quot; usemap=&quot;#navigatormap&quot;&gt;
@@ -11237,7 +11241,7 @@ name and usemap’s value. It contains a set of area elements.</p>
 <p><b>&lt;area&gt;</b> - defines the areas that can be clicked and the
 pages it should navigate to. Typically takes the shape of the area,
 coordinates of the area, URL of the page it should redirect to and
-the alt attribute (short description). </p>
+the alt attribute (short description).</p>
 <p>The shape attribute in the &lt;area&gt; tag has four values:</p>
 
 <ul>
@@ -11710,7 +11714,7 @@ interactions with the browser. Best of all, pseudo classes are easy to
 use.</p>
 
 <pre><code>
-  a:visited { color: purple; }
+a:visited { color: purple; }
 </code></pre>
 
 <p>Above us we see a tag selector (a) followed by a pseudo class, which
@@ -11727,7 +11731,7 @@ a:visited { color: purple; }
 </code></pre>
 
 <p>The :visited pseudo class is usually put on a selector that resolves
-to an <a> tag. It enables you to define a style for the visited state of
+to an &lt;a&gt; tag. It enables you to define a style for the visited state of
 the link. For example, if the user has already been to that Web site,
 the :visited style will be applied.</p>
 
@@ -11774,20 +11778,19 @@ tr:nth-child(even) { background-color: white; }
   
 <h4>Cursor property</h4>
 
-<pre class="html5"><code>
+<pre><code>
 li { cursor: pointer; }
 </code></pre>
 
 <p>Since we’ve broached the topic of mouse-responding pseudo classes, it makes sense to also cover the cursor CSS property.</p>
 <p>The cursor CSS property lets you change the cursor that is displayed when the mouse is over the element in question.  This does not have to be relegated to a :hover style, it can be applied anywhere. Though, if you want to change the cursor when an element is depressed,  set the cursor property in the context of an :active style.</p>
-<p>There are many possible values for the cursor property.  Their exact representation may vary slightly from browser to browser.  Common values include: default, pointer, text, move and grab. (Hover over each value to see). In addition, some browsers support a custom image as well </p>
+<p>There are many possible values for the cursor property.  Their exact representation may vary slightly from browser to browser.  Common values include: default, pointer, text, move and grab. (Hover over each value to see). In addition, some browsers support a custom image as well.</p>
 
 <pre><code>
 ( cursor: url(&quot;images/my_pointer.png&quot;); ).
 </code></pre>
 
-<p>For more information, please visit the <a 
-href="https://developer.mozilla.org/en-US/docs/Web/CSS/cursor" target="_blank" rel="noopener noreferrer">MDN page on cursor</a>.</p>
+<p>For more information, please visit the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/cursor" target="_blank" rel="noopener noreferrer">MDN page on cursor</a>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-5-5">5.5.5 CSS best practices (OPTIONAL)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -13698,7 +13701,7 @@ page.<br>
 And now, you can see that.<br>
 They’ve actually scrolled down a little bit more.<br>
 We fixed those issues at the top.<br>
-These are the final changes to our recipe project for this unit.<br>
+These are the final changes to our recipe project for this unit.
 </p>
 
 <!-- template for images
@@ -13708,8 +13711,9 @@ These are the final changes to our recipe project for this unit.<br>
   style="width:40%;" />
 -->
 
-<h6>The end…</h6>
+<h5>The end…</h5>
 
-<h4><b>Last Updated 5-5-2023 Fri 11:27am</b></h4>
+<h6>Last Updated 5-6-2023 Sat 10:56pm</h6>
+
 </body>
 </html>
