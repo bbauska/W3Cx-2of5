@@ -738,7 +738,7 @@ Generalized Markup Language</a>), which uses angle brackets (“&lt;” and
 <details>
   <summary>HTML code extract!</summary>
 
-<pre><code>&lt;body&gt;
+<pre>&lt;body&gt;
   &lt;h1&gt;A Tale of Two Cities&lt;/h1&gt;
   &lt;p&gt;
     It was the best of times, it was the worst of times, . . .
@@ -750,15 +750,14 @@ Generalized Markup Language</a>), which uses angle brackets (“&lt;” and
     that I go to than I have ever known.
   &lt;/p&gt;
 &lt;/body&gt;
-</code></pre>
+</pre>
 
 </details>
 
 <p>If you eliminated everything in between the angle brackets from the
 text, for most purposes it would still read the same:</p>
 
-<pre>
-A Tale of Two Cities  
+<pre>A Tale of Two Cities  
 It was the best of times, it was the worst of times . . . .  
 . . .  
 . . . it is a far, far better rest  
@@ -1347,8 +1346,8 @@ right after the ‘&lt;’ to indicated that it’s a ‘close tag’. To indica
 the beginning and end of a paragraph (indicated by the single letter
 ‘p’) you end up with something like this:</p>
 
-<pre><code>&lt;p&gt;This is my first paragraph!&lt;/p&gt;
-</code></pre>
+<pre>&lt;p&gt;This is my first paragraph!&lt;/p&gt;
+</pre>
 
 <p>The browser sees the letters ‘&lt;p&gt;’ and decides ‘A new paragraph is
 starting, I’d better start a new line and maybe indent it’.<br>
@@ -1375,8 +1374,8 @@ strange ones as “self closing” tags.<br>
 there is no need for other content.<br>
 <br>So if you see something like this:</p>
 
-<pre><code>&lt;img src=&quot;https://goo.gl/pVxY0e&quot; alt=&quot;Floating flower&quot;/&gt;
-</code></pre>
+<pre>&lt;img src=&quot;https://goo.gl/pVxY0e&quot; alt=&quot;Floating flower&quot;/&gt;
+</pre>
 
 <p>… then you should know that the slash at the end of the open tag is
 sort of a shorthand for a close tag, so you won’t see any other
@@ -1395,8 +1394,8 @@ comments.  HTML5 is no exception.  If you want to add something in your
 file that you want the browser to completely ignore, there’s a special
 tag for that (unsurprisingly called a “comment tag”):</p>
 
-<pre><code>&lt;!-- This is a comment --&gt;
-</code></pre>
+<pre>&lt;!-- This is a comment --&gt;
+</pre>
 
 <p>An HTML comment tag starts with <!-- and ends with -->, meaning that
 as the computer is reading through your HTML file, if it sees <!-- it
@@ -1404,13 +1403,12 @@ will ignore everything it sees until it comes across -->.  There is no
 open or close tag, just a comment tag.  Unlike most other things in
 HTML5, comments cannot be nested.  If you try that, like:</p>
 
-<pre class="html5"><code>
-&lt;!--
+<pre class="html5">&lt;!--
 Beginning of comment
   &lt;!-- comment nested inside --&gt;
 This is after the nested comment
 --&gt;
-</code></pre>
+</pre>
 
 <p>The computer will then see the beginning of the comment tag and start
 ignoring everything until it sees –&gt;, including the second <!--.
@@ -1420,23 +1418,23 @@ writer may have meant it to be a comment.</p>
 <p>Like most other tags, it can span multiple lines of your source file.
  This can be really convenient when you have a lot to say:</p>
 
-<pre><code>&lt;!--
+<pre>&lt;!--
 If you want some good advice,
 Neither a borrower nor a lender be,
 For loan oft loses both itself and friend,
 And borrowing dulls the edge of husbandry.
 --&gt;
-</code></pre>
+</pre>
 
 <p>Comments are also commonly used in development to block out bits of
 code, whether for testing or leaving unfinished business in the
 file:</p>
 
-<pre><code>&lt;!-- Not sure if I want this wording or not:
+<pre>&lt;!-- Not sure if I want this wording or not:
  &lt;p&gt;Eighty seven years ago, a bunch of guys started a new
     country&lt;/p&gt;
  --&gt;
-</code></pre>
+</pre>
 
 <p>It’s important to remember that just as HTML, CSS and JavaScript are
 three different languages, they each have their own notation for
@@ -1457,10 +1455,10 @@ group it with a class of other elements by setting the ‘class’
 attribute.</p>
 <p>Attributes in HTML are written inside the opening tag like this:</p>
 
-<pre><code>&lt;p id=&quot;paragraph-1&quot; class=&quot;regular-paragraphs&quot;&gt;
+<pre>&lt;p id=&quot;paragraph-1&quot; class=&quot;regular-paragraphs&quot;&gt;
    Call me Ishmael . . .
 &lt;/p&gt;
-</code></pre>
+</pre>
 
 <p>The paragraph above has a unique identifier, “paragraph-1” and is
 part of a class of “regular-paragraphs”.<br>
@@ -1496,7 +1494,7 @@ best suited in that case.<br>
 with a task like that, so it is helpful to use a close tag that matches
 the open tag to make things absolutely clear.</p>
 
-<pre><code>&lt;p&gt;
+<pre>&lt;p&gt;
 The old lady pulled her spectacles
 down and looked over them about the
 room; then she put them up and looked
@@ -1507,7 +1505,7 @@ and she turned just in time to seize a
 small boy by the slack of his roundabout
 and arrest his flight.
 &lt;/p&gt;
-</code></pre>
+</pre>
 
 <p>The old lady pulled her spectacles down and looked over them about
 the room; then she put them up and looked out under them.<br>
@@ -1537,8 +1535,8 @@ but it won’t know which version of HTML is used (it matters).</p>
 <p>That’s why <b>the first thing you need in any HTML file</b> is a tag
 to tell you what type of HTML file it is:</p>
 
-<pre><code>&lt;!DOCTYPE html&gt;
-</code></pre>
+<pre>&lt;!DOCTYPE html&gt;
+</pre>
 
 <p>In other words, the first thing the browser sees is the declaration
 “This is an HTML5 file, in case you were wondering”.<br>
@@ -1552,9 +1550,9 @@ winded.<br>
 <br>For example, at the top of an HTML 4.01 page, you might have
 something like this:</p>
 
-<pre><code>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01//EN&quot;
+<pre>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01//EN&quot;
    &quot;http://www.w3.org/TR/html4/strict.dtd&quot;&gt;
-</code></pre>
+</pre>
 
 <p>
 We do not need to go into the details of why and what that means, just
@@ -1566,8 +1564,8 @@ It may seem redundant, but the next bit tells the browser where the
 actual HTML code begins, using an &lt;html&gt; tag:
 </p>
 
-<pre><code>&lt;html&gt;
-</code></pre>
+<pre>&lt;html&gt;
+</pre>
 
 <p>
 Nearly every HTML document has two parts.<br>
@@ -1586,9 +1584,9 @@ create a very basic html file, in the right form, without any content.<br>
 <br>Hint, for the head of the document you would write:
 </p>
 
-<pre><code>&lt;head&gt;
+<pre>&lt;head&gt;
 &lt;/head&gt;
-</code></pre>
+</pre>
 
 <p>
 You may recall the paragraph tag &lt;p&gt; that we used in the example
@@ -1600,7 +1598,7 @@ above.<br>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre><code>&lt;!DOCTYPE html&gt;
+<pre>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
    &lt;head&gt;
    &lt;/head&gt;
@@ -1611,7 +1609,7 @@ above.<br>
       &lt;/p&gt;
    &lt;/body&gt;
 &lt;/html&gt;
-</code></pre>
+</pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1680,14 +1678,14 @@ to character sets and encodings here</a>.
 indicate to the browser the character encoding you will be using in the
 page.</p>
 
-<pre><code>&lt;meta charset=&quot;utf-8&quot;&gt;
-</code></pre>
+<pre>&lt;meta charset=&quot;utf-8&quot;&gt;
+</pre>
 
 <p>Alternatively, you can also use http-equiv and content attributes.</p>
 
-<pre><code>&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;
+<pre>&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;
    charset=utf-8&quot;&gt;
-</code></pre>
+</pre>
 
 <p>We recommend using the first one because it is much less complicated.
 You should also always use ‘utf-8’.</p>
@@ -1700,14 +1698,14 @@ earlier it is mentioned in your code, the better.<br>
 <br>W3C recommends placing it immediately after the
 opening &lt;head&gt; tag:</p>
 
-<pre><code>&lt;!DOCTYPE html&gt;
+<pre>&lt;!DOCTYPE html&gt;
    &lt;html lang=&quot;en&quot;&gt;
    &lt;head&gt;
       &lt;meta charset=&quot;utf-8&quot;&gt;
       ...
    &lt;/head&gt;
 &lt;/html&gt;
-</code></pre>
+</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-4-3">1.4.3 HTML Character References</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1717,14 +1715,14 @@ opening &lt;head&gt; tag:</p>
 the need for them came about.<br>
 <br>Try the following code in your HTML:</p>
 
-<pre><code>&lt;p&gt;Welcome to &quot;HTML5 &amp; CSS Fundamentals&quot;. The first tag we will be
+<pre>&lt;p&gt;Welcome to &quot;HTML5 &amp; CSS Fundamentals&quot;. The first tag we will be
    learning about is  the &lt;html&gt; tag.&lt;/p&gt;
-</code></pre>
+</pre>
 
 <details>
   <summary>HTML code extract!</summary>
 
-<pre><code>&lt;!DOCTYPE html&gt;
+<pre>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
     &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -1735,7 +1733,7 @@ the need for them came about.<br>
     learning about is the &lt;html&gt; tag.&lt;/p&gt;
   &lt;/body&gt;
 &lt;/html&gt;
-</code></pre>
+</pre>
 
 </details>
 
@@ -1752,25 +1750,25 @@ an ampersand symbol '&amp;', followed by the name and a semi-colon.
 Names are case sensitive. For example, the following represents a
 no-break space:</p>
 
-<pre><code>&amp;nbsp;
-</code></pre>
+<pre>&amp;nbsp;
+</pre>
 
 <p>There are two types of numeric character reference: ones that use
 decimal numbers and ones that use hexadecimal numbers.  In each case,
 the number represents the code point number of the character in
 Unicode.<br>
 <br>If you are using a decimal number, use an ampersand symbol ‘&amp;’ ,
-followed by the symbol ‘#’, then a decimal number and a semi-colon.
+followed by the symbol ‘#’, then a decimal number and a semi-colon.</p>
 
-<pre><code>&amp;#160;
-</code></pre>
+<pre>&amp;#160;
+</pre>
 
 <p>If you are using a hexadecimal number, use an ampersand symbol ‘&amp;’ ,
 followed by the symbols ‘#x’, then a hexadecimal number and a
 semi-colon.</p>
 
-<pre><code>&amp;#x00A0;
-</code></pre>
+<pre>&amp;#x00A0;
+</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-4-4">1.4.4 Special characters</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1838,18 +1836,18 @@ when viewed by a reader:</p>
 <br>Instead, you want it to be displayed to the user.<br>
 <br>So if you wish to display this in your browser:</p>
 
-<pre><code>&lt;img src=&quot;images/test.png&quot; alt=&quot;test image&quot;&gt;
-</code></pre>
+<pre>&lt;img src=&quot;images/test.png&quot; alt=&quot;test image&quot;&gt;
+</pre>
 
 <p>You have to write it like this in your HTML code:</p>
 
-<pre><code>&lt;img src=&quot;images/test.png&quot; alt=&quot;test image&quot;&gt;
-</code></pre>
+<pre>&lt;img src=&quot;images/test.png&quot; alt=&quot;test image&quot;&gt;
+</pre>
 
 <details>
   <summary>HTML code extract!</summary>
 
-<pre><code>&lt;!DOCTYPE html&gt;
+<pre>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
     &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -1864,7 +1862,7 @@ when viewed by a reader:</p>
     &lt;/p&gt;
   &lt;/body&gt;
 &lt;/html&gt;
-</code></pre>
+</pre>
 
 </details>
 
@@ -1881,24 +1879,24 @@ entity &amp; for &amp;.</p>
 <br>If you try the code below in a browser and hover your mouse pointer on the text ‘HTML5’, it will show you the title text (it works like a tooltip).<br>
 <br>The title text in the source code includes quotes (around the number 5) like this:</p>
 
-<pre><code>&lt;abbr title=&quot;Hypertext Markup Language &quot;5&quot;&quot;&gt;HTML5&lt;/abbr&gt;
-</code></pre>
+<pre>&lt;abbr title=&quot;Hypertext Markup Language &quot;5&quot;&quot;&gt;HTML5&lt;/abbr&gt;
+</pre>
 
 <p>The above will not display the number 5.<br>
 <br>Replacing the quotes with its character entity will work:</p>
 
-<pre><code>&lt;abbr title=&quot;Hypertext Markup Language &quot;5&quot;&quot;&gt;HTML5&lt;/abbr&gt;
-</code></pre>
+<pre>&lt;abbr title=&quot;Hypertext Markup Language &quot;5&quot;&quot;&gt;HTML5&lt;/abbr&gt;
+</pre>
 
 <p>Check out this jsfiddle link.</p>
 <h4>HTML</h4>
 
-<pre><code>&lt;p&gt;Rest your mouse on the text below: (The number 5 is missing)&lt;/p&gt;
+<pre>&lt;p&gt;Rest your mouse on the text below: (The number 5 is missing)&lt;/p&gt;
 &lt;abbr title=&quot;Hypertext Markup Language &quot;5&quot;&quot;&gt;HTML5&lt;/abbr&gt;
 &lt;p&gt;Rest your mouse on the text below: (5 is displayed when quotes is
 replaced with its character entity name)&lt;/p&gt;
 &lt;abbr title=&quot;Hypertext Markup Language &amp;quot;5&amp;quot;&quot;&gt;HTML5&lt;/abbr&gt;
-</code></pre>
+</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-4-5">1.4.5 Character References for Other Characters</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1940,7 +1938,7 @@ entail a fine of € 400&lt;/p&gt;</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre><code>&lt;!DOCTYPE html&gt;
+<pre>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
    &lt;head&gt;
       &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -1950,7 +1948,7 @@ entail a fine of € 400&lt;/p&gt;</p>
       &lt;p&gt;This is © 2015. Breach will entail a fine of € 400&lt;/p&gt;
       &lt;/body&gt;
 &lt;/html&gt;
-</code></pre>
+</pre>
 
 </details>
 
@@ -2005,19 +2003,19 @@ do it properly, and not depend on the browser to patch it for you.</p>
 <p>Because an HTML file essentially represents a <a href="https://en.wikipedia.org/wiki/Tree_(data_structure)" target="_blank" rel="noopener noreferrer">tree structure</a>, the open and close tags should always match, and there should not be any overlap with other elements. That is, you can have an element that is enclosed in another element, or you can have two
 elements side-by-side, but you can never have a situation in which part of an element is in another, but the other part is not.</p>
 
-<pre><code>&lt;p&gt;This is a &lt;em&gt;paragraph&lt;/em&gt;&lt;/p&gt;
+<pre>&lt;p&gt;This is a &lt;em&gt;paragraph&lt;/em&gt;&lt;/p&gt;
   
 &lt;h1&gt;Paragraph ahead&lt;/h1&gt;
 &lt;p&gt;And here it is.&lt;/p&gt;
-</code></pre>
+</pre>
 
 <p>The two examples above are fine because in each case either an
 element is wholly contained in another (&lt;em&gt; in &lt;p&gt;) or they
 are completely separate (&lt;h1&gt; and &lt;p&gt;). This, on the other
 hand, is not valid:</p>
 
-<pre><code>&lt;h1&gt;Part of this header is &lt;p&gt;in the&lt;/h2&gt; paragraph below&lt;/p&gt;
-</code></pre>
+<pre>&lt;h1&gt;Part of this header is &lt;p&gt;in the&lt;/h2&gt; paragraph below&lt;/p&gt;
+</pre>
 
 <p>What happens in this case is what we call “undefined”. That just
 means that there is no telling how the browser will decide to handle it.
@@ -2053,19 +2051,19 @@ good idea (best practice).</p>
 <p>Proper indentation is one way to make your code clearer and easier to
 understand:</p>
 
-<pre><code>&lt;body&gt;
+<pre>&lt;body&gt;
   &lt;h1&gt;Here is a heading&lt;/h1&gt;
   &lt;p&gt;
   &lt;ol&gt;&lt;li&gt;List Item 1&lt;/li&gt;&lt;/ol&gt;
   &lt;/p&gt;
 &lt;/body&gt;
-</code></pre>
+</pre>
 
 <p>The code above doesn’t give any sense of the structure of the
 document. By using indentation effectively, you can make it more clear,
 showing the nesting of elements:</p>
 
-<pre><code>&lt;body&gt;
+<pre>&lt;body&gt;
   &lt;h1&gt;Here is a heading&lt;/h1&gt;
   &lt;p&gt;
     &lt;ol&gt;
@@ -2073,7 +2071,7 @@ showing the nesting of elements:</p>
     &lt;/ol&gt;
   &lt;/p&gt;
 &lt;/body&gt;
-</code></pre>
+</pre>
 
 <p>Consistent quoting of strings is also helpful, in part to avoid
 potential problems that can arise when you think something does not need
@@ -2124,7 +2122,7 @@ will look the same.</p>
 same when you read them in the browser:</p>
 
 
-<pre><code>&lt;H1&gt; This is the Beginning &lt;/H1&gt;
+<pre>&lt;H1&gt; This is the Beginning &lt;/H1&gt;
 
 &lt;H1&gt;
 
@@ -2133,7 +2131,7 @@ same when you read them in the browser:</p>
 &lt;/H1&gt;
 
 &lt;h1&gt;This is the Beginning&lt;/h1&gt;
-</code></pre>
+</pre>
 
 <p>It might seem confusing at first, but this rule about white space is
 actually very convenient.  The third option might be a bit too cramped
@@ -2149,10 +2147,10 @@ insensitive, but it is not that easy.  </p>
 attributes yet, but when we do we will discover that they are case
 sensitive, thus these two elements will have different ’id’s:</p>
 
-<pre><code>  &lt;p id=ThisOne&gt;
+<pre>  &lt;p id=ThisOne&gt;
    
   &lt;p id=thisone&gt;
-</code></pre>
+</pre>
 
 <p>Even though they’re spelled the same, the differing cases indicate
 different names.  Note that distinguishing different id’s solely by case
@@ -2174,11 +2172,11 @@ marks, either single (’) or double (“). HTML tries to be helpful here.</p>
 strings (say a string without spaces), even if you do not use the
 quotation marks it will essentially insert them for you. Thus:</p>
 
-<pre><code>  &lt;p id=MyName&gt;
+<pre>  &lt;p id=MyName&gt;
   &lt;p id=&quot;MyName&quot;&gt;
   &lt;p id=&#39;MyName&#39;&gt;
   .... are all equivalent.
-</code></pre>
+</pre>
 
 <p>It is also important to know that, in HTML, <b>double and single quotes are almost interchangeable, but they have to match</b>.  If you start a string with a double quote, the computer will not end it until it sees another double quote.  Any single quotes will be happily considered part of the string, which is handy if you need quotation marks in your string.  Because of this, if you create a string as ’“quote” ’ (single quotes containing a double quoted string), your string will have the letters &lt;space&gt;-“-q-u-o-t-e-”-&lt;space&gt; (with double quotes in the string and spaces outside those) as opposed to “quote” which will just have the letters q-u-o-t-e (no quotation marks or spaces in the string).  Nevertheless, best practice is to be consistent in your quotes, so it’s best to quote them all the same way, even if the browser would understand it anyway.</p>
 
@@ -2235,7 +2233,7 @@ how many there are, etc.  We will start with the ones we have already seen:</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre><code>&lt;!DOCTYPE &lt;span class="dt"&gt;html&gt;
+<pre>&lt;!DOCTYPE &lt;span class="dt"&gt;html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
     &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -2248,7 +2246,7 @@ how many there are, etc.  We will start with the ones we have already seen:</p>
     &lt;h3&gt;I. The Period&lt;/h3&gt;
   &lt;/body&gt;
 &lt;/html&gt;
-</code></pre>
+</pre>
 
 </details>
 
@@ -2268,7 +2266,7 @@ technology users and missing levels can be confusing</b>.</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre><code>&lt;!DOCTYPE &lt;span class="dt"&gt;html&gt;
+<pre>&lt;!DOCTYPE &lt;span class="dt"&gt;html&gt;
    &lt;html lang=&quot;en&quot;&gt;
    &lt;head&gt;
       &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -2283,7 +2281,7 @@ technology users and missing levels can be confusing</b>.</p>
    &lt;/p&gt;
    &lt;/body&gt;
 &lt;/html&gt;
-</code></pre>
+</pre>
 
 </details>
 
@@ -2316,12 +2314,12 @@ wise - Benjamin Franklin</p>
   <li><b>&lt;li&gt;</b> - The <b>li</b> element is a “List Item”, i.e. one item in the list.  As you might expect, this element only really makes sense nested inside a list (&lt;ul&gt; or &lt;ol&gt;).  In the final rendering, each li element would typically be preceded by a number or bullet, or something similar (but not necessarily).  Thus a list in HTML would look like this:</li>
 </ul>
 
-<pre><code>  &lt;ul&gt;
+<pre>  &lt;ul&gt;
     &lt;li&gt; First item in list &lt;/li&gt;
     &lt;li&gt; Second item in list &lt;/li&gt;
    . . .
   &lt;/ul&gt;
-</code></pre>
+</pre>
 
 <h4>This code might be rendered like this:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2343,12 +2341,12 @@ primarily used to invoke certain formatting.</p>
   Note that the &lt;br&gt; tag implies a break even if there is no break in the text containing it, so for example, these two sentences would be formatted exactly the same:</li>
 </ul>
 
-<pre><code>1.  That which we call a rose &lt;br&gt;
+<pre>1.  That which we call a rose &lt;br&gt;
 2.  By any other name would smell as sweet
 3.   
 4.  That which we call a rose &lt;br&gt; By any other name
 5.  would smell as sweet
-</code></pre>
+</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 19. that which we call a rose (61) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2361,12 +2359,12 @@ primarily used to invoke certain formatting.</p>
   <li><b>&lt;pre&gt;</b> - <b>pre</b> stands for “PREformatted text”, meaning that the text is to be presented exactly as written in the HTML file. It preserves all text formatting characters i.e. spaces, line breaks and (thus bypassing the white space rule) and most typically implies a monospace font. It is very handy for illustrating bits of program code, or other “typewritten” material:</li>
 </ul>
 
-<pre><code>Text in a pre element
+<pre>Text in a pre element
 is displayed in a fixed-width
 font, and it preserves
 both spaces and
 line breaks
-</code></pre>
+</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-6-3">1.6.3 More HTML5</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2395,7 +2393,7 @@ following components:
 <details>
   <summary>HTML code extract!</summary>
 
-<pre><code>&lt;!DOCTYPE &lt;span class="dt"&gt;html&gt;
+<pre>&lt;!DOCTYPE &lt;span class="dt"&gt;html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
     &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -2425,7 +2423,7 @@ following components:
     &lt;/ol&gt;
   &lt;/body&gt;
 &lt;/html&gt;
-</code></pre>
+</pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2511,36 +2509,36 @@ module. Let’s look into it in more depth, by using examples.</p>
 
 <h4>Here is an ordered list:</h4>
 
-<pre><code>  &lt;ol&gt;
+<pre>  &lt;ol&gt;
     &lt;li&gt;Lights&lt;/li&gt;
     &lt;li&gt;Camera&lt;/li&gt;
     &lt;li&gt;Action&lt;/li&gt;
   &lt;/ol&gt;
-</code></pre>
+</pre>
 
 <h4>Output:</h4>
 
-<pre><code>1. Lights
+<pre>1. Lights
 2. Camera
 3. Action
-</code></pre>
+</pre>
 
 <p>If i want an ordered list to start with the number 5 instead of 1 (as it
 does by default), let’s code like this:</p>
 
-<pre><code>&lt;ol start=&quot;5&quot;&gt;
+<pre>&lt;ol start=&quot;5&quot;&gt;
   &lt;li&gt;Lights&lt;/li&gt;
   &lt;li&gt;Camera&lt;/li&gt;
   &lt;li&gt;Action&lt;/li&gt;
 &lt;/ol&gt;
-</code></pre>
+</pre>
 
 <h4>Output:</h4>
 
-<pre><code>5. Lights
+<pre>5. Lights
 6. Camera
 7. Action
-</code></pre>
+</pre>
 
 <p>Here, using the start attribute, we made our list start with 5
 instead of 1.<br>
@@ -2561,25 +2559,25 @@ Tags and attributes make up the language.</p>
   <li>The only exception to the name-value pair is if the attribute is a ‘boolean attribute’. These attributes have only two types of values - true or false. But instead of writing “true” or “false” for its value, you add the attribute name to indicate true and omit it to indicate false. An example is the ‘reversed’ attribute in an ordered list &lt;ol&gt;. Adding this attribute is an indication that the list order should be reversed (in descending order).</li>
 </ul>
 
-<pre><code>&lt;ol reversed&gt;&lt;/ol&gt;
-</code></pre>
+<pre>&lt;ol reversed&gt;&lt;/ol&gt;
+</pre>
 
 <ul>
   <li>A tag can have multiple attributes:</li>
 </ul>
 
-<pre><code>&lt;ol start=&quot;5&quot;&gt;&lt;/ol&gt;  
+<pre>&lt;ol start=&quot;5&quot;&gt;&lt;/ol&gt;  
 &lt;ol id=&quot;cinema&quot; class=&quot;attribute-list&quot; start=&quot;5&quot;&gt;&lt;/ol&gt;  
 &lt;ol start=&quot;5&quot; class=&quot;attribute-list&quot;&gt;&lt;/ol&gt;
-</code></pre>
+</pre>
 
 <h4>Example #1: the ‘id’ attribute</h4>
 
 <h4>Imagine you have two paragraphs in your HTML page:</h4>
 
-<pre><code>&lt;p&gt;I am paragraph 1 and I want to be in red&lt;/p&gt;
+<pre>&lt;p&gt;I am paragraph 1 and I want to be in red&lt;/p&gt;
 &lt;p&gt;I am paragraph 2 and I want to be in blue&lt;/p&gt;
-</code></pre>
+</pre>
 
 <p>Your task is to make the text color of the first paragraph red and
 the other blue. How do we do that? You add styling to your HTML document
@@ -2596,10 +2594,10 @@ No one else in your company will have the same ID as you. id is an attribute.<
 It should be unique to the element; we know how more than one people having the same
 ID can just cause a lot of confusion.</p>
 
-<pre><code>
+<pre>
   &lt;p id=&quot;para1&quot;&gt;I am paragraph 1 and I want to be in red&lt;/p&gt;
   &lt;p id=&quot;para2&quot;&gt;I am paragraph 2 and I want to be in blue&lt;/p&gt;
-</code></pre>
+</pre>
 
 <p>Here, we can style para1 and para2 separately using CSS. The id attribute helps us do this by letting us give each paragraph an ID.</p>
 
@@ -2624,23 +2622,23 @@ learn how to write proper styles in the next chapter, so for now we will
 just phrase it in English) -
 </p>
 
-<pre><code>
+<pre>
 &#39;Make poem1&#39;s text color grey, italic and bold&#39;  
 &#39;Make poem2&#39;s text color grey, italic and bold&#39;  
 &#39;Make poem3&#39;s text color grey, italic and bold&#39;
-</code></pre>
+</pre>
 
 <p>Can you imagine how repetitive your style sheet will look if you have to
 instruct it to do the same thing 20 times for different poem IDs? HTML
 makes it easier. We use the class attribute. Let’s name this class of
 poems ‘poetry’.</p>
 
-<pre><code>
+<pre>
 &lt;p id=&quot;poem1&quot; class=&quot;poetry&quot;&gt;To move, to breathe, to fly, to
   float...&lt;/p&gt;
 &lt;p id=&quot;poem2&quot; class=&quot;poetry&quot;&gt;Roses are red, violets are
   blue...&lt;/p&gt;
-</code></pre>
+</pre>
 
 <p>So now, all you have to do in your style sheet, is to instruct it to make all elements belonging to the ‘poetry’ class grey, italic and bold.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2661,14 +2659,14 @@ All HTML elements have attributes.</p>
 <p>Global attributes can be applied to <b>all tags</b>. They are common attributes. Examples of global attributes are id and class. There are many more global attributes. Here is a <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes#list_of_global_attributes" target="_blank" rel="noopener noreferrer">list of all the global attributes</a> and the values they accept.</p>
 <p>Attributes like id and class can be applied to any HTML tag.</p>
 
-<pre><code>
+<pre>
 &lt;p id=&quot;para1&quot; class=&quot;poetry&quot; lang=&quot;en&quot;&gt;The global attribute lang
    takes language codes for values. The code for English is &#39;en&#39;.&lt;/p&gt;  
 &lt;html lang=&quot;fr&quot;&gt;&lt;/html&gt; - The language attribute tells the browser
    that the contents of this document will be in french.
 &lt;ul id=&quot;intro-list&quot;&gt;&lt;/ul&gt;
 &lt;pre class=&quot;html-code&quot;&gt;&lt;/pre&gt;
-</code></pre>
+</pre>
 
 <h4>Non-global attributes</h4>
 
@@ -2677,23 +2675,23 @@ as &lt;img&gt;, &lt;input&gt; and &lt;video&gt;.</p>
 
 <h4><b>Without</b> the boolean attribute reversed:</h4>
 
-<pre><code>
+<pre>
 &lt;ol&gt;
   &lt;li&gt;HTML5&lt;/li&gt;
   &lt;li&gt;CSS&lt;/li&gt;
   &lt;li&gt;JavaScript&lt;/li&gt;
 &lt;/ol&gt;
-</code></pre>
+</pre>
 
 <h4><b>With</b> the boolean attribute reversed:</h4>
 
-<pre><code>
+<pre>
 &lt;ol reversed&gt;
 &lt;li&gt;HTML5&lt;/li&gt;
 &lt;li&gt;CSS&lt;/li&gt;
 &lt;li&gt;JavaScript&lt;/li&gt;
 &lt;/ol&gt;
-</code></pre>
+</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 21. html result (67) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2708,10 +2706,10 @@ as &lt;img&gt;, &lt;input&gt; and &lt;video&gt;.</p>
 
 <p>The image &lt;img&gt; and hyperlink &lt;a&gt; elements, which we will be learning about shortly, have many non-global attributes of their own.</p>
 
-<pre><code>
+<pre>
 &lt;b&gt;&lt;img&gt;  :&lt;/b&gt; src, alt, etc.
 &lt;b&gt;&lt;a&gt;&lt;/b&gt;  : href, target, download, etc.
-</code></pre>
+</pre>
 
 <p>Other than the common global attributes, if you wish to learn about the supported non-global attributes for any element, you can visit the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes" target="_blank" rel="noopener noreferrer">HTML attribute reference</a> available at the Mozilla Developer Network (MDN).</p>
 <p><b>Important:</b> Throughout the course, using the MDN attribute reference, you are encouraged to explore non-global attributes for the elements you learn about or would like to use in your Web pages. In the MDN attribute reference list, you can click on the element’s hyperlinked name to be navigated to its page that lists supported attributes for that element.</p>
@@ -2734,11 +2732,11 @@ The id attribute gives your element a unique identifier.<br> In your HTML docu
   <li>Values are case-sensitive. This means ‘QuestioN’ and ‘question’ are NOT the same. That does not mean you can define two different IDs that only differ by case, e.g. “myid” and “MyId”. They are different and so legal but it would be extremely confusing to do this!</li>
 </ul>
 
-<pre><code>
+<pre>
 &lt;p id=&quot;question-about-html&quot;&gt;How many times can a particular &#39;id&#39;
    value be used in an HTML document?&lt;/p&gt;
 &lt;p id=&quot;html-answer&quot;&gt;Once&lt;/p&gt;
-</code></pre>
+</pre>
 
 <h4>id is primarily used for:</h4>
 
@@ -2755,19 +2753,19 @@ the same class.<br>Its name-value pair is class=“classname”.<br>Unlike id,
 
 <h4>For example:</h4>
 
-<pre><code>
+<pre>
 &lt;p class=&quot;question&quot;&gt;What is your name?&lt;/p&gt;
 &lt;p class=&quot;question&quot;&gt;Do you like HTML5?&lt;/p&gt;
-</code></pre>
+</pre>
 
 <p>Both paragraphs above are grouped under the class named ‘question’.<br>
 An element can have one or more class names.<br>
 If we also want the second question to be under the ‘html’ class because it is an HTML related
 question, you can add two class names by separating them with white space:</p>
 
-<pre><code>
+<pre>
 &lt;p class=&quot;question html&quot;&gt;Do you like HTML5?&lt;/p&gt;
-</code></pre>
+</pre>
 
 <h4>Naming rules for the class attribute:</h4>
 
@@ -2783,12 +2781,12 @@ question, you can add two class names by separating them with white space:</p>
   <li>Styling your elements. You can specify the style you want for all the elements that belong to the class in your stylesheet.</li>
 </ol>
 
-<pre><code>
+<pre>
   &lt;p class=&quot;question&quot;&gt;Who are you?&lt;/p&gt;
   &lt;p class=&quot;answer&quot;&gt;I am the author&lt;/p&gt;
   &lt;p class=&quot;question html&quot;&gt;Do you like HTML5?&lt;/p&gt;
   &lt;p class=&quot;answer&quot;&gt;Yes&lt;/p&gt;
-</code></pre>
+</pre>
 
 <p>In your CSS, you can include code to style your classes, for example by telling it:</p>
 
@@ -2845,11 +2843,11 @@ contains it.</p>
 
 <h4>For example:</h4>
 
-<pre><code>
+<pre>
 &lt;html lang=&quot;en-GB&quot;&gt;...&lt;/html&gt;
    &lt;p&gt;In French you&#39;d say &lt;span lang=&quot;fr&quot;&gt;On voit souvent des chats
       sur le Web.&lt;/span&gt;&lt;/p&gt;
-</code></pre>
+</pre>
 
 <p>The first example above shows how you can qualify the language
 (English) with a region subtag (GB) to specify British English.  This
@@ -2889,10 +2887,10 @@ an alt attribute as there is no guarantee that the title attribute will
 be presented to assistive technology users. The title can be any text
 value.</p>
 
-<pre><code>
+<pre>
 &lt;abbr title=&quot;National Aeronautics and Space
    Administration&quot;&gt;NASA&lt;/abbr&gt;
-</code></pre>
+</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-2-4">2.2.4 Global Attributes</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3100,10 +3098,10 @@ meaning.</p>a
 bold.</p>
 <p><b>Strong</b> is an indication of how something should be. It looks like bold in a browser, but it could mean ‘speak with urgency or seriousness’ when reading text aloud. It is semantic in the sense, that we instruct it to be stronger than the text it surrounds which is different from giving instructions on how the text should look in the case of &lt;b&gt;. It represents importance, seriousness, or urgency for its contents.</p>
 
-<pre><code>
+<pre>
 &lt;p&gt;As a junior developer, you &lt;strong&gt;must&lt;/strong&gt; submit
   your work for code review!&lt;/p&gt;
-</code></pre>
+</pre>
 
 <p>The ‘must’ may be bolded in a browser. But when reading the HTML
 document out loud by a text-to-speech program, it can be spoken with
@@ -3267,7 +3265,7 @@ like this:</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre class="html5"><code>
+<pre class="html5">
 1.  &lt;!DOCTYPE html&gt;
 2.  &lt;html lang=&quot;en&quot;&gt;
 3.   
@@ -3338,7 +3336,7 @@ like this:</p>
 50. &lt;/body&gt;
 51.  
 52. &lt;/html&gt;
-</code></pre>
+</pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3564,14 +3562,14 @@ support</a> (on caniuse.com).</p>
 technology, &lt;figcaption&gt; can be used to provide additional
 information for all users.</p>
 
-<pre class="html5"><code>
+<pre class="html5">
   &lt;figure&gt;
     &lt;img src=&quot;img_cast.jpg&quot; alt=&quot;The Importance of Being Earnest
       Cast&quot;&gt;
     &lt;figcaption&gt;Fig1. - The cast hard at work at dress rehearsal
       before opening night&lt;/figcaption&gt;
   &lt;/figure&gt;
-</code></pre>
+</pre>
 
 <h4>Result:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3588,10 +3586,10 @@ information for all users.</p>
 
 <h5>This element is used to specify content that you want to highlight.</h5>
 
-<pre><code>
+<pre>
 &lt;h3&gt;Lane: &lt;/h3&gt;&lt;p&gt;Yes sir. [&lt;mark&gt;Handing his master the
    sandwiches on a salver&lt;/mark&gt;]&lt;/p&gt;
-</code></pre>
+</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 28. example mark command you want to highlight (87) ~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3621,7 +3619,7 @@ not any visual change:</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre><code>
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
@@ -3642,7 +3640,7 @@ not any visual change:</p>
       &lt;/aside&gt;
     &lt;/article&gt;
   &lt;/body&gt;
-</code></pre>
+</pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3747,7 +3745,7 @@ element. <b>Here’s a simplified version</b>:</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre class="html5"><code>
+<pre class="html5">
   &lt;header&gt;
   &lt;!-- You will learn about the &lt;a&gt; and &lt;img&gt; tags later in this chapter--&gt;
     &lt;p&gt;
@@ -3758,7 +3756,7 @@ element. <b>Here’s a simplified version</b>:</p>
     &lt;h1&gt;HTML 5.2&lt;/h1&gt;
     &lt;h2&gt;W3C Recommendation, 14 December 2017&lt;/h2&gt;
   &lt;/header&gt;
-</code></pre>
+</pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3783,7 +3781,7 @@ rel="noopener noreferrer">Using h1-h6 to identify headings</a>.</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre><code>
+<pre>
   &lt;body&gt;
     &lt;h1&gt;Brad&#39;s Cookbook&lt;/h1&gt;
     &lt;h2&gt;Slowcook Recipes&lt;/h2&gt;
@@ -3798,7 +3796,7 @@ rel="noopener noreferrer">Using h1-h6 to identify headings</a>.</p>
     &lt;h4&gt;Description:&lt;/h4&gt;
     &lt;p&gt;If you can&#39;t get fresh peaches, frozen to the rescue!&lt;/p&gt;
   &lt;/body&gt;
-</code></pre>
+</pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3898,7 +3896,7 @@ multiple &lt;header&gt;, &lt;footer&gt; and &lt;nav&gt; tags.</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre><code>
+<pre>
 &lt;!DOCTYPE &lt;span class="dt"&gt;html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
@@ -3974,7 +3972,7 @@ multiple &lt;header&gt;, &lt;footer&gt; and &lt;nav&gt; tags.</p>
   &lt;/footer&gt;
   &lt;/body&gt;
 &lt;/html&gt;
-</code></pre>
+</pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3992,7 +3990,7 @@ context. It can be reused anywhere else.</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre><code>
+<pre>
   &lt;article id=&quot;ces&quot;&gt;
     &lt;header&gt;
       &lt;h2&gt;CES 2018&lt;/h2&gt;
@@ -4006,7 +4004,7 @@ context. It can be reused anywhere else.</p>
       &lt;p&gt;Written by guest author Nicholas Abc. Read Nicholas&#39;s blog here.&lt;/p&gt;
     &lt;/footer&gt;
   &lt;/article&gt;
-</code></pre>
+</pre>
 
 </details>
 
@@ -4046,7 +4044,7 @@ to our CES 2018 &lt;article&gt; example, it will fit right in:</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre><code>
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
@@ -4074,7 +4072,7 @@ to our CES 2018 &lt;article&gt; example, it will fit right in:</p>
     &lt;/article&gt;
   &lt;/body&gt;
 &lt;/html&gt;
-</code></pre>
+</pre>
 
 </details>
 
@@ -4096,7 +4094,7 @@ your Web page, try on this <a href="https://codepen.io/w3devcampus/pen/Wjzjpx" 
 <details>
   <summary>HTML code extract!</summary>
 
-<pre><code>
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;!--HTML5 doctype--&gt;
 &lt;html lang=&quot;en&quot;&gt;
@@ -4168,7 +4166,7 @@ your Web page, try on this <a href="https://codepen.io/w3devcampus/pen/Wjzjpx" 
           usage in modern websites. It introduced new semantic elements to replace
           generic blocks like div and span. Purely presentation elements such as
           font and center have also been completely dropped...&lt;/p&gt;
-</code></pre>
+</pre>
 
 </details>
 
@@ -4188,7 +4186,7 @@ Older browsers ignore new HTML5 constructs…</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre><code>
+<pre>
 &lt;/section&gt;
 &lt;!-- Our logo section show hows to use the semantic elements figure and figcaption--&gt;
 &lt;section&gt;
@@ -4241,7 +4239,7 @@ summary elements. Expand to show content. --&gt;
 &lt;/footer&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-</code></pre>
+</pre>
 
 </details>
 
@@ -4272,7 +4270,7 @@ in its place.</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre><code>
+<pre>
   &lt;section&gt;
     &lt;h2&gt;Week 1&lt;/h2&gt;
     &lt;p&gt;This week, you will be learning about...week 1 stuff&lt;/p&gt;
@@ -4293,7 +4291,7 @@ in its place.</p>
       &lt;/ol&gt;
     &lt;/div&gt;
   &lt;/section&gt;
-</code></pre>
+</pre>
 
 </details>
 
@@ -4312,17 +4310,17 @@ page</a> dedicated to it.</p>
 <p>What happens when you do not find an appropriate tag to use? Let’s
 look at this example:</p>
 
-<pre><code>
+<pre>
 &lt;p&gt;Hi everyone! My name is Alexa and I work for ABC Company&lt;/p&gt;
-</code></pre>
+</pre>
 
 <p>I want to change the color of only ‘ABC Company’? Should I use a
 paragraph tag? Let’s try that..</p>
 
-<pre><code>
+<pre>
 &lt;p&gt;Hi everyone! My name is Alexa and I work
    for &lt;p class=&quot;company&quot;&gt;ABC Company&lt;/p&gt;&lt;/p&gt;
-</code></pre>
+</pre>
 
 <p>If you then design your style such that the ‘company’ class will make
 text blue, the output will look like this:</p>
@@ -4334,10 +4332,10 @@ text blue, the output will look like this:</p>
 <p> creates a new line. The HTML above is also invalid. We will see why
 shortly. Now, let’s try using &lt;span&gt;:</p>
 
-<pre><code>
+<pre>
 &lt;p&gt;Hi everyone! My name is Alexa and I work
    for &lt;span class=&quot;company&quot;&gt;ABC Company&lt;/span&gt;&lt;/p&gt;
-</code></pre>
+</pre>
 
 <p>Hi everyone! My name is Alexa and I work for ABC Company</p>
 <p>When can &lt;span&gt; be used?</p>
@@ -4403,9 +4401,9 @@ engaging. </p>
 
 <h4>Here is the most basic &lt;img&gt; tag:</h4>
 
-<pre><code>
+<pre>
 &lt;img src=&quot;example.png&quot; alt=&quot;Example Tutorial Image&quot;&gt;
-</code></pre>
+</pre>
 
 <p>The image tag has several attributes out of which
 only src and alt are required. The rest are useful but optional
@@ -4474,9 +4472,9 @@ an excellent format to use, if possible. SVG is great for charts, graphs, maps, 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>alt stands for <i>alternate text</i> for an image.</h4>
 
-<pre><code>
+<pre>
   &lt;img src="image/example.png" alt="Add a short text description of the image here"&gt;
-</code></pre>
+</pre>
 
 <p>Using this attribute, you can provide a short description of what the
 image is about. This description should convey information about the
@@ -4525,9 +4523,9 @@ category.</p>
 is missing from the ‘images’ directory) and how it will look in a Web
 browser:</p>
 
-<pre><code>
+<pre>
 &lt;img src=&quot;image/tulips.png&quot; alt=&quot;This is supposed to be an image of tulips&quot;&gt;
-</code></pre>
+</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 38. this is supposed to be an image of tulips (108) ~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4556,10 +4554,10 @@ mentioning again because it is very useful in an &lt;img&gt; tag. If you
 have a complicated image that could use a tooltip or description, you
 will want to use the title attribute.</p>
 
-<pre><code>
+<pre>
 &lt;img src=&quot;images/tulips.png&quot; alt=&quot;This is supposed to be an image
    of tulips&quot; title=&quot;Tulips from woodburn tulip festival&quot;&gt;
-</code></pre>
+</pre>
 
 <p>The alt attribute is meant to be an alternate source of information
 while the title attribute should provide additional information about
@@ -4591,10 +4589,10 @@ up of millions of pixels.</p>
 
 <p>Now, if I want to resize the HTML logo above by half:</p>
 
-<pre><code>
+<pre>
 &lt;img src=&quot;images/html5.png&quot; alt=&quot;HTML resized image&quot; title=&quot;Resized
    image seems to fit the page better&quot; height=&quot;173&quot; width=&quot;262&quot;&gt;
-</code></pre>
+</pre>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 41. html5 logo 1/2-sized (109) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4609,10 +4607,10 @@ just specify either height or width and the aspect ratio will be
 adjusted. For example, the image above can be achieved using the
 following too:</p>
 
-<pre><code>
+<pre>
 &lt;img src=&quot;images/html5.png&quot; alt=&quot;HTML resized image&quot; title=&quot;Resized
    image seems to fit the page better&quot; height=&quot;173&quot;&gt;
-</code></pre>
+</pre>
 
 <p>The use of these attributes really depends on how you are using the
 image. If it is part of an <a target="_blank" rel="noopener noreferrer" 
@@ -4896,21 +4894,21 @@ can be:</p>
   <li>If you choose to have image links, it should have <b>alternate text</b> that describes the purpose of the link instead of the image used - describe the target link.</li>
 </ul>
 
-<pre><code>
+<pre>
 &lt;a href=&quot;https://www.table-header-cells.com&quot;&gt;
 &lt;img src=&quot;table-th.png&quot; alt=&quot;Introduction to table header cells
    and their usage&quot;&gt;
 &lt;/a&gt;
-</code></pre>
+</pre>
 
 <h4>Anchor element</h4>
 
 <p>The hyperlink tag in html is simply <b>&lt;a&gt;, </b>and it is
 called the<b> anchor element</b>. Here is how it is used:</p>
 
-<pre><code>
+<pre>
 &lt;a href=&quot;https://en.wikipedia.org/wiki/Hyperlink&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Click here&lt;/a&gt; to go to the Wikipedia Hyperlink page.
-</code></pre>
+</pre>
 
 <p>Result: <a href="https://en.wikipedia.org/wiki/Hyperlink" target="_blank" rel="noopener noreferrer">Click
 here</a> to go to the Wikipedia Hyperlink page.<br>
@@ -4936,32 +4934,32 @@ here</a> to go to the Wikipedia Hyperlink page.<br>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre><code>
+<pre>
 &lt;!-- Text in a hyperlink--&gt;
 &lt;a target=&quot;_blank&quot;  rel=&quot;noopener noreferrer&quot; href=&quot;https://www.qwant.com/&quot;&gt;If you click on me, I will take you to qwant.com&lt;/a&gt;
 &lt;!-- Paragraph in a hyperlink--&gt;
 &lt;a target=&quot;_blank&quot;  rel=&quot;noopener noreferrer&quot; href=&quot;https://www.qwant.com/&quot;&gt;&lt;p&gt;If you click on me, I will take you to qwant.com&lt;/p&gt;&lt;/a&gt;
 &lt;!-- Image in a hyperlink--&gt;
 &lt;a target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; href=&quot;https://www.qwant.com/&quot;&gt;&lt;img src=&quot;images/qwant-image.png&quot; alt=&quot;Image navigating to Qwant&quot;;&gt;&lt;/a&gt;
-</code></pre>
+</pre>
 
 </details>
 
 <p>You can even use the anchor element to add your email address under the contacts section of your Web page.</p>
 
-<pre><code>
+<pre>
   Feedback: &lt;a href=&quot;mailto:authors@example.com&quot;&gt;Send Mail to
     Authors&lt;/a&gt;&lt;/p&gt;
-</code></pre>
+</pre>
 
 <p>Result (try the hyperlink below):<br>
 <br>Feedback: <a href="mailto:authors@example.com">Send Mail to Authors</a><br>
 <br>You can add a subject to the email.</p>
 
-<pre><code>
+<pre>
   Feedback: &lt;a href=&quot;mailto:authors@example.com?Subject=Hello&quot;&gt;Send
     Mail to Authors with Subject&lt;/a&gt;
-</code></pre>
+</pre>
 
 <p>Result (try the hyperlink below)<br>
 <br>Feedback: <a href="mailto:authors@example.com?Subject=Hello">Send
@@ -4990,25 +4988,25 @@ hyperlink because it obviously has no idea where to jump to.<br>
   <li>a link to an external Web site also known as <a target="_blank" rel="noopener noreferrer"  href="https://www.differencebetween.com/difference-between-an-absolute-and-vs-a-relative-url/">absolute URL</a>.</li>
 </ul>
 
-<pre><code>
+<pre>
 &lt;a href=&quot;https://qwant.com&quot;&gt;&lt;/a&gt;
-</code></pre>
+</pre>
 
 <ul>
   <li>a link to a file or page within the same Web site also known as <a target="_blank" rel="noopener noreferrer" href="https://www.differencebetween.com/difference-between-an-absolute-and-vs-a-relative-url/">relative URL</a>.</li>
 </ul>
 
-<pre><code>
+<pre>
   &lt;a href=&quot;contacts.html&quot;&gt;&lt;/a&gt;
-</code></pre>
+</pre>
 
 <ul>
   <li>a link to an element on the same page. The element, is referenced using its ID. E.g. If you want to link to a div with id=‘details’, the corresponding anchor tag will be:</li>
 </ul>
 
-<pre><code>
+<pre>
   &lt;a href=&quot;#details&quot;&gt;&lt;/a&gt;
-</code></pre>
+</pre>
 
 <ul>
   <li><p>protocols such as:</p>
@@ -5017,9 +5015,9 @@ hyperlink because it obviously has no idea where to jump to.<br>
   </ul></li>
 </ul>
 
-<pre><code>
+<pre>
   &lt;a href=&quot;mailto:abc@alphabets.com&quot;&gt;&lt;/a&gt;
-</code></pre>
+</pre>
 
 <h4>The 'target' attribute</h4>
 
@@ -5084,10 +5082,10 @@ same. You want this print version to be formatted into one page ideal
 for printing and with resolution of 250 dpi. Here is how the HTML5 code
 will look like:</p>
 
-<pre><code>
+<pre>
   &lt;a href=&quot;https://en.wikipedia.org/wiki/Media_queries?output=print&quot; media=&quot;print
     and (resolution:250dpi)&quot;&gt;Print wiki page about media queries&lt;/a&gt;
-</code></pre>
+</pre>
 
 <h4>The ‘download’ attribute</h4>
 
@@ -5096,23 +5094,23 @@ download a file instead of navigate to another location. It takes in the
 filename as value but the value is optional. So the download attribute
 can be specified in the following ways:</p>
 
-<pre><code>
+<pre>
   &lt;a href=&quot;assets/hello.txt&quot; download&gt;
   &lt;a href=&quot;assets/hello.txt&quot; download=&quot;new-name-for-text-file&quot;&gt;
-</code></pre>
+</pre>
 
 <p>If you do not specify a value for download, it will download the file
 with name unchanged. Else it will download the file with file name
 modified according to value specified.</p>
 
-<pre><code>
+<pre>
   &lt;a href=&quot;/assets/hello.txt&quot; download&gt;
     ... will download the file with the same name - &#39;hello.txt&#39;.
 
   &lt;a href=&quot;/assets/hello.txt&quot; download=&quot;new-name-for-text-file&quot;&gt;
     ... will download the file after altering its name to -
     &#39;new-name-for-text-file.txt&#39;.
-</code></pre>
+</pre>
 
 <h4>Example (try the hyperlink below in Google Chrome):</h4>
 
@@ -5298,7 +5296,7 @@ the live coding video at the end of this page).</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre><code>
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
@@ -5362,7 +5360,7 @@ the live coding video at the end of this page).</p>
     &lt;/article&gt;
   &lt;/body&gt;
 &lt;/html&gt;
-</code></pre>
+</pre>
 
 </details>
 
@@ -5641,7 +5639,7 @@ the &lt;head&gt; section.  Such as:</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre><code>
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
@@ -5654,7 +5652,7 @@ the &lt;head&gt; section.  Such as:</p>
   &lt;body&gt;
   &lt;/body&gt;
 &lt;/html&gt;
-</code></pre>
+</pre>
 
 </details>
 
@@ -5673,16 +5671,16 @@ kept in a directory named <i>css</i>.</p>
 
 <h4>Use this &lt;link&gt; as a template:</h4>
 
-<pre><code>
+<pre>
 &lt;link rel=&quot;stylesheet&quot; href=&quot;css/my_styles.css&quot;&gt;
-</code></pre>
+</pre>
 
 <h4>Here is an example HTML document:</h4>
 
 <details>
   <summary>HTML code extract!</summary>
 
-<pre><code>
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
@@ -5693,7 +5691,7 @@ kept in a directory named <i>css</i>.</p>
   &lt;body&gt;
   &lt;/body&gt;
 &lt;/html&gt;
-</code></pre>
+</pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5731,21 +5729,21 @@ set to.  Syntactically, property value pairs are simple. Each pair
 consists of a <i>property</i>, followed by a colon <b>:</b> followed by
 a <i>value</i> and terminated by a semi-colon <b>;</b></p>
 
-<pre><code>
+<pre>
   font-size: 12px;
-</code></pre>
+</pre>
 
 <h4>Best practice</h4>
 
 <p>In the example above, the entire CSS rule is written on one line.  This is not uncommon when the declaration of the CSS rule only has one property. If a CSS rule has several properties, then it should be written to use one line per property value pair. For example:</p>
 
-<pre><code>
+<pre>
   p {
     font-size: 12px;
     line-height: 15px;
     color: #223344;
   }
-</code></pre>
+</pre>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-2-3">3.2.3 Comments</h3>
@@ -5759,7 +5757,7 @@ several lines. But they <b>cannot</b> be nested.</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre><code>
+<pre>
   p {
     font-size: 8px; /* client insists small text makes them more &#39;professional&#39;. */
     /* I hope his idea of &#39;professional&#39; includes paying on time. */
@@ -5769,7 +5767,7 @@ several lines. But they <b>cannot</b> be nested.</p>
     margin-bottom:6%;
     */
   }
-</code></pre>
+</pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5795,7 +5793,7 @@ We have a live coding demonstration in the next page working with the same sourc
 <details>
   <summary>HTML code extract!</summary>
 
-<pre><code>
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
@@ -5814,7 +5812,7 @@ We have a live coding demonstration in the next page working with the same sourc
        To emulate the fiery bolts of Jove.&lt;/p&gt;
   &lt;/body&gt;
 &lt;/html&gt;
-</code></pre>
+</pre>
 
 </details>
 
@@ -5993,11 +5991,11 @@ properties: font-size, line-height, text-align, text-decoration, font-weigh
 the font-size has two parts: a number and a unit.  Some of the most
 common units are: px, em, %, vh.  For example:</p>
 
-<pre><code>
+<pre>
 p { font-size: 18px; }  
 q { font-size: .8em; }  
 blockquote { font-size: 10vh; }
-</code></pre>
+</pre>
 
 <p>These units are discussed below.</p>
 <p>Additionally, font-size supports a more readable set of values that
@@ -6006,11 +6004,11 @@ prefer: xx-small, x-small, small, medium, large, x-large, xx-large  <br
 and relative sizing (relative to the text of the
 parent): larger, smaller. For example:</p>
 
-<pre><code>
+<pre>
 p { font-size: medium; }  
 q { font-size: small; }  
 blockquote { font-size: larger; }
-</code></pre>
+</pre>
 
 <h4>line-height</h4>
 
@@ -6079,10 +6077,10 @@ And text-align is often not useful on these tags.</p>
 as &lt;p&gt;, &lt;li&gt;, &lt;ul&gt;, &lt;ol&gt;, &lt;div&gt;,
 and &lt;blockquote&gt;.</p>
 
-<pre><code>
+<pre>
   p { text-align: left; }  
   blockquote { text-align: right; }
-</code></pre>
+</pre>
 
 <p>Bear in mind, also, that you should only use text-align when the
 alignment really needs to be changed, since it can cause additional work
@@ -6156,7 +6154,7 @@ The values for this are: underline, overline, line-through, and none;<br>
 <br>
 They can combined.</p>
 
-<pre><code>
+<pre>
 p { text-decoration: underline; }  
 a { text-decoration: none; } /* hyperlinks are underlined by default,
 but that can be removed */   
@@ -6165,7 +6163,7 @@ span { text-decoration: underline overline; } /* apply two with just a
 space between the values */  
 span { text-decoration: underline overline line-through; } /*
 everything */
-</code></pre>
+</pre>
 
 <table>
 <colgroup>
@@ -6213,10 +6211,10 @@ choices will only work for fonts that support a full range of
 font-weights. Many times the numeric weights will simply be mapped back
 to bold or normal.</p>
 
-<pre><code>
+<pre>
 p { font-weight: bold; }  
 blockquote { font-weight: 900; }
-</code></pre>
+</pre>
 
 <table>
 <colgroup>
@@ -6301,9 +6299,9 @@ accepts a <i>list</i> of possible font choices.<br>
 needed glyph) it will then proceed to the next font in the list, and so on.<br>
 <br>Here is a typical font-family declaration:</p>
 
-<pre><code>
+<pre>
 p { font-family: &quot;Helvetica&quot;, &quot;Verdana&quot;, &quot;Arial&quot;, sans-serif; }
-</code></pre>
+</pre>
 
 <p>The rule above says to first try the font named “Helvetica”.<br>
 <br>
@@ -6334,7 +6332,7 @@ space an item away from its immediate neighbors (in the HTML) or from
 the edges of its parent. Also, there is not only one margin property,
 but five:</p>
 
-<pre><code>
+<pre>
 p { margin: 10px; }  /* a 10 pixel margin will be applied around 
                         all four sides of the item */
 p {
@@ -6342,7 +6340,7 @@ p {
   margin-right: 10px;  
   margin-top: 10px;     
   margin-bottom: 10px; }
-</code></pre>
+</pre>
 
 <h4>Color</h4>
 
@@ -6351,11 +6349,11 @@ There are several possible formats for the value.</p>
 
 <h4>Named colors</h4>
 
-<pre><code>
+<pre>
 p { color: blue; }
 b { color: transparent; } /* transparent */
 i { color: lightgrey; }
-</code></pre>
+</pre>
 
 <p>There are scores of different names. The most common English names
 for colors are all supported, plus many others.</p>
@@ -6366,21 +6364,21 @@ discussed in a future section.</p>
 
 <h4>rgb/rgba</h4>
 
-<pre><code>
+<pre>
 p { color: rgb(10, 200, 255); }  
 p { color: rgb(0, 0, 0); } /* 0,0,0 is black */  
 p { color: rgb(255, 255, 255); } /* 255,255,255 is white */  
 b { color: rgba(10, 200, 255, 0.5); }  /* semi-transparent */
-</code></pre>
+</pre>
 
 <p>Generally, any color on a computer is exactly specified by mixing
 three components together: red, green, and blue. The amount of each
 component falls within a range between 0 and 255.   So
 the rgb() function can be used to specify a color.</p>
 
-<pre><code>
+<pre>
 rgb( red, green, blue);  
-</code></pre>
+</pre>
 
 <p>parenthesis required, commas between each component.</p>
 <p>Similarly, the rgba() function can be used for semi-transparent
@@ -6390,9 +6388,9 @@ example, 0.5 ).</p>
 
 <h4>Hex code</h4>
 
-<pre><code>
+<pre>
 p { color: #3A2BFF; }
-</code></pre>
+</pre>
 
 <p>Quicker than the lengthy rgb() function is simply providing an <a target="_blank" rel="noopener noreferrer" 
 href="https://en.wikipedia.org/wiki/Hexadecimal">hexadecimal (hex)
@@ -6424,14 +6422,14 @@ may not match to 20 physical on-screen pixels.</p>
 units are usually used for vertical dimensions.  One ‘em’ maps to the
 height of one capital letter in the<i> parent context</i>.</p>
 
-<pre><code>
+<pre>
 li { font-size: 0.9em; }  /* text in a list item is smaller 
                              than its parents */
 h1 { font-size: 1.2em; }  /* but an h1 will be bigger than 
                              the parent */
 i  { font-size: 0.5em; }  /* and any italicized text will be 
                              half as big. */
-</code></pre>
+</pre>
 
 <p>All the text sizes above are relative to the pages base sizes. You’ll 
 see radically different results on the rest of the page from either of 
@@ -6468,9 +6466,9 @@ the same size.</p>
 <p>Note: to ensure you are setting the root size, use <i><b>both</b></i>
  the html and body selectors.</p>
 
-<pre><code>
+<pre>
 html, body { font-size: 20px; }
-</code></pre>
+</pre>
 
 <h4>%</h4>
 
@@ -6479,13 +6477,13 @@ percentage unit (%) is relative to the parent dimension.  This is a
 useful unit for both horizontal and vertical dimensions, though often
 more useful in the horizontal.</p>
 
-<pre><code>
+<pre>
 p {
   margin-left:  10%;
   margin-right: 10%;  /* 10% of parent width will be spent on the two
                          side margins */
  }
-</code></pre>
+</pre>
 
 <p>Initially, the percentage unit may seem very handy (and it is), and
 many developers fall in love with it. But the love affair is usually
@@ -6506,13 +6504,13 @@ dimensions.</p>
  Most modern browsers support these units, but there are some exceptions
 on older mobile browsers.</p>
 
-<pre><code>
+<pre>
 p {
   margin-left:  10vw;
   margin-right: 10vw;  /* 10% of screen width will be spent on the two
                           side margins */
  }
-</code></pre>
+</pre>
 
 <h4>External resources</h4>
 
@@ -6613,9 +6611,9 @@ positioned to the left of any list item.  For un-ordered lists
 (&lt;ul&gt;), there are several popular values: disc, circle, square,
 and none.</p>
 
-<pre><code>
+<pre>
 li { list-style-type: disc; }
-</code></pre>
+</pre>
 
 <table>
 <colgroup>
@@ -6837,9 +6835,9 @@ may also want to govern how closely it is positioned to the list itself.<br>
 <br>Image pathnames were covered in Module 2, and we’ll be discussing them again in the
 background-image section.</p>
 
-<pre><code>
+<pre>
 li { list-style-image: url(&quot;my_triangle.png&quot;); }
-</code></pre>
+</pre>
 
 <p>Note that the browser will do little more than draw the image.<br>
 <br>There is no guarantee to scale the image or assist with spacing or alignment.<br>
@@ -6868,9 +6866,9 @@ interesting and useful ways. So let’s learn some more CSS selectors.</p>
 single tag (without punctuation or spacing) will be applied to any
 matching tag on the page.</p>
 
-<pre><code>
+<pre>
 li { list-style-type: circle; }
-</code></pre>
+</pre>
 
 <h4>id selector</h4>
 
@@ -6887,19 +6885,19 @@ id selector is simply a hash sign (#) followed directly by the id.</p>
 
 <h4>CSS:</h4>
 
-<pre><code>
+<pre>
 #p18 { color: blue; }
 #p19 { color: green; }
-</code></pre>
+</pre>
 
 <h4>HTML:</h4>
 
-<pre><code>
+<pre>
   &lt;p align=&quot;left&quot; id=&quot;p18&quot;&gt;He is Ulysses, a man of great craft, 
     son of Laertes. He was born in rugged Ithaca, and excels in all manner of stratagems and
 	subtle cunning.&lt;/p&gt;
   &lt;p align=&quot;left&quot; id=&quot;p19&quot;&gt;Madam, you have spoken truly.&lt;/p&gt;
-</code></pre>
+</pre>
 
 <h4>Result:</h4>
 
@@ -6929,24 +6927,24 @@ a tag by simply separating them with spaces.</p>
 
 <h4>HTML:</h4>
 
-<pre><code>
+<pre>
   &lt;ul&gt;
     &lt;li class=&quot;bird flying&quot;&gt;eagle&lt;/li&gt;
     &lt;li class=&quot;bird&quot;&gt;ostrich&lt;/li&gt;
     &lt;li class=&quot;insect&quot;&gt;ant&lt;/li&gt;
     &lt;li class=&quot;insect flying&quot;&gt;moth&lt;/li&gt;
   &lt;/ul&gt;
-</code></pre>
+</pre>
 
 <p>The class selector is simply a period (.) followed by the class name itself.</p>
 
 <h4>CSS:</h4>
 
-<pre><code>
+<pre>
 .bird   { color: blue; }  
 .insect { color: green; }  
 .flying { text-decoration: underline; }
-</code></pre>
+</pre>
 
 <h4>Result:</h4>
 
@@ -7021,7 +7019,7 @@ before one rule set.  Like so:</p>
 <p>If the “speech” items need to also be bold, that can simply be added
 by an additional rule:</p>
 
-<pre><code>
+<pre>
 blockquote,
 q,
   .speech {
@@ -7029,7 +7027,7 @@ q,
   font-style: italic;
   }
   .speech { font-weight: bold; }
-</code></pre>
+</pre>
 
 <h4>Specialized selectors</h4>
 
@@ -7040,9 +7038,9 @@ match <b>both</b> rules. If a tag selector is used, it must appear
 first.</p>
 <p>This is most useful with class and tag selectors, like so:</p>
 
-<pre><code>
+<pre>
   blockquote.speech { font-color: green; }
-</code></pre>
+</pre>
 
 <p>In the example above, the blockquote.speech selector is
 a blockquote tag selector combined with a .speech class selector.  So
@@ -7051,9 +7049,9 @@ element with the speech class. Instead, it will only apply to those
 blockquotes that also have the speech class.</p>
 <p>It isn’t unusual to see multiple classes joined this way as well:</p>
 
-<pre><code>
+<pre>
   .insect.flying { text-decoration: underline; font-weight:bold; }
-</code></pre>
+</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 56. combining classes (164) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7071,7 +7069,7 @@ necessarily direct children.</p>
 <details>
   <summary>HTML code extract!</summary>
   
-<pre><code>
+<pre>
 &lt;section id=&quot;intro&quot;&gt;Welcome to &lt;a href=&quot;#palaceland&quot;&gt;PalaceLand&lt;/a&gt;, world renown 
    &lt;q&gt;Land of endless palaces and &lt;a href=&quot;#delight&quot;&gt;delights&lt;/a&gt;&lt;/q&gt;. 
    As you make your way about, remember the words of our founder &lt;blockquote&gt;Shouldn&#39;t we
@@ -7083,7 +7081,7 @@ necessarily direct children.</p>
    But the spirit of the guidelines are best summed up by our founder &lt;blockquote>Don&#39;t just &lt;a href=&quot;#standthere&quot;>stand
    there&lt;/a> with your mouth hanging open waiting for a pair of nesting birds.&lt;/blockquote> (and no &lt;a href=&quot;#camera_policy&quot;>flash
    photography&lt;/a> please.)&lt;/section>
-</code></pre>
+</pre>
 
 </details>
 
@@ -7092,10 +7090,10 @@ red, but all the link in the guideline section to be green?  That is
 what descendant selectors are for. Here is an example for the problem we
 are facing:</p>
 
-<pre><code>
+<pre>
 #intro a { color: red; }
 #guideline a { color: #00FF00; }
-</code></pre>
+</pre>
 
 <p>We merely separate the tag, identifier, or class selectors by a space.</p>
 <p>In the first rule, we see that the selector will match to any &lt;a&gt; tag that is a descendant of #intro.  The &lt;a&gt; tag can appear directly within #intro, or be buried within its children.  Here is the result:</p>
@@ -7132,9 +7130,9 @@ are facing:</p>
 section to be bold?  Again, a descendant selector will work.  We add
 this:</p>
 
-<pre><code>
+<pre>
 #intro blockquote a { font-weight: bold; }
-</code></pre>
+</pre>
 
 <p>Any &lt;a&gt; tags anywhere inside a &lt;blockquote&gt; anywhere
 inside the #intro section will now be bold.</p>
@@ -7149,9 +7147,9 @@ rule, if applied to the HTML of the previous selector, would cause the
 links in the intro section to be larger, but not the links in any nested
 quotes or blockquotes. :</p>
 
-<pre><code>
+<pre>
   #intro > a { font-size: large; }
-</code></pre>
+</pre>
 
 <h4>Everything selector (*)</h4>
 
@@ -7159,12 +7157,12 @@ quotes or blockquotes. :</p>
 is only marginally useful. But combined with other selectors into a
 descendant selector, it can be pretty useful.</p>
 
-<pre><code>
+<pre>
 body > * { margin-left: 10px; } /* all the _direct_ children of the
   body receive the margin */
 p * { text-decoration: underline; } /* the text of the paragraph will
   be normal, but any children anywhere inside it will be underlined */
-</code></pre>
+</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-4-4">3.4.4 Cascading: inheritance and precedence</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7298,10 +7296,10 @@ rough summary, in order:</p>
 rule.  A rule that more tightly matches a particular element than a
 general rule will be applied.</p>
 
-<pre><code>
+<pre>
 span { color: blue; }
 ul li span { color: red; }
-</code></pre>
+</pre>
 
 <p>In the example above, both rules are attempting to set a span color
 for a span inside a list item. However, the second rule will “win” when
@@ -7323,10 +7321,10 @@ selector, which trumps everything).</p>
 <p>This guideline is for two CSS rulesets with the same selector.  Where
 there are conflicts, the rules from the later one apply.  </p>
 
-<pre><code>
+<pre>
 .hortense { color: red; text-decoration: underline; }
 .hortense { color: blue; }
-</code></pre>
+</pre>
 
 <p>In the example above, an element with the .hortense class will be
 underlined and its color will be blue, because that rule came later than
@@ -7380,9 +7378,9 @@ inherited, applied and what is their precedence.</p>
 
 <h4>!important</h4>
 
-<pre><code>
+<pre>
 p { color: orange !important; }
-</code></pre>
+</pre>
 
 <p>Because multiple CSS selectors can resolve to the same element, and
 because the rules that govern precedence are complex, you may from time
@@ -7424,7 +7422,7 @@ formed HTML file and format it. Try to ensure the following are done:</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre><code>
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 
@@ -7462,7 +7460,7 @@ formed HTML file and format it. Try to ensure the following are done:</p>
   &lt;/ol&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-</code></pre>
+</pre>
 
 </details>
 
@@ -7486,7 +7484,7 @@ possible.</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre><code>
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 
@@ -7524,7 +7522,7 @@ possible.</p>
     &lt;/ol&gt;
   &lt;/body&gt;
 &lt;/html&gt;
-</code></pre>
+</pre>
 
 </details>
 
@@ -7544,7 +7542,7 @@ possible.</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre><code>
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
@@ -7613,7 +7611,7 @@ possible.</p>
   &lt;/article&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-</code></pre>
+</pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7854,9 +7852,9 @@ pen), border-style (dashed, dotted,  solid, etc.) and border-color (the
 color of your pen).  In fact these are so commonly specified that there
 is a shorthand syntax to set all three in one line:</p>
 
-<pre><code>
+<pre>
 border: 5px solid blue;
-</code></pre>
+</pre>
 
 <p>There are many other shortcuts to learn, but this one is fairly
 common.  To draw a border you need to know the width, style and color.
@@ -8032,7 +8030,7 @@ could apply to the same element. Consider the following example:
 <details>
   <summary>CSS code extract!</summary>
 
-<pre><code>
+<pre>
 h1{
   color:blue;
   font-size: 2rem;
@@ -8045,7 +8043,7 @@ section h1{
   color:grey;
   font-size:1.2rem;
 }
-</code></pre>
+</pre>
 
 </details>
 
@@ -8054,7 +8052,7 @@ section h1{
 <details>
   <summary>HTML code extract!</summary>
 
-<pre><code>
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
@@ -8075,7 +8073,7 @@ section h1{
     &lt;article&gt;
   &lt;/body&gt;
 &lt;/html&gt;
-</code></pre>
+</pre>
 
 </details>
 
@@ -8103,7 +8101,7 @@ you get a different result:</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre><code>
+<pre>
 section h1{
   color:grey;
   font-size:1.2rem;
@@ -8116,14 +8114,14 @@ h1{
   color:blue;
   font-size: 2rem;
 }
-</code></pre>
+</pre>
 
 </details>
 
 <details>
   <summary>HTML code extract!</summary>
 
-<pre><code>
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
@@ -8144,7 +8142,7 @@ h1{
     &lt;/article&gt;
   &lt;/body&gt;
 &lt;/html&gt;
-</code></pre>
+</pre>
 
 </details>
 <p>What happened? To answer that question, we’ll turn to the browser’s
@@ -8237,7 +8235,7 @@ really what we want:
 <details>
   <summary>CSS code extract!</summary>
 
-<pre><code>
+<pre>
 h1{
   color:blue;
   font-size: 2rem;
@@ -8250,7 +8248,7 @@ section h1{
   color:grey;
   font-size:1.2rem;
 }
-</code></pre>
+</pre>
 
 </details>
 
@@ -8259,7 +8257,7 @@ section h1{
 <details>
   <summary>HTML code extract!</summary>
 
-<pre><code>
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
@@ -8280,7 +8278,7 @@ section h1{
     &lt;/article&gt;
   &lt;/body&gt;
 &lt;/html&gt;
-</code></pre>
+</pre>
 
 </details>
 
@@ -8303,7 +8301,7 @@ the page, and others as examples of different types of clouds.
 <details>
   <summary>HTML code extract!</summary>
   
-<pre><code>
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
@@ -8333,7 +8331,7 @@ the page, and others as examples of different types of clouds.
     &lt;/ol&gt;
   &lt;/body&gt;
 &lt;/html&gt;
-</code></pre>
+</pre>
 
 </details>
 
@@ -8342,11 +8340,11 @@ Clearly we have a solution for this.  We can just specify the width of
 &lt;img&gt; elements.  We can use the debugger to try different sizes,
 modifying it in the “Styles” panel and we decide on this:</p>
 
-<pre><code>
+<pre>
 img {
   width: 10rem;
 }
-</code></pre>
+</pre>
 
 <p>Giving a much more reasonable page:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8357,18 +8355,18 @@ img {
   alt="Cloud image in debugger."
   style="width:65%;" />
 
-<pre><code>
+<pre>
 img {
   width: 10rem;
 }
-</code></pre>
+</pre>
 
 <br><br>
 
 <details>
   <summary>HTML code extract!</summary>
   
-<pre><code>
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
@@ -8398,7 +8396,7 @@ img {
     &lt;/ol&gt;
   &lt;/body&gt;
 &lt;/html&gt;
-</code></pre>
+</pre>
 
 </details>
 
@@ -8407,9 +8405,9 @@ changing the other images.  Recall  that an &lt;img&gt; tag
 includes a width attribute, so we can special case this image
 accordingly in the HTML code:</p>
 
-<pre><code>
+<pre>
 &lt;img alt=&quot;Clouds&quot; width=500 src=&quot;images/clouds.jpg&quot;&gt;
-</code></pre>
+</pre>
 
 <p>We look at our page again, and it hasn’t changed!  Time to try the
 debugger again.</p>
@@ -8440,14 +8438,14 @@ special case the smaller pictures, and use a larger width by default.
 list elements, otherwise they should be bigger.  So we can change our
 code like this:</p>
 
-<pre><code>
+<pre>
 img {
    width: 25rem;
 }
 li img {
    width: 10rem;
 }
-</code></pre>
+</pre>
 
 <h4>That looks better:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8460,21 +8458,21 @@ li img {
 
 <h4>CSS</h4>
 
-<pre><code>
+<pre>
 img {
 width: 25rem;
 }
 li img {
 width: 10rem;
 }
-</code></pre>
+</pre>
 
 <h4>HTML:</h4>
 
 <details>
   <summary>HTML code extract!</summary>
   
-<pre><code>
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
@@ -8503,7 +8501,7 @@ src=&quot;https://www.weather.gov/images/jetstream/clouds/st.jpg&quot;&gt;&lt;/l
 &lt;/ol&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-</code></pre>
+</pre>
 
 </details>
 
@@ -8525,21 +8523,21 @@ like this:</p>
 
 <h4>CSS:</h4>
 
-<pre><code>
+<pre>
 section {
   font-size: 24px;
 }
 li {
   font-size: .5em;
 }
-</code></pre>
+</pre>
 
 <h5>HTML</h5>
 
 <details>
   <summary>HTML code extract!</summary>
   
-<pre><code>
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
@@ -8562,13 +8560,13 @@ li {
   &lt;li&gt;Outline&lt;/li&gt;
   &lt;/ol&gt;
 &lt;/li&gt;
-</code></pre>
+</pre>
 
 </details>
 
 <p>As with the cloud pictures, we want the listed items a bit smaller than the regular text, so we add this styling:</p>
 
-<pre><code>
+<pre>
 section {
   font-size: 24px;
 }
@@ -8578,7 +8576,7 @@ section h1 {
 li {
   font-size: 0.5em;
 }
-</code></pre>
+</pre>
 
 <p>The outermost level is fine, the next level is almost readable but
 the innermost level is ridiculously small.  Let’s check what’s wrong in
@@ -8654,7 +8652,7 @@ little more flair.</p>
 <details>
   <summary>CSS code extract!</summary>
   
-<pre><code>
+<pre>
 nav {
   background: aliceblue;
   width: 12rem;
@@ -8670,7 +8668,7 @@ h1 {
   background: blue;
   color: white;
 }
-</code></pre>
+</pre>
 
 </details>
 
@@ -8679,7 +8677,7 @@ h1 {
 <details>
   <summary>HTML code extract!</summary>
   
-<pre class="html5"><code>
+<pre class="html5">
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
@@ -8774,7 +8772,7 @@ Pizza, the king of comfort foods. Try this simple, taste sensation.
 &lt;/article&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-</code></pre>
+</pre>
 
 </details>
 
@@ -8797,7 +8795,7 @@ the CodePen below:</p>
 <details>
   <summary>HTML code extact!</summary>
   
-<pre><code>
+<pre>
 nav {
   background: aliceblue;
   width: 12rem;
@@ -8813,7 +8811,7 @@ h1 {
   background: blue;
   color: white;
 }
-</code></pre>
+</pre>
 
 </details>
 
@@ -8822,7 +8820,7 @@ h1 {
 <details>
   <summary>HTML code extract!</summary>
 
-<pre><code>
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
@@ -8912,7 +8910,7 @@ h1 {
   &lt;/article&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-</code></pre>
+</pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9050,9 +9048,9 @@ them only for tabular data.</p>
 
 <p>Other attributes have been deprecated as the same can be achieved through CSS.</p>
 
-<pre><code>
+<pre>
 &lt;table border=1&gt;&lt;/table&gt;
-</code></pre>
+</pre>
 
 <p>The code above will not provide any major visual change to your
 website yet because we don’t have any cells defined.</p>
@@ -9068,14 +9066,14 @@ context to the table if its content is ambiguous. As a summary of the
 table content, a caption can also be helpful for people who have
 difficulty understanding the content or use assistive technology.</p>
 
-<pre><code>
+<pre>
 &lt;table border=1&gt;
   &lt;caption&gt;
     &lt;p&gt;Table 1.0&lt;/p&gt;
     &lt;p&gt;Student&#39;s final exam results 2016&lt;/p&gt;
   &lt;/caption&gt;
 &lt;/table&gt;
-</code></pre>
+</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 86. table example 1.0 (214) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9087,7 +9085,7 @@ difficulty understanding the content or use assistive technology.</p>
 <details>
   <summary>HTML table code extract!</summary>
   
-<pre><code>
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
@@ -9103,7 +9101,7 @@ difficulty understanding the content or use assistive technology.</p>
     &lt;/table&gt;
   &lt;/body&gt;
 &lt;/html&gt;
-</code></pre>
+</pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9111,28 +9109,28 @@ difficulty understanding the content or use assistive technology.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Let’s now create a basic table with a few cells.</p>
 
-<pre><code>
+<pre>
 &lt;tr&gt;
-</code></pre>
+</pre>
 
 <p>Creates a table row.</p>
 
-<pre><code>
+<pre>
 &lt;th&gt;
-</code></pre>
+</pre>
 
 <p>There are two types of cells in a table - header and
 standard. &lt;th&gt; creates table header cells. The content of table
 header cells is bold and centered by default.</p>
 
-<pre><code>
+<pre>
 &lt;table border=1&gt;
   &lt;tr&gt;
     &lt;th&gt;Name&lt;/th&gt;
     &lt;th&gt;Age&lt;/th&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-</code></pre>
+</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 87. table cells header & standard (215) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9144,7 +9142,7 @@ header cells is bold and centered by default.</p>
 <details>
   <summary>HTML code extract!</summary>
   
-<pre><code>
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
@@ -9160,7 +9158,7 @@ header cells is bold and centered by default.</p>
   &lt;/table&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-</code></pre>
+</pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9181,7 +9179,7 @@ regular and left-aligned by default.</p>
 <details>
   <summary>HTML table code extract!</summary>
 
-<pre><code>
+<pre>
 &lt;table border=1&gt;
   &lt;tr&gt;
     &lt;th scope=&quot;col&quot;&gt;Name&lt;/th&gt;
@@ -9196,7 +9194,7 @@ regular and left-aligned by default.</p>
     &lt;td&gt;35&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-</code></pre>
+</pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9240,7 +9238,7 @@ column to be in green and the ‘age’ column to be orange. You need to use the
 <details>
   <summary>HTML code extract!</summary>
   
-<pre><code>
+<pre>
 &lt;body&gt;
   &lt;table border=1&gt;
     &lt;colgroup&gt;
@@ -9261,7 +9259,7 @@ column to be in green and the ‘age’ column to be orange. You need to use the
     &lt;/tr&gt;
   &lt;/table&gt;
 &lt;/body&gt;
-</code></pre>
+</pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9295,14 +9293,14 @@ used to style header, body and footer rows individually using CSS. </p>
 <p>&lt;colgroup&gt; to group columns, &lt;thead&gt; is used to group the header content in a HTML table.</p>
 <p>As we learned in the previous unit, header cells are specified using &lt;th&gt; as a child of &lt;tr&gt;. Rows specified within &lt;thead&gt; indicate that they are header rows. See the code below:</p>
 
-<pre><code>
+<pre>
   &lt;thead style=&quot;color:white&quot;&gt;
     &lt;tr&gt;
       &lt;th scope=&quot;col&quot;&gt;Name&lt;/th&gt;
       &lt;th scope=&quot;col&quot;&gt;Age&lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
-</code></pre>
+</pre>
 
 <h4>&lt;tbody&gt;</h4>
 
@@ -9313,7 +9311,7 @@ of &lt;tr&gt;:</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre><code>
+<pre>
   &lt;tbody&gt;
     &lt;tr&gt;
       &lt;td&gt;Alexa&lt;/td&gt;
@@ -9328,7 +9326,7 @@ of &lt;tr&gt;:</p>
      &lt;td&gt;23&lt;/td&gt;
    &lt;/tr&gt;
  &lt;/tbody&gt;
-</code></pre>
+</pre>
 
 </details>
 
@@ -9339,14 +9337,14 @@ of &lt;tr&gt;:</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre><code>
+<pre>
   &lt;tfoot&gt;
     &lt;tr&gt;
       &lt;td&gt;3 Unique Name&lt;/td&gt;
       &lt;td&gt;2 Unique Ages&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tfoot&gt;
-</code></pre>
+</pre>
 
 </details>
 
@@ -9355,7 +9353,7 @@ of &lt;tr&gt;:</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre><code>  
+<pre>  
   &lt;table border=1&gt;
     &lt;colgroup&gt;
       &lt;col span=&quot;1&quot; style=&quot;background-color:green&quot;&gt;
@@ -9388,7 +9386,7 @@ of &lt;tr&gt;:</p>
      &lt;/tr&gt;
    &lt;/tfoot&gt;
  &lt;/table&gt;
-</code></pre>
+</pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9418,9 +9416,9 @@ specified in CSS. It is a shorthand property meaning you can set several
 CSS properties simultaneously. </p>
 <p>The CSS border property sets border-width, border-style and border-color in order:</p>
 
-<pre><code>
+<pre>
 &lt;b&gt;table { border: 1px solid black; }&lt;/b&gt;
-</code></pre>
+</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 92. border property values (221) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9431,9 +9429,9 @@ CSS properties simultaneously. </p>
 
 <p>To give a border to &lt;table&gt;, &lt;th&gt; and &lt;td&gt;:</p>
 
-<pre><code>
+<pre>
 table, th, td { border: 1px solid black; }
-</code></pre>
+</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 93. three border examples (222) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9444,18 +9442,18 @@ table, th, td { border: 1px solid black; }
 
 <h4>CSS</h4>
 
-<pre><code>
+<pre>
 table.eg1, th.eg1, td.eg1 { border: 1px solid black; }
 table.eg2, th.eg2, td.eg2 { border: thin dashed black; }
 table.eg3, th.eg3, td.eg3 { border: initial; }
-</code></pre>
+</pre>
 
 <h4>HTML</h4>
 
 <details>
   <summary>HTML code extract!</summary>
   
-<pre><code>
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
@@ -9485,7 +9483,7 @@ class=&quot;eg3&quot;&gt;21&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-</code></pre>
+</pre>
 
 </details>
 
@@ -9496,9 +9494,9 @@ This creates two borders creating a double line. In order to collapse
 them all into a single border, we use the border-collapse CSS
 property:</p>
 
-<pre><code>
+<pre>
 table { border-collapse: collapse; }
-</code></pre>
+</pre>
 
 <p>Possible values of this property are: </p>
 
@@ -9515,7 +9513,7 @@ table { border-collapse: collapse; }
   alt="Table border collapse."
   style="width:40%;" />
 
-<pre><code>
+<pre>
 table.no-collapse, th.no-collapse, td.no-collapse
 {
 border: 1px solid black;
@@ -9524,14 +9522,14 @@ table.collapse
 {
 border-collapse: collapse;
 }
-</code></pre>
+</pre>
 
 <h4>HTML</h4>
 
 <details>
   <summary>HTML code extract!</summary>
   
-<pre><code>
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
@@ -9550,7 +9548,7 @@ border-collapse: collapse;
 &lt;/table&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-</code></pre>
+</pre>
 
 </details>
 
@@ -9586,7 +9584,7 @@ widths/heights specified, the larger value is set.</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre><code>table, th, td
+<pre>table, th, td
 {
    border: 1px solid black;
    border-collapse: collapse;
@@ -9603,7 +9601,7 @@ table.eg3
 {
   width: 100%;
 }
-</code></pre>
+</pre>
 
 </details>
 
@@ -9612,7 +9610,7 @@ table.eg3
 <details>
   <summary>HTML code extract!</summary>
   
-<pre><code>
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
@@ -9650,7 +9648,7 @@ parent element:&lt;/p&gt;
 &lt;/table&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-</code></pre>
+</pre>
 
 </details>
 
@@ -9666,9 +9664,9 @@ recap). </p>
   <li><p>&lt;td&gt; - left</p></li>
 </ul>
 
-<pre><code>
+<pre>
 td { text-align: right;}
-</code></pre>
+</pre>
 
 <h4>vertical-align</h4>
 
@@ -9682,9 +9680,9 @@ of &lt;th&gt; and &lt;td&gt; cells top, bottom or middle.</p>
   <li><p>&lt;td&gt; - middle</p></li>
 </ul>
 
-<pre><code>
+<pre>
 th { vertical-align: top; }
-</code></pre>
+</pre>
 
 <h4>padding</h4>
 
@@ -9693,9 +9691,9 @@ on &lt;th&gt; and &lt;td&gt; to provide some space between border and
 content in cell. It takes its value in units of length like px, cm, % -
 relative to parent container’s width, etc. </p>
 
-<pre><code>
+<pre>
 th, td { padding: 15px; }
-</code></pre>
+</pre>
 
 <p>This will add 15px space around the content on all sides.</p>
 <p>You can also apply different padding styles for four individual sides
@@ -9711,9 +9709,9 @@ by using:</p>
 <p>Alternatively, padding can also be provided as a shorthand property
 where you can specify all four sides in one go:</p>
 
-<pre><code>
+<pre>
 th, td { padding: 20px 30px 40px 50px; }
-</code></pre>
+</pre>
 
 <p>It is specified in the order: top, right, bottom and left padding.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9726,18 +9724,18 @@ th, td { padding: 20px 30px 40px 50px; }
   
 <h4>CSS</h4>
 
-<pre><code>
+<pre>
 table, th, td { border: 1px solid black; }
 table { border-collapse: collapse;}
 th, td { padding: 20px; }
-</code></pre>
+</pre>
 
 <h4>HTML</h4>
 
 <details>
   <summary>HTML code extract!</summary>
   
-<pre><code>
+<pre>
 !DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
@@ -9751,7 +9749,7 @@ th, td { padding: 20px; }
   &lt;/table&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-</code></pre>
+</pre>
 
 </details>
 
@@ -9766,10 +9764,10 @@ relative to parent container’s width, etc. </p>
 value is provided, it is used for both horizontal and vertical
 spacing:</p>
 
-<pre><code>
+<pre>
 table { border-spacing: 25px 50px; }
 table, td, th { border-spacing: 25px; }
-</code></pre>
+</pre>
 
 <p>Some things to keep in mind:</p>
 
@@ -9787,20 +9785,20 @@ table, td, th { border-spacing: 25px; }
 
 <h4>CSS</h4>
 
-<pre><code>
+<pre>
 table, th, td { border: 1px solid black; }
 table { border-collapse: separate;}
   table.eg1, th.eg1, td.eg1 { border-spacing: 50px; }
   table.eg2, th.eg2, td.eg2 { border-spacing: 25px 50px; }
   table.eg3, th.eg3, td.eg3 { border-spacing: 50px 25px; }
-</code></pre>
+</pre>
 
 <h4>HTML</h4>
 
 <details>
   <summary>HTML code extract!</summary>
 
-<pre><code>
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
@@ -9830,7 +9828,7 @@ table { border-collapse: separate;}
   &lt;/table&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-</code></pre>
+</pre>
 
 </details>
 
@@ -9839,9 +9837,9 @@ table { border-collapse: separate;}
 <p>The first property border will set a border to all four sides. You
 can also set borders to individual sides - top, right, bottom, left:</p>
 
-<pre><code>
+<pre>
 th, td { border-right: 1px solid black; }
-</code></pre>
+</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 98. border property set all or individual (229) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9852,19 +9850,19 @@ th, td { border-right: 1px solid black; }
 
 <h4>CSS</h4>
 
-<pre><code>
+<pre>
 table { border-collapse: collapse;}
 table, th, td { padding: 15px;}
   table.eg1, th.eg1, td.eg1 { border: 1px solid black; }
   table.eg2, th.eg2, td.eg2 { border-bottom: 1px solid black; }
-</code></pre>
+</pre>
 
 <h4>HTML</h4>
 
 <details>
   <summary>HTML code extract!</summary>
 
-<pre><code>
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
@@ -9897,7 +9895,7 @@ table, th, td { padding: 15px;}
   &lt;/table&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-</code></pre>
+</pre>
 
 </details>
 
@@ -9910,17 +9908,17 @@ property to a set of even or odd table rows to created a striped effect.
 You can set odd or even rows a particular color and leave the other rows
 white (default color).</p>
 
-<pre><code>
+<pre>
 tr:nth-child(even) { background-color: grey; }
 tr:nth-child(odd) { background-color: #ccff99; }
-</code></pre>
+</pre>
 
 <p>The ‘<i>n</i>th-child’ selector matches every element that is
 the <i>n</i>th child of the table or any parent element. Therefore,</p>
 
-<pre><code>
+<pre>
 tr:nth-child(3n) { background-color: grey; } 
-</code></pre>
+</pre>
 
 <p>will make every third list item grey.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9933,7 +9931,7 @@ tr:nth-child(3n) { background-color: grey; } 
 
 <h4>CSS</h4>
 
-<pre><code>
+<pre>
 table { border-collapse: collapse; }
 table, th, td { padding: 15px; border-bottom: 1px solid black; }
 
@@ -9942,14 +9940,14 @@ table.eg1 tr:nth-child(even) { background-color: #ccff99; }
 table.eg2 tr:nth-child(odd) { background-color: #ccff99; }
 
 table.eg3 tr:nth-child(3n) { background-color: #ccff99; }
-</code></pre>
+</pre>
 
 <h4>HTML</h4>
 
 <details>
   <summary>HTML code extract!</summary>
 
-<pre><code>
+<pre>
 1.  &lt;!DOCTYPE html&gt;
 2.  &lt;html lang=&quot;en&quot;&gt;
 3.  
@@ -10013,7 +10011,7 @@ table.eg3 tr:nth-child(3n) { background-color: #ccff99; }
 31.   &lt;/table&gt;
 32. &lt;/body&gt;
 33. &lt;/html&gt;
-</code></pre>
+</pre>
 
 </details>
 
@@ -10023,9 +10021,9 @@ table.eg3 tr:nth-child(3n) { background-color: #ccff99; }
 in your table to highlight them in the color you specify. This is useful
 to help users differentiate data between rows.</p>
 
-<pre><code>
+<pre>
 tr:hover {background-color: #ccff99; }
-</code></pre>
+</pre>
 
 <h4>Hover over these tables:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -10038,21 +10036,21 @@ tr:hover {background-color: #ccff99; }
 
 <h4>CSS</h4>
 
-<pre><code>
+<pre>
 table { border-collapse: collapse; }
 table, th, td { padding: 15px; border-bottom: 1px solid black; }
   
 table.eg1 tr:hover { background-color: #ccff99; }
   
 table.eg2 tr:hover { background-color: grey; }
-</code></pre>
+</pre>
 
 <h4>HTML</h4>
 
 <details>
   <summary>HTML code extract!</summary>
 
-<pre><code>
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
    &lt;head&gt;
@@ -10083,7 +10081,7 @@ table.eg2 tr:hover { background-color: grey; }
       &lt;/table&gt;
    &lt;/body&gt;
 &lt;/html&gt;
-</code></pre>
+</pre>
 
 </details>
 
@@ -10115,7 +10113,7 @@ use overflow-y.</p>
 
 <h4>CSS:</h4>
 
-<pre><code>
+<pre>
 table { border-collapse: collapse; }
 div { height: 200px; width: 200px; border: 1px solid blue; }
 table, th, td { padding: 30px; border-bottom: 1px solid black; }
@@ -10124,14 +10122,14 @@ div.overflow-hidden { overflow: hidden; }
 div.overflow-scroll { overflow: scroll; }
 div.overflow-auto { overflow: auto; }
 div.overflow-x-auto { overflow-x: auto; overflow-y:hidden; }
-</code></pre>
+</pre>
 
 <h4>HTML:</h4>
 
 <details>
   <summary>HTML code extract!</summary>
 
-<pre><code>
+<pre>
 1.  &lt;!DOCTYPE html&gt;
 2.  &lt;html lang=&quot;en&quot;&gt;
 3.  
@@ -10239,7 +10237,7 @@ div.overflow-x-auto { overflow-x: auto; overflow-y:hidden; }
 104. &lt;/div&gt;
 105. &lt;/body&gt;
 106. &lt;/html&gt;
-</code></pre>
+</pre>
 
 </details>
 
@@ -10259,7 +10257,7 @@ div.overflow-x-auto { overflow-x: auto; overflow-y:hidden; }
 <details>
   <summary>CSS code extract!</summary>
 
-<pre><code>
+<pre>
 1.  table, th, td {
 2.    padding: 30px;
 3.    border: 1px solid #DCDCDC;
@@ -10294,7 +10292,7 @@ div.overflow-x-auto { overflow-x: auto; overflow-y:hidden; }
 32.   font-weight: bold;
 33.   font-size: 20px;
 34. }
-</code></pre>
+</pre>
 
 </details>
 
@@ -10303,7 +10301,7 @@ div.overflow-x-auto { overflow-x: auto; overflow-y:hidden; }
 <details>
   <summary>HTML code extract!</summary>
 
-<pre><code>
+<pre>
 1.  &lt;!DOCTYPE html&gt;
 2.  &lt;html lang=&quot;en&quot;&gt;
 3.  
@@ -10363,7 +10361,7 @@ div.overflow-x-auto { overflow-x: auto; overflow-y:hidden; }
 55.   &lt;/table&gt;
 56. &lt;/body&gt;
 57. &lt;/html&gt;
-</code></pre>
+</pre>
 
 </details>
 
@@ -10678,11 +10676,11 @@ previous methods. </p>
 
 <p>You can use the &lt;audio&gt; tag to embed audio in your page.</p>
 
-<pre><code>
+<pre>
 &lt;audio src=&quot;sounds/flute.mp3&quot;&gt;
   Your browser does not support the audio file.
 &lt;/audio&gt;
-</code></pre>
+</pre>
 
 <p>Any text within the &lt;audio&gt; tags will be displayed if the
 browser does not support the audio element. You should add such a
@@ -10744,7 +10742,7 @@ self-closing, therefore, it does not require a closing tag.</p>
 
 <h4>Example:</h4>
 
-<pre><code>
+<pre>
 &lt;audio controls&gt;
   &lt;source src=&quot;https://courses.edx.org/asset-v1:W3Cx+HTML5.0x+3T2016+type@asset+block@splash.wav&quot; 
     type=&quot;audio/wav&quot;&gt;
@@ -10752,7 +10750,7 @@ self-closing, therefore, it does not require a closing tag.</p>
     type=&quot;audio/mpeg&quot;&gt;
   Your browser does not support the audio element.
 &lt;/audio&gt;
-</code></pre>
+</pre>
 
 <h4>Output for code above (try playing):</h4>
 
@@ -10779,11 +10777,11 @@ attributes:</p>
 specify the location of your video file using the src attribute
 or source element (for multiple source files). </p>
 
-<pre><code>
+<pre>
 &lt;video src=&quot;multimedia/running.mp4&quot;&gt;
   Your browser does not support the HTML5 video element.
 &lt;/video&gt;
-</code></pre>
+</pre>
 
 <p>Any text within the &lt;video&gt; tags will be displayed if the
 browser does not support the video element. You should add such a
@@ -10855,7 +10853,7 @@ specify multiple source files for
 the video element. The &lt;source&gt; tag is self-closing and so does
 not require a closing tag.</p>
 
-<pre><code>
+<pre>
 &lt;video controls height=&quot;320&quot; width=&quot;240&quot;&gt;
   &lt;source src=&quot;http://techslides.com/demos/sample-videos/small.mp4&quot; 
     type=&quot;video/mp4&quot;&gt;
@@ -10866,7 +10864,7 @@ not require a closing tag.</p>
 
     Your browser does not support the HTML5 video element.
 &lt;/video&gt;
-</code></pre>
+</pre>
 
 <p>The advantage of providing multiple source files in different formats
 is that if the browser doesn’t support the first format, it will try the
@@ -10902,14 +10900,14 @@ display to the user when the video is playing. </p>
 closing tag. You specify the &lt;track&gt; element as a child element of
 your &lt;video&gt; tag like this:</p>
 
-<pre><code>
+<pre>
 &lt;video width=&quot;320&quot; height=&quot;240&quot; controls&gt;
   &lt;source src=&quot;module.mp4&quot; type=&quot;video/mp4&quot;&gt;
   &lt;track src=&quot;module-captions.vtt&quot; kind=&quot;captions&quot; srclang=&quot;en&quot; 
     label=&quot;English&quot; default&gt;
   Your browser does not support the HTML5 video element.
 &lt;/video&gt;
-</code></pre>
+</pre>
 
 <h4>The following table lists the &lt;track&gt; element’s attributes:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -10940,12 +10938,12 @@ display a PDF file (some browsers will display the file inline while
 some older browsers will try to download it instead). </p>
 <p>An &lt;iframe&gt; tag can be as simple as this:</p>
 
-<pre><code>
+<pre>
 &lt;p&gt;This is a parent page that will host the iframe.&lt;/p&gt;
 &lt;iframe src=&quot;https://www.w3.org/&quot;&gt;
   &lt;p&gt;Your browser does not support iframes.&lt;/p&gt;
 &lt;/iframe&gt;
-</code></pre>
+</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 111. iframe (263) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -10957,7 +10955,7 @@ some older browsers will try to download it instead). </p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre><code>
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
@@ -10970,7 +10968,7 @@ some older browsers will try to download it instead). </p>
   &lt;/iframe&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-</code></pre>
+</pre>
 
 </details>
 
@@ -10986,14 +10984,14 @@ elements, with borders, margins, sizes specified with CSS rules:</p>
 
 <p>Here, we’ve embedded a YouTube video with an iframe like this:</p>
 
-<pre><code>
+<pre>
 &lt;iframe src=&quot;https://www.youtube.com/embed/YE7VzlLtp-4&quot;&gt;&lt;/iframe&gt;
-</code></pre>
+</pre>
 
 <p>And we’ve added styling like this to get the border and
 drop-shadow:</p>
 
-<pre><code>
+<pre>
 iframe {
   border: 10px solid red;
   padding: .5rem;
@@ -11002,7 +11000,7 @@ iframe {
   width: 355;
   height: 200;
 }
-</code></pre>
+</pre>
 
 <p>There is one significant problem with iframes. Suppose you create
 your Web page, containing only an iframe with src=“http://foo.com”, with
@@ -11067,9 +11065,9 @@ example</a> of an image-map.</p>
 
 <h4>The ‘ismap’ attribute</h4>
 
-<pre><code>
+<pre>
 &lt;img src=&quot;images/logo.png&quot; alt=&quot;ismap tutorial&quot; ismap&gt;
-</code></pre>
+</pre>
 
 <p>ismap is a <b>boolean attribute</b> i.e. its value is either true or
 false. Thus, just the presence of the attribute indicates that it is a
@@ -11083,11 +11081,11 @@ country’s Wikipedia page? We need to create a map file with these
 details and then add the location of this map file using the anchor
 element. Here is a code sample:</p>
 
-<pre><code>
+<pre>
 &lt;a href=&quot;/ismap-image/ismap.cgi&quot; target=&quot;_self&quot;&gt;
   &lt;img src=&quot;images/logo.png&quot; alt=&quot;ismap tutorial&quot; ismap&gt;
 &lt;/a&gt;
-</code></pre>
+</pre>
 
 <p>Here, the href attribute points to the location of the map file.
 The target attribute indicates where the page it navigates to should
@@ -11136,14 +11134,14 @@ image-maps. </p>
 
 <p>Client-side maps are becoming increasingly popular. usemap is NOT of type boolean. It takes in the name of the map with a ‘#’ character preceding it.</p>
 
-<pre><code>
+<pre>
 &lt;img src=&quot;navigator.jpg&quot; alt=&quot;Pages in this Web
   site&quot; usemap=&quot;#navigatormap&quot;&gt;
-</code></pre>
+</pre>
 
 <p>Like ismap, usemap cannot be used by itself. In ismap, we used the anchor tag to specify the map file. In usemap, we use the <b>&lt;area&gt;</b> element as a child of <b>&lt;map&gt;</b> element to specify the coordinates and the page it should navigate to. The usemap value should match the map element’s name or id attribute.</p>
 
-<pre><code>
+<pre>
 &lt;img src=&quot;images/crossroads.jpg&quot; alt=&quot;Crossroads&quot; usemap=&quot;#navigatormap&quot;&gt;
 &lt;map name=&quot;navigatormap&quot;&gt;
   &lt;area shape=&quot;rect&quot; coords=&quot;0,0,195,439&quot; href=&quot;
@@ -11151,7 +11149,7 @@ image-maps. </p>
   &lt;area shape=&quot;rect&quot; coords=&quot;196,0,390,439&quot; 
     href=&quot;https://en.wikipedia.org/wiki/Nomeny&quot; alt=&quot;Nomeny&quot;&gt;
 &lt;/map&gt;
-</code></pre>
+</pre>
 
 <p><b>&lt;map&gt;</b> - defines a client-side image map and is used to
 create a relationship between the image and the map by matching the map
@@ -11173,13 +11171,13 @@ the alt attribute (short description).</p>
 href="https://www.w3.org/wiki/HTML/Elements/area" target="_blank" rel="noopener noreferrer">area tag here</a>.</p>
 <p>Here is a working example of usemap.</p>
 
-<pre><code>
+<pre>
 &lt;img src=&quot;images/crossroads.jpg&quot; alt=&quot;Crossroads&quot; usemap=&quot;#navigatormap&quot;&gt;
 &lt;map name=&quot;navigatormap&quot;&gt;
   &lt;area shape=&quot;rect&quot; coords=&quot;0,0,195,439&quot; href=&quot;https://en.wikipedia.org/wiki/Millery&quot; alt=&quot;Millery&quot;&gt;
   &lt;area shape=&quot;rect&quot; coords=&quot;196,0,390,439&quot; href=&quot;https://en.wikipedia.org/wiki/Nomeny&quot; alt=&quot;Nomeny&quot;&gt;
 &lt;/map&gt;
-</code></pre>
+</pre>
 
 <h4>Result:</h4>
 
@@ -11205,11 +11203,11 @@ work.</p>
   <li><p>Try the following code in your HTML editor:</p></li>
 </ol>
 
-<pre><code>
+<pre>
 &lt;iframe src=&quot;http://facebook.com&quot;&gt;
   &lt;p&gt;Your browser does not support iframes.&lt;/p&gt;
 &lt;/iframe&gt;
-</code></pre>
+</pre>
 
 <p>What happens? Why does it behave the way it does?</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -11263,12 +11261,12 @@ quote “, then the path, a closing quote ” and a closing parentheses ).
  The path can be a URL, or a path relative from the file the CSS is
 in.</p>
 
-<pre><code>
+<pre>
 div { background-image: url(&quot;https://www.w3.org/2008/site/images/logo-w3c-mobile-lg&quot;);
 }  
 div { background-image: url(&quot;images/kitten.png&quot;); 
 }
-</code></pre>
+</pre>
 
 <p>As these are decorative images, there are quite a few different usage
 scenarios that can leverage background images. For instance, an image
@@ -11352,13 +11350,13 @@ the image.  When used in this fashion, it takes <i>two</i> values
 separated by a space. The first governs the width, the second the
 height.  Examples:</p>
 
-<pre><code>
+<pre>
 .kittens  { background-size: 100px 120px; } /* might distort */  
 .puppies  { background-size: 100px auto; }  /* auto preserves aspect
                                                ratio, no distorting */  
 .munchies { background-size: 50% auto; }    /* % is of percentage of
                                                parent (not of image). */
-</code></pre>
+</pre>
 
 <p>The px and % units were covered in the units section. Note that other
 units (rem, vh, etc.) have no guarantee of support.</p>
@@ -11408,9 +11406,9 @@ abbreviations, border-radius and text-shadow.</p>
 
 <h4>border-style</h4>
 
-<pre><code>
+<pre>
 p { border-style: solid; }
-</code></pre>
+</pre>
 
 <p>This property sets the style of a border.  Possible values
 include none, hidden, solid, dotted, dashed, double, groove, ridge, inset, and outset.
@@ -11449,21 +11447,21 @@ all.</p>
 be broken out if needed. For example, here we set four different styles
 for a border:</p>
 
-<pre><code>
+<pre>
 p {  
    border-left-style: solid;  
    border-right-style: dotted;  
    border-bottom-style: dashed;  
    border-left-style: hidden;  
  }
-</code></pre>
+</pre>
 
 <p>This same thing can be done with border-width and border-color ( border-left-color, border-top-width, etc).</p>
 <p>Or, going in the other direction, the CSS property border can help abbreviate even further.  Use the formula  border: &lt;width&gt; &lt;style&gt; &lt;color&gt;;   separating the values with spaces: </p>
 
-<pre><code>
+<pre>
 p { border: 1px solid gray; }
-</code></pre>
+</pre>
 
 <h4>border-radius</h4>
 
@@ -11495,9 +11493,9 @@ and no border at all:</p>
 element with the box-shadow CSS property.  The box-shadow property is
 typically controlled with four values separated by spaces:</p>
 
-<pre><code>
+<pre>
 box-shadow: &lt;x-offset&gt; &lt;y-offset&gt; &lt;blur&gt; &lt;color&gt;;
-</code></pre>
+</pre>
 
 <p>The offset values are dimension units (px, em, etc) can be positive
 or negative. Positive x values place the shadow to the right, and
@@ -11523,9 +11521,9 @@ style="width:6.5in;height:1.93264in" />
 <p>This CSS property takes the same values as box-shadow, however, the
 shadow is applied directly to the text shapes:</p>
 
-<pre><code>
+<pre>
 text-shadow:  &lt;x-offset&gt; &lt;y-offset&gt; &lt;blur&gt; &lt;color&gt;;
-</code></pre>
+</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 127. blurred majestic 12 (276) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -11561,7 +11559,7 @@ style="width:6.5in;height:0.91458in" />
 <p>The best way to control an element’s size for the purpose of controlling how a border or background extends relative to the item itself is with the padding properties.</p>
 <p>Padding is a way of making an element a little bigger than it would normally be.  Similar to margin, there are four padding properties.  The values are dimension units that can be 0 or a positive value; negative values are not allowed.</p>
 
-<pre><code>
+<pre>
 padding-top: 0;
 
 padding-right: 1em;
@@ -11569,17 +11567,17 @@ padding-right: 1em;
 padding-bottom: 10px;
 
 padding-left: 12px;
-</code></pre>
+</pre>
 
 <p>Similar to margin, this can be abbreviated with the padding property.</p>
 
-<pre><code>
+<pre>
 padding: &lt;top&gt; &lt;right&gt; &lt;bottom&gt; &lt;left&gt;;
 
 padding: &lt;top and bottom&gt; &lt;right and left&gt;;
 
 padding: &lt;all&gt;;
-</code></pre>
+</pre>
 
 <p>When decorative CSS is not used by many CSS newbies, use padding like
 margin, to space things out. Note: That is not correct. Margins make
@@ -11633,9 +11631,9 @@ Or to various children of an element based on their index, or to other
 interactions with the browser. Best of all, pseudo classes are easy to
 use.</p>
 
-<pre><code>
+<pre>
 a:visited { color: purple; }
-</code></pre>
+</pre>
 
 <p>Above us we see a tag selector (a) followed by a pseudo class, which
 consists of a colon and a word (e.g. :visited ). This particular CSS
@@ -11644,21 +11642,19 @@ There can be no spaces on either side of the colon. Pseudo classes can
 be amended onto <i>any</i> CSS selector, not just tag selectors.</p>
 <p>A full list of pseudo classes can be found <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes" target="_blank" rel="noopener noreferrer">here</a>. Let’s look at some of the most common ones.</p>
 
-<pre><code>
-:visited
+<pre>:visited
   a:visited { color: purple; }
-</code></pre>
+</pre>
 
 <p>The :visited pseudo class is usually put on a selector that resolves
 to an &lt;a&gt; tag. It enables you to define a style for the visited state of
 the link. For example, if the user has already been to that Web site,
 the :visited style will be applied.</p>
 
-<pre><code>
-:hover / :active
+<pre>:hover / :active
   li:hover  { background-color: red; }  
   li:active { background-color: green; }
-</code></pre>
+</pre>
 
 <p>The :hover pseudo class lets you change the style for an element when
 the mouse is hovering above it.  The :active pseudo class is applied
@@ -11679,10 +11675,9 @@ the mouse is over one of the list items.</p>
 
 <h4>:nth-child</h4>
   
-<pre><code>
-tr:nth-child(odd)  { background-color: lightgray; }  
+<pre>tr:nth-child(odd)  { background-color: lightgray; }  
 tr:nth-child(even) { background-color: white; }
-</code></pre>
+</pre>
 
 <p>The :nth-child pseudo class is very handy.  Unlike the pseudo classes we’ve seen so far, it expects a parameter. The pseudo class always ends with a pair of parentheses with an expression inside.  This expression is simply the term odd or even, however, there are other more advanced possibilities with mathematical equations containing the term n.</p>
 <p>This selector is most commonly used to apply “transaction ledger” styles to tables or lists.</p>
@@ -11696,17 +11691,15 @@ tr:nth-child(even) { background-color: white; }
   
 <h4>Cursor property</h4>
 
-<pre><code>
-li { cursor: pointer; }
-</code></pre>
+<pre>li { cursor: pointer; }
+</pre>
 
 <p>Since we’ve broached the topic of mouse-responding pseudo classes, it makes sense to also cover the cursor CSS property.</p>
 <p>The cursor CSS property lets you change the cursor that is displayed when the mouse is over the element in question.  This does not have to be relegated to a :hover style, it can be applied anywhere. Though, if you want to change the cursor when an element is depressed,  set the cursor property in the context of an :active style.</p>
 <p>There are many possible values for the cursor property.  Their exact representation may vary slightly from browser to browser.  Common values include: default, pointer, text, move and grab. (Hover over each value to see). In addition, some browsers support a custom image as well.</p>
 
-<pre><code>
-( cursor: url(&quot;images/my_pointer.png&quot;); ).
-</code></pre>
+<pre>( cursor: url(&quot;images/my_pointer.png&quot;); ).
+</pre>
 
 <p>For more information, please visit the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/cursor" target="_blank" rel="noopener noreferrer">MDN page on cursor</a>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -12206,9 +12199,8 @@ respected. </p>
 three of its possible values: block, inline, and inline-block.  There
 are others (like none and flex) and we will cover them later.  </p>
 
-<pre><code>
-.name { display: inline-block; }
-</code></pre>
+<pre>.name { display: inline-block; }
+</pre>
 
 <p>A key to not getting confounded by the display property is to have a grasp on which elements default to which display value and appreciating the differences between block, inline, and inline-block display.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -12224,18 +12216,16 @@ content. So for any individual inline element, there is <i>no CSS property</i>�
 You may apply some padding evenly or unevenly to position its content relative to its own box. But that’s not centering the element itself.</p>
 <p>To center an inline element, we use the text-align property of its parent.</p>
 
-<pre><code>
-p { text-align: center; } /* the text and any inline children of this
+<pre>p { text-align: center; } /* the text and any inline children of this
   element will be centered */
-</code></pre>
+</pre>
 
 <p>If this isn’t satisfactory, consider changing the element to be inline-block or block.</p>
 <p><b>block</b></p>
 <p>How do you center a block level element? First, you may recall that block level elements take the width of their parent by default. If the element is the same width as its parent, it is already centered.  So the first step is to limit the width of the element.  Setting the width property directly is not generally a good practice, but we’ll just do that and discuss sizing at length later.</p>
 
-<pre><code>
-div { width: 200px; } 
-</code></pre>
+<pre>div { width: 200px; } 
+</pre>
 
 <p>Now that we’ve sized the element, how to center it?</p>
 
@@ -12243,9 +12233,8 @@ div { width: 200px; } 
 
 <p>If set to auto, then the left and right margins will center the element.  This is the simplest and best way of centering a block level element.  So the full solution is to set the width and apply auto to the left and right margins (or to all margins). </p>
 
-<pre><code>
-div { width: 200px; margin: auto; }
-</code></pre>
+<pre>div { width: 200px; margin: auto; }
+</pre>
 
 <h4>Horizontal centering - a better way</h4>
 
@@ -12279,9 +12268,8 @@ completeness, but we aren’t going to worry much about them because flexbox red
 
 <h4>static</h4>
 
-<pre><code>
-position: static; /* the default */
-</code></pre>
+<pre>position: static; /* the default */
+</pre>
 
 <p>A position property of static is the default for all elements. It simply means that all elements follow the “flowing text”model of layout
 and the only properties influencing their position are margins, padding, and the display property that selects block level layout, inline or
@@ -12289,9 +12277,8 @@ inline-block. Static elements <em>ignore</em> the positioning properties we re
 
 <h4>fixed</h4>
 
-<pre><code>
-position: fixed;
-</code></pre>
+<pre>position: fixed;
+</pre>
 
 <p>A fixed positioned element respects the positioning properties (left, top, right, and bottom).  A fixed positioned element is positioned against the <em>window</em> rectangle (aka the viewport). This means that fixed position elements will not scroll with the rest of the page.  Fixed position elements can easily “stick” to the side or bottom or top of the browser. To observe this better, see the Fixed position activity in the next section.</p>
 
@@ -12553,9 +12540,8 @@ against.  Note that this feature is only available to absolute and fixed positi
 curious. It will not appear on any graded question.</p>
 <p>In the previous sections, we named four positioning properties: left, top, right, and bottom.   With these properties, we can govern the placement of positioned elements in both the x and y axis.  But there is a fifth positioning property: z-index.</p>
 
-<pre><code>
-z-index: 3;
-</code></pre>
+<pre>z-index: 3;
+</pre>
 
 <p>Like the other positioning properties, z-index only applies to
 positioned elements (elements that have their position property set
@@ -12734,9 +12720,8 @@ easier to see by adding a border and background color to the paragraph.</p>
 <p>The overflow properties govern this situation.  There are three
 related properties: overflow, overflow-x, and overflow-y.</p>
 
-<pre><code>
-p { overflow: auto; }
-</code></pre>
+<pre>p { overflow: auto; }
+</pre>
 
 <p>With common text, overflowing normally only occurs in the vertical
 direction (like in the example above). But if your element contains
@@ -12786,9 +12771,8 @@ different boxes are organized (innermost to outermost).</p>
 
 <h4>box-sizing</h4>
 
-<pre><code>
-p { box-sizing: border-box; }
-</code></pre>
+<pre>p { box-sizing: border-box; }
+</pre>
 
 <p>The box-sizing property determines how the sizing properties are
 applied.  It has two values: content-box and border-box.</p>
@@ -12861,10 +12845,9 @@ to help visualize.</p>
 
 <h4>flex container</h4>
 
-<pre><code>
-div { display: flex; }
+<pre>div { display: flex; }
 span { display: inline-flex; }
-</code></pre>
+</pre>
 
 <p>To designate an element as a flex container, we simply set
 the display property to be flex or inline-flex. A flex element will
@@ -12874,12 +12857,11 @@ container and will be handling the layout of its children.</p>
 
 <h4>flex-flow</h4>
 
-<pre><code>
-.fc {
+<pre>.fc {
   display: flex;  /* this is now a flex container */
   flex-flow: row wrap;
 }
-</code></pre>
+</pre>
 
 <p>Flexbox containers can lay out their children both horizontally, as
 in a row, and vertically, as in a column, and <em>both at the same
@@ -12928,18 +12910,16 @@ a value of the display property.</p>
 <p>But flex is also the name of  a property. It is a property that is
 applied to flex items, the children of a flex container.</p>
 
-<pre><code>
-span { flex: &lt;flex-grow&gt; &lt;flex-shrink&gt; &lt;flex-basis&gt;; }
-</code></pre>
+<pre>span { flex: &lt;flex-grow&gt; &lt;flex-shrink&gt; &lt;flex-basis&gt;; }
+</pre>
 
 <p>The flex property provides a convenient way to abbreviate the three interrelated properties of flex-grow, flex-shrink, and flex-basis.  The flex property <em>also</em> gives a flex item nice defaults for the optional properties. Therefore, flex:1; is <b>better</b> than flex-grow:1; .</p>
 
 <h4>flex-grow</h4>
 
-<pre><code>
-p { flex: 1; /* rather than use flex-grow, use
+<pre>p { flex: 1; /* rather than use flex-grow, use
   flex: &lt;flex-grow&gt;; */ }
-</code></pre>
+</pre>
 
 <p>The flex-grow property is set simply to a positive number. In
 isolation that number means nothing. However, when the flex container is
@@ -12960,10 +12940,9 @@ super-power.</p>
 
 <h4>flex-shrink</h4>
 
-<pre><code>
-p { flex: 1 1; /* rather than use flex-shrink directly, use flex:
+<pre>p { flex: 1 1; /* rather than use flex-shrink directly, use flex:
   &lt;flex-grow&gt; &lt;flex-shrink&gt; */ }
-</code></pre>
+</pre>
 
 <p>The flex-shrink is the opposite of flex-grow. When laying out any row
 or column, if the flex container needs to take away some space from the
@@ -12984,10 +12963,9 @@ the box-sizing to border-box.</p>
 
 <h4>flex-basis</h4>
 
-<pre><code>
-p { flex: 1 1 87px;  /* use flex: &lt;flex-grow&gt;
+<pre>p { flex: 1 1 87px;  /* use flex: &lt;flex-grow&gt;
   &lt;flex-shrink&gt; &lt;flex-basis&gt; */}
-</code></pre>
+</pre>
 
 <p>The flex-basis can be used instead of the sizing properties on a flex
 item. If the flex-direction of the parent flex container
@@ -13208,9 +13186,8 @@ material here will appear in any graded question.</p>
 
 <h4>justify-content</h4>
 
-<pre><code>
-.fc { justify-content: space-around; }
-</code></pre>
+<pre>.fc { justify-content: space-around; }
+</pre>
 
 <p>When all the flex items in a flexbox container are fully resizable, then there will not be any extra space to put between the items.  However, when the flex items are fixed size, or cannot grow anymore, then the flexbox container will put the extra space between or
 outside the items. The closest analogue from typography is called “justifying”.  Thus, the justify-content property serves a similar
@@ -13236,9 +13213,8 @@ stack of items) <em>unless</em> the height of the flexbox container were expli
 
 <h4>align-items</h4>
 
-<pre><code>
-.fc { align-items: stretch; }
-</code></pre>
+<pre>.fc { align-items: stretch; }
+</pre>
 
 <p>The align-items determines how items are aligned in the cross axis direction. This is applied to the flexbox container.  The possible values are stretch, flex-start, flex-end, center, and baseline.  In the context of alignment, flex-start and flex-end refer to the cross
 start and cross end sides, which may be swapped if the flex-wrap:wrap-reverse option is elected.  align-items defaults to stretch, if it is not set. The table below should help illustrate this. It shows a flex container with flex-flow:row;  and a min-height value that is greater than the height of any of the items.</p>
@@ -13260,9 +13236,8 @@ start and cross end sides, which may be swapped if the flex-wrap:wrap-reverse 
 
 <h4>align-content</h4>
 
-<pre><code>
-.fc { align-content: space-between; }
-</code></pre>
+<pre>.fc { align-content: space-between; }
+</pre>
 
 <p>align-content is only relevant when the flexbox container supports wrapping and the flex items are, in fact, wrapping.<br>
 The align-content determines how the <em>wrapped lines</em> are positioned or spaced.  Align-content is not applied to individual items, but rather to the wrapped lines. The align-content property supports the stretch value, as well as the same values as justify-content (flex-start, center, flex-end, space-between, space-around).<br>
@@ -13285,8 +13260,8 @@ This is easier to understand from an example.</p>
 
 <h4>align-self</h4>
 
-<pre><code>.item { align-self: center; }
-</code></pre>
+<pre>.item { align-self: center; }
+</pre>
 
 <p>Unlike the other flexbox align properties, align-self is applied to
 an individual flex item, not to a flexbox container.  This allows an
@@ -13314,8 +13289,8 @@ many are able to use flexbox satisfactorily without it. None of the
 material here will appear in any graded question.</p>
 <p>One of the most exciting flexbox properties is also its simplest: order.</p>
 
-<pre><code>.item { order: 2; }
-</code></pre>
+<pre>.item { order: 2; }
+</pre>
 
 <p>The order property allows you to determine the order in which the
 item appears in the flexbox.  This allows you to present the information
