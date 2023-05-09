@@ -1680,14 +1680,12 @@ to character sets and encodings here</a>.
 indicate to the browser the character encoding you will be using in the
 page.</p>
 
-<pre><code>
-&lt;meta charset=&quot;utf-8&quot;&gt;
+<pre><code>&lt;meta charset=&quot;utf-8&quot;&gt;
 </code></pre>
 
 <p>Alternatively, you can also use http-equiv and content attributes.</p>
 
-<pre><code>
-&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;
+<pre><code>&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;
    charset=utf-8&quot;&gt;
 </code></pre>
 
@@ -1702,8 +1700,7 @@ earlier it is mentioned in your code, the better.<br>
 <br>W3C recommends placing it immediately after the
 opening &lt;head&gt; tag:</p>
 
-<pre><code>
-&lt;!DOCTYPE html&gt;
+<pre><code>&lt;!DOCTYPE html&gt;
    &lt;html lang=&quot;en&quot;&gt;
    &lt;head&gt;
       &lt;meta charset=&quot;utf-8&quot;&gt;
@@ -1720,26 +1717,24 @@ opening &lt;head&gt; tag:</p>
 the need for them came about.<br>
 <br>Try the following code in your HTML:</p>
 
-<pre><code>
-&lt;p&gt;Welcome to &quot;HTML5 &amp; CSS Fundamentals&quot;. The first tag we will be
+<pre><code>&lt;p&gt;Welcome to &quot;HTML5 &amp; CSS Fundamentals&quot;. The first tag we will be
    learning about is  the &lt;html&gt; tag.&lt;/p&gt;
 </code></pre>
 
 <details>
   <summary>HTML code extract!</summary>
 
-<pre><code>
- &lt;!DOCTYPE html&gt;
- &lt;html lang=&quot;en&quot;&gt;
-   &lt;head&gt;
-     &lt;meta charset=&quot;UTF-8&quot;&gt;
-     &lt;title&gt;Welcome&lt;/title&gt;
-   &lt;/head&gt;
-   &lt;body&gt;
-     &lt;p&gt;Welcome to &quot;HTML5 &amp; CSS Fundamentals&quot;. The first tag we will be
-     learning about is the &lt;html&gt; tag.&lt;/p&gt;
-   &lt;/body&gt;
- &lt;/html&gt;
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;title&gt;Welcome&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;Welcome to &quot;HTML5 &amp; CSS Fundamentals&quot;. The first tag we will be
+    learning about is the &lt;html&gt; tag.&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
 </code></pre>
 
 </details>
@@ -1757,8 +1752,7 @@ an ampersand symbol '&amp;', followed by the name and a semi-colon.
 Names are case sensitive. For example, the following represents a
 no-break space:</p>
 
-<pre><code>
-&amp;nbsp;
+<pre><code>&amp;nbsp;
 </code></pre>
 
 <p>There are two types of numeric character reference: ones that use
@@ -1768,16 +1762,14 @@ Unicode.<br>
 <br>If you are using a decimal number, use an ampersand symbol ‘&amp;’ ,
 followed by the symbol ‘#’, then a decimal number and a semi-colon.
 
-<pre><code>
-&amp;#160;
+<pre><code>&amp;#160;
 </code></pre>
 
 <p>If you are using a hexadecimal number, use an ampersand symbol ‘&amp;’ ,
 followed by the symbols ‘#x’, then a hexadecimal number and a
 semi-colon.</p>
 
-<pre><code>
-&amp;#x00A0;
+<pre><code>&amp;#x00A0;
 </code></pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-4-4">1.4.4 Special characters</h3>
@@ -1846,21 +1838,18 @@ when viewed by a reader:</p>
 <br>Instead, you want it to be displayed to the user.<br>
 <br>So if you wish to display this in your browser:</p>
 
-<pre><code>
-&lt;img src=&quot;images/test.png&quot; alt=&quot;test image&quot;&gt;
+<pre><code>&lt;img src=&quot;images/test.png&quot; alt=&quot;test image&quot;&gt;
 </code></pre>
 
 <p>You have to write it like this in your HTML code:</p>
 
-<pre><code>
-&lt;img src=&quot;images/test.png&quot; alt=&quot;test image&quot;&gt;
+<pre><code>&lt;img src=&quot;images/test.png&quot; alt=&quot;test image&quot;&gt;
 </code></pre>
 
 <details>
   <summary>HTML code extract!</summary>
 
-<pre><code>
-&lt;!DOCTYPE html&gt;
+<pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
     &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -1892,22 +1881,19 @@ entity &amp; for &amp;.</p>
 <br>If you try the code below in a browser and hover your mouse pointer on the text ‘HTML5’, it will show you the title text (it works like a tooltip).<br>
 <br>The title text in the source code includes quotes (around the number 5) like this:</p>
 
-<pre><code>
-&lt;abbr title=&quot;Hypertext Markup Language &quot;5&quot;&quot;&gt;HTML5&lt;/abbr&gt;
+<pre><code>&lt;abbr title=&quot;Hypertext Markup Language &quot;5&quot;&quot;&gt;HTML5&lt;/abbr&gt;
 </code></pre>
 
 <p>The above will not display the number 5.<br>
 <br>Replacing the quotes with its character entity will work:</p>
 
-<pre><code>
-&lt;abbr title=&quot;Hypertext Markup Language &quot;5&quot;&quot;&gt;HTML5&lt;/abbr&gt;
+<pre><code>&lt;abbr title=&quot;Hypertext Markup Language &quot;5&quot;&quot;&gt;HTML5&lt;/abbr&gt;
 </code></pre>
 
 <p>Check out this jsfiddle link.</p>
 <h4>HTML</h4>
 
-<pre><code>
-&lt;p&gt;Rest your mouse on the text below: (The number 5 is missing)&lt;/p&gt;
+<pre><code>&lt;p&gt;Rest your mouse on the text below: (The number 5 is missing)&lt;/p&gt;
 &lt;abbr title=&quot;Hypertext Markup Language &quot;5&quot;&quot;&gt;HTML5&lt;/abbr&gt;
 &lt;p&gt;Rest your mouse on the text below: (5 is displayed when quotes is
 replaced with its character entity name)&lt;/p&gt;
@@ -1954,8 +1940,7 @@ entail a fine of € 400&lt;/p&gt;</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre><code>
-&lt;!DOCTYPE html&gt;
+<pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
    &lt;head&gt;
       &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -2020,11 +2005,10 @@ do it properly, and not depend on the browser to patch it for you.</p>
 <p>Because an HTML file essentially represents a <a href="https://en.wikipedia.org/wiki/Tree_(data_structure)" target="_blank" rel="noopener noreferrer">tree structure</a>, the open and close tags should always match, and there should not be any overlap with other elements. That is, you can have an element that is enclosed in another element, or you can have two
 elements side-by-side, but you can never have a situation in which part of an element is in another, but the other part is not.</p>
 
-<pre><code>
-  &lt;p&gt;This is a &lt;em&gt;paragraph&lt;/em&gt;&lt;/p&gt;
+<pre><code>&lt;p&gt;This is a &lt;em&gt;paragraph&lt;/em&gt;&lt;/p&gt;
   
-  &lt;h1&gt;Paragraph ahead&lt;/h1&gt;
-  &lt;p&gt;And here it is.&lt;/p&gt;
+&lt;h1&gt;Paragraph ahead&lt;/h1&gt;
+&lt;p&gt;And here it is.&lt;/p&gt;
 </code></pre>
 
 <p>The two examples above are fine because in each case either an
@@ -2032,8 +2016,7 @@ element is wholly contained in another (&lt;em&gt; in &lt;p&gt;) or they
 are completely separate (&lt;h1&gt; and &lt;p&gt;). This, on the other
 hand, is not valid:</p>
 
-<pre><code>
-  &lt;h1&gt;Part of this header is &lt;p&gt;in the&lt;/h2&gt; paragraph below&lt;/p&gt;
+<pre><code>&lt;h1&gt;Part of this header is &lt;p&gt;in the&lt;/h2&gt; paragraph below&lt;/p&gt;
 </code></pre>
 
 <p>What happens in this case is what we call “undefined”. That just
@@ -2070,8 +2053,7 @@ good idea (best practice).</p>
 <p>Proper indentation is one way to make your code clearer and easier to
 understand:</p>
 
-<pre><code>
-&lt;body&gt;
+<pre><code>&lt;body&gt;
   &lt;h1&gt;Here is a heading&lt;/h1&gt;
   &lt;p&gt;
   &lt;ol&gt;&lt;li&gt;List Item 1&lt;/li&gt;&lt;/ol&gt;
@@ -2083,8 +2065,7 @@ understand:</p>
 document. By using indentation effectively, you can make it more clear,
 showing the nesting of elements:</p>
 
-<pre><code>
-&lt;body&gt;
+<pre><code>&lt;body&gt;
   &lt;h1&gt;Here is a heading&lt;/h1&gt;
   &lt;p&gt;
     &lt;ol&gt;
@@ -2143,8 +2124,7 @@ will look the same.</p>
 same when you read them in the browser:</p>
 
 
-<pre><code>
-&lt;H1&gt; This is the Beginning &lt;/H1&gt;
+<pre><code>&lt;H1&gt; This is the Beginning &lt;/H1&gt;
 
 &lt;H1&gt;
 
@@ -2169,8 +2149,7 @@ insensitive, but it is not that easy.  </p>
 attributes yet, but when we do we will discover that they are case
 sensitive, thus these two elements will have different ’id’s:</p>
 
-<pre><code>
-  &lt;p id=ThisOne&gt;
+<pre><code>  &lt;p id=ThisOne&gt;
    
   &lt;p id=thisone&gt;
 </code></pre>
@@ -2195,8 +2174,7 @@ marks, either single (’) or double (“). HTML tries to be helpful here.</p>
 strings (say a string without spaces), even if you do not use the
 quotation marks it will essentially insert them for you. Thus:</p>
 
-<pre><code>
-  &lt;p id=MyName&gt;
+<pre><code>  &lt;p id=MyName&gt;
   &lt;p id=&quot;MyName&quot;&gt;
   &lt;p id=&#39;MyName&#39;&gt;
   .... are all equivalent.
@@ -2257,8 +2235,7 @@ how many there are, etc.  We will start with the ones we have already seen:</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre><code>
-&lt;!DOCTYPE &lt;span class="dt"&gt;html&gt;
+<pre><code>&lt;!DOCTYPE &lt;span class="dt"&gt;html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
     &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -2291,8 +2268,7 @@ technology users and missing levels can be confusing</b>.</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre><code>
-&lt;!DOCTYPE &lt;span class="dt"&gt;html&gt;
+<pre><code>&lt;!DOCTYPE &lt;span class="dt"&gt;html&gt;
    &lt;html lang=&quot;en&quot;&gt;
    &lt;head&gt;
       &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -2340,8 +2316,7 @@ wise - Benjamin Franklin</p>
   <li><b>&lt;li&gt;</b> - The <b>li</b> element is a “List Item”, i.e. one item in the list.  As you might expect, this element only really makes sense nested inside a list (&lt;ul&gt; or &lt;ol&gt;).  In the final rendering, each li element would typically be preceded by a number or bullet, or something similar (but not necessarily).  Thus a list in HTML would look like this:</li>
 </ul>
 
-<pre><code>
-  &lt;ul&gt;
+<pre><code>  &lt;ul&gt;
     &lt;li&gt; First item in list &lt;/li&gt;
     &lt;li&gt; Second item in list &lt;/li&gt;
    . . .
@@ -2368,8 +2343,7 @@ primarily used to invoke certain formatting.</p>
   Note that the &lt;br&gt; tag implies a break even if there is no break in the text containing it, so for example, these two sentences would be formatted exactly the same:</li>
 </ul>
 
-<pre><code>
-1.  That which we call a rose &lt;br&gt;
+<pre><code>1.  That which we call a rose &lt;br&gt;
 2.  By any other name would smell as sweet
 3.   
 4.  That which we call a rose &lt;br&gt; By any other name
@@ -2387,8 +2361,7 @@ primarily used to invoke certain formatting.</p>
   <li><b>&lt;pre&gt;</b> - <b>pre</b> stands for “PREformatted text”, meaning that the text is to be presented exactly as written in the HTML file. It preserves all text formatting characters i.e. spaces, line breaks and (thus bypassing the white space rule) and most typically implies a monospace font. It is very handy for illustrating bits of program code, or other “typewritten” material:</li>
 </ul>
 
-<pre><code>
-Text in a pre element
+<pre><code>Text in a pre element
 is displayed in a fixed-width
 font, and it preserves
 both spaces and
@@ -2422,8 +2395,7 @@ following components:
 <details>
   <summary>HTML code extract!</summary>
 
-<pre><code>
-&lt;!DOCTYPE &lt;span class="dt"&gt;html&gt;
+<pre><code>&lt;!DOCTYPE &lt;span class="dt"&gt;html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
     &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -2539,8 +2511,7 @@ module. Let’s look into it in more depth, by using examples.</p>
 
 <h4>Here is an ordered list:</h4>
 
-<pre><code>
-  &lt;ol&gt;
+<pre><code>  &lt;ol&gt;
     &lt;li&gt;Lights&lt;/li&gt;
     &lt;li&gt;Camera&lt;/li&gt;
     &lt;li&gt;Action&lt;/li&gt;
@@ -2549,8 +2520,7 @@ module. Let’s look into it in more depth, by using examples.</p>
 
 <h4>Output:</h4>
 
-<pre><code>
-1. Lights
+<pre><code>1. Lights
 2. Camera
 3. Action
 </code></pre>
@@ -2558,8 +2528,7 @@ module. Let’s look into it in more depth, by using examples.</p>
 <p>If i want an ordered list to start with the number 5 instead of 1 (as it
 does by default), let’s code like this:</p>
 
-<pre><code>
-&lt;ol start=&quot;5&quot;&gt;
+<pre><code>&lt;ol start=&quot;5&quot;&gt;
   &lt;li&gt;Lights&lt;/li&gt;
   &lt;li&gt;Camera&lt;/li&gt;
   &lt;li&gt;Action&lt;/li&gt;
@@ -2568,8 +2537,7 @@ does by default), let’s code like this:</p>
 
 <h4>Output:</h4>
 
-<pre><code>
-5. Lights
+<pre><code>5. Lights
 6. Camera
 7. Action
 </code></pre>
@@ -2593,16 +2561,14 @@ Tags and attributes make up the language.</p>
   <li>The only exception to the name-value pair is if the attribute is a ‘boolean attribute’. These attributes have only two types of values - true or false. But instead of writing “true” or “false” for its value, you add the attribute name to indicate true and omit it to indicate false. An example is the ‘reversed’ attribute in an ordered list &lt;ol&gt;. Adding this attribute is an indication that the list order should be reversed (in descending order).</li>
 </ul>
 
-<pre><code>
-&lt;ol reversed&gt;&lt;/ol&gt;
+<pre><code>&lt;ol reversed&gt;&lt;/ol&gt;
 </code></pre>
 
 <ul>
   <li>A tag can have multiple attributes:</li>
 </ul>
 
-<pre><code>
-&lt;ol start=&quot;5&quot;&gt;&lt;/ol&gt;  
+<pre><code>&lt;ol start=&quot;5&quot;&gt;&lt;/ol&gt;  
 &lt;ol id=&quot;cinema&quot; class=&quot;attribute-list&quot; start=&quot;5&quot;&gt;&lt;/ol&gt;  
 &lt;ol start=&quot;5&quot; class=&quot;attribute-list&quot;&gt;&lt;/ol&gt;
 </code></pre>
@@ -2611,8 +2577,7 @@ Tags and attributes make up the language.</p>
 
 <h4>Imagine you have two paragraphs in your HTML page:</h4>
 
-<pre><code>
-&lt;p&gt;I am paragraph 1 and I want to be in red&lt;/p&gt;
+<pre><code>&lt;p&gt;I am paragraph 1 and I want to be in red&lt;/p&gt;
 &lt;p&gt;I am paragraph 2 and I want to be in blue&lt;/p&gt;
 </code></pre>
 
@@ -13320,8 +13285,7 @@ This is easier to understand from an example.</p>
 
 <h4>align-self</h4>
 
-<pre><code>
-.item { align-self: center; }
+<pre><code>.item { align-self: center; }
 </code></pre>
 
 <p>Unlike the other flexbox align properties, align-self is applied to
@@ -13350,8 +13314,7 @@ many are able to use flexbox satisfactorily without it. None of the
 material here will appear in any graded question.</p>
 <p>One of the most exciting flexbox properties is also its simplest: order.</p>
 
-<pre><code>
-.item { order: 2; }
+<pre><code>.item { order: 2; }
 </code></pre>
 
 <p>The order property allows you to determine the order in which the
