@@ -16,9 +16,9 @@ w3cx-2of5-html5.0x: Coursera - Front-End Web Development - HTML5 & CSS3 Fundamen
 </p>
 
 <h3 align="center">W3Cx-2of5-HTML5.0x - HTML5 and CSS3 Fundamentals</h3>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------ 01. W3Cx-2of5-HTML5.0x logo (01) -------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image001.png?raw=true"
   width="65%"
@@ -88,9 +88,9 @@ a professional look and feel, by just following these 6 modules!</p>
 <ul>
 <li>The first set of lessons are available under <b>"Module 1: My first Web page in HTML5"</b>.</li>
 </ul>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--------------------------------- 02. my first web page (01) ----------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image002.jpeg?raw=true"
   width="15%"
@@ -102,10 +102,9 @@ a professional look and feel, by just following these 6 modules!</p>
 </ul>
 
 <h4>CSS is used to style the HTML</h4>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------------------- 03. w3c developers logo (02) ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image003.png?raw=true"
   width="15%"
@@ -117,10 +116,9 @@ aspects of your Web page. We'll introduce the syntax of CSS, how to
 include it with your pages, and get you started with some basic
 properties and concepts. Note that we'll explore how to use CSS to
 layout your page during the last week of this course.</p>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--------------------------------------- 04. laptop (02) ---------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image004.png?raw=true"
   width="15%"
@@ -134,10 +132,9 @@ layout your page during the last week of this course.</p>
     do.  
     <b>Module 4</b> is a 'short' week so please use that time to practice,
     practice and practice coding again!<br/>&nbsp;</li>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------------------------------- 05. w3c cheat sheet (02) ------------------------------------>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image005.png?raw=true"
   width="50%"
@@ -148,10 +145,9 @@ layout your page during the last week of this course.</p>
     complex pages, and "beautify" even more your recipe projects. You
     will learn about tables, the audio and video elements, etc. This is
     a good preparatory work for the <a href="https://www.edx.org/course/html5-coding-essentials-and-best-practices" target="_blank">HTML5 Coding Essentials and Best Practices course</a> (intermediate level). You will also learn how to embed other elements in a page other than a simple image. Note that some parts of the material are optional: iframes, usemap, and ismap.<br/>&nbsp;</li>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------- 06. can i use: css colors (03) --------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image006.png?raw=true"
   width="65%"
@@ -270,18 +266,17 @@ such as JSBin,  JSFiddle, and Dabblet (Lea Verou's tool).
 Here's an interesting article on what beginners can do with CodePen: <a href="https://codepen.io/brentmiller/post/things-you-can-do-with-codepen" target="_blank">Things you can do with CodePen</a> [Brent Miller, February 6, 2019].</p>
 
 <h3>W3C Validators</h3>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------------------- 03. w3c developers logo (08) ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image003.png?raw=true"
   width="30%"
   alt="W3C Developers logo." />
 </p>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!----------------------------- 07. mdn web docs mozilla logo (08) ------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image007.png?raw=true"
   width="30%"
@@ -297,10 +292,9 @@ Here's an interesting article on what beginners can do with CodePen: <a href="h
 <h3>CSS Validator</h3>
 
 <p>The <a href="https://jigsaw.w3.org/css-validator/">CSS validator</a> checks Cascading Style Sheets (CSS) and (X)HTML documents that use CSS stylesheets.</p>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--------------------------------------- 04. laptop (08) ---------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image004.png?raw=true"
   width="15%"
@@ -341,10 +335,9 @@ compilation of useful knowledge extracted from W3C specifications,
 completed by summaries of guidelines developed at W3C, in particular Web
 accessibility guidelines, the Mobile Web Best Practices, and a number of
 internationalization tips.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------------------------------- 05. w3c cheat sheet (09) ------------------------------------>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image005.png?raw=true"
   width="50%"
@@ -387,10 +380,9 @@ Docs</a>.
 of front-end Web technologies on desktop and mobile Web browsers. Below
 is a snapshot of what information is given by CanIUse when searching for
 "CSS3 colors".
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------------- 06. cheat sheet (10) ------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image006.png?raw=true"
   width="65%"
@@ -398,10 +390,9 @@ is a snapshot of what information is given by CanIUse when searching for
 </p>
 
 <h3>MDN Web Docs</h3>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------------------------------- 07. mdn web docs logo (10) ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image007.png?raw=true"
   width="35%"
@@ -421,10 +412,9 @@ exactly which browsers will support it.
 <li><a href="https://hacks.mozilla.org/2019/09/caniuse-and-mdn-compat-data-collaboration/" target="_blank">Caniuse and MDN compatibility data
   collaboration</a>.</li>
 </ul>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="cha-1">What is W3C?</h3>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>As steward of global Web standards, W3C's mission is to safeguard the openness, accessibility, and freedom of the World Wide Web from a technical perspective.</h4>
 
 W3C's primary activity is to develop protocols and guidelines that
@@ -432,10 +422,9 @@ ensure long-term growth for the Web. The widely adopted Web standards
 define key parts of what actually makes the World Wide Web work.
 
 <h3>A few history bits</h3>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------ 08. tim berners-lee in 1994 (11) -------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image008.jpeg?raw=true"
   width="35%"
@@ -513,13 +502,12 @@ car, the email is a bicycle, etc.  Read <a href="https://www.lifewire.com/diff
 article</a>
 for more details about the difference between Internet and the Web.
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="cha-2">What is Web Accessibility?</h3>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1">Welcome to Module 1</h2>
-<!------------------------------------------------------------------------------------------------>
-Hello everyone! Welcome to Module 1 of the introduction to HTML5 and CSS
-course.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+Hello everyone! Welcome to Module 1 of the introduction to HTML5 and CSS course.
 
 We have lots of exciting stuff to cover in this module, and we're going
 to also create and edit our very first Web page.
@@ -538,10 +526,9 @@ opportunities to practice what we're teaching by creating and editing
 your very first Web page.
 
 With that, let's jump right in.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-1-2">1.1.2 Module 1 – Content</h3>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <b>1.1 Introduction:</b> A video that introduces the content of Module 1.
 
 <b>1.2 The big three:</b> Learn about the basic tools you will use to code
@@ -566,10 +553,9 @@ outlying a universal linked information system. Dubbed 'Information
 Management: A proposal', pictured below, the proposal was created by Sir
 Tim Berners-Lee and was sent to his boss Mike Sendall, who described it
 as 'vague but exciting'.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------- 09. network of components (13) --------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image009.gif?raw=true"
   width="85%"
@@ -604,15 +590,13 @@ In the following pages, we present HTML through what are usually called
 the big 3 (HTML5, CSS and JavaScript), the hypertext concept and the
 browser, an application program that provides a way to look at and
 interact with all the information on the World Wide Web.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-2-2">1.2.2 HTML5, CSS and JS</h3>
-<!------------------------------------------------------------------------------------------------>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>HTML5</h4>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------------- 10. html5 logo (14) -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image010.png?raw=true"
   width="15%"
@@ -635,9 +619,9 @@ developed to provide more powerful and flexible ways for developers to
 create dynamic Web pages.
 
 <h4>CSS</h4>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------------- 11. css3 logo (14) --------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image011.png?raw=true"
   width="15%"
@@ -653,9 +637,9 @@ whatever else may apply to what it looks like.
 
 <h4>JavaScript</h4>
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------------------------------- 12. javascript logo (15) ------------------------------------>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image012.jpeg?raw=true"
   width="15%"
@@ -669,10 +653,9 @@ Web page to be more than just a document, but potentially a Web
 application, with nearly unlimited possibilities.  We will not be
 doing much with JavaScript in this course, but you should know that it
 is an important leg of the stool for modern Web pages.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-2-3">1.2.3 Hypertext</h3>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 A fundamental key to the World Wide Web is the concept of "<i>Hypertext</i>".
  Hypertext is built on the idea of linking information together, not
 unlike using footnotes, except much easier and more flexible. The idea
@@ -683,10 +666,9 @@ figures, etc.)
 That's why, in 1989, Tim Berners-Lee began to create a definition of
 HTML: Hypertext Markup Language, to provide a simple, uniform way to
 incorporate Hyperlinks in a text document.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------- 13. illustration of hypertext documents (16) ------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image013.png"
   width="85%"
@@ -708,18 +690,17 @@ between documents. It was not just a long list of details, but rather a
 sea of information stretching out in all directions. This sea of
 information was navigated by a new tool called a "Browser".
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-2-4">1.2.4 The Browser</h3>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 The Internet existed long before the Web came to fruition, and lots of
 organizations were connected to it, including schools, companies and
 government organizations.  As things progressed through the 80s, the
 Internet was used for file transfers, newsgroups (a kind of open forum),
 email and other conveniences.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------------------------- 14. snapshot of mosaic browser (17) ------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image014.jpeg?raw=true"
   width="65%"
@@ -751,10 +732,9 @@ Internet. Instead of using different tools to download and view
 information on the Internet, a simple click on a link would present the
 information in a graphical window. In many ways, it is the ancestor of
 most modern browsers.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-2-5">1.2.5 Activity – Explore the Web</h3>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Exploring the Web, "Then and Now":</h4>
 <ul>
   <li>Go to <a href="https://archive.org/" target="_blank">archive.org</a> and find the earliest
@@ -766,10 +746,9 @@ most modern browsers.
     the 90's and Web sites today?</li><br/>
   <li>Post your observations and findings in the discussion forum below.</li><br/>
 </ul>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3-1">1.3.1 Putting the “M” in HTML</h3>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 The "M" in HTML stands for "Markup", but what does Markup really
 mean?  Essentially, it means to annotate a document with extra
 information. Things like where different sections and paragraphs begin
@@ -831,10 +810,9 @@ is the tradition in programming tutorials, we'll pause here to create a
 simple "Hello HTML" program. Please choose any Web editor of your liking
 (see in the subsection "Course tools").
 </p>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3-2">1.3.2 Programming “Hello HTML”</h3>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>You can build and edit your HTML pages by either using online editors or editors that you can install on your machine, like Visual Studio Code.</p>
 <h4>Using online editors:</h4>
 <p>Both <a href="https://jsbin.com" target="_blank">JSBin</a> and <a href="https://codepen.io/" target="_blank">CodePen</a> are two online editors that you can use to create HTML Web pages.
@@ -963,9 +941,9 @@ And I'll do it, I'll click on this one.
 
 And you can see an "Editor" opens up, and it has a HTML Pane, A CSS Pane, a JavaScript Pane, and an Output Pane. This is just an example.
 </p>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------------- image-example 13 1/2. example editor (23) --------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image-example.png"
   width="85%"
@@ -1500,9 +1478,9 @@ Now we have only used a tiny fraction of the HTML elements and tags that
 are available to you.
 
 But hopefully this shows you, just how easy it is to get started.</p>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3-3">1.3.3 Elements</h3>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 If you are sitting at a coffee shop next to a table of Web developers,
 you will probably hear three words quite a bit:  'Tags', 'Attributes'
 and 'Elements' (or sometimes 'DOM elements', same thing just more
@@ -1513,10 +1491,9 @@ a header is an element, even the body is an element.  Most elements can
 contain other elements, as the body element would contain header
 elements, paragraph elements, in fact pretty much all of the visible
 elements of the DOM.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!----------------------------------- 15. html element (34) -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image015.png?raw=true"
   width="65%"
@@ -1542,12 +1519,11 @@ children, but for our purpose this is enough.
 
 That may be a great picture, but how do we represent such a structure in
 a text file?  Well, that's where "tags" come in.
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3-4">1.3.4 Tags</h3>
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------------------------------------- 16. tags (35) ----------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image016.png?raw=true"
   width="25%"
@@ -1593,9 +1569,9 @@ text" in between tell us what kind of tag it is.  To completely describe
 the element, it needs an open and close tag, with everything in between
 the tags being the content of the element:
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------- 17. diagram of an element (34) --------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image017.png?raw=true"
   width="65%"
@@ -1619,9 +1595,9 @@ that don't even use the '/' at the end, they just don't have any close
 tag at all.  This works because all of the information this tag needs is
 declared in an "attribute".
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3-5">1.3.5 Comments</h3>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Computers are great at reading computer languages, but it's not always
 easy for humans.  Comments are a way of adding some text that is
 primarily targeted towards human readers.
@@ -1684,9 +1660,9 @@ important that the HTML comment notation, at least, differs from the
 others.  As for the exact form of those comments, we'll cover that in
 good time.
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3-6">1.3.6 Attributes</h3>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Most of what we'll cover about attributes will come later, but I wanted
 to introduce the idea briefly. Basically, a given element on your Web
 page can be distinguished by any number of unique or common attributes.
@@ -1717,10 +1693,9 @@ significance of x and y are. Best practice is to name these things to
 increase clarity, consistency and brevity.
 
 But more about attributes in the next module.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3-7">1.3.7 All Together Now</h3>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 One key to understanding HTML, or any computer language, is to be sure
 that you avoid ambiguity, because computers generally are not good at
 judgement calls. For example, you could streamline HTML so that whenever
@@ -1851,10 +1826,9 @@ above. Try inserting a paragraph into the body of your new document.
 ```
 
 </details>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-4-1">1.4.1 Character Encoding</h3>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>A character can be any letter, digit or symbol that makes up words and
 languages. English alphabets and digits 'a-z', 'A-Z', '0-9' are all
 considered characters. Other examples of characters include the Latin
@@ -1907,9 +1881,9 @@ editor saves the file in UTF-8</b> also. Most editors will do that these
 days, but you should check.
 
 Read an <a href="https://www.w3.org/International/getting-started/characters">Introduction to character sets and encodings here</a>.</p>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-4-2">1.4.2 The &lt;meta&gt; tag</h3>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Use the &lt;meta&gt; tag with the charset attribute in your HTML page to
 indicate to the browser the character encoding you will be using in the
 page.</p>
@@ -1946,9 +1920,9 @@ W3C recommends placing it immediately after the opening &lt;head&gt; tag:</p>
 </html>
 ```
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-4-3">1.4.3 HTML Character References</h3>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Why we need character references</h4>
 
 <p>Before we learn what HTML character references are, let's look at how
@@ -2024,10 +1998,9 @@ semi-colon.</p>
 &#x00A0;
 ```
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-4-4">1.4.4 Special characters</h3>
-<!------------------------------------------------------------------------------------------------>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Protecting characters used for HTML syntax</h4>
 
 <p>The five special characters listed in the table below should always be
@@ -2172,9 +2145,9 @@ replaced with its character entity name)</p>
 <abbr title="Hypertext Markup Language &quot;5&quot;">HTML5</abbr>
 ```
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-4-5">1.4.5 Character References for Other Characters</h3>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <p>It is also possible to use character references to represent other
 characters in your page. This is useful when you are unable to type the
@@ -2238,9 +2211,9 @@ If you'd like to read more information about when to use character
 references and when not to use them, see <a href="https://www.w3.org/International/questions/qa-escapes" target="_blank">Using character escapes in
 markup and CSS</a>.
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-1">1.5.1 Learning from the Mistakes of Others</h3>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Children can be great at asking questions about things that most adults
 take for granted, and like to challenge assumptions.
@@ -2276,10 +2249,9 @@ the term "best practice" you can trust that it is, even though we may
 not be able to explain it at that point in the course, so you'll want to
 make it a habit.
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-2">1.5.2 Do’s and Don’ts</h3>
-<!------------------------------------------------------------------------------------------------>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 The history of Web pages is such that browsers tend to be very forgiving
 of certain types of mistakes. If you miss a closing tag, it will often
 work the way you expect. It probably won't crash, or ignore the
@@ -2381,13 +2353,10 @@ each other's code. If you are creating the project, you can decide what
 the rules are (how many spaces to indent, single or double-quotes, etc.)
 but unless there is a good reason to change away from typical practices,
 it is usually best to adopt them.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-3">1.5.3 White Space and Capitalization</h3>
-<!------------------------------------------------------------------------------------------------>
-
-Before we go any further, it's good to understand a few technical
-details.  
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+Before we go any further, it's good to understand a few technical details.
 
 <h4>Tags are case insensitive</h4>
 
@@ -2523,9 +2492,9 @@ could sum it all up with these simple dictum:
     more readable and organized.</li>
 </ul>
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-4">1.5.4 Activity – Best Practices</h3>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 1. Compare and contrast these two different HTML Style Guides:
 
@@ -2549,10 +2518,9 @@ disagree with some of the suggestions in one of these guides?
 -   Using "Validate by URI", try some popular Web sites and see if you
     can find any errors.
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-6-1">1.6.1 Tags We Have Already Used</h3>
-<!------------------------------------------------------------------------------------------------>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Now you can create a simple, empty, HTML page, and you know what tags
 are, though we have not said a lot about specific tags, what they mean,
 how many there are, etc.  We will start with the ones we have already
@@ -2624,12 +2592,13 @@ allows logical nesting of sections, though they should not be nested too
 deeply. Try not to skip levels of headers when nesting them. <b>Headings
 are really useful for some assistive technology users and missing levels
 can be confusing</b>.
+
 <ul>
-   <li><b>&lt;p&gt;</b> - <i><b>p</b></i> is for 'paragraph', which is the tag you may use
-      to arrange much of your text information.  Depending on the style
-      you are using, text wrapped in a &lt;p&gt; tag may be indented or have
-      extra vertical white space before starting.  When rendered on the
-      Web page, a <i>p</i> element creates a new line.</li>
+  <li><b>&lt;p&gt;</b> - <i><b>p</b></i> is for 'paragraph', which is the tag you may use
+    to arrange much of your text information.  Depending on the style
+    you are using, text wrapped in a &lt;p&gt; tag may be indented or have
+    extra vertical white space before starting.  When rendered on the
+    Web page, a <i>p</i> element creates a new line.</li>
 </ul>
 
 <h4>HTML</h4>
@@ -2664,11 +2633,9 @@ picky. As you will learn in Module 3, it is possible to change the
 styling of one element to look like just about any other element.  You
 could style a &lt;p&gt; element so that it looks like an &lt;h1&gt;, though best
 practice would be not to do that.</p>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-6-2">1.6.2 A Few New Tags to Learn</h3>
-<!------------------------------------------------------------------------------------------------>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>There are a lot more tags, but we will just cover a few more for now,
 mostly because they are straightforward to use and you can see the
 effect in your Web page when you use them:</p>
@@ -2713,10 +2680,9 @@ effect in your Web page when you use them:</p>
 ```
 
 <h4>This code might be rendered like this:</h4>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--------------------------------- 18. example ul and li (56) ----------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image018.png?raw=true"
   width="25%"
@@ -2759,9 +2725,9 @@ primarily used to invoke certain formatting.</p>
 5.  would smell as sweet
 ```
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!----------------------------- 19. that which we call a rose (61) ------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image019.png?raw=true"
   width="25%"
@@ -2785,19 +2751,15 @@ both spaces and
 line breaks
 ```
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-6-3">1.6.3 More HTML5</h3>
-<!------------------------------------------------------------------------------------------------>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Video</h4>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-6-4">1.6.4 Activity - Your First Web Page</h3>
-<!------------------------------------------------------------------------------------------------>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-6-5">1.6.5 Recipe Project – Module 1</h3>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <p>Throughout the course, we'll be building a simple project, adding to it
 with what we've learned in each module. This project will be a simple
@@ -2872,14 +2834,11 @@ following components:</p>
 ```
 
 </details>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2">Welcome to Module 2</h2>
-<!------------------------------------------------------------------------------------------------>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------------------------- 20. attributes, images and links (61) ----------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image020.png?raw=true"
   width="35%"
@@ -2917,9 +2876,9 @@ what you've learned and test your knowledge by doing a quiz.
 
 We hope you enjoy the course, and happy learning!
 </p>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-1-2">2.1.2 Meaningful Web Pages</h3>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>
 Tags and elements are building blocks of HTML5. However, they can be
 made so much more exciting with attributes. Let's take a simple element
@@ -2951,11 +2910,9 @@ optimization (SEO) to improve your search engine rankings, and for
 visually impaired people who access your Web page using assistive
 technology like screen readers. Semantic markup enables all of this and
 more.</p>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-1-3">2.1.3 Module 2 - Content</h3>
-<!------------------------------------------------------------------------------------------------>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p><b>2.1 Introduction:</b> Check out this video explaining what you'll be
 learning about in Module 2 - and wrap your mind around the concept of
 "semantic markup".
@@ -2972,11 +2929,9 @@ your Web pages.
 <b>2.5 Hyperlinks:</b> They are the connections that allow the world to
 jump from place to place on the Web. Explore the secrets of this
 powerful mechanism!</p>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-2-1">2.2.1 Introduction</h3>
-<!------------------------------------------------------------------------------------------------>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>We learned a little bit about what attributes are in the previous
 module. Let's look into it in more depth, by using examples.</p>
 
@@ -3141,11 +3096,9 @@ poems 'poetry'.</p>
 <p>So now, all you have to do in your style sheet, is to instruct it to
 make all elements belonging to the 'poetry' class grey, italic and
 bold.</p>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-2-2">2.2.2 Global and Non-Global Attributes</h3>
-<!------------------------------------------------------------------------------------------------>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>You have seen a few examples of attributes now: start, id and class. All
 HTML elements have attributes.
 
@@ -3203,9 +3156,9 @@ several tags such as &lt;img&gt;, &lt;input&gt; and &lt;video&gt;.</p>
 </ol>
 ```
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------------- 21. html result (67) ------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image021.png?raw=true"
   width="35%"
@@ -3246,11 +3199,9 @@ Developer Network and find out the non-global attributes that can be
 applied to the &lt;li&gt; tag. Search for the &lt;li&gt; element and then click
 on it: it will take you to the list tag's page that specifies applicable
 attributes.</p>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-2-3">2.2.3 Global Attributes: Examples</h3>
-<!------------------------------------------------------------------------------------------------>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Global attribute: 'id'</h4>
 
 <p>Like we saw in the previous unit, <a href="https://www.w3.org/TR/html5/dom.html#global-attributes">here is a list of all the global
@@ -3429,9 +3380,9 @@ English.</p>
 Don't click on it, just rest your cursor there.</p>
 
 <h4>NASA</h4>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------------------------------- 22. beautiful girl (71) ------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image022.jpeg?raw=true"
   width="25%"
@@ -3451,11 +3402,10 @@ value. 
 <abbr title="National Aeronautics and Space
    Administration">NASA</abbr>
 ```
-	
-<!------------------------------------------------------------------------------------------------>
-<h3 id="ch2-2-4">2.2.4 Global Attributes</h3>
-<!------------------------------------------------------------------------------------------------>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3 id="ch2-2-4">2.2.4 Global Attributes</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>References for the video text below:</h4>
 <ul>
    <li><a href="https://www.w3.org/2009/cheatsheet/">W3C Cheatsheet</a></li>
@@ -3611,11 +3561,9 @@ different element pages.
 
 That's it for now and, go ahead and explore attributes and all of the
 elements you can think of.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-2-5">2.2.5 Activities - Attributes</h3>
-<!------------------------------------------------------------------------------------------------>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Please find below suggested activities to help you practice:
 
 1.  Find the list of supported attributes for the &lt;area&gt; tag.
@@ -3638,11 +3586,9 @@ Please find below suggested activities to help you practice:
 4.  Create an ordered list starting with the number 11. Then, reverse
     the list. Give it the following title (when you hover your mouse, it
     should display the title as a tooltip): 'Activity List'.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-3-1">2.3.1 Separating Content and Style</h3>
-<!------------------------------------------------------------------------------------------------>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 When writing in hypertext language, it is important to separate content
 and style. Style should be kept tucked away in Cascading Style Sheets
 (CSS).
@@ -3661,14 +3607,13 @@ rule and were eventually corrected in HTML5.
     strong tag!</p>
 
 This is how the above HTML code will look in a browser:
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--------------------------- 23. how html will look in browser (76) ----------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image023.png?raw=true"
   width="45%"
-  alt="" />
+  alt="How HTML will look in the browser." />
 </p>
 
 It seems redundant for two tags to do the same thing in HTML.
@@ -3808,11 +3753,9 @@ translated, since styling doesn't necessarily map to the same semantic
 categories across different cultures. For more information, read the
 article <a href="https://www.w3.org/International/questions/qa-b-and-i-tags">Using &lt;b&gt; and &lt;i&gt;
 elements</a>.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-3-2">2.3.2 Introduction to Semantic Elements</h3>
-<!------------------------------------------------------------------------------------------------>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Semantic HTML is HTML that concentrates on the meaning of information in
 Web pages instead of its presentation or look.
 
@@ -3864,10 +3807,9 @@ semantic elements.
 
 Let's look at a typical Web page structure that consists of blocks named
 after: header, nav, article, section, aside and footer.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!----------------------- 24. picture showing structure of a web site (78) ----------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image024.jpeg?raw=true"
   width="45%"
@@ -3998,20 +3940,17 @@ this:
 ```
 
 </details>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------------------------- 25. using the markup validator (83) ------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image025.png?raw=true"
   width="45%"
   alt="Using the markup validator." />
 </p>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-3-3">2.3.3 New HTML5 Semantic Elements</h3>
-<!------------------------------------------------------------------------------------------------>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 We will elaborate on selected semantic elements in detail in the next
 unit.
 
@@ -4188,9 +4127,9 @@ Moncrieff&lt;/p&gt;</p></li>
 </table>
 
 <h4>Element</h4>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------ 26. example details command (86) -------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image026.png?raw=true"
   width="40%"
@@ -4218,10 +4157,9 @@ for all users.
 ```
 
 <h4>Result:</h4>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------------------------- 27. example figcaption command (86) ------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image027.jpeg?raw=true"
   width="20%"
@@ -4239,9 +4177,9 @@ Fig. 1: The cast hard at work at dress rehearsal before opening night</p>
    sandwiches on a salver</mark>]</p>
 ```
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--------------------- 28. example mark command you want to highlight (87) ---------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image028.png?raw=true"
   width="40%"
@@ -4296,10 +4234,9 @@ showcased in the paragraph -->
 ```
 
 </details>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!----------------------------- 29. the aside semantic element (88) ------------------------------>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image029.png?raw=true"
   width="30%"
@@ -4367,10 +4304,9 @@ Apart from
 these, &lt;cite&gt;, &lt;em&gt;, &lt;strong&gt;, &lt;p&gt; and &lt;blockquote&gt; are also
 semantic elements.
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-3-4">2.3.4 Differentiating Semantic Elements</h3>
-<!------------------------------------------------------------------------------------------------>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Now, you have learned the semantic elements available and their syntax.
 When you try to apply it practically, there are some common problems you
 might run into. For example, when do we use &lt;header&gt; and when do we
@@ -4416,10 +4352,9 @@ element. <b>Here's a simplified version</b>:
 ```
 
 </details>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------------------------- 30. html5.2x header and headings (91) ----------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image030.png?raw=true"
   width="40%"
@@ -4458,10 +4393,9 @@ identify headings</a>.
 ```
 
 </details>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!----------------------------- 31. brad's cookbook in codepen (92) ------------------------------>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image031.png?raw=true"
   width="40%"
@@ -4507,9 +4441,9 @@ tutorialzine.com for examples of header templates. 
 Let's look at site-wide/global header and footer used in [Microsoft
 Virtual Academy home page](https://mva.microsoft.com/). At the time of
 course creation, here are screenshots of its header:
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------------- 32. screenshot of the top ms virtual academy home page (93) ------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image032.png?raw=true"
   width="40%"
@@ -4517,10 +4451,9 @@ course creation, here are screenshots of its header:
 </p>
 
 and footer.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--------- 33. screenshot of the ms virtual academy home page showing the footer (93) ----------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image033.png?raw=true"
   width="65%"
@@ -4546,10 +4479,9 @@ reading its contents or to make it immediately available.
 
 Now, let's look at a more complete example using a global header and
 multiple &lt;header&gt;, &lt;footer&gt; and &lt;nav&gt; tags.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------ 34. screenshot of the ms virtual academy home page showing more (94) -------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image034.png?raw=true"
   width="50%"
@@ -4639,10 +4571,9 @@ multiple &lt;header&gt;, &lt;footer&gt; and &lt;nav&gt; tags.
 ```
 
 </details>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-3-5">2.3.5 &lt;article&gt; and &lt;section&gt; Elements</h3>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <h4>&lt;article&gt; element</h4>
 
@@ -4705,9 +4636,9 @@ in another). Sections can also be part of an article, aside or nav
 elements. While the code above makes no sense by itself, if you add it
 to our CES 2018 &lt;article&gt; example, it will fit right in:
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!----------------------- 35. example html with article and section (97) ------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image035.png?raw=true"
   width="40%"
@@ -4759,10 +4690,9 @@ groups.
 To get a better understanding on the usage of semantic elements in your
 Web page, try on
 this [CodePen](https://codepen.io/w3devcampus/pen/Wjzjpx):
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------ 36. html5 table of contents (98) -------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image036.png?raw=true"
   width="40%"
@@ -4926,11 +4856,9 @@ mark, figure, figcaption, details and summary.
 
 Experiment with the sample and try inserting other semantic elements
 that you want to try.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-3-6">2.3.6 &lt;div&gt; and &lt;span&gt; Elements</h3>
-<!------------------------------------------------------------------------------------------------>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>&lt;div&gt; element</h4>
 
 The &lt;div&gt; tag is one you will likely see sprinkled all over an HTML
@@ -5073,11 +5001,9 @@ close the first open &lt;p&gt; for you. Nesting one paragraph tag in another
 is not valid because the browser will consider them as two
 paragraphs one after the other. Even though you close the paragraphs
 with two closing tags &lt;/p&gt;&lt;/p&gt; at the end, they are ignored.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-3-7">2.3.7 Activities – Semantic Meaning</h3>
-<!------------------------------------------------------------------------------------------------>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Please find below suggested activities to help you practice:
 
 1.  How are &lt;header&gt; and &lt;h1&gt; related? What is the difference
@@ -5089,10 +5015,9 @@ Please find below suggested activities to help you practice:
 3.  Write a short HTML page that uses the &lt;div&gt; and &lt;span&gt; tags. You
     need not style them.
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-4-1">2.4.1 Introduction</h3>
-<!------------------------------------------------------------------------------------------------>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>The &lt;img&gt; tag</h4>
 
 In this age of visual culture, what is a Web page without images?
@@ -5195,9 +5120,9 @@ information to be aware of.
 <li><b>SVG</b> (Scalable Vector Graphics) are defined mathematically and
     support animation. Also, since they are defined mathematically  they
     scale to:
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------ 37. logo scalable vector graphics (svg) (106) ------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img src="./images/image037.png?raw=true"
   width="10%"
   alt="Logo Scalable Vector Graphics (SVG)." />
@@ -5212,9 +5137,9 @@ information to be aware of.
     a <a href="https://www.w3.org/TR/SVG/" target="_blank">W3C Web standard</a>).</li>
 </ul>
 </p>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-4-2">2.4.2 Attribute alt</h3>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>alt stands for <i>alternate text</i> for an image.</h4>
 
 ```
@@ -5279,27 +5204,24 @@ browser:
 <img src="image/tulips.png" alt="This is supposed to be an image of tulips">
 ```
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------- 38. this is supposed to be an image of tulips (108) ----------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image038.png?raw=true"
   width="35%"
   alt="This is supposed to be an image of tulips." />
 </p>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-4-3">2.4.3 Attributes: title, height & width</h3>
-<!------------------------------------------------------------------------------------------------>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>The 'title' attribute</h4>
 
 Try this: place your mouse on the image below. Don't click, just rest
 your cursor on it. 
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------------------- 39. tulips in a basket (108) ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image039.jpeg?raw=true"
   width="35%"
@@ -5333,10 +5255,9 @@ The width and height attributes can be used to resize the image in
 pixels without using an external editor.
 
 Here is my original image:
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------------ 40. html5 logo (109) -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image040.png?raw=true"
   width="15%"
@@ -5357,9 +5278,9 @@ Now, if I want to resize the HTML logo above by half:
    image seems to fit the page better" height="173" width="262">
 ```
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------- 41. html5 logo 1/2-sized (109) --------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image041.png?raw=true"
   width="7%"
@@ -5390,11 +5311,9 @@ cluttering your CSS with a style for every image in your page. This is
 also useful if you are changing or removing the image: you can just
 remove it from your HTML and not deal with remembering to remove it
 from your CSS too.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-4-4">2.4.4 Decorative images</h3>
-<!------------------------------------------------------------------------------------------------>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Should all images be part of HTML content?
 
 A significant part of images on the Web are not used for any meaning.
@@ -5424,34 +5343,26 @@ the page.
 Can you identify these types of decorative images?
 
 Find out from their tooltips!
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!----------------------- 42,43,44. mountains, brick wall & banner (111) ------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image042.jpeg"
   width="20%"
   alt="Beautiful landscape background image.  On the left." />
-<!-------
-style="width:2in;height:2in"
--------->
+<!-- style="width:2in;height:2in" -->
 <img src="./images/image043.jpeg"
   width="20%"
   alt="Brick texture for use behind main content.  In the center." />
-<!-------
-   style="width:2in;height:2in"
--------->
+<!-- style="width:2in;height:2in" -->
 <img src="./images/image044.jpeg"
   width="20%"
   alt="Decorative banner graphic.  On the right." />
 </p>
-<!-------
-style="width:2in;height:2in"
--------->
-
-<!------------------------------------------------------------------------------------------------>
+<!-- style="width:2in;height:2in" -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-4-5">2.4.5 Using &lt;img&gt; Tags</h3>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi there! In this video, we're going to take a closer look at how we add
 images to our HTML pages.
@@ -5579,7 +5490,7 @@ For example, if I type in, 'title=' and then paste in some descriptive
 text it says, "Oceanfront view from the Surfers Paradise rental cottage,
 California."
 
-And what happens is, if I sav my page, nothing looks like it happened
+And what happens is, if I save my page, nothing looks like it happened
 over on the page.
 
 But if I hover over the actual image, now I get that information.
@@ -5670,10 +5581,9 @@ That's it.
 In this video, we'd fun with images, the image tag and its attributes.
 
 You're all set to spice up your pages with some images. Take care!
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-4-6">2.4.6 Activities - images</h3>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Please find below a list of possible activities:
 
@@ -5870,11 +5780,9 @@ addresses:
     hyperlink will expose your email address. Bots or spam crawlers can
     be used to search the Web to pick up email addresses for spam. You
     should avoid this if possible and use contact forms instead.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-5-2">2.5.2 Attributes: href and target</h3>
-<!------------------------------------------------------------------------------------------------>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>The 'href' attribute</h4>
 
 The only attribute we have seen thus far in this chapter of hyperlinks
@@ -5961,11 +5869,9 @@ of the new tab having opened.</p></td>
 </tr>
 </tbody>
 </table>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-5-3">2.5.3 Attributes: Media and Download</h3>
-<!------------------------------------------------------------------------------------------------>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>The 'media' attribute</h4>
 
 The media attribute was introduced in HTML5. We will look at it briefly
@@ -6031,22 +5937,17 @@ modified according to value specified. 
 browsers](https://caniuse.com/#search=download). Try
 the download attribute in a html file of your own and run it in
 different browsers to see how it behaves.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-5-4">2.5.4 Use of Hyperlink Attributes</h3>
-<!------------------------------------------------------------------------------------------------>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------- 46. hyperlink attributes (122) --------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image046.png?raw=true"
   width="65%"
   alt="Hyperlink attributes." />
 </p>
-<!-------
-style="width:6.5in;height:3.55208in"
-------->
+<!-- style="width:6.5in;height:3.55208in" -->
 
 In this live coding demo, we're going to dive deep into hyperlinks.
 
@@ -6276,26 +6177,22 @@ That concludes our live coding demo on hyperlinks.
 You've seen how to use the attributes on the anchor tag to jump to pages
 on our site, visit other sites, download files and even skip around on
 the same page.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-5-5">2.5.5 Recipe Project – Module 2</h3>
-<!------------------------------------------------------------------------------------------------>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 We are now going to continue building on the recipe project we started
 in Module 1.  You can find our version in the CodePen below (and the
 live coding video at the end of this page).
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!----------------------------- 47. recipe project, part ii (126) -------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image047.png?raw=true"
   width="65%"
   alt="Recipe project, part ii." />
 </p>
-<!--------
-style="width:6.5in;height:3.27778in" />
-------->
+<!-- style="width:6.5in;height:3.27778in" /> -->
+
 <h4>HTML</h4>
 
 <details>
@@ -6563,22 +6460,17 @@ of the main elements that I wanted to show you as well as some semantic
 tags.
 
 And that concludes this live coding session. Bon appétit !
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3">Welcome to Module 3</h2>
-<!------------------------------------------------------------------------------------------------>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------ 48. w3cx html5 and css3 logo (132) ------------------------------>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image048.png"
   width="40%"
   alt="W3Cx HTML5 and CSS3 logo." />
 </p>
-<!-------
-style="width:4in;height:2.27184in" />
-------->
+<!-- style="width:4in;height:2.27184in" /> -->
 
 Hi, my name's Adrian.
 
@@ -6588,10 +6480,9 @@ CSS course.
 In this module, we will introduce a new language, CSS.
 
 CSS, or Cascading Style Sheets, is used to style each HTML.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------ 49. adding styles with css (132) -------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image049.png"
   width="20%"
@@ -6613,10 +6504,9 @@ visual impact is very rewarding.
 
 So, prepare to have fun, and let yourself experiment because that's how
 you learn, experimentation.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-1-2">3.1.2 Module 3 Content</h3>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 1.  <b>Introduction to Module 3:</b> Get an overview of what CSS (Cascading
     Style Sheets) can do for your Web pages.
@@ -6632,22 +6522,19 @@ you learn, experimentation.
     specific purpose tags in HTML, and selectors are what allows you to
     target specific HTML elements and apply style to them
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-1-3">3.1.3 The CSS Language</h3>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <h4>CSS stands for 'Cascading Style Sheets'</h4>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------------- 50. css logo (133) --------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img src="./images/image050.png"
   width="20%"
   alt="CSS Logo." />
 </p>
-<!-------
-style="width:2in;height:1.09388in" />
-------->
+<!-- style="width:2in;height:1.09388in" /> -->
 
 For now, do not worry about what the 'Cascading' part means and just
 focus on the 'Style Sheets'.
@@ -6677,26 +6564,24 @@ central way to set such rules, i.e. one place that said "I want all my
 paragraphs to be indented this much", much like master sheets in a word
 processor. CSS helps to solve this problem.
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-1-4">3.1.4 The W3C CSS Working Group</h3>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 The <b>CSS Working Group</b> (Cascading Style Sheets Working Group) is
 a [working group](https://en.wikipedia.org/wiki/Working_group) created
 by the W3C in 1997 to tackle issues that had not been addressed
 with [CSS](https://en.wikipedia.org/wiki/CSS) level 1.
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------------------- 51. the css gang photo (134) ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image051.jpeg?raw=true"
   width="65%"
   alt="Gang photo of the css folks (TPAC)." />
 </p>
-<!-------
-style="width:6.5in;height:3.31528in"
--------->
+<!-- style="width:6.5in;height:3.31528in" -->
 
 The CSS WG meeting in Lisbon, November 2016. The working group is co-chaired by
 Rossen Atanassov and Alan Stearns. (Photo credit: Marie-Claire Forgue)
@@ -6709,11 +6594,9 @@ together form the current state of Cascading Style Sheets (CSS) as of
 2020. The primary audience is CSS implementers, not CSS authors, as this
 definition includes modules by specification stability, not Web browser
 adoption rate.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-1-5">3.1.5 An Example</h3>
-<!------------------------------------------------------------------------------------------------>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Let's see CSS in action. Below, we see two identical copies of HTML,
 however, styled differently.
 
@@ -6732,24 +6615,19 @@ stopped.
 
 Both of these use the exact same HTML. It is the CSS that makes them so
 different. So let's get started.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-2-1">3.2.1 The &lt;style&gt; and &lt;link&gt; tags</h3>
-<!------------------------------------------------------------------------------------------------>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>The &lt;style&gt; tag</h4>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------- 52. style and link tags & attributes (134) --------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image052.jpeg?raw=true"
   width="15%"
   alt="Snapshot as a style tag in the XDR code editor." />
 </p>
-<!--------
-style="width:1.5625in;height:1.5625in"
--------->
+<!-- style="width:1.5625in;height:1.5625in" -->
 
 The best practice when working with CSS is to keep it in an external
 file using the &lt;link&gt; tag, however, when starting, it is simpler to
@@ -6818,17 +6696,15 @@ directory named <i>css</i>.
 ```
 
 </details>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-2-2">3.2.2 Rules: selectors and declarations</h3>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 At its simplest, CSS is just a list of <i>rules</i>.  Each <i>rule</i> consists of
 a <i>selector</i> and a <i>declaration.</i>  Here is an example:
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------------------- 53. figure showing a selector & declaration (137) ----------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image053.jpeg"
   style="width:4in;height:3.30064in"
@@ -6877,10 +6753,9 @@ p {
 }
 ```
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-2-3">3.2.3 Comments</h3>
-<!------------------------------------------------------------------------------------------------>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 CSS can include "comments" as well, by which you, the developer today,
 can leave notes and reminders to you, a different developer tomorrow. Or
 to others who might read your CSS.  
@@ -6904,17 +6779,14 @@ p {
 ```
 
 </details>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-2-4">3.2.4 Knowledge Check</h3>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 n/a
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-2-5">3.2.5 Activity - Use CSS</h3>
-<!------------------------------------------------------------------------------------------------>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Use CSS on the following HTML code. Try various styles, experiment, and
 have fun. We have a live coding demonstration in the next page working
 with the same source.
@@ -6922,9 +6794,9 @@ with the same source.
 You are welcome to edit the
 following <a href="https://codepen.io/w3devcampus/pen/QvQgbr" target="_blank">CodePen.</a>
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------- 54. on the inventor of gunpower by john milton (139) ---------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image054.png?raw=true"
   width="65%"
@@ -6962,17 +6834,15 @@ editor):
 
 You could also take another short text (such as a poem) and apply the
 styles you like on it.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-2-6">3.2.6 CSS Rules</h3>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Hi, this is Adrian from Microsoft learning, and we're going to be
 learning today about CSS and HTML, and the ways in which they play
 together.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------- 54b. on the inventor of gunpower by john milton (140) --------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image054b.png?raw=true"
   width="65%"
@@ -6990,10 +6860,9 @@ it look and feel a little bit different.
 
 And we've got our header tag, we've got our address and of course the
 poem which is being held in this fantastic paragraph tag.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------- 55b. on the inventor of gunpower by john milton (141) --------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image055b.png?raw=true"
   width="65%"
@@ -13923,9 +13792,9 @@ Here we prevent the overlap by setting the line-height of the span.
 However, this solution should not be considered optimal.  Better is to
 change the span to be display:inline-block, which is discussed below.
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------ 137. display:inline-block (##) -------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image137.png?raw=true"
   width="65%"
@@ -13969,9 +13838,9 @@ instead of using line-height to solve the problem, we simply make the
 span element display:inline-block.  Note that the margin-top is also
 respected. 
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------ 138.  (##) -------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image138.png?raw=true"
   width="65%"
@@ -13992,9 +13861,9 @@ A key to not getting confounded by the display property is to have a
 grasp on which elements default to which display value and appreciating
 the differences between block, inline, and inline-block display.
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch6-2-2">6.2.2 Horizontal and vertical centering</h3>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <b>Horizontal centering</b>
 
 Now that we've covered inline versus block display, we can intelligently
@@ -14066,9 +13935,9 @@ There is no margin:auto approach to vertical centering. There are some
 complicated systems that folk have developed, but the shortest and best
 answer to vertical centering: use flexbox. 
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch6-2-3">6.2.3 Key concept: position property</h3>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 The 'left', 'top', 'right', and 'bottom' properties
 
 In CSS, there are four properties which can be used to adjust or set the
@@ -14191,9 +14060,9 @@ matching dimensional property (width) unspecified.  The element will
 grow or shrink based on the size of the browser window.  Note that this
 feature is only available to fixed (and absolute) elements.
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch6-2-4">6.2.4 Positioning (OPTIONAL)</h3>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <b>Note:</b> This section is optional material included for the curious. It
 will not appear on any graded question.
 
@@ -14257,9 +14126,9 @@ Compare what happens when we use  margin-top to move it, versus a
 positioning property (top).   When we use top, the "Third" item appears
 overlapping the Fourth and Fifth items, as they did not move at all. 
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------------------- 139. example using css (300) ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
   <img src="./images/image139.png"
   style="width:6.5in;height:1.83681in"
@@ -14293,17 +14162,15 @@ paragraph is made smaller and no part goes outside its parent.  But when
 it is position:relative and moved with the left property, it can leave
 the bounds of its parent, or go offscreen.
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------ 140. block level paragraph with border (301) -------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image140.png?raw=true"
   width="65%"
   alt="Block level paragraph with border." />
 </p>
-<!-- <img src="./images/image142.png"
-style="width:6.5in;height:1.45139in" />
--->
+<!-- <img src="./images/image142.png" style="width:6.5in;height:1.45139in" /> -->
 
 Admittedly, this is not necessarily a "limitation", for many layout
 situations preserving the size is exactly what is wanted. 
@@ -14331,18 +14198,15 @@ some text and an inner &lt;q&gt;.  For a better illustration, the paragraph
 has its height set and a border applied.  The &lt;q&gt; is positioned
 absolutely.
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------- 141. paragraph with height & border set and 'q' positioned absolute (302) ----------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image141.png?raw=true"
   width="65%"
   alt="Paragraph with height and border set along with 'q' positioned absolute." />
 </p>
-<!---
-<img src="./images/image143.png"
-style="width:6.5in;height:2.33889in" />
---->
+<!-- <img src="./images/image143.png" style="width:6.5in;height:2.33889in" /> -->
 
 So that seems fairly straightforward and useful. But there are some
 subtle caveats and trade-offs of which you must be wary:
@@ -14394,18 +14258,15 @@ other. (The 1 is hidden behind the 2). Borders have been added in the
 result below, so you can easily see the rectangle
 for  &lt;li&gt; versus &lt;ul&gt;.
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--------------------------- 142. relative, static & absolute (303) ----------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image142.png?raw=true"
   width="65%"
   alt="List item styling.  Two are relative, therefore are static & overlapped." />
 </p>
-<!---
-<img src="./images/image143.png"
-style="width:6.5in;height:1.83681in" />
---->
+<!-- <img src="./images/image143.png" style="width:6.5in;height:1.83681in" /> -->
 
 Best practice: use both horizontal and vertical positioning property on
 every absolute element
@@ -14451,17 +14312,15 @@ contribute to the height of the parent. As a result, it ends up with a
 height of 0, as if it were empty. The fat border just becomes a fat flat
 line, and the list items themselves are not enclosed. 
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------------- 143. position default vs absolute  (304) ---------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image143.png?raw=true"
   width="85%"
   alt="Position default vs. absolute." />
 </p>
-<!-- <img src="./images/image145.png"
-style="width:6.5in;height:1.29306in" />
--->
+<!-- <img src="./images/image145.png" style="width:6.5in;height:1.29306in" /> -->
 
 <h4>Absolute positioned block level elements do not get the width of their parent</h4>
 
@@ -14501,10 +14360,9 @@ grow or shrink based on the size of the ancestor it is positioning
 against.  Note that this feature is only available to absolute and fixed
 positioned elements.
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch6-2-5">6.2.5 'z-index' (OPTIONAL)</h3>
-<!------------------------------------------------------------------------------------------------>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <b>Note</b>: this section is optional material included for the curious. It
 will not appear on any graded question.
 
@@ -14532,9 +14390,9 @@ them position relative and using negative margins
 set, so the later elements overlap the earlier ones.  But on the right,
 we govern the overlapping with the z-index property. 
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------------------------- 144. position relative overlap  (306) ----------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image144.png?raw=true"
   width="85%"
@@ -14542,10 +14400,9 @@ we govern the overlapping with the z-index property. 
 </p>
 
 <ul>
-<li>z-index has no effect on position:static (the default) elements.</li>
-<li>If z-index is not set, siblings that appear later in the HTML
-    document overlap (are "higher than") earlier siblings.</li>
-<li>z-index is relative between siblings, not any arbitrary elements.</li>
+  <li>z-index has no effect on position:static (the default) elements.</li>
+  <li>If z-index is not set, siblings that appear later in the HTML document overlap (are "higher than") earlier siblings.</li>
+  <li>z-index is relative between siblings, not any arbitrary elements.</li>
 </ul>
 
 <h4>Siblings and nesting</h4>
@@ -14567,18 +14424,18 @@ because Alan's parent Albert is lower than Betty, Alan remains behind.
 Alan's high z-index is only relevant to his siblings, not to cousins
 further out in the document.
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------------------------- 145. overlapping sibling divs (306) ------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image145.png?raw=true"
   width="85%"
   alt="Overlapping sibling divs." />
 </p>
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch6-2-6">6.2.6 Activity - Block vs. inline</h3>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 We've provided you with a starter project file. The code is included below in a CodePen:
 This simple file has two block level elements (the paragraphs) and two spans, which are inline. Additionally, there are several classes defined for you.
 
@@ -14608,9 +14465,9 @@ Play some more with the elements, trying to appreciate how block and inline elem
 
 <b>NOTE:</b> Please do not upload HTML code to the discussion forum.
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch6-3-1">6.3.1 Sizing and dimensions</h3>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 We have already touched on the size properties in the various
 discussions about display and positioning. But here we'll cover them
 properly and add a few more.
@@ -14713,9 +14570,9 @@ easier to see by adding a border and background color to the paragraph.
 This default behavior, that content that doesn't fit is shown anyway,
 can be surprising if you weren't expecting it.
 </p>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------- 146. cropping and scrolling overflow (312) --------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image146.png?raw=true"
   width="65%"
@@ -14754,10 +14611,9 @@ of 100 pixels. 
 
 3.  When the value is scroll, then the scroll bars are *always* shown,
     whether they are needed or not.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--------------------------------- 147. scrolling value (313) ----------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image147.png?raw=true"
   width="65%"
@@ -14780,10 +14636,9 @@ Every element has several "boxes" it manages: its own content, padding,
 border, and margins.  In CSS parlance, this question is about the "Box
 Model" of the element.  Here is an illustration of how the different
 boxes are organized (innermost to outermost).
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------- 148. it's own content, padding, border & margines (314) -------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image148.png?raw=true"
   width="45%"
@@ -14818,10 +14673,9 @@ section), then the box-model is not that important. The rule of thumb is
 that the more you are directly managing the size of items, the more
 likely you will need to change the box-sizing property to
 be border-box.  
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch6-3-2">6.3.2 Flexbox</h3>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Up to this point, we have covered quite a few different CSS layout
 concepts. Inline vs. block level display, different position values,
 various positioning properties, six different sizing properties, plus
@@ -14861,9 +14715,9 @@ browser sizes, with no other properties applied except some small margin
 and padding on the paragraph, and a background color and a border radius
 to help visualize.
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------- 151. flex container and flex columns (322) --------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image151.png?raw=true"
   width="100%"
@@ -15028,9 +14882,9 @@ change at all, then set the flex-grow and flex-shrink to 0, and
 the box-sizing to border-box.  However, this is not advisable. Read
 the flex-shrink discussion above.  
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch6-3-3">6.3.3 Flexbox advice and best practices</h3>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Here are some quick tips to help you get the most out of flexbox.
 
 <h4>Remember the minimum</h4>
@@ -15120,11 +14974,9 @@ as many browsers as possible.
   <li><a href="https://www.smashingmagazine.com/2018/08/flexbox-display-flex-container/" target="_blank">What Happens When You Create A Flexbox Flex Container?</a>
   (by Rachel Andrew - 2 August 2018)</li>
 </ul>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch6-4-1">6.4.1 Main and cross axes</h3>
-<!------------------------------------------------------------------------------------------------>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <b>Note</b>: This material is included for completeness. However, many are
 able to use flexbox satisfactorily without it. None of the material here
 will appear in any graded question.
@@ -15149,10 +15001,9 @@ axis is vertical and runs top to bottom. And with flex-flow:row
 wrap-reverse; it is vertical running bottom to top.
 
 <h4>Start and end</h4>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--------------------------- 170. flex container and flex-flow (324) ---------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image170.jpg?raw=true"
   width="65%"
@@ -15228,10 +15079,9 @@ the justify-content property, flex-start and flex-end refer to the "main
 start" and "main end" sides (as in the illustration above).   When used
 with any of the flexbox align properties, flex-start and flex-end refer
 to the "cross start" and "cross end"  sides.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch6-4-2">6.4.2 Justification and alignment</h3>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <b>Note</b>: This material is included for completeness. However, many are
 able to use flexbox satisfactorily without it. None of the material here
 will appear in any graded question.
@@ -15266,10 +15116,9 @@ the direction of the cross axis.
 
 The table below should help illustrate this. It shows the justification
 options for a flexbox container with flex-flow:row;
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------ 171. justification options for a flexbox container with flex-flow (338) ----------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image171.png?raw=true"
   width="100%"
@@ -15315,19 +15164,17 @@ height of any of the items.  
 
 In the example below, each item has a different line-height value, so
 you can see how they align to each other.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------- 172. line height and align items #1 (339) ---------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image172.png?raw=true"
   width="65%"
   alt="Line Height and Align Items #1." />
 </p>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------- 173. line height and align items #2 (339)  --------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image173.png?raw=true"
   width="65%"
@@ -15350,17 +15197,17 @@ as justify-content (flex-start, center, flex-end, space-between, space-aro
 This is easier to understand from an example. Below we have a flex
 container with  flex-flow:row wrap; and a height value that is greater
 than the height of any of the items.
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------- 174. flexbox and flex items align #1 (340) --------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image174.png?raw=true"
   width="65%"
   alt="Flexbox and Flex Item Align #1." />
 </p>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------- 175. flexbox and flex items align #2 (340) --------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image175.png?raw=true"
   width="65%"
@@ -15389,18 +15236,17 @@ to auto.
 In the example below, we have a flex container
 with flex-flow:row; and align-items:center;.  The individual items have
 their align-self property set.
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--------------------------------- 176. flex container (341) ------------------------------------>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image176.png?raw=true"
   width="65%"
   alt="Flex Container with flex-flow and align." />
 </p>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch6-4-3">6.4.3 Order</h3>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <b>Note</b>: This material is included for completeness. However, many are
 able to use flexbox satisfactorily without it. None of the material here
 will appear in any graded question.
@@ -15426,15 +15272,14 @@ of column-reverse, this could be a problem.  
 The order property, when applied to an individual flexbox item, lets you
 set its order. By default, the first item in a flexbox container has
 the order value of 1, the second is 2, etc.  And you can override it.
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------------------------- 177. order property in flex box (342) ----------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image177.png?raw=true"
   width="85%"
   alt="Order property in flex box." />
 </p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch6-4-4">6.4.4 Flexbox resources</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -15486,7 +15331,6 @@ The developer feedback has been remarkable, with all the major browser vendors i
 It's not just something we're talking about, they can go use it.
 We should've maybe pushed more, I think.
 The grid is something we should have had, probably from very early on, maybe from the start of CSS already.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch6-5-2">6.5.2 CSS Grid</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
