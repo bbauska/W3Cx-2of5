@@ -760,8 +760,7 @@ text, for most purposes it would still read the same:</p>
 It was the best of times, it was the worst of times . . . .  
 . . .  
 . . . it is a far, far better rest  
-that I go to than I have ever known.
-</pre>
+that I go to than I have ever known.</pre>
 
 <p>Once you know that everything in angle brackets is
 “meta-information”, it leaves a lot of flexibility. You can put a lot of
@@ -1345,8 +1344,7 @@ right after the ‘&lt;’ to indicated that it’s a ‘close tag’. To indica
 the beginning and end of a paragraph (indicated by the single letter
 ‘p’) you end up with something like this:</p>
 
-<pre>&lt;p&gt;This is my first paragraph!&lt;/p&gt;
-</pre>
+<pre>&lt;p&gt;This is my first paragraph!&lt;/p&gt;</pre>
 
 <p>The browser sees the letters ‘&lt;p&gt;’ and decides ‘A new paragraph is
 starting, I’d better start a new line and maybe indent it’.<br>
@@ -1373,8 +1371,7 @@ strange ones as “self closing” tags.<br>
 there is no need for other content.<br>
 <br>So if you see something like this:</p>
 
-<pre>&lt;img src=&quot;https://goo.gl/pVxY0e&quot; alt=&quot;Floating flower&quot;/&gt;
-</pre>
+<pre>&lt;img src=&quot;https://goo.gl/pVxY0e&quot; alt=&quot;Floating flower&quot;/&gt;</pre>
 
 <p>… then you should know that the slash at the end of the open tag is
 sort of a shorthand for a close tag, so you won’t see any other
@@ -1393,8 +1390,7 @@ comments.  HTML5 is no exception.  If you want to add something in your
 file that you want the browser to completely ignore, there’s a special
 tag for that (unsurprisingly called a “comment tag”):</p>
 
-<pre>&lt;!-- This is a comment --&gt;
-</pre>
+<pre>&lt;!-- This is a comment --&gt;</pre>
 
 <p>An HTML comment tag starts with <!-- and ends with -->, meaning that
 as the computer is reading through your HTML file, if it sees <!-- it
@@ -1403,11 +1399,10 @@ open or close tag, just a comment tag.  Unlike most other things in
 HTML5, comments cannot be nested.  If you try that, like:</p>
 
 <pre class="html5">&lt;!--
-Beginning of comment
-  &lt;!-- comment nested inside --&gt;
-This is after the nested comment
---&gt;
-</pre>
+  Beginning of comment
+    &lt;!-- comment nested inside --&gt;
+  This is after the nested comment
+--&gt;</pre>
 
 <p>The computer will then see the beginning of the comment tag and start
 ignoring everything until it sees –&gt;, including the second <!--.
@@ -1418,12 +1413,11 @@ writer may have meant it to be a comment.</p>
  This can be really convenient when you have a lot to say:</p>
 
 <pre>&lt;!--
-If you want some good advice,
-Neither a borrower nor a lender be,
-For loan oft loses both itself and friend,
-And borrowing dulls the edge of husbandry.
---&gt;
-</pre>
+  If you want some good advice,
+  Neither a borrower nor a lender be,
+  For loan oft loses both itself and friend,
+  And borrowing dulls the edge of husbandry.
+--&gt;</pre>
 
 <p>Comments are also commonly used in development to block out bits of
 code, whether for testing or leaving unfinished business in the
@@ -1432,8 +1426,7 @@ file:</p>
 <pre>&lt;!-- Not sure if I want this wording or not:
  &lt;p&gt;Eighty seven years ago, a bunch of guys started a new
     country&lt;/p&gt;
- --&gt;
-</pre>
+ --&gt;</pre>
 
 <p>It’s important to remember that just as HTML, CSS and JavaScript are
 three different languages, they each have their own notation for
@@ -1456,8 +1449,7 @@ attribute.</p>
 
 <pre>&lt;p id=&quot;paragraph-1&quot; class=&quot;regular-paragraphs&quot;&gt;
    Call me Ishmael . . .
-&lt;/p&gt;
-</pre>
+&lt;/p&gt;</pre>
 
 <p>The paragraph above has a unique identifier, “paragraph-1” and is
 part of a class of “regular-paragraphs”.<br>
@@ -1494,17 +1486,16 @@ with a task like that, so it is helpful to use a close tag that matches
 the open tag to make things absolutely clear.</p>
 
 <pre>&lt;p&gt;
-The old lady pulled her spectacles
-down and looked over them about the
-room; then she put them up and looked
-out under them.
+  The old lady pulled her spectacles
+  down and looked over them about the
+  room; then she put them up and looked
+  out under them.
 
-There was a slight noise behind her
-and she turned just in time to seize a
-small boy by the slack of his roundabout
-and arrest his flight.
-&lt;/p&gt;
-</pre>
+  There was a slight noise behind her
+  and she turned just in time to seize a
+  small boy by the slack of his roundabout
+  and arrest his flight.
+&lt;/p&gt;</pre>
 
 <p>The old lady pulled her spectacles down and looked over them about
 the room; then she put them up and looked out under them.<br>
@@ -1534,8 +1525,7 @@ but it won’t know which version of HTML is used (it matters).</p>
 <p>That’s why <b>the first thing you need in any HTML file</b> is a tag
 to tell you what type of HTML file it is:</p>
 
-<pre>&lt;!DOCTYPE html&gt;
-</pre>
+<pre>&lt;!DOCTYPE html&gt;</pre>
 
 <p>In other words, the first thing the browser sees is the declaration
 “This is an HTML5 file, in case you were wondering”.<br>
@@ -1550,8 +1540,7 @@ winded.<br>
 something like this:</p>
 
 <pre>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01//EN&quot;
-   &quot;http://www.w3.org/TR/html4/strict.dtd&quot;&gt;
-</pre>
+   &quot;http://www.w3.org/TR/html4/strict.dtd&quot;&gt;</pre>
 
 <p>
 We do not need to go into the details of why and what that means, just
@@ -1563,8 +1552,7 @@ It may seem redundant, but the next bit tells the browser where the
 actual HTML code begins, using an &lt;html&gt; tag:
 </p>
 
-<pre>&lt;html&gt;
-</pre>
+<pre>&lt;html&gt;</pre>
 
 <p>
 Nearly every HTML document has two parts.<br>
@@ -1584,8 +1572,7 @@ create a very basic html file, in the right form, without any content.<br>
 </p>
 
 <pre>&lt;head&gt;
-&lt;/head&gt;
-</pre>
+&lt;/head&gt;</pre>
 
 <p>
 You may recall the paragraph tag &lt;p&gt; that we used in the example
@@ -1676,14 +1663,12 @@ to character sets and encodings here</a>.
 indicate to the browser the character encoding you will be using in the
 page.</p>
 
-<pre>&lt;meta charset=&quot;utf-8&quot;&gt;
-</pre>
+<pre>&lt;meta charset=&quot;utf-8&quot;&gt;</pre>
 
 <p>Alternatively, you can also use http-equiv and content attributes.</p>
 
 <pre>&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;
-   charset=utf-8&quot;&gt;
-</pre>
+   charset=utf-8&quot;&gt;</pre>
 
 <p>We recommend using the first one because it is much less complicated.
 You should also always use ‘utf-8’.</p>
@@ -1702,8 +1687,7 @@ opening &lt;head&gt; tag:</p>
       &lt;meta charset=&quot;utf-8&quot;&gt;
       ...
    &lt;/head&gt;
-&lt;/html&gt;
-</pre>
+&lt;/html&gt;</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-4-3">1.4.3 HTML Character References</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1714,8 +1698,7 @@ the need for them came about.<br>
 <br>Try the following code in your HTML:</p>
 
 <pre>&lt;p&gt;Welcome to &quot;HTML5 &amp; CSS Fundamentals&quot;. The first tag we will be
-   learning about is  the &lt;html&gt; tag.&lt;/p&gt;
-</pre>
+   learning about is  the &lt;html&gt; tag.&lt;/p&gt;</pre>
 
 <details>
   <summary>HTML code extract!</summary>
@@ -1730,8 +1713,7 @@ the need for them came about.<br>
     &lt;p&gt;Welcome to &quot;HTML5 &amp; CSS Fundamentals&quot;. The first tag we will be
     learning about is the &lt;html&gt; tag.&lt;/p&gt;
   &lt;/body&gt;
-&lt;/html&gt;
-</pre>
+&lt;/html&gt;</pre>
 
 </details>
 
@@ -1748,8 +1730,7 @@ an ampersand symbol '&amp;', followed by the name and a semi-colon.
 Names are case sensitive. For example, the following represents a
 no-break space:</p>
 
-<pre>&amp;nbsp;
-</pre>
+<pre>&amp;nbsp;</pre>
 
 <p>There are two types of numeric character reference: ones that use
 decimal numbers and ones that use hexadecimal numbers.  In each case,
@@ -1758,15 +1739,13 @@ Unicode.<br>
 <br>If you are using a decimal number, use an ampersand symbol ‘&amp;’ ,
 followed by the symbol ‘#’, then a decimal number and a semi-colon.</p>
 
-<pre>&amp;#160;
-</pre>
+<pre>&amp;#160;</pre>
 
 <p>If you are using a hexadecimal number, use an ampersand symbol ‘&amp;’ ,
 followed by the symbols ‘#x’, then a hexadecimal number and a
 semi-colon.</p>
 
-<pre>&amp;#x00A0;
-</pre>
+<pre>&amp;#x00A0;</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-4-4">1.4.4 Special characters</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1834,13 +1813,11 @@ when viewed by a reader:</p>
 <br>Instead, you want it to be displayed to the user.<br>
 <br>So if you wish to display this in your browser:</p>
 
-<pre>&lt;img src=&quot;images/test.png&quot; alt=&quot;test image&quot;&gt;
-</pre>
+<pre>&lt;img src=&quot;images/test.png&quot; alt=&quot;test image&quot;&gt;</pre>
 
 <p>You have to write it like this in your HTML code:</p>
 
-<pre>&lt;img src=&quot;images/test.png&quot; alt=&quot;test image&quot;&gt;
-</pre>
+<pre>&lt;img src=&quot;images/test.png&quot; alt=&quot;test image&quot;&gt;</pre>
 
 <details>
   <summary>HTML code extract!</summary>
@@ -1859,8 +1836,7 @@ when viewed by a reader:</p>
       &lt;img src=&quot;&quot;images/test.png&quot; alt=&quot;test image&quot;&gt;
     &lt;/p&gt;
   &lt;/body&gt;
-&lt;/html&gt;
-</pre>
+&lt;/html&gt;</pre>
 
 </details>
 
@@ -1877,14 +1853,12 @@ entity &amp; for &amp;.</p>
 <br>If you try the code below in a browser and hover your mouse pointer on the text ‘HTML5’, it will show you the title text (it works like a tooltip).<br>
 <br>The title text in the source code includes quotes (around the number 5) like this:</p>
 
-<pre>&lt;abbr title=&quot;Hypertext Markup Language &quot;5&quot;&quot;&gt;HTML5&lt;/abbr&gt;
-</pre>
+<pre>&lt;abbr title=&quot;Hypertext Markup Language &quot;5&quot;&quot;&gt;HTML5&lt;/abbr&gt;</pre>
 
 <p>The above will not display the number 5.<br>
 <br>Replacing the quotes with its character entity will work:</p>
 
-<pre>&lt;abbr title=&quot;Hypertext Markup Language &quot;5&quot;&quot;&gt;HTML5&lt;/abbr&gt;
-</pre>
+<pre>&lt;abbr title=&quot;Hypertext Markup Language &quot;5&quot;&quot;&gt;HTML5&lt;/abbr&gt;</pre>
 
 <p>Check out this jsfiddle link.</p>
 <h4>HTML</h4>
@@ -1893,8 +1867,7 @@ entity &amp; for &amp;.</p>
 &lt;abbr title=&quot;Hypertext Markup Language &quot;5&quot;&quot;&gt;HTML5&lt;/abbr&gt;
 &lt;p&gt;Rest your mouse on the text below: (5 is displayed when quotes is
 replaced with its character entity name)&lt;/p&gt;
-&lt;abbr title=&quot;Hypertext Markup Language &amp;quot;5&amp;quot;&quot;&gt;HTML5&lt;/abbr&gt;
-</pre>
+&lt;abbr title=&quot;Hypertext Markup Language &amp;quot;5&amp;quot;&quot;&gt;HTML5&lt;/abbr&gt;</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-4-5">1.4.5 Character References for Other Characters</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1945,8 +1918,7 @@ entail a fine of € 400&lt;/p&gt;</p>
    &lt;body&gt;
       &lt;p&gt;This is © 2015. Breach will entail a fine of € 400&lt;/p&gt;
       &lt;/body&gt;
-&lt;/html&gt;
-</pre>
+&lt;/html&gt;</pre>
 
 </details>
 
@@ -2004,16 +1976,14 @@ elements side-by-side, but you can never have a situation in which part of an el
 <pre>&lt;p&gt;This is a &lt;em&gt;paragraph&lt;/em&gt;&lt;/p&gt;
   
 &lt;h1&gt;Paragraph ahead&lt;/h1&gt;
-&lt;p&gt;And here it is.&lt;/p&gt;
-</pre>
+&lt;p&gt;And here it is.&lt;/p&gt;</pre>
 
 <p>The two examples above are fine because in each case either an
 element is wholly contained in another (&lt;em&gt; in &lt;p&gt;) or they
 are completely separate (&lt;h1&gt; and &lt;p&gt;). This, on the other
 hand, is not valid:</p>
 
-<pre>&lt;h1&gt;Part of this header is &lt;p&gt;in the&lt;/h2&gt; paragraph below&lt;/p&gt;
-</pre>
+<pre>&lt;h1&gt;Part of this header is &lt;p&gt;in the&lt;/h2&gt; paragraph below&lt;/p&gt;</pre>
 
 <p>What happens in this case is what we call “undefined”. That just
 means that there is no telling how the browser will decide to handle it.
@@ -2141,9 +2111,9 @@ insensitive, but it is not that easy.  </p>
 attributes yet, but when we do we will discover that they are case
 sensitive, thus these two elements will have different ’id’s:</p>
 
-<pre>  &lt;p id=ThisOne&gt;
+<pre>&lt;p id=ThisOne&gt;
 
-  &lt;p id=thisone&gt;</pre>
+&lt;p id=thisone&gt;</pre>
 
 <p>Even though they’re spelled the same, the differing cases indicate
 different names.  Note that distinguishing different id’s solely by case
@@ -2165,10 +2135,10 @@ marks, either single (’) or double (“). HTML tries to be helpful here.</p>
 strings (say a string without spaces), even if you do not use the
 quotation marks it will essentially insert them for you. Thus:</p>
 
-<pre>  &lt;p id=MyName&gt;
-  &lt;p id=&quot;MyName&quot;&gt;
-  &lt;p id=&#39;MyName&#39;&gt;
-  .... are all equivalent.</pre>
+<pre>&lt;p id=MyName&gt;
+&lt;p id=&quot;MyName&quot;&gt;
+&lt;p id=&#39;MyName&#39;&gt;
+.... are all equivalent.</pre>
 
 <p>It is also important to know that, in HTML, <b>double and single quotes are almost interchangeable, but they have to match</b>.  If you start a string with a double quote, the computer will not end it until it sees another double quote.  Any single quotes will be happily considered part of the string, which is handy if you need quotation marks in your string.  Because of this, if you create a string as ’“quote” ’ (single quotes containing a double quoted string), your string will have the letters &lt;space&gt;-“-q-u-o-t-e-”-&lt;space&gt; (with double quotes in the string and spaces outside those) as opposed to “quote” which will just have the letters q-u-o-t-e (no quotation marks or spaces in the string).  Nevertheless, best practice is to be consistent in your quotes, so it’s best to quote them all the same way, even if the browser would understand it anyway.</p>
 
@@ -2304,11 +2274,11 @@ wise - Benjamin Franklin</p>
   <li><b>&lt;li&gt;</b> - The <b>li</b> element is a “List Item”, i.e. one item in the list.  As you might expect, this element only really makes sense nested inside a list (&lt;ul&gt; or &lt;ol&gt;).  In the final rendering, each li element would typically be preceded by a number or bullet, or something similar (but not necessarily).  Thus a list in HTML would look like this:</li>
 </ul>
 
-<pre>  &lt;ul&gt;
-    &lt;li&gt; First item in list &lt;/li&gt;
-    &lt;li&gt; Second item in list &lt;/li&gt;
-   . . .
-  &lt;/ul&gt;</pre>
+<pre>&lt;ul&gt;
+  &lt;li&gt; First item in list &lt;/li&gt;
+  &lt;li&gt; Second item in list &lt;/li&gt;
+  . . .
+&lt;/ul&gt;</pre>
 
 <h4>This code might be rendered like this:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2495,11 +2465,11 @@ module. Let’s look into it in more depth, by using examples.</p>
 
 <h4>Here is an ordered list:</h4>
 
-<pre>  &lt;ol&gt;
-    &lt;li&gt;Lights&lt;/li&gt;
-    &lt;li&gt;Camera&lt;/li&gt;
-    &lt;li&gt;Action&lt;/li&gt;
-  &lt;/ol&gt;</pre>
+<pre>&lt;ol&gt;
+  &lt;li&gt;Lights&lt;/li&gt;
+  &lt;li&gt;Camera&lt;/li&gt;
+  &lt;li&gt;Action&lt;/li&gt;
+&lt;/ol&gt;</pre>
 
 <h4>Output:</h4>
 
@@ -2549,16 +2519,14 @@ Tags and attributes make up the language.</p>
 
 <pre>&lt;ol start=&quot;5&quot;&gt;&lt;/ol&gt;  
 &lt;ol id=&quot;cinema&quot; class=&quot;attribute-list&quot; start=&quot;5&quot;&gt;&lt;/ol&gt;  
-&lt;ol start=&quot;5&quot; class=&quot;attribute-list&quot;&gt;&lt;/ol&gt;
-</pre>
+&lt;ol start=&quot;5&quot; class=&quot;attribute-list&quot;&gt;&lt;/ol&gt;</pre>
 
 <h4>Example #1: the ‘id’ attribute</h4>
 
 <h4>Imagine you have two paragraphs in your HTML page:</h4>
 
 <pre>&lt;p&gt;I am paragraph 1 and I want to be in red&lt;/p&gt;
-&lt;p&gt;I am paragraph 2 and I want to be in blue&lt;/p&gt;
-</pre>
+&lt;p&gt;I am paragraph 2 and I want to be in blue&lt;/p&gt;</pre>
 
 <p>Your task is to make the text color of the first paragraph red and
 the other blue. How do we do that? You add styling to your HTML document
@@ -2575,8 +2543,8 @@ No one else in your company will have the same ID as you. id is an attribute.<
 It should be unique to the element; we know how more than one people having the same
 ID can just cause a lot of confusion.</p>
 
-<pre>  &lt;p id=&quot;para1&quot;&gt;I am paragraph 1 and I want to be in red&lt;/p&gt;
-  &lt;p id=&quot;para2&quot;&gt;I am paragraph 2 and I want to be in blue&lt;/p&gt;</pre>
+<pre>&lt;p id=&quot;para1&quot;&gt;I am paragraph 1 and I want to be in red&lt;/p&gt;
+&lt;p id=&quot;para2&quot;&gt;I am paragraph 2 and I want to be in blue&lt;/p&gt;</pre>
 
 <p>Here, we can style para1 and para2 separately using CSS. The id attribute helps us do this by letting us give each paragraph an ID.</p>
 
@@ -2742,10 +2710,10 @@ question, you can add two class names by separating them with white space:</p>
   <li>Styling your elements. You can specify the style you want for all the elements that belong to the class in your stylesheet.</li>
 </ol>
 
-<pre>  &lt;p class=&quot;question&quot;&gt;Who are you?&lt;/p&gt;
-  &lt;p class=&quot;answer&quot;&gt;I am the author&lt;/p&gt;
-  &lt;p class=&quot;question html&quot;&gt;Do you like HTML5?&lt;/p&gt;
-  &lt;p class=&quot;answer&quot;&gt;Yes&lt;/p&gt;</pre>
+<pre>&lt;p class=&quot;question&quot;&gt;Who are you?&lt;/p&gt;
+&lt;p class=&quot;answer&quot;&gt;I am the author&lt;/p&gt;
+&lt;p class=&quot;question html&quot;&gt;Do you like HTML5?&lt;/p&gt;
+&lt;p class=&quot;answer&quot;&gt;Yes&lt;/p&gt;</pre>
 
 <p>In your CSS, you can include code to style your classes, for example by telling it:</p>
 
@@ -3218,8 +3186,7 @@ like this:</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre class="html5">
-1.  &lt;!DOCTYPE html&gt;
+<pre class="html5">1.  &lt;!DOCTYPE html&gt;
 2.  &lt;html lang=&quot;en&quot;&gt;
 3.   
 4.  &lt;head&gt;
@@ -3288,8 +3255,7 @@ like this:</p>
 49. &lt;/footer&gt;
 50. &lt;/body&gt;
 51.  
-52. &lt;/html&gt;
-</pre>
+52. &lt;/html&gt;</pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3515,14 +3481,12 @@ support</a> (on caniuse.com).</p>
 technology, &lt;figcaption&gt; can be used to provide additional
 information for all users.</p>
 
-<pre class="html5">
-  &lt;figure&gt;
-    &lt;img src=&quot;img_cast.jpg&quot; alt=&quot;The Importance of Being Earnest
-      Cast&quot;&gt;
-    &lt;figcaption&gt;Fig1. - The cast hard at work at dress rehearsal
-      before opening night&lt;/figcaption&gt;
-  &lt;/figure&gt;
-</pre>
+<pre class="html5">&lt;figure&gt;
+  &lt;img src=&quot;img_cast.jpg&quot; alt=&quot;The Importance of Being Earnest
+    Cast&quot;&gt;
+  &lt;figcaption&gt;Fig1. - The cast hard at work at dress rehearsal
+    before opening night&lt;/figcaption&gt;
+&lt;/figure&gt;</pre>
 
 <h4>Result:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3694,18 +3658,14 @@ element. <b>Here’s a simplified version</b>:</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre class="html5">
-  &lt;header&gt;
-  &lt;!-- You will learn about the &lt;a&gt; and &lt;img&gt; tags later in this chapter--&gt;
-    &lt;p&gt;
-      &lt;a  target=&quot;_blank&quot; href=&quot;https://www.w3.org/&quot;&gt;&lt;img alt=&quot;W3C
-        logo&quot; height=&quot;48&quot; src=&quot;https://www.w3.org/Icons/w3c_home&quot; width=&quot;72&quot;&gt;&lt;/a&gt;
-    &lt;/p&gt;
-
-    &lt;h1&gt;HTML 5.2&lt;/h1&gt;
-    &lt;h2&gt;W3C Recommendation, 14 December 2017&lt;/h2&gt;
-  &lt;/header&gt;
-</pre>
+<pre class="html5">&lt;header&gt;
+&lt;!-- You will learn about the &lt;a&gt; and &lt;img&gt; tags later in this chapter--&gt;
+  &lt;p&gt;
+    &lt;a  target=&quot;_blank&quot; href=&quot;https://www.w3.org/&quot;&gt;&lt;img alt=&quot;W3C logo&quot; height=&quot;48&quot; 	src=&quot;https://www.w3.org/Icons/w3c_home&quot; width=&quot;72&quot;&gt;&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;h1&gt;HTML 5.2&lt;/h1&gt;
+  &lt;h2&gt;W3C Recommendation, 14 December 2017&lt;/h2&gt;
+&lt;/header&gt;</pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3730,20 +3690,20 @@ rel="noopener noreferrer">Using h1-h6 to identify headings</a>.</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>  &lt;body&gt;
-    &lt;h1&gt;Brad&#39;s Cookbook&lt;/h1&gt;
-    &lt;h2&gt;Slowcook Recipes&lt;/h2&gt;
-    &lt;h3&gt;Minestrone Soup&lt;/h3&gt;
-    &lt;h4&gt;Description:&lt;/h4&gt;
-    &lt;p&gt;Minestrone Soup is a simple and nutritious dish...&lt;/p&gt;
-    &lt;h3&gt;Refried Beans&lt;/h3&gt;
-    &lt;h4&gt;Description:&lt;/h4&gt;
-    &lt;p&gt;Cumin is the secret to this recipe.&lt;/p&gt;
-    &lt;h2&gt;Dessert Recipes&lt;/h2&gt;
-    &lt;h3&gt;Peach Cobbler&lt;/h3&gt;
-    &lt;h4&gt;Description:&lt;/h4&gt;
-    &lt;p&gt;If you can&#39;t get fresh peaches, frozen to the rescue!&lt;/p&gt;
-  &lt;/body&gt;</pre>
+<pre>&lt;body&gt;
+  &lt;h1&gt;Brad&#39;s Cookbook&lt;/h1&gt;
+  &lt;h2&gt;Slowcook Recipes&lt;/h2&gt;
+  &lt;h3&gt;Minestrone Soup&lt;/h3&gt;
+  &lt;h4&gt;Description:&lt;/h4&gt;
+  &lt;p&gt;Minestrone Soup is a simple and nutritious dish...&lt;/p&gt;
+  &lt;h3&gt;Refried Beans&lt;/h3&gt;
+  &lt;h4&gt;Description:&lt;/h4&gt;
+  &lt;p&gt;Cumin is the secret to this recipe.&lt;/p&gt;
+  &lt;h2&gt;Dessert Recipes&lt;/h2&gt;
+  &lt;h3&gt;Peach Cobbler&lt;/h3&gt;
+  &lt;h4&gt;Description:&lt;/h4&gt;
+  &lt;p&gt;If you can&#39;t get fresh peaches, frozen to the rescue!&lt;/p&gt;
+&lt;/body&gt;</pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3935,19 +3895,19 @@ context. It can be reused anywhere else.</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>  &lt;article id=&quot;ces&quot;&gt;
-    &lt;header&gt;
-      &lt;h2&gt;CES 2018&lt;/h2&gt;
-      &lt;h3&gt;Consumer electronics and consumer technology tradeshow&lt;/h3&gt;
-    &lt;/header&gt;
-    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Aliquam neque risus, consequat eget vestibulum eu, consequat at
-      eros. Nam eu nisl vel neque malesuada sollicitudin quis eget
-      libero.&lt;/p&gt;
-    &lt;footer&gt;
-      &lt;p&gt;Written by guest author Nicholas Abc. Read Nicholas&#39;s blog here.&lt;/p&gt;
-    &lt;/footer&gt;
-  &lt;/article&gt;</pre>
+<pre>&lt;article id=&quot;ces&quot;&gt;
+  &lt;header&gt;
+    &lt;h2&gt;CES 2018&lt;/h2&gt;
+    &lt;h3&gt;Consumer electronics and consumer technology tradeshow&lt;/h3&gt;
+  &lt;/header&gt;
+  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Aliquam neque risus, consequat eget vestibulum eu, consequat at
+    eros. Nam eu nisl vel neque malesuada sollicitudin quis eget
+    libero.&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;p&gt;Written by guest author Nicholas Abc. Read Nicholas&#39;s blog here.&lt;/p&gt;
+  &lt;/footer&gt;
+&lt;/article&gt;</pre>
 
 </details>
 
@@ -4207,26 +4167,26 @@ in its place.</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>  &lt;section&gt;
-    &lt;h2&gt;Week 1&lt;/h2&gt;
-    &lt;p&gt;This week, you will be learning about...week 1 stuff&lt;/p&gt;
-    &lt;div class=&quot;code&quot;&gt;
-      &lt;ol&gt;
-        &lt;li&gt;Line of code&lt;/li&gt;
-        &lt;li&gt;Line of code&lt;/li&gt;
-      &lt;/ol&gt;
-    &lt;/div&gt;
-  &lt;/section&gt;
-  &lt;section&gt;
-    &lt;h2&gt;Week 2&lt;/h2&gt;
-    &lt;p&gt;This week, you will be learning about...week 2 stuff&lt;/p&gt;
-    &lt;div class=&quot;code&quot;&gt;
-      &lt;ol&gt;
-        &lt;li&gt;Line of code&lt;/li&gt;
-        &lt;li&gt;Line of code&lt;/li&gt;
-      &lt;/ol&gt;
-    &lt;/div&gt;
-  &lt;/section&gt;</pre>
+<pre>&lt;section&gt;
+  &lt;h2&gt;Week 1&lt;/h2&gt;
+  &lt;p&gt;This week, you will be learning about...week 1 stuff&lt;/p&gt;
+  &lt;div class=&quot;code&quot;&gt;
+    &lt;ol&gt;
+      &lt;li&gt;Line of code&lt;/li&gt;
+      &lt;li&gt;Line of code&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+  &lt;h2&gt;Week 2&lt;/h2&gt;
+  &lt;p&gt;This week, you will be learning about...week 2 stuff&lt;/p&gt;
+  &lt;div class=&quot;code&quot;&gt;
+    &lt;ol&gt;
+      &lt;li&gt;Line of code&lt;/li&gt;
+      &lt;li&gt;Line of code&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+&lt;/section&gt;</pre>
 
 </details>
 
@@ -4399,7 +4359,7 @@ an excellent format to use, if possible. SVG is great for charts, graphs, maps, 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>alt stands for <i>alternate text</i> for an image.</h4>
 
-<pre>  &lt;img src="image/example.png" alt="Add a short text description of the image here"&gt;</pre>
+<pre>&lt;img src="image/example.png" alt="Add a short text description of the image here"&gt;</pre>
 
 <p>Using this attribute, you can provide a short description of what the
 image is about. This description should convey information about the
@@ -4916,7 +4876,7 @@ hyperlink because it obviously has no idea where to jump to.<br>
   </ul></li>
 </ul>
 
-<pre>  &lt;a href=&quot;mailto:abc@alphabets.com&quot;&gt;&lt;/a&gt;</pre>
+<pre>&lt;a href=&quot;mailto:abc@alphabets.com&quot;&gt;&lt;/a&gt;</pre>
 
 <h4>The 'target' attribute</h4>
 
@@ -4991,10 +4951,8 @@ download a file instead of navigate to another location. It takes in the
 filename as value but the value is optional. So the download attribute
 can be specified in the following ways:</p>
 
-<pre>
-  &lt;a href=&quot;assets/hello.txt&quot; download&gt;
-  &lt;a href=&quot;assets/hello.txt&quot; download=&quot;new-name-for-text-file&quot;&gt;
-</pre>
+<pre>&lt;a href=&quot;assets/hello.txt&quot; download&gt;
+&lt;a href=&quot;assets/hello.txt&quot; download=&quot;new-name-for-text-file&quot;&gt;</pre>
 
 <p>If you do not specify a value for download, it will download the file
 with name unchanged. Else it will download the file with file name
@@ -5952,8 +5910,8 @@ And text-align is often not useful on these tags.</p>
 as &lt;p&gt;, &lt;li&gt;, &lt;ul&gt;, &lt;ol&gt;, &lt;div&gt;,
 and &lt;blockquote&gt;.</p>
 
-<pre>  p { text-align: left; }  
-  blockquote { text-align: right; }</pre>
+<pre>p { text-align: left; }  
+blockquote { text-align: right; }</pre>
 
 <p>Bear in mind, also, that you should only use text-align when the
 alignment really needs to be changed, since it can cause additional work
@@ -6732,12 +6690,10 @@ id selector is simply a hash sign (#) followed directly by the id.</p>
 
 <h4>HTML:</h4>
 
-<pre>
-  &lt;p align=&quot;left&quot; id=&quot;p18&quot;&gt;He is Ulysses, a man of great craft, 
-    son of Laertes. He was born in rugged Ithaca, and excels in all manner of stratagems and
-	subtle cunning.&lt;/p&gt;
-  &lt;p align=&quot;left&quot; id=&quot;p19&quot;&gt;Madam, you have spoken truly.&lt;/p&gt;
-</pre>
+<pre>&lt;p align=&quot;left&quot; id=&quot;p18&quot;&gt;He is Ulysses, a man of great craft, 
+  son of Laertes. He was born in rugged Ithaca, and excels in all manner of stratagems and
+  subtle cunning.&lt;/p&gt;
+&lt;p align=&quot;left&quot; id=&quot;p19&quot;&gt;Madam, you have spoken truly.&lt;/p&gt;</pre>
 
 <h4>Result:</h4>
 
@@ -6858,8 +6814,8 @@ by an additional rule:</p>
 <pre>blockquote,
 q,
   .speech {
-  color: red;
-  font-style: italic;
+    color: red;
+    font-style: italic;
   }
   .speech { font-weight: bold; }</pre>
 
@@ -6872,7 +6828,7 @@ match <b>both</b> rules. If a tag selector is used, it must appear
 first.</p>
 <p>This is most useful with class and tag selectors, like so:</p>
 
-<pre>  blockquote.speech { font-color: green; }</pre>
+<pre>blockquote.speech { font-color: green; }</pre>
 
 <p>In the example above, the blockquote.speech selector is
 a blockquote tag selector combined with a .speech class selector.  So
@@ -6881,7 +6837,7 @@ element with the speech class. Instead, it will only apply to those
 blockquotes that also have the speech class.</p>
 <p>It isn’t unusual to see multiple classes joined this way as well:</p>
 
-<pre>  .insect.flying { text-decoration: underline; font-weight:bold; }</pre>
+<pre>.insect.flying { text-decoration: underline; font-weight:bold; }</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 56. combining classes (164) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6971,7 +6927,7 @@ rule, if applied to the HTML of the previous selector, would cause the
 links in the intro section to be larger, but not the links in any nested
 quotes or blockquotes. :</p>
 
-<pre>  #intro > a { font-size: large; }</pre>
+<pre>#intro > a { font-size: large; }</pre>
 
 <h4>Everything selector (*)</h4>
 
@@ -9235,11 +9191,11 @@ property:</p>
 
 <pre>table.no-collapse, th.no-collapse, td.no-collapse
 {
-border: 1px solid black;
+  border: 1px solid black;
 }
-table.collapse
+  table.collapse
 {
-border-collapse: collapse;
+  border-collapse: collapse;
 }</pre>
 
 <h4>HTML</h4>
@@ -13163,7 +13119,7 @@ These are the final changes to our recipe project for this unit.
 
 <h5>The end…</h5>
 
-<h6>Last Updated 6-03-2023 Sat 1:12am</h6>
+<h6>Last Updated 6-05-2023 Mon 12:40pm</h6>
 
 </body>
 </html>
