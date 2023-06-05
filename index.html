@@ -7898,9 +7898,6 @@ you get a different result:</p>
   alt="My Book Chapter 1 Section 1.1."
   style="width:40%;" />
 
-<details>
-  <summary>CSS code extract!</summary>
-
 <pre>section h1{
   color:grey;
   font-size:1.2rem;
@@ -7913,8 +7910,6 @@ h1{
   color:blue;
   font-size: 2rem;
 }</pre>
-
-</details>
 
 <details>
   <summary>HTML code extract!</summary>
@@ -7941,8 +7936,8 @@ h1{
 &lt;/html&gt;</pre>
 
 </details>
-<p>What happened? To answer that question, we’ll turn to the browser’s
-debugger.</p>
+
+<p>What happened? To answer that question, we’ll turn to the browser’s debugger.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-4-2">4.4.2 Debugging CSS Precedence</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7963,8 +7958,7 @@ there.</p>
   alt="Styles in the debugger."
   style="width:65%;" />
 
-<p>
-There is a sequence of the panels under “Style” that helps understand
+<p>There is a sequence of the panels under “Style” that helps understand
 just where a particular CSS rule is coming from. Starting at the top, we
 have rules that apply specifically to the currently active element.  In
 fact, changes in this top panel are mirrored as settings in the style
@@ -7989,9 +7983,9 @@ label “user agent stylesheet”.  These are basically the defaults, the
 values that the browser will use if nothing else is specified.  Any rule
 you provide should override the corresponding rule in the user agent
 stylesheet.</p>
-Back to our quandary, why does “article h1” take precedence over
+<p>Back to our quandary, why does “article h1” take precedence over
 “section h1”?  Let’s take a look at the first version we tried, before
-rearranging, which did what we wanted:
+rearranging, which did what we wanted:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 73. working version in debugger (194) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
