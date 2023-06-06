@@ -8922,8 +8922,7 @@ a &lt;colgroup&gt; can contain is &lt;col&gt;.</p>
   <li>span - takes a positive integer value. It specifies the number of columns you want the col element to span (cover).</li>
 </ul>
 
-<p>Consider the table above we created using &lt;tr&gt;, &lt;th&gt; and &lt;td&gt;. Let’s say I want the ‘name’
-column to be in green and the ‘age’ column to be orange. You need to use the &lt;colgroup&gt; and &lt;col&gt; tags to achieve styling effects specific to a column.</p>
+<p>Consider the table above we created using &lt;tr&gt;, &lt;th&gt; and &lt;td&gt;. Let’s say I want the ‘name’ column to be in green and the ‘age’ column to be orange. You need to use the &lt;colgroup&gt; and &lt;col&gt; tags to achieve styling effects specific to a column.</p>
 
 <details>
   <summary>HTML code extract!</summary>
@@ -8978,7 +8977,8 @@ used to style header, body and footer rows individually using CSS. </p>
 <h4>&lt;thead&gt;</h4>
 
 <p>Just like how we use</p>
-<p>&lt;colgroup&gt; to group columns, &lt;thead&gt; is used to group the header content in a HTML table.</p>
+<p>&lt;colgroup&gt; to group columns, &lt;thead&gt; is used to group the header content in a HTML table.
+
 <p>As we learned in the previous unit, header cells are specified using &lt;th&gt; as a child of &lt;tr&gt;. Rows specified within &lt;thead&gt; indicate that they are header rows. See the code below:</p>
 
 <pre>&lt;thead style=&quot;color:white&quot;&gt;
@@ -9094,8 +9094,8 @@ CodePen (click on “RUN” when you completed your changes).</p>
 
 <p>Though border is a valid attribute of the table element, it is best
 specified in CSS. It is a shorthand property meaning you can set several
-CSS properties simultaneously. </p>
-<p>The CSS border property sets border-width, border-style and border-color in order:</p>
+CSS properties simultaneously.
+The CSS border property sets border-width, border-style and border-color in order:</p>
 
 <pre>&lt;b&gt;table { border: 1px solid black; }&lt;/b&gt;</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9223,8 +9223,8 @@ property:</p>
 <p>Browsers automatically set the width and height for the rows and
 columns for your table based on the content in your cells. Cells with
 most content usually set the height and width of all cells adjacent to
-themselves. </p>
-<p>With CSS, you can also explicitly set the dimensions of your cells.
+themselves.
+With CSS, you can also explicitly set the dimensions of your cells.
 Width and height can be specified in:</p>
 
 <ul>
@@ -9233,8 +9233,8 @@ Width and height can be specified in:</p>
 </ul>
 
 <p>It also supports initial (sets property to default value) and inherit
-(from parent element). </p>
-<p>width/height of &lt;td&gt; of one cell will not only affect that cell
+(from parent element).
+width/height of &lt;td&gt; of one cell will not only affect that cell
 but the whole column/row. If two cells in one column/row have different
 widths/heights specified, the larger value is set.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9320,7 +9320,8 @@ table.eg3
 <p>This property is used to align the text
 of &lt;th&gt; and &lt;td&gt; cells left, right or center (week 3
 recap). </p>
-<p>Default:</p>
+
+<h4>Default:</h4>
 
 <ul>
   <li><p>&lt;th&gt; - center</p></li>
@@ -9352,8 +9353,8 @@ relative to parent container’s width, etc. </p>
 
 <pre>th, td { padding: 15px; }</pre>
 
-<p>This will add 15px space around the content on all sides.</p>
-<p>You can also apply different padding styles for four individual sides
+<p>This will add 15px space around the content on all sides.
+You can also apply different padding styles for four individual sides
 by using:</p>
 
 <ul>
@@ -9409,9 +9410,9 @@ th, td { padding: 20px; }</pre>
 <p>border-spacing specifies the distance between two cell borders in
 pixels. This is different from padding which is space between content in
 cell and border. It takes its value in units of length like px, cm, % -
-relative to parent container’s width, etc. </p>
-<p>It has the inherit property whose default value is 0.</p>
-<p>It takes two values for horizontal and vertical spacing. If only one
+relative to parent container’s width, etc.
+It has the inherit property whose default value is 0.
+It takes two values for horizontal and vertical spacing. If only one
 value is provided, it is used for both horizontal and vertical
 spacing:</p>
 
@@ -9550,12 +9551,12 @@ white (default color).</p>
 <pre>tr:nth-child(even) { background-color: grey; }
 tr:nth-child(odd) { background-color: #ccff99; }</pre>
 
-<p>The ‘<i>n</i>th-child’ selector matches every element that is
-the <i>n</i>th child of the table or any parent element. Therefore,</p>
+<p>The ‘&lt;i&gt;n&lt;/i&gt;th-child’ selector matches every element that is
+the &lt;i&gt;n&lt;/i&gt;th child of the table or any parent element. Therefore,</p>
 
 <pre>tr:nth-child(3n) { background-color: grey; }</pre>
 
-<p>will make every third list item grey.</p>
+<p>Will make every third list item grey.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 99. make every third list item grey (231) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9992,244 +9993,240 @@ Concepts</a> page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Let’s take a look at how to work with tables and manipulate the table
 styling within an HTML document.</p>
+
 <p>Now, in this example we have a table displayed in Visual Studio Code
 here on the left-hand side, and you can see the output of the table
-displayed in our browser on the right-hand side.</p>
-<p>Now, we take a look at the way this table is configured.</p>
-<p>We have our table tag.</p>
-<p>We have given the table a caption with two ‘p’ tags, with two
-paragraph tags labeling it as Figure 1 and weather prediction for May of
-2016.</p>
-<p>Then we have multiple table rows, with items provided for data in
-that table.</p>
+displayed in our browser on the right-hand side. Now, we take a look at the way this table is configured.
+We have our table tag. We have given the table a caption with two ‘p’ tags, with two
+paragraph tags labeling it as Figure 1 and weather prediction for May of 2016.
+Then we have multiple table rows, with items provided for data in that table.</p>
+
 <p>The first row, we’ll do a slight separation here just so we can
-visually determine that there is a bit of a difference.</p>
-<p>We take a look at ‘th’ elements within side ‘tr’, or “Table Row”.</p>
-<p>The ‘th’ element, again specifies that this is a “Table Header”.</p>
-<p>The day and the temperature become Header information that is
-displayed in bold, over here on our Web page.</p>
-<p>Then, the remaining entries in that table are all table rows but
-they’re using the ‘td’ element, which is “Table Data” or data cell
-within the table itself.</p>
-<p>Now, looking at the table it’s not really all that visually
-appealing.</p>
-<p>It is kind of flat looking.</p>
-<p>There’s not a lot of alignment in the columns.</p>
-<p>We need a little more spacing that’s in there.</p>
-<p>What we’re going to do is start to apply some styling to this table
-to make it a little more visually appealing.</p>
-<p>We’re going to do this using cascading style sheets.</p>
-<p>Again, think of your HTML as simply displaying the layout of the
-page, but the styling should always be in your CSS.</p>
-<p>What we’ve done is we’ve created a stylesheet link in our HTML, and
+visually determine that there is a bit of a difference. We take a look at ‘th’ elements within side ‘tr’, or “Table Row”. The ‘th’ element, again specifies that this is a “Table Header”.
+The day and the temperature become Header information that is displayed in bold, 
+over here on our Web page. Then, the remaining entries in that table are all table rows but
+they’re using the ‘td’ element, which is “Table Data” or data cell within the table itself.</p>
+
+<p>Now, looking at the table it’s not really all that visually appealing. It is kind of flat looking.
+There’s not a lot of alignment in the columns. We need a little more spacing that’s in there.
+What we’re going to do is start to apply some styling to this table to make it a little more visually appealing. We’re going to do this using cascading style sheets.</p>
+
+<p>Again, think of your HTML as simply displaying the layout of the page, but the styling 
+should always be in your CSS. What we’ve done is we’ve created a stylesheet link in our HTML, and
 in this case we’re pointing to a file called “style.css”.</p>
-<p>Now when you start working with CSS, naming conventions will be
-something that you’ll run across.</p>
-<p>Some folks prefer to call this “style.css”, put them in a “Styles”
-folder within the structure for your Web application.</p>
-<p>Others may have specific CSS for tables, etc.</p>
-<p>We’re just going to deal with a generic “style.css” making things
-much easier to see and look at.</p>
-<p>One of the first things that we want to do, is step into our
-stylesheet and we’re going to make a change.</p>
-<p>We’re going to add some borders to give a little bit of style to
-start off with on our table.</p>
-<p>Let’s go ahead and do that.</p>
-<p>Okay, what we’ve set up here is a very simple style that we’re
-going to apply to a table.</p>
-<p>And actually, this should have been the “Table Head” and this one
-should be a “Table Cell”, so the TD.</p>
-<p>The style will apply to those three elements within the document.</p>
-<p>We’re going to set up a single pixel solid black border for the
-table.</p>
-<p>We’ve applied it on our CSS, but it hasn’t taken place over here
-yet.</p>
+
+<p>Now when you start working with CSS, naming conventions will be something that you’ll 
+run across. Some folks prefer to call this “style.css”, put them in a “Styles”
+folder within the structure for your Web application. Others may have specific CSS for tables, etc.
+We’re just going to deal with a generic “style.css” making things much easier to see and look at.</p>
+
+<p>One of the first things that we want to do, is step into our stylesheet and we’re 
+going to make a change. We’re going to add some borders to give a little bit of style to
+start off with on our table. Let’s go ahead and do that.</p>
+
+<p>Okay, what we’ve set up here is a very simple style that we’re going to apply to a table.
+And actually, this should have been the “Table Head” and this one
+should be a “Table Cell”, so the TD.
+The style will apply to those three elements within the document.
+We’re going to set up a single pixel solid black border for the table.
+We’ve applied it on our CSS, but it hasn’t taken place over here yet.</p>
+
 <p>We’ll need to refresh our browser, and we can see that now the
-styling has been applied.</p>
-<p>We have the border around the table.</p>
-<p>But the problem we’re running into here is we’ve got kind of a double
+styling has been applied. We have the border around the table.
+But the problem we’re running into here is we’ve got kind of a double
 border going on.</p>
+
 <p>For some, that may be perfectly fine, we think we’re okay with that
-double border, it looks all right.</p>
-<p>But others say, no, I want to change that a little bit.</p>
-<p>The reason it looks like a double border is because, remember, we’ve
+double border, it looks all right.
+But others say, no, I want to change that a little bit.
+The reason it looks like a double border is because, remember, we’ve
 applied a border to the table, and we’ve applied a border to the “Table
 Header” and the “Table Cell” objects.</p>
-<p>In order to fix that, we can actually add another style in here.</p>
-<p>And then what we do with this one here, is we basically collapse the
-border.</p>
-<p>We can add another style in here to help us deal with that.</p>
-<p>In this case what we’re going to do is specify that we want the
+
+<p>In order to fix that, we can actually add another style in here.
+And then what we do with this one here, is we basically collapse the
+border.
+We can add another style in here to help us deal with that.
+In this case what we’re going to do is specify that we want the
 border to be collapsed, and then that will reduce the number of borders
-that we have.</p>
-<p>This is what it looks like. All right.</p>
-<p>We specified that for the table we want to collapse of the
+that we have.
+This is what it looks like. All right.
+We specified that for the table we want to collapse of the
+border.
+We’re using the CSS style to do that.
+And when we refresh, we see that indeed we have collapsed the
 border.</p>
-<p>We’re using the CSS style to do that.</p>
-<p>And when we refresh, we see that indeed we have collapsed the
-border.</p>
+
 <p>Essentially, all we’ve done is collapse the border on the table, but
-we’re leaving the border around all the individual cells.</p>
-<p>That gives us a little bit more formatting on the table.</p>
-<p>It starts to add a little more visual appeal to it, but we’re not
+we’re leaving the border around all the individual cells.
+That gives us a little bit more formatting on the table.
+It starts to add a little more visual appeal to it, but we’re not
 finished yet.</p>
+
 <p>What we’re going to do next is, we’re going to go back to the table,
 and we’re going to add a “Footer” in the table, and the footer that we
 want to add in the table is going to give us a little bit of an average
-temperature rating, if you will.</p>
-<p>Let’s go back and make some changes to that table.</p>
+temperature rating, if you will.
+Let’s go back and make some changes to that table.</p>
+
 <p>Down at the bottom, after we’ve finished with our final table
-role.</p>
-<p>In this case we’re going to go ahead and we’re going to add another
+role. In this case we’re going to go ahead and we’re going to add another
 table role because this is where we’re going to put our table
-footer.</p>
-<p>We use a ‘tr’, and then we will also implement a ‘td’.</p>
-<p>This is going to be another table “Data Cell”.</p>
-<p>And then, within that, we will call that “Average Temperature”, and
-then, we’ve already done the math on this here and factored out the
-average.</p>
-<p>It’s about 70.5 F.</p>
-<p>We’re going to use that for 70.5 degrees Fahrenheit.</p>
+footer. We use a ‘tr’, and then we will also implement a ‘td’.
+This is going to be another table “Data Cell”. And then, within that, we will call that “Average Temperature”, and then, we’ve already done the math on this here and factored out the
+average. It’s about 70.5 F. We’re going to use that for 70.5 degrees Fahrenheit.</p>
+
 <p>Now, we’re not quite finished yet and the reason I say that is, if we
 click a refresh here we see that we do have our “Average Temperature”
-row at the bottom, but it looks a little odd.</p>
-<p>It’s only spanning one row and has kind of extended that date role or
-the date column a little bit.</p>
-<p>We need to change that, so we’ll do that with a “Column Span”.</p>
-<p>Within the ‘td’ element, we’ll put in a “Column Span”, and then
+row at the bottom, but it looks a little odd.
+It’s only spanning one row and has kind of extended that date role or
+the date column a little bit.
+We need to change that, so we’ll do that with a “Column Span”.
+Within the ‘td’ element, we’ll put in a “Column Span”, and then
 within the “Column Span”, we’ll tell it how many columns we want this to
 actually span across.</p>
+
 <p>Because our table has three columns, if we implement three as the
-“Column Span”, then we refresh our table.</p>
-<p>We can see that now it takes up the entire three columns, looks as
-though it is only one column at the bottom.</p>
-<p>We’ve added that little bit to our table now, we’ve got this average
-in here.</p>
-<p>But we also want to go through the process of maybe changing how some
+“Column Span”, then we refresh our table.
+We can see that now it takes up the entire three columns, looks as
+though it is only one column at the bottom.
+We’ve added that little bit to our table now, we’ve got this average
+in here.
+But we also want to go through the process of maybe changing how some
 of this visual appeal is on the table itself.</p>
+
 <p>First thing we want to do is, maybe go back in and add some
-padding.</p>
-<p>And the reason we want to do that is, you see that within ourselves,
+padding.
+And the reason we want to do that is, you see that within ourselves,
 we’re kind of but out right up against the borders of the cell.</p>
+
 <p>Let’s go back to our stylesheet for a moment, and let’s go ahead and
-add some padding before we add some other elements to this table.</p>
-<p>We’ll apply this to the ‘th’ and the ‘td’ cells, and then we’ll
-specify the padding feature.</p>
-<p>And then, within the padding we’re going to use 10 pixels, just to
+add some padding before we add some other elements to this table.
+We’ll apply this to the ‘th’ and the ‘td’ cells, and then we’ll
+specify the padding feature.
+And then, within the padding we’re going to use 10 pixels, just to
 provide a little bit of extra spacing between the border and the
 contents.</p>
-<p>Refresh, and we can see that our table now has that padding.</p>
-<p>It’s top, bottom, left, right.</p>
-<p>It’s equally applied all the way around.</p>
-<p>There’ll be other lessons where you’ll talk about how to apply
+
+<p>Refresh, and we can see that our table now has that padding.
+It’s top, bottom, left, right. It’s equally applied all the way around.
+There’ll be other lessons where you’ll talk about how to apply
 padding differently depending on where you want the spacing to be:
-either top, left, bottom, or right.</p>
-<p>But in this case, we’ll leave the padding set by default, the 10
+either top, left, bottom, or right.
+But in this case, we’ll leave the padding set by default, the 10
 pixels all the way around the table.</p>
+
 <p>Now, one of the things that we can also do to apply some more visual
 appeal to this, is actually start getting into applying colors to the
-different aspects of the table.</p>
-<p>And one way that we can do that, is to start dividing our table
-elements if you will, up into more discrete components.</p>
-<p>What we’re going to do here is, we’re actually going to start
+different aspects of the table. And one way that we can do that, is to start dividing our table
+elements if you will, up into more discrete components.
+What we’re going to do here is, we’re actually going to start
 specifying different elements for the “Table Head”, the “Table Body”,
-and the “Table Footer”.</p>
-<p>And then, we’ll use the CSS to apply styling to those.</p>
+and the “Table Footer”.
+And then, we’ll use the CSS to apply styling to those.</p>
+
 <p>Back at our table, directly underneath the caption, what we’re going
 to do is, we did this physical separation here of the lines just to show
 that we actually had a header row, but it wasn’t kind of apparent
-exactly what that meant.</p>
-<p>This time we’re going to create a ‘thead’ element here.</p>
-<p>And the ‘thead’ element allows us to specify that this will become a
-“Table Head” or a “Table Header”.</p>
-<p>And then, we can use that information to apply CSS stylesheets for
-how we want it to look.</p>
-<p>Let’s paste that in here.</p>
-<p>We’ll do a little more document reformatting, just so things look a
-little bit better.</p>
-<p>We’ve applied the ‘thead’ element here to our Header row, and then
-we’re also going to apply a “Table Body” element.</p>
-<p>We’ll do a ‘tbody’.</p>
+exactly what that meant.
+This time we’re going to create a ‘thead’ element here.
+And the ‘thead’ element allows us to specify that this will become a
+“Table Head” or a “Table Header”.
+And then, we can use that information to apply CSS stylesheets for
+how we want it to look.
+Let’s paste that in here.
+We’ll do a little more document reformatting, just so things look a
+little bit better.
+We’ve applied the ‘thead’ element here to our Header row, and then
+we’re also going to apply a “Table Body” element.
+We’ll do a ‘tbody’.
+
 <p>Once again, a little bit of document formatting just to make it look
-a little bit better.</p>
-<p>And then, finally, we’ll come down and we’ll apply a “Table Footer”,
-and in this case we use the ‘tfoot’.</p>
-<p>We set up a ‘tfoot’ element, and we will apply it to that Table
+a little bit better. And then, finally, we’ll come down and we’ll apply a “Table Footer”,
+and in this case we use the ‘tfoot’.
+We set up a ‘tfoot’ element, and we will apply it to that Table
 Footer row, which we created initially to set up our spanning column for
-the “Average Temperature” values.</p>
-<p>Expand that there, we’ll pace in our “Table Footer”.</p>
-<p>Now we have three additional elements to this table.</p>
-<p>And then, what we can do with it, is start to apply styling to those
+the “Average Temperature” values.
+Expand that there, we’ll pace in our “Table Footer”.
+Now we have three additional elements to this table.
+And then, what we can do with it, is start to apply styling to those
 elements themselves.</p>
+
 <p>If we go back and refresh, you can see that nothing really changes so
-far in the table itself and in the display that we see.</p>
-<p>But what we do want to do, is apply some of those color options or
+far in the table itself and in the display that we see.
+But what we do want to do, is apply some of those color options or
 the styling options to the table by using our CSS.</p>
-<p>Let’s go back into the “style.css” file.</p>
-<p>And in here, we’re going to specify a specific styling for the “Table
-Header” and for the “Table Footer”.</p>
-<p>We use the ‘thead’ and the ‘tfoot’ classes here.</p>
-<p>And then we will set up a background color.</p>
-<p>We’re going to use the IntelliSense, which saves us a lot of typing
+
+<p>Let’s go back into the “style.css” file.
+And in here, we’re going to specify a specific styling for the “Table
+Header” and for the “Table Footer”.
+We use the ‘thead’ and the ‘tfoot’ classes here.
+And then we will set up a background color.
+We’re going to use the IntelliSense, which saves us a lot of typing
 and helps us to make sure we’re using the right formatting and the
-proper syntax for our code.</p>
-<p>And then we’re going to specify some colors.</p>
-<p>You’ll also notice how when we start typing in a color, the first
+proper syntax for our code.
+And then we’re going to specify some colors.
+You’ll also notice how when we start typing in a color, the first
 couple of letters, the IntelliSense built into Visual Studio Code, pops
 up and gives us some options based on what it is that we specified for
-those initial letters.</p>
-<p>Let’s choose the “Antique White”, for this particular instance, and
-then we will close out with our semicolon.</p>
-<p>And then, before we add some other color, let’s go ahead and take a
+those initial letters.
+Let’s choose the “Antique White”, for this particular instance, and
+then we will close out with our semicolon.
+And then, before we add some other color, let’s go ahead and take a
 look at what that’s done to our table.</p>
+
 <p>If we do a refresh, we can see that our “Antique White” has been
 applied only to the “Header Row” and to the “Footer Row”, again, because
-we’ve specified those classes here.</p>
-<p>Let’s go ahead and make some changes to the body now, so we can apply
-some color to the table body.</p>
-<p>We use the ‘tbody’, and then we’ll also specify the background
-color.</p>
-<p>That’s the one that we want to deal with specifically again.</p>
-<p>So, background color.</p>
-<p>And then, in this particular instance, we’ll use a slightly different
-color.</p>
-<p>Again, using IntelliSense, we use the “Floral White”.</p>
-<p>I’ll press “Tab” to complete that, and then put our semi colon
+we’ve specified those classes here.
+Let’s go ahead and make some changes to the body now, so we can apply
+some color to the table body.
+We use the ‘tbody’, and then we’ll also specify the background
+color.
+That’s the one that we want to deal with specifically again.
+So, background color.
+And then, in this particular instance, we’ll use a slightly different
+color.
+Again, using IntelliSense, we use the “Floral White”.
+I’ll press “Tab” to complete that, and then put our semi colon
 in.</p>
-<p>Let’s refresh one more time on the browser.</p>
-<p>And we can see that we have this little “Floral White”.</p>
-<p>There’s just a slight change in it and we can see that we now have
-two colors.</p>
-<p>We’re getting closer to where we want to be but one thing that we
+
+<p>Let’s refresh one more time on the browser.
+And we can see that we have this little “Floral White”.
+There’s just a slight change in it and we can see that we now have
+two colors.
+We’re getting closer to where we want to be but one thing that we
 want to finally add to this table, is the ability for users to look at
 it and kind of understand or see the different rows individually or more
-plainly.</p>
-<p>We’re going to set up this other functionality within our CSS
-file.</p>
-<p>And this is where we’re going to alternate the colors that we have
-available in our CSS file.</p>
-<p>What we’re going to do with that is, we’re going to apply an
-alternating color to the row.</p>
-<p>We do that by starting off with ‘tr’, and the ‘tr’ is our “Table
-Row”.</p>
-<p>And then we’re going to save for the “Nth Child”.</p>
+plainly.
+We’re going to set up this other functionality within our CSS
+file.
+And this is where we’re going to alternate the colors that we have
+available in our CSS file.
+What we’re going to do with that is, we’re going to apply an
+alternating color to the row.
+We do that by starting off with ‘tr’, and the ‘tr’ is our “Table
+Row”.
+And then we’re going to save for the “Nth Child”.</p>
+
 <p>Again, letting IntelliSense, our built individual Studio Code help
-us, we say we want to use the “Nth Child”, and for each even row.</p>
-<p>In other words, we’re going to alternate but we’re going to select
-the even rows which would be rows numbered zero, two, four, etc.</p>
-<p>What we want to do is we want to change the background color of
+us, we say we want to use the “Nth Child”, and for each even row.
+In other words, we’re going to alternate but we’re going to select
+the even rows which would be rows numbered zero, two, four, etc.
+What we want to do is we want to change the background color of
 that.</p>
+
 <p>Once again, we’ll come in, we’ll specify that background color is the
-property we want to change.</p>
-<p>And in this case, we’ll do something called “BlanchedAlmond”, and
-then semi colon to finish that out.</p>
-<p>And then, let’s go refresh and see what our table looks like now.</p>
-<p>And you can see that we have alternating rows, and those make the
+property we want to change.
+And in this case, we’ll do something called “BlanchedAlmond”, and
+then semi colon to finish that out.
+And then, let’s go refresh and see what our table looks like now.
+And you can see that we have alternating rows, and those make the
 table a little more visually appealing, and we have the ability to
 distinguish one row from the other.</p>
+
 <p>This is just a quick example of how to create tables within your HTML
-documents.</p>
-<p>And then using CSS, how to apply some styling to make your tables
+documents.
+And then using CSS, how to apply some styling to make your tables
 look a little more visually appealing inside your document.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-2-6">5.2.6 Activities - Tables</h3>
@@ -10778,12 +10775,10 @@ how usemap works :) Remember to navigate back to the course!</p>
   alt="Usemap example, sign to Millery or Nomeny."
   style="width:50%;" />
 
-<p>Note: If the &lt;img&gt; is inside
-an &lt;a&gt; or &lt;button&gt; element, clicking on it will be
-interpreted as clicking on the link or button and usemap will not
-work.</p>
+<p>Note: If the &lt;img&gt; is inside an &lt;a&gt; or &lt;button&gt; element, clicking 
+on it will be interpreted as clicking on the link or button and usemap will not work.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-4-3">5.4.3 Activities - Embedding content (OPTIONAL)</h3>
+<h3 id="ch5-4-3">5.4.3 Activities - Embedding content</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ol type="1">
   <li><p>How can you inform screen readers that you are using an iframe in your Web page since iframes have poor accessibility?</p></li>
@@ -12981,46 +12976,35 @@ slots empty.</p>
   <figcaption>Lines, columns and rows for cell/area.</figcaption>
 </figure>
 
-<p>The Grid module provides several different ways to define such a grid and to place the child elements.<br>
-Too many, in fact, to present here.<br>
-Because they can refer to a previously defined grid of horizontal and
+<p>The Grid module provides several different ways to define such a grid and to place the child elements.
+Too many, in fact, to present here. Because they can refer to a previously defined grid of horizontal and
 vertical lines, the properties from the CSS Grid module provide more
 control over the alignment of elements than most other properties in
 CSS, such as the table-related properties or the ‘float’ and ‘clear’
-properties, while also allowing elements to be displayed out of order.<br>
+properties, while also allowing elements to be displayed out of order.
 As such they are especially appreciated for (Web) applications with
-user interfaces that are made with HTML and CSS.<br>
-The Grid module is not yet the ('<a href="https://en.wikipedia.org/wiki/Grid_(graphic_design)" target="_blank" rel="noopener noreferrer">design grid</a>)’ that typographers want for the layout of magazines and books, but it is a first step. (E.g., one obvious thing to do, applying grid properties to an HTML table, doesn’t work, because the properties do not handle nested elements yet.)<br>
+user interfaces that are made with HTML and CSS.</p>
+
+<p>The Grid module is not yet the ('<a href="https://en.wikipedia.org/wiki/Grid_(graphic_design)" target="_blank" rel="noopener noreferrer">design grid</a>)’ that typographers want for the layout of magazines and books, but it is a first step. (E.g., one obvious thing to do, applying grid properties to an HTML table, doesn’t work, because the properties do not handle nested elements yet.)<br>
 Even though this is only level 1 of the module, it is well worth trying out.<br>
 The properties from the Grid module have only been available in major
-browsers since mid 2017 (see the <a href="http://caniuse.com/#feat=css-grid" target="_blank" rel="noopener noreferrer">status
-of browser support</a>).</p>
-<p>But the ideas behind the Grid module aren’t new.<br>
-From the start of CSS, there have been proposals to use CSS properties to define a template or matrix to guide the layout of elements, e.g.: <a target="_blank" rel="noopener noreferrer" href="http://www.w3.org/TR/WD-layout">Frame-based
-layout</a>, <a href="http://www.w3.org/TR/2005/WD-css3-layout-20051215/" target="_blank" rel="noopener noreferrer">Advanced
-Layout</a> (later called <a href="http://www.w3.org/TR/css-template-3/" target="_blank" rel="noopener noreferrer">Template
-Layout</a>), <a target="_blank" rel="noopener noreferrer" href="https://github.com/gss">Grid Style
-Sheets</a> and <a target="_blank" rel="noopener noreferrer" href="https://constraints.cs.washington.edu/web/ccss-uwtr.pdf">Constraint
-CSS</a>.<br>
-But only recently has technology become good enough to support some (not all!) of those ideas.</p>
+browsers since mid 2017 (see the <a href="http://caniuse.com/#feat=css-grid" target="_blank" rel="noopener noreferrer">status of browser support</a>).</p>
+
+<p>But the ideas behind the Grid module aren’t new. From the start of CSS, there have been proposals to use CSS properties to define a template or matrix to guide the layout of elements, e.g.: <a target="_blank" rel="noopener noreferrer" href="http://www.w3.org/TR/WD-layout">Frame-based
+layout</a>, <a href="http://www.w3.org/TR/2005/WD-css3-layout-20051215/" target="_blank" rel="noopener noreferrer">Advanced Layout</a> (later called <a href="http://www.w3.org/TR/css-template-3/" target="_blank" rel="noopener noreferrer">Template Layout</a>), <a target="_blank" rel="noopener noreferrer" href="https://github.com/gss">Grid Style Sheets</a> and <a target="_blank" rel="noopener noreferrer" href="https://constraints.cs.washington.edu/web/ccss-uwtr.pdf">Constraint
+CSS</a>.</p>
+<p>But only recently has technology become good enough to support some (not all!) of those ideas.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch6-5-3">6.5.3 CSS Grid resources</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>If you look at the CSS Grid module, you may notice that it has rather
-a large number of properties.<br>
-That is because it tries to allow different manners of writing style
-sheets.<br>
-There are many shorthand properties and many alternative ways to
-define the same grid.<br>
-In practice, most style sheet writers will select a set of just three
-or four properties that suits their way of working.<br>
-When considering the CSS Grid module, also look at the CSS Flexible
-Box module.<br>
-It only provides for alignment of elements in a single row or column,
-but has some features that Grid doesn’t have (and it has been around
-longer and works in older browsers).<br>
-On the other hand, even for a single row or column, the Grid
-properties may turn out easier in some cases.</p>
+a large number of properties. That is because it tries to allow different manners of writing style
+sheets. There are many shorthand properties and many alternative ways to define the same grid.
+In practice, most style sheet writers will select a set of just three or four properties that 
+suits their way of working. When considering the CSS Grid module, also look at the CSS Flexible
+Box module. It only provides for alignment of elements in a single row or column, but has 
+some features that Grid doesn’t have (and it has been around longer and works in older browsers).
+On the other hand, even for a single row or column, the Grid properties may turn out easier in some cases.</p>
 
 <h4>CSS grid resources</h4>
 
