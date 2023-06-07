@@ -8,6 +8,9 @@
   <link rel="stylesheet" href="/css/styles.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="description" content="Six (6) module course on HTML and CSS given by W3C (World Wide Web Consortium). Gives an freshman introduction to HTML and CSS, along with many of the tools necessary to get started in Front-End Web Development...">
+  <link rel="canonical" href="https://w3cx-2of5.bauska.org">
+
 <!--  <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
 <!--  <meta name="description" content="HTML5 and CSS3 Fundamentals"> -->
 <!--  <meta name="author" content="W3Cx/bbauska"> -->
@@ -2148,7 +2151,7 @@ quotation marks it will essentially insert them for you. Thus:</p>
   <li><i><b>Case sensitive matters, except when it doesn’t</b></i> - case matters for some things, like strings and attributes, but not others, like tag names.</li>
   <li><i><b>White space is ignored, except when it’s not</b></i> - White space is used to separate things, but adding more than one space will be the same as just one.  White space in strings is always just as you type it.</li>
   <li><i><b>Quotation marks are not part of a string, except when they are</b></i> - Quotation marks enclose a string, but thanks to the flexibility of choice between single or double quotes, it is easy to include one or the other in your string.<li>
-  <i><b>The important thing is to look good</b></i> - You can take advantage of flexibility in capitalization and white space to make your code more readable and organized.</li>
+  <li><i><b>The important thing is to look good</b></i> - You can take advantage of flexibility in capitalization and white space to make your code more readable and organized.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-4">1.5.4 Activity – Best Practices</h3>
@@ -6921,7 +6924,7 @@ the <b>&gt;</b> symbol.  Use it between selectors to limit the
 application to the direct children of the parent. For example, this
 rule, if applied to the HTML of the previous selector, would cause the
 links in the intro section to be larger, but not the links in any nested
-quotes or blockquotes. :</p>
+quotes or blockquotes:</p>
 
 <pre>#intro > a { font-size: large; }</pre>
 
@@ -6995,7 +6998,7 @@ html5
   <tbody>
     <tr class="odd">
     <td>
-      <p><p>This paragraph has children <span> spans and
+      <p>This paragraph has children <span> spans and
 	    </span><span>q</span>, which, in turn, have their own child
         <span>spans</span>.</p>
       <p>&amp;lt;q&amp;gt;With this structure, we can see how some CSS
@@ -12888,47 +12891,45 @@ the order value of 1, the second is 2, etc.  And you can override it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Have a look at how CSS Grid Layout went from an idea to a reality.
 The short video below has been shot in August 2017 by the Microsoft
-team.<br>
-It features some of the CSS Working Group participants: <br>
-The web has always been traditionally very document-centric.<br>
+team.
+It features some of the CSS Working Group participants:</p>
+<p>The web has always been traditionally very document-centric.
 People have always been asking for better layouts.
-Most of the conversations ended up the same way, complaining about all the dirty hacks they had to do.<br>
-That hacks that we were employing weren’t as powerful as the old methods of just, put it all in a big, old table element.<br>
-That was popular for a reason, it let you do powerful, complex layouts.<br>
-It was just the worst thing to maintain, and the worst thing for semantics.<br>
+Most of the conversations ended up the same way, complaining about all the dirty hacks they had to do.
+That hacks that we were employing weren’t as powerful as the old methods of just, put it all in a big, old table element.
+That was popular for a reason, it let you do powerful, complex layouts.
+It was just the worst thing to maintain, and the worst thing for semantics.
 I wanted to see some of the technologies that I had worked with previously from the
-Windows Presentation Foundation, StackPanel, WrapPanel, grid layout.<br>
-The flexbox spec filled that StackPanel and WrapPanel gap, so we were left
-with, how do we fill the gap for grid?<br>
-And we’re gonna need to make a new spec, and we’re gonna need to build it, and so that’s what we did.<br>
-We wanted grid to be more than what the developer world thought they needed.<br>
-What they thought they needed was the things that they could do already.<br>
+Windows Presentation Foundation, StackPanel, WrapPanel, grid layout.</p>
+<p>The flexbox spec filled that StackPanel and WrapPanel gap, so we were left
+with, how do we fill the gap for grid?
+And we’re gonna need to make a new spec, and we’re gonna need to build it, and so that’s what we did.
+We wanted grid to be more than what the developer world thought they needed.
+What they thought they needed was the things that they could do already.
 And we’ve been working on it since then, for five years or so, actively now.</p>
 <p>To make CSS what it was meant to be, which was to be a flexible,
-robust, powerful, and understandable system for doing layout.<br>
+robust, powerful, and understandable system for doing layout.
 It actually provides web authors with the capability of doing web
 application layout in a sane, practical manner, without extra markup
-like tables.<br>
-Without hacks like floats, without all the necessary JavaScript
-overhead that you need with absolute position.<br>
-It allows you to do style development in a sort of different way.<br>
+like tables.</p>
+<p>Without hacks like floats, without all the necessary JavaScript
+overhead that you need with absolute position.
+It allows you to do style development in a sort of different way.
 You create a template, you create your grid first, you put content
 into that. It lets us do amazing page layouts that were previously only
-really possible to do with table-based stuff.<br>
-After reading the spec for the first time, I thought wow, this really
-has the potential to change everything.<br>
-Since I saw that, I was like, this is something that we really need, is this ability to properly lay
-things out.<br>
-I started digging into it and building some kind of examples to show other people.<br>
-And I was absolutely determined that grid layout wasn’t gonna disappear.<br>
-It was gonna be something that other people found out about, and got excited about.<br>
-The thing that changed it from a dream to reality here, was getting an implementer deeply interested in
-it, which in this case was Microsoft first leading with its version of the grid spec.<br>
-It takes both the users who are demanding the feature, as well as the browser developers who are dedicating their resources to go
-and build this.<br>
-The developer feedback has been remarkable, with all the major browser vendors implementing it, and shipping it in 2017.<br>
-It’s not just something we’re talking about, they can go use it.<br>
-We should’ve maybe pushed more, I think.<br>
+really possible to do with table-based stuff.</p>
+<p>After reading the spec for the first time, I thought wow, this really
+has the potential to change everything.
+Since I saw that, I was like, this is something that we really need, is this ability to properly lay things out.
+I started digging into it and building some kind of examples to show other people.
+And I was absolutely determined that grid layout wasn’t gonna disappear.
+It was gonna be something that other people found out about, and got excited about.
+The thing that changed it from a dream to reality here, was getting an implementer deeply interested in it, which in this case was Microsoft first leading with its version of the grid spec.
+It takes both the users who are demanding the feature, as well as the browser developers who are dedicating their resources to go and build this.</p>
+
+<p>The developer feedback has been remarkable, with all the major browser vendors implementing it, and shipping it in 2017.
+It’s not just something we’re talking about, they can go use it.
+We should’ve maybe pushed more, I think.
 The grid is something we should have had, probably from very early on, maybe from the start of CSS already.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch6-5-2">6.5.2 CSS Grid</h3>
@@ -12936,25 +12937,26 @@ The grid is something we should have had, probably from very early on, maybe fro
 <p>Have a look at how CSS Grid Layout went from an idea to a reality.
 The video below has been shot in August 2017 by the Microsoft team. It
 features some of the <a target="_blank" rel="noopener noreferrer"  href="https://courses.edx.org/courses/course-v1:W3Cx+CSS.0x+3T2017/courseware/12e8f1585d88470e95f54cf0ff6a1a00/6c9058a29dc5493fbb43332c6bc3b550/4?activate_block_id=block-v1%3AW3Cx%2BCSS.0x%2B3T2017%2Btype%40vertical%2Bblock%40beac75cf51c34b51a0ac0f6e5fad70cc">CSS
-Working Group participants</a>:<br>
+Working Group participants</a>:
 Rossen Atanassov (Microsoft) ; Tab Atkins Jr. (Google) ; Sergio
 Villar Senin (Igalia) ; Bo Cupp (Microsoft) ; Elika Etemad, aka fantasai
 (W3C Invited Expert to the CSS WG) ; Greg Whitworth (Microsoft) ;
 Dr. Bert Bos (W3C &amp; Co-Creator of CSS) ; Rachel Andrew (W3C Invited
-Expert to the CSS WG).<br>
-Web layout is always constrained by the limitations of CSS, but
+Expert to the CSS WG).</p>
+
+<p>Web layout is always constrained by the limitations of CSS, but
 future trends will be able to make use of new tools, such as CSS Flexbox
-(officially: CSS Flexible Box Layout) and CSS Grid.<br>
+(officially: CSS Flexible Box Layout) and CSS Grid.
 Despite the similarities in concept and syntax, Flexbox and Grid are
 not competing layout techniques. Grid arranges in two dimensions, while
 Flexbox lays out in one. There is synergy when using the two
-together.<br>
+together.
 CSS Grid is a CSS module that defines a two-dimensional grid-based
 layout system, optimized for user interface design. In the grid layout
 model, the children of an element (the ‘grid container’) can be
 positioned into arbitrary slots in a predefined flexible or fixed-size
-layout grid.<br>
-If that sounds a bit too abstract, here is another way of looking at it.
+layout grid.</p>
+<p>If that sounds a bit too abstract, here is another way of looking at it.
 The idea behind the Grid module is that you split
 the <a target="_blank" rel="noopener noreferrer"  href="https://courses.edx.org/courses/course-v1:W3Cx+HTML5.0x+3T2020/jump_to_id/61920cda43ca49cca2fcf26e763bbe16">box</a> that
 makes up an element into many individual ‘slots’, arranged in a matrix,
@@ -12985,15 +12987,15 @@ properties, while also allowing elements to be displayed out of order.
 As such they are especially appreciated for (Web) applications with
 user interfaces that are made with HTML and CSS.</p>
 
-<p>The Grid module is not yet the ('<a href="https://en.wikipedia.org/wiki/Grid_(graphic_design)" target="_blank" rel="noopener noreferrer">design grid</a>)’ that typographers want for the layout of magazines and books, but it is a first step. (E.g., one obvious thing to do, applying grid properties to an HTML table, doesn’t work, because the properties do not handle nested elements yet.)<br>
-Even though this is only level 1 of the module, it is well worth trying out.<br>
+<p>The Grid module is not yet the ('<a href="https://en.wikipedia.org/wiki/Grid_(graphic_design)" target="_blank" rel="noopener noreferrer">design grid</a>)’ that typographers want for the layout of magazines and books, but it is a first step. (E.g., one obvious thing to do, applying grid properties to an HTML table, doesn’t work, because the properties do not handle nested elements yet.)
+Even though this is only level 1 of the module, it is well worth trying out.
 The properties from the Grid module have only been available in major
 browsers since mid 2017 (see the <a href="http://caniuse.com/#feat=css-grid" target="_blank" rel="noopener noreferrer">status of browser support</a>).</p>
 
 <p>But the ideas behind the Grid module aren’t new. From the start of CSS, there have been proposals to use CSS properties to define a template or matrix to guide the layout of elements, e.g.: <a target="_blank" rel="noopener noreferrer" href="http://www.w3.org/TR/WD-layout">Frame-based
 layout</a>, <a href="http://www.w3.org/TR/2005/WD-css3-layout-20051215/" target="_blank" rel="noopener noreferrer">Advanced Layout</a> (later called <a href="http://www.w3.org/TR/css-template-3/" target="_blank" rel="noopener noreferrer">Template Layout</a>), <a target="_blank" rel="noopener noreferrer" href="https://github.com/gss">Grid Style Sheets</a> and <a target="_blank" rel="noopener noreferrer" href="https://constraints.cs.washington.edu/web/ccss-uwtr.pdf">Constraint
-CSS</a>.</p>
-<p>But only recently has technology become good enough to support some (not all!) of those ideas.</p>
+CSS</a>.
+But only recently has technology become good enough to support some (not all!) of those ideas.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch6-5-3">6.5.3 CSS Grid resources</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -13015,116 +13017,124 @@ On the other hand, even for a single row or column, the Grid properties may turn
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch6-6-1">6.6.1 Recipe project - Module 6</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>We'll put to use some of the layout techniques that we've learned.<br>
+<p>We'll put to use some of the layout techniques that we've learned.
 Let's improve our Web page by making it more responsive, so it's easily readable whether wide or narrow. And we'll fix the banner and nav element in place, so it's always where we need it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch6-6-2">6.6.2 Recipe project</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>In this next iteration of our recipe project, we’re going to make a
-few changes again to our Web page using cascading style sheets.<br>
+few changes again to our Web page using cascading style sheets.
 One of the first things that we want to do is go ahead and increase
-the font size on our page.<br>
+the font size on our page.
 If you take a look at the font, it seems to be a little bit
-small.<br>
+small.
 Maybe we’d like to have it a little bit larger so that the text is
-easier to read.<br>
-In order to do that, we’ll go into the ‘body’ tag, and we’re going to
-set our font size to a percentage.<br>
-And in this case, we’ll increase it by 20 percent.</p>
-<p>Setting it to 120 percent does that for us.<br>
+easier to read.</p>
+<p>In order to do that, we’ll go into the ‘body’ tag, and we’re going to
+set our font size to a percentage.
+And in this case, we’ll increase it by 20 percent.
+Setting it to 120 percent does that for us.
 Refresh the page, and you can see that our fonts size has
-increased.<br>
-Now, one of the things that we want to do here is change the width of
-our page.<br>
+increased.</p>
+<p>Now, one of the things that we want to do here is change the width of
+our page.
 We want to do some changes in how the page responds to width as the
-user resizes the window.<br>
+user resizes the window.
 What we’re going to do to change that, is we’re going to go through
 the process of manipulating some of the elements within our F12 tools
 just to get an idea of some of the issues we may run into.</p>
-<p>Within the F12, we’ll set the width of our page.<br>
-And in this case, we’re giving it a specific size.<br>
+<p>Within the F12, we’ll set the width of our page.
+And in this case, we’re giving it a specific size.
 Now, you might notice that what took place was at our header element
 is no longer expanding across the entire width of the browser
-window.<br>
+window.
 And that’s because the whole page element was resized into the
 smaller size rates.</p>
-<p>We’ve done this on the ‘body’ tag.<br>
-But we want that header element to be across the entire page.<br>
-We know that this creates a problem.<br>
+<p>We’ve done this on the ‘body’ tag.
+But we want that header element to be across the entire page.
+We know that this creates a problem.
 Let’s go ahead and clear that style from within the F12 tools, and
-lets go make some changes in our CSS file.<br>
+lets go make some changes in our CSS file.
 The first thing we’re going to do, is rather than change the whole
-body width, we’re going to change the width of the article elements.<br>
-This allows us to manipulate only specific items on the page itself.<br>
+body width, we’re going to change the width of the article elements.
+This allows us to manipulate only specific items on the page itself.
 The first thing we’re going to do, is change the minimum width.</p>
+
 <p>Let’s go ahead and refresh the page and see what happens as we start
-coming down to a smaller size.<br>
-You’ll see that the article elements will only shrink so much.<br>
-We specified a minimum of 30rem on this one here.<br>
+coming down to a smaller size.
+You’ll see that the article elements will only shrink so much.
+We specified a minimum of 30rem on this one here.
 It’s also good to set the max-width, and we’ll set that to 50rem for
-this particular instance.<br>
+this particular instance.
 Let’s refresh and see how that impacts us.</p>
+
 <p>You’ll notice a small change in the article width, and then we can
-resize the page and see how are min and max widths work.<br>
+resize the page and see how are min and max widths work.
 Finally, we’re going to go through the process of manipulating the
 margins a little bit on this page as well, and we’ll do it with the
-article element.<br>
+article element.
 We’re going to specify an auto-margin for this particular instance.
 Let’s refresh.</p>
+
 <p>You’ll notice a slight change in the margins of the articles, and
-then you’ll see how those change as you resize your document.<br>
-Now let’s take a look what happens as we scroll our page.<br>
-Notice that our banner disappears at the top.<br>
-We want to fix that. We’d like to have that banner remain static.<br>
+then you’ll see how those change as you resize your document.
+Now let’s take a look what happens as we scroll our page.</p>
+
+<p>Notice that our banner disappears at the top.
+We want to fix that. We’d like to have that banner remain static.
 We’re going to do that. Because the banner is specified in the ‘h1’,
-we’ll go into the CSS, and we’ll set the position to fixed.<br>
+we’ll go into the CSS, and we’ll set the position to fixed.
 Then as we do that and refresh the page and scroll, you’ll see that
 it no longer disappears.</p>
+
 <p>But it’s not the right width anymore, so we have to fix that as
-well.<br>
-Let’s go back in and specify the width for the ‘h1’ element.<br>
+well. Let’s go back in and specify the width for the ‘h1’ element.
 And because we want it to span the entire page, we’ll set it at 100
 percent.</p>
+
 <p>There, now the banner’s looking a little bit better in the width
 size, but notice as we scroll and also now look, there’s a little space
-at the top. We need to get rid of that.<br>
+at the top. We need to get rid of that.
 We can do that in the CSS, and we’ll specify a top, setting a value
-of zero.<br>
+of zero.
 And on the refresh, our banner now positions itself or basically
-anchors itself to the top of the page.<br>
-Now, our nav menu is partially covered.<br>
+anchors itself to the top of the page.
+Now, our nav menu is partially covered.
 We need to fix that. Because our 'nav' element is already specified,
 let’s give it a specific width, and let’s set its position to fixed as
 well.</p>
+
 <p>Also, let’s change the top so that when we set it to 4rem, it brings
-that 'nav' menu down a little bit lower.<br>
-And now, we can actually see the whole menu.<br>
-The problem is now, that it’s covering up our images.<br>
-We can fix that too by specifying an opacity value in here.<br>
+that 'nav' menu down a little bit lower.
+And now, we can actually see the whole menu.
+The problem is now, that it’s covering up our images.
+We can fix that too by specifying an opacity value in here.
 Setting the opacity gives it somewhat of a transparency.</p>
+
 <p>And if we set it 0.8 and refresh our page, we can see that now we can
 look at some of the image behind it, so it’s not completely covered
-up.<br>
+up.
 But the problem may be that with that opacity, maybe the text isn’t
-easy to read.<br>
-We can fix that by manipulating something called the hover.<br>
+easy to read.</p>
+
+<p>We can fix that by manipulating something called the hover.
 Now, we don’t have a nav.hover in our cascading style sheet yet, so
 we’ll go ahead and add that.</p>
+
 <p>Simply, nav and hover, and this basically covers the action for when
-the user hovers the most over that 'nav' element.<br>
-And what we’ll do is simply set the opacity back to 1.0.<br>
+the user hovers the most over that 'nav' element.
+And what we’ll do is simply set the opacity back to 1.0.
 Now we can see how the opacity changes when we hover the mouse over
-our 'nav' menu.<br>
+our 'nav' menu.
 Now, we’re almost finished, but notice that we’ve got some text that,
 again, is still hidden behind that "h1".</p>
-<p>Let’s fix that by setting up our margin.<br>
+
+<p>Let’s fix that by setting up our margin.
 In this case, we want ‘margin-top’.</p>
+
 <p>We’ll specify a ‘margin-top’, give it a value, add then refresh the
-page.<br>
-And now, you can see that.<br>
-They’ve actually scrolled down a little bit more.<br>
-We fixed those issues at the top.<br>
-These are the final changes to our recipe project for this unit.
+page. And now, you can see that. They’ve actually scrolled down a little bit more.
+We fixed those issues at the top. These are the final changes to our recipe project for this unit.
 </p>
 
 <!-- template for images
