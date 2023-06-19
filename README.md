@@ -17,7 +17,7 @@ w3cx-2of5-html5.0x: Coursera - Front-End Web Development - HTML5 & CSS3 Fundamen
 
 <h3 align="center">W3Cx-2of5-HTML5.0x - HTML5 and CSS3 Fundamentals</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------ 01. W3Cx-2of5-HTML5.0x logo (01) -------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. W3Cx-2of5-HTML5.0x logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image001.png?raw=true"
@@ -89,7 +89,7 @@ a professional look and feel, by just following these 6 modules!</p>
 <li>The first set of lessons are available under <b>"Module 1: My first Web page in HTML5"</b>.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--------------------------------- 02. my first web page (01) ----------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 02. my first web page (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image002.jpeg?raw=true"
@@ -103,7 +103,7 @@ a professional look and feel, by just following these 6 modules!</p>
 
 <h4>CSS is used to style the HTML</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------------------- 03. w3c developers logo (02) ---------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. w3c developers logo (02) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image003.png?raw=true"
@@ -117,7 +117,7 @@ include it with your pages, and get you started with some basic
 properties and concepts. Note that we'll explore how to use CSS to
 layout your page during the last week of this course.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--------------------------------------- 04. laptop (02) ---------------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04. laptop (02) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image004.png?raw=true"
@@ -133,7 +133,7 @@ layout your page during the last week of this course.</p>
     <b>Module 4</b> is a 'short' week so please use that time to practice,
     practice and practice coding again!<br/>&nbsp;</li>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------------------------- 05. w3c cheat sheet (02) ------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05. w3c cheat sheet (02) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image005.png?raw=true"
@@ -146,7 +146,7 @@ layout your page during the last week of this course.</p>
     will learn about tables, the audio and video elements, etc. This is
     a good preparatory work for the <a href="https://www.edx.org/course/html5-coding-essentials-and-best-practices" target="_blank">HTML5 Coding Essentials and Best Practices course</a> (intermediate level). You will also learn how to embed other elements in a page other than a simple image. Note that some parts of the material are optional: iframes, usemap, and ismap.<br/>&nbsp;</li>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------- 06. can i use: css colors (03) --------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. can i use: css colors (03) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image006.png?raw=true"
@@ -267,7 +267,7 @@ Here's an interesting article on what beginners can do with CodePen: <a href="h
 
 <h3>W3C Validators</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------------------- 03. w3c developers logo (08) ---------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. w3c developers logo (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image003.png?raw=true"
@@ -275,7 +275,7 @@ Here's an interesting article on what beginners can do with CodePen: <a href="h
   alt="W3C Developers logo." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------------- 07. mdn web docs mozilla logo (08) ------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. mdn web docs mozilla logo (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image007.png?raw=true"
@@ -293,7 +293,7 @@ Here's an interesting article on what beginners can do with CodePen: <a href="h
 
 <p>The <a href="https://jigsaw.w3.org/css-validator/">CSS validator</a> checks Cascading Style Sheets (CSS) and (X)HTML documents that use CSS stylesheets.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--------------------------------------- 04. laptop (08) ---------------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04. laptop (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image004.png?raw=true"
@@ -336,7 +336,7 @@ completed by summaries of guidelines developed at W3C, in particular Web
 accessibility guidelines, the Mobile Web Best Practices, and a number of
 internationalization tips.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------------------------- 05. w3c cheat sheet (09) ------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05. w3c cheat sheet (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image005.png?raw=true"
@@ -381,7 +381,7 @@ of front-end Web technologies on desktop and mobile Web browsers. Below
 is a snapshot of what information is given by CanIUse when searching for
 "CSS3 colors".
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------------- 06. cheat sheet (10) ------------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. cheat sheet (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image006.png?raw=true"
@@ -391,7 +391,7 @@ is a snapshot of what information is given by CanIUse when searching for
 
 <h3>MDN Web Docs</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------------------------- 07. mdn web docs logo (10) ---------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. mdn web docs logo (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image007.png?raw=true"
@@ -423,7 +423,7 @@ define key parts of what actually makes the World Wide Web work.
 
 <h3>A few history bits</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------ 08. tim berners-lee in 1994 (11) -------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. tim berners-lee in 1994 (11) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image008.jpeg?raw=true"
@@ -554,7 +554,7 @@ Management: A proposal', pictured below, the proposal was created by Sir
 Tim Berners-Lee and was sent to his boss Mike Sendall, who described it
 as 'vague but exciting'.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------- 09. network of components (13) --------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 09. network of components (13) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image009.gif?raw=true"
@@ -595,7 +595,7 @@ interact with all the information on the World Wide Web.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>HTML5</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------------- 10. html5 logo (14) -------------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 10. html5 logo (14) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image010.png?raw=true"
@@ -620,7 +620,7 @@ create dynamic Web pages.
 
 <h4>CSS</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------------- 11. css3 logo (14) --------------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 11. css3 logo (14) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image011.png?raw=true"
@@ -638,7 +638,7 @@ whatever else may apply to what it looks like.
 <h4>JavaScript</h4>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------------------------- 12. javascript logo (15) ------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 12. javascript logo (15) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image012.jpeg?raw=true"
@@ -667,7 +667,7 @@ That's why, in 1989, Tim Berners-Lee began to create a definition of
 HTML: Hypertext Markup Language, to provide a simple, uniform way to
 incorporate Hyperlinks in a text document.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------- 13. illustration of hypertext documents (16) ------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 13. illustration of hypertext documents (16) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image013.png"
@@ -699,7 +699,7 @@ government organizations.  As things progressed through the 80s, the
 Internet was used for file transfers, newsgroups (a kind of open forum),
 email and other conveniences.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------------------- 14. snapshot of mosaic browser (17) ------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 14. snapshot of mosaic browser (17) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image014.jpeg?raw=true"
@@ -1492,7 +1492,7 @@ contain other elements, as the body element would contain header
 elements, paragraph elements, in fact pretty much all of the visible
 elements of the DOM.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------------------- 15. html element (34) -------------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 15. html element (34) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image015.png?raw=true"
@@ -1522,7 +1522,7 @@ a text file?  Well, that's where "tags" come in.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3-4">1.3.4 Tags</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------------------------------- 16. tags (35) ----------------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 16. tags (35) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image016.png?raw=true"
@@ -1570,12 +1570,15 @@ the element, it needs an open and close tag, with everything in between
 the tags being the content of the element:
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------- 17. diagram of an element (34) --------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 17. diagram of an element (34) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image017.png?raw=true"
   width="65%"
-  alt="Diagram of an element: the &#39;&lt;em&gt;&#39; tag is used for element that needs Emphasis. The &#39;&lt;&#39; and &#39;&gt;&#39; indicate that this is a tag, and the little bits of text in between tell us what kind of tag it is. To completely describe the element, it needs an open and close tag, with everything in between the tags being the content of the element" />
+  alt="Diagram of an element: the &#39;&lt;em&gt;&#39; tag is used for element that needs Emphasis. 
+    The &#39;&lt;&#39; and &#39;&gt;&#39; indicate that this is a tag, and the little bits of 
+    text in between tell us what kind of tag it is. To completely describe the element, it needs 
+    an open and close tag, with everything in between the tags being the content of the element" />
 </p>
 <p>
 Most tags have open and close versions, but there are a few strange
@@ -1740,14 +1743,14 @@ slack of his roundabout and arrest his flight.
 > and layout accordingly.</i>
 
 On the other hand, you might think that since a browser always knows
-exactly what tag it is working with (<a href="https://en.wikipedia.org/wiki/Eidetic_memory" target="_blank">eidetic
-memory</a>), you could
-provide a sort of "universal close tag" that doesn't specify the type
-that it's closing. It would know to close the current tag. While that's
-technically true, it's handy to have the close tag there for people
-reading the code. The close tag makes it easier to remember what tag it
-is closing. We humans can get confused trying to remember that kind of
-detail.
+exactly what tag it is working with 
+(<a href="https://en.wikipedia.org/wiki/Eidetic_memory" target="_blank">eidetic
+memory</a>), you could provide a sort of "universal close tag" that doesn't 
+specify the type that it's closing. It would know to close the current tag. 
+While that's technically true, it's handy to have the close tag there for 
+people reading the code. The close tag makes it easier to remember what 
+tag it is closing. We humans can get confused trying to remember that 
+kind of detail.
 
 But there are other ambiguities to consider. For example, when a browser
 receives a file, it may know that it's receiving an HTML file, but it
@@ -1856,10 +1859,11 @@ encoding as a reference.</p>
 <h4>Examples of character encodings include:</h4>
 
 <ul>
-   <li><i>ASCII</i>: contains letters, characters and a limited set of symbols and punctuation for the English language.</li>
-   <li><i>Windows-1252 (Latin1)</i>: Windows character set that supports 256 different code points.</li>
-   <li><i>ISO-8859-6</i>: contains letters and symbols based on the Arabic script.</li>
-   <li><i>Unicode</i>: contains characters for most living languages and scripts in the world.</li>
+  <li><i>ASCII</i>: contains letters, characters and a limited set of 
+    symbols and punctuation for the English language.</li>
+  <li><i>Windows-1252 (Latin1)</i>: Windows character set that supports 256 different code points.</li>
+  <li><i>ISO-8859-6</i>: contains letters and symbols based on the Arabic script.</li>
+  <li><i>Unicode</i>: contains characters for most living languages and scripts in the world.</li>
 </ul>
 
 <p>When you code in HTML, you must specify the encoding you wish your page
@@ -1880,7 +1884,8 @@ encoding at the top of the web page. <b>You have to ensure that your
 editor saves the file in UTF-8</b> also. Most editors will do that these
 days, but you should check.
 
-Read an <a href="https://www.w3.org/International/getting-started/characters">Introduction to character sets and encodings here</a>.</p>
+Read an <a href="https://www.w3.org/International/getting-started/characters">
+  Introduction to character sets and encodings here</a>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-4-2">1.4.2 The &lt;meta&gt; tag</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2208,13 +2213,11 @@ There is no need for the &copy; or &euro; HTML character reference if
 you are able to type the character itself.
 
 If you'd like to read more information about when to use character
-references and when not to use them, see <a href="https://www.w3.org/International/questions/qa-escapes" target="_blank">Using character escapes in
-markup and CSS</a>.
-
+references and when not to use them, see <a href="https://www.w3.org/International/questions/qa-escapes" 
+  target="_blank">Using character escapes in markup and CSS</a>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-1">1.5.1 Learning from the Mistakes of Others</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 Children can be great at asking questions about things that most adults
 take for granted, and like to challenge assumptions.
 
@@ -2260,13 +2263,13 @@ you meant it to. Or maybe it does look like you want, but you do not
 want to depend on that. In general, best practices would call for one to
 do it properly, and not depend on the browser to patch it for you.
 
-Because an HTML file essentially represents a <a href="https://en.wikipedia.org/wiki/Tree_(data_structure)">tree
-structure</a>, the
-open and close tags should always match, and there should not be any
-overlap with other elements. That is, you can have an element that is
-enclosed in another element, or you can have two elements side-by-side,
-but you can never have a situation in which part of an element is in
-another, but the other part is not.
+Because an HTML file essentially represents a 
+<a href="https://en.wikipedia.org/wiki/Tree_(data_structure)">tree
+structure</a>, the open and close tags should always match, and there 
+should not be any overlap with other elements. That is, you can have an 
+element that is enclosed in another element, or you can have two 
+elements side-by-side, but you can never have a situation in which 
+part of an element is in another, but the other part is not.
 
 ```xml
   <p>This is a <em>paragraph</em></p>
@@ -2681,7 +2684,7 @@ effect in your Web page when you use them:</p>
 
 <h4>This code might be rendered like this:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--------------------------------- 18. example ul and li (56) ----------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18. example ul and li (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image018.png?raw=true"
@@ -2726,7 +2729,7 @@ primarily used to invoke certain formatting.</p>
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------------- 19. that which we call a rose (61) ------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 19. that which we call a rose (61) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image019.png?raw=true"
@@ -2760,7 +2763,6 @@ line breaks
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-6-5">1.6.5 Recipe Project – Module 1</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 <p>Throughout the course, we'll be building a simple project, adding to it
 with what we've learned in each module. This project will be a simple
 Web application that will allow you to browse different recipes.
@@ -2879,8 +2881,7 @@ We hope you enjoy the course, and happy learning!
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-1-2">2.1.2 Meaningful Web Pages</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>
-Tags and elements are building blocks of HTML5. However, they can be
+<p>Tags and elements are building blocks of HTML5. However, they can be
 made so much more exciting with attributes. Let's take a simple element
 like list. You know how to add one to your page but can you change the
 order of your list? Or change it to an alphabetically ordered list
@@ -3112,7 +3113,9 @@ There are two kinds of attributes:</p>
 
 <p>Global attributes can be applied to <b>all tags</b>. They are common
 attributes. Examples of global attributes are id and class. There are
-many more global attributes. Here is a <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes#list_of_global_attributes">list of all the global attributes</a> and the values they accept.
+many more global attributes. Here is a 
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes#list_of_global_attributes">
+  list of all the global attributes</a> and the values they accept.
 
 Attributes like id and class can be applied to any HTML tag.</p>
 
@@ -3179,7 +3182,8 @@ learning about shortly, have many non-global attributes of their own.</p>
 ```
 
 <p>Other than the common global attributes, if you wish to learn about the
-supported non-global attributes for any element, you can visit the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes">HTML
+supported non-global attributes for any element, you can visit the 
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes">HTML
 attribute reference</a> available at the Mozilla Developer Network (MDN).
 
 <b>Important:</b> Throughout the course, using the MDN attribute reference,
@@ -3188,39 +3192,40 @@ learn about or would like to use in your Web pages. In the MDN attribute
 reference list, you can click on the element's hyperlinked name to be
 navigated to its page that lists supported attributes for that element.
 
-<b>Try this:</b> Navigate to the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes">HTML attribute
-reference</a> at
-Mozilla Developer Network and find out which element(s) the
+<b>Try this:</b> Navigate to the 
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes">HTML attribute
+reference</a> at Mozilla Developer Network and find out which element(s) the
 attributes muted and readonly can be applied to. 
 
-<b>Try this:</b> Navigate to the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes">HTML attribute
-reference</a> at Mozilla
-Developer Network and find out the non-global attributes that can be
-applied to the &lt;li&gt; tag. Search for the &lt;li&gt; element and then click
-on it: it will take you to the list tag's page that specifies applicable
-attributes.</p>
+<b>Try this:</b> Navigate to the 
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes">HTML attribute
+reference</a> at Mozilla Developer Network and find out the non-global attributes 
+that can be applied to the &lt;li&gt; tag. Search for the &lt;li&gt; element 
+and then click on it: it will take you to the list tag's page that specifies 
+applicable attributes.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-2-3">2.2.3 Global Attributes: Examples</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Global attribute: 'id'</h4>
 
-<p>Like we saw in the previous unit, <a href="https://www.w3.org/TR/html5/dom.html#global-attributes">here is a list of all the global
-attributes</a> and
-the values they accept. To understand attributes, we considered an
-example of usage id and class. We are going to look at it in depth here
-and discuss another global attribute title.
+<p>Like we saw in the previous unit, 
+<a href="https://www.w3.org/TR/html5/dom.html#global-attributes">here is a list of all the global
+attributes</a> and the values they accept. To understand attributes, we considered an
+example of usage id and class. We are going to look at it in depth here and discuss 
+another global attribute title.
 
 The id attribute gives your element a unique identifier. In your HTML
 document, that ID value can only be used in one element.</p>
 
 <h4>Naming rules for id attribute:</h4>
+
 <ul>
-<li>Must be of at least one character,</li>
-<li>Should not contain any spaces,</li>
-<li>Values are case-sensitive. This means 'QuestioN' and 'question' are
-    NOT the same. That does not mean you can define two different IDs
-    that only differ by case, e.g. "myid" and "MyId". They are different
-    and so legal but it would be extremely confusing to do this!,</li>
+  <li>Must be of at least one character,</li>
+  <li>Should not contain any spaces,</li>
+  <li>Values are case-sensitive. This means 'QuestioN' and 'question' are
+      NOT the same. That does not mean you can define two different IDs
+      that only differ by case, e.g. "myid" and "MyId". They are different
+      and so legal but it would be extremely confusing to do this!,</li>
 </ul>
 
 ```
@@ -3275,11 +3280,12 @@ space:</p>
 ```
 
 <h4>Naming rules for the class attribute:</h4>
+
 <ul>
-<li>Must begin with a letter (a-z or A-Z).</li>
-<li>First letter can be followed by a letter, digit, hyphen or an
+  <li>Must begin with a letter (a-z or A-Z).</li>
+  <li>First letter can be followed by a letter, digit, hyphen or an
     underscore.</li>
-<li>Values are case-sensitive.</li>
+  <li>Values are case-sensitive.</li>
 </ul>
 
 <h4>class is primarily used for:</h4>
@@ -3381,7 +3387,7 @@ Don't click on it, just rest your cursor there.</p>
 
 <h4>NASA</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------------------------- 22. beautiful girl (71) ------------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 22. beautiful girl (71) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image022.jpeg?raw=true"
@@ -3407,10 +3413,11 @@ value. 
 <h3 id="ch2-2-4">2.2.4 Global Attributes</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>References for the video text below:</h4>
+
 <ul>
-   <li><a href="https://www.w3.org/2009/cheatsheet/">W3C Cheatsheet</a></li>
-   <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes">Mozilla Developer Newsletter (MDN) Attribute
-      Reference</a></li>
+  <li><a href="https://www.w3.org/2009/cheatsheet/">W3C Cheatsheet</a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes">
+    Mozilla Developer Newsletter (MDN) Attribute Reference</a></li>
 </ul>
 
 Hi everyone! Now that we have read a fair amount of information about
@@ -3608,7 +3615,7 @@ rule and were eventually corrected in HTML5.
 
 This is how the above HTML code will look in a browser:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--------------------------- 23. how html will look in browser (76) ----------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 23. how html will look in browser (76) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image023.png?raw=true"
@@ -3808,7 +3815,7 @@ semantic elements.
 Let's look at a typical Web page structure that consists of blocks named
 after: header, nav, article, section, aside and footer.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------- 24. picture showing structure of a web site (78) ----------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~ 24. picture showing structure of a web site (78) ~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image024.jpeg?raw=true"
@@ -3876,64 +3883,63 @@ this:
 7.  </head>
 8.   
 9.  <body>
-10. <header>
-11.   <h2>Using the Markup Validator.</h2>
-12. </header>
-13. <nav>
-14. <!--You will learn about <a> tag later in this chapter-->
-15.   <a href="">What is the Markup Validator and what does it
-    do?</a><br />
-16.   <a href="">Why validate?</a><br />
-17.   <a href="">How do I use the Markup validator?</a><br />
-18.   <a href="">Many error messages? Don't panic.</a><br />
-19. </nav>
-20. <section>
-21.   <h3>What is the Markup Validator and what does it do?</h3>
-22.   <p> The Markup Validator is a free tool and service that
-23.     <a href="https://validator.w3.org/docs/help.html#validation_basics">validates
-    markup</a>: in other words, it checks the syntax of Web documents,
-    written in formats such as HTML. </p>
-24. </section>
-25. <section>
-26.   <h3>Why validate?</h3>
-27.   <p> One of the important maxims of computer programming is: "Be
-    conservative in what you produce; be liberal in what you accept."
+10.   <header>
+11.     <h2>Using the Markup Validator.</h2>
+12.   </header>
+13.   <nav>
+14.     <!--You will learn about <a> tag later in this chapter-->
+15.     <a href="">What is the Markup Validator and what does it
+          do?</a><br />
+16.     <a href="">Why validate?</a><br />
+17.     <a href="">How do I use the Markup validator?</a><br />
+18.     <a href="">Many error messages? Don't panic.</a><br />
+19.   </nav>
+20.   <section>
+21.     <h3>What is the Markup Validator and what does it do?</h3>
+22.     <p> The Markup Validator is a free tool and service that
+23.     <a href="https://validator.w3.org/docs/help.html#validation_basics">validates
+        markup</a>: in other words, it checks the syntax of Web documents,
+        written in formats such as HTML. </p>
+24.   </section>
+25.   <section>
+26.     <h3>Why validate?</h3>
+27.     <p> One of the important maxims of computer programming is: "Be
+          conservative in what you produce; be liberal in what you accept."
 28.  
-29. Browsers follow the second half of this maxim by accepting Web pages
-    and trying to display them even if they're not legal HTML. The
-    problem is that different browsers (or even different versions of
-    the same browser) will make different guesses about the same illegal
-    construct...
-30.   </p>
-31. </section>
-32. <article>
-33.   <h3>How do I use the Markup validator?</h3>
-34.   <p>Most probably, you will want to use the online Markup
-    Validation service. The simple way to use this service to validate a
-    Web page is to paste its address into the
-35.   <a href="https://validator.w3.org/#uri">text area</a>
-36.   on the
-37.   <a href="https://validator.w3.org/">validator's home page</a>
-38.   ,and press the "Check" button.</p>
-39. </article>
-40. <aside>
-41.   <h3>Many error messages? Don't panic.</h3>
-42.   <p> Don't panic. Did The Validator complain about your DOCTYPE
-    declaration (or lack thereof)? Make sure your document has a
-    syntactically correct DOCTYPE declaration, as described in the
-    section on DOCTYPE, and make sure it correctly identifies the type
-    of HTML you're using. Then run it through The Validator again; if
-    you're lucky, you should get a lot fewer errors.
+29.       Browsers follow the second half of this maxim by accepting Web pages
+          and trying to display them even if they're not legal HTML. The
+          problem is that different browsers (or even different versions of
+          the same browser) will make different guesses about the same illegal
+          construct...
+30.     </p>
+31.   </section>
+32.   <article>
+33.     <h3>How do I use the Markup validator?</h3>
+34.     <p>Most probably, you will want to use the online Markup
+          Validation service. The simple way to use this service to validate a
+          Web page is to paste its address into the
+35.       <a href="https://validator.w3.org/#uri">text area</a>
+36.       on the
+37.       <a href="https://validator.w3.org/">validator's home page</a>
+38.       ,and press the "Check" button.</p>
+39.   </article>
+40.   <aside>
+41.     <h3>Many error messages? Don't panic.</h3>
+42.     <p> Don't panic. Did The Validator complain about your DOCTYPE
+          declaration (or lack thereof)? Make sure your document has a
+          syntactically correct DOCTYPE declaration, as described in the
+          section on DOCTYPE, and make sure it correctly identifies the type
+          of HTML you're using. Then run it through The Validator again; if
+          you're lucky, you should get a lot fewer errors.
 43.  
-44. If this doesn't help, then you may be experiencing a cascade failure
-    ... </p>
-45. </aside>
-46. <footer>
-47.   <p>Written by: W3C</p>
-48.   <p>For more information, please
-    visit <a href="https://validator.w3.org/docs/help.html">this
-    page</a>.</p>
-49. </footer>
+44.       If this doesn't help, then you may be experiencing a cascade failure
+          ... </p>
+45.   </aside>
+46.   <footer>
+47.     <p>Written by: W3C</p>
+48.     <p>For more information, please visit 
+	<a href="https://validator.w3.org/docs/help.html">this page</a>.</p>
+49.   </footer>
 50. </body>
 51.  
 52. </html>
@@ -3941,7 +3947,7 @@ this:
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------------------- 25. using the markup validator (83) ------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 25. using the markup validator (83) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image025.png?raw=true"
@@ -4158,7 +4164,7 @@ for all users.
 
 <h4>Result:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------------------- 27. example figcaption command (86) ------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 27. example figcaption command (86) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image027.jpeg?raw=true"
@@ -4214,28 +4220,28 @@ visual change:
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Effect of semantic elements</title>
+  <meta charset="UTF-8">
+  <title>Effect of semantic elements</title>
 </head>
 <body>
-<article>
-<header id="intro">
-<h2>Introduction</h2>
-</header>
-<p>HTML5 stands for ...</p>
-<!--This is an example of aside. The mark element has also been
-showcased in the paragraph -->
-<aside>
-<h4> API </h4>
-<p> API stands ... </p>
-</aside>
-</article>
+  <article>
+    <header id="intro">
+      <h2>Introduction</h2>
+    </header>
+    <p>HTML5 stands for ...</p>
+    <!--This is an example of aside. The mark element has also been
+    showcased in the paragraph -->
+    <aside>
+      <h4> API </h4>
+      <p> API stands ... </p>
+    </aside>
+  </article>
 </body>
 ```
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------------- 29. the aside semantic element (88) ------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 29. the aside semantic element (88) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image029.png?raw=true"
@@ -4353,7 +4359,7 @@ element. <b>Here's a simplified version</b>:
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------------------- 30. html5.2x header and headings (91) ----------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 30. html5.2x header and headings (91) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image030.png?raw=true"
@@ -4394,7 +4400,7 @@ identify headings</a>.
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------------- 31. brad's cookbook in codepen (92) ------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 31. brad's cookbook in codepen (92) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image031.png?raw=true"
@@ -4410,7 +4416,8 @@ higher level headings or announce the heading level with the text it
 reads. They can also navigate through the headings quicker making it
 easier for the user to navigate contents of the Web page. 
 
-You can learn more about the source of this technique in that <a href="https://www.w3.org/WAI/tutorials/page-structure/headings/" 
+You can learn more about the source of this technique in that 
+<a href="https://www.w3.org/WAI/tutorials/page-structure/headings/" 
   target="_blank">other W3C resource page about headings</a>.
 
 <h4>Can you have more than one &lt;header&gt;, &lt;footer&gt; and &lt;nav&gt;?</h4>
@@ -4442,7 +4449,7 @@ Let's look at site-wide/global header and footer used in [Microsoft
 Virtual Academy home page](https://mva.microsoft.com/). At the time of
 course creation, here are screenshots of its header:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------- 32. screenshot of the top ms virtual academy home page (93) ------------------->
+<!--~~~~~~~~~~~~~~ 32. screenshot of the top ms virtual academy home page (93) ~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image032.png?raw=true"
@@ -4452,7 +4459,7 @@ course creation, here are screenshots of its header:
 
 and footer.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--------- 33. screenshot of the ms virtual academy home page showing the footer (93) ----------->
+<!--~~~~~~~ 33. screenshot of the ms virtual academy home page showing the footer (93) ~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image033.png?raw=true"
