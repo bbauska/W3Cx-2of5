@@ -10,7 +10,7 @@ w3cx-2of5-html5.0x: Coursera - Front-End Web Development - HTML5 & CSS3 Fundamen
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ w3cx logo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/w3c-logo.png?raw=true"
+<img src="./images/w3c-logo.webp?raw=true"
   width="35%"
   alt="W3C logo." />
 </p>
@@ -20,7 +20,7 @@ w3cx-2of5-html5.0x: Coursera - Front-End Web Development - HTML5 & CSS3 Fundamen
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. W3Cx-2of5-HTML5.0x logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image001.png?raw=true"
+<img src="./images/image001.webp?raw=true"
   width="65%"
   alt="W3Cx HTML 5.0x logo." />
 </p>
@@ -92,7 +92,7 @@ a professional look and feel, by just following these 6 modules!</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 02. my first web page (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image002.jpeg?raw=true"
+<img src="./images/image002.webp?raw=true"
   width="15%"
   alt="My First Web Page." />
 </p>
@@ -106,7 +106,7 @@ a professional look and feel, by just following these 6 modules!</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. w3c developers logo (02) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image003.png?raw=true"
+<img src="./images/image003.webp?raw=true"
   width="15%"
   alt="W3C Developers logo." />
 </p>
@@ -120,7 +120,7 @@ layout your page during the last week of this course.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04. laptop (02) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image004.png?raw=true"
+<img src="./images/image004.webp?raw=true"
   width="15%"
   alt="Laptop image." />
 </p>
@@ -136,7 +136,7 @@ layout your page during the last week of this course.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05. w3c cheat sheet (02) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image005.png?raw=true"
+<img src="./images/image005.webp?raw=true"
   width="50%"
   alt="W3C Cheat Sheet." />
 </p>
@@ -149,7 +149,7 @@ layout your page during the last week of this course.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. can i use: css colors (03) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image006.png?raw=true"
+<img src="./images/image006.webp?raw=true"
   width="65%"
   alt="Can I Use: CSS Colors." />
 </p>
@@ -270,7 +270,7 @@ Here's an interesting article on what beginners can do with CodePen: <a href="h
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. w3c developers logo (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image003.png?raw=true"
+<img src="./images/image003.webp?raw=true"
   width="30%"
   alt="W3C Developers logo." />
 </p>
@@ -278,7 +278,7 @@ Here's an interesting article on what beginners can do with CodePen: <a href="h
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. mdn web docs mozilla logo (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image007.png?raw=true"
+<img src="./images/image007.webp?raw=true"
   width="30%"
   alt="MDN Web Docs Mozilla logo." />
 </p>
@@ -296,7 +296,7 @@ Here's an interesting article on what beginners can do with CodePen: <a href="h
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04. laptop (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image004.png?raw=true"
+<img src="./images/image004.webp?raw=true"
   width="15%"
   alt="Laptop." />
 </p>
@@ -339,7 +339,7 @@ internationalization tips.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05. w3c cheat sheet (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image005.png?raw=true"
+<img src="./images/image005.webp?raw=true"
   width="50%"
   alt="W3C Cheat Sheet." />
 </p>
@@ -384,7 +384,7 @@ is a snapshot of what information is given by CanIUse when searching for
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. cheat sheet (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image006.png?raw=true"
+<img src="./images/image006.webp?raw=true"
   width="65%"
   alt="Example of a CanIUse browser support table (using CSS3 colors)." />
 </p>
@@ -394,7 +394,7 @@ is a snapshot of what information is given by CanIUse when searching for
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. mdn web docs logo (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image007.png?raw=true"
+<img src="./images/image007.webp?raw=true"
   width="35%"
   alt="MDN Web Docs logo." />
 </p>
@@ -426,7 +426,7 @@ define key parts of what actually makes the World Wide Web work.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. tim berners-lee in 1994 (11) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image008.jpeg?raw=true"
+<img src="./images/image008.webp?raw=true"
   width="35%"
   alt="Tim Berners-Lee at his desk in CERN, 1994." />
 </p>
@@ -501,7 +501,6 @@ One analogy equates the Internet to a road network where the Web is a
 car, the email is a bicycle, etc.  Read <a href="https://www.lifewire.com/difference-between-the-internet-and-the-web-2483335" target="_blank">this
 article</a>
 for more details about the difference between Internet and the Web.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="cha-2">What is Web Accessibility?</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -545,9 +544,9 @@ a great way to avoid the same pitfalls.
 
 <b>1.6 More on tags:</b> Review of the tags we have just learned about and
 get started on your course project.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-2-1">1.2.1 Vague But Exciting!</h3>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Twenty-nine years ago a proposal was sent internally at CERN
 outlying a universal linked information system. Dubbed 'Information
 Management: A proposal', pictured below, the proposal was created by Sir
@@ -557,7 +556,7 @@ as 'vague but exciting'.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 09. network of components (13) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image009.gif?raw=true"
+<img src="./images/image009.webp?raw=true"
   width="85%"
   alt="Network of Components." />
 </p>
@@ -598,7 +597,7 @@ interact with all the information on the World Wide Web.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 10. html5 logo (14) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image010.png?raw=true"
+<img src="./images/image010.webp?raw=true"
   width="15%"
   alt="HTML5 logo." />
 </p>
