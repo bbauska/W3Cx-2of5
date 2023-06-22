@@ -10,7 +10,7 @@ w3cx-2of5-html5.0x: Coursera - Front-End Web Development - HTML5 & CSS3 Fundamen
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ w3cx logo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/w3c-logo.webp?raw=true"
+<img src="./images/w3cx-logo.webp?raw=true"
   width="35%"
   alt="W3C logo." />
 </p>
