@@ -4044,7 +4044,7 @@ society.&lt;/p&gt;<br />
 </tr>
 <tr class="odd">
 <td><strong>&lt;details&gt;</strong><br />
-<br />\*see example below</td>
+<br />*see example below</td>
 <td>A way to provide additional information that the user can show or
 hide. Content that is shown to user by default. Other content is hidden
 and can be expanded to view.</td>
@@ -4056,7 +4056,7 @@ and can be expanded to view.</td>
 </tr>
 <tr class="even">
 <td><p><strong>&lt;figcaption&gt;</strong></p>
-<p>\* see example below</p></td>
+<p>* see example below</p></td>
 <td>Provides a caption (explanation) of an image. To be used within
 &lt;figure&gt;.</td>
 <td>&lt;figure&gt;<br />
@@ -4074,7 +4074,7 @@ caption</td>
 </tr>
 <tr class="even">
 <td><p><strong>&lt;mark&gt;</strong></p>
-<p>\* see example below</p></td>
+<p>* see example below</p></td>
 <td>Defines a part of a text you want to highlight. The highlight
 styling is specified in CSS.</td>
 <td>&lt;h4&gt;Lane: &lt;/h4&gt;&lt;p&gt;Yes sir. [&lt;mark&gt;Handing
@@ -8096,7 +8096,7 @@ blockquotes. :
 
 <h4>Everything selector (*)</h4>
 
-The asterisk (\*) can be used to match <b>any</b> tag. By itself, this is
+The asterisk (*) can be used to match <b>any</b> tag. By itself, this is
 only marginally useful. But combined with other selectors into a
 descendant selector, it can be pretty useful.
 
