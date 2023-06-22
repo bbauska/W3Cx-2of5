@@ -5,6 +5,12 @@ h4 {
     font-family: Inter, Georgia, BahnSchrift, sans-serif, Consolas
 }
 
+p {
+    font-size: 13.5px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 15px;
+}
 .dropdown-content a,
 a {
     text-decoration: none
