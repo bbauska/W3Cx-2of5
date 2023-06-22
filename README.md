@@ -622,7 +622,7 @@ create dynamic Web pages.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 11. css3 logo (14) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image011.png?raw=true"
+<img src="./images/image011.webp?raw=true"
   width="15%"
   alt="CSS3 logo." />
 </p>
@@ -640,7 +640,7 @@ whatever else may apply to what it looks like.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 12. javascript logo (15) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image012.jpeg?raw=true"
+<img src="./images/image012.webp?raw=true"
   width="15%"
   alt="JavaScript logo." />
 </p>
@@ -669,7 +669,7 @@ incorporate Hyperlinks in a text document.
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 13. illustration of hypertext documents (16) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image013.png"
+<img src="./images/image013.webp"
   width="85%"
   alt="Illustration of hypertext documents (here are extract of wikipedia pages): the HTML5 page has links going to the Markup language page, the World Wide Web definition page, etc." />
 </p>
@@ -701,7 +701,7 @@ email and other conveniences.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 14. snapshot of mosaic browser (17) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image014.jpeg?raw=true"
+<img src="./images/image014.webp?raw=true"
   width="65%"
   alt="Snapshot of a Mosaic Browser." />
 </p>
@@ -944,7 +944,7 @@ And you can see an "Editor" opens up, and it has a HTML Pane, A CSS Pane, a Java
 <!-------------------------- image-example 13 1/2. example editor (23) --------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image-example.png"
+<img src="./images/image-example.webp"
   width="85%"
   alt="Example editor." />
 </p>
@@ -1494,7 +1494,7 @@ elements of the DOM.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 15. html element (34) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image015.png?raw=true"
+<img src="./images/image015.webp?raw=true"
   width="65%"
   alt="HTML element." />
 </p>
@@ -1524,7 +1524,7 @@ a text file?  Well, that's where "tags" come in.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 16. tags (35) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image016.png?raw=true"
+<img src="./images/image016.webp?raw=true"
   width="25%"
   alt="Tags." />
 </p>
@@ -1572,7 +1572,7 @@ the tags being the content of the element:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 17. diagram of an element (34) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image017.png?raw=true"
+<img src="./images/image017.webp?raw=true"
   width="65%"
   alt="Diagram of an element: the &#39;&lt;em&gt;&#39; tag is used for element that needs Emphasis. 
     The &#39;&lt;&#39; and &#39;&gt;&#39; indicate that this is a tag, and the little bits of 
@@ -2686,7 +2686,7 @@ effect in your Web page when you use them:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18. example ul and li (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image018.png?raw=true"
+<img src="./images/image018.webp?raw=true"
   width="25%"
   alt="Example of a list as it would appear on a web page." />
 </p>
@@ -2731,7 +2731,7 @@ primarily used to invoke certain formatting.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 19. that which we call a rose (61) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image019.png?raw=true"
+<img src="./images/image019.webp?raw=true"
   width="25%"
   alt="Example of Poetry as it might appear on a Web Page." />
 </p>
@@ -2841,7 +2841,7 @@ following components:</p>
 <!---------------------------- 20. attributes, images and links (61) ----------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image020.png?raw=true"
+<img src="./images/image020.webp?raw=true"
   width="35%"
   alt="Attributes, images and links." />
 </p>
@@ -3162,7 +3162,7 @@ several tags such as &lt;img&gt;, &lt;input&gt; and &lt;video&gt;.</p>
 <!------------------------------------- 21. html result (67) ------------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image021.png?raw=true"
+<img src="./images/image021.webp?raw=true"
   width="35%"
   alt="HTML Result." />
 </p>
@@ -3389,7 +3389,7 @@ Don't click on it, just rest your cursor there.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 22. beautiful girl (71) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image022.jpeg?raw=true"
+<img src="./images/image022.webp?raw=true"
   width="25%"
   alt="Example image of a girl with a beautiful smile to illustrate title attribute." />
 </p>
@@ -3617,7 +3617,7 @@ This is how the above HTML code will look in a browser:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 23. how html will look in browser (76) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image023.png?raw=true"
+<img src="./images/image023.webp?raw=true"
   width="45%"
   alt="How HTML will look in the browser." />
 </p>
@@ -3817,7 +3817,7 @@ after: header, nav, article, section, aside and footer.
 <!--~~~~~~~~~~~~~~~~~~~~~ 24. picture showing structure of a web site (78) ~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image024.jpeg?raw=true"
+<img src="./images/image024.webp?raw=true"
   width="45%"
   alt="Picture showing the structure of a Web site: header, nav, article, section, aside and footer." />
 </p>
@@ -3949,7 +3949,7 @@ this:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 25. using the markup validator (83) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image025.png?raw=true"
+<img src="./images/image025.webp?raw=true"
   width="45%"
   alt="Using the markup validator." />
 </p>
@@ -4136,7 +4136,7 @@ Moncrieff&lt;/p&gt;</p></li>
 <!------------------------------ 26. example details command (86) -------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image026.png?raw=true"
+<img src="./images/image026.webp?raw=true"
   width="40%"
   alt="Example details command." />
 </p>
@@ -4166,7 +4166,7 @@ for all users.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 27. example figcaption command (86) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image027.jpeg?raw=true"
+<img src="./images/image027.webp?raw=true"
   width="20%"
   alt="Dress rehearsal." />
 </p>
@@ -4186,7 +4186,7 @@ Fig. 1: The cast hard at work at dress rehearsal before opening night</p>
 <!--------------------- 28. example mark command you want to highlight (87) ---------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image028.png?raw=true"
+<img src="./images/image028.webp?raw=true"
   width="40%"
   alt="Specify content you want to highlight." />
 </p>
@@ -4243,7 +4243,7 @@ visual change:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 29. the aside semantic element (88) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image029.png?raw=true"
+<img src="./images/image029.webp?raw=true"
   width="30%"
   alt="Example aside element." />
 </p>
@@ -4361,7 +4361,7 @@ element. <b>Here's a simplified version</b>:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 30. html5.2x header and headings (91) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image030.png?raw=true"
+<img src="./images/image030.webp?raw=true"
   width="40%"
   alt="HTML5.2x header and headings." />
 </p>
@@ -4402,7 +4402,7 @@ identify headings</a>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 31. brad's cookbook in codepen (92) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image031.png?raw=true"
+<img src="./images/image031.webp?raw=true"
   width="40%"
   alt="Brad's cookbook example, in CodePen." />
 </p>
@@ -4451,7 +4451,7 @@ course creation, here are screenshots of its header:
 <!--~~~~~~~~~~~~~~ 32. screenshot of the top ms virtual academy home page (93) ~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image032.png?raw=true"
+<img src="./images/image032.webp?raw=true"
   width="40%"
   alt="Screenshot of the microsoft virtual academy home page." />
 </p>
@@ -4461,7 +4461,7 @@ and footer.
 <!--~~~~~~~ 33. screenshot of the ms virtual academy home page showing the footer (93) ~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image033.png?raw=true"
+<img src="./images/image033.webp?raw=true"
   width="65%"
   alt="Screenshot of Microsoft Virtual Academy home page showing the footer." />
 </p>
@@ -4489,7 +4489,7 @@ multiple &lt;header&gt;, &lt;footer&gt; and &lt;nav&gt; tags.
 <!------------ 34. screenshot of the ms virtual academy home page showing more (94) -------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image034.png?raw=true"
+<img src="./images/image034.webp?raw=true"
   width="50%"
   alt="Screenshot of Microsoft Virtual Academy home page showing the header, footer & nav tags." />
 </p>
@@ -4646,7 +4646,7 @@ to our CES 2018 &lt;article&gt; example, it will fit right in:
 <!----------------------- 35. example html with article and section (97) ------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image035.png?raw=true"
+<img src="./images/image035.webp?raw=true"
   width="40%"
   alt="CES 2018 Example with article and section." />
 </p>
@@ -4700,7 +4700,7 @@ this [CodePen](https://codepen.io/w3devcampus/pen/Wjzjpx):
 <!------------------------------ 36. html5 table of contents (98) -------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image036.png?raw=true"
+<img src="./images/image036.webp?raw=true"
   width="40%"
   alt="HTML5 Table of Contents." />
 </p>
@@ -5129,7 +5129,7 @@ information to be aware of.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------ 37. logo scalable vector graphics (svg) (106) ------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<img src="./images/image037.png?raw=true"
+<img src="./images/image037.webp?raw=true"
   width="10%"
   alt="Logo Scalable Vector Graphics (SVG)." />
 	any size without worrying about pixels, resolution or image data. This makes SVG
@@ -5214,7 +5214,7 @@ browser:
 <!-------------------- 38. this is supposed to be an image of tulips (108) ----------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image038.png?raw=true"
+<img src="./images/image038.webp?raw=true"
   width="35%"
   alt="This is supposed to be an image of tulips." />
 </p>
@@ -5229,7 +5229,7 @@ your cursor on it. 
 <!-------------------------------- 39. tulips in a basket (108) ---------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image039.jpeg?raw=true"
+<img src="./images/image039.webp?raw=true"
   width="35%"
   alt="Tulips in a basket" />
 </p>
@@ -5265,7 +5265,7 @@ Here is my original image:
 <!------------------------------------ 40. html5 logo (109) -------------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image040.png?raw=true"
+<img src="./images/image040.webp?raw=true"
   width="15%"
   alt="HTML5 logo." />
 </p>
@@ -5288,7 +5288,7 @@ Now, if I want to resize the HTML logo above by half:
 <!------------------------------- 41. html5 logo 1/2-sized (109) --------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image041.png?raw=true"
+<img src="./images/image041.webp?raw=true"
   width="7%"
   alt="HTML5 logo 1/2-sized" />
 </p>
@@ -5353,15 +5353,15 @@ Find out from their tooltips!
 <!----------------------- 42,43,44. mountains, brick wall & banner (111) ------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image042.jpeg"
+<img src="./images/image042.webp"
   width="20%"
   alt="Beautiful landscape background image.  On the left." />
 <!-- style="width:2in;height:2in" -->
-<img src="./images/image043.jpeg"
+<img src="./images/image043.webp"
   width="20%"
   alt="Brick texture for use behind main content.  In the center." />
 <!-- style="width:2in;height:2in" -->
-<img src="./images/image044.jpeg"
+<img src="./images/image044.webp"
   width="20%"
   alt="Decorative banner graphic.  On the right." />
 </p>
@@ -5628,7 +5628,7 @@ Or something like this:
 <p align="center" width="100%">
 <a href="https://en.wikipedia.org/wiki/Hyperlink" target="_blank">
   <img alt="Buy now button to illustrate hyperlink." 
-  src="./images/image045.png?raw=true"
+  src="./images/image045.webp?raw=true"
   width="50%" />
 <br>
 <!-------
@@ -5949,7 +5949,7 @@ different browsers to see how it behaves.
 <!------------------------------- 46. hyperlink attributes (122) --------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image046.png?raw=true"
+<img src="./images/image046.webp?raw=true"
   width="65%"
   alt="Hyperlink attributes." />
 </p>
@@ -6193,7 +6193,7 @@ live coding video at the end of this page).
 <!----------------------------- 47. recipe project, part ii (126) -------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image047.png?raw=true"
+<img src="./images/image047.webp?raw=true"
   width="65%"
   alt="Recipe project, part ii." />
 </p>
@@ -6472,7 +6472,7 @@ And that concludes this live coding session. Bon appétit !
 <!------------------------------ 48. w3cx html5 and css3 logo (132) ------------------------------>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image048.png"
+<img src="./images/image048.webp"
   width="40%"
   alt="W3Cx HTML5 and CSS3 logo." />
 </p>
@@ -6490,7 +6490,7 @@ CSS, or Cascading Style Sheets, is used to style each HTML.
 <!------------------------------ 49. adding styles with css (132) -------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image049.png"
+<img src="./images/image049.webp"
   width="20%"
   alt="Adding styles with CSS." />
 </p>
@@ -6536,7 +6536,7 @@ you learn, experimentation.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------------- 50. css logo (133) --------------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<img src="./images/image050.png"
+<img src="./images/image050.webp"
   width="20%"
   alt="CSS Logo." />
 </p>
@@ -6583,7 +6583,7 @@ with [CSS](https://en.wikipedia.org/wiki/CSS) level 1.
 <!-------------------------------- 51. the css gang photo (134) ---------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image051.jpeg?raw=true"
+<img src="./images/image051.webp?raw=true"
   width="65%"
   alt="Gang photo of the css folks (TPAC)." />
 </p>
@@ -6629,7 +6629,7 @@ different. So let's get started.
 <!------------------------- 52. style and link tags & attributes (134) --------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image052.jpeg?raw=true"
+<img src="./images/image052.webp?raw=true"
   width="15%"
   alt="Snapshot as a style tag in the XDR code editor." />
 </p>
@@ -6712,7 +6712,7 @@ a <i>selector</i> and a <i>declaration.</i>  Here is an example:
 <!---------------------- 53. figure showing a selector & declaration (137) ----------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image053.jpeg"
+<img src="./images/image053.webp"
   style="width:4in;height:3.30064in"
   alt="Figure showing a selector &#39;p&#39; before a declaration &#39;font-size:12px; color: #223344&#39;" />
 </p>
@@ -6804,7 +6804,7 @@ following <a href="https://codepen.io/w3devcampus/pen/QvQgbr" target="_blank">Co
 <!-------------------- 54. on the inventor of gunpower by john milton (139) ---------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image054.png?raw=true"
+<img src="./images/image054.webp?raw=true"
   width="65%"
   alt="On the Inventor of Gunpower, by John Milton." />
 </p>
@@ -6850,7 +6850,7 @@ together.
 <!-------------------- 54b. on the inventor of gunpower by john milton (140) --------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image054b.png?raw=true"
+<img src="./images/image054b.webp?raw=true"
   width="65%"
   alt="On the Inventor of Gunpower, by John Milton." />
 </p>
@@ -6870,7 +6870,7 @@ poem which is being held in this fantastic paragraph tag.
 <!-------------------- 55b. on the inventor of gunpower by john milton (141) --------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image055b.png?raw=true"
+<img src="./images/image055b.webp?raw=true"
   width="65%"
   alt="On the Inventor of Gunpower, by John Milton." />
 </p>
@@ -6926,7 +6926,7 @@ It's not quite big enough yet.
 <!-------------------- 56b. on the inventor of gunpower by john milton (142) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image056b.png?raw=true"
+<img src="./images/image056b.webp?raw=true"
   width="65%"
   alt="On the Inventor of Gunpower, by John Milton." />
 </p>
@@ -7772,7 +7772,7 @@ section dedicated to the background-image property.  
 <!---------------------------- 55. selector and declaration (161) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image055.png?raw=true"
+<img src="./images/image055.webp?raw=true"
   width="40%"
   alt="Selector and declaration." />
 </p>
@@ -7988,7 +7988,7 @@ It isn't unusual to see multiple classes joined this way as well:
 <!-------------------------------- 56. combining classes (164) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image056.png?raw=true"
+<img src="./images/image056.webp?raw=true"
   width="65%"
   alt="." />
 </p>
@@ -8480,7 +8480,7 @@ Can you achieve the same styling without adding any new tags (i.e., without addi
 <!------------------------------ 57. my favorite recipe; soup, salad, pizza (170) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image057.png?raw=true"
+<img src="./images/image057.webp?raw=true"
   width="40%"
   alt="Example: My Favorite Recipes; soup, salad & pizza." />
 </p>
@@ -8567,7 +8567,7 @@ Can you achieve the same styling without adding any new tags (i.e., without addi
 <!-------------------------- 58. module 4: fixing and debugging (176) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image058.png?raw=true"
+<img src="./images/image058.webp?raw=true"
   width="30%"
   alt="Module 4: Fixing and debugging." />
 </p>
@@ -8740,7 +8740,7 @@ the "Styles" panel.
 <!----------------------------------- 59. modify html5 (180) ------------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image059.png"
+<img src="./images/image059.webp"
   style="width:5in;height:1.73333in"
   alt="Screenshot of MS Edge showing modifying in the developers tools. />
 </p>
@@ -8753,7 +8753,7 @@ then effect the currently active element.
 <!----------------------------------- 60. modify html5 (180) ------------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image060.png"
+<img src="./images/image060.webp"
   style="width:5in;height:3.01603in"
   alt="Screenshot of MSEdge developer tools showing changing text color in developers tools." />
 </p>
@@ -8835,7 +8835,7 @@ all of them, but it is the minimal info needed and is quite common.
 <!--------------------------- 61. illustration of css box model (##) ----------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image061.jpeg?raw=true"
+<img src="./images/image061.webp?raw=true"
   width="50%"
   alt="Illustration of CSS Box Model." />
 </p>
@@ -8856,7 +8856,7 @@ following pictures, the black rectangles encompass the content:
 <!----------------------------------- 62.  (###) -------------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image062.png?raw=true"
+<img src="./images/image062.webp?raw=true"
   width="30%"
   alt="Image showing three blocks (Block 1, Block 2, Block 3) with no margins between them." />
 </p>
@@ -8867,7 +8867,7 @@ style="width:3in;height:1.02479in"
 <!----------------------------------- 63.  (###) -------------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image063.png?raw=true"
+<img src="./images/image063.webp?raw=true"
   width="30%"
   alt="Image showing (Block 1, Block 2, Block 3). Block 2 has a positive margin-left, creating space between Blocks 1 and 2. Block 3 is negative causing its left side to overlap with Block 2." />
 </p>
@@ -8896,7 +8896,7 @@ than 0 is undefined and shouldn't be relied on.
 <!----------------------------------- 64. three blocks (183) ------------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image064.png?raw=true"
+<img src="./images/image064.webp?raw=true"
   width="30%"
   alt="Image showing 3 blocks (Block 1, Block 2, Block 3). These blocks all have borders with different widths, but the margins are zero, implying that the borders are up against each other regardless of their width." />
 </p>
@@ -8926,7 +8926,7 @@ padding.
 <!----------------------------------- 65. three blocks (184) ------------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image065.png?raw=true"
+<img src="./images/image065.webp?raw=true"
   width="30%"
   alt="Image showing 3 blocks and they all have a thin border directly around their respective texts: &#39;Block 1&#39;, &#39;Block 2&#39;, &#39;Block 3&#39;." />
 </p>
@@ -8942,7 +8942,7 @@ the contents and the border:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!----------------------------------- 66. three blocks (184) ------------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<img src="./images/image066.png"
+<img src="./images/image066.webp"
   width="30%"
   alt="Image showing 3 blocks that have padding with borders, in addition to the thin border aroung their texts &#39;Block 1&#39;, &#39;Block 2&#39;, &#39;Block 3&#39;." />
 </p>
@@ -8963,7 +8963,7 @@ rounded corners using the border-radius setting:
 <!----------------------------------- 67. three blocks (184) ------------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image067.png?raw=true"
+<img src="./images/image067.webp?raw=true"
   width="30%"
   alt="Image showing the 3 blocks with rounded borders, different thickness for their borders and keeping a thin border around their texts Block 1&#39;, &#39;Block 2&#39;, &#39;Block 3&#39;." />
 </p>
@@ -8976,7 +8976,7 @@ like this:
 <!--------------------- 68. css box model - margin, border, padding (185) ------------------------>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image068.png?raw=true"
+<img src="./images/image068.webp?raw=true"
   width="30%"
   alt="Image of a CSS Box Model which content is described in the following text of this page." />
 </p>
@@ -9025,7 +9025,7 @@ could apply to the same element. Consider the following example:
 <!-------------------------- 69. my book chapter 1 section 1.1 (190) ----------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image069.png?raw=true"
+<img src="./images/image069.webp?raw=true"
   width="40%"
    title="My Book, Chapter 1, Section 1.1."
   alt="My Book Chapter 1 Section 1.1." />
@@ -9101,7 +9101,7 @@ you get a different result:
 <!-------------------------- 70. my boook chapter 1, section 1.1 (191) --------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image070.png?raw=true"
+<img src="./images/image070.webp?raw=true"
   width="40%"
   alt="My Book Chapter 1 Section 1.1." />
 </p>
@@ -9175,7 +9175,7 @@ there.
 <!------------------------------ 71. styles in the debugger (192) -------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image071.png?raw=true"
+<img src="./images/image071.webp?raw=true"
   width="65%"
   alt="Styles in the Debugger." />
 </p>
@@ -9189,7 +9189,7 @@ attribute of the element:
 <!--------------------------- 72. modifying style in debugger (193) ------------------------------>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image072.jpeg?raw=true"
+<img src="./images/image072.webp?raw=true"
   width="65%"
   alt="Modifying style in the debugger." />
 </p>
@@ -9215,7 +9215,7 @@ rearranging, which did what we wanted:
 <!--------------------------- 73. working version in debugger (194) ------------------------------>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image073.png?raw=true"
+<img src="./images/image073.webp?raw=true"
   width="65%"
   alt="Working version in Debugger." />
 </p>
@@ -9247,7 +9247,7 @@ we want:
 <!-------------------------- 74. my book chapter 1 section 1.1 (195) ----------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image074.png?raw=true"
+<img src="./images/image074.webp?raw=true"
   width="45%"
   alt="My book, chapter 1, section 1.1." />
 </p>
@@ -9316,7 +9316,7 @@ the pictures but the result is unwieldy:
 <!----------------------------------- 75. image of cloud (196) ----------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image075.png?raw=true"
+<img src="./images/image075.webp?raw=true"
   width="65%"
   alt="Image of Cloud." />
 </p>
@@ -9377,7 +9377,7 @@ Giving a much more reasonable page:
 <!----------------------------------- 76. cloud image (197) -------------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image076.png?raw=true"
+<img src="./images/image076.webp?raw=true"
   width="65%"
   alt="Cloud image in debugger." />
 </p>
@@ -9450,7 +9450,7 @@ first picture, then we see this in the Styles section:
 <!-------------------------------------- 77. debugger (198) -------------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image077.png?raw=true"
+<img src="./images/image077.webp?raw=true"
   width="35%"
   alt="img width precedence in debugger." />
 </p>
@@ -9484,7 +9484,7 @@ li img {
 <!------------------------------- 78. cloud image-codepen (198) ---------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image078.png?raw=true"
+<img src="./images/image078.webp?raw=true"
   width="65%"
   alt="Cloud image-codepen." />
 </p>
@@ -9553,7 +9553,7 @@ content is an outline for an essay and it should look something like this:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 79. Essay outline-code results (201) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image079.png?raw=true"
+<img src="./images/image079.webp?raw=true"
   width="40%"
   alt="Essay outline-codepen results." />
 </p>
@@ -9632,7 +9632,7 @@ is the over-ridden font-size setting identical to the current one, i.e.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 80. debugging font-size (203) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image080.png?raw=true"
+<img src="./images/image080.webp?raw=true"
   width="65%"
   alt="Debugging font-size." />
 </p>
@@ -9652,7 +9652,7 @@ going to scroll down past those to "font-size" which reveals this:
 <!-------------------------------- 81. computed font-size (204) ---------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image081.png?raw=true"
+<img src="./images/image081.webp?raw=true"
   width="45%"
   alt="Debugging font-size after opening the &#39;Computed&#39; tab." />
 </p>
@@ -9669,7 +9669,7 @@ several repetitions of the li .5em.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 82. font-size (204) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image082.png?raw=true"
+<img src="./images/image082.webp?raw=true"
   width="45%"
   alt="Computed tab for font-size." />
 </p>
@@ -9701,7 +9701,7 @@ Try to make changes to get something like this:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 83. example: my favorite recipes (205) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image083.png"
+<img src="./images/image083.webp"
   style="width:4.96875in;height:2.73958in"
   alt="My Favorite Recipes web site." />
 </p>
@@ -9846,7 +9846,7 @@ the CodePen below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 84. my favorite recipes (208) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image084.png"
+<img src="./images/image084.webp"
   style="width:4.96875in;height:2.73958in" 
   alt="Margins, padding and borders on my favorite recipes web site."/>
 </p>
@@ -9977,7 +9977,7 @@ Pizza, the king of comfort foods. Try this simple, taste sensation.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 85. more html5 and css3 (210) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image085.png"
+<img src="./images/image085.webp"
   style="width:3in;height:3.27103in"
   alt="More HTML5 and CSS3."/>
 </p>
@@ -10136,7 +10136,7 @@ understanding the content or use assistive technology.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 86. table example 1.0 (214) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image086.png"
+<img src="./images/image086.webp"
   style="width:4in;height:2.54315in"
   alt="Table."/>
 </p>
@@ -10196,7 +10196,7 @@ The content of table header cells is bold and centered by default.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 87. table cells header & standard (215) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image087.png"
+<img src="./images/image087.webp"
   style="width:4in;height:2.54315in"
   alt="Table Cells are either header or standard."/>
 </p>
@@ -10228,7 +10228,7 @@ The content of table header cells is bold and centered by default.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 88. th: colspan, rowspan & scope (215) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image088.png"
+<img src="./images/image088.webp"
   style="width:6.5in;height:3.03681in"
   alt="Table attributes for 'th' along with purpose and usage."/>
 </p>
@@ -10266,7 +10266,7 @@ regular and left-aligned by default.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 89. td: colspan, rowspan & headers (217) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image089.png?raw=true"
+<img src="./images/image089.webp?raw=true"
   width="65%"
   alt="Table attributes for 'td' with purpose and usage." />
 </p>
@@ -10337,7 +10337,7 @@ achieve styling effects specific to a column. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 90. color column headers (218) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image090.png?raw=true"
+<img src="./images/image090.webp?raw=true"
   width="40%"
   alt="Colored column headers." />
 </p>
@@ -10468,7 +10468,7 @@ considered footer rows at the end of a table:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 91. table example: name & age (220) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-  <img src="./images/image091.png"
+  <img src="./images/image091.webp"
   style="width:4in;height:2.53781in" 
   alt="Table example with name and age." />
 </p>
@@ -10504,7 +10504,7 @@ sets border-width, border-style and border-color in order: 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 92. border property values (221) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image092.png"
+<img src="./images/image092.webp"
   style="width:6.5in;height:1.67986in"
   alt="Border property values." />
 </p>
@@ -10519,7 +10519,7 @@ table, th, td { border: 1px solid black; }
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 93. three border examples (222) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image093.png"
+<img src="./images/image093.webp"
   style="width:4in;height:2.4958in"
   alt="Border examples for Michael, age 21." />
 </p>
@@ -10594,7 +10594,7 @@ Possible values of this property are: 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 94. table border collapse (223) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image094.png"
+<img src="./images/image094.webp"
   style="width:4in;height:2.4958in" 
   alt="Table border collapse." />
 </p>
@@ -10665,7 +10665,7 @@ widths/heights specified, the larger value is set.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 95. table example (224) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image095.png"
+<img src="./images/image095.webp"
   style="width:4in;height:4.33613in"
   alt="Table examples." />
 </p>
@@ -10810,7 +10810,7 @@ It is specified in the order: top, right, bottom and left padding.
 <!--------------------------------- 96. table th and td (227) ------------------------------------>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image096.png"
+<img src="./images/image096.webp"
   style="width:4in;height:2.52101in" 
   alt="Table th and td." />
 </p>
@@ -10876,7 +10876,7 @@ Some things to keep in mind:
 <!----------------------------------- 97.  (###) -------------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-  <img src="./images/image097.png"
+  <img src="./images/image097.webp"
   style="width:4in;height:2.52101in" 
   alt="" />
 </p>
@@ -10943,7 +10943,7 @@ th, td { border-right: 1px solid black; }
 <!----------------------------------- 98.  (###) -------------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image098.png"
+<img src="./images/image098.webp"
   style="width:4in;height:2.52101in" 
   alt="" />
 </p>
@@ -11020,7 +11020,7 @@ will make the every third list item grey.
 <!------------------------------ 99.  (###) -------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image099.png?raw=true"
+<img src="./images/image099.webp?raw=true"
   width="40%"
   alt="." />
 </p>
@@ -11112,9 +11112,9 @@ tr:hover {background-color: #ccff99; }
 <!------------------------------------- 100.  () -------------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image100.png?raw=true"
+<img src="./images/image100.webp?raw=true"
   width="40%"
-  alt="image100.png" />
+  alt="image100.webp" />
 </p>
 
 <h4>CSS</h4>
@@ -11193,7 +11193,7 @@ to address top and bottom edges of content, you can use overflow-y.
 <!------------------------------------- 101.   () -------------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image101.png?raw=true"
+<img src="./images/image101.webp?raw=true"
   width="40%"
   alt="" />
 </p>
@@ -11335,7 +11335,7 @@ As a conclusion to this tables section, here is a complete table design:
 <!----------------------- 102. picture of a complete table design (239) -------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image102.png?raw=true"
+<img src="./images/image102.webp?raw=true"
   width="40%"
   alt="Picture of a complete table design." />
 </p>
@@ -11844,7 +11844,7 @@ little more visually appealing inside your document.
 <!------------------------------------- 103. tables activity #2  () -------------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image103.png?raw=true"
+<img src="./images/image103.webp?raw=true"
   width="60%"
   alt="Tables activity #2: it&#39;s a 3x3 table - the header row has a dark grey background; the last column is composed of the header cell and the other cells are grouped; the last row has the 2 first cells merged." />
 </p>
@@ -11884,7 +11884,7 @@ attributes:
 <!----------------------- 103. audio: attribute, description & usage (248) ----------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image103.png?raw=true"
+<img src="./images/image103.webp?raw=true"
   width="65%"
   alt="Attributes, Description and Usage of audio element." />
 </p>
@@ -11892,7 +11892,7 @@ attributes:
 <!---------------------------- 104. autoplay and example code (249) ------------------------------>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image104.png?raw=true"
+<img src="/images/image104.webp?raw=true"
   width="65%"
   alt="Autoplay and example code of audio src." />
 </p>
@@ -11986,7 +11986,7 @@ The following table lists the &lt;source&gt; element's attributes:
 <!---------------------------- 105. source element attributes (251) ------------------------------>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image105.png?raw=true"
+<img src="/images/image105.webp?raw=true"
   width="65%"
   alt="Source element attributes." />
 
@@ -12016,10 +12016,10 @@ the video element's attributes:
 <!-------------------------- 106/107. video element attributes (251) ---------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image106.png?raw=true"
+<img src="/images/image106.webp?raw=true"
   width="65%"
   alt="Video element attributes (top section)." />
-<img src="/images/image107.png?raw=true"
+<img src="/images/image107.webp?raw=true"
   width="65%"
   alt="Video element attributes (bottom section)." />
 </p>
@@ -12029,7 +12029,7 @@ the video element's attributes:
 <!----------------------------------- 108. html5 logo  (253) ------------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image108.png?raw=true"
+<img src="/images/image108.webp?raw=true"
   width="65%"
   alt="HTML5 logo." />
 </p>
@@ -12138,7 +12138,7 @@ a combination of formats. 
 <!--------------------------- 109. source element's attributes (255) ----------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image109.png?raw=true"
+<img src="/images/image109.webp?raw=true"
   width="85%"
   alt="Attributes: src and type." />
 </p>
@@ -12184,7 +12184,7 @@ your &lt;video&gt; tag like this:
 <!--------------------------- 110. track element's attributes (256) ------------------------------>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image110.png"
+<img src="./images/image110.webp"
   style="width:6.5in;height:4.29444in"
   alt="Track Element's attributes." />
 </p>
@@ -12223,7 +12223,7 @@ An &lt;iframe&gt; tag can be as simple as this:
 <!-------------------------------------- 111. iframe (263) --------------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image111.png"
+<img src="./images/image111.webp"
   style="width:4in;height:2.51477in"
   alt="iframe." />
 </p>
@@ -12254,7 +12254,7 @@ Because iframes are HTML elements, they can be styled just like other elements, 
 <!------------------------------- 112. iframes and images (263) ---------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image112.png"
+<img src="./images/image112.webp"
   style="width:3in;height:1.64371in"
   alt="Image example using iframes with borders and margins." />
 </p>
@@ -12293,7 +12293,7 @@ for now we'll just look at a few of them:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 113. iframe attributes (264) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image113.png?raw=true"
+<img src="./images/image113.webp?raw=true"
   width="65%"
   alt="iframe attributes and how they work." />
 </p>
@@ -12402,7 +12402,7 @@ Let's look at how the code above works.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 114. how ismap code works (266) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image114.jpeg?raw=true"
+<img src="./images/image114.webp?raw=true"
   width="30%"
   alt="Graphical representation of how ismap command works in web development." />
 </p>
@@ -12519,7 +12519,7 @@ how usemap works :) Remember to navigate back to the course!
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 115. usemap sign example (269) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image115.png?raw=true"
+<img src="./images/image115.webp?raw=true"
   width="50%"
   alt="Usemap example, sign to Millery or Nomeny." />
 </p>
@@ -12584,7 +12584,7 @@ items (&lt;li&gt;):
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 116. w3c background image  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image116.png?raw=true"
+<img src="./images/image116.webp?raw=true"
   width="50%"
   alt="Background image W3C." />
 </p>
@@ -12614,7 +12614,7 @@ as several others). 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 117. background image (271) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image117.png?raw=true"
+<img src="./images/image117.webp?raw=true"
   width="65%"
   alt="CSS property: background image." />
 </p>
@@ -12629,7 +12629,7 @@ image itself, then the image will repeat and fill the space, like tiles.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 118. repeat background image (271) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image118.png?raw=true"
+<img src="./images/image118.webp?raw=true"
   width="65%"
   alt="CSS property: background image, repeated." />
 </p>
@@ -12652,7 +12652,7 @@ of spacing. That is calculated for you.
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 119. repeat background image centered (272) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image119.png?raw=true"
+<img src="./images/image119.webp?raw=true"
   width="65%"
   alt="CSS property: background image, centered repeat to avoid cropping." />
 </p>
@@ -12678,7 +12678,7 @@ paragraph to clearly show the bounds of the parent &lt;p&gt; element.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 120. background sizing (272) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image120.png?raw=true"
+<img src="./images/image120.webp?raw=true"
   width="65%"
   alt="Background sizing." />
 </p>
@@ -12711,7 +12711,7 @@ images. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 121. auto background size (273) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image121.png?raw=true"
+<img src="./images/image121.webp?raw=true"
   width="65%"
   alt="Auto background size." />
 </p>
@@ -12734,7 +12734,7 @@ tiles. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 122. center background position (273) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image122.png?raw=true"
+<img src="./images/image122.webp?raw=true"
   width="65%"
   alt="Center background position." />
 </p>
@@ -12772,7 +12772,7 @@ Here the visible border styles displayed on a gray border:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 123. border styles (274) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image123.png?raw=true"
+<img src="./images/image123.webp?raw=true"
   width="65%"
   alt="Border styling." />
 </p>
@@ -12836,7 +12836,7 @@ the border-radius property:  
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 124. silence is golden, 1 (275) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image124.png?raw=true"
+<img src="./images/image124.webp?raw=true"
   width="65%"
   alt="Silence is golden." />
 </p>
@@ -12852,7 +12852,7 @@ no border at all:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 125. silence is golden, 2 (275) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image125.png?raw=true"
+<img src="./images/image125.webp?raw=true"
   width="65%"
   alt="Silence is golden, 2." />
 </p>
@@ -12884,7 +12884,7 @@ The blur value is also a dimension unit, but can only be 0 or positive.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 126. illuminati (276) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image126.png?raw=true"
+<img src="./images/image126.webp?raw=true"
   width="50%"
   alt="Illuminati." />
 </p>
@@ -12906,7 +12906,7 @@ text-shadow:  <x-offset> <y-offset> <blur> <color>;
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 127. blurred majestic 12 (276) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image127.png?raw=true"
+<img src="./images/image127.webp?raw=true"
   width="65%"
   alt="Blurred majestic 12 - text-shadow." />
 </p>
@@ -12938,7 +12938,7 @@ Here is a simple example of a common error:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 128. example of a common error (277) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image130.png?raw=true"
+<img src="./images/image130.webp?raw=true"
   width="65%"
   alt="Example of blindly using css properties." />
 </p>
@@ -12987,7 +12987,7 @@ placing the rectangle of the element relative to the text itself.
 <!--~~~~~~~~~~~~~~~~~~~~~~ 129. padding & relative text placement (278) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image129.png?raw=true"
+<img src="./images/image129.webp?raw=true"
   width="65%"
   alt="Padding example with relative text placement." />
 </p>
@@ -13092,7 +13092,7 @@ mouse is over one of the list items.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 130. hover pseudo-class  (280) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image130.png?raw=true"
+<img src="./images/image130.webp?raw=true"
   width="65%"
   alt="Hover pseudo-class." />
 </p>
@@ -13117,7 +13117,7 @@ to tables or lists.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 131. nth child pseudo-class (281) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image131.png?raw=true"
+<img src="./images/image131.webp?raw=true"
   width="65%"
   alt="Nth child pseudo-class." />
 </p>
@@ -13186,7 +13186,7 @@ W3C.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 132. keep the web open (282) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image132.jpeg?raw=true"
+<img src="./images/image132.webp?raw=true"
   width="15%"
   alt="Keep the web open!" />
 </p>
@@ -13242,7 +13242,7 @@ Your favorite browser is not always right.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 133. red testing button (283) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image133.jpeg?raw=true"
+<img src="./images/image133.webp?raw=true"
   width="20%"
   alt="Red Testing Button." />
 </p>
@@ -13649,7 +13649,7 @@ makes its layout decisions.  
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 134. big t, little g (291) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image134.png?raw=true"
+<img src="./images/image134.webp?raw=true"
   width="25%"
   alt="Baseline: Big T, little g." />
 </p>
@@ -13679,7 +13679,7 @@ learned:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 135. block and inline tags (292) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image135.png?raw=true"
+<img src="./images/image135.webp?raw=true"
   width="65%"
   alt="Block and inline tags." />
 </p>
@@ -13746,7 +13746,7 @@ background is overlapping the lines above and below.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 136.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image136.png?raw=true"
+<img src="./images/image136.webp?raw=true"
   width="65%"
   alt="." />
 </p>
@@ -13762,7 +13762,7 @@ change the span to be display:inline-block, which is discussed below.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 137. display:inline-block (###) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image137.png?raw=true"
+<img src="./images/image137.webp?raw=true"
   width="65%"
   alt="Prevent overlap with line-height of the span." />
 </p>
@@ -13808,7 +13808,7 @@ respected. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 138.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image138.png?raw=true"
+<img src="./images/image138.webp?raw=true"
   width="65%"
   alt="." />
 </p>
@@ -14096,7 +14096,7 @@ overlapping the Fourth and Fifth items, as they did not move at all. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 139. example using css (300) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-  <img src="./images/image139.png"
+  <img src="./images/image139.webp"
   style="width:6.5in;height:1.83681in"
   alt="Margin top vs. Top example of CSS." />
 </p>
@@ -14131,11 +14131,11 @@ the bounds of its parent, or go offscreen.
 <!--~~~~~~~~~~~~~~~~~~~~~~ 140. block level paragraph with border (301) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image140.png?raw=true"
+<img src="./images/image140.webp?raw=true"
   width="65%"
   alt="Block level paragraph with border." />
 </p>
-<!-- <img src="./images/image142.png" style="width:6.5in;height:1.45139in" /> -->
+<!-- <img src="./images/image142.webp" style="width:6.5in;height:1.45139in" /> -->
 
 Admittedly, this is not necessarily a "limitation", for many layout
 situations preserving the size is exactly what is wanted. 
@@ -14167,11 +14167,11 @@ absolutely.
 <!--~~~~~~~~ 141. paragraph with height & border set and 'q' positioned absolute (302) ~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image141.png?raw=true"
+<img src="./images/image141.webp?raw=true"
   width="65%"
   alt="Paragraph with height and border set along with 'q' positioned absolute." />
 </p>
-<!-- <img src="./images/image143.png" style="width:6.5in;height:2.33889in" /> -->
+<!-- <img src="./images/image143.webp" style="width:6.5in;height:2.33889in" /> -->
 
 So that seems fairly straightforward and useful. But there are some
 subtle caveats and trade-offs of which you must be wary:
@@ -14227,11 +14227,11 @@ for  &lt;li&gt; versus &lt;ul&gt;.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 142. relative, static & absolute (303) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image142.png?raw=true"
+<img src="./images/image142.webp?raw=true"
   width="65%"
   alt="List item styling.  Two are relative, therefore are static & overlapped." />
 </p>
-<!-- <img src="./images/image143.png" style="width:6.5in;height:1.83681in" /> -->
+<!-- <img src="./images/image143.webp" style="width:6.5in;height:1.83681in" /> -->
 
 Best practice: use both horizontal and vertical positioning property on
 every absolute element
@@ -14281,11 +14281,11 @@ line, and the list items themselves are not enclosed. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 143. position default vs absolute (304) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image143.png?raw=true"
+<img src="./images/image143.webp?raw=true"
   width="85%"
   alt="Position default vs. absolute." />
 </p>
-<!-- <img src="./images/image145.png" style="width:6.5in;height:1.29306in" /> -->
+<!-- <img src="./images/image145.webp" style="width:6.5in;height:1.29306in" /> -->
 
 <h4>Absolute positioned block level elements do not get the width of their parent</h4>
 
@@ -14359,7 +14359,7 @@ we govern the overlapping with the z-index property. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 144. position relative overlap  (306) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image144.png?raw=true"
+<img src="./images/image144.webp?raw=true"
   width="85%"
   alt="Position Relative overlap." />
 </p>
@@ -14393,7 +14393,7 @@ further out in the document.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 145. overlapping sibling divs (306) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image145.png?raw=true"
+<img src="./images/image145.webp?raw=true"
   width="85%"
   alt="Overlapping sibling divs." />
 </p>
@@ -14539,7 +14539,7 @@ can be surprising if you weren't expecting it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 146. cropping and scrolling overflow (312) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image146.png?raw=true"
+<img src="./images/image146.webp?raw=true"
   width="65%"
   alt="Cropping and scrolling overflow." />
 </p>
@@ -14580,7 +14580,7 @@ of 100 pixels. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 147. scrolling value (313) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image147.png?raw=true"
+<img src="./images/image147.webp?raw=true"
   width="65%"
   alt="Scrolling & overflow." />
 </p>
@@ -14605,7 +14605,7 @@ boxes are organized (innermost to outermost).
 <!--~~~~~~~~~~~~~~~~~ 148. it's own content, padding, border & margines (314) ~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image148.png?raw=true"
+<img src="./images/image148.webp?raw=true"
   width="45%"
   alt="Managed boxes: it's own content, padding, border & margins." />
 </p>
@@ -14684,7 +14684,7 @@ to help visualize.
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 151. flex container and flex columns (322) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image151.png?raw=true"
+<img src="./images/image151.webp?raw=true"
   width="100%"
   alt="Flex Container and Flex Columns." />
 </p>
@@ -15085,7 +15085,7 @@ options for a flexbox container with flex-flow:row;
 <!--~~~~~~~~~~ 171. justification options for a flexbox container with flex-flow (338) ~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image171.png?raw=true"
+<img src="./images/image171.webp?raw=true"
   width="100%"
   alt="Justification Options for a Flexbox container with Flex-Flow." />
 </p>
@@ -15133,7 +15133,7 @@ you can see how they align to each other.
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 172. line height and align items #1 (339) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image172.png?raw=true"
+<img src="./images/image172.webp?raw=true"
   width="65%"
   alt="Line Height and Align Items #1." />
 </p>
@@ -15141,7 +15141,7 @@ you can see how they align to each other.
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 173. line height and align items #2 (339) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image173.png?raw=true"
+<img src="./images/image173.webp?raw=true"
   width="65%"
   alt="Line Height and Align Items #2." />
 </p>
@@ -15166,7 +15166,7 @@ than the height of any of the items.
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 174. flexbox and flex items align #1 (340) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image174.png?raw=true"
+<img src="./images/image174.webp?raw=true"
   width="65%"
   alt="Flexbox and Flex Item Align #1." />
 </p>
@@ -15174,7 +15174,7 @@ than the height of any of the items.
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 175. flexbox and flex items align #2 (340) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image175.png?raw=true"
+<img src="./images/image175.webp?raw=true"
   width="65%"
   alt="Flexbox and Flex Item Align #2." />
 </p>
@@ -15205,7 +15205,7 @@ their align-self property set.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 176. flex container (341) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image176.png?raw=true"
+<img src="./images/image176.webp?raw=true"
   width="65%"
   alt="Flex Container with flex-flow and align." />
 </p>
@@ -15241,7 +15241,7 @@ the order value of 1, the second is 2, etc.  And you can override it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 177. order property in flex box (342) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image177.png?raw=true"
+<img src="./images/image177.webp?raw=true"
   width="85%"
   alt="Order property in flex box." />
 </p>
@@ -15348,7 +15348,7 @@ slots empty.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 178. grid module (345) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image178.png?raw=true"
+<img src="./images/image178.webp?raw=true"
   width="65%"
   alt="Grid module: lines, columns and rows for cell/area (slot)." />
 </p>
@@ -15496,7 +15496,7 @@ These are the final changes to our recipe project for this unit.
 
 <!--- template for images
 <p align="center" width="100%">
-<img src="./images/image###.png?raw=true"
+<img src="./images/image###.webp?raw=true"
   width="65%"
   alt="." />
 </p>
@@ -15504,4 +15504,4 @@ These are the final changes to our recipe project for this unit.
 
 <h6>The end...</h6>
 
-<h4><b>Last Updated 06-20-2023 11:58pm</b></h4>
+<h4><b>Last Updated 06-22-2023 4:19pm</b></h4>
