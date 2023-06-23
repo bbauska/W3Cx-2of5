@@ -14,7 +14,7 @@ p {
 }
 .dropdown-content a,
 a {
-    text-decoration: none
+    text-decoration: none;
 }
 
 .dropdown:hover .dropdown-content,
@@ -22,44 +22,44 @@ code,
 img.displayed,
 pre,
 pre>code {
-    display: block
+    display: block;
 }
 
 img.displayed {
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 .border {
-    border: 1px solid #789
+    border: 1px solid #789;
 }
 
 h1 {
-    font-size: 21px
+    font-size: 21px;
 }
 
 h2 {
-    font-size: 18px
+    font-size: 18px;
 }
 
 h3 {
-    font-size: 17px
+    font-size: 17px;
 }
 
 h4 {
-    font-size: 16px
+    font-size: 16px;
 }
 
 h5 {
-    font-size: 15px
+    font-size: 15px;
 }
 
 h6 {
-    font-size: 10px
+    font-size: 10px;
 }
 
 details {
     font: 11px Inter, sans-serif, Bahnschrift, Calibri;  /* 11px */
-    width: 45%
+    width: 45%;
 }
 
 details>summary {
@@ -69,7 +69,7 @@ details>summary {
     background-color: #0000ff;  /* 0000ff yellow , eee very light grey */
     border: none;
     box-shadow: 3px 3px 4px #eee;  /* 00f pure blue */
-    cursor: pointer
+    cursor: pointer;
 }
 
 details>p {
@@ -77,16 +77,16 @@ details>p {
     background-color: #fff;   /* white */
     padding: 2px 6px;
     margin: 0;
-    box-shadow: 3px 3px 4px #eee  /* d blue */
+    box-shadow: 3px 3px 4px #eee;  /* d blue */
 }
 
 details[open]>summary {
     background-color: #ff0;  /* yellow */
-    text-decoration: none
+    text-decoration: none;
 }
 
 p {
-  margin-bottom: 0 
+  margin-bottom: 0;
   }
   
 p + p {
@@ -94,23 +94,23 @@ p + p {
   margin-top: 0 }
 
 p.em1 {
-    margin-left: 1em
+    margin-left: 1em;
 }
 
 p.em2 {
-    margin-left: 2em
+    margin-left: 2em;
 }
 
 p.em3 {
-    margin-left: 3em
+    margin-left: 3em;
 }
 
 p.em4 {
-    margin-left: 4em
+    margin-left: 4em;
 }
 
 a[href]:hover {
-    text-decoration: underline
+    text-decoration: underline;
 }
 
 #myBtn {
@@ -126,11 +126,11 @@ a[href]:hover {
     color: #fdfeff;
     cursor: pointer;
     padding: 10px;
-    border-radius: 1px
+    border-radius: 1px;
 }
 
 #myBtn:hover {
-    background-color: #555
+    background-color: #555;
 }
 
 .dropbtn {
@@ -138,12 +138,12 @@ a[href]:hover {
     color: #fff;
     padding: 11px;
     font-size: 11px;
-    border: none
+    border: none;
 }
 
 .dropdown {
     position: relative;
-    display: inline-block
+    display: inline-block;
 }
 
 .dropdown-content {
@@ -153,31 +153,31 @@ a[href]:hover {
     min-width: 20em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
     font-size: 12px;
-    z-index: 1
+    z-index: 1;
 }
 
 .dropdown-content a {
     color: #006400;
     padding: 5px 6px;
     font-size: 12px;
-    display: block
+    display: block;
 }
 
 .dropdown-content a:hover {
-    background-color: #d9ead3
+    background-color: #d9ead3;
 }
 
 .dropdown:hover .dropbtn {
-    background-color: #398e41
+    background-color: #398e41;
 }
 
 pre {
-    overflow: auto
+    overflow: auto;
 }
 
 pre>code {
     padding: 1rem;
-    word-wrap: normal
+    word-wrap: normal;
 }
 
 code,
