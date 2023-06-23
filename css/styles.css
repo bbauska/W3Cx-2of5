@@ -77,7 +77,7 @@ details>p {
     background-color: #fff;   /* white */
     padding: 2px 6px;
     margin: 0;
-    box-shadow: 3px 3px 4px #00008b  /* d blue */
+    box-shadow: 3px 3px 4px #eee  /* d blue */
 }
 
 details[open]>summary {
