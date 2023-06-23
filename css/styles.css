@@ -134,8 +134,8 @@ a[href]:hover {
 }
 
 .dropbtn {
-    background-color: #04006d;  /* v dark blue */
-    color: #fff;  /* white */
+    background-color: #ffffff;  /* white */
+    color: #04006d;  /* d blue */
     padding: 11px;
     font-size: 11px;
     border: none;
