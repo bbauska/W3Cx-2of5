@@ -11,7 +11,6 @@ p {
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 10px;
-	margin-right: 15px;
 }
 .dropdown-content a,
 a {
@@ -66,10 +65,10 @@ details {
 details>summary {
     padding: 2px 6px;
     width: 11em;
-    border: .1em solid eee;  /* dark blue */
+    border: .1em solid eee;  /*  */
     background-color: #0000ff;  /* 0000ff yellow , eee very light grey */
     border: none;
-    box-shadow: 3px 3px 4px #00f;  /* pure blue */
+    box-shadow: 3px 3px 4px #eee;  /* 00f pure blue */
     cursor: pointer
 }
 
