@@ -92,9 +92,9 @@ font-family: Bahnschrift, Inter, Consolas, "Andale Mono WT", "Andale Mono", "Luc
 
 details {
   font: 11px Inter, sans-serif, Bahnschrift, Calibri;
+  margin-left: 10px;
   width: 45%;
 }
-
 details > summary {
   padding: 2px 6px;
   width: 12em;
@@ -103,19 +103,17 @@ details > summary {
   box-shadow: 3px 3px 4px #00008b;  /* dark blue */
   cursor: pointer;
 }
-
 details > p {
   border-radius: 0 0 10px 10px;
   background-color: #fff;  /* white */
   padding: 2px 6px;
   margin: 0;
+  margin-left: 10px;
   box-shadow: 3px 3px 4px #00008b;  /* dark blue*/
 }
-
 details[open] > summary {
   background-color: yellow;
 }
-
 details > pre {
   margin-left: 10px;
 }
