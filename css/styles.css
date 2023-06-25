@@ -116,6 +116,10 @@ details[open] > summary {
   background-color: yellow;
 }
 
+details > pre {
+  margin-left: 10px;
+}
+
 background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%)
 
 body {
