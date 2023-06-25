@@ -28,6 +28,8 @@ font-family: Bahnschrift, Inter, Consolas, "Andale Mono WT", "Andale Mono", "Luc
 
   pre {
     overflow: auto;
+	width: 65%;
+	margin-left: 10px;
   }
 
   pre > code {
@@ -45,7 +47,7 @@ font-family: Bahnschrift, Inter, Consolas, "Andale Mono WT", "Andale Mono", "Luc
     text-decoration: underline; 
   }
 
-  pre:hover, pre:focus { width: min-content; }
+  pre:hover, pre:focus { width: min-content; margin-left: 10px; }
 
   p.em1 {
     margin-left: 1em; }
@@ -100,6 +102,7 @@ details > summary {
   width: 12em;
   background-color: #eee;  /* very light gray */
   border: none;
+  margin-left: 10px;
   box-shadow: 3px 3px 4px #00008b;  /* dark blue */
   cursor: pointer;
 }
