@@ -28,13 +28,13 @@ font-family: Bahnschrift, Inter, Consolas, "Andale Mono WT", "Andale Mono", "Luc
 
   pre {
     overflow: auto;
-	width: 65%;
+	width: 85%;
 	margin-left: 10px;
   }
 
   pre > code {
     display: block;
-	margin-left: 10px;
+    margin-left: 10px;
     padding: 1rem;
     word-wrap: normal;
   }
@@ -74,22 +74,22 @@ font-family: Bahnschrift, Inter, Consolas, "Andale Mono WT", "Andale Mono", "Luc
   h3 { 
     font-size: 17px;
     font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas; 
-	margin-left: 10px;  
+    margin-left: 10px;  
   }
   h4 { 
     font-size: 16px;
     font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas; 
-	margin-left: 10px;
+    margin-left: 10px;
   }
   h5 { 
     font-size: 15px;
     font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas; 
-	margin-left: 10px;
+    margin-left: 10px;
   }
   h6 { 
     font-size: 10px;
     font-family: Bahnschrift, Inter, Helvetic, sans-serif;
-	margin-left: 10px;
+    margin-left: 10px;
   }
 
 details {
@@ -118,19 +118,19 @@ details[open] > summary {
   background-color: yellow;
 }
 details > pre {
-  margin-left: 10px;
+  margin-left: 10px;  /* was 10px */
 }
 
 background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%)
 
 body {
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.4rem;  /* 1.2rem */
   background-color: #eee;  /* very light gray */
   color: #000000;  /* black */
   text-align: left;
   padding: 10px;
-  margin-left: 10px;
+/*  margin-left: 10px; */
 }
 
 #myBtn {
