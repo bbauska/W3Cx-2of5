@@ -17,7 +17,7 @@ font-family: Bahnschrift, Inter, Consolas, "Andale Mono WT", "Andale Mono", "Luc
   p { 
     font-size: 15px;
     font-family: Bahnschrift, Inter, Helvetic, sans-serif;
-    text-align: left; 
+    text-align: left;
     margin-left: 10px;
   }
 
@@ -111,7 +111,13 @@ details > p {
   background-color: #fff;  /* white */
   padding: 2px 6px;
   margin: 0;
-  margin-left: 10px;
+  box-shadow: 3px 3px 4px #00008b;  /* dark blue*/
+}
+details > summary > p {
+  border-radius: 0 0 10px 10px;
+  background-color: #fff;  /* white */
+  padding: 2px 6px;
+  margin: 0;
   box-shadow: 3px 3px 4px #00008b;  /* dark blue*/
 }
 details[open] > summary {
