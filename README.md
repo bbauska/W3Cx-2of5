@@ -1559,7 +1559,7 @@ the beginning and end of a paragraph (indicated by the single letter
 
 The browser sees the letters '&lt;p&gt;' and decides 'A new paragraph is
 starting, I'd better start a new line and maybe indent it'. Then when it
-sees '</p>' it knows that the paragraph it was working on is finished,
+sees '&lt;/p&gt;' it knows that the paragraph it was working on is finished,
 so it should break the line there before going on to whatever is next.
 
 For example, the '&lt;em&gt;' tag is used for element that needs <i>Em</i>phasis.
@@ -1669,7 +1669,7 @@ Most of what we'll cover about attributes will come later, but I wanted
 to introduce the idea briefly. Basically, a given element on your Web
 page can be distinguished by any number of unique or common attributes.
 You can identify it uniquely with an 'id' attribute, or group it with a
-class of other elements by setting the 'class' attribute.
+class of other elements by setting the 'class' attribute.<br>
 
 Attributes in HTML are written inside the opening tag like this:
 
@@ -1834,18 +1834,19 @@ above. Try inserting a paragraph into the body of your new document.
 <p>A character can be any letter, digit or symbol that makes up words and
 languages. English alphabets and digits 'a-z', 'A-Z', '0-9' are all
 considered characters. Other examples of characters include the Latin
-letter [á](http://www.w3.org/International/questions/images/225.png) or
-the Chinese
-ideograph [請](http://www.w3.org/International/questions/images/35531.png) or
-the Devanagari
-character [ह](http://www.w3.org/International/questions/images/2361.png).
+letter <a href="http://www.w3.org/International/questions/images/225.png">á</a>
+ or the Chinese
+ideograph <a href="http://www.w3.org/International/questions/images/35531.png">請</a>
+ or the Devanagari
+character <a href="http://www.w3.org/International/questions/images/2361.png">ह</a>.
 A <b>character set</b> is a collection of characters (letters and symbols)
 in a writing system.
 
 Each character is assigned a particular number called a <b>code point</b>.
 These code points are stored in computer memory in the form
 of <a href="https://en.wikipedia.org/wiki/Byte">bytes</a> (a unit of data in
-computer memory). In technical terms, we say the character is <b>encoded</b> using one or more bytes.
+computer memory). In technical terms, we say the character is <b>encoded</b> 
+using one or more bytes.
 
 Basically, all the characters are stored in computer language and
 a <b>character encoding</b> is the awesome dictionary that is going to help
@@ -1945,23 +1946,22 @@ Try the following code in your HTML:</p>
   <summary>HTML code extract!</summary>
 
 ```
- <!DOCTYPE html>
- <html lang="en">
- <head>
- <meta charset="UTF-8">
- <title>Welcome</title>
- </head>
- <body>
- <p>Welcome to "HTML5 & CSS Fundamentals". The first tag we will be
- learning about is the
- <html> tag.</p>
- </body>
- </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome</title>
+</head>
+<body>
+  <p>Welcome to "HTML5 & CSS Fundamentals". The first tag we will be
+  learning about is the <html> tag.</p>
+</body>
+</html>
 ```
 
 </details>
 
-<p>Did you notice the <html> tag is missing in your output? In this case,
+<p>Did you notice the &lt;html&gt; tag is missing in your output? In this case,
 your browser mixed it up with an actual tag, although it was meant to be
 a part of the sentence as text. 
 
@@ -2013,57 +2013,57 @@ when viewed by a reader:</p>
 
 <table>
 <colgroup>
-<col style="width: 22%" />
-<col style="width: 9%" />
-<col style="width: 10%" />
-<col style="width: 56%" />
+  <col style="width: 22%" />
+  <col style="width: 9%" />
+  <col style="width: 10%" />
+  <col style="width: 56%" />
 </colgroup>
 <thead>
-<tr class="header">
-<th>Symbol</th>
-<th>Entity Name</th>
-<th>Entity Number</th>
-<th>Usage</th>
-</tr>
+  <tr class="header">
+    <th>Symbol</th>
+    <th>Entity Name</th>
+    <th>Entity Number</th>
+    <th>Usage</th>
+  </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Less than '&lt;'</td>
 <td>&amp;lt;</td>
 <td>&amp;#60;</td>
-<td>Div tag: &amp;lt;div&gt;</td>
+<td>Div tag: &lt;div&gt;</td>
 </tr>
 <tr class="even">
 <td>Greater than '&gt;'</td>
-<td>&amp;gt;</td>
-<td>&amp;#62;</td>
-<td>Div tag: &amp;lt;div&amp;gt;</td>
-</tr>
-<tr class="odd">
-<td>Ampersand '&amp;'</td>
-<td>&amp;amp;</td>
-<td>&amp;#38;</td>
-<td>Tom &amp;amp; Jerry</td>
-</tr>
-<tr class="even">
-<td>Non-breaking space - space that will not create a new line</td>
-<td>&amp;nbsp;</td>
-<td>&amp;#160;</td>
-<td>If you add multiple spaces, the browser will remove all but one. So
-you have to use this entity to add multiple spaces in your HTML
-page.</td>
-</tr>
-<tr class="odd">
-<td>Quotes "</td>
-<td>&amp;quot;</td>
-<td>&amp;#34;</td>
-<td><p>Link to a another section on the same page using the id of the
-element: &amp;lt;a
-href=&amp;quot;&amp;num;timetable&amp;quot;&amp;gt;</p>
-<p>Displayed as: &lt;a href="#timetable"&gt;</p>
-<p>&amp;quot; is generally encouraged for code. For an actual quotation,
-&lt;q&gt; or &lt;blockquote&gt; is preferred. </p></td>
-</tr>
+    <td>&amp;gt;</td>
+    <td>&amp;#62;</td>
+    <td>Div tag: &amp;lt;div&amp;gt;</td>
+  </tr>
+  <tr class="odd">
+    <td>Ampersand '&amp;'</td>
+    <td>&amp;amp;</td>
+    <td>&amp;#38;</td>
+    <td>Tom &amp; Jerry</td>
+  </tr>
+  <tr class="even">
+    <td>Non-breaking space - space that will not create a new line</td>
+    <td>&amp;nbsp;</td>
+    <td>&amp;#160;</td>
+    <td>If you add multiple spaces, the browser will remove all but one. So
+    you have to use this entity to add multiple spaces in your HTML
+    page.</td>
+  </tr>
+  <tr class="odd">
+    <td>Quotes '""'</td>
+    <td>&amp;quot;</td>
+    <td>&amp;#34;</td>
+    <td><p>Link to a another section on the same page using the id of the
+      element: &amp;lt;a
+      href=&amp;quot;&amp;num;timetable&amp;quot;&amp;gt;</p>
+    <p>Displayed as: &lt;a href="#timetable"&gt;</p>
+    <p>&amp;quot; is generally encouraged for code. For an actual quotation,
+      &lt;q&gt; or &lt;blockquote&gt; is preferred.</p></td>
+  </tr>
 </tbody>
 </table>
 
@@ -2250,7 +2250,6 @@ change. For our purposes and the duration of this course, when we use
 the term "best practice" you can trust that it is, even though we may
 not be able to explain it at that point in the course, so you'll want to
 make it a habit.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-2">1.5.2 Do’s and Don’ts</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2500,11 +2499,11 @@ could sum it all up with these simple dictum:
 
 1. Compare and contrast these two different HTML Style Guides:
 
--   <a href="https://contribute.jquery.org/style-guide/html/">JQuery HTML Style
-    Guide</a>
+  -   <a href="https://contribute.jquery.org/style-guide/html/">JQuery HTML Style
+      Guide</a>
 
--   <a href="https://google.github.io/styleguide/htmlcssguide.html">Google HTML/CSS Style
-    Guide</a>
+  -   <a href="https://google.github.io/styleguide/htmlcssguide.html">Google HTML/CSS Style
+      Guide</a>
 
 Are they consistent with each other? Are there some rules that don't
 seem to make sense?
@@ -2514,11 +2513,11 @@ disagree with some of the suggestions in one of these guides?
 
 2. Check out the <a href="https://validator.w3.org/">W3C HTML Checker</a>:
 
--   Try "Direct Input" and type some HTML5 code with errors to see what
-    it detects.
+  -   Try "Direct Input" and type some HTML5 code with errors to see what
+      it detects.
 
--   Using "Validate by URI", try some popular Web sites and see if you
-    can find any errors.
+  -   Using "Validate by URI", try some popular Web sites and see if you
+      can find any errors.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-6-1">1.6.1 Tags We Have Already Used</h3>
@@ -2641,17 +2640,18 @@ practice would be not to do that.</p>
 <p>There are a lot more tags, but we will just cover a few more for now,
 mostly because they are straightforward to use and you can see the
 effect in your Web page when you use them:</p>
+
 <ul>
-<li><b>&lt;q&gt;</b> - The <b>q</b> tag is for quotes.  This tag has no
-    relationship to the somewhat confusing single and double quote
-    characters, rather it's used when you want to quote a person or
-    written work in your Web page. Quotes are customarily displayed
-    using quotation marks. Thus <q>Brevity is beautiful</q> would be
-    rendered as Brevity is beautiful.</li>
-<li><b>&lt;blockquote&gt;</b> - If you want to quote a larger passage, you may
-    want to use <b>blockquote</b>, which will typically set the quoted text
-    apart from the surrounding text and indent it, to make clear that it
-    is quoted text:</li>
+  <li><b>&lt;q&gt;</b> - The <b>q</b> tag is for quotes.  This tag has no
+      relationship to the somewhat confusing single and double quote
+      characters, rather it's used when you want to quote a person or
+      written work in your Web page. Quotes are customarily displayed
+      using quotation marks. Thus <q>Brevity is beautiful</q> would be
+      rendered as Brevity is beautiful.</li>
+  <li><b>&lt;blockquote&gt;</b> - If you want to quote a larger passage, you may
+      want to use <b>blockquote</b>, which will typically set the quoted text
+      apart from the surrounding text and indent it, to make clear that it
+      is quoted text:</li>
 </ul>
 
 > Early to bed and early to rise, makes someone healthy, wealthy and
@@ -2845,6 +2845,7 @@ following components:</p>
   width="35%"
   alt="Attributes, images and links." />
 </p>
+
 <p>
 Hi, everyone, and welcome.
 
@@ -3001,7 +3002,7 @@ Tags and attributes make up the language.</p>
      list order should be reversed (in descending order).</li>
 </ul>
 
-```	
+``` 
 <ol reversed></ol>
 ```
 
@@ -3937,7 +3938,7 @@ this:
 46.   <footer>
 47.     <p>Written by: W3C</p>
 48.     <p>For more information, please visit 
-	<a href="https://validator.w3.org/docs/help.html">this page</a>.</p>
+  <a href="https://validator.w3.org/docs/help.html">this page</a>.</p>
 49.   </footer>
 50. </body>
 51.  
@@ -5051,7 +5052,7 @@ source. 
 
 2.  Path to an image file that resides elsewhere on the Web: 
     <img src="https://www.example.com/image-with-absolute-url.png"
-	alt="Example Tutorial Image">
+  alt="Example Tutorial Image">
 
 The type of image file format (i.e. png, jpeg, etc.) you should use does
 not depend on the img element in HTML5 but on the browser that renders
@@ -5132,7 +5133,7 @@ information to be aware of.
 <img src="./images/image037.webp?raw=true"
   width="10%"
   alt="Logo Scalable Vector Graphics (SVG)." />
-	any size without worrying about pixels, resolution or image data. This makes SVG
+  any size without worrying about pixels, resolution or image data. This makes SVG
     images an excellent format to use, if possible. SVG is great for
     charts, graphs, maps, geometric shapes, and line based
     illustrations.  SVG is also a markup language in its own right and
@@ -8342,17 +8343,17 @@ n/a
 <!------------------------------------------------------------------------------------------------>
 The HTML that follows is for a simple list.  Insert it into a properly formed HTML file and format it.  Try to ensure the following are done:
 
-  •	space the list items at least 20 pixels from the left edge of the page
-  •	space the list items at least 10 pixels from each other
-  •	center the header
-  •	keep the list at least 50 pixels from the header
-  •	the book titles in the list should not be displayed in a serif font
-  •	the header should use a different font than the list
-  •	the text of header should be dark red
-  •	break the CSS rules into two different .css files. One file should contain any spacing rules, the other any rules governing font faces or coloring.  Bind both into your HTML document
-  •	instead of numbers, have the list items indexed by the alphabet
-  •	change the <ol> tag to <ul> (and the closing </ol> to </ul>) and style the list items to have square bullet points
-  •	download this simple triangle shape   
+  •  space the list items at least 20 pixels from the left edge of the page
+  •  space the list items at least 10 pixels from each other
+  •  center the header
+  •  keep the list at least 50 pixels from the header
+  •  the book titles in the list should not be displayed in a serif font
+  •  the header should use a different font than the list
+  •  the text of header should be dark red
+  • break the CSS rules into two different .css files. One file should contain any spacing rules, the other any rules governing font faces or coloring.  Bind both into your HTML document
+  • instead of numbers, have the list items indexed by the alphabet
+  • change the <ol> tag to <ul> (and the closing </ol> to </ul>) and style the list items to have square bullet points
+  • download this simple triangle shape   
   and style the list items to use it
 Please work on the following CodePen and implement the instructions above - do not hesitate to tweak and test!
 
@@ -15504,4 +15505,4 @@ These are the final changes to our recipe project for this unit.
 
 <h6>The end...</h6>
 
-<h4><b>Last Updated 06-22-2023 4:19pm</b></h4>
+<h4><b>Last Updated 06-29-2023 10:16am</b></h4>
