@@ -6844,9 +6844,9 @@ styles you like on it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-2-6">3.2.6 CSS Rules</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Hi, this is Adrian from Microsoft learning, and we're going to be
+<p>Hi, this is Adrian from Microsoft learning, and we're going to be 
 learning today about CSS and HTML, and the ways in which they play
-together.
+together.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------- 54b. on the inventor of gunpower by john milton (140) --------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -15505,4 +15505,4 @@ These are the final changes to our recipe project for this unit.
 
 <h6>The end...</h6>
 
-<h4><b>Last Updated 06-29-2023 10:16am</b></h4>
+<h4><b>Last Updated 06-22-2023 4:19pm</b></h4>
