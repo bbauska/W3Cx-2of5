@@ -28,14 +28,18 @@ font-family: Bahnschrift, Inter, Consolas, "Andale Mono WT", "Andale Mono", "Luc
   }
 
   pre {
-    overflow: auto;
-	width: 85%;
-	margin-left: 10px;
+    font-family: consolas, inter;
+    font-size: 11px;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
   }
 
   pre > code {
     display: block;
-    margin-left: 10px;
     padding: 1rem;
     word-wrap: normal;
   }
