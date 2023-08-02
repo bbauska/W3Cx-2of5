@@ -283,15 +283,25 @@ Here's an interesting article on what beginners can do with CodePen: <a href="h
   alt="MDN Web Docs Mozilla logo." />
 </p>
 
-<p>For over 15 years, the W3C has been developing and hosting <a href="https://w3c.github.io/developers/" target="_blank">free and open source tools</a> used every day by millions of Web developers and Web designers. All the tools listed below are Web-based, and are available as downloadable sources or as free services on the <a href="https://w3c.github.io/developers/tools/" target="_blank">W3C Developers tools</a>.</p>
+<p>For over 15 years, the W3C has been developing and hosting 
+<a href="https://w3c.github.io/developers/" target="_blank">free and open source 
+tools</a> used every day by millions of Web developers and Web designers. All the 
+tools listed below are Web-based, and are available as downloadable sources or as 
+free services on the <a href="https://w3c.github.io/developers/tools/" 
+target="_blank">W3C Developers tools</a>.</p>
 
 <h3>W3C Validator</h3>
 
-<p>The <a href="https://validator.w3.org/">W3C validator</a> checks the <a href="https://validator.w3.org/docs/help.html#validation_basics">markup validity</a> of various Web document formats, such as HTML. Note that you are automatically directed to the <a href="https://validator.w3.org/nu/">Nu Html Checker</a> when validating an HTML5 document.</p>
+<p>The <a href="https://validator.w3.org/">W3C validator</a> checks the 
+<a href="https://validator.w3.org/docs/help.html#validation_basics">markup 
+validity</a> of various Web document formats, such as HTML. Note that you 
+are automatically directed to the <a href="https://validator.w3.org/nu/">Nu 
+Html Checker</a> when validating an HTML5 document.</p>
 
 <h3>CSS Validator</h3>
 
-<p>The <a href="https://jigsaw.w3.org/css-validator/">CSS validator</a> checks Cascading Style Sheets (CSS) and (X)HTML documents that use CSS stylesheets.</p>
+<p>The <a href="https://jigsaw.w3.org/css-validator/">CSS validator</a> checks Cascading 
+Style Sheets (CSS) and (X)HTML documents that use CSS stylesheets.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04. laptop (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -360,10 +370,11 @@ devices and operating systems!
 
 To make the Web evolve in a sane and sustainable way for both users and
 developers, browser vendors work together to standardize new features,
-whether it’s a new <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">HTML
-element</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#Keyword_index" target="_blank">CSS
-property</a>,
-or <a href="https://developer.mozilla.org/en-US/docs/Web/API" target="_blank">JavaScript API</a>.
+whether it’s a new <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" 
+target="_blank">HTML element</a>, 
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#Keyword_index" 
+target="_blank">CSS property</a>, or <a href="https://developer.mozilla.org/en-US/docs/Web/API" 
+target="_blank">JavaScript API</a>.
 But different vendors have different priorities, resources, and release
 cycles — so it’s very unlikely that a new feature will land on all the
 major browsers at once. As a Web developer, this is something you must
@@ -407,10 +418,11 @@ exactly which browsers will support it.
 
 <h3>External resources</h3>
 <ul>
-<li><a href="https://hacks.mozilla.org/2018/02/mdn-browser-compatibility-data/" target="_blank">MDN browser compatibility data: Taking the guesswork out of web
-  compatibility</a),</li>
-<li><a href="https://hacks.mozilla.org/2019/09/caniuse-and-mdn-compat-data-collaboration/" target="_blank">Caniuse and MDN compatibility data
-  collaboration</a>.</li>
+  <li><a href="https://hacks.mozilla.org/2018/02/mdn-browser-compatibility-data/" 
+    target="_blank">MDN browser compatibility data: Taking the guesswork out of web
+    compatibility</a),</li>
+  <li><a href="https://hacks.mozilla.org/2019/09/caniuse-and-mdn-compat-data-collaboration/" 
+    target="_blank">Caniuse and MDN compatibility data collaboration</a>.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="cha-1">What is W3C?</h3>
@@ -941,7 +953,7 @@ And I'll do it, I'll click on this one.
 And you can see an "Editor" opens up, and it has a HTML Pane, A CSS Pane, a JavaScript Pane, and an Output Pane. This is just an example.
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------------- image-example 13 1/2. example editor (23) --------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ image-example 13 1/2. example editor (23) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image-example.webp"
@@ -2838,7 +2850,7 @@ following components:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2">Welcome to Module 2</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------------------- 20. attributes, images and links (61) ----------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 20. attributes, images and links (61) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image020.webp?raw=true"
@@ -3160,7 +3172,7 @@ several tags such as &lt;img&gt;, &lt;input&gt; and &lt;video&gt;.</p>
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------------- 21. html result (67) ------------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 21. html result (67) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image021.webp?raw=true"
@@ -4134,7 +4146,7 @@ Moncrieff&lt;/p&gt;</p></li>
 
 <h4>Element</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------ 26. example details command (86) -------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 26. example details command (86) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image026.webp?raw=true"
@@ -4184,7 +4196,7 @@ Fig. 1: The cast hard at work at dress rehearsal before opening night</p>
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--------------------- 28. example mark command you want to highlight (87) ---------------------->
+<!--~~~~~~~~~~~~~~~~~~~ 28. example mark command you want to highlight (87) ~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image028.webp?raw=true"
@@ -4487,7 +4499,7 @@ reading its contents or to make it immediately available.
 Now, let's look at a more complete example using a global header and
 multiple &lt;header&gt;, &lt;footer&gt; and &lt;nav&gt; tags.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------ 34. screenshot of the ms virtual academy home page showing more (94) -------------->
+<!--~~~~~~~~~~ 34. screenshot of the ms virtual academy home page showing more (94) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image034.webp?raw=true"
@@ -4644,7 +4656,7 @@ elements. While the code above makes no sense by itself, if you add it
 to our CES 2018 &lt;article&gt; example, it will fit right in:
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------- 35. example html with article and section (97) ------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~ 35. example html with article and section (97) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image035.webp?raw=true"
@@ -4698,7 +4710,7 @@ To get a better understanding on the usage of semantic elements in your
 Web page, try on
 this [CodePen](https://codepen.io/w3devcampus/pen/Wjzjpx):
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------ 36. html5 table of contents (98) -------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 36. html5 table of contents (98) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image036.webp?raw=true"
@@ -5052,7 +5064,7 @@ source. 
 
 2.  Path to an image file that resides elsewhere on the Web: 
     <img src="https://www.example.com/image-with-absolute-url.png"
-  alt="Example Tutorial Image">
+    alt="Example Tutorial Image">
 
 The type of image file format (i.e. png, jpeg, etc.) you should use does
 not depend on the img element in HTML5 but on the browser that renders
@@ -5106,17 +5118,17 @@ bmp, tiff and png, their pros and cons, and when to use them.
 When using images in your HTML5, there are a few image format related
 information to be aware of.
 <ul>
-<li><b>Image data:</b> most images, especially JPEG, contain a lot more
+  <li><b>Image data:</b> most images, especially JPEG, contain a lot more
     data than is needed for a browser and are too often overly large and
     slow.  You can reduce the size of the image using photo editing
     software that allows you to re-sample an image to reduce its pixel
     data and in turn reducing image size. However, once you re-sample an
     image, do not make change its size (height and width) to make it
     larger as it will become pixelated and blurry.</li>
-<li><b>JPEG</b> (Joint Photographic Experts Group) images compress well and
+  <li><b>JPEG</b> (Joint Photographic Experts Group) images compress well and
     are the standard for photos. But they don’t support any sort of
     animation or transparency.</li>
-<li><b>PNG</b> (Portable Network Graphics) images support transparency and
+  <li><b>PNG</b> (Portable Network Graphics) images support transparency and
     alpha channels. This makes them useful for non-rectangular images
     that may need to overlay different background colors or other
     elements on the page. To make PNG images, a user would need graphics
@@ -5124,11 +5136,11 @@ information to be aware of.
     Web standard</a> (this is the 2nd edition -
     the 1st edition
     was <a href="https://www.w3.org/TR/REC-png-961001" target="_blank">published</a> in 1996!).
-<li><b>SVG</b> (Scalable Vector Graphics) are defined mathematically and
+  <li><b>SVG</b> (Scalable Vector Graphics) are defined mathematically and
     support animation. Also, since they are defined mathematically  they
     scale to:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------ 37. logo scalable vector graphics (svg) (106) ------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 37. logo scalable vector graphics (svg) (106) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img src="./images/image037.webp?raw=true"
   width="10%"
@@ -5212,7 +5224,7 @@ browser:
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------- 38. this is supposed to be an image of tulips (108) ----------------------->
+<!--~~~~~~~~~~~~~~~~~~ 38. this is supposed to be an image of tulips (108) ~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image038.webp?raw=true"
@@ -5227,7 +5239,7 @@ browser:
 Try this: place your mouse on the image below. Don't click, just rest
 your cursor on it. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------------------- 39. tulips in a basket (108) ---------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 39. tulips in a basket (108) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image039.webp?raw=true"
@@ -5263,7 +5275,7 @@ pixels without using an external editor.
 
 Here is my original image:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------------ 40. html5 logo (109) -------------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 40. html5 logo (109) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image040.webp?raw=true"
@@ -5286,7 +5298,7 @@ Now, if I want to resize the HTML logo above by half:
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------- 41. html5 logo 1/2-sized (109) --------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 41. html5 logo 1/2-sized (109) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image041.webp?raw=true"
@@ -5351,7 +5363,7 @@ Can you identify these types of decorative images?
 
 Find out from their tooltips!
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------- 42,43,44. mountains, brick wall & banner (111) ------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~ 42,43,44. mountains, brick wall & banner (111) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image042.webp"
@@ -5610,10 +5622,9 @@ Use the alt attribute to provide alternate text for the images above. 
 Refer to the <a href="https://www.w3.org/WAI/tutorials/images/" target="_blank">WAI images
 Tutorial</a> for a guide to
 writing alternate text. 
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-5-1">2.5.1 Introduction</h3>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <h4>What are hyperlinks?</h4>
 
@@ -5623,19 +5634,17 @@ In a typical Web page, you may well have seen a sentence like this one:
    offers!</b>
 
 Or something like this:
-<!------------------------------------------------------------------------------------------------>
-<!---------------------- 45. buy now button to illustrate hyperlink (116) ------------------------>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 45. buy now button to illustrate hyperlink (116) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <a href="https://en.wikipedia.org/wiki/Hyperlink" target="_blank">
   <img alt="Buy now button to illustrate hyperlink." 
   src="./images/image045.webp?raw=true"
   width="50%" />
 <br>
-<!-------
-  width=150" height="70">
--------->
-</a>
+<!-- width=150" height="70"> -->
+
 <p align="left" width="100%">
 Try clicking the blue text or the 'Buy Now!' button, if you haven't
 already (make sure to navigate back to the course).
@@ -5947,7 +5956,7 @@ different browsers to see how it behaves.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-5-4">2.5.4 Use of Hyperlink Attributes</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------- 46. hyperlink attributes (122) --------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 46. hyperlink attributes (122) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image046.webp?raw=true"
@@ -6191,7 +6200,7 @@ We are now going to continue building on the recipe project we started
 in Module 1.  You can find our version in the CodePen below (and the
 live coding video at the end of this page).
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------------- 47. recipe project, part ii (126) -------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 47. recipe project, part ii (126) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image047.webp?raw=true"
@@ -6470,7 +6479,7 @@ And that concludes this live coding session. Bon appétit !
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3">Welcome to Module 3</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------ 48. w3cx html5 and css3 logo (132) ------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 48. w3cx html5 and css3 logo (132) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image048.webp"
@@ -6488,7 +6497,7 @@ In this module, we will introduce a new language, CSS.
 
 CSS, or Cascading Style Sheets, is used to style each HTML.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------ 49. adding styles with css (132) -------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 49. adding styles with css (132) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image049.webp"
@@ -6535,7 +6544,7 @@ you learn, experimentation.
 
 <h4>CSS stands for 'Cascading Style Sheets'</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------------- 50. css logo (133) --------------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 50. css logo (133) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img src="./images/image050.webp"
   width="20%"
@@ -6581,7 +6590,7 @@ by the W3C in 1997 to tackle issues that had not been addressed
 with [CSS](https://en.wikipedia.org/wiki/CSS) level 1.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------------------- 51. the css gang photo (134) ---------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 51. the css gang photo (134) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image051.webp?raw=true"
@@ -6627,7 +6636,7 @@ different. So let's get started.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>The &lt;style&gt; tag</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------- 52. style and link tags & attributes (134) --------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 52. style and link tags & attributes (134) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image052.webp?raw=true"
@@ -6710,7 +6719,7 @@ directory named <i>css</i>.
 At its simplest, CSS is just a list of <i>rules</i>.  Each <i>rule</i> consists of
 a <i>selector</i> and a <i>declaration.</i>  Here is an example:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------------- 53. figure showing a selector & declaration (137) ----------------------->
+<!--~~~~~~~~~~~~~~~~~~~~ 53. figure showing a selector & declaration (137) ~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image053.webp"
@@ -6802,7 +6811,7 @@ You are welcome to edit the
 following <a href="https://codepen.io/w3devcampus/pen/QvQgbr" target="_blank">CodePen.</a>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------- 54. on the inventor of gunpower by john milton (139) ---------------------->
+<!--~~~~~~~~~~~~~~~~~~ 54. on the inventor of gunpower by john milton (139) ~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image054.webp?raw=true"
@@ -6848,7 +6857,7 @@ styles you like on it.
 learning today about CSS and HTML, and the ways in which they play
 together.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------- 54b. on the inventor of gunpower by john milton (140) --------------------->
+<!--~~~~~~~~~~~~~~~~~~ 54b. on the inventor of gunpower by john milton (140) ~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image054b.webp?raw=true"
@@ -6868,7 +6877,7 @@ it look and feel a little bit different.
 And we've got our header tag, we've got our address and of course the
 poem which is being held in this fantastic paragraph tag.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------- 55b. on the inventor of gunpower by john milton (141) --------------------->
+<!--~~~~~~~~~~~~~~~~~~ 55b. on the inventor of gunpower by john milton (141) ~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image055b.webp?raw=true"
@@ -6923,9 +6932,9 @@ You can see it's a little bit bigger, but I want to make this 25.
 
 It's not quite big enough yet.
 
-<!------------------------------------------------------------------------------------------------>
-<!-------------------- 56b. on the inventor of gunpower by john milton (142) --------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 56b. on the inventor of gunpower by john milton (142) ~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image056b.webp?raw=true"
   width="65%"
@@ -6939,13 +6948,12 @@ That looks good, but I think this by John Milton text is a little bit
 too big, so I'm going to create a new rule specifically for that line.
 
 How I'm going to do that is create a new address, rule,
-
 and I'm going to make the font size of that to be 0.7 rem
 
 It's going to be a little bit smaller relative to the sort of default
 font size that we've set up here.
 
-<!----------------------- image page 143 ---------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ image page 143 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 You could just do em, just to make it consistent and not relative.
 
@@ -7052,17 +7060,17 @@ We're in a day and age where so many different screen sizes are possible to be
 used and you kind of have to consider how something looks for every orientation of a page,
 in order to make sure that it looks good for everybody.
 
-Play around with that, and play around with some of the other attributes that I didn't get to in this little demo
-because there are so many that we learn in the lesson and I encourage you to mess around with them,
-and just sort of see what each one does.
-
-<!------------------------------------------------------------------------------------------------>
+Play around with that, and play around with some of the other attributes that I didn't get 
+to in this little demo because there are so many that we learn in the lesson and I encourage 
+you to mess around with them, and just sort of see what each one does.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-3-1">3.3.1 Common CSS Properties</h3>
-<!------------------------------------------------------------------------------------------------>
-There are hundreds of CSS properties for you to use. The <a href="https://www.w3.org/Style/CSS/all-properties.en.html" target="_blank">complete
-list</a> is available
-on the W3C Web site (or also, see the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference" target="_blank">CSS reference page on the MDN Web
-site</a>).
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+There are hundreds of CSS properties for you to use. The 
+<a href="https://www.w3.org/Style/CSS/all-properties.en.html" target="_blank">complete list</a> 
+is available on the W3C Web site (or also, see the 
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference" target="_blank">
+CSS reference page on the MDN Web site</a>).
 
 Below we've gathered a more manageable list of the most useful
 and common CSS
@@ -7354,9 +7362,9 @@ enough, and deciphering and generating hex codes is even harder.
 However, almost every editor and color picker will at least show you
 red, green and blue values and many have hex code displayed as well.
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-3-3">3.3.3 Units</h3>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 font-size, line-height, margins and many other CSS properties expect
 some sort of dimension value. Dimension values support a wide variety of
@@ -7473,10 +7481,9 @@ few that you might find helpful.
 -   From the W3C specification: [Viewport-percentage
     lengths](https://www.w3.org/TR/css3-values/#viewport-relative-lengths)
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-3-4">3.3.4 Accessible Typography</h3>
-<!------------------------------------------------------------------------------------------------>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 The CSS rules with which we've started are fun and easily
 understandable. They are mostly concerned with typography. Later, we
 will see how to use CSS to include decorative images, look at other
@@ -7569,11 +7576,9 @@ and awareness are good companions and will serve you well.
 
 If you are interested in accessibility, there is much more to learn.
 These simple guidelines merely scratch the surface.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-4-1">3.4.1 Styling Lists</h3>
-<!------------------------------------------------------------------------------------------------>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 The list markup tags (&lt;ul&gt;, &lt;ol&gt; and &lt;li&gt;) are some of the most
 frequently used specific purpose tags in HTML. There are a few CSS style
 properties that are available for lists.
@@ -7764,14 +7769,11 @@ no guarantee to scale the image or assist with spacing or alignment.
  Many users find list-style-image to be frustrating and instead use
 the background-image CSS property which has more options. There is a
 section dedicated to the background-image property.  
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-4-2">3.4.2 Selectors</h3>
-<!------------------------------------------------------------------------------------------------>
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------- 55. selector and declaration (161) -------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 55. selector and declaration (161) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image055.webp?raw=true"
   width="40%"
@@ -7891,11 +7893,9 @@ itself.
   <tbody>
   </tbody>
 </table>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-4-3">3.4.3 Combining Selectors</h3>
-<!------------------------------------------------------------------------------------------------>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Being able to define a CSS selector in terms of a tag, class or id is
 very powerful. But it's not practical to place classes on every tag in
 your document, much less to put unique ids throughout.  It's also
@@ -7985,9 +7985,9 @@ It isn't unusual to see multiple classes joined this way as well:
 .insect.flying { text-decoration: underline; font-weight:bold; }
 ```
 
-<!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 56. combining classes (164) ----------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 56. combining classes (164) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image056.webp?raw=true"
   width="65%"
@@ -8108,10 +8108,9 @@ p * { text-decoration: underline; } /* the text of the paragraph will
    be normal, but any children anywhere inside it will be underlined */
 ```
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-4-4">3.4.4 Cascading: inheritance and precedence</h3>
-<!------------------------------------------------------------------------------------------------>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Now that we've covered several ways of defining CSS selectors, we need
 to understand what happens when multiple selectors resolve to the same
 element, and how an element can get inherit rules from its parent.
@@ -8149,12 +8148,6 @@ font-family to be monospace, and the padding is set to 40 pixels.  Note
 that in the result, the font-family is applied to all the
 children, while the padding is only applied to the paragraph itself,
 none of its children inherit the padding.
-
-<!---
-<details>
-  <summary>HTML</summary>
-html5 
--->
 
 <table>
   <colgroup>
@@ -8333,14 +8326,13 @@ recommended. Once you start to use it, then you'll eventually run into a
 conflict with the various rules that are using !important, and from that
 conflict there is no escape.  If you are having problems with precedence
 the best advice is to fix them directly, rather than using !important.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-4-5">3.4.5 Knowledge Check</h3>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 n/a
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-4-6">3.4.6 Activity - List</h3>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 The HTML that follows is for a simple list.  Insert it into a properly formed HTML file and format it.  Try to ensure the following are done:
 
   •  space the list items at least 20 pixels from the left edge of the page
@@ -8405,11 +8397,9 @@ Please work on the following CodePen and implement the instructions above - do n
 </details>
 
 <h4>Result:</h4>
- 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-4-7">3.4.7 Activity - CSS selectors</h3>
-<!------------------------------------------------------------------------------------------------>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Using the HTML below (in this CodePen), please style the two lists by following these instructions:
 - The female characters are in blue text, and the male characters are red,
 - Dorothea Brooke and Sydney Carton are bold text,
@@ -8470,16 +8460,13 @@ Can you achieve the same styling without adding any new tags (i.e., without addi
 </details>
 
 <h4>Result</h4>
- 
-<!------------------------------------------------------------------------------------------------>
-<h3 id="ch3-4-8">3.4.8 Recipe</h3>
-<!------------------------------------------------------------------------------------------------>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+h3 id="ch3-4-8">3.4.8 Recipe</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <a href=https://learning.edx.org/course/course-v1:W3Cx+HTML5.0x+1T2022/block-v1:W3Cx+HTML5.0x+1T2022+type@sequential+block@0045398377b14c60b9a3820ead6441d6/block-v1:W3Cx+HTML5.0x+1T2022+type@vertical+block@a40220f07c494fb88d47047b8c6d20bc,target=”_blank”>Go Here</a>
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------ 57. my favorite recipe; soup, salad, pizza (170) -------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 57. my favorite recipe; soup, salad, pizza (170) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image057.webp?raw=true"
   width="40%"
@@ -8561,22 +8548,19 @@ Can you achieve the same styling without adding any new tags (i.e., without addi
 ```
 
 </details>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4">Welcome to Module 4</h2>
-<!------------------------------------------------------------------------------------------------>
-<!-------------------------- 58. module 4: fixing and debugging (176) ---------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 58. module 4: fixing and debugging (176) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image058.webp?raw=true"
   width="30%"
   alt="Module 4: Fixing and debugging." />
 </p>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-1">4.1.2 Content</h3>
-<!------------------------------------------------------------------------------------------------>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <b>4.1 Introduction:</b> You will now begin learning how to fix your Web
 page when it's not doing what you hoped it would do.
 
@@ -8591,11 +8575,9 @@ the browser to understand conflicting rules.
 
 <b>4.5 Give Your Mind a Workout:</b> Let’s see what you have learned about
 debugging your code.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-2-1">4.2.1 Tools</h3>
-<!------------------------------------------------------------------------------------------------>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 It's hard to overestimate the value of tools for programming languages.
 There are tools for creation, testing, debugging and even measuring the
 performance of a program. HTML pages are really programs, in specific
@@ -8677,11 +8659,9 @@ or so it seems as "Inspect Element" seems to be common to most browsers,
 including Microsoft Edge and Firefox.  Note that if all browsers are
 likely to have similar capabilities, the user interface may be a bit
 different.  Feel free to use whichever "Developers Tools" you prefer.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-2-2">4.2.2 Identifying HTML5 elements</h3>
-<!------------------------------------------------------------------------------------------------>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Remember that elements are the intangible parts of your Web page, which
 are described by the text in tags and are rendered on the screen of
 whatever device you're looking at your Web page with. The two things
@@ -8710,11 +8690,9 @@ element" option, you can also right click on the section on your page
 you want to inspect and select "Inspect element" which will bring up the
 developer tools and highlights the HTML element or code for that section
 on the page.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>4.2.3 Modifying HTML5 elements</h3>
-<!------------------------------------------------------------------------------------------------>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Another handy feature of the developer tools is the ability to make
 temporary modifications to your code to try out different things and see
 what works the way you want it to.  When you have a visible element
@@ -8736,9 +8714,8 @@ elements panel is the another panel with tabs including "Styles" and
 tab activated.  Once you do that, you can modify CSS properties of the
 current element by adding them to the "element.style" box at the top of
 the "Styles" panel.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------------------- 59. modify html5 (180) ------------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 59. modify html5 (180) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image059.webp"
@@ -8751,7 +8728,7 @@ the top of the Styles panel.  After clicking you should see a little
 text entry box with which you can type property value pairs that will
 then effect the currently active element.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------------------- 60. modify html5 (180) ------------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 60. modify html5 (180) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image060.webp"
@@ -8765,11 +8742,9 @@ particular instance of that page during that debugging session. If you
 navigate to another page and come back, you'll need to make the same
 changes again if you want to get back to where you were. It's not that
 easy to break the Web!
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-3-1">4.3.1 CSS box model</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 Before we get too far into debugging, it's helpful to understand a
 couple of things about CSS more deeply.
 
@@ -8833,16 +8808,14 @@ There are many other shortcuts to learn, but this one is fairly common.
 are defaults for these values, so you technically don't need to specify
 all of them, but it is the minimal info needed and is quite common.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--------------------------- 61. illustration of css box model (##) ----------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 61. illustration of css box model (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image061.webp?raw=true"
   width="50%"
   alt="Illustration of CSS Box Model." />
 </p>
-<!------
-style="width:5in;height:3.89in" alt="Illustration of CSS Box Model" />
-------->
+<!-- style="width:5in;height:3.89in" alt="Illustration of CSS Box Model" /> -->
 
 The margin, as we learned earlier, specifies the position of the
 element relative to whatever is adjacent to it, either to the right or
