@@ -11,8 +11,12 @@
 font-family: Bahnschrift, Inter, Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", 
   "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
 */
-  ol li { 
-    padding: 10px; 
+  ul, ol > li {
+    padding: 10px;
+    line-height:130%;
+  }
+  li {
+  margin: 10px 0;
   }
   p { 
     font-size: 13.5px;
@@ -38,13 +42,21 @@ font-family: Bahnschrift, Inter, Consolas, "Andale Mono WT", "Andale Mono", "Luc
     word-wrap: normal;
   }
 
-  a {
-    text-decoration: none; 
-  }
-
-  a[href]:hover {
-    text-decoration: underline; 
-  }
+a:link {
+  color: #013220;  /* very dark green */
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #a5682a;  /* brown */
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #00000;
+  background-color: #ffff00;  /* yellow */
+  text-decoration: underline;
+}
 
   pre:hover, pre:focus { width: min-content; }
 
