@@ -1,13 +1,4 @@
-/* all mobile and cell phones */
-@media only screen and (min-width: 200px) and (max-width: 767px)  {
-    //Put your CSS here for 200px to 767px width devices (cover all width between 200px to 767px //
-   
-    }
-/* ipads and ipad pros */
-  @media only screen and (min-width: 768px) and (max-width: 1024px)  {
-        //Put your CSS here for 768px to 1024px width devices(covers all width between 768px to 1024px //   
-  }
-/* styles.css of w3cx-1of5 */
+/* more-styles.css of w3cx-1of5 */
   img.displayed {
     display: block;
     margin: 0 auto; }
@@ -20,48 +11,54 @@
 font-family: Bahnschrift, Inter, Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", 
   "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
 */
-  ol li { 
+  ul, ol > li {
     padding: 10px;
-    line-height: 1.6em;
+    line-height:130%;
+  }
+  li {
+  margin: 10px 0;
   }
   p { 
-    font-size: 15px;
+    font-size: 13.5px;
     font-family: Bahnschrift, Inter, Helvetic, sans-serif;
-    text-align: left;
+    text-align: left; 
     margin-left: 10px;
   }
 
   pre, code {
     font-family: monospace, monospace;
     font-size: 10px;
+    margin-left: 10px;
   }
 
   pre {
-    font-family: consolas, inter;
-    font-size: 10px;
-    overflow-x: auto;
-    white-space: pre-wrap;
-    white-space: -moz-pre-wrap;
-    white-space: -pre-wrap;
-    white-space: -o-pre-wrap;
-    word-wrap: break-word;
+    overflow: auto;
   }
 
   pre > code {
     display: block;
+    margin-left: 10px;
     padding: 1rem;
     word-wrap: normal;
   }
 
-  a {
-    text-decoration: none; 
-  }
+a:link {
+  color: #013220;  /* very dark green */
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #a5682a;  /* brown */
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #00000;
+  background-color: #ffff00;  /* yellow */
+  text-decoration: underline;
+}
 
-  a[href]:hover {
-    text-decoration: underline; 
-  }
-
-  pre:hover, pre:focus { width: min-content; margin-left: 10px; }
+  pre:hover, pre:focus { width: min-content; }
 
   p.em1 {
     margin-left: 1em; }
@@ -88,38 +85,39 @@ font-family: Bahnschrift, Inter, Consolas, "Andale Mono WT", "Andale Mono", "Luc
   h3 { 
     font-size: 17px;
     font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas; 
-    margin-left: 10px;  
+	margin-left: 10px;  
   }
   h4 { 
     font-size: 16px;
     font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas; 
-    margin-left: 10px;
+	margin-left: 10px;
   }
   h5 { 
     font-size: 15px;
     font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas; 
-    margin-left: 10px;
+	margin-left: 10px;
   }
   h6 { 
     font-size: 10px;
     font-family: Bahnschrift, Inter, Helvetic, sans-serif;
-    margin-left: 10px;
+	margin-left: 10px;
   }
 
 details {
-  font: 11px Inter, sans-serif, Bahnschrift, Calibri;
-  margin-left: 10px;
+  font: 11px Bahnschrift, Inter, sans-serif, Calibri;
   width: 65%;
 }
+
 details > summary {
   padding: 2px 6px;
-  width: 20em;  /* 12em */
+  width: 15em;  /* 12em */
   background-color: #eee;  /* very light gray */
   border: none;
-  margin-left: 10px;
   box-shadow: 3px 3px 4px #00008b;  /* dark blue */
   cursor: pointer;
+  margin-left: 10px;
 }
+
 details > p {
   border-radius: 0 0 10px 10px;
   background-color: #fff;  /* white */
@@ -127,30 +125,21 @@ details > p {
   margin: 0;
   box-shadow: 3px 3px 4px #00008b;  /* dark blue*/
 }
-details > summary > p {
-  border-radius: 0 0 10px 10px;
-  background-color: #fff;  /* white */
-  padding: 2px 6px;
-  margin: 0;
-  box-shadow: 3px 3px 4px #00008b;  /* dark blue*/
-}
+
 details[open] > summary {
   background-color: yellow;
-}
-details > pre {
-  margin-left: 10px;  /* was 10px */
 }
 
 background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%)
 
 body {
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
-  font-size: 1.4rem;  /* 1.2rem */
+  font-size: 13.5px;  /* 1.2rem; */
   background-color: #eee;  /* very light gray */
   color: #000000;  /* black */
   text-align: left;
   padding: 10px;
-/*  margin-left: 10px; */
+  margin-left: 10px;
 }
 
 #myBtn {
@@ -209,3 +198,12 @@ body {
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: #398e41;} /* dark moderate lime green */
+
+@media screen and (max-width: 900px) and (min-width: 600px), (min-width: 1100px) {
+  div.example {
+    font-size: 50px;
+    padding: 50px;
+    border: 8px solid black;
+    background: yellow;
+  }
+}
