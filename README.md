@@ -610,24 +610,22 @@ interact with all the information on the World Wide Web.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image010.webp?raw=true"
-  width="15%"
+  width="100px;"
   alt="HTML5 logo." />
 </p>
 
-When people say 'HTML5', they usually mean a bit more than just the 5th
+<p>When people say 'HTML5', they usually mean a bit more than just the 5th
 version of the "HyperText Markup Language". Modern Web pages and Web
 applications are generally composed of at least three components, so
 what people often mean when they say 'HTML5' is the trio of languages:
-HTML5, CSS3 and JavaScript.
-
-The 'HTML' part contains all the content, organized into a logical
+HTML5, CSS3 and JavaScript.</p>
+<p>The 'HTML' part contains all the content, organized into a logical
 structure.  This is the part that an author might be most concerned
-with: the words, chapter headings, figures, diagrams, etc.
-
-While there have been numerous versions of HTML since its inception, our
+with: the words, chapter headings, figures, diagrams, etc.</p>
+<p>While there have been numerous versions of HTML since its inception, our
 focus in this course is the most recent version, HTML5. HTML5 was
 developed to provide more powerful and flexible ways for developers to
-create dynamic Web pages.
+create dynamic Web pages.</p>
 
 <h4>CSS</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5279,7 +5277,7 @@ Here is my original image:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image040.webp?raw=true"
-  width="15%"
+  width="100px;"
   alt="HTML5 logo." />
 </p>
 
@@ -5302,7 +5300,7 @@ Now, if I want to resize the HTML logo above by half:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image041.webp?raw=true"
-  width="7%"
+  width="50px;"
   alt="HTML5 logo 1/2-sized" />
 </p>
 
@@ -7273,14 +7271,12 @@ the built in sans-serif browser font.
     the font family name in quotes</b>, excepting the five built-ins
     (serif, sans-serif, etc.)
 
-Web fonts are outside the scope of this course. Google provides a nice
+<p>Web fonts are outside the scope of this course. Google provides a nice
 selection of licensed free Web fonts. Type "<i>google Web font tutorial</i>"
-into any search engine to learn more. 
-
-<!------------------------------------------------------------------------------------------------>
+into any search engine to learn more.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-3-2">3.3.2 Margin and Color</h3>
-<!------------------------------------------------------------------------------------------------>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Margin</h4>
 
 We will examine layout in a later unit. But the margin property is the
@@ -7772,7 +7768,7 @@ section dedicated to the background-image property.  
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-4-2">3.4.2 Selectors</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 55. selector and declaration (161) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 55. selector and declaration (155) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image055.webp?raw=true"
@@ -8827,27 +8823,23 @@ you want to control where an element is placed on a page.  In the
 following pictures, the black rectangles encompass the content:
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------------------- 62.  (###) -------------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 62. three blocks - green, blue, red (###) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image062.webp?raw=true"
   width="30%"
   alt="Image showing three blocks (Block 1, Block 2, Block 3) with no margins between them." />
 </p>
-<!-------
-style="width:3in;height:1.02479in"
-------->
+<!-- style="width:3in;height:1.02479in" -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------------------- 63.  (###) -------------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 63. green, space, blue, red (###) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image063.webp?raw=true"
   width="30%"
   alt="Image showing (Block 1, Block 2, Block 3). Block 2 has a positive margin-left, creating space between Blocks 1 and 2. Block 3 is negative causing its left side to overlap with Block 2." />
 </p>
-<!-------
-style="width:3in;height:1.10482in"
- ------->
+<!-- style="width:3in;height:1.10482in" -->
 
 On the left, we see three blocks with no margins between them. On the
 right are the same 3 blocks, but now block 2 has a positive margin-left,
@@ -8867,16 +8859,14 @@ than or equal to 0.  What the browser does if the border-width is less
 than 0 is undefined and shouldn't be relied on.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------------------- 64. three blocks (183) ------------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 64. three blocks (183) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image064.webp?raw=true"
   width="30%"
   alt="Image showing 3 blocks (Block 1, Block 2, Block 3). These blocks all have borders with different widths, but the margins are zero, implying that the borders are up against each other regardless of their width." />
 </p>
-<!-------
-style="width:3in;height:1.074in"
-------->
+<!-- style="width:3in;height:1.074in" -->
 
 Here blocks 1, 2 and 3 all have borders with different widths, but the
 margins are zero.  There is no overlap, the borders are up against each
@@ -8897,7 +8887,7 @@ element, so the effective visible size of the element includes the
 padding.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------------------- 65. three blocks (184) ------------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 65. three blocks (184) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image065.webp?raw=true"
@@ -8914,7 +8904,7 @@ to these, we see that the padding is reflected by empty space between
 the contents and the border:
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------------------- 66. three blocks (184) ------------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 66. three blocks (184) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img src="./images/image066.webp"
   width="30%"
@@ -8934,7 +8924,7 @@ to the contents.  By setting the margin you can control how close the
 border comes to surrounding elements.  You can even give your border
 rounded corners using the border-radius setting:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------------------- 67. three blocks (184) ------------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 67. three blocks (184) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image067.webp?raw=true"
@@ -8947,7 +8937,7 @@ rounded corners using the border-radius setting:
 In any browser's debugger, you will see a box model diagram. It looks
 like this:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--------------------- 68. css box model - margin, border, padding (185) ------------------------>
+<!--~~~~~~~~~~~~~~~~~~~ 68. css box model - margin, border, padding (185) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image068.webp?raw=true"
@@ -8967,13 +8957,13 @@ border, the padding and the element are.
 
 In the example above:
 <ul>
-<li>the centered blue box corresponds to the size of the inspected
+  <li>the centered blue box corresponds to the size of the inspected 
     element: width is 536 pixels and height is 118 pixels,</li>
-<li>padding is only defined by padding-left which value is 40 pixels,
-<li>there is a border of 5 pixels on each side,</li>
-<li>margin-left and margin-right are undefined (default value is 0
+  <li>padding is only defined by padding-left which value is 40 pixels,
+  <li>there is a border of 5 pixels on each side,</li>
+  <li>margin-left and margin-right are undefined (default value is 0
     pixel),</li>
-<li>margin-top and margin-bottom are equal to 16 pixels.</li>
+  <li>margin-top and margin-bottom are equal to 16 pixels.</li>
 </ul>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8996,7 +8986,7 @@ different .css files.
 Nevertheless, that can cause problems when you have different rules that
 could apply to the same element. Consider the following example:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------------- 69. my book chapter 1 section 1.1 (190) ----------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 69. my book chapter 1 section 1.1 (190) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image069.webp?raw=true"
@@ -9072,7 +9062,7 @@ specific than "article h1" or "h1", and therefore it takes precedence
 resulting in smaller gray text.  However, when you re-arrange the rules
 you get a different result:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------------- 70. my boook chapter 1, section 1.1 (191) --------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 70. my boook chapter 1, section 1.1 (191) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image070.webp?raw=true"
@@ -9146,7 +9136,7 @@ from.  We saw in a previous section that we can add or change CSS
 settings in the "Styles" panel, however, there is much more information
 there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------ 71. styles in the debugger (192) -------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 71. styles in the debugger (192) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image071.webp?raw=true"
@@ -9160,7 +9150,7 @@ have rules that apply specifically to the currently active element.  In
 fact, changes in this top panel are mirrored as settings in the style
 attribute of the element:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--------------------------- 72. modifying style in debugger (193) ------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 72. modifying style in debugger (193) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image072.webp?raw=true"
@@ -9186,7 +9176,7 @@ Back to our quandary, why does "article h1" take precedence over
 "section h1"?  Let's take a look at the first version we tried, before
 rearranging, which did what we wanted:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--------------------------- 73. working version in debugger (194) ------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 73. working version in debugger (194) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image073.webp?raw=true"
@@ -9218,7 +9208,7 @@ than &lt;article&gt;.  We can make this explicit by changing the selector to
 used only on a section that is inside an article, which is really what
 we want:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------------- 74. my book chapter 1 section 1.1 (195) ----------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 74. my book chapter 1 section 1.1 (195) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image074.webp?raw=true"
@@ -9287,7 +9277,7 @@ have some beautiful pictures we'd like to use: one for the top of the
 page, and others as examples of different types of clouds.  We include
 the pictures but the result is unwieldy:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------------------- 75. image of cloud (196) ----------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 75. image of cloud (196) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image075.webp?raw=true"
@@ -9348,7 +9338,7 @@ img {
 Giving a much more reasonable page:
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------------------- 76. cloud image (197) -------------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 76. cloud image (197) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image076.webp?raw=true"
@@ -9421,7 +9411,7 @@ We open up the debugger and choose the &lt;img&gt; tag corresponding to our
 first picture, then we see this in the Styles section:
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------------------------- 77. debugger (198) -------------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 77. debugger (198) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image077.webp?raw=true"
@@ -9455,7 +9445,7 @@ li img {
 <h4>That looks better:</h4>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------- 78. cloud image-codepen (198) ---------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 78. cloud image-codepen (198) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image078.webp?raw=true"
@@ -9623,7 +9613,7 @@ you'll see is a long list of properties starting with '-webkit'.  We're
 going to scroll down past those to "font-size" which reveals this:
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------------------- 81. computed font-size (204) ---------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 81. computed font-size (204) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image081.webp?raw=true"
@@ -10237,7 +10227,7 @@ regular and left-aligned by default.
 </details>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 89. td: colspan, rowspan & headers (217) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 89. td: colspan, rowspan & headers (204) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image089.webp?raw=true"
@@ -10308,7 +10298,7 @@ achieve styling effects specific to a column. 
 </details>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 90. color column headers (218) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 90. color column headers (205) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image090.webp?raw=true"
@@ -10439,7 +10429,7 @@ considered footer rows at the end of a table:
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 91. table example: name & age (220) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 91. table example: name & age (208) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
   <img src="./images/image091.webp"
@@ -10475,7 +10465,7 @@ sets border-width, border-style and border-color in order: 
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 92. border property values (221) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 92. border property values (209) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image092.webp"
@@ -10490,7 +10480,7 @@ table, th, td { border: 1px solid black; }
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 93. three border examples (222) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 93. three border examples (209) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image093.webp"
@@ -10565,7 +10555,7 @@ Possible values of this property are: 
 -   initial - sets to default value (separate)
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 94. table border collapse (223) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 94. table border collapse (210) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image094.webp"
@@ -10636,7 +10626,7 @@ the whole column/row. If two cells in one column/row have different
 widths/heights specified, the larger value is set.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 95. table example (224) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 95. table example (212) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image095.webp"
@@ -10781,7 +10771,7 @@ th, td { padding: 20px 30px 40px 50px; }
 
 It is specified in the order: top, right, bottom and left padding.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--------------------------------- 96. table th and td (227) ------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 96. table th and td (215) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image096.webp"
@@ -10847,12 +10837,12 @@ Some things to keep in mind:
     take effect.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------------------- 97.  (###) -------------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 97. table spacing with border (216) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
   <img src="./images/image097.webp"
   style="width:4in;height:2.52101in" 
-  alt="" />
+  alt="Table spacing with border." />
 </p>
 
 <h4>CSS</h4>
@@ -10914,12 +10904,12 @@ th, td { border-right: 1px solid black; }
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------------------- 98.  (###) -------------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 98. table with side borders (217) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image098.webp"
   style="width:4in;height:2.52101in" 
-  alt="" />
+  alt="Table with side-borders." />
 </p>
 
 <h4>CSS</h4>
@@ -10991,12 +10981,12 @@ tr:nth-child(3n) { background-color: grey; } 
 will make the every third list item grey.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------ 99.  (###) -------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 99. nth child selector match (219) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image099.webp?raw=true"
   width="40%"
-  alt="." />
+  alt="Nth child selector match." />
 </p>
 
 <h4>CSS</h4>
@@ -11083,7 +11073,7 @@ tr:hover {background-color: #ccff99; }
 <h4>Hover over these tables:</h4>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------------- 100.  () -------------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 100. hover to highlight (221) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image100.webp?raw=true"
@@ -11987,7 +11977,7 @@ that can be used to configure playback. The following table lists
 the video element's attributes:
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------------- 106/107. video element attributes (251) ---------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 106/107. video element attributes (251) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image106.webp?raw=true"
@@ -12000,11 +11990,11 @@ the video element's attributes:
 <!-- style="width:6.5in;height:2.79653in" /> -->
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------------------- 108. html5 logo  (253) ------------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 108. html5 logo (253) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image108.webp?raw=true"
-  width="65%"
+  width="100px;"
   alt="HTML5 logo." />
 </p>
 
@@ -12109,7 +12099,7 @@ a combination of formats. 
 
 <h4>The following table lists the source element's attributes:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--------------------------- 109. source element's attributes (255) ----------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 109. source element's attributes (255) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image109.webp?raw=true"
@@ -12155,7 +12145,7 @@ your &lt;video&gt; tag like this:
 <h4>The following table lists the &lt;track&gt; element's attributes:</h4>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--------------------------- 110. track element's attributes (256) ------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 110. track element's attributes (256) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image110.webp"
@@ -12194,7 +12184,7 @@ An &lt;iframe&gt; tag can be as simple as this:
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------------------------- 111. iframe (263) --------------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 111. iframe (263) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image111.webp"
@@ -12225,7 +12215,7 @@ An &lt;iframe&gt; tag can be as simple as this:
 Because iframes are HTML elements, they can be styled just like other elements, with borders, margins, sizes specified with CSS rules:
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------- 112. iframes and images (263) ---------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 112. iframes and images (263) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image112.webp"
@@ -12380,9 +12370,9 @@ Let's look at how the code above works.
   width="30%"
   alt="Graphical representation of how ismap command works in web development." />
 </p>
-<!---
+<!--
   Image illustrating how an image map works, how it processes mouse click coordinates using a map file that define target areas." />
---->
+-->
 <p>
 Let's go back to our world map example where clicking on different parts
 of the image will take you to a page about the country you clicked on.
@@ -12753,7 +12743,7 @@ Here the visible border styles displayed on a gray border:
 <!--
 <img src="./images/image125.png"
 style="width:6.5in;height:0.42361in" />
---->
+-->
 
 Note that the groove, ridge, inset and outset borders all use black in
 addition to any explicit border-color.  So if the border-color is also
@@ -13724,9 +13714,9 @@ background is overlapping the lines above and below.
   width="65%"
   alt="." />
 </p>
-<!---
+<!--
 style="width:6.5in;height:1.52708in" />
---->
+-->
 
 Here we prevent the overlap by setting the line-height of the span.
 However, this solution should not be considered optimal.  Better is to
@@ -13779,7 +13769,7 @@ span element display:inline-block.  Note that the margin-top is also
 respected. 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 138.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 138.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image138.webp?raw=true"
@@ -15468,13 +15458,13 @@ can see that.  They've actually scrolled down a little bit more.  We fixed those
 These are the final changes to our recipe project for this unit.
 </p>
 
-<!--- template for images
+<!-- template for images
 <p align="center" width="100%">
 <img src="./images/image###.webp?raw=true"
   width="65%"
   alt="." />
 </p>
---->
+-->
 
 <h6>The end...</h6>
 
