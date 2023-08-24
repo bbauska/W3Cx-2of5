@@ -506,7 +506,7 @@ project, you know exactly which browsers will support it.</p>
 <h3>External resources</h3>
 
 <ul>
-  <li>><a href="https://hacks.mozilla.org/2018/02/mdn-browser-compatibility-data/" target="_blank" 
+  <li><a href="https://hacks.mozilla.org/2018/02/mdn-browser-compatibility-data/" target="_blank" 
     rel="noopener noreferrer">MDN browser compatibility data: Taking the guesswork out of web compatibility</a>,<br><br></li>
   <li><a href="https://hacks.mozilla.org/2019/09/caniuse-and-mdn-compat-data-collaboration/" 
     target="_blank" rel="noopener noreferrer">Caniuse and MDN compatibility data collaboration</a>.</li>
@@ -752,7 +752,7 @@ incorporate Hyperlinks in a text document.</p>
   src="./images/image013.webp"
   alt="Illustration of hypertext documents (here are extract of wikipedia pages): 
     the HTML5 page has links going to the Markup language page, the World Wide Web definition page, etc."
-  style="width:400px;" />
+  style="width:650px;" />
 
 <p>He envisioned a technology that would facilitate thoroughly
 interconnected documents. He wanted authors to be able to connect an
@@ -781,7 +781,7 @@ email and other conveniences.</p>
 <img class="displayed"
   src="./images/image014.webp?raw=true"
   alt="Snapshot of a Mosaic Browser."
-  style="width:400px;" />
+  style="width:650px;" />
 
 <p>At the time there were a number of different programs like
 ‘<a href="https://en.wikipedia.org/wiki/Fetch_(FTP_client" target="_blank" 
@@ -1014,7 +1014,7 @@ Pane, a JavaScript Pane, and an Output Pane. This is just an example.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image-example.webp"
-  alt="Example editor."
+  alt="Example JSBin editor for CSS and HTML."
   style="width:450px;" />
 
 <p>We won’t go into the code in this example.  But you can see that this is a live 
@@ -1404,7 +1404,7 @@ elements of the DOM.</p>
 
 <p>Consider the figure above.  It contains a single ‘html’ element.  It
 turns out this includes within it the entire content of your html file.
- If you click on the “html” node, you’ll find that it contains two
+If you click on the “html” node, you’ll find that it contains two
 components, a head and a body.  Clicking on each of those will reveal
 their respective contents.  This structure is what we computer
 scientists call a “tree”.  Any given element (except for the outermost
@@ -1427,7 +1427,7 @@ in a text file?  Well, that’s where “tags” come in.</p>
 <img class="displayed"
   src="./images/image016.webp?raw=true"
   alt="Tags"
-  style="width:250px;" />
+  style="width:150px;" />
 
 <p>‘Tags’ are what we use to organize a text file (which is just a long
 string of characters) such that it represents a tree of elements that
@@ -1901,7 +1901,7 @@ when viewed by a reader:</p>
     this entity to add multiple spaces in your HTML page.</td>
     </tr>
     <tr class="odd">
-      <td>Quotes “</td>
+      <td>Quotes &quot;&quot;</td>
       <td>&amp;quot;</td>
       <td>&amp;#34;</td>
       <td>Link to another section on the same page using the id of the element:
@@ -1985,12 +1985,12 @@ character itself, or when you can’t tell what the character is by looking at i
 predefined, named character references in HTML for several categories, these include:</p>
 
 <ul>
-  <li>currency symbols</li>
-  <li>copyright, trademark and registered symbol</li>
-  <li>general punctuation</li>
-  <li>arrows</li>
-  <li>mathematical symbols</li>
-  <li>Greek letters</li>
+  <li>Currency symbols,</li>
+  <li>Copyright, trademark and registered symbol,</li>
+  <li>General punctuation,</li>
+  <li>Arrows,</li>
+  <li>Mathematical symbols, and</li>
+  <li>Greek letters.</li>
 </ul>
 
 <p>For a list of <b>named</b> character references available in HTML,
@@ -2007,8 +2007,8 @@ capable of handling all possible characters defined by Unicode. The best practic
 symbols like copyright, currency symbols, math and arrows is to simply type them 
 directly into the source code.</p>
 
-<p>You can do this directly in the code:   &lt;p&gt; is © 2015. Breach will
-entail a fine of € 400&lt;/p&gt;</p>
+<p>You can do this directly in the code:</p>
+<!-- &lt;p&gt; &#169; is © 2015. Breach will entail a fine of € 400&lt;/p&gt;&lt;/p&gt; -->
 
 <details>
   <summary>HTML code extract!</summary>
@@ -2291,17 +2291,15 @@ quotation marks it will essentially insert them for you. Thus:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-4">1.5.4 Activity – Best Practices</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 <ol type="1">
-  <li>Compare and contrast these two different HTML Style Guides:</li>
+  <li>Compare and contrast these two different HTML Style Guides:
+  <ul>
+    <li><a href="https://contribute.jquery.org/style-guide/html/" target="_blank" 
+      rel="noopener noreferrer">JQuery HTML Style Guide</a></li>
+    <li><a href="https://google.github.io/styleguide/htmlcssguide.html" target="_blank" 
+      rel="noopener noreferrer">Google HTML/CSS Style Guide</a></li>
+  </ul></li>
 </ol>
-
-<ul>
-  <li><a href="https://contribute.jquery.org/style-guide/html/" target="_blank" 
-    rel="noopener noreferrer">JQuery HTML Style Guide</a></li>
-  <li><a href="https://google.github.io/styleguide/htmlcssguide.html" target="_blank" 
-  rel="noopener noreferrer">Google HTML/CSS Style Guide</a></li>
-</ul>
 
 <p>Are they consistent with each other? Are there some rules that don’t
 seem to make sense?</p>
@@ -2309,13 +2307,12 @@ seem to make sense?</p>
 disagree with some of the suggestions in one of these guides?</p>
 
 <ol start="2" type="1">
-  <li>Check out the <a href="https://validator.w3.org/" target="_blank" rel="noopener noreferrer">W3C HTML Checker</a>:</li>
+  <li>Check out the <a href="https://validator.w3.org/" target="_blank" rel="noopener noreferrer">W3C HTML Checker</a>:
+  <ul>
+    <li>Try “Direct Input” and type some HTML5 code with errors to see what it detects.</li>
+    <li>Using “Validate by URI”, try some popular Web sites and see if you can find any errors.</li>
+  </ul></li>
 </ol>
-
-<ul>
-  <li>Try “Direct Input” and type some HTML5 code with errors to see what it detects.</li>
-  <li>Using “Validate by URI”, try some popular Web sites and see if you can find any errors.</li>
-</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-6-1">1.6.1 Tags We Have Already Used</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2384,9 +2381,9 @@ technology users and missing levels can be confusing</b>.</p>
 <ul>
   <li><b>&lt;p&gt;</b> - <i><b>p</b></i> is for ‘paragraph’, which is 
     the tag you may use to arrange much of your text information.  
-   Depending on the style you are using, text wrapped in a &lt;p&gt; tag 
-   may be indented or have extra vertical white space before starting.  
-   When rendered on the Web page, a <i>p</i> element creates a new line.</li>
+    Depending on the style you are using, text wrapped in a &lt;p&gt; tag 
+    may be indented or have extra vertical white space before starting.  
+    When rendered on the Web page, a <i>p</i> element creates a new line.</li>
 </ul>
 
 <details>
@@ -2461,11 +2458,13 @@ wise - Benjamin Franklin</p>
 primarily used to invoke certain formatting.</p>
 
 <ul>
-  <li><b>&lt;hr&gt;</b> - The <b>hr</b> tag stands for horizontal rule and is used to insert a horizontal line across the width of the text, or a thematic break in an HTML page to divide or separate document sections. The &lt;hr&gt; tag is an empty tag and does not require an end tag. It would typically look like this:</li>
-  <li><b>&lt;br&gt;</b> - This tag signifies a line break, and is used for any number of situations.  For example, it can be an easy way to make sure that lines of poetry break where they’re supposed to (less verbose than requiring each line to be a separate element).  Essentially it helps break the “white space” rule: where spaces and carriage returns are generally treated the same, the &lt;br&gt; tag is treated as a required carriage return.<br>
-  Because it’s an empty tag, there’s no need for a close tag. Indeed, if you do try adding<br>
-  after your &lt;br&gt; tag, it will likely be interpreted as an additional break. If you feel a strong need to indicate tag closure, &lt;br /&gt; is also valid syntax.<br/>
-  Note that the &lt;br&gt; tag implies a break even if there is no break in the text containing it, so for example, these two sentences would be formatted exactly the same:</li>
+  <li><b>&lt;hr&gt;</b> - The <b>hr</b> tag stands for horizontal rule and is used to insert a horizontal line  
+    across the width of the text, or a thematic break in an HTML page to divide or separate document sections. The &lt;hr&gt; tag is an empty tag and does not require an end tag. It would typically look like this:</li>
+  <li><b>&lt;br&gt;</b> - This tag signifies a line break, and is used for any number of situations.  For 
+    example, it can be an easy way to make sure that lines of poetry break where they’re supposed to (less verbose than requiring each line to be a separate element).  Essentially it helps break the “white space” rule: where spaces and carriage returns are generally treated the same, the &lt;br&gt; tag is treated as a required carriage return.<br>
+    Because it’s an empty tag, there’s no need for a close tag. Indeed, if you do try adding &lt;br&gt;
+	after your &lt;br&gt; tag, it will likely be interpreted as an additional break. If you feel a strong need to indicate tag closure, &lt;br /&gt; is also valid syntax.<br/>
+	Note that the &lt;br&gt; tag implies a break even if there is no break in the text containing it, so for example, these two sentences would be formatted exactly the same:</li>
 </ul>
 
 <pre>That which we call a rose &lt;br&gt;
@@ -2552,7 +2551,7 @@ following components:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-1-1">2.1.1 Welcome to Module 2 - Attributes, images &amp; links</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 20. attributes, images and links (61) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 20. attributes, images and links (57) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image020.webp?raw=true"
@@ -2796,7 +2795,7 @@ as &lt;img&gt;, &lt;input&gt; and &lt;video&gt;.</p>
   &lt;li&gt;JavaScript&lt;/li&gt;
 &lt;/ol&gt;</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 21. codepen html result (67) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 21. codepen html result (63) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image021.webp?raw=true"
@@ -2963,7 +2962,7 @@ Don’t click on it, just rest your cursor there.</p>
 
 <h4>NASA</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 22. beautiful girl (71) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 22. beautiful girl (67) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image022.webp?raw=true"
@@ -3122,7 +3121,7 @@ rule and were eventually corrected in HTML5.</p>
 
 <p>This is how the above HTML code will look in a browser:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 23. codepen how html will look in browser (76) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 23. codepen how html will look in browser (72) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image023.webp?raw=true"
@@ -3315,7 +3314,7 @@ semantic elements.</p>
 <p>Let’s look at a typical Web page structure that consists of blocks
 named after: header, nav, article, section, aside and footer.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 24. picture showing structure of a web site (78) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 24. picture showing structure of a web site (77) ~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image024.webp?raw=true"
@@ -3426,7 +3425,7 @@ like this:</p>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 25. codepen using the markup validator (83) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 25. codepen using the markup validator (80) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image025.webp?raw=true"
@@ -3633,7 +3632,7 @@ the &lt;details&gt; tag works in most Web browsers.</p>
 
 <h4>Element</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 26. codepen example details command (86) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 26. codepen example details command (84) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image026.webp?raw=true"
@@ -3659,7 +3658,7 @@ information for all users.</p>
 
 <h4>Result:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 27. example figcaption command (86) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 27. example figcaption command (84) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image027.webp?raw=true"
@@ -3675,7 +3674,7 @@ information for all users.</p>
 <pre>&lt;h3&gt;Lane: &lt;/h3&gt;&lt;p&gt;Yes sir. [&lt;mark&gt;Handing his master the
    sandwiches on a salver&lt;/mark&gt;]&lt;/p&gt;</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 28. codepen example mark command you want to highlight (87) ~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 28. codepen example mark command you want to highlight (85) ~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image028.webp?raw=true"
@@ -3726,11 +3725,11 @@ not any visual change:</p>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 29. codepen  (88) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 29. codepen sample semantic elements (86) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image029.webp?raw=true"
-  alt="."
+  alt="Example: Introduction to semantic elements."
   style="width:350px;" />
 
 <h4>Lesser known semantic elements</h4>
@@ -3834,7 +3833,7 @@ element. <b>Here’s a simplified version</b>:</p>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 30. codepen html5.2x header and headings (91) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 30. codepen html5.2x header and headings (89) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image030.webp?raw=true"
@@ -3872,7 +3871,7 @@ rel="noopener noreferrer">Using h1-h6 to identify headings</a>.</p>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 31. codepen brad's cookbook in codepen (92) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 31. codepen brad's cookbook in codepen (90) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image031.webp?raw=true"
@@ -3921,16 +3920,16 @@ rel="noopener noreferrer">Microsoft Virtual Academy home
 page</a>. At the time of course creation, here are screenshots of its
 header:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 32. screenshot of the top ms virtual academy home page (93) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 32. screenshot of the top ms virtual academy home page (91) ~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image032.webp?raw=true"
   alt="Screenshot of the Microsoft Virtual Academy home page."
-  style="width:350px;" />
+  style="width:450px;" />
 
 <p>and footer.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~ 33. screenshot of the ms virtual academy home page showing the footer (93) ~~~~~~~~~-->
+<!--~~~~~~~ 33. screenshot of the ms virtual academy home page showing the footer (91) ~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image033.webp?raw=true"
@@ -3958,7 +3957,7 @@ available.</p>
 <p>Now, let’s look at a more complete example using a global header and
 multiple &lt;header&gt;, &lt;footer&gt; and &lt;nav&gt; tags.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~ 34. codepen screenshot of the ms virtual academy home page showing more (94) ~~~~~~~~~~~~-->
+<!--~~~~~~ 34. codepen screenshot of the ms virtual academy home page showing more (92) ~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image034.webp?raw=true"
@@ -4102,7 +4101,7 @@ in another). Sections can also be part of an article, aside or nav
 elements. While the code above makes no sense by itself, if you add it
 to our CES 2018 &lt;article&gt; example, it will fit right in:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 35. codepen example html with article and section (97) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 35. codepen example html with article and section (95) ~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image035.webp?raw=true"
@@ -4150,7 +4149,7 @@ into groups.</p>
 <p>To get a better understanding on the usage of semantic elements in
 your Web page, try on this <a href="https://codepen.io/w3devcampus/pen/Wjzjpx" target="_blank" rel="noopener noreferrer">CodePen</a>:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 36. codepen html5 table of contents (98) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 36. codepen html5 table of contents (96) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image036.webp?raw=true"
@@ -4504,7 +4503,7 @@ information to be aware of.
   <li><b>SVG</b> (Scalable Vector Graphics) are defined mathematically and support animation. Also, since they are defined mathematically  they scale to:</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 37. logo scalable vector graphics (svg) (106) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 37. logo scalable vector graphics (svg) (104) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image037.webp?raw=true"
@@ -4569,7 +4568,7 @@ browser:</p>
 
 <pre>&lt;img src=&quot;image/tulips.png&quot; alt=&quot;This is supposed to be an image of tulips&quot;&gt;</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 38. codepen this is supposed to be an image of tulips (108) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 38. codepen this is supposed to be an image of tulips (106) ~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image038.webp?raw=true"
@@ -4583,7 +4582,7 @@ browser:</p>
 <p>Try this: place your mouse on the image below. Don’t click, just rest
 your cursor on it. </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 39. tulips in a basket (108) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 39. tulips in a basket (107) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image039.webp?raw=true"
@@ -4613,7 +4612,7 @@ The width and height attributes can be used to resize the image in
 pixels without using an external editor.</p>
 <p>Here is my original image:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 40. html5 logo (109) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 40. html5 logo (108) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image040.webp?raw=true"
@@ -4633,7 +4632,7 @@ up of millions of pixels.</p>
    image seems to fit the page better&quot; height=&quot;173&quot; width=&quot;262&quot;&gt;</pre>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 41. html5 logo 1/2-sized (109) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 41. html5 logo 1/2-sized (108) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image041.webp?raw=true"
@@ -4691,7 +4690,7 @@ of the page.</p>
 <p>Can you identify these types of decorative images?</p>
 <p>Find out from their tooltips!</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 42,43,44. mountains, brick wall & banner (111) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 42,43,44. mountains, brick wall & banner (110) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image042.webp"
@@ -4893,7 +4892,7 @@ Refer to the <a href="https://www.w3.org/WAI/tutorials/images/" target="_blank"
 out more</a> about our offers!</b></p>
 <p>Or something like this:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~ 45. buy now button to illustrate hyperlink (116) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 45. buy now button to illustrate hyperlink (114) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <a href="https://en.wikipedia.org/wiki/Hyperlink" target="_blank" rel="noopener noreferrer">
 <img class="displayed"
@@ -5137,12 +5136,12 @@ run it in different browsers to see how it behaves.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-5-4">2.5.4 Use of Hyperlink Attributes</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 46. codepen hyperlink attributes (122) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 46. codepen hyperlink attributes (121) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image046.webp?raw=true"
   alt="Hyperlink attributes."
-  style="width:450px;" />
+  style="width:650px;" />
 
 <p>In this live coding demo, we’re going to dive deep into
 hyperlinks.</p>
@@ -5301,11 +5300,11 @@ around on the same page.</p>
 started in Module 1.  You can find our version in the CodePen below (and
 the live coding video at the end of this page).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 47. codepen recipe project, part ii (126) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 47. codepen recipe project, part ii (125) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image047.webp?raw=true"
-  alt="Recipe project, part ii."
+  alt="Recipe project, module ii."
   style="width:450px;" />
 
 <details>
@@ -5509,7 +5508,7 @@ semantic tags.<br>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-1-1">3.1.1 Welcome to Module 3 - Adding Style with CSS</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 48. w3cx html5 and css3 logo (132) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 48. w3cx html5 and css3 logo (130) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image048.webp"
@@ -5521,7 +5520,7 @@ and CSS course.</p>
 <p>In this module, we will introduce a new language, CSS.  CSS, or Cascading Style Sheets, is 
 used to style each HTML.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 49. adding styles with css (132) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 49. adding styles with css (131) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image049.webp"
@@ -5553,7 +5552,7 @@ how you learn, experimentation.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>CSS stands for 'Cascading Style Sheets'</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 50. css logo (133) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 50. css logo (132) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image050.webp"
@@ -5587,7 +5586,7 @@ paragraphs to be indented this much”, much like master sheets in a word proces
 <p>The <b>CSS Working Group</b> (Cascading Style Sheets Working Group)
 is a <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Working_group">working group</a> created by the W3C in 1997 to tackle issues that had not been addressed with <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/CSS">CSS</a> level 1.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 51. the css gang photo (134) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 51. the css gang photo (133) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image051.webp?raw=true"
@@ -5707,7 +5706,7 @@ kept in a directory named <i>css</i>.</p>
  Each <i>rule</i> consists of a <i>selector</i> and a <i>declaration.
  </i>Here is an example:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~ 53 figure showing a selector & declaration (137) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 53 figure showing a selector & declaration (135) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image053.webp"
@@ -5781,7 +5780,7 @@ several lines. But they <b>cannot</b> be nested.</p>
 We have a live coding demonstration in the next page working with the same source.<br>
 <br>You are welcome to edit the following <a target="_blank" rel="noopener noreferrer"  href="https://codepen.io/w3devcampus/pen/QvQgbr">CodePen.</a></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 54. codepen on the inventor of gunpower by john milton (139) ~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 54. codepen on the inventor of gunpower by john milton (137) ~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image054.webp?raw=true"
@@ -6805,7 +6804,7 @@ the background-image CSS property which has more options.<br>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-4-2">3.4.2 Selectors</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 55. selector and declaration (161) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 55. selector and declaration (154) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image055.webp?raw=true"
@@ -7450,7 +7449,7 @@ possible.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p><a target="_blank" rel="noopener noreferrer" href="https://learning.edx.org/course/course-v1:W3Cx+HTML5.0x+1T2022/block-v1:W3Cx+HTML5.0x+1T2022+type@sequential+block@0045398377b14c60b9a3820ead6441d6/block-v1:W3Cx+HTML5.0x+1T2022+type@vertical+block@a40220f07c494fb88d47047b8c6d20bc">Go Here</a></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~ 57. my favorite recipe; soup, salad, pizza (170) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 57. my favorite recipe; soup, salad, pizza (164) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image057.webp?raw=true"
@@ -7533,7 +7532,7 @@ possible.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-1-1">4.1.1 Welcome to Module 4 - Fixing &amp; Debugging</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 58. module 4: fixing and debugging (176) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 58. module 4: fixing and debugging (166) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image058.webp?raw=true"
@@ -7685,24 +7684,24 @@ tab activated.  Once you do that, you can modify CSS properties of the
 current element by adding them to the “element.style” box at the top of
 the “Styles” panel.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 59. modify html5 (180) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 59. modify html5 (169) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image059.webp?raw=true"
   alt="Screenshot of MS Edge showing modifying in the developers tools."
-  style="width:50%;" />
+  style="width:450px;" />
 
 <p>Just click in between the two curly braces on the “Inline style” rule
 at the top of the Styles panel.  After clicking you should see a little
 text entry box with which you can type property value pairs that will
 then effect the currently active element.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 60. modify html5 (180) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 60. modify html5 (170) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image060.webp"
   alt="Screenshot of MSEdge developer tools showing changing text color in developers tools."
-  style="width:50%;" />
+  style="width:450px;" />
 
 <p>It’s important to know that any changes you make in the developer
 tools will have no effect on the original Web page. They only affect
@@ -7776,12 +7775,12 @@ common.  To draw a border you need to know the width, style and color.
 specify all of them, but it is the minimal info needed and is quite
 common.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 61. illustration of css box model (182) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 61. illustration of css box model (172) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image061.webp?raw=true"
   alt="Illustration of CSS Box Model."
-  style="width:50%;" />
+  style="width:450px;" />
 
 <p>The margin, as we learned earlier, specifies the position of the
 element relative to whatever is adjacent to it, either to the right or
@@ -7792,14 +7791,14 @@ that it overlaps with another element on the page.  This can be useful
 when you want to control where an element is placed on a page.  In the
 following pictures, the black rectangles encompass the content:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 62. three blocks with no margin betwen (182) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 62. three blocks with no margin betwen (172) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image062.webp?raw=true"
   alt="Image showing three blocks (Block 1, Block 2, Block 3) with no margins between them."
   style="width:200px;" />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~ 63. three blocks with block two positive margin-left (182) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 63. three blocks with block two positive margin-left (172) ~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image063.webp?raw=true"
@@ -7823,7 +7822,7 @@ it’s size (thickness), so it only makes sense to accept numbers greater
 than or equal to 0.  What the browser does if the border-width is less
 than 0 is undefined and shouldn’t be relied on.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 64. three blocks (183) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 64. three blocks (173) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image064.webp?raw=true"
@@ -7846,7 +7845,7 @@ set.  The background of the padded area matches the background of
 element, so the effective visible size of the element includes the
 padding.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 65. three blocks (184) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 65. three blocks (174) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image065.webp?raw=true"
@@ -7861,7 +7860,7 @@ look more like the contents have been expanded.  If we add a thin border
 to these, we see that the padding is reflected by empty space between
 the contents and the border:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 66. three blocks (184) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 66. three blocks (174) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image066.webp"
@@ -7880,7 +7879,7 @@ to the contents.  By setting the margin you can control how close the
 border comes to surrounding elements.  You can even give your border
 rounded corners using the border-radius setting:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 67. three blocks (184) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 67. three blocks (174) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image067.webp?raw=true"
@@ -7892,7 +7891,7 @@ rounded corners using the border-radius setting:</p>
 <p>In any browser’s debugger, you will see a box model diagram. It looks
 like this:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 68. css box model - margin, border, padding (185) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 68. css box model - margin, border, padding (175) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image068.webp?raw=true"
@@ -7935,13 +7934,13 @@ different .css files.</p>
 <p>Nevertheless, that can cause problems when you have different rules that
 could apply to the same element. Consider the following example:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 69. codepen my book chapter 1 section 1.1 (190) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 69. codepen my book chapter 1 section 1.1 (176) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image069.webp?raw=true"
   title="My Book, Chapter 1, Section 1.1."
   alt="My Book Chapter 1 Section 1.1."
-  style="width:50%;" />
+  style="width:300px;" />
 
 <details>
   <summary>CSS code extract!</summary>
@@ -8003,12 +8002,12 @@ resulting in smaller gray text.  However, when you re-arrange the rules
 you get a different result:</p>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 70. codepen my boook chapter 1, section 1.1 (191) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 70. codepen my book chapter 1, section 1.1 (177) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image070.webp?raw=true"
   alt="My Book Chapter 1 Section 1.1."
-  style="width:50%;" />
+  style="width:300px;" />
 
 <pre>section h1{
   color:grey;
@@ -8063,7 +8062,7 @@ from.  We saw in a previous section that we can add or change CSS
 settings in the “Styles” panel, however, there is much more information
 there.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 71. styles in the debugger (192) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 71. styles in the debugger (179) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image071.webp?raw=true"
@@ -8076,7 +8075,7 @@ have rules that apply specifically to the currently active element.  In
 fact, changes in this top panel are mirrored as settings in the style
 attribute of the element:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 72. modifying style in debugger (193) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 72. modifying style in debugger (180) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image072.webp?raw=true"
@@ -8101,12 +8100,12 @@ stylesheet.</p>
 “section h1”?  Let’s take a look at the first version we tried, before
 rearranging, which did what we wanted:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 73. working version in debugger (194) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 73. working version in debugger (181) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image073.webp?raw=true"
   alt="Working version in Debugger."
-  style="width:50%;" />
+  style="width:450px;" />
 
 <p>Here we see just the opposite of what we saw before, now “section h1”
 takes precedence over “article h1”.  What’s going on?</p>
@@ -8136,12 +8135,12 @@ selector to “article section h1”, so that now the smaller, lighter color
 will be used only on a section that is inside an article, which is
 really what we want:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 74. codepen my book chapter 1 section 1.1 (195) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 74. codepen my book chapter 1 section 1.1 (182) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image074.webp?raw=true"
   alt="My book, chapter 1, section 1.1."
-  style="width:50%;" />
+  style="width:300px;" />
 
 <details>
   <summary>CSS code extract!</summary>
@@ -13313,7 +13312,7 @@ We fixed those issues at the top. These are the final changes to our recipe proj
 
 <h5>The end…</h5>
 
-<h6>Last Updated 8-18-2023 Fri 12:00am</h6>
+<h6>Last Updated 8-24-2023 Thu 12:48pm</h6>
 
 </body>
 </html>
