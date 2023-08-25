@@ -15,20 +15,20 @@ font-family: Bahnschrift, Inter, Consolas, "Andale Mono WT", "Andale Mono", "Luc
 */
 
 ul, ol li {
-  padding: 25px;
+  padding: 50px;
   line-height:130%;
 }
 li {
   line-height:130%;
-  padding: 5px 25px;
+  padding: 5px 35px;
 }
 ul li {
   line-height:130%;
-  padding: 5px 25px;
+  padding: 5px 35px;
 }
 ul li ol li {
   line-height:130%;
-  padding: 5px 25px;
+  padding: 5px 35px;
 }
 
 p { 
@@ -145,7 +145,7 @@ body {
   background-color: #eee;  /* very light gray */
   color: #000000;  /* black */
   text-align: left;
-  padding: 5px;
+  padding: 10px;
   margin: 15px;  /* was margin-left: 15px; */
 }
 
