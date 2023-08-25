@@ -3,45 +3,62 @@ img.displayed {
   display: block;
   margin: 0 auto; 
 }
-
 .border {
   border-width: 1px;
   border-color: #778899;  /* dark grayish blue */
   border-style: solid; 
 }
+
 /*
 font-family: Bahnschrift, Inter, Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", 
   "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
 */
-ul, ol > li {
+
+ul, ol li {
   padding: 10px;
   line-height:130%;
 }
 li {
   margin: 10px 0;
+  margin-left: 20px;
   padding: 10px;
 }
-  p { 
-    font-size: 13.5px;
-    font-family: Bahnschrift, Inter, Helvetic, sans-serif;
-    text-align: left; 
-    margin-left: 10px;
+ul li {
+  margin-left: 10px;
 }
+ul li ol li {
+  margin-left: 25px;
+}
+
+p { 
+  font-size: 13.5px;
+  font-family: Bahnschrift, Inter, Helvetic, sans-serif;
+  text-align: left; 
+  margin-left: 10px;
+}
+p.em1 {
+  margin-left: 1em; }
+p.em2 {
+  margin-left: 2em; }
+p.em3 {
+  margin-left: 3em; }
+p.em4 {
+  margin-left: 4em; }
+
 pre, code {
   font-family: monospace, monospace;
   font-size: 10px;
   margin-left: 10px;
-}
+  }
 pre {
   overflow: auto;
 }
-
-  pre > code {
-    display: block;
-    margin-left: 10px;
-    padding: 1rem;
-    word-wrap: normal;
-  }
+pre > code {
+  display: block;
+  margin-left: 10px;
+  padding: 1rem;
+  word-wrap: normal;
+}
 
 a:link {
   color: #013220;  /* very dark green */
@@ -60,15 +77,6 @@ a:hover {
 }
 
 pre:hover, pre:focus { width: min-content; }
-
-p.em1 {
-  margin-left: 1em; }
-p.em2 {
-  margin-left: 2em; }
-p.em3 {
-  margin-left: 3em; }
-p.em4 {
-  margin-left: 4em; }
 
 div {
   float: left;
@@ -95,7 +103,7 @@ h4 {
   margin-left: 10px;
 }
 h5 { 
-  font-size: 15px;
+  font-size: 12px;
   font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas; 
   margin-left: 10px;
 }
@@ -109,7 +117,6 @@ details {
   font: 11px Bahnschrift, Inter, sans-serif, Calibri;
   width: 65%;
 }
-
 details > summary {
   padding: 2px 6px;
   width: 15em;  /* 12em */
@@ -119,7 +126,6 @@ details > summary {
   cursor: pointer;
   margin-left: 10px;
 }
-
 details > p {
   border-radius: 0 0 10px 10px;
   background-color: #fff;  /* white */
@@ -127,7 +133,6 @@ details > p {
   margin: 0;
   box-shadow: 3px 3px 4px #00008b;  /* dark blue*/
 }
-
 details[open] > summary {
   background-color: yellow;
 }
@@ -140,8 +145,8 @@ body {
   background-color: #eee;  /* very light gray */
   color: #000000;  /* black */
   text-align: left;
-  padding: 10px;
-  margin-left: 10px;
+  padding: 5px;
+  margin: 15px;  /* was margin-left: 15px; */
 }
 
 #myBtn {
@@ -159,7 +164,6 @@ body {
   padding: 10px;
   border-radius: 1px;
 }
-
 #myBtn:hover {
   background-color: #555;  /* very dark gray */
 }
@@ -171,12 +175,10 @@ body {
   font-size: 11px;  /* 12px */
   border: none;
 }
-
 .dropdown {
   position: relative;
   display: inline-block;
 }
-
 .dropdown-content {
   display: none;
   position: absolute;
@@ -186,7 +188,6 @@ body {
   font-size: 10px;  /* 11px */
   z-index: 1;
 }
-
 .dropdown-content a {
   color: #00b300;  /* dark green */
   padding: 8px 10px;  /* 12px 16px */
@@ -196,9 +197,7 @@ body {
 }
 
 .dropdown-content a:hover {background-color: #d9ead3;}  /* light grayish green */
-
 .dropdown:hover .dropdown-content {display: block;}
-
 .dropdown:hover .dropbtn {background-color: #398e41;} /* dark moderate lime green */
 
 @media screen and (max-width: 900px) and (min-width: 600px), (min-width: 1100px) {
