@@ -12569,25 +12569,27 @@ container and will be handling the layout of its children.</p>
   flex-flow: row wrap;
 }</pre>
 
-<p>Flexbox containers can lay out their children both horizontally, as
-in a row, and vertically, as in a column, and <em>both at the same
-time</em>.  This means that a single flex container not only can help
-you lay out a three column design, but also handle the header and footer
-above and below. (Did we mention that flexbox rocks?)</p>
-<p>But the flexbox container does need a starting rule to follow. Do you
-want it to primarily line things up horizontally like a row? Or
-vertically like a column? And will you be wanting that row or column to
-wrap? The flex-flow property lets you specify both of those things. </p>
-<p>Strictly speaking, the flex-flow property is actually an abbreviation
-that replaces two other flexbox container
-properties: flex-direction and flex-wrap.  But the row wrap value is so
-useful that it will likely be the standard.</p>
+<p>Flexbox containers can lay out their children both horizontally, as in a row, 
+and vertically, as in a column, and <em>both at the same time</em>.  This means 
+that a single flex container not only can help you lay out a three column design, 
+but also handle the header and footer above and below. (Did we mention that 
+flexbox rocks?)</p>
+<p>But the flexbox container does need a starting rule to follow. Do you want it 
+to primarily line things up horizontally like a row? Or vertically like a column? 
+And will you be wanting that row or column to wrap? The flex-flow property lets 
+you specify both of those things.</p>
+<p>Strictly speaking, the flex-flow property is actually an abbreviation that 
+replaces two other flexbox container properties: flex-direction and flex-wrap.  But 
+the row wrap value is so useful that it will likely be the standard.</p>
 
 <h4>flex-flow: &lt;flex-direction&gt; &lt;flex-wrap&gt;;</h4>
 
-<p>The possible values for the flex-direction are: row, row-reverse, column, and column-reverse.</p>
+<p>The possible values for the flex-direction are: row, row-reverse, column, and 
+column-reverse.</p>
 <p>The values for the flex-wrap part are: wrap, wrap-reverse, and nowrap.</p>
-<p>There are more properties that we can apply to a flex container and we’ll look at them in the upcoming sections. But these two will take care of most of what you might want.</p>
+<p>There are more properties that we can apply to a flex container and we’ll 
+look at them in the upcoming sections. But these two will take care of most 
+of what you might want.</p>
 
 <h4>flex items</h4>
 
@@ -12621,7 +12623,10 @@ applied to flex items, the children of a flex container.</p>
 
 <pre>span { flex: &lt;flex-grow&gt; &lt;flex-shrink&gt; &lt;flex-basis&gt;; }</pre>
 
-<p>The flex property provides a convenient way to abbreviate the three interrelated properties of flex-grow, flex-shrink, and flex-basis.  The flex property <em>also</em> gives a flex item nice defaults for the optional properties. Therefore, flex:1; is <b>better</b> than flex-grow:1; .</p>
+<p>The flex property provides a convenient way to abbreviate the three interrelated 
+properties of flex-grow, flex-shrink, and flex-basis.  The flex property 
+<em>also</em> gives a flex item nice defaults for the optional properties. Therefore, 
+flex:1; is <b>better</b> than flex-grow:1; .</p>
 
 <h4>flex-grow</h4>
 
@@ -13169,60 +13174,41 @@ Let's improve our Web page by making it more responsive, so it's easily readable
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch6-6-2">6.6.2 Recipe project</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>In this next iteration of our recipe project, we’re going to make a
-few changes again to our Web page using cascading style sheets.
-One of the first things that we want to do is go ahead and increase
-the font size on our page.
-If you take a look at the font, it seems to be a little bit
-small.
-Maybe we’d like to have it a little bit larger so that the text is
-easier to read.</p>
-<p>In order to do that, we’ll go into the ‘body’ tag, and we’re going to
-set our font size to a percentage.
-And in this case, we’ll increase it by 20 percent.
-Setting it to 120 percent does that for us.
-Refresh the page, and you can see that our fonts size has
-increased.</p>
-<p>Now, one of the things that we want to do here is change the width of
-our page.
-We want to do some changes in how the page responds to width as the
-user resizes the window.
-What we’re going to do to change that, is we’re going to go through
-the process of manipulating some of the elements within our F12 tools
-just to get an idea of some of the issues we may run into.</p>
-<p>Within the F12, we’ll set the width of our page.
-And in this case, we’re giving it a specific size.
-Now, you might notice that what took place was at our header element
-is no longer expanding across the entire width of the browser
-window.
-And that’s because the whole page element was resized into the
-smaller size rates.</p>
-<p>We’ve done this on the ‘body’ tag.
-But we want that header element to be across the entire page.
-We know that this creates a problem.
-Let’s go ahead and clear that style from within the F12 tools, and
-lets go make some changes in our CSS file.
-The first thing we’re going to do, is rather than change the whole
-body width, we’re going to change the width of the article elements.
-This allows us to manipulate only specific items on the page itself.
-The first thing we’re going to do, is change the minimum width.</p>
-
-<p>Let’s go ahead and refresh the page and see what happens as we start
-coming down to a smaller size.
-You’ll see that the article elements will only shrink so much.
-We specified a minimum of 30rem on this one here.
-It’s also good to set the max-width, and we’ll set that to 50rem for
-this particular instance.
-Let’s refresh and see how that impacts us.</p>
-
-<p>You’ll notice a small change in the article width, and then we can
-resize the page and see how are min and max widths work.
-Finally, we’re going to go through the process of manipulating the
-margins a little bit on this page as well, and we’ll do it with the
-article element.
-We’re going to specify an auto-margin for this particular instance.
-Let’s refresh.</p>
-
+<p>In this next iteration of our recipe project, we’re going to make a few changes 
+again to our Web page using cascading style sheets.  One of the first things that we 
+want to do is go ahead and increase the font size on our page.  If you take a look at 
+the font, it seems to be a little bit small.  Maybe we’d like to have it a little bit 
+larger so that the text is easier to read.</p>
+<p>In order to do that, we’ll go into the ‘body’ tag, and we’re going to set our font 
+size to a percentage.  And in this case, we’ll increase it by 20 percent.  Setting it 
+to 120 percent does that for us.  Refresh the page, and you can see that our fonts 
+size has increased.</p>
+<p>Now, one of the things that we want to do here is change the width of our page.  
+We want to do some changes in how the page responds to width as the user resizes the 
+window.  What we’re going to do to change that, is we’re going to go through the 
+process of manipulating some of the elements within our F12 tools just to get an idea 
+of some of the issues we may run into.</p>
+<p>Within the F12, we’ll set the width of our page.  And in this case, we’re giving 
+it a specific size.  Now, you might notice that what took place was at our header 
+element is no longer expanding across the entire width of the browser window.  And 
+that’s because the whole page element was resized into the smaller size rates.</p>
+<p>We’ve done this on the ‘body’ tag.  But we want that header element to be across 
+the entire page.  We know that this creates a problem.  Let’s go ahead and clear that 
+style from within the F12 tools, and lets go make some changes in our CSS file.  The 
+first thing we’re going to do, is rather than change the whole body width, we’re 
+going to change the width of the article elements.  This allows us to manipulate 
+only specific items on the page itself.  The first thing we’re going to do, is 
+change the minimum width.</p>
+<p>Let’s go ahead and refresh the page and see what happens as we start coming down 
+to a smaller size.  You’ll see that the article elements will only shrink so much.  We 
+specified a minimum of 30rem on this one here.  It’s also good to set the max-width, 
+and we’ll set that to 50rem for this particular instance.  Let’s refresh and see how 
+that impacts us.</p>
+<p>You’ll notice a small change in the article width, and then we can resize the page 
+and see how are min and max widths work.  Finally, we’re going to go through the 
+process of manipulating the margins a little bit on this page as well, and we’ll do 
+it with the article element.  We’re going to specify an auto-margin for this particular 
+instance.  Let’s refresh.</p>
 <p>You’ll notice a slight change in the margins of the articles, and
 then you’ll see how those change as you resize your document.
 Now let’s take a look what happens as we scroll our page.</p>
@@ -13257,8 +13243,7 @@ Setting the opacity gives it somewhat of a transparency.</p>
 
 <p>And if we set it 0.8 and refresh our page, we can see that now we can
 look at some of the image behind it, so it’s not completely covered
-up.
-But the problem may be that with that opacity, maybe the text isn’t
+up.  But the problem may be that with that opacity, maybe the text isn’t
 easy to read.</p>
 
 <p>We can fix that by manipulating something called the hover.
@@ -13269,8 +13254,7 @@ we’ll go ahead and add that.</p>
 the user hovers the most over that 'nav' element.
 And what we’ll do is simply set the opacity back to 1.0.
 Now we can see how the opacity changes when we hover the mouse over
-our 'nav' menu.
-Now, we’re almost finished, but notice that we’ve got some text that,
+our 'nav' menu.  Now, we’re almost finished, but notice that we’ve got some text that,
 again, is still hidden behind that "h1".</p>
 
 <p>Let’s fix that by setting up our margin.
@@ -13281,16 +13265,9 @@ page. And now, you can see that. They’ve actually scrolled down a little bit m
 We fixed those issues at the top. These are the final changes to our recipe project for this unit.
 </p>
 
-<!-- template for images
-<img class="displayed"
-  src="./images/image102.webp?raw=true"
-  alt="Picture of a complete table design."
-  style="width:350px;" />
--->
-
 <h5>The end…</h5>
 
-<h6>Last Updated 8-30-2023 Wed 12:16pm</h6>
+<h6>Last Updated 8-31-2023 Thu 1:23pm</h6>
 
 </body>
 </html>
