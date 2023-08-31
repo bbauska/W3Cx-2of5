@@ -11154,12 +11154,12 @@ To address left and right edges of content, you can use overflow-x and
 to address top and bottom edges of content, you can use overflow-y.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------------- 101.   () -------------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 101. overflow-hidden example (222) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image101.webp?raw=true"
   width="40%"
-  alt="" />
+  alt="Example of overflow-hidden." />
 </p>
 
 <h4>CSS:</h4>
@@ -11296,7 +11296,7 @@ div.overflow-x-auto { overflow-x: auto; overflow-y:hidden; }
 
 As a conclusion to this tables section, here is a complete table design:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------- 102. picture of a complete table design (239) -------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 102. picture of a complete table design (239) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image102.webp?raw=true"
@@ -11805,7 +11805,7 @@ little more visually appealing inside your document.
     Insert dummy text values for the table.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------------- 103. tables activity #2  () -------------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 103. tables activity #2 (24x) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image103.webp?raw=true"
@@ -11845,7 +11845,7 @@ The audio element has several attributes that can be used to configure
 audio playback. The following table lists the audio element's
 attributes:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------- 103. audio: attribute, description & usage (248) ----------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~ 103. audio: attribute, description & usage (248) ~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image103.webp?raw=true"
@@ -11853,7 +11853,7 @@ attributes:
   alt="Attributes, Description and Usage of audio element." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------------------- 104. autoplay and example code (249) ------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 104. autoplay and example code (249) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image104.webp?raw=true"
@@ -11947,7 +11947,7 @@ to play .wav, failed and played the .mp3 version instead. 
 The following table lists the &lt;source&gt; element's attributes:
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------------------- 105. source element attributes (251) ------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 105. source element attributes (251) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image105.webp?raw=true"
@@ -15458,14 +15458,6 @@ can see that.  They've actually scrolled down a little bit more.  We fixed those
 These are the final changes to our recipe project for this unit.
 </p>
 
-<!-- template for images
-<p align="center" width="100%">
-<img src="./images/image###.webp?raw=true"
-  width="65%"
-  alt="." />
-</p>
--->
-
 <h6>The end...</h6>
 
-<h4><b>Last Updated 06-22-2023 4:19pm</b></h4>
+<h4><b>Last Updated 08-31-2023 4:46pm</b></h4>
