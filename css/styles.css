@@ -23,7 +23,7 @@ ol li {
 }
 
 p { 
-  font-size: 13.5px;
+  font-size: 14.5px;
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   text-align: left;
   margin-left: 10px;
@@ -99,7 +99,7 @@ h4 {
   margin-left: 10px;
 }
 h5 { 
-  font-size: 12px;
+  font-size: 15px;
   font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas; 
   margin-left: 10px;
 }
@@ -142,7 +142,7 @@ body {
   color: #000000;  /* black */
   text-align: left;
   padding: 10px;
-  margin: 15px;  /* was margin-left: 15px; */
+  margin: 10px;  /* was margin-left: 15px; */
 }
 
 #myBtn {
