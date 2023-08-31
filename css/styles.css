@@ -13,28 +13,20 @@ img.displayed {
 font-family: Bahnschrift, Inter, Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", 
   "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
 */
-
-ul, ol li {
+ul li {
   padding: 10px;
   line-height:130%;
 }
-li {
+ol li {
+  padding: 10px;
   line-height:130%;
-  padding: 5px 35px;
-}
-ul li {
-  line-height:130%;
-  padding: 5px 35px;
-}
-ul li ol li {
-  line-height:130%;
-  padding: 5px 35px;
 }
 
 p { 
   font-size: 13.5px;
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
-  padding: 5px 25px;
+  text-align: left;
+  margin-left: 10px;
 }
 p.em1 {
   margin-left: 1em; }
@@ -76,6 +68,9 @@ a:hover {
   text-decoration: underline;
 }
 
+pre[href]:hover  {
+  text-decoration: none;
+}
 pre:hover, pre:focus { width: min-content; }
 
 div {
