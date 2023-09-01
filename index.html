@@ -11361,8 +11361,13 @@ the mouse is over one of the list items.</p>
 <pre>tr:nth-child(odd)  { background-color: lightgray; }  
 tr:nth-child(even) { background-color: white; }</pre>
 
-<p>The :nth-child pseudo class is very handy.  Unlike the pseudo classes we’ve seen so far, it expects a parameter. The pseudo class always ends with a pair of parentheses with an expression inside.  This expression is simply the term odd or even, however, there are other more advanced possibilities with mathematical equations containing the term n.</p>
-<p>This selector is most commonly used to apply “transaction ledger” styles to tables or lists.</p>
+<p>The :nth-child pseudo class is very handy.  Unlike the pseudo classes we’ve 
+seen so far, it expects a parameter. The pseudo class always ends with a pair 
+of parentheses with an expression inside.  This expression is simply the term 
+odd or even, however, there are other more advanced possibilities with mathematical 
+equations containing the term n.</p>
+<p>This selector is most commonly used to apply “transaction ledger” styles to 
+tables or lists.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 131. nth child pseudo-class (281) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -11375,9 +11380,16 @@ tr:nth-child(even) { background-color: white; }</pre>
 
 <pre>li { cursor: pointer; }</pre>
 
-<p>Since we’ve broached the topic of mouse-responding pseudo classes, it makes sense to also cover the cursor CSS property.</p>
-<p>The cursor CSS property lets you change the cursor that is displayed when the mouse is over the element in question.  This does not have to be relegated to a :hover style, it can be applied anywhere. Though, if you want to change the cursor when an element is depressed,  set the cursor property in the context of an :active style.</p>
-<p>There are many possible values for the cursor property.  Their exact representation may vary slightly from browser to browser.  Common values include: default, pointer, text, move and grab. (Hover over each value to see). In addition, some browsers support a custom image as well.</p>
+<p>Since we’ve broached the topic of mouse-responding pseudo classes, it makes sense 
+to also cover the cursor CSS property.</p>
+<p>The cursor CSS property lets you change the cursor that is displayed when the mouse 
+is over the element in question.  This does not have to be relegated to a :hover style, 
+it can be applied anywhere. Though, if you want to change the cursor when an element 
+is depressed,  set the cursor property in the context of an :active style.</p>
+<p>There are many possible values for the cursor property.  Their exact representation 
+may vary slightly from browser to browser.  Common values include: default, pointer, 
+text, move and grab. (Hover over each value to see). In addition, some browsers 
+support a custom image as well.</p>
 
 <pre>( cursor: url(&quot;images/my_pointer.png&quot;); ).</pre>
 
@@ -11392,10 +11404,15 @@ href="https://fantasai.inkedblade.net/" target="_blank" rel="noopener noreferrer
 <h4>Executive summary</h4>
 
 <ul>
-  <li><b>Logical source order:</b><br>The order of the HTML content should make sense even without the CSS: for accessibility, mobile optimization, device adaptability, and long-term maintainability.</li>
-  <li><b>Liquid layouts and relativity:</b><br> Use smart relative sizing: to optimize layouts while minimizing media query code forks.</li>
-  <li><b>Media queries:</b><br> Adapt to screen size changes; get font size adaptation free by using ems.</li>
-  <li><b>Prevent zombie code:</b><br> Dead code may come alive as CSS changes. Delete it before it does, and ruins your layout.</li>
+  <li><b>Logical source order:</b><br>The order of the HTML content should make sense 
+    even without the CSS: for accessibility, mobile optimization, device adaptability, 
+	and long-term maintainability.</li>
+  <li><b>Liquid layouts and relativity:</b><br> Use smart relative sizing: to optimize 
+    layouts while minimizing media query code forks.</li>
+  <li><b>Media queries:</b><br> Adapt to screen size changes; get font size adaptation 
+    free by using ems.</li>
+  <li><b>Prevent zombie code:</b><br> Dead code may come alive as CSS changes. Delete 
+    it before it does, and ruins your layout.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 132. keep the web open (282) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -11783,23 +11800,29 @@ we’ve already learned:</p>
 <h4>Block level:</h4>
 
 <ul>
-  <li>Appears below and to the left of their block level neighbors (like a carriage return on a typewriter going to the next new line),</li>
+  <li>Appears below and to the left of their block level neighbors (like a carriage 
+    return on a typewriter going to the next new line),</li>
   <li>&lt;b&gt; will expand to fill the width of the parent container by default,</li>
   <li>Respects all margin properties,</li>
-  <li>Can have its width property set, which will make it narrower and cause its children to wrap, but not crop. (We’ll cover this later),</li>
-  <li>Takes on the height of all its children (pending certain exceptions) as long as its own height is unset. (We will cover setting the height later),</li>
+  <li>Can have its width property set, which will make it narrower and cause its 
+    children to wrap, but not crop. (We’ll cover this later),</li>
+  <li>Takes on the height of all its children (pending certain exceptions) as long 
+    as its own height is unset. (We will cover setting the height later),</li>
   <li>Ignores the vertical-align property.</li>
 </ul>
 
 <h4>Inline elements:</h4>
 
 <ul>
-  <li>Simply appear to the right of their preceding inline neighbor. They do not drop to the next line unless they must “wrap”,</li>
-  <li>By default, the width is simply the width of the content of the element, plus any padding,</li>
+  <li>Simply appear to the right of their preceding inline neighbor. They do not 
+    drop to the next line unless they must “wrap”,</li>
+  <li>By default, the width is simply the width of the content of the element, 
+    plus any padding,</li>
   <li>Ignore top and bottom margin settings,</li>
   <li>Ignore width and height properties,</li>
   <li>Are subject to vertical-align property as well as CSS white-space settings,</li>
-  <li>Support padding, but any padding-top or padding-bottom does <b>not</b> contribute to the calculation of the height of the text line it sits upon,</li>
+  <li>Support padding, but any padding-top or padding-bottom does <b>not</b> 
+    contribute to the calculation of the height of the text line it sits upon,</li>
   <li>Cleave to the baseline where they are being placed.</li>
 </ul>
 
@@ -11867,10 +11890,9 @@ calculation of the height of the line it falls on</p>
 <p>In some browsers, some of the form elements default to inline-block
 (like &lt;button&gt;, &lt;select&gt;, and &lt;input&gt;)</p>
 
-<p>Here is the overlapping background style presented again, but this
-time instead of using line-height to solve the problem, we simply make
-the span element display:inline-block.  Note that the margin-top is also
-respected.</p>
+<p>Here is the overlapping background style presented again, but this time instead 
+of using line-height to solve the problem, we simply make the span element 
+display:inline-block.  Note that the margin-top is also respected.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 138. example with span element display:inline-block (294) ~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -11887,19 +11909,25 @@ are others (like none and flex) and we will cover them later.  </p>
 
 <pre>.name { display: inline-block; }</pre>
 
-<p>A key to not getting confounded by the display property is to have a grasp on which elements default to which display value and appreciating the differences between block, inline, and inline-block display.</p>
+<p>A key to not getting confounded by the display property is to have a grasp on 
+which elements default to which display value and appreciating the differences 
+between block, inline, and inline-block display.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch6-2-2">6.2.2 Horizontal and vertical centering</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Horizontal centering</h4>
 
-<p>Now that we’ve covered inline versus block display, we can intelligently discuss centering. Let’s start with inline elements.</p>
+<p>Now that we’ve covered inline versus block display, we can intelligently 
+discuss centering. Let’s start with inline elements.</p>
 
 <h4>inline</h4>
 
-<p>How do you center an inline element?  As we recall, inline elements are positioned along the baseline, in the natural flow of the text or
-content. So for any individual inline element, there is <i>no CSS property</i> you can apply directly to cause this element to center.
-You may apply some padding evenly or unevenly to position its content relative to its own box. But that’s not centering the element itself.</p>
+<p>How do you center an inline element?  As we recall, inline elements are 
+positioned along the baseline, in the natural flow of the text or content. So for 
+any individual inline element, there is <i>no CSS property</i> you can apply 
+directly to cause this element to center.  You may apply some padding evenly or 
+unevenly to position its content relative to its own box. But that’s not 
+centering the element itself.</p>
 <p>To center an inline element, we use the text-align property of its parent.</p>
 
 <pre>p { text-align: center; } /* the text and any inline children of this
@@ -11909,7 +11937,11 @@ You may apply some padding evenly or unevenly to position its content relati
 
 <h4>block</h4>
 
-<p>How do you center a block level element? First, you may recall that block level elements take the width of their parent by default. If the element is the same width as its parent, it is already centered.  So the first step is to limit the width of the element.  Setting the width property directly is not generally a good practice, but we’ll just do that and discuss sizing at length later.</p>
+<p>How do you center a block level element? First, you may recall that block level 
+elements take the width of their parent by default. If the element is the same width 
+as its parent, it is already centered.  So the first step is to limit the width of 
+the element.  Setting the width property directly is not generally a good practice, 
+but we’ll just do that and discuss sizing at length later.</p>
 
 <pre>div { width: 200px; }</pre>
 
@@ -11917,61 +11949,86 @@ You may apply some padding evenly or unevenly to position its content relati
 
 <h4>margin magic</h4>
 
-<p>If set to auto, then the left and right margins will center the element.  This is the simplest and best way of centering a block level element.  So the full solution is to set the width and apply auto to the left and right margins (or to all margins). </p>
+<p>If set to auto, then the left and right margins will center the element.  This 
+is the simplest and best way of centering a block level element.  So the full 
+solution is to set the width and apply auto to the left and right margins (or 
+to all margins). </p>
 
 <pre>div { width: 200px; margin: auto; }</pre>
 
 <h4>Horizontal centering - a better way</h4>
 
-<p>Do auto margins seem spooky to you?  There is a better way to achieve centering and its name is <i>flexbox</i>.  We’ll read more about it later. </p>
+<p>Do auto margins seem spooky to you?  There is a better way to achieve centering 
+and its name is <i>flexbox</i>.  We’ll read more about it later. </p>
 
 <h4>Vertical centering</h4>
 
 <h4>inline</h4>
 
-<p>Inline elements respect the vertical-align property. This determines how the inline element is aligned relative to the baseline it is being laid upon. This may or may not solve your vertical centering conundrum.</p>
+<p>Inline elements respect the vertical-align property. This determines how the 
+inline element is aligned relative to the baseline it is being laid upon. This 
+may or may not solve your vertical centering conundrum.</p>
 
 <h4>block</h4>
 
-<p>There is no margin:auto approach to vertical centering. There are some complicated systems that folk have developed, but the shortest and best answer to vertical centering: use flexbox. </p>
+<p>There is no margin:auto approach to vertical centering. There are some complicated 
+systems that folk have developed, but the shortest and best answer to vertical 
+centering: use flexbox.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch6-2-3">6.2.3 Key concept: position property</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>The ‘left’, ‘top’, ‘right’, and ‘bottom’ properties.</p>
 
-<p>In CSS, there are four properties which can be used to adjust or set the position of an element. Those properties are: left, top, right,
-and bottom.</p>
+<p>In CSS, there are four properties which can be used to adjust or set the 
+position of an element. Those properties are: left, top, right, and bottom.</p>
 
-<p>However, in one of the best jokes played by the authors of the CSS specification, using those properties by themselves will have<em> no effect</em> on any element. Surprisingly, most developers struggling with CSS don’t find this funny.</p>
+<p>However, in one of the best jokes played by the authors of the CSS specification, 
+using those properties by themselves will have<em> no effect</em> on any element. 
+Surprisingly, most developers struggling with CSS don’t find this funny.</p>
 
-<p>The reason these properties don’t work by default is that they only work when applied to <em>positioned</em> elements. And positioned
-elements are those that have had their position property changed from the default.</p>
+<p>The reason these properties don’t work by default is that they only work 
+when applied to <em>positioned</em> elements. And positioned elements are those 
+that have had their position property changed from the default.</p>
 
 <h4>The ‘position’ property</h4>
 
-<p>The CSS position property governs how an element is positioned on the page and how it responds to the position adjusting properties
-(left, top, right, and bottom).  Up to this point in this course, we have not used this property and so everything we’ve seen has been the
-default position, which is position:static for all elements.</p>
+<p>The CSS position property governs how an element is positioned on the page and 
+how it responds to the position adjusting properties (left, top, right, and bottom).  
+Up to this point in this course, we have not used this property and so everything 
+we’ve seen has been the default position, which is position:static for all elements.</p>
 
-<p>As of today, the position property has four different values it can take: static, relative, absolute, and fixed. We will look at static and fixed. The options relative and absolute are more complex, they’ll be discussed in an optional advanced section for completeness, but we aren’t going to worry much about them because flexbox reduces their use cases.</p>
+<p>As of today, the position property has four different values it can take: static, 
+relative, absolute, and fixed. We will look at static and fixed. The options relative 
+and absolute are more complex, they’ll be discussed in an optional advanced section 
+for completeness, but we aren’t going to worry much about them because flexbox 
+reduces their use cases.</p>
 
 <h4>static</h4>
 
 <pre>position: static; /* the default */</pre>
 
-<p>A position property of static is the default for all elements. It simply means that all elements follow the “flowing text”model of layout
-and the only properties influencing their position are margins, padding, and the display property that selects block level layout, inline or
-inline-block. Static elements <em>ignore</em> the positioning properties we read about earlier (left, top, right, and bottom).</p>
+<p>A position property of static is the default for all elements. It simply 
+means that all elements follow the “flowing text”model of layout and the only 
+properties influencing their position are margins, padding, and the display 
+property that selects block level layout, inline or inline-block. Static elements 
+<em>ignore</em> the positioning properties we read about earlier (left, top, 
+right, and bottom).</p>
 
 <h4>fixed</h4>
 
 <pre>position: fixed;</pre>
 
-<p>A fixed positioned element respects the positioning properties (left, top, right, and bottom).  A fixed positioned element is positioned against the <em>window</em> rectangle (aka the viewport). This means that fixed position elements will not scroll with the rest of the page.  Fixed position elements can easily “stick” to the side or bottom or top of the browser. To observe this better, see the Fixed position activity in the next section.</p>
+<p>A fixed positioned element respects the positioning properties (left, top, 
+right, and bottom).  A fixed positioned element is positioned against the 
+<em>window</em> rectangle (aka the viewport). This means that fixed position 
+elements will not scroll with the rest of the page.  Fixed position elements 
+can easily “stick” to the side or bottom or top of the browser. To observe 
+this better, see the Fixed position activity in the next section.</p>
 
 <ul>
   <li>Fixed position elements are positioned against the viewport,</li>
-  <li>Best practice: use both a horizontal and a vertical positioning property on every fixed positioned element,</li>
+  <li>Best practice: use both a horizontal and a vertical positioning 
+    property on every fixed positioned element,</li>
   <li>Fixed positioned elements do not contribute to size of the parent,</li>
   <li>Fixed positioned block level elements do not get the width of their parent,</li>
   <li>Margins do not work the same,</li>
@@ -12122,13 +12179,13 @@ level elements take the width of their parent (when no width is
 specified).  And when using left or right margins on a block level
 element that does not have an explicit width, the browser will smartly
 size the element down for you to make it fit.  But this size adjustment
-does not happen when you use position:relative and the left or right positional properties. This
-is easily illustrated with an example.</p>
+does not happen when you use position:relative and the left or right 
+positional properties. This is easily illustrated with an example.</p>
 
-<p>Below is a block level paragraph with a border applied to it.  When a margin-left is 
-applied to it, the paragraph is made smaller and no part goes outside its parent.  But when
-it is position:relative and moved with the left property, it can leave
-the bounds of its parent, or go offscreen.</p>
+<p>Below is a block level paragraph with a border applied to it.  When a 
+margin-left is applied to it, the paragraph is made smaller and no part 
+goes outside its parent.  But when it is position:relative and moved with 
+the left property, it can leave the bounds of its parent, or go offscreen.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 140. position: relative and moved with left property (301) ~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -12175,23 +12232,44 @@ positioned absolutely.</p>
 subtle caveats and trade-offs of which you must be wary:</p>
 
 <ul>
-  <li>Interpretation of positioning depends upon parent/grandparent elements being positioned elements,</li>
-  <li>Best practice: use both a horizontal and a vertical positioning property on every absolute element,</li>
+  <li>Interpretation of positioning depends upon parent/grandparent elements being 
+    positioned elements,</li>
+  <li>Best practice: use both a horizontal and a vertical positioning property on 
+    every absolute element,</li>
   <li>Absolutely positioned elements do not contribute to size of the parent,</li>
   <li>Absolute positioned block level elements do not get the width of their parent,</li>
   <li>Margins do not work the same,</li>
   <li>Opposite properties can be used to size element.</li>
 </ul>
 
-<p>Interpretation of positioning properties (top, left, etc.) depends ON parent/grandparent being positioned elements (or not).</p>
+<p>Interpretation of positioning properties (top, left, etc.) depends ON 
+parent/grandparent being positioned elements (or not).</p>
 
-<p><i>IMPORTANT</i>: For an absolutely positioned element, <b><i>where</i></b> the left, top, etc. are calculated <b><i>from</i> </b>depends upon the position property of the parent and grandparents of the element in question. If the parent of the element is a positioned element (meaning its position is set to anything except position:static), then an absolutely positioned child  is positioned relative to that parents rectangle (or grandparent, or great-grandparent, etc).  But if none of the parents are positioned elements, the child is positioned relative to the bounds of the document.</p>
+<p><i>IMPORTANT</i>: For an absolutely positioned element, <b><i>where</i></b> 
+the left, top, etc. are calculated <b><i>from</i> </b>depends upon the position 
+property of the parent and grandparents of the element in question. If the parent 
+of the element is a positioned element (meaning its position is set to anything 
+except position:static), then an absolutely positioned child  is positioned 
+relative to that parents rectangle (or grandparent, or great-grandparent, 
+etc).  But if none of the parents are positioned elements, the child is 
+positioned relative to the bounds of the document.</p>
 
-<p>This means that how the position properties of an absolutely positioned element are interpreted depends upon the position property of
-its parent (and grandparents). For many developers, this is a spooky action at a distance. Changing the position property on an element may
-not affect that element at all, but can cause it children (or great great grandchildren) to suddenly jump to another part of the page.</p>
+<p>This means that how the position properties of an absolutely positioned element 
+are interpreted depends upon the position property of its parent (and grandparents). 
+For many developers, this is a spooky action at a distance. Changing the position 
+property on an element may not affect that element at all, but can cause it 
+children (or great great grandchildren) to suddenly jump to another part of the 
+page.</p>
 
-<p>In the example below, someone who did not read the section in the module 3 about how to style list items has decided to use arbitrary numbers. There are four list items each containing child spans which are absolutely positioned. Two of the list items are position:relative, so the spans are positioned starting from their rectangle.  But two of the list items are position:static (the default), so the spans are moved up to the &lt;ul&gt; (which is also position:relative) where they overlap each other. (The 1 is hidden behind the 2). Borders have been added in the result below, so you can easily see the rectangle for  &lt;li&gt; versus &lt;ul&gt;.</p>
+<p>In the example below, someone who did not read the section in the module 3 
+about how to style list items has decided to use arbitrary numbers. There are 
+four list items each containing child spans which are absolutely positioned. 
+Two of the list items are position:relative, so the spans are positioned starting 
+from their rectangle.  But two of the list items are position:static (the default), 
+so the spans are moved up to the &lt;ul&gt; (which is also position:relative) 
+where they overlap each other. (The 1 is hidden behind the 2). Borders have 
+been added in the result below, so you can easily see the rectangle for 
+&lt;li&gt; versus &lt;ul&gt;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 142. relative, static & absolute (303) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -12201,21 +12279,43 @@ not affect that element at all, but can cause it children (or great great grandc
   style="width:450px;" />
 <!-- "width:6.5in;height:1.83681in" -->
 
-<h4>Best practice: use both horizontal and vertical positioning property on every absolute element</h4>
+<h4>Best practice: use both horizontal and vertical positioning property on every 
+absolute element</h4>
 
-<p>There is a very subtle extension to the previous interpretation problem: if an element is set to be position:absolute but has no horizontal positioning property (that is, left or right), then it will be displayed in the flow exactly as it would have been.  Except, later, if left:0px;  were added (for example), then the element may jump to the left edge of the first parent/grandparent that is a positioned element. The same applies vertically. This is a bewildering behavior, as most users do not expect there to be a difference between left:0px and no left property at all.</p>
+<p>There is a very subtle extension to the previous interpretation problem: if an 
+element is set to be position:absolute but has no horizontal positioning property 
+(that is, left or right), then it will be displayed in the flow exactly as it would 
+have been.  Except, later, if left:0px;  were added (for example), then the element 
+may jump to the left edge of the first parent/grandparent that is a positioned 
+element. The same applies vertically. This is a bewildering behavior, as most 
+users do not expect there to be a difference between left:0px and no left property 
+at all.</p>
 
 <p>Therefore, for any absolutely positioned element, the best practice is to ensure that one of the horizontal positioning properties (that is, left or right) and one of the vertical properties (top or bottom) are set.</p>
 
 <h4>Absolutely positioned elements do not contribute to size of parent</h4>
 
-<p>Whether you realize it or not, one of the most useful default behaviors is that the height of a parent element is automatically extended to include all its children, its content. Designers working in CSS unconsciously lean on this fact as they plan layouts and adjust element positions. But this is <b>not</b> true for children that are positioned absolutely.  Absolutely positioned children do not contribute to the size of the parent element. A parent element that contains only absolutely positioned children will have a height of 0, has no
-“measurable” content and will behave as if it is empty.</p>
+<p>Whether you realize it or not, one of the most useful default behaviors is that 
+the height of a parent element is automatically extended to include all its children, 
+its content. Designers working in CSS unconsciously lean on this fact as they plan 
+layouts and adjust element positions. But this is <b>not</b> true for children 
+that are positioned absolutely.  Absolutely positioned children do not contribute 
+to the size of the parent element. A parent element that contains only absolutely 
+positioned children will have a height of 0, has no “measurable” content and will 
+behave as if it is empty.</p>
 
-<p>A consequence of this is that as a design starts to use absolute positioning, it may also have to start explicitly setting the dimensions of containers, which makes the overall design brittle and less adaptable.</p>
+<p>A consequence of this is that as a design starts to use absolute positioning, 
+it may also have to start explicitly setting the dimensions of containers, which 
+makes the overall design brittle and less adaptable.</p>
 
-<p>In the example below, there are two lists (&lt;ul&gt;) each with a fat border. The list on the left is normal - its children contribute to making the &lt;ul&gt; taller and the fat border extends around, enclosing everything correctly. But the list items (&lt;li&gt;) on the
-right are positioned absolutely.  So those list items on the right do not contribute to the height of the parent. As a result, it ends up with a height of 0, as if it were empty. The fat border just becomes a fat flat line, and the list items themselves are not enclosed.</p>
+<p>In the example below, there are two lists (&lt;ul&gt;) each with a fat border.  
+The list on the left is normal - its children contribute to making the &lt;ul&gt; 
+taller and the fat border extends around, enclosing everything correctly. But the 
+list items (&lt;li&gt;) on the
+right are positioned absolutely.  So those list items on the right do not 
+contribute to the height of the parent. As a result, it ends up with a height of 
+0, as if it were empty. The fat border just becomes a fat flat line, and the 
+list items themselves are not enclosed.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 143. position default vs absolute  (304) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -12228,43 +12328,57 @@ right are positioned absolutely.  So those list items on the right do not contr
 
 <h4>Absolute positioned block level elements do not get the width of their parent</h4>
 
-<p>Earlier we learned that block level elements automatically get the width of their parent, that is, they extend to become full width. But
-this is only true for static and relative positioned elements. Elements that are absolute positioned (or fixed) do not exhibit this behavior. If you look at the table above, from the previous point, the individual list items have a light blue background color. All the list items are block level elements, and the ones on the left, which are position:static, extend their rectangle rightward to fill the entire line. But the right column of absolutely positioned items does not. Their initial size is simply the size of their content.</p>
+<p>Earlier we learned that block level elements automatically get the width of their 
+parent, that is, they extend to become full width. But this is only true for static 
+and relative positioned elements. Elements that are absolute positioned (or fixed) 
+do not exhibit this behavior. If you look at the table above, from the previous point, 
+the individual list items have a light blue background color. All the list items are 
+block level elements, and the ones on the left, which are position:static, extend 
+their rectangle rightward to fill the entire line. But the right column of 
+absolutely positioned items does not. Their initial size is simply the size 
+of their content.</p>
 
 <h4>Margins do not work the same</h4>
 
-<p>For static and relative positioned items, margins can be used to adjust an element position and keep neighboring siblings “away”. We
-make this quick assumption about margins.  But when an element is absolutely positioned, a given margin <em>might</em> be able to move the
-element but will not move any siblings. Margins cannot be used to keep siblings “away”, to fight crowding.</p>
-<p>As a general rule, if a positioning property is being used (like left), then the matching margin (margin-left) can also be used to
-additionally adjust the position of the element. Otherwise, the margin will unlikely have any effect.</p>
+<p>For static and relative positioned items, margins can be used to adjust an 
+element position and keep neighboring siblings “away”. We make this quick assumption 
+about margins.  But when an element is absolutely positioned, a given margin 
+<em>might</em> be able to move the element but will not move any siblings.  Margins 
+cannot be used to keep siblings “away”, to fight crowding.</p>
+<p>As a general rule, if a positioning property is being used (like left), then the 
+matching margin (margin-left) can also be used to additionally adjust the position 
+of the element. Otherwise, the margin will unlikely have any effect.</p>
 
 <h4>Opposite properties can be used to size elements</h4>
 
-<p>This is one of the nicer features. Working with preset dimension properties (height and width) can make your design brittle and reduce
-its adaptability. However, absolutely positioned items can instead set the opposite positioning properties (like left and right) and leave the matching dimensional property (width) unspecified.  The element will grow or shrink based on the size of the ancestor it is positioning
-against.  Note that this feature is only available to absolute and fixed positioned elements.</p>
+<p>This is one of the nicer features. Working with preset dimension properties 
+(height and width) can make your design brittle and reduce its adaptability. However, 
+absolutely positioned items can instead set the opposite positioning properties (like 
+left and right) and leave the matching dimensional property (width) unspecified.  The 
+element will grow or shrink based on the size of the ancestor it is positioning 
+against.  Note that this feature is only available to absolute and fixed positioned 
+elements.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch6-2-5">6.2.5 ‘z-index’ (OPTIONAL)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p><b>Note</b>: this section is optional material included for the
 curious. It will not appear on any graded question.</p>
-<p>In the previous sections, we named four positioning properties: left, top, right, and bottom.   With these properties, we can govern the placement of positioned elements in both the x and y axis.  But there is a fifth positioning property: z-index.</p>
+<p>In the previous sections, we named four positioning properties: left, top, right, 
+and bottom.  With these properties, we can govern the placement of positioned elements 
+in both the x and y axis.  But there is a fifth positioning property: z-index.</p>
 
 <pre>z-index: 3;</pre>
 
-<p>Like the other positioning properties, z-index only applies to
-positioned elements (elements that have their position property set
-to relative, absolute,or fixed, but not static).  With the z-index you
-can control overlapping - whether or not an element is in front of or
-behind other <em>sibling</em> positioned elements.  The z-index can be
-an integer 0 or higher. The higher the number, the more “topmost” or
+<p>Like the other positioning properties, z-index only applies to positioned elements 
+(elements that have their position property set to relative, absolute,or fixed, but 
+not static).  With the z-index you can control overlapping - whether or not an 
+element is in front of or behind other <em>sibling</em> positioned elements.  The 
+z-index can be an integer 0 or higher. The higher the number, the more “topmost” or
 “overlapping” the element will be.</p>
-<p>In the sample below, we have two lists with relatively positioned
-list items and background colors. We are forcing them to overlap by
-making them position relative and using negative margins
-( margin-bottom:-20px; ). The list on the left has no z-index values
-set, so the later elements overlap the earlier ones.  But on the right,
+<p>In the sample below, we have two lists with relatively positioned list items and 
+background colors. We are forcing them to overlap by making them position relative 
+and using negative margins ( margin-bottom:-20px; ). The list on the left has no 
+z-index values set, so the later elements overlap the earlier ones.  But on the right,
 we govern the overlapping with the z-index property.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 144. position relative overlap  (306) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -12315,16 +12429,33 @@ several classes defined for you.</p>
 
 <ul>
   <li><p>Notice immediately each paragraph gets its own line.</p></li>
-  <li><p>Notice the inline span that follows the paragraph (&lt;/p&gt;) starts on its own line. However, the second inline span directly follows its predecessor - it does not get a new line, it continues on the same line.</p></li>
-  <li><p>Try applying the brect and prect classes to the elements. (via class=“brect” ). When applied to the paragraphs, you can see that the classes make the width of the paragraph stretch to the edge of the window. It is the same as its parent width. Note that its height is no more than its content. But the background colors and borders are tight to the spans.</p></li>
-  <li><p>Try applying the w class to each of the elements. This class sets the width property. It works on both paragraphs, but it has no effect on the two spans.</p></li>
-  <li><p>Try applying the h class to each element. This class sets the height property. Again, the paragraphs are affected, but the spans are not.</p></li>
-  <li><p>Apply the pad class to each element. This class sets the padding property. The paragraphs are clearly padded. The spans are also padded, but the extra padding does not space them out. So if the background colors are still being applied, the padded background of one inline element may overlap the other. Can you think of a solution that would prevent the overlap?</p></li>
-  <li><p>Apply the marg-vert class to each element. This class sets the top and bottom margins. Note that it works on the block level paragraphs well enough, but has no effect on the inline spans.</p></li>
-  <li><p>Apply the marg-horiz class to each element. This class sets the left and right margins. It works on everything.</p></li>
+  <li><p>Notice the inline span that follows the paragraph (&lt;/p&gt;) starts on its 
+    own line. However, the second inline span directly follows its predecessor - it 
+	does not get a new line, it continues on the same line.</p></li>
+  <li><p>Try applying the brect and prect classes to the elements. (via class=“brect”). 
+    When applied to the paragraphs, you can see that the classes make the width of the 
+	paragraph stretch to the edge of the window. It is the same as its parent width. 
+	Note that its height is no more than its content. But the background colors and 
+	borders are tight to the spans.</p></li>
+  <li><p>Try applying the w class to each of the elements. This class sets the width 
+    property. It works on both paragraphs, but it has no effect on the two spans.</p></li>
+  <li><p>Try applying the h class to each element. This class sets the height 
+    property. Again, the paragraphs are affected, but the spans are not.</p></li>
+  <li><p>Apply the pad class to each element. This class sets the padding property. 
+    The paragraphs are clearly padded. The spans are also padded, but the extra 
+	padding does not space them out. So if the background colors are still being 
+	applied, the padded background of one inline element may overlap the other. 
+	Can you think of a solution that would prevent the overlap?</p></li>
+  <li><p>Apply the marg-vert class to each element. This class sets the top and 
+    bottom margins. Note that it works on the block level paragraphs well enough, 
+	but has no effect on the inline spans.</p></li>
+  <li><p>Apply the marg-horiz class to each element. This class sets the left and 
+    right margins. It works on everything.</p></li>
 </ul>
 
-<p>Play some more with the elements, trying to appreciate how block and inline elements differ. - Try changing the HTML so that the inline elements are inside the block level ones.</p>
+<p>Play some more with the elements, trying to appreciate how block and inline 
+elements differ. - Try changing the HTML so that the inline elements are inside 
+the block level ones.</p>
 
 <ul>
   <li>Put a margin:0 on the body.</li>
@@ -12335,24 +12466,21 @@ several classes defined for you.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch6-3-1">6.3.1 Sizing and dimensions</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>We have already touched on the size properties in the various
-discussions about display and positioning. But here we’ll cover them
-properly and add a few more.</p>
+<p>We have already touched on the size properties in the various discussions about 
+display and positioning. But here we’ll cover them properly and add a few more.</p>
 
 <h4>Default behavior</h4>
 
-<p>The default sizing behavior depends upon the display property for an
-element.  </p>
+<p>The default sizing behavior depends upon the display property for an element.</p>
 
 <h4>inline</h4>
 
-<p>Inline elements take the size of their content plus any padding.
-Additionally, inline elements <b><i>ignore</i></b> any explicit sizing
-properties (width, height, etc.) unless they are
-also position:absolute or position:fixed.  This leads to a lot of
-confusion when newbies are working with inline elements. If you have an
-inline element whose size you want to indicate explicitly, you should
-probably change it to inline-block.</p>
+<p>Inline elements take the size of their content plus any padding.  Additionally, 
+inline elements <b><i>ignore</i></b> any explicit sizing properties (width, height, 
+etc.) unless they are also position:absolute or position:fixed.  This leads to a lot 
+of confusion when newbies are working with inline elements. If you have an inline 
+element whose size you want to indicate explicitly, you should probably change it 
+to inline-block.</p>
 
 <h4>inline-block</h4>
 
@@ -12402,21 +12530,33 @@ elements take the <em>width of their parent</em> and the <em>height of
 their content</em>. So these elements are
 fundamentally <b>variably </b>sized, and this variability is one of the
 most powerful and useful aspects of these elements.</p>
-<p>However, when we use an explicit width or height property, we remove that variability from the element. This makes it less powerful and less useful.</p>
-<p>The min-width and min-height properties allow us to set a minimum boundary for that variability, but otherwise the variable sizing of the element is unimpeded. So if we have min-width:300px; that means the element will be 300 pixels or possibly wider.</p>
-<p>Likewise the max-width and max-height properties allow us to set a maximum boundary for the variability.</p>
-<p>As we move into flexbox based layouts, variability in our design will become very important.</p>
+<p>However, when we use an explicit width or height property, we remove that 
+variability from the element. This makes it less powerful and less useful.</p>
+<p>The min-width and min-height properties allow us to set a minimum boundary 
+for that variability, but otherwise the variable sizing of the element is 
+unimpeded. So if we have min-width:300px; that means the element will be 
+300 pixels or possibly wider.</p>
+<p>Likewise the max-width and max-height properties allow us to set a 
+maximum boundary for the variability.</p>
+<p>As we move into flexbox based layouts, variability in our design 
+will become very important.</p>
 
 <h4>Best practice</h4>
 
-<p>Unless you have good cause, try to avoid using explicit dimension properties like width and height.  If you must control the dimensions, consider using the min- or max- variants.</p>
+<p>Unless you have good cause, try to avoid using explicit dimension properties 
+like width and height.  If you must control the dimensions, consider using the 
+min- or max- variants.</p>
 
 <h4>Cropping and scrolling: overflow</h4>
 
-<p>If the element’s dimensions are overdetermined by the sizing properties, then its content may not fit. In the example below, the width and height of the paragraph have been set too small for its content.  As a result, the content overflows the rectangle of the paragraph. We’ve made this
-easier to see by adding a border and background color to the paragraph.</p>
+<p>If the element’s dimensions are overdetermined by the sizing properties, 
+then its content may not fit. In the example below, the width and height of 
+the paragraph have been set too small for its content.  As a result, the 
+content overflows the rectangle of the paragraph. We’ve made this easier to 
+see by adding a border and background color to the paragraph.</p>
 
-<p>This default behavior, that content that doesn’t fit is shown anyway, can be surprising if you weren’t expecting it.</p>
+<p>This default behavior, that content that doesn’t fit is shown anyway, can 
+be surprising if you weren’t expecting it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 146. cropping and scrolling overflow (312) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -12743,13 +12883,12 @@ they should be flex items.</p>
 
 <h4>Centering? Maybe flexbox</h4>
 
-<p>If you need to center some content horizontally, then the previous
-section on centering may help. It discusses the various options for
-inline or block level elements.  However, a flex container and a flex
-child is also a possible approach. The flex container
-property justify-content:center; might help.  Both approaches (flexbox 
-and “traditional”) have their advantages in various situations.  
-Use your judgement.</p>
+<p>If you need to center some content horizontally, then the previous section on 
+centering may help. It discusses the various options for inline or block level 
+elements.  However, a flex container and a flex child is also a possible approach. 
+The flex container property justify-content:center; might help.  Both approaches 
+(flexbox and “traditional”) have their advantages in various situations.  Use 
+your judgement.</p>
 
 <p>If you need to center something vertically, unless it is an inline
 element or the content of a table cell, the best answer is almost
@@ -12786,9 +12925,9 @@ to always test in as many browsers as possible.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch6-4-1">6.4.1 Main and cross axes</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p><b>Note</b>: This material is included for completeness. However,
-many are able to use flexbox satisfactorily without it. None of the
-material here will appear in any graded question.</p>
+<p><b>Note</b>: This material is included for completeness. However, many are able to 
+use flexbox satisfactorily without it. None of the material here will appear in any 
+graded question.</p>
 
 <h4>Concepts</h4>
 
@@ -12797,16 +12936,14 @@ should make sure to understand.</p>
 
 <h4>Main axis and cross axis</h4>
 
-<p>Every flexbox has two axes. The “main” axis is the major axis along
-which all the flex items are being laid. When the flex-direction is row, 
-the main axis is horizontal, running left to right.  When the flex-direction 
-is column, the main axis is vertical, running top to bottom.  (Quick quiz: what if
-the flex-direction is row-reverse?).  </p>
+<p>Every flexbox has two axes. The “main” axis is the major axis along which all the 
+flex items are being laid. When the flex-direction is row, the main axis is horizontal, 
+running left to right.  When the flex-direction is column, the main axis is vertical, 
+running top to bottom.  (Quick quiz: what if the flex-direction is row-reverse?).</p>
 
-<p>The “cross” axis runs perpendicular to the main axis. It is the
-direction that items might wrap.  With flex-flow: row wrap; the cross
-axis is vertical and runs top to bottom. And with flex-flow:row
-wrap-reverse; it is vertical running bottom to top.</p>
+<p>The “cross” axis runs perpendicular to the main axis. It is the direction that items 
+might wrap.  With flex-flow: row wrap; the cross axis is vertical and runs top to bottom. 
+And with flex-flow:row wrap-reverse; it is vertical running bottom to top.</p>
 
 <h4>Start and end</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -12817,11 +12954,11 @@ wrap-reverse; it is vertical running bottom to top.</p>
   alt="Flex Container and Flex-flow."
   style="width:450px;" />
 
-<p>In the illustration above, we see the main and cross axes as they
-would be for flex-flow:row wrap;.  And in the same illustration, we also
-see the start and end points for both the main and cross axes.  Take a
-moment and visualize how both the axes <em>and</em> the start and end
-points would change for each of these combinations for flex-flow :</p>
+<p>In the illustration above, we see the main and cross axes as they would be for 
+flex-flow:row wrap;.  And in the same illustration, we also see the start and end 
+points for both the main and cross axes.  Take a moment and visualize how both the 
+axes <em>and</em> the start and end points would change for each of these combinations 
+for flex-flow :</p>
 
 <ul>
   <li>row wrap<br></li>
@@ -12836,12 +12973,10 @@ points would change for each of these combinations for flex-flow :</p>
 
 <h4>Main axis for sizing, cross axis for alignment</h4>
 
-<p>The terms <em>“main”</em> and <em>“cross”</em> appear in the
-descriptions of flexbox and in multiple online tutorials you might
-find. However, they are <b>not</b> used in the names of any CSS
-properties or values.  The following properties control behavior along
-the main axis. We are already familiar with all of them,
-except justify-content.</p>
+<p>The terms <em>“main”</em> and <em>“cross”</em> appear in the descriptions of flexbox 
+and in multiple online tutorials you might find. However, they are <b>not</b> used in 
+the names of any CSS properties or values.  The following properties control behavior 
+along the main axis. We are already familiar with all of them, except justify-content.</p>
 
 <ul>
   <li>flex<br></li>
@@ -12864,42 +12999,59 @@ along the cross axis:</p>
   <li>align-self<br></li>
 </ul>
 
-<p>These properties all govern how a flex item might
-be <em>aligned</em> or positioned along the cross axis. They also
-support a simple stretch value, which we will see when we cover
-them.</p>
+<p>These properties all govern how a flex item might be <em>aligned</em> or positioned 
+along the cross axis. They also support a simple stretch value, which we will see when 
+we cover them.</p>
 
-<p><b>Important</b>: Flexbox items can have their size and position
-influenced on the main axis, with flex-grow, and others. But on the
-cross axis, with the exception of a coarse stretch option, we can only
-influence their position. This distinction is very important.  In the
-cross axis direction, our ability to influence the sizing is limited.
-When not using stretch, we get the normal sizing behavior (block level
-elements take vertical size of content, etc.) or use the regular sizing
-properties  (min-height, max-height, height, etc.)</p>
+<p><b>Important</b>: Flexbox items can have their size and position influenced on the 
+main axis, with flex-grow, and others. But on the cross axis, with the exception of a 
+coarse stretch option, we can only influence their position. This distinction is very 
+important.  In the cross axis direction, our ability to influence the sizing is 
+limited.  When not using stretch, we get the normal sizing behavior (block level
+elements take vertical size of content, etc.) or use the regular sizing properties  
+(min-height, max-height, height, etc.)</p>
 
 <h4>flex-start and flex-end are contextual</h4>
 
-<p>We will begin to see the values flex-start and flex-end in the next section as we look at alignment and justification.  Just as the terms
-“main” and “cross” do not appear as CSS terms, be aware that flex-start and flex-end are contextual.  When used with the justify-content property, flex-start and flex-end refer to the “main start” and “main end” sides (as in the illustration above).  When used with any of the flexbox align properties, flex-start and flex-end refer to the “cross start” and “cross end” sides.</p>
+<p>We will begin to see the values flex-start and flex-end in the next section as 
+we look at alignment and justification.  Just as the terms “main” and “cross” do 
+not appear as CSS terms, be aware that flex-start and flex-end are contextual.  
+When used with the justify-content property, flex-start and flex-end refer to 
+the “main start” and “main end” sides (as in the illustration above).  When 
+used with any of the flexbox align properties, flex-start and flex-end refer 
+to the “cross start” and “cross end” sides.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch6-4-2">6.4.2 Justification and alignment</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p><b>Note</b>: This material is included for completeness. However, many are able to use flexbox satisfactorily without it. None of the
-material here will appear in any graded question.</p>
+<p><b>Note</b>: This material is included for completeness. However, many are able 
+to use flexbox satisfactorily without it. None of the material here will appear in 
+any graded question.</p>
 
 <h4>justify-content</h4>
 
 <pre>.fc { justify-content: space-around; }</pre>
 
-<p>When all the flex items in a flexbox container are fully resizable, then there will not be any extra space to put between the items.  However, when the flex items are fixed size, or cannot grow anymore, then the flexbox container will put the extra space between or
-outside the items. The closest analogue from typography is called “justifying”.  Thus, the justify-content property serves a similar
-function for flexbox containers.</p>
+<p>When all the flex items in a flexbox container are fully resizable, then there 
+will not be any extra space to put between the items.  However, when the flex items 
+are fixed size, or cannot grow anymore, then the flexbox container will put the 
+extra space between or outside the items. The closest analogue from typography is 
+called “justifying”.  Thus, the justify-content property serves a similar function 
+for flexbox containers.</p>
 
-<p>The justify-content property is applied to the flex container.  It governs how any extra space along the main layout axis is distributed
-between the flexbox items.  The possible values are: flex-start, flex-end, center, space-between, and space-around.  The flex-start, flex-end, and center values do not distribute any space between the flex items. Instead, these values determine where the flex items should be positioned within the flex container, and any extra space is outside them. The space-between and space-around values both put space evenly between the flex items, but space-between places the flex items flush against the main start and main ends of the flexbox container.  Remember that this is only spacing in the direction of the main axis. justify-content does not affect any spacing or placement in the direction of the cross axis.</p>
+<p>The justify-content property is applied to the flex container.  It governs how any 
+extra space along the main layout axis is distributed between the flexbox items.  The 
+possible values are: flex-start, flex-end, center, space-between, and space-around.  
+The flex-start, flex-end, and center values do not distribute any space between the 
+flex items. Instead, these values determine where the flex items should be positioned 
+within the flex container, and any extra space is outside them. The space-between and 
+space-around values both put space evenly between the flex items, but space-between 
+places the flex items flush against the main start and main ends of the flexbox 
+container.  Remember that this is only spacing in the direction of the main axis. 
+justify-content does not affect any spacing or placement in the direction of the 
+cross axis.</p>
 
-<p>The table below should help illustrate this. It shows the justification options for a flexbox container with flex-flow:row;</p>
+<p>The table below should help illustrate this. It shows the justification options 
+for a flexbox container with flex-flow:row;</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~ 171. justification options for a flexbox container with flex-flow (338) ~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -12908,23 +13060,38 @@ between the flexbox items.  The possible values are: flex-start, flex-end, c
   alt="Justification Options for a Flexbox container with Flex-Flow."
   style="width:450px;" />
 
-<p>If the flex-direction were row-reverse, then the only thing to change in the table above would be that the appearances of flex-start and flex-end would be reversed.</p>
+<p>If the flex-direction were row-reverse, then the only thing to change in the table 
+above would be that the appearances of flex-start and flex-end would be reversed.</p>
 
-<p>If the flex-direction were column, then remember that, if the flexbox container is a block level element, its default size would be that of its content. Which means there would be no extra vertical space to distribute. All the five options above would be identical (a tight
-stack of items) <em>unless</em> the height of the flexbox container were explicitly made larger.</p>
+<p>If the flex-direction were column, then remember that, if the flexbox container 
+is a block level element, its default size would be that of its content. Which means 
+there would be no extra vertical space to distribute. All the five options above 
+would be identical (a tight stack of items) <em>unless</em> the height of the 
+flexbox container were explicitly made larger.</p>
 
 <h4>align-content and align-items</h4>
 
-<p>The align-content and align-items are often confused for one another.  But they are very different.  Both properties only apply if there is extra space in the cross axis direction. This is important to remember, because in many situations there isn’t any cross axis space. In the example above (used for justify-content), none of the flexbox containers has any extra cross axis space (vertical space).</p>
+<p>The align-content and align-items are often confused for one another.  But they 
+are very different.  Both properties only apply if there is extra space in the cross 
+axis direction. This is important to remember, because in many situations there 
+isn’t any cross axis space. In the example above (used for justify-content), none 
+of the flexbox containers has any extra cross axis space (vertical space).</p>
 
 <h4>align-items</h4>
 
 <pre>.fc { align-items: stretch; }</pre>
 
-<p>The align-items determines how items are aligned in the cross axis direction. This is applied to the flexbox container.  The possible values are stretch, flex-start, flex-end, center, and baseline.  In the context of alignment, flex-start and flex-end refer to the cross
-start and cross end sides, which may be swapped if the flex-wrap:wrap-reverse option is elected.  align-items defaults to stretch, if it is not set. The table below should help illustrate this. It shows a flex container with flex-flow:row;  and a min-height value that is greater than the height of any of the items.</p>
+<p>The align-items determines how items are aligned in the cross axis direction. This 
+is applied to the flexbox container.  The possible values are stretch, flex-start, 
+flex-end, center, and baseline.  In the context of alignment, flex-start and flex-end 
+refer to the cross start and cross end sides, which may be swapped if the 
+flex-wrap:wrap-reverse option is elected.  align-items defaults to stretch, if it is 
+not set. The table below should help illustrate this. It shows a flex container with 
+flex-flow:row;  and a min-height value that is greater than the height of any of the 
+items.</p>
 
-<p>In the example below, each item has a different line-height value, so you can see how they align to each other.</p>
+<p>In the example below, each item has a different line-height value, so you can see 
+how they align to each other.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 172. line height and align items #1 (339) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -12944,11 +13111,17 @@ start and cross end sides, which may be swapped if the flex-wrap:wrap-reverse 
 
 <pre>.fc { align-content: space-between; }</pre>
 
-<p>align-content is only relevant when the flexbox container supports wrapping and the flex items are, in fact, wrapping.<br>
-The align-content determines how the <em>wrapped lines</em> are positioned or spaced.  Align-content is not applied to individual items, but rather to the wrapped lines. The align-content property supports the stretch value, as well as the same values as justify-content (flex-start, center, flex-end, space-between, space-around).<br>
+<p>align-content is only relevant when the flexbox container supports wrapping and 
+the flex items are, in fact, wrapping.<br>
+The align-content determines how the <em>wrapped lines</em> are positioned or 
+spaced.  Align-content is not applied to individual items, but rather to the 
+wrapped lines. The align-content property supports the stretch value, as well 
+as the same values as justify-content (flex-start, center, flex-end, space-between, 
+space-around).<br>
 This is easier to understand from an example.</p>
 
-<p>Below we have a flex container with  flex-flow:row wrap; and a height value that is greater than the height of any of the items.</p>
+<p>Below we have a flex container with  flex-flow:row wrap; and a height value that 
+is greater than the height of any of the items.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 174. flexbox and flex items align #1 (340) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -12968,17 +13141,17 @@ This is easier to understand from an example.</p>
 
 <pre>.item { align-self: center; }</pre>
 
-<p>Unlike the other flexbox align properties, align-self is applied to
-an individual flex item, not to a flexbox container.  This allows an
-individual flex item to be aligned differently than its siblings.  Again, this is only 
-true for cross axis alignment, and will only come into play, if there is extra space 
-in the cross axis direction to be exploited.</p>
+<p>Unlike the other flexbox align properties, align-self is applied to an individual 
+flex item, not to a flexbox container.  This allows an individual flex item to be aligned 
+differently than its siblings.  Again, this is only true for cross axis alignment, and 
+will only come into play, if there is extra space in the cross axis direction to be 
+exploited.</p>
 
-<p>The values for align-self are stretch, flex-start, center, flex-end,
-and baseline.  align-self is ignored, if any of the four margins on the item is set
-to auto.</p>
+<p>The values for align-self are stretch, flex-start, center, flex-end, and baseline.  
+align-self is ignored, if any of the four margins on the item is set to auto.</p>
 
-<p>In the example below, we have a flex container with flex-flow:row; and align-items:center;.  The individual items have their align-self property set.</p>
+<p>In the example below, we have a flex container with flex-flow:row; and 
+align-items:center;.  The individual items have their align-self property set.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 176. flex container (341) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -13162,15 +13335,23 @@ On the other hand, even for a single row or column, the Grid properties may turn
 <h4>CSS grid resources</h4>
 
 <ul>
-  <li><a href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank" rel="noopener noreferrer">A complete guide to Grid</a> (CSS Tricks) - <i>updated 10 March 2021</i><br></li>
-  
-  <li><a href="https://www.w3.org/TR/css-grid-1/" target="_blank" rel="noopener noreferrer">CSS Grid</a>, the W3C specification - <a href="https://gridbyexample.com/" target="_blank" rel="noopener noreferrer">Grid by example</a>: this site is a collection of <i>examples</i>, video and other information to help you learn CSS <i>Grid Layout - by Rachel Andrew</i>.</li>
+  <li><a href="https://css-tricks.com/snippets/css/complete-guide-grid/" 
+    target="_blank" rel="noopener noreferrer">A complete guide to Grid</a>
+	 (CSS Tricks) - <i>updated 10 March 2021</i><br></li>
+  <li><a href="https://www.w3.org/TR/css-grid-1/" target="_blank" rel="noopener 
+    noreferrer">CSS Grid</a>, the W3C specification - 
+	<a href="https://gridbyexample.com/" target="_blank" rel="noopener 
+	noreferrer">Grid by example</a>: this site is a collection of 
+	<i>examples</i>, video and other information to help you learn CSS 
+	<i>Grid Layout - by Rachel Andrew</i>.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch6-6-1">6.6.1 Recipe project - Module 6</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>We'll put to use some of the layout techniques that we've learned.
-Let's improve our Web page by making it more responsive, so it's easily readable whether wide or narrow. And we'll fix the banner and nav element in place, so it's always where we need it.</p>
+<p>We'll put to use some of the layout techniques that we've learned.  Let's improve 
+our Web page by making it more responsive, so it's easily readable whether wide or 
+narrow. And we'll fix the banner and nav element in place, so it's always where we 
+need it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch6-6-2">6.6.2 Recipe project</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
