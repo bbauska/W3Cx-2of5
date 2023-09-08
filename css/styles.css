@@ -110,7 +110,7 @@ h6 {
 }
 
 details {
-  font: 11px Bahnschrift, Inter, sans-serif, Calibri;
+  font: 14px Bahnschrift, Inter, sans-serif, Calibri;
   width: 65%;
 }
 details > summary {
