@@ -3966,8 +3966,7 @@ this:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3><a href="ch2-3-3">2.3.3 New HTML5 Semantic Elements</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-We will elaborate on selected semantic elements in detail in the next
-unit.
+<p>We will elaborate on selected semantic elements in detail in the next unit.</p>
 
 <table>
 <colgroup>
@@ -4142,6 +4141,7 @@ Moncrieff&lt;/p&gt;</p></li>
 </table>
 
 <h4>Element</h4>
+<!-- when click following image, goto codepen with code above -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 26. example details command (86) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4180,18 +4180,21 @@ for all users.
   width="20%"
   alt="Dress rehearsal." />
 </p>
-<p align="center" width="100%">
-Fig. 1: The cast hard at work at dress rehearsal before opening night</p>
+<h6 align="center" width="100%">
+Fig. 1: The cast hard at work at dress rehearsal before opening night</h6>
 
 <h4>&lt;mark&gt; element</h4>
 
 <h5>This element is used to specify content that you want to highlight.</h5>
 
+<!--
 ```
 <h3>Lane: </h3><p>Yes sir. [<mark>Handing his master the
    sandwiches on a salver</mark>]</p>
 ```
+--->
 
+<!-- when click following image, goto codepen with code above -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 28. example mark command you want to highlight (87) ~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4249,6 +4252,7 @@ visual change:
 ```
 
 </details>
+<!-- when click following image, goto codepen with code above -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 29. the aside semantic element (88) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4290,7 +4294,7 @@ code in default monospace font. </td>
 <tr class="even">
 <td>&lt;abbr&gt;</td>
 <td>Used to indicate the occurrence of an abbreviation.</td>
-<td>&lt;abbr title="Hypertext Markup Language"&gt;HTML&lt;/abbr&gt;</td>
+<td>&lt;abbr title=&quot;Hypertext Markup Language&quot;&gt;HTML&lt;/abbr&gt;</td>
 </tr>
 <tr class="odd">
 <td>&lt;br&gt;</td>
@@ -4302,7 +4306,7 @@ code in default monospace font. </td>
 <td>Used to supply contact information for its
 nearest &lt;article&gt; or &lt;body&gt; ancestor.</td>
 <td>&lt;address&gt;<br />
-&lt;a href="www.example.com"&gt;John Doe&lt;/a&gt;&lt;br&gt;<br />
+&lt;a href=&quot;www.example.com&quot;&gt;John Doe&lt;/a&gt;&lt;br&gt;<br />
 #123, Doe Villa&lt;br&gt;<br />
 Los Angeles, USA<br />
 &lt;/address&gt;</td>
@@ -4367,6 +4371,7 @@ element. <b>Here's a simplified version</b>:
 ```
 
 </details>
+<!-- when click following image, goto codepen with code above -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 30. html5.2x header and headings (91) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4408,6 +4413,7 @@ identify headings</a>.
 ```
 
 </details>
+<!-- when click following image, goto codepen with code above -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 31. brad's cookbook in codepen (92) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4495,6 +4501,7 @@ reading its contents or to make it immediately available.
 
 Now, let's look at a more complete example using a global header and
 multiple &lt;header&gt;, &lt;footer&gt; and &lt;nav&gt; tags.
+<!-- when click following image, goto codepen with code above -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~ 34. screenshot of the ms virtual academy home page showing more (94) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4590,7 +4597,6 @@ multiple &lt;header&gt;, &lt;footer&gt; and &lt;nav&gt; tags.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3><a href="ch2-3-5">2.3.5 &lt;article&gt; and &lt;section&gt; Elements</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 <h4>&lt;article&gt; element</h4>
 
 An <b>article element</b> as we know is stand-alone content. If you pick an
@@ -4652,6 +4658,7 @@ in another). Sections can also be part of an article, aside or nav
 elements. While the code above makes no sense by itself, if you add it
 to our CES 2018 &lt;article&gt; example, it will fit right in:
 
+<!-- when click following image, goto codepen with code above -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 35. example html with article and section (97) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4706,6 +4713,7 @@ groups.
 To get a better understanding on the usage of semantic elements in your
 Web page, try on
 this [CodePen](https://codepen.io/w3devcampus/pen/Wjzjpx):
+<!-- when click following image, goto codepen with code above -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 36. html5 table of contents (98) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5234,13 +5242,15 @@ browser:
 <h4>The 'title' attribute</h4>
 
 Try this: place your mouse on the image below. Don't click, just rest
-your cursor on it. 
+your cursor on it.
+<!-- when hover over this image, display text -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 39. tulips in a basket (108) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image039.webp?raw=true"
   width="35%"
+  title="Tulips from Woodburn Tulip Festival."
   alt="Tulips in a basket" />
 </p>
 
@@ -5252,7 +5262,7 @@ will want to use the title attribute.
 
 ```
 <img src="images/tulips.png" alt="This is supposed to be an image
-   of tulips" title="Tulips from woodburn tulip festival">
+   of tulips" title="Tulips from Woodburn Tulip Festival">
 ```
 
 The alt attribute is meant to be an alternate source of information
