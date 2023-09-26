@@ -425,7 +425,7 @@ exactly which browsers will support it.
     target="_blank">Caniuse and MDN compatibility data collaboration</a>.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="cha-1">What is W3C?</h3>
+<h3><a href="cha-1">What is W3C?</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>As steward of global Web standards, W3C's mission is to safeguard the openness, accessibility, and freedom of the World Wide Web from a technical perspective.</h4>
 
@@ -514,9 +514,9 @@ car, the email is a bicycle, etc.  Read <a href="https://www.lifewire.com/diff
 article</a>
 for more details about the difference between Internet and the Web.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="cha-2">What is Web Accessibility?</h3>
+<h3><a href="cha-2">What is Web Accessibility?</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1">Welcome to Module 1</h2>
+<h2><a href="ch1">Welcome to Module 1</a></h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Hello everyone! Welcome to Module 1 of the introduction to HTML5 and CSS course.
 
@@ -538,7 +538,7 @@ your very first Web page.
 
 With that, let's jump right in.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-1-2">1.1.2 Module 1 – Content</h3>
+<h3><a href="ch1-1-2">1.1.2 Module 1 – Content</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <b>1.1 Introduction:</b> A video that introduces the content of Module 1.
 
@@ -557,7 +557,7 @@ a great way to avoid the same pitfalls.
 <b>1.6 More on tags:</b> Review of the tags we have just learned about and
 get started on your course project.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-2-1">1.2.1 Vague But Exciting!</h3>
+<h3><a href="ch1-2-1">1.2.1 Vague But Exciting!</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Twenty-nine years ago a proposal was sent internally at CERN
 outlying a universal linked information system. Dubbed 'Information
@@ -602,7 +602,7 @@ the big 3 (HTML5, CSS and JavaScript), the hypertext concept and the
 browser, an application program that provides a way to look at and
 interact with all the information on the World Wide Web.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-2-2">1.2.2 HTML5, CSS and JS</h3>
+<h3><a href="ch1-2-2">1.2.2 HTML5, CSS and JS</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>HTML5</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -663,7 +663,7 @@ application, with nearly unlimited possibilities.  We will not be
 doing much with JavaScript in this course, but you should know that it
 is an important leg of the stool for modern Web pages.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-2-3">1.2.3 Hypertext</h3>
+<h3><a href="ch1-2-3">1.2.3 Hypertext</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 A fundamental key to the World Wide Web is the concept of "<i>Hypertext</i>".
  Hypertext is built on the idea of linking information together, not
@@ -700,7 +700,7 @@ sea of information stretching out in all directions. This sea of
 information was navigated by a new tool called a "Browser".
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-2-4">1.2.4 The Browser</h3>
+<h3><a href="ch1-2-4">1.2.4 The Browser</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 The Internet existed long before the Web came to fruition, and lots of
 organizations were connected to it, including schools, companies and
@@ -742,7 +742,7 @@ information on the Internet, a simple click on a link would present the
 information in a graphical window. In many ways, it is the ancestor of
 most modern browsers.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-2-5">1.2.5 Activity – Explore the Web</h3>
+<h3><a href="ch1-2-5">1.2.5 Activity – Explore the Web</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Exploring the Web, "Then and Now":</h4>
 <ul>
@@ -756,7 +756,7 @@ most modern browsers.
   <li>Post your observations and findings in the discussion forum below.</li><br/>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-3-1">1.3.1 Putting the “M” in HTML</h3>
+<h3><a href="ch1-3-1">1.3.1 Putting the “M” in HTML</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 The "M" in HTML stands for "Markup", but what does Markup really
 mean?  Essentially, it means to annotate a document with extra
@@ -820,7 +820,7 @@ simple "Hello HTML" program. Please choose any Web editor of your liking
 (see in the subsection "Course tools").
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-3-2">1.3.2 Programming “Hello HTML”</h3>
+<h3><a href="ch1-3-2">1.3.2 Programming “Hello HTML”</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>You can build and edit your HTML pages by either using online editors or editors that you can install on your machine, like Visual Studio Code.</p>
 <h4>Using online editors:</h4>
@@ -1488,7 +1488,7 @@ are available to you.
 
 But hopefully this shows you, just how easy it is to get started.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-3-3">1.3.3 Elements</h3>
+<h3><a href="ch1-3-3">1.3.3 Elements</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 If you are sitting at a coffee shop next to a table of Web developers,
 you will probably hear three words quite a bit:  'Tags', 'Attributes'
@@ -1529,7 +1529,7 @@ children, but for our purpose this is enough.
 That may be a great picture, but how do we represent such a structure in
 a text file?  Well, that's where "tags" come in.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-3-4">1.3.4 Tags</h3>
+<h3><a href="ch1-3-4">1.3.4 Tags</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 16. tags (35) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1608,7 +1608,7 @@ tag at all.  This works because all of the information this tag needs is
 declared in an "attribute".
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-3-5">1.3.5 Comments</h3>
+<h3><a href="ch1-3-5">1.3.5 Comments</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Computers are great at reading computer languages, but it's not always
 easy for humans.  Comments are a way of adding some text that is
@@ -1673,7 +1673,7 @@ others.  As for the exact form of those comments, we'll cover that in
 good time.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-3-6">1.3.6 Attributes</h3>
+<h3><a href="ch1-3-6">1.3.6 Attributes</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Most of what we'll cover about attributes will come later, but I wanted
 to introduce the idea briefly. Basically, a given element on your Web
@@ -1706,7 +1706,7 @@ increase clarity, consistency and brevity.
 
 But more about attributes in the next module.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-3-7">1.3.7 All Together Now</h3>
+<h3><a href="ch1-3-7">1.3.7 All Together Now</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 One key to understanding HTML, or any computer language, is to be sure
 that you avoid ambiguity, because computers generally are not good at
@@ -1839,7 +1839,7 @@ above. Try inserting a paragraph into the body of your new document.
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-4-1">1.4.1 Character Encoding</h3>
+<h3><a href="ch1-4-1">1.4.1 Character Encoding</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>A character can be any letter, digit or symbol that makes up words and
 languages. English alphabets and digits 'a-z', 'A-Z', '0-9' are all
@@ -1897,7 +1897,7 @@ days, but you should check.
 Read an <a href="https://www.w3.org/International/getting-started/characters">
   Introduction to character sets and encodings here</a>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-4-2">1.4.2 The &lt;meta&gt; tag</h3>
+<h3><a href="ch1-4-2">1.4.2 The &lt;meta&gt; tag</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Use the &lt;meta&gt; tag with the charset attribute in your HTML page to
 indicate to the browser the character encoding you will be using in the
@@ -1936,7 +1936,7 @@ W3C recommends placing it immediately after the opening &lt;head&gt; tag:</p>
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-4-3">1.4.3 HTML Character References</h3>
+<h3><a href="ch1-4-3">1.4.3 HTML Character References</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Why we need character references</h4>
 
@@ -2013,7 +2013,7 @@ semi-colon.</p>
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-4-4">1.4.4 Special characters</h3>
+<h3><a href="ch1-4-4">1.4.4 Special characters</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Protecting characters used for HTML syntax</h4>
 
@@ -2160,7 +2160,7 @@ replaced with its character entity name)</p>
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-4-5">1.4.5 Character References for Other Characters</h3>
+<h3><a href="ch1-4-5">1.4.5 Character References for Other Characters</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <p>It is also possible to use character references to represent other
@@ -2225,7 +2225,7 @@ If you'd like to read more information about when to use character
 references and when not to use them, see <a href="https://www.w3.org/International/questions/qa-escapes" 
   target="_blank">Using character escapes in markup and CSS</a>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-5-1">1.5.1 Learning from the Mistakes of Others</h3>
+<h3><a href="ch1-5-1">1.5.1 Learning from the Mistakes of Others</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Children can be great at asking questions about things that most adults
 take for granted, and like to challenge assumptions.
@@ -2261,7 +2261,7 @@ the term "best practice" you can trust that it is, even though we may
 not be able to explain it at that point in the course, so you'll want to
 make it a habit.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-5-2">1.5.2 Do’s and Don’ts</h3>
+<h3><a href="ch1-5-2">1.5.2 Do’s and Don’ts</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 The history of Web pages is such that browsers tend to be very forgiving
 of certain types of mistakes. If you miss a closing tag, it will often
@@ -2365,7 +2365,7 @@ the rules are (how many spaces to indent, single or double-quotes, etc.)
 but unless there is a good reason to change away from typical practices,
 it is usually best to adopt them.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-5-3">1.5.3 White Space and Capitalization</h3>
+<h3><a href="ch1-5-3">1.5.3 White Space and Capitalization</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Before we go any further, it's good to understand a few technical details.
 
@@ -2504,7 +2504,7 @@ could sum it all up with these simple dictum:
 </ul>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-5-4">1.5.4 Activity – Best Practices</h3>
+<h3><a href="ch1-5-4">1.5.4 Activity – Best Practices</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 1. Compare and contrast these two different HTML Style Guides:
@@ -2530,7 +2530,7 @@ disagree with some of the suggestions in one of these guides?
       can find any errors.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-6-1">1.6.1 Tags We Have Already Used</h3>
+<h3><a href="ch1-6-1">1.6.1 Tags We Have Already Used</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Now you can create a simple, empty, HTML page, and you know what tags
 are, though we have not said a lot about specific tags, what they mean,
@@ -2645,7 +2645,7 @@ styling of one element to look like just about any other element.  You
 could style a &lt;p&gt; element so that it looks like an &lt;h1&gt;, though best
 practice would be not to do that.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-6-2">1.6.2 A Few New Tags to Learn</h3>
+<h3><a href="ch1-6-2">1.6.2 A Few New Tags to Learn</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>There are a lot more tags, but we will just cover a few more for now,
 mostly because they are straightforward to use and you can see the
@@ -2764,13 +2764,13 @@ line breaks
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-6-3">1.6.3 More HTML5</h3>
+<h3><a href="ch1-6-3">1.6.3 More HTML5</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Video</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-6-4">1.6.4 Activity - Your First Web Page</h3>
+<h3><a href="ch1-6-4">1.6.4 Activity - Your First Web Page</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-6-5">1.6.5 Recipe Project – Module 1</h3>
+<h3><a href="ch1-6-5">1.6.5 Recipe Project – Module 1</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Throughout the course, we'll be building a simple project, adding to it
 with what we've learned in each module. This project will be a simple
@@ -2846,7 +2846,7 @@ following components:</p>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch2">Welcome to Module 2</h2>
+<h2><a href="ch2">Welcome to Module 2</a></h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 20. attributes, images and links (61) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2889,7 +2889,7 @@ what you've learned and test your knowledge by doing a quiz.
 We hope you enjoy the course, and happy learning!
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-1-2">2.1.2 Meaningful Web Pages</h3>
+<h3><a href="ch2-1-2">2.1.2 Meaningful Web Pages</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Tags and elements are building blocks of HTML5. However, they can be
 made so much more exciting with attributes. Let's take a simple element
@@ -2922,7 +2922,7 @@ visually impaired people who access your Web page using assistive
 technology like screen readers. Semantic markup enables all of this and
 more.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-1-3">2.1.3 Module 2 - Content</h3>
+<h3><a href="ch2-1-3">2.1.3 Module 2 - Content</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p><b>2.1 Introduction:</b> Check out this video explaining what you'll be
 learning about in Module 2 - and wrap your mind around the concept of
@@ -2941,7 +2941,7 @@ your Web pages.
 jump from place to place on the Web. Explore the secrets of this
 powerful mechanism!</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-2-1">2.2.1 Introduction</h3>
+<h3><a href="ch2-2-1">2.2.1 Introduction</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>We learned a little bit about what attributes are in the previous
 module. Let's look into it in more depth, by using examples.</p>
@@ -3108,7 +3108,7 @@ poems 'poetry'.</p>
 make all elements belonging to the 'poetry' class grey, italic and
 bold.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-2-2">2.2.2 Global and Non-Global Attributes</h3>
+<h3><a href="ch2-2-2">2.2.2 Global and Non-Global Attributes</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>You have seen a few examples of attributes now: start, id and class. All
 HTML elements have attributes.
@@ -3214,7 +3214,7 @@ that can be applied to the &lt;li&gt; tag. Search for the &lt;li&gt; element
 and then click on it: it will take you to the list tag's page that specifies 
 applicable attributes.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-2-3">2.2.3 Global Attributes: Examples</h3>
+<h3><a href="ch2-2-3">2.2.3 Global Attributes: Examples</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Global attribute: 'id'</h4>
 
@@ -3420,7 +3420,7 @@ value. 
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-2-4">2.2.4 Global Attributes</h3>
+<h3><a href="ch2-2-4">2.2.4 Global Attributes</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>References for the video text below:</h4>
 
@@ -3579,7 +3579,7 @@ different element pages.
 That's it for now and, go ahead and explore attributes and all of the
 elements you can think of.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-2-5">2.2.5 Activities - Attributes</h3>
+<h3><a href="ch2-2-5">2.2.5 Activities - Attributes</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Please find below suggested activities to help you practice:
 
@@ -3604,7 +3604,7 @@ Please find below suggested activities to help you practice:
     the list. Give it the following title (when you hover your mouse, it
     should display the title as a tooltip): 'Activity List'.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-3-1">2.3.1 Separating Content and Style</h3>
+<h3><a href="ch2-3-1">2.3.1 Separating Content and Style</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 When writing in hypertext language, it is important to separate content
 and style. Style should be kept tucked away in Cascading Style Sheets
@@ -3771,7 +3771,7 @@ categories across different cultures. For more information, read the
 article <a href="https://www.w3.org/International/questions/qa-b-and-i-tags">Using &lt;b&gt; and &lt;i&gt;
 elements</a>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-3-2">2.3.2 Introduction to Semantic Elements</h3>
+<h3><a href="ch2-3-2">2.3.2 Introduction to Semantic Elements</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Semantic HTML is HTML that concentrates on the meaning of information in
 Web pages instead of its presentation or look.
@@ -3965,7 +3965,7 @@ this:
   alt="Using the markup validator." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-3-3">2.3.3 New HTML5 Semantic Elements</h3>
+<h3><a href="ch2-3-3">2.3.3 New HTML5 Semantic Elements</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 We will elaborate on selected semantic elements in detail in the next
 unit.
@@ -4321,7 +4321,7 @@ these, &lt;cite&gt;, &lt;em&gt;, &lt;strong&gt;, &lt;p&gt; and &lt;blockqu
 semantic elements.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-3-4">2.3.4 Differentiating Semantic Elements</h3>
+<h3><a href="ch2-3-4">2.3.4 Differentiating Semantic Elements</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Now, you have learned the semantic elements available and their syntax.
 When you try to apply it practically, there are some common problems you
@@ -4589,7 +4589,7 @@ multiple &lt;header&gt;, &lt;footer&gt; and &lt;nav&gt; tags.
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-3-5">2.3.5 &lt;article&gt; and &lt;section&gt; Elements</h3>
+<h3><a href="ch2-3-5">2.3.5 &lt;article&gt; and &lt;section&gt; Elements</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <h4>&lt;article&gt; element</h4>
@@ -4874,7 +4874,7 @@ mark, figure, figcaption, details and summary.
 Experiment with the sample and try inserting other semantic elements
 that you want to try.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-3-6">2.3.6 &lt;div&gt; and &lt;span&gt; Elements</h3>
+<h3><a href="ch2-3-6">2.3.6 &lt;div&gt; and &lt;span&gt; Elements</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>&lt;div&gt; element</h4>
 
@@ -5019,7 +5019,7 @@ is not valid because the browser will consider them as two
 paragraphs one after the other. Even though you close the paragraphs
 with two closing tags &lt;/p&gt;&lt;/p&gt; at the end, they are ignored.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-3-7">2.3.7 Activities – Semantic Meaning</h3>
+<h3><a href="ch2-3-7">2.3.7 Activities – Semantic Meaning</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Please find below suggested activities to help you practice:
 
@@ -5033,7 +5033,7 @@ Please find below suggested activities to help you practice:
     need not style them.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-4-1">2.4.1 Introduction</h3>
+<h3><a href="ch2-4-1">2.4.1 Introduction</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>The &lt;img&gt; tag</h4>
 
@@ -5155,7 +5155,7 @@ information to be aware of.
 </ul>
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-4-2">2.4.2 Attribute alt</h3>
+<h3><a href="ch2-4-2">2.4.2 Attribute alt</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>alt stands for <i>alternate text</i> for an image.</h4>
 
@@ -5230,7 +5230,7 @@ browser:
   alt="This is supposed to be an image of tulips." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-4-3">2.4.3 Attributes: title, height & width</h3>
+<h3><a href="ch2-4-3">2.4.3 Attributes: title, height & width</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>The 'title' attribute</h4>
 
@@ -5329,7 +5329,7 @@ also useful if you are changing or removing the image: you can just
 remove it from your HTML and not deal with remembering to remove it
 from your CSS too.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-4-4">2.4.4 Decorative images</h3>
+<h3><a href="ch2-4-4">2.4.4 Decorative images</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Should all images be part of HTML content?
 
@@ -5378,7 +5378,7 @@ Find out from their tooltips!
 </p>
 <!-- style="width:2in;height:2in" -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-4-5">2.4.5 Using &lt;img&gt; Tags</h3>
+<h3><a href="ch2-4-5">2.4.5 Using &lt;img&gt; Tags</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi there! In this video, we're going to take a closer look at how we add
@@ -5599,7 +5599,7 @@ In this video, we'd fun with images, the image tag and its attributes.
 
 You're all set to spice up your pages with some images. Take care!
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-4-6">2.4.6 Activities - images</h3>
+<h3><a href="ch2-4-6">2.4.6 Activities - images</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Please find below a list of possible activities:
@@ -5621,7 +5621,7 @@ Refer to the <a href="https://www.w3.org/WAI/tutorials/images/" target="_blank"
 Tutorial</a> for a guide to
 writing alternate text. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-5-1">2.5.1 Introduction</h3>
+<h3><a href="ch2-5-1">2.5.1 Introduction</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <h4>What are hyperlinks?</h4>
@@ -5795,7 +5795,7 @@ addresses:
     be used to search the Web to pick up email addresses for spam. You
     should avoid this if possible and use contact forms instead.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-5-2">2.5.2 Attributes: href and target</h3>
+<h3><a href="ch2-5-2">2.5.2 Attributes: href and target</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>The 'href' attribute</h4>
 
@@ -5884,7 +5884,7 @@ of the new tab having opened.</p></td>
 </tbody>
 </table>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-5-3">2.5.3 Attributes: Media and Download</h3>
+<h3><a href="ch2-5-3">2.5.3 Attributes: Media and Download</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>The 'media' attribute</h4>
 
@@ -5952,7 +5952,7 @@ browsers](https://caniuse.com/#search=download). Try
 the download attribute in a html file of your own and run it in
 different browsers to see how it behaves.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-5-4">2.5.4 Use of Hyperlink Attributes</h3>
+<h3><a href="ch2-5-4">2.5.4 Use of Hyperlink Attributes</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 46. hyperlink attributes (122) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6192,7 +6192,7 @@ You've seen how to use the attributes on the anchor tag to jump to pages
 on our site, visit other sites, download files and even skip around on
 the same page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-5-5">2.5.5 Recipe Project – Module 2</h3>
+<h3><a href="ch2-5-5">2.5.5 Recipe Project – Module 2</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 We are now going to continue building on the recipe project we started
 in Module 1.  You can find our version in the CodePen below (and the
@@ -6475,7 +6475,7 @@ tags.
 
 And that concludes this live coding session. Bon appétit !
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch3">Welcome to Module 3</h2>
+<h2><a href="ch3">Welcome to Module 3</a></h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 48. w3cx html5 and css3 logo (132) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6519,7 +6519,7 @@ visual impact is very rewarding.
 So, prepare to have fun, and let yourself experiment because that's how
 you learn, experimentation.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch3-1-2">3.1.2 Module 3 Content</h3>
+<h3><a href="ch3-1-2">3.1.2 Module 3 Content</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 1.  <b>Introduction to Module 3:</b> Get an overview of what CSS (Cascading
@@ -6537,7 +6537,7 @@ you learn, experimentation.
     target specific HTML elements and apply style to them
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch3-1-3">3.1.3 The CSS Language</h3>
+<h3><a href="ch3-1-3">3.1.3 The CSS Language</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <h4>CSS stands for 'Cascading Style Sheets'</h4>
@@ -6579,7 +6579,7 @@ paragraphs to be indented this much", much like master sheets in a word
 processor. CSS helps to solve this problem.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch3-1-4">3.1.4 The W3C CSS Working Group</h3>
+<h3><a href="ch3-1-4">3.1.4 The W3C CSS Working Group</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 The <b>CSS Working Group</b> (Cascading Style Sheets Working Group) is
@@ -6609,7 +6609,7 @@ together form the current state of Cascading Style Sheets (CSS) as of
 definition includes modules by specification stability, not Web browser
 adoption rate.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch3-1-5">3.1.5 An Example</h3>
+<h3><a href="ch3-1-5">3.1.5 An Example</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Let's see CSS in action. Below, we see two identical copies of HTML,
 however, styled differently.
@@ -6630,7 +6630,7 @@ stopped.
 Both of these use the exact same HTML. It is the CSS that makes them so
 different. So let's get started.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch3-2-1">3.2.1 The &lt;style&gt; and &lt;link&gt; tags</h3>
+<h3><a href="ch3-2-1">3.2.1 The &lt;style&gt; and &lt;link&gt; tags</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>The &lt;style&gt; tag</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6711,7 +6711,7 @@ directory named <i>css</i>.
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch3-2-2">3.2.2 Rules: selectors and declarations</h3>
+<h3><a href="ch3-2-2">3.2.2 Rules: selectors and declarations</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 At its simplest, CSS is just a list of <i>rules</i>.  Each <i>rule</i> consists of
@@ -6768,7 +6768,7 @@ p {
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch3-2-3">3.2.3 Comments</h3>
+<h3><a href="ch3-2-3">3.2.3 Comments</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 CSS can include "comments" as well, by which you, the developer today,
 can leave notes and reminders to you, a different developer tomorrow. Or
@@ -6794,12 +6794,12 @@ p {
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch3-2-4">3.2.4 Knowledge Check</h3>
+<h3><a href="ch3-2-4">3.2.4 Knowledge Check</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 n/a
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch3-2-5">3.2.5 Activity - Use CSS</h3>
+<h3><a href="ch3-2-5">3.2.5 Activity - Use CSS</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Use CSS on the following HTML code. Try various styles, experiment, and
 have fun. We have a live coding demonstration in the next page working
@@ -6849,7 +6849,7 @@ editor):
 You could also take another short text (such as a poem) and apply the
 styles you like on it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch3-2-6">3.2.6 CSS Rules</h3>
+<h3><a href="ch3-2-6">3.2.6 CSS Rules</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Hi, this is Adrian from Microsoft learning, and we're going to be 
 learning today about CSS and HTML, and the ways in which they play
@@ -7062,7 +7062,7 @@ Play around with that, and play around with some of the other attributes that I 
 to in this little demo because there are so many that we learn in the lesson and I encourage 
 you to mess around with them, and just sort of see what each one does.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch3-3-1">3.3.1 Common CSS Properties</h3>
+<h3><a href="ch3-3-1">3.3.1 Common CSS Properties</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 There are hundreds of CSS properties for you to use. The 
 <a href="https://www.w3.org/Style/CSS/all-properties.en.html" target="_blank">complete list</a> 
@@ -7275,7 +7275,7 @@ the built in sans-serif browser font.
 selection of licensed free Web fonts. Type "<i>google Web font tutorial</i>"
 into any search engine to learn more.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch3-3-2">3.3.2 Margin and Color</h3>
+<h3><a href="ch3-3-2">3.3.2 Margin and Color</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Margin</h4>
 
@@ -7359,7 +7359,7 @@ However, almost every editor and color picker will at least show you
 red, green and blue values and many have hex code displayed as well.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch3-3-3">3.3.3 Units</h3>
+<h3><a href="ch3-3-3">3.3.3 Units</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 font-size, line-height, margins and many other CSS properties expect
@@ -7478,7 +7478,7 @@ few that you might find helpful.
     lengths](https://www.w3.org/TR/css3-values/#viewport-relative-lengths)
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch3-3-4">3.3.4 Accessible Typography</h3>
+<h3><a href="ch3-3-4">3.3.4 Accessible Typography</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 The CSS rules with which we've started are fun and easily
 understandable. They are mostly concerned with typography. Later, we
@@ -7573,7 +7573,7 @@ and awareness are good companions and will serve you well.
 If you are interested in accessibility, there is much more to learn.
 These simple guidelines merely scratch the surface.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch3-4-1">3.4.1 Styling Lists</h3>
+<h3><a href="ch3-4-1">3.4.1 Styling Lists</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 The list markup tags (&lt;ul&gt;, &lt;ol&gt; and &lt;li&gt;) are some of the most
 frequently used specific purpose tags in HTML. There are a few CSS style
@@ -7766,7 +7766,7 @@ no guarantee to scale the image or assist with spacing or alignment.
 the background-image CSS property which has more options. There is a
 section dedicated to the background-image property.  
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch3-4-2">3.4.2 Selectors</h3>
+<h3><a href="ch3-4-2">3.4.2 Selectors</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 55. selector and declaration (155) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7890,7 +7890,7 @@ itself.
   </tbody>
 </table>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch3-4-3">3.4.3 Combining Selectors</h3>
+<h3><a href="ch3-4-3">3.4.3 Combining Selectors</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Being able to define a CSS selector in terms of a tag, class or id is
 very powerful. But it's not practical to place classes on every tag in
@@ -8105,7 +8105,7 @@ p * { text-decoration: underline; } /* the text of the paragraph will
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch3-4-4">3.4.4 Cascading: inheritance and precedence</h3>
+<h3><a href="ch3-4-4">3.4.4 Cascading: inheritance and precedence</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Now that we've covered several ways of defining CSS selectors, we need
 to understand what happens when multiple selectors resolve to the same
@@ -8323,11 +8323,11 @@ conflict with the various rules that are using !important, and from that
 conflict there is no escape.  If you are having problems with precedence
 the best advice is to fix them directly, rather than using !important.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch3-4-5">3.4.5 Knowledge Check</h3>
+<h3><a href="ch3-4-5">3.4.5 Knowledge Check</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 n/a
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch3-4-6">3.4.6 Activity - List</h3>
+<h3><a href="ch3-4-6">3.4.6 Activity - List</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 The HTML that follows is for a simple list.  Insert it into a properly formed HTML file and format it.  Try to ensure the following are done:
 
@@ -8394,7 +8394,7 @@ Please work on the following CodePen and implement the instructions above - do n
 
 <h4>Result:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch3-4-7">3.4.7 Activity - CSS selectors</h3>
+<h3><a href="ch3-4-7">3.4.7 Activity - CSS selectors</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Using the HTML below (in this CodePen), please style the two lists by following these instructions:
 - The female characters are in blue text, and the male characters are red,
@@ -8545,7 +8545,7 @@ h3 id="ch3-4-8">3.4.8 Recipe</h3>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch4">Welcome to Module 4</h2>
+<h2><a href="ch4">Welcome to Module 4</a></h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 58. module 4: fixing and debugging (176) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8555,7 +8555,7 @@ h3 id="ch3-4-8">3.4.8 Recipe</h3>
   alt="Module 4: Fixing and debugging." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch4-1">4.1.2 Content</h3>
+<h3><a href="ch4-1">4.1.2 Content</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <b>4.1 Introduction:</b> You will now begin learning how to fix your Web
 page when it's not doing what you hoped it would do.
@@ -8572,7 +8572,7 @@ the browser to understand conflicting rules.
 <b>4.5 Give Your Mind a Workout:</b> Let’s see what you have learned about
 debugging your code.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch4-2-1">4.2.1 Tools</h3>
+<h3><a href="ch4-2-1">4.2.1 Tools</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 It's hard to overestimate the value of tools for programming languages.
 There are tools for creation, testing, debugging and even measuring the
@@ -8656,7 +8656,7 @@ including Microsoft Edge and Firefox.  Note that if all browsers are
 likely to have similar capabilities, the user interface may be a bit
 different.  Feel free to use whichever "Developers Tools" you prefer.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch4-2-2">4.2.2 Identifying HTML5 elements</h3>
+<h3><a href="ch4-2-2">4.2.2 Identifying HTML5 elements</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Remember that elements are the intangible parts of your Web page, which
 are described by the text in tags and are rendered on the screen of
@@ -8739,7 +8739,7 @@ navigate to another page and come back, you'll need to make the same
 changes again if you want to get back to where you were. It's not that
 easy to break the Web!
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch4-3-1">4.3.1 CSS box model</h3>
+<h3><a href="ch4-3-1">4.3.1 CSS box model</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Before we get too far into debugging, it's helpful to understand a
 couple of things about CSS more deeply.
@@ -8932,7 +8932,7 @@ rounded corners using the border-radius setting:
   alt="Image showing the 3 blocks with rounded borders, different thickness for their borders and keeping a thin border around their texts Block 1&#39;, &#39;Block 2&#39;, &#39;Block 3&#39;." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch4-3-2">4.3.2 Debugging with the box model</h3>
+<h3><a href="ch4-3-2">4.3.2 Debugging with the box model</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 In any browser's debugger, you will see a box model diagram. It looks
 like this:
@@ -8967,13 +8967,13 @@ In the example above:
 </ul>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch4-3-3">4.3.3 Box model</h3>
+<h3><a href="ch4-3-3">4.3.3 Box model</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 MS Edge….
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch4-4-1">4.4.1 CSS Precedence</h3>
+<h3><a href="ch4-4-1">4.4.1 CSS Precedence</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 As we learned in the last module, in order for the computer to decide
 which of several rules may apply to a given element in a particular
@@ -9124,7 +9124,7 @@ font-size: 2rem;
 What happened? To answer that question, we'll turn to the browser's
 debugger.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch4-4-2">4.4.2 Debugging CSS Precedence</h3>
+<h3><a href="ch4-4-2">4.4.2 Debugging CSS Precedence</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 This lesson is using developer tools provided by the Chrome browser.
 
@@ -9269,7 +9269,7 @@ font-size:1.2rem;
 </details>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch4-4-3">4.4.3 Cloud images</h3>
+<h3><a href="ch4-4-3">4.4.3 Cloud images</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 We're working on a Web page about clouds in
 the <a href="https://codepen.io/w3devcampus/pen/ybqbwJ" target="_blank">CodePen</a> below, and we
@@ -9506,7 +9506,7 @@ There is still the issue of things not being laid out nicely, you'll
 learn more about that in the module 6.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch4-4-4">4.4.4 Shrinking Text</h3>
+<h3><a href="ch4-4-4">4.4.4 Shrinking Text</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 For this section you can play with
@@ -9651,7 +9651,7 @@ html font-size (the default font-size for the page), not to it's
 surroundings.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch4-4-5">4.4.5 Recipe Project</h3>
+<h3><a href="ch4-4-5">4.4.5 Recipe Project</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 We are now going to do some more "beautifying" of our Web page using
@@ -9936,7 +9936,7 @@ Pizza, the king of comfort foods. Try this simple, taste sensation.
 </details>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch5">Welcome to Module 5</h2>
+<h2><a href="ch5">Welcome to Module 5</a></h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 85. more html5 and css3 (210) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9947,7 +9947,7 @@ Pizza, the king of comfort foods. Try this simple, taste sensation.
 </p>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-1-2">5.1.2 Module 5 - Content</h3>
+<h3><a href="ch5-1-2">5.1.2 Module 5 - Content</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <b>5.1 Introduction: </b>You will be combining HTML and CSS to create more
@@ -9971,7 +9971,7 @@ making awesome Web pages.
 for cleaner, easier coding.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-1-3">5.1.3 A World of Possibilities</h3>
+<h3><a href="ch5-1-3">5.1.3 A World of Possibilities</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 In Module 1, we learned the basics of HTML5. It's a fairly simple
 format, just a tree full of elements, which are described by tags,
@@ -9987,7 +9987,7 @@ of CSS presents a world of possibilities. In this module, we'll delve
 into some of those interesting possibilities. 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-2-1">5.2.1 Introduction to Tables</h3>
+<h3><a href="ch5-2-1">5.2.1 Introduction to Tables</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Using tables to organize information goes back a way.  A long way. Three
 or four thousand years ago, Sumerians were using [tables to calculate
@@ -10129,7 +10129,7 @@ understanding the content or use assistive technology.
 </details>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-2-2">5.2.2 The &lt;tr&gt;, &lt;th&gt;, &lt;td&gt;, &lt;colgroup&gt;, &lt;col&gt; tags</h3>
+<h3><a href="ch5-2-2">5.2.2 The &lt;tr&gt;, &lt;th&gt;, &lt;td&gt;, &lt;colgroup&gt;, &lt;col&gt; tags</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Let's now create a basic table with a few cells.
@@ -10306,7 +10306,7 @@ achieve styling effects specific to a column. 
   alt="Colored column headers." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-2-3">5.2.3 The &lt;thead&gt;, &lt;tbody&gt; and &lt;tfoot&gt; tags</h3>
+<h3><a href="ch5-2-3">5.2.3 The &lt;thead&gt;, &lt;tbody&gt; and &lt;tfoot&gt; tags</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Similar to an HTML document, a table in HTML can be split into header,
 body and footer. We use these three tags;
@@ -10438,7 +10438,7 @@ considered footer rows at the end of a table:
 </p>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-2-4">5.2.4 Styling your table</h3>
+<h3><a href="ch5-2-4">5.2.4 Styling your table</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 We now know how to put a basic table together. However, the tables we
 have looked at so far could really use some work in terms of how they
@@ -11423,7 +11423,7 @@ on this W3C <a href="https://www.w3.org/WAI/tutorials/tables/" target="_blank">
 Concepts</a> page.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-2-5">5.2.5 Creating a Table</h3>
+<h3><a href="ch5-2-5">5.2.5 Creating a Table</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Let's take a look at how to work with tables and manipulate the table
 styling within an HTML document.
@@ -11783,7 +11783,7 @@ And then using CSS, how to apply some styling to make your tables look a
 little more visually appealing inside your document.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-2-6">5.2.6 Activities - Tables</h3>
+<h3><a href="ch5-2-6">5.2.6 Activities - Tables</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 1.  Create a simple 3x3 table with the first row containing header
     cells. You may choose not to add any styling including border. 
@@ -11820,7 +11820,7 @@ little more visually appealing inside your document.
     color of a row 'yellow' when you hover over a table row.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-3-1">5.3.1 The &lt;audio&gt; element</h3>
+<h3><a href="ch5-3-1">5.3.1 The &lt;audio&gt; element</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 audio and video are new HTML 5 elements that were highly anticipated.
 With HTML5 support for multimedia, this has become much easier, than
@@ -11955,7 +11955,7 @@ The following table lists the &lt;source&gt; element's attributes:
   alt="Source element attributes." />
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-3-2">5.3.2 The &lt;video&gt; Element</h3>
+<h3><a href="ch5-3-2">5.3.2 The &lt;video&gt; Element</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 You can use the video element to embed video in your page. You can
 specify the location of your video file using the src attribute
@@ -12075,7 +12075,7 @@ to choose apart from video element and browser compatibility:
     you do that. 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-3-3">5.3.3 Video – Source and Track Elements</h3>
+<h3><a href="ch5-3-3">5.3.3 Video – Source and Track Elements</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 The source element that we saw in the previous unit is also used to
 specify multiple source files for the video element. The &lt;source&gt; tag
@@ -12153,9 +12153,9 @@ your &lt;video&gt; tag like this:
   alt="Track Element's attributes." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-3-4">5.3.4 Audio and Video Elements</h3>
+<h3><a href="ch5-3-4">5.3.4 Audio and Video Elements</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-4-1">5.4.1 The iframes tag (OPTIONAL)</h3>
+<h3><a href="ch5-4-1">5.4.1 The iframes tag (OPTIONAL)</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <i><b>Note:</b> This section is optional material included for the curious.
 It will not appear on any graded question.</i>
@@ -12309,7 +12309,7 @@ However, there can be some disadvantages:
     content in your iframes. This doesn't help your search ranking. 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-4-2">5.4.2 The ismap and usemap attributes (OPTIONAL)</h3>
+<h3><a href="ch5-4-2">5.4.2 The ismap and usemap attributes (OPTIONAL)</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <b>Note:</b> This section is optional material included for the curious.
 It will not appear on any graded question.
@@ -12492,7 +12492,7 @@ Note: If the &lt;img&gt; is inside an &lt;a&gt; or &lt;button&gt; element,
 on it will be interpreted as clicking on the link or button and usemap
 will not work.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-4-3">5.4.3 Activities - Embedding content (OPTIONAL)</h3>
+<h3><a href="ch5-4-3">5.4.3 Activities - Embedding content (OPTIONAL)</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 1.  How can you inform screen readers that you are using an iframe in
@@ -12509,7 +12509,7 @@ will not work.
 What happens? Why does it behave the way it does?
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-5-1">5.5.1 Decorative images and backgrounds</h3>
+<h3><a href="ch5-5-1">5.5.1 Decorative images and backgrounds</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 As we saw earlier, the &lt;img&gt; tag is meant to be used for semantically
 important imagery.  For example, the pictures that accompany a news
@@ -12708,7 +12708,7 @@ style="width:5in;height:1.82425in" />
 -->
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-5-2">5.5.2 Decorative borders and shadows</h3>
+<h3><a href="ch5-5-2">5.5.2 Decorative borders and shadows</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 In the previous sub-section, we looked at decorative backgrounds and
 images. We will continue this theme by examining decorative borders and
@@ -12879,7 +12879,7 @@ text-shadow:  <x-offset> <y-offset> <blur> <color>;
 style="width:6.5in;height:0.91458in" />
 -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-5-3">5.5.3 Managing element size</h3>
+<h3><a href="ch5-5-3">5.5.3 Managing element size</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 As you start to leverage borders, background colors, and the other
 decorative CSS properties we have seen in the previous sections you will
@@ -12988,7 +12988,7 @@ next module. Here is a quick rundown:
     reduce its usefulness to you and your viewer.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-5-4">5.5.4 Pseudo classes and cursor (OPTIONAL)</h3>
+<h3><a href="ch5-5-4">5.5.4 Pseudo classes and cursor (OPTIONAL)</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Refined CSS selectors - pseudo classes</h4>
 
@@ -13115,7 +13115,7 @@ For more information, please visit the [MDN page on
 cursor](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor).
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-5-5">5.5.5 CSS best practices (OPTIONAL)</h3>
+<h3><a href="ch5-5-5">5.5.5 CSS best practices (OPTIONAL)</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 You will find below an excerpt of CSS best practices (see the [full
 slide
@@ -13278,7 +13278,7 @@ Absolute units are usually the wrong answer.
 -   Provide fallbacks / use @supports.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-5-6">5.5.6 Recipe project - Module 5</h3>
+<h3><a href="ch5-5-6">5.5.6 Recipe project - Module 5</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Let's up some of our code, as well as improve the look and feel of our
 Web page! Try moving all of your CSS code to a separate file (don't
@@ -13293,7 +13293,7 @@ and amounts.
 Give it a try, and when you're done (or if you get stuck), watch the
 next video to see what we did.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-5-7">5.5.7 Recipe project - Module 5</h3>
+<h3><a href="ch5-5-7">5.5.7 Recipe project - Module 5</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 In this next session, we're going to take a look at continuing the work
 on a recipe project.
@@ -13481,7 +13481,7 @@ them out into a separate CSS file, linked that to the HTML document, and
 then applied some styling using class names to our table giving a little
 more visual appeal to that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch6">Welcome to Module 6</h2>
+<h2><a href="ch6">Welcome to Module 6</a></h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Hi, and welcome to Module 6.
 
@@ -13504,7 +13504,7 @@ This is the last module of this course.
 We hope you have enjoyed the course and have gained new skills and up
 and ready to build great Web pages.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch6-1-2">6.1.2 Module 6 - Content</h3>
+<h3><a href="ch6-1-2">6.1.2 Module 6 - Content</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <b>6.1 Introduction:</b> Understanding what "layout" means to your Web
 programming.
@@ -13528,7 +13528,7 @@ in CSS.
 <b><i>6.6 Recipe project:</i></b> Let's get "responsive" — how to make your Web
 page look good on differently sized devices.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch6-1-3">6.1.3 History of layout</h3>
+<h3><a href="ch6-1-3">6.1.3 History of layout</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Before we get started working on the topic of layout directly, it is
 useful to understand a bit of HTML and CSS history.  
@@ -13580,7 +13580,7 @@ this and go straight to flexbox. After many stumbles, flexbox finally
 brings sanity to the much needed world of layout in CSS.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch6-2-1">6.2.1 Text baseline and the display property</h3>
+<h3><a href="ch6-2-1">6.2.1 Text baseline and the display property</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 When newbie developers are groping around CSS blindly, they often
 stumble upon a variety of CSS properties that could be used to alter the
@@ -13792,7 +13792,7 @@ grasp on which elements default to which display value and appreciating
 the differences between block, inline, and inline-block display.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch6-2-2">6.2.2 Horizontal and vertical centering</h3>
+<h3><a href="ch6-2-2">6.2.2 Horizontal and vertical centering</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <b>Horizontal centering</b>
 
@@ -13866,7 +13866,7 @@ complicated systems that folk have developed, but the shortest and best
 answer to vertical centering: use flexbox. 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch6-2-3">6.2.3 Key concept: position property</h3>
+<h3><a href="ch6-2-3">6.2.3 Key concept: position property</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 The 'left', 'top', 'right', and 'bottom' properties
 
@@ -13991,7 +13991,7 @@ grow or shrink based on the size of the browser window.  Note that this
 feature is only available to fixed (and absolute) elements.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch6-2-4">6.2.4 Positioning (OPTIONAL)</h3>
+<h3><a href="ch6-2-4">6.2.4 Positioning</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <b>Note:</b> This section is optional material included for the curious. It
 will not appear on any graded question.
@@ -14290,7 +14290,7 @@ against.  Note that this feature is only available to absolute and fixed
 positioned elements.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch6-2-5">6.2.5 'z-index' (OPTIONAL)</h3>
+<h3><a href="ch6-2-5">6.2.5 'z-index'</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <b>Note</b>: this section is optional material included for the curious. It
 will not appear on any graded question.
@@ -14363,7 +14363,7 @@ further out in the document.
 </p>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch6-2-6">6.2.6 Activity - Block vs. inline</h3>
+<h3><a href="ch6-2-6">6.2.6 Activity - Block vs. inline</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 We've provided you with a starter project file. The code is included below in a CodePen:
 This simple file has two block level elements (the paragraphs) and two spans, which are inline. Additionally, there are several classes defined for you.
@@ -14395,7 +14395,7 @@ Play some more with the elements, trying to appreciate how block and inline elem
 <b>NOTE:</b> Please do not upload HTML code to the discussion forum.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch6-3-1">6.3.1 Sizing and dimensions</h3>
+<h3><a href="ch6-3-1">6.3.1 Sizing and dimensions</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 We have already touched on the size properties in the various
 discussions about display and positioning. But here we'll cover them
@@ -14603,7 +14603,7 @@ that the more you are directly managing the size of items, the more
 likely you will need to change the box-sizing property to
 be border-box.  
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch6-3-2">6.3.2 Flexbox</h3>
+<h3><a href="ch6-3-2">6.3.2 Flexbox</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Up to this point, we have covered quite a few different CSS layout
 concepts. Inline vs. block level display, different position values,
@@ -14812,7 +14812,7 @@ the box-sizing to border-box.  However, this is not advisable. Read
 the flex-shrink discussion above.  
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch6-3-3">6.3.3 Flexbox advice and best practices</h3>
+<h3><a href="ch6-3-3">6.3.3 Flexbox advice and best practices</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Here are some quick tips to help you get the most out of flexbox.
 
@@ -14904,7 +14904,7 @@ as many browsers as possible.
   (by Rachel Andrew - 2 August 2018)</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch6-4-1">6.4.1 Main and cross axes</h3>
+<h3><a href="ch6-4-1">6.4.1 Main and cross axes</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <b>Note</b>: This material is included for completeness. However, many are
 able to use flexbox satisfactorily without it. None of the material here
@@ -15009,7 +15009,7 @@ start" and "main end" sides (as in the illustration above).   When used
 with any of the flexbox align properties, flex-start and flex-end refer
 to the "cross start" and "cross end"  sides.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch6-4-2">6.4.2 Justification and alignment</h3>
+<h3><a href="ch6-4-2">6.4.2 Justification and alignment</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <b>Note</b>: This material is included for completeness. However, many are
 able to use flexbox satisfactorily without it. None of the material here
@@ -15174,7 +15174,7 @@ their align-self property set.
   alt="Flex Container with flex-flow and align." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch6-4-3">6.4.3 Order</h3>
+<h3><a href="ch6-4-3">6.4.3 Order</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <b>Note</b>: This material is included for completeness. However, many are
 able to use flexbox satisfactorily without it. None of the material here
@@ -15210,7 +15210,7 @@ the order value of 1, the second is 2, etc.  And you can override it.
   alt="Order property in flex box." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch6-4-4">6.4.4 Flexbox resources</h3>
+<h3><a href="ch6-4-4">6.4.4 Flexbox resources</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>CSS flexbox resources</h4>
 
@@ -15222,7 +15222,7 @@ the order value of 1, the second is 2, etc.  And you can override it.
 </ul>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch6-5-1">6.5.1 CSS Grid Layout</h3>
+<h3><a href="ch6-5-1">6.5.1 CSS Grid Layout</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Have a look at how CSS Grid Layout went from an idea to a reality. The short video below has 
 been shot in August 2017 by the Microsoft team. It features some of the CSS Working Group participants:
@@ -15270,7 +15270,7 @@ It's not just something we're talking about, they can go use it.
 We should've maybe pushed more, I think.
 The grid is something we should have had, probably from very early on, maybe from the start of CSS already.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch6-5-2">6.5.2 CSS Grid</h3>
+<h3><a href="ch6-5-2">6.5.2 CSS Grid</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Have a look at how CSS Grid Layout went from an idea to a reality. The
 video below has been shot in August 2017 by the Microsoft team. It
@@ -15345,7 +15345,7 @@ Style Sheets</a> and <a href="https://constraints.cs.washington.edu/web/ccss-u
 
 But only recently has technology become good enough to support some (not all!) of those ideas.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch6-5-3">6.5.3 CSS Grid resources</h3>
+<h3><a href="ch6-5-3">6.5.3 CSS Grid resources</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 If you look at the CSS Grid module, you may notice that it has rather a
 large number of properties.  That is because it tries to allow different manners of 
@@ -15363,9 +15363,9 @@ On the other hand, even for a single row or column, the Grid properties may turn
    <li><a href="https://www.w3.org/TR/css-grid-1/" target="_blank">CSS Grid</a>, the W3C specification -   <a href="https://gridbyexample.com/" target="_blank">Grid by example</a>: this site is a collection of <i>examples</i>, video and other information to help you learn CSS <i>Grid Layout - by Rachel Andrew</i>.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch6-6-1">6.6.1 Recipe project - Module 6</h3>
+<h3><a href="ch6-6-1">6.6.1 Recipe project - Module 6</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch6-6-2">6.6.2 Recipe project</h3>
+<h3><a href="ch6-6-2">6.6.2 Recipe project</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>In this next iteration of our recipe project, we're going to make a few changes again to our Web 
 page using cascading style sheets.
@@ -15460,4 +15460,4 @@ These are the final changes to our recipe project for this unit.
 
 <h6>The end...</h6>
 
-<h4><b>Last Updated 08-31-2023 4:46pm</b></h4>
+<h4><b>Last Updated 09-26-2023 4:46pm</b></h4>
