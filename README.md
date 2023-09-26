@@ -3649,7 +3649,6 @@ Semantic refers to the meaning of words in a language. <b>Semantic
 tags</b> said something about the semantic of the tag. It offered
 meaning.
 
-a
 <table>
 <colgroup>
 <col style="width: 18%" />
@@ -3730,11 +3729,11 @@ sentences below out loud, stressing on the emphasized words: 'you' and
 
 You have to go to the store.
 
-                    Not me. That’s your job! 
+Not me. That’s your job! 
 
 You have to go to the store.
 
-                    To the store. Not the arcade.
+To the store. Not the arcade.
 
 <h4>Changes in HTML5</h4>
 
@@ -3746,9 +3745,9 @@ So how did &lt;i&gt; and &lt;b&gt;, purely style elements make the cut? 
 They were initially deprecated, however, in HTML5, they were brought
 back. This time, with semantic meaning.
 
-| &lt;i&gt; | Apart from italic text, it is now also used for text in a different mood or voice, such as foreign words, a thought or technical terms.                                                                          | <p>This restaurant has a breakfast buffet and a four course <i lang="fr"><b>À la carte</b></i> dinner.</p>
-|-------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| &lt;b&gt; | Apart from bolded text, it is now also used as a stylistic offset such as keywords in a document, product names or action words without making them as important. It can also be used as headings in list items. | <p>The owner of this <b>rabbit</b> and <b>hamster</b> needs to step forward.</p>         |
+| &lt;i&gt; | Apart from italic text, it is now also used for text in a different mood or voice, such as foreign words, a thought or technical terms.                                                                          |
+|-------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| &lt;b&gt; | Apart from bolded text, it is now also used as a stylistic offset such as keywords in a document, product names or action words without making them as important. It can also be used as headings in list items. |
 
 As of HTML5, &lt;em&gt; is now also used for words and sentences you would
 pronounce differently. It is not used to convey importance. For that you
@@ -15460,4 +15459,4 @@ These are the final changes to our recipe project for this unit.
 
 <h6>The end...</h6>
 
-<h4><b>Last Updated 09-26-2023 4:46pm</b></h4>
+<h4><b>Last Updated 09-26-2023 12:20pm</b></h4>
