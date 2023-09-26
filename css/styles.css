@@ -187,6 +187,15 @@ body {
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {background-color: #398e41;} /* dark moderate lime green */
 
+th, td {
+  border: 1px solid black;
+}
+table {
+  border-collapse: collapse;
+  margin-left: 15px;
+  border: 1px solid black;
+}
+
 @media screen and (max-width: 900px) and (min-width: 600px), (min-width: 1100px) {
   div.example {
     font-size: 50px;
