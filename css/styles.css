@@ -1,9 +1,11 @@
 /* styles.css of w3cx-2of5 */
+/*
 @media only screen and
 {(max-width:480px;) {
    img {width: 100%;
    }
  }
+*/
 
 img.displayed {
   display: block;
