@@ -1129,7 +1129,7 @@ marketplace.</p>
 Extensions”. And a panel is opened beside the editor which will allow us to search
 for extensions in the marketplace.</p>
 <p>Here, I’ll type in the word “browser”.</p>
-And we’ll get a lot of different extensions related to browser listed
+<p>And we’ll get a lot of different extensions related to browser listed
 here.
 I encourage you to look through some of these, look at the ratings
 and figure out for yourself which extensions you’d like to install.
@@ -2904,9 +2904,9 @@ the <a href="https://www.iana.org/assignments/language-subtag-registry" target="
 Language Subtag Registry</a>. Multiple subtags are separated by
 hyphens.  (Do <b>not</b> use the ISO lists of languages and countries!
 Those lists are already subsets of the IANA registry.) You may find it
-easier to look up subtags using the
-unofficial <a href="https://r12a.github.io/app-subtags/ tool" target="_blank" rel="noopener noreferrer">Language
-Subtag Lookup</a></p>
+easier to look up subtags using the unofficial 
+<a href="https://r12a.github.io/app-subtags/tool" target="_blank" rel="noopener noreferrer">
+Language Subtag Lookup</a></p>
 <p>You should <b>always declare the language of your page in the
 &lt;html&gt; tag</b>.  You can also declare the language of content
 within the page by attaching a lang attribute to an element that
@@ -4437,20 +4437,20 @@ information to be aware of.
 <ul>
   <li><b>Image data:</b> most images, especially JPEG, contain a lot more data than is 
     needed for a browser and are too often overly large and slow.  You can reduce the 
-	size of the image using photo editing software that allows you to re-sample an image 
-	to reduce its pixel data and in turn reducing image size. However, once you re-sample 
-	an image, do not make change its size (height and width) to make it larger as it will 
-	become pixelated and blurry.</li>
+    size of the image using photo editing software that allows you to re-sample an image 
+    to reduce its pixel data and in turn reducing image size. However, once you re-sample 
+    an image, do not make change its size (height and width) to make it larger as it will 
+    become pixelated and blurry.</li>
   <li><b>JPEG</b> (Joint Photographic Experts Group) images compress well and are the 
     standard for photos. But they don’t support any sort of animation or transparency.</li>
   <li><b>PNG</b> (Portable Network Graphics) images support transparency and alpha channels. 
     This makes them useful for non-rectangular images that may need to overlay different 
-	background colors or other elements on the page. To make PNG images, a user would need 
-	graphics editing software (like GIMP, Photoshop, or others). PNG is a 
-	<a href="https://www.w3.org/TR/PNG/" target="_blank" rel="noopener noreferrer">
-	W3C Web standard</a> (this is the 2nd edition - the 1st edition was 
-	<a href="https://www.w3.org/TR/REC-png-961001" target="_blank" rel="noopener noreferrer">
-	published</a> in 1996!).</li>
+    background colors or other elements on the page. To make PNG images, a user would need 
+    graphics editing software (like GIMP, Photoshop, or others). PNG is a 
+    <a href="https://www.w3.org/TR/PNG/" target="_blank" rel="noopener noreferrer">
+    W3C Web standard</a> (this is the 2nd edition - the 1st edition was 
+    <a href="https://www.w3.org/TR/REC-png-961001" target="_blank" rel="noopener noreferrer">
+    published</a> in 1996!).</li>
   <li><b>SVG</b> (Scalable Vector Graphics) are defined mathematically and support animation. 
     Also, since they are defined mathematically  they scale to:</li>
 </ul>
@@ -4950,20 +4950,25 @@ Mail to Authors with Subject</a></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>The 'href' attribute</h4>
 
-<p>The only attribute we have seen thus far in this chapter of hyperlinks is href.</p>
+<p>The only attribute we have seen thus far in this chapter of hyperlinks is href.
 href points to the URL that the link should jump to.  Though it is an optional attribute, 
 without it, the &lt;a&gt; tag will not be a hyperlink because it obviously has no idea 
-where to jump to.</p>
-<p>The href attribute takes a URL.  This URL can be in the form of:</p>
+where to jump to. The href attribute takes a URL.  This URL can be in the form of:</p>
 
 <ul>
-  <li>A link to an external Web site also known as <a target="_blank" rel="noopener noreferrer"  href="https://www.differencebetween.com/difference-between-an-absolute-and-vs-a-relative-url/">absolute URL</a>.</li>
+  <li>A link to an external Web site also known as 
+    <a target="_blank" rel="noopener noreferrer" 
+    href="https://www.differencebetween.com/difference-between-an-absolute-and-vs-a-relative-url/">
+    absolute URL</a>.</li>
 </ul>
 
 <pre>&lt;a href=&quot;https://qwant.com&quot;&gt;&lt;/a&gt;</pre>
 
 <ul>
-  <li>A link to a file or page within the same Web site also known as <a target="_blank" rel="noopener noreferrer" href="https://www.differencebetween.com/difference-between-an-absolute-and-vs-a-relative-url/">relative URL</a>.</li>
+  <li>A link to a file or page within the same Web site also known as <a target="_blank" 
+    rel="noopener noreferrer" 
+    href="https://www.differencebetween.com/difference-between-an-absolute-and-vs-a-relative-url/">
+    relative URL</a>.</li>
 </ul>
 
 <pre>&lt;a href=&quot;contacts.html&quot;&gt;&lt;/a&gt;</pre>
