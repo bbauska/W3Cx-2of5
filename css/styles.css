@@ -53,6 +53,10 @@ pre > code {
   padding: 1rem;
   word-wrap: normal;
 }
+pre[href]:hover  {
+  text-decoration: none;
+}
+pre:hover, pre:focus { width: min-content; }
 
 a:link {
   color: #013220;  /* very dark green */
@@ -65,15 +69,10 @@ a:visited {
   text-decoration: none;
 }
 a:hover {
-  color: #00000;
+  color: #000000;
   background-color: #ffff00;  /* yellow */
   text-decoration: underline;
 }
-
-pre[href]:hover  {
-  text-decoration: none;
-}
-pre:hover, pre:focus { width: min-content; }
 
 div {
   float: left;
