@@ -7984,11 +7984,10 @@ It isn't unusual to see multiple classes joined this way as well:
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 56. combining classes (164) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image056.webp?raw=true"
   width="65%"
-  alt="." />
+  alt="Combining classes." />
 </p>
 
 <h4>Descendant selectors</h4>
@@ -9689,95 +9688,95 @@ color: white;
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>My Favorite Recipes - Module 4</title>
-<style>
-nav{
-background: lightgreen;
-width: 20em;
-}
-img{
-width: 400px;
-border: 5px solid black;
-padding: 10px;
-}
-article{
-margin-left: 40px;
-}
-h1{
-background: #4c6d48;
-text-align:center;
-margin:0px;
-}
-nav ul{
-padding-left: 25px;
-}
-body {
-margin: 0px;
-}
-</style>
+  <meta charset="UTF-8">
+  <title>My Favorite Recipes - Module 4</title>
+  <style>
+    nav{
+      background: lightgreen;
+      width: 20em;
+    }
+    img{
+      width: 400px;
+      border: 5px solid black;
+      padding: 10px;
+    }
+    article{
+      margin-left: 40px;
+    }
+    h1{
+      background: #4c6d48;
+      text-align:center;
+      margin:0px;
+    }
+    nav ul{
+      padding-left: 25px;
+    }
+    body {
+      margin: 0px;
+    }
+  </style>
 </head>
 <body>
-<h1>My Favorite Recipes</h1>
-<nav>
-<ul>
-<li><a href="#soup">Soup</a></li>
-<li><a href="#salad">Salad</a></li>
-<li><a href="#pizza">Pizza</a></li>
-</ul>
-</nav>
-<article id="soup">
-<h2>Soup</h2>
-<img
-src="https://upload.wikimedia.org/wikipedia/commons/2/22/Bol_soupe_bicolore.jpg"
-alt="soup image" width="320">
-<p>
-Beethoven once said <q>Only the pure of heart can make a good
-soup</q>. Well, here's my attempt at doing just that!
-</p>
-<ol>
-<li>Step 1</li>
-<li>Step 2</li>
-<li>Step 3</li>
-<li>Enjoy!</li>
-</ol>
-</article>
-<article id="salad">
-<h2>Salad</h2>
-<img
-src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Caesar_salad_%281%29.jpg/320px-Caesar_salad_%281%29.jpg"
-alt="salad image" width=320>
-<h3>List of ingredients</h3>
-<ul>
-<li>Ingredient 1</li>
-<li>Ingredient 2</li>
-<li>Ingredient 3</li>
-</ul>
-<p>
-Who can resist a fresh salad ! Here's one of my favorites.
-</p>
-> <ol>
-<li>Step 1</li>
-<li>Step 2</li>
-<li>Step 3</li>
-<li>Enjoy!</li>
-</ol>
-</article>
-<article id="pizza">
-<h2>Pizza</h2>
-<img
-src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Margherita_Originale.JPG/320px-Margherita_Originale.JPG"
-alt="pizza image" width=320>
-<p>
-Pizza, the king of comfort foods. Try this simple, taste sensation.
-</p>
-<ol>
-<li>Step 1</li>
-<li>Step 2</li>
-<li>Step 3</li>
-<li>Enjoy!</li>
-</ol>
-</article>
+  <h1>My Favorite Recipes</h1>
+  <nav>
+    <ul>
+      <li><a href="#soup">Soup</a></li>
+      <li><a href="#salad">Salad</a></li>
+      <li><a href="#pizza">Pizza</a></li>
+    </ul>
+  </nav>
+  <article id="soup">
+    <h2>Soup</h2>
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/2/22/Bol_soupe_bicolore.jpg"
+      alt="soup image" width="320">
+      <p>
+      Beethoven once said <q>Only the pure of heart can make a good
+        soup</q>. Well, here's my attempt at doing just that!
+      </p>
+    <ol>
+      <li>Step 1</li>
+      <li>Step 2</li>
+      <li>Step 3</li>
+      <li>Enjoy!</li>
+    </ol>
+  </article>
+  <article id="salad">
+    <h2>Salad</h2>
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Caesar_salad_%281%29.jpg/320px-Caesar_salad_%281%29.jpg"
+      alt="salad image" width=320>
+    <h3>List of ingredients</h3>
+    <ul>
+      <li>Ingredient 1</li>
+      <li>Ingredient 2</li>
+      <li>Ingredient 3</li>
+    </ul>
+    <p>
+      Who can resist a fresh salad ! Here's one of my favorites.
+    </p>
+    <ol>
+      <li>Step 1</li>
+      <li>Step 2</li>
+      <li>Step 3</li>
+      <li>Enjoy!</li>
+    </ol>
+  </article>
+  <article id="pizza">
+    <h2>Pizza</h2>
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Margherita_Originale.JPG/320px-Margherita_Originale.JPG"
+      alt="pizza image" width=320>
+    <p>
+      Pizza, the king of comfort foods. Try this simple, taste sensation.
+    </p>
+    <ol>
+      <li>Step 1</li>
+      <li>Step 2</li>
+      <li>Step 3</li>
+      <li>Enjoy!</li>
+    </ol>
+  </article>
 </body>
 </html>
 ```
@@ -13103,10 +13102,10 @@ W3C.
 <b>Test in multiple browsers:</b>
 Your favorite browser is not always right.
 <ul>
-<li><b>Don't use proprietary features!</b><br/>
+  <li><b>Don't use proprietary features!</b><br/>
     Keep the Web open to everyone! Don't rely on the latest -WebKit-
     invention.</li><br/>
-<li><b>Turn off CSS:</b><br/>&nbsp;
+  <li><b>Turn off CSS:</b><br/>&nbsp;
     A well-coded page will be understandable without it.</li>
 </ul>
 
@@ -13650,16 +13649,13 @@ Below we see a span that has padding, margin-top, and background-color
 applied, but no extra room is being made for it above or below, so its
 background is overlapping the lines above and below.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 136.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 136. set line-height of span (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image136.webp?raw=true"
   width="65%"
-  alt="." />
+  alt="Set line-height of span." />
 </p>
-<!--
-style="width:6.5in;height:1.52708in" />
--->
 
 Here we prevent the overlap by setting the line-height of the span.
 However, this solution should not be considered optimal.  Better is to
