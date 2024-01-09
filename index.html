@@ -3135,7 +3135,6 @@ back. This time, with semantic meaning.</p>
       <th style="text-align:left;">&lt;i&gt;</th>
       <th style="text-align:left;">Apart from italic text, it is now also used for text in a different
       mood or voice, such as foreign words, a thought or technical terms.</th>
-      <th style="text-align:left;"></th>
     </tr>
   </thead>
   <tbody>
@@ -3144,7 +3143,6 @@ back. This time, with semantic meaning.</p>
       <td>Apart from bolded text, it is now also used as a stylistic offset
         such as keywords in a document, product names or action words without
        making them as important. It can also be used as headings in list items.</td>
-      <td></td>
     </tr>
   </tbody>
 </table>
@@ -3159,7 +3157,7 @@ produce appropriate styling for some parts of the world. For example,
 Chinese characters are so complicated that they often prefer something
 such as underlining to bold, because bold makes it too difficult to read
 the text.</p>
-<p>If you do use &lt;b&gt; or &amp;lti&gt; tags, the HTML5 specification
+<p>If you do use &lt;b&gt; or &lt;i&gt; tags, the HTML5 specification
 recommends that you also use class attributes to identify the semantic
 intention of the markup. This can be particularly important for pages
 that get translated, since styling doesn’t necessarily map to the same
@@ -5459,21 +5457,24 @@ adoption rate.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Let’s see CSS in action. Below, we see two identical copies of HTML,
 however, styled differently.</p>
-<p>Here is the HTML:</p>
+
+<h4>Here is the HTML:</h4>
 
 <ol type="1">
   <li>She looked over the top of her book and whispered &lt;q&gt;I’m hungry.&lt;/q&gt; My heart stopped.</li>
 </ol>
 
 <p>And now two very different looks:</p>
-<p>She looked over the top of her book and whispered I’m hungry. My heart stopped.</p>
+
+<p style="font-family: Helvetica;color: darkgreen; font-size: 14.5px;">
+She looked over the top of her book and whispered I’m hungry. My heart stopped.</p>
 
 <blockquote>
-She looked over the top of her book and whisperedi’m hungry.My heart stopped.
+She looked over the top of her book and whispered I’m hungry. My heart stopped.
 </blockquote>
 
-<p>Both of these use the exact same HTML. It is the CSS that makes them
-so different. So let’s get started.</p>
+<p>Both of these use the exact same HTML. It is the CSS that makes them so different. 
+So let’s get started.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 3.2.1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-2-1">3.2.1 The &lt;style&gt; and &lt;link&gt; tags - CSS basic syntax</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5699,36 +5700,28 @@ poem which is being held in this fantastic paragraph tag.</p>
   style="width:25%;" >
 
 <p>Before we get started, let’s just take a look at what this looks like
-here in the Microsoft Edge.</p>
-<p>And you can see it’s pretty straightforward.</p>
-<p>We’ve got our title, we’ve got author, and the poem of course.</p>
-<p>But I think this looks a little bit boring.</p>
-<p>Let’s change the way that this looks.</p>
-<p>The first thing I want to do is make all the text a little bit
-bigger.</p>
-<p>I’m going to do that.</p>
-<p>I’m going to create a new sort of default text size such that
+here in the Microsoft Edge. And you can see it’s pretty straightforward.
+We’ve got our title, we’ve got author, and the poem of course.
+But I think this looks a little bit boring.
+Let’s change the way that this looks.</p>
+
+<p>The first thing I want to do is make all the text a little bit bigger.
+I’m going to do that. I’m going to create a new default text size such that
 everything in the file is now a little bit bigger, and that everything
-relative to that will be bigger as well.</p>
-<p>I’m going to do that by creating a new rule for both body and
-html.</p>
-<p>I like to do both here because it eliminates some of the
-confusion.</p>
-<p>Different browsers have different ways of interpreting what is going
-to be sort of the default rule.</p>
+relative to that will be bigger as well. I’m going to do that by creating a new 
+rule for both body and html. I like to do both here because it eliminates some 
+of the confusion. Different browsers have different ways of interpreting what 
+is going to be sort of the default rule.</p>
+
 <p>If you just do both like this, it’ll be of ubiquitous in the way that
-it handles relative size.</p>
-<p>Let’s just say we want to make a new font size.</p>
-<p>I don’t know… 20 pixels.</p>
-<p>You could see that Visual Studio Code give me some handy tips for
-things that I might be talking about as soon as I typed in the word
-font, which is nice because CSS has such a huge vocabulary.</p>
-<p>It’s good that you don’t have to memorize every single little
-attribute.</p>
-<p>We’ve changed just to 20.</p>
-<p>Let’s open up the file again and see how that looks.</p>
-<p>You can see it’s a little bit bigger, but I want to make this 25.</p>
-<p>It’s not quite big enough yet.</p>
+it handles relative size. Let’s just say we want to make a new font size.
+I don’t know… 20 pixels. You could see that Visual Studio Code give me some handy tips for
+things that I might be talking about as soon as I typed in the word font, which 
+is nice because CSS has such a huge vocabulary. It’s good that you don’t have to 
+memorize every single little attribute. We’ve changed just to 20.</p>
+
+<p>Let’s open up the file again and see how that looks. You can see it’s a little 
+bit bigger, but I want to make this 25. It’s not quite big enough yet.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 56b. on the inventor of gunpower by john milton (142) ~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -5737,91 +5730,72 @@ attribute.</p>
   alt="On the Inventor of Gunpower, by John Milton."
   style="width:25%;" >
 
-<p>We’ll refresh the page, and you can see the size has been changed
-very slightly.</p>
-<p>That looks good, but I think this by John Milton text is a little bit
-too big, so I’m going to create a new rule specifically for that line.</p>
-<p>How I’m going to do that is create a new address, rule, and I’m going 
-to make the font size of that to be 0.7 rem.</p>
-<p>It’s going to be a little bit smaller relative to the sort of default
-font size that we’ve set up here.</p>
-<p>You could just do em, just to make it consistent and not relative.</p>
-<p>But since we create this from this hard and fast rule for what the
-page is supposed to follow, it’s good to do everything else relative
-because it makes it a little bit easier to change everything if you want
-to do a big overhaul.</p>
-<p>We’ve changed that.</p>
-<p>Let’s see how that looks.</p>
-<p>Text becomes a little bit smaller.</p>
-<p>That’s all well and good.</p>
-<p>The next thing I want to do is I think this font is a little bit
-boring.</p>
-<p>What I’m going to do is make it, something maybe a little bit more
-modern looking.</p>
-<p>I’m going to go into our Body rule here, and what I’m going to do is
-change the font family to sans-serif.</p>
-<p>You can see that looks a little bit different.</p>
-<p>I kind of want this by John Milton part to be the same though, so I’m
-going to leave that as the default.</p>
-<p>Just say font family serif.</p>
-<p>And you could see that now it’s back to it’s serif default and it
-looks great.</p>
-<p>I think the next thing that we’re going to do is maybe add a splash
-of color.</p>
-<p>I think black and white is timeless and it’s very readable but it’s a
-little bit boring.</p>
-<p>And what I’m going to do is make a new rule for the header.</p>
-<p>I’m going to make the title a very engaging and interesting color,
-Chartreuse or Cyan.</p>
-<p>Let’s pick something a little bit more tasteful than that.</p>
-<p>We’ll call it Crimson, and you can see that it’s a little bit bright,
-but looks better, kind of pops out at you.</p>
-<p>And I’m going to do the same thing but the opposite with this By John
-Milton text.</p>
-<p>I think that needs to stand out a little bit less.</p>
-<p>We’ll call that… there’s so many different colors to choose from.</p>
-<p>One of my favorites for kind of more background elements is Dim Gray,
-and you could see that looks a little bit more subtle, subdued.</p>
-<p>I like how that’s looking.</p>
-<p>And the next change we’re going to make is, if you recall previously
-in the lesson we learned about an attribute called ‘line-height’, which
-essentially encapsulates the distance between lines of text.</p>
-<p>We’ve got all this vertical real estate on the page.</p>
-<p>I think we could stand to increase our ‘line-height’ a little bit,
-spread out those lines of text just to make it more readable.</p>
-<p>We’re going to make a new rule for our paragraph tag that contains
-the poem, and we’re going to say ‘line-height’, I don’t know, we’ll call
-it 1.2.</p>
-<p>Just a tiny bit bigger than default.</p>
-<p>We’ll just see how much that changes it.</p>
-<p>That’s not quite as much as I’d like.</p>
-<p>We’ll go back here and we’ll call this 2.0.</p>
-<p>See how that looks. That’s better.</p>
-<p>A lot of Web development is trial and error, just sort of trying
-things and see how it looks and going back to the drawing board and
-experimenting.</p>
-<p>I encourage you to play around with it.</p>
-<p>And the last little change that we’re going to make is,</p>
-<p>I think that this looks interesting, but if you open it up to full
-size, you’ll see that this header is kind of over here on the left, and
-I don’t really like the way that looks.</p>
-<p>So I’m going to go into our ‘h1’ tag here, and I am going to say that
-the text-align should be in the center.</p>
-<p>And what that’s going to do is take this and move it to the
-center.</p>
-<p>One thing you should be aware of is that text-align is relative to
-the container that something is being stored in.</p>
-<p>You can see that this header is relative to the page.</p>
-<p>If we resize the page, it actually changes the way that it looks.</p>
-<p>Be mindful of that.</p>
-<p>We’re in a day and age where so many different screen sizes are
-possible to be used and you kind of have to consider how something looks
-for every orientation of a page, in order to make sure that it looks
-good for everybody.</p>
-<p>Play around with that, and play around with some of the other
-attributes that I didn’t get to in this little demo because there are so
-many that we learn in the lesson and I encourage you to mess around with
-them, and just sort of see what each one does.</p>
+<p>We’ll refresh the page, and you can see the size has been changed very slightly.
+That looks good, but I think this by John Milton text is a little bit too big, so 
+I’m going to create a new rule specifically for that line. How I’m going to do that 
+is create a new address, rule, and I’m going to make the font size of that to be 0.7 
+rem. It’s going to be a little bit smaller relative to the sort of default font size 
+that we’ve set up here.</p>
+
+<p>You could just do em, just to make it consistent and not relative. But since we 
+create this from this hard and fast rule for what the page is supposed to follow, 
+it’s good to do everything else relative because it makes it a little bit easier 
+to change everything if you want to do a big overhaul. We’ve changed that.</p>
+
+<p>Let’s see how that looks. Text becomes a little bit smaller. That’s all well 
+and good. The next thing I want to do is I think this font is a little bit boring.</p>
+
+<p>What I’m going to do is make it, something maybe a little bit more modern looking.
+I’m going to go into our Body rule here, and what I’m going to do is change the font 
+family to sans-serif. You can see that looks a little bit different. I kind of want 
+this by John Milton part to be the same though, so I’m going to leave that as the 
+default. Just say font family serif.</p>
+
+<p>And you could see that now it’s back to it’s serif default and it looks great.
+I think the next thing that we’re going to do is maybe add a splash of color. I 
+think black and white is timeless and it’s very readable but it’s a little bit boring.
+And what I’m going to do is make a new rule for the header.</p>
+
+<p>I’m going to make the title a very engaging and interesting color, Chartreuse 
+or Cyan. Let’s pick something a little bit more tasteful than that. We’ll call it 
+Crimson, and you can see that it’s a little bit bright, but looks better, kind of 
+pops out at you. And I’m going to do the same thing but the opposite with this By 
+John Milton text. I think that needs to stand out a little bit less. We’ll call 
+that… there’s so many different colors to choose from. One of my favorites for 
+kind of more background elements is Dim Gray, and you could see that looks a little 
+bit more subtle, subdued. I like how that’s looking.</p>
+
+<p>And the next change we’re going to make is, if you recall previously in the lesson 
+we learned about an attribute called ‘line-height’, which essentially encapsulates the 
+distance between lines of text. We’ve got all this vertical real estate on the page.
+I think we could stand to increase our ‘line-height’ a little bit, spread out those 
+lines of text just to make it more readable. We’re going to make a new rule for our 
+paragraph tag that contains the poem, and we’re going to say ‘line-height’, I don’t 
+know, we’ll call it 1.2. Just a tiny bit bigger than default. We’ll just see how much 
+that changes it. That’s not quite as much as I’d like. We’ll go back here and we’ll 
+call this 2.0. See how that looks. That’s better.</p>
+
+<p>A lot of Web development is trial and error, just trying things and see how it 
+looks and going back to the drawing board and experimenting. I encourage you to 
+play around with it.</p>
+
+<p>And the last little change that we’re going to make is, I think that this looks 
+interesting, but if you open it up to full size, you’ll see that this header is kind 
+of over here on the left, and I don’t really like the way that looks. So I’m going to 
+go into our ‘h1’ tag here, and I am going to say that the text-align should be in the 
+center. And what that’s going to do is take this and move it to the center. One thing 
+you should be aware of is that text-align is relative to the container that something 
+is being stored in. You can see that this header is relative to the page.</p>
+
+<p>If we resize the page, it actually changes the way that it looks. Be mindful 
+of that. We’re in a day and age where so many different screen sizes are possible 
+to be used and you kind of have to consider how something looks for every orientation 
+of a page, in order to make sure that it looks good for everybody.</p>
+
+<p>Play around with that, and play around with some of the other attributes that 
+I didn’t get to in this little demo because there are so many that we learn in the 
+lesson and I encourage you to mess around with them, and just sort of see what each 
+one does.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 3.3.1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-3-1">3.3.1 Common CSS Properties</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5857,14 +5831,11 @@ blockquote { font-size: larger; }</pre>
 <h4>line-height</h4>
 
 <p>Whereas font-size may drive the size of the text itself, the line-height property 
-drives the height of the space it is drawn into.</p>
-<p>A large line-height will give the text more spacing.</p>
-<p>A small line-height will smash the text lines together.</p>
+drives the height of the space it is drawn into. A large line-height will give the 
+text more spacing. A small line-height will smash the text lines together.</p>
 
-<p>For example, all of the Middlemarch text below
-has font-size:16px;</p>
-<p>But on the left, we see line-height:0.5; and on the
-right, line-height:3;</p>
+<p>For example, all of the Middlemarch text below has font-size:16px;
+But on the left, we see line-height:0.5; and on the right, line-height:3;</p>
 
 <table>
 <colgroup>
@@ -5983,15 +5954,11 @@ international features of CSS as you explore its features further.</p>
 
 <h4>text-decoration</h4>
 
-<p>How do I underline text?</p>
-<p>
-This is a common question.</p>
-<p>
-In CSS, this is done via the text-decoration property.</p>
-<p>
-The values for this are: underline, overline, line-through, and none;</p>
-<p>
-They can combined.</p>
+<p>How do I underline text? This is a common question.</p>
+
+<p>In CSS, this is done via the text-decoration property.
+The values for this are: underline, overline, line-through, and none;
+They can be combined.</p>
 
 <pre>p { text-decoration: underline; }  
 a { text-decoration: none; } /* hyperlinks are underlined by default,
