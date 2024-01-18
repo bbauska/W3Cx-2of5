@@ -16,6 +16,22 @@ img.displayed {
   border-color: #778899;  /* dark grayish blue */
   border-style: solid; 
 }
+img.frame {
+  border-image: url('//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/frame.png') 93 92 87 92 stretch stretch; 
+  border-color: #f4be52;
+  border-style: inset;
+  border-width: 60px;
+  display: block;
+  width: 40%;
+  height: auto;
+  background-color: #ffe;
+  margin: 0 auto;
+}
+@media all and (max-width: 500px) {
+  img.frame { 
+    border-width: 0px;
+    width: 100%; }
+}
 
 /*
 font-family: Bahnschrift, Inter, Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", 
