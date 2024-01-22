@@ -27,17 +27,17 @@ w3cx-2of5-html5.0x: Coursera - Front-End Web Development - HTML5 & CSS3 Fundamen
 
 ## [Table of Contents](#table-of-contents)
 
-## [**About W3C and the Web**]
+## **About W3C and the Web**
 >### - [**About W3C and the Web**](#cha-1)
 >### - [**Why accessibility is important**](#cha-2)
 >### - [**Why internationalization is important**](#cha-3)
 
-## [**Course information**]
+## **Course information**
 >### * [**Welcome to "HTML5 and CSS Fundamentals"**](#chb-1)
 >### * [**Course practical information**](#chb-2)
 >### * [**Course tools**](#chb-3)
 
-## [Module 1: My first Web page in HTML5]
+## Module 1: My first Web page in HTML5
 >### 1.1 [**Introduction to Module 1**](#ch1-1-1)
 >### 1.2 [**The big three: HTML5, CSS3 and JavaScript**](#ch1-2-1)
 >### 1.3 [**Elements, tags and attributes**](#ch1-3-1)
@@ -45,33 +45,33 @@ w3cx-2of5-html5.0x: Coursera - Front-End Web Development - HTML5 & CSS3 Fundamen
 >### 1.5 [**Best practices**](#ch1-5-1)
 >### 1.6 [**More on tags**](#ch1-6-1)
 
-## [Module 2: Attributes, images and links]
+## Module 2: Attributes, images and links
 >### 2.1 [**Introduction to Module 2**](#ch2-1-1)
 >### 2.2 [**Attributes**](#ch2-2-1)
 >### 2.3 [**Semantic meaning**](#ch2-3-1)
 >### 2.4 [**images**](#ch2-4-1)
 >### 2.5 [**Hyperlinks**](#ch2-5-1)
 
-## [Module 3: Adding style with CSS]
+## Module 3: Adding style with CSS
 >### 3.1 [**Introduction to Module 3**](#ch3-1-1)
 >### 3.2 [**CSS basic syntax**](#ch3-2-1)
 >### 3.3 [**CSS properties**](#ch3-3-1)
 >### 3.4 [**Lists and selectors**](#ch3-4-1)
 
-## [Module 4: Fixing and debugging]
+## Module 4: Fixing and debugging
 >### 4.1 [**Introduction to Module 4**](#ch4-1-1)
 >### 4.2 [**Debugging tools and HTML5**](#ch4-2-1)
 >### 4.3 [**Debugging and the CSS box model**](#ch4-3-1)
 >### 4.4 [**Debugging CSS precedence**](#ch4-4-1)
 
-## [Module 5: More HTML5 and CSS]
+## Module 5: More HTML5 and CSS
 >### 5.1 [**Introduction to Module 5**](#ch5-1-1)
 >### 5.2 [**Tables**](#ch5-2-1)
 >### 5.3 [**Multimedia**](#ch5-3-1)
 >### 5.4 [**Embedding content**](#ch5-4-1)
 >### 5.5 [**CSS tricks**](#ch5-5-1)
 
-## [Module 6: Basics of page Layout]
+## Module 6: Basics of page Layout
 >### 6.1 [**Introduction to Module 6**](#ch6-1-1)
 >### 6.2 [**Concepts**](#ch6-2-1)
 >### 6.3 [**CSS Flexbox**](#ch6-3-1)
