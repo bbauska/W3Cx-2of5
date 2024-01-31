@@ -8,7 +8,6 @@ w3cx-2of5-html5.0x: Coursera - Front-End Web Development - HTML5 & CSS3 Fundamen
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ readme.md of W3Cx-2of5-HTML5.0x ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ w3cx logo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/w3cx-logo.webp?raw=true"
   width="35%"
@@ -18,7 +17,6 @@ w3cx-2of5-html5.0x: Coursera - Front-End Web Development - HTML5 & CSS3 Fundamen
 <h3 align="center">W3Cx-2of5-HTML5.0x - HTML5 and CSS3 Fundamentals</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. W3Cx-2of5-HTML5.0x logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image001.webp?raw=true"
   width="65%"
@@ -90,7 +88,6 @@ a professional look and feel, by just following these 6 modules!</p>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 02. my first web page (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image002.webp?raw=true"
   width="15%"
@@ -104,7 +101,6 @@ a professional look and feel, by just following these 6 modules!</p>
 <h4>CSS is used to style the HTML</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. w3c developers logo (02) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image003.webp?raw=true"
   width="15%"
@@ -118,7 +114,6 @@ properties and concepts. Note that we'll explore how to use CSS to
 layout your page during the last week of this course.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04. laptop (02) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image004.webp?raw=true"
   width="15%"
@@ -134,7 +129,6 @@ layout your page during the last week of this course.</p>
     practice and practice coding again!<br/>&nbsp;</li>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05. w3c cheat sheet (02) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image005.webp?raw=true"
   width="50%"
@@ -147,7 +141,6 @@ layout your page during the last week of this course.</p>
     a good preparatory work for the <a href="https://www.edx.org/course/html5-coding-essentials-and-best-practices" target="_blank">HTML5 Coding Essentials and Best Practices course</a> (intermediate level). You will also learn how to embed other elements in a page other than a simple image. Note that some parts of the material are optional: iframes, usemap, and ismap.<br/>&nbsp;</li>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. can i use: css colors (03) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image006.webp?raw=true"
   width="65%"
@@ -268,7 +261,6 @@ Here's an interesting article on what beginners can do with CodePen: <a href="h
 <h3>W3C Validators</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. w3c developers logo (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image003.webp?raw=true"
   width="30%"
@@ -276,7 +268,6 @@ Here's an interesting article on what beginners can do with CodePen: <a href="h
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. mdn web docs mozilla logo (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image007.webp?raw=true"
   width="30%"
@@ -304,7 +295,6 @@ Html Checker</a> when validating an HTML5 document.</p>
 Style Sheets (CSS) and (X)HTML documents that use CSS stylesheets.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04. laptop (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image004.webp?raw=true"
   width="15%"
@@ -347,7 +337,6 @@ accessibility guidelines, the Mobile Web Best Practices, and a number of
 internationalization tips.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05. w3c cheat sheet (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image005.webp?raw=true"
   width="50%"
@@ -393,7 +382,6 @@ is a snapshot of what information is given by CanIUse when searching for
 "CSS3 colors".
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. cheat sheet (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image006.webp?raw=true"
   width="65%"
@@ -403,7 +391,6 @@ is a snapshot of what information is given by CanIUse when searching for
 <h3>MDN Web Docs</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. mdn web docs logo (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image007.webp?raw=true"
   width="35%"
@@ -436,7 +423,6 @@ define key parts of what actually makes the World Wide Web work.
 <h3>A few history bits</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. tim berners-lee in 1994 (11) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image008.webp?raw=true"
   width="35%"
@@ -518,74 +504,58 @@ for more details about the difference between Internet and the Web.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2><a href="ch1">Welcome to Module 1</a></h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Hello everyone! Welcome to Module 1 of the introduction to HTML5 and CSS course.
+<p>Hello everyone! Welcome to Module 1 of the introduction to HTML5 and CSS course.</p>
 
-We have lots of exciting stuff to cover in this module, and we're going
-to also create and edit our very first Web page.
-
-We'll start with a brief history of HTML and the Web.
-
-Then we'll learn how the big three, HTML5, CSS and JavaScript, relate to
-one another.
-
+<p>We have lots of exciting stuff to cover in this module, and we're going to also create 
+and edit our very first Web page. We'll start with a brief history of HTML and the Web.
+Then we'll learn how the big three, HTML5, CSS and JavaScript, relate to one another.
 We're also going to learn about elements, tags, and attributes.
+We'll cover best practices, some do's and don'ts of writing HTML5.</p>
 
-We'll cover best practices, some do's and don'ts of writing HTML5.
-
-As I mentioned already, throughout this module, you'll have
-opportunities to practice what we're teaching by creating and editing
-your very first Web page.
-
-With that, let's jump right in.
+<p>As I mentioned already, throughout this module, you'll have opportunities to practice 
+what we're teaching by creating and editing your very first Web page. With that, let's 
+jump right in.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3><a href="ch1-1-2">1.1.2 Module 1 – Content</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<b>1.1 Introduction:</b> A video that introduces the content of Module 1.
-
-<b>1.2 The big three:</b> Learn about the basic tools you will use to code
-for the Web including hypertext and Web browsers.
-
-<b>1.3 Elements, tags and attributes:</b> Here you will begin learning
-about the functions of the different types of code.
-
-<b>1.4 Character encoding:</b> To make you familiarized with international
-features.
-
-<b>1.5 Best practices, the wisdom:</b> Studying other people's mistakes is
-a great way to avoid the same pitfalls.
-
-<b>1.6 More on tags:</b> Review of the tags we have just learned about and
-get started on your course project.
+<ul>
+  <li><b>1.1 Introduction:</b> A video that introduces the content of Module 1.</li>
+  <li><b>1.2 The big three:</b> Learn about the basic tools you will use to code for the 
+    Web including hypertext and Web browsers.</li>
+  <li><b>1.3 Elements, tags and attributes:</b> Here you will begin learning about the 
+    functions of the different types of code.</li>
+  <li><b>1.4 Character encoding:</b> To make you familiarized with international features.</li>
+  <li><b>1.5 Best practices, the wisdom:</b> Studying other people's mistakes is a great 
+    way to avoid the same pitfalls.</li>
+  <li><b>1.6 More on tags:</b> Review of the tags we have just learned about and get 
+    started on your course project.</li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3><a href="ch1-2-1">1.2.1 Vague But Exciting!</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Twenty-nine years ago a proposal was sent internally at CERN
-outlying a universal linked information system. Dubbed 'Information
-Management: A proposal', pictured below, the proposal was created by Sir
-Tim Berners-Lee and was sent to his boss Mike Sendall, who described it
-as 'vague but exciting'.
+Twenty-nine years ago a proposal was sent internally at CERN outlying a universal 
+linked information system. Dubbed 'Information Management: A proposal', pictured below, 
+the proposal was created by Sir Tim Berners-Lee and was sent to his boss Mike Sendall, 
+who described it as 'vague but exciting'.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 09. network of components (13) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image009.webp?raw=true"
   width="85%"
   alt="Network of Components." />
 </p>
 
-Sir Tim Berners-Lee’s vision for universality enabled the development of
-a high-level network of content that allows any document to link to any
-other documents.
+<p>Sir Tim Berners-Lee’s vision for universality enabled the development of a high-level 
+network of content that allows any document to link to any other documents.</p>
 
-The World Wide Web was initially created to make it easier to share
-research papers. It is a system of interlinked ‘hypertext’ documents
-that are accessed via the Internet; in essence, an information space.
-While he did not invent hypertext systems, Berners-Lee proposed using
-them 'to link and access information of various kinds as a web of nodes
-in which the user can browse at will.'
+<p>The World Wide Web was initially created to make it easier to share research papers. 
+It is a system of interlinked ‘hypertext’ documents that are accessed via the Internet; 
+in essence, an information space. While he did not invent hypertext systems, Berners-Lee 
+proposed using them 'to link and access information of various kinds as a web of nodes
+in which the user can browse at will.'</p>
 
-His breakthrough was to link hypertext to the Internet and he used three
-technologies to do this:
+<p>His breakthrough was to link hypertext to the Internet and he used three technologies 
+to do this:</p>
 
 <ul>
   <li>HyperText Transfer Protocol (HTTP) is the foundation of data
@@ -597,91 +567,85 @@ technologies to do this:
     reference a Web page.</li><br/>
 </ul>
 
-In the following pages, we present HTML through what are usually called
-the big 3 (HTML5, CSS and JavaScript), the hypertext concept and the
-browser, an application program that provides a way to look at and
-interact with all the information on the World Wide Web.
+<p>In the following pages, we present HTML through what are usually called the big 3 
+(HTML5, CSS and JavaScript), the hypertext concept and the browser, an application 
+program that provides a way to look at and interact with all the information on the 
+World Wide Web.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3><a href="ch1-2-2">1.2.2 HTML5, CSS and JS</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>HTML5</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 10. html5 logo (14) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image010.webp?raw=true"
   width="100px;"
   alt="HTML5 logo." />
 </p>
 
-<p>When people say 'HTML5', they usually mean a bit more than just the 5th
-version of the "HyperText Markup Language". Modern Web pages and Web
-applications are generally composed of at least three components, so
-what people often mean when they say 'HTML5' is the trio of languages:
-HTML5, CSS3 and JavaScript.</p>
-<p>The 'HTML' part contains all the content, organized into a logical
-structure.  This is the part that an author might be most concerned
-with: the words, chapter headings, figures, diagrams, etc.</p>
-<p>While there have been numerous versions of HTML since its inception, our
-focus in this course is the most recent version, HTML5. HTML5 was
-developed to provide more powerful and flexible ways for developers to
-create dynamic Web pages.</p>
+<p>When people say 'HTML5', they usually mean a bit more than just the 5th version of 
+the "HyperText Markup Language". Modern Web pages and Web applications are generally 
+composed of at least three components, so what people often mean when they say 'HTML5' 
+is the trio of languages: HTML5, CSS3 and JavaScript.</p>
+
+<p>The 'HTML' part contains all the content, organized into a logical structure.  This 
+is the part that an author might be most concerned with: the words, chapter headings, 
+figures, diagrams, etc.</p>
+
+<p>While there have been numerous versions of HTML since its inception, our focus in 
+this course is the most recent version, HTML5. HTML5 was developed to provide more 
+powerful and flexible ways for developers to create dynamic Web pages.</p>
 
 <h4>CSS</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 11. css3 logo (14) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image011.webp?raw=true"
   width="15%"
   alt="CSS3 logo." />
 </p>
 
-The 'CSS' part (version 3 being current) is all about the presentation
-or style of the page; what it looks like without too much regard for the
-specific content. We'll be going into more detail on that later in this
-course, but for now, think of it as the way you might specify a "theme"
-in a word processing document, setting fonts, sizes, indentations and
-whatever else may apply to what it looks like.
+The 'CSS' part (version 3 being current) is all about the presentation or style of the 
+page; what it looks like without too much regard for the specific content. We'll be 
+going into more detail on that later in this course, but for now, think of it as the 
+way you might specify a "theme" in a word processing document, setting fonts, sizes, 
+indentations and whatever else may apply to what it looks like.
 
 <h4>JavaScript</h4>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 12. javascript logo (15) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image012.webp?raw=true"
   width="15%"
   alt="JavaScript logo." />
 </p>
 
-The 'JavaScript', or 'JS' for short, part is about the actions a page
-can take such as interaction with the user, and customizing and changing
-the page according to any number of parameters.  This is what allows a
-Web page to be more than just a document, but potentially a Web
-application, with nearly unlimited possibilities.  We will not be
-doing much with JavaScript in this course, but you should know that it
-is an important leg of the stool for modern Web pages.
+The 'JavaScript', or 'JS' for short, part is about the actions a page can take such as 
+interaction with the user, and customizing and changing the page according to any number 
+of parameters.  This is what allows a Web page to be more than just a document, but 
+potentially a Web application, with nearly unlimited possibilities.  We will not be
+doing much with JavaScript in this course, but you should know that it is an important 
+leg of the stool for modern Web pages.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3><a href="ch1-2-3">1.2.3 Hypertext</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-A fundamental key to the World Wide Web is the concept of "<i>Hypertext</i>".
- Hypertext is built on the idea of linking information together, not
-unlike using footnotes, except much easier and more flexible. The idea
-was to "Mark Up" your document with links and define how to break it
-down into different segments (chapters, sections, paragraphs, tables,
-figures, etc.)
+A fundamental key to the World Wide Web is the concept of "<i>Hypertext</i>". Hypertext 
+is built on the idea of linking information together, not unlike using footnotes, except 
+much easier and more flexible. The idea was to "Mark Up" your document with links and 
+define how to break it down into different segments (chapters, sections, paragraphs, 
+tables, figures, etc.)
 
-That's why, in 1989, Tim Berners-Lee began to create a definition of
-HTML: Hypertext Markup Language, to provide a simple, uniform way to
-incorporate Hyperlinks in a text document.
+That's why, in 1989, Tim Berners-Lee began to create a definition of HTML: Hypertext 
+Markup Language, to provide a simple, uniform way to incorporate Hyperlinks in a text 
+document.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 13. illustration of hypertext documents (16) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image013.webp"
   width="85%"
-  alt="Illustration of hypertext documents (here are extract of wikipedia pages): the HTML5 page has links going to the Markup language page, the World Wide Web definition page, etc." />
+  alt="Illustration of hypertext documents (here are extract of wikipedia pages): the 
+  HTML5 page has links going to the Markup language page, the World Wide Web 
+  definition page, etc." />
 </p>
 
 He envisioned a technology that would facilitate thoroughly
@@ -698,7 +662,6 @@ He used the metaphor of a Web to emphasize the importance of connections
 between documents. It was not just a long list of details, but rather a
 sea of information stretching out in all directions. This sea of
 information was navigated by a new tool called a "Browser".
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3><a href="ch1-2-4">1.2.4 The Browser</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -709,7 +672,6 @@ Internet was used for file transfers, newsgroups (a kind of open forum),
 email and other conveniences.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 14. snapshot of mosaic browser (17) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image014.webp?raw=true"
   width="65%"
@@ -822,246 +784,174 @@ simple "Hello HTML" program. Please choose any Web editor of your liking
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3><a href="ch1-3-2">1.3.2 Programming “Hello HTML”</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>You can build and edit your HTML pages by either using online editors or editors that you can install on your machine, like Visual Studio Code.</p>
+<p>You can build and edit your HTML pages by either using online editors or editors 
+that you can install on your machine, like Visual Studio Code.</p>
+
 <h4>Using online editors:</h4>
-<p>Both <a href="https://jsbin.com" target="_blank">JSBin</a> and <a href="https://codepen.io/" target="_blank">CodePen</a> are two online editors that you can use to create HTML Web pages.
-The following two videos show you how to create your first HTML page using <a href="https://jsbin.com" target="_blank">JSBin</a>.
 
+<p>Both <a href="https://jsbin.com" target="_blank">JSBin</a> and 
+<a href="https://codepen.io/" target="_blank">CodePen</a> are two online editors that 
+you can use to create HTML Web pages. The following two videos show you how to create 
+your first HTML page using <a href="https://jsbin.com" target="_blank">JSBin</a>.
 And this time, what I'd like to show you a very simple HTML file that I've created.
+We'll take a look at it in a browser, and then see how it's built using a popular 
+online HTML editor.</p>
 
-We'll take a look at it in a browser, and then see how it's built using a popular online HTML editor.
+Here's the file in question. It's called hello.html. The .html extension tells me this 
+is a HTML file, and it will contain some HTML code.
 
-Here's the file in question.
+Let's look at this file in a browser and by right clicking and saying open with 
+Microsoft Edge. The file is loaded from my disk and then it displays its contents. And 
+here you can see that this simple file, it is just showing me the text hello html and 
+it's also changed the title of the page to be my first HTML page.
 
-It's called hello.html
+There you have it, a very simple HTML page. Let's now go to an online tool and try to 
+create this page from scratch. Okay so, how did we create this page?
 
-The .html extension tells me this is a HTML file, and it will contain some HTML code.
+Well, there are many ways to create HTML files and we'll show you a few throughout this 
+course. At this point in time, I'll introduce you to JSBin, which is one of your options 
+and to do that, I'll open up a new tab and go to jsbin.com.
 
-Let's look at this file in a browser and by right clicking and saying open with Microsoft Edge.
+Here I am inside JSBin. You can see that I'm using the free version right now. I haven't 
+logged in, I haven't registered it on anything else. I'm just going to use the site as a 
+kind of HTML playground to create a simple HTML page.
 
-The file is loaded from my disk and then it displays its contents.
+We'll have a quick look around the layout of the site. Here you can see there's a panel 
+on the left which is a HTML panel to edit HTML code, and on the right, you have an open 
+panel that will eventually display whatever code you write on the left-hand side. And 
+the site can cater for other languages such as JavaScript, CSS, and so on, and you can 
+also share code snippets and do lots lots more.
 
-And here you can see that this simple file, it is just showing me the text hello html and it's also changed the title of the page to be my first HTML page.
+I'd encourage you to browse around. But for this exercise, we're just going to use the 
+site in this simple format. As I said, this page on the left-hand side it was opened by 
+default when we navigated here and it contained some HTML. There's no content or output 
+yet and we'll get to that shortly. But this would be the most basic HTML code file that 
+you would need to create in order to produce your first HTML page. You could probably do 
+a little bit simpler but this is a very good template for us to start with.
 
-There you have it, a very simple HTML page.
+Why don't we just walk through some of the tags and elements that we see right in front 
+of us. The first thing we see at the top of the page is a DOCTYPE declaration. This 
+always comes before everything else in a HTML file. It's actually just some information 
+for the browser about what version of HTML the page is written in. And in this case 
+here, it signifies that the page is written in HTML5.
 
-Let's now go to an online tool and try to create this page from scratch.
+The next tag we see is the html tag, and as you can see we have the beginning tag here 
+and the ending tag at the end, which means everything on a HTML page is contained within 
+these two tags.
 
-Okay so, how did we create this page?
+All other tags must be contained or nested within this tag, and it tells the browser of 
+course that this is a HTML document.
 
-Well, there are many ways to create HTML files and we'll show you a few throughout this course.
+In this example, we then have a head tag, again the beginning and end, head tag, and as 
+you can see, this head tag contains other types of elements. You can see in this example 
+there's a meta and a title element, and there are more than these two. We've actually 
+seen the title element in action already. It defines the title for the page, that's used 
+in the browser tabs or toolbar and the title is also used in the browser history.
 
-At this point in time, I'll introduce you to JSBin, which is one of your options and to do that, I'll open up a new tab and go to jsbin.com.
-
-Here I am inside JSBin.
-
-You can see that I'm using the free version right now.
-
-I haven't logged in, I haven't registered it on anything else.
-
-I'm just going to use the site as a kind of HTML playground to create a simple HTML page.
-
-We'll have a quick look around the layout of the site.
-
-Here you can see there's a panel on the left which is a HTML panel to edit HTML code, and on the right, you have an open panel that will eventually display whatever code you write on the left-hand side.
-
-And the site can cater for other languages such as JavaScript, CSS, and so on, and you can also share code snippets and do lots lots more.
-
-I'd encourage you to browse around.
-
-But for this exercise, we're just going to use the site in this simple format.
-
-As I said, this page on the left-hand side it was opened by default when we navigated here and it contained some HTML.
-
-There's no content or output yet and we'll get to that shortly.
-
-But this would be the most basic HTML code file that you would need to create in order to produce your first HTML page.
-
-You could probably do a little bit simpler but this is a very good template for us to start with.
-
-Why don't we just walk through some of the tags and elements that we see right in front of us.
-
-The first thing we see at the top of the page is a DOCTYPE declaration.
-
-This always comes before everything else in a HTML file.
-
-It's actually just some information for the browser about what version of HTML the page is written in.
-
-And in this case here, it signifies that the page is written in HTML5.
-
-The next tag we see is the html tag, and as you can see we have the beginning tag here and the ending tag at the end, which means everything on a HTML page is contained within these two tags.
-
-All other tags must be contained or nested within this tag, and it tells the browser of course that this is a HTML document.
-
-In this example, we then have a head tag, again the beginning and end, head tag, and as you can see, this head tag contains other types of elements.
-
-You can see in this example there's a meta and a title element, and there are more than these two.
-
-We've actually seen the title element in action already.
-
-It defines the title for the page, that's used in the browser tabs or toolbar and the title is also used in the browser history.
-
-For example, in our page we had typed: "my first HTML page", and that's where that would be created.
-
-That's the head tag. <b>&lt;head&gt;</b>
+For example, in our page we had typed: "my first HTML page", and that's where that would 
+be created. That's the head tag. <b>&lt;head&gt;</b>
 
 Next up is the body element. <b>&lt;body&gt;</b>
-
-And as its name suggests, this element contains the body of the page, meaning all of its contents.
-
-As you learn more and more about HTML you'll see there's lots of
-different tags you can put in here to do various different things within your HTML
-page, but for now as in our example, we'll just type some text.
+And as its name suggests, this element contains the body of the page, meaning all of 
+its contents. As you learn more and more about HTML you'll see there's lots of different 
+tags you can put in here to do various different things within your HTML page, but for 
+now as in our example, we'll just type some text.
 
 Hello HTML!.
 
-And as you can see, output is now appearing because we have some content in our body.
-
-And I can do a lot more here if I want to, but for now that's just
-showing you that this page has created the same output as our original
-page "Hello HTML!", and the page title we've said is my first HTML page,
-and that's the amount of code it takes to construct that page.
+And as you can see, output is now appearing because we have some content in our body. 
+And I can do a lot more here if I want to, but for now that's just showing you that 
+this page has created the same output as our original page "Hello HTML!", and the page 
+title we've said is my first HTML page, and that's the amount of code it takes to 
+construct that page.
 
 Hello, everyone. Today, I'd like to give you a brief overview of a site called <b>CodePen</b>.
-
 I'm already at the site here in my browser at <b>codepen.io</b>, so you should browse there, too.
-
 And here I am at the landing page and I haven't logged in, I don't have an account.
 
-What I'm going to show you now is just a very brief overview of what the site can be used for.
+What I'm going to show you now is just a very brief overview of what the site can be 
+used for. A "Pen" in this site is kind of like a Code snippet. It's code you can write, 
+or you can also explore Pens that the community has put up on the site for you to consume.
 
-A "Pen" in this site is kind of like a Code snippet.
+Let's start there, let's have a look at what a Pen might look like. To do that, I'm 
+going over here on the top right to the "Search" button, and I get a nice big Search 
+text box. And if I just type in a term that I'm interested in, for example, "Button", 
+and I just wait a brief second, you'll see that that search returns 936,000 Pens.
 
-It's code you can write, or you can also explore Pens that the community has put up on the site for you to consume.
+<p>These are pieces of code that other people have shared that contain something to do 
+with Buttons, the key word "Button". And so, this is the list that you'll get back and 
+you can explore and do a lot of configurations on the search.</p>
 
-Let's start there, let's have a look at what a Pen might look like.
-
-To do that, I'm going over here on the top right to the "Search" button, and I get a nice big Search text box.
-
-And if I just type in a term that I'm interested in, for example, "Button", and I just wait a brief second, you'll see that that search returns 936,000 Pens.
-
-These are pieces of code that other people have shared that contain something to do with Buttons, the key word "Button".
-
-And so, this is the list that you'll get back and you can explore and do a lot of configurations on the search.
-
-To see the code behind one of these, you would click on the Tile that has been returned.
-
-And I'll do it, I'll click on this one.
-
-And you can see an "Editor" opens up, and it has a HTML Pane, A CSS Pane, a JavaScript Pane, and an Output Pane. This is just an example.
-</p>
+<p>To see the code behind one of these, you would click on the Tile that has been returned.
+And I'll do it, I'll click on this one. And you can see an "Editor" opens up, and it 
+has a HTML Pane, A CSS Pane, a JavaScript Pane, and an Output Pane. This is just an 
+example.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ image-example 13 1/2. example editor (23) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image-example.webp"
   width="85%"
   alt="Example editor." />
 </p>
-<p>We won't go into the code in this example.
+<p>We won't go into the code in this example. But you can see that this is a live 
+preview of what's being shown here from the code out down here below in the Output 
+window. Let's go back. That was just an example of a Pen that someone else has created 
+and they've decided to share it publicly. Why don't we try and create our first Pen?
 
-But you can see that this is a live preview of what's being shown here
-from the code out down here below in the Output window.
-
-Let's go back. That was just an example of a Pen that someone else has
-created and they've decided to share it publicly.
-
-Why don't we try and create our first Pen?
-
-To do that, we're going to come over to the "Create" button here.
-
-Click on "New Pen". And you'll notice I still haven't logged in.
-
-I'm just using the site as a public visitor.
-
+To do that, we're going to come over to the "Create" button here. Click on "New Pen". 
+And you'll notice I still haven't logged in. I'm just using the site as a public visitor.
 I click on "New Pen" and an empty editor opens up.
 
-You can see the three panes HTML, CSS and JavaScript.
-
-Nice big output panel here down in the bottom.
-
-Don't like this view?
-
-Go ahead and "Change view", and you can reconfigure it to have editors
-on the left, the editors on the right, et cetera.
-
-Now, I'll just stick to the "Default view".
-
-Also, only going to code some HTML, so here, I'm going to "Maximize the
-HTML editor" which slides the others out of view of a nice lot of space
+You can see the three panes HTML, CSS and JavaScript. Nice big output panel here down 
+in the bottom. Don't like this view? Go ahead and "Change view", and you can reconfigure 
+it to have editors on the left, the editors on the right, et cetera. Now, I'll just 
+stick to the "Default view". Also, only going to code some HTML, so here, I'm going to 
+"Maximize the HTML editor" which slides the others out of view of a nice lot of space
 here to work with.
 
-To save some time, let's just paste in some HTML.
-
-What you see here is that the preview is live, as in, when I make a
-change in my code, it shows up in the output practically
-instantaneously, which is a really great feature.
-
-Let's change the code to watch it in action.
-
-I'm going to change my code "Hello CodePen!"
-
-I'm going to wrap it in a header, H1 header, and we should see that text
-get larger in the output panel.
-
-I put in my tag, and you can see that it's actually expanded which is
-great.
+To save some time, let's just paste in some HTML. What you see here is that the preview 
+is live, as in, when I make a change in my code, it shows up in the output practically
+instantaneously, which is a really great feature. Let's change the code to watch it in 
+action. I'm going to change my code "Hello CodePen!". I'm going to wrap it in a header, 
+H1 header, and we should see that text get larger in the output panel. I put in my tag, 
+and you can see that it's actually expanded which is great.
 
 The other nifty little features that you can use here:
 
-if you get HTML into a state you're not happy with how it looks on the
-screen, you can say "Tidy HTML".
+If you get HTML into a state you're not happy with how it looks on the screen, you can 
+say "Tidy HTML". And we'll try to indent a little bit better and spread it out so that
+it's more readable. Even go as far as going into the "Settings" and under "Behavior", use
+"Tabs" over "Spaces". That's a nice feature.
 
-And we'll try to indent a little bit better and spread it out so that
-it's more readable.
+That's the code editing part of CodePen. And I encourage you, if you don't want to 
+download a tool or other editors, you can browse here for free and write some code 
+and see it appear in the Output window.
 
-Even go as far as going into the "Settings" and under "Behavior", use
-"Tabs" over "Spaces".
+Take other people's code and play with it. Explore with their cool creations and try 
+that stuff out as well. Another reason I wanted to introduce CodePen is, because if you 
+look at our course, you may come across this editor here in line, inside the content 
+that we've created.
 
-That's a nice feature.
+It's an embedded CodePen editor. In this example, it shows you two panes, the "HTML" 
+code and the "Result". Switch off the "Result"and just show the "HTML" by clicking on 
+the "Result" button. Vice versa. I can also edit inline here. For example, if I go 
+into this paragraph in code and I say something like "Hi!", that will refresh, on the 
+right hand side, the actual output, which is interesting.
 
-That's the code editing part of CodePen.
+I'll just ignore that DOCTYPE warning for the moment. That's not really important right 
+now. This is a live editing experience embedded into our course, but you can go over to 
+CodePen which is where we've been, and you can navigate to the actual Pen that was created.
+And here, you can see that in the CodePen site. And you get yourself an account on CodePen.
 
-And I encourage you, if you don't want to download a tool or other
-editors, you can browse here for free and write some code and see it
-appear in the Output window.
+You're able to do stuff like just fork this, which is effectively copying this actual 
+Pen into your own account so you can play with it, use it, and so on, and so forth.
+That's the round tripping. I just wanted to make sure you see. When you come across 
+these integers inside our course, you'll know that that's really a CodePen editor 
+inside the content, that you can then go and use the CodePen site, or use it directly 
+inside the content itself.
 
-Take other people's code and play with it.
-
-Explore with their cool creations and try that stuff out as well.
-
-Another reason I wanted to introduce CodePen is, because if you look at our course, you may come across this editor here in line, inside the content that we've created.
-
-It's an embedded CodePen editor.
-
-In this example, it shows you two panes, the "HTML" code and the "Result".
-
-Switch off the "Result"and just show the "HTML" by clicking on the "Result" button.
-
-Vice versa. I can also edit inline here.
-
-For example, if I go into this paragraph in code and I say something like "Hi!", that will refresh, on the right hand side, the actual output, which is interesting.
-
-I'll just ignore that DOCTYPE warning for the moment.
-
-That's not really important right now.
-
-This is a live editing experience embedded into our course, but you can go over to CodePen which is where we've been, and you can navigate to the actual Pen that was created.
-
-And here, you can see that in the CodePen site.
-
-And you get yourself an account on CodePen.
-
-You're able to do stuff like just fork this, which is effectively copying this actual Pen into your own account so you can play with it, use it, and so on, and so forth.
-
-That's the round tripping. I just wanted to make sure you see.
-
-When you come across these integers inside our course, you'll know that that's really a CodePen editor inside the content, that you can then go and use the CodePen site, or use it directly inside the content itself.
-
-So that's it. A very quick look at the popular online editor and front-end code playground called CodePen.
-
-Until next time, happy coding.
-</p>
+<p>So that's it. A very quick look at the popular online editor and front-end code 
+playground called CodePen. Until next time, happy coding.</p>
 
 <h4>Using Visual Studio Code</h4>
 
