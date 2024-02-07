@@ -412,7 +412,7 @@ exactly which browsers will support it.
     target="_blank">Caniuse and MDN compatibility data collaboration</a>.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="cha-1">What is W3C?</a></h3>
+<h3 id="cha-1">What is W3C?</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>As steward of global Web standards, W3C's mission is to safeguard the openness, accessibility, and freedom of the World Wide Web from a technical perspective.</h4>
 
@@ -500,9 +500,9 @@ car, the email is a bicycle, etc.  Read <a href="https://www.lifewire.com/diff
 article</a>
 for more details about the difference between Internet and the Web.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="cha-2">What is Web Accessibility?</a></h3>
+<h3 id="cha-2">What is Web Accessibility?</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1">Welcome to Module 1</a></h2>
+<h2 id="ch1">Welcome to Module 1</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Hello everyone! Welcome to Module 1 of the introduction to HTML5 and CSS course.</p>
 
@@ -516,7 +516,7 @@ We'll cover best practices, some do's and don'ts of writing HTML5.</p>
 what we're teaching by creating and editing your very first Web page. With that, let's 
 jump right in.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-1-2">1.1.2 Module 1 – Content</a></h3>
+<h3 id="ch1-1-2">1.1.2 Module 1 – Content</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
   <li><b>1.1 Introduction:</b> A video that introduces the content of Module 1.</li>
@@ -531,7 +531,7 @@ jump right in.</p>
     started on your course project.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-2-1">1.2.1 Vague But Exciting!</a></h3>
+<h3 id="ch1-2-1">1.2.1 Vague But Exciting!</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Twenty-nine years ago a proposal was sent internally at CERN outlying a universal 
 linked information system. Dubbed 'Information Management: A proposal', pictured below, 
@@ -572,7 +572,7 @@ to do this:</p>
 program that provides a way to look at and interact with all the information on the 
 World Wide Web.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-2-2">1.2.2 HTML5, CSS and JS</a></h3>
+<h3 id="ch1-2-2">1.2.2 HTML5, CSS and JS</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>HTML5</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -627,7 +627,7 @@ potentially a Web application, with nearly unlimited possibilities.  We will no
 doing much with JavaScript in this course, but you should know that it is an important 
 leg of the stool for modern Web pages.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-2-3">1.2.3 Hypertext</a></h3>
+<h3 id="ch1-2-3">1.2.3 Hypertext</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 A fundamental key to the World Wide Web is the concept of "<i>Hypertext</i>". Hypertext 
 is built on the idea of linking information together, not unlike using footnotes, except 
@@ -663,7 +663,7 @@ between documents. It was not just a long list of details, but rather a
 sea of information stretching out in all directions. This sea of
 information was navigated by a new tool called a "Browser".
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-2-4">1.2.4 The Browser</a></h3>
+<h3 id="ch1-2-4">1.2.4 The Browser</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 The Internet existed long before the Web came to fruition, and lots of
 organizations were connected to it, including schools, companies and
@@ -704,7 +704,7 @@ information on the Internet, a simple click on a link would present the
 information in a graphical window. In many ways, it is the ancestor of
 most modern browsers.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-2-5">1.2.5 Activity – Explore the Web</a></h3>
+<h3 id="ch1-2-5">1.2.5 Activity – Explore the Web</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Exploring the Web, "Then and Now":</h4>
 <ul>
@@ -718,7 +718,7 @@ most modern browsers.
   <li>Post your observations and findings in the discussion forum below.</li><br/>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-3-1">1.3.1 Putting the “M” in HTML</a></h3>
+<h3 id="ch1-3-1">1.3.1 Putting the “M” in HTML</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 The "M" in HTML stands for "Markup", but what does Markup really
 mean?  Essentially, it means to annotate a document with extra
@@ -782,7 +782,7 @@ simple "Hello HTML" program. Please choose any Web editor of your liking
 (see in the subsection "Course tools").
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-3-2">1.3.2 Programming “Hello HTML”</a></h3>
+<h3 id="ch1-3-2">1.3.2 Programming “Hello HTML”</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>You can build and edit your HTML pages by either using online editors or editors 
 that you can install on your machine, like Visual Studio Code.</p>
@@ -1378,7 +1378,7 @@ are available to you.
 
 But hopefully this shows you, just how easy it is to get started.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-3-3">1.3.3 Elements</a></h3>
+<h3 id="ch1-3-3">1.3.3 Elements</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 If you are sitting at a coffee shop next to a table of Web developers,
 you will probably hear three words quite a bit:  'Tags', 'Attributes'
@@ -1419,7 +1419,7 @@ children, but for our purpose this is enough.
 That may be a great picture, but how do we represent such a structure in
 a text file?  Well, that's where "tags" come in.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-3-4">1.3.4 Tags</a></h3>
+<h3 id="ch1-3-4">1.3.4 Tags</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 16. tags (35) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1498,7 +1498,7 @@ tag at all.  This works because all of the information this tag needs is
 declared in an "attribute".
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-3-5">1.3.5 Comments</a></h3>
+<h3 id="ch1-3-5">1.3.5 Comments</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Computers are great at reading computer languages, but it's not always
 easy for humans.  Comments are a way of adding some text that is
@@ -1563,7 +1563,7 @@ others.  As for the exact form of those comments, we'll cover that in
 good time.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-3-6">1.3.6 Attributes</a></h3>
+<h3 id="ch1-3-6">1.3.6 Attributes</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Most of what we'll cover about attributes will come later, but I wanted
 to introduce the idea briefly. Basically, a given element on your Web
@@ -1596,7 +1596,7 @@ increase clarity, consistency and brevity.
 
 But more about attributes in the next module.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-3-7">1.3.7 All Together Now</a></h3>
+<h3 id="ch1-3-7">1.3.7 All Together Now</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 One key to understanding HTML, or any computer language, is to be sure
 that you avoid ambiguity, because computers generally are not good at
@@ -1729,7 +1729,7 @@ above. Try inserting a paragraph into the body of your new document.
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-4-1">1.4.1 Character Encoding</a></h3>
+<h3 id="ch1-4-1">1.4.1 Character Encoding</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>A character can be any letter, digit or symbol that makes up words and
 languages. English alphabets and digits 'a-z', 'A-Z', '0-9' are all
@@ -1787,7 +1787,7 @@ days, but you should check.
 Read an <a href="https://www.w3.org/International/getting-started/characters">
   Introduction to character sets and encodings here</a>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-4-2">1.4.2 The &lt;meta&gt; tag</a></h3>
+<h3 id="ch1-4-2">1.4.2 The &lt;meta&gt; tag</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Use the &lt;meta&gt; tag with the charset attribute in your HTML page to
 indicate to the browser the character encoding you will be using in the
@@ -1826,7 +1826,7 @@ W3C recommends placing it immediately after the opening &lt;head&gt; tag:</p>
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-4-3">1.4.3 HTML Character References</a></h3>
+<h3 id="ch1-4-3">1.4.3 HTML Character References</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Why we need character references</h4>
 
@@ -1903,7 +1903,7 @@ semi-colon.</p>
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-4-4">1.4.4 Special characters</a></h3>
+<h3 id="ch1-4-4">1.4.4 Special characters</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Protecting characters used for HTML syntax</h4>
 
@@ -2050,7 +2050,7 @@ replaced with its character entity name)</p>
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-4-5">1.4.5 Character References for Other Characters</a></h3>
+<h3 id="ch1-4-5">1.4.5 Character References for Other Characters</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <p>It is also possible to use character references to represent other
@@ -2115,7 +2115,7 @@ If you'd like to read more information about when to use character
 references and when not to use them, see <a href="https://www.w3.org/International/questions/qa-escapes" 
   target="_blank">Using character escapes in markup and CSS</a>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-5-1">1.5.1 Learning from the Mistakes of Others</a></h3>
+<h3 id="ch1-5-1">1.5.1 Learning from the Mistakes of Others</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Children can be great at asking questions about things that most adults
 take for granted, and like to challenge assumptions.
@@ -2151,7 +2151,7 @@ the term "best practice" you can trust that it is, even though we may
 not be able to explain it at that point in the course, so you'll want to
 make it a habit.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-5-2">1.5.2 Do’s and Don’ts</a></h3>
+<h3 id="ch1-5-2">1.5.2 Do’s and Don’ts</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 The history of Web pages is such that browsers tend to be very forgiving
 of certain types of mistakes. If you miss a closing tag, it will often
@@ -2255,7 +2255,7 @@ the rules are (how many spaces to indent, single or double-quotes, etc.)
 but unless there is a good reason to change away from typical practices,
 it is usually best to adopt them.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-5-3">1.5.3 White Space and Capitalization</a></h3>
+<h3 id="ch1-5-3">1.5.3 White Space and Capitalization</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Before we go any further, it's good to understand a few technical details.
 
@@ -2393,7 +2393,7 @@ could sum it all up with these simple dictum:
     more readable and organized.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-5-4">1.5.4 Activity – Best Practices</a></h3>
+<h3 id="ch1-5-4">1.5.4 Activity – Best Practices</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 1. Compare and contrast these two different HTML Style Guides:
 
@@ -2418,7 +2418,7 @@ disagree with some of the suggestions in one of these guides?
       can find any errors.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-6-1">1.6.1 Tags We Have Already Used</a></h3>
+<h3 id="ch1-6-1">1.6.1 Tags We Have Already Used</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Now you can create a simple, empty, HTML page, and you know what tags
 are, though we have not said a lot about specific tags, what they mean,
@@ -2533,7 +2533,7 @@ styling of one element to look like just about any other element.  You
 could style a &lt;p&gt; element so that it looks like an &lt;h1&gt;, though best
 practice would be not to do that.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-6-2">1.6.2 A Few New Tags to Learn</a></h3>
+<h3 id="ch1-6-2">1.6.2 A Few New Tags to Learn</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>There are a lot more tags, but we will just cover a few more for now,
 mostly because they are straightforward to use and you can see the
@@ -2652,13 +2652,13 @@ line breaks
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-6-3">1.6.3 More HTML5</a></h3>
+<h3 id="ch1-6-3">1.6.3 More HTML5</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Video</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-6-4">1.6.4 Activity - Your First Web Page</a></h3>
+<h3 id="ch1-6-4">1.6.4 Activity - Your First Web Page</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-6-5">1.6.5 Recipe Project – Module 1</a></h3>
+<h3 id="ch1-6-5">1.6.5 Recipe Project – Module 1</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Throughout the course, we'll be building a simple project, adding to it
 with what we've learned in each module. This project will be a simple
@@ -2776,7 +2776,7 @@ what you've learned and test your knowledge by doing a quiz.
 We hope you enjoy the course, and happy learning!
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-1-2">2.1.2 Meaningful Web Pages</a></h3>
+<h3 id="ch2-1-2">2.1.2 Meaningful Web Pages</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Tags and elements are building blocks of HTML5. However, they can be
 made so much more exciting with attributes. Let's take a simple element
@@ -2809,7 +2809,7 @@ visually impaired people who access your Web page using assistive
 technology like screen readers. Semantic markup enables all of this and
 more.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-1-3">2.1.3 Module 2 - Content</a></h3>
+<h3 id="ch2-1-3">2.1.3 Module 2 - Content</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p><b>2.1 Introduction:</b> Check out this video explaining what you'll be
 learning about in Module 2 - and wrap your mind around the concept of
@@ -2828,7 +2828,7 @@ your Web pages.
 jump from place to place on the Web. Explore the secrets of this
 powerful mechanism!</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-2-1">2.2.1 Introduction</a></h3>
+<h3 id="ch2-2-1">2.2.1 Introduction</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>We learned a little bit about what attributes are in the previous
 module. Let's look into it in more depth, by using examples.</p>
@@ -2995,7 +2995,7 @@ poems 'poetry'.</p>
 make all elements belonging to the 'poetry' class grey, italic and
 bold.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-2-2">2.2.2 Global and Non-Global Attributes</a></h3>
+<h3 id="ch2-2-2">2.2.2 Global and Non-Global Attributes</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>You have seen a few examples of attributes now: start, id and class. All
 HTML elements have attributes.
@@ -3101,7 +3101,7 @@ that can be applied to the &lt;li&gt; tag. Search for the &lt;li&gt; element
 and then click on it: it will take you to the list tag's page that specifies 
 applicable attributes.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-2-3">2.2.3 Global Attributes: Examples</a></h3>
+<h3 id="ch2-2-3">2.2.3 Global Attributes: Examples</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Global attribute: 'id'</h4>
 
@@ -3307,7 +3307,7 @@ value. 
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-2-4">2.2.4 Global Attributes</a></h3>
+<h3 id="ch2-2-4">2.2.4 Global Attributes</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>References for the video text below:</h4>
 
@@ -3491,7 +3491,7 @@ Please find below suggested activities to help you practice:
     the list. Give it the following title (when you hover your mouse, it
     should display the title as a tooltip): 'Activity List'.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-3-1">2.3.1 Separating Content and Style</a></h3>
+<h3 id="ch2-3-1">2.3.1 Separating Content and Style</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 When writing in hypertext language, it is important to separate content
 and style. Style should be kept tucked away in Cascading Style Sheets
@@ -6349,7 +6349,6 @@ And that concludes this live coding session. Bon appétit !
 <h2 id="ch3">Welcome to Module 3</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 48. w3cx html5 and css3 logo (132) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image048.webp"
   width="40%"
@@ -6367,7 +6366,6 @@ In this module, we will introduce a new language, CSS.
 CSS, or Cascading Style Sheets, is used to style each HTML.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 49. adding styles with css (132) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image049.webp"
   width="20%"
@@ -6412,7 +6410,6 @@ you learn, experimentation.
 <h4>CSS stands for 'Cascading Style Sheets'</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 50. css logo (133) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img src="./images/image050.webp"
   width="20%"
   alt="CSS Logo." />
@@ -6455,7 +6452,6 @@ by the W3C in 1997 to tackle issues that had not been addressed
 with [CSS](https://en.wikipedia.org/wiki/CSS) level 1.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 51. the css gang photo (134) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image051.webp?raw=true"
   width="65%"
@@ -6501,7 +6497,6 @@ different. So let's get started.
 <h4>The &lt;style&gt; tag</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 52. style and link tags & attributes (134) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image052.webp?raw=true"
   width="15%"
@@ -6584,7 +6579,6 @@ At its simplest, CSS is just a list of <i>rules</i>.  Each <i>rule</i> consi
 a <i>selector</i> and a <i>declaration.</i>  Here is an example:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 53. figure showing a selector & declaration (137) ~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image053.webp"
   style="width:4in;height:3.30064in"
@@ -6676,7 +6670,6 @@ following <a href="https://codepen.io/w3devcampus/pen/QvQgbr" target="_blank">Co
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 54. on the inventor of gunpower by john milton (139) ~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image054.webp?raw=true"
   width="65%"
@@ -6741,7 +6734,6 @@ And we've got our header tag, we've got our address and of course the
 poem which is being held in this fantastic paragraph tag.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 55b. on the inventor of gunpower by john milton (141) ~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image055b.webp?raw=true"
   width="65%"
@@ -6797,7 +6789,6 @@ It's not quite big enough yet.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 56b. on the inventor of gunpower by john milton (142) ~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image056b.webp?raw=true"
   width="65%"
@@ -7634,7 +7625,6 @@ section dedicated to the background-image property.  
 <h3 id="ch3-4-2">3.4.2 Selectors</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 55. selector and declaration (155) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image055.webp?raw=true"
   width="40%"
@@ -8326,7 +8316,6 @@ h3 id="ch3-4-8">3.4.8 Recipe</h3>
 <a href=https://learning.edx.org/course/course-v1:W3Cx+HTML5.0x+1T2022/block-v1:W3Cx+HTML5.0x+1T2022+type@sequential+block@0045398377b14c60b9a3820ead6441d6/block-v1:W3Cx+HTML5.0x+1T2022+type@vertical+block@a40220f07c494fb88d47047b8c6d20bc,target=”_blank”>Go Here</a>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 57. my favorite recipe; soup, salad, pizza (170) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image057.webp?raw=true"
   width="40%"
@@ -8412,7 +8401,6 @@ h3 id="ch3-4-8">3.4.8 Recipe</h3>
 <h2 id="ch4">Welcome to Module 4</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 58. module 4: fixing and debugging (176) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image058.webp?raw=true"
   width="30%"
@@ -8576,7 +8564,6 @@ current element by adding them to the "element.style" box at the top of
 the "Styles" panel.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 59. modify html5 (180) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image059.webp"
   style="width:5in;height:1.73333in"
@@ -8589,11 +8576,11 @@ text entry box with which you can type property value pairs that will
 then effect the currently active element.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 60. modify html5 (180) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image060.webp"
   style="width:5in;height:3.01603in"
-  alt="Screenshot of MSEdge developer tools showing changing text color in developers tools." />
+  alt="Screenshot of MSEdge developer tools showing changing text color in developers tools.
+    ps: Microsoft develops shit software." />
 </p>
 
 It's important to know that any changes you make in the developer tools
@@ -8668,14 +8655,12 @@ There are many other shortcuts to learn, but this one is fairly common.
 are defaults for these values, so you technically don't need to specify
 all of them, but it is the minimal info needed and is quite common.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 61. illustration of css box model (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 61. illustration of css box model (18x) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image061.webp?raw=true"
   width="50%"
   alt="Illustration of CSS Box Model." />
 </p>
-<!-- style="width:5in;height:3.89in" alt="Illustration of CSS Box Model" /> -->
 
 The margin, as we learned earlier, specifies the position of the
 element relative to whatever is adjacent to it, either to the right or
@@ -8686,8 +8671,7 @@ it overlaps with another element on the page.  This can be useful when
 you want to control where an element is placed on a page.  In the
 following pictures, the black rectangles encompass the content:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 62. three blocks - green, blue, red (###) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 62. three blocks - green, blue, red (18x) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image062.webp?raw=true"
   width="30%"
@@ -8695,14 +8679,14 @@ following pictures, the black rectangles encompass the content:
 </p>
 <!-- style="width:3in;height:1.02479in" -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 63. green, space, blue, red (###) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 63. green, space, blue, red (18x) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image063.webp?raw=true"
   width="30%"
-  alt="Image showing (Block 1, Block 2, Block 3). Block 2 has a positive margin-left, creating space between Blocks 1 and 2. Block 3 is negative causing its left side to overlap with Block 2." />
+  alt="Image showing (Block 1, Block 2, Block 3). Block 2 has a positive margin-left, 
+    creating space between Blocks 1 and 2. Block 3 is negative causing its left side 
+    to overlap with Block 2." />
 </p>
-<!-- style="width:3in;height:1.10482in" -->
 
 On the left, we see three blocks with no margins between them. On the
 right are the same 3 blocks, but now block 2 has a positive margin-left,
@@ -8722,7 +8706,6 @@ than or equal to 0.  What the browser does if the border-width is less
 than 0 is undefined and shouldn't be relied on.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 64. three blocks (183) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image064.webp?raw=true"
   width="30%"
@@ -8730,7 +8713,6 @@ than 0 is undefined and shouldn't be relied on.
     borders with different widths, but the margins are zero, implying that the 
     borders are up against each other regardless of their width." />
 </p>
-<!-- style="width:3in;height:1.074in" -->
 
 Here blocks 1, 2 and 3 all have borders with different widths, but the
 margins are zero.  There is no overlap, the borders are up against each
@@ -8751,7 +8733,6 @@ element, so the effective visible size of the element includes the
 padding.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 65. three blocks (184) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image065.webp?raw=true"
   width="30%"
@@ -8767,7 +8748,6 @@ to these, we see that the padding is reflected by empty space between
 the contents and the border:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 66. three blocks (184) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img src="./images/image066.webp"
   width="30%"
   alt="Image showing 3 blocks that have padding with borders, in addition to the thin border aroung their texts &#39;Block 1&#39;, &#39;Block 2&#39;, &#39;Block 3&#39;." />
@@ -8787,7 +8767,6 @@ border comes to surrounding elements.  You can even give your border
 rounded corners using the border-radius setting:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 67. three blocks (184) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image067.webp?raw=true"
   width="30%"
@@ -8800,7 +8779,6 @@ In any browser's debugger, you will see a box model diagram. It looks
 like this:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 68. css box model - margin, border, padding (185) ~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image068.webp?raw=true"
   width="30%"
@@ -8846,7 +8824,6 @@ Nevertheless, that can cause problems when you have different rules that
 could apply to the same element. Consider the following example:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 69. my book chapter 1 section 1.1 (190) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image069.webp?raw=true"
   width="40%"
@@ -8922,7 +8899,6 @@ resulting in smaller gray text.  However, when you re-arrange the rules
 you get a different result:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 70. my boook chapter 1, section 1.1 (191) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image070.webp?raw=true"
   width="40%"
@@ -8996,7 +8972,6 @@ settings in the "Styles" panel, however, there is much more information
 there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 71. styles in the debugger (192) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image071.webp?raw=true"
   width="65%"
@@ -9010,7 +8985,6 @@ fact, changes in this top panel are mirrored as settings in the style
 attribute of the element:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 72. modifying style in debugger (193) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image072.webp?raw=true"
   width="65%"
@@ -9036,7 +9010,6 @@ Back to our quandary, why does "article h1" take precedence over
 rearranging, which did what we wanted:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 73. working version in debugger (194) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image073.webp?raw=true"
   width="65%"
@@ -9068,7 +9041,6 @@ used only on a section that is inside an article, which is really what
 we want:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 74. my book chapter 1 section 1.1 (195) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image074.webp?raw=true"
   width="45%"
@@ -9137,7 +9109,6 @@ page, and others as examples of different types of clouds.  We include
 the pictures but the result is unwieldy:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 75. image of cloud (196) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image075.webp?raw=true"
   width="65%"
@@ -9197,7 +9168,6 @@ img {
 Giving a much more reasonable page:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 76. cloud image (197) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image076.webp?raw=true"
   width="65%"
@@ -9269,7 +9239,6 @@ We open up the debugger and choose the &lt;img&gt; tag corresponding to our
 first picture, then we see this in the Styles section:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 77. debugger (198) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image077.webp?raw=true"
   width="35%"
@@ -9302,7 +9271,6 @@ li img {
 <h4>That looks better:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 78. cloud image-codepen (198) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image078.webp?raw=true"
   width="65%"
@@ -9368,7 +9336,6 @@ the <a href="http://codepen.io/w3devcampus/pen/wdxegK" target="_blank">CodePen<
 content is an outline for an essay and it should look something like this:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 79. Essay outline-code results (201) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image079.webp?raw=true"
   width="40%"
@@ -9446,7 +9413,6 @@ is the over-ridden font-size setting identical to the current one, i.e.
 .5em on &lt;li&gt; elements.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 80. debugging font-size (203) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image080.webp?raw=true"
   width="65%"
@@ -9466,7 +9432,6 @@ going to scroll down past those to "font-size" which reveals this:
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 81. computed font-size (204) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image081.webp?raw=true"
   width="45%"
@@ -9482,7 +9447,6 @@ going on.  We see that the font-size on the body is 24px, but there are
 several repetitions of the li .5em.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 82. font-size (204) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image082.webp?raw=true"
   width="45%"
@@ -9501,7 +9465,7 @@ solution would be rem.  This would make the size relative to the
 html font-size (the default font-size for the page), not to it's
 surroundings.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch4-4-5">4.4.5 Recipe Project</a></h3>
+<h3 id="ch4-4-5">4.4.5 Recipe Project</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 We are now going to do some more "beautifying" of our Web page using
 what we've learned in the debugger and the CSS box model to figure out
@@ -9511,7 +9475,6 @@ little more flair.
 Try to make changes to get something like this:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 83. example: my favorite recipes (205) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image083.webp"
   style="width:4.96875in;height:2.73958in"
@@ -9655,7 +9618,6 @@ If you'd like to see what we did for the module 3, you can find it in
 the CodePen below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 84. my favorite recipes (208) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image084.webp"
   style="width:4.96875in;height:2.73958in" 
@@ -9782,17 +9744,16 @@ Pizza, the king of comfort foods. Try this simple, taste sensation.
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch5">Welcome to Module 5</a></h2>
+<h2 id="ch5">Welcome to Module 5</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 85. more html5 and css3 (210) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image085.webp"
   style="width:3in;height:3.27103in"
   alt="More HTML5 and CSS3."/>
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-1-2">5.1.2 Module 5 - Content</a></h3>
+<h3 id="ch5-1-2">5.1.2 Module 5 - Content</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <b>5.1 Introduction: </b>You will be combining HTML and CSS to create more
@@ -9815,7 +9776,7 @@ making awesome Web pages.
 <b>5.5 Recipe project: </b>Separate your CSS and HTML into their own files
 for cleaner, easier coding.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-1-3">5.1.3 A World of Possibilities</a></h3>
+<h3 id="ch5-1-3">5.1.3 A World of Possibilities</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 In Module 1, we learned the basics of HTML5. It's a fairly simple
 format, just a tree full of elements, which are described by tags,
@@ -9830,7 +9791,7 @@ Putting this all together to form a coherent Web page with the addition
 of CSS presents a world of possibilities. In this module, we'll delve
 into some of those interesting possibilities. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-2-1">5.2.1 Introduction to Tables</a></h3>
+<h3 id="ch5-2-1">5.2.1 Introduction to Tables</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Using tables to organize information goes back a way.  A long way. Three
 or four thousand years ago, Sumerians were using [tables to calculate
@@ -9860,20 +9821,21 @@ want to just make your whole Web page into one big table: site header in
 a table row, left navigation bar on the second row, left column, etc.
 
 <h4>Bad idea! Here's why:</h4>
+
 <ul>
-<li>They are semantically incorrect for layout because they represent
+  <li>They are semantically incorrect for layout because they represent
     presentation and not content.</li>
-<li>It puts presentation data in your content making your HTML larger.
+  <li>It puts presentation data in your content making your HTML larger.
     The user must download this unnecessary presentation data for every
     page they visit.</li>
-<li>Accessibility: tables are not very screen reader friendly. Using
+  <li>Accessibility: tables are not very screen reader friendly. Using
     tables for layout will clutter your HTML making it harder for
     assistive technology to parse your Web page.</li>
-<li>Redesigns are harder when your HTML is cluttered with presentational
+  <li>Redesigns are harder when your HTML is cluttered with presentational
     code that should go into CSS. To change the layout of the page, you
     shouldn't be editing your content. Instead, you should just have to
     make CSS related changes.</li>
-<li>Using CSS (one or two external stylesheets for your whole Web site)
+  <li>Using CSS (one or two external stylesheets for your whole Web site)
     is easier to maintain consistency among pages.</li>
 </ul>
 
@@ -9941,7 +9903,6 @@ understanding the content or use assistive technology.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 86. table example 1.0 (214) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image086.webp"
   style="width:4in;height:2.54315in"
@@ -9971,7 +9932,7 @@ understanding the content or use assistive technology.
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-2-2">5.2.2 The &lt;tr&gt;, &lt;th&gt;, &lt;td&gt;, &lt;colgroup&gt;, &lt;col&gt; tags</a></h3>
+<h3 id="ch5-2-2">5.2.2 The &lt;tr&gt;, &lt;th&gt;, &lt;td&gt;, &lt;colgroup&gt;, &lt;col&gt; tags</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Let's now create a basic table with a few cells.
@@ -10000,7 +9961,6 @@ The content of table header cells is bold and centered by default.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 87. table cells header & standard (215) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image087.webp"
   style="width:4in;height:2.54315in"
@@ -10031,7 +9991,6 @@ The content of table header cells is bold and centered by default.
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 88. th: colspan, rowspan & scope (215) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image088.webp"
   style="width:6.5in;height:3.03681in"
@@ -10068,7 +10027,6 @@ regular and left-aligned by default.
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 89. td: colspan, rowspan & headers (204) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image089.webp?raw=true"
   width="65%"
@@ -10138,14 +10096,13 @@ achieve styling effects specific to a column. 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 90. color column headers (205) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image090.webp?raw=true"
   width="40%"
   alt="Colored column headers." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-2-3">5.2.3 The &lt;thead&gt;, &lt;tbody&gt; and &lt;tfoot&gt; tags</a></h3>
+<h3 id="ch5-2-3">5.2.3 The &lt;thead&gt;, &lt;tbody&gt; and &lt;tfoot&gt; tags</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Similar to an HTML document, a table in HTML can be split into header,
 body and footer. We use these three tags;
@@ -10269,14 +10226,13 @@ considered footer rows at the end of a table:
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 91. table example: name & age (208) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
   <img src="./images/image091.webp"
   style="width:4in;height:2.53781in" 
   alt="Table example with name and age." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-2-4">5.2.4 Styling your table</a></h3>
+<h3 id="ch5-2-4">5.2.4 Styling your table</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 We now know how to put a basic table together. However, the tables we
 have looked at so far could really use some work in terms of how they
@@ -10304,7 +10260,6 @@ sets border-width, border-style and border-color in order: 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 92. border property values (209) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image092.webp"
   style="width:6.5in;height:1.67986in"
@@ -10319,7 +10274,6 @@ table, th, td { border: 1px solid black; }
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 93. three border examples (209) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image093.webp"
   style="width:4in;height:2.4958in"
@@ -10393,7 +10347,6 @@ Possible values of this property are: 
 -   initial - sets to default value (separate)
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 94. table border collapse (210) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image094.webp"
   style="width:4in;height:2.4958in" 
@@ -10463,7 +10416,6 @@ the whole column/row. If two cells in one column/row have different
 widths/heights specified, the larger value is set.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 95. table example (212) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image095.webp"
   style="width:4in;height:4.33613in"
@@ -10608,7 +10560,6 @@ th, td { padding: 20px 30px 40px 50px; }
 It is specified in the order: top, right, bottom and left padding.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 96. table th and td (215) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image096.webp"
   style="width:4in;height:2.52101in" 
@@ -10673,7 +10624,6 @@ Some things to keep in mind:
     take effect.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 97. table spacing with border (216) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
   <img src="./images/image097.webp"
   style="width:4in;height:2.52101in" 
@@ -10740,7 +10690,6 @@ th, td { border-right: 1px solid black; }
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 98. table with side borders (217) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image098.webp"
   style="width:4in;height:2.52101in" 
@@ -10816,7 +10765,6 @@ tr:nth-child(3n) { background-color: grey; } 
 will make the every third list item grey.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 99. nth child selector match (219) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image099.webp?raw=true"
   width="40%"
@@ -10907,7 +10855,6 @@ tr:hover {background-color: #ccff99; }
 <h4>Hover over these tables:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 100. hover to highlight (221) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image100.webp?raw=true"
   width="40%"
@@ -10987,7 +10934,6 @@ To address left and right edges of content, you can use overflow-x and
 to address top and bottom edges of content, you can use overflow-y.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 101. overflow-hidden example (222) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image101.webp?raw=true"
   width="40%"
@@ -11129,7 +11075,6 @@ div.overflow-x-auto { overflow-x: auto; overflow-y:hidden; }
 As a conclusion to this tables section, here is a complete table design:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 102. picture of a complete table design (239) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image102.webp?raw=true"
   width="40%"
@@ -11254,7 +11199,7 @@ information on the right way to design tables of different header types
 on this W3C <a href="https://www.w3.org/WAI/tutorials/tables/" target="_blank">Tables
 Concepts</a> page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-2-5">5.2.5 Creating a Table</a></h3>
+<h3 id="ch5-2-5">5.2.5 Creating a Table</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Let's take a look at how to work with tables and manipulate the table
 styling within an HTML document.
@@ -11278,7 +11223,7 @@ determine that there is a bit of a difference.
 
 We take a look at 'th' elements within side 'tr', or "Table Row".
 
-The 'th' element, again specifies that this is a "Table Header".
+The 'th' element, again specifies that is a "Table Header".
 
 The day and the temperature become Header information that is displayed
 in bold, over here on our Web page.
@@ -11298,7 +11243,7 @@ We need a little more spacing that's in there.
 What we're going to do is start to apply some styling to this table to
 make it a little more visually appealing.
 
-We're going to do this using cascading style sheets.
+We're going to do this using <b>cascading style sheets</b>.
 
 Again, think of your HTML as simply displaying the layout of the page,
 but the styling should always be in your CSS.
@@ -11613,7 +11558,7 @@ documents.
 And then using CSS, how to apply some styling to make your tables look a
 little more visually appealing inside your document.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-2-6">5.2.6 Activities - Tables</a></h3>
+<h3 id="ch5-2-6">5.2.6 Activities - Tables</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 1.  Create a simple 3x3 table with the first row containing header
     cells. You may choose not to add any styling including border. 
@@ -11635,11 +11580,12 @@ little more visually appealing inside your document.
     Insert dummy text values for the table.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 103. tables activity #2 (24x) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image103.webp?raw=true"
   width="60%"
-  alt="Tables activity #2: it&#39;s a 3x3 table - the header row has a dark grey background; the last column is composed of the header cell and the other cells are grouped; the last row has the 2 first cells merged." />
+  alt="Tables activity #2: it&#39;s a 3x3 table - the header row has a dark grey background; 
+    the last column is composed of the header cell and the other cells are grouped; the last 
+    row has the 2 first cells merged." />
 </p>
 
 5.  Find a table used in a real Web page whose table body can be
@@ -11648,9 +11594,9 @@ little more visually appealing inside your document.
 6.  Create a simple hover to highlight table that makes the background
     color of a row 'yellow' when you hover over a table row.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-3-1">5.3.1 The &lt;audio&gt; element</a></h3>
+<h3 id="ch5-3-1">5.3.1 The &lt;audio&gt; element</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-audio and video are new HTML 5 elements that were highly anticipated.
+Audio and video are new HTML 5 elements that were highly anticipated.
 With HTML5 support for multimedia, this has become much easier, than
 previous methods. 
 
@@ -11674,7 +11620,6 @@ audio playback. The following table lists the audio element's
 attributes:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 103. audio: attribute, description & usage (248) ~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image103.webp?raw=true"
   width="65%"
@@ -11682,7 +11627,6 @@ attributes:
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 104. autoplay and example code (249) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image104.webp?raw=true"
   width="65%"
@@ -11702,7 +11646,9 @@ file will play. 
 
 The most common ones are MP3, WAV and Ogg. 
 
-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats">This page</a> under 'Browser Compatibility' lists the audio formats supported by the audio element and their browser support.
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats">
+  This page</a> under 'Browser Compatibility' lists the audio formats supported by 
+  the audio element and their browser support.
 
 Here is some information regarding different types of audio formats and
 their compression techniques that can help you decide which audio format
@@ -11775,13 +11721,12 @@ to play .wav, failed and played the .mp3 version instead. 
 The following table lists the &lt;source&gt; element's attributes:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 105. source element attributes (251) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image105.webp?raw=true"
   width="65%"
   alt="Source element attributes." />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-3-2">5.3.2 The &lt;video&gt; Element</a></h3>
+<h3 id="ch5-3-2">5.3.2 The &lt;video&gt; Element</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 You can use the video element to embed video in your page. You can
 specify the location of your video file using the src attribute
@@ -11803,7 +11748,6 @@ that can be used to configure playback. The following table lists
 the video element's attributes:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 106/107. video element attributes (251) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image106.webp?raw=true"
   width="65%"
@@ -11815,7 +11759,6 @@ the video element's attributes:
 <!-- style="width:6.5in;height:2.79653in" /> -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 108. html5 logo (253) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image108.webp?raw=true"
   width="100px;"
@@ -11898,7 +11841,7 @@ to choose apart from video element and browser compatibility:
     another, there are a lot of software applications available to help
     you do that. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-3-3">5.3.3 Video – Source and Track Elements</a></h3>
+<h3 id="ch5-3-3">5.3.3 Video – Source and Track Elements</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 The source element that we saw in the previous unit is also used to
 specify multiple source files for the video element. The &lt;source&gt; tag
@@ -11923,7 +11866,6 @@ a combination of formats. 
 <h4>The following table lists the source element's attributes:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 109. source element's attributes (255) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image109.webp?raw=true"
   width="85%"
@@ -11968,16 +11910,15 @@ your &lt;video&gt; tag like this:
 <h4>The following table lists the &lt;track&gt; element's attributes:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 110. track element's attributes (256) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image110.webp"
   style="width:6.5in;height:4.29444in"
   alt="Track Element's attributes." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-3-4">5.3.4 Audio and Video Elements</a></h3>
+<h3 id="ch5-3-4">5.3.4 Audio and Video Elements</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-4-1">5.4.1 The iframes tag (OPTIONAL)</a></h3>
+<h3 id="ch5-4-1">5.4.1 The iframes tag</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <i><b>Note:</b> This section is optional material included for the curious.
 It will not appear on any graded question.</i>
@@ -12007,7 +11948,6 @@ An &lt;iframe&gt; tag can be as simple as this:
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 111. iframe (263) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image111.webp"
   style="width:4in;height:2.51477in"
@@ -12037,7 +11977,6 @@ An &lt;iframe&gt; tag can be as simple as this:
 Because iframes are HTML elements, they can be styled just like other elements, with borders, margins, sizes specified with CSS rules:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 112. iframes and images (263) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image112.webp"
   style="width:3in;height:1.64371in"
@@ -12076,7 +12015,6 @@ There are a number of important attributes for an &lt;iframe&gt; tag, but
 for now we'll just look at a few of them:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 113. iframe attributes (264) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image113.webp?raw=true"
   width="65%"
@@ -12129,7 +12067,7 @@ However, there can be some disadvantages:
 -   Search engines have trouble accessing and in turn indexing the
     content in your iframes. This doesn't help your search ranking. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-4-2">5.4.2 The ismap and usemap attributes (OPTIONAL)</a></h3>
+<h3 id="ch5-4-2">5.4.2 The ismap and usemap attributes</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <b>Note:</b> This section is optional material included for the curious.
 It will not appear on any graded question.
@@ -12184,7 +12122,6 @@ your ismap specification.
 Let's look at how the code above works.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 114. how ismap code works (266) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image114.webp?raw=true"
   width="30%"
@@ -12207,7 +12144,8 @@ to, to the browser. 
 
 Read more about image maps <a href="https://en.wikipedia.org/wiki/Image_map">on wikipedia</a>. You might be
 inclined to assume an image map will only be used for an actual
-map. However, there are a lot more use cases for it. The <a href="http://www.atlasmagazine.com/win98r.html">Atlas Magazine</a> is a good example.
+map. However, there are a lot more use cases for it. The <a href="http://www.atlasmagazine.com/win98r.html">
+Atlas Magazine</a> is a good example.
 
 Try this: Navigate to the <a href="http://www.atlasmagazine.com/win98r.html">Atlas magazine</a> and explore the
 header image with a 'laughing budha' like image. The image acts as a
@@ -12300,7 +12238,6 @@ Try this: Click on the left and right side of the images to check out
 how usemap works :) Remember to navigate back to the course!
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 115. usemap sign example (269) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image115.webp?raw=true"
   width="50%"
@@ -12311,7 +12248,7 @@ Note: If the &lt;img&gt; is inside an &lt;a&gt; or &lt;button&gt; element,
 on it will be interpreted as clicking on the link or button and usemap
 will not work.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-4-3">5.4.3 Activities - Embedding content (OPTIONAL)</a></h3>
+<h3 id="ch5-4-3">5.4.3 Activities - Embedding content</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 1.  How can you inform screen readers that you are using an iframe in
@@ -12327,7 +12264,7 @@ will not work.
 
 What happens? Why does it behave the way it does?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-5-1">5.5.1 Decorative images and backgrounds</a></h3>
+<h3 id="ch5-5-1">5.5.1 Decorative images and backgrounds</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 As we saw earlier, the &lt;img&gt; tag is meant to be used for semantically
 important imagery.  For example, the pictures that accompany a news
@@ -12364,7 +12301,6 @@ hyperlink (&lt;a&gt;), paragraph (&lt;p&gt;), unordered list (&lt;ul&gt;) and l
 items (&lt;li&gt;):
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 116. w3c background image  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image116.webp?raw=true"
   width="50%"
@@ -12394,7 +12330,6 @@ like background-repeat, background-size, and background-attach (as well
 as several others). 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 117. background image (271) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image117.webp?raw=true"
   width="65%"
@@ -12409,7 +12344,6 @@ image itself, then the image will repeat and fill the space, like tiles.
 <h4>For example:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 118. repeat background image (271) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image118.webp?raw=true"
   width="65%"
@@ -12432,7 +12366,6 @@ repeats. The space value will result in cropped images; it means
 of spacing. That is calculated for you.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 119. repeat background image centered (272) ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image119.webp?raw=true"
   width="65%"
@@ -12445,29 +12378,24 @@ style="width:5in;height:2.11378in" />
 <h4>background-size</h4>
 
 When <i>not</i> repeating, it is very useful to size a background image to
-fit its element.  The background-size can be used for this.  There are
-two very useful values:  contain and cover.   The contain value will put
-the entire image into the space of the element, however, the space of
-the element may not be completely filled if the aspect ratio of the
-element and the image do not match.  The cover value is the opposite. It
+fit its element. The background-size can be used for this. There are
+two very useful values:  <b>contain</b> and <b>cover</b>. The <b>contain</b> 
+value will put the entire image into the space of the element, however, the 
+space of the element may not be completely filled if the aspect ratio of the
+element and the image do not match.  The <b>cover</b> value is the opposite. It
 will completely fill the element but the image may be cropped off two
-opposite sides.  Neither contain or cover will distort or squish the
-image.  Its aspect ratio is maintained.
+opposite sides. Neither <b>contain</b> nor <b>cover</b> will distort or squish the
+image. Its <i>aspect ratio</i> is maintained.
 
 Here we demonstrate the difference. A border has been applied to the
 paragraph to clearly show the bounds of the parent &lt;p&gt; element.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 120. background sizing (272) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image120.webp?raw=true"
   width="65%"
   alt="Background sizing." />
 </p>
-<!--
-<img src="./images/image122.png"
-style="width:5in;height:1.60897in" />
--->
 
 The background-size property can also be used to more exactly size the
 image.  When used in this fashion, it takes <i>two</i> values separated by a
@@ -12490,16 +12418,11 @@ handle it for you. Otherwise there is a risk of stretching/distorting
 images. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 121. auto background size (273) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image121.webp?raw=true"
   width="65%"
   alt="Auto background size." />
 </p>
-<!--
-<img src="./images/image123.png"
-style="width:5in;height:1.71421in" />
--->
 
 <h4>background-position</h4>
 
@@ -12512,18 +12435,13 @@ image in the center of the element. This is useful even with repeating
 tiles. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 122. center background position (273) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image122.webp?raw=true"
   width="65%"
   alt="Center background position." />
 </p>
-<!--
-<img src="./images/image124.png"
-style="width:5in;height:1.82425in" />
--->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-5-2">5.5.2 Decorative borders and shadows</a></h3>
+<h3 id="ch5-5-2">5.5.2 Decorative borders and shadows</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 In the previous sub-section, we looked at decorative backgrounds and
 images. We will continue this theme by examining decorative borders and
@@ -12548,16 +12466,11 @@ include none, hidden, solid, dotted, dashed, double, groove, ridge, ins
 Here the visible border styles displayed on a gray border:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 123. border styles (274) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image123.webp?raw=true"
   width="65%"
   alt="Border styling." />
 </p>
-<!--
-<img src="./images/image125.png"
-style="width:6.5in;height:0.42361in" />
--->
 
 Note that the groove, ridge, inset and outset borders all use black in
 addition to any explicit border-color.  So if the border-color is also
@@ -12612,32 +12525,21 @@ round cornered rectangles.  Join the fun by using
 the border-radius property:  
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 124. silence is golden, 1 (275) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image124.webp?raw=true"
   width="65%"
   alt="Silence is golden." />
 </p>
-<!--
-<img src="./images/image126.png"
-style="width:6.5in;height:1.67847in" />
--->
 
 Note this is fun to use with a background color or background image and
 no border at all:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 125. silence is golden, 2 (275) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image125.webp?raw=true"
   width="65%"
   alt="Silence is golden, 2." />
 </p>
-
-<!--
-<img src="./images/image127.png"
-style="width:6.5in;height:1.67153in" />
--->
 
 <h4>box-shadow</h4>
 
@@ -12658,18 +12560,13 @@ up.
 The blur value is also a dimension unit, but can only be 0 or positive.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 126. illuminati (276) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image126.webp?raw=true"
   width="50%"
   alt="Illuminati." />
 </p>
-<!--
-<img src="./images/image128.png"
-style="width:6.5in;height:1.93264in" />
--->
 
-### text-shadow
+<h4>text-shadow</h4>
 
 This CSS property takes the same values as box-shadow, however, the
 shadow is applied directly to the text shapes:
@@ -12680,18 +12577,13 @@ text-shadow:  <x-offset> <y-offset> <blur> <color>;
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 127. blurred majestic 12 (276) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image127.webp?raw=true"
   width="65%"
   alt="Blurred majestic 12 - text-shadow." />
 </p>
-<!--
-<img src="./images/image129.png"
-style="width:6.5in;height:0.91458in" />
--->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-5-3">5.5.3 Managing element size</a></h3>
+<h3 id="ch5-5-3">5.5.3 Managing element size</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 As you start to leverage borders, background colors, and the other
 decorative CSS properties we have seen in the previous sections you will
@@ -12711,7 +12603,6 @@ explore them more in next module when covering Layout.  
 Here is a simple example of a common error:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 128. example of a common error (277) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image130.webp?raw=true"
   width="65%"
@@ -12760,7 +12651,6 @@ second paragraph we use different padding for different sides, thus
 placing the rectangle of the element relative to the text itself.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 129. padding & relative text placement (278) ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image129.webp?raw=true"
   width="65%"
@@ -12798,7 +12688,7 @@ next module. Here is a quick rundown:
     powerful, but by over-determining explicit heights and widths you
     reduce its usefulness to you and your viewer.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-5-4">5.5.4 Pseudo classes and cursor (OPTIONAL)</a></h3>
+<h3 id="ch5-5-4">5.5.4 Pseudo classes and cursor</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Refined CSS selectors - pseudo classes</h4>
 
@@ -12864,7 +12754,6 @@ as li:hover and ul:hover, then they will <i>both</i> be activated, when the
 mouse is over one of the list items.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 130. hover pseudo-class  (280) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image130.webp?raw=true"
   width="65%"
@@ -12888,7 +12777,6 @@ This selector is most commonly used to apply "transaction ledger" styles
 to tables or lists.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 131. nth child pseudo-class (281) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image131.webp?raw=true"
   width="65%"
@@ -12923,12 +12811,11 @@ well 
 For more information, please visit the [MDN page on
 cursor](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor).
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-5-5">5.5.5 CSS best practices (OPTIONAL)</a></h3>
+<h3 id="ch5-5-5">5.5.5 CSS best practices</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-You will find below an excerpt of CSS best practices (see the [full
-slide
+You will find below an excerpt of CSS best practices (see the [full slide
 set](https://fantasai.inkedblade.net/style/talks/best-practices/#title#title))
-that were written by  Elika J. Etemad (also known
+that were written by Elika J. Etemad (also known
 as [fantasai](https://fantasai.inkedblade.net/)). Elika is an expert on
 the [W3C CSS Working Group](https://www.w3.org/Style/CSS/) (since 2004!)
 and a longtime contributor to the Mozilla Project. In addition to
@@ -12956,7 +12843,6 @@ W3C.
     and ruins your layout.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 132. keep the web open (282) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image132.webp?raw=true"
   width="15%"
@@ -13012,7 +12898,6 @@ Your favorite browser is not always right.
 <h4>Testing</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 133. red testing button (283) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image133.webp?raw=true"
   width="20%"
@@ -13100,23 +12985,19 @@ and amounts.
 Give it a try, and when you're done (or if you get stuck), watch the
 next video to see what we did.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-5-7">5.5.7 Recipe project - Module 5</a></h3>
+<h3 id="ch5-5-7">5.5.7 Recipe project - Module 5</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 In this next session, we're going to take a look at continuing the work
 on a recipe project.
 
 What we're going to do here is apply some more styling to a table.
-
 But one of the things that we want to do is make our application a
 little bit more on the professional side by taking a look at how we can
 remove the inline styles that we have in our HTML and place them into a
-CSS document.
-
-The CSS document will be a separate file.
+CSS document. The CSS document will be a separate file.
 
 Again, looking at our HTML document, we have an inline style specified
 by the style tags in the header of our document.
-
 What we want to do is remove all of these styling elements out of the
 HTML document and into a separate CSS file.
 
@@ -13131,76 +13012,45 @@ within that but for demonstration purposes I'm just leaving it in the
 root folder where our HTML file is.
 
 Now that we've got that in a separate CSS file in order to apply the
-styles we need to create a link.
-
-We need to link our style sheet into our HTML document.
-
-We do so with the 'link' element inside the 'head' tag.
-
+styles we need to create a link. We need to link our style sheet into 
+our HTML document. We do so with the 'link' element inside the 'head' tag.
 And then we set it up as a style sheet element and then we specify the
 'href' which is the actual file name itself and again if we had a folder
 structure we would specify where to find it within that folder
-structure.
+structure. Then we simply tell it that it is a text CSS file.
 
-Then we simply tell it that it is a text CSS file.
-
-Now, what we're going to do is we're going to apply that CSS styling not
-just to the Web page, but we're going to make some changes to our list
-of ingredients located down here underneath the salad image.
-
-Currently the list of ingredients is a 'ul' tag, and if we scroll into
-our HTML document then fine, we see that it's simply a 'ul' tag with
-three list items in it.
-
-What we want to do is change this so that we can better represent the
-list of ingredients.
-
-Typically, you'll have an ingredient name and a quantity.
-
-In order to work with that successfully, we are going to setup a table.
+Now, what we're going to do is apply that CSS styling not just to the 
+Web page, but we're going to make some changes to our list of ingredients 
+located underneath the salad image. Currently, the list of ingredients is 
+a 'ul' tag, and if we scroll into our HTML document then fine, we see that 
+it's simply a 'ul' tag with three list items in it. What we want to do is 
+change this so that we can better represent the list of ingredients.
+Typically, you'll have an ingredient name and a quantity. In order to work 
+with that successfully, we are going to setup a table. 
 
 We will replace this 'ul' element and the three 'li' elements with the
 'table' element, and then we'll create three rows and two columns, one
 to support the ingredient name and one to support the amount of the
-ingredient itself.
-
-Let's go ahead, and start replacing that 'ul' with the 'table' element.
-
-That will create our first table row and then within that first row we
-want to have two table cells.
+ingredient itself. Let's go ahead, and start replacing that 'ul' with the 
+'table' element. That will create our first table row and then within that 
+first row we want to have two table cells.
 
 The first 'td' we create, we're actually going to start applying class
-names to the table cells.
-
-Each one of the cells will have a different class name.
-
+names to the table cells. Each one of the cells will have a different class name.
 The first one will specify as ingredient and this will actually contain
-the text with the ingredient itself.
-
-We'll put that in place, and then we'll go ahead and we'll create a
+the text with the ingredient itself. We'll put that in place, and then we'll create a
 second 'td' element and we'll also give this 'td' element a class name.
-
 The class name that we'll specify here is called amount, so that we know
-this is for the amount field.
+this is for the amount field. Again, these class names will become important 
+when we start manipulating the styling in the CSS file.
 
-Again, these class names will become important when we start
-manipulating the styling in the CSS file.
-
-We had three ingredients listed prior.
-
-What we're going to do is essentially just copy and paste that initial
-row into two second rows, and then we'll have three rows altogether.
-
-Now what we're going to do with each individual cell is we're going to
-change the text that is in the cell, and we're doing this for a specific
-reason.
-
-Because what you'll see after we're done, is how the text doesn't align
-very well on the table mostly because of the different widths or the
-different quantities of characters that are in each one of the text
-items that we have.
-
-This kind of messes the display of our table up a little bit when we
+We had three ingredients listed prior. What we're going to do is essentially 
+copy and paste that initial row into two second rows, and then we'll have three 
+rows altogether. Now we're going to change the text that is in the cell, and 
+we're doing this for a specific reason. Because what you'll see after we're done, 
+is how the text doesn't align very well on the table mostly because of the different 
+widths or the different quantities of characters that are in each one of the text
+items that we have. This kind of messes the display of our table up a little bit when we
 refresh the document, and it's not very visually appealing.
 
 We're going to use the CSS to apply some changes, to style a table to
@@ -13211,46 +13061,34 @@ some different text items in each one of these table cells and that will
 help illustrate the point when we refresh that we have some alignment
 issues within the table and again it doesn't look very nice because
 we've got stuff that's pretty much all left aligned, and the text
-doesn't look very nice.
+doesn't look very nice. 
 
-We're going to apply some styling to fix that up.
-
-Okay, so let's switch over to our CSS style sheet.
-
-And then we'll get ready to make some changes to that table.
+We're going to apply some styling to fix that up. Okay, so let's switch over 
+to our CSS style sheet. And then we'll get ready to make some changes to that table.
 
 I'm going to scroll to the bottom, and I'm going to work on adding all
 of the different styles that I want for the table down here at the
 bottom.
 
-The first thing we want to manipulate is the table itself.
-
-We're going to specify a left margin for the table, and then if you
-recall, if we allow a border for the whole table, each one of our cells
-ends up with a border and we end up with this double style bordering
-around the table and we don't want that.
-
-What we're going to do is we'll specify the border collapse style
-element in here so that we collapse the border from the table itself.
+The first thing we want to manipulate is the table itself. We're going to specify a 
+left margin for the table, and then if you recall, if we allow a border for the whole 
+table, each one of our cells ends up with a border and we end up with this double style 
+bordering around the table and we don't want that. What we're going to do is we'll 
+specify the border collapse style element in here so that we collapse the border 
+from the table itself.
 
 We're going to apply a bottom border to each one of our table rows and
 we'll set it as one pixel for the width, and we use a solid gray color
-for this particular border.
+for this particular border. Now that's the only styling we'll apply to the row.
 
-Now that's the only styling we'll apply to the row.
-
-Now, let's go ahead and apply some styling to our table cells.
-
+Now, let's apply some styling to our table cells.
 Again, remember, we used class names in our HTML document.
-
 We're going to use those class names in the style sheet itself.
 
 For the first one which was the ingredient class, we want to apply some
 more formatting to the text.
-
 We're going to left align the text in our ingredient column and we're
 also going to apply some padding.
-
 Now we're going to do a right padding for this, so that we get a little
 more space on the right-hand side of that cell.
 
@@ -13258,16 +13096,12 @@ And it's just going to allow a little more space which adds a little
 extra visual appeal when we've realigned our text.
 
 Now, let's apply some styling to the amount column.
-
 We use the 'td.amount' so that amount is our class name.
-
 In this case, we're going to do a right align on the text and then
 because we've done a right align, we'll do a left padding, and again we
 use the same value.
-
 And this allows us to provide a little more space on the left-hand side
 of the text.
-
 Again, just adding that visual separation in the table.
 
 Now that we have the styling applied, let's refresh our page and see
@@ -13276,10 +13110,7 @@ what our table looks like.
 There we have it. We've got a border underneath each one of the rows, we
 have left aligned text, we have no border around the entire table, left
 aligned text in the ingredient column, and then we have right aligned
-text in the amount column.
-
-It's a little more visually appealing.
-
+text in the amount column.  It's a little more visually appealing.
 We have better spacing between the text and it looks much better than it
 did initially.
 
@@ -13288,12 +13119,9 @@ them out into a separate CSS file, linked that to the HTML document, and
 then applied some styling using class names to our table giving a little
 more visual appeal to that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch6">Welcome to Module 6</a></h2>
+<h2 id="ch6">Welcome to Module 6</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Hi, and welcome to Module 6.
-
-In this module, we're going to be looking at CSS Layout.
-
+Hi, and welcome to Module 6. In this module, we're going to be looking at CSS Layout.
 We will begin with understanding Block versus Inline display, which will
 help you understand why the browser does what it does when it's laying
 out the HTML page.
@@ -13306,36 +13134,31 @@ Another technology that we are going to explore during this week's
 learning is CSS Grid, which is a modern technology for laying out Web
 pages.
 
-This is the last module of this course.
-
-We hope you have enjoyed the course and have gained new skills and up
-and ready to build great Web pages.
+This is the last module of this course. We hope you have enjoyed the course and 
+have gained new skills and up and ready to build great Web pages.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch6-1-2">6.1.2 Module 6 - Content</a></h3>
+<h3 id="ch6-1-2">6.1.2 Module 6 - Content</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <b>6.1 Introduction:</b> Understanding what "layout" means to your Web
 programming.
 
 <b>6.2 Concepts:</b> Get an understanding of "display" versus "position" &
 "block" versus "inline".  
-<i>Note</i>: Positioning and z-index are OPTIONAL material.
+<i>Note</i>: Positioning and z-index are IMPORTANT material.
 
 <b>6.3 Flexbox:</b> There is more to understand about positioning and
 sizing.
-<i>Note</i>: Calc is OPTIONAL.
 
 <b>6.4 More flexbox:</b> Main axis & cross axis, justification, alignment
 and order — more flexbox concepts.  
-<i>Note</i>: This ENTIRE section is OPTIONAL.
 
 <b>6.5 CSS Grid:</b> CSS Grid Layout is another new layout system available
 in CSS.
-<i>Note</i>: This ENTIRE section is OPTIONAL.
 
 <b><i>6.6 Recipe project:</i></b> Let's get "responsive" — how to make your Web
 page look good on differently sized devices.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch6-1-3">6.1.3 History of layout</a></h3>
+<h3 id="ch6-1-3">6.1.3 History of layout</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Before we get started working on the topic of layout directly, it is
 useful to understand a bit of HTML and CSS history.  
@@ -13387,7 +13210,7 @@ this and go straight to flexbox. After many stumbles, flexbox finally
 brings sanity to the much needed world of layout in CSS.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch6-2-1">6.2.1 Text baseline and the display property</a></h3>
+<h3 id="ch6-2-1">6.2.1 Text baseline and the display property</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 When newbie developers are groping around CSS blindly, they often
 stumble upon a variety of CSS properties that could be used to alter the
@@ -13418,7 +13241,6 @@ The text "baseline" is a key concept to understanding how the browser
 makes its layout decisions.  
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 134. big t, little g (291) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image134.webp?raw=true"
   width="25%"
@@ -13448,7 +13270,6 @@ Here is a quick table of the default values for some of the tags we've already
 learned:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 135. block and inline tags (292) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image135.webp?raw=true"
   width="65%"
@@ -13514,7 +13335,6 @@ applied, but no extra room is being made for it above or below, so its
 background is overlapping the lines above and below.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 136. set line-height of span (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image136.webp?raw=true"
   width="65%"
@@ -13526,7 +13346,6 @@ However, this solution should not be considered optimal.  Better is to
 change the span to be display:inline-block, which is discussed below.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 137. display:inline-block (###) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image137.webp?raw=true"
   width="65%"
@@ -13571,7 +13390,6 @@ span element display:inline-block.  Note that the margin-top is also
 respected. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 138.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image138.webp?raw=true"
   width="65%"
@@ -13592,7 +13410,7 @@ A key to not getting confounded by the display property is to have a
 grasp on which elements default to which display value and appreciating
 the differences between block, inline, and inline-block display.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch6-2-2">6.2.2 Horizontal and vertical centering</a></h3>
+<h3 id="ch6-2-2">6.2.2 Horizontal and vertical centering</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <b>Horizontal centering</b>
 
@@ -13665,7 +13483,7 @@ There is no margin:auto approach to vertical centering. There are some
 complicated systems that folk have developed, but the shortest and best
 answer to vertical centering: use flexbox. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch6-2-3">6.2.3 Key concept: position property</a></h3>
+<h3 id="ch6-2-3">6.2.3 Key concept: position property</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 The 'left', 'top', 'right', and 'bottom' properties
 
@@ -13693,7 +13511,7 @@ default position, which is position:static for all elements.  
 As of today, the position property has four different values it can
 take: static, relative, absolute, and fixed. We will look
 at static and fixed.   The options relative and absolute are more
-complex, they'll be discussed in an optional advanced section for
+complex, they'll be discussed in an advanced section for
 completeness, but we aren't going to worry much about them because
 flexbox reduces their use cases.
 
@@ -13765,12 +13583,10 @@ that are fixed positioned (or absolute) do not exhibit this behavior.
 Their initial width is simply the width of their content. Though it can
 be changed.
 
-Margins do not work the same
-
-For static and relative positioned items, margins can be used to adjust
-an element position and keep neighboring siblings "away". That's
-our quick assumption about the margins. However, when an
-element is fixed positioned, a given margin *might* be able to move the
+Margins do not work the same for static and relative positioned items.
+Margins can be used to adjust an element position and keep neighboring 
+siblings "away". That's our quick assumption about the margins. However, when an
+element is fixed positioned, a given margin <i>might</i> be able to move the
 element but will not move any siblings. Margins cannot be used to keep
 siblings "away", to fight crowding.
 
@@ -13789,11 +13605,8 @@ matching dimensional property (width) unspecified.  The element will
 grow or shrink based on the size of the browser window.  Note that this
 feature is only available to fixed (and absolute) elements.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch6-2-4">6.2.4 Positioning</a></h3>
+<h3 id="ch6-2-4">6.2.4 Positioning</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<b>Note:</b> This section is optional material included for the curious. It
-will not appear on any graded question.
-
 <h4>Positioned elements</h4>
 
 We read about the positioned elements in an earlier section. There are
@@ -13840,8 +13653,8 @@ should be aware:
 <h3>Independence - margin-top vs top</h3>
 
 <i>IMPORTANT</i>: The positioning properties (left, top, right, and bottom)
-adjust the placement of the element independently of its siblings.
- What does this mean?   Let's imagine we have a list and we want to move
+adjust the placement of the element independently of its siblings. What does 
+this mean?   Let's imagine we have a list and we want to move
 one of the items a little further down the page. Should we
 use margin-top to move it? Or position:relative in conjunction with
 the top property?  The answer to this question depends on whether you
@@ -13855,7 +13668,6 @@ positioning property (top).   When we use top, the "Third" item appears
 overlapping the Fourth and Fifth items, as they did not move at all. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 139. example using css (300) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
   <img src="./images/image139.webp"
   style="width:6.5in;height:1.83681in"
@@ -13890,13 +13702,11 @@ it is position:relative and moved with the left property, it can leave
 the bounds of its parent, or go offscreen.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 140. block level paragraph with border (301) ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image140.webp?raw=true"
   width="65%"
   alt="Block level paragraph with border." />
 </p>
-<!-- <img src="./images/image142.webp" style="width:6.5in;height:1.45139in" /> -->
 
 Admittedly, this is not necessarily a "limitation", for many layout
 situations preserving the size is exactly what is wanted. 
@@ -13925,13 +13735,11 @@ has its height set and a border applied.  The &lt;q&gt; is positioned
 absolutely.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~ 141. paragraph with height & border set and 'q' positioned absolute (302) ~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image141.webp?raw=true"
   width="65%"
   alt="Paragraph with height and border set along with 'q' positioned absolute." />
 </p>
-<!-- <img src="./images/image143.webp" style="width:6.5in;height:2.33889in" /> -->
 
 So that seems fairly straightforward and useful. But there are some
 subtle caveats and trade-offs of which you must be wary:
@@ -13984,13 +13792,11 @@ result below, so you can easily see the rectangle
 for  &lt;li&gt; versus &lt;ul&gt;.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 142. relative, static & absolute (303) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image142.webp?raw=true"
   width="65%"
   alt="List item styling.  Two are relative, therefore are static & overlapped." />
 </p>
-<!-- <img src="./images/image143.webp" style="width:6.5in;height:1.83681in" /> -->
 
 Best practice: use both horizontal and vertical positioning property on
 every absolute element
@@ -14037,13 +13843,11 @@ height of 0, as if it were empty. The fat border just becomes a fat flat
 line, and the list items themselves are not enclosed. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 143. position default vs absolute (304) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image143.webp?raw=true"
   width="85%"
   alt="Position default vs. absolute." />
 </p>
-<!-- <img src="./images/image145.webp" style="width:6.5in;height:1.29306in" /> -->
 
 <h4>Absolute positioned block level elements do not get the width of their parent</h4>
 
@@ -14083,7 +13887,7 @@ grow or shrink based on the size of the ancestor it is positioning
 against.  Note that this feature is only available to absolute and fixed
 positioned elements.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch6-2-5">6.2.5 'z-index'</a></h3>
+<h3 id="ch6-2-5">6.2.5 'z-index'</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <b>Note</b>: this section is optional material included for the curious. It
 will not appear on any graded question.
@@ -14113,7 +13917,6 @@ set, so the later elements overlap the earlier ones.  But on the right,
 we govern the overlapping with the z-index property. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 144. position relative overlap  (306) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image144.webp?raw=true"
   width="85%"
@@ -14146,14 +13949,13 @@ Alan's high z-index is only relevant to his siblings, not to cousins
 further out in the document.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 145. overlapping sibling divs (306) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image145.webp?raw=true"
   width="85%"
   alt="Overlapping sibling divs." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch6-2-6">6.2.6 Activity - Block vs. inline</a></h3>
+<h3 id="ch6-2-6">6.2.6 Activity - Block vs. inline</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 We've provided you with a starter project file. The code is included below in a CodePen:
 This simple file has two block level elements (the paragraphs) and two spans, which are inline. Additionally, there are several classes defined for you.
@@ -14180,11 +13982,8 @@ Play some more with the elements, trying to appreciate how block and inline elem
 
 - Put a margin:0 on the body.
 
-- Have fun!
-
-<b>NOTE:</b> Please do not upload HTML code to the discussion forum.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch6-3-1">6.3.1 Sizing and dimensions</a></h3>
+<h3 id="ch6-3-1">6.3.1 Sizing and dimensions</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 We have already touched on the size properties in the various
 discussions about display and positioning. But here we'll cover them
@@ -14232,6 +14031,7 @@ images and &lt;img&gt; tags.
 <h4>sizing properties</h4>
 
 <h4>There are six sizing properties. They are;</h4>
+
 <ul>
   <li>width</li>
   <li>min-width</li>
@@ -14240,57 +14040,50 @@ images and &lt;img&gt; tags.
   <li>min-height</li>
   <li>max-height</li>
 </ul>
-<p>
-The width and height properties are a simple way to explicitly set the
+
+<p>The width and height properties are a simple way to explicitly set the
 width or height of an element. It is set directly, and the element
 maintains that dimension (unless it is inline and ignores these
 properties). And certainly, when dealing with images, there is little
-reason to pursue anything but the most straightforward approach. 
-</p><p>
-However, if you look again at the descriptions for inline-block and
+reason to pursue anything but the most straightforward approach.</p>
+
+<p>However, if you look again at the descriptions for inline-block and
 block level elements above, you will notice that inline-block elements
 are *sized (height and width) to their content*.  And block level
 elements take the *width of their parent* and the *height of their
 content*. So these elements are fundamentally <b>variably </b>sized, and
 this variability is one of the most powerful and useful aspects of these
-elements.
-</p><p>
-However, when we use an explicit width or height property, we remove
+elements. However, when we use an explicit width or height property, we remove
 that variability from the element. This makes it less powerful and less
-useful.
-</p><p>
-The min-width and min-height properties allow us to set a minimum
+useful.</p>
+
+<p>The min-width and min-height properties allow us to set a minimum
 boundary for that variability, but otherwise the variable sizing of the
 element is unimpeded. So if we have min-width:300px; that means the
-element will be 300 pixels or possibly wider.
-</p><p>
-Likewise the max-width and max-height properties allow us to set a
-maximum boundary for the variability.
-</p><p>
-As we move into flexbox based layouts, variability in our design will
-become very important.  
-</p><p>
+element will be 300 pixels or possibly wider.</p>
+
+<p>Likewise the max-width and max-height properties allow us to set a
+maximum boundary for the variability. As we move into flexbox based layouts, 
+variability in our design will become very important.</p>
 
 <h4>Best practice</h4>
-<p>
-Unless you have good cause, try to avoid using explicit dimension
+
+<p>Unless you have good cause, try to avoid using explicit dimension
 properties like width and height.  If you must control the dimensions,
-consider using the min- or max- variants. 
-</p>
+consider using the min- or max- variants.</p>
+
 <h4>Cropping and scrolling: overflow</h4>
 
-If the element's dimensions are overdetermined by the sizing properties,
+<p>If the element's dimensions are overdetermined by the sizing properties,
 then its content may not fit. In the example below, the width and height
 of the paragraph have been set too small for its content.  As a result,
 the content overflows the rectangle of the paragraph. We've made this
-easier to see by adding a border and background color to the paragraph.
-</p><p>
-This default behavior, that content that doesn't fit is shown anyway,
-can be surprising if you weren't expecting it.
-</p>
+easier to see by adding a border and background color to the paragraph.</p>
+
+<p>This default behavior, that content that doesn't fit is shown anyway,
+can be surprising if you weren't expecting it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 146. cropping and scrolling overflow (312) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image146.webp?raw=true"
   width="65%"
@@ -14331,7 +14124,6 @@ of 100 pixels. 
     whether they are needed or not.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 147. scrolling value (313) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image147.webp?raw=true"
   width="65%"
@@ -14356,7 +14148,6 @@ Model" of the element.  Here is an illustration of how the different
 boxes are organized (innermost to outermost).
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 148. it's own content, padding, border & margines (314) ~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image148.webp?raw=true"
   width="45%"
@@ -14392,7 +14183,7 @@ that the more you are directly managing the size of items, the more
 likely you will need to change the box-sizing property to
 be border-box.  
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch6-3-2">6.3.2 Flexbox</a></h3>
+<h3 id="ch6-3-2">6.3.2 Flexbox</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Up to this point, we have covered quite a few different CSS layout
 concepts. Inline vs. block level display, different position values,
@@ -14434,7 +14225,6 @@ and padding on the paragraph, and a background color and a border radius
 to help visualize.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 151. flex container and flex columns (322) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image151.webp?raw=true"
   width="100%"
@@ -14599,7 +14389,7 @@ change at all, then set the flex-grow and flex-shrink to 0, and
 the box-sizing to border-box.  However, this is not advisable. Read
 the flex-shrink discussion above.  
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch6-3-3">6.3.3 Flexbox advice and best practices</a></h3>
+<h3 id="ch6-3-3">6.3.3 Flexbox advice and best practices</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Here are some quick tips to help you get the most out of flexbox.
 
@@ -14656,14 +14446,14 @@ If you need to center some content horizontally, then the previous
 section on centering may help. It discusses the various options for
 inline or block level elements.  However, a flex container and a flex
 child is also a possible approach. The flex container
-property justify-content:center; might help. See the optional section on
-that.   Both approaches (flexbox and "traditional") have their
+property justify-content:center; might help. See the section on
+that.  Both approaches (flexbox and "traditional") have their
 advantages in various situations.  Use your judgement.
 
 If you need to center something vertically, unless it is an inline
 element or the content of a table cell, the best answer is almost
 certainly flexbox. See the align-content and justify-content properties
-in the advanced optional flexbox material.
+in the advanced flexbox material.
 
 <h4>AVOID margin: auto on flex items</h4>
 
@@ -14684,18 +14474,18 @@ in this course material, and, as with all CSS, be sure to always test in
 as many browsers as possible.
 
 <h4>External resources</h4>
+
 <ul>
-  <li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox" target="_blank">Flexbox documentation</a> 
-  on MDN (available in many languages!)</li>
-  <li><a href="https://www.smashingmagazine.com/2018/08/flexbox-display-flex-container/" target="_blank">What Happens When You Create A Flexbox Flex Container?</a>
-  (by Rachel Andrew - 2 August 2018)</li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox" target="_blank">
+    Flexbox documentation</a> on MDN (available in many languages!)</li>
+  <li><a href="https://www.smashingmagazine.com/2018/08/flexbox-display-flex-container/" target="_blank">
+    What Happens When You Create A Flexbox Flex Container?</a> (by Rachel Andrew - 2 August 2018)</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch6-4-1">6.4.1 Main and cross axes</a></h3>
+<h3 id="ch6-4-1">6.4.1 Main and cross axes</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <b>Note</b>: This material is included for completeness. However, many are
-able to use flexbox satisfactorily without it. None of the material here
-will appear in any graded question.
+able to use flexbox satisfactorily without it. 
 
 <h4>Concepts</h4>
 
@@ -14719,7 +14509,6 @@ wrap-reverse; it is vertical running bottom to top.
 <h4>Start and end</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 170. flex container and flex-flow (324) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image170.jpg?raw=true"
   width="65%"
@@ -14796,7 +14585,7 @@ start" and "main end" sides (as in the illustration above).   When used
 with any of the flexbox align properties, flex-start and flex-end refer
 to the "cross start" and "cross end"  sides.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch6-4-2">6.4.2 Justification and alignment</a></h3>
+<h3 id="ch6-4-2">6.4.2 Justification and alignment</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <b>Note</b>: This material is included for completeness. However, many are
 able to use flexbox satisfactorily without it. None of the material here
@@ -14834,7 +14623,6 @@ The table below should help illustrate this. It shows the justification
 options for a flexbox container with flex-flow:row;
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~ 171. justification options for a flexbox container with flex-flow (338) ~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image171.webp?raw=true"
   width="100%"
@@ -14882,7 +14670,6 @@ In the example below, each item has a different line-height value, so
 you can see how they align to each other.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 172. line height and align items #1 (339) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image172.webp?raw=true"
   width="65%"
@@ -14890,7 +14677,6 @@ you can see how they align to each other.
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 173. line height and align items #2 (339) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image173.webp?raw=true"
   width="65%"
@@ -14915,7 +14701,6 @@ container with  flex-flow:row wrap; and a height value that is greater
 than the height of any of the items.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 174. flexbox and flex items align #1 (340) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image174.webp?raw=true"
   width="65%"
@@ -14923,7 +14708,6 @@ than the height of any of the items.
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 175. flexbox and flex items align #2 (340) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image175.webp?raw=true"
   width="65%"
@@ -14954,7 +14738,6 @@ with flex-flow:row; and align-items:center;.  The individual items have
 their align-self property set.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 176. flex container (341) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image176.webp?raw=true"
   width="65%"
@@ -14990,7 +14773,6 @@ set its order. By default, the first item in a flexbox container has
 the order value of 1, the second is 2, etc.  And you can override it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 177. order property in flex box (342) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image177.webp?raw=true"
   width="85%"
@@ -15002,10 +14784,14 @@ the order value of 1, the second is 2, etc.  And you can override it.
 <h4>CSS flexbox resources</h4>
 
 <ul>
-   <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">A complete guide to Flexbox</a> (CSS Tricks) - <b>updated 7 April 2021</b></li><br/>
-   <li><a href="https://www.smashingmagazine.com/2018/10/flexbox-use-cases/" target="_blank">Use cases for Flexbox</a> (Smashing Magazine) - <b>October 2018</b></li><br/>
-   <li><a href="https://www.w3.org/TR/css-flexbox/" target="_blank">CSS Flexible Box Layout</a>, the W3C specification</li><br/>
-   <li><a href="https://flexboxfroggy.com/" target="_blank">Flexbox froggy</a> (game to practice CSS flexbox code)</li><br/>
+   <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">
+     A complete guide to Flexbox</a> (CSS Tricks) - <b>updated 7 April 2021</b></li><br/>
+   <li><a href="https://www.smashingmagazine.com/2018/10/flexbox-use-cases/" target="_blank">
+     Use cases for Flexbox</a> (Smashing Magazine) - <b>October 2018</b></li><br/>
+   <li><a href="https://www.w3.org/TR/css-flexbox/" target="_blank">
+     CSS Flexible Box Layout</a>, the W3C specification</li><br/>
+   <li><a href="https://flexboxfroggy.com/" target="_blank">
+     Flexbox froggy</a> (game to practice CSS flexbox code)</li><br/>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch6-5-1">6.5.1 CSS Grid Layout</h3>
@@ -15056,7 +14842,7 @@ It's not just something we're talking about, they can go use it.
 We should've maybe pushed more, I think.
 The grid is something we should have had, probably from very early on, maybe from the start of CSS already.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch6-5-2">6.5.2 CSS Grid</a></h3>
+<h3 id="ch6-5-2">6.5.2 CSS Grid</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Have a look at how CSS Grid Layout went from an idea to a reality. The
 video below has been shot in August 2017 by the Microsoft team. It
@@ -15096,7 +14882,6 @@ order, they can span more than one row or column, and you can leave some
 slots empty.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 178. grid module (345) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image178.webp?raw=true"
   width="65%"
@@ -15151,7 +14936,7 @@ On the other hand, even for a single row or column, the Grid properties may turn
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch6-6-1">6.6.1 Recipe project - Lesson 6</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch6-6-2">6.6.2 Recipe project</a></h3>
+<h3 id="ch6-6-2">6.6.2 Recipe project</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>In this next iteration of our recipe project, we're going to make a few changes again to our Web 
 page using cascading style sheets.
