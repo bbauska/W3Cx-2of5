@@ -2096,13 +2096,13 @@ entail a fine of € 400&lt;/p&gt;</p>
 ```
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <title>Welcome</title>
-   </head>
-   <body>
-      <p>This is © 2015. Breach will entail a fine of € 400</p>
-      </body>
+  <head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+  </head>
+  <body>
+    <p>This is © 2015. Breach will entail a fine of € 400</p>
+  </body>
 </html>
 ```
 
@@ -2178,7 +2178,7 @@ part of an element is in another, but the other part is not.
 
 The two examples above are fine because in each case either an element
 is wholly contained in another (&lt;em&gt; in &lt;p&gt;) or they are completely
-separate (&lt;h1&gt; and &lt;p&gt;). This, on the other hand, is not valid:
+separate (&lt;h1&gt; and &lt;p&gt;). This, on the other hand, is NOT valid:
 
 ```xml
 <h1>Part of this header is <p>in the</h2> paragraph below</p>
@@ -2468,16 +2468,16 @@ seen:
 ```xml
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <title>Welcome</title>
-   </head>
-   <body>
-      <h1>A TALE OF TWO CITIES</h1>
-      <h2>A STORY OF THE FRENCH REVOLUTION</h2>
-      <h2>Book the First—Recalled to Life</h2>
-      <h3>I. The Period</h3>
-   </body>
+  <head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+  </head>
+  <body>
+    <h1>A TALE OF TWO CITIES</h1>
+    <h2>A STORY OF THE FRENCH REVOLUTION</h2>
+    <h2>Book the First—Recalled to Life</h2>
+    <h3>I. The Period</h3>
+  </body>
 </html>
 ```
 
@@ -2507,19 +2507,19 @@ can be confusing</b>.
 
 ```xml
 <!DOCTYPE html>
-   <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <title>Welcome</title>
-   </head>
-   <body>
-   <p>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+  </head>
+  <body>
+    <p>
       This is a paragraph.
       It may or may not be indented but it but there should be a line break at the end.
       Typically the last line will not stretch as far to the right as the rest of the lines.
       Often there is extra space between one paragraph and the next.
-   </p>
-   </body>
+    </p>
+  </body>
 </html>
 ```
 
@@ -2573,9 +2573,9 @@ effect in your Web page when you use them:</p>
 
 ```xml
 <ul>
-   <li> First item in list </li>
-   <li> Second item in list </li>
-   . . .
+  <li> First item in list </li>
+  <li> Second item in list </li>
+  . . .
 </ul>
 ```
 
@@ -2704,7 +2704,7 @@ following components:</p>
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-      <title>My Favorite Recipes - Module 1</title>
+    <title>My Favorite Recipes - Module 1</title>
   </head>
   <body>
     <h1>My Favorite Recipes</h1>
@@ -2712,9 +2712,9 @@ following components:</p>
       <li>Recipe 1</li>
     </ul>
     <h2>Recipe 1</h2>
-      <p>
-        This is going to be my favorite recipe.
-      </p>
+    <p>
+      This is going to be my favorite recipe.
+    </p>
     <h3>List of Ingredients:</h3>
     <ul>
       <li>Ingredient 1</li>
@@ -2723,10 +2723,10 @@ following components:</p>
     </ul>
     <h3>Steps:</h3>
     <ol>
-       <li>Step 1</li>
-       <li>Step 2</li>
-       <li>Step 3</li>
-       <li>Enjoy!</li>
+      <li>Step 1</li>
+      <li>Step 2</li>
+      <li>Step 3</li>
+      <li>Enjoy!</li>
     </ol>
   </body>
 </html>
@@ -8827,7 +8827,7 @@ could apply to the same element. Consider the following example:
 <p align="center" width="100%">
 <img src="./images/image069.webp?raw=true"
   width="40%"
-   title="My Book, Chapter 1, Section 1.1."
+  title="My Book, Chapter 1, Section 1.1."
   alt="My Book Chapter 1 Section 1.1." />
 </p>
 
@@ -8838,16 +8838,16 @@ could apply to the same element. Consider the following example:
 
 ```
 h1{
-color:blue;
-font-size: 2rem;
+  color:blue;
+  font-size: 2rem;
 }
 article h1{
-color: black;
-font-size: 1.4rem;
+  color: black;
+  font-size: 1.4rem;
 }
 section h1{
-color:grey;
-font-size:1.2rem;
+  color:grey;
+  font-size:1.2rem;
 }
 ```
 
@@ -8862,21 +8862,21 @@ font-size:1.2rem;
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<title>precedence 1</title>
+  <meta charset="utf-8">
+  <title>precedence 1</title>
 </head>
 <body>
-<h1>My Book</h1>
-<article>
-<h1>Chapter 1 </h1>
-<section>
-<h1>Section 1.1</h1>
-<p>...</p>
-</section>
-<section>
-<h1>Section 1.2</h1>
-<section>
-<article>
+  <h1>My Book</h1>
+  <article>
+    <h1>Chapter 1 </h1>
+    <section>
+      <h1>Section 1.1</h1>
+      <p>...</p>
+    </section>
+    <section>
+      <h1>Section 1.2</h1>
+    <section>
+  </article>
 </body>
 </html>
 ```
@@ -8912,18 +8912,19 @@ you get a different result:
 
 ```
 section h1{
-color:grey;
-font-size:1.2rem;
+  color:grey;
+  font-size:1.2rem;
 }
 article h1{
-color: black;
-font-size: 1.4rem;
+  color: black;
+  font-size: 1.4rem;
 }
 h1{
-color:blue;
-font-size: 2rem;
+  color:blue;
+  font-size: 2rem;
 }
 ```
+
 </details>
 
 <h4>HTML</h4>
@@ -14248,8 +14249,8 @@ container and will be handling the layout of its children.
 
 ```
 .fc {
-display: flex;  /* this is now a flex container */
-flex-flow: row wrap;
+  display: flex;  /* this is now a flex container */
+  flex-flow: row wrap;
 }
 ```
 
@@ -14323,7 +14324,7 @@ Therefore, flex:1; is <b>better</b> than flex-grow:1; . 
 
 ```
 p { flex: 1; /* rather than use flex-grow, use
-flex: <flex-grow>; */ }
+                flex: <flex-grow>; */ }
 ```
 
 The flex-grow property is set simply to a positive number. In isolation
@@ -14349,7 +14350,7 @@ super-power. 
 
 ```
 p { flex: 1 1; /* rather than use flex-shrink directly, use flex:
-<flex-grow> <flex-shrink> */ }
+                  <flex-grow> <flex-shrink> */ }
 ```
 
 The flex-shrink is the opposite of flex-grow. When laying out any row or
@@ -14374,7 +14375,7 @@ the box-sizing to border-box.   
 
 ```
 p { flex: 1 1 87px;  /* use flex: <flex-grow>
-<flex-shrink> <flex-basis> */}
+                        <flex-shrink> <flex-basis> */}
 ```
 
 The flex-basis can be used instead of the sizing properties on a flex
