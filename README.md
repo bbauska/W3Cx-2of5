@@ -10,7 +10,7 @@ w3cx-2of5-html5.0x: Coursera - Front-End Web Development - HTML5 & CSS3 Fundamen
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ w3cx logo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/w3cx-logo.webp?raw=true"
-  width="35%"
+  style="width:35%"
   alt="W3C logo." />
 </p>
 
@@ -19,7 +19,7 @@ w3cx-2of5-html5.0x: Coursera - Front-End Web Development - HTML5 & CSS3 Fundamen
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. W3Cx-2of5-HTML5.0x logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image001.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="W3Cx HTML 5.0x logo." />
 </p>
 
@@ -90,7 +90,7 @@ a professional look and feel, by just following these 6 modules!</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 02. my first web page (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image002.webp?raw=true"
-  width="15%"
+  style="width:15%"
   alt="My First Web Page." />
 </p>
 <ul>
@@ -103,7 +103,7 @@ a professional look and feel, by just following these 6 modules!</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. w3c developers logo (02) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image003.webp?raw=true"
-  width="15%"
+  style="width:15%"
   alt="W3C Developers logo." />
 </p>
 
@@ -116,7 +116,7 @@ layout your page during the last week of this course.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04. laptop (02) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image004.webp?raw=true"
-  width="15%"
+  style="width:15%"
   alt="Laptop image." />
 </p>
 
@@ -131,7 +131,7 @@ layout your page during the last week of this course.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05. w3c cheat sheet (02) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image005.webp?raw=true"
-  width="50%"
+  style="width:50%"
   alt="W3C Cheat Sheet." />
 </p>
 
@@ -143,7 +143,7 @@ layout your page during the last week of this course.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. can i use: css colors (03) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image006.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="Can I Use: CSS Colors." />
 </p>
 
@@ -263,14 +263,14 @@ Here's an interesting article on what beginners can do with CodePen: <a href="h
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. w3c developers logo (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image003.webp?raw=true"
-  width="30%"
+  style="width:30%"
   alt="W3C Developers logo." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. mdn web docs mozilla logo (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image007.webp?raw=true"
-  width="30%"
+  style="width:30%"
   alt="MDN Web Docs Mozilla logo." />
 </p>
 
@@ -297,7 +297,7 @@ Style Sheets (CSS) and (X)HTML documents that use CSS stylesheets.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04. laptop (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image004.webp?raw=true"
-  width="15%"
+  style="width:15%"
   alt="Laptop." />
 </p>
 
@@ -339,7 +339,7 @@ internationalization tips.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05. w3c cheat sheet (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image005.webp?raw=true"
-  width="50%"
+  style="width:50%"
   alt="W3C Cheat Sheet." />
 </p>
 
@@ -384,7 +384,7 @@ is a snapshot of what information is given by CanIUse when searching for
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. cheat sheet (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image006.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="Example of a CanIUse browser support table (using CSS3 colors)." />
 </p>
 
@@ -393,7 +393,7 @@ is a snapshot of what information is given by CanIUse when searching for
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. mdn web docs logo (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image007.webp?raw=true"
-  width="35%"
+  style="width:35%"
   alt="MDN Web Docs logo." />
 </p>
 
@@ -425,7 +425,7 @@ define key parts of what actually makes the World Wide Web work.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. tim berners-lee in 1994 (11) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image008.webp?raw=true"
-  width="35%"
+  style="width:35%"
   alt="Tim Berners-Lee at his desk in CERN, 1994." />
 </p>
 <h6 align="center">Tim Berners-Lee at his desk in CERN, 1994</h6>
@@ -541,7 +541,7 @@ who described it as 'vague but exciting'.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 09. network of components (13) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image009.webp?raw=true"
-  width="85%"
+  style="width:85%"
   alt="Network of Components." />
 </p>
 
@@ -579,7 +579,7 @@ World Wide Web.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 10. html5 logo (14) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image010.webp?raw=true"
-  width="100px;"
+  style="width:100px;"
   alt="HTML5 logo." />
 </p>
 
@@ -601,7 +601,7 @@ powerful and flexible ways for developers to create dynamic Web pages.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 11. css3 logo (14) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image011.webp?raw=true"
-  width="15%"
+  style="width:15%"
   alt="CSS3 logo." />
 </p>
 
@@ -616,7 +616,7 @@ indentations and whatever else may apply to what it looks like.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 12. javascript logo (15) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image012.webp?raw=true"
-  width="15%"
+  style="width:15%"
   alt="JavaScript logo." />
 </p>
 
@@ -642,7 +642,7 @@ document.
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 13. illustration of hypertext documents (16) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image013.webp"
-  width="85%"
+  style="width:85%"
   alt="Illustration of hypertext documents (here are extract of wikipedia pages): the 
   HTML5 page has links going to the Markup language page, the World Wide Web 
   definition page, etc." />
@@ -674,7 +674,7 @@ email and other conveniences.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 14. snapshot of mosaic browser (17) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image014.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="Snapshot of a Mosaic Browser." />
 </p>
 
@@ -890,7 +890,7 @@ example.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ image-example 13 1/2. example editor (23) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image-example.webp"
-  width="85%"
+  style="width:85%"
   alt="Example editor." />
 </p>
 <p>We won't go into the code in this example. But you can see that this is a live 
@@ -1392,10 +1392,9 @@ elements, paragraph elements, in fact pretty much all of the visible
 elements of the DOM.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 15. html element (34) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image015.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="HTML element." />
 </p>
 
@@ -1422,10 +1421,9 @@ a text file?  Well, that's where "tags" come in.
 <h3 id="ch1-3-4">1.3.4 Tags</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 16. tags (35) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image016.webp?raw=true"
-  width="25%"
+  style="width:25%"
   alt="Tags." />
 </p>
 
@@ -1470,10 +1468,9 @@ the tags being the content of the element:
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 17. diagram of an element (34) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image017.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="Diagram of an element: the &#39;&lt;em&gt;&#39; tag is used for element that needs Emphasis. 
     The &#39;&lt;&#39; and &#39;&gt;&#39; indicate that this is a tag, and the little bits of 
     text in between tell us what kind of tag it is. To completely describe the element, it needs 
@@ -2582,10 +2579,9 @@ effect in your Web page when you use them:</p>
 <h4>This code might be rendered like this:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18. example ul and li (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image018.webp?raw=true"
-  width="25%"
+  style="width:25%"
   alt="Example of a list as it would appear on a web page." />
 </p>
 
@@ -2627,10 +2623,9 @@ primarily used to invoke certain formatting.</p>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 19. that which we call a rose (61) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image019.webp?raw=true"
-  width="25%"
+  style="width:25%"
   alt="Example of Poetry as it might appear on a Web Page." />
 </p>
 
@@ -2736,10 +2731,9 @@ following components:</p>
 <h2 id="ch2-1-1">Welcome to Module 2; Attributes, Images &amp; Links</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 20. attributes, images and links (61) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image020.webp?raw=true"
-  width="35%"
+  style="width:35%"
   alt="2.1. Attributes, images and links." />
 </p>
 
@@ -2747,9 +2741,7 @@ following components:</p>
 Hi, everyone, and welcome.
 
 I'm Andrew, your instructor for week 2 of the Introduction to HTML and
-CSS course.
-
-In this module, we're going to cover global and non global attributes
+CSS course. In this module, we're going to cover global and non global attributes
 and how to use them, paying close attention to the commonly used ones
 such as 'id' and 'class'.
 
@@ -2758,21 +2750,16 @@ style in HTML5, as well as look at the difference between semantic and
 style tags.
 
 We'll study semantic elements, why they're important, as well as look at
-their usage in various examples.
-
-Now, in the second half, we'll cover how to add images to your HTML, and
-I think you'll agree, images make everything more interesting.
+their usage in various examples. Now, in the second half, we'll cover how to add images to 
+your HTML, and I think you'll agree, images make everything more interesting.
 
 We'll learn how to use the image tag and its attributes, and we would
 also look at scenarios where it's more appropriate to add images using
 CSS instead.
 
 Finally, we'll learn how to add hyperlinks to your Web page and their
-different uses.
-
-At the end of each subsection, you'll be able to do exercises based on
+different uses. At the end of each subsection, you'll be able to do exercises based on
 what you've learned and test your knowledge by doing a quiz.
-
 We hope you enjoy the course, and happy learning!
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3058,10 +3045,9 @@ several tags such as &lt;img&gt;, &lt;input&gt; and &lt;video&gt;.</p>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 21. html result (67) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image021.webp?raw=true"
-  width="35%"
+  style="width:35%"
   alt="HTML Result." />
 </p>
 <p>
@@ -3285,10 +3271,9 @@ Don't click on it, just rest your cursor there.</p>
 <h4>NASA</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 22. beautiful girl (71) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image022.webp?raw=true"
-  width="25%"
+  style="width:25%"
   alt="Example image of a girl with a beautiful smile to illustrate title attribute." />
 </p>
 
@@ -3323,51 +3308,37 @@ attributes.
 
 Global attributes apply to all elements be it a paragraph, blockquote,
 list, image, hyperlink, etc., etc.
-
 And then there are attributes specific to a particular element.
-
 Like the start attribute is specific to only ordered lists.
 
 And these are called non global attributes.
-
 But there are so many elements and attributes that it isn't practical to
 cover them all in this course.
 
 We are going to be looking at two good reference Web sites.
-
 The first is the W3C cheatsheet we saw in the pre-work, 'About W3C and
 the Web’, the section under 'W3C Tools'. This is the cheatsheet.
-
 The second is the Mozilla Developer Network Attribute Reference.
 
 Typically to learn about an element and its attributes, you will visit
 the HTML5 specification.
-
 This is the HTML5 specification, and under the section global
-attributes.
-
-But it can be a little overwhelming when you are starting off with
-HTML5.
-
-The W3C cheatsheet and the MDN attribute reference has this information
+attributes. But it can be a little overwhelming when you are starting off with
+HTML5. The W3C cheatsheet and the MDN attribute reference has this information
 condensed in a easy to access manner.
 
 I would like to give a little overview on how the W3C cheatsheet works.
-
 You can look up any attribute or tag in HTML.
-
 Let's look at one that we have already learned in week 1, the H1 tag.
 
 All you have to do is type its name and its going to provide the list of
 attributes that can be applied to this particular tag. The H1 tag only
 takes global attributes. It doesn't have any non-global attributes of
 its own.
-
 And it gives a description on what the tag is about and also gives nice
 tips like use H1 for top level headings or to structure your document.
 
 Let's also look at the paragraph tag here.
-
 Once again, global attributes can be applied to it. It represents a
 paragraph.
 
@@ -3385,81 +3356,59 @@ attribute.
 
 Here under elements, it gives you the list of elements that the
 attribute can be applied to.
-
 Since class is a global attribute, it can obviously be applied to all
 elements.
-
 And we learned that multiple classes can be applied to all elements if
 they are split by spaces.
-
 And let's look at one more - the title attribute.
 
 The title attribute is used to provide additional information about
 something like an abbreviation or add some context to an image.
-
 And they give nice little accessibility techniques when it comes to
 using the title attribute, like provide a title using title element.
-
 Not the title attribute and use the title attribute to provide context
 sensitive help.
-
 And the application of the title attribute varies very slightly
 depending on the element.
-
 Like if you apply it on an abbreviation or a definition, it is used to
 provide full term or expansion of the abbreviation.
 
 Likewise, it differs slightly for elements like input, link and style.
-
 The best way to use the W3C cheatsheet is, let's say you want to use the
 blockquote tag.
-
 But you also want to find out the list of attributes that can be applied
 to it.
-
 You go to the blockquote page, and apart from the HTML global
 attributes, you can also apply one called ‘cite’.
 
 ‘cite’ is used to provide the source of the quotation in the blockquote,
 mostly for search engines.
-
 You realize you like the cite attribute but you also want to use it in
 your q tag.
-
 The q tag is used to markup a short quotation.
-
 But does the q tag support the cite attribute?
-
 Just click on the cite attribute and find out the elements that it can
 be applied to.
-
 Moving on to the MDN attribute reference list, it works very similar to
 the W3C cheatsheet.
 
 It gives you a list of all the attributes in the first column.
-
 And then the elements it can applied to, as well as a description on
 what the attribute does.
-
 Let's look at our famous 'start' attribute.
-
 The start attribute can be applied to only ordered lists and it defines
 the first number of the list if it is something other than one.
 
 And if you want to know more information about an element, just click on
 the element here which will take you to the element's page.
-
 And the element's page provides a description of the element itself as
 well as all the attributes that can be applied to it.
-
 If you see a little HTML5 label here, it means that this attribute in
 particular was introduced in HTML5.
 
 And you can also find neat samples illustrating the use of each
 attribute.
-
 You can also find several other HTML elements in the MDN Web site.
-
 They have a nice little navigation on the left that can take you to
 different element pages.
 
@@ -3513,10 +3462,9 @@ rule and were eventually corrected in HTML5.
 This is how the above HTML code will look in a browser:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 23. how html will look in browser (76) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image023.webp?raw=true"
-  width="45%"
+  style="width:45%"
   alt="How HTML will look in the browser." />
 </p>
 
@@ -3715,7 +3663,7 @@ after: header, nav, article, section, aside and footer.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image024.webp?raw=true"
-  width="45%"
+  style="width:45%"
   alt="Picture showing the structure of a Web site: header, nav, article, section, aside and footer." />
 </p>
 
@@ -3844,10 +3792,9 @@ this:
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 25. using the markup validator (83) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image025.webp?raw=true"
-  width="45%"
+  style="width:45%"
   alt="Using the markup validator." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4033,7 +3980,7 @@ Moncrieff&lt;/p&gt;</p></li>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 26. example details command (86) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image026.webp?raw=true"
-  width="40%"
+  style="width:40%"
   alt="Example details command." />
 </p>
 <p>
@@ -4062,7 +4009,7 @@ for all users.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 27. example figcaption command (86) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image027.webp?raw=true"
-  width="20%"
+  style="width:20%"
   alt="Dress rehearsal." />
 </p>
 <h6 align="center" width="100%">
@@ -4084,7 +4031,7 @@ Fig. 1: The cast hard at work at dress rehearsal before opening night</h6>
 <!--~~~~~~~~~~~~~~~~~~~ 28. example mark command you want to highlight (87) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image028.webp?raw=true"
-  width="40%"
+  style="width:40%"
   alt="Specify content you want to highlight." />
 </p>
 
@@ -4141,7 +4088,7 @@ visual change:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 29. the aside semantic element (88) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image029.webp?raw=true"
-  width="30%"
+  style="width:30%"
   alt="Example aside element." />
 </p>
 
@@ -4258,7 +4205,7 @@ element. <b>Here's a simplified version</b>:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 30. html5.2x header and headings (91) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image030.webp?raw=true"
-  width="40%"
+  style="width:40%"
   alt="HTML5.2x header and headings." />
 </p>
 
@@ -4299,7 +4246,7 @@ identify headings</a>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 31. brad's cookbook in codepen (92) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image031.webp?raw=true"
-  width="40%"
+  style="width:40%"
   alt="Brad's cookbook example, in CodePen." />
 </p>
 
@@ -4347,7 +4294,7 @@ course creation, here are screenshots of its header:
 <!--~~~~~~~~~~~~~~ 32. screenshot of the top ms virtual academy home page (93) ~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image032.webp?raw=true"
-  width="40%"
+  style="width:40%"
   alt="Screenshot of the microsoft virtual academy home page." />
 </p>
 
@@ -4356,7 +4303,7 @@ and footer.
 <!--~~~~~~~ 33. screenshot of the ms virtual academy home page showing the footer (93) ~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image033.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="Screenshot of Microsoft Virtual Academy home page showing the footer." />
 </p>
 
@@ -4384,7 +4331,7 @@ multiple &lt;header&gt;, &lt;footer&gt; and &lt;nav&gt; tags.
 <!--~~~~~~~~~~ 34. screenshot of the ms virtual academy home page showing more (94) ~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image034.webp?raw=true"
-  width="50%"
+  style="width:50%"
   alt="Screenshot of Microsoft Virtual Academy home page showing the header, footer & nav tags." />
 </p>
 
@@ -4540,7 +4487,7 @@ to our CES 2018 &lt;article&gt; example, it will fit right in:
 <!--~~~~~~~~~~~~~~~~~~~~~ 35. example html with article and section (97) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image035.webp?raw=true"
-  width="40%"
+  style="width:40%"
   alt="CES 2018 Example with article and section." />
 </p>
 
@@ -4594,7 +4541,7 @@ this [CodePen](https://codepen.io/w3devcampus/pen/Wjzjpx):
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 36. html5 table of contents (98) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image036.webp?raw=true"
-  width="40%"
+  style="width:40%"
   alt="HTML5 Table of Contents." />
 </p>
 
@@ -5021,7 +4968,7 @@ information to be aware of.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 37. logo scalable vector graphics (svg) (106) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <img src="./images/image037.webp?raw=true"
-  width="10%"
+  style="width:10%"
   alt="Logo Scalable Vector Graphics (SVG)." />
   any size without worrying about pixels, resolution or image data. This makes SVG
     images an excellent format to use, if possible. SVG is great for
@@ -5105,7 +5052,7 @@ browser:
 <!--~~~~~~~~~~~~~~~~~~ 38. this is supposed to be an image of tulips (108) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image038.webp?raw=true"
-  width="35%"
+  style="width:35%"
   alt="This is supposed to be an image of tulips." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5120,7 +5067,7 @@ your cursor on it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 39. tulips in a basket (108) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image039.webp?raw=true"
-  width="35%"
+  style="width:35%"
   title="Tulips from Woodburn Tulip Festival."
   alt="Tulips in a basket" />
 </p>
@@ -5156,7 +5103,7 @@ Here is my original image:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 40. html5 logo (109) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image040.webp?raw=true"
-  width="100px;"
+  style="width:100px;"
   alt="HTML5 logo." />
 </p>
 
@@ -5178,7 +5125,7 @@ Now, if I want to resize the HTML logo above by half:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 41. html5 logo 1/2-sized (109) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image041.webp?raw=true"
-  width="50px;"
+  style="width:50px;"
   alt="HTML5 logo 1/2-sized" />
 </p>
 
@@ -5242,15 +5189,15 @@ Find out from their tooltips!
 <!--~~~~~~~~~~~~~~~~~~~~~ 42,43,44. mountains, brick wall & banner (111) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image042.webp"
-  width="20%"
+  style="width:20%"
   alt="Beautiful landscape background image.  On the left." />
 <!-- style="width:2in;height:2in" -->
 <img src="./images/image043.webp"
-  width="20%"
+  style="width:20%"
   alt="Brick texture for use behind main content.  In the center." />
 <!-- style="width:2in;height:2in" -->
 <img src="./images/image044.webp"
-  width="20%"
+  style="width:20%"
   alt="Decorative banner graphic.  On the right." />
 </p>
 <!-- style="width:2in;height:2in" -->
@@ -5296,183 +5243,131 @@ or Web site into this single folder.
 Inside this "images" folder, I have lots of images, some of them are png
 and jpg files and as you can imagine any modern browser can support
 these image types and can show the images.
-
 The image I want to use is located in this "images" folder and it's
 called "beach.png".
 
 That's the value I will set here in my HTML page.
-
 I'll set the location to be: "images/beach.png"
-
 That's a relative path, it's telling the browser that they'll find this
 image, in an "images" folder and it's called, beach.png.
-
 When I "Save" my file, there you go, I have loaded my first image.
-
 Let's talk now about the 'alt' attribute and why we add alternate text.
-
 The 'alt' attribute is important because it offers an alternate source
 of information about this image for those who cannot see the image.
 
 This text is read aloud by screen reader software for those with
 impaired vision or disabilities.
-
 And search engines can't see the image either, so they rely on the alt
 text to understand what the image is about.
-
 This text is also displayed to the user if, for some reason, the browser
 can't display your image.
 
 For all of these reasons make sure you supply a good descriptive alt
 text for every image.
-
 Now what text you supply depends on the type of image you are
 displaying.
-
 If the image is just a background or a decorative image, you might not
 want to describe it with this text and instead let the screen reader
 skip over it.
-
 But for functional images or images containing or supporting information
 for your page, you should always apply this alt text.
 
 Now, while the image we have in front of us here could be decorative,
 what of is being shown on the page that is, renting a beach house, and
 this is a view from the backyard.
-
 In that case, I would provide a description that conveys the meaning of
 the image.
-
 I think this would be a good alternate attribute value.
-
 Here what I've said is:
 
 "Enjoy the magnificent view of the beach and the sea from this
 oceanfront cottage."
-
 Let's show the alt text in action when the browser can't load my image.
-
 To do that, I'm going to break the link on the page by pointing to a
 location or file that doesn't exist.
 
 For example, if I have a typo here, and that now is a file that doesn't
 exist on my disk, so as you can see, when the link for the image points
 to a file that doesn't exist, our alt text is displayed nice and clearly
-on the page.
-
-This is the view that you would see.
+on the page. This is the view that you would see.
 
 It's not ideal but at least you still get some information and can
 continue with the page.
-
 That's the alt text attribute.
-
 Let's go ahead and repair our link so we can see the image again.
-
 I'll just change it back to the original value, and I'll move this down
 so we can see it.
 
 The next attribute that I'd like to talk to you about is the 'title'
 attribute.
-
 Now this is a global attribute and it's supported by the image element.
-
 It's used to convey more information about the image.
 
 For example, if I type in, 'title=' and then paste in some descriptive
 text it says, "Oceanfront view from the Surfers Paradise rental cottage,
 California."
-
 And what happens is, if I save my page, nothing looks like it happened
 over on the page.
-
 But if I hover over the actual image, now I get that information.
 
 This is a visual element that is displaying more information about the
 actual image in question.
-
 That's the 'title' attribute.
-
 Now let's have a look at how you adjust the size of the image on our
 page.
 
 For that I'm going to need a bigger image.
-
 To save time I'll just "Paste" in a new image and "Save" my page.
-
 And as you can see this is a new image, smiley.jpg and if I scroll down
 you can see whooo, this is a very large image.
-
 What can we do?
-
 Well, we can easily fix this with the help of the 'width' and 'height'
 attributes.
 
 While I use this attribute 'width', I'll have to define this in pixels.
-
 You may have heard the term pixel before.
-
 It's just a unit of measurement for computer screens.
-
 Each screen is made up of millions of these tiny squares called pixels.
-
 For example, my monitor that you see here is 1920 by 1080, meaning it's
 a thousand nine hundred and twenty pixels tall and a thousand eighty
 pixels wide.
 
 Let's try 'width' value in pixels and I'll pick something small.
-
 Say, 300, and I'll "Save" my image.
-
 And after I just scroll down you can see my image is actually showing.
-
 Again, if I remove the 'width', "Save" again, you can see the image is
 in its native size but if I was to set the 'width', you can see the
 image shrinks down to a nice size.
 
 You also notice that I've only defined a new 'width' attribute value but
 the height of the image has also been adjusted.
-
 Well that's because the browser tries to maintain the aspect ratio of
 the image.
-
 I could define a 'height' attribute as well.
-
 And when I "Save" my image, when I scroll down you can see that the
 image height has changed and the image looks squashed because I've
 changed the aspect ratio, the height to width ratio.
 
 I'll just remove that once more, and there we have a smaller image.
-
 That's changing the size of an image using the 'width' and 'height'
 attributes.
-
 Finally, I'd like to show you how to load remote images.
-
 Up until this point we've loaded images located on a path relative to
 our page.
-
 As you can see here the smiley.jpg image is in a folder called "images"
 relative to this page called images.html
-
 However, the real power of the Web is to be able to gather information
 from across the Internet.
 
 And all we need to do is supply an address.
-
 This time, I'll "Paste" one in and as you can see, this is just a URL
 and it's telling the browser to find this image located at this site and
 gist.githubsercontent.com/AndrewJburn, etc., etc.
-
 At the end of this long URL is just the name of my image, image001/png.
-
 And when I "Save" my file and we scroll down, you can see that that
 image has been loaded from this remote site into our Web page.
-
 That's it.
-
 In this video, we'd fun with images, the image tag and its attributes.
-
 You're all set to spice up your pages with some images. Take care!
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-4-6">2.4.6 Activities - images</h3>
@@ -5513,7 +5408,7 @@ Or something like this:
 <a href="https://en.wikipedia.org/wiki/Hyperlink" target="_blank">
   <img alt="Buy now button to illustrate hyperlink." 
   src="./images/image045.webp?raw=true"
-  width="50%" />
+  style="width:50%" />
 <br>
 <!-- width=150" height="70"> -->
 
@@ -5830,234 +5725,156 @@ different browsers to see how it behaves.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 46. hyperlink attributes (122) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image046.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="Hyperlink attributes." />
 </p>
 <!-- style="width:6.5in;height:3.55208in" -->
 
 In this live coding demo, we're going to dive deep into hyperlinks.
-
 Hyperlinks, or links for short, are what give the Internet its magic.
-
 They allow us to share and connect with other content.
-
 And I'm sure you click on some links on a Web page at least a few times
 a day.
 
 For this demo, we have Visual Studio Code open here on the right, and
 our browser open on the left.
-
 Now, I'm in the process of creating this page you see before you called
 "Page 1".
-
 What I'm going to do is use this fictitious page to create hyperlinks
 and demo all of their features.
-
 Let's dive right in.
 
 The first thing to do is to show you what my site looks like on disc.
-
 And as you can see, I have two pages, Page 1, Page 2.
-
 I also have this "assets" folder and I'll get to that later.
-
 But for now, you can see I have two pages and it's quite common on a Web
 site that you want to jump from one page to the other.
-
 And I'm demonstrating that here with "See page 2 for more information."
 
 What I actually want to do is make that "page 2" words, make those
 clickable.
-
 When the user clicks on them, I jump to Page 2.
-
 Enter hyperlinks.
-
 Over here in my HTML code, I'm going to add an anchor element and define
 the page 'href' attribute.
-
 And there I have defined it as "page2.html".
-
 What I was saying is that when you click on this link, please go to
 "page2.html".
 
 You can see Page 2 is now enclosed inside this anchor element.
-
 So that will be the hyperlink text and we see that when I save the page.
-
 And over here you see that's now a hyperlink.
-
 If I click on the hyperlink as a user, I go to Page 2.
-
 "Hi from Page 2!"
-
 You may have noticed that when I clicked on this Page 2 hyperlink, Page
 1 was replaced with Page 2 in the same tab in my browser.
 
 And that sometimes is not what you want.
-
 Maybe sometimes you want to open up a new tab in your browser, and
 that's all controlled with this target attribute.
-
 Allow me to demonstrate.
-
 In this next demo, I say, "Open page 2 in a new window."
-
 Here I'm going to make a hyperlink for this new window and when I
 click, it will open Page 2 but it won't replace this tab with that page.
 
 I'm going to open a new tab.
-
 To do that, I have to again, define another hyperlink.
-
 It has the same 'href' attribute as the last demo, but this time,
-
 I'm going to use the 'target' property or 'target' attribute", and I'm
 going to say the target attribute is "_blank".
-
 There are multiple target attributes you can define, there's "blank" and
-"self".
-
-"self" is the default meaning "Open in the same tab.
+"self". "self" is the default meaning "Open in the same tab.
 
 "blank" means open in a new tab.
-
 Again, I'll just move my anchor and tag behind my words here, "new
 window" and when I save my file, you'll see now that "new window" is
 hyperlinked.
-
 And when I click on it, this time Page 2 will open but watch what
-happens.
-
-Page 2 is opened in a new tab besides Page 1.
-
+happens. Page 2 is opened in a new tab besides Page 1.
 That's often the behavior that you want on your Web site.
 
 Remember that 'target' attribute.
-
 The next thing I want to show you is how do you link out to a page or a
 site that's not part of your own Web site.
-
 Well, that's very straightforward.
-
 It's practically the same as the last two only instead of a local
 reference to a page like this "page2.html", we're actually going to
 enter a location of a page or a site.
 
 Here and this "Remember to Always Be Learning", I'm going to
 hyperlink "Always Be learning" and take us somewhere we can maybe take a
-course.
-
-I'll again, use my anchor tag and this time, in the 'href' I'll enter a
+course. I'll again, use my anchor tag and this time, in the 'href' I'll enter a
 URL to a Web site.
 
 Now I have my anchor tag defined again, I'll move the end tag to the end
 of the words I want to hyperlink and I will save that.
-
 Maybe I'll use the target again
-
 We can see it side by side.
-
 There I have my target defined as well.
-
 Once I save my html code, you can see that this phrase is now
 hyperlinked, "Remember to Always Be Learning", and you can see that at
 the bottom it's telling me the name of the link is, "www.edx.org".
 
 As you can imagine, when I click this link, I get taken to the edX Web
-site.
-
-Now we have three hyperlinks. Let's continue.
-
+site. Now we have three hyperlinks. Let's continue.
 In this next example, as its name suggests, I'm going to show you how we
 can get the user to download a file.
-
 Let's go back to my folder structure on disk.
-
 As I mentioned, I have this assets folder which is pretty standard in a
 Web site to have some folders containing assets you may want to download
 or you might want to use on your site.
 
 In here, I have this little file called, "instructions.txt", it's a text
-file.
-
-What I want to do is I want to get the user to download it.
-
+file. What I want to do is I want to get the user to download it.
 Here I have, "Download our instructions on how to be smarter."
-
 I want to hyperlink, "our instructions" and see how to get that to
-download.
-
-So back in my Web page here, and my html code, I'm going to add an
+download. So back in my Web page here, and my html code, I'm going to add an
 anchor and I'll say, 'href=' and if I just say, remember it's a relative
 link to that file on my site, so its "assets/instructions.txt".
 
 Let's say that's all I enter, "assets/instructions.txt."
-
 Let's see what happens. Again, I'll move my end tag and I'll save them.
-
 Now we have instructions as a hyperlink, and when I click on that what
 happens is, it actually shows those instructions in the browser which is
-not what I wanted.
-
-I wanted to download them.
-
+not what I wanted. I wanted to download them.
 I wanted the user to download them.
-
 To do that, I just use the 'download' attribute.
 
 Just add that attribute, "Save" my file, "Save" my html and at this time
 when I click on "instructions", they will ask me, "Do you want to
-download it?"
-
-I'll say, "Yes".
-
+download it?" I'll say, "Yes".
 And "View" downloads and there you can see I've downloaded this file.
-
 The next thing I want to do is look at hyperlinks that jump around
 locally inside your page.
-
 Consider this example, where I have something, a lot of text or content
 and I want to get down here.
-
 I want to give the user the ability to jump past some information maybe
 or referring them to something else on the page.
-
 That's a local jump on the page.
 
 What I need to do here in order for this to work is I first have to go
 down to where I want to jump to.
-
 In this case, I want to jump to this text which is here on my page.
-
 And what I have to do first of all, is I have to set an 'id' on this
 element.
-
 And here, I'll just give it any 'id' I wish, I'll call it, "important
 stuff".
 
 Then, I go back up to my page and if I want to hyperlink these words so
 that when the user clicks, they jump past all this content and down
 here,
-
 I need to create a hyperlink.
-
 And this is special hyperlink because it needs to have a special 'href'.
-
 Here I'll add my anchor and this time, I start my 'href' with a "#"
 which is this symbol here and then the 'id' of the element I want to
 jump to.
 
 And we named our element, "important stuff".
-
 That's my hyperlink, and as usual, I'll move my end tag. And when I save
 my file, I now have a new hyperlink and when I click on it, watch how
 the page scrolls.
-
 It jumps all the way down to "You found me!"
-
 That's how you can do a local hyperlink on a page.
-
 That concludes our live coding demo on hyperlinks.
 
 You've seen how to use the attributes on the anchor tag to jump to pages
@@ -6073,7 +5890,7 @@ live coding video at the end of this page).
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 47. recipe project, part ii (126) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image047.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="Recipe project, part ii." />
 </p>
 <!-- style="width:6.5in;height:3.27778in" /> -->
@@ -6351,7 +6168,7 @@ And that concludes this live coding session. Bon appétit !
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 48. w3cx html5 and css3 logo (132) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image048.webp"
-  width="40%"
+  style="width:40%"
   alt="W3Cx HTML5 and CSS3 logo." />
 </p>
 <!-- style="width:4in;height:2.27184in" /> -->
@@ -6368,7 +6185,7 @@ CSS, or Cascading Style Sheets, is used to style each HTML.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 49. adding styles with css (132) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image049.webp"
-  width="20%"
+  style="width:20%"
   alt="Adding styles with CSS." />
 </p>
 <!-- style="width:2.125in;height:2.27083in" /> -->
@@ -6411,7 +6228,7 @@ you learn, experimentation.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 50. css logo (133) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img src="./images/image050.webp"
-  width="20%"
+  style="width:20%"
   alt="CSS Logo." />
 </p>
 <!-- style="width:2in;height:1.09388in" /> -->
@@ -6454,7 +6271,7 @@ with [CSS](https://en.wikipedia.org/wiki/CSS) level 1.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 51. the css gang photo (134) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image051.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="Gang photo of the css folks (TPAC)." />
 </p>
 <!-- style="width:6.5in;height:3.31528in" -->
@@ -6499,7 +6316,7 @@ different. So let's get started.
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 52. style and link tags & attributes (134) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image052.webp?raw=true"
-  width="15%"
+  style="width:15%"
   alt="Snapshot as a style tag in the XDR code editor." />
 </p>
 <!-- style="width:1.5625in;height:1.5625in" -->
@@ -6672,7 +6489,7 @@ following <a href="https://codepen.io/w3devcampus/pen/QvQgbr" target="_blank">Co
 <!--~~~~~~~~~~~~~~~~~~ 54. on the inventor of gunpower by john milton (139) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image054.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="On the Inventor of Gunpower, by John Milton." />
 </p>
 
@@ -6717,7 +6534,7 @@ together.</p>
 <!--~~~~~~~~~~~~~~~~~~ 54b. on the inventor of gunpower by john milton (140) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image054b.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="On the Inventor of Gunpower, by John Milton." />
 </p>
 
@@ -6736,7 +6553,7 @@ poem which is being held in this fantastic paragraph tag.
 <!--~~~~~~~~~~~~~~~~~~ 55b. on the inventor of gunpower by john milton (141) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image055b.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="On the Inventor of Gunpower, by John Milton." />
 </p>
 
@@ -6791,7 +6608,7 @@ It's not quite big enough yet.
 <!--~~~~~~~~~~~~~~~~~~ 56b. on the inventor of gunpower by john milton (142) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image056b.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="On the Inventor of Gunpower, by John Milton." />
 </p>
 
@@ -7627,7 +7444,7 @@ section dedicated to the background-image property.  
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 55. selector and declaration (155) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image055.webp?raw=true"
-  width="40%"
+  style="width:40%"
   alt="Selector and declaration." />
 </p>
 
@@ -7840,7 +7657,7 @@ It isn't unusual to see multiple classes joined this way as well:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 56. combining classes (164) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image056.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="Combining classes." />
 </p>
 
@@ -8318,7 +8135,7 @@ h3 id="ch3-4-8">3.4.8 Recipe</h3>
 <!--~~~~~~~~~~~~~~~~~~~ 57. my favorite recipe; soup, salad, pizza (170) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image057.webp?raw=true"
-  width="40%"
+  style="width:40%"
   alt="Example: My Favorite Recipes; soup, salad & pizza." />
 </p>
 
@@ -8403,7 +8220,7 @@ h3 id="ch3-4-8">3.4.8 Recipe</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 58. module 4: fixing and debugging (176) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image058.webp?raw=true"
-  width="30%"
+  style="width:30%"
   alt="Module 4: Fixing and debugging." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8658,7 +8475,7 @@ all of them, but it is the minimal info needed and is quite common.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 61. illustration of css box model (18x) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image061.webp?raw=true"
-  width="50%"
+  style="width:50%"
   alt="Illustration of CSS Box Model." />
 </p>
 
@@ -8674,7 +8491,7 @@ following pictures, the black rectangles encompass the content:
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 62. three blocks - green, blue, red (18x) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image062.webp?raw=true"
-  width="30%"
+  style="width:30%"
   alt="Image showing three blocks (Block 1, Block 2, Block 3) with no margins between them." />
 </p>
 <!-- style="width:3in;height:1.02479in" -->
@@ -8682,7 +8499,7 @@ following pictures, the black rectangles encompass the content:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 63. green, space, blue, red (18x) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image063.webp?raw=true"
-  width="30%"
+  style="width:30%"
   alt="Image showing (Block 1, Block 2, Block 3). Block 2 has a positive margin-left, 
     creating space between Blocks 1 and 2. Block 3 is negative causing its left side 
     to overlap with Block 2." />
@@ -8708,7 +8525,7 @@ than 0 is undefined and shouldn't be relied on.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 64. three blocks (183) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image064.webp?raw=true"
-  width="30%"
+  style="width:30%"
   alt="Image showing 3 blocks (Block 1, Block 2, Block 3). These blocks all have 
     borders with different widths, but the margins are zero, implying that the 
     borders are up against each other regardless of their width." />
@@ -8735,7 +8552,7 @@ padding.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 65. three blocks (184) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image065.webp?raw=true"
-  width="30%"
+  style="width:30%"
   alt="Image showing 3 blocks and they all have a thin border directly around their respective texts: &#39;Block 1&#39;, &#39;Block 2&#39;, &#39;Block 3&#39;." />
 </p>
 
@@ -8749,7 +8566,7 @@ the contents and the border:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 66. three blocks (184) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img src="./images/image066.webp"
-  width="30%"
+  style="width:30%"
   alt="Image showing 3 blocks that have padding with borders, in addition to the thin border aroung their texts &#39;Block 1&#39;, &#39;Block 2&#39;, &#39;Block 3&#39;." />
 </p>
 
@@ -8769,7 +8586,7 @@ rounded corners using the border-radius setting:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 67. three blocks (184) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image067.webp?raw=true"
-  width="30%"
+  style="width:30%"
   alt="Image showing the 3 blocks with rounded borders, different thickness for their borders and keeping a thin border around their texts Block 1&#39;, &#39;Block 2&#39;, &#39;Block 3&#39;." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8781,7 +8598,7 @@ like this:
 <!--~~~~~~~~~~~~~~~~~~~ 68. css box model - margin, border, padding (185) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image068.webp?raw=true"
-  width="30%"
+  style="width:30%"
   alt="Image of a CSS Box Model which content is described in the following text of this page." />
 </p>
 
@@ -8826,7 +8643,7 @@ could apply to the same element. Consider the following example:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 69. my book chapter 1 section 1.1 (190) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image069.webp?raw=true"
-  width="40%"
+  style="width:40%"
   title="My Book, Chapter 1, Section 1.1."
   alt="My Book Chapter 1 Section 1.1." />
 </p>
@@ -8901,7 +8718,7 @@ you get a different result:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 70. my boook chapter 1, section 1.1 (191) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image070.webp?raw=true"
-  width="40%"
+  style="width:40%"
   alt="My Book Chapter 1 Section 1.1." />
 </p>
 
@@ -8975,7 +8792,7 @@ there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 71. styles in the debugger (192) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image071.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="Styles in the Debugger." />
 </p>
 
@@ -8988,7 +8805,7 @@ attribute of the element:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 72. modifying style in debugger (193) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image072.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="Modifying style in the debugger." />
 </p>
 
@@ -9013,7 +8830,7 @@ rearranging, which did what we wanted:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 73. working version in debugger (194) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image073.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="Working version in Debugger." />
 </p>
 
@@ -9044,7 +8861,7 @@ we want:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 74. my book chapter 1 section 1.1 (195) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image074.webp?raw=true"
-  width="45%"
+  style="width:45%"
   alt="My book, chapter 1, section 1.1." />
 </p>
 
@@ -9112,7 +8929,7 @@ the pictures but the result is unwieldy:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 75. image of cloud (196) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image075.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="Image of Cloud." />
 </p>
 
@@ -9171,7 +8988,7 @@ Giving a much more reasonable page:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 76. cloud image (197) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image076.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="Cloud image in debugger." />
 </p>
 
@@ -9242,7 +9059,7 @@ first picture, then we see this in the Styles section:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 77. debugger (198) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image077.webp?raw=true"
-  width="35%"
+  style="width:35%"
   alt="img width precedence in debugger." />
 </p>
 
@@ -9274,7 +9091,7 @@ li img {
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 78. cloud image-codepen (198) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image078.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="Cloud image-codepen." />
 </p>
 
@@ -9339,7 +9156,7 @@ content is an outline for an essay and it should look something like this:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 79. Essay outline-code results (201) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image079.webp?raw=true"
-  width="40%"
+  style="width:40%"
   alt="Essay outline-codepen results." />
 </p>
 
@@ -9416,7 +9233,7 @@ is the over-ridden font-size setting identical to the current one, i.e.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 80. debugging font-size (203) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image080.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="Debugging font-size." />
 </p>
 
@@ -9435,7 +9252,7 @@ going to scroll down past those to "font-size" which reveals this:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 81. computed font-size (204) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image081.webp?raw=true"
-  width="45%"
+  style="width:45%"
   alt="Debugging font-size after opening the &#39;Computed&#39; tab." />
 </p>
 
@@ -9450,7 +9267,7 @@ several repetitions of the li .5em.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 82. font-size (204) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image082.webp?raw=true"
-  width="45%"
+  style="width:45%"
   alt="Computed tab for font-size." />
 </p>
 
@@ -10030,7 +9847,7 @@ regular and left-aligned by default.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 89. td: colspan, rowspan & headers (204) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image089.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="Table attributes for 'td' with purpose and usage." />
 </p>
 
@@ -10099,7 +9916,7 @@ achieve styling effects specific to a column. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 90. color column headers (205) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image090.webp?raw=true"
-  width="40%"
+  style="width:40%"
   alt="Colored column headers." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -10768,7 +10585,7 @@ will make the every third list item grey.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 99. nth child selector match (219) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image099.webp?raw=true"
-  width="40%"
+  style="width:40%"
   alt="Nth child selector match." />
 </p>
 
@@ -10858,7 +10675,7 @@ tr:hover {background-color: #ccff99; }
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 100. hover to highlight (221) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image100.webp?raw=true"
-  width="40%"
+  style="width:40%"
   alt="image100.webp" />
 </p>
 
@@ -10937,7 +10754,7 @@ to address top and bottom edges of content, you can use overflow-y.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 101. overflow-hidden example (222) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image101.webp?raw=true"
-  width="40%"
+  style="width:40%"
   alt="Example of overflow-hidden." />
 </p>
 
@@ -11078,7 +10895,7 @@ As a conclusion to this tables section, here is a complete table design:
 <!--~~~~~~~~~~~~~~~~~~~~~~ 102. picture of a complete table design (239) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image102.webp?raw=true"
-  width="40%"
+  style="width:40%"
   alt="Picture of a complete table design." />
 </p>
 
@@ -11583,7 +11400,7 @@ little more visually appealing inside your document.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 103. tables activity #2 (24x) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image103.webp?raw=true"
-  width="60%"
+  style="width:60%"
   alt="Tables activity #2: it&#39;s a 3x3 table - the header row has a dark grey background; 
     the last column is composed of the header cell and the other cells are grouped; the last 
     row has the 2 first cells merged." />
@@ -11623,14 +11440,14 @@ attributes:
 <!--~~~~~~~~~~~~~~~~~~~~~ 103. audio: attribute, description & usage (248) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image103.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="Attributes, Description and Usage of audio element." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 104. autoplay and example code (249) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image104.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="Autoplay and example code of audio src." />
 </p>
 
@@ -11724,7 +11541,7 @@ The following table lists the &lt;source&gt; element's attributes:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 105. source element attributes (251) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image105.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="Source element attributes." />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-3-2">5.3.2 The &lt;video&gt; Element</h3>
@@ -11751,10 +11568,10 @@ the video element's attributes:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 106/107. video element attributes (251) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image106.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="Video element attributes (top section)." />
 <img src="/images/image107.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="Video element attributes (bottom section)." />
 </p>
 <!-- style="width:6.5in;height:2.79653in" /> -->
@@ -11762,7 +11579,7 @@ the video element's attributes:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 108. html5 logo (253) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image108.webp?raw=true"
-  width="100px;"
+  style="width:100px;"
   alt="HTML5 logo." />
 </p>
 
@@ -11869,7 +11686,7 @@ a combination of formats. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 109. source element's attributes (255) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image109.webp?raw=true"
-  width="85%"
+  style="width:85%"
   alt="Attributes: src and type." />
 </p>
 
@@ -12018,7 +11835,7 @@ for now we'll just look at a few of them:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 113. iframe attributes (264) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image113.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="iframe attributes and how they work." />
 </p>
 
@@ -12125,7 +11942,7 @@ Let's look at how the code above works.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 114. how ismap code works (266) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image114.webp?raw=true"
-  width="30%"
+  style="width:30%"
   alt="Graphical representation of how ismap command works in web development." />
 </p>
 <!--
@@ -12241,7 +12058,7 @@ how usemap works :) Remember to navigate back to the course!
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 115. usemap sign example (269) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image115.webp?raw=true"
-  width="50%"
+  style="width:50%"
   alt="Usemap example, sign to Millery or Nomeny." />
 </p>
 
@@ -12304,7 +12121,7 @@ items (&lt;li&gt;):
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 116. w3c background image  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image116.webp?raw=true"
-  width="50%"
+  style="width:50%"
   alt="Background image W3C." />
 </p>
 
@@ -12333,7 +12150,7 @@ as several others). 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 117. background image (271) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image117.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="CSS property: background image." />
 </p>
 
@@ -12347,7 +12164,7 @@ image itself, then the image will repeat and fill the space, like tiles.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 118. repeat background image (271) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image118.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="CSS property: background image, repeated." />
 </p>
 
@@ -12369,7 +12186,7 @@ of spacing. That is calculated for you.
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 119. repeat background image centered (272) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image119.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="CSS property: background image, centered repeat to avoid cropping." />
 </p>
 <!-- <img src="./images/image121.png"
@@ -12394,7 +12211,7 @@ paragraph to clearly show the bounds of the parent &lt;p&gt; element.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 120. background sizing (272) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image120.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="Background sizing." />
 </p>
 
@@ -12421,7 +12238,7 @@ images. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 121. auto background size (273) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image121.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="Auto background size." />
 </p>
 
@@ -12438,7 +12255,7 @@ tiles. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 122. center background position (273) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image122.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="Center background position." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -12469,7 +12286,7 @@ Here the visible border styles displayed on a gray border:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 123. border styles (274) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image123.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="Border styling." />
 </p>
 
@@ -12528,7 +12345,7 @@ the border-radius property:  
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 124. silence is golden, 1 (275) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image124.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="Silence is golden." />
 </p>
 
@@ -12538,7 +12355,7 @@ no border at all:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 125. silence is golden, 2 (275) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image125.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="Silence is golden, 2." />
 </p>
 
@@ -12563,7 +12380,7 @@ The blur value is also a dimension unit, but can only be 0 or positive.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 126. illuminati (276) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image126.webp?raw=true"
-  width="50%"
+  style="width:50%"
   alt="Illuminati." />
 </p>
 
@@ -12580,7 +12397,7 @@ text-shadow:  <x-offset> <y-offset> <blur> <color>;
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 127. blurred majestic 12 (276) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image127.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="Blurred majestic 12 - text-shadow." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -12606,7 +12423,7 @@ Here is a simple example of a common error:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 128. example of a common error (277) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image130.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="Example of blindly using css properties." />
 </p>
 
@@ -12654,7 +12471,7 @@ placing the rectangle of the element relative to the text itself.
 <!--~~~~~~~~~~~~~~~~~~~~~~ 129. padding & relative text placement (278) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image129.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="Padding example with relative text placement." />
 </p>
 
@@ -12757,7 +12574,7 @@ mouse is over one of the list items.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 130. hover pseudo-class  (280) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image130.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="Hover pseudo-class." />
 </p>
 
@@ -12780,7 +12597,7 @@ to tables or lists.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 131. nth child pseudo-class (281) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image131.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="Nth child pseudo-class." />
 </p>
 
@@ -12846,7 +12663,7 @@ W3C.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 132. keep the web open (282) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image132.webp?raw=true"
-  width="15%"
+  style="width:15%"
   alt="Keep the web open!" />
 </p>
 
@@ -12901,7 +12718,7 @@ Your favorite browser is not always right.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 133. red testing button (283) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image133.webp?raw=true"
-  width="20%"
+  style="width:20%"
   alt="Red Testing Button." />
 </p>
 
@@ -13244,7 +13061,7 @@ makes its layout decisions.  
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 134. big t, little g (291) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image134.webp?raw=true"
-  width="25%"
+  style="width:25%"
   alt="Baseline: Big T, little g." />
 </p>
 
@@ -13273,7 +13090,7 @@ learned:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 135. block and inline tags (292) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image135.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="Block and inline tags." />
 </p>
 
@@ -13338,7 +13155,7 @@ background is overlapping the lines above and below.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 136. set line-height of span (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image136.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="Set line-height of span." />
 </p>
 
@@ -13349,7 +13166,7 @@ change the span to be display:inline-block, which is discussed below.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 137. display:inline-block (###) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image137.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="Prevent overlap with line-height of the span." />
 </p>
 
@@ -13393,7 +13210,7 @@ respected. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 138.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image138.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="." />
 </p>
 
@@ -13705,7 +13522,7 @@ the bounds of its parent, or go offscreen.
 <!--~~~~~~~~~~~~~~~~~~~~~~ 140. block level paragraph with border (301) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image140.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="Block level paragraph with border." />
 </p>
 
@@ -13738,7 +13555,7 @@ absolutely.
 <!--~~~~~~~~ 141. paragraph with height & border set and 'q' positioned absolute (302) ~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image141.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="Paragraph with height and border set along with 'q' positioned absolute." />
 </p>
 
@@ -13795,7 +13612,7 @@ for  &lt;li&gt; versus &lt;ul&gt;.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 142. relative, static & absolute (303) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image142.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="List item styling.  Two are relative, therefore are static & overlapped." />
 </p>
 
@@ -13846,7 +13663,7 @@ line, and the list items themselves are not enclosed. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 143. position default vs absolute (304) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image143.webp?raw=true"
-  width="85%"
+  style="width:85%"
   alt="Position default vs. absolute." />
 </p>
 
@@ -13920,7 +13737,7 @@ we govern the overlapping with the z-index property. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 144. position relative overlap  (306) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image144.webp?raw=true"
-  width="85%"
+  style="width:85%"
   alt="Position Relative overlap." />
 </p>
 
@@ -13952,7 +13769,7 @@ further out in the document.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 145. overlapping sibling divs (306) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image145.webp?raw=true"
-  width="85%"
+  style="width:85%"
   alt="Overlapping sibling divs." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -14087,7 +13904,7 @@ can be surprising if you weren't expecting it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 146. cropping and scrolling overflow (312) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image146.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="Cropping and scrolling overflow." />
 </p>
 
@@ -14127,7 +13944,7 @@ of 100 pixels. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 147. scrolling value (313) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image147.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="Scrolling & overflow." />
 </p>
 
@@ -14151,7 +13968,7 @@ boxes are organized (innermost to outermost).
 <!--~~~~~~~~~~~~~~~~~ 148. it's own content, padding, border & margines (314) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image148.webp?raw=true"
-  width="45%"
+  style="width:45%"
   alt="Managed boxes: it's own content, padding, border & margins." />
 </p>
 
@@ -14228,7 +14045,7 @@ to help visualize.
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 151. flex container and flex columns (322) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image151.webp?raw=true"
-  width="100%"
+  style="width:100%"
   alt="Flex Container and Flex Columns." />
 </p>
 
@@ -14512,7 +14329,7 @@ wrap-reverse; it is vertical running bottom to top.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 170. flex container and flex-flow (324) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image170.jpg?raw=true"
-  width="65%"
+  style="width:65%"
   alt="Flex Container and Flex-flow." />
 </p>
 
@@ -14626,7 +14443,7 @@ options for a flexbox container with flex-flow:row;
 <!--~~~~~~~~~~ 171. justification options for a flexbox container with flex-flow (338) ~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image171.webp?raw=true"
-  width="100%"
+  style="width:100%"
   alt="Justification Options for a Flexbox container with Flex-Flow." />
 </p>
 
@@ -14673,14 +14490,14 @@ you can see how they align to each other.
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 172. line height and align items #1 (339) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image172.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="Line Height and Align Items #1." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 173. line height and align items #2 (339) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image173.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="Line Height and Align Items #2." />
 </p>
 
@@ -14704,14 +14521,14 @@ than the height of any of the items.
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 174. flexbox and flex items align #1 (340) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image174.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="Flexbox and Flex Item Align #1." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 175. flexbox and flex items align #2 (340) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image175.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="Flexbox and Flex Item Align #2." />
 </p>
 
@@ -14741,7 +14558,7 @@ their align-self property set.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 176. flex container (341) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image176.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="Flex Container with flex-flow and align." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -14776,7 +14593,7 @@ the order value of 1, the second is 2, etc.  And you can override it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 177. order property in flex box (342) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image177.webp?raw=true"
-  width="85%"
+  style="width:85%"
   alt="Order property in flex box." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -14885,7 +14702,7 @@ slots empty.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 178. grid module (345) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image178.webp?raw=true"
-  width="65%"
+  style="width:65%"
   alt="Grid module: lines, columns and rows for cell/area (slot)." />
 </p>
 
