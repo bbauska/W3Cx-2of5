@@ -151,15 +151,16 @@ layout your page during the last week of this course.</p>
 CSS flexbox. Using flexible widths and heights, elements can be aligned
 to fill a space or distribute space between elements, which makes it a
 great tool to use for responsive design systems. Once you've got the
-basics, practice more with this fun <a href="https://flexboxfroggy.com/" target="_blank">Flexbox Froggy</a> game. Note that some parts of this week are clearly indicated OPTIONAL, meaning that there will be no
+basics, practice more with this fun <a href="https://flexboxfroggy.com/" target="_blank">
+Flexbox Froggy</a> game. Note that some parts of this week are clearly indicated OPTIONAL, meaning that there will be no
 questions related to that content material.</li>
 </ul>
 
-W3C has designed a <a href="https://www.edx.org/professional-certificate/w3cx-front-end-web-developer" target="_blank">"Front-End Web Developer" (FEWD) Professional
-Certificate</a> where you will learn all of the necessary skills needed to build interactive
-and responsive user experiences on the Web. This program will deepen
-your knowledge of the 3 foundational languages that power the Web:
-HTML5, CSS and JavaScript. The W3C FEWD program is composed of 5
+W3C has designed a <a href="https://www.edx.org/professional-certificate/w3cx-front-end-web-developer" target="_blank">
+"Front-End Web Developer" (FEWD) Professional Certificate</a> where you will learn all of the 
+necessary skills needed to build interactive and responsive user experiences on 
+the Web. This program will deepen your knowledge of the 3 foundational languages 
+that power the Web: HTML5, CSS and JavaScript. The W3C FEWD program is composed of 5
 courses:
 <ol type="1">
   <li><a href="https://github.com/bbauska/W3Cx-1of5-CSS.0x" target="_blank">CSS Basics</a> - introductory level,<br/>&nbsp;</li>
