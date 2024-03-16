@@ -8159,7 +8159,7 @@ Can you achieve the same styling without adding any new tags (i.e., without addi
 
 <h4>Result</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-h3 id="ch3-4-8">3.4.8 Recipe</h3>
+<h3 id="ch3-4-8">3.4.8 Recipe</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <a href=https://learning.edx.org/course/course-v1:W3Cx+HTML5.0x+1T2022/block-v1:W3Cx+HTML5.0x+1T2022+type@sequential+block@0045398377b14c60b9a3820ead6441d6/block-v1:W3Cx+HTML5.0x+1T2022+type@vertical+block@a40220f07c494fb88d47047b8c6d20bc,target=”_blank”>Go Here</a>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
