@@ -1,5 +1,10 @@
 ---
-w3cx-2of5-html5.0x: Coursera - Front-End Web Development - HTML5 & CSS3 Fundamentals
+title: "W3Cx-2of5-HTML5.0x: Coursera - Front-End Web Development - HTML5 & CSS3 Fundamentals"
+author: "bbauska"
+date last editted: "3/16/2024 2+pm"
+output: 
+  markdown:
+    with some style
 ---
 
 <h2 align="center">W3Cx Front-End Web Developer</h2>
@@ -11,6 +16,7 @@ w3cx-2of5-html5.0x: Coursera - Front-End Web Development - HTML5 & CSS3 Fundamen
 <p align="center" width="100%">
 <img src="./images/w3cx-logo.webp?raw=true"
   style="width:35%"
+  title="W3C logo"
   alt="W3C logo." />
 </p>
 
@@ -20,6 +26,7 @@ w3cx-2of5-html5.0x: Coursera - Front-End Web Development - HTML5 & CSS3 Fundamen
 <p align="center" width="100%">
 <img src="./images/image001.webp?raw=true"
   style="width:65%"
+  title="W3Cx HTML 5.0x logo"
   alt="W3Cx HTML 5.0x logo." />
 </p>
 
@@ -91,6 +98,7 @@ a professional look and feel, by just following these 6 modules!</p>
 <p align="center" width="100%">
 <img src="./images/image002.webp?raw=true"
   style="width:15%"
+  title="My First Web Page"
   alt="My First Web Page." />
 </p>
 <ul>
@@ -104,6 +112,7 @@ a professional look and feel, by just following these 6 modules!</p>
 <p align="center" width="100%">
 <img src="./images/image003.webp?raw=true"
   style="width:15%"
+  title="W3C Developers logo"
   alt="W3C Developers logo." />
 </p>
 
@@ -117,6 +126,7 @@ layout your page during the last week of this course.</p>
 <p align="center" width="100%">
 <img src="./images/image004.webp?raw=true"
   style="width:15%"
+  title="Laptop image"
   alt="Laptop image." />
 </p>
 
@@ -132,6 +142,7 @@ layout your page during the last week of this course.</p>
 <p align="center" width="100%">
 <img src="./images/image005.webp?raw=true"
   style="width:50%"
+  title="W3C Cheat Sheet"
   alt="W3C Cheat Sheet." />
 </p>
 
@@ -144,6 +155,7 @@ layout your page during the last week of this course.</p>
 <p align="center" width="100%">
 <img src="./images/image006.webp?raw=true"
   style="width:65%"
+  title="Can I Use: CSS Colors"
   alt="Can I Use: CSS Colors." />
 </p>
 
@@ -265,6 +277,7 @@ Here's an interesting article on what beginners can do with CodePen: <a href="h
 <p align="center" width="100%">
 <img src="./images/image003.webp?raw=true"
   style="width:30%"
+  title="W3C Developers logo"
   alt="W3C Developers logo." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -272,6 +285,7 @@ Here's an interesting article on what beginners can do with CodePen: <a href="h
 <p align="center" width="100%">
 <img src="./images/image007.webp?raw=true"
   style="width:30%"
+  title="MDN Web Docs Mozilla logo"
   alt="MDN Web Docs Mozilla logo." />
 </p>
 
@@ -299,7 +313,8 @@ Style Sheets (CSS) and (X)HTML documents that use CSS stylesheets.</p>
 <p align="center" width="100%">
 <img src="./images/image004.webp?raw=true"
   style="width:15%"
-  alt="Laptop." />
+  title="Laptop"
+  alt="Laptop" />
 </p>
 
 <h3>Unicorn</h3>
@@ -341,6 +356,7 @@ internationalization tips.
 <p align="center" width="100%">
 <img src="./images/image005.webp?raw=true"
   style="width:50%"
+  title="W3C Cheat Sheet"
   alt="W3C Cheat Sheet." />
 </p>
 
@@ -386,6 +402,7 @@ is a snapshot of what information is given by CanIUse when searching for
 <p align="center" width="100%">
 <img src="./images/image006.webp?raw=true"
   style="width:65%"
+  title="Example of a CanIUse browser support table (using CSS3 colors)"
   alt="Example of a CanIUse browser support table (using CSS3 colors)." />
 </p>
 
@@ -395,6 +412,7 @@ is a snapshot of what information is given by CanIUse when searching for
 <p align="center" width="100%">
 <img src="./images/image007.webp?raw=true"
   style="width:35%"
+  title="MDN Web Docs logo"
   alt="MDN Web Docs logo." />
 </p>
 
@@ -427,6 +445,7 @@ define key parts of what actually makes the World Wide Web work.
 <p align="center" width="100%">
 <img src="./images/image008.webp?raw=true"
   style="width:35%"
+  title="Tim Berners-Lee at his desk in CERN, 1994"
   alt="Tim Berners-Lee at his desk in CERN, 1994." />
 </p>
 <h6 align="center">Tim Berners-Lee at his desk in CERN, 1994</h6>
@@ -543,6 +562,7 @@ who described it as 'vague but exciting'.
 <p align="center" width="100%">
 <img src="./images/image009.webp?raw=true"
   style="width:85%"
+  title="Network of Components"
   alt="Network of Components." />
 </p>
 
@@ -581,6 +601,7 @@ World Wide Web.</p>
 <p align="center" width="100%">
 <img src="./images/image010.webp?raw=true"
   style="width:100px;"
+  title="HTML5 logo"
   alt="HTML5 logo." />
 </p>
 
@@ -603,6 +624,7 @@ powerful and flexible ways for developers to create dynamic Web pages.</p>
 <p align="center" width="100%">
 <img src="./images/image011.webp?raw=true"
   style="width:15%"
+  title="CSS3 logo"
   alt="CSS3 logo." />
 </p>
 
@@ -618,6 +640,7 @@ indentations and whatever else may apply to what it looks like.
 <p align="center" width="100%">
 <img src="./images/image012.webp?raw=true"
   style="width:15%"
+  title="JavaScript logo"
   alt="JavaScript logo." />
 </p>
 
@@ -644,6 +667,9 @@ document.
 <p align="center" width="100%">
 <img src="./images/image013.webp"
   style="width:85%"
+  title="Illustration of hypertext documents (here are extract of wikipedia pages): the 
+  HTML5 page has links going to the Markup language page, the World Wide Web 
+  definition page, etc"
   alt="Illustration of hypertext documents (here are extract of wikipedia pages): the 
   HTML5 page has links going to the Markup language page, the World Wide Web 
   definition page, etc." />
@@ -676,6 +702,7 @@ email and other conveniences.
 <p align="center" width="100%">
 <img src="./images/image014.webp?raw=true"
   style="width:65%"
+  title="Snapshot of a Mosaic Browser"
   alt="Snapshot of a Mosaic Browser." />
 </p>
 
@@ -892,6 +919,7 @@ example.</p>
 <p align="center" width="100%">
 <img src="./images/image-example.webp"
   style="width:85%"
+  title="Example editor"
   alt="Example editor." />
 </p>
 <p>We won't go into the code in this example. But you can see that this is a live 
@@ -1396,6 +1424,7 @@ elements of the DOM.
 <p align="center" width="100%">
 <img src="./images/image015.webp?raw=true"
   style="width:65%"
+  title="HTML element"
   alt="HTML element." />
 </p>
 
@@ -3452,7 +3481,7 @@ rule and were eventually corrected in HTML5.
 
 1.  <p>This text is in <i>Italics</i>. It uses the i tag</p>
 
-2.  <p>This text is also in &lt;em&gt;Italics</em>. But it uses the em
+2.  <p>This text is also in <em>Italics</em>. But it uses the em
     tag!</p>
 
 3.  <p>This text is in <b>Bold</b>. It uses the b tag</p>
@@ -3466,6 +3495,7 @@ This is how the above HTML code will look in a browser:
 <p align="center" width="100%">
 <img src="./images/image023.webp?raw=true"
   style="width:45%"
+  title="How HTML will look in the browser"
   alt="How HTML will look in the browser." />
 </p>
 
@@ -14850,4 +14880,5 @@ These are the final changes to our recipe project for this unit.
 
 <h6>The end...</h6>
 
-<h4><b>Last Updated 09-26-2023 12:20pm</b></h4>
+<h5><b>Updated 09-26-2023 12:20pm</b></h5>
+<h6><b>Last Updated 03-16-2024 2:20pm</b></h6>
