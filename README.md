@@ -84,7 +84,7 @@ output:
 >### 6.5 [**CSS Grid**](#ch6-5-1)
 >### 6.6 [**Recipe project**](#ch6-6-1)
 
-<a href="https://github.com/bbauska/W3Cx-2of5-HTML5-and-CSS-Fundamentals.git" target="_blank">HTML5 and CSS Fundamentals - git</a>
+<a href="https://github.com/bbauska/W3Cx-2of5-HTML5-and-CSS-Fundamentals.git" target="_blank" rel="noopener noreferrer">HTML5 and CSS Fundamentals - git</a>
 
 <h3>Course Outline:</h3>
 
@@ -146,10 +146,17 @@ layout your page during the last week of this course.</p>
   alt="W3C Cheat Sheet." />
 </p>
 
+<ul>
 <li>In <b>Module 5</b>, you will be combining HTML and CSS to create more
     complex pages, and "beautify" even more your recipe projects. You
     will learn about tables, the audio and video elements, etc. This is
-    a good preparatory work for the <a href="https://www.edx.org/course/html5-coding-essentials-and-best-practices" target="_blank">HTML5 Coding Essentials and Best Practices course</a> (intermediate level). You will also learn how to embed other elements in a page other than a simple image. Note that some parts of the material are optional: iframes, usemap, and ismap.<br/>&nbsp;</li>
+    a good preparatory work for the 
+	<a href="https://www.edx.org/course/html5-coding-essentials-and-best-practices" 
+	  target="_blank">HTML5 Coding Essentials and Best Practices course</a>
+	  (intermediate level). You will also learn how to embed other elements in a page 
+	  other than a simple image. Note that some parts of the material are optional: 
+	  iframes, usemap, and ismap.<br/>&nbsp;</li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. can i use: css colors (03) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -159,36 +166,46 @@ layout your page during the last week of this course.</p>
   alt="Can I Use: CSS Colors." />
 </p>
 
-<li><b>Module 6</b> is about page layout and more specifically about
-CSS flexbox. Using flexible widths and heights, elements can be aligned
-to fill a space or distribute space between elements, which makes it a
-great tool to use for responsive design systems. Once you've got the
-basics, practice more with this fun <a href="https://flexboxfroggy.com/" target="_blank">
-Flexbox Froggy</a> game. Note that some parts of this week are clearly indicated OPTIONAL, meaning that there will be no
-questions related to that content material.</li>
+<ul>
+  <li><b>Module 6</b> is about page layout and more specifically about CSS 
+    flexbox. Using flexible widths and heights, elements can be aligned
+    to fill a space or distribute space between elements, which makes it a 
+	great tool to use for responsive design systems. Once you've got the
+	basics, practice more with this fun <a href="https://flexboxfroggy.com/" 
+	target="_blank" rel="noopener noreferrer">Flexbox Froggy</a> game. Note 
+	that some parts of this week are clearly indicated OPTIONAL, meaning that 
+	there will be no questions related to that content material.</li>
 </ul>
 
-W3C has designed a <a href="https://www.edx.org/professional-certificate/w3cx-front-end-web-developer" target="_blank">
-"Front-End Web Developer" (FEWD) Professional Certificate</a> where you will learn all of the 
-necessary skills needed to build interactive and responsive user experiences on 
-the Web. This program will deepen your knowledge of the 3 foundational languages 
-that power the Web: HTML5, CSS and JavaScript. The W3C FEWD program is composed of 5
-courses:
+<p>W3C has designed a 
+<a href="https://www.edx.org/professional-certificate/w3cx-front-end-web-developer" 
+target="_blank" rel="noopener noreferrer">"Front-End Web Developer" (FEWD) Professional 
+Certificate</a> where you will learn all of the necessary skills needed to build interactive 
+and responsive user experiences on the Web. This program will deepen your knowledge of the 3 
+foundational languages that power the Web: HTML5, CSS and JavaScript. The W3C FEWD program 
+is composed of 5 courses:</p>
+
 <ol type="1">
-  <li><a href="https://github.com/bbauska/W3Cx-1of5-CSS.0x" target="_blank">CSS Basics</a> - introductory level,<br/>&nbsp;</li>
-  <li><b>This course: <a href="https://www.edx.org/course/html5-and-css-fundamentals" target="_blank">HTML5 and CSS Fundamentals</a> - introductory level,</b><br/>&nbsp;</li>
-  <li><a href="https://github.com/bbauska/W3Cx-3of5-HTML5.1x" target="_blank">HTML5 Coding Essentials and Best Practices</a> - intermediate level,<br/>&nbsp;</li>
-  <li><a href="https://github.com/bbauska/W3Cx-4of5-HTML5.2x" target="_blank">HTML5 Apps and Games</a> - advanced
-    level,<br/>&nbsp;</li>
-  <li><a href="https://github.com/bbauska/W3Cx-5of5-JS.0x" target="_blank">JavaScript Introduction</a> -
-    introductory level.</li>
+  <li><a href="https://github.com/bbauska/W3Cx-1of5-CSS.0x" 
+    target="_blank" rel="noopener noreferrer">CSS Basics</a> - introductory level,<br/>&nbsp;</li>
+  <li><b>This course: <a href="https://www.edx.org/course/html5-and-css-fundamentals" 
+    target="_blank" rel="noopener noreferrer">HTML5 and CSS Fundamentals</a> - introductory 
+	level,</b><br/>&nbsp;</li>
+  <li><a href="https://github.com/bbauska/W3Cx-3of5-HTML5.1x" 
+    target="_blank" rel="noopener noreferrer">HTML5 Coding Essentials and Best Practices</a> 
+	- intermediate level,<br/>&nbsp;</li>
+  <li><a href="https://github.com/bbauska/W3Cx-4of5-HTML5.2x" 
+    target="_blank" rel="noopener noreferrer">HTML5 Apps and Games</a> - advanced level,<br/>&nbsp;</li>
+  <li><a href="https://github.com/bbauska/W3Cx-5of5-JS.0x" 
+    target="_blank" rel="noopener noreferrer">JavaScript Introduction</a> - introductory level.</li>
 </ol>
 
 <h4>Welcome!</h4>
 
-<p>This "HTML5 & CSS Fundamentals" introductory course is designed for anyone, no prerequisites required.
-
+<p>This "HTML5 & CSS Fundamentals" introductory course is designed for anyone, no 
+prerequisites required.<br>
 During this course, you will learn:</p>
+
 <ul>
   <li>Basic concepts of a markup language,<br/>&nbsp;</li>
   <li>Basic building blocks of Web design and style,<br/>&nbsp;</li>
@@ -203,19 +220,23 @@ During this course, you will learn:</p>
 <h3>Web browsers</h3>
 
 <p>Not surprisingly, it would be helpful to have a browser (short for "Web
-Browser") so that you can see the end result of your source code.
+Browser") so that you can see the end result of your source code.</p>
 
-Common modern browsers for the desktop
-are <a href="https://firefox.com/), [Chrome](https://www.google.com/chrome/" target="_blank">Firefox</a>, <a href="https://www.microsoft.com/en-us/windows/microsoft-edge" target="_blank">Microsoft
-Edge</a>(and IE), <a href="http://www.apple.com/safari/" target="_blank">Safari</a>, <a href="https://brave.com/" target="_blank">Brave</a>,
-etc. The most common features of a Web browser include the browser
-window itself (also referred to as the user interface), the navigation
-and address bar, and options to view your history, settings, and other
-tools.
+<p>Common modern browsers for the desktop are 
+<a href="https://firefox.com/" target="_blank" rel="noopener noreferrer">firefox</a>, 
+<a href="https://www.google.com/chrome/" target="_blank" rel="noopener noreferrer">
+Chrome</a>, <a href="https://www.microsoft.com/en-us/windows/microsoft-edge" 
+target="_blank" rel="noopener noreferrer">Microsoft Edge</a>(and IE), 
+<a href="http://www.apple.com/safari/"target="_blank" rel="noopener noreferrer">
+Safari</a>, <a href="https://brave.com/" target="_blank">Brave</a>, etc. The most common 
+features of a Web browser include the browser window itself (also referred to as the user 
+interface), the navigation and address bar, and options to view your history, settings, 
+and other tools.</p>
 
-Look at the <a href="https://en.wikipedia.org/wiki/Web_browser#History" target="_blank">history of Web
-browsers</a> (on Wikipedia). An interesting resource is the <a href="https://www.w3counter.com/globalstats.php" target="_blank">Browser and Platform Market
-Share</a> (updated regularly).</p>
+<p>Look at the <a href="https://en.wikipedia.org/wiki/Web_browser#History" 
+target="_blank" rel="noopener noreferrer">history of Web browsers</a> (on Wikipedia). An 
+interesting resource is the <a href="https://www.w3counter.com/globalstats.php" 
+target="_blank">Browser and Platform Market Share</a> (updated regularly).</p>
 
 <h3>Web editors</h3>
 
@@ -223,32 +244,41 @@ Share</a> (updated regularly).</p>
 developers. While any text editor, like NotePad or TextEdit, can be used
 to create Web pages, they don't necessarily offer options for error
 checking, syntax coloring and saving some typing by filling things out
-for you.
+for you.</p>
 
-There are two types of editors available, WYSIWYG ("What You See Is What
+<p>There are two types of editors available, WYSIWYG ("What You See Is What
 You Get") and textual HTML editors. Here is a non exhaustive list:</p>
+
 <ul>
-  <li><a href="https://www.sublimetext.com/" target="_blank">Sublime Text</a> - it is quite
-    popular with developers, though there can be a bit of a learning curve
-    to use its many features,</li>
-  <li><a href="http://bluegriffon.org/" target="_blank">BlueGriffon</a> - a WYSIWYG content
-    editor for the World Wide Web. Powered by Gecko, the rendering engine of
-    Firefox, it's a modern and robust solution to edit Web pages in
-    conformance to the latest Web Standards,</li>
-  <li><a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> - a free
-    open source editor that can run on any operating system. Many coding
-    videos in this course are demonstrated using Visual Studio Code,</li>
-  <li><a href="https://github.com/" target="_blank">GitHub</a> itself - check <a href="https://towardsdatascience.com/how-to-create-a-free-github-pages-website-53743d7524e1"
-    target="_blank">this resource that explains how to create a Web site using GitHub</a>,</li>
-  <li><a href="https://developer.apple.com/xcode/" target="_blank">XCode</a> - Mac developers
-    may be familiar with XCode,</li>
-  <li>TextEdit - this is available on Macs, but be sure you're <a href="https://discussions.apple.com/message/5014514#5014514" 
-    target="_blank">saving as plain text</a>, not as a ".rtf" or ".doc" file,</li>
-  <li><a href="https://notepad-plus-plus.org/" target="_blank">Notepad++</a> - on Windows PC's,</li>
-  <li><a href="https://www.sublimetext.com/" target="_blank">Atom</a> - another cross platform
-    editor, created by <a href="https://github.com/" target="_blank">GitHub</a>,</li>
-  <li><a href="https://www.vim.org/" target="_blank") or <a href="https://www.gnu.org/software/emacs/">Emacs</a> target="_blank">Vim</a> -
-    great editors, but if you're not already familiar with these, this isn't the time to try.</li>
+  <li><a href="https://www.sublimetext.com/" target="_blank" rel="noopener noreferrer">
+    Sublime Text</a> - it is quite popular with developers, though there can be a bit 
+	of a learning curve to use its many features,</li>
+  <li><a href="http://bluegriffon.org/" target="_blank" rel="noopener noreferrer">
+    BlueGriffon</a> - a WYSIWYG content editor for the World Wide Web. Powered by 
+	Gecko, the rendering engine of Firefox, it's a modern and robust solution to 
+	edit Web pages in conformance to the latest Web Standards,</li>
+  <li><a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">
+    Visual Studio Code</a> - a free open source editor that can run on any operating system. 
+	Many coding videos in this course are demonstrated using Visual Studio Code,</li>
+  <li><a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+    GitHub</a> itself - check 
+	<a href="https://towardsdatascience.com/how-to-create-a-free-github-pages-website-53743d7524e1"
+    target="_blank" rel="noopener noreferrer">
+	this resource that explains how to create a Web site using GitHub</a>,</li>
+  <li><a href="https://developer.apple.com/xcode/" target="_blank" rel="noopener noreferrer">
+    XCode</a> - Mac developers may be familiar with XCode,</li>
+  <li>TextEdit - this is available on Macs, but be sure you're 
+    <a href="https://discussions.apple.com/message/5014514#5014514" 
+	target="_blank" rel="noopener noreferrer">saving as plain text</a>, not as a ".rtf" or ".doc" file,</li>
+  <li><a href="https://notepad-plus-plus.org/" target="_blank" rel="noopener noreferrer">
+    Notepad++</a> - on Windows PC's,</li>
+  <li><a href="https://www.sublimetext.com/" target="_blank" rel="noopener noreferrer">
+    Atom</a> - another cross platform editor, created by <a href="https://github.com/" 
+	target="_blank" rel="noopener noreferrer">GitHub</a>,</li>
+  <li><a href="https://www.vim.org/" target="_blank" rel="noopener noreferrer">VIM or
+    <a href="https://www.gnu.org/software/emacs/" target="_blank" rel="noopener noreferrer">
+	Emacs</a> - great editors, but if you're not already familiar with these, this isn't the 
+	time to try.</li>
 </ul>
 
 <h3>Online Code Editors</h3>
@@ -256,20 +286,23 @@ You Get") and textual HTML editors. Here is a non exhaustive list:</p>
 <p>To help you practice during the whole duration of the course, we propose
 to use the <a href="https://codepen.io/" target="_blank">CodePen</a> online code editor. An online
 code editor is a tool that resides on a remote server and is accessible
-via browsers.
+via browsers.</p>
 
-CodePen is an HTML/CSS/JavaScript code editor that previews/showcases
+<p>CodePen is an HTML/CSS/JavaScript code editor that previews/showcases
 your code in your browser. We are providing a short live coding video on
 how to use CodePen at the beginning of Module 1. CodePen gives you the
 tools for collaboration, experimentation, and sharing, but you also get
 live results and the ability to search through their database and
 repository of snippets that other authors put up so you can experiment
-and learn from their work, too.
+and learn from their work, too.</p>
 
-Note that there are many other online code editors available out there,
-such as JSBin,  JSFiddle, and Dabblet (Lea Verou's tool).
+<p>Note that there are many other online code editors available out there,
+such as JSBin,  JSFiddle, and Dabblet (Lea Verou's tool).</p>
 
-Here's an interesting article on what beginners can do with CodePen: <a href="https://codepen.io/brentmiller/post/things-you-can-do-with-codepen" target="_blank">Things you can do with CodePen</a> [Brent Miller, February 6, 2019].</p>
+<p>Here's an interesting article on what beginners can do with CodePen: 
+<a href="https://codepen.io/brentmiller/post/things-you-can-do-with-codepen" 
+target="_blank" rel="noopener noreferrer">Things you can do with CodePen</a> 
+[Brent Miller, February 6, 2019].</p>
 
 <h3>W3C Validators</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -290,24 +323,25 @@ Here's an interesting article on what beginners can do with CodePen: <a href="h
 </p>
 
 <p>For over 15 years, the W3C has been developing and hosting 
-<a href="https://w3c.github.io/developers/" target="_blank">free and open source 
-tools</a> used every day by millions of Web developers and Web designers. All the 
-tools listed below are Web-based, and are available as downloadable sources or as 
-free services on the <a href="https://w3c.github.io/developers/tools/" 
-target="_blank">W3C Developers tools</a>.</p>
+<a href="https://w3c.github.io/developers/" target="_blank" rel="noopener noreferrer">
+free and open source tools</a> used every day by millions of Web developers and Web 
+designers. All the tools listed below are Web-based, and are available as downloadable 
+sources or as free services on the <a href="https://w3c.github.io/developers/tools/" 
+target="_blank" rel="noopener noreferrer">W3C Developers tools</a>.</p>
 
 <h3>W3C Validator</h3>
 
-<p>The <a href="https://validator.w3.org/">W3C validator</a> checks the 
-<a href="https://validator.w3.org/docs/help.html#validation_basics">markup 
-validity</a> of various Web document formats, such as HTML. Note that you 
-are automatically directed to the <a href="https://validator.w3.org/nu/">Nu 
-Html Checker</a> when validating an HTML5 document.</p>
+<p>The <a href="https://validator.w3.org/" target="_blank" rel="noopener noreferrer">
+W3C validator</a> checks the <a href="https://validator.w3.org/docs/help.html#validation_basics" 
+target="_blank" rel="noopener noreferrer">markup validity</a> of various Web document formats, 
+such as HTML. Note that you are automatically directed to the <a href="https://validator.w3.org/nu/" 
+target="_blank" rel="noopener noreferrer">Nu Html Checker</a> when validating an HTML5 document.</p>
 
 <h3>CSS Validator</h3>
 
-<p>The <a href="https://jigsaw.w3.org/css-validator/">CSS validator</a> checks Cascading 
-Style Sheets (CSS) and (X)HTML documents that use CSS stylesheets.</p>
+<p>The <a href="https://jigsaw.w3.org/css-validator/" 
+target="_blank" rel="noopener noreferrer">CSS validator</a> checks Cascading Style 
+Sheets (CSS) and (X)HTML documents that use CSS stylesheets.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04. laptop (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -319,11 +353,11 @@ Style Sheets (CSS) and (X)HTML documents that use CSS stylesheets.</p>
 
 <h3>Unicorn</h3>
 
-[Unicorn](https://validator.w3.org/unicorn/) is W3C's unified validator,
-which helps people improve the quality of their Web pages by performing
-a variety of checks. Unicorn gathers the results of the popular HTML and
-CSS validators, as well as other useful services, such as
-Internationalization, RSS/Atom feeds and http headers.
+<p><a href="https://validator.w3.org/unicorn/" target="_blank" rel="noopener noreferrer">
+Unicorn</a> is W3C's unified validator, which helps people improve the quality of their 
+Web pages by performing a variety of checks. Unicorn gathers the results of the popular 
+HTML and CSS validators, as well as other useful services, such as Internationalization, 
+RSS/Atom feeds and http headers.</p>
 
 <h3>Internationalization Checker</h3>
 
@@ -14779,7 +14813,7 @@ On the other hand, even for a single row or column, the Grid properties may turn
 
 <h4>CSS grid resources</h4>
 <ul>
-   <li><a href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank">A complete guide to Grid</a> (CSS Tricks) - <i>updated 10 March 2021</i></li>
+   <li><a href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank" rel="noopener noreferrer">A complete guide to Grid</a> (CSS Tricks) - <i>updated 10 March 2021</i></li>
    <li><a href="https://www.w3.org/TR/css-grid-1/" target="_blank">CSS Grid</a>, the W3C specification -   <a href="https://gridbyexample.com/" target="_blank">Grid by example</a>: this site is a collection of <i>examples</i>, video and other information to help you learn CSS <i>Grid Layout - by Rachel Andrew</i>.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
