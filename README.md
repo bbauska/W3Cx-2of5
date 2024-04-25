@@ -1488,6 +1488,7 @@ a text file?  Well, that's where "tags" come in.
 <p align="center" width="100%">
 <img src="./images/image016.webp?raw=true"
   style="width:25%"
+  title="Tags"
   alt="Tags." />
 </p>
 
@@ -1535,10 +1536,14 @@ the tags being the content of the element:
 <p align="center" width="100%">
 <img src="./images/image017.webp?raw=true"
   style="width:65%"
+  title="Diagram of an element: the &#39;&lt;em&gt;&#39; tag is used for element that needs Emphasis. 
+    The &#39;&lt;&#39; and &#39;&gt;&#39; indicate that this is a tag, and the little bits of 
+    text in between tell us what kind of tag it is. To completely describe the element, it needs 
+    an open and close tag, with everything in between the tags being the content of the element"
   alt="Diagram of an element: the &#39;&lt;em&gt;&#39; tag is used for element that needs Emphasis. 
     The &#39;&lt;&#39; and &#39;&gt;&#39; indicate that this is a tag, and the little bits of 
     text in between tell us what kind of tag it is. To completely describe the element, it needs 
-    an open and close tag, with everything in between the tags being the content of the element" />
+    an open and close tag, with everything in between the tags being the content of the element." />
 </p>
 <p>
 Most tags have open and close versions, but there are a few strange
@@ -2646,6 +2651,7 @@ effect in your Web page when you use them:</p>
 <p align="center" width="100%">
 <img src="./images/image018.webp?raw=true"
   style="width:25%"
+  title="Example of a list as it would appear on a web page"
   alt="Example of a list as it would appear on a web page." />
 </p>
 
@@ -2690,6 +2696,7 @@ primarily used to invoke certain formatting.</p>
 <p align="center" width="100%">
 <img src="./images/image019.webp?raw=true"
   style="width:25%"
+  title="Example of Poetry as it might appear on a Web Page"
   alt="Example of Poetry as it might appear on a Web Page." />
 </p>
 
@@ -2792,13 +2799,14 @@ following components:</p>
 ```
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch2-1-1">Welcome to Module 2; Attributes, Images &amp; Links</h2>
+<h2 id="ch2-1-1">2.1 Welcome to Module 2; Attributes, Images &amp; Links</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 20. attributes, images and links (61) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image020.webp?raw=true"
   style="width:35%"
-  alt="2.1. Attributes, images and links." />
+  title="2.1 Attributes, images and links"
+  alt="2.1 Attributes, images and links." />
 </p>
 
 <p>
@@ -3112,6 +3120,7 @@ several tags such as &lt;img&gt;, &lt;input&gt; and &lt;video&gt;.</p>
 <p align="center" width="100%">
 <img src="./images/image021.webp?raw=true"
   style="width:35%"
+  title="HTML Result"
   alt="HTML Result." />
 </p>
 <p>
@@ -3338,6 +3347,7 @@ Don't click on it, just rest your cursor there.</p>
 <p align="center" width="100%">
 <img src="./images/image022.webp?raw=true"
   style="width:25%"
+  title="Example image of a girl with a beautiful smile to illustrate title attribute"
   alt="Example image of a girl with a beautiful smile to illustrate title attribute." />
 </p>
 
@@ -3725,10 +3735,10 @@ Let's look at a typical Web page structure that consists of blocks named
 after: header, nav, article, section, aside and footer.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 24. picture showing structure of a web site (78) ~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image024.webp?raw=true"
   style="width:45%"
+  title="Picture showing the structure of a Web site: header, nav, article, section, aside and footer"
   alt="Picture showing the structure of a Web site: header, nav, article, section, aside and footer." />
 </p>
 
@@ -3860,6 +3870,7 @@ this:
 <p align="center" width="100%">
 <img src="./images/image025.webp?raw=true"
   style="width:45%"
+  title="Using the markup validator"
   alt="Using the markup validator." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4046,6 +4057,7 @@ Moncrieff&lt;/p&gt;</p></li>
 <p align="center" width="100%">
 <img src="./images/image026.webp?raw=true"
   style="width:40%"
+  title="Example details command"
   alt="Example details command." />
 </p>
 <p>
@@ -4075,6 +4087,7 @@ for all users.
 <p align="center" width="100%">
 <img src="./images/image027.webp?raw=true"
   style="width:20%"
+  title="Dress rehearsal"
   alt="Dress rehearsal." />
 </p>
 <h6 align="center" width="100%">
@@ -4097,6 +4110,7 @@ Fig. 1: The cast hard at work at dress rehearsal before opening night</h6>
 <p align="center" width="100%">
 <img src="./images/image028.webp?raw=true"
   style="width:40%"
+  title="Specify content you want to highlight"
   alt="Specify content you want to highlight." />
 </p>
 
@@ -4154,6 +4168,7 @@ visual change:
 <p align="center" width="100%">
 <img src="./images/image029.webp?raw=true"
   style="width:30%"
+  title="Example aside element"
   alt="Example aside element." />
 </p>
 
@@ -4271,6 +4286,7 @@ element. <b>Here's a simplified version</b>:
 <p align="center" width="100%">
 <img src="./images/image030.webp?raw=true"
   style="width:40%"
+  title="HTML5.2x header and headings"
   alt="HTML5.2x header and headings." />
 </p>
 
@@ -4312,6 +4328,7 @@ identify headings</a>.
 <p align="center" width="100%">
 <img src="./images/image031.webp?raw=true"
   style="width:40%"
+  title="Brad's cookbook example, in CodePen"
   alt="Brad's cookbook example, in CodePen." />
 </p>
 
@@ -4360,6 +4377,7 @@ course creation, here are screenshots of its header:
 <p align="center" width="100%">
 <img src="./images/image032.webp?raw=true"
   style="width:40%"
+  title="Screenshot of the microsoft virtual academy home page"
   alt="Screenshot of the microsoft virtual academy home page." />
 </p>
 
@@ -4369,6 +4387,7 @@ and footer.
 <p align="center" width="100%">
 <img src="./images/image033.webp?raw=true"
   style="width:65%"
+  title="Screenshot of Microsoft Virtual Academy home page showing the footer"
   alt="Screenshot of Microsoft Virtual Academy home page showing the footer." />
 </p>
 
@@ -4397,6 +4416,7 @@ multiple &lt;header&gt;, &lt;footer&gt; and &lt;nav&gt; tags.
 <p align="center" width="100%">
 <img src="./images/image034.webp?raw=true"
   style="width:50%"
+  title="Screenshot of Microsoft Virtual Academy home page showing the header, footer & nav tags"
   alt="Screenshot of Microsoft Virtual Academy home page showing the header, footer & nav tags." />
 </p>
 
@@ -4553,6 +4573,7 @@ to our CES 2018 &lt;article&gt; example, it will fit right in:
 <p align="center" width="100%">
 <img src="./images/image035.webp?raw=true"
   style="width:40%"
+  title="CES 2018 Example with article and section"
   alt="CES 2018 Example with article and section." />
 </p>
 
@@ -4607,6 +4628,7 @@ this [CodePen](https://codepen.io/w3devcampus/pen/Wjzjpx):
 <p align="center" width="100%">
 <img src="./images/image036.webp?raw=true"
   style="width:40%"
+  title="HTML5 Table of Contents"
   alt="HTML5 Table of Contents." />
 </p>
 
@@ -5008,6 +5030,7 @@ bmp, tiff and png, their pros and cons, and when to use them.
 
 When using images in your HTML5, there are a few image format related
 information to be aware of.
+
 <ul>
   <li><b>Image data:</b> most images, especially JPEG, contain a lot more
     data than is needed for a browser and are too often overly large and
@@ -5026,16 +5049,19 @@ information to be aware of.
     editing software (like GIMP, Photoshop, or others). PNG is a <a href="https://www.w3.org/TR/PNG/" target="_blank">W3C
     Web standard</a> (this is the 2nd edition -
     the 1st edition
-    was <a href="https://www.w3.org/TR/REC-png-961001" target="_blank">published</a> in 1996!).
-  <li><b>SVG</b> (Scalable Vector Graphics) are defined mathematically and
-    support animation. Also, since they are defined mathematically  they
-    scale to:
+    was <a href="https://www.w3.org/TR/REC-png-961001" target="_blank">published</a> in 1996!).</li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 37. logo scalable vector graphics (svg) (106) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <img src="./images/image037.webp?raw=true"
   style="width:10%"
   alt="Logo Scalable Vector Graphics (SVG)." />
-  any size without worrying about pixels, resolution or image data. This makes SVG
+
+<ul>
+  <li><b>SVG</b> (Scalable Vector Graphics) are defined mathematically and
+    support animation. Also, since they are defined mathematically  they
+    scale to:<br>
+    any size without worrying about pixels, resolution or image data. This makes SVG
     images an excellent format to use, if possible. SVG is great for
     charts, graphs, maps, geometric shapes, and line based
     illustrations.  SVG is also a markup language in its own right and
@@ -5045,7 +5071,7 @@ information to be aware of.
     but some people write the markup by hand. Note that SVG 1.1 is
     a <a href="https://www.w3.org/TR/SVG/" target="_blank">W3C Web standard</a>).</li>
 </ul>
-</p>
+
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-4-2">2.4.2 Attribute alt</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5063,7 +5089,7 @@ to see the image, instead using assistive technology like screen readers
 that rely on the alt text.  It is also useful to provide relevant
 information for search engines. 
 
-Importance of the 'alt' attribute
+### Importance of the 'alt' attribute
 
 If you add alt to your image, screen readers will typically announce
 that there is an image and read out the contents of the alt attribute.
@@ -5118,6 +5144,7 @@ browser:
 <p align="center" width="100%">
 <img src="./images/image038.webp?raw=true"
   style="width:35%"
+  title="This is supposed to be an image of tulips"
   alt="This is supposed to be an image of tulips." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5169,6 +5196,7 @@ Here is my original image:
 <p align="center" width="100%">
 <img src="./images/image040.webp?raw=true"
   style="width:100px;"
+  title="HTML5 logo"
   alt="HTML5 logo." />
 </p>
 
@@ -5191,7 +5219,8 @@ Now, if I want to resize the HTML logo above by half:
 <p align="center" width="100%">
 <img src="./images/image041.webp?raw=true"
   style="width:50px;"
-  alt="HTML5 logo 1/2-sized" />
+  title="HTML5 logo 1/2-sized"
+  alt="HTML5 logo 1/2-sized." />
 </p>
 
 Actually, you don't need to define both width and height. You can just
@@ -5255,17 +5284,17 @@ Find out from their tooltips!
 <p align="center" width="100%">
 <img src="./images/image042.webp"
   style="width:20%"
+  title="Beautiful landscape background image.  On the left"
   alt="Beautiful landscape background image.  On the left." />
-<!-- style="width:2in;height:2in" -->
 <img src="./images/image043.webp"
   style="width:20%"
+  title="Brick texture for use behind main content.  In the center"
   alt="Brick texture for use behind main content.  In the center." />
-<!-- style="width:2in;height:2in" -->
 <img src="./images/image044.webp"
   style="width:20%"
+  title="Decorative banner graphic.  On the right"
   alt="Decorative banner graphic.  On the right." />
 </p>
-<!-- style="width:2in;height:2in" -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-4-5">2.4.5 Using &lt;img&gt; Tags</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5471,8 +5500,9 @@ Or something like this:
 <!--~~~~~~~~~~~~~~~~~~~~ 45. buy now button to illustrate hyperlink (116) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <a href="https://en.wikipedia.org/wiki/Hyperlink" target="_blank">
-  <img alt="Buy now button to illustrate hyperlink." 
-  src="./images/image045.webp?raw=true"
+  <img src="./images/image045.webp?raw=true" 
+  title="Buy now button to illustrate hyperlink" 
+  alt="Buy now button to illustrate hyperlink." 
   style="width:50%" />
 <br>
 <!-- width=150" height="70"> -->
@@ -5534,8 +5564,9 @@ possible.
 
 ```
 <a href="https://www.table-header-cells.com">
-<img src="table-th.png" alt="Introduction to table header cells
-   and their usage">
+<img src="table-th.png" 
+  title="Introduction to table header cells and their usage"
+  alt="Introduction to table header cells and their usage." >
 </a>
 ```
 
@@ -5587,8 +5618,9 @@ The &lt;a&gt; tag can surround text or an image. 
 <a href="https://www.qwant.com/"><p>If you click on me, I will
    take you to qwant.com</p></a>
 <!-- Image in a hyperlink-->
-<a href="https://www.qwant.com/"><img src="images/qwant-image.png" alt="Image
-   navigating to Qwant"></a>
+<a href="https://www.qwant.com/"><img src="images/qwant-image.png" 
+  title="Image navigating to Qwant"
+  alt="Image navigating to Qwant."></a>
 ```
 
 </details>
@@ -5791,9 +5823,9 @@ different browsers to see how it behaves.
 <p align="center" width="100%">
 <img src="./images/image046.webp?raw=true"
   style="width:65%"
+  title="Hyperlink attributes"
   alt="Hyperlink attributes." />
 </p>
-<!-- style="width:6.5in;height:3.55208in" -->
 
 In this live coding demo, we're going to dive deep into hyperlinks.
 Hyperlinks, or links for short, are what give the Internet its magic.
@@ -5956,9 +5988,9 @@ live coding video at the end of this page).
 <p align="center" width="100%">
 <img src="./images/image047.webp?raw=true"
   style="width:65%"
-  alt="Recipe project, part ii." />
+  title="Recipe project, part II"
+  alt="Recipe project, part II." />
 </p>
-<!-- style="width:6.5in;height:3.27778in" /> -->
 
 <h4>HTML</h4>
 
@@ -6234,9 +6266,9 @@ And that concludes this live coding session. Bon appétit !
 <p align="center" width="100%">
 <img src="./images/image048.webp"
   style="width:40%"
+  title="W3Cx HTML5 and CSS3 logo"
   alt="W3Cx HTML5 and CSS3 logo." />
 </p>
-<!-- style="width:4in;height:2.27184in" /> -->
 
 Hi, my name's Adrian.
 
@@ -6251,9 +6283,9 @@ CSS, or Cascading Style Sheets, is used to style each HTML.
 <p align="center" width="100%">
 <img src="./images/image049.webp"
   style="width:20%"
+  title="Adding styles with CSS"
   alt="Adding styles with CSS." />
 </p>
-<!-- style="width:2.125in;height:2.27083in" /> -->
 
 It's how we determine the color, text size, and spacing, as well as
 other visual aspects of your Web page.
@@ -6294,9 +6326,9 @@ you learn, experimentation.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 50. css logo (133) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img src="./images/image050.webp"
   style="width:20%"
+  title="CSS Logo"
   alt="CSS Logo." />
 </p>
-<!-- style="width:2in;height:1.09388in" /> -->
 
 For now, do not worry about what the 'Cascading' part means and just
 focus on the 'Style Sheets'.
@@ -6337,9 +6369,9 @@ with [CSS](https://en.wikipedia.org/wiki/CSS) level 1.
 <p align="center" width="100%">
 <img src="./images/image051.webp?raw=true"
   style="width:65%"
+  title="Gang photo of the css folks (TPAC)"
   alt="Gang photo of the css folks (TPAC)." />
 </p>
-<!-- style="width:6.5in;height:3.31528in" -->
 
 The CSS WG meeting in Lisbon, November 2016. The working group is co-chaired by
 Rossen Atanassov and Alan Stearns. (Photo credit: Marie-Claire Forgue)
@@ -6382,9 +6414,9 @@ different. So let's get started.
 <p align="center" width="100%">
 <img src="./images/image052.webp?raw=true"
   style="width:15%"
+  title="Snapshot as a style tag in the XDR code editor"
   alt="Snapshot as a style tag in the XDR code editor." />
 </p>
-<!-- style="width:1.5625in;height:1.5625in" -->
 
 The best practice when working with CSS is to keep it in an external
 file using the &lt;link&gt; tag, however, when starting, it is simpler to
@@ -6464,6 +6496,7 @@ a <i>selector</i> and a <i>declaration.</i>  Here is an example:
 <p align="center" width="100%">
 <img src="./images/image053.webp"
   style="width:4in;height:3.30064in"
+  title="Figure showing a selector &#39;p&#39; before a declaration &#39;font-size:12px; color: #223344&#39;"
   alt="Figure showing a selector &#39;p&#39; before a declaration &#39;font-size:12px; color: #223344&#39;" />
 </p>
 
@@ -6555,6 +6588,7 @@ following <a href="https://codepen.io/w3devcampus/pen/QvQgbr" target="_blank">Co
 <p align="center" width="100%">
 <img src="./images/image054.webp?raw=true"
   style="width:65%"
+  title="On the Inventor of Gunpower, by John Milton"
   alt="On the Inventor of Gunpower, by John Milton." />
 </p>
 
@@ -6600,6 +6634,7 @@ together.</p>
 <p align="center" width="100%">
 <img src="./images/image054b.webp?raw=true"
   style="width:65%"
+  title="On the Inventor of Gunpower, by John Milton"
   alt="On the Inventor of Gunpower, by John Milton." />
 </p>
 
@@ -6619,6 +6654,7 @@ poem which is being held in this fantastic paragraph tag.
 <p align="center" width="100%">
 <img src="./images/image055b.webp?raw=true"
   style="width:65%"
+  title="On the Inventor of Gunpower, by John Milton"
   alt="On the Inventor of Gunpower, by John Milton." />
 </p>
 
@@ -6674,6 +6710,7 @@ It's not quite big enough yet.
 <p align="center" width="100%">
 <img src="./images/image056b.webp?raw=true"
   style="width:65%"
+  title="On the Inventor of Gunpower, by John Milton"
   alt="On the Inventor of Gunpower, by John Milton." />
 </p>
 
@@ -7510,6 +7547,7 @@ section dedicated to the background-image property.  
 <p align="center" width="100%">
 <img src="./images/image055.webp?raw=true"
   style="width:40%"
+  title="Selector and declaration"
   alt="Selector and declaration." />
 </p>
 
@@ -7723,6 +7761,7 @@ It isn't unusual to see multiple classes joined this way as well:
 <p align="center" width="100%">
 <img src="./images/image056.webp?raw=true"
   style="width:65%"
+  title="Combining classes"
   alt="Combining classes." />
 </p>
 
@@ -8201,6 +8240,7 @@ Can you achieve the same styling without adding any new tags (i.e., without addi
 <p align="center" width="100%">
 <img src="./images/image057.webp?raw=true"
   style="width:40%"
+  title="Example: My Favorite Recipes; soup, salad & pizza"
   alt="Example: My Favorite Recipes; soup, salad & pizza." />
 </p>
 
@@ -8286,6 +8326,7 @@ Can you achieve the same styling without adding any new tags (i.e., without addi
 <p align="center" width="100%">
 <img src="./images/image058.webp?raw=true"
   style="width:30%"
+  title="Module 4: Fixing and debugging"
   alt="Module 4: Fixing and debugging." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8449,7 +8490,8 @@ the "Styles" panel.
 <p align="center" width="100%">
 <img src="./images/image059.webp"
   style="width:5in;height:1.73333in"
-  alt="Screenshot of MS Edge showing modifying in the developers tools. />
+  title="Screenshot of MS Edge showing modifying in the developers tools" 
+  alt="Screenshot of MS Edge showing modifying in the developers tools." />
 </p>
 
 Just click in between the two curly braces on the "Inline style" rule at
@@ -8461,6 +8503,8 @@ then effect the currently active element.
 <p align="center" width="100%">
 <img src="./images/image060.webp"
   style="width:5in;height:3.01603in"
+  title="Screenshot of MSEdge developer tools showing changing text color in developers tools. 
+    ps: Microsoft develops shit software"
   alt="Screenshot of MSEdge developer tools showing changing text color in developers tools.
     ps: Microsoft develops shit software." />
 </p>
@@ -8541,6 +8585,7 @@ all of them, but it is the minimal info needed and is quite common.
 <p align="center" width="100%">
 <img src="./images/image061.webp?raw=true"
   style="width:50%"
+  title="Illustration of CSS Box Model"
   alt="Illustration of CSS Box Model." />
 </p>
 
@@ -8557,14 +8602,17 @@ following pictures, the black rectangles encompass the content:
 <p align="center" width="100%">
 <img src="./images/image062.webp?raw=true"
   style="width:30%"
+  title="Image showing three blocks (Block 1, Block 2, Block 3) with no margins between them"
   alt="Image showing three blocks (Block 1, Block 2, Block 3) with no margins between them." />
 </p>
-<!-- style="width:3in;height:1.02479in" -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 63. green, space, blue, red (18x) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image063.webp?raw=true"
   style="width:30%"
+  title="Image showing (Block 1, Block 2, Block 3). Block 2 has a positive margin-left, 
+    creating space between Blocks 1 and 2. Block 3 is negative causing its left side 
+    to overlap with Block 2"
   alt="Image showing (Block 1, Block 2, Block 3). Block 2 has a positive margin-left, 
     creating space between Blocks 1 and 2. Block 3 is negative causing its left side 
     to overlap with Block 2." />
@@ -8591,6 +8639,9 @@ than 0 is undefined and shouldn't be relied on.
 <p align="center" width="100%">
 <img src="./images/image064.webp?raw=true"
   style="width:30%"
+  title="Image showing 3 blocks (Block 1, Block 2, Block 3). These blocks all have 
+    borders with different widths, but the margins are zero, implying that the 
+    borders are up against each other regardless of their width"
   alt="Image showing 3 blocks (Block 1, Block 2, Block 3). These blocks all have 
     borders with different widths, but the margins are zero, implying that the 
     borders are up against each other regardless of their width." />
@@ -8618,7 +8669,10 @@ padding.
 <p align="center" width="100%">
 <img src="./images/image065.webp?raw=true"
   style="width:30%"
-  alt="Image showing 3 blocks and they all have a thin border directly around their respective texts: &#39;Block 1&#39;, &#39;Block 2&#39;, &#39;Block 3&#39;." />
+  title="Image showing 3 blocks and they all have a thin border directly around their 
+    respective texts: &#39;Block 1&#39;, &#39;Block 2&#39;, &#39;Block 3&#39;"
+  alt="Image showing 3 blocks and they all have a thin border directly around their 
+    respective texts: &#39;Block 1&#39;, &#39;Block 2&#39;, &#39;Block 3&#39;." />
 </p>
 
 Here we've got a thin border directly around the content to delineate
@@ -8632,7 +8686,10 @@ the contents and the border:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 66. three blocks (184) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img src="./images/image066.webp"
   style="width:30%"
-  alt="Image showing 3 blocks that have padding with borders, in addition to the thin border aroung their texts &#39;Block 1&#39;, &#39;Block 2&#39;, &#39;Block 3&#39;." />
+  title="Image showing 3 blocks that have padding with borders, in addition to the 
+    thin border aroung their texts &#39;Block 1&#39;, &#39;Block 2&#39;, &#39;Block 3&#39;"
+  alt="Image showing 3 blocks that have padding with borders, in addition to the 
+    thin border aroung their texts &#39;Block 1&#39;, &#39;Block 2&#39;, &#39;Block 3&#39;." />
 </p>
 
 All of these can have a width of 0, which is equivalent to not having
@@ -8652,7 +8709,10 @@ rounded corners using the border-radius setting:
 <p align="center" width="100%">
 <img src="./images/image067.webp?raw=true"
   style="width:30%"
-  alt="Image showing the 3 blocks with rounded borders, different thickness for their borders and keeping a thin border around their texts Block 1&#39;, &#39;Block 2&#39;, &#39;Block 3&#39;." />
+  title="Image showing the 3 blocks with rounded borders, different thickness for their 
+    borders and keeping a thin border around their texts Block 1&#39;, &#39;Block 2&#39;, &#39;Block 3&#39;"
+  alt="Image showing the 3 blocks with rounded borders, different thickness for their 
+    borders and keeping a thin border around their texts Block 1&#39;, &#39;Block 2&#39;, &#39;Block 3&#39;." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-3-2">4.3.2 Debugging with the box model</h3>
@@ -8664,6 +8724,7 @@ like this:
 <p align="center" width="100%">
 <img src="./images/image068.webp?raw=true"
   style="width:30%"
+  title="Image of a CSS Box Model which content is described in the following text of this page"
   alt="Image of a CSS Box Model which content is described in the following text of this page." />
 </p>
 
@@ -8784,6 +8845,7 @@ you get a different result:
 <p align="center" width="100%">
 <img src="./images/image070.webp?raw=true"
   style="width:40%"
+  title="My Book Chapter 1 Section 1.1"
   alt="My Book Chapter 1 Section 1.1." />
 </p>
 
@@ -8858,6 +8920,7 @@ there.
 <p align="center" width="100%">
 <img src="./images/image071.webp?raw=true"
   style="width:65%"
+  title="Styles in the Debugger"
   alt="Styles in the Debugger." />
 </p>
 
@@ -8871,6 +8934,7 @@ attribute of the element:
 <p align="center" width="100%">
 <img src="./images/image072.webp?raw=true"
   style="width:65%"
+  title="Modifying style in the debugger"
   alt="Modifying style in the debugger." />
 </p>
 
@@ -8896,6 +8960,7 @@ rearranging, which did what we wanted:
 <p align="center" width="100%">
 <img src="./images/image073.webp?raw=true"
   style="width:65%"
+  title="Working version in Debugger"
   alt="Working version in Debugger." />
 </p>
 
@@ -8927,6 +8992,7 @@ we want:
 <p align="center" width="100%">
 <img src="./images/image074.webp?raw=true"
   style="width:45%"
+  title="My book, chapter 1, section 1.1"
   alt="My book, chapter 1, section 1.1." />
 </p>
 
@@ -8995,6 +9061,7 @@ the pictures but the result is unwieldy:
 <p align="center" width="100%">
 <img src="./images/image075.webp?raw=true"
   style="width:65%"
+  title="Image of Cloud"
   alt="Image of Cloud." />
 </p>
 
@@ -9054,6 +9121,7 @@ Giving a much more reasonable page:
 <p align="center" width="100%">
 <img src="./images/image076.webp?raw=true"
   style="width:65%"
+  title="Cloud image in debugger"
   alt="Cloud image in debugger." />
 </p>
 
@@ -9125,6 +9193,7 @@ first picture, then we see this in the Styles section:
 <p align="center" width="100%">
 <img src="./images/image077.webp?raw=true"
   style="width:35%"
+  title="img width precedence in debugger"
   alt="img width precedence in debugger." />
 </p>
 
@@ -9157,6 +9226,7 @@ li img {
 <p align="center" width="100%">
 <img src="./images/image078.webp?raw=true"
   style="width:65%"
+  title="Cloud image-codepen"
   alt="Cloud image-codepen." />
 </p>
 
@@ -9218,11 +9288,12 @@ For this section you can play with
 the <a href="http://codepen.io/w3devcampus/pen/wdxegK" target="_blank">CodePen</a> below. The main
 content is an outline for an essay and it should look something like this:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 79. Essay outline-code results (201) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 79. essay outline-codepen results (201) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image079.webp?raw=true"
   style="width:40%"
-  alt="Essay outline-codepen results." />
+  title="Essay outline-CodePen results"
+  alt="Essay outline-CodePen results." />
 </p>
 
 <h4>CSS:</h4>
@@ -9299,6 +9370,7 @@ is the over-ridden font-size setting identical to the current one, i.e.
 <p align="center" width="100%">
 <img src="./images/image080.webp?raw=true"
   style="width:65%"
+  title="Debugging font-size"
   alt="Debugging font-size." />
 </p>
 
@@ -9318,6 +9390,7 @@ going to scroll down past those to "font-size" which reveals this:
 <p align="center" width="100%">
 <img src="./images/image081.webp?raw=true"
   style="width:45%"
+  title="Debugging font-size after opening the &#39;Computed&#39; tab"
   alt="Debugging font-size after opening the &#39;Computed&#39; tab." />
 </p>
 
@@ -9333,6 +9406,7 @@ several repetitions of the li .5em.
 <p align="center" width="100%">
 <img src="./images/image082.webp?raw=true"
   style="width:45%"
+  title="Computed tab for font-size"
   alt="Computed tab for font-size." />
 </p>
 
@@ -9360,7 +9434,8 @@ Try to make changes to get something like this:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 83. example: my favorite recipes (205) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image083.webp"
-  style="width:4.96875in;height:2.73958in"
+  style="width:45%"
+  title="My Favorite Recipes web site"
   alt="My Favorite Recipes web site." />
 </p>
 
@@ -9503,8 +9578,9 @@ the CodePen below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 84. my favorite recipes (208) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image084.webp"
-  style="width:4.96875in;height:2.73958in" 
-  alt="Margins, padding and borders on my favorite recipes web site."/>
+  style="width:45%"
+  title="Margins, padding and borders on my favorite recipes web site"
+  alt="Margins, padding and borders on my favorite recipes web site." />
 </p>
 
 <h4>CSS:</h4>
@@ -9632,7 +9708,8 @@ Pizza, the king of comfort foods. Try this simple, taste sensation.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 85. more html5 and css3 (210) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image085.webp"
-  style="width:3in;height:3.27103in"
+  style="width:30%"
+  title="More HTML5 and CSS3"
   alt="More HTML5 and CSS3."/>
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9788,8 +9865,9 @@ understanding the content or use assistive technology.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 86. table example 1.0 (214) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image086.webp"
-  style="width:4in;height:2.54315in"
-  alt="Table."/>
+  style="width:40%"
+  title="Table"
+  alt="Table Example 1.0." />
 </p>
 
 <details>
@@ -9846,8 +9924,9 @@ The content of table header cells is bold and centered by default.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 87. table cells header & standard (215) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image087.webp"
-  style="width:4in;height:2.54315in"
-  alt="Table Cells are either header or standard."/>
+  style="width:40%"
+  title="Table Cells are either header or standard"
+  alt="Table Cells are either header or standard." />
 </p>
 
 <details>
@@ -9876,8 +9955,9 @@ The content of table header cells is bold and centered by default.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 88. th: colspan, rowspan & scope (215) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image088.webp"
-  style="width:6.5in;height:3.03681in"
-  alt="Table attributes for 'th' along with purpose and usage."/>
+  style="width:65%"
+  title="Table attributes for 'th' along with purpose and usage"
+  alt="Table attributes for 'th' along with purpose and usage." />
 </p>
 
 <h4>&lt;td&gt;</h4>
@@ -9913,6 +9993,7 @@ regular and left-aligned by default.
 <p align="center" width="100%">
 <img src="./images/image089.webp?raw=true"
   style="width:65%"
+  title="Table attributes for 'td' with purpose and usage"
   alt="Table attributes for 'td' with purpose and usage." />
 </p>
 
@@ -9982,6 +10063,7 @@ achieve styling effects specific to a column. 
 <p align="center" width="100%">
 <img src="./images/image090.webp?raw=true"
   style="width:40%"
+  title="Colored column headers"
   alt="Colored column headers." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -10111,7 +10193,8 @@ considered footer rows at the end of a table:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 91. table example: name & age (208) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
   <img src="./images/image091.webp"
-  style="width:4in;height:2.53781in" 
+  style="width:40%"
+  title="Table example with name and age"
   alt="Table example with name and age." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -10145,7 +10228,8 @@ sets border-width, border-style and border-color in order: 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 92. border property values (209) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image092.webp"
-  style="width:6.5in;height:1.67986in"
+  style="width:65%"
+  title="Border property values"
   alt="Border property values." />
 </p>
 
@@ -10159,7 +10243,8 @@ table, th, td { border: 1px solid black; }
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 93. three border examples (209) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image093.webp"
-  style="width:4in;height:2.4958in"
+  style="width:40%"
+  title="Border examples for Michael, age 21"
   alt="Border examples for Michael, age 21." />
 </p>
 
@@ -10232,7 +10317,8 @@ Possible values of this property are: 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 94. table border collapse (210) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image094.webp"
-  style="width:4in;height:2.4958in" 
+  style="width:40%" 
+  title="Table border collapse"
   alt="Table border collapse." />
 </p>
 
@@ -10301,7 +10387,8 @@ widths/heights specified, the larger value is set.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 95. table example (212) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image095.webp"
-  style="width:4in;height:4.33613in"
+  style="width:40%"
+  title="Table examples"
   alt="Table examples." />
 </p>
 
@@ -10313,8 +10400,8 @@ widths/heights specified, the larger value is set.
 ```
 table, th, td
 {
-   border: 1px solid black;
-   border-collapse: collapse;
+  border: 1px solid black;
+  border-collapse: collapse;
 }
 th.eg1
 {
@@ -10322,7 +10409,7 @@ th.eg1
 }
 th.eg2
 {
-   height: 70px;
+  height: 70px;
 }
 table.eg3
 {
@@ -10445,7 +10532,8 @@ It is specified in the order: top, right, bottom and left padding.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 96. table th and td (215) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image096.webp"
-  style="width:4in;height:2.52101in" 
+  style="width:40%"
+  title="Table th and td"
   alt="Table th and td." />
 </p>
 
@@ -10509,7 +10597,8 @@ Some things to keep in mind:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 97. table spacing with border (216) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
   <img src="./images/image097.webp"
-  style="width:4in;height:2.52101in" 
+  style="width:40%"
+  title="Table spacing with border"
   alt="Table spacing with border." />
 </p>
 
@@ -10575,7 +10664,8 @@ th, td { border-right: 1px solid black; }
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 98. table with side borders (217) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image098.webp"
-  style="width:4in;height:2.52101in" 
+  style="width:40%"
+  title="Table with side-borders"
   alt="Table with side-borders." />
 </p>
 
@@ -10651,6 +10741,7 @@ will make the every third list item grey.
 <p align="center" width="100%">
 <img src="./images/image099.webp?raw=true"
   style="width:40%"
+  title="Nth child selector match"
   alt="Nth child selector match." />
 </p>
 
@@ -10741,7 +10832,8 @@ tr:hover {background-color: #ccff99; }
 <p align="center" width="100%">
 <img src="./images/image100.webp?raw=true"
   style="width:40%"
-  alt="image100.webp" />
+  title="Hove to highlight"
+  alt="Hove to highlight." />
 </p>
 
 <h4>CSS</h4>
@@ -10820,6 +10912,7 @@ to address top and bottom edges of content, you can use overflow-y.
 <p align="center" width="100%">
 <img src="./images/image101.webp?raw=true"
   style="width:40%"
+  title="Example of overflow-hidden"
   alt="Example of overflow-hidden." />
 </p>
 
@@ -10961,6 +11054,7 @@ As a conclusion to this tables section, here is a complete table design:
 <p align="center" width="100%">
 <img src="./images/image102.webp?raw=true"
   style="width:40%"
+  title="Picture of a complete table design"
   alt="Picture of a complete table design." />
 </p>
 
@@ -11466,6 +11560,9 @@ little more visually appealing inside your document.
 <p align="center" width="100%">
 <img src="./images/image103.webp?raw=true"
   style="width:60%"
+  title="Tables activity #2: it&#39;s a 3x3 table - the header row has a dark grey background; 
+    the last column is composed of the header cell and the other cells are grouped; the last 
+    row has the 2 first cells merged"
   alt="Tables activity #2: it&#39;s a 3x3 table - the header row has a dark grey background; 
     the last column is composed of the header cell and the other cells are grouped; the last 
     row has the 2 first cells merged." />
@@ -11506,6 +11603,7 @@ attributes:
 <p align="center" width="100%">
 <img src="./images/image103.webp?raw=true"
   style="width:65%"
+  title="Attributes, Description and Usage of audio element"
   alt="Attributes, Description and Usage of audio element." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -11513,6 +11611,7 @@ attributes:
 <p align="center" width="100%">
 <img src="/images/image104.webp?raw=true"
   style="width:65%"
+  title="Autoplay and example code of audio src"
   alt="Autoplay and example code of audio src." />
 </p>
 
@@ -11607,6 +11706,7 @@ The following table lists the &lt;source&gt; element's attributes:
 <p align="center" width="100%">
 <img src="/images/image105.webp?raw=true"
   style="width:65%"
+  title="Source element attributes"
   alt="Source element attributes." />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-3-2">5.3.2 The &lt;video&gt; Element</h3>
@@ -11634,17 +11734,19 @@ the video element's attributes:
 <p align="center" width="100%">
 <img src="/images/image106.webp?raw=true"
   style="width:65%"
+  title="Video element attributes (top section)"
   alt="Video element attributes (top section)." />
 <img src="/images/image107.webp?raw=true"
   style="width:65%"
+  title="Video element attributes (bottom section)"
   alt="Video element attributes (bottom section)." />
 </p>
-<!-- style="width:6.5in;height:2.79653in" /> -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 108. html5 logo (253) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image108.webp?raw=true"
   style="width:100px;"
+  title="HTML5 logo"
   alt="HTML5 logo." />
 </p>
 
@@ -11752,6 +11854,7 @@ a combination of formats. 
 <p align="center" width="100%">
 <img src="/images/image109.webp?raw=true"
   style="width:85%"
+  title="Attributes: src and type"
   alt="Attributes: src and type." />
 </p>
 
@@ -11795,7 +11898,8 @@ your &lt;video&gt; tag like this:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 110. track element's attributes (256) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image110.webp"
-  style="width:6.5in;height:4.29444in"
+  style="width:65%"
+  title="Track Element's attributes"
   alt="Track Element's attributes." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -11833,7 +11937,8 @@ An &lt;iframe&gt; tag can be as simple as this:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 111. iframe (263) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image111.webp"
-  style="width:4in;height:2.51477in"
+  style="width:40%"
+  title="iframe"
   alt="iframe." />
 </p>
 
@@ -11862,7 +11967,8 @@ Because iframes are HTML elements, they can be styled just like other elements, 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 112. iframes and images (263) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image112.webp"
-  style="width:3in;height:1.64371in"
+  style="width:30%"
+  title="Image example using iframes with borders and margins"
   alt="Image example using iframes with borders and margins." />
 </p>
 
@@ -11901,6 +12007,7 @@ for now we'll just look at a few of them:
 <p align="center" width="100%">
 <img src="./images/image113.webp?raw=true"
   style="width:65%"
+  title="iframe attributes and how they work"
   alt="iframe attributes and how they work." />
 </p>
 
@@ -12008,6 +12115,7 @@ Let's look at how the code above works.
 <p align="center" width="100%">
 <img src="./images/image114.webp?raw=true"
   style="width:30%"
+  title="Graphical representation of how ismap command works in web development"
   alt="Graphical representation of how ismap command works in web development." />
 </p>
 <!--
@@ -12124,6 +12232,7 @@ how usemap works :) Remember to navigate back to the course!
 <p align="center" width="100%">
 <img src="./images/image115.webp?raw=true"
   style="width:50%"
+  title="Usemap example, sign to Millery or Nomeny"
   alt="Usemap example, sign to Millery or Nomeny." />
 </p>
 
@@ -12183,10 +12292,11 @@ In the example below we apply a variety of background colors to a
 hyperlink (&lt;a&gt;), paragraph (&lt;p&gt;), unordered list (&lt;ul&gt;) and list
 items (&lt;li&gt;):
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 116. w3c background image  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 116. w3c background image  (270) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image116.webp?raw=true"
   style="width:50%"
+  title="Background image W3C"
   alt="Background image W3C." />
 </p>
 
@@ -12216,6 +12326,7 @@ as several others). 
 <p align="center" width="100%">
 <img src="./images/image117.webp?raw=true"
   style="width:65%"
+  title="CSS property: background image"
   alt="CSS property: background image." />
 </p>
 
@@ -12230,6 +12341,7 @@ image itself, then the image will repeat and fill the space, like tiles.
 <p align="center" width="100%">
 <img src="./images/image118.webp?raw=true"
   style="width:65%"
+  title="CSS property: background image, repeated"
   alt="CSS property: background image, repeated." />
 </p>
 
@@ -12252,6 +12364,7 @@ of spacing. That is calculated for you.
 <p align="center" width="100%">
 <img src="./images/image119.webp?raw=true"
   style="width:65%"
+  title="CSS property: background image, centered repeat to avoid cropping"
   alt="CSS property: background image, centered repeat to avoid cropping." />
 </p>
 <!-- <img src="./images/image121.png"
@@ -12277,6 +12390,7 @@ paragraph to clearly show the bounds of the parent &lt;p&gt; element.
 <p align="center" width="100%">
 <img src="./images/image120.webp?raw=true"
   style="width:65%"
+  title="Background sizing"
   alt="Background sizing." />
 </p>
 
@@ -12304,6 +12418,7 @@ images. 
 <p align="center" width="100%">
 <img src="./images/image121.webp?raw=true"
   style="width:65%"
+  title="Auto background size"
   alt="Auto background size." />
 </p>
 
@@ -12321,6 +12436,7 @@ tiles. 
 <p align="center" width="100%">
 <img src="./images/image122.webp?raw=true"
   style="width:65%"
+  title="Center background position"
   alt="Center background position." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -12352,6 +12468,7 @@ Here the visible border styles displayed on a gray border:
 <p align="center" width="100%">
 <img src="./images/image123.webp?raw=true"
   style="width:65%"
+  title="Border styling"
   alt="Border styling." />
 </p>
 
@@ -12411,6 +12528,7 @@ the border-radius property:  
 <p align="center" width="100%">
 <img src="./images/image124.webp?raw=true"
   style="width:65%"
+  title="Silence is golden"
   alt="Silence is golden." />
 </p>
 
@@ -12421,6 +12539,7 @@ no border at all:
 <p align="center" width="100%">
 <img src="./images/image125.webp?raw=true"
   style="width:65%"
+  title="Silence is golden, 2"
   alt="Silence is golden, 2." />
 </p>
 
@@ -12446,7 +12565,8 @@ The blur value is also a dimension unit, but can only be 0 or positive.
 <p align="center" width="100%">
 <img src="./images/image126.webp?raw=true"
   style="width:50%"
-  alt="Illuminati." />
+  title="Illuminati"
+  alt="Illuminati" />
 </p>
 
 <h4>text-shadow</h4>
@@ -12463,6 +12583,7 @@ text-shadow:  <x-offset> <y-offset> <blur> <color>;
 <p align="center" width="100%">
 <img src="./images/image127.webp?raw=true"
   style="width:65%"
+  title="Blurred majestic 12 - text-shadow"
   alt="Blurred majestic 12 - text-shadow." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -12489,6 +12610,7 @@ Here is a simple example of a common error:
 <p align="center" width="100%">
 <img src="./images/image130.webp?raw=true"
   style="width:65%"
+  title="Example of blindly using css properties"
   alt="Example of blindly using css properties." />
 </p>
 
@@ -12537,6 +12659,7 @@ placing the rectangle of the element relative to the text itself.
 <p align="center" width="100%">
 <img src="./images/image129.webp?raw=true"
   style="width:65%"
+  title="Padding example with relative text placement"
   alt="Padding example with relative text placement." />
 </p>
 
@@ -12640,6 +12763,7 @@ mouse is over one of the list items.
 <p align="center" width="100%">
 <img src="./images/image130.webp?raw=true"
   style="width:65%"
+  title="Hover pseudo-class"
   alt="Hover pseudo-class." />
 </p>
 
@@ -12663,6 +12787,7 @@ to tables or lists.
 <p align="center" width="100%">
 <img src="./images/image131.webp?raw=true"
   style="width:65%"
+  title="Nth child pseudo-class"
   alt="Nth child pseudo-class." />
 </p>
 
@@ -12729,6 +12854,7 @@ W3C.
 <p align="center" width="100%">
 <img src="./images/image132.webp?raw=true"
   style="width:15%"
+  title="Keep the web open!"
   alt="Keep the web open!" />
 </p>
 
@@ -12784,6 +12910,7 @@ Your favorite browser is not always right.
 <p align="center" width="100%">
 <img src="./images/image133.webp?raw=true"
   style="width:20%"
+  title="Red Testing Button"
   alt="Red Testing Button." />
 </p>
 
@@ -13127,6 +13254,7 @@ makes its layout decisions.  
 <p align="center" width="100%">
 <img src="./images/image134.webp?raw=true"
   style="width:25%"
+  title="Baseline: Big T, little g"
   alt="Baseline: Big T, little g." />
 </p>
 
@@ -13156,6 +13284,7 @@ learned:
 <p align="center" width="100%">
 <img src="./images/image135.webp?raw=true"
   style="width:65%"
+  title="Block and inline tags"
   alt="Block and inline tags." />
 </p>
 
@@ -13221,6 +13350,7 @@ background is overlapping the lines above and below.
 <p align="center" width="100%">
 <img src="./images/image136.webp?raw=true"
   style="width:65%"
+  title="Set line-height of span"
   alt="Set line-height of span." />
 </p>
 
@@ -13232,6 +13362,7 @@ change the span to be display:inline-block, which is discussed below.
 <p align="center" width="100%">
 <img src="./images/image137.webp?raw=true"
   style="width:65%"
+  title="Prevent overlap with line-height of the span"
   alt="Prevent overlap with line-height of the span." />
 </p>
 
@@ -13553,7 +13684,8 @@ overlapping the Fourth and Fifth items, as they did not move at all. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 139. example using css (300) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
   <img src="./images/image139.webp"
-  style="width:6.5in;height:1.83681in"
+  style="width:65%"
+  title="Margin top vs. Top example of CSS"
   alt="Margin top vs. Top example of CSS." />
 </p>
 
@@ -13588,6 +13720,7 @@ the bounds of its parent, or go offscreen.
 <p align="center" width="100%">
 <img src="./images/image140.webp?raw=true"
   style="width:65%"
+  title="Block level paragraph with border"
   alt="Block level paragraph with border." />
 </p>
 
@@ -13621,6 +13754,7 @@ absolutely.
 <p align="center" width="100%">
 <img src="./images/image141.webp?raw=true"
   style="width:65%"
+  title="Paragraph with height and border set along with 'q' positioned absolute"
   alt="Paragraph with height and border set along with 'q' positioned absolute." />
 </p>
 
@@ -13678,6 +13812,7 @@ for  &lt;li&gt; versus &lt;ul&gt;.
 <p align="center" width="100%">
 <img src="./images/image142.webp?raw=true"
   style="width:65%"
+  title="List item styling.  Two are relative, therefore are static & overlapped"
   alt="List item styling.  Two are relative, therefore are static & overlapped." />
 </p>
 
@@ -13729,6 +13864,7 @@ line, and the list items themselves are not enclosed. 
 <p align="center" width="100%">
 <img src="./images/image143.webp?raw=true"
   style="width:85%"
+  title="Position default vs. absolute"
   alt="Position default vs. absolute." />
 </p>
 
@@ -13803,6 +13939,7 @@ we govern the overlapping with the z-index property. 
 <p align="center" width="100%">
 <img src="./images/image144.webp?raw=true"
   style="width:85%"
+  title="Position Relative overlap"
   alt="Position Relative overlap." />
 </p>
 
@@ -13835,6 +13972,7 @@ further out in the document.
 <p align="center" width="100%">
 <img src="./images/image145.webp?raw=true"
   style="width:85%"
+  title="Overlapping sibling divs"
   alt="Overlapping sibling divs." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -13970,6 +14108,7 @@ can be surprising if you weren't expecting it.</p>
 <p align="center" width="100%">
 <img src="./images/image146.webp?raw=true"
   style="width:65%"
+  title="Cropping and scrolling overflow"
   alt="Cropping and scrolling overflow." />
 </p>
 
@@ -14010,6 +14149,7 @@ of 100 pixels. 
 <p align="center" width="100%">
 <img src="./images/image147.webp?raw=true"
   style="width:65%"
+  title="Scrolling & overflow"
   alt="Scrolling & overflow." />
 </p>
 
@@ -14034,6 +14174,7 @@ boxes are organized (innermost to outermost).
 <p align="center" width="100%">
 <img src="./images/image148.webp?raw=true"
   style="width:45%"
+  title="Managed boxes: it's own content, padding, border & margins"
   alt="Managed boxes: it's own content, padding, border & margins." />
 </p>
 
@@ -14111,6 +14252,7 @@ to help visualize.
 <p align="center" width="100%">
 <img src="./images/image151.webp?raw=true"
   style="width:100%"
+  title="Flex Container and Flex Columns"
   alt="Flex Container and Flex Columns." />
 </p>
 
@@ -14395,6 +14537,7 @@ wrap-reverse; it is vertical running bottom to top.
 <p align="center" width="100%">
 <img src="./images/image170.jpg?raw=true"
   style="width:65%"
+  title="Flex Container and Flex-flow"
   alt="Flex Container and Flex-flow." />
 </p>
 
@@ -14509,6 +14652,7 @@ options for a flexbox container with flex-flow:row;
 <p align="center" width="100%">
 <img src="./images/image171.webp?raw=true"
   style="width:100%"
+  title="Justification Options for a Flexbox container with Flex-Flow"
   alt="Justification Options for a Flexbox container with Flex-Flow." />
 </p>
 
@@ -14556,6 +14700,7 @@ you can see how they align to each other.
 <p align="center" width="100%">
 <img src="./images/image172.webp?raw=true"
   style="width:65%"
+  title="Line Height and Align Items #1"
   alt="Line Height and Align Items #1." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -14563,6 +14708,7 @@ you can see how they align to each other.
 <p align="center" width="100%">
 <img src="./images/image173.webp?raw=true"
   style="width:65%"
+  title="Line Height and Align Items #2"
   alt="Line Height and Align Items #2." />
 </p>
 
@@ -14587,6 +14733,7 @@ than the height of any of the items.
 <p align="center" width="100%">
 <img src="./images/image174.webp?raw=true"
   style="width:65%"
+  title="Flexbox and Flex Item Align #1"
   alt="Flexbox and Flex Item Align #1." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -14594,6 +14741,7 @@ than the height of any of the items.
 <p align="center" width="100%">
 <img src="./images/image175.webp?raw=true"
   style="width:65%"
+  title="Flexbox and Flex Item Align #2"
   alt="Flexbox and Flex Item Align #2." />
 </p>
 
@@ -14624,6 +14772,7 @@ their align-self property set.
 <p align="center" width="100%">
 <img src="./images/image176.webp?raw=true"
   style="width:65%"
+  title="Flex Container with flex-flow and align"
   alt="Flex Container with flex-flow and align." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -14659,6 +14808,7 @@ the order value of 1, the second is 2, etc.  And you can override it.
 <p align="center" width="100%">
 <img src="./images/image177.webp?raw=true"
   style="width:85%"
+  title="Order property in flex box"
   alt="Order property in flex box." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -14768,6 +14918,7 @@ slots empty.
 <p align="center" width="100%">
 <img src="./images/image178.webp?raw=true"
   style="width:65%"
+  title="Grid module: lines, columns and rows for cell/area (slot)"
   alt="Grid module: lines, columns and rows for cell/area (slot)." />
 </p>
 
