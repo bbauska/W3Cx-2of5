@@ -1,12 +1,4 @@
 /* styles.css of w3cx-2of5 */
-/*
-@media only screen and
-{(max-width:480px;) {
-   img {width: 100%;
-   }
- }
-*/
-
 img.displayed {
   display: block;
   margin: 0 auto; 
@@ -27,6 +19,7 @@ img.frame {
   background-color: #ffe;
   margin: 0 auto;
 }
+
 @media all and (max-width: 500px) {
   img.frame { 
     border-width: 0px;
