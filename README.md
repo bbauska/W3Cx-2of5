@@ -171,11 +171,11 @@ layout your page during the last week of this course.</p>
   <li><b>Module 6</b> is about page layout and more specifically about CSS 
     flexbox. Using flexible widths and heights, elements can be aligned
     to fill a space or distribute space between elements, which makes it a 
-	great tool to use for responsive design systems. Once you've got the
-	basics, practice more with this fun <a href="https://flexboxfroggy.com/" 
-	target="_blank" rel="noopener noreferrer">Flexbox Froggy</a> game. Note 
-	that some parts of this week are clearly indicated OPTIONAL, meaning that 
-	there will be no questions related to that content material.</li>
+    great tool to use for responsive design systems. Once you've got the
+    basics, practice more with this fun <a href="https://flexboxfroggy.com/" 
+    target="_blank" rel="noopener noreferrer">Flexbox Froggy</a> game. Note 
+    that some parts of this week are clearly indicated OPTIONAL, meaning that 
+    there will be no questions related to that content material.</li>
 </ul>
 
 <p>W3C has designed a 
@@ -191,10 +191,10 @@ is composed of 5 courses:</p>
     target="_blank" rel="noopener noreferrer">CSS Basics</a> - introductory level,<br/>&nbsp;</li>
   <li><b>This course: <a href="https://www.edx.org/course/html5-and-css-fundamentals" 
     target="_blank" rel="noopener noreferrer">HTML5 and CSS Fundamentals</a> - introductory 
-	level,</b><br/>&nbsp;</li>
+    level,</b><br/>&nbsp;</li>
   <li><a href="https://github.com/bbauska/W3Cx-3of5-HTML5.1x" 
     target="_blank" rel="noopener noreferrer">HTML5 Coding Essentials and Best Practices</a> 
-	- intermediate level,<br/>&nbsp;</li>
+    - intermediate level,<br/>&nbsp;</li>
   <li><a href="https://github.com/bbauska/W3Cx-4of5-HTML5.2x" 
     target="_blank" rel="noopener noreferrer">HTML5 Apps and Games</a> - advanced level,<br/>&nbsp;</li>
   <li><a href="https://github.com/bbauska/W3Cx-5of5-JS.0x" 
@@ -253,33 +253,33 @@ You Get") and textual HTML editors. Here is a non exhaustive list:</p>
 <ul>
   <li><a href="https://www.sublimetext.com/" target="_blank" rel="noopener noreferrer">
     Sublime Text</a> - it is quite popular with developers, though there can be a bit 
-	of a learning curve to use its many features,</li>
+    of a learning curve to use its many features,</li>
   <li><a href="http://bluegriffon.org/" target="_blank" rel="noopener noreferrer">
     BlueGriffon</a> - a WYSIWYG content editor for the World Wide Web. Powered by 
-	Gecko, the rendering engine of Firefox, it's a modern and robust solution to 
-	edit Web pages in conformance to the latest Web Standards,</li>
+    Gecko, the rendering engine of Firefox, it's a modern and robust solution to 
+    edit Web pages in conformance to the latest Web Standards,</li>
   <li><a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">
     Visual Studio Code</a> - a free open source editor that can run on any operating system. 
-	Many coding videos in this course are demonstrated using Visual Studio Code,</li>
+    Many coding videos in this course are demonstrated using Visual Studio Code,</li>
   <li><a href="https://github.com/" target="_blank" rel="noopener noreferrer">
     GitHub</a> itself - check 
-	<a href="https://towardsdatascience.com/how-to-create-a-free-github-pages-website-53743d7524e1"
+    <a href="https://towardsdatascience.com/how-to-create-a-free-github-pages-website-53743d7524e1"
     target="_blank" rel="noopener noreferrer">
-	this resource that explains how to create a Web site using GitHub</a>,</li>
+    this resource that explains how to create a Web site using GitHub</a>,</li>
   <li><a href="https://developer.apple.com/xcode/" target="_blank" rel="noopener noreferrer">
     XCode</a> - Mac developers may be familiar with XCode,</li>
   <li>TextEdit - this is available on Macs, but be sure you're 
     <a href="https://discussions.apple.com/message/5014514#5014514" 
-	target="_blank" rel="noopener noreferrer">saving as plain text</a>, not as a ".rtf" or ".doc" file,</li>
+    target="_blank" rel="noopener noreferrer">saving as plain text</a>, not as a ".rtf" or ".doc" file,</li>
   <li><a href="https://notepad-plus-plus.org/" target="_blank" rel="noopener noreferrer">
     Notepad++</a> - on Windows PC's,</li>
   <li><a href="https://www.sublimetext.com/" target="_blank" rel="noopener noreferrer">
     Atom</a> - another cross platform editor, created by <a href="https://github.com/" 
-	target="_blank" rel="noopener noreferrer">GitHub</a>,</li>
+    target="_blank" rel="noopener noreferrer">GitHub</a>,</li>
   <li><a href="https://www.vim.org/" target="_blank" rel="noopener noreferrer">VIM or
     <a href="https://www.gnu.org/software/emacs/" target="_blank" rel="noopener noreferrer">
-	Emacs</a> - great editors, but if you're not already familiar with these, this isn't the 
-	time to try.</li>
+    Emacs</a> - great editors, but if you're not already familiar with these, this isn't the 
+    time to try.</li>
 </ul>
 
 <h3>Online Code Editors</h3>
