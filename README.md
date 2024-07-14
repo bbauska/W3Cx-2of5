@@ -91,7 +91,7 @@ output:
 <p>Quickly learn the basics of Web design and style to give your Web sites
 a professional look and feel, by just following these 6 modules!</p>
 <ul>
-<li>The first set of lessons are available under <b>"Module 1: My first Web page in HTML5"</b>.</li>
+  <li>The first set of lessons are available under <b>"Module 1: My first Web page in HTML5"</b>.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 02. my first web page (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -102,8 +102,8 @@ a professional look and feel, by just following these 6 modules!</p>
   alt="My First Web Page." />
 </p>
 <ul>
-<li>In <b>Module 2</b>, you will learn about HTML5 attributes, and become fluent in adding images and links in your Web pages.&nbsp;<br/></li>
-<li>Now that you have made your first Web page, it is time to introduce you to CSS in <b>Module 3</b>.</li>
+  <li>In <b>Module 2</b>, you will learn about HTML5 attributes, and become fluent in adding images and links in your Web pages.&nbsp;<br/></li>
+  <li>Now that you have made your first Web page, it is time to introduce you to CSS in <b>Module 3</b>.</li>
 </ul>
 
 <h4>CSS is used to style the HTML</h4>
@@ -152,11 +152,11 @@ layout your page during the last week of this course.</p>
     complex pages, and "beautify" even more your recipe projects. You
     will learn about tables, the audio and video elements, etc. This is
     a good preparatory work for the 
-	<a href="https://www.edx.org/course/html5-coding-essentials-and-best-practices" 
-	  target="_blank">HTML5 Coding Essentials and Best Practices course</a>
-	  (intermediate level). You will also learn how to embed other elements in a page 
-	  other than a simple image. Note that some parts of the material are optional: 
-	  iframes, usemap, and ismap.<br/>&nbsp;</li>
+    <a href="https://www.edx.org/course/html5-coding-essentials-and-best-practices" 
+    target="_blank">HTML5 Coding Essentials and Best Practices course</a>
+    (intermediate level). You will also learn how to embed other elements in a page 
+    other than a simple image. Note that some parts of the material are optional: 
+    iframes, usemap, and ismap.<br/>&nbsp;</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. can i use: css colors (03) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
