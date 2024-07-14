@@ -129,7 +129,7 @@ layout your page during the last week of this course.</p>
   title="Laptop image"
   alt="Laptop image." />
 </p>
-
+<ul>
 <li>Whilst practicing and improving your recipe project (or else) with
     CSS features, you may have noticed that errors (subtle or not -
     we've all been there) can get in the way! This week you will learn
@@ -137,6 +137,7 @@ layout your page during the last week of this course.</p>
     do.  
     <b>Module 4</b> is a 'short' week so please use that time to practice,
     practice and practice coding again!<br/>&nbsp;</li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05. w3c cheat sheet (02) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
