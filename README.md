@@ -1,7 +1,8 @@
 ---
 title: "W3Cx-2of5-HTML5.0x: Coursera - Front-End Web Development - HTML5 & CSS3 Fundamentals"
 author: "bbauska"
-date last editted: "3/16/2024 2+pm"
+date prior editted: "3/16/2024 2+pm"
+date last editted: "9/16/2024 9+pm"
 output: 
   markdown:
     with some style
@@ -84,7 +85,8 @@ output:
 >### 6.5 [**CSS Grid**](#ch6-5-1)
 >### 6.6 [**Recipe project**](#ch6-6-1)
 
-<a href="https://github.com/bbauska/W3Cx-2of5-HTML5-and-CSS-Fundamentals.git" target="_blank" rel="noopener noreferrer">HTML5 and CSS Fundamentals - git</a>
+<a href="https://github.com/bbauska/W3Cx-2of5-HTML5-and-CSS-Fundamentals.git" 
+target="_blank" rel="noopener noreferrer">HTML5 and CSS Fundamentals - git</a>
 
 <h3>Course Outline:</h3>
 
@@ -102,8 +104,10 @@ a professional look and feel, by just following these 6 modules!</p>
   alt="My First Web Page." />
 </p>
 <ul>
-  <li>In <b>Module 2</b>, you will learn about HTML5 attributes, and become fluent in adding images and links in your Web pages.&nbsp;<br/></li>
-  <li>Now that you have made your first Web page, it is time to introduce you to CSS in <b>Module 3</b>.</li>
+  <li>In <b>Module 2</b>, you will learn about HTML5 attributes, and become fluent in adding 
+    images and links in your Web pages.&nbsp;<br/></li>
+  <li>Now that you have made your first Web page, it is time to introduce you to CSS in 
+    <b>Module 3</b>.</li>
 </ul>
 
 <h4>CSS is used to style the HTML</h4>
@@ -116,10 +120,9 @@ a professional look and feel, by just following these 6 modules!</p>
   alt="W3C Developers logo." />
 </p>
 
-<p>It is how we determine the color, text size, spacing and other visual
-aspects of your Web page. We'll introduce the syntax of CSS, how to
-include it with your pages, and get you started with some basic
-properties and concepts. Note that we'll explore how to use CSS to
+<p>It is how we determine the color, text size, spacing and other visual aspects of your 
+Web page. We'll introduce the syntax of CSS, how to include it with your pages, and get you 
+started with some basic properties and concepts. Note that we'll explore how to use CSS to
 layout your page during the last week of this course.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04. laptop (02) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -130,11 +133,10 @@ layout your page during the last week of this course.</p>
   alt="Laptop image." />
 </p>
 <ul>
-<li>Whilst practicing and improving your recipe project (or else) with
-    CSS features, you may have noticed that errors (subtle or not -
-    we've all been there) can get in the way! This week you will learn
-    how to fix your Web page when it's not doing what you hoped it would
-    do.  
+  <li>Whilst practicing and improving your recipe project (or else) with CSS features, you 
+    may have noticed that errors (subtle or not - we've all been there) can get in the way! 
+	This week you will learn how to fix your Web page when it's not doing what you hoped it 
+	would do.
     <b>Module 4</b> is a 'short' week so please use that time to practice,
     practice and practice coding again!<br/>&nbsp;</li>
 </ul>
@@ -148,15 +150,14 @@ layout your page during the last week of this course.</p>
 </p>
 
 <ul>
-<li>In <b>Module 5</b>, you will be combining HTML and CSS to create more
-    complex pages, and "beautify" even more your recipe projects. You
-    will learn about tables, the audio and video elements, etc. This is
-    a good preparatory work for the 
+  <li>In <b>Module 5</b>, you will be combining HTML and CSS to create more complex pages, 
+    and "beautify" even more your recipe projects. You will learn about tables, the audio 
+	and video elements, etc. This is a good preparatory work for the 
     <a href="https://www.edx.org/course/html5-coding-essentials-and-best-practices" 
-    target="_blank">HTML5 Coding Essentials and Best Practices course</a>
-    (intermediate level). You will also learn how to embed other elements in a page 
-    other than a simple image. Note that some parts of the material are optional: 
-    iframes, usemap, and ismap.<br/>&nbsp;</li>
+    target="_blank">HTML5 Coding Essentials and Best Practices course</a> (intermediate 
+	level). You will also learn how to embed other elements in a page other than a simple 
+	image. Note that some parts of the material are optional: iframes, usemap, and ismap.
+	<br/>&nbsp;</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. can i use: css colors (03) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -168,14 +169,13 @@ layout your page during the last week of this course.</p>
 </p>
 
 <ul>
-  <li><b>Module 6</b> is about page layout and more specifically about CSS 
-    flexbox. Using flexible widths and heights, elements can be aligned
-    to fill a space or distribute space between elements, which makes it a 
-    great tool to use for responsive design systems. Once you've got the
-    basics, practice more with this fun <a href="https://flexboxfroggy.com/" 
-    target="_blank" rel="noopener noreferrer">Flexbox Froggy</a> game. Note 
-    that some parts of this week are clearly indicated OPTIONAL, meaning that 
-    there will be no questions related to that content material.</li>
+  <li><b>Module 6</b> is about page layout and more specifically about CSS flexbox. Using 
+    flexible widths and heights, elements can be aligned to fill a space or distribute space 
+	between elements, which makes it a great tool to use for responsive design systems. Once 
+	you've got the basics, practice more with this fun <a href="https://flexboxfroggy.com/" 
+    target="_blank" rel="noopener noreferrer">Flexbox Froggy</a> game. Note that some parts 
+	of this week are clearly indicated OPTIONAL, meaning that there will be no questions 
+	related to that content material.</li>
 </ul>
 
 <p>W3C has designed a 
@@ -203,8 +203,8 @@ is composed of 5 courses:</p>
 
 <h4>Welcome!</h4>
 
-<p>This "HTML5 & CSS Fundamentals" introductory course is designed for anyone, no 
-prerequisites required.<br>
+<p>This "HTML5 & CSS Fundamentals" introductory course is designed for anyone, no prerequisites 
+required.<br>
 During this course, you will learn:</p>
 
 <ul>
@@ -270,7 +270,8 @@ You Get") and textual HTML editors. Here is a non exhaustive list:</p>
     XCode</a> - Mac developers may be familiar with XCode,</li>
   <li>TextEdit - this is available on Macs, but be sure you're 
     <a href="https://discussions.apple.com/message/5014514#5014514" 
-    target="_blank" rel="noopener noreferrer">saving as plain text</a>, not as a ".rtf" or ".doc" file,</li>
+    target="_blank" rel="noopener noreferrer">saving as plain text</a>, not as a ".rtf" or 
+	".doc" file,</li>
   <li><a href="https://notepad-plus-plus.org/" target="_blank" rel="noopener noreferrer">
     Notepad++</a> - on Windows PC's,</li>
   <li><a href="https://www.sublimetext.com/" target="_blank" rel="noopener noreferrer">
@@ -284,21 +285,18 @@ You Get") and textual HTML editors. Here is a non exhaustive list:</p>
 
 <h3>Online Code Editors</h3>
 
-<p>To help you practice during the whole duration of the course, we propose
-to use the <a href="https://codepen.io/" target="_blank">CodePen</a> online code editor. An online
-code editor is a tool that resides on a remote server and is accessible
-via browsers.</p>
+<p>To help you practice during the whole duration of the course, we propose to use the 
+<a href="https://codepen.io/" target="_blank">CodePen</a> online code editor. An online
+code editor is a tool that resides on a remote server and is accessible via browsers.</p>
 
-<p>CodePen is an HTML/CSS/JavaScript code editor that previews/showcases
-your code in your browser. We are providing a short live coding video on
-how to use CodePen at the beginning of Module 1. CodePen gives you the
-tools for collaboration, experimentation, and sharing, but you also get
-live results and the ability to search through their database and
-repository of snippets that other authors put up so you can experiment
-and learn from their work, too.</p>
+<p>CodePen is an HTML/CSS/JavaScript code editor that previews/showcases your code in your 
+browser. We are providing a short live coding video on how to use CodePen at the beginning 
+of Module 1. CodePen gives you the tools for collaboration, experimentation, and sharing, 
+but you also get live results and the ability to search through their database and repository 
+of snippets that other authors put up so you can experiment and learn from their work, too.</p>
 
-<p>Note that there are many other online code editors available out there,
-such as JSBin,  JSFiddle, and Dabblet (Lea Verou's tool).</p>
+<p>Note that there are many other online code editors available out there, such as JSBin, 
+JSFiddle, and Dabblet (Lea Verou's tool).</p>
 
 <p>Here's an interesting article on what beginners can do with CodePen: 
 <a href="https://codepen.io/brentmiller/post/things-you-can-do-with-codepen" 
@@ -362,30 +360,28 @@ RSS/Atom feeds and http headers.</p>
 
 <h3>Internationalization Checker</h3>
 
-The [W3C Internationalization
-Checker](https://validator.w3.org/i18n-checker/) provides information
-about various internationalization-related aspects of your page,
-including the HTTP headers that affect it. It will also report a number
-of issues and offer advice about how to resolve them.
+<p>The <a href="https://validator.w3.org/i18n-checker/" target="_blank">
+W3C Internationalization Checker</a> provides information about various internationalization-
+related aspects of your page, including the HTTP headers that affect it. It will also report 
+a number of issues and offer advice about how to resolve them.</p>
 
 <h3>Link Checker</h3>
 
-The <a href="https://validator.w3.org/checklink" target="_blank">W3C Link Checker</a> looks for
-issues in links, anchors and referenced objects in a Web page, CSS style
-sheet, or recursively on a whole Web site. For best results, it is
-recommended to first ensure that the documents checked use
-valid [(X)HTML
-Markup](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/).
+<p>The <a href="https://validator.w3.org/checklink" target="_blank">W3C Link Checker</a> looks for
+issues in links, anchors and referenced objects in a Web page, CSS style sheet, or recursively 
+on a whole Web site. For best results, it is recommended to first ensure that the documents 
+checked use valid 
+<a href="https://validator.w3.org/" target="_blank">W3c Validator</a> and 
+<a href="https://jigsaw.w3.org/css-validator/" target="_blank">CSS (X)HTML Markup</a>.</p>
 
 <h3>W3C CheatSheet</h3>
 
-The [W3C cheatsheet](https://www.w3.org/2009/cheatsheet/) provides quick
-access to useful information from a variety of specifications published
-by W3C. It aims at giving in a very compact and mobile-friendly format a
-compilation of useful knowledge extracted from W3C specifications,
-completed by summaries of guidelines developed at W3C, in particular Web
-accessibility guidelines, the Mobile Web Best Practices, and a number of
-internationalization tips.
+<p>The <a href="https://www.w3.org/2009/cheatsheet/" target="_blank">W3C cheatsheet</a> provides 
+quick access to useful information from a variety of specifications published by W3C. It 
+aims at giving in a very compact and mobile-friendly format a compilation of useful knowledge 
+extracted from W3C specifications, completed by summaries of guidelines developed at W3C, in 
+particular Web accessibility guidelines, the Mobile Web Best Practices, and a number of 
+internationalization tips.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05. w3c cheat sheet (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -395,19 +391,21 @@ internationalization tips.
   alt="W3C Cheat Sheet." />
 </p>
 
-Its main feature is a lookup search box, where one can start typing a keyword and get a list of matching properties/elements/ attributes/functions in the above-mentioned specifications, and further details on those when selecting the one of interest.
+<p>Its main feature is a lookup search box, where one can start typing a keyword and get 
+a list of matching properties/elements/ attributes/functions in the above-mentioned 
+specifications, and further details on those when selecting the one of interest.</p>
 
-The W3C cheatsheet is only available as a <a href="https://dev.w3.org/2009/cheatsheet/doc/" target="_blank">pure Web application</a>.
+<p>The W3C cheatsheet is only available as a <a href="https://dev.w3.org/2009/cheatsheet/doc/" 
+target="_blank">pure Web application</a>.</p>
 
 <h3>Browser Compatibility</h3>
 
-The term browser compatibility refers to the ability of a given Web site
-to appear fully functional on the browsers available in the market.
+<p>The term browser compatibility refers to the ability of a given Web site to appear 
+fully functional on the browsers available in the market.</p>
 
-The most powerful aspect of the Web is what makes it so challenging to
-build for: its universality. When you create a Web site, you’re writing
-code that needs to be understood by many different browsers on different
-devices and operating systems!
+<p>The most powerful aspect of the Web is what makes it so challenging to build for: its 
+universality. When you create a Web site, you’re writing code that needs to be understood 
+by many different browsers on different devices and operating systems!</p>
 
 To make the Web evolve in a sane and sustainable way for both users and
 developers, browser vendors work together to standardize new features,
@@ -468,11 +466,12 @@ exactly which browsers will support it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="cha-1">What is W3C?</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h4>As steward of global Web standards, W3C's mission is to safeguard the openness, accessibility, and freedom of the World Wide Web from a technical perspective.</h4>
+<h4>As steward of global Web standards, W3C's mission is to safeguard the openness, 
+accessibility, and freedom of the World Wide Web from a technical perspective.</h4>
 
-W3C's primary activity is to develop protocols and guidelines that
+<p>W3C's primary activity is to develop protocols and guidelines that
 ensure long-term growth for the Web. The widely adopted Web standards
-define key parts of what actually makes the World Wide Web work.
+define key parts of what actually makes the World Wide Web work.</p>
 
 <h3>A few history bits</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -511,23 +510,25 @@ University</a> as the fourth Host.
 As of April 2021, W3C:
 <ul>
 <li>Is a <a href="https://www.w3.org/Consortium/Member/List" target="_blank">member-</a>driven
-  organization composed of nearly 430 companies, universities,
-  start-ups, etc. from all over the world.&nbsp;<br/></li>
-<li>Holds 48 <a href="https://www.w3.org/Consortium/activities" target="_blank">technical groups</a>, including Working
-  and Interest Groups where technical specifications are discussed and
-  developed.&nbsp;<br/></li>
+  organization composed of nearly 430 companies, universities, start-ups, etc. from all over 
+  the world.&nbsp;<br/></li>
+<li>Holds 48 <a href="https://www.w3.org/Consortium/activities" target="_blank">technical 
+  groups</a>, including Working and Interest Groups where technical specifications are 
+  discussed and developed.&nbsp;<br/></li>
 <li>Published over 7,652 <a href-"https://www.w3.org/TR/" target="_blank">published technical
-  reports</a>, including 442 Web standards (or
-  W3C Recommendations) - since January 1st,1995.&nbsp;<br/></li>
+  reports</a>, including 442 Web standards (or W3C Recommendations) - since 
+  January 1st,1995.&nbsp;<br/></li>
 <li>Runs a <a href="https://www.w3.org/Consortium/Translation/" target="_blank">translation
-  program</a> to foster the translation of its specifications: see the <a href="https://www.w3.org/Consortium/Translation/matrix.html">translation
-  matrix</a> currently listing 307 available translations of W3C recommendations.&nbsp;<br/></li>
-<li>Hosts 350 <a href="https://www.w3.org/community/groups/" target="_blank">Community and Business Groups</a>, where developers, designers, and anyone passionate about the Web have a place to hold
-  discussions and publish ideas.&nbsp;<br/></li>
+  program</a> to foster the translation of its specifications: see the 
+  <a href="https://www.w3.org/Consortium/Translation/matrix.html">translation matrix</a> 
+  currently listing 307 available translations of W3C recommendations.&nbsp;<br/></li>
+<li>Hosts 350 <a href="https://www.w3.org/community/groups/" target="_blank">Community and 
+  Business Groups</a>, where developers, designers, and anyone passionate about the Web have 
+  a place to hold discussions and publish ideas.&nbsp;<br/></li>
 <li>Gathers over 13,960active participants constituting the W3C
   community.&nbsp;<br/></li>
-<li>Has a <a href="https://www.w3.org/People/" target="_blank"> technical staff</a> composed of 68
-  people, spread on all five continents.</li>
+<li>Has a <a href="https://www.w3.org/People/" target="_blank"> technical staff</a> composed 
+  of 68 people, spread on all five continents.</li>
 </ul>
 
 <h3>W3C's core values</h3>
@@ -543,17 +544,16 @@ asked what part of the W3C’s work he’s the most proud of.
 
 <h4>The Web is Amazing!</h4>
 
-People often use the words "Internet" and "Web" interchangeably, but
-this usage is technically incorrect.
+People often use the words "Internet" and "Web" interchangeably, but this usage is technically 
+incorrect.
 
-The Web is an application of the Internet. The Web is the most popular
-way of accessing the Internet, but other applications of the Internet
-are <a href="https://en.wikipedia.org/wiki/Email" target="_blank">e-mail</a> and
-<a href="https://en.wikipedia.org/wiki/File_Transfer_Protocol" target="_blank">ftp</a> for example.
-One analogy equates the Internet to a road network where the Web is a
-car, the email is a bicycle, etc.  Read <a href="https://www.lifewire.com/difference-between-the-internet-and-the-web-2483335" target="_blank">this
-article</a>
-for more details about the difference between Internet and the Web.
+The Web is an application of the Internet. The Web is the most popular way of accessing the 
+Internet, but other applications of the Internet are <a href="https://en.wikipedia.org/wiki/Email" 
+target="_blank">e-mail</a> and <a href="https://en.wikipedia.org/wiki/File_Transfer_Protocol" 
+target="_blank">ftp</a> for example. One analogy equates the Internet to a road network where 
+the Web is a car, the email is a bicycle, etc.  Read 
+<a href="https://www.lifewire.com/difference-between-the-internet-and-the-web-2483335" target="_blank">
+this article</a> for more details about the difference between Internet and the Web.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="cha-2">What is Web Accessibility?</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -614,13 +614,11 @@ in which the user can browse at will.'</p>
 to do this:</p>
 
 <ul>
-  <li>HyperText Transfer Protocol (HTTP) is the foundation of data
-    communication for the Web.</li><br/>
-  <li>HyperText Markup Language (HTML) is the main mark-up language for
-    creating Web pages and information that can be displayed on a Web
-    browser.</li><br/>
-  <li>Web addresses or a Uniform Resource Locator (URL) are used to
-    reference a Web page.</li><br/>
+  <li>HyperText Transfer Protocol (HTTP) is the foundation of data communication for the 
+    Web.</li><br/>
+  <li>HyperText Markup Language (HTML) is the main mark-up language for creating Web pages 
+    and information that can be displayed on a Web browser.</li><br/>
+  <li>Web addresses or a Uniform Resource Locator (URL) are used to reference a Web page.</li><br/>
 </ul>
 
 <p>In the following pages, we present HTML through what are usually called the big 3 
@@ -15068,3 +15066,4 @@ These are the final changes to our recipe project for this unit.
 
 <h5><b>Updated 09-26-2023 12:20pm</b></h5>
 <h6><b>Last Updated 03-16-2024 2:20pm</b></h6>
+<h6><b>Last Updated 09-16-2024 9:16pm</b></h6>
