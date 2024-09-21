@@ -52,7 +52,7 @@ a:link {
   text-decoration: none;
 }
 a:visited {
-  color: #bbbbbb;  /* gray, was; #a5682a brown */
+  color: #a5682a;  /* #a5682a brown */
   background-color: transparent;
   text-decoration: none;
 }
