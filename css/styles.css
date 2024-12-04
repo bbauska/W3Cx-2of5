@@ -41,10 +41,14 @@ pre > code {
   padding: 1rem;
   word-wrap: normal;
 }
-pre[href]:hover  {
+/* pre[href]:hover  { */
+/*  text-decoration: none; */
+/*  width: min-content; */
+/* } */
+pre:hover, pre:focus { 
+  width: min-content; 
   text-decoration: none;
 }
-pre:hover, pre:focus { width: min-content; }
 
 a:link {
   color: #3333ff;  /* vivid blue, was; #013220 very dark green */
