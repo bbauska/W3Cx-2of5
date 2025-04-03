@@ -19,54 +19,6 @@
   <link rel="stylesheet" href="./css/styles.css">
   <!-- A javascript workaround for IE8 and older -->
 <!--  <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script> -->
-<style type="text/css">
-  .dpw-code {
-      white-space: pre-wrap; /* Wrap long lines */
-      word-break: break-all;
-      counter-reset: linecounter; /* Create line counter variable */
-      overflow: auto;
-      border-width: 1px;
-      border-style: solid;
-      border-color: #c4d1e6;
-      padding: 5px;
-      font-family: "Courier New",Courier,monospace;
-      background-color: #e0eaf1;
-  }
-  .dpw-code span.line {
-    counter-increment: linecounter;
-  }
-  .dpw-code span.line::before {
-    content: counter(linecounter);
-    width: 20px;
-    text-align: right;
-    display: inline-block;
-    padding-right: 5px;
-    border-right: 1px solid #ccc;
-    margin-right: 5px;
-    background-color: #d8e7f1;
-  }
-</style>
-<script type="text/javascript">
-  window.addEventListener("load", function () {
-    var codes = document.getElementsByClassName("dpw-code");
-    for (var i = 0; i < codes.length; i++) {
-        lineToSpan(codes[i]);
-    }
-  }, false);
-  function lineToSpan (code) {
-    var lines = code.innerHTML.split("\n");
-    while(code.childNodes.length > 0) {
-        code.removeChild(code.childNodes[0]);
-    }
-    for(var i = 0; i < lines.length; i++) {
-        var span = document.createElement("span");
-        span.className = "line";
-        span.innerHTML = lines[i];
-        code.appendChild(span);
-        code.appendChild(document.createTextNode("\n"));
-    }
-  };
-</script>
 </head>
 <body>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
