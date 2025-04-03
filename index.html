@@ -19,6 +19,54 @@
   <link rel="stylesheet" href="./css/styles.css">
   <!-- A javascript workaround for IE8 and older -->
 <!--  <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script> -->
+<style type="text/css">
+  .dpw-code {
+      white-space: pre-wrap; /* Wrap long lines */
+      word-break: break-all;
+      counter-reset: linecounter; /* Create line counter variable */
+      overflow: auto;
+      border-width: 1px;
+      border-style: solid;
+      border-color: #c4d1e6;
+      padding: 5px;
+      font-family: "Courier New",Courier,monospace;
+      background-color: #e0eaf1;
+  }
+  .dpw-code span.line {
+    counter-increment: linecounter;
+  }
+  .dpw-code span.line::before {
+    content: counter(linecounter);
+    width: 20px;
+    text-align: right;
+    display: inline-block;
+    padding-right: 5px;
+    border-right: 1px solid #ccc;
+    margin-right: 5px;
+    background-color: #d8e7f1;
+  }
+</style>
+<script type="text/javascript">
+  window.addEventListener("load", function () {
+    var codes = document.getElementsByClassName("dpw-code");
+    for (var i = 0; i < codes.length; i++) {
+        lineToSpan(codes[i]);
+    }
+  }, false);
+  function lineToSpan (code) {
+    var lines = code.innerHTML.split("\n");
+    while(code.childNodes.length > 0) {
+        code.removeChild(code.childNodes[0]);
+    }
+    for(var i = 0; i < lines.length; i++) {
+        var span = document.createElement("span");
+        span.className = "line";
+        span.innerHTML = lines[i];
+        code.appendChild(span);
+        code.appendChild(document.createTextNode("\n"));
+    }
+  };
+</script>
 </head>
 <body>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -857,7 +905,7 @@ For example, consider the following chunk of HTML code:</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;body&gt;
+<pre class="dpw-code">&lt;body&gt;
   &lt;h1&gt;A Tale of Two Cities&lt;/h1&gt;
   &lt;p&gt;
     It was the best of times, it was the worst of times, . . .
@@ -875,7 +923,7 @@ For example, consider the following chunk of HTML code:</p>
 <p>If you eliminated everything in between the angle brackets from the
 text, for most purposes it would still read the same:</p>
 
-<pre>A Tale of Two Cities  
+<pre class="dpw-code">A Tale of Two Cities  
 It was the best of times, it was the worst of times . . . .  
 . . .  
 . . . it is a far, far better rest  
@@ -1732,7 +1780,7 @@ You should end up with something that looks like this:</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre class="dpw-code">&lt;!DOCTYPE html&gt;
 &lt;html&gt;
   &lt;head&gt;
   &lt;/head&gt;
@@ -1834,7 +1882,7 @@ earlier it is mentioned in your code, the better.</p>
 <p>W3C recommends placing it immediately after the
 opening &lt;head&gt; tag:</p>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre class="dpw-code">&lt;!DOCTYPE html&gt;
    &lt;html lang=&quot;en&quot;&gt;
    &lt;head&gt;
       &lt;meta charset=&quot;utf-8&quot;&gt;
@@ -1859,7 +1907,7 @@ the need for them came about.</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre class="dpw-code">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
     &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -1983,7 +2031,7 @@ Instead, you want it to be displayed to the user.  So if you wish to display thi
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre class="dpw-code">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
     &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -2029,7 +2077,7 @@ The title text in the source code includes quotes (around the number 5) like thi
 
 <h4>HTML</h4>
 
-<pre>&lt;p&gt;Rest your mouse on the text below: (The number 5 is missing)&lt;/p&gt;
+<pre class="dpw-code">&lt;p&gt;Rest your mouse on the text below: (The number 5 is missing)&lt;/p&gt;
 &lt;abbr title=&quot;Hypertext Markup Language &quot;5&quot;&quot;&gt;HTML5&lt;/abbr&gt;
 &lt;p&gt;Rest your mouse on the text below: (5 is displayed when quotes is
 replaced with its character entity name)&lt;/p&gt;
@@ -2074,7 +2122,7 @@ directly into the source code.</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre class="dpw-code">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
    &lt;head&gt;
       &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -2198,7 +2246,7 @@ good idea (best practice).</p>
 <p>Proper indentation is one way to make your code clearer and easier to
 understand:</p>
 
-<pre>&lt;body&gt;
+<pre class="dpw-code">&lt;body&gt;
   &lt;h1&gt;Here is a heading&lt;/h1&gt;
   &lt;p&gt;
   &lt;ol&gt;&lt;li&gt;List Item 1&lt;/li&gt;&lt;/ol&gt;
@@ -2210,7 +2258,7 @@ understand:</p>
 document. By using indentation effectively, you can make it more clear,
 showing the nesting of elements:</p>
 
-<pre>&lt;body&gt;
+<pre class="dpw-code">&lt;body&gt;
   &lt;h1&gt;Here is a heading&lt;/h1&gt;
   &lt;p&gt;
     &lt;ol&gt;
@@ -2320,7 +2368,7 @@ marks, either single (’) or double (“). HTML tries to be helpful here.</p>
 strings (say a string without spaces), even if you do not use the
 quotation marks it will essentially insert them for you. Thus:</p>
 
-<pre>&lt;p id=MyName&gt;
+<pre class="dpw-code">&lt;p id=MyName&gt;
 &lt;p id=&quot;MyName&quot;&gt;
 &lt;p id=&#39;MyName&#39;&gt;
 .... are all equivalent.</pre>
@@ -2422,7 +2470,7 @@ how many there are, etc.  We will start with the ones we have already seen:</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE &lt;span class="dt"&gt;html&gt;
+<pre class="dpw-code">&lt;!DOCTYPE &lt;span class="dt"&gt;html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
     &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -2460,7 +2508,7 @@ technology users and missing levels can be confusing</b>.</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE &lt;span class="dt"&gt;html&gt;
+<pre class="dpw-code">&lt;!DOCTYPE &lt;span class="dt"&gt;html&gt;
   &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
     &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -2510,7 +2558,7 @@ wise - Benjamin Franklin</p>
 
 <p>Thus a list in HTML would look like this:</p>
 
-<pre>&lt;ul&gt;
+<pre class="dpw-code">&lt;ul&gt;
   &lt;li&gt; First item in list &lt;/li&gt;
   &lt;li&gt; Second item in list &lt;/li&gt;
   . . .
@@ -2539,7 +2587,7 @@ primarily used to invoke certain formatting.</p>
     Note that the &lt;br&gt; tag implies a break even if there is no break in the text containing it, so for example, these two sentences would be formatted exactly the same:</li>
 </ul>
 
-<pre>That which we call a rose &lt;br&gt;
+<pre class="dpw-code">That which we call a rose &lt;br&gt;
 By any other name would smell as sweet
  
 That which we call a rose &lt;br&gt; By any other name
@@ -2561,7 +2609,7 @@ would smell as sweet</pre>
     code, or other “typewritten” material:</li>
 </ul>
 
-<pre>Text in a pre element
+<pre class="dpw-code">Text in a pre element
 is displayed in a fixed-width
 font, and it preserves
 both spaces and
@@ -2598,7 +2646,7 @@ following components:</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE &lt;span class="dt"&gt;html&gt;
+<pre class="dpw-code">&lt;!DOCTYPE &lt;span class="dt"&gt;html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
     &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -2727,7 +2775,7 @@ look into it in more depth, by using examples.</p>
 
 <h4>Here is an ordered list:</h4>
 
-<pre>&lt;ol&gt;
+<pre class="dpw-code">&lt;ol&gt;
   &lt;li&gt;Lights&lt;/li&gt;
   &lt;li&gt;Camera&lt;/li&gt;
   &lt;li&gt;Action&lt;/li&gt;
@@ -2742,7 +2790,7 @@ look into it in more depth, by using examples.</p>
 <p>If I want an ordered list to start with the number 5 instead of 1 (as it
 does by default), let’s code like this:</p>
 
-<pre>&lt;ol start=&quot;5&quot;&gt;
+<pre class="dpw-code">&lt;ol start=&quot;5&quot;&gt;
   &lt;li&gt;Lights&lt;/li&gt;
   &lt;li&gt;Camera&lt;/li&gt;
   &lt;li&gt;Action&lt;/li&gt;
@@ -2881,7 +2929,7 @@ the values they accept.</p>
 
 <p>Attributes like id and class can be applied to any HTML tag.</p>
 
-<pre>&lt;p id=&quot;para1&quot; class=&quot;poetry&quot; lang=&quot;en&quot;&gt;The global attribute lang
+<pre class="dpw-code">&lt;p id=&quot;para1&quot; class=&quot;poetry&quot; lang=&quot;en&quot;&gt;The global attribute lang
   takes language codes for values. The code for English is &#39;en&#39;.&lt;/p&gt;  
 &lt;html lang=&quot;fr&quot;&gt;&lt;/html&gt; - The language attribute tells the browser
   that the contents of this document will be in french.
@@ -2900,7 +2948,7 @@ tags such as &lt;img&gt;, &lt;input&gt; and &lt;video&gt;.</p>
 
 <h4><b>Without</b> the boolean attribute reversed:</h4>
 
-<pre>&lt;ol&gt;
+<pre class="dpw-code">&lt;ol&gt;
   &lt;li&gt;HTML5&lt;/li&gt;
   &lt;li&gt;CSS&lt;/li&gt;
   &lt;li&gt;JavaScript&lt;/li&gt;
@@ -2908,7 +2956,7 @@ tags such as &lt;img&gt;, &lt;input&gt; and &lt;video&gt;.</p>
 
 <h4><b>With</b> the boolean attribute reversed:</h4>
 
-<pre>&lt;ol reversed&gt;
+<pre class="dpw-code">&lt;ol reversed&gt;
   &lt;li&gt;HTML5&lt;/li&gt;
   &lt;li&gt;CSS&lt;/li&gt;
   &lt;li&gt;JavaScript&lt;/li&gt;
@@ -3902,7 +3950,7 @@ not any visual change:</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre class="dpw-code">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
     &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -4066,7 +4114,7 @@ rel="noopener noreferrer">Using h1-h6 to identify headings</a>.</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;body&gt;
+<pre class="dpw-code">&lt;body&gt;
   &lt;h1&gt;Brad&#39;s Cookbook&lt;/h1&gt;
   &lt;h2&gt;Slowcook Recipes&lt;/h2&gt;
   &lt;h3&gt;Minestrone Soup&lt;/h3&gt;
@@ -4187,7 +4235,7 @@ multiple &lt;header&gt;, &lt;footer&gt; and &lt;nav&gt; tags.</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE &lt;span class="dt"&gt;html&gt;
+<pre class="dpw-code">&lt;!DOCTYPE &lt;span class="dt"&gt;html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
     &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -4281,7 +4329,7 @@ context. It can be reused anywhere else.</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;article id=&quot;ces&quot;&gt;
+<pre class="dpw-code">&lt;article id=&quot;ces&quot;&gt;
   &lt;header&gt;
     &lt;h2&gt;CES 2018&lt;/h2&gt;
     &lt;h3&gt;Consumer electronics and consumer technology tradeshow&lt;/h3&gt;
@@ -4303,7 +4351,7 @@ article in it, you can nest it in another &lt;article&gt; tag.</p>
 
 <p>Let’s look at another example:</p>
 
-<pre>&lt;ol type="1"&gt;
+<pre class="dpw-code">&lt;ol type="1"&gt;
   &lt;li&gt;&lt;h4&gt;Getting There&lt;/h47gt;&lt;/li&gt;
   &lt;li&gt;Arriving at the show location proved much harder for me. I couldn’t get a hotel closer to where the show was taking place and so had to rent a car.&lt;/li&gt;
   &lt;li&gt;&lt;h4&gt;Conference Sessions&lt;/h4&gt;&lt;/li&gt;
@@ -4337,7 +4385,7 @@ it to our CES 2018 &lt;article&gt; example, it will fit right in:</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre class="dpw-code">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
     &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -4388,7 +4436,7 @@ target="_blank" rel="noopener noreferrer">CodePen</a>:</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre class="dpw-code">&lt;!DOCTYPE html&gt;
 &lt;!--HTML5 doctype--&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
@@ -4480,7 +4528,7 @@ Older browsers ignore new HTML5 constructs…</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;/section&gt;
+<pre class="dpw-code">&lt;/section&gt;
 &lt;!-- Our logo section show hows to use the semantic elements figure and figcaption--&gt;
 &lt;section&gt;
    &lt;header id=&quot;logo&quot;&gt;
@@ -4568,7 +4616,7 @@ in its place.</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;section&gt;
+<pre class="dpw-code">&lt;section&gt;
   &lt;h2&gt;Week 1&lt;/h2&gt;
   &lt;p&gt;This week, you will be learning about...week 1 stuff&lt;/p&gt;
   &lt;div class=&quot;code&quot;&gt;
@@ -5286,7 +5334,7 @@ the link and you will see that a visited link looks purple and underlined.</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!-- Text in a hyperlink--&gt;
+<pre class="dpw-code">&lt;!-- Text in a hyperlink--&gt;
 &lt;a target=&quot;_blank&quot;  rel=&quot;noopener noreferrer&quot; href=&quot;https://www.qwant.com/&quot;&gt;If you click on me, I will take you to qwant.com&lt;/a&gt;
 &lt;!-- Paragraph in a hyperlink--&gt;
 &lt;a target=&quot;_blank&quot;  rel=&quot;noopener noreferrer&quot; href=&quot;https://www.qwant.com/&quot;&gt;&lt;p&gt;If you click on me, I will take you to qwant.com&lt;/p&gt;&lt;/a&gt;
@@ -5619,7 +5667,7 @@ the live coding video at the end of this page).</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre class="dpw-code">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
     &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -5976,7 +6024,7 @@ the &lt;head&gt; section.  Such as:</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre class="dpw-code">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
     &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -6014,7 +6062,7 @@ kept in a directory named <i>css</i>.</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre class="dpw-code">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
     &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -6094,7 +6142,7 @@ several lines. But they <b>cannot</b> be nested.</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>p {
+<pre class="dpw-code">p {
   font-size: 8px; /* client insists small text makes them more &#39;professional&#39;. */
   /* I hope his idea of &#39;professional&#39; includes paying on time. */
   line-height: 24px; /* see above */
@@ -6133,7 +6181,7 @@ href="https://codepen.io/w3devcampus/pen/QvQgbr">CodePen.</a></p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre class="dpw-code">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
     &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -6653,7 +6701,7 @@ discussed in a future section.</p>
 
 <h4>rgb/rgba</h4>
 
-<pre>p { color: rgb(10, 200, 255); }  
+<pre class="dpw-code">p { color: rgb(10, 200, 255); }  
 p { color: rgb(0, 0, 0); } /* 0,0,0 is black */  
 p { color: rgb(255, 255, 255); } /* 255,255,255 is white */  
 b { color: rgba(10, 200, 255, 0.5); }  /* semi-transparent */</pre>
@@ -6707,7 +6755,7 @@ may not match to 20 physical on-screen pixels.</p>
 units are usually used for vertical dimensions.  One ‘em’ maps to the
 height of one capital letter in the<i> parent context</i>.</p>
 
-<pre>li { font-size: 0.9em; }  /* text in a list item is smaller 
+<pre class="dpw-code">li { font-size: 0.9em; }  /* text in a list item is smaller 
                              than its parents */
 h1 { font-size: 1.2em; }  /* but an h1 will be bigger than 
                              the parent */
@@ -6786,7 +6834,7 @@ dimensions.</p>
  Most modern browsers support these units, but there are some exceptions
 on older mobile browsers.</p>
 
-<pre>p {
+<pre class="dpw-code">p {
   margin-left:  10vw;
   margin-right: 10vw;  /* 10% of screen width will be spent on the two
                           side margins */
@@ -7185,7 +7233,7 @@ id selector is simply a hash sign (#) followed directly by the id.</p>
 
 <h4>HTML:</h4>
 
-<pre>&lt;p align=&quot;left&quot; id=&quot;p18&quot;&gt;He is Ulysses, a man of great craft, 
+<pre class="dpw-code">&lt;p align=&quot;left&quot; id=&quot;p18&quot;&gt;He is Ulysses, a man of great craft, 
   son of Laertes. He was born in rugged Ithaca, and excels in all manner of stratagems and
   subtle cunning.&lt;/p&gt;
 &lt;p align=&quot;left&quot; id=&quot;p19&quot;&gt;Madam, you have spoken truly.&lt;/p&gt;</pre>
@@ -7218,7 +7266,7 @@ a tag by simply separating them with spaces.</p>
 
 <h4>HTML:</h4>
 
-<pre>&lt;ul&gt;
+<pre class="dpw-code">&lt;ul&gt;
   &lt;li class=&quot;bird flying&quot;&gt;eagle&lt;/li&gt;
   &lt;li class=&quot;bird&quot;&gt;ostrich&lt;/li&gt;
   &lt;li class=&quot;insect&quot;&gt;ant&lt;/li&gt;
@@ -7305,7 +7353,7 @@ selectors with commas (,) before one rule set.  Like so:</p>
 <p>If the “speech” items need to also be bold, that can simply be added
 by an additional rule:</p>
 
-<pre>blockquote,
+<pre class="dpw-code">blockquote,
 q,
   .speech {
     color: red;
@@ -7354,7 +7402,7 @@ necessarily direct children.</p>
 <details>
   <summary>HTML code extract!</summary>
   
-<pre>&lt;section id=&quot;intro&quot;&gt;Welcome to &lt;a href=&quot;#palaceland&quot;&gt;PalaceLand&lt;/a&gt;, world renown 
+<pre class="dpw-code">&lt;section id=&quot;intro&quot;&gt;Welcome to &lt;a href=&quot;#palaceland&quot;&gt;PalaceLand&lt;/a&gt;, world renown 
    &lt;q&gt;Land of endless palaces and &lt;a href=&quot;#delight&quot;&gt;delights&lt;/a&gt;&lt;/q&gt;. 
    As you make your way about, remember the words of our founder &lt;blockquote&gt;Shouldn&#39;t we
    have &lt;a href=&quot;#chairs&quot;&gt;chairs&lt;/a&gt;? Never made much sense wandering room a room looking for a place to sit a spell. 
@@ -7435,7 +7483,7 @@ quotes or blockquotes:</p>
 is only marginally useful. But combined with other selectors into a
 descendant selector, it can be pretty useful.</p>
 
-<pre>body > * { margin-left: 10px; } /* all the _direct_ children of the
+<pre class="dpw-code">body > * { margin-left: 10px; } /* all the _direct_ children of the
                                    body receive the margin */
 p * { text-decoration: underline; } /* the text of the paragraph will
                                        be normal, but any children anywhere 
@@ -7699,7 +7747,7 @@ formed HTML file and format it. Try to ensure the following are done:</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre class="dpw-code">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
   &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -7760,7 +7808,7 @@ possible.</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre class="dpw-code">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
     &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -7817,7 +7865,7 @@ possible.</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre class="dpw-code">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
   &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -8339,7 +8387,7 @@ could apply to the same element. Consider the following example:</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>h1{
+<pre class="dpw-code">h1{
   color:blue;
   font-size: 2rem;
 }
@@ -8359,7 +8407,7 @@ section h1{
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre class="dpw-code">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
     &lt;meta charset=&quot;utf-8&quot;&gt;
@@ -8402,7 +8450,7 @@ However, when you re-arrange the rules you get a different result:</p>
   alt="My Book Chapter 1 Section 1.1."
   style="width:25%;" />
 
-<pre>section h1{
+<pre class="dpw-code">section h1{
   color:grey;
   font-size:1.2rem;
 }
@@ -8418,7 +8466,7 @@ h1{
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre class="dpw-code">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
     &lt;meta charset=&quot;utf-8&quot;&gt;
@@ -8544,7 +8592,7 @@ really what we want:</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>h1{
+<pre class="dpw-code">h1{
   color:blue;
   font-size: 2rem;
 }
@@ -8564,7 +8612,7 @@ section h1{
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre class="dpw-code">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
     &lt;meta charset=&quot;utf-8&quot;&gt;
@@ -8608,7 +8656,7 @@ result is unwieldy:</p>
 <details>
   <summary>HTML code extract!</summary>
   
-<pre>&lt;!DOCTYPE html&gt;
+<pre class="dpw-code">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
     &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -8668,7 +8716,7 @@ modifying it in the “Styles” panel and we decide on this:</p>
 <details>
   <summary>HTML code extract!</summary>
   
-<pre>&lt;!DOCTYPE html&gt;
+<pre class="dpw-code">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
     &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -8739,7 +8787,7 @@ This would recognize that we really want small images when they are
 list elements, otherwise they should be bigger.  So we can change our
 code like this:</p>
 
-<pre>img {
+<pre class="dpw-code">img {
   width: 25rem;
 }
 li img {
@@ -8758,7 +8806,7 @@ li img {
 
 <h4>CSS</h4>
 
-<pre>img {
+<pre class="dpw-code">img {
 width: 25rem;
 }
 li img {
@@ -8770,7 +8818,7 @@ width: 10rem;
 <details>
   <summary>HTML code extract!</summary>
   
-<pre>&lt;!DOCTYPE html&gt;
+<pre class="dpw-code">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
   &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -8821,7 +8869,7 @@ it should look something like this:</p>
 
 <h4>CSS:</h4>
 
-<pre>section {
+<pre class="dpw-code">section {
   font-size: 24px;
 }
 li {
@@ -8833,7 +8881,7 @@ li {
 <details>
   <summary>HTML code extract!</summary>
   
-<pre>&lt;!DOCTYPE html&gt;
+<pre class="dpw-code">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
   &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -8860,7 +8908,7 @@ li {
 
 <p>As with the cloud pictures, we want the listed items a bit smaller than the regular text, so we add this styling:</p>
 
-<pre>section {
+<pre class="dpw-code">section {
   font-size: 24px;
 }
 section h1 {
@@ -8952,7 +9000,7 @@ little more flair.</p>
 <details>
   <summary>CSS code extract!</summary>
   
-<pre>nav {
+<pre class="dpw-code">nav {
   background: aliceblue;
   width: 12rem;
 }
@@ -9093,7 +9141,7 @@ the CodePen below:</p>
 <details>
   <summary>HTML code extact!</summary>
   
-<pre>nav {
+<pre class="dpw-code">nav {
   background: aliceblue;
   width: 12rem;
 }
@@ -9116,7 +9164,7 @@ h1 {
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre class="dpw-code">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
   &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -9369,7 +9417,7 @@ context to the table if its content is ambiguous. As a summary of the
 table content, a caption can also be helpful for people who have
 difficulty understanding the content or use assistive technology.</p>
 
-<pre>&lt;table border=1&gt;
+<pre class="dpw-code">&lt;table border=1&gt;
   &lt;caption&gt;
     &lt;p&gt;Table 1.0&lt;/p&gt;
     &lt;p&gt;Student&#39;s final exam results 2016&lt;/p&gt;
@@ -9389,7 +9437,7 @@ difficulty understanding the content or use assistive technology.</p>
 <details>
   <summary>HTML code extract!</summary>
   
-<pre>
+<pre class="dpw-code">
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
@@ -9422,7 +9470,7 @@ difficulty understanding the content or use assistive technology.</p>
 <p>There are two types of cells in a table - header and standard. &lt;th&gt; creates 
 table header cells. The content of table header cells is bold and centered by default.</p>
 
-<pre>&lt;table border=1&gt;
+<pre class="dpw-code">&lt;table border=1&gt;
   &lt;tr&gt;
     &lt;th&gt;Name&lt;/th&gt;
     &lt;th&gt;Age&lt;/th&gt;
@@ -9441,7 +9489,7 @@ table header cells. The content of table header cells is bold and centered by de
 <details>
   <summary>HTML code extract!</summary>
   
-<pre>&lt;!DOCTYPE html&gt;
+<pre class="dpw-code">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
   &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -9478,7 +9526,7 @@ regular and left-aligned by default.</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;table border=1&gt;
+<pre class="dpw-code">&lt;table border=1&gt;
   &lt;tr&gt;
     &lt;th scope=&quot;col&quot;&gt;Name&lt;/th&gt;
     &lt;th scope=&quot;col&quot;&gt;Age&lt;/th&gt;
@@ -9543,7 +9591,7 @@ specific to a column.</p>
 <details>
   <summary>HTML code extract!</summary>
   
-<pre>&lt;body&gt;
+<pre class="dpw-code">&lt;body&gt;
   &lt;table border=1&gt;
     &lt;colgroup&gt;
       &lt;col span=&quot;1&quot; style=&quot;background-color:green&quot;&gt;
@@ -9602,7 +9650,7 @@ individually using CSS.</p>
 as a child of &lt;tr&gt;. Rows specified within &lt;thead&gt; indicate that they 
 are header rows. See the code below:</p>
 
-<pre>&lt;thead style=&quot;color:white&quot;&gt;
+<pre class="dpw-code">&lt;thead style=&quot;color:white&quot;&gt;
   &lt;tr&gt;
     &lt;th scope=&quot;col&quot;&gt;Name&lt;/th&gt;
     &lt;th scope=&quot;col&quot;&gt;Age&lt;/th&gt;
@@ -9617,7 +9665,7 @@ Regular cells are specified using &lt;td&gt; as a child of &lt;tr&gt;:</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>  &lt;tbody&gt;
+<pre class="dpw-code">  &lt;tbody&gt;
     &lt;tr&gt;
       &lt;td&gt;Alexa&lt;/td&gt;
       &lt;td&gt;23&lt;/td&gt;
@@ -9641,7 +9689,7 @@ Regular cells are specified using &lt;td&gt; as a child of &lt;tr&gt;:</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;tfoot&gt;
+<pre class="dpw-code">&lt;tfoot&gt;
   &lt;tr&gt;
     &lt;td&gt;3 Unique Name&lt;/td&gt;
     &lt;td&gt;2 Unique Ages&lt;/td&gt;
@@ -9655,7 +9703,7 @@ Regular cells are specified using &lt;td&gt; as a child of &lt;tr&gt;:</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;table border=1&gt;
+<pre class="dpw-code">&lt;table border=1&gt;
   &lt;colgroup&gt;
     &lt;col span=&quot;1&quot; style=&quot;background-color:green&quot;&gt;
     &lt;col span=&quot;1&quot; style=&quot;background-color:orange&quot;&gt;
@@ -9752,7 +9800,7 @@ table.eg3, th.eg3, td.eg3 { border: initial; }</pre>
 <details>
   <summary>HTML code extract!</summary>
   
-<pre>&lt;!DOCTYPE html&gt;
+<pre class="dpw-code">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
   &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -9808,7 +9856,7 @@ property:</p>
   alt="Table border collapse."
   style="width:40%;" />
 
-<pre>table.no-collapse, th.no-collapse, td.no-collapse
+<pre class="dpw-code">table.no-collapse, th.no-collapse, td.no-collapse
 {
   border: 1px solid black;
 }
@@ -9822,7 +9870,7 @@ property:</p>
 <details>
   <summary>HTML code extract!</summary>
   
-<pre>&lt;!DOCTYPE html&gt;
+<pre class="dpw-code">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
   &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -9876,7 +9924,7 @@ widths/heights specified, the larger value is set.</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>table, th, td
+<pre class="dpw-code">table, th, td
 {
   border: 1px solid black;
   border-collapse: collapse;
@@ -9901,7 +9949,7 @@ table.eg3
 <details>
   <summary>HTML code extract!</summary>
   
-<pre>&lt;!DOCTYPE html&gt;
+<pre class="dpw-code">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
   &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -10016,7 +10064,7 @@ th, td { padding: 20px; }</pre>
 <details>
   <summary>HTML code extract!</summary>
   
-<pre>!DOCTYPE html&gt;
+<pre class="dpw-code">!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
   &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -10064,7 +10112,7 @@ table, td, th { border-spacing: 25px; }</pre>
 
 <h4>CSS</h4>
 
-<pre>table, th, td { border: 1px solid black; }
+<pre class="dpw-code">table, th, td { border: 1px solid black; }
 table { border-collapse: separate;}
   table.eg1, th.eg1, td.eg1 { border-spacing: 50px; }
   table.eg2, th.eg2, td.eg2 { border-spacing: 25px 50px; }
@@ -10075,7 +10123,7 @@ table { border-collapse: separate;}
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre class="dpw-code">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
   &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -10124,7 +10172,7 @@ can also set borders to individual sides - top, right, bottom, left:</p>
 
 <h4>CSS</h4>
 
-<pre>table { border-collapse: collapse;}
+<pre class="dpw-code">table { border-collapse: collapse;}
 table, th, td { padding: 15px;}
   table.eg1, th.eg1, td.eg1 { border: 1px solid black; }
   table.eg2, th.eg2, td.eg2 { border-bottom: 1px solid black; }</pre>
@@ -10134,7 +10182,7 @@ table, th, td { padding: 15px;}
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre class="dpw-code">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
   &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -10198,7 +10246,7 @@ the &lt;i&gt;n&lt;/i&gt;th child of the table or any parent element. Therefore,<
 
 <h4>CSS</h4>
 
-<pre>table { border-collapse: collapse; }
+<pre class="dpw-code">table { border-collapse: collapse; }
 table, th, td { padding: 15px; border-bottom: 1px solid black; }
 
 table.eg1 tr:nth-child(even) { background-color: #ccff99; }
@@ -10212,7 +10260,7 @@ table.eg3 tr:nth-child(3n) { background-color: #ccff99;}</pre>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre class="dpw-code">&lt;!DOCTYPE html&gt;
 &lt;html lang="en"&gt;
 
 &lt;head&gt;
@@ -10281,7 +10329,7 @@ to help users differentiate data between rows.</p>
 
 <h4>CSS</h4>
 
-<pre>table { border-collapse: collapse; }
+<pre class="dpw-code">table { border-collapse: collapse; }
 table, th, td { padding: 15px; border-bottom: 1px solid black; }
   
 table.eg1 tr:hover { background-color: #ccff99; }
@@ -10293,7 +10341,7 @@ table.eg2 tr:hover { background-color: grey; }</pre>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre class="dpw-code">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
    &lt;head&gt;
       &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -10355,7 +10403,7 @@ use overflow-y.</p>
 
 <h4>CSS:</h4>
 
-<pre>table { border-collapse: collapse; }
+<pre class="dpw-code">table { border-collapse: collapse; }
 div { height: 200px; width: 200px; border: 1px solid blue; }
 table, th, td { padding: 30px; border-bottom: 1px solid black; }
   
@@ -10369,7 +10417,7 @@ div.overflow-x-auto { overflow-x: auto; overflow-y:hidden; }</pre>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>1.  &lt;!DOCTYPE html&gt;
+<pre class="dpw-code">1.  &lt;!DOCTYPE html&gt;
 2.  &lt;html lang=&quot;en&quot;&gt;
 3.  
 4.  &lt;head&gt;
@@ -10496,7 +10544,7 @@ div.overflow-x-auto { overflow-x: auto; overflow-y:hidden; }</pre>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>1.  table, th, td {
+<pre class="dpw-code">1.  table, th, td {
 2.    padding: 30px;
 3.    border: 1px solid #DCDCDC;
 4.    text-align: center;
@@ -10538,7 +10586,7 @@ div.overflow-x-auto { overflow-x: auto; overflow-y:hidden; }</pre>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>1.  &lt;!DOCTYPE html&gt;
+<pre class="dpw-code">1.  &lt;!DOCTYPE html&gt;
 2.  &lt;html lang=&quot;en&quot;&gt;
 3.  
 4.  &lt;head&gt;
@@ -11007,7 +11055,7 @@ self-closing, therefore, it does not require a closing tag.</p>
 
 <h4>Example:</h4>
 
-<pre>&lt;audio controls&gt;
+<pre class="dpw-code">&lt;audio controls&gt;
   &lt;source src=&quot;https://courses.edx.org/asset-v1:W3Cx+HTML5.0x+3T2016+type@asset+block@splash.wav&quot; 
     type=&quot;audio/wav&quot;&gt;
   &lt;source src=&quot;https://courses.edx.org/asset-v1:W3Cx+HTML5.0x+3T2016+type@asset+block@splash.mp3&quot; 
@@ -11150,7 +11198,7 @@ specify multiple source files for
 the video element. The &lt;source&gt; tag is self-closing and so does
 not require a closing tag.</p>
 
-<pre>&lt;video controls height=&quot;320&quot; width=&quot;240&quot;&gt;
+<pre class="dpw-code">&lt;video controls height=&quot;320&quot; width=&quot;240&quot;&gt;
   &lt;source src=&quot;http://techslides.com/demos/sample-videos/small.mp4&quot; 
     type=&quot;video/mp4&quot;&gt;
   &lt;source src=&quot;http://techslides.com/demos/sample-videos/small.webm&quot; 
@@ -11204,7 +11252,7 @@ when the video is playing.</p>
 closing tag. You specify the &lt;track&gt; element as a child element of
 your &lt;video&gt; tag like this:</p>
 
-<pre>&lt;video width=&quot;320&quot; height=&quot;240&quot; controls&gt;
+<pre class="dpw-code">&lt;video width=&quot;320&quot; height=&quot;240&quot; controls&gt;
   &lt;source src=&quot;module.mp4&quot; type=&quot;video/mp4&quot;&gt;
   &lt;track src=&quot;module-captions.vtt&quot; kind=&quot;captions&quot; srclang=&quot;en&quot; 
     label=&quot;English&quot; default&gt;
@@ -11240,7 +11288,7 @@ file inline while some older browsers will try to download it instead).</p>
 
 <p>An &lt;iframe&gt; tag can be as simple as this:</p>
 
-<pre>&lt;p&gt;This is a parent page that will host the iframe.&lt;/p&gt;
+<pre class="dpw-code">&lt;p&gt;This is a parent page that will host the iframe.&lt;/p&gt;
 &lt;iframe src=&quot;https://www.w3.org/&quot;&gt;
   &lt;p&gt;Your browser does not support iframes.&lt;/p&gt;
 &lt;/iframe&gt;</pre>
@@ -11259,7 +11307,7 @@ file inline while some older browsers will try to download it instead).</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre class="dpw-code">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
   &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -11292,7 +11340,7 @@ elements, with borders, margins, sizes specified with CSS rules:</p>
 <p>And we’ve added styling like this to get the border and
 drop-shadow:</p>
 
-<pre>iframe {
+<pre class="dpw-code">iframe {
   border: 10px solid red;
   padding: .5rem;
   margin: 1rem;
@@ -11468,7 +11516,7 @@ child of <b>&lt;map&gt;</b> element to specify the coordinates and the page it
 should navigate to. The usemap value should match the map element’s name or id 
 attribute.</p>
 
-<pre>&lt;img src=&quot;images/crossroads.jpg&quot; alt=&quot;Crossroads&quot; usemap=&quot;#navigatormap&quot;&gt;
+<pre class="dpw-code">&lt;img src=&quot;images/crossroads.jpg&quot; alt=&quot;Crossroads&quot; usemap=&quot;#navigatormap&quot;&gt;
 &lt;map name=&quot;navigatormap&quot;&gt;
   &lt;area shape=&quot;rect&quot; coords=&quot;0,0,195,439&quot; href=&quot;
     https://en.wikipedia.org/wiki/Millery&quot; alt=&quot;Millery&quot;&gt;
@@ -11507,7 +11555,7 @@ target="_blank" rel="noopener noreferrer">area tag here</a>.</p>
 
 <p>Here is a working example of usemap.</p>
 
-<pre>&lt;img src=&quot;images/crossroads.jpg&quot; alt=&quot;Crossroads&quot; usemap=&quot;#navigatormap&quot;&gt;
+<pre class="dpw-code">&lt;img src=&quot;images/crossroads.jpg&quot; alt=&quot;Crossroads&quot; usemap=&quot;#navigatormap&quot;&gt;
 &lt;map name=&quot;navigatormap&quot;&gt;
   &lt;area shape=&quot;rect&quot; coords=&quot;0,0,195,439&quot; href=&quot;https://en.wikipedia.org/wiki/Millery&quot; alt=&quot;Millery&quot;&gt;
   &lt;area shape=&quot;rect&quot; coords=&quot;196,0,390,439&quot; href=&quot;https://en.wikipedia.org/wiki/Nomeny&quot; alt=&quot;Nomeny&quot;&gt;
@@ -11674,7 +11722,7 @@ the image.  When used in this fashion, it takes <i>two</i> values
 separated by a space. The first governs the width, the second the
 height.  Examples:</p>
 
-<pre>.kittens  { background-size: 100px 120px; } /* might distort */  
+<pre class="dpw-code">.kittens  { background-size: 100px 120px; } /* might distort */  
 .puppies  { background-size: 100px auto; }  /* auto preserves aspect
                                                ratio, no distorting */  
 .munchies { background-size: 50% auto; }    /* % is of percentage of
@@ -11770,7 +11818,7 @@ all.</p>
 be broken out if needed. For example, here we set four different styles
 for a border:</p>
 
-<pre>p {
+<pre class="dpw-code">p {
   border-left-style: solid;  
   border-right-style: dotted;  
   border-bottom-style: dashed;  
@@ -11872,7 +11920,7 @@ shadow is applied directly to the text shapes:</p>
 
 <p>Padding is a way of making an element a little bigger than it would normally be.  Similar to margin, there are four padding properties.  The values are dimension units that can be 0 or a positive value; negative values are not allowed.</p>
 
-<pre>padding-top: 0;
+<pre class="dpw-code">padding-top: 0;
 
 padding-right: 1em;
 
@@ -11882,7 +11930,7 @@ padding-left: 12px;</pre>
 
 <p>Similar to margin, this can be abbreviated with the padding property.</p>
 
-<pre>padding: &lt;top&gt; &lt;right&gt; &lt;bottom&gt; &lt;left&gt;;
+<pre class="dpw-code">padding: &lt;top&gt; &lt;right&gt; &lt;bottom&gt; &lt;left&gt;;
 
 padding: &lt;top and bottom&gt; &lt;right and left&gt;;
 
@@ -13874,7 +13922,7 @@ align-items:center;.  The individual items have their align-self property set.</
 to use flexbox satisfactorily without it. One of the most exciting flexbox properties 
 is also its simplest: order.</p>
 
-<pre>.item { order: 2; }</pre>
+<pre class="dpw-code">.item { order: 2; }</pre>
 
 <p>The order property allows you to determine the order in which the item appears 
 in the flexbox.  This allows you to present the information in the flexbox layout 
