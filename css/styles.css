@@ -10,12 +10,14 @@ img.displayed {
 }
 
 ul li {
-  padding: 10px;
+  font-size: 14.5px;
+  padding: 14.5px;
   line-height:110%;
   font-family: Bahnschrift, Inter, Helvetic, sans-serif, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVue Sans Mono";
 }
 ol li {
-  padding: 10px;
+  font-size: 14.5px;
+  padding: 14.5px;  /* 10px */
   line-height:110%;
   font-family: Bahnschrift, Inter, Helvetic, sans-serif, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVue Sans Mono";
 }
@@ -66,13 +68,14 @@ pre .cl {
   clear: both;
 }
 pre {
+  width: 400px;
   overflow: auto;
 }
 pre[href]:hover  {
   text-decoration: none;
 }
 pre:hover, pre:focus {
-  width: 50%;  /* was: fit-content; before that; width: min-content */
+  width: 400px;  /* was: 50%, fit-content; before that; width: min-content */
 }
 
 a:link {
