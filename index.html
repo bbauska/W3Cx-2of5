@@ -11805,8 +11805,7 @@ round cornered rectangles. Join the fun by using the border-radius property:</p>
   alt="Silence is golden, 1."
   style="width:40%;" />
 
-<p>Note this is fun to use with a background color or background image
-and no border at all:</p>
+<p>Note this is fun to use with a background color or background image and no border at all:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 125. silence is golden, 2 (275) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -12070,8 +12069,8 @@ on layout engine testing and development for Gecko and managing the CSS test sui
 <p>Your favorite browser is not always right.</p>
 
 <ul>
-  <li><b>Don’t use proprietary features!</b><br> Keep the Web open to everyone! Don’t rely on the latest -WebKit- invention.<br></li>
-  <li><b>Turn off CSS:</b><br>  A well-coded page will be understandable without it.</li>
+  <li><b>Don’t use proprietary features!</b> Keep the Web open to everyone! Don’t rely on the latest -WebKit- invention.</li>
+  <li><b>Turn off CSS:</b>  A well-coded page will be understandable without it.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Foundations</h4>
@@ -13211,33 +13210,31 @@ most powerful and useful aspects of these elements.</p>
 <p>However, when we use an explicit width or height property, we remove that 
 variability from the element. This makes it less powerful and less useful.</p>
 
-<p>The min-width and min-height properties allow us to set a minimum boundary 
-for that variability, but otherwise the variable sizing of the element is 
-unimpeded. So if we have min-width:300px; that means the element will be 
-300 pixels or possibly wider.</p>
+<p>The min-width and min-height properties allow us to set a minimum boundary for that 
+variability, but otherwise the variable sizing of the element is unimpeded. So if we have 
+min-width:300px; that means the element will be 300 pixels or possibly wider.</p>
 
-<p>Likewise the max-width and max-height properties allow us to set a 
-maximum boundary for the variability.</p>
+<p>Likewise the max-width and max-height properties allow us to set a maximum boundary 
+for the variability.</p>
 
-<p>As we move into flexbox based layouts, variability in our design 
-will become very important.</p>
+<p>As we move into flexbox based layouts, variability in our design will become very important.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Best practice</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Unless you have good cause, try to avoid using explicit dimension properties 
-like width and height.  If you must control the dimensions, consider using the 
-min- or max- variants.</p>
+<p>Unless you have good cause, try to avoid using explicit dimension properties like 
+width and height.  If you must control the dimensions, consider using the min- or max- 
+variants.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Cropping and scrolling: overflow</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>If the element’s dimensions are overdetermined by the sizing properties, 
-then its content may not fit. In the example below, the width and height of 
-the paragraph have been set too small for its content.  As a result, the 
-content overflows the rectangle of the paragraph. We’ve made this easier to 
-see by adding a border and background color to the paragraph.</p>
+<p>If the element’s dimensions are overdetermined by the sizing properties, then its 
+content may not fit. In the example below, the width and height of the paragraph have 
+been set too small for its content. As a result, the content overflows the rectangle of 
+the paragraph. We’ve made this easier to see by adding a border and background color to 
+the paragraph.</p>
 
-<p>This default behavior, that content that doesn’t fit is shown anyway, can 
-be surprising if you weren’t expecting it.</p>
+<p>This default behavior, that content that doesn’t fit is shown anyway, can be surprising 
+if you weren’t expecting it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 146. cropping and scrolling overflow (312) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -13254,23 +13251,21 @@ related properties: overflow, overflow-x, and overflow-y.</p>
 
 <pre>p { overflow: auto; }</pre>
 
-<p>With common text, overflowing normally only occurs in the vertical
-direction (like in the example above). But if your element contains
-images, extremely long words, or has adjusted CSS white spacing
-properties, then content can overflow horizontally as well.
- The overflow property applies a common policy to both situations, and
-the overflow-x and overflow-y properties let you assign different
-policies for horizontal versus vertical overflow.</p>
+<p>With common text, overflowing normally only occurs in the vertical direction (like in 
+the example above). But if your element contains images, extremely long words, or has 
+adjusted CSS white spacing properties, then content can overflow horizontally as well.
+The overflow property applies a common policy to both situations, and the overflow-x and 
+overflow-y properties let you assign different policies for horizontal versus vertical 
+overflow.</p>
 
-<p>There are five possible values: unset, auto, vible, hidden,
-and scroll. In the example below, the paragraphs are limited to a height
-of 100 pixels.</p>
+<p>There are five possible values: unset, auto, visible, hidden, and scroll. In the 
+example below, the paragraphs are limited to a height of 100 pixels.</p>
 
 <ol type="1">
-  <li>unset  both the default value when overflow has not been set and a value that can 
+  <li>unset both the default values when overflow has not been set and a value that can 
     be explicitly set.</li>
   <li>The interpretation for the auto value may vary from browser to browser. Typically, 
-    if a scroll bar  needed, it  shown, but if it is not needed, no scroll bar is shown.  
+    if a scroll bar is needed, it is shown, but if it is not needed, no scroll bar is shown. 
     In the example below, no horizontal scroll bar is needed, so none is shown. If there 
     was less content in the paragraph, then no scroll bar would be shown at all.</li>
   <li>When the value is scroll, then the scroll bars are <em>always</em> shown, whether 
@@ -13665,14 +13660,14 @@ axes <em>and</em> the start and end points would change for each of these combin
 for flex-flow :</p>
 
 <ul>
-  <li>row wrap<br></li>
-  <li>row wrap-reverse<br></li>
-  <li>row-reverse wrap<br></li>
-  <li>row-reverse wrap-reverse<br></li>
-  <li>column wrap<br></li>
-  <li>column wrap-reverse<br></li>
-  <li>column-reverse wrap<br></li>
-  <li>column-reverse wrap-reverse<br></li>
+  <li>row wrap</li>
+  <li>row wrap-reverse</li>
+  <li>row-reverse wrap</li>
+  <li>row-reverse wrap-reverse</li>
+  <li>column wrap</li>
+  <li>column wrap-reverse</li>
+  <li>column-reverse wrap</li>
+  <li>column-reverse wrap-reverse</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Main axis for sizing, cross axis for alignment</h4>
@@ -13683,11 +13678,11 @@ the names of any CSS properties or values.  The following properties control beh
 along the main axis. We are already familiar with all of them, except justify-content.</p>
 
 <ul>
-  <li>flex<br></li>
-  <li>flex-grow<br></li>
-  <li>flex-shrink<br></li>
-  <li>flex-basis<br></li>
-  <li>justify-content<br></li>
+  <li>flex</li>
+  <li>flex-grow</li>
+  <li>flex-shrink</li>
+  <li>flex-basis</li>
+  <li>justify-content</li>
 </ul>
 
 <p>All the properties above control how a flex item might
@@ -13698,9 +13693,9 @@ container spaces out and positions flex items.</p>
 along the cross axis:</p>
 
 <ul>
-  <li>align-content<br></li>
-  <li>align-items<br></li>
-  <li>align-self<br></li>
+  <li>align-content</li>
+  <li>align-items</li>
+  <li>align-self</li>
 </ul>
 
 <p>These properties all govern how a flex item might be <em>aligned</em> or positioned 
@@ -13908,14 +13903,11 @@ of 1, the second is 2, etc.  And you can override it.</p>
   <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" 
     target="_blank" rel="noopener noreferrer">A complete guide to Flexbox (CSS Tricks)</a> 
 	- <i>updated 7 April 2021</i></li>
-  
   <li><a href="https://www.smashingmagazine.com/2018/10/flexbox-use-cases/" 
     target="_blank" rel="noopener noreferrer">Use cases for Flexbox</a> 
 	(Smashing Magazine) - <i>October 2018</i></li>
-  
   <li><a href="https://www.w3.org/TR/css-flexbox/" target="_blank" 
     rel="noopener noreferrer">CSS Flexible Box Layout</a>, the W3C specification</li>
-  
   <li><a href="https://flexboxfroggy.com/" target="_blank" 
     rel="noopener noreferrer">Flexbox froggy</a> (game to practice CSS flexbox code)</li>
 </ul>
