@@ -1404,7 +1404,7 @@ tag or the beginning of a new tag (representing a nested element). This is done 
 right after the ‘&lt;’ to indicated that it’s a ‘close tag’. To indicate the beginning and end of 
 a paragraph (indicated by the single letter ‘p’) you end up with something like this:</p>
 
-<pre>&lt;p&gt;This is my first paragraph!&lt;/p&gt; The browser sees the letters ‘&lt;p&gt;’ and 
+<p>&lt;p&gt;This is my first paragraph!&lt;/p&gt; The browser sees the letters ‘&lt;p&gt;’ and 
 decides ‘A new paragraph is starting, I’d better start a new line and maybe indent it’. Then when 
 it sees (xyz) it knows that the paragraph it was working on is finished, so it should break the 
 line there before going on to whatever is next.</p>
@@ -1432,25 +1432,17 @@ the tags being the content of the element:</p>
     in between the tags being the content of the element."
   style="width:25%;" />
 
-<p>Most tags have open and close versions, but there are a few strange ones.</p>
-
-<p>We’ll learn more about these later, but we generally refer to the strange ones as “self closing” 
-tags.</p>
-
-<p>Usually these tags represent an element that is completely described by its attributes, and thus 
-there is no need for other content.</p>
-
-<p>So if you see something like this:</p>
+<p>Most tags have open and close versions, but there are a few strange ones. We’ll learn more about 
+these later, but we generally refer to the strange ones as “self closing” tags. Usually these tags 
+represent an element that is completely described by its attributes, and thus there is no need for 
+other content. So if you see something like this:</p>
 
 <pre>&lt;img src=&quot;https://goo.gl/pVxY0e&quot; alt=&quot;Floating flower&quot;/&gt;</pre>
 
 <p>… then you should know that the slash at the end of the open tag is sort of a shorthand for a 
-close tag, so you won’t see any other indication that this element is now complete.</p>
-
-<p>There are also a few tags that don’t even use the ‘/’ at the end, they just don’t have any 
-close tag at all.</p>
-
-<p>This works because all of the information this tag needs is declared in an “attribute”.</p>
+close tag, so you won’t see any other indication that this element is now complete. There are 
+also a few tags that don’t even use the ‘/’ at the end, they just don’t have any close tag at 
+all. This works because all of the information this tag needs is declared in an “attribute”.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 1.3.5 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3-5">1.3.5 Comments</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1498,12 +1490,9 @@ or leaving unfinished business in the file:</p>
  --&gt;</pre>
 
 <p>It’s important to remember that just as HTML, CSS and JavaScript are three different languages, 
-they each have their own notation for handling comments.</p>
-
-<p>This might seem confusing, but it’s actually kind of important that the HTML comment notation, 
-at least, differs from the others.</p>
-
-<p>As for the exact form of those comments, we’ll cover that in good time.</p>
+they each have their own notation for handling comments. This might seem confusing, but it’s 
+actually kind of important that the HTML comment notation, at least, differs from the others.
+As for the exact form of those comments, we’ll cover that in good time.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 1.3.6 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3-6">1.3.6 Attributes</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1521,37 +1510,28 @@ with a class of other elements by setting the ‘class’ attribute.</p>
 <p>The paragraph above has a unique identifier, “paragraph-1” and is part of a class of 
 “regular-paragraphs”.</p>
 
-<p>The letters inside the quotes have no meaning to the browser, they just need to be consistent.</p>
+<p>The letters inside the quotes have no meaning to the browser, they just need to be consistent.
+They are actually strings (of characters), which, as we will soon learn, suggest that if you 
+want to have another paragraph in this class, it has to say “regular-paragraphs”, not “regular” 
+or “Regular-Paragraphs” or any other variation.</p>
 
-<p>They are actually strings (of characters), which, as we will soon learn,
-suggest that if you want to have another paragraph in this class, it has
-to say “regular-paragraphs”, not “regular” or “Regular-Paragraphs” or
-any other variation.</p>
+<p>Again, the fact that the computer does not care what we put in those strings (except for some 
+restrictions) means we can use them to convey meaning to a human developer. I could just as easily 
+have said id=‘x’ and class=‘y’, but anyone looking at that would have no hint what the significance 
+of x and y are.</p>
 
-<p>Again, the fact that the computer does not care what we put in those
-strings (except for some restrictions) means we can use them to convey
-meaning to a human developer.</p>
-
-<p>I could just as easily have said id=‘x’
-and class=‘y’, but anyone looking at that would have no hint what the
-significance of x and y are.</p>
-
-<p>Best practice is to name these things to increase clarity, consistency and brevity.</p>
-
-<p>But more about attributes in the next module.</p>
+<p>Best practice is to name these things to increase clarity, consistency and brevity. But more 
+about attributes in the next module.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 1.3.7 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3-7">1.3.7 All Together Now</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>One key to understanding HTML, or any computer language, is to be sure that you avoid 
-ambiguity, because computers generally are not good at judgement calls.</p>
-
-<p>For example, you could streamline HTML so that whenever you see a &lt;p&gt; tag, you start 
-a new paragraph, no close tag needed.</p>
+<p>One key to understanding HTML, or any computer language, is to be sure that you avoid ambiguity, 
+because computers generally are not good at judgement calls. For example, you could streamline HTML 
+so that whenever you see a &lt;p&gt; tag, you start a new paragraph, no close tag needed.</p>
 
 <p>That might work most of the time, but that would prevent you from nesting one element inside 
-another, as the browser could not know if you meant the new element to be nested or a successor.</p>
-
-<p>A human designer might be able to tell what you meant from the context, and knowing that 
+another, as the browser could not know if you meant the new element to be nested or a successor.
+A human designer might be able to tell what you meant from the context, and knowing that 
 mistakes happen choose the one she thinks is best suited in that case.</p>
 
 <p>A browser, on the other hand, has difficulty with a task like that, so it is helpful to use a 
@@ -1583,28 +1563,24 @@ only see one paragraph and layout accordingly.</i></p>
 
 <p>On the other hand, you might think that since a browser always knows exactly what tag it is 
 working with (<a href="https://en.wikipedia.org/wiki/Eidetic_memory" target="_blank" rel="noopener
-noreferrer">eidetic memory</a>), you could provide a sort of “universal close tag” that doesn’t 
-specify the type that it’s closing. It would know to close the current tag. While that’s 
-technically true, it’s handy to have the close tag there for people reading the code. The close 
-tag makes it easier to remember what tag it is closing. We humans can get confused trying to
-remember that kind of detail.</p>
+noreferrer" title="Eidetic memory">eidetic memory</a>), you could provide a sort of “universal 
+close tag” that doesn’t specify the type that it’s closing. It would know to close the current 
+tag. While that’s technically true, it’s handy to have the close tag there for people reading 
+the code. The close tag makes it easier to remember what tag it is closing. We humans can get 
+confused trying to remember that kind of detail.</p>
 
 <p>But there are other ambiguities to consider. For example, when a browser receives a file, it may 
-know that it’s receiving an HTML file, but it won’t know which version of HTML is used (it matters).</p>
-
-<p>That’s why <b>the first thing you need in any HTML file</b> is a tag to tell you what type of 
+know that it’s receiving an HTML file, but it won’t know which version of HTML is used (it matters).
+That’s why <b>the first thing you need in any HTML file</b> is a tag to tell you what type of 
 HTML file it is:</p>
 
 <pre>&lt;!DOCTYPE html&gt;</pre>
 
 <p>In other words, the first thing the browser sees is the declaration “This is an HTML5 file, in 
-case you were wondering”.</p>
-
-<p>It may seem tedious to put this at the top of every file, but believe me, it used to be worse.</p>
-
-<p>You probably noticed that it doesn’t say “!DOCTYPE HTML5” but just “html”.</p>
-
-<p>HTML5 can do this because all the previous versions were much more long winded.</p>
+case you were wondering”. 
+It may seem tedious to put this at the top of every file, but believe me, it used to be worse.
+You probably noticed that it doesn’t say “!DOCTYPE HTML5” but just “html”.
+HTML5 can do this because all the previous versions were much more long winded.</p>
 
 <p>For example, at the top of an HTML 4.01 page, you might have something like this:</p>
 
@@ -1621,16 +1597,13 @@ using an &lt;html&gt; tag:</p>
 
 <pre>&lt;html&gt;</pre>
 
-<p>Nearly every HTML document has two parts. The body is the main content of the page, 
-containing text, images, tables and so on.</p>
-
-<p>The head comes before the body (on top?). It is where you put information about the document 
-that does not really go in the body, AKA ‘meta-’ information. Things like what kind of character 
-set the page is using, where the browser can find style tips, and what the title of the page is 
-(which might be different from the title the user reads) all go in the &lt;head&gt;.</p>
-
-<p>If you have been paying attention, you should be able to create a very basic html file, in 
-the right form, without any content.</p>
+<p>Nearly every HTML document has two parts. The body is the main content of the page, containing 
+text, images, tables and so on. The head comes before the body (on top?). It is where you put 
+information about the document that does not really go in the body, AKA ‘meta-’ information. 
+Things like what kind of character set the page is using, where the browser can find style tips, 
+and what the title of the page is (which might be different from the title the user reads) all go 
+in the &lt;head&gt;. If you have been paying attention, you should be able to create a very basic 
+html file, in the right form, without any content.</p>
 
 <p>Hint, for the head of the document you would write:</p>
 
@@ -1662,9 +1635,8 @@ this:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 1.4.1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-4-1">1.4.1 Character Encoding</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>A character can be any letter, digit or symbol that makes up words and languages.</p>
-
-<p>English alphabets and digits ‘a-z’, ‘A-Z’, ‘0-9’ are all considered characters.</p>
+<p>A character can be any letter, digit or symbol that makes up words and languages.
+English alphabets and digits ‘a-z’, ‘A-Z’, ‘0-9’ are all considered characters.</p>
 
 <p>Other examples of characters include the Latin letter 
 <a href="http://www.w3.org/International/questions/images/225.png" target="_blank" rel="noopener 
@@ -13801,3 +13773,4 @@ Last Updated 12-30-2025 Tue 9+pm</h6>
 
 </body>
 </html>
+
