@@ -13,7 +13,7 @@ ul,ol li {
   font-size: 14.5px;
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   padding: 14.5px;  /* 10px */
-  margin-left: 3em; /* was blank */
+  margin-left: 1.5em; /* last 3em, prior was blank */
   line-height: 125%;  /* 110% */
 }
 
@@ -102,18 +102,6 @@ details > p {
 details[open] > summary {
   background-color: #ffff00;  /* yellow */
 }
-<!--
-background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%)
-body {
-  font-family: Bahnschrift, Inter, Helvetic, sans-serif;
-  font-size: 13.5px;  /* 1.2rem; */
-  background-color: #eee;  /* very light gray */
-  color: #000000;  /* black */
-  text-align: left;
-  padding: 10px;
-  margin: 15px;  /* was margin-left: 10px; */
-}
--->
 body {
   /* 1. Core Typography & Layout */
   font-family: Bahnschrift, Inter, Helvetica, sans-serif;
@@ -129,7 +117,7 @@ body {
   
   /* 3. Gradient Fixes (Ensure it fills the screen) */
   background-attachment: fixed; /* Keeps gradient in place while scrolling */
-  min-height: 100vh;           /* Ensures gradient covers the full viewport height */
+  min-height: 100vh;            /* Ensures gradient covers the full viewport height */
 }
 #myBtn {
   display: none;
@@ -196,12 +184,6 @@ pre .cl {
   display: block;
   clear: both;
 }
-<!--
-pre {
-  width: 400px;
-  overflow: auto;
-}
--->
 pre[href]:hover  {
   text-decoration: none;
 }
