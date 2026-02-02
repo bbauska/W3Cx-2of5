@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ index.html of w3cx-2of5.bauska.org ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<head>
+  <meta charset="utf-8" />
+  <link rel="shortcut icon" type="image/jpg" href="/images/favicon.ico">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <meta name="author" content="Brian Bauska (bbauska)">
+  <meta name="title" content="W3Cx-2of5">
+  <meta name="keywords" content="steak,Steak,YouTube,Sonic,sonic,SONIC,Silus,Gaming,World,
+    Silus Gaming World,Luccas Neto,T-Series,SET India,Cocomelon,Mr Beast,MrBeast,Beast,CE1,C-E-1,
+    MRBEAST,BEAST,Silus Gaming World,Silus,Silus Spider,Nick AR,Nick,NY,NYNick,New York Nick,
+    NY Nick,UR Cristiano,UR,Cristiano,Kids Dima Show,Vlad and Niki,Luisito Comunica,Bright Side,
+    Zee TV,Dude Perfect,Tips Official,Tips Official,FNAF,Five Nights at Freddies,The Music Company,
+    PewDiePie,5 minute crafts,A4,Sambucha,Sam & Colby,Sam&ColbyReacts,Juice World,Ray William
+    Johnson,FGTV,KaicenatLive,IShowSpeed,Jelly,DanTDM,KSI,Logan Paul,JackSucksAtLife,roblox,#roblox,
+    PackGOD,JakePaul,Jake,Paul Jake Paul,SamGaming01,Veshreny,WWE,WorldWrestlingEntertainment,
+    Smosh,DadsSpeed,TopperGuild,InternetAnarchist,GuavaJuice,Fortnite Youtubers,Sypherpk,LiveSPEEDY,
+    AdenRoss,Preston,JohnnieJuilbert,YouTube Movies,AnnoyingOrange,JackSepticeye,JackFilms,BBNo$,
+    Unspeakable,MarkRober,TheFilmTheorist,TheGameTheorist,Minecraft,TheBoys,JTMusic,DAFUQBoom!?,
+    AIMIN,Robby,BrentTV,EYStream,Fortnite,Ninja,SunnyV2,N30N,SamFrank,Dream,Technoblade,
+    RyanTrhan,Stellar,DJCook,AnthonyMadia,AnthonyIlla,SmoshGaming,SmoshPit,SmoshCast,Fred,cellardoor,
+    Brian's Blog,Cellar Door,Anti-Project 2025,Project 2025,Project,project,#silusgw,#silus,#silas,
+    #silasgamingworld,#silasgw,#sylusgw,#sylasgw,#gaming,#gamingworld,#silusgamingworld">
+  <meta name="description" content="W3Cx 2of5.">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="/images/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/images/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/images/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/images/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/images/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/images/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/images/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/images/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/images/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <title>W3Cx2of5</title>
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+</head>
+<body>
+<div id="st-container" class="st-container">
+
+  <nav class="st-menu st-effect-1" id="menu-1">
+    <h2 class="icon icon-lab">Sidebar</h2>
+    <ul>
+      <li><a class="icon icon-about" href="https://W3Cx-2of5.bauska.org/about.html">About W3C and the Web</a></li>
+      <li><a class="icon icon-course-info" href="https://W3Cx-2of5.bauska.org/course-info.html">Course Information</a></li>
+      <li><a class="icon icon-mod1" href="https://W3Cx-2of5.bauska.org/mod1.html">Mod 1: My first Web page in HTML5</a></li>
+      <li><a class="icon icon-mod2" href="https://W3Cx-2of5.bauska.org/mod2.html">Mod 2: Attributes, images and links</a></li>
+      <li><a class="icon icon-mod3" href="https://W3Cx-2of5.bauska.org/mod3.html">Mod 3: Adding style with CSS</a></li>
+      <li><a class="icon icon-mod4" href="https://W3Cx-2of5.bauska.org/mod4.html">Mod 4: Fixing and debugging</a></li>
+      <li><a class="icon icon-mod5" href="https://W3Cx-2of5.bauska.org/mod5.html">Mod 5: More HTML5 and CSS</a></li>
+      <li><a class="icon icon-mod6" href="https://W3Cx-2of5.bauska.org/mod6.html">Mod 6: Basics of page layout</a></li>
+    </ul>
+  </nav>
+</div>
+
+  <script async src="./js/script.js"></script>
+</body>
+</html>
