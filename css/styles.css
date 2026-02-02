@@ -13,8 +13,8 @@ ul li,ol li {
   font-size: 14.5px;
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   padding: 13px;  /* 14.5, 10px */
-  margin-left: 1.5em; /* last 3em, prior was blank */
-  line-height: 125%;  /* 110% */
+  margin-left: 1.0em; /* last 3em, prior was blank */
+  line-height: 110%;  /* 110% */
 }
 
 p { 
@@ -112,7 +112,7 @@ body {
   margin: 15px;
 
   /* 2. Background Handling */
-  background-color: #eee; /* Fallback for older browsers */
+  background-color: #eeeeee; /* Fallback for older browsers */
 <!--  background-image: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);  -->
   
   /* 3. Gradient Fixes (Ensure it fills the screen) */
