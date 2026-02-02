@@ -9,10 +9,10 @@ img.displayed {
   border-style: solid; 
 }
 
-ul,ol li {
+ul li,ol li {
   font-size: 14.5px;
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
-  padding: 14.5px;  /* 10px */
+  padding: 13px;  /* 14.5, 10px */
   margin-left: 1.5em; /* last 3em, prior was blank */
   line-height: 125%;  /* 110% */
 }
@@ -81,7 +81,7 @@ h6 {
 
 details {
   font: 14px Bahnschrift, Inter, sans-serif, Calibri;
-  width: 65%;
+  width: 75%;
 }
 details > summary {
   width: 12em;
@@ -135,21 +135,21 @@ body {
   border-radius: 1px;
 }
 #myBtn:hover {
-  background-color: #555;  /* very dark gray */
+  background-color: #555555;  /* very dark gray */
 }
 
 th, td {
-  border: 1px solid #000;  /* black */
+  border: 1px solid #000000;  /* black */
 }
 table {
   border-collapse: collapse;
   margin-left: 15px;
-  border: 1px solid #000;  /* black */
+  border: 1px solid #000000;  /* black */
 }
 
 pre {
   font: normal normal 10px/12px consolas,Courier,Monospace;
-  background-color: #eee;  /* very light gray */
+  background-color: #eeeeee;  /* very light gray */
   overflow: auto;
   margin: 0 0 1em;
   padding: .5em 1em;
@@ -165,7 +165,7 @@ pre > code {
 pre code,
 pre .line-number {
   font: normal normal 10px/12px consolas,Courier,Monospace;
-  color: #000;  /* black */
+  color: #000000;  /* black */
   display: block;
 }
 pre .line-number {
@@ -188,7 +188,7 @@ pre[href]:hover  {
   text-decoration: none;
 }
 pre:hover, pre:focus {
-  width: 400px;  /* was: 50%, fit-content; before that; width: min-content */
+  width: 475px;  /* was: 400px; prior: 50%, fit-content; before that; width: min-content */
 }
 
 @media all and (max-width: 500px) {
