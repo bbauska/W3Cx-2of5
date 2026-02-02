@@ -161,7 +161,8 @@ function scrollFunction() {
 </blockquote>
 
 <p><a href="https://github.com/bbauska/W3Cx-2of5/edit/main/index.html" target="_blank" 
-  rel="noopener noreferrer">Shall We? HTML5 and CSS Fundamentals - git</a></p>
+  rel="noopener noreferrer" title="HTML and CSS fundamentals in github">
+  Shall We? HTML5 and CSS Fundamentals - git</a></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Course Outline:</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5088,19 +5089,26 @@ During this time, the link will be red and underlined.</p>
   <summary>HTML code extract!</summary>
 
 <pre class="dpw-code">&lt;!-- Text in a hyperlink--&gt;
-&lt;a target=&quot;_blank&quot;  rel=&quot;noopener noreferrer&quot; href=&quot;https://www.qwant.com/&quot;&gt;If you click on me, I will take you to qwant.com&lt;/a&gt;
+&lt;a target=&quot;_blank&quot;  rel=&quot;noopener noreferrer&quot; 
+href=&quot;https://www.qwant.com/&quot;&gt;
+If you click on me, I will take you to qwant.com&lt;/a&gt;
 &lt;!-- Paragraph in a hyperlink--&gt;
-&lt;a target=&quot;_blank&quot;  rel=&quot;noopener noreferrer&quot; href=&quot;https://www.qwant.com/&quot;&gt;&lt;p&gt;If you click on me, I will take you to qwant.com&lt;/p&gt;&lt;/a&gt;
+&lt;a target=&quot;_blank&quot;  rel=&quot;noopener noreferrer&quot; 
+href=&quot;https://www.qwant.com/&quot;&gt;&lt;p&gt;If you click on me, 
+I will take you to qwant.com&lt;/p&gt;&lt;/a&gt;
 &lt;!-- Image in a hyperlink--&gt;
-&lt;a target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; href=&quot;https://www.qwant.com/&quot;&gt;&lt;img src=&quot;images/qwant-image.png&quot; alt=&quot;Image navigating to Qwant&quot;;&gt;&lt;/a&gt;</pre>
+&lt;a target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; 
+href=&quot;https://www.qwant.com/&quot;&gt;&lt;img 
+src=&quot;images/qwant-image.png&quot; alt=&quot;Image navigating to 
+Qwant&quot;;&gt;&lt;/a&gt;</pre>
 
 </details>
 
-<p>You can even use the anchor element to add your email address under the contacts 
-section of your Web page.</p>
+<p>You can even use the anchor element to add your email address under the contacts section of your 
+Web page.</p>
 
-<pre>Feedback: &lt;a href=&quot;mailto:authors@example.com&quot;&gt;Send Mail to
-  Authors&lt;/a&gt;&lt;/p&gt;</pre>
+<pre>Feedback: &lt;a href=&quot;mailto:authors@example.com&quot;&gt;
+  Send Mail to Authors&lt;/a&gt;&lt;/p&gt;</pre>
 
 <p>Result (try the hyperlink below):</p>
 
@@ -5239,22 +5247,21 @@ title="Media query level 3">media query </a>and is a combination of <b>device ty
 will redirect you to a print version of the same. You want this print version to be formatted into 
 one page ideal for printing and with resolution of 250 dpi. Here is how the HTML5 code will look like:</p>
 
-<pre>&lt;a href=&quot;https://en.wikipedia.org/wiki/Media_queries?output=print&quot; media=&quot;print
-  and (resolution:250dpi)&quot;&gt;Print wiki page about media queries&lt;/a&gt;</pre>
+<pre>&lt;a href=&quot;https://en.wikipedia.org/wiki/Media_queries?output=print&quot; 
+  media=&quot;print and (resolution:250dpi)&quot;&gt;Print wiki page about 
+  media queries&lt;/a&gt;</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>The ‘download’ attribute</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>The download attribute is also new in HTML5 and it makes a link
-download a file instead of navigate to another location. It takes in the
-filename as value but the value is optional. So the download attribute
-can be specified in the following ways:</p>
+<p>The download attribute is also new in HTML5 and it makes a link download a file instead of 
+navigate to another location. It takes in the filename as value but the value is optional. So the 
+download attribute can be specified in the following ways:</p>
 
 <pre>&lt;a href=&quot;assets/hello.txt&quot; download&gt;
 &lt;a href=&quot;assets/hello.txt&quot; download=&quot;new-name-for-text-file&quot;&gt;</pre>
 
-<p>If you do not specify a value for download, it will download the file
-with name unchanged. Else it will download the file with file name
-modified according to value specified.</p>
+<p>If you do not specify a value for download, it will download the file with name unchanged. Else 
+it will download the file with file name modified according to value specified.</p>
 
 <pre>&lt;a href=&quot;/assets/hello.txt&quot; download&gt;
   ... will download the file with the same name - &#39;hello.txt&#39;.
@@ -5447,9 +5454,9 @@ the live coding video at the end of this page).</p>
     &lt;article id=&quot;soup&quot;&gt;
       &lt;h2&gt;Soup&lt;/h2&gt;
       &lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/2/22/Bol_soupe_bicolore.jpg&quot;
-      alt=&quot;soup image&quot; width=320&gt;
-      &lt;p&gt;Beethoven once said &lt;q&gt;Only the pure of heart can make a good
-      soup&lt;/q&gt;. Well, here&#39;s my attempt at doing just that!&lt;/p&gt;
+        alt=&quot;soup image&quot; width=320&gt;
+        &lt;p&gt;Beethoven once said &lt;q&gt;Only the pure of heart can make a good
+        soup&lt;/q&gt;. Well, here&#39;s my attempt at doing just that!&lt;/p&gt;
       &lt;ol&gt;
         &lt;li&gt;Step 1&lt;/li&gt;
         &lt;li&gt;Step 2&lt;/li&gt;
@@ -5459,9 +5466,9 @@ the live coding video at the end of this page).</p>
     &lt;/article&gt;
     &lt;article id=&quot;salad&quot;&gt;
       &lt;h2&gt;Salad&lt;/h2&gt;
-      &lt;img
-      src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Caesar_salad_%281%29.jpg/320px-Caesar_salad_%281%29.jpg&quot;
-        alt=&quot;salad image&quot; width=320&gt;
+      &lt;img src=&quot;
+	  https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Caesar_salad_%281%29.jpg/320px-Caesar_salad_%281%29.jpg 
+	  &quot; alt=&quot;salad image&quot; width=320&gt;
       &lt;h3&gt;List of ingredients&lt;/h3&gt;
       &lt;ul&gt;
         &lt;li&gt;Ingredient 1&lt;/li&gt;
@@ -5906,7 +5913,8 @@ several lines. But they <b>cannot</b> be nested.</p>
   <summary>CSS code extract!</summary>
 
 <pre class="dpw-code">p {
-  font-size: 8px; /* client insists small text makes them more &#39;professional&#39;. */
+  font-size: 8px; /* client insists small text makes them more 
+  &#39;professional&#39;. */
   /* I hope his idea of &#39;professional&#39; includes paying on time. */
   line-height: 24px; /* see above */
   /* none of the stuff below is working. I don&#39;t know why.
@@ -5966,14 +5974,12 @@ href="https://codepen.io/w3devcampus/pen/QvQgbr">CodePen.</a></p>
 
 </details>
 
-<p>You could also take another short text (such as a poem) and apply the
-styles you like on it.</p>
+<p>You could also take another short text (such as a poem) and apply the styles you like on it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 3.2.6 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-2-6">3.2.6 CSS Rules</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Hi, this is Adrian from Microsoft learning, and we’re going to be
-learning today about CSS and HTML, and the ways in which they play
-together.</p>
+<p>Hi, this is Adrian from Microsoft learning, and we’re going to be learning today about CSS and 
+HTML, and the ways in which they play together.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 54b. on the inventor of gunpower by john milton (140) ~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -5983,18 +5989,17 @@ together.</p>
   alt="On the Inventor of Gunpower, by John Milton."
   style="width:35%;" />
   
-<p>If you look at this file that I have opened right now in Visual
-Studio Code, it’s the Gunpowder file which you should be at least a
-little bit familiar with from the lesson, and it’s pretty
+<p>If you look at this file that I have opened right now in Visual Studio Code, it’s the Gunpowder 
+file which you should be at least a little bit familiar with from the lesson, and it’s pretty 
 straightforward.</p>
 
 <p>We’ve got a title, we’ve got a style section.</p>
 
-<p>This is where we’re going to be making changes to the CSS later to
-make it look and feel a little bit different.</p>
+<p>This is where we’re going to be making changes to the CSS later to make it look and feel a 
+little bit different.</p>
 
-<p>And we’ve got our header tag, we’ve got our address and of course the
-poem which is being held in this fantastic paragraph tag.</p>
+<p>And we’ve got our header tag, we’ve got our address and of course the poem which is being held 
+in this fantastic paragraph tag.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 55b. on the inventor of gunpower by john milton (141) ~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -6004,26 +6009,22 @@ poem which is being held in this fantastic paragraph tag.</p>
   alt="On the Inventor of Gunpower, by John Milton."
   style="width:25%;" />
 
-<p>Before we get started, let’s just take a look at what this looks like
-here in the Microsoft Edge. And you can see it’s pretty straightforward.
-We’ve got our title, we’ve got author, and the poem of course.
-But I think this looks a little bit boring.
-Let’s change the way that this looks.</p>
+<p>Before we get started, let’s just take a look at what this looks like here in the Microsoft 
+Edge. And you can see it’s pretty straightforward. We’ve got our title, we’ve got author, and the 
+poem of course. But I think this looks a little bit boring. Let’s change the way that this looks.</p>
 
-<p>The first thing I want to do is make all the text a little bit bigger.
-I’m going to do that. I’m going to create a new default text size such that
-everything in the file is now a little bit bigger, and that everything
-relative to that will be bigger as well. I’m going to do that by creating a new 
-rule for both body and html. I like to do both here because it eliminates some 
-of the confusion. Different browsers have different ways of interpreting what 
-is going to be sort of the default rule.</p>
+<p>The first thing I want to do is make all the text a little bit bigger. I’m going to do that. 
+I’m going to create a new default text size such that everything in the file is now a little bit 
+bigger, and that everything relative to that will be bigger as well. I’m going to do that by 
+creating a new rule for both body and html. I like to do both here because it eliminates some 
+of the confusion. Different browsers have different ways of interpreting what is going to be sort 
+of the default rule.</p>
 
-<p>If you just do both like this, it’ll be of ubiquitous in the way that
-it handles relative size. Let’s just say we want to make a new font size.
-I don’t know… 20 pixels. You could see that Visual Studio Code give me some handy tips for
-things that I might be talking about as soon as I typed in the word font, which 
-is nice because CSS has such a huge vocabulary. It’s good that you don’t have to 
-memorize every single little attribute. We’ve changed just to 20.</p>
+<p>If you just do both like this, it’ll be of ubiquitous in the way that it handles relative size. 
+Let’s just say we want to make a new font size. I don’t know… 20 pixels. You could see that Visual 
+Studio Code give me some handy tips for things that I might be talking about as soon as I typed in 
+the word font, which  is nice because CSS has such a huge vocabulary. It’s good that you don’t have 
+to  memorize every single little attribute. We’ve changed just to 20.</p>
 
 <p>Let’s open up the file again and see how that looks. You can see it’s a little 
 bit bigger, but I want to make this 25. It’s not quite big enough yet.</p>
@@ -6126,6 +6127,7 @@ q { font-size: .8em; }
 blockquote { font-size: 10vh; }</pre>
 
 <p>These units are discussed below.</p>
+
 <p>Additionally, font-size supports a more readable set of values that many authors
 prefer: xx-small, x-small, small, medium, large, x-large, xx-large<br>
 and relative sizing (relative to the text of the parent): larger, smaller. 
@@ -6166,31 +6168,29 @@ But on the left, we see line-height:0.5; and on the right, line-height:3;</p>
 </table>
 
 <p>The used value is this unitless <a target="_blank" rel="noopener noreferrer" 
-href="https://developer.mozilla.org/en-US/docs/Web/CSS/number">&lt;number&gt;</a> multiplied
-by the element’s font size.</p>
+href="https://developer.mozilla.org/en-US/docs/Web/CSS/number" title="MDN number">&lt;number&gt;</a> 
+multiplied by the element’s font size.</p>
 
 <p>The computed value is the same as the specified &lt;number&gt;.</p>
 
-<p>In most cases this is the preferred way to set line-height with no unexpected results 
-in case of inheritance.</p>
+<p>In most cases this is the preferred way to set line-height with no unexpected results in case of 
+inheritance.</p>
 
-<p>Read <a target="_blank" rel="noopener noreferrer" href="https://developer.mozilla.org/en-US/docs/Web/CSS/line-height">line-height</a> on the MDN Web site.</p>
+<p>Read <a target="_blank" rel="noopener noreferrer" 
+href="https://developer.mozilla.org/en-US/docs/Web/CSS/line-height" title="MDN line-height">
+line-height</a> on the MDN Web site.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>text-align</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Anyone familiar with a text editor will be familiar with this
-property. It can be used to align the text left, center or right. There
-are additional possible values like justify and justify-all . It usually
-defaults to left. However, remember that you shouldn’t 
-use text-align unnecessarily.</p>
+<p>Anyone familiar with a text editor will be familiar with this property. It can be used to align 
+the text left, center or right. There are additional possible values like justify and justify-all. 
+It usually defaults to left. However, remember that you shouldn’t use text-align unnecessarily.</p>
 
-<p>Note that text-align may <b>not</b> work as expected if applied to
-elements that are the same width as their text, or whose width is
-determined by the text within them (i.e., inline elements).</p>
+<p>Note that text-align may <b>not</b> work as expected if applied to elements that are the same 
+width as their text, or whose width is determined by the text within them (i.e., inline elements).</p>
 
-<p>The tags &lt;span&gt;, &lt;a&gt;, &lt;i&gt;, &lt;b&gt;, &lt;q&gt; and others
-are considered “inline” because they do not receive their own new line
-when used.</p>
+<p>The tags &lt;span&gt;, &lt;a&gt;, &lt;i&gt;, &lt;b&gt;, &lt;q&gt; and others are considered 
+“inline” because they do not receive their own new line when used.</p>
 
 <p>And text-align is often not useful on these tags.</p>
 
@@ -10844,11 +10844,11 @@ animations. There’s even a tag that allows you to put another Web page in your
 this?  Well, it enables a lot of possibilities.</p>
 
 <p>The popular online code editor <a href="https://codepen.io/" target="_blank" 
-rel="noopener noreferrer">CodePen</a> has several iframes in it to display html, css, 
-javascript and output together. Iframes are generally used in Web pages to show external 
-content/resources. The type of content is not limited to other Web pages. You can add 
-YouTube videos or display a PDF file (some browsers will display the file inline while 
-some older browsers will try to download it instead).</p>
+rel="noopener noreferrer" title="CodePen example">CodePen</a> has several iframes in it to display 
+html, css, javascript and output together. Iframes are generally used in Web pages to show external 
+content/resources. The type of content is not limited to other Web pages. You can add YouTube videos 
+or display a PDF file (some browsers will display the file inline while some older browsers will try 
+to download it instead).</p>
 
 <p>An &lt;iframe&gt; tag can be as simple as this:</p>
 
@@ -10912,13 +10912,12 @@ margins, sizes specified with CSS rules:</p>
   height: 200;
 }</pre>
 
-<p>There is one significant problem with iframes. Suppose you create your Web page, 
-containing only an iframe with src=“http://foo.com”, with no borders, padding or 
-margin. By all appearances, you would seem to be on the Web site foo.com. If you 
-don’t look at the URL, it might be difficult to tell. For reasons like this, some 
-Web sites disallow their inclusion, so if you create an iframe with 
-src=“https://google.com”, you’ll get a blank frame and an error message in the 
-console. This isn’t a bug, it’s a feature.</p>
+<p>There is one significant problem with iframes. Suppose you create your Web page, containing only 
+an iframe with src=“http://foo.com”, with no borders, padding or margin. By all appearances, you 
+would seem to be on the Web site foo.com. If you don’t look at the URL, it might be difficult to 
+tell. For reasons like this, some Web sites disallow their inclusion, so if you create an iframe 
+with src=“https://google.com”, you’ll get a blank frame and an error message in the console. This 
+isn’t a bug, it’s a feature.</p>
 
 <p>There are a number of important attributes for an &lt;iframe&gt; tag, but for now we’ll just 
 look at a few of them:</p>
@@ -10934,43 +10933,40 @@ look at a few of them:</p>
 <p><b>Notes:</b></p>
 
 <ol type="1">
-  <li>Certain Web sites like Google and Yahoo disallow embedding their Web pages 
-    in iframes. So you will not be able to use these pages in an iframe.</li>
-  <li>Not all attributes are supported in all browsers. You are encouraged to 
-    explore their browser support before adding to your HTML.</li>
+  <li>Certain Web sites like Google and Yahoo disallow embedding their Web pages in iframes. So you 
+    will not be able to use these pages in an iframe.</li>
+  <li>Not all attributes are supported in all browsers. You are encouraged to explore their browser 
+    support before adding to your HTML.</li>
   <li>You can find more details about iframes from the 
     <a href="https://www.w3.org/TR/html5/embedded-content-0.html#the-iframe-element" 
-    target="_blank" rel="noopener noreferrer">W3C Specification</a>.</li>
+    target="_blank" rel="noopener noreferrer" title="W3C specification">W3C Specification</a>.</li>
 </ol>
 
 <p>Iframes can be very useful:</p>
 
 <ul>
-  <li>Iframes load separately from the main page. However, they do block the 
-    main page’s load command until its content finishes loading. You can avoid 
-    this by applying some Javascript. This allows them to load independently. 
-    Then, if the embedded page you are displaying loads slower, you can use 
-    your parent page to keep the reader occupied.</li>
+  <li>Iframes load separately from the main page. However, they do block the main page’s load 
+    command until its content finishes loading. You can avoid this by applying some Javascript. 
+	This allows them to load independently. Then, if the embedded page you are displaying loads 
+	slower, you can use your parent page to keep the reader occupied.</li>
   <li>Sandboxing provides security.</li>
   <li>Great for third party content like ads.</li>
-  <li>It is convenient to use if you need to have one part of your page 
-    static while the other is changed - i.e. navigation menus. Helps reduce 
-    bandwidth and server load because we can avoid loading the same content 
-    every time a new page is visited in your webpage.</li>
+  <li>It is convenient to use if you need to have one part of your page static while the other is 
+    changed - i.e. navigation menus. Helps reduce bandwidth and server load because we can avoid 
+	loading the same content every time a new page is visited in your webpage.</li>
 </ul>
 
 <p>However, there can be some disadvantages:</p>
 
 <ul>
-  <li>It is easy to misuse them. It should be considered a piece of content in 
-    the webpage and not as an integral part of it.</li>
-  <li>Accessibility of iframes is poor. Screenreaders do not process them well but 
-    you can proceed to use iframes with a notice for the reader.</li>
-  <li>You have no control over the content in an iframe if you display external 
-    content. That content can change anytime or can upload malicious content 
-    without your permission.</li>
-  <li>Search engines have trouble accessing and in turn indexing the content 
-    in your iframes. This doesn’t help your search ranking.</li>
+  <li>It is easy to misuse them. It should be considered a piece of content in the webpage and not 
+    as an integral part of it.</li>
+  <li>Accessibility of iframes is poor. Screenreaders do not process them well but you can proceed 
+    to use iframes with a notice for the reader.</li>
+  <li>You have no control over the content in an iframe if you display external content. That content 
+    can change anytime or can upload malicious content without your permission.</li>
+  <li>Search engines have trouble accessing and in turn indexing the content in your iframes. This 
+    doesn’t help your search ranking.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 5.4.2 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-4-2">5.4.2 The ismap and usemap attributes</h3>
@@ -10994,32 +10990,27 @@ rel="noopener noreferrer">Here is an example</a> of an image-map.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <pre>&lt;img src=&quot;images/logo.png&quot; alt=&quot;ismap tutorial&quot; ismap&gt;</pre>
 
-<p>ismap is a <b>boolean attribute</b> i.e. its value is either true or
-false. Thus, just the presence of the attribute indicates that it is a
-mapped image. To be more precise, we say it is a server-side
-image-map.</p>
+<p>ismap is a <b>boolean attribute</b> i.e. its value is either true or false. Thus, just the 
+presence of the attribute indicates that it is a mapped image. To be more precise, we say it is 
+a server-side image-map.</p>
 
-<p>An &lt;img&gt; tag with the src  and ismap attributes creates an
-image with the image source file and indicates it is a server-side
-image-map. How will your code know that if you click on a part of your
-image, i.e. ‘Australia in a world map’, it should navigate to the
-country’s Wikipedia page? We need to create a map file with these
-details and then add the location of this map file using the anchor
-element. Here is a code sample:</p>
+<p>An &lt;img&gt; tag with the src  and ismap attributes creates an image with the image source 
+file and indicates it is a server-side image-map. How will your code know that if you click on a 
+part of your image, i.e. ‘Australia in a world map’, it should navigate to the country’s Wikipedia 
+page? We need to create a map file with these details and then add the location of this map file 
+using the anchor element. Here is a code sample:</p>
 
 <pre>&lt;a href=&quot;/ismap-image/ismap.cgi&quot; target=&quot;_self&quot;&gt;
   &lt;img src=&quot;images/logo.png&quot; alt=&quot;ismap tutorial&quot; ismap&gt;
 &lt;/a&gt;</pre>
 
-<p>Here, the href attribute points to the location of the map file.
-The target attribute indicates where the page it navigates to should
-open. ’_self’ will open in the same page whereas ’_blank’ will open it
-in a new tab or window.</p>
+<p>Here, the href attribute points to the location of the map file. The target attribute indicates 
+where the page it navigates to should open. ’_self’ will open in the same page whereas ’_blank’ 
+will open it in a new tab or window.</p>
 
-<p>ismap only works if the &lt;img&gt; tag is used within the anchor
-element like in the code above. This is important because without a link
-to the target map file, it has no idea what to do with
-your ismap specification.</p>
+<p>ismap only works if the &lt;img&gt; tag is used within the anchor element like in the code 
+above. This is important because without a link to the target map file, it has no idea what to 
+do with your ismap specification.</p>
 
 <p>Let’s look at how the code above works.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -11041,16 +11032,17 @@ sending these mouse click coordinates to the server. Based on these coordinates,
 map file will return the Web page it should navigate to, to the browser.</p>
 
 <p>Read more about image maps <a href="https://en.wikipedia.org/wiki/Image_map" 
-target="_blank" rel="noopener noreferrer">on wikipedia</a>. You might be inclined 
-to assume an image map will only be used for an actual map. However, there are a 
+target="_blank" rel="noopener noreferrer" title="Wikipedia image maps">on Wikipedia</a>. You might 
+be inclined to assume an image map will only be used for an actual map. However, there are a 
 lot more use cases for it. The <a href="http://www.atlasmagazine.com/win98r.html" 
-target="_blank" rel="noopener noreferrer">Atlas Magazine</a> is a good example.</p>
+target="_blank" rel="noopener noreferrer" title="Atlas magazine example">
+Atlas Magazine</a> is a good example.</p>
 
 <p>Try this: Navigate to the <a href="http://www.atlasmagazine.com/win98r.html" 
-target="_blank" rel="noopener noreferrer">Atlas magazine</a> and explore the 
-header image with a ‘laughing budha’ like image. The image acts as a site navigator. 
-Clicking on different parts of the image will bring you to different parts of the Web 
-page. You can use image maps in many creative ways.</p>
+target="_blank" rel="noopener noreferrer" title="Atlas magazine header image">Atlas magazine</a> 
+and explore the header image with a ‘laughing budha’ like image. The image acts as a site navigator. 
+Clicking on different parts of the image will bring you to different parts of the Web page. You can 
+use image maps in many creative ways.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>The ‘usemap’ attribute</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -11113,7 +11105,7 @@ the alt attribute (short description).</p>
 </ul>
 
 <p>Read more about the <a href="https://www.w3.org/wiki/HTML/Elements/area" 
-target="_blank" rel="noopener noreferrer">area tag here</a>.</p>
+target="_blank" rel="noopener noreferrer" title="W3 area tag">area tag here</a>.</p>
 
 <p>Here is a working example of usemap.</p>
 
@@ -11557,7 +11549,10 @@ rule will be applied to any &lt;a&gt; tag that the user has already visited.
 There can be no spaces on either side of the colon. Pseudo classes can
 be amended onto <i>any</i> CSS selector, not just tag selectors.</p>
 
-<p>A full list of pseudo classes can be found <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes" target="_blank" rel="noopener noreferrer">in the mdn web docs</a>. Let’s look at some of the most common ones.</p>
+<p>A full list of pseudo classes can be found 
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes" target="_blank" 
+rel="noopener noreferrer" title="MDN web docs">in the mdn web docs</a>. 
+Let’s look at some of the most common ones.</p>
 
 <pre>:visited
   a:visited { color: purple; }</pre>
@@ -11627,18 +11622,21 @@ slightly from browser to browser. Common values include: default, pointer, text,
 
 <pre>( cursor: url(&quot;images/my_pointer.png&quot;); ).</pre>
 
-<p>For more information, please visit the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/cursor" target="_blank" rel="noopener noreferrer">MDN page on cursor</a>.</p>
+<p>For more information, please visit the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/cursor" 
+target="_blank" rel="noopener noreferrer" title="MDN page on cursor">MDN page on cursor</a>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 5.5.5 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-5-5">5.5.5 CSS best practices</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>You will find below an excerpt of CSS best practices (see the <a 
 href="https://fantasai.inkedblade.net/style/talks/best-practices/title" target="_blank" 
-rel="noopener noreferrer">full slide set</a>) that were written by  Elika J. Etemad (also known as <a
-href="https://fantasai.inkedblade.net/" target="_blank" rel="noopener noreferrer">fantasai</a>). 
-Elika is an expert on the <a href="https://www.w3.org/Style/CSS/" target="_blank" 
-rel="noopener noreferrer">W3C CSS Working Group</a> (since 2004!) and a longtime contributor 
-to the Mozilla Project. In addition to editing many of the CSS3 specifications, she’s worked 
-on layout engine testing and development for Gecko and managing the CSS test suites at W3C.</p>
+rel="noopener noreferrer" title="Full slide set">full slide set</a>) that were written by Elika 
+J. Etemad (also known as <a
+href="https://fantasai.inkedblade.net/" target="_blank" rel="noopener noreferrer" title="fantasai">
+fantasai</a>). Elika is an expert on the <a href="https://www.w3.org/Style/CSS/" target="_blank" 
+rel="noopener noreferrer" title="W3C CSS working group">
+W3C CSS Working Group</a> (since 2004!) and a longtime contributor to the Mozilla Project. In 
+addition to editing many of the CSS3 specifications, she’s worked on layout engine testing and 
+development for Gecko and managing the CSS test suites at W3C.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Executive summary</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -13493,23 +13491,25 @@ As such they are especially appreciated for (Web) applications with user interfa
 with HTML and CSS.</p>
 
 <p>The Grid module is not yet the ('<a href="https://en.wikipedia.org/wiki/Grid_(graphic_design)" 
-target="_blank" rel="noopener noreferrer">design grid</a>)’ that typographers want for the layout 
-of magazines and books, but it is a first step. (E.g., one obvious thing to do, applying grid 
-properties to an HTML table, doesn’t work, because the properties do not handle nested elements 
-yet.) Even though this is only level 1 of the module, it is well worth trying out. The properties 
-from the Grid module have only been available in major browsers since mid 2017 (see the 
-<a href="http://caniuse.com/#feat=css-grid" target="_blank" rel="noopener noreferrer">
-status of browser support</a>).</p>
+target="_blank" rel="noopener noreferrer" title="Wikipedia design grid">design grid</a>)’ that 
+typographers want for the layout of magazines and books, but it is a first step. (E.g., one obvious 
+thing to do, applying grid properties to an HTML table, doesn’t work, because the properties do not 
+handle nested elements yet.) Even though this is only level 1 of the module, it is well worth trying 
+out. The properties from the Grid module have only been available in major browsers since mid 2017 
+(see the <a href="http://caniuse.com/#feat=css-grid" target="_blank" rel="noopener noreferrer" 
+title="Caniuse status of browser support">status of browser support</a>).</p>
 
 <p>But the ideas behind the Grid module aren’t new. From the start of CSS, there have been proposals 
 to use CSS properties to define a template or matrix to guide the layout of elements, e.g.: 
-<a target="_blank" rel="noopener noreferrer" href="http://www.w3.org/TR/WD-layout">Frame-based
-layout</a>, <a href="http://www.w3.org/TR/2005/WD-css3-layout-20051215/" target="_blank" 
-rel="noopener noreferrer">Advanced Layout</a> (later called <a href="http://www.w3.org/TR/css-template-3/" 
-target="_blank" rel="noopener noreferrer">Template Layout</a>), <a target="_blank" rel="noopener noreferrer" 
-href="https://github.com/gss">Grid Style Sheets</a> and <a target="_blank" rel="noopener noreferrer" 
-href="https://constraints.cs.washington.edu/web/ccss-uwtr.pdf">Constraint CSS</a>.
-But only recently has technology become good enough to support some (not all!) of those ideas.</p>
+<a target="_blank" rel="noopener noreferrer" href="http://www.w3.org/TR/WD-layout" 
+title="W3 frame-based layout">Frame-based layout</a>, <a href="http://www.w3.org/TR/2005/WD-css3-layout-20051215/" 
+target="_blank" rel="noopener noreferrer" title="W3 advanced layout">Advanced Layout</a> 
+(later called <a href="http://www.w3.org/TR/css-template-3/" target="_blank" rel="noopener noreferrer" 
+title="W3 template layout">Template Layout</a>), <a target="_blank" rel="noopener noreferrer" 
+href="https://github.com/gss" title="Grid style sheet">Grid Style Sheets</a> and 
+<a target="_blank" rel="noopener noreferrer" href="https://constraints.cs.washington.edu/web/ccss-uwtr.pdf" 
+title="Constraint CSS">Constraint CSS</a>. But only recently has technology become good enough to support 
+some (not all!) of those ideas.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 6.5.3 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch6-5-3">6.5.3 CSS Grid resources</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
