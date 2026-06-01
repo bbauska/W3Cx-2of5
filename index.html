@@ -89,7 +89,6 @@ function scrollFunction() {
   <source type="image/webp" srcset="./images/image001.webp">
   <source type="image/png" srcset="./images/image001.png">
   <img src="./images/image001.png" alt="W3Cx HTML 5.0x logo."
-  loading="lazy"
   title="W3Cx HTML 5.0x logo"
   class="displayed"
   style="width:35%;" />
@@ -8223,21 +8222,25 @@ look at the first version we tried, before rearranging, which did what we wanted
   style="width:40%;" />
 
 <p>Here we see just the opposite of what we saw before, now “section h1” takes precedence over 
-“article h1”. What’s going on?
-Our intuition in this case is deceiving us. We think of section as being more specific than 
+“article h1”. What’s going on?</p>
+
+<p>Our intuition in this case is deceiving us. We think of section as being more specific than 
 article, but that’s just because we’ve organized it that way. In fact, we could decide that a 
-section consists of multiple articles, then we’d want the opposite behavior.
-As far as precedence calculations are concerned, though, the computer sees “tag-type tag-type”, 
+section consists of multiple articles, then we’d want the opposite behavior.</p>
+
+<p>As far as precedence calculations are concerned, though, the computer sees “tag-type tag-type”, 
 which is more specific than just one “tag-type”, but no more specific than any other “tag-type 
 tag-type” combination.</p>
 
 <p>Since “article h1” and “section h1” are of equal precedence, the tie is broken by whichever rule 
 came last. When we rearrange the rules, we change which of the two comes last, thus causing the 
-change in the section headers.
-We could fix it by just making sure things are in the right order (which is important) but a more 
+change in the section headers.</p>
+
+<p>We could fix it by just making sure things are in the right order (which is important) but a more 
 robust solution might be to make use of the fact that the way we’re using &lt;section&gt; in fact is 
-ore specific than &lt;article&gt;.
-We can make this explicit by changing the selector to “article section h1”, so that now the 
+ore specific than &lt;article&gt;.</p>
+
+<p>We can make this explicit by changing the selector to “article section h1”, so that now the 
 smaller, lighter color will be used only on a section that is inside an article, which is really 
 what we want:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8790,7 +8793,7 @@ the images.</p>
 <h4>CSS:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <details>
-  <summary>HTML code extact!</summary>
+  <summary>CSS code extact!</summary>
   
 <pre class="dpw-code">nav {
   background: aliceblue;
@@ -13634,16 +13637,12 @@ Last Updated 8-17-2025 Sun 9+pm<br>
 Last Updated 9-24-2025 Wed 12+pm<br>
 Last Updated 12-30-2025 Tue 9+pm<br>
 Last Updated 1-04-2025 Sun 3+pm<br>
-Last Updated 2-01-2026 Sun 3+pm</h6>
+Last Updated 2-01-2026 Sun 3+pm<br>
+Last Updated 5-31-2026 Sun 11+pm</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <script src="./js/scripts.js"></script>
 
 </body>
 </html>
-
-
-
-
-
 
 
