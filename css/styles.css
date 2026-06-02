@@ -1,4 +1,4 @@
-/* styles.css of W3Cx-2of5 making W3Cx-2of5.bauska.org */
+/* /css/styles.css of W3Cx-2of5 for W3Cx-2of5.bauska.org */
 img.displayed {
   display: block;
   margin: 0 auto; 
@@ -97,7 +97,7 @@ details > p {
   background-color: #fff;  /* white */
   padding: 2px 6px;
   margin: 0;
-  box-shadow: 3px 3px 4px #00008b;  /* dark blue*/
+  box-shadow: 3px 3px 4px #00008b;  /* dark blue */
 }
 details[open] > summary {
   background-color: #ffff00;  /* yellow */
