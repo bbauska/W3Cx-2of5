@@ -34,7 +34,8 @@
   <meta name=”robots” content="index, follow">
   <title>W3Cx-2of5-HTML5.0x</title>
   <link rel="canonical" href="https://w3cx-2of5.bauska.org">
-  <link rel="stylesheet" href="./css/styles.css">
+<!--  <link rel="stylesheet" href="./css/styles.css"> -->
+<link rel="preload" href="./css/styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <!-- A javascript workaround for IE8 and older -->
 <!--  <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script> -->
 </head>
@@ -72,7 +73,6 @@ function scrollFunction() {
   title="W3C logo"
   alt="W3C logo."
   style="width:15%:" />
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 style="text-align: center;">W3Cx-2of5-HTML5.0x - HTML5 and CSS3 Fundamentals</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -81,7 +81,6 @@ function scrollFunction() {
   <source type="image/webp" srcset="./images/image001.webp">
   <source type="image/png" srcset="./images/image001.png">
   <img src="./images/image001.png" alt="W3Cx HTML 5.0x logo."
-  loading="lazy"
   title="W3Cx HTML 5.0x logo"
   class="displayed"
   style="width:35%;" />
@@ -14162,11 +14161,12 @@ These are the final changes to our recipe project for this unit.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h6>Previous Updated 2-19-2024 Mon 12:55am</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h6>Last Updated 4-11-2024 Thu 5+am<br>
-Prior Updated 5-24-2025 Sat 5+pm</br>
-Last Updated 5-17-2026 Sun 4+pm</h6>
+<h6>Create Date 4-11-2024 Thu 5+am<br>
+Next Updated 5-24-2025 Sat 5+pm</br>
+Then 5-17-2026 Sun 4+pm<br>
+Last Updated 6-01-2026 Mon 7+pm</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<script src="./js/scripts.js"></script>
+<script defer src="./js/scripts.js"></script>
 
 </body>
 </html>
