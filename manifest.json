@@ -1,4 +1,17 @@
 {
+  "name": "W3Cx 2of5 HTML/CSS",
+  "short_name": "W3Cx 2of5", 
+  "start_url": "/w3cx-2of5.bauska.org",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/images/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
+{
  "name": "W3Cx-2of5",
  "icons": [
   {
