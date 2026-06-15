@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ index.html of w3cx-2of5-html5.0x ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ index.html of w3cx-2of5-html5.0x for w3cx-2of5.bauska.org ~~~~~~~~~~~~~~~~~-->
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   <link rel="shortcut icon" type="image/jpg" href="./images/favicon.ico">
   <link rel="apple-touch-icon" sizes="57x57" href="./images/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="./images/apple-icon-60x60.png">
@@ -1649,13 +1649,15 @@ this:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 1.4.1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-4-1">1.4.1 Character Encoding</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>A character can be any letter, digit or symbol that makes up words and languages.
-English alphabets and digits ‘a-z’, ‘A-Z’, ‘0-9’ are all considered characters.</p>
+<p>A character can be any letter, digit or symbol that makes up words and languages.0 English 
+alphabets and digits ‘a-z’, ‘A-Z’, ‘0-9’ are all considered characters.</p>
 
 <p>Other examples of characters include the Latin letter 
 <a href="http://www.w3.org/International/questions/images/225.png" target="_blank" rel="noopener 
-noreferrer">á</a> or the Chinese ideograph <a href="http://www.w3.org/International/questions/images/35531.png" target="_blank" rel="noopener noreferrer">請</a> or the Devanagari character 
-<a href="http://www.w3.org/International/questions/images/2361.png" target="_blank" rel="noopener noreferrer">ह</a>. A <b>character set</b> is a collection of characters (letters and symbols) in a 
+noreferrer">á</a> or the Chinese ideograph <a href="http://www.w3.org/International/questions/images/35531.png" 
+target="_blank" rel="noopener noreferrer">請</a> or the Devanagari character 
+<a href="http://www.w3.org/International/questions/images/2361.png" target="_blank" rel="noopener noreferrer">ह</a>. 
+A <b>character set</b> is a collection of characters (letters and symbols) in a 
 writing system.</p>
 
 <p>Each character is assigned a particular number called a <b>code point</b>. These code points 
@@ -1663,14 +1665,13 @@ are stored in computer memory in the form of <a href="https://en.wikipedia.org/w
 target="_blank" rel="noopener noreferrer">bytes</a> (a unit of data in computer memory). In 
 technical terms, we say the character is <b>encoded</b> using one or more bytes.</p>
 
-<p>Basically, all the characters are stored in computer language and
-a <b>character encoding</b> is the awesome dictionary that is going to
-help us decode this computer language into something we can understand.</p>
+<p>Basically, all the characters are stored in computer language and a <b>character encoding</b> is 
+the awesome dictionary that is going to help us decode this computer language into something we can 
+understand.</p>
 
-<p>In technical terms, it is what is used as a reference to map code points
-into bytes to store in computer memory; then when you use a character in
-your HTML, the bytes are read back into code points using the character
-encoding as a reference.</p>
+<p>In technical terms, it is what is used as a reference to map code points into bytes to store in 
+computer memory; then when you use a character in your HTML, the bytes are read back into code points 
+using the character encoding as a reference.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Examples of character encodings include:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1732,8 +1733,8 @@ the first 1024 bytes of your page. So the earlier it is mentioned in your code, 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Why we need character references</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Before we learn what HTML character references are, let’s look at how
-the need for them came about.</p>
+<p>Before we learn what HTML character references are, let’s look at how the need for them came 
+about.</p>
 
 <p>Try the following code in your HTML:</p>
 
@@ -1759,37 +1760,32 @@ the need for them came about.</p>
 
 </details>
 
-<p>Did you notice the &lt;html&gt; tag is missing in your output? In this case, 
-your browser mixed it up with an actual tag, although it was meant to be a part 
-of the sentence as text. Because of this kind of confusion, HTML reserves certain 
-characters. If you want to use these characters in your HTML, you need to use 
-character references to display them.</p>
+<p>Did you notice the &lt;html&gt; tag is missing in your output? In this case, your browser mixed 
+it up with an actual tag, although it was meant to be a part of the sentence as text. Because of 
+this kind of confusion, HTML reserves certain characters. If you want to use these characters in 
+your HTML, you need to use character references to display them.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>How to use character references</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>All HTML character references can be written using either a name or
-number.</p>
+<p>All HTML character references can be written using either a name or number.</p>
 
-<p>If you want to use a named character reference in your source code, use
-an ampersand symbol '&amp;', followed by the name and a semi-colon.
-Names are case sensitive. For example, the following represents a
-no-break space:</p>
+<p>If you want to use a named character reference in your source code, use an ampersand symbol '&amp;', 
+followed by the name and a semi-colon. Names are case sensitive. For example, the following represents 
+a no-break space:</p>
 
 <pre>&amp;nbsp;</pre>
 
-<p>There are two types of numeric character reference: ones that use
-decimal numbers and ones that use hexadecimal numbers. In each case,
-the number represents the code point number of the character in
-Unicode.</p>
+<p>There are two types of numeric character reference: ones that use decimal numbers and ones that 
+use hexadecimal numbers. In each case, the number represents the code point number of the character 
+in Unicode.</p>
 
-<p>If you are using a decimal number, use an ampersand symbol ‘&amp;’ ,
-followed by the symbol ‘#’, then a decimal number and a semi-colon.</p>
+<p>If you are using a decimal number, use an ampersand symbol ‘&amp;’, followed by the symbol ‘#’, 
+then a decimal number and a semi-colon.</p>
 
 <pre>&amp;#160;</pre>
 
-<p>If you are using a hexadecimal number, use an ampersand symbol ‘&amp;’ ,
-followed by the symbols ‘#x’, then a hexadecimal number and a
-semi-colon.</p>
+<p>If you are using a hexadecimal number, use an ampersand symbol ‘&amp;’, followed by the symbols 
+‘#x’, then a hexadecimal number and a semi-colon.</p>
 
 <pre>&amp;#x00A0;</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 1.4.4 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1797,9 +1793,8 @@ semi-colon.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Protecting characters used for HTML syntax</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>The five special characters listed in the table below should always be
-written as character references if you want them to appear on your page
-when viewed by a reader:</p>
+<p>The five special characters listed in the table below should always be written as character 
+references if you want them to appear on your page when viewed by a reader:</p>
 
 <table>
   <colgroup>
@@ -1855,8 +1850,8 @@ when viewed by a reader:</p>
   </tbody>
 </table>
 
-<p>We do not want these special characters to be processed by the browser as HTML code.
-Instead, you want it to be displayed to the user. So if you wish to display this in your browser:</p>
+<p>We do not want these special characters to be processed by the browser as HTML code. Instead, you 
+want it to be displayed to the user. So if you wish to display this in your browser:</p>
 
 <pre>&lt;img src=&quot;images/test.png&quot; alt=&quot;test image&quot;&gt;</pre>
 
@@ -1899,11 +1894,11 @@ references for these five special characters using &lt;, &gt;, ", &amp; and   at
 This is because you can never be sure what browser or application will be used to view your 
 code, and how that will behave.</p>
 
-<p>The " character reference is particularly useful for quotation marks within attribute 
-values. Let’s say you want to add a title attribute to an abbreviation to provide an expansion 
-of the abbreviation. If you try the code below in a browser and hover your mouse pointer on the 
-text ‘HTML5’, it will show you the title text (it works like a tooltip).
-The title text in the source code includes quotes (around the number 5) like this:</p>
+<p>The " character reference is particularly useful for quotation marks within attribute values. 
+Let’s say you want to add a title attribute to an abbreviation to provide an expansion of the 
+abbreviation. If you try the code below in a browser and hover your mouse pointer on the text 
+‘HTML5’, it will show you the title text (it works like a tooltip). The title text in the source 
+code includes quotes (around the number 5) like this:</p>
 
 <pre>&lt;abbr title=&quot;Hypertext Markup Language &quot;5&quot;&quot;&gt;HTML5&lt;/abbr&gt;</pre>
 
@@ -1924,10 +1919,9 @@ replaced with its character entity name)&lt;/p&gt;
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 1.4.5 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-4-5">1.4.5 Character References for Other Characters</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>It is also possible to use character references to represent other
-characters in your page. This is useful when you are unable to type the
-character itself, or when you can’t tell what the character is by looking at it 
-(for example, a no-break space, or an invisible formatting character). There are 
+<p>It is also possible to use character references to represent other characters in your page. This 
+is useful when you are unable to type the character itself, or when you can’t tell what the character 
+is by looking at it (for example, a no-break space, or an invisible formatting character). There are 
 predefined, named character references in HTML for several categories, these include:</p>
 
 <ul>
@@ -1939,19 +1933,17 @@ predefined, named character references in HTML for several categories, these inc
   <li>Greek letters.</li>
 </ul>
 
-<p>For a list of <b>named</b> character references available in HTML,
-visit:  <a href="https://dev.w3.org/html5/html-author/charref"
-class="uri" target="_blank" rel="noopener noreferrer">https://dev.w3.org/html5/html-author/charref</a>.</p>
+<p>For a list of <b>named</b> character references available in HTML, visit:  
+<a href="https://dev.w3.org/html5/html-author/charref" class="uri" target="_blank" rel="noopener noreferrer">
+https://dev.w3.org/html5/html-author/charref</a>.</p>
 
-<p><i>Any</i> Unicode character can be represented using
-a <b>numeric</b> character reference. Apart from the characters used for HTML 
-syntax (described in the previous unit), there is usually no need to use character 
-references to represent characters.</p>
+<p><i>Any</i> Unicode character can be represented using a <b>numeric</b> character reference. Apart 
+from the characters used for HTML syntax (described in the previous unit), there is usually no need 
+to use character references to represent characters.</p>
 
-<p>All browsers are built using Unicode internally, which means that they are 
-capable of handling all possible characters defined by Unicode. The best practice for 
-symbols like copyright, currency symbols, math and arrows is to simply type them 
-directly into the source code.</p>
+<p>All browsers are built using Unicode internally, which means that they are capable of handling 
+all possible characters defined by Unicode. The best practice for symbols like copyright, currency 
+symbols, math and arrows is to simply type them directly into the source code.</p>
 
 <p>You can do this directly in the code:</p>
 <!-- &lt;p&gt; &#169; is © 2015. Breach will entail a fine of € 400&lt;/p&gt;&lt;/p&gt; -->
@@ -1974,116 +1966,97 @@ directly into the source code.</p>
 
 </details>
 
-<p>There is no need for the © or € HTML character reference if you are
-able to type the character itself.</p>
+<p>There is no need for the © or € HTML character reference if you are able to type the character 
+itself.</p>
 
-<p>If you’d like to read more information about when to use character
-references and when not to use them,
-see <a href="https://www.w3.org/International/questions/qa-escapes" target="_blank" rel="noopener noreferrer">Using
+<p>If you’d like to read more information about when to use character references and when not to 
+use them, see 
+<a href="https://www.w3.org/International/questions/qa-escapes" target="_blank" rel="noopener noreferrer">Using
 character escapes in markup and CSS</a>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 1.5.1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-1">1.5.1 Best Practices - Learning from the Mistakes of Others</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Children can be great at asking questions about things that most
-adults take for granted, and like to challenge assumptions.</p>
+<p>Children can be great at asking questions about things that most adults take for granted, and 
+like to challenge assumptions.</p>
 
-<p>While it’s a great sign of a curious and reasoning mind, it can be
-overwhelming, and you can’t really learn (or teach) everything at once.
- Some things are better to be taken on faith in the short term, until
-you fully understand the issue.</p>
+<p>While it’s a great sign of a curious and reasoning mind, it can be overwhelming, and you can’t 
+really learn (or teach) everything at once. Some things are better to be taken on faith in the 
+short term, until you fully understand the issue.</p>
 
-<p>That brings up a term you’ll be hearing quite a bit in this class:
-“<i><b>best practices</b></i>”. It’s often said that bad programs can
-be written in any language, and we’ve found that to be true (at least in
-every language we’ve seen). Over time, developers learn that some
-habits are better than others, in other words that some habits,
-like <a href="https://en.wikipedia.org/wiki/Don%27t_repeat_yourself" target="_blank" rel="noopener noreferrer">avoiding
-redundancy and repetition</a>, tend to make a program more clear and
-easier to understand and maintain than other habits,
-like <a href="https://www.cs.utexas.edu/users/EWD/ewd02xx/EWD215.PDF" target="_blank" rel="noopener noreferrer">using
-goto statements</a>. It could also be about performance, i.e. in a
-given language doing a task one way may be faster than another.</p>
+<p>That brings up a term you’ll be hearing quite a bit in this class: “<i><b>best practices</b></i>”. 
+It’s often said that bad programs can be written in any language, and we’ve found that to be true (at 
+least in every language we’ve seen). Over time, developers learn that some habits are better than 
+others, in other words that some habits, like 
+<a href="https://en.wikipedia.org/wiki/Don%27t_repeat_yourself" target="_blank" rel="noopener noreferrer">
+avoiding redundancy and repetition</a>, tend to make a program more clear and easier to understand and 
+maintain than other habits, like 
+<a href="https://www.cs.utexas.edu/users/EWD/ewd02xx/EWD215.PDF" target="_blank" rel="noopener noreferrer">
+using goto statements</a>. It could also be about performance, i.e. in a given language doing a task one 
+way may be faster than another.</p>
 
-<p>A carpenter will tell you that if you want to hammer a nail, it’s
-best to do it in as few strikes as possible (e.g. 2 or 3). That may not
-be obvious to non-handy people like me, but I’ve been told that’s the
-best way by people with a lot more experience than I, so I’ll take it on
-faith (at least for now).</p>
+<p>A carpenter will tell you that if you want to hammer a nail, it’s best to do it in as few strikes 
+as possible (e.g. 2 or 3). That may not be obvious to non-handy people like me, but I’ve been told 
+that’s the best way by people with a lot more experience than I, so I’ll take it on faith (at least 
+for now).</p>
 
-<p>There are sometimes arguments about which are the best practices.
- New techniques are discovered, new ideas are born, and sometimes,
-fashions change. For our purposes and the duration of this course, when
-we use the term “best practice” you can trust that it is, even though we
-may not be able to explain it at that point in the course, so you’ll
-want to make it a habit.</p>
+<p>There are sometimes arguments about which are the best practices. New techniques are discovered, 
+new ideas are born, and sometimes, fashions change. For our purposes and the duration of this course, 
+when we use the term “best practice” you can trust that it is, even though we may not be able to 
+explain it at that point in the course, so you’ll want to make it a habit.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 1.5.2 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-2">1.5.2 Do’s and Don’ts</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>The history of Web pages is such that browsers tend to be very
-forgiving of certain types of mistakes. If you miss a closing tag, it
-will often work the way you expect. It probably won’t crash, or ignore
-the document, or give up completely, but it might not appear quite the
-way you meant it to. Or maybe it does look like you want, but you do not
-want to depend on that. In general, best practices would call for one to
-do it properly, and not depend on the browser to patch it for you.</p>
+<p>The history of Web pages is such that browsers tend to be very forgiving of certain types of 
+mistakes. If you miss a closing tag, it will often work the way you expect. It probably won’t 
+crash, or ignore the document, or give up completely, but it might not appear quite the way you 
+meant it to. Or maybe it does look like you want, but you do not want to depend on that. In general, 
+best practices would call for one to do it properly, and not depend on the browser to patch it for 
+you.</p>
 
 <p>Because an HTML file essentially represents a 
 <a href="https://en.wikipedia.org/wiki/Tree_(data_structure)" target="_blank" 
-rel="noopener noreferrer">tree structure</a>, the open and close tags should 
-always match, and there should not be any overlap with other elements. That is, 
-you can have an element that is enclosed in another element, or you can have two
-elements side-by-side, but you can never have a situation in which part of an 
-element is in another, but the other part is not.</p>
+rel="noopener noreferrer">tree structure</a>, the open and close tags should always match, and there 
+should not be any overlap with other elements. That is, you can have an element that is enclosed in 
+another element, or you can have two elements side-by-side, but you can never have a situation in 
+which part of an element is in another, but the other part is not.</p>
 
 <pre>&lt;p&gt;This is a &lt;em&gt;paragraph&lt;/em&gt;&lt;/p&gt;
   
 &lt;h1&gt;Paragraph ahead&lt;/h1&gt;
 &lt;p&gt;And here it is.&lt;/p&gt;</pre>
 
-<p>The two examples above are fine because in each case either an
-element is wholly contained in another (&lt;em&gt; in &lt;p&gt;) or they
-are completely separate (&lt;h1&gt; and &lt;p&gt;). This, on the other
-hand, is not valid:</p>
+<p>The two examples above are fine because in each case either an element is wholly contained in 
+another (&lt;em&gt; in &lt;p&gt;) or they are completely separate (&lt;h1&gt; and &lt;p&gt;). This, 
+on the other hand, is not valid:</p>
 
 <pre>&lt;h1&gt;Part of this header is &lt;p&gt;in the&lt;/h2&gt; paragraph below&lt;/p&gt;</pre>
 
-<p>What happens in this case is what we call “undefined”. That just
-means that there is no telling how the browser will decide to handle it.
-It might decide to automatically close the &lt;p&gt; when it sees
-another close tag, or it could complain about an unexpected close tag at
-the header. Then it might complain again when there is a now
-unexpected close &lt;/p&gt; tag.</p>
+<p>What happens in this case is what we call “undefined”. That just means that there is no telling 
+how the browser will decide to handle it. It might decide to automatically close the &lt;p&gt; when 
+it sees another close tag, or it could complain about an unexpected close tag at the header. Then it 
+might complain again when there is a now unexpected close &lt;/p&gt; tag.</p>
 
-<p>If you played around with the minimal HTML file from the previous
-section, you might have noticed that you can get more minimal than that.
-For example, if you take out the “head” section completely, the browser
-will still render the page without complaint (at least Chrome will;
-Firefox does complain in the debugging console, but we will save that
-for week 4). In fact, you can even take out the “body” open and close
-tags (not the content, of course) and it will still work as expected.
-Not only that, if you take out the &lt;!doctype&gt; statement, it still
-works (and Chrome still doesn’t complain!).</p>
+<p>If you played around with the minimal HTML file from the previous section, you might have noticed 
+that you can get more minimal than that. For example, if you take out the “head” section completely, 
+the browser will still render the page without complaint (at least Chrome will; Firefox does complain 
+in the debugging console, but we will save that for week 4). In fact, you can even take out the “body” 
+open and close tags (not the content, of course) and it will still work as expected. Not only that, if 
+you take out the &lt;!doctype&gt; statement, it still works (and Chrome still doesn’t complain!).</p>
 
-<p>What’s actually happening is that the browser knows roughly what to
-expect in an HTML page, so if it sees a file ending in ‘.html’ it will
-automatically stick some stuff in if it is not there already. It will
-typically make basic assumptions like: It is an HTML5 file, everything
-in there is content, so it goes in the &lt;body&gt; section,
-the &lt;head&gt; section is empty. If you right-click on an element and
-choose “Inspect”, you will see that the browser has included the 
-&lt;html&gt; section containing the &lt;head&gt; and &lt;body&gt; 
-sections, even though it wasn’t there in your file.</p>
+<p>What’s actually happening is that the browser knows roughly what to expect in an HTML page, so if 
+it sees a file ending in ‘.html’ it will automatically stick some stuff in if it is not there already. 
+It will typically make basic assumptions like: It is an HTML5 file, everything in there is content, so 
+it goes in the &lt;body&gt; section, the &lt;head&gt; section is empty. If you right-click on an element 
+and choose “Inspect”, you will see that the browser has included the &lt;html&gt; section containing the 
+&lt;head&gt; and &lt;body&gt; sections, even though it wasn’t there in your file.</p>
 
-<p>Note that we said “typically”. The current behavior of most browsers
-will handle this, but it is “undefined” so there is no guarantee that
-next module’s update won’t break it. To be correct and complete, you
-need the &lt;!doctype&gt; section and the &lt;html&gt;</p>
+<p>Note that we said “typically”. The current behavior of most browsers will handle this, but it is 
+“undefined” so there is no guarantee that next module’s update won’t break it. To be correct and 
+complete, you need the &lt;!doctype&gt; section and the &lt;html&gt;</p>
 
-<p>section with  &lt;head&gt; and &lt;body&gt;. In any case, it is a
-good idea (best practice).</p>
+<p>section with  &lt;head&gt; and &lt;body&gt;. In any case, it is a good idea (best practice).</p>
 
-<p>Proper indentation is one way to make your code clearer and easier to
-understand:</p>
+<p>Proper indentation is one way to make your code clearer and easier to understand:</p>
 
 <pre class="dpw-code">&lt;body&gt;
   &lt;h1&gt;Here is a heading&lt;/h1&gt;
@@ -2093,9 +2066,8 @@ understand:</p>
 &lt;/body&gt;
 </pre>
 
-<p>The code above doesn’t give any sense of the structure of the
-document. By using indentation effectively, you can make it more clear,
-showing the nesting of elements:</p>
+<p>The code above doesn’t give any sense of the structure of the document. By using indentation 
+effectively, you can make it more clear, showing the nesting of elements:</p>
 
 <pre class="dpw-code">&lt;body&gt;
   &lt;h1&gt;Here is a heading&lt;/h1&gt;
@@ -2106,16 +2078,13 @@ showing the nesting of elements:</p>
   &lt;/p&gt;
 &lt;/body&gt;</pre>
 
-<p>Consistent quoting of strings is also helpful, in part to avoid
-potential problems that can arise when you think something does not need
-quotes but it actually does.</p>
+<p>Consistent quoting of strings is also helpful, in part to avoid potential problems that can 
+arise when you think something does not need quotes but it actually does.</p>
 
-<p>Often, projects will have coding styles that everyone is expected to
-use so that everything looks consistent and developers can more easily
-read each other’s code. If you are creating the project, you can decide
-what the rules are (how many spaces to indent, single or double-quotes,
-etc.) but unless there is a good reason to change away from typical
-practices, it is usually best to adopt them.</p>
+<p>Often, projects will have coding styles that everyone is expected to use so that everything looks 
+consistent and developers can more easily read each other’s code. If you are creating the project, you 
+can decide what the rules are (how many spaces to indent, single or double-quotes, etc.) but unless 
+there is a good reason to change away from typical practices, it is usually best to adopt them.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 1.5.3 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-3">1.5.3 White Space and Capitalization</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -13646,7 +13615,8 @@ Last Updated 12-30-2025 Tue 9+pm<br>
 Last Updated 1-04-2025 Sun 3+pm<br>
 Last Updated 2-01-2026 Sun 3+pm<br>
 Last Updated 5-31-2026 Sun 11+pm<br>
-Last Updated 6-06-2026 Sat 6:42+pm</h6>
+Last Updated 6-06-2026 Sat 6:42+pm<br>
+Last Updated 6-14-2026 Sun 2:29+pm</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <script src="./js/scripts.js"></script>
 
